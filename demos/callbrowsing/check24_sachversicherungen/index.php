@@ -1,18 +1,3 @@
-<?php
-session_start ();
-if (!isset ($_SESSION['phonenumber']))
-{
-	// this is a new session!
-	$ddi = rand (1, 999);
-	$ddi = sprintf('%03d', $ddi);
-
-	$_SESSION['timestamp_start'] = time ();
-	$_SESSION['phonenumber'] = '06131 - 888 97 13 '.$ddi;
-	$_SESSION['ddi'] = $ddi;
-}
-?>
-
-
 <!DOCTYPE html>
 <html class="" lang="de"><!-- aHR0cHM6Ly9qb2JzLmNoZWNrMjQuZGU= --><head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -28,224 +13,144 @@ if (!isset ($_SESSION['phonenumber']))
 <meta name="Page-topic" content="Versicherung">
 <meta name="Robots" content="noindex,nofollow,noodp,noydir">
 
-<script id="scarab-js-api" src="javascript/scarab-v2.js"></script><script async="" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/gtm.js"></script><script type="text/javascript" async="" defer="defer" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/tracker.js"></script><script type="text/javascript">
-    window.deviceoutput = 'desktop';
-</script>
 <link rel="shortcut icon" href="https://www.check24.de/favicon.ico">
 <link rel="apple-touch-icon" href="https://www.check24.de/apple-touch-icon.png">
 
 <link rel="publisher" href="https://plus.google.com/+check24">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-  <style>
-			.green
-			{	background-color: #73ba24;				
-			}
 
-			.yellow
-			{	background-color: #f1a319;
-			}
+    <!-- CallOne Callbrowsing -->
+    <link rel="stylesheet" type="text/css" href="https://www.callone.de/demos/callbrowsing/styles.css">
 
-			.red
-			{	background-color: #b70000;				
-			}
+	<script>
+	// load surfly
+	(function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
+	l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
+	l.src='https://surfly.com/surfly.js';y.parentNode.insertBefore(l,y);})
+	(window,document,'script','Surfly');
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://www.callone.de/demos/callbrowsing/functions.js"></script>
 
-            #c24-meinkonto
-            {
-                padding: 5px;
-                cursor: pointer;
-            }
+	<script>
+	$(function ()
+	{
+		var timestamp_start = Math.floor (Date.now() / 1000);
 
-			.Badge__title
+        function callbrowsing_text_create ()
+		{
+			var text;
+			var minutes;
+			
+            text = 'Willkommen bei Check 24 Sachversicherungen. ';
+
+            if ($('#coinsured_1').is(':checked'))
+                text += 'Sie sind Single. ';
+            if ($('#coinsured_4').is(':checked'))
+                text += 'Sie sind eine Familie mit Kindern. ';
+            if ($('#coinsured_2').is(':checked'))
+                text += 'Sie sind ein Paar ohne Kinder. ';
+            if ($('#coinsured_8').is(':checked'))
+                text += 'Sie sind Single mit Kindern. ';
+            
+            if ($('#c24-input1-birthdate').val().length > 0)
+                text += 'Geboren sind sie am '+$('#c24-input1-birthdate').val()+'. ';
+            if ($('#zipcode').val().length > 0)
+                text += 'Ihre Postleitzahl ist '+$('#zipcode').val()+'. ';
+
+			text += 'Sie sind schon seit ';
+			duration = Math.floor (Date.now() / 1000) - timestamp_start;
+			if (duration > 60)
 			{
-				font-size: 24px;
+				duration = duration / 60;
+				duration = Math.round (duration);
+				if (duration == 1)
+						text += 'einer Minute ';
+				else	text += duration+' Minuten ';
 			}
+			else
+			{	duration = Math.round (duration);
+				text += duration+' Sekunden ';
+			}
+			text += 'auf der Webseite. ';
 
-			@keyframes animation_content_zoom
+			return text;
+		}
+
+		function callbrowsing_status (rootnumber, ddi, callstatus, caller)
+		{
+            $('#callbrowsing_personal_phonenumber').html (rootnumber+' - '+ddi);
+
+			switch (callstatus)
 			{
-				0% { transform: scale(1); }
-				20% { transform: scale(1); }
-				50% { transform: scale(1.4); }
-				80% { transform: scale(1); }
-			   100% { transform: scale(1); }
+				case 0:
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+
+					$('#callbrowsing_status_text_big').text ('Rufen Sie an!');
+					$('#callbrowsing_status_text_small').text('Wir freuen uns.');
+
+                    // callbrowsing webview sharing
+					$('#callbrowsing_webview_sharing_text').text ('Webseite freigeben');
+
+                    $("#callbrowsing_webview_sharing").css ('visibility', 'hidden');
+                    $('#callbrowsing_webview_sharing').css ('animation-play-state', 'paused');
+					break;
+				
+				case 1:
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+
+					$('#callbrowsing_status_text_big').text ('Danke!');
+					$('#callbrowsing_status_text_small').text (caller);
+
+					$('#callbrowsing_status').css ('animation','animation_content_zoom 1s infinite');
+					break;
+				
+				case 2:
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+
+					$('#callbrowsing_status_text_big').text ('Danke!');
+					$('#callbrowsing_status_text_small').text (caller);
+
+					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+
+                    // callbrowsing webview sharing
+					$('#callbrowsing_webview_sharing_text').text ('Webseite freigeben');
+
+					$('#callbrowsing_webview_sharing').css ('animation','animation_content_blend_in 1s');
+                    $("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+                    break;
+                    
+                case 3:
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+
+					$('#callbrowsing_status_text_big').text ('Danke!');
+					$('#callbrowsing_status_text_small').text (caller);
+
+					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+
+                    // callbrowsing webview sharing
+					$('#callbrowsing_webview_sharing_text').text ('Webseite geteilt');
+
+                    $('#callbrowsing_webview_sharing').css ('animation','animation_content_zoom 1s infinite');
+                    $("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+					break;
 			}
+		}
 
-			@keyframes animation_content_blend_in
-			{     0% { opacity: 0; visibility: visible; }
-				100% { opacity: 1: }
-			}
-			@keyframes animation_content_blend_out
-			{     0% { opacity: 1; visibility: visible; }
-				100% { opacity: 0; }
-			}
-		</style>
-
-
-<!-- jquery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- surfly cobrowsing -->
-<script>
-    (function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
-    l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
-    l.src='https://surfly.com/surfly.js';y.parentNode.insertBefore(l,y);})
-    (window,document,'script','Surfly');
-</script>
-
-<!-- scripts -->
-<script>
-$(function ()
-{
-    var call_state = 0;
-    var cobrowsing_url = '';
-
-    function cobrowsing_init ()
-    {
-        var settings =
-        {	widget_key:'d9a22485fef9410eb5e07ed4966d32b7'
-        };
-
-        Surfly.init(settings, function(initResult)
-        {
-            if (initResult.success)
-            {
-                if (Surfly.isInsideSession)
-                {
-                    var session = Surfly.currentSession;
-
-                    $('#c24-meinkonto').addClass ('red');
-                    $('#c24-meinkonto').css ('animation','animation_content_blend_in 1s');
-                    $('#calltracking_message_big').text ('Co- Browsing läuft!');
-                    cobrowsing_url = session.followerLink;
-                }
-            }
-            else console.error ('Surfly was unable to initialize properly.');
+		$('#callbrowsing_webview_sharing').click (function()
+		{	callbrowsing_webview_sharing_start ();
         });
-    }
 
-    function cobrowsing_start ()
-    {
-        var session;
-
-        var settings =
-        {	show_loading_screen: false
-        };
-
-        if (!Surfly.isInsideSession)
-        {
-            session = Surfly.session(settings).startLeader();
-        }
-        else session = Surfly.currentSession ();
-
-        $('#c24-meinkonto').css ('animation-play-state', 'paused');
-        $('#calltracking_message_big').text ('Co- Browsing läuft!');
-        cobrowsing_url = session.followerLink;
-    }
-
-    function update_session_settings ()
-    {
-        type = 0;
-        if ($('#coinsured_1').is(':checked'))
-            type = 1;
-        if ($('#coinsured_4').is(':checked'))
-            type = 2;
-        if ($('#coinsured_2').is(':checked'))
-            type = 3;
-        if ($('#coinsured_8').is(':checked'))
-            type = 4;
-
-        $.ajax
-        ({
-            url: 'https://www.callone.de/demos/callbrowsing/ajax.php',
-            cache: false,
-            type: 'POST',
-            data:
-            {
-                callbrowsing_info_type: type,
-                callbrowsing_info_birth: $('#c24-input1-birthdate').val(),
-                callbrowsing_info_zip: $('#zipcode').val(),
-                cobrowsing_url: cobrowsing_url
-            },
-            dataType: 'json',
-            success: function (data)
-            {
-                if (data['call_active'])
-                {
-                    switch (call_state)
-                    {
-                        case 0:
-                            $('#calltracking_message_big').text ('Danke! '+data['caller']);
-                            $('#c24-meinkonto').addClass ('yellow');
-
-                            if (!window.__surfly)
-                                $('#c24-meinkonto').css ('animation','animation_content_zoom 1s infinite');
-                            call_state = 1;
-                            break;
-
-                        case 1:
-                            if (!data['cobrowsing'])
-                                break;
-                            
-                            if (window.__surfly)
-                                break;
-
-                            // show cobrowsing bubble
-                            $('#c24-meinkonto').css ('animation-play-state', 'paused');
-                            $('#calltracking_message_big').text ('Co- Browsing starten!');
-                            $('#c24-meinkonto').css ('animation','animation_content_blend_in 1s');
-                            call_state = 2;
-                            break;
-                        
-                        case 2:
-                            $('#c24-meinkonto').css ('animation','animation_content_zoom 1s infinite');
-                            call_state = 3;
-                            break;
-                    }
-                }
-                else
-                {
-                    if (call_state >= 1)
-                    {
-                        $('#c24-meinkonto').css ('animation-play-state', 'paused');
-                        $('#c24-meinkonto').removeClass ('yellow');
-                        $('#calltracking_message_big').text ('Rufen Sie an!');
-                    }
-                    if ((call_state == 2) ||
-                        (call_state == 3))
-                    {
-                        $('#c24-meinkonto').css ('animation-play-state', 'paused');
-                        $('#c24-meinkonto').css ('animation','animation_content_blend_out 1s');
-                    }
-                    if (call_state == 4)
-                    {	$('#c24-meinkonto').css ('animation','animation_content_blend_out 1s');
-                    }
-                    call_state = 0;
-                }
-            }
-        });
-    }
-
-    function keep_session_alive ()
-    {	update_session_settings ();
-        setTimeout (keep_session_alive, 1000);
-    }
-
-    $('#c24-meinkonto').click (function()
-    {
-        if (Surfly.isInsideSession)
-            return;
-    
-        // cobrowsing
-        cobrowsing_start ();
+		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_status);
     });
-
-
-    cobrowsing_init ();
-
-    keep_session_alive ();
-});
-</script>
-
+    </script>
+    <!-- CallOne Callbrowsing -->
 
   
   <script type="text/javascript">
@@ -255,11 +160,7 @@ var CHECK24_HOST = 'www.check24.de';
 //]]>
 </script>
 
-  
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-
-  
-  
+<link rel="stylesheet" type="text/css" href="css/layout.css">
 <link href="css/styles.css" media="screen, print" rel="stylesheet" type="text/css">
 <link href="css/print.css" media="print" rel="stylesheet" type="text/css"><!-- Start Visual Website Optimizer Asynchronous Code -->
 
@@ -275,12 +176,14 @@ var CHECK24_HOST = 'www.check24.de';
 
             f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
 
-</script><script src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/j.js" type="text/javascript"></script>
+</script>
 
 <!-- End Visual Website Optimizer Asynchronous Code -->
   
-  <style type="text/css"></style><style type="text/css">.fancybox-margin{margin-right:16px;}</style><style type="text/css">.fancybox-margin{margin-right:16px;}</style><script src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/configs.js" async="" defer="defer"></script></head>
+  <style type="text/css"></style><style type="text/css">.fancybox-margin{margin-right:16px;}</style><style type="text/css">.fancybox-margin{margin-right:16px;}</style></head>
 <body class="c24-wide c24-fluid-grid ">
+
+
   
   
   
@@ -388,11 +291,6 @@ var CHECK24_HOST = 'www.check24.de';
     </svg>
 </a>                                                                        
 
-<div class="c24-customer c24-customer-guest" id="c24-meinkonto">
-    <span id="calltracking_message_big">Rufen Sie an!</span>
-</div>
-
-
 
 <!--
     <div class="c24-customer c24-customer-guest" id="c24-meinkonto">
@@ -486,6 +384,24 @@ var CHECK24_HOST = 'www.check24.de';
 </div>
     -->
 
+<div class="callback">
+	<div id="wrap">
+		<form id="callbackForm" action="" autocomplete="on" onclick="document.getElementById('callbackNumber').classList.add('fixed');">
+			<input id="callbackNumber" name="callbacknumber" type="text" placeholder="Geben Sie Ihre Rufnummer an..." >
+			<button id="search_submit" type="submit" name="submit">Rückruf anfordern</button>
+		</form>
+    </div>
+</div>
+
+<div id="callbrowsing_status" style="position: absolute; top: 150px; margin-left: 50%; margin-right: 50%; left: 300px;">
+    <div id="callbrowsing_status_text_big"></div>
+	<div id="callbrowsing_status_text_small"></div>
+</div>
+
+<div id="callbrowsing_webview_sharing" style="position: absolute; top: 500px; margin-left: 50%; margin-right: 50%; left: 300px;">
+    <div id="callbrowsing_webview_sharing_text"></div>
+</div>
+
                                                                                                          <div class="c24-contact c24-header-hover clearfix">
     <div class="content clearfix">
         <div class="c24-contact-icon">
@@ -497,11 +413,8 @@ var CHECK24_HOST = 'www.check24.de';
             </svg>
         </div>
         <div class="c24-phone" x-ms-format-detection="none">
-            
-                            <?=$_SESSION['phonenumber'];?>                        <span class="c24-phone-help">
-                Ihre persönliche Rufnummer
-                
-            </span>
+            <div id="callbrowsing_personal_phonenumber"></div>
+            <span class="c24-phone-help">Ihre persönliche Rufnummer</span>
         </div>
     </div>
     
@@ -1356,6 +1269,8 @@ var CHECK24_HOST = 'www.check24.de';
         </div>
     </div>
 </div>
+
+
         
 <!--
         <div class="c24-input1-insurance c24-input1-insurance--submit">
@@ -1695,12 +1610,6 @@ var CHECK24_HOST = 'www.check24.de';
   </div>
 
   
-  
-  
-<script type="text/javascript" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/a.html"></script>
-<script type="text/javascript" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/libs.js"></script>
-<script type="text/javascript" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/scripts.js"></script>    
-    <script type="text/javascript" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/check24.js"></script>
 
   
   
@@ -1795,52 +1704,7 @@ _paq.push(["enableLinkTracking"]);
 
 */
 </script>
-<noscript>
-    <p>
-        <img src="&#x2F;&#x2F;wa.versicherungen.check24.de&#x2F;tracker.php&#x3F;idsite&#x3D;15"
-             style="border: 0;" alt="">
-    </p>
-</noscript>
-<!-- Google Tag Manager -->
-<script type="text/javascript">dataLayer = [{'cpid': 'checkvers','areaid': 'Input1','product': 'phv'}];</script>
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-VX4S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-VX4S');</script>
-<!-- End Google Tag Manager -->
-<!-- General Tracking Pixel -->
-<script type="text/javascript">
-(new Image()).src = "https://www.generaltracking.de/gif/site_id/45/pid/CHECKVERS/area_id/input1/product/phv/sid/ls8hu4coot6l7sf1v3fc276u0v/deviceoutput/desktop/info.gif";
-(new Image()).src = "https://www.generaltracking.de/gif/site_id/98/pid/CHECKVERS/tid/aa_b__ab_direct_a__abfilter_b__docs_received_a__no_ab_a__policybymailfilter_b__rz_param_2_d/area_id/input1/product/phv/action_id/1045/sid/ls8hu4coot6l7sf1v3fc276u0v/deviceoutput/desktop/info.gif";
-</script>
-<!-- End General Tracking Pixel -->
 
-<script type="text/javascript">
-
-    'use strict';
-
-    var ScarabQueue = ScarabQueue || [];
-
-    (function(prefix, id) {
-
-        if (document.getElementById(id)) {
-            return;
-        }
-
-        var js = document.createElement('script');
-
-        js.id = id;
-        js.src = prefix + '.scarabresearch.com/js/152600DAC27B0171/scarab-v2.js';
-
-        var fs = document.getElementsByTagName('script')[0];
-
-        fs.parentNode.insertBefore(js, fs);
-
-    })('https:' == document.location.protocol ? 'https://recommender' : 'http://cdn', 'scarab-js-api');
-
-    ScarabQueue.push(['category', 'phv']);
-
-    ScarabQueue.push(['go']);
-
-</script>
 
     
   

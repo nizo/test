@@ -1,23 +1,22 @@
 $(function ()
 {
-	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null;
+	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null, weview_sharing_link=null;
 
 	function webview_sharing_init ()
 	{
 		var settings = { widget_key:'d9a22485fef9410eb5e07ed4966d32b7' };
 
-		Surfly.init(settings, function(initResult)
+		Surfly.init(settings, function(init)
 		{
-			if (initResult.success)
+			if (init.success)
 			{
 				if (Surfly.isInsideSession)
-				{
-					webview_sharing_url = Surfly.currentSession.followerLink;
-					console.error ('Webview sharing link: '+webview_sharing_url);
+				{	weview_sharing_link = Surfly.currentSession.followerLink;
+					console.debug ('Webview sharing link: '+weview_sharing_link);
 				}
 				else console.info ('Webview sharing init successful.');
 			}
-			else console.error ('Webview sharing was unable to initialize properly.');
+			else console.error ('Webview sharing was unable to initialize properly: '+init.errorMsg);
 		});
 	}
 
@@ -25,7 +24,7 @@ $(function ()
 	{
 		var settings = { show_loading_screen: false };
 
-		if (Surfly.isInsideSession)
+		if (window.webview_sharing_state)
 			return true;
 
 		Surfly.session(settings).startLeader();
@@ -40,7 +39,7 @@ $(function ()
 
 		$.ajax
 		({
-			url: 'https://www.callone.de/demos/callbrowsing/ajax_new.php',
+			url: 'https://www.callone.de/demos/callbrowsing/ajax.php',
 			cache: false,
 			type: 'POST',
 			data:
@@ -48,12 +47,16 @@ $(function ()
 				rootnumberhash: window.rootnumberhash,
 				identity: window.identity,
 				session: sessionStorage.getItem (window.sessionname),
-				text: text
+				text: text,
+				weview_sharing_link: weview_sharing_link
 			},
 			dataType: 'json',
 			success: function (data)
 			{
 				sessionStorage.setItem (window.sessionname, data['session']);
+
+				if ((data['callstatus'] == 2) && (Surfly.isInsideSession))
+					data['callstatus'] = 3;
 
 				if (window.cb_status != null)
 					window.cb_status (data['rootnumber'], data['ddi'], data['callstatus'], data['caller']);

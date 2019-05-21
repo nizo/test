@@ -7,88 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel='stylesheet' href='css/main.49a27a50b542cdf2a850.css' />
 	<link rel='stylesheet' href='css/Homepage.c97fa98a928f647aa7da.css' />
-	<style>
-		select
-		{
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			border: 1px solid #cccccc;
-			border-radius: 3px;
-			padding: 0.4em 0.3em;
-			font-size: 14px;
-			color: #333333;
-			width: 100%;
-			background-color: #ffffff;
-			cursor: pointer;
-			outline: none;
-			background:
-				url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAGCAYAAAA2aTUtAAAABmJLR0QAMwB4AL3w8I/wAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4wEeCgIjTGRctgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAACuSURBVCjPrY/NDsFQFAanJ230JfAIUk0j7ITHJnZEQrWeoClLPwuauNqbY0UirNTsvnyLyTirdaziCEHQ4RtxnKAoYTfgV8SYO4fTiSTdfpxJuuV4PmPMnTpIFIXYypJlOZtN+laQZTnWWqIorCVxVFVvN8NkOqOqKtqtJqpKvtvjui7j0RDfb9QrAfD9BuPREBHhUly5FgUi8hfBq+Q5yrJkvlgCMOj38DyPf/AAr5RPGXnV94MAAAAASUVORK5CYII=)
-				right
-				no-repeat;
-		}
-
-		select:hover
-		{	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
-		}
-
-		select:-moz-focusring
-		{	color: transparent;
-			text-shadow: 0 0 0 #000;
-		}
-
-		option:not(:checked)
-		{	color: black; /* prevent <option>s from becoming transparent as well */
-		}
-
-		.green
-		{	background-color: #73ba24;				
-		}
-
-		.yellow
-		{	background-color: #f1a319;
-		}
-
-		.red
-		{	background-color: #b70000;				
-		}
-
-		#callbrowsing_webview_sharing
-		{
-			margin-top: 35px;
-			margin-left: -50px;
-			margin-right: 30px;
-			background-color: #b70000;
-			font-weight: bold;
-			visibility: hidden;
-			cursor: pointer;
-		}
-
-		.Badge__title
-		{
-			font-size: 24px;
-		}
-
-		@keyframes animation_content_zoom
-		{
-			0% { transform: scale(1); }
-			20% { transform: scale(1); }
-			50% { transform: scale(1.4); }
-			80% { transform: scale(1); }
-			100% { transform: scale(1); }
-		}
-
-		@keyframes animation_content_blend_in
-		{     0% { opacity: 0; visibility: visible; }
-			100% { opacity: 1: }
-		}
-		@keyframes animation_content_blend_out
-		{     0% { opacity: 1; visibility: visible; }
-			100% { opacity: 0; }
-		}
-	</style>
+	
 
 
 	<!-- CallOne Callbrowsing -->
+    <link rel="stylesheet" type="text/css" href="https://www.callone.de/demos/callbrowsing/styles.css">
+
 	<script>
 	// load surfly
 	(function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
@@ -143,196 +67,73 @@
 			switch (callstatus)
 			{
 				case 0:
-					// callbrowsing status
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
 					$('#callbrowsing_status').css ('animation-play-state', 'paused');
-					$('#callbrowsing_status').removeClass ('yellow');
 
 					$('#callbrowsing_status_text_big').text ('Rufen Sie an!');
 					$('#callbrowsing_status_text_small').text('Wir freuen uns.');
 
-					// callbrowsing webview sharing
+                    // callbrowsing webview sharing
 					$('#callbrowsing_webview_sharing_text').text ('Webseite freigeben');
 
-					$("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+                    $("#callbrowsing_webview_sharing").css ('visibility', 'hidden');
+                    $('#callbrowsing_webview_sharing').css ('animation-play-state', 'paused');
 					break;
 				
 				case 1:
-					// callbrowsing status
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+
 					$('#callbrowsing_status_text_big').text ('Danke!');
 					$('#callbrowsing_status_text_small').text (caller);
 
-					$('#callbrowsing_status').addClass ('yellow');
 					$('#callbrowsing_status').css ('animation','animation_content_zoom 1s infinite');
 					break;
 				
 				case 2:
-					// callbrowsing status
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+
 					$('#callbrowsing_status_text_big').text ('Danke!');
 					$('#callbrowsing_status_text_small').text (caller);
 
-					$('#callbrowsing_status').addClass ('yellow');
 					$('#callbrowsing_status').css ('animation-play-state', 'paused');
 
-					// callbrowsing webview sharing
+                    // callbrowsing webview sharing
 					$('#callbrowsing_webview_sharing_text').text ('Webseite freigeben');
 
 					$('#callbrowsing_webview_sharing').css ('animation','animation_content_blend_in 1s');
-					$("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+                    $("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+                    break;
+                    
+                case 3:
+                    // callbrowsing status
+                    $("#callbrowsing_status").css ('visibility', 'visible');
+
+					$('#callbrowsing_status_text_big').text ('Danke!');
+					$('#callbrowsing_status_text_small').text (caller);
+
+					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+
+                    // callbrowsing webview sharing
+					$('#callbrowsing_webview_sharing_text').text ('Webseite geteilt');
+
+                    $('#callbrowsing_webview_sharing').css ('animation','animation_content_zoom 1s infinite');
+                    $("#callbrowsing_webview_sharing").css ('visibility', 'visible');
 					break;
 			}
 		}
 
 		$('#callbrowsing_webview_sharing').click (function()
 		{	callbrowsing_webview_sharing_start ();
-		});
+        });
 
-		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'smava', callbrowsing_text_create, callbrowsing_status);
-	});
-	</script>
-
-		<?php /*
-		var call_state = 0;
-		var cobrowsing_url = '';
-
-		function cobrowsing_init ()
-		{
-			var settings =
-			{	widget_key:'d9a22485fef9410eb5e07ed4966d32b7'
-			};
-
-			Surfly.init(settings, function(initResult)
-			{
-				if (initResult.success)
-				{
-					if (Surfly.isInsideSession)
-					{
-						var session = Surfly.currentSession;
-
-						$('#cobrowsing').addClass ('red');
-						$('#cobrowsing').css ('animation','animation_content_blend_in 1s');
-						$("#cobrowsing").css ('visibility', 'visible');
-						$('#cobrowsing_message_big').text ('Co- Browsing läuft!');
-						cobrowsing_url = session.followerLink;
-					}
-					else
-					{	$('#cobrowsing_message_big').text ('Co- Browsing starten!');
-						$('#cobrowsing_message_small').text ('');
-					}
-				}
-				else console.error ('Surfly was unable to initialize properly.');
-			});
-		}
-
-		function cobrowsing_start ()
-		{
-			var session;
-
-			var settings =
-			{	show_loading_screen: false
-			};
-
-			if (!Surfly.isInsideSession)
-			{
-				session = Surfly.session(settings).startLeader();
-			}
-			else session = Surfly.currentSession ();
-
-			$('#cobrowsing').css ('animation-play-state', 'paused');
-			$('#cobrowsing_message_big').text ('Co- Browsing läuft!');
-			cobrowsing_url = session.followerLink;
-		}
-
-		function update_session_settings ()
-		{
-			$.ajax
-			({
-				url: 'https://www.callone.de/demos/callbrowsing/ajax.php',
-				cache: false,
-				type: 'POST',
-				data:
-				{
-					credit_type: $('#credit_type').val(),
-					credit_value: $('#credit_value').val(),
-					credit_runtime: $('#credit_runtime').val(),
-					cobrowsing_url: cobrowsing_url
-				},
-				dataType: 'json',
-				success: function (data)
-				{
-					if (data['call_active'])
-					{
-						switch (call_state)
-						{
-							case 0:
-								$('#calltracking_message_big').text ('Danke!');
-								$('#calltracking_message_small').text (data['caller']);
-								$('#calltracking_message').addClass ('yellow');
-
-								if (!window.__surfly)
-									$('#calltracking_message').css ('animation','animation_content_zoom 1s infinite');
-								call_state = 1;
-								break;
-
-							case 1:
-								if (!data['cobrowsing'])
-									break;
-								
-								if (window.__surfly)
-									break;
-
-								// show cobrowsing bubble
-								$('#calltracking_message').css ('animation-play-state', 'paused');
-								$('#cobrowsing_message_big').text ('Co- Browsing starten!');
-								$('#cobrowsing_message_small').text ('');
-								$('#cobrowsing').css ('animation','animation_content_blend_in 1s');
-								$("#cobrowsing").css ('visibility', 'visible');
-								call_state = 2;
-								break;
-							
-							case 2:
-								$('#cobrowsing').css ('animation','animation_content_zoom 1s infinite');
-								call_state = 3;
-								break;
-						}
-					}
-					else
-					{
-						if (call_state >= 1)
-						{
-							$('#calltracking_message').css ('animation-play-state', 'paused');
-							$('#calltracking_message').removeClass ('yellow');
-							$('#calltracking_message_big').text ('Rufen Sie an!');
-							$('#calltracking_message_small').text('');
-						}
-						if ((call_state == 2) ||
-							(call_state == 3))
-						{
-							$('#cobrowsing').css ('animation-play-state', 'paused');
-							$('#cobrowsing').css ('animation','animation_content_blend_out 1s');
-							$("#cobrowsing").css ('visibility', 'hidden');
-						}
-						if (call_state == 4)
-						{	$('#cobrowsing').css ('animation','animation_content_blend_out 1s');
-							$("#cobrowsing").css ('visibility', 'hidden');
-						}
-						call_state = 0;
-					}
-				}
-			});
-		}
-
-		$('#cobrowsing').click (function()
-		{
-			if (Surfly.isInsideSession)
-				return;
-		
-			// cobrowsing
-			cobrowsing_start ();
-		});
-
-
-		cobrowsing_init ();
-		*/ ?>
+		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_status);
+    });
+    </script>
+	<!-- CallOne Callbrowsing -->
+	
 
 </head>
 <body >
@@ -389,15 +190,13 @@
 			<div class="LegalText__container">2/3 aller Kunden erhalten: 4,71 % eff. Jahreszins, 4,61 % fester Sollzins p.a., Gesamtbetrag 13.477,61 €, mtl. Rate 140,27 €, solarisBank AG</div>
 		</div>
 
-		<div>
-			<div class="Badge__container Calulator__badge" id="callbrowsing_status">
-				<div class="Badge__title" id="callbrowsing_status_text_big"></div>
-				<div class="Badge__subtitle" id="callbrowsing_status_text_small"></div>
-			</div>
+		<div id="callbrowsing_status" style="position: absolute; top: 170px; margin-left: 50%; margin-right: 50%; left: 450px;">
+			<div id="callbrowsing_status_text_big"></div>
+			<div id="callbrowsing_status_text_small"></div>
+		</div>
 
-			<div class="Badge__container" id="callbrowsing_webview_sharing">
-				<div class="Badge__title" id="callbrowsing_webview_sharing_text"></div>
-			</div>
+		<div id="callbrowsing_webview_sharing" style="position: absolute; top: 330px; margin-left: 50%; margin-right: 50%; left: 450px;">
+			<div id="callbrowsing_webview_sharing_text"></div>
 		</div>
 	</div>
 </div>
