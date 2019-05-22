@@ -36,7 +36,9 @@
 	<script>
 	$(function ()
 	{
-		var timestamp_start = Math.floor (Date.now() / 1000);
+        var timestamp_start = Math.floor (Date.now() / 1000);
+        var session_rootnumber = null;
+        var session_ddi = null;
 
         function callbrowsing_text_create ()
 		{
@@ -80,6 +82,9 @@
 
 		function callbrowsing_status (rootnumber, ddi, callstatus, caller)
 		{
+            session_rootnumber = rootnumber;
+            session_ddi = ddi;
+
             $('#callbrowsing_personal_phonenumber').html (rootnumber+' - '+ddi);
 
 			switch (callstatus)
@@ -146,6 +151,36 @@
 		$('#callbrowsing_webview_sharing').click (function()
 		{	callbrowsing_webview_sharing_start ();
         });
+
+
+        $('#callbackButton').click (function()
+        {
+            $.ajax
+		    ({
+                url: "https://connect.callone.io/backend/callback.php",
+                cache: false,
+                type: "POST",
+                data:
+                {
+                    type: 0,
+                    aid: 'callone_cfcd208495d565ef66e7dff9f98764da',
+                    callback_key: 'dbc5e205033aa4f230073490394205b4',
+                    phonenumber: $('#callbackNumber').val().trim(),
+                    ddi: session_ddi,
+                    data: session_rootnumber
+                },
+                dataType: "json",
+                error: function (error)
+                {	console.log (JSON.stringify (error));
+                },
+                success: function (jsonData)
+                {
+                    if (jsonData['success'])
+                        $('#callbackNumber').val('');
+                }
+            });
+        });
+
 
 		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_status);
     });
@@ -387,8 +422,9 @@ var CHECK24_HOST = 'www.check24.de';
 <div class="callback">
 	<div id="wrap">
 		<form id="callbackForm" action="" autocomplete="on" onclick="document.getElementById('callbackNumber').classList.add('fixed');">
-			<input id="callbackNumber" name="callbacknumber" type="text" placeholder="Geben Sie Ihre Rufnummer an..." >
-			<button id="search_submit" type="submit" name="submit">Rückruf anfordern</button>
+            <input id="callbackNumber" name="callbacknumber" type="text" placeholder="Geben Sie Ihre Rufnummer an..." >
+            
+            <button id="callbackButton" type="button" name="callbackbutton">Rückruf anfordern</button>
 		</form>
     </div>
 </div>

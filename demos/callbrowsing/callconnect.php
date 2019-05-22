@@ -70,7 +70,12 @@ switch (strtoupper ($request['event']))
 {
 	case 'START_RP':
 		$timeout = time () - (60*60);	// one hour
-		$service = phonenumber_to_digit ($request['service']);
+
+		$service = null;
+		if (!empty ($request['cb_data1']))
+			$service = phonenumber_to_digit ($request['cb_data1']);
+		if (empty ($service))
+			$service = phonenumber_to_digit ($request['service']);
 
 		if ((!in_array ($request['routing_id'], ROUTING_IDS_CALLER)) &&
 			(!in_array ($request['routing_id'], ROUTING_IDS_LINK)) &&
@@ -137,7 +142,11 @@ switch (strtoupper ($request['event']))
 		break;
 	
 	case 'CONNECT':
-		$service = phonenumber_to_digit ($request['service']);
+		$service = null;
+		if (!empty ($request['cb_data1']))
+			$service = phonenumber_to_digit ($request['cb_data1']);
+		if (empty ($service))
+			$service = phonenumber_to_digit ($request['service']);
 
 		$params = array ();
 		$query = 'UPDATE callbrowsing
@@ -157,7 +166,11 @@ switch (strtoupper ($request['event']))
 		break;
 	
 	case 'HANGUP':
-		$service = phonenumber_to_digit ($request['service']);
+		$service = null;
+		if (!empty ($request['cb_data1']))
+			$service = phonenumber_to_digit ($request['cb_data1']);
+		if (empty ($service))
+			$service = phonenumber_to_digit ($request['service']);
 
 		$params = array ();
 		$query = 'UPDATE callbrowsing

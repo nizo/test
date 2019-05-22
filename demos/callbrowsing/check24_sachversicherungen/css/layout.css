@@ -58,7 +58,7 @@ html{height:100%}body{background-color:#FFF;min-width:994px;margin:0;padding:0;f
 	cursor: text;
 }
 
-.callback button[type="submit"] {
+.callback button {
 	height: 40px;
 	width:  auto;
 	display: inline-block;
@@ -78,7 +78,7 @@ html{height:100%}body{background-color:#FFF;min-width:994px;margin:0;padding:0;f
 	font-size: 16px;
 }
 
-.callback button[type="submit"]::before {
+.callback ::before {
 	content: url('../images/callback.svg');
 	padding-right: 10px;
 	font-family: streamline;
@@ -94,7 +94,7 @@ html{height:100%}body{background-color:#FFF;min-width:994px;margin:0;padding:0;f
 	width: 66%;
 }
 
-.callback input[type="text"].fixed + button[type="submit"] {
+.callback input[type="text"].fixed + button {
 	z-index:20;
 }
 
@@ -118,6 +118,6 @@ html{height:100%}body{background-color:#FFF;min-width:994px;margin:0;padding:0;f
     background: transparent;
 }
 
-.callback button[type="submit"]:hover {
+.callback :hover {
 	opacity: 1;
 }
