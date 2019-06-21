@@ -1,0 +1,128 @@
+.image-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  &.blog {
+  	align-items: inherit;
+  	.text {
+  		padding: $gutter-m;
+		.date {
+			font-size: $font-size-xs;
+		}
+		h2, .h2, h3, .h3 {
+			margin-top: 0;
+		}
+  	}
+  	.image {
+  		img {
+  			width: 100%;
+  		}
+  		.bgimage {
+  			background-size: cover;
+  			background-repeat: no-repeat;
+  			display: block;
+  			width: 100%;
+  			height: 100%;
+  			&.image1 {
+  				background-image: url("/assets/images/photos/cable-call-communication.jpg");
+  			}
+  			&.image2 {
+  				background-image: url("/assets/images/photos/anforderungen-callcenter-software.jpg");
+  			}
+  		}
+  	}
+  }
+  .image {
+    width: percentage(1/3);
+    img {
+      display: block;
+      width: 75%;
+      &.half {
+      	width: 50%;
+      }
+      &.auto { margin: 0 auto; }
+    }
+    &.centered {
+    	img {
+    		margin: 0 auto;
+    	}
+    }
+    &.padding {
+      padding:  $gutter-l - 5;
+      img {
+        // width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .text {
+    width: percentage(2/3);
+    padding: 35px;
+  }
+}
+
+.text-grid {
+  .text {
+    width: 100%;
+    padding: 35px;
+  }
+}
+
+.alternate {
+  > :nth-child(even) .image-grid {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .image-grid {
+    .image, .text {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .image-grid {
+    .image, .text {
+      width: 100%;
+    }
+    .image {
+      order: 0;
+      img {
+        max-width: 50%;
+         &.half {
+        	width: 25%;
+        }
+      }
+      &.padding {
+        padding: $gutter-l $gutter-l $gutter-m;
+      }
+    }
+    .text {
+      order: 1;
+      padding: $gutter-m $gutter-l $gutter-l;
+      word-break: break-word;
+    }
+  }
+  
+	.text-grid {
+	  .text {
+	    word-break: break-word;
+	  }
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.image-grid {
+	    .image {
+	      	&.padding {
+	      		padding: $gutter-l - 10 $gutter-l - 10 $gutter-m;
+	      	}
+		}
+		.text {
+      		padding: $gutter-m $gutter-l - 10 $gutter-l;
+		}
+	}
+}

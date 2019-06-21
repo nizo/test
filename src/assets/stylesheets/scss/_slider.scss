@@ -1,0 +1,96 @@
+$slider_width: 1000px; // 1800
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: $slider_width;
+  margin: 0 auto;
+  // background-color: green;
+  .slides {
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    flex-direction: row;
+    padding: 20px 0;
+    .slide {
+      width: calc(#{$slider_width} / 3);
+      padding: 0 $gutter-s;
+      opacity: 0.3;
+      transition: all 0.3s ease;
+      .slide-content {
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(#000, 0.25);
+        padding: $gutter-xl $gutter-l;
+      }
+      &.active {
+        opacity: 1;
+        .slide-content {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .slider-navigation {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    .btn-slider-nav {
+      position: relative;
+      width: 33px;
+      height: 33px;
+      background-color: #fff;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      cursor: pointer;
+      &+.btn-slider-nav {
+        margin-left: 15px;
+      }
+      &.active {
+        border-color: #000;
+        cursor: default;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        background-color: $color-primary;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .slider {
+    height: auto !important;
+    .slides {
+      position: relative;
+      flex-direction: column;
+      .slide {
+        width: 100% !important;
+        opacity: 1 !important;
+        .slide-content {
+          padding: $gutter-m;
+          background-color: #000;
+          color: #fff;
+        }
+        &+.slide {
+          margin-top: $gutter-m;
+        }
+      }
+    }
+    .slider-navigation {
+      display: none;
+    }
+  }
+}
