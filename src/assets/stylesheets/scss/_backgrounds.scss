@@ -1,0 +1,71 @@
+// Purple 2 Circles
+$purple-2-1: url('/assets/images/backgrounds_svg/bg-01.svg');
+$purple-2-2: url('/assets/images/backgrounds_svg/bg-03.svg');
+$purple-2-3: url('/assets/images/backgrounds_svg/bg-05.svg');
+$purple-2-4: url('/assets/images/backgrounds_svg/bg-06.svg');
+
+// Green 1 Circle
+$green-1-1: url('/assets/images/backgrounds_svg/bg-02.svg');
+
+// Blue 1 Circle
+$blue-1-1: url('/assets/images/backgrounds_svg/Vector2.1.svg');
+$blue-1-2: url('/assets/images/backgrounds_svg/Vector2.2.svg');
+$blue-1-3: url('/assets/images/backgrounds_svg/Vector.svg');
+
+// Blue 3 Circles
+$blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
+
+.bg-index, 
+.bg-landingpages, 
+.bg-preisanfrage, 
+.bg-sales, 
+.bg-casestudy, 
+.bg-karriere, 
+.bg-ueberuns, 
+.bg-businesstelefonie, 
+.bg-kundenservice, 
+.bg-testen {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+
+.bg-index {
+	&.visible {
+  		background-image: url('/assets/images/backgrounds_png/pattern-allcolors-index.png');
+	}
+}
+.bg-landingpages {
+  background-image: url('/assets/images/backgrounds_png/pattern-allcolors-landingpages.png');
+}
+.bg-preisanfrage {
+	&.visible {
+  		background-image: url('/assets/images/backgrounds_png/pattern-blue-preisanfrage.png');
+  	}
+}
+.bg-sales {
+	&.visible {
+  		background-image: url('/assets/images/backgrounds_png/pattern-blue-sales.png');
+  	}
+}
+.bg-casestudy {
+  background-image: url('/assets/images/backgrounds_png/pattern-green-casestudy.png');
+}
+.bg-karriere {
+  background-image: url('/assets/images/backgrounds_png/pattern-green-karriere.png');
+}
+.bg-ueberuns {
+  background-image: url('/assets/images/backgrounds_png/pattern-green-ueberuns.png');
+}
+.bg-businesstelefonie {
+  background-image: url('/assets/images/backgrounds_png/pattern-purple-businesstelefonie.png');
+}
+.bg-kundenservice {
+	&.visible {
+  		background-image: url('/assets/images/backgrounds_png/pattern-purple-kundenservice.png');
+  	}
+}
+.bg-testen {
+  background-image: url('/assets/images/backgrounds_png/pattern-purple-testen.png');
+}

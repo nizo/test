@@ -1,0 +1,54 @@
+.shadow-box {
+  box-shadow: 0 0 20px rgba(#000, 0.25);
+  background-color: #fff;
+  &+.shadow-box {
+    margin-top: $gutter-l;
+  }
+  &.padding {
+    padding: $gutter-l;
+  }
+  &.animation-1 {
+    position: relative;
+    &:after {
+      content: "";
+      width: 700px;
+      height: 700px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      top: -247px;
+      right: -311px;
+    }
+  }
+  &.visible {
+  	&::after {
+  		background-image: url(../animations/01_MASTER_HP_transparent.gif);
+  	}
+  }
+  &.autoWidth {
+  	width: auto;
+  }
+  .text {
+  	p {
+  		margin-top: 15px;
+  	}
+  }
+}
+
+*:not(.topic-selector)+.shadow-box {
+  margin-top: $gutter-l;
+}
+
+@media screen and (max-width: 670px) {
+	.shadow-box {
+		overflow: hidden;
+	    &.padding {
+	      padding: $gutter-l $gutter-l -10  $gutter-l;
+	    }
+	    &.animation-1 {
+	    	margin-top: 120px;
+	    	overflow: inherit;
+	    }
+	}
+}

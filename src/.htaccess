@@ -1,0 +1,249 @@
+# ----------------------------------------------------------------------
+# Rewrite non-www to www and https
+# ----------------------------------------------------------------------
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+
+# ----------------------------------------------------------------------
+# Gzip compression
+# ----------------------------------------------------------------------
+
+<IfModule mod_deflate.c>
+
+    # Force compression for mangled `Accept-Encoding` request headers
+    # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
+
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/x-font-ttf
+    AddOutputFilterByType DEFLATE application/json    
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE image/x-icon
+    AddOutputFilterByType DEFLATE font/opentype
+  	AddOutputFilterByType DEFLATE font/otf
+  	AddOutputFilterByType DEFLATE font/ttf
+  	AddOutputFilterByType DEFLATE font/woff
+    AddOutputFilter DEFLATE .shtml
+
+    # https://httpd.apache.org/docs/current/mod/mod_mime.html#addencoding
+
+    <IfModule mod_mime.c>
+        AddEncoding gzip              svgz
+    </IfModule>
+
+</IfModule>
+
+# Deflate Compression by MimeType
+<IfModule mod_deflate.c>
+ <FilesMatch "\.(json)$">
+  ExpiresActive on
+  ExpiresDefault "access plus 1 month"
+  SetOutputFilter DEFLATE
+ </FilesMatch>
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Expires headers (for better cache control)
+# ----------------------------------------------------------------------
+
+# These are pretty far-future expires headers.
+# They assume you control versioning with filename-based cache busting
+# Additionally, consider that outdated proxies may miscache
+#   www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/
+
+# If you don't use filenames to version, lower the CSS and JS to something like
+# "access plus 1 week".
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+
+  ExpiresDefault                          "access plus 1 month"
+
+  # cache.appcache needs re-requests in FF 3.6 (thanks Remy ~Introducing HTML5)
+  ExpiresByType text/cache-manifest       "access plus 0 seconds"
+
+# Your document html
+  ExpiresByType text/html                 "access plus 0 seconds"
+
+# Data
+  ExpiresByType application/json          "access plus 1 month"
+  ExpiresByType application/xml           "access plus 0 seconds"
+  ExpiresByType text/xml                  "access plus 0 seconds"
+
+# Feed
+  ExpiresByType application/atom+xml      "access plus 1 hour"
+  ExpiresByType application/rss+xml       "access plus 1 hour"
+
+# Favicon (cannot be renamed)
+  ExpiresByType image/x-icon              "access plus 1 week"
+
+# Media: images, video, audio
+  ExpiresByType audio/ogg                 "access plus 1 month"
+  ExpiresByType image/gif                 "access plus 2 month"
+  ExpiresByType image/jpeg                "access plus 1 month"
+  ExpiresByType image/png                 "access plus 1 month"
+  ExpiresByType video/mp4                 "access plus 1 month"
+  ExpiresByType video/ogg                 "access plus 1 month"
+  ExpiresByType video/webm                "access plus 1 month"
+
+# HTC files  (css3pie)
+  ExpiresByType text/x-component          "access plus 1 month"
+
+# Webfonts
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+  ExpiresByType application/x-font-ttf    "access plus 1 month"
+  ExpiresByType application/x-font-woff   "access plus 1 month"
+  ExpiresByType font/opentype             "access plus 1 month"
+  ExpiresByType image/svg+xml             "access plus 1 month"
+
+# CSS and JavaScript
+  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType text/css                  "access plus 1 year"
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+</IfModule>
+
+
+# Block access to "hidden" directories or files whose names begin with a
+# period. This includes directories used by version control systems such as
+# Subversion or Git.
+<IfModule mod_rewrite.c>
+  RewriteCond %{SCRIPT_FILENAME} -d [OR]
+  RewriteCond %{SCRIPT_FILENAME} -f
+  RewriteRule "(^|/)\." - [F]
+</IfModule>
+
+# Block access to backup and source files. These files may be left by some
+# text/html editors and pose a great security danger, when anyone can access
+# them.
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$">
+  Order allow,deny
+  Deny from all
+  Satisfy All
+</FilesMatch>
+
+
+#AuthName "DonCallone's Bereich"
+#AuthType Basic
+#AuthUserFile /is/htdocs/wp10427997_IW0LVLFMMM/de.callone.www/www-data/.htpasswd
+#require valid-user
+
+
+# ----------------------------------------------------------------------
+# Redirects
+# ----------------------------------------------------------------------
+Redirect 301 /index.php/nummern-sms/0900 /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/22xyz /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0137 /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0800-nummer /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0180-nummer /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/international /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms /0800-lokal-nummern
+
+Redirect 301 /index.php/callone/callone-stellt-sich-vor /ueber-uns
+Redirect 301 /index.php/callone/callone-philosophie /ueber-uns
+
+Redirect 301 /index.php/media/servicerufnummern-und-sms/0900 /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms/118xy /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms/0137 /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms/22er /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms/0180 /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms/sms /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms/international /0800-lokal-nummern
+Redirect 301 /index.php/media/servicerufnummern-und-sms /0800-lokal-nummern
+Redirect 301 /index.php/media/applikationen/fraud-prevention-plus /
+Redirect 301 /enterprise/virtuelle-telefonanlage /voip-telefonanlage
+Redirect 301 /01802-01804-vip-nummern /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0900.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/22xyz.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0137.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0800-nummer.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0180-nummer.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/international.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms/0900-nummer-portieren-mit-wechselbonus.html /0800-lokal-nummern
+Redirect 301 /index.php/nummern-sms.html /0800-lokal-nummern
+Redirect 301 /index.php/callone/callone-stellt-sich-vor.html /ueber-uns
+Redirect 301 /index.php/impressum.html /impressum
+
+Redirect 301 /numbers.php /service-rufnummern.php
+Redirect 301 /voip.php /voip-telefonie.php
+Redirect 301 /browsercall.php /webrtc-browsertelefonie.php
+Redirect 301 /platforms.php /telefonanlage.php
+Redirect 301 /telefonanlage.php /virtuelle-telefonanlage.php
+
+# Redirects from current Callone Site
+
+Redirect 301 /acd-faq /callcenter-software-funktionen
+Redirect 301 /acd-faq.php /callcenter-software-funktionen
+Redirect 301 /acd-features.php /callcenter-software-funktionen
+Redirect 301 /callback.php /preise
+Redirect 301 /callcenter-software.php /callcenter-software
+Redirect 301 /callcenter-software-cloud-acd /callcenter-software
+Redirect 301 /case-study-1.php /case-study-navabi
+Redirect 301 /case-study-2.php /case-study-flaconi
+Redirect 301 /case-study-3.php /case-study-apodiscounter
+Redirect 301 /case-study-4.php /case-study-check24
+Redirect 301 /case-study-lesara /
+Redirect 301 /company.php /ueber-uns
+Redirect 301 /datenschutz.php /datenschutz
+Redirect 301 /disclaimer.php /impressum
+Redirect 301 /karriere.php /karriere
+Redirect 301 /position-back-office-manager.php /karriere/kundenberater-1st-level-support
+Redirect 301 /position-bestandskundenbetreuung.php /karriere/technischer-produktmanager
+Redirect 301 /position-team-assistenz.php /karriere/kundenberater-1st-level-support
+Redirect 301 /position-technical-consultant.php /karriere/technischer-produktmanager
+Redirect 301 /position-webdesigner.php /karriere
+Redirect 301 /pricing.php /preise
+Redirect 301 /salesforce-open-cti.php /cti-salesforce
+Redirect 301 /salesforce.php /cti-salesforce
+Redirect 301 /schnittstellen.php /cti-schnittstellen
+Redirect 301 /service-rufnummern.php /0800-lokal-nummern
+Redirect 301 /rufnummern-service /0800-lokal-nummern
+Redirect 301 /tel-features.php /voip-telefonanlagen-funktionen
+Redirect 301 /try.php /testen
+Redirect 301 /virtuelle-telefonanlage.php /voip-telefonanlage
+Redirect 301 /voip-telefonie.php /cloud-telefonanlage
+Redirect 301 /webrtc-browsertelefonie.php /preise
+Redirect 301 /webrtc-browsertelefonie.php. /preise
+Redirect 301 /zendesk.php /zendesk-cti-ticketing
+Redirect 301 /zoho.php /cti-zoho
+Redirect 301 /downloads/Mitarbeiter_Bestands-Kundenbetreuung.pdf /downloads/Organisationsprofi_%20Kundenberater_1st-Level-Support.pdf
+Redirect 301 /downloads/Mitarbeiter_Team_Assistenz_-_Schwerpunkt_Vertrieb.pdf /downloads/Team_Assistenz.pdf
+Redirect 301 /downloads/Mitarbeiter_Technischer_Support.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
+Redirect 301 /downloads/Mitarbeiter_Webdesigner.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
+Redirect 301 /agb.pdf /downloads/agb.pdf
+Redirect 301 /faq.php /faq/
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+RewriteEngine On

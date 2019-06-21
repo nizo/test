@@ -1,0 +1,110 @@
+.logo-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+  .logo {
+    padding: 0 25px;
+    img {
+      display: block;
+      // height: 115px;
+    }
+   } 
+	&.client-logos {
+		justify-content: center;
+		align-items: center;
+	}
+
+  
+  @media screen and (max-width: 800px) {
+    flex-wrap: wrap;
+    .logo {
+      width: 25%;
+      margin-bottom: $gutter-s;
+    }
+	&.client-logos {
+	    .logo {
+	      width: 25%;
+	      &:nth-child(n+5) {
+	      	display: none;
+	      }
+	    }
+    }
+  }
+  @media screen and (max-width: 555px) {
+    .logo {
+      width: 50%;
+    }
+    &.client-logos {
+	    .logo {
+	      width: 50%;
+	      display: block;
+	      &:nth-child(n+5) {
+	      	display: none;
+	      }
+	    }
+    }
+  }
+}
+
+
+.partnerLogo {
+	display: inline-block;
+	width: 100%;
+	max-width: 250px;
+	margin-bottom: 30px;
+	padding: 10px;
+	height: 100px;
+	background-image: none;
+	&.h80 {
+		height: 80px;
+	}
+	&.sw {
+		filter: saturate(0%) grayscale(100%) brightness(10%); 
+		-webkit-filter: saturate(0%) grayscale(100%) brightness(10%); 
+		-moz-filter: saturate(0%) grayscale(100%) brightness(10%);
+		-ms-filter: saturate(0%) grayscale(100%) brightness(10%);
+		-o-filter: saturate(0%) grayscale(100%) brightness(10%);
+		/*filter: url(desaturate.svg#greyscale);
+		filter: saturate(0%) grayscale(100%) brightness(69%) ;
+		-webkit-filter: grayscale(1) saturate(0) brightness(0.65);*/
+		&:hover {
+			filter: none;
+		}
+	}
+	&.gray {
+		filter: saturate(0%) grayscale(100%) brightness(200%); 
+		-webkit-filter: saturate(0%) grayscale(100%) brightness(200%); 
+		-moz-filter: saturate(0%) grayscale(100%) brightness(200%);
+		-ms-filter: saturate(0%) grayscale(100%) brightness(200%);
+		-o-filter: saturate(0%) grayscale(100%) brightness(200%);
+		&:hover {
+			filter: none;
+		}
+	}
+	&.gray-100 {
+		filter: saturate(0%) grayscale(100%) brightness(100%); 
+		-webkit-filter: saturate(0%) grayscale(100%) brightness(100%); 
+		-moz-filter: saturate(0%) grayscale(100%) brightness(100%);
+		-ms-filter: saturate(0%) grayscale(100%) brightness(100%);
+		-o-filter: saturate(0%) grayscale(100%) brightness(100%);
+		&:hover {
+			filter: none;
+		}
+	}
+	&.small {
+		height: auto;
+		max-height: 300px;
+		margin-bottom: 0;
+	}
+	&.small-33 {
+		height: 60px;
+		width: auto;
+		margin-bottom: 0;
+	}
+	@media screen and (max-width: 555px) {
+	    &.small {
+	    	margin-bottom: 0;
+	    }
+  	}
+}

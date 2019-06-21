@@ -1,0 +1,515 @@
+/*
+ * Form CSS
+ */
+form {
+	textarea, select, input, button { outline: none; }
+	
+	&.form {
+		label {
+			display: block;
+			width: 100%;
+			font-size: 16px;
+			margin-top: 10px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		input, select, .customSelect .select-selected, textarea {
+			border: 2px solid $color-secondary-1;
+			padding: 5px 20px;
+			width: 100%;
+			font-size: $font-size-xs;
+			margin: 5px 0;
+			height: 40px;
+			color: $color-secondary-1;
+			font-family: apercu,sans-serif;
+			&.error {
+				border-color: red;
+			}
+		}
+		textarea {
+			max-width: 100%;
+			text-align: left;
+			height: 80px;
+			font-family: apercu,sans-serif;
+			line-height: 1.5;
+			margin-bottom: 0;
+		}
+		.inputFile {
+				margin: 0;
+			    background-color: #fff;
+			    border: 2px solid $color-secondary-1;
+			    border-radius: 0;
+			    display: flex;
+			.file {
+				display: none;
+			}
+			.fileButton {
+				background-color: $color-secondary-1;
+				color: #fff;
+			    height: 36px;
+			    padding: 0px 10px;
+			    border: none;
+			    left: 0;
+			    font-family: apercu;
+			    font-size: 16px;
+			    vertical-align: top;
+			    line-height: 36px;
+			    cursor: pointer;
+				&:hover {
+					color: $color-primary;
+					.sl {
+						color: $color-primary;
+					}
+				}
+				.sl {
+					padding-right: 5px;
+					&::before {
+					    font-size: 16px;
+						position: relative;
+						top: 0.5px;
+					}
+				}
+			}
+			.fileInfo {
+				color: $color-secondary-1;
+			    font-size: 14px;
+			    line-height: 36px;
+			    height: 36px;
+			    padding: 0 20px;
+			    position: relative;
+			    top: 3px;
+			}
+		}
+		.selectWrapper {
+			position: relative;
+			width: 100%;
+			select {
+				-moz-appearance: none;
+				-webkit-appearance: none;
+				appearance: none;
+				border: 2px solid $color-secondary-1;
+				&::-ms-expand {
+				  display: none;
+				}
+				
+				width: 100%;
+				padding-left: 20px;
+				color: $color-secondary-1;
+				outline: none;
+				cursor: pointer;
+				z-index: 1;
+    			position: relative;
+    			background-color: rgba(255,255,255,0);
+				option {
+					color: #111;
+					&:hover {
+						background-color: $color-primary;
+					}
+				}
+				
+				&:focus {
+					&::-ms-value {
+				  		background-color: transparent;
+					}
+				}
+			}
+			&::after {
+			  font-family: "streamline";
+			  content: "\e5ca";
+			  font-size: 20px;
+			  position: absolute;
+			  right: 15px;
+			  top: 10px;
+			  color: $color-secondary-1;
+			  z-index: 0;
+			}
+		}
+		input[type="text"], input[type="email"], textarea {
+			&:placeholder { 
+			  color: color-grey;
+			}
+			&:-ms-input-placeholder { 
+			  color: color-grey;
+			}
+			&:-ms-input-placeholder { 
+			  color: color-grey;
+			}
+			&:focus {
+				color: #FFF;
+				background-color: $color-secondary-1;
+				font-size: $font-size-s;
+			}
+		}
+		input[type="submit"] {
+			background-color: $color-secondary-1;
+			color: $color-primary;
+			padding: 10px 20px;
+			width: 100%;
+			font-size: 18px;
+			margin: 5px 0;
+			display: block;
+			height: 40px;
+		}
+		.button-set {
+			margin: $gutter-m auto 0;
+		}
+	}
+	
+	&.form-1 {
+		margin: $gutter-m 0;
+			.multipleSelection {
+				font-size: 18px;
+				margin: 5px 0;
+				.title {
+					border: 2px solid $color-primary;
+					color: #000;
+					width: 100%;
+					padding: 5px 20px;
+					display: block;
+					cursor: pointer;
+					height: 40px;
+					position: relative;
+					font-weight: 500;
+					text-align: center;
+					padding-right: 40px;
+    				overflow: hidden;
+					&:after {
+						font-family: "streamline";
+						content: "\e5c1";
+						display: inline-block;
+						width: 40px;
+						height: 40px;
+						line-height: 40px;
+						background-color: $color-primary;
+						position: absolute;
+						top: -2px;
+						right: -2px;
+						color: #fff;
+						text-align: center;
+						font-weight: 600;
+						-webkit-transition: all 300ms 0s ease-in-out;
+    					transition: all 300ms 0s ease-in-out;
+					}
+				}
+				.selection {
+					display: none;
+					padding: $gutter-s;
+					margin: $gutter-s 0;
+					max-height: 250px;
+					min-height: 150px;
+					overflow-y: scroll;
+				}
+				&:hover, &:focus {
+		    		.title {
+		    			background-color: #fff;
+		    			transition: all .3s ease;
+		    		}
+		    	}
+	    	}
+		
+		input[type="text"], input[type="email"] {
+			display: none;
+		}
+		.checkboxen {
+			.customCheckbox {
+				 display: block;
+				 position: relative;
+				 padding-left: 35px;
+				 margin-bottom: 12px;
+				 cursor: pointer;
+				 font-size: 20px;
+				 font-weight: 300;
+				 -webkit-user-select: none;
+				 -moz-user-select: none;
+				 -ms-user-select: none;
+				 user-select: none;
+				 &:last-child {
+				 	margin-bottom: 0;
+				 }
+				 &:hover {
+				 	
+				 } 
+				 input {
+					position: absolute;
+					opacity: 0;
+					cursor: pointer;
+					height: 0;
+					width: 0;
+					&:hover { 
+						&~ .checkmark {
+						  background-color: $color-primary;
+						}
+					}
+					&:checked ~ .checkmark {
+					  background-color: #fff;
+					}
+					&:checked {
+						&~ .checkmark:after {
+					  		display: block;
+						}
+					}
+				 }
+				 .checkmark {
+					position: absolute;
+					top: 3px;
+					left: 0;
+					height: 20px;
+					width: 20px;
+					background-color: #fff;
+					border: 1px solid $color-secondary-1;
+					border-radius: 3px;
+					&:after {
+					  content: "";
+					  position: absolute;
+					  display: none;
+					}
+					&:after {
+					  	left: 8px;
+					    top: -5px;
+					    width: 11px;
+					    height: 20px;
+					    border: solid #86ed18;
+					    border-width: 0 3px 3px 0;
+					    -webkit-transform: rotate(45deg);
+						-ms-transform: rotate(45deg);
+						transform: rotate(45deg);
+					}
+				 }		  	
+			}
+		}
+	}
+	
+	/* Hauptformular */
+	&.form-2 {
+		input, select {
+			text-align: center;
+		}
+		
+		.button-set {
+			margin: $gutter-l auto 0;
+			button, input {
+				padding-left: $gutter-l;
+				padding-right: $gutter-l;
+			}
+		}
+		
+		.customSelect {
+			position: relative;
+			.select-selected {
+				border-left: 0 none;
+				border-right: 0 none;
+				border-top: 0 none;
+				margin-bottom: 0;
+				text-align: center;
+				position: relative;
+				z-index: 2;
+				&:after {
+					content: "\e5ca";
+				    width: $gutter-l;
+				    height: 100%;
+				    display: inline-block;
+				    right: 0;
+				    position: absolute;
+				    padding: 5px;
+				    top: 0;
+				    font-family: streamline;
+				    -webkit-transition-duration: 0.8s;
+				    -moz-transition-duration: 0.8s;
+				    -o-transition-duration: 0.8s;
+				    transition-duration: 0.8s;
+				    -webkit-transition-property: -webkit-transform;
+				    -moz-transition-property: -moz-transform;
+				    -o-transition-property: -o-transform;
+				     transition-property: transform;
+				     transform-origin: 50% 50%;
+				     -moz-transform-origin: 50% 50%;
+					-ms-transform-origin: 50% 50%;
+					-o-transform-origin: 50% 50%;
+					-webkit-transform-origin: 50% 50%;
+					line-height: 30px;
+				}
+				&.active {
+					&:after {
+						transform: rotateX(180deg);
+						-webkit-transform:rotateX(180deg);
+					    -moz-transform:rotateX(180deg); 
+					    -o-transform:rotateX(180deg);
+					}
+				}
+				&.error {
+					border-color: red;
+				}
+			}
+			.select-hide {
+				display: none;
+			}
+			.select-items {
+			    position: absolute;
+			    width: 100%;
+			    border-bottom: 2px solid $color-secondary-1;
+			    background-color: #ffffff;
+			    z-index: 10;
+			    padding: 0;
+			    cursor: pointer;
+			    > div {
+			    	text-align: center;
+			    	padding: 5px;
+			    	line-height: 1.5;
+			    	&:hover {
+			    		background-color: $color-primary;
+			    		color: #fff;
+			    	}
+			    }
+			}
+			.group {
+				margin-bottom: 0;
+				margin-top: 20px;
+			}
+		}
+		
+		.group {
+			position: relative;
+		    padding-top: 10px;
+		    margin: 20px 0 0;
+		 	&:hover {
+		 		label {
+			    	color: $color-primary;
+			    }
+			}
+			label {
+			    -webkit-transition: all .3s cubic-bezier(.4,.1,.2,1);
+			    -moz-transition: all .3s cubic-bezier(.4,.1,.2,1);
+			    transition: all .3s cubic-bezier(.4,.1,.2,1);
+		        position: absolute;
+			    bottom: 5px;
+			    left: 0;
+			    color: rgba(0,0,0,.75);
+			    font-size: 18px;
+			    pointer-events: none;
+			    z-index: 1;
+			    line-height: 30px;
+			    padding-right: 0;
+			    &.fixed {
+		    		font-size: 18px;
+					color: $color-primary;
+				    right: 0;
+				    bottom: 40px;
+			    }
+			    &.mobile {
+			    	display: none;
+			    }
+			}
+			input {
+				border-left: 0 none;
+				border-right: 0 none;
+				border-top: 0 none;
+				margin: 5px 0 0;
+				&:focus {
+					background-color: #fff;
+					color: $color-secondary-1;
+					&~label {
+						font-size: 16px;
+						color: $color-primary;
+					    right: 0;
+					    bottom: 40px;
+					}
+				}
+				&.error {
+					border-color: red;
+				}
+			}
+		}
+	}
+}
+
+p + form {
+  margin-top: $gutter-l;
+}
+
+.formSuccess {
+	min-height: 603px;
+	text-align: left;
+	padding-top: 60px;
+	margin-bottom: 40px;
+	display: none;
+}
+
+.formFail {
+	display: none;
+	text-align: left;
+	padding-top: 60px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1120px) {
+	form {	
+		&.form-2 {
+			.customSelect {
+				.select-items {
+				    > div {
+				    	font-size: 14px;
+				    }
+				}
+			}
+			input {
+				font-size: 14px; 
+			}
+			.group {
+				label {
+					font-size: 14px;
+					&.fixed {
+			    		font-size: 14px;
+				    }
+				}
+				input {
+					&:focus {
+						&~label {
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}   
+}
+
+@media screen and (max-width: 1045px) {
+	form {	
+		&.form-2 {
+			input {
+				font-size: 16px; 
+			}
+			.group {
+				label {
+					font-size: 16px;
+					&.fixed {
+			    		font-size: 16px;
+				    }
+				}
+				input {
+					&:focus {
+						&~label {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}   
+}
+
+@media screen and (max-width: 555px) {
+	form {	
+		&.form-2 {
+			.group {
+				label {
+					display: none;
+					&.mobile {
+			    		display: block;
+				    }
+				}
+			}
+		}
+	} 
+}

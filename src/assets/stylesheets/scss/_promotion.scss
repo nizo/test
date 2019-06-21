@@ -1,0 +1,135 @@
+.promotion {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: $font-size-xxs;
+  color: $color-grey;
+  line-height: 1;
+  border-bottom: 1px solid rgba(#000, 0.05);
+  .promotion-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: flex-end;
+    padding: $gutter-s $gutter-l;
+    position: relative;
+    background-color: #ffffff;
+    >ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      >li {
+        position: relative;
+        &+li {
+          margin-left: $gutter-m;
+        }
+        &:hover {
+          .promo-menu {
+            display: block;
+          }
+        }
+        &:first-child {
+            position: absolute;
+		    left: 40px;
+		    top: 0;
+    	    a {
+	    	    padding: 6px 20px 7px;
+			    color: #000;
+			    display: block;
+			    border: none;
+			    > span {
+			    	color: $color-primary;
+			    	font-size: 18px;
+			    	&::before {
+			    		font-size: 18px;
+			    		padding-right: 8px;
+			    		top: 3px;
+    					position: relative;
+			    	}
+			    }
+			    &:hover {
+			    	color: #ffffff;
+			    }
+		    }
+        }
+      }
+    }
+    a {
+      color: $color-grey;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+    .promo-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding-top: $gutter-s;
+      z-index: 100;
+      .promo-menu-content {
+        list-style: none;
+        padding: $gutter-m;
+        box-shadow: 0 0 5px rgba(#000, 0.25);
+        background-color: #fff;
+        li {
+          display: block;
+          &+li {
+            margin-top: $gutter-s;
+          }
+          a {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .promotion {
+    .promotion-content {
+      padding: $gutter-m;
+      > ul {
+      	> li {
+	      	&:first-child {
+	            left: 20px;
+			    a {
+		    	    padding: 16px 20px 17px;
+			    }
+	        }
+      	}
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .promotion {
+    .promotion-content {
+      > ul {
+      	> li {
+	      	&:first-child {
+	            display: none;
+	        }
+      	}
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .promotion {
+     display: none;
+    .promotion-content {
+      justify-content: center;
+      padding: $gutter-xs $gutter-m;
+      >ul {
+        >li {
+          display: none;
+        }
+      }
+    }
+  }
+}
