@@ -295,7 +295,7 @@ $r->addRoute('GET', '/cti-schnittstellen', function() {
     });
     
     $r->addRoute('GET', '/freshdesk-callcenter-software', function() {
-        $title = 'Freshdesk in Verbindung mit Call Center Software und VoIP-Telefonanlage';
+        $title = 'Freshdesk in Verbindung mit Call Center Software & VoIP-Telefonanlage';
         $description = 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool';
         $keywords = 'freshdesk,callcenter,voip,telefonanlage,ticketing,cti,integration,crm,tool';
         $background = 'bg-karriere';

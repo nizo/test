@@ -71,6 +71,9 @@
       <div class="col-3 flex">
         <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-freshdesk.svg" alt="Freshdesk integration">
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische <strong>Voice Tickets</strong> für Anrufe, <strong>Click-to-Dial</strong> und die <strong>Integration von Anrufdaten</strong> in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
+      	<div class="button-set centered">
+        	<a href="/freshdesk-callcenter-software" class="button secondary" title="Freshdesk Callcenter Software">Mehr erfahren</a>
+        </div>
       </div>
       <div class="col-3 flex">
         <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-hubspot.svg" alt="Hubspot integration">

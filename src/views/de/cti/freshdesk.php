@@ -2,7 +2,7 @@
   <div class="content wide">
     <header class="main-header">
       <div class="text no-padding">
-        <h1>CallOne Freshdesk-Connector</h1>
+        <h1>Freshdesk Callcenter-Software Connector</h1>
         <p class="primary">Verbinden Sie das Ticketingtool Freshdesk und CallOne auf Knopfdruck und pushen Sie Tickets in Echtzeit zu Ihren Agenten.</p>
         <nav class="site-nav shadowbox">
        		<ul class="menu">
@@ -32,11 +32,13 @@
 <div class="wrapper" id="beispiel">
   <div class="content narrow">
     <div class="shadow-box padding">
+      
       <div class="grid">
         <div class="col-2">
-        	<img src="/assets/images/icons_svg/small_37_2.svg" alt="Ticketing und Telefonie werden eins" title="Ticketing und Telefonie werden eins" />
+        	<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_37_2.svg" data-srcset="/assets/images/icons_svg/small_37_2.svg" alt="Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector" title="Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector" />
         </div>
         <div class="col-2">
+        	<h2>VoIP-Telefonanlage mit Freshdesk</h2>
         	<ul class="list approved-list">
               	<li><strong>Ticketing und Telefonie werden eins</strong> im Kundenservice. In Echtzeit erhalten Ihre Agenten den Anruf und das Ticket öffnet sich in Freshdesk.</li>
               	<li><strong>Zielgerichtetes Vorgehen</strong> Ihrer Agenten wird durch Zuordnung bereits geöffneter Tickets zu einem Kunden gewährleistet.</li>
