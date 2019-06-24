@@ -293,7 +293,19 @@ $r->addRoute('GET', '/cti-schnittstellen', function() {
         require_once('./views/de/cti/tableau.php');
         require_once('./layouts/footer.php');
     });
-       
+    
+    $r->addRoute('GET', '/freshdesk-callcenter-software', function() {
+        $title = 'Freshdesk in Verbindung mit Call Center Software und VoIP-Telefonanlage';
+        $description = 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool';
+        $keywords = 'freshdesk,callcenter,voip,telefonanlage,ticketing,cti,integration,crm,tool';
+        $background = 'bg-karriere';
+        $ogUrl = $GLOBALS['url'] . '/freshdesk-callcenter-software';
+        $canonical = $GLOBALS['url'] . '/freshdesk-callcenter-software';
+        require_once('./layouts/header.php');
+        require_once('./views/de/cti/freshdesk.php');
+        require_once('./layouts/footer.php');
+    });
+    
     $r->addRoute('GET', '/zendesk-cti-ticketing', function() {
         $title = 'CallOne Zendesk Integration';
         $description = 'Bester Kundenservice und effiziente Agenten — integrieren Sie Voice Tickets in Zendesk für ein optimales Kundenerlebnis im Callcenter auf allen Kanälen';
