@@ -70,7 +70,7 @@
   		</div>
   		<div class="col-2">
       		<div class="disturber centered">
-            	<span href="#" class="tertiary">Jetzt <strong>kostenfrei Testen</strong></span>
+            	<span class="tertiary">Jetzt <strong>kostenfrei Testen</strong></span>
             </div>
   			<div class="shadow-box padding centered">
   				<p>ab<strong class="h3"> 99,00 €</strong> / Monat<br>

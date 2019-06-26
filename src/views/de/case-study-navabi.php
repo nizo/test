@@ -24,7 +24,7 @@
         <p><strong>>95 %</strong> durchschnittliche Erreichbarkeit</p>
       </div>
       <div class="col-3">
-        <p><strong>< 1:30</strong> Minuten durchschnittliche Wartezeit</p>
+        <p><strong>&lt; 1:30</strong> Minuten durchschnittliche Wartezeit</p>
       </div>
     </div>
 

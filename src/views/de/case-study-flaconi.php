@@ -25,7 +25,6 @@
           </p>
         </blockquote>
       </div>
-    </div>
   </div>
 </div>
 
@@ -63,7 +62,6 @@
           </p>
         </blockquote>
       </div>
-    </div>
   </div>
 </div>
 

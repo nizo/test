@@ -284,7 +284,7 @@ $r->addRoute('GET', '/cti-schnittstellen', function() {
     
     $r->addRoute('GET', '/tableau-callcenter-connector', function() {
         $title = 'Tableau Callcenter Connector -Integrieren Sie Daten und Callcenter-KPI';
-        $description = 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Daten und Callcenter-KPIs in Ihre Tableau Dashboards.';
+        $description = 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Telefoniedaten und Callcenter-KPIs in Ihre Tableau Dashboards und Datenanalysen';
         $keywords = 'Integration,Tableau,Callcenter,KPI,Dashboard,Connector';
         $background = 'bg-karriere';
         $ogUrl = $GLOBALS['url'] . '/tableau-callcenter-connector';

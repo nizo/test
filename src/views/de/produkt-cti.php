@@ -23,7 +23,11 @@
         </nav>
       </div>
       <div class="media">
-        <img src="/assets/images/photos/callone_source_color.png" alt="CallOne Integrations" class="mobile-hidden" />
+      	<picture>
+          <source srcset="/assets/images/photos/callone_source_color.webp" type="image/webp">
+          <source srcset="/assets/images/photos/callone_source_color.png" type="image/png">
+          <img src="/assets/images/photos/callone_source_color.png" alt="CallOne Integrations" class="mobile-hidden" />          	      
+		</picture>
       </div>
     </header>
   </div>

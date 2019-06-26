@@ -22,7 +22,11 @@
         </nav>
       </div>
       <div class="media">
-        <img src="/assets/images/photos/callcenter-cockpit-dashboard-tableau.png" alt="Callcenter Cockpit Dashboard Tableau" title="Callcenter Cockpit Dashboard Tableau" class="mobile-hidden" />
+      	<picture>
+          <source srcset="/assets/images/photos/callcenter-cockpit-dashboard-tableau.webp" type="image/webp">
+          <source srcset="/assets/images/photos/callcenter-cockpit-dashboard-tableau.png" type="image/png">
+          <img src="/assets/images/photos/callcenter-cockpit-dashboard-tableau.png" alt="Callcenter Cockpit Dashboard Tableau" title="Callcenter Cockpit Dashboard Tableau" class="mobile-hidden" />          	      
+		</picture>
       </div>
     </header>
   </div>
@@ -61,7 +65,7 @@
   	<div class="content narrow">
         <div class="shadow-box">
             <div class="video">
-              <video controls="" preload="none" onclick="this.play();" poster="/assets/images/photos/callcenter-tableau-video-poster.jpg" class="trackedElement" data-label="Tableau WebDataConnector" data-category="Video" data-action="Play Video">
+              <video controls="" preload="none" onclick="this.play();" poster="/assets/images/photos/callcenter-tableau-video-poster.webp" class="trackedElement" data-label="Tableau WebDataConnector" data-category="Video" data-action="Play Video">
                 <source src="/assets/videos/callone-tableau.webm" type="video/webm">
             	<source src="/assets/videos/callone-tableau.mp4" type="video/mp4">
               </video>
@@ -81,7 +85,11 @@
               </ul>
             </div>
             <div class="col-2">
-              <img src="/assets/images/photos/tableau-callcenter-connector-dashboard.jpg" alt="tableau callcenter connector dashboard" title="tableau callcenter connector dashboard" />
+            	<picture>
+                  <source srcset="/assets/images/photos/tableau-callcenter-connector-dashboard.webp" type="image/webp">
+                  <source srcset="/assets/images/photos/tableau-callcenter-connector-dashboard.jpg" type="image/jpg">
+                  <img src="/assets/images/photos/tableau-callcenter-connector-dashboard.jpg" alt="tableau callcenter connector dashboard" title="tableau callcenter connector dashboard" />          	      
+        		</picture>
             </div>
           </div>    
         </div>
@@ -213,7 +221,11 @@
 		</div>
 		<div class="col-3 cross centerContent mobile-hidden">
 			<div class="shadow-box autoWidth gradient-sw">
-				<img src="/assets/images/photos/grabellus-sw.png" alt="Jamie Grabellus CallOne">
+				<picture>
+                  <source srcset="/assets/images/photos/grabellus-sw.webp" type="image/webp">
+                  <source srcset="/assets/images/photos/grabellus-sw.png" type="image/png">
+                  <img src="/assets/images/photos/grabellus-sw.png" alt="Kontaktieren Sie uns zum Thema Tableau Callcenter Connector" title="Telefonische Beratung zum Thema Tableau Callcenter Connector">          	      
+        		</picture>
 			</div>
 		</div>
 		<div class="col-3">

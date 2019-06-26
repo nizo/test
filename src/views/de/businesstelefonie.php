@@ -37,8 +37,8 @@
       <div class="shadow-box">
         <div class="image-grid">
           <div class="image padding">
-            <img src="/assets/images/icons_svg/big_01.svg" alt="Telefonie Integration CRM" />
-            <img src="/assets/images/client-logos/CRM-logos.svg" alt="CRM" />
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_01.svg" data-srcset="/assets/images/icons_svg/big_01.svg" alt="Telefonie Integration CRM" title="Telefonie Integration CRM" />
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/CRM-logos.svg" data-srcset="/assets/images/client-logos/CRM-logos.svg" alt="CRM" />
           </div>
           <div class="text">
             <h2>Telefonie, verbunden mit Ihrem CRM</h2>
@@ -60,7 +60,7 @@
       <div class="shadow-box">
         <div class="image-grid">
           <div class="image padding">
-            <img src="/assets/images/icons_svg/big_05.svg" alt="Sales Lösung" />
+          	<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_05.svg" data-srcset="/assets/images/icons_svg/big_05.svg" alt="Sales Lösung" title="Sales Lösung" />
           </div>
           <div class="text">
             <h2>Mehr qualitative Sales, glückliche Kunden</h2>
@@ -82,7 +82,7 @@
       <div class="shadow-box">
         <div class="image-grid">
           <div class="image padding">
-            <img src="/assets/images/icons_svg/big_03.svg" alt="Optimieren mit echten Daten" />
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_03.svg" data-srcset="/assets/images/icons_svg/big_03.svg" alt="Sales Lösung" title="Optimieren mit echten Daten" />
           </div>
           <div class="text">
             <h2>Optimieren mit echten Daten</h2>

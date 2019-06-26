@@ -29,7 +29,7 @@
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
-          <img src="/assets/images/photos/jamie.svg" alt="" />
+          <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/jamie.jpg" data-srcset="/assets/images/photos/jamie.jpg" alt="Jamie - Projektleiterin CallOne" title="Jamie - Projektleiterin CallOne" />
         </div>
         <div class="col-2">
           <blockquote>
@@ -50,7 +50,7 @@
 
 <div class="wrapper">
   <div class="content thin centered">
-    <img src="/assets/images/icons_png/big_karriere.png" alt="">
+    <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_png/big_karriere-8bit.png" data-srcset="/assets/images/icons_png/big_karriere-8bit.png"  alt="Karriere bei CallOne - Arbeiten in einem tollen Team" title="Karriere bei CallOne - Arbeiten in einem tollen Team" />
   </div>
 
   <div class="content narrow centered">
@@ -108,19 +108,19 @@
     <div class="grid">
       <div class="col-3">
         <h3 class="h2">Berlin</h3>
-        <img src="/assets/images/photos/CO-berlin.png" alt="Berlin" />
+        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-berlin.jpg" data-srcset="/assets/images/photos/CO-berlin.jpg" alt="Standort Berlin" title="Standort Berlin" />
         <p>Hugo-Vogel-Str. 23, 14109 Berlin<br>
         +49 (0) 30-920 33 500</p>
       </div>
       <div class="col-3">
-        <h2 class="h2">Mainz</h3>
-        <img src="/assets/images/photos/CO-mainz.png" alt="Mainz" />
+        <h3 class="h2">Mainz</h3>
+        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-mainz.jpg" data-srcset="/assets/images/photos/CO-mainz.jpg" alt="Standort Mainz" title="Standort Mainz" />
         <p>Friedrich-Koenig-Straße 25a, 55129 Mainz<br>
         +49 (0) 6131-950 49 60</p>
       </div>
       <div class="col-3">
         <h3 class="h2">Potsdam</h3>
-        <img src="/assets/images/photos/CO-potsdam.png" alt="Potsdam" />
+        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-potsdam.jpg" data-srcset="/assets/images/photos/CO-potsdam.jpg" alt="Standort Potsdam" title="Standort Potsdam" />
         <p>Charlottenstr. 107, 14467 Potsdam<br>
         +49 (0) 331-968 94 700
         </p>

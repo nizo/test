@@ -89,7 +89,8 @@
 <div class="wrapper">
   <div class="content wide">
     <div class="video">
-      <video controls="" preload="none" poster="/assets/images/photos/poster-video-callcenter-cloud-acd.png" onclick="this.play();" class="trackedElement" data-label="CallOneACD" data-category="Video" data-action="Play Video">
+      <video controls="" preload="none" poster="/assets/images/photos/poster-video-callcenter-cloud-acd.webp" onclick="this.play();" class="trackedElement" data-label="CallOneACD" data-category="Video" data-action="Play Video">
+        <source src="/assets/videos/CallOneACD_HD.webm" type="video/webm">
         <source src="/assets/videos/CallOneACD_1080p_7Mbit.mp4" type="video/mp4" class="hd">
         <source src="/assets/videos/CallOneACD_1080p_1Mbit.mp4" type="video/mp4" class="sd">
       </video>

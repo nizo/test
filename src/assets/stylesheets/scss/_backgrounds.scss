@@ -37,7 +37,9 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	}
 }
 .bg-landingpages {
-  background-image: url('/assets/images/backgrounds_png/pattern-allcolors-landingpages.png');
+	&.visible {
+		background-image: url('/assets/images/backgrounds_png/pattern-allcolors-landingpages.png');
+	}
 }
 .bg-preisanfrage {
 	&.visible {
@@ -50,7 +52,9 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   	}
 }
 .bg-casestudy {
-  background-image: url('/assets/images/backgrounds_png/pattern-green-casestudy.png');
+	&.visible {
+  		background-image: url('/assets/images/backgrounds_png/pattern-green-casestudy.png');
+  	}
 }
 .bg-karriere {
 	&.visible {
@@ -58,10 +62,14 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   	}
 }
 .bg-ueberuns {
-  background-image: url('/assets/images/backgrounds_png/pattern-green-ueberuns.png');
+	&.visible {
+		background-image: url('/assets/images/backgrounds_png/pattern-green-ueberuns.png');
+	}
 }
 .bg-businesstelefonie {
-  background-image: url('/assets/images/backgrounds_png/pattern-purple-businesstelefonie.png');
+	&.visible {
+		background-image: url('/assets/images/backgrounds_png/pattern-purple-businesstelefonie.png');
+	}
 }
 .bg-kundenservice {
 	&.visible {
@@ -69,5 +77,7 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   	}
 }
 .bg-testen {
-  background-image: url('/assets/images/backgrounds_png/pattern-purple-testen.png');
+	&.visible {
+  		background-image: url('/assets/images/backgrounds_png/pattern-purple-testen.png');
+  	}
 }
