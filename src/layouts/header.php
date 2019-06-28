@@ -22,11 +22,12 @@
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width = device-width, initial-scale = 1.0, user-scalable = no" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/assets/stylesheets/application.min.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css" />
-    <!--[if lte IE 9]>
-      <link href='/assets/stylesheets/animations-ie-fix.min.css' rel='stylesheet'>
-    <![endif]-->
+    
+    <!-- Load CSS -->
+    <?php
+        // null -> std-drirectory
+        loadCSS(null);
+    ?>    
     <?php if (isset($canonical)): ?>
     	<link rel="canonical" href="<?= $canonical ?>" />
     <?php endif; ?>	
@@ -46,6 +47,9 @@
 	           	"https://de-de.facebook.com/CallOneGmbH/"
           ]
         }
+    </script>
+    <script>
+    	var jsFiles = [];
     </script>
   </head>
   <body class="<?php echo $background; ?> lazyBackground">

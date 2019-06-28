@@ -201,6 +201,10 @@
     </div>  
 
     <script src="/assets/javascripts/libs/jquery-3.3.1.min.js"></script>
-    <script src="/assets/javascripts/application.min.js"></script>
+    
+    <?php
+        loadJS(null);
+    ?>
+    
   </body>
 </html>

@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="business"></div>
-        <script src="/assets/animations/svg/business.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/business.js");</script>
       </div>
       <div class="text">
       	<img src="/assets/images/client-logos/apo-discounter.svg" alt="Neues Callcenter Konzept - Apodiscounter" class="logo"/>

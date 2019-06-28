@@ -55,7 +55,7 @@ gulp.task('styles', function() {
       console.log(details.name + ' Original size: ' + details.stats.originalSize / 1000 + 'kB');
       console.log(details.name + ' Minified size: ' + details.stats.minifiedSize / 1000 + 'kB');
     }))
-    .pipe(rename('application.min.css'))
+    .pipe(rename('application-'+((new Date()).getTime())+'.min.css'))
     .pipe(gulp.dest(paths.stylesheets));
 });
 
@@ -74,7 +74,7 @@ gulp.task('scripts', function() {
 	.pipe(uglify().on('error', function(e){
         console.log(e);
      }))
-    .pipe(concat('application.min.js'))
+    .pipe(concat('application-'+((new Date()).getTime())+'.min.js'))
     .pipe(gulp.dest(paths.javascripts));
 });
 

@@ -57,7 +57,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="kundenservice"></div>
-        <script src="/assets/animations/svg/kundenservice.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/kundenservice.js");</script>
       </div>
       <div class="text">
         <h1>Ihr Kundenservice mit unserer Callcenter-Software</h1>
@@ -89,7 +89,7 @@
 <div class="wrapper">
   <div class="content wide">
     <div class="video">
-      <video controls="" preload="none" poster="/assets/images/photos/poster-video-callcenter-cloud-acd.webp" onclick="this.play();" class="trackedElement" data-label="CallOneACD" data-category="Video" data-action="Play Video">
+      <video controls="" preload="none" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/poster-video-callcenter-cloud-acd.png" onclick="this.play();" class="trackedElement lazyPoster" data-label="CallOneACD" data-category="Video" data-action="Play Video">
         <source src="/assets/videos/CallOneACD_HD.webm" type="video/webm">
         <source src="/assets/videos/CallOneACD_1080p_7Mbit.mp4" type="video/mp4" class="hd">
         <source src="/assets/videos/CallOneACD_1080p_1Mbit.mp4" type="video/mp4" class="sd">

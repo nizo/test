@@ -11,7 +11,7 @@
       </div>
       <div class="media animation">
         <div id="lottie" class="price"></div>
-        <script src="/assets/animations/svg/preisanfrage.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/preisanfrage.js");</script>
       </div>
     </header>
   </div>

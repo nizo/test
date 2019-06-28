@@ -65,7 +65,7 @@
   	<div class="content narrow">
         <div class="shadow-box">
             <div class="video">
-              <video controls="" preload="none" onclick="this.play();" poster="/assets/images/photos/callcenter-tableau-video-poster.webp" class="trackedElement" data-label="Tableau WebDataConnector" data-category="Video" data-action="Play Video">
+              <video controls="" preload="none" onclick="this.play();" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/callcenter-tableau-video-poster.jpg" class="trackedElement lazyPoster" data-label="Tableau WebDataConnector" data-category="Video" data-action="Play Video">
                 <source src="/assets/videos/callone-tableau.webm" type="video/webm">
             	<source src="/assets/videos/callone-tableau.mp4" type="video/mp4">
               </video>

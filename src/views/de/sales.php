@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="sales"></div>
-        <script src="/assets/animations/svg/sales.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/sales.js");</script>
       </div>
       <div class="text">
         <h1>Das Telefon ist Ihr wichtigster Sales-Partner</h1>

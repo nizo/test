@@ -11,7 +11,7 @@
       </div>
       <div class="media animation">
         <div id="lottie" class="job"></div>
-        <script src="/assets/animations/svg/karriere.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/karriere.js");</script>
       </div>
     </header>
   </div>

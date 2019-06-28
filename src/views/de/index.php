@@ -90,7 +90,7 @@
       </div>
       <div class="col-2">
         <div class="video">
-          <video controls preload="none" poster="/assets/images/photos/poster-video-client-check24.jpg" class="trackedElement" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" onclick="this.play();">
+          <video controls preload="none" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/poster-video-client-check24-550x309.jpg" class="trackedElement lazyPoster" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" onclick="this.play();">
             <source src="/assets/videos/Callone-Casestudy-Check24-720p.webm" type="video/webm">
             <source src="/assets/videos/Callone-Casestudy-Check24-720p.mp4" type="video/mp4">
           </video>
