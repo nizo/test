@@ -36,7 +36,7 @@
   <div class="content thin centered">
   	<div class="shadow-box padding">
       	<div id="lottie" class="calltracking"></div>
-        <script src="/assets/animations/svg/calltracking.js" async></script>
+        <script>jsFiles.push("/assets/animations/svg/calltracking.js");</script>
     </div>
   </div>
   <div class="content narrow centered">

@@ -25,7 +25,7 @@
         <p>Auswertung <strong>aller Daten</strong> mit Tableau</p>
       </div>
       <div class="col-4">
-        <p><strong>< 1 Min.</strong> durchschnitt-licher Wartezeit</p>
+        <p><strong>&lt; 1 Min.</strong> durchschnitt-licher Wartezeit</p>
       </div>
     </div>
   </div>
@@ -34,9 +34,9 @@
 <div class="wrapper">
   <div class="content wide">
     <div class="video">
-      <video controls preload="none" poster="/assets/images/photos/poster-video24.jpg" onclick="this.play();" autostart="false" class="trackedElement" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" >
-        <source src="/assets/videos/Callone Casestudy - Check24 720p,webm" type="video/webm; codecs=vp8,vorbis" >
-        <source src="/assets/videos/Callone Casestudy - Check24 720p.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+      <video controls preload="none" poster="/assets/images/photos/poster-video24.webp" onclick="this.play();" class="trackedElement" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" >
+        <source src="/assets/videos/Callone-Casestudy-Check24-720p.webm" type='video/webm; codecs="vp8,vorbis"' >
+        <source src="/assets/videos/Callone-Casestudy-Check24-720p.mp4" type='video/mp4; codecs="avc1.42E01E,mp4a.40.2"'>
       </video>
     </div>
   </div>
@@ -56,7 +56,11 @@
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
-          <img src="/assets/images/photos/check24-dr-rainer-klipp.jpg" alt="Check24 - Dr. Rainer Klipp" />
+        	<picture class="lazyPicture">
+              <source srcset="/assets/images/photos/placeholder.webp" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.webp" type="image/webp">
+              <source srcset="/assets/images/photos/placeholder.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" type="image/jpg">
+              <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-dr-rainer-klipp.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" alt="Check24 - Dr. Rainer Klipp" title="Check24 - Dr. Rainer Klipp" />          	      
+            </picture>
         </div>
         <div class="col-2">
           <blockquote class="max-padding-bottom">
@@ -252,7 +256,7 @@
         <div class="text"> 	
             <div class="grid">
               <div class="col-3 centered">
-                <h3>< 1 Min durchschnittliche Wartedauer</h3>
+                <h3>&lt; 1 Min durchschnittliche Wartedauer</h3>
               </div>
               <div class="col-3 centered">
                 <h3>Überdurchschnittliche Erreichbarkeit</h3>

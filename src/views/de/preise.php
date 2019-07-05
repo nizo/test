@@ -11,7 +11,7 @@
       </div>
       <div class="media animation">
         <div id="lottie" class="price"></div>
-        <script src="/assets/animations/svg/preisanfrage.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/preisanfrage.js");</script>
       </div>
     </header>
   </div>
@@ -70,7 +70,7 @@
   		</div>
   		<div class="col-2">
       		<div class="disturber centered">
-            	<span href="#" class="tertiary">Jetzt <strong>kostenfrei Testen</strong></span>
+            	<span class="tertiary">Jetzt <strong>kostenfrei Testen</strong></span>
             </div>
   			<div class="shadow-box padding centered">
   				<p>ab<strong class="h3"> 99,00 €</strong> / Monat<br>

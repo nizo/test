@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="sales"></div>
-        <script src="/assets/animations/svg/sales.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/sales.js");</script>
       </div>
       <div class="text">
         <h1>Das Telefon ist Ihr wichtigster Sales-Partner</h1>
@@ -182,17 +182,19 @@
       </blockquote>
     </div> -->
 
-    <!-- 
+    
 	<div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/vimcar.svg" alt="" /></p>
+        <p>
+        	<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/vimcar.svg" data-srcset="/assets/images/client-logos/vimcar.svg" alt="Kundenmeinung Vimcar" />
+        </p>
         <p>„Mit der Pipedrive-Integration von CallOne und deren Click2Call-Funktion kann unser Salesteam erheblich schneller und effizienter arbeiten und wir haben das tägliche Anrufaufkommen stets im Blick.“</p>
         <p class="bold">
           Felix Helinski<br />
           Director of Sales Operations
         </p>
       </blockquote>
-    </div> -->
+    </div>
     
     <div class="shadow-box">
       <blockquote>

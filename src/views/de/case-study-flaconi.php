@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="business"></div>
-        <script src="/assets/animations/svg/business.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/business.js");</script>
       </div>
       <div class="text">
       	<img src="/assets/images/client-logos/logo-flaconi-2.svg" alt="Dufte Anrufsteuerung - Flaconi.de" class="logo"/>
@@ -25,7 +25,6 @@
           </p>
         </blockquote>
       </div>
-    </div>
   </div>
 </div>
 
@@ -63,7 +62,6 @@
           </p>
         </blockquote>
       </div>
-    </div>
   </div>
 </div>
 

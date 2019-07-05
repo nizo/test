@@ -50,6 +50,20 @@
   </div>
 </div>
 
+<div class="wrapper breather">
+  <div class="content narrow small">
+  	<div class="grid">
+  		<div class="col-1">
+  			<img class="lazy icon" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_07_2_2_white.svg" data-srcset="/assets/images/icons_svg/small_07_2_2_white.svg" alt="Mehr Inforamtionen zu unserer Freshdesk Integration - Callcenter Connector" title="Mehr Inforamtionen zu unserer Freshdesk Integration Callcenter Connector auf dem Freshworks Marketplace" />
+  		</div>	
+  	</div>
+    <h2 class="h1">Erfahren Sie mehr über unseren Freshdesk Callcenter Connector</h2>
+    <div class="button-set">
+      <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration" target="_blank" class="button primary trackedElement" data-label="Button - Freshworks Marketplace" data-category="Link" data-action="linked to Freshworks Marketplace" title="Zum Freshworks Marketplace - Call Center Connector for Voice Ticket Integration" >Freshworks Marketplace</a>
+    </div>
+  </div>
+</div>
+
 <div class="wrapper" id="funktionen">
   <div class="content wide centered">
       <div class="grid">

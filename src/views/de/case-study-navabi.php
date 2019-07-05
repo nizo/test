@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="business"></div>
-        <script src="/assets/animations/svg/business.js"></script>
+        <script>jsFiles.push("/assets/animations/svg/business.js");</script>
       </div>
       <div class="text">
       	<img src="/assets/images/client-logos/navabi-logo.svg" alt="Plus-Size Telefonielösung - navabi" class="logo"/>
@@ -24,7 +24,7 @@
         <p><strong>>95 %</strong> durchschnittliche Erreichbarkeit</p>
       </div>
       <div class="col-3">
-        <p><strong>< 1:30</strong> Minuten durchschnittliche Wartezeit</p>
+        <p><strong>&lt; 1:30</strong> Minuten durchschnittliche Wartezeit</p>
       </div>
     </div>
 

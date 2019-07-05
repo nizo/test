@@ -4,7 +4,7 @@
   </a>
   <ul class="menu">
     <li>
-      <a href="#" class="arrow" title="Produkte">Produkte</a>
+      <a class="arrow" title="Produkte">Produkte</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
           <!-- <strong class="headline">Produkte</strong> -->
@@ -54,7 +54,7 @@
               </a>
             </li>
 			<li>
-              <a href="/call-tracking" class="product" title="Call-Tracking">
+              <a href="/call-tracking" class="product" title="Call-Tracking, Telefon-tracking, Co-Browsing-Session">
               	<span class="img">
               		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_36.svg" data-srcset="/assets/images/icons_svg/small_36.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
               	</span>
@@ -69,7 +69,7 @@
       </div>
     </li>
     <li>
-      <a href="#" class="arrow" title="Telefonie-Lösungen">Telefonie-Lösungen</a>
+      <a class="arrow" title="Telefonie-Lösungen">Telefonie-Lösungen</a>
       <div class="submenu">
         <div class="submenu-content">
           <strong class="headline">Lösungen</strong>
@@ -100,7 +100,7 @@
       </div>
     </li>
     <li>
-      <a href="#" class="arrow" title="Referenzen">Referenzen</a>
+      <a class="arrow" title="Referenzen">Referenzen</a>
       <div class="submenu">
         <div class="submenu-content">
           <strong class="headline">Case Studies</strong>

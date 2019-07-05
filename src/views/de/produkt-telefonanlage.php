@@ -22,7 +22,11 @@
         </nav>
       </div>
       <div class="media">
-        <img src="/assets/images/photos/telefonanlage.png" alt="CallOne VoIP-Telefonanlagen" class="mobile-hidden" />
+      	<picture>
+          <source srcset="/assets/images/photos/telefonanlage.webp" type="image/webp">
+          <source srcset="/assets/images/photos/telefonanlage.png" type="image/png">
+          <img src="/assets/images/photos/telefonanlage.png" alt="CallOne VoIP-Telefonanlagen" class="mobile-hidden" />          	      
+		</picture>
       </div>
     </header>
   </div>
@@ -126,10 +130,10 @@
     <p>Integrieren Sie ihr CRM, ihr Helpdesk und vieles mehr. Unsere Telefonielösung integriert sich nahtlos in die Businesslösungen unserer Kunden, indem sie Technologien zusammenschaltet. Mit Schnittstellen und fertigen Apps verbinden wir CRM, Helpdesk, BI- und andere Software, für effiziente Anrufbearbeitung.</p>
   	<div class="shadow-box">
       	<picture>
-          <source media="(max-width: 555px)" srcset="/assets/images/photos/integrationen-callone-mobile.jpg">
+          <source media="(max-width: 555px)" srcset="/assets/images/photos/integrationen-callone-mobile.webp" type="image/webp">
+          <source media="(max-width: 555px)" srcset="/assets/images/photos/integrationen-callone-mobile.jpg" type="image/jpg">          
           <img src="/assets/images/photos/integrationen-callone.jpg" alt="CallOne Integrationen" />
         </picture>
-  		
   	</div>
   </div>
 </div>
@@ -230,7 +234,11 @@
 		</div>
 		<div class="col-3 cross centerContent mobile-hidden">
 			<div class="shadow-box autoWidth gradient-sw">
-				<img src="/assets/images/photos/bendig-sw.png" alt="Björn Bendig CallOne">
+    			<picture>
+                  <source srcset="/assets/images/photos/bendig-sw.webp" type="image/webp">
+                  <source srcset="/assets/images/photos/bendig-sw.png" type="image/png">
+                  <img src="/assets/images/photos/bendig-sw.png" alt="Björn Bendig - Kontaktieren Sie uns! Wir helfen Ihnen weiter." />          	      
+        		</picture>
 			</div>
 		</div>
 		<div class="col-3">
