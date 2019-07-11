@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie"></div>
-        <script src="/assets/animations/svg/homepage.js" async></script>
+        <script>jsFiles.push("/assets/animations/svg/homepage.js");</script>
       </div>
       <div class="text">
         <h1>Ihre Telefonanlage passt nicht mehr zu Ihrem Business</h1>
