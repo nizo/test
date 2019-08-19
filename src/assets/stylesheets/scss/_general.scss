@@ -263,6 +263,13 @@ img {
   &.no-margin-top {
   	margin-top: 0;
   }
+  &.audioline {
+	width: 100%;
+	background-image: url("/assets/images/illus/audioline.svg");
+	background-repeat-y: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+  }
   &.half-background {
     background-image: linear-gradient(#000, #000 65vh, transparent 65vh, transparent);
     .content {
@@ -273,6 +280,10 @@ img {
         &.p80 {
         	padding-top: 80px;
         }
+      }
+      > h2, > .h2 {
+		padding-top: $gutter-xl;
+		display: block;
       }
       > h1:first-of-type, > p:first-of-type, .white, > .h1, > h2, > .h2 {
         color: #fff;

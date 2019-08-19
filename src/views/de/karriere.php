@@ -9,7 +9,7 @@
           <a class="openModal button secondary trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
         </div>
       </div>
-      <div class="media animation">
+      <div class="media animation animation-bg lazyBackground karriere">
         <div id="lottie" class="job"></div>
         <script>jsFiles.push("/assets/animations/svg/karriere.js");</script>
       </div>

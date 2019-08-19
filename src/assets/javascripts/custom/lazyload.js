@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(function() {
         lazyImages.forEach(function(lazyImage) {
           lazyImage.style.visibility = "hidden";
-          if ((lazyImage.getBoundingClientRect().top <= window.innerHeight + 500 && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
+          
+          if ((lazyImage.getBoundingClientRect().top <= window.innerHeight + 300 && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
             lazyImage.src = lazyImage.dataset.src;
             lazyImage.srcset = lazyImage.dataset.srcset;
             lazyImage.classList.remove("lazy");
@@ -23,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
               return image !== lazyImage;
             });
 
-            if (lazyImages.length === 0) {
+            if (lazyVideoPosters.length === 0 && lazyPictures.length === 0 && lazyImages.length === 0) {
               document.removeEventListener("scroll", lazyLoad);
               window.removeEventListener("resize", lazyLoad);
               window.removeEventListener("orientationchange", lazyLoad);
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
         lazyPictures.forEach(function(lazyPicture) {
         	lazyPicture.style.visibility = "hidden";
         	
-        	if ((lazyPicture.getBoundingClientRect().top <= window.innerHeight && lazyPicture.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyPicture).display !== "none") {
+        	if ((lazyPicture.getBoundingClientRect().top <= window.innerHeight + 300 && lazyPicture.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyPicture).display !== "none") {
         		lazyPicture.srcset = lazyPicture.dataset.srcset;
         		lazyPicture.parentElement.classList.remove("lazy");
         		lazyPicture.style.visibility = "visible";
@@ -49,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     return image !== lazyPicture;
                   });
 
-                  if (lazyPictures.length === 0) {
+                  if (lazyVideoPosters.length === 0 && lazyPictures.length === 0 && lazyImages.length === 0) {
                     document.removeEventListener("scroll", lazyLoad);
                     window.removeEventListener("resize", lazyLoad);
                     window.removeEventListener("orientationchange", lazyLoad);
@@ -59,9 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
         
         lazyVideoPosters.forEach(function(lazyPoster) {
         	lazyPoster.style.visibility = "hidden";
-        	console.log("poster yey");
-            if ((lazyPoster.getBoundingClientRect().top <= window.innerHeight + 500 && lazyPoster.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyPoster).display !== "none") {
-            	console.log(lazyPoster.dataset.poster);
+        	
+        	if ((lazyPoster.getBoundingClientRect().top <= window.innerHeight + 300 && lazyPoster.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyPoster).display !== "none") {
               lazyPoster.poster = lazyPoster.dataset.poster;
               lazyPoster.classList.remove("lazyPoster");
               lazyPoster.style.visibility = "visible";
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 return image !== lazyPoster;
               });
 
-              if (lazyVideoPosters.length === 0) {
+              if (lazyVideoPosters.length === 0 && lazyPictures.length === 0 && lazyImages.length === 0) {
                 document.removeEventListener("scroll", lazyLoad);
                 window.removeEventListener("resize", lazyLoad);
                 window.removeEventListener("orientationchange", lazyLoad);
@@ -85,25 +85,30 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   
   /*** LazyLoading Javascript ***/
-  function lazyLoadingJS() {	
+  function lazyLoadingJS(width) {	
   	if ( jsFiles.length < 0 ) {
   		return;
-  	} else {
-  		for ( i = 0; i < jsFiles.length; i++ ) {
-  			var element = document.createElement("script");
-  		    element.src = jsFiles[i];
-  		    document.body.appendChild(element);
-  		}
-  	}   
+  	} 
+  	
+  	if ( window.screen.width <= width ) {
+  		return;
+  	} 
+  	
+	for ( i = 0; i < jsFiles.length; i++ ) {
+		var element = document.createElement("script");
+	    element.src = jsFiles[i];
+	    document.body.appendChild(element);
+	}
   }
 
 	if (window.addEventListener)
-	    window.addEventListener("load", lazyLoadingJS, false);
+	    window.addEventListener("load", lazyLoadingJS(1024), false);
 	//  less than or equal IE 8
 	else if (window.attachEvent)
-	    window.attachEvent("onload", lazyLoadingJS);
+	    window.attachEvent("onload", lazyLoadingJS(1024));
 	// all Browser
 	else window.onload = lazyLoadingJS;
+	
 
   document.addEventListener("scroll", lazyLoad);
   document.addEventListener("click", lazyLoad);
@@ -114,3 +119,12 @@ document.addEventListener("DOMContentLoaded", function() {
   else
 	  window.onload = lazyLoad;
 });
+
+/*** LazyLoading CSS ***/
+function lazyLoadingCss(filename) {
+    var l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = filename
+    var h = document.getElementsByTagName('head')[0];
+    h.parentNode.insertBefore(l, h);
+}

@@ -344,7 +344,7 @@ $r->addRoute('GET', '/voicebot', function() {
     $title = '';
     $description = '';
     $keywords = '';
-    $background = 'bg-landingpages';
+    $background = 'bg-casestudy';
     $ogUrl = $GLOBALS['url'] . '/voicebot';
     $canonical = $GLOBALS['url'] . '/voicebot';
     require_once('./layouts/header.php');

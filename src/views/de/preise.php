@@ -9,7 +9,7 @@
           <a href="/testen" class="button secondary trackedElement" data-label="Button Header - Individuelles Angebot einholen" data-category="Link" data-action="linked to /testen">Individuelles Angebot einholen</a>
         </div>
       </div>
-      <div class="media animation">
+      <div class="media animation animation-bg lazyBackground preis">
         <div id="lottie" class="price"></div>
         <script>jsFiles.push("/assets/animations/svg/preisanfrage.js");</script>
       </div>

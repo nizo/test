@@ -1,47 +1,32 @@
-<div class="wrapper">
+<div class="wrapper audioline">
   <div class="content wide">
     <header class="main-header">
-      <div class="text no-padding">
-        <h1>Auswahlmenüs am Telefon nerven - Wir schaffen das IVR-Menü ab</h1>
-        <strong class="h2">
-        	Anliegen Ihrer Anrufer automatisiert und sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
-        </strong>
-        <nav class="site-nav shadowbox">
-       		<ul class="menu">
-      			<li>
-      				<a href="#calltracking" class="arrow">Call-Tracking</a>
-      			</li>
-      			<li>
-      				<a href="#mehrwerte" class="arrow">Ihre Mehrwerte</a>
-      			</li>
-      			<li>
-      				<a href="#demos" class="arrow">Demo testen</a>
-      			</li>
-      			<li>
-      				<a href="#addons" class="arrow" target="_blank">Weitere Addons</a>
-      			</li>
-      		</ul>	
-        </nav>
+      <div class="grid centered">
+          <div class="col-1">
+            <h1>Auswahlmenüs am Telefon nerven<br>Wir schaffen das IVR-Menü ab</h1>
+            <p>
+            	CallOne bietet Voicebots, die Ihre Telefonhotline auf ein neues Level bringen und Telefon-Auswahlmenüs durch modulare Sprachassistenten ersetzen. Anrufanliegen werden automatisiert mittels natürlicher Spracheingabe gelöst und Ihren Agenten bleibt Zeit für die wichtigen Kundenthemen. (Dies bedeutet nie wieder: Drücken Sie die 1 für, drücken sie die 2 für…)
+            </p>
+          </div>
+          <div class="col-1">
+              <div class="button-set centered">
+                  	<a class="openModal button primary trackedElement" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Mit Experten sprechen</a>
+                  	<a href="/testen" class="button secondary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
+              </div>
+          </div>
       </div>
-      <div class="media centered">
-      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/calltracking.svg" data-srcset="/assets/images/illus/calltracking.svg" alt="Call-Tracking neu definiert" title="Call-Tracking neu definiert" class="lazy" />
-      </div>
+      <div class="grid centered">
+        <div class="col-1">
+        	<img src="/assets/images/illus/relaxing.svg">
+		</div>
+      </div>  
     </header>
   </div>
 </div>
 
 <div class="wrapper">
   <div class="content wide">
-  	<h2 class="h1 centered">Das sprachgesteuerte KI-Sprachdialogsystem - Der CallOne Voicebot</h2>
-  	<div class="shadow-box padding">
-      	<div class="grid">
-      		<div class="col-2">Bild</div>
-      		<div class="col-2"><p>CallOne bietet Voicebots, die Ihre Telefonhotline auf ein neues Level bringen und Telefon-Auswahlmenüs durch modulare Sprachassistenten ersetzen. Anrufanliegen werden automatisiert mittels natürlicher Spracheingabe gelöst und Ihren Agenten bleibt Zeit für die wichtigen Kundenthemen. (Dies bedeutet nie wieder: Drücken Sie die 1 für, drücken sie die 2 für…)</p></div>
-      	</div>
-  	</div>
-  </div>
-  <div class="content wide">
-  	<h2 class="h1 centered">Verwendungsmöglichkeiten</h2>
+  	<h2 class="centered">Verwendungsmöglichkeiten Voicebot <br>Das sprachgesteuerte KI-Sprachdialogsystem</h2>
   	<div class="grid tile">   
       <div class="col-3">
         <div class="disturber centered">
@@ -100,21 +85,55 @@
   </div>
 </div>
 
-<div class="wrapper" id="portieren-schalten">
+<div class="wrapper" id="integrations">
+  <div class="content wide">
+  	<h2 class="h1 centered">Nutzen</h2>
+  </div>
+  <div class="content wide right">
+  	<div class="content narrow">
+        <div class="shadow-box padding">
+          <div class="grid">
+            <div class="col-2">
+              <img src="/assets/images/illus/voicebot-business.gif" alt="Voicebot - Nutzen für Unternehmen" class="img-75" />
+            </div>
+            <div class="col-2">
+              <h3 class="h2">Unternehmen</h3>
+              <ul class="list approved-list">
+              	<li>Anliegen verstehen. Geld sparen. (Kürzere Anrufdauern)</li>
+              	<li>Service entlasten. Kürzere Gesprächszeiten (Optimale Vorqualifikation)</li>
+              	<li>Mehrsprachiger Kundenservice. Kein Problem. (Internationaler Rollout)</li>
+              </ul>
+            </div>
+          </div>    
+        </div>
+     </div>
+  </div>
+  <div class="content wide left">
+  	<div class="content narrow"> 
+        <div class="shadow-box padding">
+          <div class="grid">
+            <div class="col-2">
+              <h3 class="h2">Anrufer</h3>
+              <ul class="list approved-list">
+              	<li>Zufriedenere Anrufer durch natürliche Menüführung</li>
+              	<li>Optimale Übertragung des Anruferanliegen an den Servicemitarbeiter</li>
+              	<li>24/7 Erreichbarkeit für Ihre Anrufer</li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <img src="/assets/images/illus/schnelle-einfuehrung2.svg" alt="Schnelle und professionelle Einführung" class="img-75" />
+            </div>
+          </div>    
+        </div>
+    </div>
+  </div>
   <div class="content narrow centered">
-  <h2 class="h1 centered">Darum CallOne</h2>
-      <div class="grid">
-        <div class="col-2">
-          <img src="/assets/images/icons_svg/big_09.svg" alt="Ausfallsicher" class="icon">
-          <h3>Ausfallsicher</h3>
-          <p>Wir kommen auf eine durchschnittliche Uptime von <a href="#" target="_blank">99,995%</a>. Wir setzen auf <strong>Qualität</strong>, <strong>Sicherheit und Transparenz</strong>. Auf Wunsch erhalten Sie eigene SLA-Vereinbarungen.</p>
-        </div>
-        <div class="col-2">
-          <img src="/assets/images/icons_svg/small_01.svg" alt="Server in Deutschland" class="icon">
-          <h3>Server in DE</h3>
-          <p><strong>Sicherheit</strong> und <strong>Stabilität</strong> steht für uns <strong>an oberster Stelle</strong>. Unsere Server stehen verteilt in mehreren deutschen Hochsicherheitsrechenzentren.</p>
-        </div>
-      </div>    
+  	<p>Statt statischer Tasteneingaben bietet CallOne Anrufern damit einen natürlichen sprachgesteuerten Dialog, bei dem Worte und Wortzusammenhänge erkannt und als Routinginformation genutzt werden können.</p>
+  </div> 
+  <div class="content thin centered">
+    <div class="button-set centered">
+      <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+    </div>
   </div>
 </div>
 

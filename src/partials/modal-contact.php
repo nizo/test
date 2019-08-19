@@ -89,7 +89,7 @@
                         		<li>Weltweit einsetzbar</li>
                         		<li>Keine Servicerufnummernkosten</li>
                         	</ul>
-                        	<p class="left">Passt es Ihnen gerade nicht? <br />Jetzt <a href="https://calendly.com/bendig" target="_blank" title="Sagen Sie uns, wann es Ihnen passt. Wir rufen Sie dann zurück!">Termin buchen</a>. Wir rufen Sie dann zurück!</p>
+                        	<p class="left">Passt es Ihnen gerade nicht? <br />Jetzt <a href="https://calendly.com/bendig" rel="noreferrer" target="_blank" title="Sagen Sie uns, wann es Ihnen passt. Wir rufen Sie dann zurück!">Termin buchen</a>. Wir rufen Sie dann zurück!</p>
                         </form>
                         <div class="formSuccess">
                         	<div class="content narrow centered">

@@ -1,7 +1,7 @@
 <div class="wrapper">
   <div class="content wide noOverflow">
     <header class="main-header">
-      <div class="media animation">
+      <div class="media animation animation-bg lazyBackground sales">
         <div id="lottie" class="sales"></div>
         <script>jsFiles.push("/assets/animations/svg/sales.js");</script>
       </div>

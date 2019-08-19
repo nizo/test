@@ -5,14 +5,50 @@
   "hiringOrganization": {
     "@type": "Organization",
     "name": "CallOne GmbH",
-    "sameAs": "https://www.callone.de/karriere/technischer-produktmanager",
-    "logo": "https://www.callone.de/assets/images/logo/Logo.svg"
+    "sameAs": "https://www.callone.de",
+    "url": "https://www.callone.de/karriere/technischer-produktmanager",
+    "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
-  "datePosted": "2019-06-06",
-  "description": "Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit.\u003Cbr\u003E\u003Cbr\u003EWir haben es uns zum Ziel gesetzt Kundenservice richtig gut zu machen. Dafür brauchen wir dich als Technischer Projektmanager (m/w/d)!\u003Cbr\u003E\u003Cbr\u003EDu hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Dabei liebst du den Umgang mit anderen Menschen? Dann bist du bei uns genau richtig!\u003Cbr\u003E\u003Cbr\u003E\u003Cstrong\u003EWobei wir Deine Hilfe brauchen\u003Cbr\u003E\u003C/strong\u003E\u003Cul\u003E \u003Cli\u003EDu bringst deine Ideen und dein technisches Wissen in die stetige Weiterentwicklung unserer Produkte ein.\u003C/li\u003E \u003Cli\u003EIn enger Zusammenarbeit mit dem technischen Support erarbeitest du Konzepte zur ständigen Qualitätssteigerung.\u003C/li\u003E \u003Cli\u003EDu bietest Hilfestellung bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems.\u003C/li\u003E \u003Cli\u003EDu arbeitest eng mit deinen großartigen, smarten Kollegen zusammen und bekommst alle Unterstützung, die du brauchst.\u003C/li\u003E \u003Cbr\u003E\u003C/ul\u003E\u003Cstrong\u003EWas wir uns wünschen\u003Cbr\u003E\u003C/strong\u003E\u003Cul\u003E \u003Cli\u003ETechnisches Studium oder technische Ausbildung/ Arbeitserfahrung, gerne mit Programmier-Erfahrung.\u003C/li\u003E \u003Cli\u003EKlarer Kommunikationsstil, sowohl mündlich als auch schriftlich.\u003C/li\u003E \u003Cli\u003EBegeisterungsfähigkeit und Wissensdurst.\u003C/li\u003E \u003Cli\u003EEigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben.\u003C/li\u003E \u003Cli\u003EGute Kenntnisse in HTML, PHP, mySQL und JavaScript.\u003C/li\u003E \u003Cbr\u003E\u003C/ul\u003E\u003Cstrong\u003EWas wir Dir bieten\u003Cbr\u003E\u003C/strong\u003E\u003Cul\u003E \u003Cli\u003E\u003Cstrong\u003ELangfristig gute Arbeit.\u003C/strong\u003E Wir suchen enthusiastische Menschen, für die Job-Hopping nicht der Weg der Erlösung ist. Wir brauchen deine Expertise langfristig und so stimmen wir deinen Job mit deinem Leben ab.\u003C/li\u003E \u003Cli\u003E\u003Cstrong\u003EVertrauen und Freiraum.\u003C/strong\u003E Für uns zählt, wie du arbeitest, nicht wann. Flexible Arbeitszeiten ohne Überstunden und ein Wochenende, das dir gehört, dafür maximale Selbständigkeit und klarer Fokus bei der Arbeit.\u003C/li\u003E \u003Cli\u003E\u003Cstrong\u003EFlexibilität.\u003C/strong\u003E Du kannst uns in Berlin, Potsdam oder Mainz unterstützen, ganz so wie es dir passt.\u003C/li\u003E \u003Cli\u003E\u003Cstrong\u003EEin verdammt gutes und verdammt nettes Team.\u003C/strong\u003E Wir wollen nicht nur gegenseitig das Beste aus uns herausholen (denn dann macht es am meisten Spaß), wir kümmern uns auch umeinander, in jeder Lebenslage.\u003C/li\u003E \u003Cli\u003E\u003Cstrong\u003EKein Stress.\u003C/strong\u003E Ein Büro im Grünen und freundliche Kunden, sichtbare Ergebnisse deiner Arbeit und entsprechende Anerkennung.\u003C/li\u003E\u003C/ul\u003E",
-  "employmentType": "Full-time, part-time, contract, other",
+  "datePosted": "2019-08-07",
+  "validThrough": "2019-12-31",
+  "description": "  <p>
+                        <strong>Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit.</strong>
+                    </p>
+                    <p>Wir haben es uns zum Ziel gesetzt Kundenservice richtig gut zu machen. Dafür brauchen wir dich als Technischer Projektmanager (m/w/d)!<br>
+                        Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Dabei liebst du den Umgang mit anderen Menschen? Dann bist du bei uns genau richtig!
+                    </p>
+                    <p>
+                        <strong>Wobei wir Deine Hilfe brauchen</strong><br>
+                        <ul>
+                            <li>Du bringst deine Ideen und dein <strong>technisches Wissen</strong> in die stetige Weiterentwicklung unserer Produkte ein.</li>
+                            <li>In enger Zusammenarbeit mit dem technischen Support <strong>erarbeitest du Konzepte</strong> zur ständigen Qualitätssteigerung.</li>
+                            <li>Du bietest Hilfestellung bei Fragen zu <strong>Soft- und Hardware</strong>, sowie bei der Inbetriebnahme unseres Telefonsystems.</li>
+                            <li>Du <strong>arbeitest eng mit deinen großartigen, smarten Kollegen zusammen</strong> und bekommst alle <strong>Unterstützung</strong>, die du brauchst.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Was wir uns wünschen</strong><br>
+                        <ul>
+                            <li><strong>Technisches Studium oder technische Ausbildung/ Arbeitserfahrung</strong>, gerne mit Programmier-Erfahrung.</li>
+                            <li><strong>Klarer Kommunikationsstil</strong>, sowohl mündlich als auch schriftlich.</li>
+                            <li><strong>Begeisterungsfähigkeit</strong> und <strong>Wissensdurst</strong>.</li>
+                            <li><strong>Eigenständige</strong> und <strong>zuverlässige Arbeitsweise</strong>, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben.</li>
+                            <li>Gute Kenntnisse in HTML, PHP, mySQL und JavaScript.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Was wir Dir bieten</strong><br>
+                        <ul>
+                            <li><strong>Langfristig gute Arbeit</strong>. Wir suchen enthusiastische Menschen, für die Job-Hopping nicht der Weg der Erlösung ist. Wir brauchen deine Expertise langfristig und so stimmen wir deinen Job mit deinem Leben ab.</li>
+                            <li><strong>Vertrauen und Freiraum</strong>. Für uns zählt, wie du arbeitest, nicht wann. Flexible Arbeitszeiten ohne Überstunden und ein Wochenende, das dir gehört, dafür maximale Selbständigkeit und klarer Fokus bei der Arbeit.
+                            <li><strong>Flexibilität</strong>. Du kannst uns in Berlin, Potsdam oder Mainz unterstützen, ganz so wie es dir passt.</li>
+                            <li><strong>Ein verdammt gutes und verdammt nettes Team</strong>. Wir wollen nicht nur gegenseitig das Beste aus uns herausholen (denn dann macht es am meisten Spaß), wir kümmern uns auch umeinander, in jeder Lebenslage.</li>
+                            <li><strong>Kein Stress</strong>. Ein Büro im Grünen und freundliche Kunden, sichtbare Ergebnisse deiner Arbeit und entsprechende Anerkennung.</li>
+                        </ul>
+                    </p>",
+  "employmentType": "Full-time",
   "experienceRequirements": "Associate",
-  "image": "https://www.callone.de/assets/images/icons_svg/job_04.svg",
+  "image": "https://www.callone.de/assets/images/icons_png/job_04.png",
   "industry": "Telekommunikation",
   "jobLocation": {
     "@type": "Place",
@@ -26,11 +62,29 @@
             "@type": "Country",
             "name": "DE"
         }
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.75",
+        "longitude": "73.98"
     }
   },
-  "salaryCurrency": "EUR",
-  "skills": "Gute Kenntnisse in HTML, PHP, mySQL und JavaScript",
-  "title": "Technischer Projektleiter"
+   "salaryCurrency": "EUR",
+   "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR"
+  },
+  "responsibilities": "<p>
+                        <strong>Wobei wir Deine Hilfe brauchen</strong><br>
+                        <ul>
+                            <li>Du bringst deine Ideen und dein technisches Wissen in die stetige Weiterentwicklung unserer Produkte ein.</li>
+                            <li>In enger Zusammenarbeit mit dem technischen Support erarbeitest du Konzepte zur ständigen Qualitätssteigerung.</li>
+                            <li>Du bietest Hilfestellung bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems.</li>
+                            <li>Du arbeitest eng mit deinen großartigen, smarten Kollegen zusammen und bekommst alle Unterstützung, die du brauchst.</li>
+                        </ul>
+                       </p>",
+  "qualifications": "<p><strong>Technisches Studium oder technische Ausbildung/ Arbeitserfahrung</strong>, gerne mit Programmier-Erfahrung.</p>",
+  "title": "Technischer Projektleiter (m/w/d) - Potsdam"
 }
 </script>
 
@@ -58,7 +112,7 @@
 
 <div class="wrapper" id="more">
   <div class="content narrow centered">
-    <h1>Technischer Projektmanager (m/w/d)</h1>
+    <h1>Technischer Projektmanager (m/w/d) &ndash; Potsdam</h1>
     <p>In unserer Branche ist Kommunikation das Wichtigste &ndash; im Team, mit Kunden, über alle Kanäle. <br />Wir glauben an Transparenz, Einfachheit und Qualität.</p>
     <p>Mit neuesten Technologien und frischen Ideen sind wir gerade dabei den Telekommunikationsmarkt zu entstauben. CallOne ist ein junges, inhabergeführtes Unternehmen, das virtuelle Telefonanlagen und Callcenter-Lösungen für seine Enterprise-Kunden anbietet. Dabei haben wir höchste Ansprüche an Qualität und Usability. Das schätzen dutzende Kunden wie Sixt oder Check24, weil sie jetzt einen Kundenservice anbieten können, der funktioniert und Spaß macht.</p>
   </div>
@@ -74,8 +128,8 @@
         <h3>Ab sofort</h3>
       </div>
       <div class="col-3">
-        <img class="icon" src="/assets/images/icons_svg/small_35.svg" alt="In den Locations: Berlin, Mainz, Potsdam" />
-        <h3>Potsdam<br />Mainz</h3>
+        <img class="icon" src="/assets/images/icons_svg/small_35.svg" alt="In der Location: Potsdam" />
+        <h3>Potsdam</h3>
       </div>
     </div>
   </div>
