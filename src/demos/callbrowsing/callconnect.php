@@ -1,8 +1,10 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/../libraries/phonenumber.inc.php';
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../configs/mariadb.inc.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/mariadb.inc.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/phonenumber.inc.php');
 
 
-define ('TTS_SPEAKER', 'Petra-ML');
+define ('TTS_SPEAKER', 'Marlene');
 
 define ('ROUTING_IDS_CALLER',	array (88838));
 define ('ROUTING_IDS_LINK',		array (88838));
@@ -13,19 +15,13 @@ define ('TEXT_DDI_TIMEOUT',	 'Leider ist ihre persönliche Durchwahl abgelaufen.
 							.'Offenbar wurde diese Nummer abgeschrieben und nach '
 							.'mehr als einer Stunde angerufen.');
 
-define ('DATABASE_HOST',	'localhost');
-define ('DATABASE_USER',	'db10427997-demos');
-define ('DATABASE_PASS',	'asdWQ21345sASD2fdsfds');
-define ('DATABASE_DB',		'db10427997-demos');
-define ('DATABASE_TABLE',	'callbrowsing');
-
 
 function response_link ($url, $text)
 {
 	$response = array ();
 	
 	$response['link'] = $url;
-	$response['link_text'] = $name;
+	$response['link_text'] = $text;
 
 	return $response;
 }
@@ -57,13 +53,7 @@ if (empty ($request['ddi']))
 
 
 // connect to database
-try
-{	$pdo = new pdo ('mysql:host='.DATABASE_HOST.';dbname='.DATABASE_DB, DATABASE_USER, DATABASE_PASS);
-}
-catch (PDOException $e)
-{	echo json_encode (array ('error' => 'Database connection error: '.$e->getMessage ()));
-	exit ();
-}
+$pdo = mariadb_connect ('db10427997-demos');
 
 
 switch (strtoupper ($request['event']))
@@ -129,7 +119,9 @@ switch (strtoupper ($request['event']))
 
 		if ((in_array ($request['routing_id'], ROUTING_IDS_LINK)) &&
 			(!empty ($row['url'])))
-				$response = array_merge ($response, reponse_link ($row['url'], 'Callbrowsing'));
+		{	$url = $row['url'].'&caller='.$request['caller'];
+			$response = array_merge ($response, response_link ($url, 'CRM-Datensatz öffnen'));
+		}
 
 		if (in_array ($request['routing_id'], ROUTING_IDS_TTS))
 		{
@@ -193,64 +185,4 @@ switch (strtoupper ($request['event']))
 		echo json_encode (array ());
 		break;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-function xml_response ($text, $url, $url_text)
-{
-	// replace characters for valid xml
-	$text = str_replace ('&', '&#38;', $text);
-	$text = str_replace ('<', '&#60;', $text);
-	$text = str_replace ('>', '&#62;', $text);
-	$text = str_replace ('\'', '&#39;', $text);
-	$text = str_replace ('"', '&#34;', $text);
-
-	header ('Content-Type: text/xml');
-	echo '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL;
-	echo '<alldata>';
-	echo '<tts><text>'.$text.'</text><voice>Petra-ML</voice></tts>';
-	if ((!empty ($url)) && (!empty ($url_text)))
-		echo '<link>'.$url.'</link><link_text>'.$url_text.'</link_text>';
-	echo '</alldata>';
-}
-
-
-
-
-
-
-
-// configuration
-$file_call = 'sessions/'.$_GET['ddi'].'_call.txt';
-$file_website = 'sessions/'.$_GET['ddi'].'_website.txt';
-
-
-// caller file
-switch ($_GET['event'])
-{
-	case 'connect':
-		// save caller and cobrowsing id for website ajax request
-		$data = array ();
-		$data['caller']		= $_GET['caller'];
-		$data['cobrowsing']	= '123';
-		$data['timestamp']	= time ();
-		file_put_contents ($file_call, json_encode ($data));
-		break;
-}
-*/
 ?>
