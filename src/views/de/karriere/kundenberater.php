@@ -5,11 +5,12 @@
   "hiringOrganization": {
     "@type": "Organization",
     "name": "CallOne GmbH",
-    "sameAs": "https://www.callone.de/karriere/kundenberater-1st-level-support",
-    "logo": "https://www.callone.de/assets/images/logo/Logo.svg"
+    "sameAs": "https://www.callone.de",
+    "url": "https://www.callone.de/karriere/kundenberater-1st-level-support",
+    "logo": "https://www.callone.de/assets/images/logo/Logo.png"
   },
-  "datePosted": "2019-06-06",
-  "title": "Kundenberater/ Mitarbeiter Customer Support",
+  "datePosted": "2019-08-05",
+  "title": "Kundenberater/ Mitarbeiter Customer Support - Potsdam",
   "description": "<p>Wir haben es uns zum Ziel gesetzt Kundenservice richtig gut zu machen. Dafür brauchen wir dich als Kundenberater im 1st-Level-Support (m/w/d)!</p><p>Für dich stehen Service, Beratung und Kundenservice an erster Stelle? Du verfügst über eine ausgeprägte Lösungsorientierung und liebst ein Umgang mit Menschen? Dann bist du bei uns genau richtig!</p><h2>Wobei wir Deine Hilfe brauchen</h2><ul>
 <li>Du bist für unsere Kunden Ansprechpartner.</li>
 <li>Du bietest erste Hilfeleistung bei Fragen zu Basisfunktionen unserer Telefonielösungen.</li>
@@ -87,7 +88,7 @@
 
 <div class="wrapper" id="more">
   <div class="content narrow centered">
-    <h1>Organisationsprofi / Kundenberater <br />1st-Level-Support (m/w/d)</h1>
+    <h1>Organisationsprofi / Kundenberater <br />1st-Level-Support (m/w/d) &ndash; Potsdam</h1>
     <p>In unserer Branche ist Kommunikation das Wichtigste &ndash; im Team, mit Kunden, über alle Kanäle. <br />Wir glauben an Transparenz, Einfachheit und Qualität.</p>
   </div>
 
@@ -102,7 +103,7 @@
         <h3>Ab sofort</h3>
       </div>
       <div class="col-3">
-        <img class="icon" src="/assets/images/icons_svg/small_35.svg" alt="In den Locations: Berlin, Mainz, Potsdam" />
+        <img class="icon" src="/assets/images/icons_svg/small_35.svg" alt="In der Location: Potsdam" />
         <h3>Potsdam</h3>
       </div>
     </div>

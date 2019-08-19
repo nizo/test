@@ -9,7 +9,7 @@
           <a href="/testen" class="button secondary trackedElement" data-label="Button Header - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
         </div>
       </div>
-      <div class="media animation">
+      <div class="media animation animation-bg lazyBackground business">
         <div id="lottie" class="business"></div>
         <script>jsFiles.push("/assets/animations/svg/business.js");</script>
       </div>

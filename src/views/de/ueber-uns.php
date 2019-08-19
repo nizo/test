@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="media">
-        <img src="/assets/images/photos/callone-team.svg" alt="" />
+        <img src="/assets/images/photos/ueber-uns.jpg" alt="CallOne - Die Businesstelefonie Lösung für agile Unternehmen" />
       </div>
     </header>
   </div>

@@ -55,7 +55,7 @@
 <div class="wrapper">
   <div class="content wide noOverflow">
     <header class="main-header">
-      <div class="media animation">
+      <div class="media animation animation-bg lazyBackground service">
         <div id="lottie" class="kundenservice"></div>
         <script>jsFiles.push("/assets/animations/svg/kundenservice.js");</script>
       </div>
@@ -202,7 +202,7 @@
       <div class="col-3">
         <img class="icon" src="/assets/images/icons_svg/small_11.svg" alt="Schnittstellen &amp; fertige Apps" />
         <h3>Schnittstellen &amp; fertige Apps</h3>
-        <p>Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="https://www.callone.io/" target="_blank" title="Unsere API / Schnittstellen - Callone.io">APIs und Apps</a> zu gängigen Businesslösungen</p>
+        <p>Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="https://www.callone.io/" rel="noreferrer" target="_blank" title="Unsere API / Schnittstellen - Callone.io">APIs und Apps</a> zu gängigen Businesslösungen</p>
       </div>
     </div>
   </div>
@@ -222,7 +222,7 @@
       <div class="col-3">
         <img class="icon" src="/assets/images/icons_svg/small_11.svg" alt="Schnittstellen &amp; fertige Apps" />
         <h3>Schnittstellen &amp; fertige Apps</h3>
-        <p>Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="" target="_blank" title="Unsere API / Schnittstellen - Callone.io">APIs und Apps</a> zu gängigen Businesslösungen</p>
+        <p>Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="https://www.callone.io/" target="_blank" rel="noreferrer" title="Unsere API / Schnittstellen - Callone.io">APIs und Apps</a> zu gängigen Businesslösungen</p>
       </div>
       <div class="col-3">
         <img class="icon" src="/assets/images/icons_svg/small_14.svg" alt="Lokale und gebührenfreie Rufnummern" />
@@ -255,7 +255,7 @@
     <p>Kurz, verständlich und gratis erklären wir Ihnen am Livesystem, wie Ihre zukünftige Callcenter-Software funktioniert und klären Ihre Fragen.</p>
 
     <div class="button-set">
-      <a href="https://calendly.com/bendig" target="_blank" class="button primary trackedElement" data-label="Button - Termin buchen" data-category="Link" data-action="linked to calendly.com">Termin buchen</a>
+      <a href="https://calendly.com/bendig" rel="noreferrer" target="_blank" class="button primary trackedElement" data-label="Button - Termin buchen" data-category="Link" data-action="linked to calendly.com">Termin buchen</a>
     </div>
   </div>
 </div>
@@ -357,7 +357,7 @@
       </blockquote>
     </div>
 
-    <p class="primary centered">&starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" target="_blank" class="trackedElement" data-label="Google Erfahrungsberichte" data-category="Link" data-action="linked to Google Erfahrungsberichte">Google Erfahrungsberichte</a></p>
+    <p class="primary centered">&starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" rel="noreferrer" target="_blank" class="trackedElement" data-label="Google Erfahrungsberichte" data-category="Link" data-action="linked to Google Erfahrungsberichte">Google Erfahrungsberichte</a></p>
 
   </div>
 </div>

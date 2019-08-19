@@ -6,7 +6,7 @@
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $description; ?>" />
     <meta name="keywords" content="<?php echo $keywords; ?>" />
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0, user-scalable = no">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
   	<meta name="google-site-verification" content="Sqndy6_j8hwq2O67oeDnHTdNmKPDaCRcC-g_K3FRYfE" />
     <meta property="og:image" content="https://www.callone.de/assets/images/logo/Logo.svg" />
     <meta property="og:image:alt" content="Callone Logo" />
@@ -20,14 +20,23 @@
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
     <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0, user-scalable = no" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    
+    <link rel="dns-prefetch" href="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com">
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google.de">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://www.googleadservices.com">
     <!-- Load CSS -->
     <?php
-        // null -> std-drirectory
-        loadCSS(null);
-    ?>    
+        // LazyLoading CSS Files
+        loadCSS(null,true);
+    ?>
+    <noscript>
+    	<link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css">	
+    </noscript>    
     <?php if (isset($canonical)): ?>
     	<link rel="canonical" href="<?= $canonical ?>" />
     <?php endif; ?>	

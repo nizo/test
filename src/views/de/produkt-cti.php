@@ -23,9 +23,9 @@
         </nav>
       </div>
       <div class="media">
-      	<picture>
-          <source srcset="/assets/images/photos/callone_source_color.webp" type="image/webp">
-          <source srcset="/assets/images/photos/callone_source_color.png" type="image/png">
+      	<picture class="lazyPicture">
+          <source srcset="/assets/images/photos/placeholder.webp" data-srcset="/assets/images/photos/callone_source_color.webp" type="image/webp">
+          <source srcset="/assets/images/photos/placeholder.png" data-srcset="/assets/images/photos/callone_source_color.png" type="image/png">
           <img src="/assets/images/photos/callone_source_color.png" alt="CallOne Integrations" class="mobile-hidden" />          	      
 		</picture>
       </div>
@@ -45,42 +45,42 @@
   <div class="content wide centered">
     <div class="grid">   
       <div class="col-3 flex space-between">
-        <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-zendesk2.svg" alt="Zendesk integration">
+        <img class="partnerLogo sw lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-zendesk2.svg" data-srcset="/assets/images/logo/partnerlogos/logo-zendesk2.svg" alt="Zendesk integration">
         <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für <strong>mehr Effizienz und bessere Kundenerlebnisse</strong>.</p>
         <div class="button-set centered">
-        	<a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary trackedElement" data-label="Button - Zendesk Marketplace" data-category="Link" data-action="linked to www.zendesk.com/apps/support/cloud-acd">Zendesk Marketplace</a>
+        	<a href="https://www.zendesk.com/apps/support/cloud-acd/" rel="noreferrer" target="_blank" class="button secondary trackedElement" data-label="Button - Zendesk Marketplace" data-category="Link" data-action="linked to www.zendesk.com/apps/support/cloud-acd">Zendesk Marketplace</a>
         </div>
       </div>
       <div class="col-3 flex space-between">
-        <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce">
+        <img class="partnerLogo sw lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-salesforce.svg" data-srcset="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce">
         <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <strong>Integration von Anrufdaten und Click-to-Call</strong> sorgen für <strong>transparentere, schnellere</strong> und einfach <strong>bessere Prozesse</strong>.</p>
         <div class="button-set centered">
         	<a href="/cti-salesforce" class="button secondary">Mehr erfahren</a>
         </div>
       </div>
       <div class="col-3 flex space-between">
-        <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-zoho.svg" alt="Zoho integration">
+        <img class="partnerLogo sw lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-zoho.svg" data-srcset="/assets/images/logo/partnerlogos/logo-zoho.svg" alt="Zoho integration">
         <p>Wählen Sie direkt aus Ihrem Zoho CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. <strong>Optimieren Sie</strong> mit der Zoho-Integration Ihren <strong>Kundenkontakt</strong> und Ihre <strong>Geschäftsprozesse</strong>.</p>
         <div class="button-set centered">
         	<a href="/cti-zoho" class="button secondary">Mehr erfahren</a>
         </div>
       </div>
       <div class="col-3 flex space-between">
-        <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-pipedrive.svg" alt="Pipedrive integration">
+        <img class="partnerLogo sw lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-pipedrive.svg" data-srcset="/assets/images/logo/partnerlogos/logo-pipedrive.svg" alt="Pipedrive integration">
         <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für <strong>effizientere Verkaufsprozesse</strong> und <strong>schneller abgeschlossene Leads</strong>.</p>
         <div class="button-set centered">
-        	<a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary trackedElement" data-label="Button - Pipedrive Marketplace" data-category="Link" data-action="linked to marketplace.pipedrive.com/app/call-one/">Pipedrive Marketplace</a>
+        	<a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" rel="noreferrer" target="_blank" class="button secondary trackedElement" data-label="Button - Pipedrive Marketplace" data-category="Link" data-action="linked to marketplace.pipedrive.com/app/call-one/">Pipedrive Marketplace</a>
         </div>
       </div>
       <div class="col-3 flex">
-        <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-freshdesk.svg" alt="Freshdesk integration">
+        <img class="partnerLogo sw lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-freshdesk.svg" data-srcset="/assets/images/logo/partnerlogos/logo-freshdesk.svg" alt="Freshdesk integration">
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische <strong>Voice Tickets</strong> für Anrufe, <strong>Click-to-Dial</strong> und die <strong>Integration von Anrufdaten</strong> in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
       	<div class="button-set centered">
         	<a href="/freshdesk-callcenter-software" class="button secondary" title="Freshdesk Callcenter Software">Mehr erfahren</a>
         </div>
       </div>
       <div class="col-3 flex">
-        <img class="partnerLogo sw" src="/assets/images/logo/partnerlogos/logo-hubspot.svg" alt="Hubspot integration">
+        <img class="partnerLogo sw lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-hubspot.svg" data-srcset="/assets/images/logo/partnerlogos/logo-hubspot.svg" alt="Hubspot integration">
         <p>Mit unserer Hubspot Telefonieintegration können Sie <strong>Verkaufsgespräche direkt aus Hubspot</strong> führen und alle <strong>Daten in Echtzeit</strong> mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</p>
       </div>
     </div>
@@ -93,14 +93,14 @@
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
-          <img class="partnerLogo sw icon icon-small" src="/assets/images/logo/partnerlogos/logo-geckoboard.svg" alt="Geckoboard">
+          <img class="partnerLogo sw icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-geckoboard.svg" data-srcset="/assets/images/logo/partnerlogos/logo-geckoboard.svg" alt="Geckoboard">
           <p>Erstellen Sie mit Geckoboard vollkommen <strong>individuelle Wallboard aus Ihren Anrufdaten</strong>. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen <strong>alle KPIs auf einen Blick</strong> und genau so dargestellt, wie Sie es möchten.</p>
        	  <div class="button-set centered">
         	<a class="openModal button secondary trackedElement" data-label="Button Header - Kontaktieren Sie uns" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Kontaktieren Sie uns</a>
           </div>
         </div>
         <div class="col-2">
-          <img class="partnerLogo sw icon icon-small" src="/assets/images/logo/partnerlogos/logo-tableau.svg" alt="tableau">
+          <img class="partnerLogo sw icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-tableau.svg" data-srcset="/assets/images/logo/partnerlogos/logo-tableau.svg" alt="tableau">
           <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. <strong>Prognosen erstellen, Trends erkennen und neue Chancen nutzen</strong> – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich <strong>komplett individuell erstellen und visualisieren</strong>.</p>
        	  <div class="button-set centered">
         	<a href="/tableau-callcenter-connector" class="button secondary trackedElement" data-label="Button - Mehr erfahren" data-category="Link" data-action="linked to /tableau-callcenter-connector">Mehr erfahren</a>
@@ -121,24 +121,24 @@
   <div class="content narrow centered">
       <div class="grid">
         <div class="col-3 flex space-between">
-    		<img class="partnerLogo" src="/assets/images/logo/partnerlogos/logo-chrome.svg" alt="Google Chrome">
+    		<img class="partnerLogo lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-chrome.svg" data-srcset="/assets/images/logo/partnerlogos/logo-chrome.svg" alt="Google Chrome">
     		<p>Verbinden Sie den meistverbreiteten Browser Google Chrome mit CallOne: <strong>Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen</strong>!</p>
           	<div class="button-set centered">
-        		<a href="https://chrome.google.com/webstore/detail/callone/cedionilkklbngbmlnipangpipeficfo" target="_blank" class="button primary trackedElement" data-label="Button - Chrome Web Store" data-category="Link" data-action="linked to chrome.google.com/webstore/detail/callone/">Chrome Web Store</a>
+        		<a href="https://chrome.google.com/webstore/detail/callone/cedionilkklbngbmlnipangpipeficfo" rel="noreferrer" target="_blank" class="button primary trackedElement" data-label="Button - Chrome Web Store" data-category="Link" data-action="linked to chrome.google.com/webstore/detail/callone/">Chrome Web Store</a>
         	</div>
         </div>
         <div class="col-3 flex space-between">
-			<img class="partnerLogo" src="/assets/images/logo/partnerlogos/logo-firefox.png" alt="Mozilla Firefox">
+			<img class="partnerLogo lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-firefox-small.png" data-srcset="/assets/images/logo/partnerlogos/logo-firefox-small.png" alt="Mozilla Firefox">
             <p>Der beliebte Browser Mozilla Firefox im Team mit CallOne: Für <strong>effizientere Outbound-Calls</strong> aus allen browserbasierten Tools.</p>
         	<div class="button-set centered">
-        		<a href="https://addons.mozilla.org/de/firefox/addon/callone/" target="_blank" class="button primary trackedElement" data-label="Button - Firefox Add-ons" data-category="Link" data-action="linked to addons.mozilla.org/de/firefox/addon/callone/">Firefox Add-ons</a>
+        		<a href="https://addons.mozilla.org/de/firefox/addon/callone/" rel="noreferrer" target="_blank" class="button primary trackedElement" data-label="Button - Firefox Add-ons" data-category="Link" data-action="linked to addons.mozilla.org/de/firefox/addon/callone/">Firefox Add-ons</a>
         	</div>
         </div>
         <div class="col-3 flex space-between">
-			<img class="partnerLogo" src="/assets/images/logo/partnerlogos/logo-edge.png" alt="Microsoft Edge">
+			<img class="partnerLogo lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-edge.png" data-srcset="/assets/images/logo/partnerlogos/logo-edge.png" alt="Microsoft Edge">
             <p>Die Weiterentwicklung des Internet Explorers – Microsoft Edge mit CallOne: <strong>Mehr Produktivität</strong> durch out-of-the-box Outbound-Calls.</p>
         	<div class="button-set centered">
-        		<a href="https://www.microsoft.com/store/apps/9MTTHD9H6BVX" target="_blank" class="button primary trackedElement" data-label="Button - Microsoft Store" data-category="Link" data-action="linked to www.microsoft.com/store/apps/">Microsoft Store</a>
+        		<a href="https://www.microsoft.com/store/apps/9MTTHD9H6BVX" rel="noreferrer" target="_blank" class="button primary trackedElement" data-label="Button - Microsoft Store" data-category="Link" data-action="linked to www.microsoft.com/store/apps/">Microsoft Store</a>
         	</div>
         </div>
       </div>    
@@ -156,7 +156,7 @@
 			</div>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_07_2.svg" alt="CRM Integrationen" class="white headlineIcon" />
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_07_2.svg" data-srcset="/assets/images/icons_svg/small_07_2.svg" alt="CRM Integrationen" class="white headlineIcon lazy" />
         </div>
       </div>    
   </div>
@@ -238,7 +238,7 @@
 			</div>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/image_02_2.svg" alt="TAPI / CTI-Integration Projekte" class="white headlineIcon" />
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/image_02_2.svg" data-srcset="/assets/images/icons_svg/image_02_2.svg" alt="TAPI / CTI-Integration Projekte" class="white headlineIcon lazy" />
         </div>
       </div>    
   </div>
@@ -250,7 +250,7 @@
     <div class="shadow-box padding">
       <div class="image-grid">
         <div class="image padding centered">
-          <img src="/assets/images/icons_svg/big_07.svg" alt="Ihre Vorteile">
+          <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_07.svg" data-srcset="/assets/images/icons_svg/big_07.svg" title="Ihr Vorteile" alt="Ihre Vorteile" class="lazy">
         </div>
         <div class="text">
         	<ul class="list approved-list">
@@ -274,7 +274,7 @@
 
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/navabi-logo.svg" alt="" /></p>
+        <p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/navabi-logo.svg" data-srcset="/assets/images/client-logos/navabi-logo.svg" class="lazy" title="Kundenmeinung Navabi" alt="Kundenmeinung Navabi" /></p>
         <p>„Uns war in erster Linie wichtig, eine Lösung zu erhalten, die beim täglichen Arbeiten intuitiv zu bedienen ist und speziell auf unsere Bedürfnisse zugeschnitten – und genau das haben wir erhalten. Unser persönlicher Ansprechpartner geht auf alle Anfragen sofort und individuell ein und findet immer die bestmögliche Lösung für uns.“</p>
         <p class="bold">
           Leonie Theißen<br />
@@ -285,7 +285,7 @@
 
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/junique-logo.svg" alt="" /></p>
+        <p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/junique-logo.svg" data-srcset="/assets/images/client-logos/junique-logo.svg" class="lazy" title="Kundenmeinung Juniqe" alt="Kundenmeinung Juniqe" /></p>
         <p>„Super Lösung für Kundenservice mit Rundum-Features und persönlichen Einstellungen für die genauen Vorstellungen einer jeden Firma statt Standardpaketen.“</p>
         <p class="bold">
           Babett Schultze<br />
@@ -296,7 +296,7 @@
 
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/apo-discounter.svg" alt="" /></p>
+        <p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/apo-discounter.svg" data-srcset="/assets/images/client-logos/apo-discounter.svg" class="lazy" title="Kundenmeinung Apo-discounter.de" alt="Kundenmeinung Apo-discounter.de" /></p>
         <p>„Wir setzen in allen Bereichen auf Schnelligkeit, Kompetenz und modernste Technik. So können wir unsere Kunden von unserem Service begeistern und genauso hat uns auch CallOne begeistert!“</p>
         <p class="bold">
           Robert Kudrass<br />

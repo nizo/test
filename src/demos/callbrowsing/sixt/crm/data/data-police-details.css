@@ -1,0 +1,92 @@
+.client-molecules-Duplicates-___Duplicates__container___3CN-z{
+	display:flex;
+	flex-direction:column;
+	background-color:#ffffff;
+	padding-top:16px;
+}
+@media (max-width: 1440px){
+	.client-molecules-Duplicates-___Duplicates__container___3CN-z{
+		border-left-width:4px
+	}
+}
+.client-molecules-Duplicates-___Duplicates__container___3CN-z .client-molecules-Duplicates-___Duplicates__duplicates___s-yrY{
+	display:flex;
+	justify-content:space-between;
+	padding:8px 16px;
+	margin:8px 0px;
+}
+
+.client-atoms-IconSeparator-___IconSeparator__separator___hz_n6{
+	margin:0px;
+	margin-bottom:8px;
+	padding-top:8px;
+	padding-right:16px;
+	padding-bottom:0px;
+	min-height:24px;
+	text-transform:uppercase;
+}
+.client-atoms-IconSeparator-___IconSeparator__separator___hz_n6 .cui4-icon{
+	position:relative;
+	top:3px;
+	margin-right:4px;
+}
+.client-atoms-IconSeparator-___IconSeparator__separator___hz_n6:first-child{
+	padding-top:0px;
+}
+.client-pages-DetailsPage-___DetailsPage__importantFields___3pH5Z{
+	display:flex;
+	flex-direction:column;
+	background-color:#ffffff;
+	border:1px solid #e5e5e5;
+	border-left:4px rgb(255, 204, 0) solid;
+	min-height:56px;
+	border-radius:2px;
+	margin-bottom:8px;
+}
+@media (max-width: 1440px){
+	.client-pages-DetailsPage-___DetailsPage__importantFields___3pH5Z{
+		border-left-width:4px
+	}
+}
+.client-pages-DetailsPage-___DetailsPage__importantFields___3pH5Z:empty{
+	display:none;
+}
+.client-pages-DetailsPage-___DetailsPage__sticky___3rHwD{
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	z-index:1;
+}
+.client-pages-DetailsPage-___DetailsPage__shadow___2ByJn{
+	width:484px;
+	z-index:1;
+	max-height:max-content;
+	max-height:-moz-max-content;
+	max-height:calc(100vh - 165px);
+	box-shadow:1px 2px 8px 0 rgba(38, 41, 44, .12);
+	background-color:white;
+}
+@media (max-width: 1440px){
+	.client-pages-DetailsPage-___DetailsPage__shadow___2ByJn{
+		width:384px
+	}
+}
+.yellowDot::before{
+	display:none;
+}
+.yellowDot .item::before{
+	content:'';
+	width:5px;
+	height:5px;
+	background-color:rgb(255, 204, 0);
+	position:absolute;
+	right:25px;
+	top:15px;
+	border-radius:50%;
+}
+.yellowDot .item:hover::before{
+	display:none;
+}
+
+
+/*# sourceMappingURL=data-police-details.js.map*/

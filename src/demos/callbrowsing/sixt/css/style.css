@@ -1,0 +1,68 @@
+.callback {
+	position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.callback .wrap {
+	margin: 0;
+	display: inline-block;
+	height: 40px;
+	float: right;
+	padding: 0;
+	position: relative;
+}
+
+.callback input[type="text"] {
+	height: 30px;
+    font-size: 12px;
+    display: block;
+    font-weight: 100;
+    border: 1px solid #ef7d00;
+    outline: none;
+    color: #dadada;
+    padding: 2px 5px;
+    width: 100%;
+    position: inherit;
+    background: none;
+    z-index: 2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.callback input[type="text"]:focus {
+	 color: #ffffff;
+}
+
+.callback button {
+	height: 30px;
+    width: 100%;
+    display: block;
+    color: #ffffff;
+    border: none;
+    position: inherit;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 1;
+    cursor: pointer;
+    background-color: #ef7d00;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.callback input[type="text"]::placeholder { 
+	color: #dadada;
+	opacity: 1; /* Firefox */
+}
+
+.callback input[type="text"]::-ms-input-placeholder { 
+	color: #dadada;
+}
+
+.callback input[type="text"]::-ms-input-placeholder {
+	color: #dadada;
+}

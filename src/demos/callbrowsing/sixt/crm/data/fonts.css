@@ -1,0 +1,67 @@
+/** FontUpdateMission
+	this file will be deprecated as font definitions are now loaded from convention-ui-css
+	Open Sans definitions below have been pointed to Source Sans font files as a temporary
+	fallback for any non-updated code!
+*/
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: normal;
+	src:
+		url('../fonts/source-sans-pro/woff2/SourceSansPro-Regular.woff2') format('woff2'),
+		url('../fonts/source-sans-pro/woff/SourceSansPro-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-style: normal;
+	src:
+		url('../fonts/source-sans-pro/woff2/SourceSansPro-Semibold.woff2') format('woff2'),
+		url('../fonts/source-sans-pro/woff/SourceSansPro-Semibold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: normal;
+	src:
+		url('../fonts/source-sans-pro/woff2/SourceSansPro-Semibold.woff2') format('woff2'),
+		url('../fonts/source-sans-pro/woff/SourceSansPro-Semibold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: italic;
+	src:
+		url('../fonts/source-sans-pro/woff2/SourceSansPro-Italic.woff2') format('woff2'),
+		url('../fonts/source-sans-pro/woff/SourceSansPro-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-style: italic;
+	src:
+		url('../fonts/source-sans-pro/woff2/SourceSansPro-Semibold-Italic.woff2') format('woff2'),
+		url('../fonts/source-sans-pro/woff/SourceSansPro-Semibold-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: italic;
+	src:
+		url('../fonts/source-sans-pro/woff2/SourceSansPro-Semibold-Italic.woff2') format('woff2'),
+		url('../fonts/source-sans-pro/woff/SourceSansPro-Semibold-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pipedings';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Pipedings.ttf?20161020') format('truetype'),
+		 url('../fonts/Pipedings.woff2?20161020') format('woff2'),
+		 url('../fonts/Pipedings.woff?20161020') format('woff');
+}

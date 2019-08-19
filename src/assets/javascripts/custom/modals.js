@@ -21,10 +21,19 @@ window.onscroll = function() {
 	}
 };	
 
+window.onload = function() {
+	var paramModal = urlHasParam("om", null);
+	if(paramModal != null)
+		displayModal(paramModal);
+}
+
 //ShowModal
 function displayModal(modalName) {
 	var modal = document.getElementsByClassName(modalName)[0];
 	var closeButtons = document.getElementsByClassName('close');
+	if (modal == null)
+		return;
+	
 	modal.style.display = "block";
 	
 	var x = setTimeout(function() { $('.inputFields').css('display', 'block'); }, 500);

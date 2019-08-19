@@ -340,6 +340,18 @@ $r->addRoute('GET', '/call-tracking', function() {
     require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/voicebot', function() {
+    $title = '';
+    $description = '';
+    $keywords = '';
+    $background = 'bg-casestudy';
+    $ogUrl = $GLOBALS['url'] . '/voicebot';
+    $canonical = $GLOBALS['url'] . '/voicebot';
+    require_once('./layouts/header.php');
+    require_once('./views/de/produkt-voicebot.php');
+    require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/callcenter-software-funktionen', function() {
     $title = 'Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API';
     $description = 'Die vielleicht umfangreichste Auswahl an Funktionen im Bereich virtueller Telefonanlagen. Vergleichen Sie unser Angebot und sprechen Sie mit uns. Jetzt anrufen!';

@@ -1,9 +1,12 @@
 <div class="wrapper noOverflow">
   <div class="content wide">
     <header class="main-header">
-      <div class="media animation">
+      <div class="media animation animation-bg lazyBackground home">
         <div id="lottie"></div>
-        <script src="/assets/animations/svg/homepage.js" async></script>
+        <script>
+        	jsFiles.push("/assets/animations/svg/homepage.js");
+        </script>
+        	
       </div>
       <div class="text">
         <h1>Ihre Telefonanlage passt nicht mehr zu Ihrem Business</h1>
@@ -105,10 +108,10 @@
     <h2 class="h1">Wie können wir helfen?</h2>
     <div class="topic-selector">
       <div class="row">
-        <div class="left">Unsere</div>
+        <div class="left"><label for="abteilung">Unsere</label></div>
         <div class="right">
         	<div class="selectWrapper">
-              <select class="topic">
+              <select id="abteilung" name="abteilung" class="topic">
                 <option value="1">IT-Abteilung</option>
                 <option value="2">Callcenter-Leitung</option>
                 <option value="3">Geschäftsführung</option>
@@ -117,10 +120,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="left">sucht eine Lösung für:</div>
+        <div class="left"><label for="loesung">sucht eine Lösung für:</label></div>
         <div class="right">
           <div class="selectWrapper">
-              <select class="subtopic" data-subtopic="1">
+              <select id="loesung" class="subtopic" data-subtopic="1">
                 <option value="1">Ausfallsicherheit</option>
                 <option value="2">Einfache Administration</option>
                 <option value="3">Integration</option>
@@ -149,7 +152,7 @@
     <div class="shadow-box padding animation-1 lazyBackground">
       <div class="text topic-box" data-topic="1">
         <h2>Ausfallsicherheit</h2>
-        <p>Unsere Telefonielösung hatte 2018 eine <a href="https://status.callone.de" target="_blank" title="CallOne Status">Uptime von 99,999%</a>. Wir setzen auf Qualität, Sicherheit und Transparenz. Wenn doch mal etwas passiert, haben wir vorgesorgt. Mit Notfallplänen, Schutz gegen DDOS-Attacken, Verschlüsselungen aller Sprachdaten uvm. schützen wir unsere Kunden vor Ausfällen. Auch für Ihr Projekt stellen wir einen individuellen Notfallplan zusammen.</p>
+        <p>Unsere Telefonielösung hatte 2018 eine <a href="https://status.callone.de" rel="noreferrer" target="_blank" title="CallOne Status">Uptime von 99,999%</a>. Wir setzen auf Qualität, Sicherheit und Transparenz. Wenn doch mal etwas passiert, haben wir vorgesorgt. Mit Notfallplänen, Schutz gegen DDOS-Attacken, Verschlüsselungen aller Sprachdaten uvm. schützen wir unsere Kunden vor Ausfällen. Auch für Ihr Projekt stellen wir einen individuellen Notfallplan zusammen.</p>
       </div>
       <div class="text topic-box" data-topic="2">
         <h2>Einfache Administration</h2>
@@ -231,7 +234,7 @@
       </blockquote>
     </div>
 
-    <p class="primary centered">&starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" target="_blank" title="Zu den Erfahrungsberichten">Google Erfahrungsberichte</a></p>
+    <p class="primary centered">&starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" rel="noreferrer" target="_blank" title="Zu den Erfahrungsberichten">Google Erfahrungsberichte</a></p>
 
   </div>
 </div>

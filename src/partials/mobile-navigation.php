@@ -120,7 +120,7 @@
   <div class="links">
     <div class="link"><a href="/ueber-uns">Über uns</a></div>
     <div class="link"><a href="/faq">Häufige Fragen</a></div>
-    <div class="link"><a href="https://box.callone.de">Login</a></div>
+    <div class="link"><a href="https://box.callone.de" rel="noreferrer">Login</a></div>
     <div class="link"><a href="/karriere">Karriere</a></div>
     <div class="link"><a href="/testen">Kontakt</a></div>
     <div class="link"><a href="/blog">Blog</a></div>

@@ -16,10 +16,10 @@
   <div class="content narrow">
     <div class="grid">
       <div class="col-4">
-        <p><strong>370</strong> Mitarbeiter-Durchwahlen</p>
+        <p><strong>Callcenter-Software</strong></p>
       </div>
       <div class="col-4">
-        <p><strong>30</strong> Hotline-Rufnummern</p>
+        <p><strong>VoIP-Telefonanlage</strong></p>
       </div>
       <div class="col-4">
         <p>Auswertung <strong>aller Daten</strong> mit Tableau</p>
@@ -47,7 +47,7 @@
     <h2 class="h1">Umfassende Callcenter Software mit BI-Integration für den Bereich Sachversicherungen</h2>
     <p>Check24 ist Deutschlands größtes Vergleichsportal, mit vielfachen Auszeichnungen für exzellenten Service. Da ist es nicht verwunderlich, dass sie höchste Maßstäbe an Effizienz und Qualität ansetzen. CallOne betreut Check24 mit einem Komplettservice im supportintensiven Bereich der Sachversicherungen.</p>
 
-    <p>Versicherungen sind komplex, deshalb können Kunden sieben Tage die Woche Experten zu den verschiedenen Versicherungstypen über produktspezifische Hotlines sowie auch auf direkten Durchwahlen kontaktieren und erhalten eine komplett persönliche Beratung.</p>
+    <p>Manche Versicherungen sind komplex, deshalb können Kunden sieben Tage die Woche Experten zu den verschiedenen Versicherungstypen über produktspezifische Hotlines sowie auch auf direkten Durchwahlen kontaktieren und erhalten eine komplett persönliche Beratung.</p>
   </div>
 </div>
 
@@ -204,7 +204,7 @@
           <h3 class="h2">Optimale Anrufsteuerung</h3>
           <p class="primary">Kopplung des Check24 CRM mit der Callcenter-Software</p>
           <p class="primary">Optimale Anrufverteilung, abhängig von der Wartedauer</p>
-          <p class="primary">Anbindung externer Callcenterdienstleister</p>
+          <p class="primary">VIP-Routing</p>
           <p class="primary">Statusabhängige Anzeige eines Agenten auf Check24 Webseite</p>
           <p class="primary">Notfallroutings und Alarmierungsfunktionen</p>
         </div>
@@ -235,7 +235,6 @@
         <div class="text">
           <h3 class="h2">Nutzung von offenen APIs & fertigen Apps</h3>
           <p class="primary">Erhöhung der Erreichbarkeit</p>
-          <p class="primary">VIP-Routing durch Abfrage des Check24 CRMs</p>
           <p class="primary">Dialer-Funktionen aus Check24 Tools (Click-to-Dial)</p>
           <p class="primary">Echtzeit-Statistik-Wallboard</p>
           <p class="primary">Umfangreiche CDR-Datensätze per API abrufbar</p>

@@ -5,15 +5,51 @@
   "hiringOrganization": {
     "@type": "Organization",
     "name": "CallOne GmbH",
-    "sameAs": "https://www.callone.de/karriere/team-assistenz",
-    "logo": "https://www.callone.de/assets/images/logo/Logo.svg"
+    "sameAs": "https://www.callone.de",
+    "url": "https://www.callone.de/karriere/team-assistenz",
+    "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
-  "datePosted": "2019-06-06",
-  "title": "Team Assistenz",
-  "description": "Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit. Wir haben es uns zum Ziel gesetzt Kundenservice richtig gut zu machen. Dafür brauchen wir Dich als Team Assistenz (m/w/d)!\u003Cbr\u003E\u003Cbr\u003E\u003Cstrong\u003EWobei wir Deine Hilfe benötigen:\u003Cbr\u003E\u003C/strong\u003E\u003Cul\u003E \u003Cli\u003EDu bist für unsere Kunden Ansprechpartner und hilfst deren Probleme zu lösen..\u003C/li\u003E \u003Cli\u003EDu bist Ansprechpartner für Interessenten und erstellst Angebote.\u003C/li\u003E \u003Cli\u003EDu pflegst Daten in unser Kundensystem ein und bereitest Reportings vor.\u003C/li\u003E \u003Cli\u003EDu arbeitest eng mit deinen großartigen, smarten Kollegen zusammen und bekommst alle Unterstützung, die du brauchst.\u003C/li\u003E \u003Cbr\u003E\u003C/ul\u003E\u003Cstrong\u003EWas wir uns wünschen\u003Cbr\u003E\u003C/strong\u003E\u003Cul\u003E \u003Cli\u003EDu hast eine kaufmännische Ausbildung oder schon Arbeitserfahrung auf dem Gebiet.\u003C/li\u003E \u003Cli\u003EKlarer Kommunikationsstil, sowohl mündlich als auch schriftlich.\u003C/li\u003E \u003Cli\u003EDu arbeitest gerne mit anderen Menschen zusammen, auf andere Menschen zuzugehen ist für dich kein Problem.\u003C/li\u003E \u003Cli\u003EEigenständige und sorgfältige Arbeitsweise mit einer ordentlichen Portion Hands-on-Mentalität.\u003C/li\u003E \u003Cli\u003ESicherer Umgang mit den gängigen MS-Office-Programmen.\u003C/li\u003E \u003Cbr\u003E\u003C/ul\u003E\u003Cstrong\u003EWas wir Dir bieten\u003Cbr\u003E\u003C/strong\u003E\u003Cul\u003E \u003Cli\u003ELangfristig gute Arbeit. Wir suchen enthusiastische Menschen, für die Job-Hopping nicht der Weg der Erlösung ist. Wir brauchen deine Expertise langfristig und so stimmen wir deinen Job mit deinem Leben ab.\u003C/li\u003E \u003Cli\u003EVertrauen und Freiraum. Für uns zählt, wie du arbeitest, nicht wann. Flexible Arbeitszeiten ohne Überstunden und ein Wochenende, das dir gehört, dafür maximale Selbständigkeit und klarer Fokus bei der Arbeit.\u003C/li\u003E \u003Cli\u003EFlexibilität. Du kannst uns in Berlin, Potsdam oder Mainz unterstützen, ganz so wie es dir passt.\u003C/li\u003E \u003Cli\u003EEin verdammt gutes und verdammt nettes Team. Wir wollen nicht nur gegenseitig das Beste aus uns herausholen (denn dann macht es am meisten Spaß), wir kümmern uns auch umeinander, in jeder Lebenslage.\u003C/li\u003E \u003Cli\u003EKein Stress. Ein Büro im Grünen und freundliche Kunden, sichtbare Ergebnisse deiner Arbeit und entsprechende Anerkennung.\u003C/li\u003E\u003C/ul\u003E",
-  "employmentType": "Full-time, part-time, contract, other",
+  "datePosted": "2019-08-07",
+  "title": "Team Assistenz (m/w/d) - Potsdam",
+  "validThrough": "2019-12-31",
+  "description": "  <p>
+                        <strong>Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit.</strong>
+                    </p>
+                    <p>Wir haben es uns zum Ziel gesetzt Kundenservice richtig gut zu machen. Dafür brauchen wir dich als Technischer Projektmanager (m/w/d)!<br>
+                        Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Dabei liebst du den Umgang mit anderen Menschen? Dann bist du bei uns genau richtig!
+                    </p>
+                    <p>
+                        <strong>Wobei wir Deine Hilfe brauchen</strong><br>
+                        <ul>
+                            <li>Du bist für unsere Kunden Ansprechpartner und hilfst deren Probleme zu lösen.</li>
+                            <li>Du bist Ansprechpartner für Interessenten und erstellst Angebote.</li>
+                            <li>Du pflegst Daten in unser Kundensystem ein und bereitest Reportings vor.</li>
+                            <li>Du arbeitest eng mit deinen großartigen, smarten Kollegen zusammen und bekommst alle Unterstützung, die du brauchst.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Was wir uns wünschen</strong><br>
+                        <ul>
+                            <li>Du hast eine kaufmännische Ausbildung oder schon Arbeitserfahrung auf dem Gebiet.</li>
+                            <li><strong>Klarer Kommunikationsstil</strong>, sowohl mündlich als auch schriftlich.</li>
+                            <li>Du arbeitest gerne mit anderen Menschen zusammen, auf andere Menschen zuzugehen ist für dich kein Problem.</li>
+                            <li>Eigenständige und sorgfältige Arbeitsweise mit einer ordentlichen Portion Hands-on-Mentalität.</li>
+                            <li>Sicherer Umgang mit den gängigen MS-Office-Programmen.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Was wir Dir bieten</strong><br>
+                        <ul>
+                            <li>Langfristig gute Arbeit. Wir suchen enthusiastische Menschen, für die Job-Hopping nicht der Weg der Erlösung ist. Wir brauchen deine Expertise langfristig und so stimmen wir deinen Job mit deinem Leben ab.</li>
+                            <li><strong>Vertrauen und Freiraum</strong>. Für uns zählt, wie du arbeitest, nicht wann. Flexible Arbeitszeiten ohne Überstunden und ein Wochenende, das dir gehört, dafür maximale Selbständigkeit und klarer Fokus bei der Arbeit.
+                            <li><strong>Flexibilität</strong>. Du kannst uns in Berlin, Potsdam oder Mainz unterstützen, ganz so wie es dir passt.</li>
+                            <li><strong>Ein verdammt gutes und verdammt nettes Team</strong>. Wir wollen nicht nur gegenseitig das Beste aus uns herausholen (denn dann macht es am meisten Spaß), wir kümmern uns auch umeinander, in jeder Lebenslage.</li>
+                            <li><strong>Kein Stress</strong>. Ein Büro im Grünen und freundliche Kunden, sichtbare Ergebnisse deiner Arbeit und entsprechende Anerkennung.</li>
+                        </ul>
+                    </p>",
+  "employmentType": "Full-time",
   "experienceRequirements": "Berufseinsteiger",
-  "image": "https://www.callone.de/assets/images/icons_svg/job_02.svg",
+  "image": "https://www.callone.de/assets/images/icons_png/job_02.png",
   "industry": "Telekommunikation",
   "jobLocation": {
     "@type": "Place",
@@ -27,9 +63,18 @@
             "@type": "Country",
             "name": "DE"
         }
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.75",
+        "longitude": "73.98"
     }
   },
-  "salaryCurrency": "EUR"
+   "salaryCurrency": "EUR",
+   "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR"
+  }
 }
 </script>
 
@@ -57,7 +102,7 @@
 
 <div class="wrapper" id="more">
   <div class="content narrow centered">
-    <h1>Team Assistenz (m/w/d)</h1>
+    <h1>Team Assistenz (m/w/d) &ndash; Potsdam</h1>
     <p>In unserer Branche ist Kommunikation das Wichtigste &ndash; im Team, mit Kunden, über alle Kanäle. <br />Wir glauben an Transparenz, Einfachheit und Qualität.</p>
   </div>
 
@@ -72,8 +117,8 @@
         <h3>Ab sofort</h3>
       </div>
       <div class="col-3">
-        <img class="icon" src="/assets/images/icons_svg/small_35.svg" alt="In den Locations: Berlin, Mainz, Potsdam" />
-        <h3>Potsdam<br />Mainz</h3>
+        <img class="icon" src="/assets/images/icons_svg/small_35.svg" alt="In der Location: Potsdam" />
+        <h3>Potsdam</h3>
       </div>
     </div>
   </div>

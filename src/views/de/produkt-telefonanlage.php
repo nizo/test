@@ -108,7 +108,7 @@
           <div class="grid">
             <div class="col-2">
               <h3 class="h2">Zeit gespart, Kosten gespart</h3>
-              <p>Nutzen Sie leistungsstarke Analyse-Funktionen, <a href="https://www.callone.io" target="_blank" title="Rohdaten, Schnittstellen und Echtzeitstatistiken">Rohdaten, Schnittstellen und Echtzeitstatistiken</a> für die Auswertung Ihrer Telefoniedaten. Damit helfen wir modernen Unternehmen, Kunden mit bestem Service an sich zu binden und somit erfolgreich zu bleiben.</p>
+              <p>Nutzen Sie leistungsstarke Analyse-Funktionen, <a href="https://www.callone.io" target="_blank" rel="noreferrer" title="Rohdaten, Schnittstellen und Echtzeitstatistiken">Rohdaten, Schnittstellen und Echtzeitstatistiken</a> für die Auswertung Ihrer Telefoniedaten. Damit helfen wir modernen Unternehmen, Kunden mit bestem Service an sich zu binden und somit erfolgreich zu bleiben.</p>
             </div>
             <div class="col-2">
               <img src="/assets/images/illus/zeit-und-kosten.svg" alt="Zeit und Kosten gespart" class="img-75" />
