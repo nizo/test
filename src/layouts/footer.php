@@ -86,14 +86,14 @@
             <p>
               <a href="https://www.callone.de/faq/" target="_blank">FAQs</a><br />
               <a href="/testen">Kontakt</a><br />
-              <a href="https://status.callone.de">Systemstatus</a>
+              <a href="https://status.callone.de" rel="noreferrer">Systemstatus</a>
             </p>
           </div>
           <div class="footer-column">
             <h4>Social</h4>
             <p>
-              <a href="https://de.linkedin.com/company/callone-gmbh" target="_blank">LinkedIn</a><br />
-              <a href="https://de-de.facebook.com/CallOneGmbH/" target="_blank">Facebook</a>
+              <a href="https://de.linkedin.com/company/callone-gmbh" rel="noreferrer" target="_blank">LinkedIn</a><br />
+              <a href="https://de-de.facebook.com/CallOneGmbH/" rel="noreferrer" target="_blank">Facebook</a>
             </p>
           </div>
           <div class="footer-column"></div>
@@ -101,7 +101,7 @@
 
         <div class="footer-note">
           <div class="footer-note-left">
-            &starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" target="_blank">Google Erfahrungsberichte</a>
+            &starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" rel="noreferrer" target="_blank">Google Erfahrungsberichte</a>
           </div>
           <div class="footer-note-right">
             <a href="/impressum">Impressum</a>
@@ -164,8 +164,8 @@
           <li>
             <span>Social</span>
             <ul>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Twitter</a></li>
+              <li><a href="https://de.linkedin.com/company/callone-gmbh" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://de-de.facebook.com/CallOneGmbH/" rel="noreferrer">Twitter</a></li>
             </ul>
           </li>
           <li>
@@ -173,14 +173,14 @@
             <ul>
               <li><a href="https://www.callone.de/faq/" target="_blank">FAQs</a></li>
               <li><a href="/testen">Kontakt</a></li>
-              <li><a href="https://status.callone.de">Systemstatus</a></li>
+              <li><a href="https://status.callone.de" rel="noreferrer">Systemstatus</a></li>
             </ul>
           </li>
         </ul>
         <div class="footer-note">
           <div class="footer-note-left">
             &starf;&starf;&starf;&starf;&starf;<br />
-            5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" target="_blank">Google Erfahrungsberichte</a>
+            5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" rel="noreferrer" target="_blank">Google Erfahrungsberichte</a>
           </div>
           <div class="footer-note-right">
             <a href="/impressum">Impressum</a>
@@ -200,7 +200,7 @@
       <?php include('./partials/modal-10-second-application.php'); ?>
     </div>  
 
-    <script src="/assets/javascripts/libs/jquery-3.3.1.min.js"></script>
+    <script src="/assets/javascripts/libs/jquery-3.4.1.min.js"></script>
     
     <?php
         loadJS(null);

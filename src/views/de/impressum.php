@@ -14,6 +14,12 @@
         Friedrich-Koenig-Straße 25a<br />
         55129 Mainz
 	</p>
+	
+	<p>
+    	<strong>Zweigniederlassung</strong><br />
+        Charlottenstr. 107 <br />
+        14467 Potsdam
+	</p>
 
     <p>Vertretungsberechtigter Geschäftsführer: Björn Bendig</p>
 

@@ -70,3 +70,12 @@ $(document).ready(function(){
     });
 });
 
+
+function urlHasParam(paramName, paramURL) {
+	if (paramURL == null)
+		paramURL = window.location.href; 
+	var url = new URL(paramURL);
+	var param = url.searchParams.get(paramName);
+	
+	return param;
+}

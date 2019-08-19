@@ -1,0 +1,25 @@
+.AppExtensions__dropmenu__2qH .cui4-popover{
+	z-index:1000;
+}
+.AppExtensions__dropmenu__2qH .AppExtensions__dropdown__1hW{
+	margin-left:8px;
+}
+.AppExtensions__dropmenu__2qH .AppExtensions__action__1mh{
+	display:flex;
+	align-items:center;
+}
+.dropMenu ul li .AppExtensions__action__1mh, .AppExtensions__action__1mh{
+	text-decoration:none;
+	color:inherit;
+}
+.AppExtensions__icon__3Qs, .dropMenu ul li .AppExtensions__action__1mh img.AppExtensions__icon__3Qs, .AppExtensions__action__1mh img.AppExtensions__icon__3Qs{
+	width:16px;
+	height:16px;
+	margin-right:8px;
+	vertical-align:text-bottom;
+}
+.AppExtensions__coachmark__2J-{
+	position:relative;
+	right:-0.25rem;
+}
+
