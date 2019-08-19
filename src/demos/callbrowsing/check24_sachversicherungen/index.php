@@ -78,7 +78,11 @@
 			text += 'auf der Webseite. ';
 
 			return text;
-		}
+        }
+        
+        function callbrowsing_url_create ()
+        {	return null;
+        }
 
 		function callbrowsing_status (rootnumber, ddi, callstatus, caller)
 		{
@@ -182,7 +186,7 @@
         });
 
 
-		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_status);
+		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_url_create, callbrowsing_status);
     });
     </script>
     <!-- CallOne Callbrowsing -->
