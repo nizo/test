@@ -239,4 +239,17 @@
   </div>
 </div>
 
+<div class="wrapper parallel-wrapper">
+    <div class="wrapper breather parallel thirdcolor">
+      <div class="content thin small h_text">
+      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/celebrate-illu.png" data-srcset="/assets/images/illus/celebrate-illu.png" alt="Nominierung als beste Call-Center/Contact-Center-Lösung" title="Nominierung als beste Call-Center/Contact-Center-Lösung" class="icon lazy">
+        <h2 class="h1">CallOne als beste Contact Center Lösung nominiert</h2>
+        <p>In der Leserwahl ITK-Produkte des Jahres 2019 wurde CallOne in den Kategorien Call-Center/Contact-Center-Lösungen und Cloud-Telefonie nominiert. Stimmen sie jetzt für uns ab. Funkschau bietet nach der Abstimmung die Möglichkeit tolle Preise zu gewinnen!</p>
+        <div class="button-set">
+          <a href="https://umfragen3.funkschau.de/index.php/378694" rel="noindex, nofollow" target="_blank" class="button primary trackedElement" data-label="Button - Umfrage Funkschau" data-category="Link" data-action="linked to Umfrage Funkschau">Jetzt abstimmen und gewinnen</a>
+        </div>
+      </div>
+    </div>
+</div>
+
 <?php include('partials/slider.php'); ?>

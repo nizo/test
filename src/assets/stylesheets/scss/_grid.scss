@@ -11,9 +11,16 @@ $grid-gutter: $gutter-l;
   	&.flex{
   		display: flex;
   		flex-direction: column;
+  		&.row {
+  			flex-direction: row;
+  		}
   	}
   	&.space-between {
   		justify-content: space-between;
+  		blockquote {
+  			height: 100%;
+  			padding-bottom: $gutter-xxl;
+  		}
   	}
   }
   &.tile {

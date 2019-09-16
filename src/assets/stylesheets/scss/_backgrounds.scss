@@ -81,3 +81,40 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   		background-image: url('/assets/images/backgrounds_svg/pattern-purple-testen.svg');
   	}
 }
+
+
+.header-bg {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+	.ivf-bg, .robot {
+	    position: absolute;
+	    right: -1600px;
+	    left: 0;
+	    bottom: 0;
+	    top: 0;
+	    background: url(/assets/images/photos/ivf-bg.png) 0% 0% repeat;
+	    z-index: -1;
+	    background-size: contain;
+	    -moz-animation: MOVE-BG 60s infinite linear;
+	    -webkit-animation: move-header-bg 60s infinite linear;
+	    animation: MOVE-BG 80s infinite linear;	
+	}
+	
+	@keyframes MOVE-BG {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		} 
+		100% { 
+			-webkit-transform: translateX(-1600px);
+			transform: translateX(-1600px);
+		}
+	}
+}
+

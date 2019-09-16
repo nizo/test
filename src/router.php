@@ -340,13 +340,14 @@ $r->addRoute('GET', '/call-tracking', function() {
     require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/voicebot', function() {
-    $title = '';
-    $description = '';
-    $keywords = '';
+$r->addRoute('GET', '/callcenter-bot', function() {
+    $title = 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR';
+    $description = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.';
+    $keywords = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR';
     $background = 'bg-casestudy';
-    $ogUrl = $GLOBALS['url'] . '/voicebot';
-    $canonical = $GLOBALS['url'] . '/voicebot';
+    $ogUrl = $GLOBALS['url'] . '/callcenter-bot';
+    $ogImage = 'https://www.callone.de/assets/images/icons_png/robot-ogImage.png';
+    $canonical = $GLOBALS['url'] . '/callcenter-bot';
     require_once('./layouts/header.php');
     require_once('./views/de/produkt-voicebot.php');
     require_once('./layouts/footer.php');

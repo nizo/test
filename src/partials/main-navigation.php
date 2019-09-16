@@ -65,13 +65,13 @@
               </a>
             </li>
             <li>
-              <a href="/voicebot" class="product" title="Voicebot, Spracherkennung, IVR">
+              <a href="/callcenter-bot" class="product" title="Voicebot, KI-Spracherkennung, IVR">
               	<span class="img">
-              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_36.svg" data-srcset="/assets/images/icons_svg/small_36.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_39.svg" data-srcset="/assets/images/icons_svg/small_39.svg" alt="Voicebot KI-Spracherkennung" title="Zum Produkt Voicebot KI-Spracherkennung">
               	</span>
               	<span>
-                    <span>Voicebot</span>
-                	Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
+                    <span>Callcenter Bot</span>
+                	Anliegen sprachgesteuert mit <br>KI-gesteuerten Sprachdialogsystemen lösen
                 </span>	
               </a>
             </li>

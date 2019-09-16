@@ -79,6 +79,7 @@
     			*/
     				text += '?';
                     text += ' Dann bleiben Sie in der Leitung. Wir werden Sie schnellstmöglich mit einem unserer Berater verbinden. ';
+                    
                 } else {
                     text += ' Wir werden Sie schnellstmöglich mit einem unserer Berater verbinden. ';
                 }
@@ -86,7 +87,7 @@
             	text += 'Sie haben keine Auswahl auf unserem Finanzierungsrechner getätigt. Sie werden nun an einen Finanzierungsberater weitergeleitet. ';
             }       	
         	
-			text += 'Sie sind schon seit ';
+			/** text += 'Sie sind schon seit ';
 			duration = Math.floor (Date.now() / 1000) - timestamp_start;
 			if (duration > 60)
 			{
@@ -101,9 +102,37 @@
 				text += duration+' Sekunden ';
 			}
 			text += 'auf der Webseite. ';
-
+			**/
 			return text;
 		}
+
+        function callbrowsing_url_create ()
+        {	
+			var url = "https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?"
+
+				if ($( "#hersteller option:selected" ).text().length > 0 && $( "#hersteller option:selected" ).text() !== 'Bitte wählen') {	
+					url += 'h=' + $( "#hersteller option:selected" ).text();
+					if ($( "#modell option:selected" ).text().length > 0 && $( "#modell option:selected" ).text() !== 'Bitte wählen') {
+	                	url += '&m=' + $( "#modell option:selected" ).text();
+	                	if ($( "#karosserie option:selected" ).text().length > 0 && $( "#karosserie option:selected" ).text() !== 'Bitte wählen')
+                    		url += '&k=' + $( "#karosserie option:selected" ).text();
+                    	if ($( "#anzahlTueren option:selected" ).text().length > 0 && $( "#anzahlTueren option:selected" ).text() !== 'Beliebig')
+                    		url += '&t=' + $( "#anzahlTueren option:selected" ).text();
+                    	if ($( "#kraftstoff option:selected" ).text().length > 0 && $( "#kraftstoff option:selected" ).text() !== 'Beliebig')
+                    		url += '&ks=' + $( "#kraftstoff option:selected" ).text();
+                    	if ($( "#leistung option:selected" ).text().length > 0 && $( "#leistung option:selected" ).text() !== 'Beliebig')
+                    		url += '&l=' + $( "#leistung option:selected" ).text();
+                    	if ($( "#autoModell option:selected" ).text().length > 0 && $( "#autoModell option:selected" ).text() !== '')
+                    		url += '&vm=' + $( "#autoModell option:selected" ).text();
+                    	if ($( "#preis" ).text().length > 0 )
+                        	url += '&p=' + $( "#preis" ).text();
+                        if ($( "#leasingPreis" ).text().length > 0 )
+                        	url += '&pl=' + $( "#leasingPreis" ).text();
+        			}
+				}
+			
+            return url;
+        }
 
 		function callbrowsing_status (rootnumber, ddi, callstatus, caller)
 		{
@@ -189,9 +218,6 @@
                 {
                     type: 0,
                     aid: 'callone_cfcd208495d565ef66e7dff9f98764da',
-                    //aid: '1346',
-                    //callback_key: '278e7dc2ce56973e354d76c9b893e643',
-                    //callback_key: 'ad663c4d73f07113924856c9ccdface4',
                     callback_key: 'dbc5e205033aa4f230073490394205b4',
                     phonenumber: $('#callbackNumber').val().trim(),
                     ddi: session_ddi,
@@ -210,7 +236,7 @@
         });
 
 
-		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_status);
+		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'sixt', callbrowsing_text_create, callbrowsing_url_create, callbrowsing_status);
 
 		$('#showPopoverCallback').on('click', function() {
 			$('#popoverCallback').fadeToggle();
@@ -305,7 +331,6 @@ Rückruf
 	<div id="wrap">
 		<form id="callbackForm" action="" autocomplete="on" onclick="document.getElementById('callbackNumber').classList.add('fixed');">
             <input id="callbackNumber" name="callbacknumber" type="text" placeholder="Ihre Rufnummer" >
-            
             <button id="callbackButton" type="button" name="callbackbutton">Rückruf anfordern</button>
 		</form>
     </div>
@@ -360,7 +385,7 @@ var cars = {
             	'karosserie' : 'Limousine',
 	        	'kraftstoff' : 'Diesel',
 	        	'anzahlTueren' : '4',
-	        	'leistung' : '150PS / 110KW',
+	        	'leistung' : '150PS/110KW',
 	        	'name' : '318d',
 	    		'preis' : '353,14',
 	        	'preisLeasing': '375,09',
@@ -375,7 +400,7 @@ var cars = {
     	        'karosserie' : 'Sportback',
     	        'kraftstoff' : 'Bleifrei',
     	        'anzahlTueren' : '5',
-    	        'leistung' : '116PS / 85KW',
+    	        'leistung' : '116PS/85KW',
 	        	'name' : '30 TFSI Sportback',
 	        	'preis' : '185,91',
 	        	'preisLeasing': '197,97',
@@ -390,9 +415,9 @@ var cars = {
             	'karosserie' : 'Limousine',
 	        	'kraftstoff' : 'Diesel',
 	        	'anzahlTueren' : '4',
-	        	'leistung' : '190PS / 140KW',
+	        	'leistung' : '190PS/140KW',
 	        	'name' : '40 TDI S tronic',
-	    		'preis' : '417,77 €',
+	    		'preis' : '417,77',
 	        	'preisLeasing': '442,00',
 	        	'verbrauch' : '4,2',
 	        	'co2' : '111' 		        	
@@ -430,7 +455,6 @@ function fillProps(cars, hersteller, modell) {
     		$('#co2').html(cars[element].data.co2);
     		$('#preis').html(cars[element].data.preis);
     		$('#leasingPreis').html(cars[element].data.preisLeasing);
-    		
 		}
 	}
 }
@@ -1085,10 +1109,7 @@ Farbe und Ausstattung können vom Angebot abweichen. Kostenpflichtige Sonderauss
         C24.3,9.1,24,8.7,23.7,8.4z"></path>
 </svg></svg>
 
-<script type="text/javascript" src="./javascript/base.js"></script>
-<script type="text/javascript" src="./javascript/categorysearch.js"></script>
-<script src="./javascript/require-2.1.8.js"></script>
-<script src="./javascript/mainmenu.js"></script>
+
 
 <!-- PROD -->    </body></html>
 <!-- INFO:WIREFRAME URL=/wf/ver/sec/split/ VERSION=201903251 -->

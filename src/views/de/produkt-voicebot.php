@@ -1,83 +1,116 @@
-<div class="wrapper audioline">
-  <div class="content wide">
+<div class="wrapper " style="overflow: hidden;">
+  <div class="content narrow">
     <header class="main-header">
       <div class="grid centered">
           <div class="col-1">
-            <h1>Auswahlmenüs am Telefon nerven<br>Wir schaffen das IVR-Menü ab</h1>
+            <h1>Callcenter Bot <br>für Kundenservice und Helpdesk </h1>
             <p>
-            	CallOne bietet Voicebots, die Ihre Telefonhotline auf ein neues Level bringen und Telefon-Auswahlmenüs durch modulare Sprachassistenten ersetzen. Anrufanliegen werden automatisiert mittels natürlicher Spracheingabe gelöst und Ihren Agenten bleibt Zeit für die wichtigen Kundenthemen. (Dies bedeutet nie wieder: Drücken Sie die 1 für, drücken sie die 2 für…)
+            	Sprachgesteuerte Menüführung, automatisierte FAQ am Telefon und Callcenter Bots, die Ihren Callcenter Agenten Standardaufgaben abnehmen​.
             </p>
           </div>
           <div class="col-1">
               <div class="button-set centered">
                   	<a class="openModal button primary trackedElement" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Mit Experten sprechen</a>
-                  	<a href="/testen" class="button secondary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
+                  	<a href="/testen" class="button secondary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt unsere Lösungen testen</a>
               </div>
           </div>
       </div>
       <div class="grid centered">
         <div class="col-1">
-        	<img src="/assets/images/illus/relaxing.svg">
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/relaxing.gif" data-srcset="/assets/images/illus/relaxing.gif" title="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" alt="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" class="lazy relaxingImage">
 		</div>
-      </div>  
+      </div>
     </header>
+  </div>
+  <div class="chat-conversation">
+	<div><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_15.svg" data-srcset="/assets/images/icons_svg/big_15.svg" class="lazy" title="Kunde fragt" alt="Kunde fragt" /><span class="text">Ich möchte meinen Lieferstatus wissen.</span></div>
+	<div><span class="text">Ihr Pakt wird morgen geliefert.</span><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_14.svg" data-srcset="/assets/images/icons_svg/big_14.svg" class="lazy" title="Callcenter Bot Bender antwortet " alt="Callcenter Bot Bender antwortet" /></div>
   </div>
 </div>
 
 <div class="wrapper">
+  <div class="content wide centered">
+    <h2 class="h1 centered">Verwendungsmöglichkeiten Callcenter Bot <br>Das sprachgesteuerte KI-Sprachdialogsystem</h2>
+  </div>
+
   <div class="content wide">
-  	<h2 class="centered">Verwendungsmöglichkeiten Voicebot <br>Das sprachgesteuerte KI-Sprachdialogsystem</h2>
-  	<div class="grid tile">   
+    <div class="grid">
       <div class="col-3">
-        <div class="disturber centered">
-        	<span class="secondary trackedElement" data-label="Select Button - Rufnummern auswählen" data-category="Link" data-action="Show 0800 Rufnummern">ab <strong>4,90 €</strong> pro Monat</span>
-        </div>
-      	<div class="shadow-box padding">
-      		Auswahlmenüs
-      	</div>
+        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_38.svg" data-srcset="/assets/images/icons_svg/small_38.svg" alt="Auswahlmenüs - Sprachauswahl statt DTMF-Tasten" />
+        <h3 class="centered">Sprachgesteuertes IVR</h3>
+        <p>Sprachdialoge statt starrer Menüs.</p>
+        <ul class="list approved-list">
+        	<li>Erkennung menschlicher Sprache</li>
+        	<li>Intelligente Spracherlebnisse</li>
+        	<li>Anlernbar, beliebig skalierbar, mehrsprachig</li>
+        </ul>
       </div>
       <div class="col-3">
-        <div class="disturber centered">
-        	<span class="secondary trackedElement" data-label="Select Button - Rufnummern auswählen" data-category="Link" data-action="Show 0800 Rufnummern">ab <strong>4,90 €</strong> pro Monat</span>
-        </div>
-      	<div class="shadow-box padding">
-      		Self-Service (FAQ)
-      	</div>
+        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_13.svg" data-srcset="/assets/images/icons_svg/big_13.svg" alt="Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten" />
+        <h3 class="centered">Informationsbots​</h3>
+        <p>Anruferanfragen automatisiert beantworten.</p>
+        <ul class="list approved-list">
+        	<li>Sprachbasierte FAQ​</li>
+        	<li>Vorqualifizierung von Anruferanliegen</li>
+        	<li>Aktuelle Nachrichteninformationen</li>
+        	<li>Automatisierte Informationsübermittlung</li>
+        </ul> 
       </div>
       <div class="col-3">
-        <div class="disturber centered">
-        	<span class="secondary trackedElement" data-label="Select Button - Rufnummern auswählen" data-category="Link" data-action="Show 0800 Rufnummern">ab <strong>4,90 €</strong> pro Monat</span>
-        </div>
-      	<div class="shadow-box padding">
-      		Individual
-      	</div>
+        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_12.svg" data-srcset="/assets/images/icons_svg/big_12.svg" alt="Individual - Kundenindividuelle Anwendungen" />
+        <h3 class="centered">Callcenter Bots</h3>
+        <p>Leistungsstarke Schnittstellen für kundenindividuelle Anwendungen​.</p>
+        <ul class="list approved-list">
+        	<li>Termin vereinbaren</li>
+        	<li>Lieferstatus erfragen</li>
+        	<li>Passwort ändern</li>
+        	<li>Kontostand abrufen</li>
+        </ul> 
       </div>
-    </div>    
+    </div>
   </div>
   <div class="content narrow centered">
-    <div class="button-set centered">
-    	<a href="https://www.callone.de/demos/callbrowsing/reiseanbieter/" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Jetzt einfach ausprobieren!</a>
-    	<a href="#contactForm" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+  	<div class="button-set centered">
+	  <a href=" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Termin vereinbaren</a>
+	  <a href="#contactForm" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
     </div>
   </div>
 </div>
+
 <div class="wrapper background" id="calltracking">
   <div class="content wide">
   	<div class="grid cross-grid auto">
         <div class="col-2">
-        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" data-srcset="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" alt="Verknüpfen Anruf per individueller Rufnummer mit einem Websitenbesucher" class="lazy" />
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/CallOneRobot-invers-2.svg" data-srcset="/assets/images/illus/CallOneRobot-invers-2.svg" alt="So funktioniert unser Spachdialogsystem - Der Callcenter Bot" class="lazy" usemap="#robot" />
+        	<map name="robot">
+            	<script>
+                	function showStep(e, step){
+                	    e = e || window.event;
+                	    e.preventDefault();
+
+                	    $( document ).ready(function() {
+                	    	$('.mapList li').css('border-color','#000000');
+                	       $('.mapList li:nth-child('+ step +')').css('border-color','#86ed18');
+                	    });
+                	}
+            	</script>
+        		<area class="blue" onmouseover="showStep(event, 1)" onclick="showStep(event, 1)" shape="rect" coords="0,70,80,145" href="#">
+        		<area class="blue" onmouseover="showStep(event, 2)" onclick="showStep(event, 2)" shape="rect" coords="460,260,540,340" href="#">
+        		<area class="blue" onmouseover="showStep(event, 3)" onclick="showStep(event, 3)" shape="rect" coords="10,320,80,400" href="#">
+        		<area class="blue" onmouseover="showStep(event, 4)" onclick="showStep(event, 4)" shape="rect" coords="460,605,540,680" href="#">        		
+            </map>
         </div>
         <div class="col-2 cross">
         	<div class="shadow-box padding">
-              <h3 class="h2">Wie funktioniert unser Voicebot?</h3>
-              <ul class="list approved-list">
-              	<li><strong>Sprachportal nimmt Anruf entgegen</strong>. Das CallOne Sprachdialogsystem erkennt das gesprochene Wort des Anrufers. Diese auch als Voice-to-Text (VTT) oder Automatic-Speech-Recognition (ASR) bezeichnete Technologie ermöglicht es, in Echtzeit aus Sprache Text zu erstellen.</li> 
-				<li><strong>Das Anliegen mittels vortrainierter KI identifizieren</strong>. Schlüsselwörter und semantische Zusammenhänge werden erkannt.</li>
-				<li><strong>Sprachdialog mit Ihrem Anrufer</strong> mittels Sprachsynthese (Text-to-Speech)</li>
-				<li><strong>Vorqualifizierung oder Lösung des Anruferanliegens</strong> Ist das Anrufer Anliegen definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</li> 
-              </ul>
+              <h3 class="h2">Wie funktioniert unser Callcenter Bot?</h3>
+              <ol class="list border-list mapList">
+              	<li><strong class="headline">Sprachportal nimmt Anruf entgegen</strong> Das CallOne Sprachdialogsystem erkennt das gesprochene Wort des Anrufers. Diese auch als Voice-to-Text (VTT) oder Automatic-Speech-Recognition (ASR) bezeichnete Technologie ermöglicht es, in Echtzeit aus Sprache Text zu erstellen.</li> 
+				<li><strong class="headline">Das Anliegen mittels vortrainierter KI identifizieren</strong> Schlüsselwörter und semantische Zusammenhänge werden erkannt.</li>
+				<li><strong class="headline">Sprachdialog mit Ihrem Anrufer</strong> mittels Sprachsynthese (Text-to-Speech)</li>
+				<li><strong class="headline">Vorqualifizierung oder Lösung des Anruferanliegens</strong> Ist das Anrufer Anliegen definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</li> 
+              </ol>
               <div class="button-set centered">
-              	<a href="#demos" class="button primary trackedElement" data-label="Button - Jetzt einfach ausprobieren!" data-category="Link" data-action="linked to #demos">Jetzt einfach ausprobieren!</a>
+              	<a href="#demos" class="button primary trackedElement mobileWrap" data-label="Button - Jetzt einfach ausprobieren!" data-category="Link" data-action="linked to #demos">Weitere Fragen? Kontaktieren sie uns!</a>
               </div>
 			</div>
         </div>
@@ -86,15 +119,16 @@
 </div>
 
 <div class="wrapper" id="integrations">
-  <div class="content wide">
+  <div class="content narrow centered">
   	<h2 class="h1 centered">Nutzen</h2>
+  	<p>CallOne bietet das Full-Service Paket für Callcenter-Bots am Telefon - von der Konzeptentwicklung bis zur Markteinführung und Optimierung Ihres Produkts.</p>
   </div>
   <div class="content wide right">
   	<div class="content narrow">
         <div class="shadow-box padding">
           <div class="grid">
             <div class="col-2">
-              <img src="/assets/images/illus/voicebot-business.gif" alt="Voicebot - Nutzen für Unternehmen" class="img-75" />
+              <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/voicebot-business.gif" data-srcset="/assets/images/illus/voicebot-business.gif" alt="Callcenter Bot - Nutzen für Unternehmen" class="img-75 lazy" />
             </div>
             <div class="col-2">
               <h3 class="h2">Unternehmen</h3>
@@ -121,15 +155,12 @@
               </ul>
             </div>
             <div class="col-2">
-              <img src="/assets/images/illus/schnelle-einfuehrung2.svg" alt="Schnelle und professionelle Einführung" class="img-75" />
+              <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/voicebot-user.gif" data-srcset="/assets/images/illus/voicebot-user.gif" alt="Callcenter Bot - Nutzen für Anrufer" class="img-75 lazy" />
             </div>
           </div>    
         </div>
     </div>
   </div>
-  <div class="content narrow centered">
-  	<p>Statt statischer Tasteneingaben bietet CallOne Anrufern damit einen natürlichen sprachgesteuerten Dialog, bei dem Worte und Wortzusammenhänge erkannt und als Routinginformation genutzt werden können.</p>
-  </div> 
   <div class="content thin centered">
     <div class="button-set centered">
       <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
@@ -138,24 +169,27 @@
 </div>
 
 <div class="wrapper quarter-background">
-  <div class="content wide">
-  	<div class="grid tile">
-  		<div class="col-3">
-  			<div class="shadow-box padding">huhu</div>
-  		</div>
-  		<div class="col-3">
-  			<div class="shadow-box padding">huhu2</div>
-  		</div>
-  		<div class="col-3">
-  			<div class="shadow-box padding">huhu3</div>
-  		</div>
-  	</div>
+  <div class="content narrow">
+    <strong class="h2 font-secondary centered white">Supported by</strong>
+
+    <div class="shadow-box padding">
+    	<div class="grid">
+    		<div class="col-2">
+    			<p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-google.svg" data-srcset="/assets/images/logo/partnerlogos/logo-google.svg" alt="t3n" class="partnerLogo small-33 gray-100 lazy"/></p>
+    		</div>
+    		<div class="col-2">
+    			<p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-amazon.svg" data-srcset="/assets/images/logo/partnerlogos/logo-amazon.svg" alt="Gründerszene" class="partnerLogo small-33 gray-100 lazy" /></p>
+    		</div>
+    	</div>
+    </div>
   </div>
 </div>
 
+<?php include('partials/slider-callcenter-bot.php'); ?>
+
 <div class="wrapper breather" id="addons">
   <div class="content narrow left small h_text">
-	<h2 class="h1 centered">Weitere Voicebot-Addons</h2>
+	<h2 class="h1 centered">Weitere Callcenter Bot-Addons</h2>
   	<div class="grid parallel">
         <div class="col-2">
         	<div class="image primary">
@@ -217,63 +251,53 @@
 
 <div class="wrapper">
   <div class="content wide mobileNoPadding">
-    <h3 class="h1 centered">FAQ Voicebot</h3>
-    <div class="container">
-    	<h4 class="title">Was ist Call-Tracking?</h4>
-    	<div class="content">
-    		<p>Mit Call-Tracking erhalten Sie weiterführende Informationen zu den Anrufen Ihrer Kunden und Interessenten (z. B. über welche Suchanfrage oder Anzeige der Anrufer Sie kontaktiert hat) sowie zum Anrufer selbst (z. B. Warenkorb, besuchte Seiten, Kundenhistorie aus Ihrem CRM).</p>  
-			<p>Grundsätzlich gibt es zwei verschiedene Varianten beim Thema Call-Tracking, die oft als statisches und dynamisches Call-Tracking bezeichnet werden. Beim statischen Call-Tracking können Sie beispielsweise Rufnummern oder Rufnummernerweiterungen (DDI) für bestimmte Werbeanzeigen, Landingpages oder Suchbegriffe nutzen, um die Anrufer dann einer Marketing-Kampagne oder Werbemaßnahme zuordnen zu können.</p>  
-			<p>Dynamisches Call-Tracking ist weitaus intelligenter. Hier erhält jeder Ihrer Webseitenbesucher eine individuelle Rufnummer oder Rufnummern-DDI. Sie haben also die Möglichkeiten Ihren Mitarbeitern Informationen wie den Warenkorbinhalt oder die Customer Journey des Besuchers schon vor Gesprächsbeginn zur Verfügung zu stellen oder den Anrufer schon den Informationen angepasst durch das Routing zu führen oder zu priorisieren.</p>	
+    <h3 class="h1 centered">FAQ Callcenter Bot</h3>
+    <div class="container open">
+    	<h4 class="title">Wie funktioniert der CallOne Callcenter Bot?​</h4>
+    	<div class="content" style="display: block">
+    		<p>Wir bieten kundenindividuelle Lösungen für ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>
+			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an ihre Systeme, Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="/testen" title="Sprechen Sie uns an - Wir beraten Sie gerne">Sprechen Sie uns an​</a></p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Wie funktioniert Call-Tracking?</h4>
+    	<h4 class="title">Was sind die häufigsten Anwendungsfälle des Callcenter Bots?</h4>
     	<div class="content">
-    		<p>Wir schalten Ihnen für Ihr Call-Tracking-Projekt einzelne Rufnummern oder einen Rufnummernblock, den Sie beliebig erweitern können. Sie haben dann die Möglichkeit jeder Session auf Ihrer Webseite eine Rufnummer zuzuordnen und diese für die Dauer der Session anzuzeigen. Jeder neue Besucher erhält somit eine neue Rufnummer.</p>
-    		<p>Über unsere APIs können Sie den Anruf des Kunden dann beliebig mit Informationen anreichern, beispielsweise:</p>
-    		<ul class="list approved-list">
-    			<li>Besuchte Unterseiten</li>
-				<li>Warenkorbinhalte</li>
-				<li>Ausgefüllte Formulare</li>
-				<li>Bestellprozess</li>
-				<li>Informationen aus Ihrem CRM (Kundenhistorie, vergangene Bestellungen, etc.)</li>
-			</ul>
-			<p>Anhand dieser Daten haben Sie außerdem die Möglichkeit den Anruf gesondert zu routen. Das bedeutet, dass Sie z. B. individuelle Auswahlmenüs zur Verfügung stellen, den Anruf priorisieren oder mit speziellen Ansagen bespielen können. Außerdem bieten wir die Möglichkeit Call-Tracking mit Co-Browsing zu kombinieren. So können Ihre Kundenservice-Mitarbeiter den Anrufer direkt auf der Website unterstützen.</p>
+    		<p>Wir bieten Ihnen drei Anwendungsbereiche: Sprachgesteuerte IVR-Auswahlmenüs, FAQ-Portale, individuelle KI-gesteuerte Kundendialoglösungen mit Voice-to-Text, KI, Text-to-Speech und Schnittstellenintegrationen.</p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">An wen richtet sich Call-Tacking und wer profitiert davon?</h4>
+    	<h4 class="title">Was sind die ersten Schritte mit dem Callcenter Bot?</h4>
     	<div class="content">
-    		<p>Call-Tracking richtet sich an Unternehmen mit großem Interesse an Business Intelligence (BI) und umfangreichen Datenauswertungen. Mit individuellen Rufnummern haben Sie weitreichende Auswertungsmöglichkeiten:</p>
-    		<ul class="list approved-list">
-    			<li>Customer Journey, die zu einem Anruf führt</li>
-    			<li>Bereiche der Webseite aus denen viele Kunden anrufen</li>
-    			<li>Probleme im Bestellprozess oder bei Formularen erkennen</li>
-    			<li>Telefonische Conversions auswerten</li>
-    		</ul>
-    		<p>Außerdem haben Sie die Möglichkeit Ihre bereits vorhanden Kundeninformationen von der Webseite und aus Ihren CRM-Systemen den Service- und Sales-Mitarbeitern schon vor Gesprächsbeginn zur Verfügung zu stellen. So können diese die Kunden effizient und intelligent unterstützen und Sie verringern Ihre Gesprächszeiten und steigern die Erreichbarkeit.  </p>
-    		<p>Mithilfe von Co-Browsing, das problemlos mit Call-Tracking kombinierbar ist, können Ihre Mitarbeiter sogar direkt beim Ausfüllen von Formularen auf der Website unterstützen und Ihre Kunden durch den Bestellprozess leiten.</p>
+    		<p>Sie setzen sich mit uns in Verbindung und wir besprechen ihr konkretes Anwendungsszenario. Recht schnell erstellen wir ein Prototyp für Sie und testen. Bei komplexeren Anwendungsfällen wie Schnittstellenintegrationen und komplexen Anwendungsfällen steht ihnen ein Projektteam aus eigenen Full Stack- und Schnittstellenentwicklern, Web-Entwicklern und Sprachwissenschaftlern zur Verfügung.</p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Wie können wir Call-Tracking nutzen?</h4>
+    	<h4 class="title">Wie können wir den CallOne Callcenter Bot nutzen?</h4>
     	<div class="content">
     		<p>
-    			Sobald wir Ihnen einen Rufnummernblock nach Wunsch geschaltet haben, können Sie direkt loslegen. Sprechen Sie uns gerne zu Ihrem individuellen Projekt an und wir beraten Sie.
+    			Wir bieten Ihnen ein Full-Service-Paket. Hierbei erhalten sie von uns alles, was Sie brauchen, um Ihr Spracherlebnis auf den Weg zu bringen - von der Konzeptentwicklung bis zur Markteinführung und Optimierung Ihres Produkts.
     		</p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Was müssen wir an unserer Webseite ändern, um Call-Tracking nutzen zu können?</h4>
+    	<h4 class="title">Was kostet der Call Center Bot?</h4>
     	<div class="content">
     		<p>
-    			Beim Call-Tracking ist es voll und ganz Ihnen überlassen, welche und wie viele Daten Sie nutzen möchten. Von einer einfachen Verknüpfung einer individuellen Rufnummer mit einer Landingpage bis hin zu individuellen Rufnummern je Webseiten-Session und CRM-Anbindung ist alles möglich. Kontaktieren Sie uns gerne, um Ihr spezielles Call-Tracking-Projekt zu besprechen.
+    			Die Nutzung des Callcenter Bots erfolgt nach Nutzung. Sie zahlen je Aufruf der Sprachanforderung (VTT) und Text-to-Speech (TTS). Der Aufwand für die Bereitstellung ihres Callcenter Bots ist kundenindividuell und richtet sich nach Art und Umfang des Projekts.
+    		</p>
+    	</div>
+    </div>
+    <div class="container">
+    	<h4 class="title">Wie lange dauert die Umsetzung?</h4>
+    	<div class="content">
+    		<p>
+    			Der Start für einen Callcenter Bot kann innerhalb weniger Stunden für sie erfolgen, wenn es sich beispielsweise um die Sprachautomatisierung ihres IVR-Menüs handelt. Im laufenden Betrieb optimieren wir mit Ihnen die erkannten Eingaben. Projekte bei denen Schnittstellenintegrationen und vielzählige Plausibilitäten abzubilden sind, werden in einem individuellen Projektplan für sie verbindlich zusammengestellt.​
     		</p>
     	</div>
     </div>
     <p></p>
     <div class="button-set centered">
-		<a href="/faq/category/telefonanlage/" class="button primary trackedElement" data-label="Button - Mehr FAQ" data-category="Link" data-action="linked to /faq/category/telefonanlage/">Mehr FAQ</a>
+		<a href="/faq/" class="button primary trackedElement" data-label="Button - Mehr FAQ" data-category="Link" data-action="linked to /faq/">Mehr FAQ</a>
 	</div>  
   </div>
 </div>
