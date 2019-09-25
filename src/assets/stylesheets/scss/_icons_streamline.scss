@@ -39,6 +39,10 @@
 		font-size: inherit;
 		line-height: inherit;
 		
+		&.before-padding-25 {
+			padding-left: 25px;
+		}
+		
 		&.sl-size-xxs, &.sl-size-xs, 
 		&.sl-size-s, &.sl-size-m, 
 		&.sl-size-l, &.sl-size-xl {
@@ -412,5 +416,13 @@
 	}
 	&.sl-music:before {
 		content: "\e192";
+	}
+	&.sl-ok-sign:before {
+		content: "\e2a2";
+	}
+	&.sl-plus-sign:before {
+		content: "\e24e";
+		padding-right: 10px;
+		line-height: 24px;
 	}
 }

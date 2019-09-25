@@ -108,9 +108,10 @@
 
         function callbrowsing_url_create ()
         {	
-			var url = "https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?"
-
-				if ($( "#hersteller option:selected" ).text().length > 0 && $( "#hersteller option:selected" ).text() !== 'Bitte wählen') {	
+			var url = null;
+			
+				if ($( "#hersteller option:selected" ).text().length > 0 && $( "#hersteller option:selected" ).text() !== 'Bitte wählen') {
+					url = "https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?";
 					url += 'h=' + $( "#hersteller option:selected" ).text();
 					if ($( "#modell option:selected" ).text().length > 0 && $( "#modell option:selected" ).text() !== 'Bitte wählen') {
 	                	url += '&m=' + $( "#modell option:selected" ).text();
@@ -483,7 +484,6 @@ $(document).ready(function() {
 <div id="pageContainer" class="page-container sx-b2cl-container isEmbossStyle content-redesign " data-selector="page-container"><div class="sx-b2cl-content-wrapper content clearfix">  
   <div class="sideContent unit radius5">  
 <form method="get" name="basicCalculation" action="https://www.sixt-neuwagen.de/detail" class="calculator basicCalculation basicCalculationSmall nBoxShadow2 radius5 clearfix pam" autocomplete="off" id="basicCalculation"><input class="notranslate" type="hidden" name="mode" value="V"><div class="basicCalculationSection ">  
-	<a href="https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?h=BMW&m=2er%20Gran%20Tourer&k=Kompaktvan&ks=bleifrei&t=5&l=109PS%20/%2085KW&vm=218i&p=228,93&pl=246,77" target="_blank">Anruferdaten anzeigen</a>
 	<h2>Audi A6 Vario-Finanzierungsrechner</h2><h3>Vario-Finanzierungsraten online berechnen</h3></div>  
 	<input type="hidden" name="partner_id" id="partnerId" value=""><fieldset class="lvkdRadioSwitch basicCalculationSection">  
 	<label><input type="radio" name="lvkd2" data-gaqf="" value="P" checked="checked">privat</label><label><input type="radio" name="lvkd2" data-gaqf="" value="G">gewerblich</label>  
@@ -724,7 +724,7 @@ Audi Q3 Vario-Finanzierung
 Audi A4 Vario-Finanzierung  
 </a></li>  
 </ul>  
-  
+<a href="https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?h=BMW&m=2er%20Gran%20Tourer&k=Kompaktvan&ks=bleifrei&t=5&l=109PS%20/%2085KW&vm=218i&p=228,93&pl=246,77&caller=004917624445585" target="_blank">Anruferdaten anzeigen</a>
 </div>  
   </div></div><div class="sx-b2cl-main-content unitRight catlevelLine"><div class="clearfix"><h1 class="headline h1 clearfix">  
 Audi A6 Vario-Finanzierungsangebote </h1></div><div class="nBreadcrumb unit">  

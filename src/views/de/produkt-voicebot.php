@@ -3,9 +3,9 @@
     <header class="main-header">
       <div class="grid centered">
           <div class="col-1">
-            <h1>Callcenter Bot <br>für Kundenservice und Helpdesk </h1>
+            <h1>Callcenter-Bot <br>für Kundenservice und Helpdesk </h1>
             <p>
-            	Sprachgesteuerte Menüführung, automatisierte FAQ am Telefon und Callcenter Bots, die Ihren Callcenter Agenten Standardaufgaben abnehmen​.
+            	Sprachgesteuerte Menüführung, automatisierte FAQ am Telefon und Callcenter Bots, die Ihren Callcenter-Agenten Standardaufgaben abnehmen​.
             </p>
           </div>
           <div class="col-1">
@@ -30,7 +30,7 @@
 
 <div class="wrapper">
   <div class="content wide centered">
-    <h2 class="h1 centered">Verwendungsmöglichkeiten Callcenter Bot <br>Das sprachgesteuerte KI-Sprachdialogsystem</h2>
+    <h2 class="h1 centered">Verwendungsmöglichkeiten für den Callcenter-Bot <br>Das sprachgesteuerte KI-Sprachdialogsystem</h2>
   </div>
 
   <div class="content wide">
@@ -107,7 +107,7 @@
               	<li><strong class="headline">Sprachportal nimmt Anruf entgegen</strong> Das CallOne Sprachdialogsystem erkennt das gesprochene Wort des Anrufers. Diese auch als Voice-to-Text (VTT) oder Automatic-Speech-Recognition (ASR) bezeichnete Technologie ermöglicht es, in Echtzeit aus Sprache Text zu erstellen.</li> 
 				<li><strong class="headline">Das Anliegen mittels vortrainierter KI identifizieren</strong> Schlüsselwörter und semantische Zusammenhänge werden erkannt.</li>
 				<li><strong class="headline">Sprachdialog mit Ihrem Anrufer</strong> mittels Sprachsynthese (Text-to-Speech)</li>
-				<li><strong class="headline">Vorqualifizierung oder Lösung des Anruferanliegens</strong> Ist das Anrufer Anliegen definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</li> 
+				<li><strong class="headline">Vorqualifizierung oder Lösung des Anruferanliegens</strong> Ist das Anliegen des Anrufers definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</li> 
               </ol>
               <div class="button-set centered">
               	<a href="#demos" class="button primary trackedElement mobileWrap" data-label="Button - Jetzt einfach ausprobieren!" data-category="Link" data-action="linked to #demos">Weitere Fragen? Kontaktieren sie uns!</a>
@@ -133,9 +133,9 @@
             <div class="col-2">
               <h3 class="h2">Unternehmen</h3>
               <ul class="list approved-list">
-              	<li>Anliegen verstehen. Geld sparen. (Kürzere Anrufdauern)</li>
-              	<li>Service entlasten. Kürzere Gesprächszeiten (Optimale Vorqualifikation)</li>
-              	<li>Mehrsprachiger Kundenservice. Kein Problem. (Internationaler Rollout)</li>
+              	<li>Das Anliegen sofort verstehen und Geld sparen (Verkürzte Anrufdauern)</li>
+              	<li>Den Service entlasten mit kürzeren Gesprächszeiten (Optimale Vorqualifizierung)</li>
+              	<li>Mehrsprachigen Kundenservice anbieten (Internationaler Rollout)</li>
               </ul>
             </div>
           </div>    
@@ -251,39 +251,39 @@
 
 <div class="wrapper">
   <div class="content wide mobileNoPadding">
-    <h3 class="h1 centered">FAQ Callcenter Bot</h3>
+    <h3 class="h1 centered">FAQ Callcenter-Bot</h3>
     <div class="container open">
     	<h4 class="title">Wie funktioniert der CallOne Callcenter Bot?​</h4>
     	<div class="content" style="display: block">
-    		<p>Wir bieten kundenindividuelle Lösungen für ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>
-			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an ihre Systeme, Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="/testen" title="Sprechen Sie uns an - Wir beraten Sie gerne">Sprechen Sie uns an​</a></p>
+    		<p>Wir bieten kundenindividuelle Lösungen für Ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>
+			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="/testen" title="Sprechen Sie uns an - Wir beraten Sie gerne">Sprechen Sie uns an​</a></p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Was sind die häufigsten Anwendungsfälle des Callcenter Bots?</h4>
+    	<h4 class="title">Was sind die häufigsten Anwendungsfälle des Callcenter-Bots?</h4>
     	<div class="content">
     		<p>Wir bieten Ihnen drei Anwendungsbereiche: Sprachgesteuerte IVR-Auswahlmenüs, FAQ-Portale, individuelle KI-gesteuerte Kundendialoglösungen mit Voice-to-Text, KI, Text-to-Speech und Schnittstellenintegrationen.</p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Was sind die ersten Schritte mit dem Callcenter Bot?</h4>
+    	<h4 class="title">Was sind die ersten Schritte mit dem Callcenter-Bot?</h4>
     	<div class="content">
-    		<p>Sie setzen sich mit uns in Verbindung und wir besprechen ihr konkretes Anwendungsszenario. Recht schnell erstellen wir ein Prototyp für Sie und testen. Bei komplexeren Anwendungsfällen wie Schnittstellenintegrationen und komplexen Anwendungsfällen steht ihnen ein Projektteam aus eigenen Full Stack- und Schnittstellenentwicklern, Web-Entwicklern und Sprachwissenschaftlern zur Verfügung.</p>
+    		<p>Sie setzen sich mit uns in Verbindung und wir besprechen Ihr konkretes Anwendungsszenario. Recht schnell erstellen wir ein Prototyp für Sie und testen. Bei komplexeren Anwendungsfällen wie Schnittstellenintegrationen und komplexen Anwendungsfällen steht Ihnen ein Projektteam aus eigenen Full Stack- und Schnittstellenentwicklern, Web-Entwicklern und Sprachwissenschaftlern zur Verfügung.</p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Wie können wir den CallOne Callcenter Bot nutzen?</h4>
+    	<h4 class="title">Wie können wir den CallOne Callcenter-Bot nutzen?</h4>
     	<div class="content">
     		<p>
-    			Wir bieten Ihnen ein Full-Service-Paket. Hierbei erhalten sie von uns alles, was Sie brauchen, um Ihr Spracherlebnis auf den Weg zu bringen - von der Konzeptentwicklung bis zur Markteinführung und Optimierung Ihres Produkts.
+    			Wir bieten Ihnen ein Full-Service-Paket. Hierbei erhalten Sie von uns alles, was Sie brauchen, um Ihr Spracherlebnis auf den Weg zu bringen - von der Konzeptentwicklung bis zur Markteinführung und Optimierung Ihres Produkts.
     		</p>
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Was kostet der Call Center Bot?</h4>
+    	<h4 class="title">Was kostet der Callcenter-Bot?</h4>
     	<div class="content">
     		<p>
-    			Die Nutzung des Callcenter Bots erfolgt nach Nutzung. Sie zahlen je Aufruf der Sprachanforderung (VTT) und Text-to-Speech (TTS). Der Aufwand für die Bereitstellung ihres Callcenter Bots ist kundenindividuell und richtet sich nach Art und Umfang des Projekts.
+    			Die Pricing des Callcenter-Bots erfolgt nach Nutzung. Sie zahlen je Aufruf der Sprachanforderung (VTT) und Text-to-Speech (TTS). Der Aufwand für die Bereitstellung Ihres Callcenter-Bots ist kundenindividuell und richtet sich nach Art und Umfang des Projekts.
     		</p>
     	</div>
     </div>
@@ -291,7 +291,7 @@
     	<h4 class="title">Wie lange dauert die Umsetzung?</h4>
     	<div class="content">
     		<p>
-    			Der Start für einen Callcenter Bot kann innerhalb weniger Stunden für sie erfolgen, wenn es sich beispielsweise um die Sprachautomatisierung ihres IVR-Menüs handelt. Im laufenden Betrieb optimieren wir mit Ihnen die erkannten Eingaben. Projekte bei denen Schnittstellenintegrationen und vielzählige Plausibilitäten abzubilden sind, werden in einem individuellen Projektplan für sie verbindlich zusammengestellt.​
+    			Der Start für einen Callcenter Bot kann innerhalb weniger Stunden für Sie erfolgen, wenn es sich beispielsweise um die Sprachautomatisierung Ihres IVR-Menüs handelt. Im laufenden Betrieb optimieren wir mit Ihnen die erkannten Eingaben. Projekte bei denen Schnittstellenintegrationen und vielzählige Plausibilitäten abzubilden sind, werden in einem individuellen Projektplan für Sie verbindlich zusammengestellt.​
     		</p>
     	</div>
     </div>

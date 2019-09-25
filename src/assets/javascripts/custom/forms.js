@@ -1,4 +1,15 @@
 
+	/* Add and remove Button (tiles) */
+	$('.button-bottom > button').on("click", function(e) {
+		e.preventDefault();
+		$(this).toggleClass("added");
+		if ($(this).hasClass('added'))
+			$(this).children().html( $(this).attr('data-add') );
+		else
+			$(this).children().html( $(this).attr('data-base') );
+		
+	});
+
 	$('.js-form .select-selected').on ("click", function(){
     	$(this).toggleClass('active'),
     	$(this).parent('.group').next('.select-hide').toggleClass( 'active');

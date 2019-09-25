@@ -70,7 +70,7 @@
               		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_39.svg" data-srcset="/assets/images/icons_svg/small_39.svg" alt="Voicebot KI-Spracherkennung" title="Zum Produkt Voicebot KI-Spracherkennung">
               	</span>
               	<span>
-                    <span>Callcenter Bot</span>
+                    <span>Callcenter-Bot</span>
                 	Anliegen sprachgesteuert mit <br>KI-gesteuerten Sprachdialogsystemen lösen
                 </span>	
               </a>

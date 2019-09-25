@@ -7,6 +7,9 @@
   &.padding {
     padding: $gutter-l;
   }
+  &.padding-tiles {
+  	padding: $gutter-l - 10 $gutter-l - 10 $gutter-l + 20;
+  }
   &.animation-1 {
     position: relative;
     &:after {
@@ -32,6 +35,53 @@
   .text {
   	p {
   		margin-top: 15px;
+  	}
+  }
+  .text-small {
+  	font-size: $font-size-xs;
+  }
+  .button-bottom {
+  	position: absolute;
+    width: 100%;
+    left: 0px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+  	button {
+	  	span.icon {
+	  		
+	  	}
+	    width: 100%;
+	    display: block;
+	    padding: 13px 20px 12px;
+	    cursor: pointer;
+	    background-color: transparent;
+    	background-image: linear-gradient(to right, #6fbd14 50%, transparent 50%);
+    	background-position-x: 101%;
+    	background-repeat-x: no-repeat;
+    	background-size: 200% 100%;
+	    font-size: 16px;
+	    font-weight: 500;
+	    font-family: apercu,sans-serif;
+	    transition: background-position 0.2s;
+	    &:hover {
+	    	background-color: $color-secondary-1;
+	    	color: #ffffff;
+	    }
+	    span:before {
+			content: "\e24e";
+			padding-right: 10px;
+			line-height: 24px;
+		}
+	    &.added {
+	    	background-position-x: 0;
+    		color: #fff;
+    		span:before {
+				content: "\e2a2";
+			}
+	
+    	}
   	}
   }
 }

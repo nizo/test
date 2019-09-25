@@ -64,7 +64,7 @@ app =
     # Toggle mobile nav
     $(document).on 'click', '.btn-mobile-nav', (e) ->
       e.preventDefault()
-      $('.mobile-nav').toggleClass 'open'
+      $(this).next('.mobile-nav').toggleClass 'open'
 
     # SmoothScroll
     $('a[href^="#"]').on 'click.smoothscroll', (e) ->

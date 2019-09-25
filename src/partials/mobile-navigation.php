@@ -53,7 +53,7 @@
       <a href="/callcenter-bot"  title="Voicebot, KI-Spracherkennung, IVR">
         <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_39.svg" data-srcset="/assets/images/icons_svg/small_39.svg" alt="Voicebot KI-Sprackerkennung" title="Zum Produkt Voicebot KI-Sprackerkennung">
         <span>
-        	<span>Callcenter Bot</span>
+        	<span>Callcenter-Bot</span>
             Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
         </span>
       </a>

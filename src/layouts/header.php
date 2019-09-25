@@ -8,8 +8,6 @@
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
   	<meta name="google-site-verification" content="Sqndy6_j8hwq2O67oeDnHTdNmKPDaCRcC-g_K3FRYfE" />
-    <meta property="og:image" content="https://www.callone.de/assets/images/logo/Logo.svg" />
-    <meta property="og:image:alt" content="Callone Logo" />
     <meta property="og:title" content="<?php echo $title; ?>"/>
     <meta property="og:site_name" content="Callone"/>
     <meta property="og:locale" content="de_DE"/>
@@ -17,9 +15,19 @@
     <?php if (isset($ogUrl)): ?>
     	<meta property="og:url" content="<?= $ogUrl ?>" />
     <?php endif; ?>	
+    <?php if (isset($ogImage)): ?>
+    	<meta property="og:image" content="<?= $ogImage ?>">
+        <meta name="msapplication-TileImage" content="<?= $ogImage ?>">
+        <meta property="twitter:image" content="<?= $ogImage ?>">
+    <?php else: ?>
+    	<meta property="og:image" content="https://www.callone.de/assets/images/logo/Logo.png" />
+    	<meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/Logo@2x.png">
+        <meta property="twitter:image" content="https://www.callone.de/assets/images/logo/Logo.png">	
+    <?php endif; ?>	
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
     <meta name="robots" content="index,follow" />
+    
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="dns-prefetch" href="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com">
     <link rel="preconnect" href="https://googleads.g.doubleclick.net">

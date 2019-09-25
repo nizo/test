@@ -239,6 +239,7 @@
   </div>
 </div>
 
+<!-- 
 <div class="wrapper parallel-wrapper">
     <div class="wrapper breather parallel thirdcolor">
       <div class="content thin small h_text">
@@ -251,5 +252,5 @@
       </div>
     </div>
 </div>
-
+-->
 <?php include('partials/slider.php'); ?>
