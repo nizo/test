@@ -204,7 +204,6 @@
           <h3 class="h2">Optimale Anrufsteuerung</h3>
           <p class="primary">Kopplung des Check24 CRM mit der Callcenter-Software</p>
           <p class="primary">Optimale Anrufverteilung, abhängig von der Wartedauer</p>
-          <p class="primary">VIP-Routing</p>
           <p class="primary">Statusabhängige Anzeige eines Agenten auf Check24 Webseite</p>
           <p class="primary">Notfallroutings und Alarmierungsfunktionen</p>
         </div>

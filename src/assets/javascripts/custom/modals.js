@@ -64,3 +64,25 @@ function hideModal(modalName, type) {
 			break;
 	}
 }
+
+/*
+if (window.location.pathname === '/callcenter-software') {
+	// Add event - when user want to leave site 
+	addEvent(document, "mouseout", function(e) {
+	    e = e ? e : window.event;
+	    var from = e.relatedTarget || e.toElement;
+	    if (!from || from.nodeName == "HTML") {
+	    	var modalName = 'contact';
+	    	    	
+	    	if (!checkCookie('exitModal')) {
+	    		console.log('Maus außerhalb des Fensters');
+	    		displayModal(modalName);
+	    		setCookie('exitModal', 1, 14);
+	    	}
+	    
+	    	return;
+	    }
+	});
+}
+*/
+	

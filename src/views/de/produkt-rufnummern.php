@@ -31,8 +31,8 @@
 <div class="wrapper" id="konnektoren">
   <div class="content wide centered">
     <strong class="uppercase">Eigene Servicerufnummer weltweit schalten</strong>
-    <h2 class="h1">Lokale Rufnummern aus Ihrem Vorwahlbereich, 0800 Nummern, Rufnummern weltweit.</h2>
-    <p>Erhalten Sie sofortigen Zugriff auf lokale, nationale, mobile und gebührenfreie Telefonnummern in über 120 Ländern und allen vorwahlbereichen Deutschlands.</p>
+    <h2 class="h1">Lokale Rufnummern aus Ihrem Vorwahlbereich, 0800-Rufnummern, Rufnummern weltweit.</h2>
+    <p>Erhalten Sie sofortigen Zugriff auf lokale, nationale, mobile und gebührenfreie Telefonnummern in über 120 Ländern und allen Vorwahlbereichen Deutschlands.</p>
   </div>
 </div>
 
@@ -45,7 +45,7 @@
         </div>
       	<div class="shadow-box padding">
             <h2>Freecall 0800 (DE und weltweit)</h2>
-            <p>Bester Kundenservice mit einer Freecall 0800 Nummer und intelligenten Echtzeitstatistiken. Kontaktieren Sie und und teilen Sie uns Ihre Wunschrufnummer mit und erhalten Sie ihr individuelles Angebot.</p>
+            <p>Bester Kundenservice mit einer Freecall 0800 Nummer und intelligenten Echtzeitstatistiken. Kontaktieren Sie uns, teilen Sie uns Ihre Wunschrufnummer mit und erhalten Sie Ihr individuelles Angebot.</p>
             
             <form class="form form-1 js-form">
             	<input type="hidden" name="type" value="1">
@@ -82,7 +82,7 @@
         </div>
       	<div class="shadow-box padding">
       		<h2>Intelligente Ortsnetzrufnummern DE</h2>
-            <p>Regionale Präsenz gepaart mit Profifeatures für Ihre Hotline. Schalten Sie jetzt Rufnummern aus Ihren Vorwahlbereich. Kostenfrei in der Zuführung, bundesweit zum Ortstarif.</p>
+            <p>Regionale Präsenz gepaart mit Profifeatures für Ihre Hotline. Schalten Sie jetzt Rufnummern aus Ihrem Vorwahlbereich. Kostenfrei in der Zuführung, bundesweit zum Ortstarif.</p>
             <div class="button-set centered">
             	<a href="/testen" class="button secondary trackedElement" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
             </div>
@@ -100,7 +100,7 @@
         </div>
       	<div class="shadow-box padding">      	
       		<h2>Mobilfunkrufnummern</h2>
-            <p>Setzen Sie ihre Mobilfunknummer als Absenderkennung für ausgehende Telefonate. Bieten sie  Rückkanaloptionen, leiten eingehende Mobilfunkanrufe direkt zu Ihrem Sales- oder Serviceteam weiter und empfangen sie eingehende SMS-Nachrichten über unsere Schnittstelle.</p>
+            <p>Setzen Sie Ihre Mobilfunknummer als Absenderkennung für ausgehende Telefonate. Bieten Sie Rückkanaloptionen, leiten eingehende Mobilfunkanrufe direkt zu Ihrem Sales- oder Serviceteam weiter und empfangen Sie eingehende SMS-Nachrichten über unsere Schnittstelle.</p>
             <div class="button-set centered">
             	<a href="/testen" class="button secondary trackedElement" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
             </div>
@@ -112,7 +112,7 @@
         </div>
       	<div class="shadow-box padding">
             <h2>Weltweite Ortsnetzrufnummern</h2>
-            <p>CallOne bietet Ihnen Rufnummern in 60 Ländern und über 9.000 Vorwahlbereichen. Durch unsere leistungsstarke Plattform und unsere VoIP-Infrastruktur bieten wir ihnen optimale Gesprächsqualität und Performance auch bei hohem Anrufvolumen.</p>
+            <p>CallOne bietet Ihnen Rufnummern in 60 Ländern und über 9.000 Vorwahlbereichen. Durch unsere leistungsstarke Plattform und VoIP-Infrastruktur bieten wir Ihnen optimale Gesprächsqualität und Performance auch bei hohem Anrufvolumen.</p>
             <div class="button-set centered">
             	<a href="/testen" class="button secondary trackedElement" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
             </div>
@@ -162,12 +162,12 @@
         <div class="col-3">
     		<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile">
     		<h3>Qualitätsrouten</h3>
-    		<p>Wenn es um Sprachqualität und Stabilität geht, ist das Netzwerk und die dahinterstehenden Partner entscheidend. Wir testen jede Route und haben über 15 Jahre Erfahrung</p>
+    		<p>Wenn es um Sprachqualität und Stabilität geht, ist das Netzwerk und die dahinterstehenden Partner entscheidend. Wir testen jede Route und haben über 15 Jahre Erfahrung.</p>
         </div>
         <div class="col-3">
 			<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile">
 			<h3>Routing-Verwaltung</h3>
-            <p>Manchmal können Anrufpeaks auftreten. Nutzen sie unseren Routingbaukasten mit über 50 Routingmodulen und seien Sie auch in schwierigen Zeiten erreichbar.</p>
+            <p>Manchmal können Anrufpeaks auftreten. Nutzen Sie unseren Routingbaukasten mit über 50 Routingmodulen und seien Sie auch in schwierigen Zeiten erreichbar.</p>
         </div>
         <div class="col-3">
 			<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile">

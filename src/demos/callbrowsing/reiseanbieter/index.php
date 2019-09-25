@@ -25,7 +25,7 @@
         	(window,document,'script','Surfly');
     	</script>
 		
-		<script src="https://www.callone.de/assets/javascripts/libs/jquery-3.3.1.min.js"></script>
+		<script src="https://www.callone.de/assets/javascripts/libs/jquery-3.4.1.min.js"></script>
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 		<script src="https://www.callone.de/demos/callbrowsing/functions.js"></script>
@@ -158,12 +158,12 @@
     			}
     		}
     
-    		/**
+    		
     		$('#callbrowsing_webview_sharing').click (function()
     		{	callbrowsing_webview_sharing_start ();
             });
     
-    
+    		/**
             $('#callbackButton').click (function()
             {
                 $.ajax

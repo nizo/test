@@ -79,3 +79,71 @@ function urlHasParam(paramName, paramURL) {
 	
 	return param;
 }
+
+
+/** Funktion to add events vanilla **/
+function addEvent(obj, evt, fn) {
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, fn, false);
+    }
+    else if (obj.attachEvent) {
+        obj.attachEvent("on" + evt, fn);
+    }
+}
+
+(function() {
+	
+	var conversation = [ ["Ich möchte meinen Lieferstatus wissen.", "Ihr Pakt wird morgen geliefert​."], ["Ich möchte einen Termin buchen​.", "Der nächste freie Termin wäre morgen um 11:00 Uhr."], ["Ich möchte die Ware zurücksenden.", "Den Link zum Rücksendeticket haben wir Ihnen soeben per SMS zugeschickt​."] ];
+	var counter = 0;
+	var movedOver = false;
+	var direction = "";
+	var time = "1000";
+	
+    function chatConversationSimulation() {
+    	var el = document.querySelector(".chat-conversation div:nth-child(1)");
+		var el2 = document.querySelector(".chat-conversation div:nth-child(2)");
+
+		if(counter % 2 === 0) {
+			$('.chat-conversation > div:nth-child(1) > .text').text(conversation[counter/2][0]);
+			$('.chat-conversation > div:nth-child(2) > .text').text(conversation[counter/2][1]);
+		}
+		
+  		el.classList.remove("do-the-slide");
+  		el2.classList.remove("do-the-slide2");
+  		el.offsetWidth = el.offsetWidth;
+  		el2.offsetWidth = el2.offsetWidth;
+
+  		if(direction === "toRight") {
+  			direction = "toLeft";
+  			el.style.animationDirection = "reverse";
+  			el2.style.animationDirection = "reverse";
+  			el2.style.animationDelay = "inherit";
+  		} else {
+  			direction = "toRight";
+  			el.style.animationDirection = "";
+  			el2.style.animationDirection = "";
+  			el2.style.animationDelay = "1s";
+  		}
+
+  		el.classList.add("do-the-slide");	
+  		el2.classList.add("do-the-slide2");	
+		
+		if (counter === 5) {
+	        counter = 0; 
+	    } else {
+	        counter++; 
+	    }	
+    }
+ 
+    if (window.location.pathname == '/callcenter-bot') {
+	    function timeout() {
+	        setTimeout(function () {
+	            chatConversationSimulation();
+	            timeout();
+	        }, time);       
+	        time === 5000? time = 1000 : time = 5000;
+	    };
+	    timeout();
+    }
+})();
+

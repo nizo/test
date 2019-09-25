@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="text no-padding">
         <h1>Call-Tracking neu definiert</h1>
-        <p class="primary">Eindeutiges Identifizieren und Verbinden von Websession und eingehendem Anruf auf ihrer Hotline pepaart mit Multichannel-Funktionen wie Co-Browsing und Chat.</p>
+        <p class="primary">Eindeutiges Identifizieren und Verbinden von Websession und eingehendem Anruf auf Ihrer Hotline pepaart mit Multichannel-Funktionen wie Co-Browsing und Chat.</p>
         <nav class="site-nav shadowbox">
        		<ul class="menu">
       			<li>
@@ -30,8 +30,8 @@
 
 <div class="wrapper">
   <div class="content wide centered">
-  	<h2 class="h1">Was kann Call Tracking?</h2>
-  	<p>CallOne bietet ein dynamisches Call-Tracking, das Anrufe auf Ihrer Bestellhotline eindeutig mit einer laufenden Websession zusammenführt. Alle Informationen des anrufenden Websitenbesuchers, wie Warenkorbinhalt, Customer Journey und Benutzerinformationen stehen Ihren Kundenservice- oder Sales-Agenten bei Gesprächsbeginn schon zur Verfügung. Optional stehen Ihnen zusätzlich Co-Browsing und Livechat-Funktionen zur Verfügung.</p>
+  	<h2 class="h1">Was kann Call-Tracking?</h2>
+  	<p>CallOne bietet ein dynamisches Call-Tracking, das Anrufe auf Ihrer Bestellhotline eindeutig mit einer laufenden Websession zusammenführt. Alle Informationen des anrufenden Webseitenbesuchers, wie Warenkorbinhalt, Customer Journey und Benutzerinformationen stehen Ihren Kundenservice- oder Sales-Agenten bei Gesprächsbeginn schon zur Verfügung. Optional stehen Ihnen zusätzlich Co-Browsing und Livechat-Funktionen zur Verfügung.</p>
   </div>
   <div class="content thin centered">
   	<div class="shadow-box padding">
@@ -94,7 +94,7 @@
             	<div class="image-grid">
             		<div class="text">
                     	<h3 class="h2">Mehr Effizienz im Service</h3>
-            			<p>Mit Call-Tracking stehen dem Agenten hilfreiche Anruferinformationen des Anrufers direkt zur Verfügung. Warenkorbinhalte- und werte, Userinformationen und ausgefüllte Formulare sind direkt einsehbar. Nutzen Sie diese Informationen für schnelleren und effizienteren Kundenservice!</p>
+            			<p>Mit Call-Tracking stehen dem Agenten hilfreiche Informationen des Anrufers direkt zur Verfügung. Warenkorbinhalte- und werte, Userinformationen und ausgefüllte Formulare sind direkt einsehbar. Nutzen Sie diese Informationen für schnelleren und effizienteren Kundenservice!</p>
             		</div>
             		<div class="image padding">
             			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_05.svg" data-srcset="/assets/images/icons_svg/big_05.svg" alt="Mehr Effizienz im Service" class="lazy auto">
@@ -161,7 +161,7 @@
                 </div>
             	<div class="shadow-box padding">
                     <h2>Demo Reiseportal</h2>
-                    <p>Testen sie das Call-Tracking selbst mit unserer Demo. Füllen Sie die Eingabefelder in der Demo aus und rufen Sie dann die exklusiv für Sie erstellte Rufnummer an.</p>
+                    <p>Testen Sie das Call-Tracking selbst mit unserer Demo. Füllen Sie die Eingabefelder in der Demo aus und rufen Sie dann die exklusiv für Sie erstellte Rufnummer an.</p>
                     <div class="button-set centered">
                     	<a href="https://www.callone.de/demos/callbrowsing/reiseanbieter/" target="_blank" class="button secondary" title="Jetzt Demo starten und Call-Tracking live erleben">Demo starten</a>
                     </div> 

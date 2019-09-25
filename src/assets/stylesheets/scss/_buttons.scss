@@ -5,6 +5,9 @@
   font-size: $font-size-xxs;
   font-weight: 500;
   white-space: nowrap;
+  &.mobileWrap {
+  	white-space: inherit;
+  }
   &.primary {
     background-color: $color-secondary-1;
     border: 2px solid $color-secondary-1;

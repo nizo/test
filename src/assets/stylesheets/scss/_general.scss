@@ -90,8 +90,12 @@ h3, .h3 {
   }
 }
 
-h4 {
+h4, .h4 {
   font-size: $font-size-m;
+}
+
+.h5 {
+	font-size: $font-size-m - 1;
 }
 
 .lazy {
@@ -104,6 +108,10 @@ h4 {
 
 .font-secondary {
 	font-family: $font-copy;
+}
+
+input, textarea, button {
+    outline: none;
 }
 
 /*
@@ -257,6 +265,9 @@ img {
  */
 .wrapper {
   width: 100%;
+  &.relative {
+  	position: relative;
+  }
   &.no-overflow {
     overflow: hidden;
   }
@@ -266,12 +277,18 @@ img {
   &.audioline {
 	width: 100%;
 	background-image: url("/assets/images/illus/audioline.svg");
-	background-repeat-y: no-repeat;
+	background-repeat: repeat-x;
 	background-position: bottom;
 	background-size: contain;
   }
   &.half-background {
     background-image: linear-gradient(#000, #000 65vh, transparent 65vh, transparent);
+    &.grey-gradient {
+   		background-image: linear-gradient(90deg, #0b0b0b, #3c3c3c);	
+    }
+    &.grey-gradient-reverse {
+   		background-image: linear-gradient(-90deg, #0b0b0b, #3c3c3c);	
+    }
     .content {
       position: relative;
       > h1, > .h1 {
@@ -310,7 +327,7 @@ img {
     }
   }
   &.quarter-background {
-  	background-image: linear-gradient(#000, #000 25vh, transparent 25vh, transparent);
+  	background-image: linear-gradient(#000, #000 28vh, transparent 28vh, transparent);
   	.content {
       > h1, .h1,
       > h2, .h2 {
@@ -341,6 +358,12 @@ img {
   		min-height: 320px;
   	}
   }
+  &.grey-gradient {
+   		background-image: linear-gradient(90deg, #0b0b0b, #3c3c3c);	
+  }
+  &.grey-gradient-reverse {
+	background-image: linear-gradient(-90deg, #0b0b0b, #3c3c3c);	
+  }
   &.parallel-wrapper {
   	overflow: hidden;
   	padding-top: calc(4% + 10px);
@@ -353,6 +376,9 @@ img {
 	  -ms-transform: skew(-4deg) rotate(-4deg);
 	  position: relative;
 	  top: 0;
+	  &.relative {
+	  	top: -40px;
+	  }
 	  left: 0;
 	  padding-top: $gutter-xl;
 	  padding-bottom: $gutter-xl;
@@ -362,6 +388,18 @@ img {
 		  -moz-transform: skew(4deg) rotate(4deg);
 		  -o-transform: skew(4deg) rotate(4deg);
 		  -ms-transform: skew(4deg) rotate(4deg);
+	  }
+	  &.right {
+		  -webkit-transform: skew(3deg) rotate(3deg);
+		  -moz-transform: skew(3deg) rotate(3deg);
+		  -o-transform: skew(3deg) rotate(3deg);
+		  -ms-transform: skew(3deg) rotate(3deg);
+		.h_text {
+		  -webkit-transform: skew(-3deg) rotate(-3deg);
+		  -moz-transform: skew(-3deg) rotate(-3deg);
+		  -o-transform: skew(-3deg) rotate(-3deg);
+		  -ms-transform: skew(-3deg) rotate(-3deg);
+	  	}
 	  }
   }
   &.parallax {
@@ -373,12 +411,21 @@ img {
 	margin-bottom: -100px;
 	z-index: 1;
 	background-size: cover;
+	background-color: #2DE9CD;
+	background-attachment: fixed;
+	background-position: center center;
 	&.demo1 {
 		background-color: #2DE9CD;
-		background-image: url('/assets/images/photos/reiseportal-bg.jpg') 
+		background-image: url('/assets/images/photos/callcenter-agent-smiling.jpeg');
+		background-attachment: fixed;
+	}
+	&.callcenter-agent {
+		background-color: #000000;
+		background-image: url('/assets/images/photos/callcenter-agent-smiling.jpeg');
 	}
 	.inside {
 		//background-image: url('/assets/images/photos/calltracking-header-image.png');
+		//background-image: url('/assets/images/photos/callcenter-agent-smiling.jpeg') 
 		background-attachment: fixed;
 	    -webkit-transform: translate3d(0,0,0);
 		display: block;
@@ -392,10 +439,13 @@ img {
   	}
   	.content {
   		&:first-child {
-  			padding-top: 180px;
+  			padding-top: $gutter-xxl;
   		}
   		&:last-child {
-  			padding-bottom: 180px;
+  			padding-bottom: $gutter-xxl - $gutter-m;
+  		}
+  		.shadow-box {
+  			background-color: rgba(255,255,255,0.85);
   		}
   	}
   }
@@ -606,6 +656,39 @@ img {
           color: $color-primary;
         }
       }
+      &.list  {
+      	&.border-list {
+      		> li {
+      			border: 2px dashed $color-secondary-1;
+			    padding: 30px 20px 10px;
+			    margin: 50px auto 20px;
+			    position: relative;
+      			&:before {
+      				content: counter(ol-counter); 
+      				width: 50px;
+				    height: 50px;
+				    background: $color-secondary-1;
+				    display: block;
+				    border: none;
+				    border-radius: 50%;
+				    color: #fff;
+				    padding: 2px 0;
+				    font-size: 24px;
+				    font-weight: 600;
+				    position: absolute;
+				    top: -25px;
+				    left: calc(50% - 25px);
+				    text-align: center;
+      			}
+      			&:hover {
+      				border: 2px dashed $color-primary;
+      				&:before {
+      					background: $color-primary;	
+      				}
+      			}
+      		}
+      	}
+      }
     }
     *+h3 {
       margin-top: $gutter-l;
@@ -616,6 +699,9 @@ img {
     &+.content {
       margin-top: $gutter-xxl;
       &.no-gutter-top {
+        margin-top: $gutter-l;
+      }
+      &.half-gutter-top {
         margin-top: 0;
       }
     }
