@@ -1,14 +1,11 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/../libraries/phonenumber.inc.php';
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../configs/mariadb.inc.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/mariadb.inc.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/phonenumber.inc.php');
 
 
+// cors domains
 define ('CORS_DOMAINS', array ('://www.callone.de', '.surfly.com', '://resttesttest.com'));
-
-define ('DATABASE_HOST',	'localhost');
-define ('DATABASE_USER',	'db10427997-demos');
-define ('DATABASE_PASS',	'asdWQ21345sASD2fdsfds');
-define ('DATABASE_DB',		'db10427997-demos');
-define ('DATABASE_TABLE',	'callbrowsing');
 
 // register numbers
 $rootnumbers = new rootnumbers ();
@@ -150,18 +147,17 @@ else	define ('SESSION', $_REQUEST['session']);
 
 // text
 if (empty ($_REQUEST['text']))
-		define ('TEXT', "");
+		define ('TEXT', '');
 else	define ('TEXT', $_REQUEST['text']);
+
+// agent url
+if (empty ($_REQUEST['url']))
+		define ('URL', '');
+else	define ('URL', $_REQUEST['url']);
 
 
 // connect to database
-try
-{	$pdo = new pdo ('mysql:host='.DATABASE_HOST.';dbname='.DATABASE_DB, DATABASE_USER, DATABASE_PASS);
-}
-catch (PDOException $e)
-{	echo json_encode (array ('error' => 'Database connection error: '.$e->getMessage ()));
-	exit ();
-}
+$pdo = mariadb_connect ('db10427997-demos');
 
 
 // init personal number
@@ -194,11 +190,15 @@ if (empty ($row['ddi']))
 	$params = array ();
 	$query = 'REPLACE INTO callbrowsing
 			  (rootnumber, ddi, timestamp, session, text, callstatus, caller, url)
-			  VALUES (?, ?, FROM_UNIXTIME(?), ?, TEXT, 0, "", "")';
+			  VALUES (?, ?, FROM_UNIXTIME(?), ?, ?, ?, ?, ?)';
 	$params[] = phonenumber_to_digit ($rootnumber->rootnumber_get());
 	$params[] = DDI;
 	$params[] = time();
 	$params[] = IDENTITY.SESSION;
+	$params[] = '';
+	$params[] = 0;
+	$params[] = '';
+	$params[] = '';
 
 	$statement = $pdo->prepare ($query);
 	if (empty ($statement->execute ($params)))
@@ -217,9 +217,11 @@ else
 	$params = array ();
 	$query = 'UPDATE callbrowsing
 			  SET timestamp=NOW(),
-			  text=?
+			  text=?,
+			  url=?
 			  WHERE session=?';
 	$params[] = TEXT;
+	$params[] = URL;
 	$params[] = IDENTITY.SESSION;
 
 	$statement = $pdo->prepare ($query);

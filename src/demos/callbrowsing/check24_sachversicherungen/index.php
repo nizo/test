@@ -22,7 +22,6 @@
 
     <!-- CallOne Callbrowsing -->
     <link rel="stylesheet" type="text/css" href="https://www.callone.de/demos/callbrowsing/styles.css">
-    <link rel="stylesheet" type="text/css" href="https://www.callone.de/demos/callbrowsing/check_24_sachversicherungen/css/styles.css">
 
 	<script>
 	// load surfly
@@ -82,8 +81,7 @@
         }
         
         function callbrowsing_url_create ()
-        {	
-            return null;
+        {	return null;
         }
 
 		function callbrowsing_status (rootnumber, ddi, callstatus, caller)

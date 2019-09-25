@@ -1,6 +1,6 @@
 $(function ()
 {
-	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null, weview_sharing_link=null;
+	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null, cb_url=null, webview_sharing_link=null;
 
 	function webview_sharing_init ()
 	{
@@ -11,8 +11,8 @@ $(function ()
 			if (init.success)
 			{
 				if (Surfly.isInsideSession)
-				{	weview_sharing_link = Surfly.currentSession.followerLink;
-					console.debug ('Webview sharing link: '+weview_sharing_link);
+				{	webview_sharing_link = Surfly.currentSession.followerLink;
+					console.debug ('Webview sharing link: '+webview_sharing_link);
 				}
 				else console.info ('Webview sharing init successful.');
 			}
@@ -32,10 +32,12 @@ $(function ()
 
 	function callbrowsing_session_update ()
 	{
-		var text = null;
+		var text=null, url=null;
 
 		if (window.cb_text != null)
 			text = window.cb_text ();
+		if (window.cb_url != null)
+			url = window.cb_url ();
 
 		$.ajax
 		({
@@ -48,7 +50,7 @@ $(function ()
 				identity: window.identity,
 				session: sessionStorage.getItem (window.sessionname),
 				text: text,
-				weview_sharing_link: weview_sharing_link
+				url: url
 			},
 			dataType: 'json',
 			success: function (data)
@@ -66,11 +68,12 @@ $(function ()
 		setTimeout (callbrowsing_session_update, 1000);
 	}
 
-	window.callbrowsing_session_init = function (rootnumberhash, identity, cb_text, cb_status)
+	window.callbrowsing_session_init = function (rootnumberhash, identity, cb_text, cb_url, cb_status)
 	{
 		window.rootnumberhash = rootnumberhash;
 		window.identity = identity;
 		window.cb_text = cb_text;
+		window.cb_url = cb_url;
 		window.cb_status = cb_status;
 		window.sessionname = 'demo_callbrowsing_'+window.identity;
 
