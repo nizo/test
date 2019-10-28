@@ -5,6 +5,7 @@
   font-size: $font-size-xxs;
   font-weight: 500;
   white-space: nowrap;
+  cursor: pointer;
   &.mobileWrap {
   	white-space: inherit;
   }
@@ -18,6 +19,19 @@
       color: $color-secondary-1;
       border-color: $color-primary;
     }
+  	&.borderless {
+  		background-color: $color-primary;
+	    border: none;
+	    color: $color-secondary-1;
+	    text-transform: uppercase;
+  	}
+  	&.silent {
+  		background-color: inherit;
+	    border: none;
+	    color: $color-primary;
+	    text-transform: none;
+	    font-weight: 400;
+  	}
   }
   &.secondary {
     background-color: #fff;
@@ -29,6 +43,35 @@
       border-color: $color-secondary-1;
       color: $color-primary;
     }
+    &.silent {
+  		background-color: inherit;
+	    border: none;
+	    color: $color-secondary-1;
+	    text-transform: none;
+	    font-weight: 400;
+  	}
+  }
+   &.tertiary {
+    background-color: $color-primary;
+    border: 2px solid $color-primary;
+    color: #000;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $color-secondary-1;
+      border-color: $color-secondary-1;
+      color: $color-primary;
+    }
+    &.silent {
+  		background-color: inherit;
+	    border: none;
+	    color: $color-secondary-1;
+	    text-transform: none;
+	    font-weight: 400;
+  	}
+  }
+  
+  
+  &.secondary-silent {
   }
   &.expertmode {
     position: relative;
@@ -108,6 +151,61 @@
 
 p+.button-set {
   margin-top: $gutter-l;
+}
+
+/* switch for checkboxes */
+.switch {
+	position: relative;
+	display: inline-block !important;
+	width: 66px !important;
+	height: 100% !important;
+	max-width: 66px!important;
+    min-width: 66px!important;
+  	input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+		
+		height: 100%;
+	    width: 100%;
+	    margin: 0 !important;
+	}
+	.switchSlider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #f2f2f2;
+		-webkit-transition: .4s;
+		transition: .4s;
+		border: 2px solid #000;
+		&::before {
+		    position: absolute;
+		    content: "";
+		    height: 24px;
+		    width: 25px;
+		    left: 6px;
+		    bottom: 4px;
+		    background-color: #000;
+		    transition: .4s;
+		}		
+	}
+	input:checked + .switchSlider {
+	  background-color: #86ed18;
+	}
+	
+	input:focus + .switchSlider {
+	   	box-shadow: none;
+    	outline: none;
+	}
+	
+	input:checked + .switchSlider:before {
+	  -webkit-transform: translateX(26px);
+	  -ms-transform: translateX(26px);
+	  transform: translateX(26px);
+	}
 }
 
 .contact-form {

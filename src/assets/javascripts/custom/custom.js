@@ -147,3 +147,137 @@ function addEvent(obj, evt, fn) {
     }
 })();
 
+function arrayUnique(array) {
+    var a = array.concat();
+    for(var i=0; i<a.length; ++i) {
+        for(var j=i+1; j<a.length; ++j) {
+            if(a[i] === a[j])
+                a.splice(j--, 1);
+        }
+    }
+
+    return a;
+}
+
+function merge_array(array1, array2, unique) {  
+  if (!unique) {
+	  return array1.concat(array2);
+  }
+  return arrayUnique(array1.concat(array2));
+}
+
+
+/* Sidebar menue */
+$('.sidebar-grid .menu a').on('click', function(e) {
+	e.preventDefault();
+	e.stopPropagation();
+	var tab = $(this).attr('data-link');
+	$('.sidebar-grid .menu li').removeClass('active');
+	$(this).parent().addClass('active');
+	$('.sidebar-grid .elements > div').fadeOut();
+	$('.sidebar-grid .elements > div:nth-child('+tab+')').fadeIn();
+});
+
+/* Sidebar menue */
+$('.modal .sideMenu li').on('click', function(e) {
+	var tab = $(this).attr('data-link');
+	if ($(this).hasClass('linkTo')) {
+		var linkTo = $(this).children('a').attr('href');
+		if(window.localStorage) {
+			jQuery.each( wlist, function( i, val ) {
+				linkTo += '%20-%20' + val + '%0D%0A';
+			});
+		} else {
+			linkTo += 'Keine Wunschthemen gefunden.%0D%0A';	
+		}
+		$(this).children('a').attr('href', linkTo);
+		console.log('wlist:' + wlist);
+	} else {
+		e.preventDefault();
+		e.stopPropagation();
+	}
+	$(this).parent().children().removeClass('active');
+	$(this).addClass('active');
+	$('.modalBox').hide();
+	$('.modalBox.'+tab).fadeIn();
+});
+
+/* Calculation Modal */
+$('.ccs button.p2').on('click', function(e) {
+	e.preventDefault();
+	$('.ccs .page1').toggle();
+	$('.ccs a.p1').attr('data-target', 'css');
+	$('.ccs .page2').toggle();
+});
+$('.voip button.p2').on('click', function(e) {
+	e.preventDefault();
+	$('.voip .page1').toggle();
+	$('.voip a.p1').attr('data-target', 'voip');
+	$('.voip .page2').toggle();
+});
+
+$('.ccs a.p1').on('click', function(e) {
+	e.preventDefault();
+	$('.ccs .page1').toggle();	
+	$('.ccs .page2').toggle();
+});
+
+$('.voip a.p1').on('click', function(e) {
+	e.preventDefault();
+	$('.voip .page1').toggle();	
+	$('.voip .page2').toggle();
+});
+
+$('.customCheckbox').on('click', function() {
+	var check = $(this).children('input[type="checkbox"]');console.log(check);
+	if (check.is(':checked')) {
+		check.removeAttr('checked');
+		check.parent().removeClass('checked');
+		console.log('remove attr');
+	} else {
+		check.attr('checked', 'checked');
+		check.parent().addClass('checked');
+		console.log('add attr')
+	}
+});
+
+
+if (checkCookie('wishlist')) {
+	if (window.localStorage) {
+		var wlist = [];
+		var listLength = 0;
+		
+		wlist = JSON.parse(window.localStorage.getItem('wishlist'));
+		console.log(wlist);
+		if (wlist != null) {
+			listLength = wlist.length; 
+			if (listLength > 0) {
+				var note2 = $( ".modal.wishlist .wish-list" );
+				
+				/*check if buttons to activate*/
+				if (document.contains($('.elements .button-bottom')[0])) {
+					console.log('yes is contains it');
+					jQuery.each( wlist, function( i, val ) {
+						var note = $( ".elements .button-bottom > [data-info^='" + val + "']" );
+						note.addClass("added");
+						note.children().html( note.attr('data-add') );
+						note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+					});
+				} else {
+					jQuery.each( wlist, function( i, val ) {
+						note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+					});
+				}
+				
+				/*display wishlist button and number of produkts*/
+				$('#wishlist .numberOfElements').html(listLength);
+				$('#wishlist').slideDown();
+				
+				/**/
+				
+			}
+		}
+	}
+	
+	
+}

@@ -73,6 +73,10 @@ h1, .h1 {
   }
 }
 
+.h1.small {
+	font-size: $font-size-xl + 7px;
+}
+
 h2, .h2 {
   font-size: $font-size-xl;
   margin-bottom: $gutter-l;
@@ -196,6 +200,33 @@ hr {
 }
 .no-margin-top {
 	margin-top: 0 !important;
+}
+.no-margin-bottom {
+	margin-bottom: 0 !important;
+}
+.margin-top-40 {
+	margin-top: 40px !important;
+}
+.padding-top-80 {
+	padding-top: 80px !important;
+}
+.flex {
+	display: flex;
+	&.direction-column {
+		flex-direction: column;
+	}
+	&.jc-center {
+		justify-content: center;
+	}
+}
+.relative {
+	position: relative;
+}
+.underlineHeadline {
+	border-bottom: 2px solid $color-primary;
+}
+.primaryColor {
+	color: $color-primary;
 }
 
 img {
@@ -356,6 +387,50 @@ img {
   	}
   	&#calltracking {
   		min-height: 320px;
+  	}
+  	&.hard-software {
+  		background-color: inherit;
+  		background-image: url('/assets/images/photos/hardware-und-software-telefonie.jpg');
+  		min-height: 100vh;
+  		height: auto;
+  		background-size: cover;
+    	background-position: bottom;
+    	.content {
+    		height: 100%;
+    		color: #000;
+    		.grid {
+    			height: 100%;
+    			align-items: center;
+    		}
+    	}
+  	}
+  	&.header {
+  		background: rgb(255,255,255);
+		background: -moz-linear-gradient(90deg, rgba(255,255,255,0.0) 10%, rgba(246,246,246,1) 100%);
+		background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.0) 10%, rgba(246,246,246,1) 100%);
+		background: linear-gradient(90deg, rgba(255,255,255,0.0) 10%, rgba(246,246,246,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f6f6f6",GradientType=1);
+		top: -128px;
+		position: relative;
+		padding-top: 168px;
+		margin-bottom: -128px;
+		height: 65vh;
+		min-height: 900px;
+		.content {
+			color: #000000;
+			position: relative;
+			height: 100%;
+			.media {
+				picture {
+					position: absolute;
+					&.phone {
+						img {
+							width: 60%;
+						}
+					}
+				}
+			}
+		}
   	}
   }
   &.grey-gradient {

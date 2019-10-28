@@ -57,7 +57,7 @@
 <div class="wrapper">
   <div class="content narrow">
   	<div class="grid tile column">
-  		<div class="col-2">
+  		<div class="col-2 openModal" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Price Calc Modal" data-modal="priceCalc" data-modal-part="ccs" data-title="Berechne die Kosten <span class='primaryColor'>Deiner neuen Callcenter-Software</span>.">
   			<div class="sl sl-before sl-size-xxs sl-profile-serviceman">
       			<strong class="h3">Callcenter-Software</strong>
       			<p>Die cloudbasierte Callcenter-Lösung für ihre Sales und Kundenservice</p>
@@ -68,7 +68,7 @@
       			</ul>
   			</div>
   		</div>
-  		<div class="col-2">
+  		<div class="col-2 openModal" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Price Calc Modal" data-modal="priceCalc" data-modal-part="ccs" data-title="Berechne die Kosten <span class='primaryColor'>Deiner neuen Callcenter-Software</span>.">
       		<div class="disturber centered">
             	<span class="tertiary">Jetzt <strong>kostenfrei Testen</strong></span>
             </div>
@@ -76,11 +76,11 @@
   				<p>ab<strong class="h3"> 99,00 €</strong> / Monat<br>
   				Faire sekundengenaue Abrechnung</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
-  		<div class="col-2">
+  		<div class="col-2 openModal" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Price Calc Modal" data-modal="priceCalc" data-modal-part="voip" data-title="Berechne die Kosten <span class='primaryColor'> Deiner neuen VoIP-Telefonanlage</span>.">
   			<div class="sl sl-before sl-size-xxs sl-call-out2">
       			<strong class="h3">Virtuelle Telefonanlage</strong>
       			<p>VoIP-Telefonanlage für Unternehmen</p>
@@ -91,12 +91,12 @@
       			</ul>
   			</div>
   		</div>
-  		<div class="col-2">
+  		<div class="col-2 openModal" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Price Calc Modal" data-modal="priceCalc" data-modal-part="voip" data-title="Berechne die Kosten <span class='primaryColor'> Deiner neuen VoIP-Telefonanlage</span>.">
   			<div class="shadow-box padding centered">
   				<p>ab<strong class="h3"> 7,90 €</strong> / Monat<br>  				
   				Optional mit ACD, API & Apps</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -116,7 +116,7 @@
   				<p><strong class="h3">Kostenfreie Zuführung</strong><br>
   				für lokale Rufnummern</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -136,7 +136,7 @@
   				<p><strong class="h3">Minuten-</strong> oder <strong class="h3">kanalgebundene</strong> <br>
   				Abrechnung möglich</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -156,7 +156,7 @@
   				<p><strong class="h3">Ausgehende Telefonate</strong> <br>
   				 ab 0,007 € / Min. in dt. Festnetz</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>  		
@@ -176,7 +176,7 @@
   				<p>ab <strong class="h3">0,00 €</strong> je Monat / Aufruf <br>
   				 Schnittstellenpakete optional</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -196,7 +196,7 @@
   				<p>ab <strong class="h3">0,00 €</strong> Browserplugins<br>
   				 für Click-to-Dial nutzen</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -216,7 +216,7 @@
   				<p>ab<strong class="h3"> 49,00 €</strong> je Monat<br>
   				Sekundengenaue Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -236,7 +236,7 @@
   				<p>ab<strong class="h3"> 0,00 € </strong> Bereitstellung<br>
   				zuzüglich Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -256,7 +256,7 @@
   				<p>ab<strong class="h3"> 19,00 € </strong> je Monat<br>
   				Sekundengenaue Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -276,7 +276,7 @@
   				<p><strong class="h3">Projektspezifisch</strong><br>
   				 Abhängig von Kundenanforderung</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -296,7 +296,7 @@
   				<p><strong class="h3">Projektspezifisch</strong><br>
   				 Abhängig von Kundenanforderung</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -316,7 +316,7 @@
   				<p>ab<strong class="h3"> 0,049 € </strong>je Minute<br>
   				 Projektspezifische Einbindung</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -336,7 +336,7 @@
   				<p>ab<strong class="h3"> 49,00 € </strong>je Monat<br>
   				 Sekundengenaue Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="/testen" class="button primary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="/testen" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -374,3 +374,7 @@
 ?>
 
 <?php include('partials/slider.php'); ?>
+
+<div class="modal priceCalc">
+	<?php include('partials/modal-price-calc.php');?>
+</div>

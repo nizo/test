@@ -1,14 +1,84 @@
 
-	/* Add and remove Button (tiles) */
+	// get actual wishlist
+	var wishlist = [];
+	if (localStorage) {
+		var wishlist = JSON.parse(window.localStorage.getItem('wishlist'));
+		if (wishlist == null)
+			wishlist = [];
+	}
+	
 	$('.button-bottom > button').on("click", function(e) {
 		e.preventDefault();
 		$(this).toggleClass("added");
-		if ($(this).hasClass('added'))
+		var dataInfo = $(this).attr('data-info');
+		if ($(this).hasClass('added')) {
+			if(dataInfo) {
+				console.log(wishlist);
+				wishlist.push(dataInfo);
+			}
 			$(this).children().html( $(this).attr('data-add') );
-		else
-			$(this).children().html( $(this).attr('data-base') );
+			$(this).parent().append( '<div class="arrow-box shortModal" style="display: none;"><strong>'+dataInfo+'</strong>Zur Wunschliste hinzugefügt</div>' );
+			var arrowBox = $(this).next('.arrow-box');
+			arrowBox.delay('450').fadeIn();
+			
+			timeoutID = window.setTimeout(function() {
+				var arrowBox = $('.button-bottom .arrow-box');
+				arrowBox.fadeOut(function() {
+					arrowBox.delay(400).remove();	
+				});
+			}, 4000);
+			
+			//$(this).next('arrow-box').delay(1000).fadeOut();
+			
+		} else {
+			if(dataInfo) {
+				wishlist.splice(wishlist.indexOf(dataInfo),1);
+			}
+			$(this).children().html( $(this).attr('data-base') ); 
+			$('#wishlist .numberOfElements').html(wishlist.length);
+		}
 		
+		
+		if (!localStorage) {
+			return;
+		}
+			
+		var wlist = [];
+		if((typeof wishlist != "undefined" || wishlist != null) && (wishlist.length > 0)) {
+			console.log('wishlist: ' + wishlist);
+			/*if (wlist = JSON.parse(window.localStorage.getItem('wishlist'))) {
+				console.log('wlist: ' + wlist);
+				var listitems = [];
+				listitems = merge_array(wlist, wishlist, true);
+				console.log('ListItems: ' + listitems);
+				window.localStorage.removeItem('wishlist');
+				window.localStorage.setItem('wishlist', JSON.stringify(listitems));
+			} else {*/
+				window.localStorage.setItem('wishlist', JSON.stringify(wishlist));
+				$('#wishlist .numberOfElements').html(wishlist.length);
+			//}
+			var note2 = $( ".modal.wishlist .wish-list" );	
+			note2.empty();
+			jQuery.each( wishlist, function( i, val ) {
+				note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+			});
+			setCookie('wishlist', '1', 90);
+			$('#wishlist').slideDown();
+		} else {
+			window.localStorage.removeItem('wishlist');
+			document.cookie = "cookiename='wishlist' ; expires = Thu, 01 Jan 1970 00:00:00 GMT";
+			$('#wishlist').slideUp();
+		}
 	});
+	
+	/*$('#wishlist a').on('click', function(e) {
+		e.preventDefault();
+		var list = window.localStorage.getItem('wishlist');
+		for (var i = 0; i < list.length; i++) {
+			$('.wishlist ul').append('<li>' + list[i] + '</li>');
+		}
+	});*/
+	
 
 	$('.js-form .select-selected').on ("click", function(){
     	$(this).toggleClass('active'),
@@ -114,19 +184,39 @@
 				else
 					issue = $(form).find('[name="issue"]').val();
 				
+				// CalcForm
+				var employees, functions = '';
+				var func = []
+				if ($(form).hasClass('calcForm')) {
+					employees = formData.get('employees');
+					console.log(employees);
+					$(form).find("input[name='functions']:checked").each(function ()
+			        {
+			            func.push($(this).val());
+			        });					
+				} else {
+					employees = $('#employees').text()
+				}
+				
 				data = {
 	    			'type':	type, 
 	    			'path': JSON.parse(formData.get('path')),
-	    			'employees': $('#employees').text(),
+	    			'employees': employees,
 	    			'issue': issue,
 	    			'name': formData.get('name'),
 	    			'position': $('#position').text(),
 	    			'company': formData.get('company'),
 	    			'phonenumber': formData.get('phonenumber'),
-	    			'email': formData.get('email') 
+	    			'email': formData.get('email'),
+	    			'agents': formData.get('agents'),
+	    			'business':  formData.get('business'),
+	    			'functions': func,
+	    			'newsletter': $(form).find('[name=newsletter]').attr('checked')? true : false
 				} 
 				
-				action = 'Kontaktformular';
+				
+				$(form).hasClass('calcForm')? action = 'Preis Modal' : action = 'Kontaktformular';
+				
 				label = data['company'];
 				
 				/*formData.set('type', type);
@@ -140,6 +230,8 @@
 				formData.set('email', $(form).find('[name="email"]').val());
 				*/
 				// ToDo js Evaluierung
+				
+				console.log(data);
 				
 				break;
 			case '3':
@@ -179,7 +271,7 @@
 			//console.log(data);
 			
 			$(form).find('.error').removeClass('error');
-			
+		
 			if (type != '3' && type != '4') {
 	
 				$.ajax({
@@ -190,7 +282,7 @@
 		            success: function(response) {
 		                if (response.error) {
 							console.log(response.error);
-							$(form).find('#'+response.error).addClass('error');
+							$(form).find('[name='+response.error+']').addClass('error');
 						} else {
 		                	$(form).hide();
 		            		$(form).next('.formSuccess').fadeIn();

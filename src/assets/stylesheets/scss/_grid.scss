@@ -23,6 +23,66 @@ $grid-gutter: $gutter-l;
   		}
   	}
   }
+  &.sidebar-grid  {
+  	margin: 0;
+  	.grid { margin: 0; }
+	.menu {
+		width: 25%;
+		ul {
+			list-style-type: none;
+			li {
+				border-right: 3px solid #d4d4d4;
+				a {
+					padding: 14px 20px;
+					font-size: $font-size-xs;
+					color: $color-secondary-1;
+					display: block;
+					width: 100%;
+					background-color: #fff;
+					&::before {
+						top: 4px;
+						font-size: 22px;
+						padding-right: 15px;
+					}
+				}
+				&::before {
+					content: none;
+				}
+				&:hover {
+					a {
+						background-color: #fafafa;
+					}
+				}
+				&.active {
+					a {
+						background-color: #fafafa;
+					}
+					border-color: $color-primary;
+				}
+			}
+		}
+	}
+	.elements {
+		width: 72%;
+		> div {
+			display: none;
+		}
+		.col-2 {
+			width: calc((100% - ((2 - 1) * +20px))/ 2);
+			margin-bottom: 20px;
+			> div {
+				margin-top: 0;
+			}
+			img {
+				margin: 20px auto;
+			}
+			.text-small {
+				font-size: 14px;
+				line-height: 1.4;
+			}
+		}
+	}
+  }
   &.tile {
   	.col-2, .col-3  {
     	display: flex;
