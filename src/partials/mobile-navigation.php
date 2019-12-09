@@ -1,5 +1,5 @@
 <nav class="mobile-nav">
-  <span class="btn-mobile-nav">
+  <span class="btn-mobile-nav close">
     <span class="stripes"></span>
   </span>
 
@@ -100,6 +100,12 @@
           <a href="/case-study-flaconi" title="Zusammenspiel von Telefonanlage &amp; ACD Lösung">
             <span>Flaconi</span>
             Zusammenspiel von Telefonanlage &amp; ACD Lösung
+          </a>
+        </li>
+        <li>
+          <a href="/case-study-niceshops" title="Callcenter-Software & Telefonanlage">
+            <span>niceshops</span>
+            Callcenter-Software &amp; Telefonanlage
           </a>
         </li>
         <li>

@@ -10,6 +10,9 @@
   &.padding-tiles {
   	padding: $gutter-l - 10 $gutter-l - 10 $gutter-l + 20;
   }
+  &.space-between {
+  	height: 100%;
+  }
   &.animation-1 {
     position: relative;
     &:after {
@@ -23,10 +26,29 @@
       top: -247px;
       right: -311px;
     }
+    &.visible {
+	  	&::after {
+	  		background-image: url(../animations/01_MASTER_HP_transparent.gif);
+	  	}
+  	}
   }
-  &.visible {
-  	&::after {
-  		background-image: url(../animations/01_MASTER_HP_transparent.gif);
+  &.box-illu-1 {
+    position: relative;
+    &:after {
+      content: "";
+      width: 700px;
+      height: 700px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top left;
+	  top: -171px;
+	  right: -140px;
+    }
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/icons_png/box-illu-1.png);
+	  	}
   	}
   }
   &.autoWidth {
@@ -124,6 +146,27 @@
 	}
   }
 }
+
+.animation-2 {
+    position: relative;
+    &:after {
+        content: "";
+	    width: 500px;
+	    height: 400px;
+	    position: absolute;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-position: center;
+	    bottom: -80px;
+	    left: -260px;
+	    z-index: -2;
+    }
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/icons_svg/animation/robot-with-cookie.svg);
+	  	}
+  	}
+  }
 
 *:not(.topic-selector)+.shadow-box {
   margin-top: $gutter-l;

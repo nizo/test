@@ -112,7 +112,7 @@
     </li>
     <li>
       <a class="arrow" title="Referenzen">Referenzen</a>
-      <div class="submenu">
+      <div class="submenu submenu-products">
         <div class="submenu-content">
           <strong class="headline">Case Studies</strong>
           <ul>
@@ -130,8 +130,13 @@
                 Anlage &amp; ACD Lösung
               </a>
             </li>
-          </ul>
-          <ul>
+             <li>
+              <a href="/case-study-niceshops" title="Callcenter-Software & Telefonanlage">
+                <span>niceshops</span>
+                Callcenter-Software &amp;<br />
+                Telefonanlage
+              </a>
+            </li>
             <li>
               <a href="/case-study-navabi" title="Persönlicher Kundenservice mit Zendesk-Anbindung">
                 <span>Navabi</span>

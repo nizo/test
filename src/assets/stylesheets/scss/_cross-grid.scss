@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1045px) {
 	.cross-grid, .grid.cross-grid {
-	margin: $gutter-xxl + $gutter-xl 0 $gutter-l  !important;	
+		margin: $gutter-xxl + $gutter-xl 0 $gutter-l  !important;	
 		flex-direction: column-reverse !important;
 		.col-2, [class*=col-] {
 			width: 100%;
@@ -50,4 +50,10 @@
 			}
 		}
 	}    
+}
+
+@media screen and (max-width: 800px) {
+	.cross-grid, .grid.cross-grid {
+		margin-top: $gutter-xxl !important;
+	}
 }

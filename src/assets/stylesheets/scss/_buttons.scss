@@ -1,11 +1,21 @@
 .button {
   display: table;
-  padding: $gutter-s $gutter-m;
+  padding: $gutter-s + 1 $gutter-m $gutter-s - 1;
   font-family: 'apercu', sans-serif;
   font-size: $font-size-xxs;
   font-weight: 500;
   white-space: nowrap;
   cursor: pointer;
+  &.break {
+  	white-space: inherit;;
+  }
+  &.big {
+	  padding: $gutter-s + 5px $gutter-xl;
+	  font-size: $font-size-xs;
+	  &.connectWord {
+	  	min-width: auto;
+	  }
+  }
   &.mobileWrap {
   	white-space: inherit;
   }
@@ -67,6 +77,9 @@
 	    color: $color-secondary-1;
 	    text-transform: none;
 	    font-weight: 400;
+	    &.white {
+	    	color: #fff;
+	    }
   	}
   }
   
@@ -127,14 +140,41 @@
   &.centered {
     justify-content: center;
   }
+  &.no-wrap {
+  	flex-wrap: nowrap;
+  }
   .button {
     margin-right: $gutter-m;
     margin-bottom: $gutter-m;
+    line-height: normal;
     &:last-child {
     	margin-right: 0;
     }
+    &.no-margin-bottom {
+    	margin-bottom: 0;
+    }
+    &:hover {
+    	transition: all .3s ease;
+    }
+  }
+  .connectWord {
+  	font-weight: 600;
+  	color: rgba(255, 255, 255, 0.4);
+  	align-items: center;
+  	text-transform: uppercase;
+  	margin: 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+ 	.button {
+  		  &.big {
+			  padding: $gutter-s + 5px $gutter-m;
+			  min-width: 38%;
+		  }
+  	}
+}
+
 @media screen and (max-width: 800px) {
   .button-set {
 	flex-direction: column;
@@ -144,6 +184,9 @@
   	.button {
   		margin-right: 0;
   		margin-bottom: $gutter-s;
+  		&.connectWord {
+  			margin-top: $gutter-s;
+  		}
   		width: 100%;
   	}
   }
@@ -159,6 +202,7 @@ p+.button-set {
 	display: inline-block !important;
 	width: 66px !important;
 	height: 100% !important;
+	min-height: 36px;
 	max-width: 66px!important;
     min-width: 66px!important;
   	input {
@@ -192,19 +236,22 @@ p+.button-set {
 		    transition: .4s;
 		}		
 	}
-	input:checked + .switchSlider {
-	  background-color: #86ed18;
-	}
 	
-	input:focus + .switchSlider {
-	   	box-shadow: none;
-    	outline: none;
-	}
-	
-	input:checked + .switchSlider:before {
-	  -webkit-transform: translateX(26px);
-	  -ms-transform: translateX(26px);
-	  transform: translateX(26px);
+	&.checked {
+		input + .switchSlider {
+		  background-color: #86ed18;
+		}
+		
+		input:focus + .switchSlider {
+		   	box-shadow: none;
+	    	outline: none;
+		}
+		
+		input + .switchSlider:before {
+		  -webkit-transform: translateX(26px);
+		  -ms-transform: translateX(26px);
+		  transform: translateX(26px);
+		}
 	}
 }
 

@@ -2,7 +2,7 @@
  * Container - open and close content
  */
 
-.container {
+.container, .accordion {
 	padding: 0;
 	border: 2px solid $color-secondary-1;
 	margin: $gutter-m 0;
@@ -17,6 +17,94 @@
 			font-size: 16px;
 			line-height: 1.2;
 			font-weight: 600;
+		}
+	}
+	
+	&.blank, &.list {
+		border: none;
+		margin: 0;
+		.title {
+			padding: $gutter-s $gutter-m;
+			font-size: 14px;
+			margin: 0;
+			&::before {
+				content: none;
+			}
+		}
+		.content {
+			padding: $gutter-s $gutter-m $gutter-m;
+		}
+		&:last-child {
+			border-bottom: none;
+		}
+		
+		&.open {
+			.title {
+				&:before {
+					content: none;
+				}
+			}
+			&.black {
+				background-color: $color-secondary-1;
+				.title {
+					background-color: $color-secondary-1;
+					color: $color-primary;
+					border: 2px solid $color-secondary-1;
+				}
+				.content {
+					color: #fff;
+					input[type="text"], input[type="email"], input[type="tel"], textarea {
+						&:focus {
+							border-color: #fff;
+						}
+					}
+				}
+			}
+		}		
+	}
+	
+	&.list {
+	    border-bottom: 1px solid #f2f2f2;
+	    padding: 10px 40px 10px 35px !important;
+	    margin-top: 0 !important;
+	    margin-bottom: 0 !important;	    
+	    &::before {
+	    	padding-top: 10px;
+	    	margin-left: 10px;
+	    }
+	    &::after {
+	    	content: "\e5ca";
+	    	font-family: "streamline";
+	    	right: 10px;
+		    position: absolute;
+		    top: 7px;
+		    font-size: 20px;
+	    }
+		.title {
+			font-weight: 400;
+			font-family: apercu;
+			font-size: inherit;
+			padding: initial;
+		}
+		&.open {
+			&::after {
+				-webkit-transform: rotate(180deg);
+			    -moz-transform: rotate(180deg);
+			    -ms-transform: rotate(180deg);
+			    -o-transform: rotate(180deg);
+			    transform: rotate(180deg);
+			}
+		}
+		&:hover {
+			background-color: initial;
+			color: initial;
+			&::after {
+				color: $color-primary;
+			}
+		}
+		.content {
+			padding: 10px 10px 20px 0;
+			font-size: initial;
 		}
 	}
 	

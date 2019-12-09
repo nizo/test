@@ -152,7 +152,7 @@ form {
 			&:focus {
 				color: #FFF;
 				background-color: $color-secondary-1;
-				font-size: $font-size-s;
+				font-size: $font-size-s;				
 			}
 		}
 		input[type="submit"] {
@@ -167,6 +167,11 @@ form {
 		}
 		.button-set {
 			margin: $gutter-m auto 0;
+			.button {
+				&.big {
+					margin-top: $gutter-m;
+				}
+			}
 		}
 		
 		.checkboxen {
@@ -455,6 +460,11 @@ p + form {
 	padding-top: 60px;
 	margin-bottom: 40px;
 	display: none;
+	&.auto {
+		min-height: auto;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 .formFail {
@@ -462,6 +472,11 @@ p + form {
 	text-align: left;
 	padding-top: 60px;
 	margin-bottom: 40px;
+	&.auto {
+		min-height: auto;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (max-width: 1120px) {

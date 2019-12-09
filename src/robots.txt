@@ -13,5 +13,6 @@ Disallow: /modules/
 Disallow: /plugins/
 Disallow: /templates/
 Disallow: /tmp/
+Disallow: /testseite
 
 Sitemap: https://www.callone.de/sitemapindex.xml

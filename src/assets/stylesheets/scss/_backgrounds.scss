@@ -118,3 +118,38 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	}
 }
 
+.background-image {
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	&.image1 {
+		&.visible {
+			background-image: url('/assets/images/photos/agentenmaske-hintergrund.jpg');
+		}
+		padding-bottom: 42%;
+	    width: 100%;
+	    display: block;
+	}
+	&.image2 {
+		&.visible {
+			background-image: url('/assets/images/photos/dashboards-statistiken-bg.jpg');
+			padding-bottom: 0;
+		}
+		padding-bottom: 42%;
+	    width: 100%;
+	    display: block;
+	}
+	.h1 {
+		padding-top: 80px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.background-image {
+		&.image1 {
+			background-image: url(/assets/images/photos/agentenmaske-hintergrund-mobile.jpg);
+			padding-bottom: 84%;
+		}
+	}
+}

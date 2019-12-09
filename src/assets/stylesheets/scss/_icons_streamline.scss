@@ -458,7 +458,9 @@
 		content: "\e2ab";
 		top: -7px;
 	}
-	
+	&.sl-arrow-down-round:before {
+		content: "\e5ec";
+	}
 	&.sl-plus-sign:before {
 		content: "\e24e";
 		padding-right: 10px;
