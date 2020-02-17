@@ -7,6 +7,33 @@ $grid-gutter: $gutter-l;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: -$gutter-l;
+  &.stopper {
+  	align-items: center;
+  	margin-bottom: 0;
+  	&.padding {
+  		padding: $gutter-l 0;
+  	}
+  	.image {
+  		width: 10%;
+  		> img {
+  			max-height: 70px;
+  		}
+  	}
+  	.text {
+  		width: 57%;
+  		> p {
+  			margin-top: $gutter-s !important;
+  		}
+  	}
+  	.button-set {
+	  	width: 33%;
+	    margin: 0;
+	    align-items: center;
+	    > a {
+	    	margin: 0;
+	    }
+  	}
+  }
   [class*='col-'] {
   	&.flex{
   		display: flex;
@@ -25,7 +52,49 @@ $grid-gutter: $gutter-l;
   			}
   		}
   	}
+	&.col-50 {
+  		width: 50%;
+  		margin-bottom: 0;
+  		> img {
+  			margin: 0;
+  			object-fit: cover;
+  			width: 100%;
+  			height: 100%;
+  			&.logo {
+	  			height: auto;
+			    width: 100%;
+			    margin: 0 auto;
+			    max-width: 300px;
+  			}
+  		}
+  		&.padding {
+  			padding: 40px;
+  		}
+  		&.background {
+  			&.blue {
+  				background-color: $color-blue;
+  				color: #ffffff;
+  			}
+  		}
+  		blockquote {
+  			padding: $gutter-l 0;
+  			&::after {
+  				color: #ffffff;
+  				font-size: 120px;
+			    bottom: -40px;
+			    right: 0;
+  			}
+  			&.h2 {
+  				font-size: $font-size-l;
+  				margin-bottom: $gutter-m;
+  			}
+  		}
+  		.h4 {
+			font-size: $font-size-s;
+		}
+	}
   }
+  
   &.columns {
   	flex-direction: column;
   }
@@ -48,11 +117,12 @@ $grid-gutter: $gutter-l;
 					padding: 14px 20px;
 					font-size: $font-size-xs;
 					color: $color-secondary-1;
-					display: block;
+					display: flex;
+					align-items: center;
 					width: 100%;
 					background-color: #fff;
+					line-height: $font-size-l;
 					&::before {
-						top: 4px;
 						font-size: 22px;
 						padding-right: 15px;
 					}
@@ -380,28 +450,28 @@ $grid-gutter: $gutter-l;
 @media screen and (max-width: 1024px) {
 	.grid {
 	  	&.overlap {
-	  		padding-left: 0;
-	  		padding-right: 0;
+	  		
 		  	&.left {
 		  		/*flex-direction: column-reverse;*/
 			  	.col-2 {
 					&:last-of-type {
-						min-width: initial;
-						max-height: initial;
+						left: -120px;
+    					top: -80px;
 						.shadow-box {
-							min-width: initial;
-							max-height: initial;
+							
 					        img {
-					        	object-fit: cover;
+
 					        }
 					    }
-					    display: none;
+
 					}
 					&:first-of-type {
-						right: 0;
-						width: 100%;
+						min-width: initial;
+						.shadow-box {
+							min-width: 450px;	
+						}
 						blockquote {
-							padding-top: 100px;
+							
 						}
 					}
 		  		}
@@ -410,11 +480,16 @@ $grid-gutter: $gutter-l;
 		  	&.right {
 	  			.col-2 {
 					&:first-of-type {
-						min-width: initial;
-						max-height: initial;
+					    right: -40px;
+						top: -80px;
 					    .shadow-box {
-					    	min-width: initial;
-						    max-height: initial;
+					    	
+						}
+				    }
+				    &:last-of-type {
+				    	left: -120px;
+				    	.shadow-box {
+					   		min-width: 450px;	
 						}
 				    }
 				}
@@ -424,17 +499,48 @@ $grid-gutter: $gutter-l;
 }
 @media screen and (max-width: 800px) {
   .grid {
-
+	 &.stopper {
+	  	.image {
+	  		width: 100%;
+    		padding: 0 0 20px;
+	  	}
+	  	.text {
+	  		width: 100%;
+		    text-align: center;
+		    padding-bottom: 20px;
+	  	}
+	  	.button-set {
+			width: 100%;
+	  	}
+	  }
+	[class*='col-'] {  
+		&.col-50 { 
+			width: 100%;
+			&.padding {
+				padding: $gutter-m + $gutter-s $gutter-m;
+			}
+			
+			blockquote {
+				&.h2 {
+					font-size: $font-size-s;
+				}
+			}
+			
+		}
+	}
   	&.overlap {
   		padding-left: 0;
   		padding-right: 0;
   		flex-direction: column-reverse;
+  		padding-top: $gutter-xl;
 	  	&.left {
 		  	.col-2 {
+		  		padding: 0 $gutter-m;
 				&:last-of-type {
 					width: 100%;
 					display: block;
-					left: 0;
+					left: initial;
+					top: initial;
 					.shadow-box {
 				        position: relative;
 					    left: 0px;
@@ -446,7 +552,8 @@ $grid-gutter: $gutter-l;
 				&:first-of-type {
 					width: 90%;
 				    top: 0;
-				    margin: -35% auto 0;
+				    margin: 0 auto;
+				    right: 0;
 				    min-width: initial;
 				    .shadow-box {
 				    	min-width: initial;
@@ -454,6 +561,23 @@ $grid-gutter: $gutter-l;
 				}
 	  		}
 	  	}
+	  	&.right {
+	  		flex-direction: column;
+	  		.col-2 {
+	  			padding: 0 $gutter-m;
+		  		&:first-of-type {
+		  			top: initial;
+		  			right: initial;
+		  			width: 100%;
+		  			height: 100%;
+		  		}
+		  		&:last-of-type {
+		  		    width: 90%;
+    				left: 5%;
+    			}
+	  		}
+	  	}
+	  	
 	  	.shadow-box {
 	  		&.box-illu-1 {
 	  			&.visible {
@@ -549,6 +673,16 @@ $grid-gutter: $gutter-l;
     .col-3, .col-4 {
       width: calc((100% - 20px) / 2);      	
     }
+    &.mobileFull {
+    	.col-2 {
+    		width: 100%;
+    	}
+    }
+    &.mobileResponsiveWidth {
+    	.col-3 {
+    		width: calc((100% - ((3 - 1) * 10px))/ 3);
+    	}
+    }
     img {
 		&.headlineIcon {
 	    	width: $img-size-xxxs;  
@@ -615,6 +749,35 @@ $grid-gutter: $gutter-l;
 			}
 		}
   	}
+	&.overlap {
+		&.right, &.left {
+		  	[class*=col-] {
+				margin-bottom: 0;				
+		  	}
+	 	}
+	 	&.right {
+	 		.col-2 {
+		  		&:last-of-type {
+		  			top: initial;
+		  			margin-top: -$gutter-xl;
+		  			.shadow-box { 
+		  				min-width: initial;
+		  			}
+		  		}
+		  	}
+		}
+		&.left {
+	 		.col-2 {
+		  		&:first-of-type {
+		  			top: initial;
+		  			margin-top: -$gutter-xl;
+		  			.shadow-box { 
+		  				min-width: initial;
+		  			}
+		  		}
+		  	}
+		}
+	}
 	.stair {
 		img {
 			margin-top: 0;
@@ -673,15 +836,33 @@ $grid-gutter: $gutter-l;
 		  	&.left {
 			  	.col-2 {
 					&:first-of-type {
+						width: 100%;
+    					left: initial;
 						blockquote {
-							padding: 25px 20px;
+							padding: 25px 20px; 
+						}
+					}
+					&:last-of-type {
+						padding: 0;
+						.shadow-box {
+							min-width: initial;
+    						max-height: initial;
 						}
 					}
 		  		}
 		  	}
 		  	&.right {
 			  	.col-2 {
+					&:first-of-type {
+						padding: 0;
+						.shadow-box {
+							min-width: initial;
+    						max-height: initial;
+						}
+					}
 					&:last-of-type {
+					    width: 100%;
+    					left: initial;
 						blockquote {
 							padding: 25px 20px; 
 						}
@@ -689,5 +870,13 @@ $grid-gutter: $gutter-l;
 		  		}
 		  	}
 	  	}
+	}
+	.swiper-container-horizontal {
+		> .swiper-pagination-bullets {
+			bottom: $gutter-m;
+		}
+	}
+	.no-padding-mobile {
+		padding: 0 !important;
 	}
 }

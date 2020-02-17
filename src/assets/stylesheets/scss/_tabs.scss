@@ -82,6 +82,7 @@
 				    	box-shadow: none;
 				    	font-size: 16px;
 				    	justify-content: center;
+				    	background-color: $color-newgrey;
 				    	&::before {
 				    		content: none;
 				    	}
@@ -90,7 +91,7 @@
 				    		height: 5px;
 				    	}
 				    	&.active {
-				    		background-color: #f2f2f2;
+				    		background-color: #ffffff;
 				    	}
 				    }
     			}

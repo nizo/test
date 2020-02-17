@@ -7,16 +7,19 @@
 	border: 2px solid $color-secondary-1;
 	margin: $gutter-m 0;
 	background-color: #fff;
+	position: relative;
 	.title {
 		cursor: pointer;
-		padding: $gutter-m - 2 $gutter-m $gutter-m - 2 $gutter-l;
+		padding: $gutter-m - 2 $gutter-m $gutter-m - 2 $gutter-l + 30 + 18;
 		&:before {
-			padding-right: 30px;
+			left: 30px;
 			font-family: "streamline" !important;
 			content: "\e24B";
 			font-size: 16px;
 			line-height: 1.2;
 			font-weight: 600;
+			position: absolute;
+			margin-top: 3px;
 		}
 	}
 	
@@ -156,11 +159,6 @@
 			padding-left: $gutter-m;
 			margin-left: 48px;
 			font-size: $font-size-xs;
-			&:before {
-				margin-left: -48px;
-				position: relative;
-    			top: 2px;
-			}
 		}
 		.content {
 			padding-left: $gutter-m + 30 + 18;
@@ -168,5 +166,19 @@
 			font-weight: 300;
 		}
 	}
-} 
+}
+
+.accordion {
+	background-color: transparent;
+}
+
+.wrapper {
+	.content {
+		.accordion {
+			p {
+				color: initial;
+			}
+		}
+	}
+}
  

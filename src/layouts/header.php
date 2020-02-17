@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+<?php $GLOBALS['newCookieModal'] = true; ?>
 <!DOCTYPE html>
 <html lang="de">
   <head>   
@@ -70,18 +71,19 @@
     </script>
   </head>
   <body class="<?php echo $background; ?> lazyBackground">
-  <?php if (isLocalHost()) : ?>
-    <!-- Google Tag Manager (noscript) Testsystem -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZN2XV4"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-  <?php else : ?>  
-    <!--Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5K7C35"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
+      <?php if (isLocalHost()) : ?>
+        <!-- Google Tag Manager (noscript) Testsystem -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZN2XV4"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      <?php else : ?>  
+        <!--Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5K7C35"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      <?php endif; ?>
   <?php endif; ?>
-  
     <div class="navbar">
         <?php
         require_once('./partials/top-promotion.php');

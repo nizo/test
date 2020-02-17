@@ -7,6 +7,18 @@
 			wishlist = [];
 	}
 	
+	
+	/* 
+	 *	custom checkboxen conversation
+	 */
+	$('.conversation .checkboxen label').on('click', function() {
+			
+		$target = $(this).attr('data-target');
+		$('.step').hide();
+		$('.'+$target).show();
+
+	});
+	
 	$('.button-bottom > button').on("click", function(e) {
 		e.preventDefault();
 		$(this).toggleClass("added");
@@ -186,16 +198,21 @@
 				
 				// CalcForm
 				var employees, functions = '';
-				var func = []
+				var func = [];
 				if ($(form).hasClass('calcForm')) {
 					employees = formData.get('employees');
-					console.log(employees);
 					$(form).find("input[name='functions']:checked").each(function ()
 			        {
 			            func.push($(this).val());
 			        });					
 				} else {
 					employees = $('#employees').text()
+				}
+				
+				if ($(form).hasClass('wishlistContactForm')) {
+					if (window.localStorage) {			
+						func = JSON.parse(window.localStorage.getItem('wishlist'));
+					}
 				}
 				
 				data = {
@@ -210,12 +227,14 @@
 	    			'email': formData.get('email'),
 	    			'agents': formData.get('agents'),
 	    			'business':  formData.get('business'),
-	    			'functions': func,
-	    			'newsletter': $(form).find('[name=newsletter]').attr('checked')? true : false
+	    			'functions': func
 				} 
 				
-				
+    			if (formData.has('newsletter'))
+    				data.newsletter = $(form).find('[name=newsletter]').attr('checked')? true : false;
+								
 				$(form).hasClass('calcForm')? action = 'Preis Modal' : action = 'Kontaktformular';
+				$(form).hasClass('wishlistContactForm')? action = 'Wunschthemen' : action = 'Kontaktformular';
 				
 				label = data['company'];
 				
@@ -231,7 +250,7 @@
 				*/
 				// ToDo js Evaluierung
 				
-				console.log(data);
+				//console.log(data);
 				
 				break;
 			case '3':
@@ -263,17 +282,48 @@
 				formData.set('url', $(form).find('[name="url"] ').val());
 								
 				break;
+			case '5':
+								
+				formData.set('type', type);
+				formData.set('email', $(form).find('[name="email"]').val());
+				formData.set('position', $(form).find('[name="position"] ').val());
+				
+				break;
+			case '6':
+				
+				formData.set('type', type);
+				formData.set('issue', $(form).find('[name="issue"]').val());
+				formData.set('participant_email', $(form).find('[name="participant_email"]').val());
+				formData.set('participant_name', $(form).find('[name="participant_name"]').val());
+				formData.set('participation', $(form).find('[name="participation"]:checked').val() == 'ja'? true : false);
+				if( $(form).find('[name="participation_partner"]:checked').val() == 'ja' )
+					formData.set('partner_name', $(form).find('[name="partner_name"]').val());
+				else
+					formData.set('partner_name', ' ');
+				
+				break;
 			default:
 				return;
 				break;
 			}
-			//console.log(formData);
-			//console.log(data);
+			/*
+			console.log(formData.getAll('type'));
+			console.log(formData.getAll('issue'));
+			console.log(formData.getAll('participant_email'));
+			console.log(formData.getAll('participant_name'));
+			console.log(formData.getAll('participation'));
+			console.log(formData.getAll('partner_name'));
 			
+			console.log(data);
+			*/
 			$(form).find('.error').removeClass('error');
-		
-			if (type != '3' && type != '4') {
-	
+			$(form).find('.submit').attr("disabled", true);
+			
+			
+			//return;
+			
+			if (type == '1' || type == '2') {
+				
 				$.ajax({
 		            method: 'POST',
 					url: $(form).hasClass('form-1')? "https://connect.callone.io/backend/phonenumbers.php" : "https://connect.callone.io/backend/contact.php",
@@ -283,6 +333,7 @@
 		                if (response.error) {
 							console.log(response.error);
 							$(form).find('[name='+response.error+']').addClass('error');
+							$(form).find('.submit').removeAttr("disabled");
 						} else {
 		                	$(form).hide();
 		            		$(form).next('.formSuccess').fadeIn();
@@ -320,6 +371,7 @@
 				});  
 			}
 			else {
+				
 				$.ajax({
 		            url: "https://connect.callone.io/backend/contact.php",
 		            cache: false,
@@ -332,13 +384,20 @@
 		                if (response.error) {
 							console.log(response.error);
 							$(form).find('#'+response.error).addClass('error');
+							$(form).find('.submit').removeAttr("disabled");
 						} else {
 		                	$(form).hide();
-		            		$(form).next('.formSuccess').fadeIn();
-		            		
-		            		// Facebook Tracking Pixel
-		            		window._fbq = window._fbq || [];
-		            		window._fbq.push(['track', '6018846817861', {'value':'0.00','currency':'EUR'}]);
+		                	if( $(form).find('[name="participation"]:checked').val() == 'nein') {
+		                		$('.animation-3::after').css('bottom', '6px');
+		                		$('.animation-4::after').css('bottom', '6px');
+		                		$(form).parent().find('.formSuccess.absage').fadeIn();
+		                	} else if( $(form).find('[name="participation"]:checked').val() == 'ja') {
+		                		$('.animation-3::after').css('bottom', '6px');
+		                		$('.animation-4::after').css('bottom', '6px');
+		                		$(form).next('.formSuccess.zusage').fadeIn();
+		                	} else {
+		                		$(form).next('.formSuccess').fadeIn();
+		                	}
 						}        		
 		            },
 		        	error: function(response) {
@@ -347,6 +406,6 @@
 		            fail: function(msg) {
 		            	console.log(msg);
 		            } 
-				});  
+				});
 			}
 	};

@@ -1,0 +1,115 @@
+
+.wrapper {
+	&.teaser {
+		height: 420px; 
+		z-index: 5; 
+		margin-bottom: -120px;
+		@media screen and (max-width: 800px) {
+			margin-bottom: -200px;
+		}
+		
+		@media screen and (max-width: 670px) {
+			margin-bottom: -250px;
+		}
+		
+		@media screen and (max-width: 555px) {
+			margin-bottom: -280px;
+		}
+		
+		@media screen and (max-width: 480px) {
+			margin-bottom: -340px;
+		}
+	}
+}
+
+.video {
+	&.videoTeaser {
+	
+		&.polygon {
+			-webkit-clip-path: polygon(0 20%, 100% 3%, 81% 100%, 22% 100%);
+			clip-path: polygon(0 20%, 100% 3%, 81% 100%, 22% 100%);
+		}
+		
+	    border: none;
+	    width: 100%;
+	    background-color: $color-darkgrey;
+	    background-image: url('/assets/images/photos/poster-video-client-check24-550x309.jpg');
+	    background-position: center center;
+	    background-size: cover;
+	    align-items: center;
+	    left: 0;
+	    
+	    color: #ffffff;
+	    
+	    .padding {
+	   		padding: 40px;
+	   		position: absolute;
+    		bottom: 20px;
+	    }
+	    video {
+	    	&.background {
+	    		z-index: -1;
+	    	}
+	    }
+	    
+	    .autor {
+	    	> p {
+				line-height: 1.4;
+				margin-top: 0;
+			}
+		}
+	    
+	    @media screen and (max-width: 800px) {
+			.button-set {
+				display: none;
+			}
+		}
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+	.video {	
+		&.videoTeaser {
+	    	&.polygon {
+		    	-webkit-clip-path: none;
+				clip-path: none;
+			}
+			.padding {
+				padding: $gutter-m;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.video {	
+		&.videoTeaser {
+			.padding {
+				padding: $gutter-s;
+			}
+			.h2 {
+				font-size: $font-size-s;
+			}
+			.autor {
+				font-size: $font-size-xxs;
+				line-height: 1;
+			}
+		}
+	}
+}
+
+.video + .button-set {
+	position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    left: 0;
+    margin-top: -25px;
+    
+    @media screen and (max-width: 800px) {
+    	.button {
+    		width: fit-content;
+    		margin: 0 auto;
+    	}
+    }
+} 

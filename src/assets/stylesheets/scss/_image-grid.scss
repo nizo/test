@@ -3,6 +3,32 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  &.shadow-box-link {
+  	padding-right: 10%;
+	.image {
+		width: 20%;
+		padding: $gutter-m;
+	}	
+	.text {
+		width: 80%;
+		padding: $gutter-m;
+	}
+	&::after {
+		content: "\e5a9";
+		font-family: "streamline";
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		right: 5%;
+		font-size: $font-size-xxl;
+		font-weight: 600;
+	}
+	&:hover, &:focus {
+		&::after {
+			color: $color-primary;
+		}
+	}
+  }
   &.blog {
   	align-items: inherit;
   	.text {
@@ -32,6 +58,12 @@
   			}
   			&.image3 {
   				background-image: url("/assets/images/photos/callcenter-software-faq.jpg");
+  			}
+  			&.image4 {
+  				background-image: url("/assets/images/photos/externe-call-centerdienstleister.jpg");
+  			}
+  			&.image5 {
+  				background-image: url("/assets/images/photos/Contact-Center-Software-ACD-Telefonie.jpg");
   			}
   		}
   	}

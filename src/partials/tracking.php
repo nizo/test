@@ -17,26 +17,27 @@ if (!isset($_SESSION['userRoute'])) {
 }
 
 ?>
-
-<?php  if (isLocalHost()) : ?>	
-    <!--Google Tag Manager Testsystem --> 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MZN2XV4');</script>
-    <!--End Google Tag Manager-->
-<?php else : ?>
-	<!--Google Tag Manager-->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N5K7C35');</script>
-    <!--End Google Tag Manager-->
-<?php endif; ?>
-
-
+<?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1)): ?>
+ 
+    <?php  if (isLocalHost()) : ?>	
+        <!--Google Tag Manager Testsystem --> 
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MZN2XV4');</script>
+        <!--End Google Tag Manager-->
+    <?php else : ?>
+    	<!--Google Tag Manager-->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N5K7C35');</script>
+        <!--End Google Tag Manager-->
+    <?php endif; ?>
+    
+    
 	<!--Facebook Tracking Pixel-->
  	<script>(function() {
       var _fbq = window._fbq || (window._fbq = []);
@@ -54,3 +55,5 @@ if (!isset($_SESSION['userRoute'])) {
     //window._fbq.push(['addPixelId', '327131857475263']);
     window._fbq.push(['track', 'PixelInitialized', {}]);
     </script>
+
+<?php endif; ?>

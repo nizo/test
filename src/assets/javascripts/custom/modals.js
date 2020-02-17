@@ -26,26 +26,82 @@ window.onscroll = function() {
 };	
 **/
 
-if(!checkCookie('cookiebanner-accepted')) {
+if(checkCookie('cookiebanner-accepted') === false) {
+	console.log("cookie banner anzeigen");
 	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-	$('.cookieSubmit').on('click', function() {
-		setCookie('cookiebanner-accepted', 1, 365);
-		hideModal('cookiebanner', 'slideToggle');
-	});
-	$('.cookieDeny').on('click', function() {
-		setCookie('cookiebanner-accepted', 0, 365);
-	});
-	$('.cookieConf').on('click', function() {
-		console.log("conf");
-		hideModal('cookiebanner', 'slideToggle');
-		setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
-	});
-	$('.cookieBanner').on('click', function() {
-		console.log("conf2");
-		hideModal('cookiebanner-config', 'slideToggle');
-		setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-	});
 }
+
+$('.cookieSubmit').on('click', function(event) {
+	event.preventDefault();
+	console.log("cookie richtlinien akzeptiert");
+	var checkCode = 100;
+	if ($(this).hasClass('full')) {
+		checkCode = 111;
+	} else {
+		if ($('#CookieConf input#marketing').parent().hasClass('checked')) {
+			checkCode += 10;
+		}
+		if ($('#CookieConf input#extern').parent().hasClass('checked')) {
+			checkCode += 1;
+		}
+	}
+	if (checkCode > 100) {
+		console.log('loadTracking');
+		loadLazyTracking(checkCode > 101? true : false);
+	}
+	if(checkCode < 110) {
+		$.ajax({ 
+			url: '/libs/count.php',
+	        data: {
+	        	optInActive: '1'
+	        },
+	        type: 'POST',
+	        success: function(output) {
+	        	//nothing
+	        }
+		});
+	}
+	setCookie('cookiebanner-accepted', checkCode, 365);
+	/* Set Cookie für Role selection */
+	if (!checkCookie('co_role'))
+		setCookie('co_role', '001', 365); //000 default value (it-leiter)
+
+	hideModal('cookiebanner', 'slideDown');
+	hideModal('cookiebanner-config', 'slideDown');
+});
+$('.cookieDeny').on('click', function(event) {
+	event.preventDefault();
+	console.log("cookie richtlinien widersprochen");
+	setCookie('cookiebanner-accepted', 100, 365);
+	/* Set Cookie für Role selection */
+	if (!checkCookie('co_role'))
+		setCookie('co_role', '001', 365); //000 default value (it-leiter)
+
+	hideModal('cookiebanner', 'slideDown');
+	hideModal('cookiebanner-config', 'slideDown');
+	deleteAllCookies();
+	$.ajax({ 
+		url: '/libs/count.php',
+        data: {
+        	optInActive: '1'
+        },
+        type: 'POST',
+        success: function(output) {
+        	//nothing
+        }
+	});
+});
+$('.cookieConf').on('click', function() {
+	console.log("cookie config");
+	hideModal('cookiebanner', 'slideToggle');
+	setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
+});
+$('.cookieBanner').on('click', function() {
+	console.log("cookie start");
+	hideModal('cookiebanner-config', 'slideToggle');
+	setTimeout(function() { displayModal('cookiebanner'); }, 1000);
+});
+
 
 window.onload = function() {
 	var paramModal = urlHasParam("om", null);
@@ -60,13 +116,13 @@ function displayModal(modalName, titleContent, part) {
 	
 	if (modal == null)
 		return;
-	console.log(modalName);
+	//console.log(modalName);
 	modal.style.display = "block";
 	
 	if(modalName === 'priceCalc') {
 		$('.formSuccess').hide();
 				
-		console.log(modalName);
+		//console.log(modalName);
 		var title = modal.getElementsByClassName('title-'+part)[0];
 		var partToDisplay = modal.getElementsByClassName(part)[0]; 
 		var defaultTitle = modal.getElementsByClassName('defaultTitle')[0];
@@ -114,7 +170,7 @@ function hideModal(modalName, type) {
 	}
 }
 
-/*
+/* ALternative Vallina Javascript
 if (window.location.pathname === '/callcenter-software') {
 	// Add event - when user want to leave site 
 	addEvent(document, "mouseout", function(e) {
@@ -134,4 +190,22 @@ if (window.location.pathname === '/callcenter-software') {
 	});
 }
 */
+/* Display Modal before leaving price site */
+if (window.location.pathname === '/preise' && checkCookie('eM') === false) {
+	$('nav.main-nav a').on('click', function(e) {
+		if (checkCookie('eM') === false) {
+			e.preventDefault();
+			console.log('show Modal before');
+			displayModal(modalOnExit.modal, modalOnExit.title, modalOnExit.part);
+			setCookie('eM', 1, 14);
+		}
+	});
 	
+	$('html').mouseleave(function() {
+		if (checkCookie('eM') === false) {
+		  console.log('show Modal before exit');
+		  displayModal(modalOnExit.modal, modalOnExit.title, modalOnExit.part);
+		  setCookie('eM', 1, 14);
+		}
+	});	
+}

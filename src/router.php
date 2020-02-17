@@ -84,6 +84,16 @@ $r->addRoute('GET', '/testseite', function() {
     require_once('./views/de/testseite.php');
     require_once('./layouts/footer.php');
 });
+
+$r->addRoute('GET', '/event', function() {
+    $title = 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge';
+    $description = '';
+    $keywords = '';
+    $background = 'bg-sales';
+    require_once('./layouts/header.php');
+    require_once('./views/de/event.php');
+    require_once('./layouts/footer.php');
+});
         
 $r->addRoute('GET', '/', function() {
   $title = 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern';
@@ -239,7 +249,7 @@ $r->addRoute('GET', '/karriere', function() {
 $r->addRoute('GET', '/callcenter-software', function() {
   $title = 'Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk';
   $description = 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!';
-  $keywords = '';
+  $keywords = 'callcenter software, call center software, ACD, contact center software, helpdesk, computer telephony integration, cti, warteschleifenmanagement, callbackfuntion, kostenlos testen';
   $background = 'bg-kundenservice';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software';
   require_once('./layouts/header.php');
@@ -350,8 +360,8 @@ $r->addRoute('GET', '/cti-schnittstellen', function() {
     });     
 
 $r->addRoute('GET', '/voip-telefonanlage', function() {
-    $title = 'Cloud Telefonanlage – VoIP-Telefonanlage, virtuelle Telefonanlage';
-    $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter Software. Geprüfte Gesprächsqualität. Eigener Customer Success Manager. CallOne TEL';
+    $title = 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage';
+    $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager';
     $keywords = '';
     $background = 'bg-landingpages';
     $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';

@@ -61,7 +61,7 @@
 	    font-weight: 400;
   	}
   }
-   &.tertiary {
+  &.tertiary {
     background-color: $color-primary;
     border: 2px solid $color-primary;
     color: #000;
@@ -82,7 +82,49 @@
 	    }
   	}
   }
-  
+  &.quaternary, &.quinary {
+	  --notchSize: 6px;
+	  -webkit-clip-path:
+	    polygon(0% var(--notchSize),
+	      var(--notchSize) 0%,
+	      calc(100% - var(--notchSize)) 0%,
+	      100% var(--notchSize),
+	      100% calc(100% - var(--notchSize)),
+	      calc(100% - var(--notchSize)) 100%,
+	      var(--notchSize) 100%,
+	      0% calc(100% - var(--notchSize)));
+	  clip-path:
+	    polygon(0% var(--notchSize),
+	      var(--notchSize) 0%,
+	      calc(100% - var(--notchSize)) 0%,
+	      100% var(--notchSize),
+	      100% calc(100% - var(--notchSize)),
+	      calc(100% - var(--notchSize)) 100%,
+	      var(--notchSize) 100%,
+	      0% calc(100% - var(--notchSize)));
+	  transition: all .2s ease-in-out;
+	  text-transform: uppercase;
+	  color: white;
+	  background: #000000;
+	  letter-spacing: 1px;
+	  border: 6px solid #536D5E;
+	  &:hover {
+	  	  transform: scale(1.1);
+		  color: white;
+		  background-color: #000;
+		  border: 6px;
+		  border-style: solid;
+		  border-image-source: linear-gradient(180deg, #AAEA39, #86EC16);
+		  border-image-slice: 1;
+	  }
+  }
+  &.quinary {
+  	border: 6px solid #65976F;
+  	&:hover {
+  		background-color: #000; 
+  		border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
+  	}
+  }
   
   &.secondary-silent {
   }

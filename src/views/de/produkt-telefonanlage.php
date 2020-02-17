@@ -23,16 +23,16 @@
       </div>
       <div class="media">
       	<picture>
-          <source srcset="/assets/images/photos/telefonanlage.webp" type="image/webp">
-          <source srcset="/assets/images/photos/telefonanlage.png" type="image/png">
-          <img src="/assets/images/photos/telefonanlage.png" alt="CallOne VoIP-Telefonanlagen" class="mobile-hidden" />          	      
+          <source srcset="/assets/images/photos/voip-telefonanlage.webp" type="image/webp">
+          <source srcset="/assets/images/photos/voip-telefonanlage.png" type="image/png">
+          <img src="/assets/images/photos/voip-telefonanlage.png" alt="VoIP-Telefonanlage" title="VoIP-Telefonanlage" class="mobile-hidden" />          	      
 		</picture>
       </div>
     </header>
   </div>
 </div>
 
-<div class="wrapper quarter-background">
+<div class="wrapper half-background">
   <div class="content narrow">
     <strong class="h1 font-secondary centered uppercase white">Seit 10 Jahren ...</strong>
     <p class="centered">Sind wir rund um das Thema Telefonie für Sie da.</p>
@@ -55,7 +55,7 @@
 
 <div class="wrapper" id="integrations">
   <div class="content wide">
-  	<h2 class="h1 centered">CallOne bringt Businesstelefonie in die Zukunft.</h2>
+  	<h2 class="h1 centered">Wir bringen Businesstelefonie in die Zukunft.</h2>
   </div>
   <div class="content wide right">
   	<div class="content narrow">
@@ -65,7 +65,7 @@
               <img src="/assets/images/illus/plattform.svg" alt="CallOne Telefonie Plattform" class="img-75" />
             </div>
             <div class="col-2">
-              <h3 class="h2">Die CallOne Telefonie-Plattform</h3>
+              <h3 class="h2">Unsere VoIP-Telefonie-Plattform</h3>
               <p>Wir machen Businesstelefonie am Telefon schnell, smart und effizient. Wir bieten eine der leistungsfähigsten, sichersten und vielleicht am intuitiv zu bedienenden Full-Service-Telefonie Plattformen im deutschsprachigen Raum.</p>
             </div>
           </div>    
@@ -140,7 +140,7 @@
 
 <div class="wrapper breather" id="funktionen">
   <div class="content narrow left small">
-	<h2 class="h1 centered">Unsere Telefonanlagenfunktionen</h2>
+	<h2 class="h1 centered">Unsere VoIP-Telefonanlagen-Funktionen</h2>
   	<div class="grid parallel">
         <div class="col-2">
         	<div class="image primary">
@@ -200,7 +200,7 @@
 
 <div class="wrapper" id="portieren-schalten">
   <div class="content wide centered">
-  <h2 class="h1 centered">Darum CallOne</h2>
+  <h2 class="h1 centered">Erfahrung, die sich auszahlt</h2>
       <div class="grid">
         <div class="col-3">
           <img src="/assets/images/icons_svg/big_09.svg" alt="Ausfallsicher" class="icon">

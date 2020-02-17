@@ -1,3 +1,13 @@
+<script>
+	
+	var modalOnExit = {
+			modal: "priceCalc", 
+			title: "Berechne die Kosten <span class='primaryColor'>Deiner neuen Callcenter-Software</span>.",
+			part: "ccs"			
+	};
+	
+</script>
+
 <div class="wrapper">
   <div class="content wide noOverflow">
     <header class="main-header">
@@ -70,7 +80,7 @@
   		</div>
   		<div class="col-2 openModal" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Price Calc Modal" data-modal="priceCalc" data-modal-part="ccs" data-title="Berechne die Kosten <span class='primaryColor'>Deiner neuen Callcenter-Software</span>.">
       		<div class="disturber centered">
-            	<span class="tertiary">Jetzt <strong>kostenfrei Testen</strong></span>
+            	<span class="tertiary">Jetzt <strong>kostenfrei testen</strong></span>
             </div>
   			<div class="shadow-box padding centered">
   				<p>ab<strong class="h3"> 99,00 €</strong> / Monat<br>

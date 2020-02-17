@@ -296,8 +296,8 @@
 	  	}
 	  	
 	  	&.cookiebanner, &.cookiebanner-config {
-  			height: auto;
   			display: none;
+  			background-color: rgba(255,255,255,.75);
   			.modal-content {
   				position: fixed;
   				&.advanced {
@@ -336,7 +336,7 @@
 					    height: 300px;
 					    display: block;
 					    position: relative;
-					    margin-top: -300px;
+					    margin-top: -290px;
 					    z-index: -1;
 					    margin-left: 15px;
 	  				}
@@ -762,8 +762,9 @@
 		  padding: $gutter-s $gutter-m $gutter-s;
 		  background-color: #000;
 		  color: #fff;
-		  > h2 {
+		  > h2, > .h2 {
 		  	margin: 20px auto;
+		  	display: block;
 		  }
 		  .sl {
 		  	color: #fff;
@@ -785,6 +786,9 @@
 			.formSuccess {
 				min-height: inherit;
 				text-align: center;
+			}
+			.h1 {
+				display: block;
 			}
 		}
 		

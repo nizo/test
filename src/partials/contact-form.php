@@ -109,7 +109,7 @@
                   	<label for="email" class="centered mobile">E-Mail</label>
                   </div>
                   <div class="button-set centered">
-                    <button class="button primary submit">Jetzt loslegen!</button>
+                    <button class="button tertiary big submit">Jetzt loslegen!</button>
                   </div>
                 </form>
                 <div class="formSuccess">

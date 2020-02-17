@@ -1,7 +1,8 @@
 <div class="promotion">
   <div class="promotion-content">
     <ul>
-      <li><a class="openModal button secondary trackedElement" data-label="Button TopHeader - Wir stellen ein" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication"><span class="sl sl-search-person sl-size-s"></span>Wir stellen ein</a></li>
+      <li></li>
+      <!--  <li><a class="openModal button secondary trackedElement" data-label="Button TopHeader - Wir stellen ein" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication"><span class="sl sl-search-person sl-size-s"></span>Wir stellen ein</a></li> -->
       <li><a href="tel:+493092033500">+49 (0) 30-920 33 500</a></li>
       <li><a href="https://www.callone.de/faq/">Häufige Fragen</a></li>
       <li>

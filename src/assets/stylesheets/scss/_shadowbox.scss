@@ -1,6 +1,21 @@
+
+ a.shadow-box {
+  	display: block;
+  	color: $color-secondary-1;
+  	position: relative;
+  	&:visited {
+  		color: $color-secondary-1;
+  	}
+  	&:hover, :focus {
+  		border: 2px solid $color-primary;
+  	}
+  	border: 2px solid transparent;
+}
+
 .shadow-box {
   box-shadow: 0 0 20px rgba(#000, 0.25);
   background-color: #fff;
+  
   &+.shadow-box {
     margin-top: $gutter-l;
   }
@@ -53,6 +68,11 @@
   }
   &.autoWidth {
   	width: auto;
+  }
+  &.no-shadow {
+  	border: none;
+  	background-color: #ffffff;
+  	height: 100%;
   }
   .text {
   	p {
@@ -147,7 +167,7 @@
   }
 }
 
-.animation-2 {
+.animation-2, .animation-3, .animation-4 {
     position: relative;
     &:after {
         content: "";
@@ -164,6 +184,32 @@
     &.visible {
 	  	&::after {
 	  		background-image: url(../images/icons_svg/animation/robot-with-cookie.svg);
+	  	}
+  	}
+  }
+  
+  .animation-3 {
+  	&::after {
+  		width: 350px;
+  	    bottom: 93px;
+    	left: -336px;
+  	}
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/illus/callone-event-left.svg);
+	  	}
+  	}
+  }
+  .animation-4 {
+  	&::after {
+  		width: 350px;
+  	    bottom: 93px;
+    	left: initial;
+    	right: -334px;
+  	}
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/illus/callone-event-right.svg);
 	  	}
   	}
   }

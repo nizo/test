@@ -31,7 +31,7 @@
   </div>
 </div>
 
-<div class="wrapper">
+<div class="wrapper" id="video">
   <div class="content wide">
     <div class="video">
       <video controls preload="none" poster="/assets/images/photos/poster-video24.webp" onclick="this.play();" class="trackedElement" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" >

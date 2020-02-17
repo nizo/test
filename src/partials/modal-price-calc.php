@@ -63,10 +63,10 @@
     	 				</div>
 
         	 			
-        	 			<div class="grid fieldset">
+        	 			<div class="grid fieldset relative">
         	 				<span class="headline h2">Deine ausgewählten Funktionen</span>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Callcenter-Funktionen
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="Callcenter-Funktionen">
@@ -75,7 +75,7 @@
                                 </div>                              
         	 				</div>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Schnittstellen & Apps
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="Schnittstellen & Apps">
@@ -84,7 +84,7 @@
                                 </div>
         	 				</div>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Call-Recording & Coaching
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="Call-Recording & Coaching">
@@ -93,7 +93,7 @@
                                 </div>
         	 				</div>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     KI & Bots
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="KI & Bots">
@@ -225,10 +225,10 @@
     	 				</div>
 
         	 			
-        	 			<div class="grid fieldset">
+        	 			<div class="grid fieldset relative">
         	 				<span class="headline h2">Deine ausgewählten Funktionen</span>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Rufnummern
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="Rufnummern">
@@ -237,7 +237,7 @@
                                 </div>                              
         	 				</div>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Schnittstellen & Apps
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value=" Schnittstellen & Apps">
@@ -246,7 +246,7 @@
                                 </div>
         	 				</div>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Click-To-Dial
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="Click-To-Dial">
@@ -255,7 +255,7 @@
                                 </div>
         	 				</div>
         	 				<div class="col-2 small">
-        	 					<div class="optionField" onclick="$(this).find('input').prop('checked', !$(this).find('input').prop('checked'))">
+        	 					<div class="optionField">
                                     Callcenter-Software
                                     <label class="switch">
                                         <input type="checkbox" name="functions" value="Callcenter-Software">
