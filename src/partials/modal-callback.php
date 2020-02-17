@@ -2,7 +2,7 @@
 <div class="modal-content animate-top">
   <div class="modal-header">
     <span class="close sl sl-close"></span>
-    <h2 class="centered">Sofort kostenfreien Rückruf erhalten.</h2>
+    <strong class="centered h2">Sofort kostenfreien Rückruf erhalten.</strong>
   </div>
   <div class="modal-body">
   	<form action="#" class="form callback js-form">
@@ -12,7 +12,7 @@
         		<div class="grid">
         			<div class="col-2">
         				<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callback.png" data-srcset="/assets/images/photos/callback.png" alt="Jetzt hier zurückrufen lassen" title="Jetzt hier zurückrufen lassen" >
-                  		<h3 class="mobile-hidden">Callback vereinbaren</h3>
+                  		<strong class="h3 mobile-hidden">Callback vereinbaren</strong>
                   		<p></p>
                   		<input type="text" name="phonenumber" placeholder="Bitte hier Ihre Rufnummer eingeben" />
                      	<div class="button-set">
@@ -37,7 +37,7 @@
     <div class="formSuccess">
     	<div class="content narrow centered">
 			<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callback.png" data-srcset="/assets/images/photos/callback.png" alt="Wir rufen Sie zurück" title="Wir rufen Sie zurück" >
-      		<h3 class="h1">Vielen Dank für Ihre Anfrage</h3>
+      		<strong class="h1">Vielen Dank für Ihre Anfrage</strong>
       		<p>Sie werden in Kürze von uns zurückgerufen.</p>
   		</div>
     </div>

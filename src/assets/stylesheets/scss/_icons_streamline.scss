@@ -66,26 +66,108 @@
 			left: 0;
 			top: -5px;	
 		}
-		@media screen and (max-width: 555px) {
+		&.relative {
 			&:before {
-				content: none;
-				display: none;
+				position: relative;
+				display: inline-block;
+				padding-right: 10px;
+				top: 0;
+			}
+		}
+		@media screen and (max-width: 555px) {
+			&:not(.mobile) {
+				&:before {
+					content: none;
+					display: none;
+				}
 			}
 			padding-left: inherit;
 		}
     }
+    &.sl-after {
+	    font-family: inherit !important;
+	    font-style: inherit !important;
+	    font-weight: inherit !important;
+	    font-variant: inherit !important;
+	    text-transform: inherit !important;
+	    color: inherit;
+		margin-bottom: inherit;
+		font-size: inherit;
+		line-height: inherit;
+		
+		&.before-padding-25 {
+			padding-right: 25px;
+		}
+		
+		&.sl-size-xxs, &.sl-size-xs, 
+		&.sl-size-s, &.sl-size-m, 
+		&.sl-size-l, &.sl-size-xl {
+	    	font-size: inherit;
+	    }
+		
+		padding-right: 25px; 
+		position: relative;
+		
+		&:after {
+			content: "";
+			font-family: "streamline" !important;
+		    font-style: normal !important;
+		    font-weight: normal !important;
+		    font-variant: normal !important;
+		    text-transform: none !important;
+		    speak: none;
+		    -webkit-font-smoothing: antialiased;
+		    -moz-osx-font-smoothing: grayscale;
+			position: absolute;
+			right: 0;
+		}
+		&.small {
+			&:after {
+				font-size: calc(100% / 1.2);
+   				bottom: 25%;
+			}
+		}
+		&.relative {
+			&:after {
+				position: relative;
+				display: inline-block;
+				padding-left: 10px;
+				top: 0;
+			}
+		}
+		@media screen and (max-width: 555px) {
+			&:not(.mobile) {
+				&:after {
+					content: none;
+					display: none;
+				}
+			}
+			padding-right: inherit;
+		}
+    }
     
     
-    &.sl-size-xxs, &.sl-size-xxs:before{
+    &:hover {
+    	&.sl-after {
+    		&.sl-arrow-right {
+    			&:after {
+					transform: translate3d(5px,0,0);
+					transition: transform 250ms;
+				}		
+    		}
+    	}
+    }
+    
+    &.sl-size-xxs, &.sl-size-xxs:before, &.sl-size-xxs:after{
 	    font-size: $font-size-xs + 10px;
     }
     &.sl-size-xs, &.sl-size-xs:before{
 	    font-size: $font-size-s + 15px;
     }
-    &.sl-size-s, &.sl-size-s:before {
+    &.sl-size-s, &.sl-size-s:before, &.sl-size-s:after  {
 	    font-size: $font-size-m + 20px;
     }
-    &.sl-size-m, &.sl-size-m:before {
+    &.sl-size-m, &.sl-size-m:before, &.sl-size-m:after  {
 	    font-size: $font-size-l + 30px;
     }
     &.sl-size-l , &.sl-size-l:before{
@@ -104,6 +186,9 @@
 	}
 	&.sl-settings:before {
 		content: "\e2b4";
+	}
+	&.sl-functions:before {
+		content: "\e2b6";
 	}
 	&.sl-pin:before {
 		content: "N";
@@ -152,6 +237,9 @@
 	}
 	&.sl-screen:before {
 		content: "\e3d6";
+	}
+	&.sl-feature:before {
+		content: "\e384";
 	}
 	&.sl-chat-acknowledge:before {
 		content: "\e05c";
@@ -225,14 +313,26 @@
 	&.sl-call-out2:before {
 		content: "\e08e";
 	}
+	&.sl-add-wish:before {
+		content: "\e03a";
+	}
+	&.sl-wish:before {
+		content: "\e035";
+	}
 	&.sl-link:before {
 		content: "\e0b2";
 	}
 	&.sl-profile-serviceman:before {
 		content: "\e111";
 	}
+	&.sl-agent:before {
+		content: "\e112";
+	}
 	&.sl-piggy-bank:before {
 		content: "\e315";
+	}
+	&.sl-company-size:before {
+		content: "\e353";
 	}
 	&.sl-globe:before {
 		content: "\e35d";
@@ -393,6 +493,12 @@
 	&.sl-api:before {
 		content: "\e42b";
 	}
+	&.sl-app:before {
+		content: "\e420";
+	}
+	&.sl-pricing:before {
+		content: "\e2f7";
+	}
 	&.sl-apps:before {
 		content: "\e37b";
 	}
@@ -419,6 +525,16 @@
 	}
 	&.sl-ok-sign:before {
 		content: "\e2a2";
+	}
+	&.sl-pack:before {
+		content: "\e2ab";
+		top: -7px;
+	}
+	&.sl-arrow-down-round:before {
+		content: "\e5ec";
+	}
+	&.sl-arrow-right:after {
+		content: "\e5a9";
 	}
 	&.sl-plus-sign:before {
 		content: "\e24e";

@@ -20,10 +20,10 @@
                 function cb() {";
                 
         foreach ($cssFiles as $cssFile) {
-            if($cssFile === '.' || $cssFile === '..' || $cssFile === 'scss' || $cssFile === '.gitignore' ) {
+            if($cssFile === '.' || $cssFile === '..' || $cssFile === 'scss' || $cssFile === '.gitignore' || $cssFile === 'libs') {
                 continue;
             }
-                
+                       
             preg_match ( '/.*(min\.css)$/', $cssFile, $addCssFile );
             if ( empty($addCssFile) ) {
                 break;
@@ -60,6 +60,7 @@
         $jsFiles = scandir ($dir);
         foreach ($jsFiles as $jsFile) {
             if ( is_dir($dir.$jsFile) ) {
+                //echo $jsFile;
                 continue;
             }
             if ( $jsFile === '.' || $jsFile === '..' || $jsFile === '.gitignore' ) {
@@ -70,11 +71,11 @@
             if ( empty($addJSFile) ) {
                 break;
             }
-            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '"></script>';
+            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '"></script>';            
         }
     }
 
-    function getLogoParade($logos) {
+    function getLogoParade($logos, $showStars = null, $template = 'clients') {
         if(empty($logos)) {
             return;
         }
@@ -88,12 +89,11 @@
                     $logo['alt'] = '';
             if(empty($logo['data']))
                     $logo['data'] = '';
-                        
             
-                    $paradeData.= '<div class="logo"><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/' . $logo['data'] . '" data-srcset="/assets/images/client-logos/' . $logo['data'] . '" alt="' . $logo['alt'] . '" title="' . $logo['alt'] . '" class="lazy '. $logo['cssClass'] .'"/></div>';
+            $paradeData.= '<div class="logo"><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/' . $logo['data'] . '" data-srcset="/assets/images/client-logos/' . $logo['data'] . '" alt="' . $logo['alt'] . '" title="' . $logo['alt'] . '" class="lazy '. $logo['cssClass'] .'"/></div>';
         }
         
-        require_once('./partials/logo-parade-clients.php'); 
+        require('./partials/logo-parade-'.$template.'.php');
         return;   
     }
 
@@ -103,4 +103,35 @@
         
         return false;
     }
+        
+    function isRole($role) {
+        
+        if(empty($_COOKIE['co_role']))
+            return false;
+        
+        switch($role) {
+            case "callcenter-leiter":
+                if($_COOKIE['co_role'] === "002")
+                    return true;
+                break;
+            case "boss": 
+                if($_COOKIE['co_role'] === "003")
+                    return true;
+                break;
+            case "it-leiter":
+            default:
+                if($_COOKIE['co_role'] === "001")
+                    return true;
+                break;
+        }
+        
+        return false;
+    }
+    
+    function isChristmas() {
+        $month = date('n');
+        $day = date('j');
+        return ($month == 12 && $day >= 18) || ($month == 1 && $day <= 1);
+    }
+    
 ?>

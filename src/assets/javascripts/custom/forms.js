@@ -1,14 +1,96 @@
 
-	/* Add and remove Button (tiles) */
+	// get actual wishlist
+	var wishlist = [];
+	if (localStorage) {
+		var wishlist = JSON.parse(window.localStorage.getItem('wishlist'));
+		if (wishlist == null)
+			wishlist = [];
+	}
+	
+	
+	/* 
+	 *	custom checkboxen conversation
+	 */
+	$('.conversation .checkboxen label').on('click', function() {
+			
+		$target = $(this).attr('data-target');
+		$('.step').hide();
+		$('.'+$target).show();
+
+	});
+	
 	$('.button-bottom > button').on("click", function(e) {
 		e.preventDefault();
 		$(this).toggleClass("added");
-		if ($(this).hasClass('added'))
+		var dataInfo = $(this).attr('data-info');
+		if ($(this).hasClass('added')) {
+			if(dataInfo) {
+				console.log(wishlist);
+				wishlist.push(dataInfo);
+			}
 			$(this).children().html( $(this).attr('data-add') );
-		else
-			$(this).children().html( $(this).attr('data-base') );
+			$(this).parent().append( '<div class="arrow-box shortModal" style="display: none;"><strong>'+dataInfo+'</strong>Zur Wunschliste hinzugefügt</div>' );
+			var arrowBox = $(this).next('.arrow-box');
+			arrowBox.delay('450').fadeIn();
+			
+			timeoutID = window.setTimeout(function() {
+				var arrowBox = $('.button-bottom .arrow-box');
+				arrowBox.fadeOut(function() {
+					arrowBox.delay(400).remove();	
+				});
+			}, 4000);
+			
+			//$(this).next('arrow-box').delay(1000).fadeOut();
+			
+		} else {
+			if(dataInfo) {
+				wishlist.splice(wishlist.indexOf(dataInfo),1);
+			}
+			$(this).children().html( $(this).attr('data-base') ); 
+			$('#wishlist .numberOfElements').html(wishlist.length);
+		}
 		
+		
+		if (!localStorage) {
+			return;
+		}
+			
+		var wlist = [];
+		if((typeof wishlist != "undefined" || wishlist != null) && (wishlist.length > 0)) {
+			console.log('wishlist: ' + wishlist);
+			/*if (wlist = JSON.parse(window.localStorage.getItem('wishlist'))) {
+				console.log('wlist: ' + wlist);
+				var listitems = [];
+				listitems = merge_array(wlist, wishlist, true);
+				console.log('ListItems: ' + listitems);
+				window.localStorage.removeItem('wishlist');
+				window.localStorage.setItem('wishlist', JSON.stringify(listitems));
+			} else {*/
+				window.localStorage.setItem('wishlist', JSON.stringify(wishlist));
+				$('#wishlist .numberOfElements').html(wishlist.length);
+			//}
+			var note2 = $( ".modal.wishlist .wish-list" );	
+			note2.empty();
+			jQuery.each( wishlist, function( i, val ) {
+				note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+			});
+			setCookie('wishlist', '1', 90);
+			$('#wishlist').slideDown();
+		} else {
+			window.localStorage.removeItem('wishlist');
+			document.cookie = "cookiename='wishlist' ; expires = Thu, 01 Jan 1970 00:00:00 GMT";
+			$('#wishlist').slideUp();
+		}
 	});
+	
+	/*$('#wishlist a').on('click', function(e) {
+		e.preventDefault();
+		var list = window.localStorage.getItem('wishlist');
+		for (var i = 0; i < list.length; i++) {
+			$('.wishlist ul').append('<li>' + list[i] + '</li>');
+		}
+	});*/
+	
 
 	$('.js-form .select-selected').on ("click", function(){
     	$(this).toggleClass('active'),
@@ -114,19 +196,46 @@
 				else
 					issue = $(form).find('[name="issue"]').val();
 				
+				// CalcForm
+				var employees, functions = '';
+				var func = [];
+				if ($(form).hasClass('calcForm')) {
+					employees = formData.get('employees');
+					$(form).find("input[name='functions']:checked").each(function ()
+			        {
+			            func.push($(this).val());
+			        });					
+				} else {
+					employees = $('#employees').text()
+				}
+				
+				if ($(form).hasClass('wishlistContactForm')) {
+					if (window.localStorage) {			
+						func = JSON.parse(window.localStorage.getItem('wishlist'));
+					}
+				}
+				
 				data = {
 	    			'type':	type, 
 	    			'path': JSON.parse(formData.get('path')),
-	    			'employees': $('#employees').text(),
+	    			'employees': employees,
 	    			'issue': issue,
 	    			'name': formData.get('name'),
 	    			'position': $('#position').text(),
 	    			'company': formData.get('company'),
 	    			'phonenumber': formData.get('phonenumber'),
-	    			'email': formData.get('email') 
+	    			'email': formData.get('email'),
+	    			'agents': formData.get('agents'),
+	    			'business':  formData.get('business'),
+	    			'functions': func
 				} 
 				
-				action = 'Kontaktformular';
+    			if (formData.has('newsletter'))
+    				data.newsletter = $(form).find('[name=newsletter]').attr('checked')? true : false;
+								
+				$(form).hasClass('calcForm')? action = 'Preis Modal' : action = 'Kontaktformular';
+				$(form).hasClass('wishlistContactForm')? action = 'Wunschthemen' : action = 'Kontaktformular';
+				
 				label = data['company'];
 				
 				/*formData.set('type', type);
@@ -140,6 +249,8 @@
 				formData.set('email', $(form).find('[name="email"]').val());
 				*/
 				// ToDo js Evaluierung
+				
+				//console.log(data);
 				
 				break;
 			case '3':
@@ -171,17 +282,48 @@
 				formData.set('url', $(form).find('[name="url"] ').val());
 								
 				break;
+			case '5':
+								
+				formData.set('type', type);
+				formData.set('email', $(form).find('[name="email"]').val());
+				formData.set('position', $(form).find('[name="position"] ').val());
+				
+				break;
+			case '6':
+				
+				formData.set('type', type);
+				formData.set('issue', $(form).find('[name="issue"]').val());
+				formData.set('participant_email', $(form).find('[name="participant_email"]').val());
+				formData.set('participant_name', $(form).find('[name="participant_name"]').val());
+				formData.set('participation', $(form).find('[name="participation"]:checked').val() == 'ja'? true : false);
+				if( $(form).find('[name="participation_partner"]:checked').val() == 'ja' )
+					formData.set('partner_name', $(form).find('[name="partner_name"]').val());
+				else
+					formData.set('partner_name', ' ');
+				
+				break;
 			default:
 				return;
 				break;
 			}
-			//console.log(formData);
-			//console.log(data);
+			/*
+			console.log(formData.getAll('type'));
+			console.log(formData.getAll('issue'));
+			console.log(formData.getAll('participant_email'));
+			console.log(formData.getAll('participant_name'));
+			console.log(formData.getAll('participation'));
+			console.log(formData.getAll('partner_name'));
 			
+			console.log(data);
+			*/
 			$(form).find('.error').removeClass('error');
+			$(form).find('.submit').attr("disabled", true);
 			
-			if (type != '3' && type != '4') {
-	
+			
+			//return;
+			
+			if (type == '1' || type == '2') {
+				
 				$.ajax({
 		            method: 'POST',
 					url: $(form).hasClass('form-1')? "https://connect.callone.io/backend/phonenumbers.php" : "https://connect.callone.io/backend/contact.php",
@@ -190,7 +332,8 @@
 		            success: function(response) {
 		                if (response.error) {
 							console.log(response.error);
-							$(form).find('#'+response.error).addClass('error');
+							$(form).find('[name='+response.error+']').addClass('error');
+							$(form).find('.submit').removeAttr("disabled");
 						} else {
 		                	$(form).hide();
 		            		$(form).next('.formSuccess').fadeIn();
@@ -228,6 +371,7 @@
 				});  
 			}
 			else {
+				
 				$.ajax({
 		            url: "https://connect.callone.io/backend/contact.php",
 		            cache: false,
@@ -240,13 +384,20 @@
 		                if (response.error) {
 							console.log(response.error);
 							$(form).find('#'+response.error).addClass('error');
+							$(form).find('.submit').removeAttr("disabled");
 						} else {
 		                	$(form).hide();
-		            		$(form).next('.formSuccess').fadeIn();
-		            		
-		            		// Facebook Tracking Pixel
-		            		window._fbq = window._fbq || [];
-		            		window._fbq.push(['track', '6018846817861', {'value':'0.00','currency':'EUR'}]);
+		                	if( $(form).find('[name="participation"]:checked').val() == 'nein') {
+		                		$('.animation-3::after').css('bottom', '6px');
+		                		$('.animation-4::after').css('bottom', '6px');
+		                		$(form).parent().find('.formSuccess.absage').fadeIn();
+		                	} else if( $(form).find('[name="participation"]:checked').val() == 'ja') {
+		                		$('.animation-3::after').css('bottom', '6px');
+		                		$('.animation-4::after').css('bottom', '6px');
+		                		$(form).next('.formSuccess.zusage').fadeIn();
+		                	} else {
+		                		$(form).next('.formSuccess').fadeIn();
+		                	}
 						}        		
 		            },
 		        	error: function(response) {
@@ -255,6 +406,6 @@
 		            fail: function(msg) {
 		            	console.log(msg);
 		            } 
-				});  
+				});
 			}
 	};

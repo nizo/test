@@ -68,6 +68,44 @@
       }
     }
   }
+   &.tabs2 {
+    	.tab-nav {
+    		border-bottom: 5px solid #f2f2f2;
+    		margin-bottom: 0;
+    		ul {
+				li {
+					&+li {
+				    	margin-left: 0px;
+				    }
+				    a {
+				    	padding: 10px 20px 10px 20px;
+				    	box-shadow: none;
+				    	font-size: 16px;
+				    	justify-content: center;
+				    	background-color: $color-newgrey;
+				    	&::before {
+				    		content: none;
+				    	}
+				    	&::after {
+				    		bottom: 5px;
+				    		height: 5px;
+				    	}
+				    	&.active {
+				    		background-color: #ffffff;
+				    	}
+				    }
+    			}
+    		}
+    	}
+    	.tab {
+			&.active {
+		    	padding-bottom: 0;
+		    }
+		    .padding {
+		    	padding: $gutter-l;
+		    }
+		}
+  	}
   .tab {
     display: none;
     &.active {

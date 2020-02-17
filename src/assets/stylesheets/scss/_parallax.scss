@@ -1,0 +1,80 @@
+#scene {
+	&.apps {
+		width: 100%;
+		> div {
+			display: block;
+		    width: 100%;
+		    height: auto;
+		    min-height: 845px;
+		    background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center;
+			&:first-of-type {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer7.png');
+				}
+			}
+			&:nth-child(2) {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer6.png');
+				}
+			}
+			&:nth-child(3) {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer5.png');
+				}
+			}
+			&:nth-child(4) {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer4.png');
+				}
+			}
+			&:nth-child(5) {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer3.png');
+				}
+			}
+			&:nth-child(6) {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer2.png');
+				}
+			}
+			&:nth-child(7) {
+				&.visible {
+					background-image: url('/assets/images/illus/apps-acd-losungsseite-layer1.png');
+				}
+			}		
+		}
+	}
+	&.apps + picture {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	#scene {
+		&.apps {
+			> div {
+				min-height: 640px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	#scene {
+		&.apps {
+			display: none;
+		}
+		&.apps + picture {
+			display: block !important;
+		} 
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 550px) {
+}

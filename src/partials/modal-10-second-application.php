@@ -2,7 +2,7 @@
 <div class="modal-content animate-BorderTop">
   <div class="modal-header">
     <span class="close sl sl-close"></span>
-    <h2 class="centered">10 Sekunden Bewerbung</h2>
+    <strong class="centered h2">10 Sekunden Bewerbung</strong>
   </div>
   <div class="modal-body">
   	<form action="#" class="form shortApplication js-form">
@@ -11,7 +11,7 @@
   		<input type="hidden" name="issue" value="<?= isset($jobsTitle)? $jobTitle : 'Kurzbewerbung'?>">
         <div class="wrapper"> 	
       		<div class="content narrow">
-    			<h3 class="mobile-hidden">Zeige Profil!</h3>
+    			<strong class="mobile-hidden h3">Zeige Profil!</strong>
           		<p>
           			Manchmal bleibt einfach keine Zeit für eine klassische Bewerbung. Du möchtest dich aber trotzdem vorstellen? <br>
           			Dann überzeuge uns mit deinem aussagekräftigen Business-Profil. Einfach den Link zum Profil dalassen und wir melden uns bei dir.
@@ -28,7 +28,7 @@
     </form>
     <div class="formSuccess">
     	<div class="content narrow centered">
-      		<h3 class="h1">Vielen Dank für Deine Bewerbung</h3>
+      		<strong class="h1">Vielen Dank für Deine Bewerbung</strong>
       		<p>Wir melden uns in Kürze bei dir.</p>
   		</div>
     </div>

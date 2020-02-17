@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     gutil = require('gulp-util'),
     cleanCSS = require('gulp-clean-css'),
+    clean = require('gulp-clean'),
     autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync'),
     coffeeConcat = require('gulp-coffeescript-concat'),
@@ -26,7 +27,7 @@ var paths = {
 };
 
 // Default task
-gulp.task('default', ['connect-sync', 'styles', 'scripts']);
+gulp.task('default', ['connect-sync', 'clean-css-scripts', 'styles', 'clean-scripts', 'scripts']);
 
 // Start PHP server + browser sync
 gulp.task('connect-sync', function() {
@@ -60,8 +61,17 @@ gulp.task('styles', function() {
 });
 
 // Watch SASS files for changes
-gulp.watch(paths.scss+'*', ['styles']);
+gulp.watch(paths.scss+'*', ['clean-css-scripts','styles']);
 
+gulp.task('clean-scripts', function () {
+  return gulp.src(paths.javascripts+'/*.min.js', {read: false})
+    .pipe(clean());
+});
+
+gulp.task('clean-css-scripts', function () {
+  return gulp.src(paths.stylesheets+'/application-*.min.css', {read: false})
+    .pipe(clean());
+});
 
 // Parse Coffeescript
 gulp.task('scripts', function() {
@@ -80,8 +90,8 @@ gulp.task('scripts', function() {
 
 // Watch Coffee files for changes
 gulp.watch(paths.coffee+'*', ['scripts']);
-gulp.watch(paths.customJS+'*', ['scripts']);
+gulp.watch(paths.customJS+'*', ['clean-scripts', 'scripts']);
+gulp.watch(paths.stylesheets, ['clean-css-scripts', 'scripts']);
 gulp.watch(paths.libs+'*', ['scripts']);
 
-gulp.task('build', ['styles', 'scripts']);
-
+gulp.task('build', ['styles', 'clean-css-scripts', 'clean-scripts', 'scripts']);

@@ -5,7 +5,7 @@
         <h1>Da bist du ja! Wir haben dich schon überall gesucht</h1>
         <p class="primary">Wir gehen das Problem an, dass Kundenservice am Telefon die absolute Hölle ist. Wir unterstützen unsere großartigen Kunden dabei, ihren Customer Service so aufzubauen, dass Leute gern bei ihnen anrufen, weil ihnen wirklich geholfen wird.</p>
         <div class="button-set">
-          <a href="#angebote" class="button primary">Offene Stellen</a>
+          <a href="#angebote" class="button tertiary">Offene Stellen</a>
           <a class="openModal button secondary trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
         </div>
       </div>
@@ -24,20 +24,56 @@
 
     <p>CallOne ist eine kleine Familie (nur dass wir nicht Heiligabend zusammen feiern). Wir mögen einander und passen gegenseitig auf uns auf. Wir glauben, dass man in einem guten sozialen Umfeld die beste und erfüllendste Arbeit machen kann.</p>
   </div>
-
+</div>
+<div class="wrapper half-background" id="angebote">
+  <div class="content wide centered">
+    <h2 class="h1">Aktuelle Stellenangebote</h2>
+    <div class="grid tile column flex">
+      <div class="col-2 flex space-between row">
+      	<div class="shadow-box padding space-between flex column">
+            <img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
+            <h3>Customer Successmanager (m/w/d) in Potsdam</h3>
+            <p>Du liebst den Umgang mit anderen Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?</p>
+            <div class="button-set centered">
+              <p><a href="/karriere/job-customer-success-manager-potsdam" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a></p>
+            </div>
+      	</div>
+      </div>
+      <div class="col-2 flex space-between row">
+      	<div class="shadow-box padding space-between flex column">
+            <img class="icon" src="/assets/images/icons_svg/job_04.svg" alt="" />
+            <h3>IT Consultant (m/w/d) in Potsdam</h3>
+            <p>Du hast ein solides Arsenal technisches Wissen und kannst Partner, Stakeholder und IT-Mitarbeiter umfassend betreuen?</p>
+            <div class="button-set centered">
+              <p><a href="/karriere/it-consultant-potsdam" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/it-consultant-potsdam">Mehr erfahren</a></p>
+            </div>
+      	</div>
+      </div>
+      <!-- <div class="col-3 flex space-between row">
+      	<div class="shadow-box padding space-between flex column">
+            <img class="icon" src="/assets/images/icons_svg/job_02.svg" alt="" />
+            <h3>Team Assistenz (m/w/d)</h3>
+            <p>Du bist ein Organisationstalent und Teamfähigkeit gehört zu deinen Stärken?</p>
+            <div class="button-set centered">
+              <p><a href="/karriere/team-assistenz" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/team-assistenz">Mehr erfahren</a></p>
+            </div>
+      	</div>
+      </div>-->
+    </div>
+  </div>
+</div>
+<div class="wrapper">
   <div class="content wide">
-    <div class="shadow-box padding">
-      <div class="grid">
-        <div class="col-2">
-          <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/jamie.jpg" data-srcset="/assets/images/photos/jamie.jpg" alt="Jamie - Projektleiterin CallOne" title="Jamie - Projektleiterin CallOne" />
-        </div>
-        <div class="col-2">
-          <blockquote>
-            <p>„Ich stehe eigentlich jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“</p>
-            <p class="bold">—Jamie, Projektleiterin</p>
-          </blockquote>
-        </div>
-      </div>    
+  	<div class="shadow-box padding">
+  		<div class="grid">
+  			<div class="col-2"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/jamie.jpg" data-srcset="/assets/images/photos/jamie.jpg" alt="Jamie - Projektleiterin CallOne" title="Jamie - Projektleiterin CallOne" /></div>
+  			<div class="col-2">
+              <blockquote>
+                <p>„Ich stehe eigentlich jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“</p>
+                <p class="bold">—Jamie, Projektleiterin</p>
+              </blockquote>
+  			</div>
+  		</div>
     </div>
   </div>
 
@@ -59,7 +95,7 @@
     <p class="bold">Komm lieber zu uns.</p>
   </div>
 
-  <div class="content wide">
+  <div class="content wide" id="benefits">
     <div class="grid">
       <div class="col-3">
         <img class="icon" src="/assets/images/icons_svg/small_29.svg" alt="Langfristigkeit" />
@@ -124,38 +160,6 @@
         <p>Charlottenstr. 107, 14467 Potsdam<br>
         +49 (0) 331-968 94 700
         </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="wrapper" id="angebote">
-  <div class="content wide centered">
-    <h2 class="1">Bewirb dich bei uns</h2>
-    <div class="grid">
-      <div class="col-3 flex space-between">
-        <img class="icon" src="/assets/images/icons_svg/job_04.svg" alt="" />
-        <h3>Technischer Projektmanager (m/w/d)</h3>
-        <p>Du hast ein solides Arsenal technisches Wissen und kannst Partner, Stakeholder und IT-Mitarbeiter umfassend betreuen?</p>
-        <div class="button-set centered">
-          <p><a href="/karriere/technischer-produktmanager" class="button primary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/technischer-produktmanager">Mehr erfahren</a></p>
-        </div>
-      </div>
-      <div class="col-3 flex space-between">
-        <img class="icon" src="/assets/images/icons_svg/job_02.svg" alt="" />
-        <h3>Team Assistenz (m/w/d)</h3>
-        <p>Du bist ein Organisationstalent und Teamfähigkeit gehört zu deinen Stärken?</p>
-        <div class="button-set centered">
-          <p><a href="/karriere/team-assistenz" class="button primary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/team-assistenz">Mehr erfahren</a></p>
-        </div>
-      </div>
-      <div class="col-3 flex space-between">
-        <img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
-        <h3>Organisationsprofi / Kundenberater (m/w/d)</h3>
-        <p>Du liebst den Umgang mit anderen Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?</p>
-        <div class="button-set centered">
-          <p><a href="/karriere/kundenberater-1st-level-support" class="button primary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/kundenberater-1st-level-support">Mehr erfahren</a></p>
-        </div>
       </div>
     </div>
   </div>

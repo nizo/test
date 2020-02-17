@@ -8,14 +8,14 @@
   		<div class="content centered">
         	<div class="grid">
         		<div class="col-2 left">
-        			<h3>Wir helfen Ihnen</h3>
+        			<strong class="h3">Wir helfen Ihnen</strong>
             		<ul class="list approved-list">
             			<li>Wir besprechen Ihre konkreten Anforderungen</li>
             			<li>Klären Fragen zu Preisen</li>
             			<li>Vereinbaren Livedemos</li>
         					<li>Stimmen Pilotprojekte ab</li>
             		</ul>
-        			<h3>Alternative Kontaktmöglichkeiten</h3>
+        			<strong class="h3 headline">Alternative Kontaktmöglichkeiten</strong>
             		<p></p>
             		<div class="button-set">
                       <a class="email button primary trackedElement" data-label="Button Contact Modal- E-Mail" data-category="Link" data-action="mailto - info@callone.de" href="mailto:info@callone.de">E-Mail</a>
@@ -26,7 +26,7 @@
         		<div class="col-2 box">
         			<div class="SwitchBoxes inputFields shadow-box padding animation-1 animate-bottom lazyBackground">
                       	<form action="#" class="form contact js-form">
-                      		<h3 class="h2 left">Sprechen Sie mit dem Vertrieb!</h3>
+                      		<strong class="h2 left">Sprechen Sie mit dem Vertrieb!</strong>
                       		<p class="left">
                       			Unsere Experten beantworten gerne Ihre Fragen. Füllen Sie das untenstehende Formular aus oder rufen Sie uns an unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>
                       		</p>
@@ -61,13 +61,13 @@
                             </div>
                         </form>
                         <div class="formSuccess">
-                        	<h3>Vielen Dank für Ihre Anfrage!</h3>
+                        	<strong class="h3">Vielen Dank für Ihre Anfrage!</strong>
                         	<p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
         					<p>Sie erhalten demnächst eine E-Mail zur Bestätigung Ihrer Anfrage bei uns. Dort finden Sie auch nochmal alle weiteren Kontaktinformationen.</p>
         					<p>Wir sind für Sie da.<br>Ihr CallOne-Team</p>
                         </div>
                         <div class="formFail">
-                        	<h3>Ihre Anfrage konnte nicht gesendet werden!</h3>
+                        	<strong class="h3">Ihre Anfrage konnte nicht gesendet werden!</strong>
                         	<p>Es ist leider ein Fehler beim übertragen der Daten aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
             				<p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
             				<p>Ihr CallOne-Team</p>
@@ -77,7 +77,7 @@
                         <form action="#" class="form callback js-form">
                       		<input type="hidden" name="type" value="0">
             				<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callback.png" data-srcset="/assets/images/photos/callback.png" alt="Jetzt hier zurückrufen lassen">
-                      		<h3 class="mobile-hidden">Callback vereinbaren</h3>
+                      		<strong class="h3 mobile-hidden">Callback vereinbaren</strong>
                       		<p></p>
                       		<input type="text" name="phonenumber" placeholder="Bitte hier Ihre Rufnummer eingeben" />
                          	<div class="button-set">
@@ -94,7 +94,7 @@
                         <div class="formSuccess">
                         	<div class="content narrow centered">
                     			<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callback.png" data-srcset="/assets/images/photos/callback.png" alt="Jetzt hier zurückrufen lassen">
-                          		<h3 class="h1">Vielen Dank für Ihre Anfrage</h3>
+                          		<strong class="h1">Vielen Dank für Ihre Anfrage</strong>
                           		<p>Sie werden in Kürze von uns zurückgerufen.</p>
                       		</div>
                         </div>
@@ -108,7 +108,7 @@
     		<div class="grid">
         		<div class="col-2 left">
         			<p></p>
-            		<h3>Sie benötigen Support?</h3>
+            		<strong class="h3">Sie benötigen Support?</strong>
     				<p>Sind sie bereits Kunde?<br>Bei technischen Problemen hilft ihnen unser <a href="mailto:support@callone.de">Kundenservice</a></p>
     				<p>Bei allen anderen Fragen erreichen Sie uns auch telefonisch unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a></p>   
         		</div>

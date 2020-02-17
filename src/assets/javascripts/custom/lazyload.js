@@ -89,12 +89,10 @@ document.addEventListener("DOMContentLoaded", function() {
   	if ( jsFiles.length < 0 ) {
   		return;
   	} 
-  	
-  	if ( window.screen.width <= width ) {
-  		return;
-  	} 
-  	
+  	 	
 	for ( i = 0; i < jsFiles.length; i++ ) {
+		if (jsFiles[i] !== '/assets/javascripts/libs/swiper.min.js' && window.screen.width <= width)
+			continue;
 		var element = document.createElement("script");
 	    element.src = jsFiles[i];
 	    document.body.appendChild(element);
@@ -109,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	// all Browser
 	else window.onload = lazyLoadingJS;
 	
-
   document.addEventListener("scroll", lazyLoad);
   document.addEventListener("click", lazyLoad);
   window.addEventListener("resize", lazyLoad);

@@ -22,6 +22,7 @@ app =
     $(document).on 'click', '.form .submit', (e) ->
       e.preventDefault()
       if $(this).parents('.js-form').hasClass 'callback'
+        console.log('send Callback')    
         sendCallback($(this).parents('.js-form'))
       else
         sendForm($(this).parents('.js-form')) 
@@ -39,7 +40,24 @@ app =
     $(document).on 'click', '.container .title', (e) ->
       e.preventDefault()
       $(this).parent().toggleClass 'open'   
-      $(this).next('.content').slideToggle 'fast'    
+      $(this).next('.content').slideToggle 'fast'   
+        
+    # OpenContainer type2
+    $(document).on 'click', '.accordion', (e) ->
+      e.preventDefault()
+      if $(this).hasClass('open')
+        if $(this).hasClass('accordion-closeable')
+          $(this).removeClass('open')
+          $(this).children('.content').slideUp 'fast'
+      else
+        $('.accordion').removeClass('open');
+        $(this).addClass 'open'
+        $('.accordion .content').slideUp 'fast'          
+        $(this).children('.content').slideDown 'fast'      
+        if $(this).attr('data-link')
+          console.log $(this).attr('data-area')
+          $($(this).attr('data-area')).children().hide()
+          $($(this).attr('data-area')).children($(this).attr('data-link')).fadeIn()
       
     # Mobile footer nav
     $(document).on 'click', '.footer-menu li span', (e) ->
@@ -52,6 +70,7 @@ app =
     # Mobile subnav
     $(document).on 'click', '.mobile-nav .pages-menu .submenu', (e) ->
       e.preventDefault()
+      e.stopPropagation()
       if $(this).hasClass 'submenu-open'
         $(this).removeClass 'submenu-open'
         $(this).next('ul').slideUp 'fast'
@@ -59,12 +78,19 @@ app =
         $('.pages-submenu').slideUp 'fast'
         $('.pages-menu .submenu-open').removeClass 'submenu-open'
         $(this).addClass 'submenu-open'
-        $(this).next('ul').slideToggle 'fast'
+        $(this).next('ul').slideDown 'fast'
 
     # Toggle mobile nav
-    $(document).on 'click', '.btn-mobile-nav', (e) ->
+    $('.btn-mobile-nav').on 'click', (e) ->
       e.preventDefault()
-      $(this).next('.mobile-nav').toggleClass 'open'
+      #console.log 'mobile nav open'
+      $(this).parent().next('.mobile-nav').addClass 'open'
+    
+    # Toggle mobile nav
+    $('.btn-mobile-nav.close').on 'click', (e) ->
+      e.preventDefault()
+      #console.log 'mobile nav close'
+      $(this).parent('.mobile-nav').removeClass 'open'  
 
     # SmoothScroll
     $('a[href^="#"]').on 'click.smoothscroll', (e) ->
@@ -104,7 +130,8 @@ app =
     # Topic Selector
     $(document).on 'change', '.topic', (e) ->
       topic = $(this).val()
-      console.log topic
+      setCookie('co_role', '00'+$(this).val(), 365);
+      #console.log topic
       $('.subtopic, .topic-box').hide()
       $('.subtopic[data-subtopic="'+topic+'"]').show()
       subtopic = $('.subtopic[data-subtopic="'+topic+'"]').val()
@@ -178,17 +205,17 @@ navbar =
 
     if @w_scroll_current <= 0
       @n.style.top = '0px'
-      console.log '0px'
+      #console.log '0px'
     else if @w_scroll_diff > 0
       @n.style.top = (if @n_top > 0 then 0 else @n_top) + 'px'
-      console.log 'hochscrollen'
+      #console.log 'hochscrollen'
     else if @w_scroll_diff < 0
       if @w_scroll_current + @w_height >= @d_height - @n_height
         @n.style.top = (if (@n_top = @w_scroll_current + @w_height - @d_height) < 0 then @n_top else 0) + 'px'
-        console.log 'runter 1'
+        #console.log 'runter 1'
       else
         @n.style.top = (if Math.abs(@n_top) > @n_height then -@n_height else @n_top) + 'px'
-        console.log 'Unten angekommen'
+        #console.log 'Unten angekommen'
     @w_scroll_before = @w_scroll_current
 
 slider =

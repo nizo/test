@@ -101,12 +101,35 @@
       (6) Die Nutzung von Google Analytics erfolgt in Übereinstimmung mit den Voraussetzungen, auf die sich die deutschen Datenschutzbehörden mit Google verständigten. Informationen des Drittanbieters: Google Dublin, Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland, Fax: +353 (1) 436 1001. Nutzerbedingungen: <a href="http://www.google.com/analytics/terms/de.html">www.google.com/analytics/terms/de.html</a>, Übersicht zum Datenschutz: <a href="http://www.google.com/intl/de/analytics/learn/privacy.html">www.google.com/intl/de/analytics/learn/privacy.html</a>, sowie die Datenschutzerklärung: <a href="http://www.google.de/intl/de/policies/privacy">www.google.de/intl/de/policies/privacy</a>.
     </p>
 
-    <h2>6. Einsatz von etracker</h2>
-    <p>
-      (1) Auf dieser Website werden mit Technologien der etracker GmbH (www.etracker.com) Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Die mit den etracker-Technologien erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt. Der Datenerhebung und -speicherung kann jederzeit mit Wirkung für die Zukunft widersprochen werden.
+    <h2>6. Mouseflow</h2>
+   	<p>
+      <strong class="headline">(1) Art und Zweck der Verarbeitung </strong><br>
+      Auf unseren Websites verwenden wir Mouseflow, ein Webanalyse-Tool der Mouseflow ApS, Flaesketorvet 68, 1711 Kopenhagen, Dänemark, um Daten für Marketing- und Optimierungszwecke zu sammeln und zu speichern. Aus den Daten können pseudonymisierte Nutzungsprofile erstellt werden. Es werden zufällig ausgewählte einzelne Besuche (nur mit anonymisierter IP-Adresse) aufgezeichnet. Dabei entsteht ein Protokoll der Mausbewegungen und Klicks mit der Absicht einzelne Website-Besuche stichprobenartig abzuspielen und allgemeine Verbesserungen für die Website daraus abzuleiten. Die mit Mouseflow erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.
     </p>
     <p>
-      (2) Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+      <strong class="headline">(2) Rechtsgrundlage</strong> <br>
+      Die Verarbeitung der Daten erfolgt auf Grundlage einer Einwilligung des Nutzers (Art. 6 Abs. 1 lit. a DS-GVO).
+    </p>
+    <p>
+      <strong class="headline">(3) Empfänger</strong> <br>
+      Empfänger der Daten ist Mouseflow ApS als Auftragsverarbeiter. 
+    </p>
+    <p>
+      <strong class="headline">(4) Speicherdauer</strong> <br>
+      Die Löschung der Daten erfolgt, sobald diese für unsere Aufzeichnungszwecke nicht mehr erforderlich sind.
+    </p>
+    <p>
+      <strong class="headline">(5) Bereitstellung vorgeschrieben oder erforderlich</strong> <br>
+      Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig, allein auf Basis Ihrer Einwilligung. Sofern Sie den Zugriff unterbinden, kann es hierdurch zu Funktionseinschränkungen auf der Website kommen.
+    </p>
+    <p>
+      <strong class="headline">(6) Widerruf der Einwilligung</strong> <br>
+      Wenn Sie eine Aufzeichnung nicht wünschen, können Sie eine Aufzeichnung auf allen Webseiten, die Mouseflow einsetzen, global für Ihren gerade verwendeten Browser unter folgendem Link deaktivieren: <a class="openModal trackedElement" data-label="Cookie-Einstellungen Datenschutzseite" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner" title="Mouseflow-/Marketing-Einstellungen ändern">Cookie-Einstellungen</a>.<br>
+      Dabei wird ein Modal geöffnet. Dort können Sie unter individuelle Einstellungen den Bereich Marketing deaktivieren. Dabei wird ein Opt-out-Cookie(cookiebanner-accepted) auf Ihrem Gerät installiert. Damit wird die Erfassung durch Mouseflow für diese Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.
+    </p>
+    <p>
+      <strong class="headline">(7) Profiling</strong> <br>
+      Mit Hilfe des Tracking-Tools Mouseflow kann das Verhalten der Besucher der Webseite bewertet und die Interessen analysiert werden. Hierzu erstellen wir ein pseudonymes Nutzerprofil.
     </p>
 
     <h2>7. E-Mail-Newsletter</h2>

@@ -3,7 +3,18 @@
  */
 form {
 	textarea, select, input, button { outline: none; }
-	
+	&.calcForm {
+		.optionField {
+			border: 2px solid #000;
+		    padding: 5px 5px 5px 20px;
+		    margin: 5px 0;
+		    height: 50px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: space-between;
+		    position: relative;
+	    }
+	}
 	&.form {
 		label {
 			display: block;
@@ -12,6 +23,9 @@ form {
 			margin-top: 10px;
 			&:first-child {
 				margin-top: 0;
+			}
+			&.left {
+				text-align: left;
 			}
 		}
 		input, select, .customSelect .select-selected, textarea {
@@ -125,7 +139,7 @@ form {
 			  z-index: 0;
 			}
 		}
-		input[type="text"], input[type="email"], textarea {
+		input[type="text"], input[type="email"], input[type="tel"], textarea {
 			&:placeholder { 
 			  color: color-grey;
 			}
@@ -138,7 +152,7 @@ form {
 			&:focus {
 				color: #FFF;
 				background-color: $color-secondary-1;
-				font-size: $font-size-s;
+				font-size: $font-size-s;				
 			}
 		}
 		input[type="submit"] {
@@ -153,6 +167,86 @@ form {
 		}
 		.button-set {
 			margin: $gutter-m auto 0;
+			.button {
+				&.big {
+					margin-top: $gutter-m;
+				}
+			}
+		}
+		
+		.checkboxen {
+			.customCheckbox, .customRadiobox {
+				 display: block;
+				 position: relative;
+				 padding-left: 35px;
+				 margin-bottom: 12px;
+				 cursor: pointer;
+				 font-size: 20px;
+				 font-weight: 300;
+				 -webkit-user-select: none;
+				 -moz-user-select: none;
+				 -ms-user-select: none;
+				 user-select: none;
+				 &:last-child {
+				 	margin-bottom: 0;
+				 }
+				 &:hover {
+				 	
+				 } 
+				 input {
+					position: absolute;
+					opacity: 0;
+					cursor: pointer;
+					height: 0;
+					width: 0;
+				 }
+				 .checkmark {
+					position: absolute;
+					top: 2px;
+					left: 0;
+					height: 25px;
+					width: 25px;
+					background-color: #fff;
+					border: 2px solid $color-secondary-1;
+					border-radius: 3px;
+					&:after {
+					  content: "";
+					  position: absolute;
+					  display: none;
+					}
+					&:after {
+					  	left: 8px;
+					    top: -5px;
+					    width: 11px;
+					    height: 20px;
+					    border: solid #86ed18;
+					    border-width: 0 3px 3px 0;
+					    -webkit-transform: rotate(45deg);
+						-ms-transform: rotate(45deg);
+						transform: rotate(45deg);
+					}
+				 }
+				 &.checked {
+				 	.checkmark {
+				 		&:after {
+						  content: "";
+						  position: absolute;
+						  display: block;
+						}
+						&:after {
+						  	left: 8px;
+						    top: -5px;
+						    width: 11px;
+						    height: 20px;
+						    border: solid #86ed18;
+						    border-width: 0 3px 3px 0;
+						    -webkit-transform: rotate(45deg);
+							-ms-transform: rotate(45deg);
+							transform: rotate(45deg);
+						}
+				 	}
+				 }	  	
+			}
 		}
 	}
 	
@@ -210,73 +304,6 @@ form {
 		
 		input[type="text"], input[type="email"] {
 			display: none;
-		}
-		.checkboxen {
-			.customCheckbox {
-				 display: block;
-				 position: relative;
-				 padding-left: 35px;
-				 margin-bottom: 12px;
-				 cursor: pointer;
-				 font-size: 20px;
-				 font-weight: 300;
-				 -webkit-user-select: none;
-				 -moz-user-select: none;
-				 -ms-user-select: none;
-				 user-select: none;
-				 &:last-child {
-				 	margin-bottom: 0;
-				 }
-				 &:hover {
-				 	
-				 } 
-				 input {
-					position: absolute;
-					opacity: 0;
-					cursor: pointer;
-					height: 0;
-					width: 0;
-					&:hover { 
-						&~ .checkmark {
-						  background-color: $color-primary;
-						}
-					}
-					&:checked ~ .checkmark {
-					  background-color: #fff;
-					}
-					&:checked {
-						&~ .checkmark:after {
-					  		display: block;
-						}
-					}
-				 }
-				 .checkmark {
-					position: absolute;
-					top: 3px;
-					left: 0;
-					height: 20px;
-					width: 20px;
-					background-color: #fff;
-					border: 1px solid $color-secondary-1;
-					border-radius: 3px;
-					&:after {
-					  content: "";
-					  position: absolute;
-					  display: none;
-					}
-					&:after {
-					  	left: 8px;
-					    top: -5px;
-					    width: 11px;
-					    height: 20px;
-					    border: solid #86ed18;
-					    border-width: 0 3px 3px 0;
-					    -webkit-transform: rotate(45deg);
-						-ms-transform: rotate(45deg);
-						transform: rotate(45deg);
-					}
-				 }		  	
-			}
 		}
 	}
 	
@@ -433,6 +460,11 @@ p + form {
 	padding-top: 60px;
 	margin-bottom: 40px;
 	display: none;
+	&.auto {
+		min-height: auto;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 .formFail {
@@ -440,6 +472,11 @@ p + form {
 	text-align: left;
 	padding-top: 60px;
 	margin-bottom: 40px;
+	&.auto {
+		min-height: auto;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (max-width: 1120px) {

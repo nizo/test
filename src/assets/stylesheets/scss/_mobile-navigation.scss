@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
     .stripes {
       position: relative;
       width: 50%;
@@ -47,6 +48,11 @@
 
   .product-menu {
     list-style: none;
+    > li {
+    	> a {
+    		display: flex;
+    	}
+    }
     li {
       a {
         display: flex;
@@ -88,6 +94,16 @@
   .pages-menu {
     list-style: none;
     margin-top: $gutter-l;
+    .product-menu {
+    	&.pages-submenu {
+    		padding-left: 0;
+    	}
+	    > li {
+	    	> a {
+	    		display: flex;
+	    	}
+	    }
+	}
     >li {
       >a {
         font-size: $font-size-m;
@@ -98,7 +114,14 @@
       a {
         position: relative;
         display: block;
-        padding-right: 24px;
+        padding-right: $gutter-m + 4px;
+        padding-top: $gutter-s;
+    	padding-bottom: $gutter-s;
+    	border-top: 1px solid $color-newgrey;
+    	padding-left: $gutter-xs;
+    	&:last-of-type {
+    		border-bottom: 1px solid $color-newgrey;
+    	}
         &:after {
           content: "";
           position: absolute;
@@ -126,7 +149,7 @@
         padding-left: $gutter-m + 32px; // same as in menu above
         list-style: none;
         li {
-          margin-top: $gutter-s;
+          margin-top: 0;
           a {
             color: $color-grey;
             font-size: $font-size-xs;
@@ -141,7 +164,7 @@
         }
       }
       &+li {
-        margin-top: $gutter-s;
+        /* margin-top: $gutter-s; */
       }
       .pages-submenu {
         display: none;

@@ -35,6 +35,14 @@
     					background-color: #fff;
     					border-color: $color-primary;
     				}
+    				&.tertiary {
+    					background-color: $color-primary;
+    					border-color: $color-primary;
+    					&:hover {
+    						background-color: $color-secondary-1;
+    						border-color: $color-secondary-1;
+    					}
+    				}
     			}
     		}
     	}
@@ -118,4 +126,52 @@
     font-size: $font-size-l;
     font-weight: 500;
   }
+}
+
+#kontakt {
+	&.breather {
+    	.content {
+    		padding: 80px 0  80px;
+    	}
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	#kontakt {
+		&.breather {
+	    	.content {
+	    		padding: 20px 0 0;
+	    	}
+	    	&#kontakt {
+				padding-bottom: 50px;
+				.grid {
+					.col-2 {
+						.shadow-box {
+							height: 100%;
+						    width: 92%;
+						    margin: 0 auto;
+						}
+					}
+				}
+			} 
+		}
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.breather {
+		.content {
+			padding-left: 20px;
+			padding-right: 20px;
+			.shadow-box {
+				&.padding {
+					padding: $gutter-l - 10px $gutter-m $gutter-m;
+				} 
+			}
+		}
+		&#kontakt {
+			padding-bottom: 50px;
+		} 
+	}
 }

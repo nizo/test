@@ -47,6 +47,47 @@
   }
 }
 
+.logoparade-startpage {
+	.content {
+		max-width: 1900px;
+		position: relative;
+	}
+	.logo-grid {				
+		margin-bottom: -$gutter-s;
+		.logo {
+			padding: 0 10px;
+		}
+	}
+	@media screen and (min-width: 555px) {
+		margin-bottom: -$gutter-m;
+	}
+	
+	@media screen and (min-width: 800px) {
+		.logo-grid {
+			margin-bottom: -$gutter-l + $gutter-m;
+		}
+	}
+	
+	@media screen and (min-width: 1024px) {
+		.logo-grid {
+			margin-bottom: -$gutter-l + $gutter-m;
+		}
+	}
+	
+	@media screen and (min-width: 1200px) {
+		.logo-grid {
+			margin-bottom: -$gutter-l + $gutter-s;
+		}
+	}
+	
+	@media screen and (min-width: 1900px) {
+		.logo-grid {
+			margin-bottom: -$gutter-l - $gutter-s;
+		}
+	}
+
+}
+
 
 .partnerLogo {
 	display: inline-block;

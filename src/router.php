@@ -75,6 +75,26 @@ $r->addRoute('GET', '/components_overview', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/testseite', function() {
+    $title = 'Testseite CallOne';
+    $description = '';
+    $keywords = '';
+    $background = 'bg-sales';
+    require_once('./layouts/header.php');
+    require_once('./views/de/testseite.php');
+    require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/event', function() {
+    $title = 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge';
+    $description = '';
+    $keywords = '';
+    $background = 'bg-sales';
+    require_once('./layouts/header.php');
+    require_once('./views/de/event.php');
+    require_once('./layouts/footer.php');
+});
+        
 $r->addRoute('GET', '/', function() {
   $title = 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern';
   $description = 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!';
@@ -202,12 +222,34 @@ $r->addRoute('GET', '/karriere', function() {
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/produktmanager.php');
         require_once('./layouts/footer.php');
+    });
+    
+    $r->addRoute('GET', '/karriere/it-consultant-potsdam', function() {
+        $title = 'CallOne Karriere - IT Consultant in Potsdam';
+        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere Stelle als IT Consultant in Potsdam';
+        $keywords = '';
+        $background = 'bg-casestudy';
+        $ogUrl = $GLOBALS['url'] . '/karriere/it-consultant-potsdam';
+        require_once('./layouts/header.php');
+        require_once('./views/de/karriere/it-consultant-potsdam.php');
+        require_once('./layouts/footer.php');
     });   
+    
+    $r->addRoute('GET', '/karriere/job-customer-success-manager-potsdam', function() {
+        $title = 'Customer Success Manager Stelle/Job in Potsdam - Karriere';
+        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden. Bewirb Dich auf unsere Stelle als Customer Success Manager in Potsdam';
+        $keywords = 'Karriere, Customer Success Manager, Potsdam, Job, Stelle, bewerben';
+        $background = 'bg-casestudy';
+        $ogUrl = $GLOBALS['url'] . '/karriere/job-customer-success-manager-potsdam';
+        require_once('./layouts/header.php');
+        require_once('./views/de/karriere/customer-success-manager.php');
+        require_once('./layouts/footer.php');
+    });  
 
 $r->addRoute('GET', '/callcenter-software', function() {
   $title = 'Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk';
   $description = 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!';
-  $keywords = '';
+  $keywords = 'callcenter software, call center software, ACD, contact center software, helpdesk, computer telephony integration, cti, warteschleifenmanagement, callbackfuntion, kostenlos testen';
   $background = 'bg-kundenservice';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software';
   require_once('./layouts/header.php');
@@ -318,8 +360,8 @@ $r->addRoute('GET', '/cti-schnittstellen', function() {
     });     
 
 $r->addRoute('GET', '/voip-telefonanlage', function() {
-    $title = 'Cloud Telefonanlage – VoIP-Telefonanlage, virtuelle Telefonanlage';
-    $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter Software. Geprüfte Gesprächsqualität. Eigener Customer Success Manager. CallOne TEL';
+    $title = 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage';
+    $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager';
     $keywords = '';
     $background = 'bg-landingpages';
     $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
@@ -450,6 +492,18 @@ $r->addRoute('GET', '/case-study-flaconi', function() {
   require_once('./layouts/header.php');
   require_once('./views/de/case-study-flaconi.php');
   require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/case-study-niceshops', function() {
+    $title = 'Case Study: Die Telefonielösungen von niceshops';
+    $description = 'Die individuelle Callcenter-Lösung des österreichischen E-Commerce-Unternehmens ✔ IP-Telefonie ✔ Freshdesk-Integration ✔ WebRTC ✔ 40 Shop-Hotlines';
+    $keywords = 'niceshops, Telefonielösung, Callcenter-Lösung, E-Commerce, IP-Telefonie, Freshdesk-Integration, webRTC, Hotline';
+    $background = 'bg-casestudy';
+    $ogImage = 'https://www.callone.de/assets/images/client-logos/callone-und-niceshops.png';
+    $ogUrl = $GLOBALS['url'] . '/case-study-niceshops';
+    require_once('./layouts/header.php');
+    require_once('./views/de/case-study-niceshops.php');
+    require_once('./layouts/footer.php');
 });
 
 $r->addRoute('GET', '/case-study-navabi', function() {

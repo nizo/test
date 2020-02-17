@@ -1,6 +1,21 @@
+
+ a.shadow-box {
+  	display: block;
+  	color: $color-secondary-1;
+  	position: relative;
+  	&:visited {
+  		color: $color-secondary-1;
+  	}
+  	&:hover, :focus {
+  		border: 2px solid $color-primary;
+  	}
+  	border: 2px solid transparent;
+}
+
 .shadow-box {
   box-shadow: 0 0 20px rgba(#000, 0.25);
   background-color: #fff;
+  
   &+.shadow-box {
     margin-top: $gutter-l;
   }
@@ -9,6 +24,9 @@
   }
   &.padding-tiles {
   	padding: $gutter-l - 10 $gutter-l - 10 $gutter-l + 20;
+  }
+  &.space-between {
+  	height: 100%;
   }
   &.animation-1 {
     position: relative;
@@ -23,14 +41,38 @@
       top: -247px;
       right: -311px;
     }
+    &.visible {
+	  	&::after {
+	  		background-image: url(../animations/01_MASTER_HP_transparent.gif);
+	  	}
+  	}
   }
-  &.visible {
-  	&::after {
-  		background-image: url(../animations/01_MASTER_HP_transparent.gif);
+  &.box-illu-1 {
+    position: relative;
+    &:after {
+      content: "";
+      width: 700px;
+      height: 700px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top left;
+	  top: -171px;
+	  right: -140px;
+    }
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/icons_png/box-illu-1.png);
+	  	}
   	}
   }
   &.autoWidth {
   	width: auto;
+  }
+  &.no-shadow {
+  	border: none;
+  	background-color: #ffffff;
+  	height: 100%;
   }
   .text {
   	p {
@@ -57,7 +99,7 @@
 	    padding: 13px 20px 12px;
 	    cursor: pointer;
 	    background-color: transparent;
-    	background-image: linear-gradient(to right, #6fbd14 50%, transparent 50%);
+    	background-image: linear-gradient(to right, #86ed18 50%, transparent 50%);
     	background-position-x: 101%;
     	background-repeat-x: no-repeat;
     	background-size: 200% 100%;
@@ -69,22 +111,108 @@
 	    	background-color: $color-secondary-1;
 	    	color: #ffffff;
 	    }
+	    span {
+	    	padding-left: 30px;
+	    }
 	    span:before {
-			content: "\e24e";
+			content: "\e03a";
 			padding-right: 10px;
 			line-height: 24px;
+			font-size: 20px;
 		}
 	    &.added {
 	    	background-position-x: 0;
-    		color: #fff;
+    		color: #000000;
     		span:before {
 				content: "\e2a2";
 			}
-	
     	}
   	}
+  	.arrow-box {
+		position: absolute;
+		background: #000000;
+		border: 1px solid #000000;
+		padding: 10px;
+		top: -88px;
+	    width: 70%;
+	    left: 15%;
+	    color: #ffffff;
+		> strong {
+			display: block;
+		}
+	}
+	.arrow-box:after, .arrow-box:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+	
+	.arrow-box:after {
+		border-color: rgba(136, 183, 213, 0);
+		border-top-color: #000000;
+		border-width: 10px;
+		margin-left: -10px;
+	}
+	.arrow-box:before {
+		border-color: rgba(136, 183, 213, 0);
+		border-top-color: #000000;
+		border-width: 11px;
+		margin-left: -11px;
+	}
   }
 }
+
+.animation-2, .animation-3, .animation-4 {
+    position: relative;
+    &:after {
+        content: "";
+	    width: 500px;
+	    height: 400px;
+	    position: absolute;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-position: center;
+	    bottom: -80px;
+	    left: -260px;
+	    z-index: -2;
+    }
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/icons_svg/animation/robot-with-cookie.svg);
+	  	}
+  	}
+  }
+  
+  .animation-3 {
+  	&::after {
+  		width: 350px;
+  	    bottom: 93px;
+    	left: -336px;
+  	}
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/illus/callone-event-left.svg);
+	  	}
+  	}
+  }
+  .animation-4 {
+  	&::after {
+  		width: 350px;
+  	    bottom: 93px;
+    	left: initial;
+    	right: -334px;
+  	}
+    &.visible {
+	  	&::after {
+	  		background-image: url(../images/illus/callone-event-right.svg);
+	  	}
+  	}
+  }
 
 *:not(.topic-selector)+.shadow-box {
   margin-top: $gutter-l;

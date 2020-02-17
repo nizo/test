@@ -1,0 +1,27 @@
+.quotes {
+	.shadow-box {
+		blockquote {
+			padding: $gutter-l + $gutter-s $gutter-l;	
+		}
+	}
+}
+
+
+.slope {
+	.quotes {
+		padding-top: $gutter-l;
+		.swiper-pagination {
+			bottom: initial;
+			top: 0;
+			.swiper-pagination-bullet {
+				margin: 0 10px;
+				width: 20px;
+    			height: 20px;
+    			background: #fff;
+			}
+			.swiper-pagination-bullet-active {
+				color: $color-primary;
+			}
+		}
+	}
+}

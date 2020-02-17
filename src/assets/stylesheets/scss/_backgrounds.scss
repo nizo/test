@@ -98,7 +98,7 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	    left: 0;
 	    bottom: 0;
 	    top: 0;
-	    background: url(/assets/images/photos/ivf-bg.png) 0% 0% repeat;
+	    background: url('/assets/images/photos/ivf-bg.png') 0% 0% repeat;
 	    z-index: -1;
 	    background-size: contain;
 	    -moz-animation: MOVE-BG 60s infinite linear;
@@ -118,3 +118,125 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	}
 }
 
+.background-image {
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	&.gradient {
+  		&.grey {
+  			background: linear-gradient(#f9f9f9,#ffffff);
+  			background-color: none;
+  		}
+  	}
+  	&.grey {
+  		background-color: $color-newgrey;
+  	}
+  	&.red {
+  		background-color: $color-red;
+  		.button-set {
+  			.button {
+  				&.primary, &.tertiary {
+  					background-color: $color-secondary-1;
+  					color: #ffffff;
+  					border-color:  $color-secondary-1;
+  					&:hover {
+	  					background-color: #ffffff;
+	  					color: $color-secondary-1;
+  					}
+  				}
+  				&.secondary {
+  					background-color: #ffffff;
+  					color: $color-secondary-1;
+  					border-color:  #ffffff;
+  					&:hover {
+	  					background-color: $color-secondary-1;
+	  					color: #ffffff;
+  					}
+  				}
+  			}
+  		}
+  	}
+	&.image1 {
+		&.visible {
+			background-image: url('/assets/images/photos/agentenmaske-hintergrund.jpg');
+		}
+		padding-bottom: 42%;
+	    width: 100%;
+	    display: block;
+	}
+	&.image2 {
+		&.visible {
+			background-image: url('/assets/images/photos/dashboards-statistiken-bg.jpg');
+			padding-bottom: 0;
+		}
+		padding-bottom: 42%;
+	    width: 100%;
+	    display: block;
+	}
+	&.image3 {
+		&.visible {
+			background-image: url('/assets/images/photos/agentenmaske-hintergrund-2.jpg');
+		}
+		padding-bottom: 42%;
+	    width: 100%;
+	    display: block;
+	}
+	.h1 {
+		padding-top: 80px;
+	}
+}
+
+.slope {
+	&.toRight {
+		-webkit-clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 100%);
+	    clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 100%);
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+	.slope {
+		&.toRight {
+			-webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+		    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+	    }
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.slope {
+		&.toRight {
+			-webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+		    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+	    }
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.background-image {
+		&.image1 {
+			&.visible {
+				background-image: url('/assets/images/photos/agentenmaske-hintergrund-mobile.jpg');
+			}
+			padding-bottom: 84%;
+		}
+	}
+	
+	.slope {
+		&.toRight {
+			-webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
+		    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
+	    }
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.slope {
+		&.toRight {
+			-webkit-clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+		    clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+	    }
+	}
+}
