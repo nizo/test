@@ -30,9 +30,9 @@
         <div class="text">
           <h2 class="h1"><span class="h2 no-margin-bottom">Lösungen für </span><br>Kundenservice</h2>
           <ul class="list approved-list">
-          	<li><span class="bold">Intelligente Anrufverteilung</span> von Service-Hotlines &ndash; Kunden landen direkt beim richtigen Ansprechpartner.</li>
-          	<li><span class="bold">Umfangreiche Statistiken zu allen Anrufen</span> — Calls erfolgreich machen</li>
-          	<li><span class="bold">Optimierte Erreichbarkeit</span> – schnell und effizient Hilfe leisten.</li>
+          	<li><span class="bold">Intelligente Anrufverteilung</span><span class="mobile-hidden"> von Service-Hotlines &ndash; Kunden landen direkt beim richtigen Ansprechpartner.</span></li>
+          	<li><span class="bold">Umfangreiche Statistiken zu allen Anrufen</span><span class="mobile-hidden"> — Calls erfolgreich machen</span></li>
+          	<li><span class="bold">Optimierte Erreichbarkeit</span><span class="mobile-hidden"> – schnell und effizient Hilfe leisten.</span></li>
           </ul>
         </div>
       </div>
@@ -46,9 +46,9 @@
         <div class="text">
           <h2 class="h1"><span class="h2 no-margin-bottom">Lösungen für </span><br>Sales</h2>
           <ul class="list approved-list">
-              <li><span class="bold">Anrufe direkt per Klick</span> aus CRM- oder Salestool auslösen</li>
-              <li><span class="bold">Integration in Ihre Businesslösungen</span> — Salesforce, Pipedrive und mehr</li>
-              <li><span class="bold">Synchronisierung aller Telefoniedaten</span> — automatisch, über all Ihre Software hinweg </li>
+              <li><span class="bold">Anrufe direkt per Klick</span><span class="mobile-hidden"> aus CRM- oder Salestool auslösen</span></li>
+              <li><span class="bold">Integration in Ihre Businesslösungen</span><span class="mobile-hidden"> — Salesforce, Pipedrive und mehr</span></li>
+              <li><span class="bold">Synchronisierung aller Telefoniedaten</span><span class="mobile-hidden"> — automatisch, über all Ihre Software hinweg </span></li>
           </ul>
         </div>
       </div>
@@ -62,9 +62,9 @@
         <div class="text">
           <h2 class="h1"><span class="h2 no-margin-bottom">Lösungen für </span><br>Businesstelefonie</h2>
           	<ul class="list approved-list">
-              <li><span class="bold">Sichere <strong>Hardware &amp; Software</strong></span> — verschlüsselt und abhörsicher</li>
-              <li><span class="bold">Perfekte Gesprächsqualität</span> — sagt sogar der TÜV</li>
-              <li><span class="bold">Einfache Administration</span> — schnell und intuitiv bedienbar für jeden</li>
+              <li><span class="bold">Sichere <strong>Hardware &amp; Software</strong></span><span class="mobile-hidden"> — verschlüsselt und abhörsicher</span></li>
+              <li><span class="bold">Perfekte Gesprächsqualität</span><span class="mobile-hidden"> — sagt sogar der TÜV</span></li>
+              <li><span class="bold">Einfache Administration</span><span class="mobile-hidden"> — schnell und intuitiv bedienbar für jeden</span></li>
 			</ul>
         </div>
       </div>
@@ -84,8 +84,11 @@
     				<span class="button tertiary">Im Video:</span>
     			</div>
     			<h3 class="headline h2">„Über richtig guten Kundenservice“</h3>
-    			<span class="autor"><p>Dr. Rainer Klipp</p><p>Geschäftsführer von Check24</p><p>Versicherungen</p></span>
-    			
+    			<p class="autor">
+    				Dr. Rainer Klipp<br>
+    				Geschäftsführer von Check24<br>
+    				Versicherungen
+    			</p>
     		</div>
 		</div>
 		<div class="button-set centered">
@@ -120,51 +123,6 @@
                             ['data' => 'logo-f-touristic.png', 'alt' => 'Unser Kunde Ferien Touristik', 'cssClass' => 'partnerLogo invert small']
     ], null, 'startpage'); ?>
     
-<!-- 
-<div class="wrapper">
-  <div class="content narrow">
-    <h2 class="h1 centered">Kundenmeinungen</h2>
-    <p class="centered">Ob das alles etwas bringt, fragen Sie am besten unsere Kunden.</p>
-  </div>
-</div>
-    <div class="shadow-box">
-      <blockquote>
-        <p><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-smava.svg" data-srcset="/assets/images/client-logos/logo-smava.svg" alt="Kundenmeinung von Smava" /></p>
-        <p>„CallOne geht mit uns gemeinsam einen Weg der individuellen und professionellen Callcenter-Lösung. Wir haben sofort von Know-How und unfassbar gutem Support profitiert. Mit CallOne haben wir eine Lösung für jetzt und für die Zukunft gefunden!“</p>
-        <p class="bold">
-          Julia Schmelz<br />
-          Head of Customer Success
-        </p>
-      </blockquote>
-    </div>
-
-    <div class="shadow-box">
-      <blockquote>
-        <p><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-flaconi.svg" data-srcset="/assets/images/client-logos/logo-flaconi.svg" alt="Kundenmeinung von Flaconi" title="Kundenmeinung von Flaconi" /></p>
-        <p>„Als Onlineunternehmen messen wir uns an Zahlen und Statistiken. Mit dem Telefoniesystem der CallOne haben wir jetzt eine Lösung gefunden, die alle unsere Ansprüche erfüllt.“</p>
-        <p class="bold">
-          Daniela Glassl<br />
-          Teamlead Customer Service
-        </p>
-      </blockquote>
-    </div>
-
-    <div class="shadow-box">
-      <blockquote>
-        <p><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/navabi-logo.svg" data-srcset="/assets/images/client-logos/navabi-logo.svg" alt="Kundenmeinung von Navabi" title="Kundenmeinung von Navabi" /></p>
-        <p>„Uns war in erster Linie wichtig, eine Lösung zu erhalten, die beim täglichen Arbeiten intuitiv zu bedienen ist und speziell auf unsere Bedürfnisse zugeschnitten – und genau das haben wir erhalten. Unser persönlicher Ansprechpartner geht auf alle Anfragen sofort und individuell ein und findet immer die bestmögliche Lösung für uns.“</p>
-        <p class="bold">
-            Leonie Theißen<br />
-            Head of E-Commerce Operations & Customer Success
-        </p>
-      </blockquote>
-    </div>
-
-    <p class="primary centered">&starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" rel="noreferrer" target="_blank" title="Zu den Erfahrungsberichten">Google Erfahrungsberichte</a></p>
-
-  </div>
-</div>
-	-->	
 
 <div class="wrapper">
 	<div class="content narrow">
@@ -284,19 +242,19 @@
         					<div class="chatBody">
         						<div class="checkboxen">
                                 	<label class="customRadiobox animatedClick" data-target="step1">
-                                        <p>IT-Abteilung</p>
+                                        <span class="pl">IT-Abteilung</span>
                                         <input type="radio" name="companyPosition" value="it">
                                         <span class="checkmark"></span>
                                     </label>
                                 
-                                	<label class=" customRadiobox animatedClick" data-target="step2">
-                                        <p>Callcenter-Leitung</p>
+                                	<label class="customRadiobox animatedClick" data-target="step2">
+                                        <span class="pl">Callcenter-Leitung</span>
                                         <input type="radio" name="companyPosition" value="cs">
                                         <span class="checkmark"></span>
                                     </label>
                                 
-                                	<label class=" customRadiobox animatedClick margin-bottom-40" data-target="step3">
-                                        <p>Geschäftsführung</p>
+                                	<label class="customRadiobox animatedClick margin-bottom-40" data-target="step3">
+                                        <span class="pl">Geschäftsführung</span>
                                         <input type="radio" name="companyPosition" value="gf">
                                         <span class="checkmark"></span>
                                     </label>
@@ -308,26 +266,26 @@
         						<strong class="headline h2">Wofür sucht Ihre IT-Abteilung eine Lösung?</strong>
         					</div>
         					<div class="chatBody">
-                            	<li class="accordion accordion-closeable open">
+                            	<div class="accordion accordion-closeable open">
                         			<span class="title h3">Ausfallsicherheit</span>
                         			<div class="content" style="display: block;">
                                 		<p>Unsere Telefonielösung hatte 2018 eine <a href="https://status.callone.de" rel="noreferrer" target="_blank" title="CallOne Status">Uptime von 99,999%</a>. Wir setzen auf Qualität, Sicherheit und Transparenz. Wenn doch mal etwas passiert, haben wir vorgesorgt. Mit Notfallplänen, Schutz gegen DDOS-Attacken, Verschlüsselungen aller Sprachdaten uvm. schützen wir unsere Kunden vor Ausfällen. Auch für Ihr Projekt stellen wir einen individuellen Notfallplan zusammen.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
                         	
-                        		<li class="accordion accordion-closeable">
+                        		<div class="accordion accordion-closeable">
                         			<span class="title h3">Einfache Administration</span>
                         			<div class="content" style="display: none;">
                                 		<p>Man sagt uns nach, dass wir die intuitivste Benutzeroberfläche im Bereich ausgewachsener Businesstelefonielösungen  anbieten. Wenn Sie Lust haben, überzeugen Sie sich in einem kurzen Webinar einfach selbst oder lassen Sie sich noch heute ihren kostenfreien Demoaccount schalten. Mit Schulungen und Webinaren steht Ihnen persönlicher Ansprechpartner zum Start des Projekts und weit darüber hinaus jederzeit zur Seite.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
                         		
-                        		<li class="accordion accordion-closeable">
+                        		<div class="accordion accordion-closeable">
                         			<span class="title h3">Integration</span>
                         			<div class="content" style="display: none;">
                                 		<p>Unsere Lösung ist schnittstellenoffen. Das heißt: Sie erhalten über 25 unterschiedliche REST-APIs, mit denen Sie Anrufe in Echtzeit steuern sowie Ihre Statistiken downloaden und synchronisieren  können. Darüber hinaus verfügen wir über das wohl reichhaltigste Angebot an fertigen Apps für gängige Ticket-und CRM-Systeme (z.B. Salesforce, Pipedrive, Zendesk uvm.), die ohne IT-Kenntnisse verknüpft werden können. Für die Anbindung Ihrer eigenen Lösungen stehen wir Ihnen auch gerne mit unseren Programmierern zur Seite.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
         					</div>
         				</div>
         				<div class="col-1 step step2 solutionQuestion goAway animated bounceInDown">
@@ -335,21 +293,21 @@
         						<strong class="headline h2">Wofür sucht Ihre Callcenter-Leitung eine Lösung?</strong>
         					</div>
         					<div class="chatBody">
-        						<li class="accordion accordion-closeable open">
+        						<div class="accordion accordion-closeable open">
                         			<span class="title h3">Transparenz</span>
                         			<div class="content" style="display: block;">
                                 		<p>Bei uns finden Sie Statistiken im Überfluss. Damit lassen wir Sie aber nicht alleine, sondern helfen Ihnen dabei Ihre Telefonie bis ins Detail auszuwerten und auf Basis dieser Daten zu verbessern. Wir wissen, wie wichtig Planbarkeit im Callcenterbetrieb ist — insbesondere in Zeiten von Personalknappheit. Um Ihre Arbeit zu erleichtern, liefern wir deshalb neben aussagekräftigen Statistiken auch ein Gesamtpaket aus erfahrenen Projektmanagern, die es schaffen Ihre Personalressourcen zu schonen und Anrufe optimal zu verteilen. Wie? Beispielsweise durch die Automatisierung des Callflows für Kundenanfragen.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
                         	
-                        		<li class="accordion accordion-closeable">
+                        		<div class="accordion accordion-closeable">
                         			<span class="title h3">Besten Service</span>
                         			<div class="content" style="display: none;">
                                 		<p>Sie haben eine auf Inboundtelefonie spezialisierte Inhouse-Kundenserviceabteilung? Prima, wir liefern Ihnen genau das richtige Handwerkszeug. Der Kundenservice leidet oft unter schlechten Erreichbarkeiten durch Anrufpeaks und zu schwache Mitarbeiterbesetzung. Wir helfen Ihnen dabei, Ihr Anrufaufkommen zu analysieren und durch Maßnahmen wie intelligente Anrufsteuerung, automatisierte Rückrufoptionen und Überläufe dafür zu sorgen, dass Ihr Kundenservice der beste Ihrer Branche wird.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
                         		
-                        		<li class="accordion accordion-closeable">
+                        		<div class="accordion accordion-closeable">
                         			<span class="title h3">Sales-Effizienz</span>
                         			<div class="content" style="display: none;">
                                 		<p>Für Ihr Salesteam bieten wir ein umfassendes Paket für effektive Abverkäufe am Telefon:</p>
@@ -360,7 +318,7 @@
                                           <li>Statistische Auswertung für maximale Effizienz, direkt integriert in Ihr Salestool</li>
                                         </ul>	
                                 	</div>
-                        		</li>
+                        		</div>
         					</div>
         				</div>
         				<div class="col-1 step step3 solutionQuestion goAway animated bounceInDown">
@@ -368,26 +326,26 @@
         						<strong class="headline h2">Wofür sucht die Geschäftsführung eine Lösung?</strong>
         					</div>
         					<div class="chatBody">
-        						<li class="accordion accordion-closeable open">
+        						<div class="accordion accordion-closeable open">
                         			<span class="title h3">Kosteneinsparung</span>
                         			<div class="content" style="display: block;">
                                 		<p>Bei CallOne zahlen Sie immer nur das, was Sie auch wirklich benötigen. Noch viel besser: Sie sparen bei jedem Anruf bares Geld, durch eine schnellere und einfachere Fallbearbeitung, die optionale Einbindung der Telefonie in Ihre Businesslösungen und eine smarte Administration Ihrer Warteschleife.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
                         	
-                        		<li class="accordion accordion-closeable">
+                        		<div class="accordion accordion-closeable">
                         			<span class="title h3">Überblick</span>
                         			<div class="content" style="display: none;">
                                 		<p>CallOne liefert eine Telefonielösung für das gesamte Unternehmen und alle Abteilungen, insbesondere für Ihre Sales- und Kundenserviceabteilung. Dabei bieten wir das wohl umfangreichste Angebot an Echtzeitstatistiken und Statistik-Schnittstellen mit fertigen Anbindungen an relevante  BI-Anbieter (z.B. Tableau &amp; Geckoboard), damit Sie stets den Überblick behalten.</p>	
                                 	</div>
-                        		</li>
+                        		</div>
                         		
-                        		<li class="accordion accordion-closeable">
+                        		<div class="accordion accordion-closeable">
                         			<span class="title h3">Wachstum</span>
                         			<div class="content" style="display: none;">
                                 		<p>Für Ihr Wachstum bieten wir eine frei skalierbare, cloudbasierte Telefonielösung, die sich Ihren Anforderungen anpasst. Egal ob 5 oder 1000 User: Sie nutzen nur das, was Sie benötigen und schalten in Sekundenschnelle neue User oder Erweiterungen hinzu — oder wieder aus. Ihre Telefonie soll so individuell und flexibel sein wie Ihr Unternehmen.</p>
                                 	</div>
-                        		</li>
+                        		</div>
         					</div>
         				</div>
         			</div>
@@ -400,7 +358,7 @@
 		<div class="content narrow padding-bottom-80 no-margin-bottom">
         	<div class="grid">
         		<div class="col-2">
-        			<img src="/assets/images/icons_svg/trees.svg" title="">
+        			<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/trees.svg" data-srcset="/assets/images/icons_svg/trees.svg" alt="Wir pflanzen für jeden neuen Kunden einen Baum" title="Wir pflanzen für jeden neuen Kunden einen Baum">
         		</div>
         		<div class="col-2 secondaryColor">
         			<h3 class="h1">Grün ist unsere Natur</h3>

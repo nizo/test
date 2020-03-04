@@ -134,4 +134,16 @@
         return ($month == 12 && $day >= 18) || ($month == 1 && $day <= 1);
     }
     
+    
+    /* Simple decode function (bitweise) */
+    function decode($encoded) {
+        $decoded = "";
+        for( $i = 0; $i < strlen($encoded); $i++ ) {
+            $b = ord($encoded[$i]);
+            $a = $b ^ 6; // must be the same number as in JS function
+            $decoded .= chr($a);
+        }
+        return $decoded;
+    }
+    
 ?>

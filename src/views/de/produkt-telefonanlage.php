@@ -55,7 +55,7 @@
 
 <div class="wrapper" id="integrations">
   <div class="content wide">
-  	<h2 class="h1 centered">Wir bringen Businesstelefonie in die Zukunft.</h2>
+  	<h2 class="h1 centered">Prämierte VoIP-Telefonanlage mit Einfachgarantie</h2>
   </div>
   <div class="content wide right">
   	<div class="content narrow">
@@ -326,7 +326,7 @@
   </div>
 </div>
 
-<div class="wrapper quarter-background" id="blog">
+<div class="wrapper half-background" id="blog">
   <div class="content narrow">
     <h2 class="h1 centered">Neues aus unserem Blog</h2>
     <div class="shadow-box">

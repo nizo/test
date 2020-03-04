@@ -143,6 +143,20 @@ $r->addRoute('GET', '/impressum', function() {
   require_once('./layouts/footer.php');
 });
 
+
+/* Preiskalkulator */
+$r->addRoute('GET', '/preiskalkulator', function() {
+    $title = 'Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen';
+    $description = 'Berechnen Sie den Preis Ihrer VoIP-Telefonanlage und Callcenter-Lösung passend zu Ihren Anforderungen. CallOne cloudbasierte Telefonanlagen für Sales und Service';
+    $keywords = 'call center, software, callcenter, lösung, voip-telefonanlage, voip, telefonanlage, rufnummern, schnittstellen, integrationen, preis, preise, rechner, preiskalkulator, berechnen, kosten';
+    $background = 'full-bg background-transition';
+    $ogUrl = $GLOBALS['url'] . '/preiskalkulator';
+    require_once('./layouts/header.php');
+    require_once('./views/de/price-calc.php');
+    require_once('./layouts/footer.php');
+});
+
+
 /* LandingPages */
 
 $r->addRoute('GET', '/callcenter', function() {
@@ -428,6 +442,7 @@ $r->addRoute('GET', '/referenzen', function() {
   require_once('./layouts/footer.php');
 });
 
+/* Sales Seite */
 $r->addRoute('GET', '/crm-callcenter', function() {
   $title = 'Salesforce, Pipedrive, Zendesk Virtual Callcenter Integration, Dialer';
   $description = 'Telefonieren sie mit ihrem CRM. Fertige CTI-Lösungen für Ticketing und CRM. Nutzen sie >  50 API und Webhooks für individuelle Anbindungen. Jetzt testen';

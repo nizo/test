@@ -26,7 +26,7 @@
                     		<div class="container">
                     			<div class="grid">
                     				<div class="col-2">
-                            			<span>Essenziell (3)</span>
+                            			<span>Essenziell (4)</span>
                             			<p>Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.</p>
                     				</div>
                     				<div class="col-2 right">
@@ -55,7 +55,14 @@
                         				<div class="head">Zweck</div><div class="desc">Stellt sicher, dass das Anzeigen eines Modals beim verlassen der Seite nur einmal erfolgt, um den Nutzer nicht zu belästigen.</div>
                         				<div class="head">Cookie-Name</div><div class="desc">eM</div>
                         				<div class="head">Laufzeit</div><div class="desc">14 Tage</div>
-                    				</div>                    				
+                    				</div>
+                    				<div class="cookie">
+                        				<div class="head">Name</div><div class="desc">Cookie Preiskalkulator</div>
+                        				<div class="head">Anbieter</div><div class="desc">CallOne GmbH</div>
+                        				<div class="head">Zweck</div><div class="desc">Speichert die Angaben des Nutzers, welche nötig sind für die Preisberechnung im Preiskalkulator.</div>
+                        				<div class="head">Cookie-Name</div><div class="desc">co_pud</div>
+                        				<div class="head">Laufzeit</div><div class="desc">90 Tage</div>
+                    				</div>                  				
                     			</div>
                     		</div>
                     		<div class="container">

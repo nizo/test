@@ -12,10 +12,13 @@
 	 *	custom checkboxen conversation
 	 */
 	$('.conversation .checkboxen label').on('click', function() {
-			
-		$target = $(this).attr('data-target');
-		$('.step').hide();
-		$('.'+$target).show();
+		if ($(this).hasClass('chat')) {
+			//nothing
+		} else {
+			$target = $(this).attr('data-target');
+			$('.step').hide();
+			$('.'+$target).show();
+		}
 
 	});
 	

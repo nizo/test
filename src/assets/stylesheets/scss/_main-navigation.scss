@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 123px;
+  height: 124px;
   z-index: 100;
   transition: background 0.3s ease;
   &.background {
@@ -222,6 +222,12 @@
       }
     }
   }
+}
+
+.preiskalkulator {
+	.navbar {
+		background-color: #fff;
+	}
 }
 
 @media screen and (max-width: 1130px) {

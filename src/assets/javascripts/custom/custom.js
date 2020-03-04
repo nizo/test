@@ -52,6 +52,55 @@ function deleteAllCookies() {
     }
 }
 
+/* simple encode function (bitweise) */
+function encode(str) {
+	var encoded = "";
+	for (i=0; i<str.length;i++) {
+		var a = str.charCodeAt(i);
+		var b = a ^ 6;
+		encoded = encoded+String.fromCharCode(b);
+	}
+	return encoded;
+}
+
+function animateValue(id, start, end, duration) {
+    // assumes integer values for start and end
+    
+    var obj = document.getElementById(id);
+    var range = end - start;
+    // no timer shorter than 50ms (not really visible any way)
+    var minTimer = 50;
+    // calc step time to show all interediate values
+    var stepTime = Math.abs(Math.floor(duration / range));
+    
+    // never go below minTimer
+    stepTime = Math.max(stepTime, minTimer);
+    
+    // get current time and calculate desired end time
+    var startTime = new Date().getTime();
+    var endTime = startTime + duration;
+    var timer;
+  
+    function run() {
+        var now = new Date().getTime();
+        var remaining = Math.max((endTime - now) / duration, 0);
+        var value = Math.round(end - (remaining * range));
+        obj.innerHTML = value;
+        if (value == end) {
+            clearInterval(timer);
+        }
+    }
+    
+    timer = setInterval(run, stepTime);
+    run();
+}
+
+function scrollTo(anker, speed) {
+    $('html, body').animate({
+        scrollTop: $(anker).offset().top
+    }, speed);
+    return false;
+}
 
 $(document).ready(function(){
 	$(".form .showDiv").click(function(){
@@ -264,8 +313,9 @@ $('.customCheckbox').on('click', function() {
 });
 
 $('.customRadiobox').on('click', function() {
-	var check = $(this).children('input[type="radio"]');	
-	$(this).parent().children('input[type="radio"]').removeAttr('checked');
+	var check = $(this).children('input[type="radio"]');
+
+	$(this).closest('.checkboxen').find('.customRadiobox input').removeAttr('checked', 'checked');	
 	$(this).parent().children('.customRadiobox').removeClass('checked');
 	check.attr('checked', 'checked');
 	check.parent().addClass('checked');

@@ -1,0 +1,61 @@
+.lp-menu {
+	margin-top: $gutter-l + $gutter-l;
+	margin-bottom: 0;
+	> a {
+		padding: $gutter-s + $gutter-xs $gutter-m + $gutter-s $gutter-s + $gutter-xs $gutter-s + $gutter-xs !important;
+		position: relative;
+		top: -$gutter-l;
+		&.sl {
+			&.sl-before {
+				&::before {
+					padding: 0;
+				}
+			}
+			&.sl-after {
+				&::after {
+					padding: 0;
+					right: $gutter-s;
+					transition: none;
+				}
+			}
+			&:hover {
+				&.sl-after {
+					&::after {
+						transition: none;
+						transform: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.lp-menu {
+		background-color: #f2f2f2;
+	    padding: 20px;
+	    border-radius: 3px;
+	    margin-top: $gutter-s;
+	    margin-bottom: $gutter-l + $gutter-m;
+	    &.grid {
+	    	> a {
+	    		width: 100%;
+	    		box-shadow: none;
+    			border-bottom: 1px solid #e2e2e2;
+    			top: 0;
+    			background-color: initial;
+    			margin: 0;
+    			&:hover, &:focus {
+    				background-color: #e2e2e2;
+    				border-left: none;
+    				border-right: none;
+    				border-color: #e2e2e2;
+    			}
+    			&:last-child {
+    				border-bottom: none;
+    			}
+	    	}
+	    }
+    }
+}

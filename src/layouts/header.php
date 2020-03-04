@@ -70,7 +70,7 @@
     	var jsFiles = [];
     </script>
   </head>
-  <body class="<?php echo $background; ?> lazyBackground">
+  <body class="<?= $background; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
   <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
       <?php if (isLocalHost()) : ?>
         <!-- Google Tag Manager (noscript) Testsystem -->
@@ -84,7 +84,7 @@
         <!-- End Google Tag Manager (noscript) -->
       <?php endif; ?>
   <?php endif; ?>
-    <div class="navbar">
+    <div class="navbar ">
         <?php
         require_once('./partials/top-promotion.php');
         require_once('./partials/main-navigation.php');

@@ -107,7 +107,7 @@
 		
 		padding-right: 25px; 
 		position: relative;
-		
+			
 		&:after {
 			content: "";
 			font-family: "streamline" !important;
@@ -121,6 +121,10 @@
 			position: absolute;
 			right: 0;
 		}
+		&.white {
+			color: #fff;
+		}
+	
 		&.small {
 			&:after {
 				font-size: calc(100% / 1.2);
@@ -535,6 +539,9 @@
 	}
 	&.sl-arrow-right:after {
 		content: "\e5a9";
+	}
+	&.sl-arrow-left:before {
+		content: "\e5a8";
 	}
 	&.sl-plus-sign:before {
 		content: "\e24e";

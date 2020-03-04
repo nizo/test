@@ -257,6 +257,9 @@ hr {
 .margin-top-80 {
 	margin-top: 80px !important;
 }
+.margin-bottom-20 {
+	margin-bottom: 20px !important;
+}
 .margin-bottom-40 {
 	margin-bottom: 40px !important;
 }
@@ -281,9 +284,21 @@ hr {
 .padding-bottom-80 {
 	padding-bottom: 80px !important;
 }
+
 .overflow-hidden {
 	overflow: hidden;
 }
+
+@media screen and (max-width: 800px) {
+	.overflow-hidden-mobile {
+		overflow: hidden;
+	}
+	
+	.no-padding-mobile {
+		padding: 0 !important;
+	}
+}
+
 .break-word {
 	word-break: break-word;
 }
@@ -323,6 +338,9 @@ hr {
 }
 .primary-color {
 	color: $color-primary;
+}
+.medium {
+	font-weight: 500;
 }
 .trenner {
     width: 30%;
@@ -966,6 +984,14 @@ img {
 	      			height: auto;
 	      			background-color: inherit;
 	      			top: 0;
+      			}
+      		}
+      	}
+      	&.big-list {
+      		font-size: $font-size-m;
+      		.accordion {
+      			&::after {
+      				top: 10px;
       			}
       		}
       	}
