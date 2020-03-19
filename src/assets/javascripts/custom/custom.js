@@ -63,6 +63,17 @@ function encode(str) {
 	return encoded;
 }
 
+/* simple decode function (bitweise) */
+function decode(str) {
+	var decoded = "";
+	for (i=0; i<str.length;i++) {
+		var b = str.charCodeAt(i);
+		var a = b ^ 6;
+		decoded = decoded+String.fromCharCode(a);
+	}
+	return decoded;
+}
+
 function animateValue(id, start, end, duration) {
     // assumes integer values for start and end
     

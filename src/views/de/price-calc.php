@@ -37,7 +37,7 @@
                 							<input class="iE" type="text" name="name" placeholder="Name" required />
                 						</div>
             						</div>
-            						<p class="smallText">Wir benötigen den Namen lediglich zur persönlichen Ansprache im Konfigurator, speichern in aber nicht auf unserem Servern.</p>
+            						<p class="smallText">Wir benötigen den Namen lediglich zur persönlichen Ansprache im Konfigurator, speichern in aber nicht auf unserem Servern. Alternativ einfach auch ohne Namen starten.</p>
             					</div>
             				</div>
             			</div>

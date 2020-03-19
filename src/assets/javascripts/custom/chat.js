@@ -9,6 +9,32 @@ var err = {
 	errMSG: 'Es trat ein Fehler auf! Bitte probieren SIe es zu einem späteren Zeitpunkt noch einmal.'
 };	
 
+$('.conversation .interrest .customRadiobox').on('click', function() {
+	var tmp = '';
+	if( user ) {
+		var radioFields = $(this).parent().find('input:radio');
+		$.each( radioFields, function( k, box ) {			
+			if($(box).parent().hasClass('checked')) {
+				tmp = $(box).val();
+				return false;
+			} else {
+				// kein radio-feld checked
+			}
+		});
+		
+		if ( tmp ) {
+			// get user informations
+			if ( checkCookie('co_pud') ) {
+				user = JSON.parse(decodeURIComponent(decode(getCookie('co_pud'))));
+			}
+			// set user informations
+			user.interrest = tmp;
+			// set cookie
+			setCookie('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
+		}
+	}
+});
+
 $('.conversation.chat .customRadiobox').on('click', function() {
 	var fields = $(nextStep).find('input:radio');
 	if (fields.is(':checked')) {
@@ -218,9 +244,12 @@ $('.nextStep').on('click', function () {
 			window._mfq.push(["Preiskalkulator-"+nextStep, "/preiskalkulator?step="+nextStep]);
 			window.dataLayer = window.dataLayer || [];
 			window.dataLayer.push({
-				'event': 'Preiskalkulator', 
-				'step': 'result'
-			});
+				'_event': 'Preiskalkulator',
+    			'event' : 'Preiskalkulator',
+    			'eventCategory' : 'Preiskalkulator',
+    			'eventAction' : 'ViewNextStep',
+    			'eventLabel' : 'Ergebnisseite'
+    		});	
 		} else {
 			if (thisStep == '.result') {
 				$('body').removeClass('grey');
@@ -232,12 +261,40 @@ $('.nextStep').on('click', function () {
 				$(nextStep).removeClass('goAway');
 				$(nextStep).addClass('go');
 			}, 750);
+			
+			/* Mouseflow Tracking */
 			window._mfq.push(["Preiskalkulator-"+nextStep, "/preiskalkulator?step="+nextStep]);
+			
+			/* GTM/Analytics Ereignis Tracking */
+			var tracking = '';
+			if ( nextStep.charAt(0) === '.' ) 
+				tracking = nextStep.substring(1);
+			else 
+				tracking = nextStep;
+			
+			switch (tracking) {
+				case 'step1':
+					tracking = 'Segment'
+					break;
+				case 'step2':
+					tracking = 'Anschlüsse'
+					break;
+				case 'step3':
+					tracking = 'Funktionen'
+					break;
+				default:
+					break;
+			}
+			
 			window.dataLayer = window.dataLayer || [];
 			window.dataLayer.push({
-				'event': 'Preiskalkulator', //you can actually name this even whatever you want
-				'step': nextStep
-			});
+				'_event': 'Preiskalkulator',
+    			'event' : 'Preiskalkulator',
+    			'eventCategory' : 'Preiskalkulator',
+    			'eventAction' : 'ViewNextStep',
+    			'eventLabel' : tracking
+    		});
+			
 		}		
 		setCookie('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
 	}

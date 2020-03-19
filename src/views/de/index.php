@@ -106,7 +106,7 @@
     </div>
 
     <!-- Logoparade -->
-    <?php getLogoParade([   ['data' => 'logo-yatego.png', 'alt' => 'Unser Kunde Yatego', 'cssClass' => 'partnerLogo invert small'],
+    <?php getLogoParade([   ['data' => 'logo-ax.png', 'alt' => 'Unser Kunde anex tour', 'cssClass' => 'partnerLogo invert small'],
                     	    ['data' => 'logo-check24-2.png', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo invert small'],
                     	    ['data' => 'logo-flaconi-3.png', 'alt' => 'Kunde Flaconi', 'cssClass' => 'partnerLogo invert small'],
                     	    ['data' => 'logo-gastrohero-2.png', 'alt' => 'Kunde Gastro Hero', 'cssClass' => 'partnerLogo invert small'],
@@ -124,110 +124,60 @@
     ], null, 'startpage'); ?>
     
 
-<div class="wrapper">
-	<div class="content narrow">
-    <h2 class="h1 centered no-padding-top">Kundenmeinungen</h2>
-    <p class="centered">Ob das alles etwas bringt, fragen Sie am besten unsere Kunden.</p>
-  </div>
-  <div class="content overflow-hidden no-padding-mobile relative" style="margin-top: 40px;">
-  <div class="gradient-overlay" style="height: 100%; top: 0; background: linear-gradient(to right,#333434 5%,transparent 25%,transparent 75%,#333434 95%);"></div>
-  <script>
-   	lazyLoadingCss('/assets/stylesheets/libs/swiper.min.css');	
-   	jsFiles.push("/assets/javascripts/libs/swiper.min.js");
-  </script>
-  <script>
-	
-  </script> 
-  
-	<div class="quotes">
-    	<div class="swiper-wrapper">
-    	<!-- 
-        	<div class="swiper-slide">
-				<div class="grid overlap left">
-            		<div class="col-2 flex space-between row">
-            			<div class="shadow-box box-illu-1 lazyBackground centered">
-                          <blockquote class="no-sign">
-                            <p>„Für uns als Marktführer im Bereich Preisvergleich ist eine ausgewachsene Callcenter-Software, wie sie CallOne anbietet unabdingbar für unser weiteres schnelles Wachstum.“</p>
-                            <p>&starf;&starf;&starf;&starf;&starf;</p>
-                            <hr class="trenner">
-                            <p class="centered">
-                            	<img class="" src="/assets/images/client-logos/check24_logo.svg" data-src="/assets/images/client-logos/check24_logo.svg" data-srcset="/assets/images/client-logos/check24_logo.svg" alt="Kundenmeinung von check24" srcset="/assets/images/client-logos/check24_logo.svg">        	
-                            	<span class="headline h4 padding-top-10">Dr. Rainer Klipp</span>
-                            	<span class="primary-color">Geschäftsführer</span>
-                            </p>                            
-                          </blockquote>
-                        </div>	
-                    </div>
-                    <div class="col-2 flex space-between row">
-                        <div class="shadow-box">
-                        	<a href="/case-study-check24#video" title="Zur Case Study von Check24">
-                          		<img src="/assets/images/photos/poster-video24.webp">
-                          	</a>
-                        </div>
-                	</div>
-            	</div>
-            </div>-->
-	
-			<div class="swiper-slide">
-            	<div class="grid">
-                    <div class="col-1 row">
-                        <div class="shadow-box">
-                          <blockquote style="min-height: 522px; max-height: 522px;">
-                            <p><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/navabi-logo.svg" data-srcset="/assets/images/client-logos/navabi-logo.svg" alt="Kundenmeinung von Navabi" title="Kundenmeinung von Navabi" /></p>
-                            <p>„Uns war in erster Linie wichtig, eine Lösung zu erhalten, die beim täglichen Arbeiten intuitiv zu bedienen ist und speziell auf unsere Bedürfnisse zugeschnitten – und genau das haben wir erhalten. Unser persönlicher Ansprechpartner geht auf alle Anfragen sofort und individuell ein und findet immer die bestmögliche Lösung für uns.“</p>
-                            <p class="bold">
-                                Leonie Theißen<br />
-                                Head of E-Commerce Operations & Customer Success
-                            </p>
-                          </blockquote>
-                        </div>
-                	</div>
-            	</div>
-            </div>
-			
-			<div class="swiper-slide">
-            	<div class="grid">
-            		<div class="col-1 row">
-            			<div class="shadow-box">
-                          <blockquote class="" style="min-height: 522px; max-height: 522px;">
-                            <p><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-flaconi.svg" data-srcset="/assets/images/client-logos/logo-flaconi.svg" alt="Kundenmeinung von Flaconi" title="Kundenmeinung von Flaconi" /></p>
-                            <p>„Als Onlineunternehmen messen wir uns an Zahlen und Statistiken. Mit dem Telefoniesystem der CallOne haben wir jetzt eine Lösung gefunden, die alle unsere Ansprüche erfüllt.“</p>
-                            <p class="bold">
-                              Daniela Glassl<br />
-                              Teamlead Customer Service
-                            </p>
-                          </blockquote>
-                        </div>	
-                    </div>
-            	</div>
-            </div>
-            
-            <div class="swiper-slide">
-            	<div class="grid">	
-                    <div class="col-1 row">
-                        <div class="shadow-box">
-                          <blockquote style="min-height: 522px; max-height: 522px;">
-                            <p><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-smava.svg" data-srcset="/assets/images/client-logos/logo-smava.svg" alt="Kundenmeinung von Smava" /></p>
-                            <p>„CallOne geht mit uns gemeinsam einen Weg der individuellen und professionellen Callcenter-Lösung. Wir haben sofort von Know-How und unfassbar gutem Support profitiert. Mit CallOne haben wir eine Lösung für jetzt und für die Zukunft gefunden!“</p>
-                            <p class="bold">
-                              Julia Schmelz<br />
-                              Head of Customer Success
-                            </p>
-                          </blockquote>
-                        </div>
-                	</div>
-            	</div>
-            </div>
-		</div>
-		<!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-	</div>
-  </div>
-</div>
+    <div class="wrapper">
+      <div class="content thin">
+        <h2 class="h1 centered no-padding-top">Kundenmeinungen</h2>
+        <p class="centered">Ob das alles etwas bringt, fragen Sie am besten unsere Kunden.</p>
+      </div>
+      <div class="content narrow margin-top-40 no-padding-mobile">
+        <div class="tabs tabs3">
+          <nav class="tab-nav">
+            <ul>
+              <li><a data-tab="tab_1_1"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/navabi-logo.svg" data-srcset="/assets/images/client-logos/navabi-logo.svg" alt="Kundenmeinung von navabi"></a></li>
+              <li><a data-tab="tab_1_2"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-flaconi.svg" data-srcset="/assets/images/client-logos/logo-flaconi.svg" alt="Kundenmeinung von flaconi"></a></li>
+              <li><a data-tab="tab_1_3"><img class="lazy min" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-smava.svg" data-srcset="/assets/images/client-logos/logo-smava.svg" alt="Kundenmeinung von smava" style="height:30px"></a></li>
+            </ul>
+          </nav>
+    
+          <div class="tab" id="tab_1_1">
+            <blockquote>
+            	<p class="h2 font-secondary">„Uns war in erster Linie wichtig, eine Lösung zu erhalten, die beim täglichen Arbeiten intuitiv zu bedienen ist und speziell auf unsere Bedürfnisse zugeschnitten – und genau das haben wir erhalten. Unser persönlicher Ansprechpartner geht auf alle Anfragen sofort und individuell ein und findet immer die bestmögliche Lösung für uns.“</p>
+            	<p class="autor">
+            		<span class="medium">Leonie Theißen</span> — Head of E-Commerce Operations & Customer Success
+            	</p>
+    		</blockquote>
+    		<div class="button-set centered relative no-margin-bottom">
+    			<a href="/case-study-navabi" title="Zur Case Study von navabi" class="button senary silent sl sl-after sl-arrow-right black relative mobile">Case Study lesen</a>
+    		</div>
+          </div>
+    
+          <div class="tab" id="tab_1_2">
+            <blockquote>
+            	<p class="h2 font-secondary">„Als Onlineunternehmen messen wir uns an Zahlen und Statistiken. Mit dem Telefoniesystem der CallOne haben wir jetzt eine Lösung gefunden, die alle unsere Ansprüche erfüllt.“</p>
+            	<p class="autor">
+            		<span class="medium">Daniela Glassl</span> — Teamlead Customer Service
+            	</p>
+    		</blockquote>
+    		<div class="button-set centered relative no-margin-bottom">
+    			<a href="/case-study-flaconi" title="Zur Case Study von flaconi" class="button senary silent sl sl-after sl-arrow-right black relative mobile">Case Study lesen</a>
+    		</div>
+          </div>
+    
+          <div class="tab" id="tab_1_3">
+            <blockquote>
+            	<p class="h2 font-secondary">„CallOne geht mit uns gemeinsam einen Weg der individuellen und professionellen Callcenter-Lösung. Wir haben sofort von Know-How und unfassbar gutem Support profitiert. Mit CallOne haben wir eine Lösung für jetzt und für die Zukunft gefunden!“</p>
+            	<p class="autor">
+            		<span class="medium">Julia Schmelz</span> — Head of Customer Success
+            	</p>
+    		</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>     
 
-	<!-- chat-segm -->	
-	<div class="wrapper conversation overflow-hidden animatedParent animateOnce">
-		<div class="content relative narrow overflow-hidden animated bounceInLeft delay-250">
+	<!-- chat-segm -->
+	<div class="wrapper conversation overflow-hidden animatedParent animateOnce no-margin-top">
+		<div class="content relative narrow overflow-hidden animated bounceInLeft delay-250 margin-top-80 padding-top-80">
 			<div class="image thumbnail">
 				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy"/>
 			</div>
@@ -240,7 +190,7 @@
         						<h2>Wem in Ihrer Organisation können wir helfen?</h2>
         					</div>
         					<div class="chatBody">
-        						<div class="checkboxen">
+        						<div class="checkboxen interrest">
                                 	<label class="customRadiobox animatedClick" data-target="step1">
                                         <span class="pl">IT-Abteilung</span>
                                         <input type="radio" name="companyPosition" value="it">
@@ -269,7 +219,7 @@
                             	<div class="accordion accordion-closeable open">
                         			<span class="title h3">Ausfallsicherheit</span>
                         			<div class="content" style="display: block;">
-                                		<p>Unsere Telefonielösung hatte 2018 eine <a href="https://status.callone.de" rel="noreferrer" target="_blank" title="CallOne Status">Uptime von 99,999%</a>. Wir setzen auf Qualität, Sicherheit und Transparenz. Wenn doch mal etwas passiert, haben wir vorgesorgt. Mit Notfallplänen, Schutz gegen DDOS-Attacken, Verschlüsselungen aller Sprachdaten uvm. schützen wir unsere Kunden vor Ausfällen. Auch für Ihr Projekt stellen wir einen individuellen Notfallplan zusammen.</p>	
+                                		<p>Unsere Erreichbarkeit lag die letzten Jahre bei <a href="https://status.callone.de" rel="noreferrer" target="_blank" title="CallOne Status">99,999%</a>. Wir setzen auf Qualität, Sicherheit und Transparenz. Wenn doch mal etwas passiert, haben wir vorgesorgt. Mit Notfallplänen, Schutz gegen DDOS-Attacken, Verschlüsselungen aller Sprachdaten uvm. schützen wir unsere Kunden vor Ausfällen. Auch für Ihr Projekt stellen wir einen individuellen Notfallplan zusammen.</p>	
                                 	</div>
                         		</div>
                         	
@@ -283,7 +233,7 @@
                         		<div class="accordion accordion-closeable">
                         			<span class="title h3">Integration</span>
                         			<div class="content" style="display: none;">
-                                		<p>Unsere Lösung ist schnittstellenoffen. Das heißt: Sie erhalten über 25 unterschiedliche REST-APIs, mit denen Sie Anrufe in Echtzeit steuern sowie Ihre Statistiken downloaden und synchronisieren  können. Darüber hinaus verfügen wir über das wohl reichhaltigste Angebot an fertigen Apps für gängige Ticket-und CRM-Systeme (z.B. Salesforce, Pipedrive, Zendesk uvm.), die ohne IT-Kenntnisse verknüpft werden können. Für die Anbindung Ihrer eigenen Lösungen stehen wir Ihnen auch gerne mit unseren Programmierern zur Seite.</p>	
+                                		<p>Wir agieren schnittstellenoffen. Das heißt: Sie erhalten über 25 unterschiedliche REST-APIs, mit denen Sie Anrufe in Echtzeit steuern sowie Ihre Statistiken downloaden und synchronisieren  können. Darüber hinaus verfügen wir über das wohl reichhaltigste Angebot an fertigen Apps für gängige Ticket-und CRM-Systeme (z.B. Salesforce, Pipedrive, Zendesk uvm.), die ohne IT-Kenntnisse verknüpft werden können. Für die Anbindung Ihrer eigenen Lösungen stehen wir Ihnen auch gerne mit unseren Programmierern zur Seite.</p>	
                                 	</div>
                         		</div>
         					</div>

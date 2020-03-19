@@ -678,7 +678,22 @@
 
 @media screen and (max-width: 800px) {
 	.conversation {
+		.segm {
+			.accordion {
+				margin: 5px 0;
+    			border: 2px solid #000;
+    			.title {
+    				margin-left: initial;
+    			}
+			}
+		}
 		&.chat {
+			.segm {
+				.accordion {
+					border: none;
+					margin-left: 17px;
+				}
+			}
 			.step {
 				right: 0;
 				width: 100%;
@@ -734,9 +749,9 @@
 	.conversation {
 		.thumbnail {
 		    position: relative;
-		    width: 200px;
-		    height: 200px;
-		    bottom: -120px;
+		    width: 150px;
+		    height: 150px;
+		    bottom: -50px;
 		    margin: -140px auto 0;
 		    left: 0;
 	    }

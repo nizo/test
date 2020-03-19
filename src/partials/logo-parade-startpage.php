@@ -1,6 +1,6 @@
 <div class="wrapper logoparade-startpage relative">
   <div class="content ">
-  	<div class="gradient-overlay"></div>
+  	<!-- <div class="gradient-overlay"></div> -->
   	<?php if ($paradeData)?>
     <div class="logo-grid client-logos">
     	<?php if (!empty($paradeData)): ?>
