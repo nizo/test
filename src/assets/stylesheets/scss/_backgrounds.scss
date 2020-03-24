@@ -181,7 +181,17 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 		background-position: bottom right;
 		background-size: contain;
   	}
+  	
 	&.image1 {
+		&.visible {
+			background-image: url('/assets/images/photos/agentenmaske-hintergrund.jpg');
+		}
+		padding-bottom: 42%;
+	    width: 100%;
+	    display: block;
+	}
+  	
+	&.image4 {
 		&.visible {
 			background-image: url('/assets/images/photos/agenten-board-bg.png'), linear-gradient(#fff 59%, #f9f9f9 59%, #f9f9f9);
 		}
@@ -280,10 +290,19 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 
 @media screen and (max-width: 800px) {
 	.background-image {
-		&.image1 {
+		&.image4 {
 			&.visible {
 				background-image: none, linear-gradient(#fff 59%, #f9f9f9 59%, #f9f9f9);
 			}
+		}
+	}
+	
+	.background-image {
+		&.image1 {
+			&.visible {
+				background-image: url('/assets/images/photos/agentenmaske-hintergrund-mobile.jpg');
+			}
+			padding-bottom: 84%;
 		}
 	}
 	
