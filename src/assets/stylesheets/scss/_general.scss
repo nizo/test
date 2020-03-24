@@ -114,6 +114,9 @@ h4, .h4 {
 	text-transform: uppercase;
 	font-size: 90%;
 }
+.section-title-small {
+	letter-spacing: 2px;
+}
 .fullHeadline-1 {
 	padding: 10px 40px;
     background-color: #000;
@@ -233,6 +236,18 @@ hr {
     vertical-align: top;
     line-height: 60%;
 }
+.marker-green {
+	padding: 5px 10px;
+    font-size: initial;
+    vertical-align: middle;
+    line-height: initial;
+    top: -3px;
+    position: relative;
+    background-color: #86ed18;
+    font-weight: 600;
+    margin: 10px 0;
+    display: inline-block;
+}
 .headline {
 	display: block;
 }
@@ -284,7 +299,18 @@ hr {
 .padding-bottom-80 {
 	padding-bottom: 80px !important;
 }
-
+.padding-left-right-40 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.agentboardImage {
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	width: 40%;
+	bottom: 26%;
+	margin: 0 auto;
+}
 .overflow-hidden {
 	overflow: hidden;
 }
@@ -296,6 +322,12 @@ hr {
 	
 	.no-padding-mobile {
 		padding: 0 !important;
+	}
+	.no-margin-mobile {
+		margin: 0 !important;
+	}
+	.no-margin-top-mobile {
+		margin-top: 0 !important;
 	}
 }
 
@@ -310,6 +342,9 @@ hr {
 	}
 	&.jc-center {
 		justify-content: center;
+	}
+	&.jc-even {
+		justify-content: space-evenly;
 	}
 	&.wrap {
 		flex-wrap: wrap;
@@ -890,6 +925,9 @@ img {
       &.left {
         align-items: flex-start;
       }
+    }
+    &.background {
+    	background-color: rgba(0,0,0,0.7);
     }
     .flip {
     	-moz-transform: scaleX(-1);

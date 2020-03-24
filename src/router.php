@@ -264,7 +264,7 @@ $r->addRoute('GET', '/callcenter-software', function() {
   $title = 'Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk';
   $description = 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!';
   $keywords = 'callcenter software, call center software, ACD, contact center software, helpdesk, computer telephony integration, cti, warteschleifenmanagement, callbackfuntion, kostenlos testen';
-  $background = 'bg-kundenservice';
+  $background = '';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software';
   require_once('./layouts/header.php');
   require_once('./views/de/kundenservice.php');

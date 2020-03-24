@@ -132,6 +132,14 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	  		background: linear-gradient(#e2e2e2,#ffffff);
 	  		background-color: none;
   		}
+  		&.dark {
+	  		background: linear-gradient(#697271,#474843);
+	  		background-color: none;
+	  		color: #fff;
+	  		a {
+	  			color: #fff !important;
+	  		}
+  		}
   	}
   	&.grey {
   		background-color: $color-newgrey;
@@ -161,13 +169,22 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   			}
   		}
   	}
+  	&.bendig {
+  		&.visible {
+			background-image: url('/assets/images/photos/bendig-sw-right.png');
+		}
+		background-position: bottom right;
+		background-size: contain;
+  	}
 	&.image1 {
 		&.visible {
-			background-image: url('/assets/images/photos/agentenmaske-hintergrund.jpg');
+			background-image: url('/assets/images/photos/agenten-board-bg.png'), linear-gradient(#fff 59%, #f9f9f9 59%, #f9f9f9);
 		}
-		padding-bottom: 42%;
+		background-size: cover;
+		padding-bottom: 32%;
 	    width: 100%;
 	    display: block;
+	    
 	}
 	&.image2 {
 		&.visible {
@@ -211,6 +228,14 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
     transition: background-color 1000ms ease-in-out;
 }
 
+@media screen and (max-width: 1920px) {
+	.background-image {	
+		&.bendig {
+  			background-size: 16%;
+  		}
+  	}
+}
+
 @media screen and (max-width: 1200px) {
 	.slope {
 		&.toRight {
@@ -218,6 +243,15 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 		    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 	    }
 	}
+	.background-image {	
+		&.bendig {
+			&.visible {
+				background-image: none;
+			}
+  			background-image: none;
+  		}
+  	}
+	
 }
 
 

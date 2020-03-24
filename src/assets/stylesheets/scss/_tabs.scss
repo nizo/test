@@ -166,6 +166,9 @@
     .tab {
     	padding: $gutter-xl;
     	background-color: #f2f2f2;
+    	&.blanko {
+    		background-color: #fff;
+    	}
     	text-align: center;
     	color: $color-secondary-1;
     	&.active {
