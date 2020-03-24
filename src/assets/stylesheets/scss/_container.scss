@@ -168,6 +168,15 @@
 	}
 }
 
+.wrapper {
+	&.background-image {
+		.container, .accordion {
+			background-color: transparent;
+			border-color: #fff;		
+		}			
+	}
+}
+
 .accordion {
 	background-color: transparent;
 }

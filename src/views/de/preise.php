@@ -15,8 +15,7 @@
         <h1>Ihre Telefonanlage ist so schlecht, dass sie Sie Geld kostet?</h1>
         <p class="primary">Wir sehen eine Telefonielösung als Investment, das Kapital erwirtschaften soll, statt Geld zu verbrennen. Unser Ansatz sind hochwertigste Telefonieprodukte, die individuell auf die Anforderungen unserer Kunden angepasst werden und auch optimal im Self-Service funktionieren.</p>
         <div class="button-set">
-          <a href="/testen" class="button primary trackedElement" data-label="Button Header - Sprechen Sie mit einem Experten" data-category="Link" data-action="linked to /testen">Sprechen Sie mit einem Experten</a>
-          <a href="/testen" class="button secondary trackedElement" data-label="Button Header - Individuelles Angebot einholen" data-category="Link" data-action="linked to /testen">Individuelles Angebot einholen</a>
+          <a href="/preiskalkulator" target="_blank" class="button tertiary trackedElement" data-label="Button Header - Preiskalkulator starten" data-category="Link" data-action="linked to /preiskalkulator">Preiskalkulator starten</a>
         </div>
       </div>
       <div class="media animation animation-bg lazyBackground preis">
@@ -59,7 +58,7 @@
     <h2 class="h1">CallOne BOX – der Telefoniebaukasten</h2>
     <p>Nutzen Sie genau die Bestandteile der CallOne Telefonielösungen, die Sie für Ihr Unternehmen benötigen. Keine versteckten Kosten, dafür umfangreiche Beratung und individueller Support.</p> 
   	<div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Starten Sie kostenfrei" data-category="Link" data-action="linked to /testen">Starten Sie kostenfrei</a>
+      <a href="/preiskalkulator" target="_blank" class="trackedElement button big primary" title="Zum Preiskalkulator" data-label="Button - Hier Preis berechnen" data-category="Link" data-action="linked to /preiskalkulator">Hier Preis berechnen</a>
     </div>
   </div>
 </div>
@@ -109,7 +108,7 @@
                 	<a class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
                 </div>
   			</div>
-  		</div>
+  		</div>  		
   		<div class="col-2">
   			<div class="sl sl-before sl-size-xxs sl-phone">
       			<strong class="h3">Rufnummern Deutschland</strong>

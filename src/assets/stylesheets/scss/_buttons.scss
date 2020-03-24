@@ -5,6 +5,7 @@
   font-size: $font-size-xxs;
   font-weight: 500;
   white-space: nowrap;
+  letter-spacing: 2px;
   cursor: pointer;
   &.break {
   	white-space: inherit;;
@@ -60,6 +61,11 @@
 	    text-transform: none;
 	    font-weight: 400;
   	}
+  	&.black {
+  		background-color: $color-secondary-1;
+	    border: 2px solid $color-secondary-1;
+	    color: #fff;
+  	}
   }
   &.tertiary {
     background-color: $color-primary;
@@ -81,34 +87,52 @@
 	    	color: #fff;
 	    }
   	}
+  	&.black {
+  		color: $color-secondary-1 !important;
+  		&:hover {
+	      	background-color: #fff;
+	      	border-color: #fff;
+	      	color: $color-secondary-1 !important;	
+      	}
+  	}
   }
   &.quaternary, &.quinary {
-	  --notchSize: 6px;
-	  -webkit-clip-path:
-	    polygon(0% var(--notchSize),
-	      var(--notchSize) 0%,
-	      calc(100% - var(--notchSize)) 0%,
-	      100% var(--notchSize),
-	      100% calc(100% - var(--notchSize)),
-	      calc(100% - var(--notchSize)) 100%,
-	      var(--notchSize) 100%,
-	      0% calc(100% - var(--notchSize)));
-	  clip-path:
-	    polygon(0% var(--notchSize),
-	      var(--notchSize) 0%,
-	      calc(100% - var(--notchSize)) 0%,
-	      100% var(--notchSize),
-	      100% calc(100% - var(--notchSize)),
-	      calc(100% - var(--notchSize)) 100%,
-	      var(--notchSize) 100%,
-	      0% calc(100% - var(--notchSize)));
-	  transition: all .2s ease-in-out;
-	  text-transform: uppercase;
-	  color: white;
-	  background: #000000;
-	  letter-spacing: 1px;
-	  border: 6px solid #536D5E;
-	  &:hover {
+	--notchSize: 6px;
+	-webkit-clip-path:
+	polygon(0% var(--notchSize),
+	var(--notchSize) 0%,
+	calc(100% - var(--notchSize)) 0%,
+	100% var(--notchSize),
+	100% calc(100% - var(--notchSize)),
+	calc(100% - var(--notchSize)) 100%,
+	var(--notchSize) 100%,
+	0% calc(100% - var(--notchSize))); 
+	clip-path:
+	polygon(0% var(--notchSize),
+	var(--notchSize) 0%,
+	calc(100% - var(--notchSize)) 0%,
+	100% var(--notchSize),
+	100% calc(100% - var(--notchSize)),
+	calc(100% - var(--notchSize)) 100%,
+	var(--notchSize) 100%,
+	0% calc(100% - var(--notchSize)));
+	transition: all .2s ease-in-out;
+	text-transform: uppercase;
+	color: white;
+	background: #000000;
+	letter-spacing: 1px;
+	border: 6px;
+	border-style: solid;
+	border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
+	border-image-slice: 1;
+	
+	padding: 15px 20px;
+	display: inline-flex;
+	align-items: center; 
+	top: 50%;
+	margin: 20px 0;
+	
+	&:hover {
 	  	  transform: scale(1.1);
 		  color: white;
 		  background-color: #000;
@@ -116,13 +140,47 @@
 		  border-style: solid;
 		  border-image-source: linear-gradient(180deg, #AAEA39, #86EC16);
 		  border-image-slice: 1;
-	  }
+		.play-icon {
+			filter: invert(0.5)
+		}	
+	}
+	
+	.play-icon {
+		margin-right: 10px;
+	}
+	
   }
   &.quinary {
   	border: 6px solid #65976F;
   	&:hover {
   		background-color: #000; 
   		border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
+  	}
+  }
+  &.senary {
+	transition: all .2s ease-in-out;
+	text-transform: uppercase;
+	color: white;
+	background: #000000;
+	letter-spacing: 1px;
+	border: 3px solid $color-primary;
+	&:hover {
+	  	  transform: scale(1.1);
+	}
+	&.silent {
+  		background-color: inherit;
+	    border: 2px solid $color-secondary-1;
+	    color: $color-secondary-1;
+	    text-transform: none;
+	    font-weight: 400;
+	    &.white {
+	    	color: #fff;
+	    	border-color: #fff;
+	    }
+	    &.black {
+	   		color: $color-secondary-1;;
+	    	border-color: $color-secondary-1;
+	    }
   	}
   }
   
@@ -174,6 +232,21 @@
   }
 }
 
+.icon-before-app {
+	padding: 0px 5px 4px;
+    font-size: initial;
+    vertical-align: middle;
+    line-height: initial;
+    top: -4px;
+    position: relative;
+    background-color: $color-primary;
+	> img {
+		height: 14px;
+	    top: 2px;
+	    position: relative;
+	}
+}
+
 .button-set {
   display: flex;
   flex-direction: row;
@@ -181,6 +254,21 @@
   margin-bottom: -$gutter-m;
   &.centered {
     justify-content: center;
+  }
+  &.edge-button {
+  	padding-top: 20px;
+  	position: relative;
+  	.button {
+  		position: absolute;
+	    top: 0px;
+	    left: $gutter-l;
+  	}
+  	.return + .button {
+  		left: 150px;
+  	}
+  	.return.desktop-hidden + .button {
+  		left: 40px;
+  	}
   }
   &.no-wrap {
   	flex-wrap: nowrap;
@@ -208,6 +296,12 @@
   }
 }
 
+.faq-partial {
+	.button-set {
+		margin-top: 0;
+	}
+}
+
 @media screen and (max-width: 1024px) {
  	.button {
   		  &.big {
@@ -230,6 +324,11 @@
   			margin-top: $gutter-s;
   		}
   		width: 100%;
+	}
+	&.edge-button {
+	  	.return.desktop-hidden + .button {
+	  		left: 0px;
+	  	}
   	}
   }
 }

@@ -107,7 +107,7 @@
 		
 		padding-right: 25px; 
 		position: relative;
-		
+			
 		&:after {
 			content: "";
 			font-family: "streamline" !important;
@@ -121,6 +121,10 @@
 			position: absolute;
 			right: 0;
 		}
+		&.white {
+			color: #fff;
+		}
+	
 		&.small {
 			&:after {
 				font-size: calc(100% / 1.2);
@@ -161,7 +165,7 @@
     &.sl-size-xxs, &.sl-size-xxs:before, &.sl-size-xxs:after{
 	    font-size: $font-size-xs + 10px;
     }
-    &.sl-size-xs, &.sl-size-xs:before{
+    &.sl-size-xs, &.sl-size-xs:before, &.sl-size-xs::after{
 	    font-size: $font-size-s + 15px;
     }
     &.sl-size-s, &.sl-size-s:before, &.sl-size-s:after  {
@@ -170,10 +174,10 @@
     &.sl-size-m, &.sl-size-m:before, &.sl-size-m:after  {
 	    font-size: $font-size-l + 30px;
     }
-    &.sl-size-l , &.sl-size-l:before{
+    &.sl-size-l , &.sl-size-l:before, , &.sl-size-l::after{
 	    font-size: $font-size-xl + 40px;
     }
-    &.sl-size-xl, &.sl-size-xl:before{
+    &.sl-size-xl, &.sl-size-xl:before, &.sl-size-xl::after {
 	    font-size: $font-size-xxl + 40px;
     }
 
@@ -535,6 +539,9 @@
 	}
 	&.sl-arrow-right:after {
 		content: "\e5a9";
+	}
+	&.sl-arrow-left:before {
+		content: "\e5a8";
 	}
 	&.sl-plus-sign:before {
 		content: "\e24e";

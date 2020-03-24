@@ -68,6 +68,12 @@
 	
 }
 
+.videoAnimation {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
 @media screen and (max-width: 800px) {
 	.video {	
 		&.videoTeaser {

@@ -126,7 +126,23 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	&.gradient {
   		&.grey {
   			background: linear-gradient(#f9f9f9,#ffffff);
-  			background-color: none;
+  			background-color: none;	
+  		}
+  		&.darkgrey {
+	  		background: linear-gradient(#e2e2e2,#ffffff);
+	  		background-color: none;
+  		}
+  		&.dark {
+	  		background: linear-gradient(#697271,#474843);
+	  		background-color: none;
+	  		color: #fff;
+	  		a {
+	  			color: #fff !important;
+	  		}
+  		}
+  		&.yellow {
+  			background: linear-gradient(#ffffff,$color-primary);
+	  		background-color: none;
   		}
   	}
   	&.grey {
@@ -157,13 +173,23 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   			}
   		}
   	}
+  	&.bendig {
+  		&.visible {
+			background-image: url('/assets/images/photos/bendig-sw-right.png');
+		}
+		
+		background-position: bottom right;
+		background-size: contain;
+  	}
 	&.image1 {
 		&.visible {
-			background-image: url('/assets/images/photos/agentenmaske-hintergrund.jpg');
+			background-image: url('/assets/images/photos/agenten-board-bg.png'), linear-gradient(#fff 59%, #f9f9f9 59%, #f9f9f9);
 		}
-		padding-bottom: 42%;
+		background-size: cover;
+		padding-bottom: 32%;
 	    width: 100%;
 	    display: block;
+	    
 	}
 	&.image2 {
 		&.visible {
@@ -195,6 +221,44 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 }
 
 
+.full-bg {
+	&.grey {
+		background-color: $color-lightgrey-3;
+	}
+}
+
+.background-transition { 
+    -webkit-transition: background-color 1000ms ease-in-out;
+    -ms-transition: background-color 1000ms ease-in-out;
+    transition: background-color 1000ms ease-in-out;
+}
+
+@media screen and (max-width: 1920px) {
+	.background-image {	
+		&.bendig {
+  			background-size: contain;
+  		}
+  	}
+}
+
+@media screen and (max-width: 1600px) {
+	.slope {
+		&.toRight {
+			-webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+		    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+	    }
+	}
+	.background-image {	
+		&.bendig {
+			&.visible {
+				background-image: none;
+			}
+  			background-image: none;
+  		}
+  	}
+	
+}
+
 @media screen and (max-width: 1200px) {
 	.slope {
 		&.toRight {
@@ -218,9 +282,8 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	.background-image {
 		&.image1 {
 			&.visible {
-				background-image: url('/assets/images/photos/agentenmaske-hintergrund-mobile.jpg');
+				background-image: none, linear-gradient(#fff 59%, #f9f9f9 59%, #f9f9f9);
 			}
-			padding-bottom: 84%;
 		}
 	}
 	
