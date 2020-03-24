@@ -79,7 +79,7 @@ $r->addRoute('GET', '/testseite', function() {
     $title = 'Testseite CallOne';
     $description = '';
     $keywords = '';
-    $background = 'bg-sales';
+    $background = '';
     require_once('./layouts/header.php');
     require_once('./views/de/testseite.php');
     require_once('./layouts/footer.php');
@@ -270,6 +270,17 @@ $r->addRoute('GET', '/callcenter-software', function() {
   require_once('./views/de/kundenservice.php');
   require_once('./layouts/footer.php');
 });
+
+    $r->addRoute('GET', '/callcenter-software-features', function() {
+        $title = '';
+        $description = '';
+        $keywords = '';
+        $background = 'bg-kundenservice';
+        $ogUrl = $GLOBALS['url'] . '/callcenter-software-features';
+        require_once('./layouts/header.php');
+        require_once('./views/de/wishlist.php');
+        require_once('./layouts/footer.php');
+    });
 
 $r->addRoute('GET', '/preise', function() {
   $title = 'Preise vergleichen VoIP-Telefonanlage und Callcenter Software von CallOne';

@@ -238,15 +238,16 @@ hr {
 }
 .marker-green {
 	padding: 5px 10px;
-    font-size: initial;
+    font-size: 18px;
     vertical-align: middle;
     line-height: initial;
-    top: -3px;
+    top: -2px;
     position: relative;
     background-color: #86ed18;
     font-weight: 600;
     margin: 10px 0;
     display: inline-block;
+    font-family: $font-headline;
 }
 .headline {
 	display: block;
@@ -328,6 +329,11 @@ hr {
 	}
 	.no-margin-top-mobile {
 		margin-top: 0 !important;
+	}
+	.agentboardImage {
+		width: 100%;
+		left: 0;
+		right: initial;
 	}
 }
 
@@ -1024,6 +1030,33 @@ img {
 	      			top: 0;
       			}
       		}
+      	}
+      	&.inlineBox {
+      		> li {
+	      		display: inline-flex;
+	      		margin: $gutter-m;
+	      		list-style-type: none;
+	      		background-color: #fff;
+	      		padding: 5px 15px !important;
+	      		box-shadow: 0 0 20px rgba(0,0,0,.25);
+	      		font-size: 22px;
+	      		font-family: $font-headline;
+	      		
+	      		&::before {
+	      			content: none;
+	      		}
+	      		> span {
+	      			padding-left: 0;
+	      			margin-bottom: 0;
+	      		}
+      		}
+      		@media screen and (max-width:800px) {
+				> li {
+					font-size: 20px;
+					width: 100%;
+					margin: 10px 0;
+	      		}
+			}
       	}
       	&.big-list {
       		font-size: $font-size-m;

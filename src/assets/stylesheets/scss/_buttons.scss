@@ -5,6 +5,7 @@
   font-size: $font-size-xxs;
   font-weight: 500;
   white-space: nowrap;
+  letter-spacing: 2px;
   cursor: pointer;
   &.break {
   	white-space: inherit;;
@@ -85,6 +86,14 @@
 	    &.white {
 	    	color: #fff;
 	    }
+  	}
+  	&.black {
+  		color: $color-secondary-1 !important;
+  		&:hover {
+	      	background-color: #fff;
+	      	border-color: #fff;
+	      	color: $color-secondary-1 !important;	
+      	}
   	}
   }
   &.quaternary, &.quinary {
