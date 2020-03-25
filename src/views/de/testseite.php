@@ -105,7 +105,7 @@
 	</div>
 </div>
 
-<div class="wrapper background-image image1 lazyBackground centered no-margin relative">
+<div class="wrapper background-image image4 lazyBackground centered no-margin relative">
 	<div class="content narrow centered no-margin-bottom no-margin-top">
 		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/animations/dashboard.gif" data-srcset="/assets/animations/dashboard.gif" class="lazy agentboardImage" alt="Unsere Apps für Ihr Unternehmen" title="Das CallOne App-Universum" />          	      
 	</div>
