@@ -29,7 +29,7 @@
   <div class="content wide centered">
     <h2 class="h1">Aktuelle Stellenangebote</h2>
     <div class="grid tile column flex">
-      <div class="col-2 flex space-between row">
+      <div class="col-3 flex space-between row">
       	<div class="shadow-box padding space-between flex column">
             <img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
             <h3>Customer Successmanager (m/w/d) in Potsdam</h3>
@@ -39,13 +39,23 @@
             </div>
       	</div>
       </div>
-      <div class="col-2 flex space-between row">
+      <div class="col-3 flex space-between row">
       	<div class="shadow-box padding space-between flex column">
             <img class="icon" src="/assets/images/icons_svg/job_04.svg" alt="" />
             <h3>IT Consultant (m/w/d) in Potsdam</h3>
             <p>Du hast ein solides Arsenal technisches Wissen und kannst Partner, Stakeholder und IT-Mitarbeiter umfassend betreuen?</p>
             <div class="button-set centered">
               <p><a href="/karriere/it-consultant-potsdam" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/it-consultant-potsdam">Mehr erfahren</a></p>
+            </div>
+      	</div>
+      </div>
+      <div class="col-3 flex space-between row">
+      	<div class="shadow-box padding space-between flex column">
+            <img class="icon" src="/assets/images/icons_svg/job_04.svg" alt="" />
+            <h3>Webdesigner (m/w/d) in Potsdam</h3>
+            <p>HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!</p>
+            <div class="button-set centered">
+              <p><a href="/karriere/job-webdesigner-potsdam" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-webdesigner-potsdam">Mehr erfahren</a></p>
             </div>
       	</div>
       </div>

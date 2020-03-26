@@ -258,6 +258,17 @@ $r->addRoute('GET', '/karriere', function() {
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/customer-success-manager.php');
         require_once('./layouts/footer.php');
+    }); 
+    
+    $r->addRoute('GET', '/karriere/job-webdesigner-potsdam', function() {
+        $title = 'Webdesigner/Job in Potsdam - Karriere';
+        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden. Bewirb Dich auf unsere Stelle als Webdesigner in Potsdam';
+        $keywords = 'Karriere, Webdesigner, Potsdam, Job, Stelle, bewerben';
+        $background = 'bg-casestudy';
+        $ogUrl = $GLOBALS['url'] . '/karriere/job-webdesigner-potsdam';
+        require_once('./layouts/header.php');
+        require_once('./views/de/karriere/webdesigner.php');
+        require_once('./layouts/footer.php');
     });  
 
 $r->addRoute('GET', '/callcenter-software', function() {
