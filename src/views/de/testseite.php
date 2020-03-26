@@ -107,7 +107,7 @@
 
 <div class="wrapper background-image image4 lazyBackground centered no-margin relative">
 	<div class="content narrow centered no-margin-bottom no-margin-top">
-		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/animations/dashboard.gif" data-srcset="/assets/animations/dashboard.gif" class="lazy agentboardImage" alt="Unsere Apps für Ihr Unternehmen" title="Das CallOne App-Universum" />          	      
+		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/animations/callcenter-software-animation.gif" data-srcset="/assets/animations/callcenter-software-animation.gif" class="lazy agentboardImage" alt="Unsere Apps für Ihr Unternehmen" title="Das CallOne App-Universum" />          	      
 	</div>
 </div>	
 
@@ -238,17 +238,11 @@
 	<div class="content wide no-margin-top padding-top-80">
 		<div class="grid">
     		<div class="col-2 padding-left-right-40">
-        		<a>
-            		<picture class="lazyPicture">
-                      <source srcset="/assets/images/photos/callcenter-software-live-monitor.png" data-srcset="/assets/images/photos/callcenter-software-live-monitor.png" type="image/png">
-                      <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callcenter-software-live-monitor.png" data-srcset="/assets/images/photos/callcenter-software-live-monitor.png" alt="Dashboard Agenten/Callcenter Statistiken" title="Dashboard Agenten/Callcenter Statistiken - Alles im Blick" class="lazy" />          	      
-            		</picture>
-            	</a>
+    			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/animations/live-monitor.gif" data-srcset="/assets/animations/live-monitor.gif" alt="Live Monitor" title="Live Monitor" class="lazy" />          	      
         		<!-- <a class="openModal trackedElement" data-label="Image" data-category="Link" data-action="Show Video-ACD Modal" data-modal="video-acd" title="Zum Video der Callcenter Software"><img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/photos/dashboard-wallboard-statistiken.png" data-srcset="/assets/images/photos/dashboard-wallboard-statistiken.png" alt="Dashboard Agenten/Callcenter Statistiken" title="Dashboard Agenten/Callcenter Statistiken - Alles im Blick"></a> -->
     		</div>
     		<div class="col-2">
-    			<p>&nbsp;</p>
-        		<h2 class="h4 uppercase">Statistiken</h2> <!-- Callcenter-Software LiveMonitor -->
+    			<h2 class="h4 uppercase">Statistiken</h2> <!-- Callcenter-Software LiveMonitor -->
       			<h3 class="h1 no-margin-top no-padding-top font-secondary"><span class="font-primary primary-color">Transparenz</span> und <span class="font-primary primary-color">optimale Planbarkeit</span> für Ihre Teams und Callcenter-Leitung</h3>
       			<div class="button-set left">
         			<a class="openModal trackedElement button quinary" data-label="Button" data-category="Link" data-action="Show Video-ACD Modal" data-modal="video-acd" title="Zum Video der Callcenter Software">
