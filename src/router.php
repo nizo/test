@@ -198,7 +198,7 @@ $r->addRoute('GET', '/karriere', function() {
   $title = 'Karriere, Jobs, Telekommunikation Potsdam, Berlin, Mainz, inhabergeführt';
   $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz ';
   $keywords = '';
-  $background = 'bg-karriere';
+  $background = '';
   $ogUrl = $GLOBALS['url'] . '/karriere';
   require_once('./layouts/header.php');
   require_once('./views/de/karriere.php');
@@ -491,7 +491,7 @@ $r->addRoute('GET', '/ueber-uns', function() {
   $title = 'CallOne ist ein inhabergeführtes Unternehmen für cloudbasierte Telefonie';
   $description = 'CallOne bietet cloudbasierte Telefonieprodukte. Einfach bedienbare VoIP-Telefonanlagen, professionelle cloudbasierte Callcenter Software. Wie können wir helfen?';
   $keywords = '';
-  $background = 'bg-ueberuns';
+  $background = '';
   $ogUrl = $GLOBALS['url'] . '/ueber-uns';
   require_once('./layouts/header.php');
   require_once('./views/de/ueber-uns.php');

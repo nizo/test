@@ -95,6 +95,16 @@
 	      	color: $color-secondary-1 !important;	
       	}
   	}
+  	&.black2 {
+  		color: #fff;
+  		background-color: #000;
+  		border-color: #000;
+  		&:hover {
+	      	background-color: $color-primary;
+	      	border-color: $color-primary;
+	      	color: #000 !important;	
+      	}
+  	}
   }
   &.quaternary, &.quinary {
 	--notchSize: 6px;
@@ -269,6 +279,9 @@
   	.return.desktop-hidden + .button {
   		left: 40px;
   	}
+  }
+  &.fullWidth {
+  	width: 100%;
   }
   &.no-wrap {
   	flex-wrap: nowrap;

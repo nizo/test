@@ -148,6 +148,9 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   	&.grey {
   		background-color: $color-newgrey;
   	}
+  	&.dark {
+  		background-color: #474843;
+  	}
   	&.red {
   		background-color: $color-red;
   		.button-set {
@@ -180,6 +183,24 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 		
 		background-position: bottom right;
 		background-size: contain;
+  	}
+  	&.team1 {
+  		&.visible {
+  			background-image: url('/assets/images/photos/ueber-uns.svg');
+  		}
+  		background-position: center top;
+	    background-size: cover;
+	    background-color: #fff;
+	    background-repeat: no-repeat;
+  	}
+  	&.aboutUs {
+  		&.visible {
+  			background-image: url('/assets/images/illus/illu-ueber-uns.svg');
+  		}
+  		background-position: center bottom;
+	    background-size: contain;
+	    background-color: #fff;
+	    background-repeat: no-repeat;
   	}
   	
 	&.image1 {
@@ -275,6 +296,14 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 			-webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 		    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 	    }
+	}
+	.background-image {
+		&.aboutUs {
+			background-image: none;
+			&.visible {
+				background-image: none;
+			}
+		}
 	}
 }
 

@@ -296,6 +296,9 @@
 	&.sl-arrow-move-up:before {
 		content: "\e25a";
 	}
+	&.sl-arrow-download:before{
+		content: "\e252";
+	}
 	&.sl-recorder:before {
 		content: "\e19f";
 	}
