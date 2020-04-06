@@ -261,7 +261,7 @@
   <div class="content narrow no-margin-bottom padding-bottom-80 padding-top-80">
   	<div class="grid">
   		<div class="col-2">
-          	<a href="" class="downloadBox">
+          	<a href="/downloads/CallOne-über-uns.pdf" class="downloadBox" download>
               	<div class="shadow-box padding-tiles relative">
     				<span class="h1 centered big no-padding no-margin">.pdf</span>
         			<div class="button-bottom2">
@@ -273,7 +273,7 @@
 			</a>
   		</div>
   		<div class="col-2">
-          	<a href="" class="downloadBox">
+          	<a href="/downloads/CallOne-über-uns.ppsx" class="downloadBox" download>
               	<div class="shadow-box padding-tiles relative">
     				<span class="h1 centered big no-padding no-margin">.pptx</span>
         			<div class="button-bottom2">
