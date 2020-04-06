@@ -61,7 +61,7 @@
         <?php getLogoParade([
                 ['data' => 'logo-gastrohero.png', 'alt' => 'Unser Kunde Gastro Hero', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
                 ['data' => 'logo-helios.png', 'alt' => 'Unser Kunde Helios Kliniken', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
-                ['data' => 'logo-leipziger-stadtwerke.jpg', 'alt' => 'Unser Kunde Leipziger Stadtwerke', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
+                ['data' => 'logo-leipziger-stadtwerke.png', 'alt' => 'Unser Kunde Leipziger Stadtwerke', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
                 ['data' => 'logo-navabi.png', 'alt' => 'Unser Kunde Navabi', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
                 ['data' => 'logo-newsletter2go.png', 'alt' => 'Unser Kunde Newsletter2Go', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
             ], null, 'startpage'); ?>
