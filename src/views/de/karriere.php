@@ -1,3 +1,4 @@
+<!-- Header -->
 <div class="wrapper">
   <div class="content wide noOverflow">
     <header class="main-header">
@@ -5,8 +6,7 @@
         <h1>Da bist du ja! Wir haben dich schon überall gesucht</h1>
         <p class="primary">Wir gehen das Problem an, dass Kundenservice am Telefon die absolute Hölle ist. Wir unterstützen unsere großartigen Kunden dabei, ihren Customer Service so aufzubauen, dass Leute gern bei ihnen anrufen, weil ihnen wirklich geholfen wird.</p>
         <div class="button-set">
-          <a href="#angebote" class="button tertiary">Offene Stellen</a>
-          <a class="openModal button secondary trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
+          <a class="openModal button tertiary black2 trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
         </div>
       </div>
       <div class="media animation animation-bg lazyBackground karriere">
@@ -17,25 +17,27 @@
   </div>
 </div>
 
-<div class="wrapper">
-  <div class="content thin centered">
-    <h2 class="h1">Willkommen bei CallOne</h2>
-    <p>Unser Team besteht aus klugen, sympathischen Menschen mit verschiedensten Skills und Interessen. Uns ist der persönliche Austausch wichtig, sowohl mit unseren Kunden, als auch innerhalb der Firma. Deshalb wissen wir unsere Persönlichkeiten und Fähigkeiten gegenseitig wertzuschätzen.</p>
-
-    <p>CallOne ist eine kleine Familie (nur dass wir nicht Heiligabend zusammen feiern). Wir mögen einander und passen gegenseitig auf uns auf. Wir glauben, dass man in einem guten sozialen Umfeld die beste und erfüllendste Arbeit machen kann.</p>
-  </div>
-</div>
-<div class="wrapper half-background" id="angebote">
-  <div class="content wide centered">
+<!-- Aktuelle Stellenangebote -->
+<div class="wrapper background grey" id="angebote">
+  <div class="content wide">
     <h2 class="h1">Aktuelle Stellenangebote</h2>
+    <p>Wir freuen uns immer wieder neue Leute kennenzulernen. Vielleicht passt ja eine der folgenden Stellenanzeigen zu dir?</p>
     <div class="grid tile column flex">
       <div class="col-3 flex space-between row">
-      	<div class="shadow-box padding space-between flex column">
-            <img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
-            <h3>Customer Successmanager (m/w/d) in Potsdam</h3>
-            <p>Du liebst den Umgang mit anderen Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?</p>
-            <div class="button-set centered">
-              <p><a href="/karriere/job-customer-success-manager-potsdam" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a></p>
+      	<div class="shadow-box space-between flex column">
+            <div class="grid">
+            	<div class="col-1 space-between flex padding">
+            		<img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
+            		<h3>Customer Successmanager (m/w/d) in Potsdam</h3>
+            	</div>
+            	<div class="col-1 space-between flex">
+            		<div class="padding">
+                		<p>Du liebst den Umgang mit anderen Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?</p>
+                        <div class="button-set centered">
+                          <p><a href="/karriere/job-customer-success-manager-potsdam" class="button secondary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a></p>
+                        </div>
+                    </div>
+            	</div>
             </div>
       	</div>
       </div>
@@ -70,6 +72,15 @@
       	</div>
       </div>-->
     </div>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="content thin centered">
+    <h2 class="h1">Willkommen bei CallOne</h2>
+    <p>Unser Team besteht aus klugen, sympathischen Menschen mit verschiedensten Skills und Interessen. Uns ist der persönliche Austausch wichtig, sowohl mit unseren Kunden, als auch innerhalb der Firma. Deshalb wissen wir unsere Persönlichkeiten und Fähigkeiten gegenseitig wertzuschätzen.</p>
+
+    <p>CallOne ist eine kleine Familie (nur dass wir nicht Heiligabend zusammen feiern). Wir mögen einander und passen gegenseitig auf uns auf. Wir glauben, dass man in einem guten sozialen Umfeld die beste und erfüllendste Arbeit machen kann.</p>
   </div>
 </div>
 <div class="wrapper">
@@ -108,8 +119,7 @@
   <div class="content wide" id="benefits">
     <div class="grid">
       <div class="col-3">
-        <img class="icon" src="/assets/images/icons_svg/small_29.svg" alt="Langfristigkeit" />
-        <h3>Langfristigkeit</h3>
+        <h3><img class="icon" src="/assets/images/icons_svg/small_29.svg" alt="Langfristigkeit" /> Langfristigkeit</h3>
         <p>Job-Hopping bedeutet Stress und immer nur einen kurzen Energieschub. Wir setzen auf langfristige Anstellungen, ziemlich krisensichere und zukunftsfähige Jobs und die Perspektive, das Beste aus dir rauszuholen, damit du zufrieden bist.</p>
       </div>
       <div class="col-3">
