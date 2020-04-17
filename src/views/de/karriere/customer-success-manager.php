@@ -10,7 +10,7 @@
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-11-04",
-  "title": "Customer Success Manager (m/w/d) in Potsdam",
+  "title": " (m/w/d) in Potsdam",
   "validThrough": "2020-06-30T00:00",
   "description": "  <p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
     		          Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
@@ -20,7 +20,7 @@
     		          Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
     		        <p>Deshalb brauchen wir dich.</p>
                     <strong>Der Job</strong>
-                    <p>Als Customer Success Manager kümmerst du dich darum, dass sich unsere Kunden wohlfühlen. 
+                    <p>Als  kümmerst du dich darum, dass sich unsere Kunden wohlfühlen. 
       	             Du holst sie ins System, beantwortest ihre Fragen und berätst sie. 
       	             Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
                     <p>
@@ -88,15 +88,15 @@
   <div class="content wide">
     <header class="main-header">
       <div class="media centered mobile-hidden">
-        <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_02.svg" data-srcset="/assets/images/icons_svg/job_big_02.svg" class="lazy" alt="Customer Success Manager" />
+        <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_02.svg" data-srcset="/assets/images/icons_svg/job_big_02.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>Customer Success Manager (w/m/d) in Potsdam​</h1>
+        <h1> (w/m/d) in Potsdam​</h1>
         <div class="button-set flex desktop-hidden">
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-	       	Wir haben einen Job für dich, den du lieben wirst: als Customer Success Manager für unseren Standort in der Potsdamer Innenstadt.​
+	       	Wir haben einen Job für dich, den du lieben wirst: als  für unseren Standort in der Potsdamer Innenstadt.​
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
@@ -112,11 +112,6 @@
 			<strong class="h1">Wer wir sind</strong>
 			<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
     		Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
-    		<p>Und Du?​ Du bist unser neues Ass im Ärmel</p>
-    		<p>Mit jedem Schritt betreten wir Neuland und wir tun alles dafür, die besten am Markt zu sein. 
-    		Warum? Weil Kundenservice Unternehmen ein Riesenpotenzial bietet, ihr Angebot auf den Menschen auszurichten: auf dich und mich. Das macht nicht nur die Unternehmen besser, ihre Arbeit effizienter und ihre Mitarbeiter glücklicher. 
-    		Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
-    		<p>Deshalb brauchen wir dich.</p>
 		</div>
     </div>
     <div class="content thin margin-top-40">
@@ -144,34 +139,40 @@
             <strong>Ab sofort</strong>
           </div>
         </div>
-		<p class="padding-top-40">Als <strong>Customer Success Manager</strong> kümmerst du dich darum, dass sich unsere Kunden wohlfühlen. 
-      	Du holst sie ins System, beantwortest ihre Fragen und berätst sie. 
-      	Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
+		<p class="padding-top-40">Als <strong>Customer Success Manager</strong> (m/w/d) bist Du Teil unseres starken Projektteams und unterstützt dies dabei, neue und bestehende Kunden zu betreuen.</p>
+		<ul class="list approved-list">
+			<li>Du stehst in frequentiertem Kundenkontakt, sei es telefonisch, per E-Mail, Websession oder vor Ort.</li>
+			<li>Dein Ziel ist es, CallOne den Kunden in einem ersten Gespräch näher zu bringen und diesen anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen zu qualifizieren</li>
+			<li>Anschließend unterstützt du tatkräftig mit dem Set-up & Vorbereitungen von Meetings mit potenziellen Kunden</li>
+			<li>Du führst eigenständig unternehmensspezifische Recherchen durch und weißt immer, warum CallOne unseren Kunden einen Mehrwert bietet und wie dieser aussieht</li>
+			<li>Du machst detaillierte Aufzeichnungen über unsere Kundenhistorie mit Hilfe Meistertask (unserer ProjektManagement App)</li>
+		</ul>
 	</div>
   </div>
   <div class="content wide margin-top-40">
   	<div class="grid flex">
   		<div class="col-2 flex space-between">
 			<div class="shadow-box padding" style="height: 100%"> 
-            	<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
+            	<h2 class="centered">Deine Skills</h2>
             	<ul class="list approved-list">
-            		<li>Du bist für unsere Kunden Ansprechpartner</li>
-            		<li>Du bietest Hilfeleistung bei Fragen zu unserer Telefonielösungen und führst die Kunden in die Nutzung unserer Produkte ein</li>
-            		<li>Du führst Onboardings und Produktpräsentationen durch</li>
-            		<li>Du arbeitest eng mit Vertrieb und Entwicklung zusammen</li>
+            		<li>Du hast bereits Erfahrungen in einer B oder Sales-Rolle sammeln können, vorzugsweise in den Bereichen Software-as-a-Service (SaaS)</li>
+            		<li>Ausgeprägtes Organisationsvermögen und D sowie Führungsstärke auch in hektischen Zeiten und unter Zeitdruck sind für dich selbstverständlich</li>
+            		<li>Deine strukturierte und professionelle Arbeitsweise zeichnet Dich aus</li>
+            		<li>Du kannst dich und andere motivieren und lässt dich von einem engagierten Team weiter anspornen, die gemeinsamen Ziele zu erreichen oder sogar zu übertreffen</li>
+					<li>Du besitzt die Fähigkeit, den Mehrwert von CallOne einfach und prägnant deinem Gegenüber zu präsentieren</li>
+					<li>Du hast Erfahrung in der Arbeit mit CRM- und Projektmanagementtools wie z. B. Pipedrive oder Meistertask</li>
             	</ul>
     		</div>
 		</div>    
   		<div class="col-2 flex space-between">
         	<div class="shadow-box padding" style="height: 100%">
-            	<h2 class="centered">Was wir uns wünschen</h2>
+            	<h2 class="centered">Deine Benefits</h2>
             	<ul class="list approved-list">
-            		<li>Abgeschlossene Ausbildung oder Studium</li>
-            		<li>Erfahrung in der Kundenbetreuung mit SaaS-Lösungen​</li>
-            		<li>Technisches Grundverständnis und digitale Affinität</li>
-            		<li>Selbstständiges Arbeiten</li>
-            		<li>Hands-on-Mentalität​</li>
-            		<li>Teamgeist</li> 
+            		<li>Festanstellung (Vollzeit) in denen Überstunden eher die Ausnahme als die Regel ist</li>
+            		<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
+            		<li>Lebendige und offene Unternehmenskultur mit flachen Hierarchien und kurzen Kommunikationswegen</li>
+            		<li>30 Tage Urlaub</li>
+            		<li>Natürlich musst du bei uns auch nicht verhungern und verdursten, Getränke, Kaffee, Snacks etc. so viel du willst</li>
             	</ul>
         	</div>
         </div>
@@ -232,7 +233,7 @@
           		          		
              	<div class="button-set centered">
                   <button class="button big tertiary submit no-margin" title="Lass uns dich so schnell wie möglich kennenlernen">Jetzt mit Profil bewerben</button>
-                  <a href="#kontakt" class="button big tertiary silent white" title="Normal auf Stelle/Job bewerben - Als Customer Success Manager">Normal Bewerben</a>
+                  <a href="#kontakt" class="button big tertiary silent white" title="Normal auf Stelle/Job bewerben - Als ">Normal Bewerben</a>
                 </div>
       		</div>
   		</div>
