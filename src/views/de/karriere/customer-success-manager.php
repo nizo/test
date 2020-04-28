@@ -156,7 +156,7 @@
 			<div class="shadow-box padding" style="height: 100%"> 
             	<h2 class="centered">Deine Skills</h2>
             	<ul class="list approved-list">
-            		<li>Du hast bereits Erfahrungen in einer B oder Sales-Rolle sammeln können, vorzugsweise in den Bereichen Software-as-a-Service (SaaS)</li>
+            		<li>Du hast bereits Erfahrungen in einer Business-Development- oder Sales-Rolle sammeln können, vorzugsweise in den Bereichen Software-as-a-Service (SaaS)</li>
             		<li>Ausgeprägtes Organisationsvermögen und Durchsetzungsvermögen sowie Führungsstärke auch in hektischen Zeiten und unter Zeitdruck sind für dich selbstverständlich</li>
             		<li>Deine strukturierte und professionelle Arbeitsweise zeichnet Dich aus</li>
             		<li>Du kannst dich und andere motivieren und lässt dich von einem engagierten Team weiter anspornen, die gemeinsamen Ziele zu erreichen oder sogar zu übertreffen</li>
