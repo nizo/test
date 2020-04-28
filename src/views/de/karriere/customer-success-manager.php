@@ -110,8 +110,7 @@
 	<div class="content thin centered">
 		<div class="shadow-box padding">
 			<strong class="h1">Wer wir sind</strong>
-			<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
-    		Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
+			<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. Wir sind in Deutschland führender Anbieter innovativer Telefonielösungen. CallOne ist ein kleines, aber sehr stark wachsendes Unternehmen mit großen namhaften Kunden. Und Du? Du bist unser neues Ass im Ärmel.</p>
 		</div>
     </div>
     <div class="content thin margin-top-40">
@@ -139,14 +138,16 @@
             <strong>Ab sofort</strong>
           </div>
         </div>
-		<p class="padding-top-40">Als <strong>Customer Success Manager</strong> (m/w/d) bist Du Teil unseres starken Projektteams und unterstützt dies dabei, neue und bestehende Kunden zu betreuen.</p>
+		<p class="padding-top-40">Du möchtest Projekte eigenverantwortlich umsetzen? Du möchtest individuelle Lösungen und Strategien erarbeiten? Und hast Spaß in der zielorientierten Betreuung von Kunden? Dann suchen wir Dich, als als <strong>Customer Success Manager</strong> (m/w/d) für unser starkes Projektteam.</p>
 		<ul class="list approved-list">
-			<li>Du stehst in frequentiertem Kundenkontakt, sei es telefonisch, per E-Mail, Websession oder vor Ort.</li>
-			<li>Dein Ziel ist es, CallOne den Kunden in einem ersten Gespräch näher zu bringen und diesen anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen zu qualifizieren</li>
-			<li>Anschließend unterstützt du tatkräftig mit dem Set-up & Vorbereitungen von Meetings mit potenziellen Kunden</li>
-			<li>Du führst eigenständig unternehmensspezifische Recherchen durch und weißt immer, warum CallOne unseren Kunden einen Mehrwert bietet und wie dieser aussieht</li>
-			<li>Du machst detaillierte Aufzeichnungen über unsere Kundenhistorie mit Hilfe Meistertask (unserer ProjektManagement App)</li>
-		</ul>
+			<li>Nach erfolgreicher Akquise durch das Vertriebsteam, stehst Du im frequentiertem B2B-Kundenkontakt (telefonisch, per E-Mail, Websession, vor Ort)</li>
+			<li>Du bist Fist-Point-of-Contact und somit federführend verantwortlich für die reibungslose Umsetzung der kundenspezifischen CallCenter Lösung</li>
+			<li>Im ersten Schritt präsentierst Du CallOne und qualifizierst Kunden anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen</li>
+			<li>Du schaust über den Tellerrand hinaus und erarbeitest auch in zeitkritischen Situationen ein zielführendes Ergebnis</li>
+			<li>Zusammen mit dem CallOne Vertriebsteam und der Geschäftsleitung erarbeitest Du individuelle Lösungen rund um die Telefonie</li>
+			<li>Du unterstützt aus operativer und technischer Sicht bei dem Setup und der Umsetzung unserer Lösung</li>
+	    		<li>Die Kundenrecherche, die Vorbereitung von Meetings und Präsentationen sowie die Dokumentation des Projektverlaufs ist ebenfalls Tagesgeschäft</li>
+	    </ul>
 	</div>
   </div>
   <div class="content wide margin-top-40">
@@ -169,11 +170,15 @@
             	<h2 class="centered">Deine Benefits</h2>
             	<ul class="list approved-list">
             		<li>Festanstellung (Vollzeit) in denen Überstunden eher die Ausnahme als die Regel ist</li>
-            		<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
+            		<li>Bonus und Erfolgsbeteiligung</li>
+			<li>30 Tage Urlaub</li>
+			<li>Weiterentwicklung durch spannende und herausfordernde Projekte mit namenhaften Kunden</li>
+			<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
             		<li>Lebendige und offene Unternehmenskultur mit flachen Hierarchien und kurzen Kommunikationswegen</li>
-            		<li>30 Tage Urlaub</li>
             		<li>Natürlich musst du bei uns auch nicht verhungern und verdursten, Getränke, Kaffee, Snacks etc. so viel du willst</li>
-            	</ul>
+            		
+			
+			</ul>
         	</div>
         </div>
   	</div>
