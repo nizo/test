@@ -91,12 +91,12 @@
         <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_02.svg" data-srcset="/assets/images/icons_svg/job_big_02.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>Costumer Success Manager (w/m/d) in Potsdam​</h1>
+        <h1>Customer Success Manager (w/m/d) in Potsdam​</h1>
         <div class="button-set flex desktop-hidden">
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-	       	Wir haben einen Job für dich, den du lieben wirst: als Costumer Success Manager für unseren Standort in der Potsdamer Innenstadt.​
+	       	Wir haben einen Job für dich, den du lieben wirst: als Customer Success Manager für unseren Standort in der Potsdamer Innenstadt.​
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
