@@ -141,7 +141,7 @@
 		<p class="padding-top-40">Du möchtest Projekte eigenverantwortlich umsetzen? Du möchtest individuelle Lösungen und Strategien erarbeiten? Und hast Spaß in der zielorientierten Betreuung von Kunden? Dann suchen wir Dich, als als <strong>Customer Success Manager</strong> (m/w/d) für unser starkes Projektteam.</p>
 		<ul class="list approved-list">
 			<li>Nach erfolgreicher Akquise durch das Vertriebsteam, stehst Du im frequentiertem B2B-Kundenkontakt (telefonisch, per E-Mail, Websession, vor Ort)</li>
-			<li>Du bist Fist-Point-of-Contact und somit federführend verantwortlich für die reibungslose Umsetzung der kundenspezifischen CallCenter Lösung</li>
+			<li>Du bist First-Point-of-Contact und somit federführend verantwortlich für die reibungslose Umsetzung der kundenspezifischen CallCenter Lösung</li>
 			<li>Im ersten Schritt präsentierst Du CallOne und qualifizierst Kunden anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen</li>
 			<li>Du schaust über den Tellerrand hinaus und erarbeitest auch in zeitkritischen Situationen ein zielführendes Ergebnis</li>
 			<li>Zusammen mit dem CallOne Vertriebsteam und der Geschäftsleitung erarbeitest Du individuelle Lösungen rund um die Telefonie</li>
