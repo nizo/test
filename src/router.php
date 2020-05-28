@@ -143,6 +143,18 @@ $r->addRoute('GET', '/impressum', function() {
   require_once('./layouts/footer.php');
 });
 
+/* Downloads: MicroSIP */
+$r->addRoute('GET', '/microsip', function() {
+  $title = 'MicroSIP vorkonfiguriert';
+  $description = 'Um Dir den Konfigurationsaufwand zu ersparen, bieten wir einen direkt vorkonfigurierten SIP-Client an.';
+  $keywords = 'voip, microsip';
+  $background = 'full-bg background-transition';
+  $ogUrl = $GLOBALS['url'] . '/microsip';
+  require_once('./layouts/header.php');
+  require_once('./views/de/microsip.php');
+  require_once('./layouts/footer.php');
+});
+
 
 /* Preiskalkulator */
 $r->addRoute('GET', '/preiskalkulator', function() {
