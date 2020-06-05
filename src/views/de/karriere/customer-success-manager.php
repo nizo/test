@@ -91,12 +91,12 @@
         <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_02.svg" data-srcset="/assets/images/icons_svg/job_big_02.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>Customer Success Manager (w/m/d) in Potsdam​</h1>
+        <h1>Costumer Success Manager (w/m/d) in Potsdam​</h1>
         <div class="button-set flex desktop-hidden">
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-	       	Wir haben einen Job für dich, den du lieben wirst: als Customer Success Manager für unseren Standort in der Potsdamer Innenstadt.​
+	       	Wir haben einen Job für dich, den du lieben wirst: als Costumer Success Manager für unseren Standort in der Potsdamer Innenstadt.​
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
@@ -106,56 +106,43 @@
   </div>
 </div>
 
-<div class="wrapper mobile-hidden">
-	<div class="content thin centered">
-		<div class="shadow-box padding">
-			<strong class="h1">Wer wir sind</strong>
-			<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. Wir sind in Deutschland führender Anbieter innovativer Telefonielösungen. CallOne ist ein kleines, aber sehr stark wachsendes Unternehmen mit großen namhaften Kunden. Und Du? Du bist unser neues Ass im Ärmel.</p>
-		</div>
-    </div>
-    <div class="content thin margin-top-40">
-    	<div class="button-set centered">
-      		<a href="/ueber-uns" class="button big secondary" title="Mehr über uns" target="_blank">Über Uns</a>
-    	</div>
-    </div>
-</div>
-
-<div class="wrapper mobile-hidden quarter-background" id="more">
-  <div class="content wide centered">
-    <strong class="h1 white">Der Job</strong>
-    <div class="shadow-box padding">
-        <div class="grid">
-          <div class="col-3">
+<div class="wrapper mobile-hidden" id="more">
+  <div class="content narrow centered">
+    
+    <div class="padding">
+		<strong class="h1">Der Job</strong>
+		<p class="padding-top-40">Als <strong>Customer Success Manager</strong> (m/w/d) bist Du Teil unseres starken Projektteams und unterstützt dies dabei, neue und bestehende Kunden zu betreuen.</p>
+		<ul class="list approved-list">
+			<li>Du stehst in frequentiertem Kundenkontakt, sei es telefonisch, per E-Mail, Websession oder vor Ort.</li>
+			<li>Dein Ziel ist es, CallOne den Kunden in einem ersten Gespräch näher zu bringen und diesen anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen zu qualifizieren</li>
+			<li>Anschließend unterstützt du tatkräftig mit dem Set-up & Vorbereitungen von Meetings mit potenziellen Kunden</li>
+			<li>Du führst eigenständig unternehmensspezifische Recherchen durch und weißt immer, warum CallOne unseren Kunden einen Mehrwert bietet und wie dieser aussieht</li>
+			<li>Du machst detaillierte Aufzeichnungen über unsere Kundenhistorie mit Hilfe Meistertask (unserer ProjektManagement App)</li>
+		</ul>
+	</div>
+	<div class="grid">
+          <div class="col-3 job-specs">
             <img class="icon icon-small" src="/assets/images/icons_svg/small_35.svg" alt="In der Location: Potsdam" />
             <strong>Potsdam</strong>
           </div>
-          <div class="col-3">
+          <div class="col-3 job-specs">
             <img class="icon icon-small" src="/assets/images/icons_svg/small_32.svg" alt="In Vollzeit" />
             <strong>Vollzeit / Unbefristet</strong>
           </div>
-          <div class="col-3">
+          <div class="col-3 job-specs">
             <img class="icon icon-small" src="/assets/images/icons_svg/small_31.svg" alt="Ab Wann? sofort" />
             <strong>Ab sofort</strong>
           </div>
         </div>
-		<p class="padding-top-40">Du möchtest Projekte eigenverantwortlich umsetzen? Du möchtest individuelle Lösungen und Strategien erarbeiten? Und hast Spaß in der zielorientierten Betreuung von Kunden? Dann suchen wir Dich, als als <strong>Customer Success Manager</strong> (m/w/d) für unser starkes Projektteam.</p>
-		<ul class="list approved-list">
-			<li>Nach erfolgreicher Akquise durch das Vertriebsteam, stehst Du im frequentiertem B2B-Kundenkontakt (telefonisch, per E-Mail, Websession, vor Ort)</li>
-			<li>Du bist First-Point-of-Contact und somit federführend verantwortlich für die reibungslose Umsetzung der kundenspezifischen CallCenter Lösung</li>
-			<li>Im ersten Schritt präsentierst Du CallOne und qualifizierst Kunden anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen</li>
-			<li>Du schaust über den Tellerrand hinaus und erarbeitest auch in zeitkritischen Situationen ein zielführendes Ergebnis</li>
-			<li>Zusammen mit dem CallOne Vertriebsteam und der Geschäftsleitung erarbeitest Du individuelle Lösungen rund um die Telefonie</li>
-			<li>Du unterstützt aus operativer und technischer Sicht bei dem Setup und der Umsetzung unserer Lösung</li>
-	    		<li>Die Kundenrecherche, die Vorbereitung von Meetings und Präsentationen sowie die Dokumentation des Projektverlaufs ist ebenfalls Tagesgeschäft</li>
-	    </ul>
-	</div>
   </div>
+</div>
+<div class="wrapper mobile-hidden" id="skills-benefits">
   <div class="content wide margin-top-40">
   	<div class="grid flex">
   		<div class="col-2 flex space-between">
-			<div class="shadow-box padding" style="height: 100%"> 
-            	<h2 class="centered">Deine Skills</h2>
-            	<ul class="list approved-list">
+			<div class="padding" style="height: 100%"> 
+            	<h2>Deine Skills</h2>
+            	<ul class="list approved-list-black">
             		<li>Du hast bereits Erfahrungen in einer Business-Development- oder Sales-Rolle sammeln können, vorzugsweise in den Bereichen Software-as-a-Service (SaaS)</li>
             		<li>Ausgeprägtes Organisationsvermögen und Durchsetzungsvermögen sowie Führungsstärke auch in hektischen Zeiten und unter Zeitdruck sind für dich selbstverständlich</li>
             		<li>Deine strukturierte und professionelle Arbeitsweise zeichnet Dich aus</li>
@@ -166,19 +153,15 @@
     		</div>
 		</div>    
   		<div class="col-2 flex space-between">
-        	<div class="shadow-box padding" style="height: 100%">
-            	<h2 class="centered">Deine Benefits</h2>
-            	<ul class="list approved-list">
+        	<div class="padding" style="height: 100%">
+            	<h2>Deine Benefits</h2>
+            	<ul class="list approved-list-black">
             		<li>Festanstellung (Vollzeit) in denen Überstunden eher die Ausnahme als die Regel ist</li>
-            		<li>Bonus und Erfolgsbeteiligung</li>
-			<li>30 Tage Urlaub</li>
-			<li>Weiterentwicklung durch spannende und herausfordernde Projekte mit namenhaften Kunden</li>
-			<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
+            		<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
             		<li>Lebendige und offene Unternehmenskultur mit flachen Hierarchien und kurzen Kommunikationswegen</li>
+            		<li>30 Tage Urlaub</li>
             		<li>Natürlich musst du bei uns auch nicht verhungern und verdursten, Getränke, Kaffee, Snacks etc. so viel du willst</li>
-            		
-			
-			</ul>
+            	</ul>
         	</div>
         </div>
   	</div>
@@ -188,6 +171,7 @@
     	<a href="/karriere#benefits" class="button big tertiary" title="Was wir Dir bieten" target="_blank">Was wir Dir bieten</a>
     </div>
   </div> 
+</div>
 </div>
 
 <div class="wrapper desktop-hidden margin-top-40">
@@ -219,7 +203,7 @@
     </div>
 </div>
 
-<div class="wrapper mobile-hidden background">
+<div class="wrapper mobile-hidden background" id="quick-application">
   <div class="content narrow centered">
     <h2 class="h1 padding-top-60">Passt? 1.000 Fragen? Wir auch. <br>Lass uns dich so schnell wie möglich kennenlernen.</h2>
     <form action="#" class="form shortApplication js-form">

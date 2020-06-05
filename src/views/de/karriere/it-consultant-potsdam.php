@@ -83,19 +83,20 @@
 }
 </script>
 
+
 <div class="wrapper job-header">
   <div class="content wide">
     <header class="main-header">
       <div class="media centered mobile-hidden">
-        <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_03.svg" data-srcset="/assets/images/icons_svg/job_big_03.svg" class="lazy" alt="IT Consultant gesucht!" />
+        <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_03.svg" data-srcset="/assets/images/icons_svg/job_big_03.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>IT Consultant (m/w/d) in Potsdam​</h1>
+        <h1>IT Consultant (w/m/d) in Potsdam​</h1>
         <div class="button-set flex desktop-hidden">
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-	       	Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Dabei liebst du den Umgang mit anderen Menschen? Dann haben einen Job für dich, den du lieben wirst: als IT Consultant für unseren Standort in der Potsdamer Innenstadt.​
+			Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Dabei liebst du den Umgang mit anderen Menschen? Dann haben einen Job für dich, den du lieben wirst: als IT Consultant für unseren Standort in der Potsdamer Innenstadt.​​
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
@@ -105,55 +106,36 @@
   </div>
 </div>
 
-<div class="wrapper mobile-hidden">
-	<div class="content thin centered">
-		<div class="shadow-box padding">
-			<strong class="h1">Wer wir sind</strong>
-			<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
-    		Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
-    		<p>Und Du?​ Du bist unser neues Ass im Ärmel</p>
-    		<p>Mit jedem Schritt betreten wir Neuland und wir tun alles dafür, die besten am Markt zu sein. 
-    		Warum? Weil Kundenservice Unternehmen ein Riesenpotenzial bietet, ihr Angebot auf den Menschen auszurichten: auf dich und mich. Das macht nicht nur die Unternehmen besser, ihre Arbeit effizienter und ihre Mitarbeiter glücklicher. 
-    		Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
-    		<p>Deshalb brauchen wir dich.</p>
-		</div>
-    </div>
-    <div class="content thin margin-top-40">
-    	<div class="button-set centered">
-      		<a href="/ueber-uns" class="button big secondary" title="Mehr über uns" target="_blank">Über Uns</a>
-    	</div>
-    </div>
-</div>
-
-<div class="wrapper mobile-hidden quarter-background" id="more">
-  <div class="content wide centered">
-    <strong class="h1 white">Der Job</strong>
-    <div class="shadow-box padding">
-        <div class="grid">
-          <div class="col-3">
+<div class="wrapper mobile-hidden" id="more">
+  <div class="content narrow centered">
+    
+    <div class="padding">
+		<strong class="h1">Der Job</strong>
+		<p class="padding-top-40">Als <strong>IT Consultant</strong> kümmerst du dich um unsere Schlüsselkunden, dass sie sich wohlfühlen. Du übernimmst verantwortungsvolle Aufgaben vom Onboaring und bist erster Ansprechpartner für technische Themenstellungen. Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
+	</div>
+	<div class="grid">
+          <div class="col-3 job-specs">
             <img class="icon icon-small" src="/assets/images/icons_svg/small_35.svg" alt="In der Location: Potsdam" />
             <strong>Potsdam</strong>
           </div>
-          <div class="col-3">
+          <div class="col-3 job-specs">
             <img class="icon icon-small" src="/assets/images/icons_svg/small_32.svg" alt="In Vollzeit" />
             <strong>Vollzeit / Unbefristet</strong>
           </div>
-          <div class="col-3">
-            <img class="icon icon-small" src="/assets/images/icons_svg/small_31.svg" alt="Ab Wann? sofort" />
+          <div class="col-3 job-specs">
+            <img class="icon icon-small" src="/assets/images/icons_svg/small_31.svg" alt="Ab Wann? sofort!" />
             <strong>Ab sofort</strong>
           </div>
         </div>
-		<p class="padding-top-40">Als <strong>IT Consultant</strong> kümmerst du dich um unsere Schlüsselkunden, dass sie sich wohlfühlen. 
-		Du übernimmst verantwortungsvolle Aufgaben vom Onboaring und bist erster Ansprechpartner für technische Themenstellungen. 
-		Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
-	</div>
   </div>
+</div>
+<div class="wrapper mobile-hidden" id="skills-benefits">
   <div class="content wide margin-top-40">
   	<div class="grid flex">
   		<div class="col-2 flex space-between">
-			<div class="shadow-box padding" style="height: 100%"> 
-            	<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
-            	<ul class="list approved-list">
+			<div class="padding" style="height: 100%"> 
+            	<h2>Wobei wir Deine Hilfe brauchen</h2>
+            	<ul class="list approved-list-black">
             		<li>Du bringst deine Ideen und dein technisches Wissen in die stetige Weiterentwicklung unserer Produkte ein</li>
             		<li>In enger Zusammenarbeit mit dem technischen Support erarbeitest du Konzepte zur ständigen Qualitätsoptimierung</li>
             		<li>Du bietest Hilfestellung bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
@@ -162,14 +144,14 @@
     		</div>
 		</div>    
   		<div class="col-2 flex space-between">
-        	<div class="shadow-box padding" style="height: 100%">
-            	<h2 class="centered">Was wir uns wünschen</h2>
-            	<ul class="list approved-list">
+        	<div class="padding" style="height: 100%">
+            	<h2>Was wir uns wünschen</h2>
+            	<ul class="list approved-list-black">
             		<li>Technisches Studium oder technische Ausbildung / Arbeitserfahrung</li>
             		<li>Klarer Kommunikationsstil, sowohl mündlich als auch schriftlich</li>
             		<li>Begeisterungsfähigkeit und Wissensdurst</li>
             		<li>Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben</li>
-            		<li>Teamgeist</li> 
+            		<li>Teamgeist</li>
             	</ul>
         	</div>
         </div>
@@ -181,6 +163,7 @@
     </div>
   </div> 
 </div>
+</div>
 
 <div class="wrapper desktop-hidden margin-top-40">
 	<div class="content">
@@ -191,8 +174,8 @@
                 	<ul class="list approved-list">
                 		<li>Du bringst deine Ideen und dein technisches Wissen in die stetige Weiterentwicklung unserer Produkte ein</li>
                 		<li>In enger Zusammenarbeit mit dem technischen Support erarbeitest du Konzepte zur ständigen Qualitätsoptimierung</li>
-                		<li>Du bietest Hilfestellung bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
-                		<li>Du arbeitest eng mit Vertrieb und Entwicklung</li>
+            			<li>Du bietest Hilfestellung bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
+            			<li>Du arbeitest eng mit deinen großartigen, smarten Kollegen zusammen und bekommst alle Unterstützung, die du brauchst</li>
                 	</ul>
         		</div>
   			</div>    
@@ -200,10 +183,11 @@
             	<div class="shadow-box padding">
                 	<h2 class="centered">Was wir uns wünschen</h2>
                 	<ul class="list approved-list">
-                		<li>Technisches Studium oder technische Ausbildung / Arbeitserfahrung</li>
-                		<li>Erfahrung in der Kundenbetreuung von SaaS-Lösungen​</li>
-                		<li>Klarer Kommunikationsstil, sowohl mündlich als auch schriftlich​​</li>
-                		<li>Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben​</li>
+						<li>Technisches Studium oder technische Ausbildung / Arbeitserfahrung</li>
+						<li>Klarer Kommunikationsstil, sowohl mündlich als auch schriftlich</li>
+						<li>Begeisterungsfähigkeit und Wissensdurst</li>
+						<li>Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben</li>
+						<li>Teamgeist</li>
                 	</ul>
             	</div>
             </div>
@@ -211,13 +195,13 @@
     </div>
 </div>
 
-<div class="wrapper mobile-hidden background">
+<div class="wrapper mobile-hidden background" id="quick-application">
   <div class="content narrow centered">
     <h2 class="h1 padding-top-60">Passt? 1.000 Fragen? Wir auch. <br>Lass uns dich so schnell wie möglich kennenlernen.</h2>
     <form action="#" class="form shortApplication js-form">
   		<input type="hidden" name="type" value="4">
   		<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
-  		<input type="hidden" name="issue" value="<?= isset($jobsTitle)? $jobTitle : 'Kurzbewerbung IT Consultant'?>">
+  		<input type="hidden" name="issue" value="<?= isset($jobsTitle)? $jobTitle : 'Kurzbewerbung'?>">
         <div class="wrapper"> 	
       		<div class="content thin">
     			<p>
@@ -230,7 +214,7 @@
           		          		
              	<div class="button-set centered">
                   <button class="button big tertiary submit no-margin" title="Lass uns dich so schnell wie möglich kennenlernen">Jetzt mit Profil bewerben</button>
-                  <a href="#kontakt" class="button big tertiary silent white" title="Normal auf Stelle/Job bewerben - Als Customer Success Manager">Normal Bewerben</a>
+                  <a href="#kontakt" class="button big tertiary silent white" title="Normal auf Stelle/Job bewerben - Als ">Normal Bewerben</a>
                 </div>
       		</div>
   		</div>
@@ -276,66 +260,6 @@
     </div>
   </div>
 </div>
-<!-- 
-<div class="wrapper desktop-hidden">
-  <div class="content centered" style="padding: 0;"> 
-        <div class="swiper-container was-wir-bieten single no-width-100">
-        	<div class="swiper-wrapper">
-                	<div class="swiper-slide">
-                	<div class="grid"> 
-                		<div class="col-2">
-                			<img src="/assets/images/icons_svg/small_20.svg" alt="Apps &amp; Schnittstellen" class="icon" />
-        					<h3>Potsdam. You're welcome.</h3>
-        					<p>Büro im Herzen von Potsdam.</p>
-                		</div>
-                		<div class="col-2">
-                			<img src="/assets/images/icons_svg/small_20.svg" alt="Apps &amp; Schnittstellen" class="icon" />
-        					<h3>Cream of the team</h3>
-        					<p>Kleines Team mit flachen Hierarchien.</p>
-                		</div>
-                		</div>
-             		</div>
-             		<div class="swiper-slide">
-             		<div class="grid"> 	
-             			<div class="col-2">
-             				<img src="/assets/images/icons_svg/small_20.svg" alt="Apps &amp; Schnittstellen" class="icon" />
-        					<h3>Unkonventionell konventionell</h3>
-        					<p>Stabiler Job im Tech-Umfeld.</p>
-                		</div>
-             			<div class="col-2">
-             				<img src="/assets/images/icons_svg/small_20.svg" alt="Apps &amp; Schnittstellen" class="icon" />
-        					<h3>Kein Stress</h3>
-        					<p>Pünktlicher Feierabend.</p>
-                		</div>
-             		</div>
-             		</div>
-             		<div class="swiper-slide">
-             		<div class="grid"> 	
-             			<div class="col-2">
-             				<img src="/assets/images/icons_svg/small_20.svg" alt="Apps &amp; Schnittstellen" class="icon" />
-        					<h3>Thirsty? Good</h3>
-        					<p>Freie Getränke.</p>
-                		</div>
-             			<div class="col-2">
-             				<img src="/assets/images/icons_svg/small_20.svg" alt="Apps &amp; Schnittstellen" class="icon" />
-        					<h3>Time to improve</h3>
-        					<p>Zeit für Weiterbildungen.</p>
-                		</div>
-             		</div>
-             		</div>	
-			</div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-		</div>
-    </div>
-    <div class="content narrow margin-top-40">
-    	<div class="button-set">
-          <a href="/ueber-uns" class="button secondary" title="Erfahre mehr über Uns">Über Uns</a>
-        </div>
-    </div>
-</div>
--->
 
 <div class="wrapper">
 	<div class="content thin centered">
@@ -435,4 +359,3 @@
     </div> 
   </div>
 </div>
-
