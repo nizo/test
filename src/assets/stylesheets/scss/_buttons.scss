@@ -92,17 +92,18 @@
   		&:hover {
 	      	background-color: #fff;
 	      	border-color: #fff;
-	      	color: $color-secondary-1 !important;	
+	      	color: $color-secondary-1 !important;
       	}
   	}
   	&.black2 {
   		color: #fff;
   		background-color: #000;
   		border-color: #000;
+      line-height: 30px;
   		&:hover {
 	      	background-color: $color-primary;
 	      	border-color: $color-primary;
-	      	color: #000 !important;	
+	      	color: #000 !important;
       	}
   	}
   }
@@ -116,7 +117,7 @@
 	100% calc(100% - var(--notchSize)),
 	calc(100% - var(--notchSize)) 100%,
 	var(--notchSize) 100%,
-	0% calc(100% - var(--notchSize))); 
+	0% calc(100% - var(--notchSize)));
 	clip-path:
 	polygon(0% var(--notchSize),
 	var(--notchSize) 0%,
@@ -135,13 +136,13 @@
 	border-style: solid;
 	border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
 	border-image-slice: 1;
-	
+
 	padding: 15px 20px;
 	display: inline-flex;
-	align-items: center; 
+	align-items: center;
 	top: 50%;
 	margin: 20px 0;
-	
+
 	&:hover {
 	  	  transform: scale(1.1);
 		  color: white;
@@ -152,18 +153,18 @@
 		  border-image-slice: 1;
 		.play-icon {
 			filter: invert(0.5)
-		}	
+		}
 	}
-	
+
 	.play-icon {
 		margin-right: 10px;
 	}
-	
+
   }
   &.quinary {
   	border: 6px solid #65976F;
   	&:hover {
-  		background-color: #000; 
+  		background-color: #000;
   		border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
   	}
   }
@@ -193,7 +194,7 @@
 	    }
   	}
   }
-  
+
   &.secondary-silent {
   }
   &.expertmode {
@@ -363,7 +364,7 @@ p+.button-set {
 		opacity: 0;
 		width: 0;
 		height: 0;
-		
+
 		height: 100%;
 	    width: 100%;
 	    margin: 0 !important;
@@ -388,19 +389,19 @@ p+.button-set {
 		    bottom: 4px;
 		    background-color: #000;
 		    transition: .4s;
-		}		
+		}
 	}
-	
+
 	&.checked {
 		input + .switchSlider {
 		  background-color: #86ed18;
 		}
-		
+
 		input:focus + .switchSlider {
 		   	box-shadow: none;
 	    	outline: none;
 		}
-		
+
 		input + .switchSlider:before {
 		  -webkit-transform: translateX(26px);
 		  -ms-transform: translateX(26px);
