@@ -26,7 +26,7 @@
                        
             preg_match ( '/.*(min\.css)$/', $cssFile, $addCssFile );
             if ( empty($addCssFile) ) {
-                break;
+                continue;
             }
             
             if ($js && !preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) && !preg_match('/application.*$/', $addCssFile[0])) { 

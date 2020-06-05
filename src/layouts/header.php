@@ -38,9 +38,6 @@
     <link rel="preconnect" href="https://www.google.de">
     <link rel="preconnect" href="https://www.google.com">
     <link rel="preconnect" href="https://www.googleadservices.com">
-    
-    <!-- JQuery, remove later -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Load CSS -->
     <?php
@@ -50,7 +47,11 @@
     <noscript>
     	<link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css">	
     </noscript>
-    <link rel="stylesheet" href="/assets/stylesheets/application-1586169754215.min.css" type="text/css">    
+    
+    <?php if (isset($canonical)): ?>
+      <link rel="canonical" href="<?= $canonical ?>" />
+     <?php endif; ?>
+ 
     
     <?php 
 	   require_once('./partials/tracking.php');

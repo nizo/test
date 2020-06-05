@@ -1,3 +1,7 @@
+<script>
+	jsFiles.push("/assets/javascripts/custom/karriere.js");
+</script>
+
 <!-- Header -->
 <div class="wrapper">
   <div class="content wide noOverflow">
@@ -244,10 +248,3 @@
     </div>
   </div>
 </div>
-
-<script>
-$( ".benefit-box" ).click(function() {
-  $(".benefit-desctiption").not(this).slideUp();
-  $(".benefit-description", this).slideToggle();
-});
-</script>
