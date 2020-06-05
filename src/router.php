@@ -143,6 +143,18 @@ $r->addRoute('GET', '/impressum', function() {
   require_once('./layouts/footer.php');
 });
 
+/* Downloads: MicroSIP */
+$r->addRoute('GET', '/microsip', function() {
+  $title = 'MicroSIP vorkonfiguriert';
+  $description = 'Um Dir den Konfigurationsaufwand zu ersparen, bieten wir einen direkt vorkonfigurierten SIP-Client an.';
+  $keywords = 'voip, microsip';
+  $background = 'full-bg background-transition';
+  $ogUrl = $GLOBALS['url'] . '/microsip';
+  require_once('./layouts/header.php');
+  require_once('./views/de/microsip.php');
+  require_once('./layouts/footer.php');
+});
+
 
 /* Preiskalkulator */
 $r->addRoute('GET', '/preiskalkulator', function() {
@@ -209,7 +221,7 @@ $r->addRoute('GET', '/karriere', function() {
         $title = 'CallOne Karriere - Kundenberater';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
         $keywords = '';
-        // $background = 'bg-casestudy';
+        $background = 'bg-casestudy';
         $ogUrl = $GLOBALS['url'] . '/karriere/kundenberater-1st-level-support';
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/kundenberater.php');
@@ -220,7 +232,7 @@ $r->addRoute('GET', '/karriere', function() {
         $title = 'CallOne Karriere - Team Assistenz';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
         $keywords = '';
-        // $background = 'bg-casestudy';
+        $background = 'bg-casestudy';
         $ogUrl = $GLOBALS['url'] . '/karriere/team-assistenz';
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/assistenz.php');
@@ -231,7 +243,7 @@ $r->addRoute('GET', '/karriere', function() {
         $title = 'CallOne Karriere - Technischer Produktmanager';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
         $keywords = '';
-        // $background = 'bg-casestudy';
+        $background = 'bg-casestudy';
         $ogUrl = $GLOBALS['url'] . '/karriere/technischer-produktmanager';
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/produktmanager.php');
@@ -242,7 +254,7 @@ $r->addRoute('GET', '/karriere', function() {
         $title = 'CallOne Karriere - IT Consultant in Potsdam';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere Stelle als IT Consultant in Potsdam';
         $keywords = '';
-        // $background = 'bg-casestudy';
+        $background = 'bg-casestudy';
         $ogUrl = $GLOBALS['url'] . '/karriere/it-consultant-potsdam';
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/it-consultant-potsdam.php');
@@ -253,7 +265,7 @@ $r->addRoute('GET', '/karriere', function() {
         $title = 'Customer Success Manager Stelle/Job in Potsdam - Karriere';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden. Bewirb Dich auf unsere Stelle als Customer Success Manager in Potsdam';
         $keywords = 'Karriere, Customer Success Manager, Potsdam, Job, Stelle, bewerben';
-        // $background = 'bg-casestudy';
+        $background = 'bg-casestudy';
         $ogUrl = $GLOBALS['url'] . '/karriere/job-customer-success-manager-potsdam';
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/customer-success-manager.php');
@@ -264,7 +276,7 @@ $r->addRoute('GET', '/karriere', function() {
         $title = 'Webdesigner/Job in Potsdam - Karriere';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden. Bewirb Dich auf unsere Stelle als Webdesigner in Potsdam';
         $keywords = 'Karriere, Webdesigner, Potsdam, Job, Stelle, bewerben';
-        // $background = 'bg-casestudy';
+        $background = 'bg-casestudy';
         $ogUrl = $GLOBALS['url'] . '/karriere/job-webdesigner-potsdam';
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/webdesigner.php');
