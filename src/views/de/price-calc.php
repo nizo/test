@@ -374,17 +374,6 @@
 													Damit können Sie selbstständig arbeiten oder immer auf uns zurückgreifen.</p>                                 			
                                         		</div>
                                         		
-                                        		<div class="contact">
-                                        			<span class="h1">Nächste Schritte</span>
-                                        			<p>
-                                        				Sie sind an unserem Angebot interessiert? Rufen Sie uns an oder lassen Sie sich von uns zurückrufen, um die nächsten Schritte einzuleiten.
-                                        			</p>
-                                        			<a href="tel:493092033500" title="Fragen? Wir beraten Sie gerne!" class="phonenumber">+49 (0) 30-920 33 500</a>
-                                        			<div class="button-set centered edge-button">
-            											<a class="button senary sl sl-after sl-arrow-right white relative mobile openModal trackedElement" data-label="Callback Preiskalkulator - kostenloser Rückruf" data-category="Link" data-action="Show Callback" data-modal="callback">Kostenloser Rückruf</a>
-                                        			</div>
-                                        		</div>
-                                        		
                                         		<div class="costs">
                                         			<h3>Nutzung- bzw. Bereitstellungskosten</h3>
                                         			<span>Monatlich</span>
@@ -436,11 +425,24 @@
                                         					<span class="more">Zzgl. Nutzungskosten</span>
                                         				</div>
                                         			</div>
-                                        		</div>
+												</div>
+												
+												
                                         	</div>
                                 		</li>
-                                	</ul>
-                                    
+									</ul>
+									
+									<div class="contact">
+										<span class="h1">Nächste Schritte</span>
+										<p>
+											Sie sind an unserem Angebot interessiert? Rufen Sie uns an oder kontaktieren Sie uns, um die nächsten Schritte einzuleiten.
+										</p>
+										<a href="tel:493092033500" title="Fragen? Wir beraten Sie gerne!" class="phonenumber">+49 (0) 30-920 33 500</a>
+										<div class="button-set centered edge-button">
+											<a href="/testen" class="button senary sl sl-after sl-arrow-right white relative mobile trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
+										</div>
+									</div>
+									
                                     <div class="errorMSG"></div>
             					</div>
             				</div>
