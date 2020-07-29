@@ -77,7 +77,9 @@ function decode(str) {
 function animateValue(id, start, end, duration) {
     // assumes integer values for start and end
     
-    var obj = document.getElementById(id);
+	var obj = document.getElementById(id);
+	if (!obj) return;
+	
     var range = end - start;
     // no timer shorter than 50ms (not really visible any way)
     var minTimer = 50;

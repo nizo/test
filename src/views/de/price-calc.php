@@ -8,56 +8,18 @@
 		
 		<form class="segm_ctr chat form flex">
 			<div class="bg-height"></div>
-    		<div class="step step0 fadeOutLeft animated" style="position: absolute; top: 40px;">
-    			<div class="chatHeaderNav grid mobile-hidden">
-        			<div class="col-2"></div>
-    				<div class="col-2 right statusbar mobile-hidden">
-    					<div class="progress">
-                        	<div class="progress-bar"></div>
-                        </div>
-    				</div>
-    			</div>
-    			<div class="chatContent relative">
-            		<div class="image thumbnail">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy"/>
-            		</div>
-        			<div class="shadow-box">
-            			<div class="grid segm">
-            				<div class="col-1 no-margin-bottom position">
-            					<div class="chatHeader">
-            						<p>Guten Tag, ich bin Björn Bendig von CallOne. Mit Ihrer Hilfe kann ich Ihnen zeigen welche unserer Produkte zu Ihrer Organisation passen.</p>
-            						<h2>Verraten Sie uns Ihren Namen?</h2>
-            					</div>
-            					<div class="chatBody">
-            						<div class="grid no-margin-bottom">
-            							<div class="col-2 no-margin-bottom">
-                							<input class="iE" type="text" name="firstName" placeholder="Vorname" required />
-                						</div>
-                						<div class="col-2 no-margin-bottom">
-                							<input class="iE" type="text" name="name" placeholder="Name" required />
-                						</div>
-            						</div>
-            						<p class="smallText">Wir benötigen den Namen lediglich zur persönlichen Ansprache im Konfigurator, speichern in aber nicht auf unserem Servern. Alternativ einfach auch ohne Namen starten.</p>
-            					</div>
-            				</div>
-            			</div>
-            			<div class="button-set relative edge-button">
-            				<div class="button senary nextStep sl sl-after sl-arrow-right white relative mobile" data-show-step="step1" data-hide-step="step0">Beginnen wir</div>
-            			</div>
-        			</div>
-        		</div>
-    		</div>
-    		<div class="step step1 animated fadeInLeft fadeOutLeft goAway" style="position: absolute; top: 40px;">
+
+    		<div class="step step1 animated fadeInLeft fadeOutLeft" style="position: absolute; top: 40px;">
     			<div class="chatHeaderNav grid mobile-hidden">
     				<div class="col-2"></div>
     				<div class="col-2 right statusbar mobile-hidden">
-    				<div class="progressValue">
-    					<div id="valueProgressstep1" data-from="25" data-to="50">25</div> %
-    				</div>
+						<div class="progressValue">
+							<div id="valueProgressstep1" data-from="25" data-to="50">25</div> %
+						</div>
     					<div class="progress">
                         	<div class="progress-bar"></div>
                         </div>
-    				</div>             		
+    				</div>
     			</div>
     			<div class="chatContent relative">
         			<div class="image thumbnail">
@@ -67,9 +29,7 @@
             			<div class="grid segm">
             				<div class="col-1 no-margin-bottom position">
             					<div class="chatHeader">
-            						<p class="ansprache">
-            							<span class="noName" style="display: none;">Mhh... kein Name? OK! Dann willkommen <span class="firstName"></span> <span class="name"></span></span>
-            							<span class="gotName">Willkommen <span class="firstName"></span> <span class="name"></span></span></p>
+									<p>Guten Tag, ich bin Björn Bendig von CallOne. Mit Ihrer Hilfe kann ich Ihnen zeigen welche unserer Produkte zu Ihrer Organisation passen.</p>
             						<h2>Wer in Ihrem Unternehmen soll telefonieren?</h2>
             					</div>
             					<div class="chatBody">
@@ -311,7 +271,7 @@
             			<div class="grid segm">
             				<div class="col-1 no-margin-bottom position">
             					<div class="chatHeader">
-            						<p class="headline h2" style="font-weight: 300; font-family: apercu;">Liebe(r) <span class="firstName bold"></span> <span class="name bold"></span>, folgendes könnten wir Ihnen anbieten:</p>
+									<p class="headline h2" style="font-weight: 300; font-family: apercu;">Folgendes könnten wir Ihnen anbieten:</p>
             					</div>
             					<div class="chatBody">
             						<ul>

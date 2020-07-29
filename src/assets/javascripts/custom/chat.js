@@ -1,7 +1,7 @@
 // show and hide ChatConversation Elements
-var user = { 'funName': false };
-var nextStep = 'step1';
-var thisStep = 'step0';
+var user = {};
+var nextStep = '.step1';
+var thisStep = '.step0';
 
 var err = {
 	status: false,
@@ -74,20 +74,10 @@ $('.nextStep').on('click', function () {
 	nextStep = '.' + $(this).attr('data-show-step');
 	thisStep = '.' + $(this).attr('data-hide-step');
 	
-	var randNumber = 0;
-	var userNames = [	
-						[ 'Mister', 'X' ],
-						[ ' ', 'Fantomas' ],
-						[ 'Richie', 'Rich' ],
-						[ ' ', 'Gandalf der Graue' ],
-						[ 'Ingo', 'Inkognito' ],
-						[ ' ', 'Mr. Smith' ]
-					];
-	
 	err = {
 		status: false,
 		step: null,
-		errMSG: 'Es trat ein Fehler auf! Bitte probieren SIe es zu einem späteren Zeitpunkt noch einmal.'
+		errMSG: 'Es trat ein Fehler auf! Bitte probieren Sie es zu einem späteren Zeitpunkt noch einmal.'
 	};	
 	
 	var reqFields = $(thisStep).find('input,textarea,select').filter('[required]:visible');
@@ -166,46 +156,16 @@ $('.nextStep').on('click', function () {
 					err.status = false;
 					err.step = null;
 				}
-			
-				switch ($(v).attr('name')) {
-					case 'firstName':
-						user.firstName = $(v).val();
-						break;
-					case 'name':
-						user.name = $(v).val();
-						break;
-					default:
-						break;
-				}
 			}
-					
 		});
-		
 	}	
-	/* Fikitver Name wenn User keinen Namen eingibt */
-	
-	if ( !user.firstName && !user.name ) {
-		
-		do {
-			randNumber = Math.floor(Math.random() * 10)
-		} while (randNumber > 5);
-		user.firstName = userNames[randNumber][0];
-		user.name = userNames[randNumber][1];
-		
-		user.funName = true;
-		
-		$('.conversation.chat').find('span.noName').css('display', 'block');
-		$('.conversation.chat').find('span.gotName').css('display', 'none');
-	} 
-	
+
 	if ( err.status ) {
 		//fehler geht nicht weiter
 		$(thisStep).find('.errorMSG').html(err.errMSG);
 		$(thisStep).find('.errorMSG').fadeIn('fast');
 	} else {
 		$(thisStep).find('.errorMSG').hide();
-		$('.conversation.chat').find('span.firstName').text(user.firstName);
-		$('.conversation.chat').find('span.name').text(user.name);
 			
 		/*
 		$('.'+thisStep).removeClass('go');

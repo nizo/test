@@ -145,7 +145,7 @@
 		.bg-height {
 			height: 100%;
 			display: block;
-			min-height: 750px
+			min-height: 850px
 		}
 
 		.chatHeaderNav {
@@ -203,16 +203,6 @@
 
 		}
 
-		.step0 {
-			.chatHeaderNav {
-				.progress {
-					.progress-bar {
-						width: 2%;
-						background-color: #9B870C;
-					}
-				}
-			}
-		}
 
 		.step1 {
 			.chatHeaderNav {
@@ -269,7 +259,7 @@
 			right: $gutter-l;
 			display: none;
 
-			&.step0 {
+			&.step1 {
 				display: block;
 			}
 		}
