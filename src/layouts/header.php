@@ -30,7 +30,6 @@
     <meta name="robots" content="index,follow" />
     
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="dns-prefetch" href="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com">
     <link rel="preconnect" href="https://googleads.g.doubleclick.net">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://www.google-analytics.com">

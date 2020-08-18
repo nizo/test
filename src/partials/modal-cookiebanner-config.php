@@ -139,16 +139,6 @@
                         				<div class="head">Cookie-Name</div><div class="desc">test_cookie, IDE</div>
                         				<div class="head">Laufzeit</div><div class="desc">15 Minuten</div>
                     				</div>
-                    				<div class="cookie">
-                        				<div class="head">Name</div><div class="desc">UserLike</div>
-                        				<div class="head">Anbieter</div><div class="desc">Userlike</div>
-                        				<div class="head">Zweck</div><div class="desc">
-                        					Bei dem Cookie "uslk_s", handelt es sich um ein sog. "Session Cookie". Es gewährleistet die Funktionalität der Software und enthält den Persisted State, Machine State, die Session-ID sowie Chat-Statistiken.<br>
-                        					Das Cookie "uslk_e" ist ein "Expire Cookie". Es wird genutzt, damit du bei Gesprächsabbrüchen auf unserer Webseite wieder identifiziert werden kannst. Es enthält eine individuelle User-ID und die Anzahl der Besuche.
-                        				</div>
-                        				<div class="head">Cookie-Name</div><div class="desc">uslk_s, uslk_e</div>
-                        				<div class="head">Laufzeit</div><div class="desc">Session / 1 Jahr</div>
-                    				</div>
                     			</div>
                     		</div>
                     	</div>
