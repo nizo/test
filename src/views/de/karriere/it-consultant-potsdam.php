@@ -111,7 +111,7 @@
     
     <div class="padding">
 		<strong class="h1">Der Job</strong>
-		<p class="padding-top-40">Als <strong>IT Consultant</strong> kümmerst du dich um unsere Schlüsselkunden, dass sie sich wohlfühlen. Du übernimmst verantwortungsvolle Aufgaben vom Onboaring und bist erster Ansprechpartner für technische Themenstellungen. Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
+		<p class="padding-top-40">Als <strong>IT Consultant</strong> kümmerst du dich um unsere Schlüsselkunden, dass sie sich wohlfühlen. Du übernimmst verantwortungsvolle Aufgaben vom Onboarding und bist erster Ansprechpartner für technische Themenstellungen. Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
 	</div>
 	<div class="grid">
           <div class="col-3 job-specs">
