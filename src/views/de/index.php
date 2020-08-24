@@ -77,7 +77,7 @@
 		<div class="video videoTeaser polygon flex column centered">
 			<video autoplay muted loop id="check24-video-teaser" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" class="lazyPoster">
   				<source src="/assets/videos/casestudy-check24-teaser.webm" type="video/webm" />
-  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" data-srcset="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" title="Check24 Casestudy - Über richtig guten Kundenservice" class="lazy" />
+  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" data-srcset="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" alt="Check24 Casestudy - Über richtig guten Kundenservice" title="Check24 Casestudy - Über richtig guten Kundenservice" class="lazy" />
 			</video>
 			<div class="padding">
     			<div class="button-set centered">
