@@ -138,10 +138,10 @@
 			<div class="padding" style="height: 100%"> 
             	<h2>Wobei wir Deine Hilfe brauchen</h2>
             	<ul class="list approved-list-black">
-            		<li>Du bietest 1st und 2nd Level Support bei Fragen im Bereich Netzwerk, Firewall und VoIP/SIP</li>
-            		<li>Du bietest Kunden Hilfestellungen bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
-            		<li>Du arbeitest eng mit Entwicklung und Projektleitung zusammen, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
-            		<li>Du erstellst und pflegst Dokumentationen und FAQs zur ständigen Qualitätsoptimierung</li>
+            		<li>Du bietest <strong>1st und 2nd Level Support</strong> bei Fragen im Bereich <strong>Netzwerk, Firewall und VoIP/SIP</strong></li>
+            		<li>Du bietest Kunden Hilfestellungen bei Fragen zu <strong>Soft- und Hardware</strong>, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
+            		<li>Du arbeitest eng <strong>mit Entwicklung und Projektleitung</strong> zusammen, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
+            		<li>Du erstellst und pflegst <strong>Dokumentationen und FAQs</strong> zur ständigen Qualitätsoptimierung</li>
             	</ul>
     		</div>
 		</div>    
@@ -149,13 +149,13 @@
         	<div class="padding" style="height: 100%">
             	<h2>Was wir uns wünschen</h2>
             	<ul class="list approved-list-black">
-            		<li>Mindestens ein Jahr Berufserfahrung im IT-Bereich; Quereinsteiger*innen mit entsprechendem Know-how sind ebenfalls willkommen</li>
-            		<li>Erfahrungen im (Remote-)Anwendersupport für Software-Lösungen</li>
-            		<li>Grundkenntnisse im Bereich Netzwerk, Firewall-Architekturen und Programmierung (PHP, Python, Java o.Ä. und SQL)</li>
-            		<li>Ggf. Grundkenntnisse in den Bereichen VoIP und SIP sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
-            		<li>Freundlicher und kunden- sowie serviceorientierter Teamplayer mit Lernbereitschaft</li>
-					<li>Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben</li>
-					<li>Sehr gutes Deutsch in Wort & Schrift</li>
+            		<li>Mindestens ein Jahr <strong>Berufserfahrung im IT-Bereich</strong>; Quereinsteiger*innen mit entsprechendem Know-how sind ebenfalls willkommen</li>
+            		<li>Erfahrungen im <strong>(Remote-)Anwendersupport für Software-Lösungen</strong></li>
+            		<li>Grundkenntnisse im Bereich <strong>Netzwerk, Firewall-Architekturen und Programmierung</strong> (PHP, Python, Java o.Ä. und SQL)</li>
+            		<li>Ggf. Grundkenntnisse in den Bereichen <strong>VoIP und SIP</strong> sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
+            		<li>Freundlicher und kunden- sowie serviceorientierter <strong>Teamplayer</strong> mit Lernbereitschaft</li>
+					<li>Eigenständige und zuverlässige Arbeitsweise, sowie die <strong>Eigeninitiative</strong> das ganze Team mit deinen Ideen voranzutreiben</li>
+					<li>Sehr gutes <strong>Deutsch in Wort & Schrift</strong></li>
             	</ul>
         	</div>
         </div>
@@ -176,10 +176,10 @@
   				<div class="shadow-box padding"> 
                 	<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
                 	<ul class="list approved-list">
-                		<li>Du bietest 1st und 2nd Level Support bei Fragen im Bereich Netzwerk, Firewall und VoIP/SIP</li>
-                		<li>Du bietest Kunden Hilfestellungen bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
-            			<li>Du arbeitest eng mit Entwicklung und Projektleitung zusammen, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
-            			<li>Du erstellst und pflegst Dokumentationen und FAQs zur ständigen Qualitätsoptimierung</li>
+                		<li>Du bietest <strong>1st und 2nd Level Support</strong> bei Fragen im Bereich Netzwerk, Firewall und VoIP/SIP</li>
+                		<li>Du bietest Kunden Hilfestellungen bei <strong>Fragen zu Soft- und Hardware</strong>, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
+            			<li>Du arbeitest eng <strong>mit Entwicklung und Projektleitung zusammen</strong>, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
+            			<li>Du erstellst und pflegst <strong>Dokumentationen und FAQs</strong> zur ständigen Qualitätsoptimierung</li>
                 	</ul>
         		</div>
   			</div>    
@@ -187,12 +187,12 @@
             	<div class="shadow-box padding">
                 	<h2 class="centered">Was wir uns wünschen</h2>
                 	<ul class="list approved-list">
-						<li>Mindestens ein Jahr Berufserfahrung im IT-Bereich; Quereinsteiger*innen willkommen</li>
-						<li>Erfahrungen im (Remote-)Anwendersupport für Software-Lösungen</li>
-						<li>Grundkenntnisse im Bereich Netzwerk, Firewall-Architekturen und Programmierung</li>
-						<li>Grundkenntnisse in den Bereichen VoIP und SIP sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
-						<li>Freundlicher und kunden- sowie serviceorientierter Teamplayer mit Lernbereitschaft</li>
-						<li>Sehr gutes Deutsch in Wort & Schrift</li>
+						<li>Mindestens ein Jahr <strong>Berufserfahrung im IT-Bereich</strong>; Quereinsteiger*innen willkommen</li>
+						<li>Erfahrungen im <strong>(Remote-)Anwendersupport für Software-Lösungen</strong></li>
+						<li>Grundkenntnisse im Bereich <strong>Netzwerk, Firewall-Architekturen und Programmierung</strong></li>
+						<li>Grundkenntnisse in den Bereichen <strong>VoIP und SIP</strong> sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
+						<li>Freundlicher und kunden- sowie serviceorientierter <strong>Teamplayer</strong> mit Lernbereitschaft</li>
+						<li>Sehr gutes <strong>Deutsch in Wort & Schrift</strong></li>
                 	</ul>
             	</div>
             </div>
