@@ -43,12 +43,12 @@
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
         <img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
-        <h3>IT Consultant (m/w/d)</h3>
+        <h3>IT-Helpdesk-Mitarbeiter*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
         <p class="job-description-short">
-        Du hast ein solides Arsenal technisches Wissen und kannst Partner, Stakeholder und IT-Mitarbeiter umfassend betreuen?</p>
-        <a href="/karriere/it-consultant-potsdam" class="button lower-button quinary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a>
+        Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?</p>
+        <a href="/karriere/it-helpdesk-potsdam" class="button lower-button quinary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a>
       </div>
 
       <div class="job-box col-3 flex space-between">

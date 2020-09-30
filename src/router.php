@@ -260,6 +260,17 @@ $r->addRoute('GET', '/karriere', function() {
         require_once('./views/de/karriere/it-consultant-potsdam.php');
         require_once('./layouts/footer.php');
     });   
+
+    $r->addRoute('GET', '/karriere/it-helpdesk-potsdam', function() {
+      $title = 'CallOne Karriere - IT-Helpdesk in Potsdam';
+      $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere Stelle als Mitarbeiter*in im IT-Helpdesk in Potsdam';
+      $keywords = '';
+      $background = 'bg-casestudy';
+      $ogUrl = $GLOBALS['url'] . '/karriere/it-helpdesk-potsdam';
+      require_once('./layouts/header.php');
+      require_once('./views/de/karriere/it-helpdesk-potsdam.php');
+      require_once('./layouts/footer.php');
+  });   
     
     $r->addRoute('GET', '/karriere/job-customer-success-manager-potsdam', function() {
         $title = 'Customer Success Manager Stelle/Job in Potsdam - Karriere';
