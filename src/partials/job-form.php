@@ -12,7 +12,7 @@
     		<div class="col-3">
         		<span class="white-cricle">1</span>
                 <p>
-                	Du minmmst kontakt mit uns auf.<br>
+                	Du nimmst Kontakt mit uns auf.<br>
                 	Wir wollen wissen, wer Du bist, was Du machst und wo Deine Talente liegen.
         		</p>
         	</div>

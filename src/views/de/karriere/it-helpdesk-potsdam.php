@@ -98,7 +98,7 @@
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-			Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Im IT-Support fühlst du dich zuhause? Dann haben einen Job für dich, den du lieben wirst: als Mitarbeiter*in im IT-Helpdesk für unseren Standort in der Potsdamer Innenstadt.​​
+			Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Im IT-Support fühlst du dich zuhause? Dann haben wir einen Job für dich, den du lieben wirst: als Mitarbeiter*in im IT-Helpdesk für unseren Standort in der Potsdamer Innenstadt.​​
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
