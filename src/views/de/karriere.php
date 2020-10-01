@@ -32,7 +32,7 @@
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
         <img class="icon" src="/assets/images/icons_svg/job_02.svg" alt="" />
-        <h3>Costumer Success Manager (m/w/d)</h3>
+        <h3>Customer Success Manager*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
         <p class="job-description-short">
@@ -54,7 +54,7 @@
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
         <img class="icon" src="/assets/images/icons_svg/job_04.svg" alt="" />
-        <h3>Webdesigner (m/w/d)</h3>
+        <h3>Webdesigner*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
         <p class="job-description-short">

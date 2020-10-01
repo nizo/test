@@ -82,7 +82,7 @@
   }
 }
 </script>
-<?php $jobTitle = 'Webdesigner (m/w/d)'; ?>
+<?php $jobTitle = 'Webdesigner*in (m/w/d)'; ?>
 <div class="wrapper job-header">
   <div class="content wide">
     <header class="main-header">
@@ -90,7 +90,7 @@
         <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_03.svg" data-srcset="/assets/images/icons_svg/job_big_03.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>Webdesigner (w/m/d) in Potsdam​​</h1>
+        <h1>Webdesigner*in (w/m/d) in Potsdam​​</h1>
         <div class="button-set flex desktop-hidden">
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
@@ -110,7 +110,7 @@
     
     <div class="padding">
 		<strong class="h1">Der Job</strong>
-		<p class="padding-top-40">Als <strong>Webdesigner</strong> kümmerst du dich um das Wohl unserer Kunden auf unseren Webpräsenzen. Du pflegst und erweiterst unser CD, erstellst passende Grafiken für unsere Social Media Kanäle und vieles mehr. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen mit einzubringen.</p>
+		<p class="padding-top-40">Als <strong>Webdesigner*in</strong> kümmerst du dich um das Wohl unserer Kunden auf unseren Webpräsenzen. Du pflegst und erweiterst unser CD, erstellst passende Grafiken für unsere Social Media Kanäle und vieles mehr. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen mit einzubringen.</p>
 	</div>
 	<div class="grid">
           <div class="col-3 job-specs">
