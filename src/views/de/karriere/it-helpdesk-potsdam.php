@@ -20,8 +20,8 @@
     		          Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
     		        <p>Deshalb brauchen wir dich.</p>
                     <strong>Der Job</strong>
-                    <p>Als Mitarbeiter*in im IT-Helpdesk bist du unsere erste Ansprechperson für technische Anforderungen unserer Kunden.  
-						Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
+                    <p>Als Mitarbeiter*in im IT-Helpdesk bist du unsere erste Ansprechperson für technische Anforderungen unserer Kunden.
+					   Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
 					</p>
                     <p>
                         <strong>Wobei wir Deine Hilfe brauchen</strong><br>
