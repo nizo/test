@@ -12,7 +12,7 @@
     		<div class="col-3">
         		<span class="white-cricle">1</span>
                 <p>
-                	Du minmmst kontakt mit uns auf.<br>
+                	Du nimmst Kontakt mit uns auf.<br>
                 	Wir wollen wissen, wer Du bist, was Du machst und wo Deine Talente liegen.
         		</p>
         	</div>
@@ -75,7 +75,7 @@
         		<div class="grid">
         			<div class="col-1">
         				<div class="grid">
-        					<div class="col-2"><h3>Dein Ansprechpartner</h3>
+        					<div class="col-2"><h3>Deine Ansprechpartnerin</h3>
             				<strong class="h4 headline margin-top-40">Stefanie Bendig</strong>
         					<span>Personalabteilung</span>
     					</div>

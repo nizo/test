@@ -10,7 +10,7 @@
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-11-04",
-  "title": " (m/w/d) in Potsdam",
+  "title": "Customer Success Manager*in (m/w/d) in Potsdam",
   "validThrough": "2020-06-30T00:00",
   "description": "  <p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
     		          Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
@@ -91,12 +91,12 @@
         <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_02.svg" data-srcset="/assets/images/icons_svg/job_big_02.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>Costumer Success Manager (w/m/d) in Potsdam​</h1>
+        <h1>Customer Success Manager*in (w/m/d) in Potsdam​</h1>
         <div class="button-set flex desktop-hidden">
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-	       	Wir haben einen Job für dich, den du lieben wirst: als Costumer Success Manager für unseren Standort in der Potsdamer Innenstadt.​
+	       	Wir haben einen Job für dich, den du lieben wirst: als Customer Success Manager*in für unseren Standort in der Potsdamer Innenstadt.​
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
@@ -111,7 +111,7 @@
     
     <div class="padding">
 		<strong class="h1">Der Job</strong>
-		<p class="padding-top-40">Als <strong>Customer Success Manager</strong> (m/w/d) bist Du Teil unseres starken Projektteams und unterstützt dies dabei, neue und bestehende Kunden zu betreuen.</p>
+		<p class="padding-top-40">Als <strong>Customer Success Manager*in</strong> (m/w/d) bist Du Teil unseres starken Projektteams und unterstützt dies dabei, neue und bestehende Kunden zu betreuen.</p>
 		<ul class="list approved-list">
 			<li>Du stehst in frequentiertem Kundenkontakt, sei es telefonisch, per E-Mail, Websession oder vor Ort.</li>
 			<li>Dein Ziel ist es, CallOne den Kunden in einem ersten Gespräch näher zu bringen und diesen anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen zu qualifizieren</li>
@@ -181,7 +181,7 @@
   				<div class="shadow-box padding"> 
                 	<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
                 	<ul class="list approved-list">
-                		<li>Du bist für unsere Kunden Ansprechpartner</li>
+                		<li>Du bist für unsere Kunden Ansprechpartner*in</li>
                 		<li>Du bietest Hilfeleistung zu unserer Telefonielösungen</li>
                 		<li>Du führst Onboardings und Präsentationen durch</li>
                 		<li>Du arbeitest eng mit Vertrieb und Entwicklung</li>

@@ -20,9 +20,9 @@
     		          Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
     		        <p>Deshalb brauchen wir dich.</p>
                     <strong>Der Job</strong>
-                    <p>Als Mitarbeiter*in im IT-Helpdesk bist du die Anlaufstelle für technische Themen unserer Kunden. 
-      	             Du hilfst bei der Konfiguration und Administration unserer IP-Lösungen beim Kunden und analysierst, dokumentierst und bearbeitest Kundenanfragen und -probleme. 
-      	             Dafür bringst du die Fähigkeit mit dich kommunikativ auf Menschen einzulassen, um komplexe Sachverhalte zu definieren und Lösungen zu schaffen.</p>
+                    <p>Als Mitarbeiter*in im IT-Helpdesk bist du unsere erste Ansprechperson für technische Anforderungen unserer Kunden.
+					   Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
+					</p>
                     <p>
                         <strong>Wobei wir Deine Hilfe brauchen</strong><br>
                         <ul>
@@ -98,7 +98,7 @@
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-			Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Im IT-Support fühlst du dich zuhause? Dann haben einen Job für dich, den du lieben wirst: als Mitarbeiter*in im IT-Helpdesk für unseren Standort in der Potsdamer Innenstadt.​​
+			​​Für dein Gehirn ist eine komplexe technische Umgebung wie ein gedeckter Frühstückstisch. Analytisch-strukturiert ist dein bevorzugter Denk- und Arbeitsmodus. Wenn Netzwerke und Firewalls Partys feiern könnten, würden sie dich einladen. Deshalb haben wir einen Job für dich, den du lieben wirst: als IT Consultant für unseren Standort in der Potsdamer Innenstadt.
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
@@ -112,8 +112,10 @@
   <div class="content narrow centered">
     
     <div class="padding">
-		<strong class="h1">Der Job</strong>
-		<p class="padding-top-40">Als <strong>Mitarbeiter*in im IT-Helpdesk</strong> bist du die Anlaufstelle für technische Themen unserer Kunden. Du hilfst bei der Konfiguration und Administration unserer IP-Lösungen beim Kunden und analysierst, dokumentierst und bearbeitest Kundenanfragen und -probleme. Dafür bringst du die Fähigkeit mit dich kommunikativ auf Menschen einzulassen, um komplexe Sachverhalte zu definieren und Lösungen zu schaffen.</p>
+		<strong class="h1">Dein neuer Job</strong>
+		<p class="padding-top-40">
+			Als <strong>Mitarbeiter*in im IT-Helpdesk</strong> bist du erste Ansprechperson für technische Anforderungen unserer Kunden. Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
+		</p>
 	</div>
 	<div class="grid">
           <div class="col-3 job-specs">
@@ -138,10 +140,10 @@
 			<div class="padding" style="height: 100%"> 
             	<h2>Wobei wir Deine Hilfe brauchen</h2>
             	<ul class="list approved-list-black">
-            		<li>Du bietest 1st und 2nd Level Support bei Fragen im Bereich Netzwerk, Firewall und VoIP/SIP</li>
-            		<li>Du bietest Kunden Hilfestellungen bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
-            		<li>Du arbeitest eng mit Entwicklung und Projektleitung zusammen, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
-            		<li>Du erstellst und pflegst Dokumentationen und FAQs zur ständigen Qualitätsoptimierung</li>
+            		<li>Du bietest <strong>1st und 2nd Level Support</strong> bei Fragen im Bereich <strong>Netzwerk, Firewall und VoIP/SIP</strong></li>
+            		<li>Du bietest Kunden Hilfestellungen bei Fragen zu <strong>Soft- und Hardware</strong>, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
+            		<li>Du arbeitest eng <strong>mit Entwicklung und Projektleitung</strong> zusammen, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
+            		<li>Du erstellst und pflegst <strong>Dokumentationen und FAQs</strong> zur ständigen Qualitätsoptimierung</li>
             	</ul>
     		</div>
 		</div>    
@@ -149,13 +151,13 @@
         	<div class="padding" style="height: 100%">
             	<h2>Was wir uns wünschen</h2>
             	<ul class="list approved-list-black">
-            		<li>Mindestens ein Jahr Berufserfahrung im IT-Bereich; Quereinsteiger*innen mit entsprechendem Know-how sind ebenfalls willkommen</li>
-            		<li>Erfahrungen im (Remote-)Anwendersupport für Software-Lösungen</li>
-            		<li>Grundkenntnisse im Bereich Netzwerk, Firewall-Architekturen und Programmierung (PHP, Python, Java o.Ä. und SQL)</li>
-            		<li>Ggf. Grundkenntnisse in den Bereichen VoIP und SIP sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
-            		<li>Freundlicher und kunden- sowie serviceorientierter Teamplayer mit Lernbereitschaft</li>
-					<li>Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben</li>
-					<li>Sehr gutes Deutsch in Wort & Schrift</li>
+            		<li>Mindestens ein Jahr <strong>Berufserfahrung im IT-Bereich</strong>; Quereinsteiger*innen mit entsprechendem Know-how sind ebenfalls willkommen</li>
+            		<li>Erfahrungen im <strong>(Remote-)Anwendersupport für Software-Lösungen</strong></li>
+            		<li>Grundkenntnisse im Bereich <strong>Netzwerk, Firewall-Architekturen und Programmierung</strong> (PHP, Python, Java o.Ä. und SQL)</li>
+            		<li>Ggf. Grundkenntnisse in den Bereichen <strong>VoIP und SIP</strong> sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
+            		<li>Freundlicher und kunden- sowie serviceorientierter <strong>Teamplayer</strong> mit Lernbereitschaft</li>
+					<li>Eigenständige und zuverlässige Arbeitsweise, sowie die <strong>Eigeninitiative</strong> das ganze Team mit deinen Ideen voranzutreiben</li>
+					<li>Sehr gutes <strong>Deutsch in Wort & Schrift</strong></li>
             	</ul>
         	</div>
         </div>
@@ -176,10 +178,10 @@
   				<div class="shadow-box padding"> 
                 	<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
                 	<ul class="list approved-list">
-                		<li>Du bietest 1st und 2nd Level Support bei Fragen im Bereich Netzwerk, Firewall und VoIP/SIP</li>
-                		<li>Du bietest Kunden Hilfestellungen bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
-            			<li>Du arbeitest eng mit Entwicklung und Projektleitung zusammen, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
-            			<li>Du erstellst und pflegst Dokumentationen und FAQs zur ständigen Qualitätsoptimierung</li>
+                		<li>Du bietest <strong>1st und 2nd Level Support</strong> bei Fragen im Bereich Netzwerk, Firewall und VoIP/SIP</li>
+                		<li>Du bietest Kunden Hilfestellungen bei <strong>Fragen zu Soft- und Hardware</strong>, sowie bei der Inbetriebnahme unseres Telefonsystems</li>
+            			<li>Du arbeitest eng <strong>mit Entwicklung und Projektleitung zusammen</strong>, um Kundenprojekte gemeinsam nach vorne zu bringen</li>
+            			<li>Du erstellst und pflegst <strong>Dokumentationen und FAQs</strong> zur ständigen Qualitätsoptimierung</li>
                 	</ul>
         		</div>
   			</div>    
@@ -187,12 +189,12 @@
             	<div class="shadow-box padding">
                 	<h2 class="centered">Was wir uns wünschen</h2>
                 	<ul class="list approved-list">
-						<li>Mindestens ein Jahr Berufserfahrung im IT-Bereich; Quereinsteiger*innen willkommen</li>
-						<li>Erfahrungen im (Remote-)Anwendersupport für Software-Lösungen</li>
-						<li>Grundkenntnisse im Bereich Netzwerk, Firewall-Architekturen und Programmierung</li>
-						<li>Grundkenntnisse in den Bereichen VoIP und SIP sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
-						<li>Freundlicher und kunden- sowie serviceorientierter Teamplayer mit Lernbereitschaft</li>
-						<li>Sehr gutes Deutsch in Wort & Schrift</li>
+						<li>Mindestens ein Jahr <strong>Berufserfahrung im IT-Bereich</strong>; Quereinsteiger*innen willkommen</li>
+						<li>Erfahrungen im <strong>(Remote-)Anwendersupport für Software-Lösungen</strong></li>
+						<li>Grundkenntnisse im Bereich <strong>Netzwerk, Firewall-Architekturen und Programmierung</strong></li>
+						<li>Grundkenntnisse in den Bereichen <strong>VoIP und SIP</strong> sowie Betriebssystemen und Arbeit mit der Browser-Console</li>
+						<li>Freundlicher und kunden- sowie serviceorientierter <strong>Teamplayer</strong> mit Lernbereitschaft</li>
+						<li>Sehr gutes <strong>Deutsch in Wort & Schrift</strong></li>
                 	</ul>
             	</div>
             </div>
