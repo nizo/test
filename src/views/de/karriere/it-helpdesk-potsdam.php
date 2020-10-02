@@ -20,9 +20,9 @@
     		          Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
     		        <p>Deshalb brauchen wir dich.</p>
                     <strong>Der Job</strong>
-                    <p>Als Mitarbeiter*in im IT-Helpdesk bist du die Anlaufstelle für technische Themen unserer Kunden. 
-      	             Du hilfst bei der Konfiguration und Administration unserer IP-Lösungen beim Kunden und analysierst, dokumentierst und bearbeitest Kundenanfragen und -probleme. 
-      	             Dafür bringst du die Fähigkeit mit dich kommunikativ auf Menschen einzulassen, um komplexe Sachverhalte zu definieren und Lösungen zu schaffen.</p>
+                    <p>Als Mitarbeiter*in im IT-Helpdesk bist du unsere erste Ansprechperson für technische Anforderungen unserer Kunden.  
+						Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
+					</p>
                     <p>
                         <strong>Wobei wir Deine Hilfe brauchen</strong><br>
                         <ul>
@@ -98,7 +98,7 @@
           <a href="#kontakt" class="button tertiary">Bewerben</a>
         </div>
         <p class="primary mobile-hidden">
-			Du hast eine gute technische Auffassungsgabe und kannst analytisch-strukturiert denken? Im IT-Support fühlst du dich zuhause? Dann haben wir einen Job für dich, den du lieben wirst: als Mitarbeiter*in im IT-Helpdesk für unseren Standort in der Potsdamer Innenstadt.​​
+			​​Für dein Gehirn ist eine komplexe technische Umgebung wie ein gedeckter Frühstückstisch. Analytisch-strukturiert ist dein bevorzugter Denk- und Arbeitsmodus. Wenn Netzwerke und Firewalls Partys feiern könnten, würden sie dich einladen. Deshalb haben wir einen Job für dich, den du lieben wirst: als IT Consultant für unseren Standort in der Potsdamer Innenstadt.
 	    </p>	    
         <div class="button-set mobile-hidden flex">
           <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
@@ -112,8 +112,10 @@
   <div class="content narrow centered">
     
     <div class="padding">
-		<strong class="h1">Der Job</strong>
-		<p class="padding-top-40">Als <strong>Mitarbeiter*in im IT-Helpdesk</strong> bist du die Anlaufstelle für technische Themen unserer Kunden. Du hilfst bei der Konfiguration und Administration unserer IP-Lösungen beim Kunden und analysierst, dokumentierst und bearbeitest Kundenanfragen und -probleme. Dafür bringst du die Fähigkeit mit dich kommunikativ auf Menschen einzulassen, um komplexe Sachverhalte zu definieren und Lösungen zu schaffen.</p>
+		<strong class="h1">Dein neuer Job</strong>
+		<p class="padding-top-40">
+			Als <strong>Mitarbeiter*in im IT-Helpdesk</strong> bist du erste Ansprechperson für technische Anforderungen unserer Kunden. Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
+		</p>
 	</div>
 	<div class="grid">
           <div class="col-3 job-specs">
