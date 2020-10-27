@@ -24,7 +24,7 @@
 <!-- Aktuelle Stellenangebote -->
 <div class="wrapper background grey" id="angebote">
   <div class="content thin centered">
-    <h2 class="h1">Aktuelle Stellenangebote <span class="job-counter font-secondary">3</span></h2>
+    <h2 class="h1">Aktuelle Stellenbeschreibungen <span class="job-counter font-secondary">3</span></h2>
     <p>Wir freuen uns immer wieder neue Leute kennenzulernen. Vielleicht passt ja eine der folgenden Stellenanzeigen zu dir?</p>
 </div>  
 <div class="content wide centered">
@@ -158,8 +158,8 @@
 
   <div class="content narrow centered">
     <h2 class="h1">Keinen Bock mehr auf Startup?</h2>
-    <p>Superhip, supercool, superstressig. Die Startup-Industrie verheizt seit Jahren richtig gute Leute mit der Aussicht auf das nächste große Ding, Ruhm und Reichtum. </p>
-    <p class="bold">Komm lieber zu uns.</p>
+    <p>Superhip, supercool, superstressig. Du bist aus den Startup-Schuhen herausgewachsen und suchst einen Job bei einem gefestigten Mittelständler? </p>
+    <p class="bold">Komm doch zu uns.</p>
   </div>
 
   <div class="content wide" id="benefits">
@@ -167,26 +167,26 @@
       <div class="benefit-box col-3">
         <h3><img class="icon" src="/assets/images/icons_svg/small_29.svg" alt="Langfristigkeit" /> Langfristigkeit</h3>
         <div class="benefit-description">
-          <p>Job-Hopping bedeutet Stress und immer nur einen kurzen Energieschub. Wir setzen auf langfristige Anstellungen, ziemlich krisensichere und zukunftsfähige Jobs und die Perspektive, das Beste aus dir rauszuholen, damit du zufrieden bist.</p>
+          <p>Job-Hopping bedeutet Stress und immer nur einen kurzen Energieschub. Wir setzen auf langfristige Anstellungen, krisensichere und zukunftsfähige Jobs und die Perspektive, das Beste aus dir rauszuholen, damit du zufrieden bist. </p>
         </div>
       </div>
       <div class="benefit-box col-3">
         <img class="icon" src="/assets/images/icons_svg/small_32.svg" alt="Arbeiten, wann du willst" />
         <h3>Arbeiten, wann du willst</h3>
         <div class="benefit-description">
-        <p>Wichtig ist uns, dass von unserer Arbeit alle profitieren und wir gegenseitig sehen, was unsere Arbeit für einen Einfluss hat. Das bedeutet: fokussiertes, effizientes Arbeiten, das sich an Ergebnissen orientiert, aber pünktlich Feierabend und dein Wochenende gehört dir.</p>
+        <p>Uns allen ist der Wert unserer Arbeit besonders wichtig. Wir wollen, dass unsere Arbeit einen Einfluss hat. Das bedeutet für uns: Fokussiertes, eﬀizientes Arbeiten, das sich an Ergebnissen orientiert. Aber auch pünktlich Feierabend machen zu können und am Wochenende frei zu haben.</p>
         </div>
       </div>
       <div class="col-3 benefit-box">
         <img class="icon" src="/assets/images/icons_svg/small_30.svg" alt="Einatmen, ausatmen" />
         <h3>Einatmen, ausatmen</h3>
         <div class="benefit-description">
-        <p>Statt im Betonklotz in Friedrichshain sitzen wir in Wannsee, dem beschaulichen Mainz und demnächst auch direkt in der Potsdamer Innenstadt. Viel Nähe zur Natur in der Mittagspause und ein ruhiges, stressfreies Arbeitsklima sind Teil deiner Arbeitsumgebung.</p>
+        <p>Statt im Betonklotz in Friedrichshain sitzen wir in Wannsee, dem beschaulichen Mainz und auch direkt in der Potsdamer Innenstadt. Viel Nähe zur Natur in der Mittagspause und ein ruhiges, stressfreies Arbeitsklima sind Teil deiner Arbeitsumgebung. </p>
 </div>
       </div>
       <div class="col-3 benefit-box">
         <img class="icon" src="/assets/images/icons_svg/small_31.svg" alt="Urlaub &amp; Kohle" />
-        <h3>Urlaub &amp; Kohle</h3>
+        <h3>Urlaub &amp; Gehalt</h3>
         <div class="benefit-description">
         <p>30 Tage Urlaub im Jahr und ein überdurchschnittliches Gehalt für überdurchschnittliche Leistung. Wir liegen gern ein paar Stufen über dem Durchschnitt.</p>
 </div>
@@ -195,14 +195,14 @@
         <img class="icon" src="/assets/images/icons_svg/small_34.svg" alt="Mehr für dich" />
         <h3>Mehr für dich</h3>
         <div class="benefit-description">
-        <p>Klar sehen wir zu, dass es dir gut geht und du gesund bleibst: Obst soviel du Essen kannst und Getränke sind inklusive. Und wir haben ein Budget für deine persönliche Entwicklung und Weiterbildung.</p>
+        <p>Unser Standard: Obst soviel du Essen kannst und Getränke sind natürlich inklusive (Kaffee, verschiedene Milchsorten). Dazu kommt: Wir haben ein Budget für deine persönliche Entwicklung und Weiterbildung. </p>
 </div>
       </div>
       <div class="col-3 benefit-box">
         <img class="icon" src="/assets/images/icons_svg/small_33.svg" alt="Struktur, kein Unsinn" />
         <h3>Struktur, kein Unsinn</h3>
         <div class="benefit-description">
-        <p>Keine Bean Bags oder Karaoke. Hierarchien halten wir flach, Strukturen transparent, Kommunikationswege kurz und Wertschätzung hoch. Wir haben eine klare Vision, an der du mitarbeiten und mitentscheiden sollst.</p>
+        <p>Hierarchien halten wir flach, unsere Strukturen sind transparent, die Kommunikationswege kurz und Wertschätzung hoch. Wir haben eine klare Vision, an der du mitarbeiten und mitentscheiden sollst. </p>
 </div>
       </div>
       
@@ -212,7 +212,7 @@
   <div class="content narrow centered">
     <div class="quote-container centered">
     <img class="head-circle" src="/assets/images/photos/jamie.jpg"/>
-    <p class="font-secondary quote">„Ich stehe eigentlich jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“</p>
+    <p class="font-secondary quote">„Ich stehe jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“</p>
     <p class="font-primary">Jamie <br/> <span class="font-secondary bold">Projektleiterin</span></p>
   </div> 
     <!--<p class="bold">Hört sich gut an? Finden wir auch.</p>-->
