@@ -284,7 +284,7 @@
                         		</div>
                         	
                         		<div class="accordion accordion-closeable">
-                        			<span class="title h3">Überblick</span>
+                        			<span class="title h3">Transparenz</span>
                         			<div class="content" style="display: none;">
                                 		<p>CallOne liefert eine Telefonielösung für das gesamte Unternehmen und alle Abteilungen, insbesondere für Ihre Sales- und Kundenserviceabteilung. Dabei bieten wir das wohl umfangreichste Angebot an Echtzeitstatistiken und Statistik-Schnittstellen mit fertigen Anbindungen an relevante  BI-Anbieter (z.B. Tableau &amp; Geckoboard), damit Sie stets den Überblick behalten.</p>	
                                 	</div>
@@ -293,7 +293,7 @@
                         		<div class="accordion accordion-closeable">
                         			<span class="title h3">Wachstum</span>
                         			<div class="content" style="display: none;">
-                                		<p>Für Ihr Wachstum bieten wir eine frei skalierbare, cloudbasierte Telefonielösung, die sich Ihren Anforderungen anpasst. Egal ob 5 oder 1000 User: Sie nutzen nur das, was Sie benötigen und schalten in Sekundenschnelle neue User oder Erweiterungen hinzu — oder wieder aus. Ihre Telefonie soll so individuell und flexibel sein wie Ihr Unternehmen.</p>
+                                		<p>Für Ihr Wachstum bieten wir eine frei skalierbare, cloudbasierte Telefonielösung, die sich Ihren Anforderungen anpasst. Egal ob 5 oder 1000 Anwender: Sie nutzen nur das, was Sie benötigen und schalten in Sekundenschnelle neue User oder Erweiterungen hinzu — oder wieder aus. Ihre Telefonie soll so individuell und flexibel sein wie Ihr Unternehmen.</p>
                                 	</div>
                         		</div>
         					</div>
