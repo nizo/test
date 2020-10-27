@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="text no-padding">
         <h1>CallOne Connect<span class="set-high">©</span></h1>
-        <h2>Schnittstellen, Konnektoren & APIs</h2>
+        <h2>Schnittstellen, Konnektoren & APIs: Alles, was Ihre Sales-Abteilung braucht.</h2>
         <p class="primary">Integrieren Sie Ihre CRM- oder Businesslösung und bauen Sie leistungsstarke CTI-Integrationen mit unseren Schnittstellen.</p>
         <nav class="site-nav shadowbox">
        		<ul class="menu">
