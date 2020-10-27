@@ -27,7 +27,7 @@
 
   <div class="content narrow centered">
     <h2 class="h1">CallOne Preisgestaltung</h2>
-    <p>Keine komplizierten Pläne, volle Kontrolle, immer die richtigen Features – wir sind so transparent wie ein Glas Wasser und so ehrlich, dass Sie uns hassen werden. Aber nur ein bisschen. Denn wir machen Ihre Telefonie zu Kapital.</p> 
+    <p>Keine komplizierten Pläne, volle Kontrolle, immer die richtigen Features – wir sind so transparent wie ein Glas Wasser und machen damit Ihre Telefonie zu Kapital.</p> 
   </div>
 </div>
 
@@ -47,7 +47,7 @@
       <div class="col-3">
         <img class="icon" src="/assets/images/icons_svg/small_21.svg" alt="Nutzung" />
         <h3>günstige Pakete</h3>
-        <p>Sprich mit unserem Sales-Team für günstige Paketpreise.</p>
+        <p>Sprechen Sie mit unserem Sales-Team für günstige Paketpreise.</p>
       </div>
     </div>
   </div>
@@ -73,7 +73,7 @@
       			<ul class="list approved-list">
           			<li>Unlimitierte Agenten & Anrufe</li>
           			<li>Kostenfreie Rufnummernzuführung</li>
-          			<li>Über 200 Profifeatures, Statistiken, APIs</li>
+          			<li>Über 200 Profifunktionen, Statistiken, APIs</li>
       			</ul>
   			</div>
   		</div>
@@ -362,7 +362,7 @@
           <li>Unser Support ist persönlich, proaktiv und auf Ihre <strong>persönlichen Anforderungen</strong> geschult.</li>
           <li>Wir rechnen <strong>fair</strong> und <strong>sekundengenau</strong> ab.</li>
           <li>Unsere <strong>Sprachqualität</strong> ist <strong>einwandfrei</strong> und deshalb auch <strong>zertifiziert</strong>.</li>
-          <li>Wir sind ein <strong>stabiler Partner</strong>, davon zeugen <strong>> 99,995% Erreichbarkeit</strong> die letzten 2 Jahre.</li>
+          <li>Wir sind ein <strong>stabiler Partner</strong>, davon zeugen die <strong>> 99,995% Erreichbarkeit</strong> der letzten 2 Jahre.</li>
         </ul>
 	</div>
   </div>
