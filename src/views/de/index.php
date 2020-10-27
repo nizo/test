@@ -30,8 +30,8 @@
         <div class="text">
           <h2 class="h1"><span class="h2 no-margin-bottom">Lösungen für </span><br>Kundenservice</h2>
           <ul class="list approved-list">
-          	<li><span class="bold">Intelligente Anrufverteilung</span><span class="mobile-hidden"> von Service-Hotlines &ndash; Kunden landen direkt beim richtigen Ansprechpartner.</span></li>
-          	<li><span class="bold">Umfangreiche Statistiken zu allen Anrufen</span><span class="mobile-hidden"> — Calls erfolgreich machen</span></li>
+          	<li><span class="bold">Intelligente Anrufverteilung</span><span class="mobile-hidden"> von Service-Hotlines – Kunden landen direkt beim richtigen Ansprechpartner.</span></li>
+          	<li><span class="bold">Umfangreiche Statistiken zu allen Anrufen</span><span class="mobile-hidden"> – Calls erfolgreich machen.</span></li>
           	<li><span class="bold">Optimierte Erreichbarkeit</span><span class="mobile-hidden"> – schnell und effizient Hilfe leisten.</span></li>
           </ul>
         </div>
@@ -46,9 +46,9 @@
         <div class="text">
           <h2 class="h1"><span class="h2 no-margin-bottom">Lösungen für </span><br>Sales</h2>
           <ul class="list approved-list">
-              <li><span class="bold">Anrufe direkt per Klick</span><span class="mobile-hidden"> aus CRM- oder Salestool auslösen</span></li>
-              <li><span class="bold">Integration in Ihre Businesslösungen</span><span class="mobile-hidden"> — Salesforce, Pipedrive und mehr</span></li>
-              <li><span class="bold">Synchronisierung aller Telefoniedaten</span><span class="mobile-hidden"> — automatisch, über all Ihre Software hinweg </span></li>
+              <li><span class="bold">Anrufe direkt per Klick</span><span class="mobile-hidden"> aus CRM- oder Salestool auslösen.</span></li>
+              <li><span class="bold">Integration in Ihre Businesslösungen</span><span class="mobile-hidden"> – Salesforce, Pipedrive und mehr.</span></li>
+              <li><span class="bold">Synchronisierung aller Telefoniedaten</span><span class="mobile-hidden"> – automatisch, über all Ihre Software hinweg. </span></li>
           </ul>
         </div>
       </div>
@@ -62,9 +62,9 @@
         <div class="text">
           <h2 class="h1"><span class="h2 no-margin-bottom">Lösungen für </span><br>Businesstelefonie</h2>
           	<ul class="list approved-list">
-              <li><span class="bold">Sichere <strong>Hardware &amp; Software</strong></span><span class="mobile-hidden"> — verschlüsselt und abhörsicher</span></li>
-              <li><span class="bold">Perfekte Gesprächsqualität</span><span class="mobile-hidden"> — sagt sogar der TÜV</span></li>
-              <li><span class="bold">Einfache Administration</span><span class="mobile-hidden"> — schnell und intuitiv bedienbar für jeden</span></li>
+              <li><span class="bold">Sichere <strong>Hardware &amp; Software</strong></span><span class="mobile-hidden"> – verschlüsselt und abhörsicher.</span></li>
+              <li><span class="bold">Perfekte Gesprächsqualität</span><span class="mobile-hidden"> – sagt sogar der TÜV.</span></li>
+              <li><span class="bold">Einfache Administration</span><span class="mobile-hidden"> – schnell und intuitiv bedienbar für jeden.</span></li>
 			</ul>
         </div>
       </div>
