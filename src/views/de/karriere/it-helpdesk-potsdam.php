@@ -10,7 +10,7 @@
 	"logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2020-09-30",
-  "title": "IT-Helpdesk-Mitarbeiter*in (m/w/d) in Potsdam",
+  "title": "Mitarbeiter*in im IT-Support (m/w/d) in Potsdam",
   "validThrough": "2020-07-30T00:00",
   "description": "  <p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
 					  Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
@@ -20,7 +20,7 @@
 					  Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
 					<p>Deshalb brauchen wir dich.</p>
 					<strong>Der Job</strong>
-					<p>Als Mitarbeiter*in im IT-Helpdesk bist du unsere erste Ansprechperson für technische Anforderungen unserer Kunden.
+					<p>Als Mitarbeiter*in im IT-Support bist du unsere erste Ansprechperson für technische Anforderungen unserer Kunden.
 					  Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
 					</p>   
 					<p>
@@ -93,7 +93,7 @@
 		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_03.svg" data-srcset="/assets/images/icons_svg/job_big_03.svg" class="lazy" alt="" />
 	  </div>
 	  <div class="text">
-		<h1>IT-Helpdesk-Mitarbeiter*in (m/w/d) in Potsdam​</h1>
+		<h1>Mitarbeiter*in im IT-Support (m/w/d) in Potsdam​</h1>
 		<div class="button-set flex desktop-hidden">
 		  <a href="#kontakt" class="button tertiary">Bewerben</a>
 		</div>
@@ -114,7 +114,7 @@
 	<div class="padding">
 		<strong class="h1">Dein neuer Job</strong>
 		<p class="padding-top-40">
-			Als <strong>Mitarbeiter*in im IT-Helpdesk</strong> bist du erste Ansprechperson für technische Anforderungen unserer Kunden. Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
+			Als <strong>Mitarbeiter*in im IT-Support</strong> bist du erste Ansprechperson für technische Anforderungen unserer Kunden. Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen. Zudem sorgst dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.
 		</p>
 	</div>
 	<div class="grid">
