@@ -10,7 +10,7 @@
       </div>
       <div class="text">
         <h1>Wir bieten <strong class="primary-color">Telefonielösungen</strong>, die <strong class="primary-color">wie für Sie gemacht</strong> sind</h1>
-        <p class="primary">Ihnen bringt das besseren Kundenservice, mehr Sales und entspannte Business-Kommunikation. Außerdem wächst die Konfiguration mit Ihrem Unternehmen.</p>
+        <p class="primary">Ihr Ergebnis: Besserer Kundenservice, mehr Sales und entspannte Business-Kommunikation. </p>
         <div class="button-set">
           <a class="openModal button primary trackedElement" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Angebot einholen</a>
           <a href="/testen" class="button secondary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
@@ -127,7 +127,7 @@
     <div class="wrapper">
       <div class="content thin">
         <h2 class="h1 centered no-padding-top">Kundenmeinungen</h2>
-        <p class="centered">Ob das alles etwas bringt, fragen Sie am besten unsere Kunden.</p>
+        <p class="centered">Das sagen unsere Kunden über uns.</p>
       </div>
       <div class="content narrow margin-top-40 no-padding-mobile">
         <div class="tabs tabs3">
