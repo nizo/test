@@ -362,7 +362,7 @@
           <li>Unser Support ist persönlich, proaktiv und auf Ihre <strong>persönlichen Anforderungen</strong> geschult.</li>
           <li>Wir rechnen <strong>fair</strong> und <strong>sekundengenau</strong> ab.</li>
           <li>Unsere <strong>Sprachqualität</strong> ist <strong>einwandfrei</strong> und deshalb auch <strong>zertifiziert</strong>.</li>
-          <li>Wir sind ein <strong>stabiler Partner</strong>, davon zeugen die <strong>> 99,995% Erreichbarkeit</strong> der letzten 2 Jahre.</li>
+          <li>Wir sind ein <strong>stabiler Partner</strong>, davon zeugen die <strong> 99,995% Erreichbarkeit</strong> der letzten 2 Jahre.</li>
         </ul>
 	</div>
   </div>
