@@ -577,6 +577,17 @@ $r->addRoute('GET', '/case-study-navabi', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/api', function() {
+  $title = 'Api';
+  $description = 'Api';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/api';
+  require_once('./layouts/header.php');
+  require_once('./views/de/api-docs.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';

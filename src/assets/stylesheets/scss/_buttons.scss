@@ -20,6 +20,9 @@
   &.mobileWrap {
   	white-space: inherit;
   }
+  &.rounded {
+    border-radius: 100px;
+  }
   &.primary {
     background-color: $color-secondary-1;
     border: 2px solid $color-secondary-1;

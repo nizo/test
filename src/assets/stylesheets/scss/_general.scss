@@ -529,11 +529,20 @@ img {
   	margin-top: 0;
   }
   &.audioline {
-	width: 100%;
-	background-image: url("/assets/images/illus/audioline.svg");
-	background-repeat: repeat-x;
-	background-position: bottom;
-	background-size: contain;
+  	width: 100%;
+  	background-image: url("/assets/images/illus/audioline.svg");
+  	background-repeat: repeat-x;
+  	background-position: bottom;
+  	background-size: contain;
+  }
+  &.lightgrey {
+    background-color: #f2f2f2;
+  }
+  &.white-lightgreen {
+    background-image: linear-gradient(90deg, #fff 50%, $color-lightgrey-2 50%);
+    .content {
+      background-image: linear-gradient(90deg, #fff 66%, $color-lightgrey-2 66%);
+    }
   }
   &.half-background {
     background-image: linear-gradient(#000, #000 65%, transparent 65%, transparent);
@@ -932,6 +941,11 @@ img {
     }
     &:last-child {
       margin-bottom: $gutter-m;
+    }
+    &.no-gutter-bottom {
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
     &.narrow {
       max-width: 960px;
@@ -1463,5 +1477,19 @@ blockquote {
         background-image: url(../images/icons_png/icon-email.png);
       }
     }
+  }
+}
+
+.big-float-number {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .number {
+    font-size: $font-size-xxxl;
+    line-height: 1;
+    padding-right: $gutter-m;
+  }
+  .text {
+    flex: 1;
   }
 }
