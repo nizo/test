@@ -22,6 +22,7 @@
 </div>
 
 <!-- Aktuelle Stellenangebote -->
+<!-- FIXME: CSS Klasse für Icons erstellen -->
 <div class="wrapper background grey" id="angebote">
   <div class="content thin centered">
     <h2 class="h1">Aktuelle Stellenbeschreibungen <span class="job-counter font-secondary">3</span></h2>
@@ -31,7 +32,7 @@
     <div class="grid tile column flex">
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
-        <img class="icon" src="/assets/images/icons_svg/job_02.svg" alt="" />
+        <img class="auto" src="/assets/images/icons_svg/job_02.svg" alt="" width="140"/>
         <h3>Customer Success Manager*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
@@ -42,7 +43,7 @@
 
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
-        <img class="icon" src="/assets/images/icons_svg/job_03.svg" alt="" />
+        <img class="auto" src="/assets/images/icons_svg/job_03.svg" alt="" width="140"/>
         <h3>Mitarbeiter*in im IT-Support (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
@@ -53,7 +54,7 @@
 
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
-        <img class="icon" src="/assets/images/icons_svg/job_04.svg" alt="" />
+        <img class="auto" src="/assets/images/icons_svg/job_04.svg" alt="" width="140"/>
         <h3>Webdesigner*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
