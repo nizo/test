@@ -93,14 +93,14 @@
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
-          <img class="partnerLogo sw icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-geckoboard.svg" data-srcset="/assets/images/logo/partnerlogos/logo-geckoboard.svg" alt="Geckoboard">
+          <img class="partnerLogo sw icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-geckoboard.svg" data-srcset="/assets/images/logo/partnerlogos/logo-geckoboard.svg" alt="Geckoboard">
           <p>Erstellen Sie mit Geckoboard vollkommen <strong>individuelle Wallboard aus Ihren Anrufdaten</strong>. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen <strong>alle KPIs auf einen Blick</strong> und genau so dargestellt, wie Sie es möchten.</p>
        	  <div class="button-set centered">
         	<a class="openModal button secondary trackedElement" data-label="Button Header - Kontaktieren Sie uns" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Kontaktieren Sie uns</a>
           </div>
         </div>
         <div class="col-2">
-          <img class="partnerLogo sw icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-tableau.svg" data-srcset="/assets/images/logo/partnerlogos/logo-tableau.svg" alt="tableau">
+          <img class="partnerLogo sw icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-tableau.svg" data-srcset="/assets/images/logo/partnerlogos/logo-tableau.svg" alt="tableau">
           <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. <strong>Prognosen erstellen, Trends erkennen und neue Chancen nutzen</strong> – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich <strong>komplett individuell erstellen und visualisieren</strong>.</p>
        	  <div class="button-set centered">
         	<a href="/tableau-callcenter-connector" class="button secondary trackedElement" data-label="Button - Mehr erfahren" data-category="Link" data-action="linked to /tableau-callcenter-connector">Mehr erfahren</a>
