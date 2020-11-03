@@ -291,3 +291,58 @@ slider =
 
 $(document).ready ->
   app.init()
+
+  #
+  # Content Scroller
+  #
+  scrollers = document.querySelectorAll('.scroller')
+  x = 0
+  while x < scrollers.length
+    scroller = scrollers[x]
+    scroller.style.height = scroller.dataset.height + 'px'
+    scrollerWindowHeight = scroller.offsetHeight
+    scrollerBelt = scroller.querySelector('.scroller-belt')
+    scrollerBeltHeight = scrollerBelt.offsetHeight
+    
+    # Calculate how many times content has to be copied
+    n = scrollerWindowHeight
+    d = scrollerBeltHeight
+    count = 0
+    while n >= d
+      n -= d
+      count++
+    count++
+    
+    # Populate box
+    originalContent = scrollerBelt.innerHTML
+    i = 0
+    while i < count
+      scrollerBelt.innerHTML += originalContent
+      i++
+    
+    currentTop = 0
+    animationSpeed = 40; # Pixels per second
+    animationInterval = null
+    animationPaused = false
+    
+    # Actual animation function
+    scroll = () ->
+      if !animationPaused
+        animationStep = animationSpeed / 24
+        currentTop += animationStep
+        scrollerBelt.style.marginTop = '-'+currentTop+'px'
+        if currentTop >= scrollerBeltHeight
+          currentTop = 0
+    
+    # Start animation
+    animationInterval = setInterval(scroll, 1000 / 24);
+    
+    # Stop animation on mouseenter, resume animation on mouseleave
+    scroller.addEventListener 'mouseenter', (e) ->
+      animationPaused = true
+    , false
+    scroller.addEventListener 'mouseleave', (e) ->
+      animationPaused = false
+    , false
+
+    x++

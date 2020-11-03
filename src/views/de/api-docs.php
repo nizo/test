@@ -49,8 +49,19 @@
           <a href="#" class="button primary">[ICON] Zur API-Dokumentation</a>
         </p>
 
-        <div class="content-scroller">
-          wip
+        <div class="scroller fadeOut-lightgrey-2" data-height="300">
+          <div class="scroller-belt">
+            <div class="scroller-content">
+              <h2>Live API</h2>
+              <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
+
+              <h2>Statistics API</h2>
+              <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
+
+              <h2>Text2Speech API</h2>
+              <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
