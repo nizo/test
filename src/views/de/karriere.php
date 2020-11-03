@@ -32,7 +32,7 @@
     <div class="grid tile column flex">
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
-        <img class="auto" src="/assets/images/icons_svg/job_02.svg" alt="" width="140"/>
+        <img src="/assets/images/icons_svg/job_02.svg" alt="" width="140"/>
         <h3>Customer Success Manager*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
@@ -43,7 +43,7 @@
 
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
-        <img class="auto" src="/assets/images/icons_svg/job_03.svg" alt="" width="140"/>
+        <img src="/assets/images/icons_svg/job_03.svg" alt="" width="140"/>
         <h3>Mitarbeiter*in im IT-Support (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
@@ -54,7 +54,7 @@
 
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
-        <img class="auto" src="/assets/images/icons_svg/job_04.svg" alt="" width="140"/>
+        <img src="/assets/images/icons_svg/job_04.svg" alt="" width="140"/>
         <h3>Webdesigner*in (m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
