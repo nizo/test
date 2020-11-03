@@ -7,6 +7,14 @@
   .scroller-belt, .scroller-content {
     overflow: auto;
   }
+  .scroller-content {
+    h2 {
+      margin-bottom: $gutter-m;
+    }
+    p {
+      margin-bottom: $gutter-l;
+    }
+  }
   &.fadeOut-lightgrey-2 {
     &:before, &:after {
       content: "";

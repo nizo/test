@@ -46,7 +46,7 @@
         <h2 class="h1">Unsere Schnittstellen</h2>
 
         <p>
-          <a href="#" class="button primary">[ICON] Zur API-Dokumentation</a>
+          <a href="#" class="button secondary black mobileWrap small-rounded">[ICON] Zur API-Dokumentation</a>
         </p>
 
         <div class="scroller fadeOut-lightgrey-2" data-height="300">
@@ -63,6 +63,33 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper no-margin-top dark-light-grey">
+  <div class="content wide">
+    <h2 class="centered">
+      Schnelle und professionelle<br />
+      Implementierung mit <span class="color-green">100% Datenschutz</span>
+    </h2>
+
+    <div class="grid">
+      <div class="col-3 card">
+        <img src="/assets/images/photos/anforderungen-callcenter-software.jpg" alt="" />
+        <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloribus nostrum commodi, consectetur possimus officia in, esse quo voluptatum ipsam eveniet totam recusandae earum, minus odio omnis, ratione qui expedita.</p>
+      </div>
+      <div class="col-3 card">
+        <img src="/assets/images/photos/anforderungen-callcenter-software.jpg" alt="" />
+        <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloribus nostrum commodi, consectetur possimus officia in, esse quo voluptatum ipsam eveniet totam recusandae earum, minus odio omnis, ratione qui expedita.</p>
+      </div>
+      <div class="col-3 card">
+        <img src="/assets/images/photos/anforderungen-callcenter-software.jpg" alt="" />
+        <h3>Garantierte 99,999% Erreichbarkeit</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloribus nostrum commodi, consectetur possimus officia in, esse quo voluptatum ipsam eveniet totam recusandae earum, minus odio omnis, ratione qui expedita.</p>
       </div>
     </div>
   </div>

@@ -428,6 +428,9 @@ hr {
 		}
 	}
 }
+.color-green {
+  color: $color-primary;
+}
 	
 
 img {
@@ -538,10 +541,26 @@ img {
   &.lightgrey {
     background-color: #f2f2f2;
   }
-  &.white-lightgreen {
+  &.dark-light-grey {
+    background-image: linear-gradient(#252C2B, #77817F);
+    padding: $gutter-xl 0;
+    .content {
+      h2 {
+        color: #fff;
+        font-family: apercu, sans-serif;
+        font-size: 38px;
+        font-weight: normal;
+        line-height: 1.4;
+      }
+    }
+  }
+  &.white-lightgreen { // grid 1-3/2-3
     background-image: linear-gradient(90deg, #fff 50%, $color-lightgrey-2 50%);
     .content {
       background-image: linear-gradient(90deg, #fff 66%, $color-lightgrey-2 66%);
+      @media screen and (max-width: 1200px) {
+        background-image: linear-gradient(90deg, #fff 50%, $color-lightgrey-2 50%);
+      }
     }
   }
   &.half-background {

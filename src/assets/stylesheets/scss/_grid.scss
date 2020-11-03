@@ -44,6 +44,24 @@ $grid-gutter: $gutter-l;
 	}
 
 	[class*='col-'] {
+		&.card {
+			border-radius: 10px;
+			background-color: #fff;
+			overflow: hidden;
+			padding: $gutter-m;
+			img {
+				margin-top: -$gutter-m;
+				margin-left: -$gutter-m;
+				width: calc(100% + (#{$gutter-m} * 2));
+				max-width: calc(100% + (#{$gutter-m} * 2));
+				margin-bottom: $gutter-m;
+				display: block;
+			}
+			h3 {
+				margin-top: 0;
+				font-size: 24px;
+			}
+		}
 		&.flex {
 			display: flex;
 			flex-direction: column;
@@ -422,6 +440,11 @@ $grid-gutter: $gutter-l;
 	.col-2-3 {
 		width: percentage(2/3);
 		padding-right: $gutter-xl;
+	}
+	@media screen and (max-width: 1200px) {
+		.col-1-3, .col-2-3 {
+			width: 50%;
+		}	
 	}
 }
 
