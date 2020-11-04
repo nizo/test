@@ -32,7 +32,7 @@
 		<script>
 			function scrollToTop() { $("html, body").animate({ scrollTop: $('iframe').offset().top}, 1); }
 		</script>
-		<link rel="icon" type="image/png" href="" sizes="32x32">
+		<link rel="icon" type="image/png" sizes="32x32">
 		
 		<script>
     	$(function ()
