@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html class="">
+<html lang="de">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
-		<meta http-equiv="content-language" content="de">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
@@ -249,7 +249,7 @@
     						<div>
     							<span class="icon sl sl-l"></span>
     						 	<span class="number callbrowsing_personal_phonenumber"></span>
-    						 	<span class="text"><strong id="callbrowsing_status_text_big"></strong><span id="callbrowsing_status_text_small"></span>
+    						 	<span class="text"><strong> id="callbrowsing_status_text_big"></strong></span><span id="callbrowsing_status_text_small"></span>
     						 </div>
     					</div>
     					<div id="callbrowsing_webview_sharing">
@@ -267,7 +267,7 @@
         								<li><input type="radio" name="destination" id="destination3" value="ist Gran Canaria"><label for="destination3" class="pin">Gran Canaria</label></li>
         								<li><input type="radio" name="destination" id="destination4" value="ist Teneriffa"><label for="destination4" class="pin">Teneriffa</label></li>
         								<li><input type="radio" name="destination" id="destination5" value="ist Dubai"><label for="destination5" class="pin">Dubai</label></li>
-        								<li><input type="radio" name="destination" id="destination6"value="ist Kreta"><label for="destination6"class="pin">Kreta</label></li>
+        								<li><input type="radio" name="destination" id="destination6" value="ist Kreta"><label for="destination6" class="pin">Kreta</label></li>
     								</ul>
     							</div>
     						</div>
@@ -331,7 +331,6 @@
     				<div class="bg-click"></div>
     			</div>
 			</div>
-		</div>
 		<div class="content">
 			<div class="wrapper">
     			<h1>Pauschalreisen günstig buchen</h1>
