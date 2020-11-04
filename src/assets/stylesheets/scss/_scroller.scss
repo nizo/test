@@ -4,11 +4,23 @@
   height: 300px;
   overflow: hidden;
   margin-bottom: $gutter-m;
+  @media screen and (max-width: 800px) {
+    overflow: visible;
+    height: auto !important;
+    .scroller-content {
+      display: none;
+      &:first-of-type {
+        display: block;
+      }
+    }
+  }
   .scroller-belt, .scroller-content {
     overflow: auto;
   }
   .scroller-content {
     h2 {
+      font-size: 24px !important;
+      font-weight: 500 !important;
       margin-bottom: $gutter-m;
     }
     p {
@@ -23,6 +35,9 @@
       height: 15%;
       left: 0;
       z-index: 10;
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
     }
     &:before {
       top: 0;
@@ -35,5 +50,5 @@
   }
 }
 * + .scroller {
-  margin-top: $gutter-m;
+  margin-top: $gutter-l;
 }

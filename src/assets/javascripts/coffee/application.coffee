@@ -300,7 +300,7 @@ $(document).ready ->
   while x < scrollers.length
     scroller = scrollers[x]
     scroller.style.height = scroller.dataset.height + 'px'
-    scrollerWindowHeight = scroller.offsetHeight
+    scrollerWindowHeight = scroller.dataset.height
     scrollerBelt = scroller.querySelector('.scroller-belt')
     scrollerBeltHeight = scrollerBelt.offsetHeight
     
@@ -335,7 +335,7 @@ $(document).ready ->
           currentTop = 0
     
     # Start animation
-    animationInterval = setInterval(scroll, 1000 / 24);
+    # animationInterval = setInterval(scroll, 1000 / 24);
     
     # Stop animation on mouseenter, resume animation on mouseleave
     scroller.addEventListener 'mouseenter', (e) ->
@@ -344,5 +344,18 @@ $(document).ready ->
     scroller.addEventListener 'mouseleave', (e) ->
       animationPaused = false
     , false
+
+    # Start stop animation on window resize
+    handleResize = () ->
+      clearInterval(animationInterval)
+      if window.innerWidth <= 800
+        currentTop = 0
+        scrollerBelt.style.marginTop = '-'+currentTop+'px'
+      else
+        animationInterval = setInterval(scroll, 1000 / 24);
+
+    handleResize()
+    window.addEventListener 'resize', (e) ->
+      handleResize()
 
     x++

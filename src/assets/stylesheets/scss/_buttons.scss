@@ -114,59 +114,81 @@
   	}
   }
   &.quaternary, &.quinary {
-	--notchSize: 6px;
-	-webkit-clip-path:
-	polygon(0% var(--notchSize),
-	var(--notchSize) 0%,
-	calc(100% - var(--notchSize)) 0%,
-	100% var(--notchSize),
-	100% calc(100% - var(--notchSize)),
-	calc(100% - var(--notchSize)) 100%,
-	var(--notchSize) 100%,
-	0% calc(100% - var(--notchSize)));
-	clip-path:
-	polygon(0% var(--notchSize),
-	var(--notchSize) 0%,
-	calc(100% - var(--notchSize)) 0%,
-	100% var(--notchSize),
-	100% calc(100% - var(--notchSize)),
-	calc(100% - var(--notchSize)) 100%,
-	var(--notchSize) 100%,
-	0% calc(100% - var(--notchSize)));
-	transition: all .2s ease-in-out;
-	text-transform: uppercase;
-	color: white;
-	background: #000000;
-	letter-spacing: 1px;
-	border: 6px;
-	border-style: solid;
-	border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
-	border-image-slice: 1;
+  	--notchSize: 6px;
+  	-webkit-clip-path:
+  	polygon(0% var(--notchSize),
+  	var(--notchSize) 0%,
+  	calc(100% - var(--notchSize)) 0%,
+  	100% var(--notchSize),
+  	100% calc(100% - var(--notchSize)),
+  	calc(100% - var(--notchSize)) 100%,
+  	var(--notchSize) 100%,
+  	0% calc(100% - var(--notchSize)));
+  	clip-path:
+  	polygon(0% var(--notchSize),
+  	var(--notchSize) 0%,
+  	calc(100% - var(--notchSize)) 0%,
+  	100% var(--notchSize),
+  	100% calc(100% - var(--notchSize)),
+  	calc(100% - var(--notchSize)) 100%,
+  	var(--notchSize) 100%,
+  	0% calc(100% - var(--notchSize)));
+  	transition: all .2s ease-in-out;
+  	text-transform: uppercase;
+  	color: white;
+  	background: #000000;
+  	letter-spacing: 1px;
+  	border: 6px;
+  	border-style: solid;
+  	border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
+  	border-image-slice: 1;
 
-	padding: 15px 20px;
-	display: inline-flex;
-	align-items: center;
-	top: 50%;
-	margin: 20px 0;
+  	padding: 15px 20px;
+  	display: inline-flex;
+  	align-items: center;
+  	top: 50%;
+  	margin: 20px 0;
 
-	&:hover {
-	  	  transform: scale(1.1);
+  	&:hover {
+   	  transform: scale(1.1);
 		  color: white;
 		  background-color: #000;
 		  border: 6px;
 		  border-style: solid;
 		  border-image-source: linear-gradient(180deg, #AAEA39, #86EC16);
 		  border-image-slice: 1;
-		.play-icon {
-			filter: invert(0.5)
-		}
-	}
+  		.play-icon {
+  			filter: invert(0.5)
+  		}
+  	}
 
-	.play-icon {
-		margin-right: 10px;
-	}
-
+  	.play-icon {
+  		margin-right: 10px;
+  	}
   }
+
+  .button__icon {
+    display: inline-block;
+    vertical-align: middle;
+    &.icon-jump-forward {
+      background-image: url(../images/icons_svg/jump-forward-arrow-icon.svg);
+      width: 20px;
+      height: 20px;
+      transition: all 0.3s ease;
+    }
+    &.icon-documentation {
+      background-image: url(../images/icons_svg/documentation-icon.svg);
+      width: 26px;
+      height: 26px;
+      transition: all 0.3s ease;
+    }
+  }
+  &:hover {
+    .icon-jump-forward {
+      filter: invert(1);
+    }
+  }
+
   &.quinary {
   	border: 6px solid #65976F;
   	&:hover {
