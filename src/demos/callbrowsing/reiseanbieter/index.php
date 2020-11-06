@@ -32,7 +32,6 @@
 		<script>
 			function scrollToTop() { $("html, body").animate({ scrollTop: $('iframe').offset().top}, 1); }
 		</script>
-		<link rel="icon" type="image/png" sizes="32x32">
 		
 		<script>
     	$(function ()
@@ -249,7 +248,7 @@
     						<div>
     							<span class="icon sl sl-l"></span>
     						 	<span class="number callbrowsing_personal_phonenumber"></span>
-    						 	<span class="text"><strong> id="callbrowsing_status_text_big"></strong></span><span id="callbrowsing_status_text_small"></span>
+    						 	<span class="text"><strong id="callbrowsing_status_text_big"></strong></span><span id="callbrowsing_status_text_small"></span>
     						 </div>
     					</div>
     					<div id="callbrowsing_webview_sharing">
@@ -331,6 +330,7 @@
     				<div class="bg-click"></div>
     			</div>
 			</div>
+		</div>
 		<div class="content">
 			<div class="wrapper">
     			<h1>Pauschalreisen günstig buchen</h1>
