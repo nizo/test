@@ -544,6 +544,19 @@ img {
     @media screen and (max-width: 1000px) {
       padding: $gutter-l 0;
     }
+    .content {
+      h1 {
+        font-family: apercu, sans-serif;
+        font-size: 38px;
+        font-weight: 400;
+        span {
+          font-weight: 700;
+          font-size: 20px;
+          display: block;
+          margin-bottom: $gutter-m;
+        }
+      }
+    }
   }
   &.dark-light-grey {
     background-image: linear-gradient(#252C2B, #77817F);
@@ -1072,6 +1085,36 @@ img {
       &+p {
         margin-bottom: $gutter-l;
       }
+    }
+    > h2 {
+      font-size: 38px;
+      font-weight: 400;
+      font-family: $font-copy;
+      width: 100%;
+      max-width: 570px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: $gutter-l;
+      text-align: center;
+      &+p {
+        width: 100%;
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    }
+    .subtitle {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: $font-headline;
+      margin-bottom: $gutter-m;
+      width: 100%;
+      max-width: 570px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
     }
     *:not(p)+p, *+ul, *+h2 {
       margin-top: $gutter-m;

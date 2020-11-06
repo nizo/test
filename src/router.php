@@ -588,6 +588,17 @@ $r->addRoute('GET', '/api', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/apps-integrations', function() {
+  $title = 'Apps & Integrations';
+  $description = 'Apps & Integrations';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/api';
+  require_once('./layouts/header.php');
+  require_once('./views/de/apps-integrations.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';

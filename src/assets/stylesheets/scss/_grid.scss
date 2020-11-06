@@ -45,10 +45,14 @@ $grid-gutter: $gutter-l;
 
 	[class*='col-'] {
 		&.card {
+			--c: $color-lightgrey-2;
 			border-radius: 10px;
 			background-color: #fff;
 			overflow: hidden;
 			padding: $gutter-m;
+			&--shadow {
+				box-shadow: 0 4px 10px rgba(#000, 0.1);
+			}
 			.card__image {
 				margin-top: -$gutter-m;
 				margin-left: -$gutter-m;
@@ -56,7 +60,7 @@ $grid-gutter: $gutter-l;
 				max-width: calc(100% + (#{$gutter-m} * 2));
 				height: 180px;
 				margin-bottom: $gutter-m;
-				background-color: $color-lightgrey-2;
+				background-color: var(--c);
 				display: flex;
 				justify-content: center;
 				align-items: center;

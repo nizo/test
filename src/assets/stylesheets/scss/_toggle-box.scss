@@ -1,0 +1,39 @@
+.toggle-box {
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: $gutter-m;
+  padding-left: calc((#{$gutter-m} * 2) + 16px);
+  &:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/icons_svg/plus-icon.svg);
+    position: absolute;
+    top: calc(50% - 8px);
+    left: $gutter-m;
+  }
+  input {
+    display: none;
+    &+label {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: $font-headline;
+      cursor: pointer;
+    }
+    &:checked {
+      &+label {
+        &+.toggle-box__content {
+          display: block;
+        }
+      }
+    }
+  }
+  .toggle-box__content {
+    margin-top: $gutter-m;
+    display: none;
+  }
+  &+.toggle-box {
+    margin-top: $gutter-m;
+  }
+}
