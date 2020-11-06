@@ -199,135 +199,134 @@
 	</head>
 	<body>
 		<div class="header">
-				<nav class="topNav">
-					<div class="wrapper border">
-						<div class="menu">
-    						<ul>
-    							<li>Beratung</li>
-    							<li>FAQ</li>
-    							<li>Kontakt</li>
-    							<li>Newsletter</li>
-    							<li>Reisehinweise</li>
-    							<li class="sl sl-phone sl-l call"><a title="Rufen Sie uns an! Wir helfen Ihnen gerne weiter" class="callbrowsing_personal_phonenumber"></a></li>
-    						</ul>
-    					</div>
+			<nav class="topNav">
+				<div class="wrapper border">
+					<div class="menu">
+						<ul>
+							<li>Beratung</li>
+							<li>FAQ</li>
+							<li>Kontakt</li>
+							<li>Newsletter</li>
+							<li>Reisehinweise</li>
+							<li class="sl sl-phone sl-l call"><a title="Rufen Sie uns an! Wir helfen Ihnen gerne weiter" class="callbrowsing_personal_phonenumber"></a></li>
+						</ul>
 					</div>
-				</nav>
-				<nav class="mainNav">
-					<div class="wrapper">
-						<div class="menu">
-    						<ul>
-    							<li>
-    								<header>
-    									<img src="images/logo.png" alt="Travel Heroes" title="Travel Heroes"/>
-    								</header>
-    							</li>
-    							<li class="active">Pauschalreisen</li>
-    							<li>Hotel & FeWo</li>
-    							<li>City</li>
-    							<li>Flug</li>
-    							<li>Inspiration</li>
-    							<li>Service & Hilfe</li>
-    						</ul>
-    					</div>
-					</div>
-				</nav>
-			</div>
-			<div class="buehne">
+				</div>
+			</nav>
+			<nav class="mainNav">
 				<div class="wrapper">
-    				<div class="angebot">
-    					<div class="pos">
-        					<strong>Teneriffa</strong> <span></span><span></span><span></span><span></span><span></span> 
-        					<p>Last Minute Schnäppchen auf die Kanarischen Inseln.</p>
-        					<div class="button">p.p ab 240€</div>
-    					</div>
-    				</div>
-    				<div class="suche">
-    					<div class="starStoerer" id="callbrowsing_status">
-    						<div>
-    							<span class="icon sl sl-l"></span>
-    						 	<span class="number callbrowsing_personal_phonenumber"></span>
-    						 	<span class="text"><strong id="callbrowsing_status_text_big"></strong></span><span id="callbrowsing_status_text_small"></span>
-    						 </div>
-    					</div>
-    					<div id="callbrowsing_webview_sharing">
-    						 <div id="callbrowsing_webview_sharing_text"></div>
-    					</div>
-    					<h3 class="title">Pauschalreisen suchen</h3>
-    					<form>
-    						<div class="input target">
-    							<label class="pin open">Reiseziel auswählen</label>
-    							<div class="choice">
-    								<h4>Top Reiseziele</h4>
-    								<ul>
-    									<li><input type="radio" name="destination" id="destination1" value="ist Mallorca"><label for="destination1" class="pin">Mallorca</label></li>
-        								<li><input type="radio" name="destination" id="destination2" value="sind die Malediven"><label for="destination2" class="pin">Malediven</label></li>
-        								<li><input type="radio" name="destination" id="destination3" value="ist Gran Canaria"><label for="destination3" class="pin">Gran Canaria</label></li>
-        								<li><input type="radio" name="destination" id="destination4" value="ist Teneriffa"><label for="destination4" class="pin">Teneriffa</label></li>
-        								<li><input type="radio" name="destination" id="destination5" value="ist Dubai"><label for="destination5" class="pin">Dubai</label></li>
-        								<li><input type="radio" name="destination" id="destination6" value="ist Kreta"><label for="destination6" class="pin">Kreta</label></li>
-    								</ul>
-    							</div>
-    						</div>
-    						<div class="input target">
-    							<label class="plane open datedisplay">Abflughafen</label>
-    							<div class="choice">
-    								<h4>Deutschland</h4>
-    								<ul>
-    									<li><input type="radio" name="airport" id="airport1" value="Berlin Tegel"><label for="airport1" class="">Berlin Tegel</label></li>
-        								<li><input type="radio" name="airport" id="airport2" value="Berlin Schönefeld"><label for="airport2" class="">Berlin Schönefeld</label></li>
-        								<li><input type="radio" name="airport" id="airport3" value="Frankfurt am Main"><label for="airport3" class="">Frankfurt-Main</label></li>
-        								<li><input type="radio" name="airport" id="airport4" value="Düsseldorf"><label for="airport4" class="">Düsseldorf</label></li>
-        								<li><input type="radio" name="airport" id="airport5" value="München"><label for="airport5" class="">München</label></li>
-        								<li><input type="radio" name="airport" id="airport6" value="Hamburg"><label for="airport6" class="">Hamburg</label></li>
-    								</ul>
-    							</div>
-    						</div>
-    						<div class="input target">
-    							<label class="date open" for="datepicker">Anreise</label>
-    							<div class="choice">
-    								<input type="text" id="datepicker">
-    							</div>
-    						</div>
-    						<div class="input target">
-    							<label class="duration open">Länge Aufenhalt</label>
-    							<div class="choice">
-    								<ul>
-    									<li><input type="radio" name="duration" id="duration1" value="beliebig"><label for="duration1" class="">beliebig</label></li>
-        								<li><input type="radio" name="duration" id="duration2" value="1 Woche"><label for="duration2" class="">1 Woche</label></li>
-        								<li><input type="radio" name="duration" id="duration3" value="2 Wochen"><label for="duration3" class="">2 Wochen</label></li>
-        								<li><input type="radio" name="duration" id="duration4" value="3 Wochen"><label for="duration4" class="">3 Wochen</label></li>
-        								<li><input type="radio" name="duration" id="duration5" value="4 Wochen"><label for="duration5" class="">4 Wochen</label></li>
-    								</ul>
-    							</div>
-    						</div>
-    						<div class="input target">
-    							<label class="persons open">Anzahl Personen</label>
-    							<div class="choice">
-    								<label class="select">Erwachsene</label>
-    								<select id="adults">
-    									<option value="1 Erwachsener">1 Erwachsener</option>
-    									<option value="2 Erwachsene" selected>2 Erwachsene</option>
-    									<option value="3 Erwachsene">3 Erwachsene</option>
-    									<option value="4 Erwachsene">4 Erwachsene</option>
-    								</select>
-    								<label class="select">Kinder</label>
-    								<select id="children">
-    									<option value="0 Kinder">0 Kinder</option>
-    									<option value="1 Kind" selected>1 Kind</option>
-    									<option value="2 Kinder">2 Kinder</option>
-    									<option value="3 Kinder">3 Kinder</option>
-    								</select>
-    								<button class="submit_persons">Übernehmen</button>	
-    							</div>
-    						</div>
-    						<div class="submit">
-    							Urlaub finden
-    						</div>
-    					</form>
-    				</div>
-    				<div class="bg-click"></div>
-    			</div>
+					<div class="menu">
+						<ul>
+							<li>
+								<header>
+									<img src="images/logo.png" alt="Travel Heroes" title="Travel Heroes"/>
+								</header>
+							</li>
+							<li class="active">Pauschalreisen</li>
+							<li>Hotel & FeWo</li>
+							<li>City</li>
+							<li>Flug</li>
+							<li>Inspiration</li>
+							<li>Service & Hilfe</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="buehne">
+			<div class="wrapper">
+				<div class="angebot">
+					<div class="pos">
+						<strong>Teneriffa</strong> <span></span><span></span><span></span><span></span><span></span> 
+						<p>Last Minute Schnäppchen auf die Kanarischen Inseln.</p>
+						<div class="button">p.p ab 240€</div>
+					</div>
+				</div>
+				<div class="suche">
+					<div class="starStoerer" id="callbrowsing_status">
+						<div>
+							<span class="icon sl sl-l"></span>
+							<span class="number callbrowsing_personal_phonenumber"></span>
+							<span class="text"><strong id="callbrowsing_status_text_big"></strong></span><span id="callbrowsing_status_text_small"></span>
+							</div>
+					</div>
+					<div id="callbrowsing_webview_sharing">
+							<div id="callbrowsing_webview_sharing_text"></div>
+					</div>
+					<h3 class="title">Pauschalreisen suchen</h3>
+					<form>
+						<div class="input target">
+							<label class="pin open">Reiseziel auswählen</label>
+							<div class="choice">
+								<h4>Top Reiseziele</h4>
+								<ul>
+									<li><input type="radio" name="destination" id="destination1" value="ist Mallorca"><label for="destination1" class="pin">Mallorca</label></li>
+									<li><input type="radio" name="destination" id="destination2" value="sind die Malediven"><label for="destination2" class="pin">Malediven</label></li>
+									<li><input type="radio" name="destination" id="destination3" value="ist Gran Canaria"><label for="destination3" class="pin">Gran Canaria</label></li>
+									<li><input type="radio" name="destination" id="destination4" value="ist Teneriffa"><label for="destination4" class="pin">Teneriffa</label></li>
+									<li><input type="radio" name="destination" id="destination5" value="ist Dubai"><label for="destination5" class="pin">Dubai</label></li>
+									<li><input type="radio" name="destination" id="destination6" value="ist Kreta"><label for="destination6" class="pin">Kreta</label></li>
+								</ul>
+							</div>
+						</div>
+						<div class="input target">
+							<label class="plane open datedisplay">Abflughafen</label>
+							<div class="choice">
+								<h4>Deutschland</h4>
+								<ul>
+									<li><input type="radio" name="airport" id="airport1" value="Berlin Tegel"><label for="airport1" class="">Berlin Tegel</label></li>
+									<li><input type="radio" name="airport" id="airport2" value="Berlin Schönefeld"><label for="airport2" class="">Berlin Schönefeld</label></li>
+									<li><input type="radio" name="airport" id="airport3" value="Frankfurt am Main"><label for="airport3" class="">Frankfurt-Main</label></li>
+									<li><input type="radio" name="airport" id="airport4" value="Düsseldorf"><label for="airport4" class="">Düsseldorf</label></li>
+									<li><input type="radio" name="airport" id="airport5" value="München"><label for="airport5" class="">München</label></li>
+									<li><input type="radio" name="airport" id="airport6" value="Hamburg"><label for="airport6" class="">Hamburg</label></li>
+								</ul>
+							</div>
+						</div>
+						<div class="input target">
+							<label class="date open" for="datepicker">Anreise</label>
+							<div class="choice">
+								<input type="text" id="datepicker">
+							</div>
+						</div>
+						<div class="input target">
+							<label class="duration open">Länge Aufenhalt</label>
+							<div class="choice">
+								<ul>
+									<li><input type="radio" name="duration" id="duration1" value="beliebig"><label for="duration1" class="">beliebig</label></li>
+									<li><input type="radio" name="duration" id="duration2" value="1 Woche"><label for="duration2" class="">1 Woche</label></li>
+									<li><input type="radio" name="duration" id="duration3" value="2 Wochen"><label for="duration3" class="">2 Wochen</label></li>
+									<li><input type="radio" name="duration" id="duration4" value="3 Wochen"><label for="duration4" class="">3 Wochen</label></li>
+									<li><input type="radio" name="duration" id="duration5" value="4 Wochen"><label for="duration5" class="">4 Wochen</label></li>
+								</ul>
+							</div>
+						</div>
+						<div class="input target">
+							<label class="persons open">Anzahl Personen</label>
+							<div class="choice">
+								<label class="select">Erwachsene</label>
+								<select id="adults">
+									<option value="1 Erwachsener">1 Erwachsener</option>
+									<option value="2 Erwachsene" selected>2 Erwachsene</option>
+									<option value="3 Erwachsene">3 Erwachsene</option>
+									<option value="4 Erwachsene">4 Erwachsene</option>
+								</select>
+								<label class="select">Kinder</label>
+								<select id="children">
+									<option value="0 Kinder">0 Kinder</option>
+									<option value="1 Kind" selected>1 Kind</option>
+									<option value="2 Kinder">2 Kinder</option>
+									<option value="3 Kinder">3 Kinder</option>
+								</select>
+								<button class="submit_persons">Übernehmen</button>	
+							</div>
+						</div>
+						<div class="submit">
+							Urlaub finden
+						</div>
+					</form>
+				</div>
+				<div class="bg-click"></div>
 			</div>
 		</div>
 		<div class="content">
