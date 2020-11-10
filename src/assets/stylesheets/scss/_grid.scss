@@ -53,6 +53,12 @@ $grid-gutter: $gutter-l;
 			&--shadow {
 				box-shadow: 0 4px 10px rgba(#000, 0.1);
 			}
+			&--transparent {
+				background-color: transparent;
+				.card__image {
+					background-color: transparent !important;
+				}
+			}
 			.card__image {
 				margin-top: -$gutter-m;
 				margin-left: -$gutter-m;

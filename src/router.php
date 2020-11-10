@@ -599,6 +599,17 @@ $r->addRoute('GET', '/apps-integrations', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/solutions', function() {
+  $title = 'Solutions';
+  $description = 'Solutions';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';

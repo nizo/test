@@ -540,6 +540,12 @@ img {
   }
   &.lightgrey {
     background-color: #f2f2f2;
+  }
+  &.darkgrey {
+    background-color: $color-darkgrey;
+    color: #fff;
+  }
+  &.lightgrey, &.solutions-header {
     padding: $gutter-xl 0;
     @media screen and (max-width: 1000px) {
       padding: $gutter-l 0;

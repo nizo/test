@@ -192,6 +192,24 @@
     }
   }
 
+  &.transparent-border {
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    .icon-jump-forward {
+      filter: invert(1);
+    }
+    &:hover {
+      background-color: $color-primary;
+      color: #000;
+      border-color: $color-primary;
+      .icon-jump-forward {
+        filter: invert(0);
+      }
+    }
+  }
+
   &.quinary {
   	border: 6px solid #65976F;
   	&:hover {
