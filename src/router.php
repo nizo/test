@@ -610,6 +610,17 @@ $r->addRoute('GET', '/solutions', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/solutions-customer-service', function() {
+  $title = 'Solutions - Customer Service';
+  $description = 'Solutions - Customer Service';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions-customer-service';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions-customer-service.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';

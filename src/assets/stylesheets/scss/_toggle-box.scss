@@ -36,4 +36,20 @@
   &+.toggle-box {
     margin-top: $gutter-m;
   }
+  &--checklist {
+    border: 0;
+    padding-left: 30px;
+    &:before {
+      top: calc(#{$gutter-m} + (1em - 8px));
+      background-image: url(../images/icons_svg/checkmark-icon.svg);
+      background-size: contain;
+      width: 20px;
+      height: 15px;
+      left: 0;
+    }
+    &+.toggle-box {
+      border-top: 2px solid #f1f1f1;
+      margin-top: 0;
+    }
+  }
 }

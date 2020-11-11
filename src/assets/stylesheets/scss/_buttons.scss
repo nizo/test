@@ -185,10 +185,39 @@
       height: 26px;
       transition: all 0.3s ease;
     }
+    &.icon-automatization, &.icon-analysis, &.icon-alarm, &.icon-collaboration {
+      background-size: contain;
+      width: 1em;
+      height: 1em;
+      transition: all 0.3s ease;
+    }
+    &.icon-automatization {
+      background-image: url(../images/icons_svg/automatization-icon.svg);
+    }
+    &.icon-analysis {
+      background-image: url(../images/icons_svg/analysis-icon.svg);
+    }
+    &.icon-alarm{
+      background-image: url(../images/icons_svg/alarm-icon.svg);
+    }
+    &.icon-collaboration{
+      background-image: url(../images/icons_svg/collaboration-icon.svg);
+    }
   }
   &:hover {
     .icon-jump-forward {
       filter: invert(1);
+    }
+  }
+
+  &.icon {
+    background-color: #f1f1f1;
+    color: #000;
+    border-radius: 10px;
+    padding: $gutter-m;
+    font-weight: 600;
+    &:hover {
+      background-color: $color-primary;
     }
   }
 
