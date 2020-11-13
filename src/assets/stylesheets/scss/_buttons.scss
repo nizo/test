@@ -185,11 +185,19 @@
       height: 26px;
       transition: all 0.3s ease;
     }
-    &.icon-automatization, &.icon-analysis, &.icon-alarm, &.icon-collaboration {
+    &.icon-integrations, &.icon-reporting, &.icon-automatization, &.icon-analysis, &.icon-alarm, &.icon-collaboration {
       background-size: contain;
-      width: 1em;
-      height: 1em;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 1.5em;
+      height: 1.5em;
       transition: all 0.3s ease;
+    }
+    &.icon-integrations {
+      background-image: url(../images/icons_svg/integrations-icon.svg);
+    }
+    &.icon-reporting {
+      background-image: url(../images/icons_svg/reporting-icon.svg);
     }
     &.icon-automatization {
       background-image: url(../images/icons_svg/automatization-icon.svg);
