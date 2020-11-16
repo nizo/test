@@ -32,10 +32,10 @@
   </div>
 </div>
 
-<div class="wrapper">
+<div class="wrapper padding-bottom-80">
   <div class="content wide">
     <div class="image-grid" id="integrations">
-      <div class="image">
+      <div class="image centered">
         <img src="/assets/images/illus/sales-illustration-1.svg" alt="" />
       </div>
       <div class="text">
@@ -93,13 +93,13 @@
           </div>
         </div>
       </div>
-      <div class="image">
+      <div class="image centered">
         <img src="/assets/images/illus/sales-illustration-2.svg" alt="" />
       </div>
     </div>
 
     <div class="image-grid" id="analysis">
-      <div class="image">
+      <div class="image centered">
         <img src="/assets/images/illus/sales-illustration-3.svg" alt="" />
       </div>
       <div class="text">
@@ -157,7 +157,7 @@
           </div>
         </div>
       </div>
-      <div class="image">
+      <div class="image centered">
         <img src="/assets/images/illus/sales-illustration-4.svg" alt="" />
       </div>
     </div>
@@ -188,6 +188,39 @@
       <div class="toggle-box__content">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper no-margin-top dark-light-grey">
+  <div class="content wide">
+    <h2 class="centered">
+      Schnelle und professionelle<br />
+      Implementierung mit <span class="color-green">100% Datenschutz</span>
+    </h2>
+
+    <div class="grid">
+      <div class="col-3 card">
+        <div class="card__image">
+          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+        </div>
+        <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
+        <p>Ärgern Sie sich nicht mit Self-Service herum. An Ihre Organisation angepasste Telefonie-Lösungen kann CallOne dank erfahrener Projektmanager &amp; Schnittstellenentwickler in kürzester Zeit live bringen.</p>
+      </div>
+      <div class="col-3 card">
+        <div class="card__image">
+          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+        </div>
+        <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
+        <p>Das Privacy Shield Abkommen zwischen USA und EU ist nun gekippt. Zum Glück sind Sie mit CallOne immer auf der sicheren Seite: Wir hosten unsere Telefonie-Lösung ausschließlich in Deutschland.</p>
+      </div>
+      <div class="col-3 card">
+        <div class="card__image">
+          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+        </div>
+        <h3>Garantierte 99,999% Erreichbarkeit</h3>
+        <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>
       </div>
     </div>
   </div>

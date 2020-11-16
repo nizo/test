@@ -1,16 +1,16 @@
-<div class="wrapper lightgrey">
+<div class="wrapper lightgrey no-gutter-bottom">
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
       <div class="text">
-        <p><strong>CallOne im telefonischen Kundenservice</strong></p>
-        <h1>Geben Sie Ihren Kunden, was sie verdienen</h1>
-        <p class="primary">Customer Service, der auf die Ihre Kunden angepasst ist – automatisiert und trotzdem persönlich.</p>
+        <p><strong>CallOne im IT-Helpdesk</strong></p>
+        <h1>Zeitkiller einfach plattmachen</h1>
+        <p class="primary">Schon wieder dieselbe Anfrage? Lösen Sie wiederkehrende Vorfälle automatisiert und transparent für alle. Spart Zeit, Geld und Nerven.</p>
         <div class="button-set">
           <a class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">
-        <img src="/assets/images/illus/customer-service-hero-illustration.svg" alt="" />
+        <img src="/assets/images/illus/helpdesk-hero-illustration.svg" alt="" style="display:block;" />
       </div>
     </header>
   </div>
@@ -18,140 +18,114 @@
 
 <div class="wrapper">
   <div class="content wide">
-    <p class="centered">Automatisierte Telefonie von morgen <strong>für Ihren Kundenservice</strong></p>
-    <h2>KI, APIs, Apps: Der Roboter-Turbo für Ihre Kundenkommunikation</h2>
+    <p class="centered">Die richtigen Telefontools <strong>für IT-Helpdesks</strong></p>
+    <h2>Mit andockbaren Telefonlösungen helfen Sie besser und effizienter. </h2>
 
-    <p>Erfahren Sie wie <strong>Contact Center</strong> CallOne verwenden:​</p>
+    <p>Einsatzmöglichkeiten mit Ihrem <strong>Helpdesk</strong>:​</p>
 
     <div class="button-set centered">
+      <a href="#helpdesk" class="button icon"><span class="button__icon icon-integrations"></span> Anbindung an Helpdesk-Software</a>
       <a href="#automatization" class="button icon"><span class="button__icon icon-automatization"></span> Automatisierung</a>
       <a href="#analysis" class="button icon"><span class="button__icon icon-analysis"></span> Analyse</a>
-      <a href="#collaboration" class="button icon"><span class="button__icon icon-collaboration"></span> Zusammenarbeit</a>
-      <a href="#alarm" class="button icon"><span class="button__icon icon-alarm"></span> Alamierung</a>
     </div>
   </div>
 </div>
 
 <div class="wrapper padding-bottom-80">
   <div class="content wide">
-    <div class="image-grid" id="automatization">
+    <div class="image-grid" id="helpdesk">
       <div class="image centered">
-        <img src="/assets/images/illus/customer-service-illustration-1.svg" alt="" />
+        <img src="/assets/images/illus/helpdesk-illustration-1.svg" alt="" />
       </div>
       <div class="text">
+        <h2>Anbindung an Helpdesk-Software</h2>
+        <p>Ihre Telefonielösung verbindet sich künftig ganz einfach mit Ihren Service-Managementsystemen.</p>
+
+        <div class="toggle-box toggle-box--checklist">
+          <input type="checkbox" id="helpdesk-1" />
+          <label for="helpdesk-1">Schnittstellen</label>
+          <div class="toggle-box__content">
+            Anbindungen zu den besten Helpdesk Tools machen Ihre Arbeit sinnvoller, schneller und leichter. Sie speisen einfach die Telefoniedaten in Ihre bestehende Software.
+          </div>
+        </div>
+        <div class="toggle-box toggle-box--checklist">
+          <input type="checkbox" id="helpdesk-2" />
+          <label for="helpdesk-2">Service-Level Agreements</label>
+          <div class="toggle-box__content">
+            Tragen Sie Service-Level-Agreements in Ihre definierten Skillgruppen im Callcenter ein, um sie dann statistisch auszuwerten.
+          </div>
+        </div>
+        <div class="toggle-box toggle-box--checklist">
+          <input type="checkbox" id="helpdesk-3" />
+          <label for="helpdesk-3">IT-Service-Management</label>
+          <div class="toggle-box__content">
+            Klicken statt Wählen: Mit unseren Browser Extensions für Chrome, Firefox und Edge können Sie Nummern in Ihrem Browser bequem mit einem Klick.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-grid" id="automatization">
+      <div class="text">
         <h2>Automatisierung</h2>
-        <p>Keine Anrufe verpassen, jeden adäquat behandeln</p>
+        <p>Viele Anfragen im Callcenter kommen immer wieder. Automatisieren Sie typische Helpdesk Anfragen und steigern sie Ihre Business-Performance.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-1" />
-          <label for="automatisierung-1">Voice Bots optimieren Ihre Arbeitsabläufe</label>
+          <label for="automatisierung-1">On/Offboardings</label>
           <div class="toggle-box__content">
-            Voice Bots qualifizieren Anruferanliegen vor, geben sprachbasiert FAQ wieder und übermitteln voreingestellte Infos automatisch.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-2" />
-          <label for="automatisierung-2">Personalisierte Anruferlebnisse</label>
+          <label for="automatisierung-2">Zugangs-Management</label>
           <div class="toggle-box__content">
-            Besondere Kunden werden besonders behandelt und ganz automatisch zum richtigen Ansprechpartner weitergeleitet.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-3" />
-          <label for="automatisierung-3">Verpassen Sie keinen einzigen Anruf mehr</label>
+          <label for="automatisierung-3">Infrastruktur/Service-Support</label>
           <div class="toggle-box__content">
-            Warteschleifen vermeiden Sie in Zukunft vollständig oder sie sind so intelligent und informativ, dass Anrufer in der Leitung bleiben.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </div>
         </div>
+      </div>
+      <div class="image centered">
+        <img src="/assets/images/illus/helpdesk-illustration-2.svg" alt="" />
       </div>
     </div>
 
     <div class="image-grid" id="analysis">
+      <div class="image centered">
+        <img src="/assets/images/illus/helpdesk-illustration-3.svg" alt="" />
+      </div>
       <div class="text">
-        <h2>Analyse</h2>
-        <p>Brechen Sie Datensilos auf. Mit CallOne messen Sie alle Daten in einem System, werten sie aus und können sofort reagieren.</p>
+        <h2>Helpdesk-Analyse</h2>
+        <p>Nutzen Sie die besten Statistik- und Auswertungsfeatures am Markt für besseren, schnelleren Helpdesk Service.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-1" />
-          <label for="analyse-1">Analysieren Sie Agenten und Warteschleifen</label>
+          <label for="analyse-1">Helpdesk-Reports</label>
           <div class="toggle-box__content">
-            Anrufaufkommen und Wartezeiten kontrollieren Sie in Echtzeit. Mit vollständiger Transparenz bedienen Sie Ihre Kunden zu jeder Tageszeit optimal.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-2" />
-          <label for="analyse-2">Messen Sie die Performance Ihres Callcenters</label>
+          <label for="analyse-2">Dashboards</label>
           <div class="toggle-box__content">
-            Nutzen Sie das vielleicht umfangreichste Angebot statistischer Auswertungsmöglichkeiten am Markt. Mit knapp 100 Echtzeitstatistiken, Daten-Exporten und Statistik Schnittstellen  haben Sie einfach alles im Blick.
+            Die Performance stets im Blick, Optimierung nur einen Klick entfernt, mit über 100 Live-Statistiken.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-3" />
-          <label for="analyse-3">Dokumentieren Sie Gespräche sinnvoll und auswertbar</label>
+          <label for="analyse-3">Analyse-Tools</label>
           <div class="toggle-box__content">
-            Nutzen Sie Gesprächsaufzeichnungen für Ihr QM – manuell oder vollautomatisch. Mit Kundenbefragungen, Coaching-Funktionen und vielen Statistiken.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
         </div>
-      </div>
-      <div class="image centered">
-        <img src="/assets/images/illus/customer-service-illustration-2.svg" alt="" />
-      </div>
-    </div>
-
-    <div class="image-grid" id="collaboration">
-      <div class="image centered">
-        <img src="/assets/images/illus/customer-service-illustration-3.svg" alt="" />
-      </div>
-      <div class="text">
-        <h2>Ihr Callcenter mit CallOne</h2>
-        <p>Nutzen Sie unsere fertigen Tools.</p>
-
-        <div class="toggle-box toggle-box--checklist">
-          <input type="checkbox" id="callcenter-1" />
-          <label for="callcenter-1">Apps</label>
-          <div class="toggle-box__content">
-            Ob Salesforce, Zendesk, Hubspot, ... Ihre CRM- oder Ticketing-Lösung verbinden Sie ganz leicht mit Ihrer Cloud-Telefonanlage. Sie nutzen einfach die Tools weiter, die Sie schon kennen.
-          </div>
-        </div>
-        <div class="toggle-box toggle-box--checklist">
-          <input type="checkbox" id="callcenter-2" />
-          <label for="callcenter-2">API für Einbindung eigenes Systems</label>
-          <div class="toggle-box__content">
-            Mit unseren offenen Schnittstellen kann prinzipiell jedes System mit Ihrer Telefonielösung verbunden werden.
-          </div>
-        </div>
-        <div class="toggle-box toggle-box--checklist">
-          <input type="checkbox" id="callcenter-3" />
-          <label for="callcenter-3">Automatische Weiterleitung eingehender Anrufe an den richtigen Ort anhand kurzer Dialoge</label>
-          <div class="toggle-box__content">
-            Stellen Sie sicher, dass Ihre Kunden auf dem schnellsten Weg mit einem Mitarbeiter sprechen, der sich im Thema auskennt.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="image-grid" id="alarm">
-      <div class="text">
-        <h2>Alarmierung</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <div class="toggle-box toggle-box--checklist">
-          <input type="checkbox" id="alarmierung-1" />
-          <label for="alarmierung-1">SMS API</label>
-          <div class="toggle-box__content">
-            Über die Schnittstelle schicken Sie SMS an Ihre Kunden, um sie zu authentifizieren oder sie über ihren Lieferstatus zu informieren.
-          </div>
-        </div>
-        <div class="toggle-box toggle-box--checklist">
-          <input type="checkbox" id="alarmierung-2" />
-          <label for="alarmierung-2">Callback API</label>
-          <div class="toggle-box__content">
-            Empfangen Sie Anrufe über einen Callback-Button auf Ihrer Website und statten Sie ihn mit Wahlfeldern, Routings oder Text-to-Speech aus.
-          </div>
-        </div>
-      </div>
-      <div class="image centered">
-        <img src="/assets/images/illus/customer-service-illustration-4.svg" alt="" />
       </div>
     </div>
   </div>
@@ -161,7 +135,7 @@
 
     <div class="toggle-box">
       <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wie funktioniert eine Call Center Software mit Schnittstellen?</label>
+      <label for="faq-1">Was ist eine Helpdesk-Software?</label>
       <div class="toggle-box__content">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>

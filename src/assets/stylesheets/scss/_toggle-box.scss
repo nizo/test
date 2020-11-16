@@ -41,31 +41,39 @@
     border: 0;
     padding: 0;
     label {
+      position: relative;
       padding: $gutter-m 0;
+      padding-left: calc(20px + #{$gutter-s});
+      padding-right: calc(20px + #{$gutter-s});
       &:before, &:after {
         content: "";
+        position: absolute;
         background-size: contain;
         background-repeat: no-repeat;
         display: inline-block;
+        top: 50%;
+        transform: translateY(-50%);
       }
       &:before {
         background-image: url(../images/icons_svg/checkmark-icon.svg);
         width: 20px;
         height: 15px;
         margin-right: $gutter-s;
+        left: 0;
       }
       &:after {
         background-image: url(../images/icons_svg/dropdown-chevron-icon.svg);
         width: 19px;
         height: 11px;
         margin-left: $gutter-s;
+        right: 0;
       }
     }
     input {
       &:checked {
         &+label {
           &:after {
-            transform: rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
           }
         }
       }

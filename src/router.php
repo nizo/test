@@ -632,6 +632,17 @@ $r->addRoute('GET', '/solutions-sales', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/solutions-helpdesk', function() {
+  $title = 'Solutions - IT Helpdesk';
+  $description = 'Solutions - IT Helpdesk';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions-helpdesk';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions-helpdesk.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';
