@@ -451,6 +451,68 @@ form {
 			}
 		}
 	}
+
+	&.omr-form {
+		background: linear-gradient(180deg, #101010 0%, #404040 100%);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 20px 13px rgba(0, 0, 0, 0.1);
+		border-radius: 20px;
+		max-width: 630px;
+		transform: translateY(-144px);
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: $gutter-l;
+		text-align: center;
+		margin-bottom: calc(-144px + #{$gutter-l});
+		img {
+			width: 50%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: $gutter-m;
+		}
+		input, .selectWithLabel {
+			background-color: transparent;
+			color: #fff;
+			border: 2px solid #fff;
+			border-radius: 6px;
+			padding: $gutter-m;
+			display: block;
+			margin: $gutter-m 0;
+			&::placeholder {
+				color: #fff;
+			}
+		}
+		.selectWithLabel {
+			position: relative;
+			text-align: left;
+			label {
+				position: absolute;
+				text-align: left;
+				left: $gutter-m;
+				z-index: 0;
+				font-size: 14px;
+				font-weight: 700;
+			}
+			select {
+				position: relative;
+				z-index: 1;
+				background-color: transparent;
+				border: 0;
+				color: #fff;
+				font-size: 18px;
+				padding: 21px 0 0 0;
+				margin: 0;
+				height: auto;
+				option {
+					color: #000;
+				}
+			}
+		}
+		button {
+			width: 100%;
+		}
+	}
 }
 
 p + form {

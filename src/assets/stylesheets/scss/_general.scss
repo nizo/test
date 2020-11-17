@@ -544,6 +544,10 @@ img {
       padding-bottom: 0;
     }
   }
+  &.omr-black {
+    background-color: #000;
+    color: #fff;
+  }
   &.darkgrey {
     background-color: $color-darkgrey;
     color: #fff;
@@ -1164,9 +1168,9 @@ img {
       	&.approved-list {
       		li {
       			text-align: left;
-				padding-left: 1.5rem;
-				margin: $gutter-s 0;
-				line-height: 1.5;
+    				padding-left: 1.5rem;
+    				margin: $gutter-s 0;
+    				line-height: 1.5;
       			&:before {
       				content: url("/assets/images/icons_svg/list-element.svg");
       				width: 15px;
@@ -1175,6 +1179,9 @@ img {
 	      			top: 0;
       			}
       		}
+          &.approved-list--black:before {
+            filter: brightness(0);
+          }
       	}
       	&.inlineBox {
       		> li {
@@ -1186,7 +1193,6 @@ img {
 	      		box-shadow: 0 0 20px rgba(0,0,0,.25);
 	      		font-size: 22px;
 	      		font-family: $font-headline;
-	      		
 	      		&::before {
 	      			content: none;
 	      		}
@@ -1196,12 +1202,12 @@ img {
 	      		}
       		}
       		@media screen and (max-width:800px) {
-				> li {
-					font-size: 20px;
-					width: 100%;
-					margin: 10px 0;
+    				> li {
+    					font-size: 20px;
+    					width: 100%;
+    					margin: 10px 0;
 	      		}
-			}
+			    }
       	}
       	&.big-list {
       		font-size: $font-size-m;
@@ -1236,25 +1242,25 @@ img {
       	&.border-list {
       		> li {
       			border: 2px dashed $color-secondary-1;
-			    padding: 30px 20px 10px;
-			    margin: 50px auto 20px;
-			    position: relative;
+  			    padding: 30px 20px 10px;
+  			    margin: 50px auto 20px;
+  			    position: relative;
       			&:before {
       				content: counter(ol-counter); 
       				width: 50px;
-				    height: 50px;
-				    background: $color-secondary-1;
-				    display: block;
-				    border: none;
-				    border-radius: 50%;
-				    color: #fff;
-				    padding: 2px 0;
-				    font-size: 24px;
-				    font-weight: 600;
-				    position: absolute;
-				    top: -25px;
-				    left: calc(50% - 25px);
-				    text-align: center;
+  				    height: 50px;
+  				    background: $color-secondary-1;
+  				    display: block;
+  				    border: none;
+  				    border-radius: 50%;
+  				    color: #fff;
+  				    padding: 2px 0;
+  				    font-size: 24px;
+  				    font-weight: 600;
+  				    position: absolute;
+  				    top: -25px;
+  				    left: calc(50% - 25px);
+  				    text-align: center;
       			}
       			&:hover {
       				border: 2px dashed $color-primary;
@@ -1291,8 +1297,8 @@ img {
   		&:first-of-type {
   			margin-top: inherit;
   		}
-		margin-top: 0;
-		margin-bottom: inherit;
+  		margin-top: 0;
+  		margin-bottom: inherit;
   	}
   	&.marginTop-xxl {
   		margin-top: 240px;
@@ -1302,8 +1308,8 @@ img {
   	}
     margin-top: $gutter-xxl;
     &.no-margin-top {
-		margin-top: 0;
-	}
+  		margin-top: 0;
+  	}
   }
   
   @media screen and (max-width:800px) {

@@ -643,6 +643,17 @@ $r->addRoute('GET', '/solutions-helpdesk', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/omr-goodie', function() {
+  $title = 'OMR Goodie';
+  $description = 'OMR Goodie';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/omr-goodie';
+  require_once('./layouts/header.php');
+  require_once('./views/de/omr-goodie.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';
