@@ -40,10 +40,10 @@
       </div>
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Zoho-app-icon.svg" alt="Zoho" />
+          <img src="/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg" alt="Jira Service Desk" />
         </div>
-        <h3>Zoho</h3>
-        <p>Wählen Sie direkt aus Ihrem Zoho CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Zoho-Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
+        <h3>Jira Service Desk</h3>
+        <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
