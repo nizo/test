@@ -8,7 +8,7 @@
         </h1>
         <p class="primary">Einmal mit allem, bitte. Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.</p>
         <div class="button-set">
-          <a class="button tertiary rounded">Jetzt Demo buchen</a>
+          <a class="button tertiary rounded" href="/testen">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">
@@ -103,7 +103,7 @@
           <img src="/assets/images/logo/productlogos/chrome-logo.svg" alt="Google Chrome" />
         </p>
         <p>
-          <a href="#" class="button secondary black mobileWrap rounded button--block">zu Chrome hinzufügen</a>
+          <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Chrome hinzufügen</a>
         </p>
       </div>
       <div class="col-3">
@@ -111,7 +111,7 @@
           <img src="/assets/images/logo/productlogos/firefox-logo.svg" alt="Mozilla Firefox" />
         </p>
         <p>
-          <a href="#" class="button secondary black mobileWrap rounded button--block">zu Firefox hinzufügen</a>
+          <a href="https://addons.mozilla.org/de/firefox/addon/callone/" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Firefox hinzufügen</a>
         </p>
       </div>
       <div class="col-3">
@@ -119,7 +119,7 @@
           <img src="/assets/images/logo/productlogos/edge-logo.svg" alt="Microsoft Edge" />
         </p>
         <p>
-          <a href="#" class="button secondary black mobileWrap rounded button--block">zu Edge hinzufügen</a>
+          <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Edge hinzufügen</a>
         </p>
       </div>
     </div>

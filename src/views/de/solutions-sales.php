@@ -6,7 +6,7 @@
         <h1>Hier kommt die Kohle rein</h1>
         <p class="primary">Power für Ihre Moneymaker – mehr Abschlüsse durch Automatisierung und Tracking</p>
         <div class="button-set">
-          <a class="button tertiary rounded">Jetzt Demo buchen</a>
+          <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">
