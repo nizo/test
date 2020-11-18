@@ -7,7 +7,7 @@
 // echo "</pre>";
 
 // switch ($params[1]) {
-//   case "summoner":
+//   case "test":
 //     echo $params[3];
 //   break;
 // }
