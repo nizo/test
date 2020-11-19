@@ -577,40 +577,8 @@ $r->addRoute('GET', '/case-study-navabi', function() {
   require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/api', function() {
-  $title = 'Api';
-  $description = 'Api';
-  $keywords = '';
-  $background = '';
-  $ogUrl = $GLOBALS['url'] . '/api';
-  require_once('./layouts/header.php');
-  require_once('./views/de/api-docs.php');
-  require_once('./layouts/footer.php');
-});
-
-$r->addRoute('GET', '/apps-integrations', function() {
-  $title = 'Apps & Integrations';
-  $description = 'Apps & Integrations';
-  $keywords = '';
-  $background = '';
-  $ogUrl = $GLOBALS['url'] . '/api';
-  require_once('./layouts/header.php');
-  require_once('./views/de/apps-integrations.php');
-  require_once('./layouts/footer.php');
-});
-
-$r->addRoute('GET', '/solutions', function() {
-  $title = 'Solutions';
-  $description = 'Solutions';
-  $keywords = '';
-  $background = '';
-  $ogUrl = $GLOBALS['url'] . '/solutions';
-  require_once('./layouts/header.php');
-  require_once('./views/de/solutions.php');
-  require_once('./layouts/footer.php');
-});
-
-$r->addRoute('GET', '/solutions-customer-service', function() {
+// loesungen
+$r->addRoute('GET', '/customer-service-solutions', function() {
   $title = 'Solutions - Customer Service';
   $description = 'Solutions - Customer Service';
   $keywords = '';
@@ -621,7 +589,7 @@ $r->addRoute('GET', '/solutions-customer-service', function() {
   require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/solutions-sales', function() {
+$r->addRoute('GET', '/sales-solutions', function() {
   $title = 'Solutions - Sales';
   $description = 'Solutions - Sales';
   $keywords = '';
@@ -632,7 +600,7 @@ $r->addRoute('GET', '/solutions-sales', function() {
   require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/solutions-helpdesk', function() {
+$r->addRoute('GET', '/it-helpdesk-solutions', function() {
   $title = 'Solutions - IT Helpdesk';
   $description = 'Solutions - IT Helpdesk';
   $keywords = '';
@@ -643,7 +611,44 @@ $r->addRoute('GET', '/solutions-helpdesk', function() {
   require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/omr-goodie', function() {
+// integrationen
+/*
+$r->addRoute('GET', '/callcenter-software-integrationen', function() {
+  $title = 'Solutions';
+  $description = 'Solutions';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions.php');
+  require_once('./layouts/footer.php');
+});
+*/
+
+$r->addRoute('GET', '/callcenter-software-apps', function() {
+  $title = 'Apps & Integrations';
+  $description = 'Apps & Integrations';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/api';
+  require_once('./layouts/header.php');
+  require_once('./views/de/apps-integrations.php');
+  require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/voip-api', function() {
+  $title = 'API';
+  $description = 'API';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/api';
+  require_once('./layouts/header.php');
+  require_once('./views/de/api-docs.php');
+  require_once('./layouts/footer.php');
+});
+
+// omr podcast
+$r->addRoute('GET', '/omr', function() {
   $title = 'OMR Goodie';
   $description = 'OMR Goodie';
   $keywords = '';
@@ -654,6 +659,7 @@ $r->addRoute('GET', '/omr-goodie', function() {
   require_once('./layouts/footer.php');
 });
 
+// fallback 404
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';

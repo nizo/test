@@ -31,15 +31,6 @@
           </a>
         </li>
         <li>
-          <a href="/cti-schnittstellen" title="CTI-Applikationen, REST-APIs, Webhooks​">
-            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-app-api.svg" data-srcset="/assets/images/icons_svg/menu-app-api.svg" alt="Applikationen & API​">
-            <div>
-              <span>Applikationen & API​</span>
-                CTI-Applikationen, REST-APIs, <br>Webhooks
-            </div>
-          </a>
-        </li>
-        <li>
           <a href="/0800-lokal-nummern"  title="Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit​">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-numbers.svg" data-srcset="/assets/images/icons_svg/menu-numbers.svg" alt="Rufnummern">
             <div>
@@ -75,7 +66,7 @@
   		<a class="submenu">Lösungen</a>
       <ul class="pages-submenu product-menu">
   			<li>
-          <a href="#" title="Der Turbo für Ihren Kundenservice">
+          <a href="/customer-service-solutions" title="Der Turbo für Ihren Kundenservice">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-customer-service.svg" data-srcset="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice">
             <div>
                 <span>Kundenservice</span>
@@ -84,7 +75,7 @@
           </a>
         </li>
         <li>
-          <a href="#" title="Hier kommt die Kohle rein">
+          <a href="/sales-solutions" title="Hier kommt die Kohle rein">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-sales.svg" data-srcset="/assets/images/icons_svg/menu-sales.svg" alt="Sales">
             <div>
                 <span>Sales</span>
@@ -93,7 +84,7 @@
           </a>
         </li>
         <li>
-          <a href="#" title="Zeitkiller einfach plattmachen">
+          <a href="/it-helpdesk-solutions" title="Zeitkiller einfach plattmachen">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-it-helpdesk.svg" data-srcset="/assets/images/icons_svg/menu-it-helpdesk.svg" alt="IT-Helpdesk">
             <div>
                 <span>IT-Helpdesk</span>
@@ -108,6 +99,7 @@
     <li>
   		<a class="submenu">Integrationen</a>
       <ul class="pages-submenu product-menu">
+        <!--
   			<li>
           <a href="#" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-overview.svg" data-srcset="/assets/images/icons_svg/menu-overview.svg" alt="Überblick">
@@ -117,8 +109,9 @@
             </div>
           </a>
         </li>
+        -->
         <li>
-          <a href="#" title="Ein System, alle Business-Lösungen">
+          <a href="/callcenter-software-apps" title="Ein System, alle Business-Lösungen">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-applications.svg" data-srcset="/assets/images/icons_svg/menu-applications.svg" alt="Applikationen">
             <div>
                 <span>Applikationen</span>
@@ -127,7 +120,7 @@
           </a>
         </li>
         <li>
-          <a href="#" title="Volle Flexibilität mit Telefon-Schnittstellen">
+          <a href="/voip-api" title="Volle Flexibilität mit Telefon-Schnittstellen">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-apis.svg" data-srcset="/assets/images/icons_svg/menu-apis.svg" alt="Schnittstellen">
             <div>
                 <span>Schnittstellen</span>
