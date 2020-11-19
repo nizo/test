@@ -310,7 +310,7 @@ hr {
 	padding-bottom: 40px !important;
 }
 .padding-bottom-80 {
-	padding-bottom: 80px !important;
+  padding-bottom: 80px !important;
 }
 .padding-left-right-40 {
 	padding-left: 40px;
@@ -355,6 +355,36 @@ hr {
 
 .break-word {
 	word-break: break-word;
+}
+
+.omr-badge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: rgba(#000, 0.5);
+  border-radius: 10px;
+  padding: $gutter-m $gutter-l;
+  &__icon {
+    img {
+      display: block;
+    }
+  }
+  &__text {
+    // display: flex;
+    // flex-direction: column;
+    flex-grow: 1;
+    padding: 0 $gutter-l;
+    font-size: 18px;
+    strong {
+      font-size: 28px;
+    }
+  }
+  &__button {
+    .button.tertiary.rounded:hover {
+      border-color: $color-primary;
+    }
+  }
 }
 
 .flex {

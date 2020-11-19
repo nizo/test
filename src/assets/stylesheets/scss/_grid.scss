@@ -70,6 +70,10 @@ $grid-gutter: $gutter-l;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				&--small {
+					height: auto;
+					margin-bottom: $gutter-l;
+				}
 				img {
 					display: block;
 				}
