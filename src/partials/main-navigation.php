@@ -8,7 +8,11 @@
     <?php endif; ?>
   </a>
   <ul class="menu">
+    
+    <!-- call center software button -->
     <li><a href="/callcenter-software" title="Callcenter-Software" class="highlight tertiary">Call Center Software</a></li>
+
+    <!-- produkte -->
     <li> 
       <a class="arrow" title="Produkte">Produkte</a>
       <div class="submenu submenu-products">
@@ -85,38 +89,100 @@
         </div>
       </div>
     </li>
-    <!-- <li>
-      <a class="arrow" title="Telefonie-Lösungen">Telefonie-Lösungen</a>
-      <div class="submenu">
+
+    <?php if (isset ($_GET['menu_new'])): ?>
+    <!-- loesungen -->
+    <li> 
+      <a class="arrow" title="Lösungen">Lösungen</a>
+      <div class="submenu submenu-products">
         <div class="submenu-content">
-          <strong class="headline">Lösungen</strong>
+          <!-- <strong class="headline">Lösungen</strong> -->
           <ul>
             <li>
-              <a href="/callcenter-software" title="Intelligente Anrufverteilung mit CallOne Cloud ACD">
-                <span>Kundenservice</span>
-                Intelligente Anrufverteilung mit<br />
-                CallOne Cloud ACD
+              <a href="#" class="product" title="Der Turbo für Ihren Kundenservice">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-customer-service.svg" data-srcset="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice" title="Kundenservice">
+              	</span>
+                <span>
+                	<span>Kundenservice</span>
+                	Der Turbo für Ihren Kundenservice
+                </span>
               </a>
             </li>
             <li>
-              <a href="/crm-callcenter" title="Apps, CRM-Integrationen und offene APIs">
-                <span>Sales</span>
-                Apps, CRM-Integrationen<br />
-                und offene APIs
+              <a href="#" class="product" title="Hier kommt die Kohle rein">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-sales.svg" data-srcset="/assets/images/icons_svg/menu-sales.svg" alt="Sales" title="Sales">
+              	</span>	
+              	<span>
+                    <span>Sales</span>
+                    Hier kommt die Kohle rein
+              	</span>	
               </a>
             </li>
             <li>
-              <a href="/cloud-telefonanlage" title="IP-Telefonanlage mit Rundum-Features">
-                <span>Businesstelefonie</span>
-                IP-Telefonanlage mit<br />
-                Rundum-Features
+              <a href="#" class="product" title="Zeitkiller einfach plattmachen​">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-it-helpdesk.svg" data-srcset="/assets/images/icons_svg/menu-it-helpdesk.svg" alt="IT-Helpdesk​" title="IT-Helpdesk">
+              	</span>
+              	<span>
+                    <span>IT-Helpdesk​</span>
+                    Zeitkiller einfach plattmachen
+                </span>
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </li> -->
-    <li><a href="/preise" title="Preise">Preise</a></li>
+    </li>
+
+    <!-- integrationen -->
+    <li> 
+      <a class="arrow" title="Integrationen">Integrationen</a>
+      <div class="submenu submenu-products">
+        <div class="submenu-content">
+          <!-- <strong class="headline">Integrationen</strong> -->
+          <ul>
+            <li>
+              <a href="#" class="product" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-overview.svg" data-srcset="/assets/images/icons_svg/menu-overview.svg" alt="Überblick" title="Überblick">
+              	</span>
+                <span>
+                	<span>Überblick</span>
+                	Integrationen, die Sie persönlich und<br/>effizient mit Ihren Kunden verbinden
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="product" title="Ein System, alle Business-Lösungen">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-applications.svg" data-srcset="/assets/images/icons_svg/menu-applications.svg" alt="Applikationen" title="Applikationen">
+              	</span>	
+              	<span>
+                    <span>Applikationen</span>
+                    Ein System, alle Business-Lösungen
+              	</span>	
+              </a>
+            </li>
+            <li>
+              <a href="#" class="product" title="Volle Flexibilität bei Telefon-Schnittstellen">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-apis.svg" data-srcset="/assets/images/icons_svg/menu-apis.svg" alt="Schnittstellen​​" title="Schnittstellen​">
+              	</span>
+              	<span>
+                    <span>Schnittstellen​</span>
+                    Volle Flexibilität bei Telefon-Schnittstellen
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <?php endif; ?>
+    
+    <!-- referenzen -->
     <li>
       <a class="arrow" title="Referenzen">Referenzen</a>
       <div class="submenu submenu-products">
@@ -145,13 +211,6 @@
               </a>
             </li>
             <li>
-              <a href="/case-study-navabi" title="Persönlicher Kundenservice mit Zendesk-Anbindung">
-                <span>Navabi</span>
-                Persönlicher Kundenservice<br />
-                mit Zendesk-Anbindung
-              </a>
-            </li>
-            <li>
               <a href="/case-study-apodiscounter" title="Intelligente Anrufsteuerung mit KI">
                 <span>Apodiscounter</span>
                 Intelligente Anrufsteuerung<br />
@@ -162,7 +221,7 @@
         </div>
       </div>
     </li>
-    <!--  <li><a href="/testen" class="highlight" title="Mit Experten sprechen - Testen">Mit Experten sprechen</a></li> -->
+
   </ul>
   <div class="btn-mobile-nav" id="btn-mobile-nav">
     <div class="stripes"></div>
