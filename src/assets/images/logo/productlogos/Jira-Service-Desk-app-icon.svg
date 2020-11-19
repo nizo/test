@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 59.140059 75.76"
+   version="1.1"
+   id="svg49"
+   sodipodi:docname="jira-service-desk-logo.svg"
+   width="59.14006"
+   height="75.760002"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata53">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="926"
+     inkscape:window-height="767"
+     id="namedview51"
+     showgrid="false"
+     inkscape:zoom="3.7233211"
+     inkscape:cx="10.478662"
+     inkscape:cy="26.71773"
+     inkscape:window-x="167"
+     inkscape:window-y="57"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Blue" />
+  <defs
+     id="defs9">
+    <style
+       id="style2">.cls-1{fill:#253858;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:#2684ff;}</style>
+    <linearGradient
+       id="linear-gradient"
+       x1="36.5"
+       y1="34.279999"
+       x2="45.330002"
+       y2="60.419998"
+       gradientTransform="rotate(0.35,251.21565,-290.52204)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0052cc"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#2684ff"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title11">Jira Service Desk-blue</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="translate(-0.00496887)">
+    <g
+       id="Blue">
+      <path
+         class="cls-2"
+         d="M 35.34,29.92 55.95,30 a 3.21,3.21 0 0 1 2.55,5.14 L 28.08,75.76 A 21.61,21.61 0 0 1 23.7,45.51 Z"
+         id="path43"
+         style="fill:url(#linear-gradient)" />
+      <path
+         class="cls-3"
+         d="M 23.69,45.51 3.2,45.38 A 3.21,3.21 0 0 1 0.65,40.24 L 30.77,0 a 21.61,21.61 0 0 1 4.38,30.25 z"
+         id="path45" />
+    </g>
+  </g>
+</svg>

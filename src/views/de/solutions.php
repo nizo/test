@@ -5,7 +5,7 @@
         <h1>Besser helfen, mehr verkaufen, maßgeschneidert</h1>
         <p class="primary">Ein einziges System für nachweislich besseren Kundenservice, mehr qualitative Sales und entspannte Businesskommunikation. Immer angepasst an Ihr Unternehmen.</p>
         <div class="button-set">
-          <a class="button tertiary rounded">Jetzt Demo buchen</a>
+          <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">

@@ -5,7 +5,7 @@
         <h1>Volle Flexibilität mit Telefon-Schnittstellen</h1>
         <p class="primary">Kommunikation muss für Sie ohne Stress funktionieren. Passen Sie CallOne einfach mit unseren offenen Schnittstellen nach Ihren Anforderungen an.</p>
         <div class="button-set">
-          <a class="button tertiary rounded">Unsere Dokumentation <span class="button__icon arrow icon-jump-forward"></span></a>
+          <a class="button tertiary rounded" href="https://connect.callone.io/api/rest/" target="_blank">Unsere Dokumentation <span class="button__icon arrow icon-jump-forward"></span></a>
         </div>
       </div>
       <div class="media centered">
@@ -46,7 +46,7 @@
         <h2>Unsere Schnittstellen</h2>
 
         <p>
-          <a href="#" class="button secondary black mobileWrap small-rounded"><span class="button__icon icon-documentation"></span> Zur API-Dokumentation</a>
+          <a class="button secondary black mobileWrap small-rounded" href="https://connect.callone.io/api/rest/" target="_blank"><span class="button__icon icon-documentation"></span> Zur API-Dokumentation</a>
         </p>
 
         <div class="scroller fadeOut-lightgrey-2" data-height="300">

@@ -4,94 +4,142 @@
   </span>
 
   <ul class="pages-menu">
-  	<li>
-    	<a href="/callcenter-software" title="Callcenter Software - Intelligente Anrufverteilung mit CallOne Cloud ACD" class="hightlight">Call Center Software</a>
-    </li>
+
+    <!-- callcenter software -->
+  	<li><a href="/callcenter-software" title="Callcenter Software - Intelligente Anrufverteilung mit CallOne Cloud ACD" class="hightlight">Call Center Software</a></li>
+
+    <!-- produkte -->
   	<li>
   		<a class="submenu submenu-open">Produkte</a>
   		<ul class="pages-submenu product-menu" style="display: block;">
   			<li>
-              <a href="/callcenter-software" title="Virtuelle Callcenter Lösung für Sales und Service">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_25.svg" data-srcset="/assets/images/icons_svg/small_25.svg" alt="Callcenter Software">
-                <div>
-                    <span>Callcenter-Software</span>
-                    <p>Virtuelle Callcenter-Lösung <br>für Sales und Service</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="/voip-telefonanlage" title="Virtuelle Telefonanlage, intuitiv bedienbar">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_11.svg" data-srcset="/assets/images/icons_svg/small_11.svg" alt="VoIP Telefonanlage">
-                <div>
-                  <span>VoIP-Telefonanlage</span>
-                  Virtuelle Telefonanlage, <br>intuitiv bedienbar
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="/cti-schnittstellen" title="CTI-Applikationen, REST-APIs, Webhooks​">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_07_2.svg" data-srcset="/assets/images/icons_svg/small_07_2.svg" alt="Applikationen & API​">
-                <div>
-                	<span>Applikationen & API​</span>
-                    CTI-Applikationen, REST-APIs, <br>Webhooks
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="/0800-lokal-nummern"  title="Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit​">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_22.svg" data-srcset="/assets/images/icons_svg/small_22.svg" alt="Rufnummern">
-                <div>
-                	<span>Rufnummern</span>
-                    Freecall 0800, lokale Rufnummern <br>aus Ihrem Vorwahlbereich und weltweit
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="/call-tracking"  title="Call-Tracking, Telefon-tracking, Co-Browsing-Session">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_36.svg" data-srcset="/assets/images/icons_svg/small_36.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
-                <div>
-                	<span>Call Tracking</span>
-                    Eindeutiges verknüpfen Ihrer Bestellhotline <br>mit einer laufenden Websession
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="/callcenter-bot"  title="Voicebot, KI-Spracherkennung, IVR">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_39.svg" data-srcset="/assets/images/icons_svg/small_39.svg" alt="Voicebot KI-Sprackerkennung" title="Zum Produkt Voicebot KI-Sprackerkennung">
-                <div>
-                	<span>Callcenter-Bot</span>
-                    Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
-                </div>
-              </a>
-            </li>
+          <a href="/callcenter-software" title="Virtuelle Callcenter Lösung für Sales und Service">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-software.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-software.svg" alt="Callcenter Software">
+            <div>
+                <span>Callcenter-Software</span>
+                <p>Virtuelle Callcenter-Lösung <br>für Sales und Service</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/voip-telefonanlage" title="Virtuelle Telefonanlage, intuitiv bedienbar">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-voip.svg" data-srcset="/assets/images/icons_svg/menu-voip.svg" alt="VoIP Telefonanlage">
+            <div>
+              <span>VoIP-Telefonanlage</span>
+              Virtuelle Telefonanlage, <br>intuitiv bedienbar
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/cti-schnittstellen" title="CTI-Applikationen, REST-APIs, Webhooks​">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-app-api.svg" data-srcset="/assets/images/icons_svg/menu-app-api.svg" alt="Applikationen & API​">
+            <div>
+              <span>Applikationen & API​</span>
+                CTI-Applikationen, REST-APIs, <br>Webhooks
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/0800-lokal-nummern"  title="Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit​">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-numbers.svg" data-srcset="/assets/images/icons_svg/menu-numbers.svg" alt="Rufnummern">
+            <div>
+              <span>Rufnummern</span>
+                Freecall 0800, lokale Rufnummern <br>aus Ihrem Vorwahlbereich und weltweit
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/call-tracking"  title="Call-Tracking, Telefon-tracking, Co-Browsing-Session">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-calltracking.svg" data-srcset="/assets/images/icons_svg/menu-calltracking.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
+            <div>
+              <span>Call Tracking</span>
+                Eindeutiges verknüpfen Ihrer Bestellhotline <br>mit einer laufenden Websession
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/callcenter-bot"  title="Voicebot, KI-Spracherkennung, IVR">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-bot.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-bot.svg" alt="Voicebot KI-Sprackerkennung" title="Zum Produkt Voicebot KI-Sprackerkennung">
+            <div>
+              <span>Callcenter-Bot</span>
+                Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
+            </div>
+          </a>
+        </li>
   		</ul>
     </li>
-  <!--  <li>
-      <a class="submenu">Lösungen</a>
-      <ul class="pages-submenu">
-        <li>
-          <a href="/callcenter-software" title="Intelligente Anrufverteilung mit CallOne Cloud ACD">
-            <span>Kundenservice</span>
-            Intelligente Anrufverteilung mit CallOne Cloud ACD
+
+    <?php if (isset ($_GET['menu_new'])): ?>
+    <!-- loesungen -->
+    <li>
+  		<a class="submenu">Lösungen</a>
+      <ul class="pages-submenu product-menu">
+  			<li>
+          <a href="#" title="Der Turbo für Ihren Kundenservice">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-customer-service.svg" data-srcset="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice">
+            <div>
+                <span>Kundenservice</span>
+                <p>Der Turbo für Ihren Kundenservice</p>
+            </div>
           </a>
         </li>
         <li>
-          <a href="/crm-callcenter" title="Apps, CRM-Integrationen und offene APIs">
-            <span>Sales</span>
-            Apps, CRM-Integrationen und offene APIs
+          <a href="#" title="Hier kommt die Kohle rein">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-sales.svg" data-srcset="/assets/images/icons_svg/menu-sales.svg" alt="Sales">
+            <div>
+                <span>Sales</span>
+                <p>Hier kommt die Kohle rein</p>
+            </div>
           </a>
         </li>
         <li>
-          <a href="/cloud-telefonanlage" title="IP-Telefonanlage mit Rundum-Features">
-            <span>Businesstelefonie</span>
-            IP-Telefonanlage mit Rundum-Features
+          <a href="#" title="Zeitkiller einfach plattmachen">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-it-helpdesk.svg" data-srcset="/assets/images/icons_svg/menu-it-helpdesk.svg" alt="IT-Helpdesk">
+            <div>
+                <span>IT-Helpdesk</span>
+                <p>Zeitkiller einfach plattmachen</p>
+            </div>
           </a>
         </li>
       </ul>
-    </li> -->
-    <li>
-      <a href="/preise" title="Preise">Preise</a>
     </li>
+
+    <!-- integrationen -->
+    <li>
+  		<a class="submenu">Integrationen</a>
+      <ul class="pages-submenu product-menu">
+  			<li>
+          <a href="#" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-overview.svg" data-srcset="/assets/images/icons_svg/menu-overview.svg" alt="Überblick">
+            <div>
+                <span>Überblick</span>
+                <p>Integrationen, die Sie persönlich und<br/>effizient mit Ihren Kunden verbinden</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="Ein System, alle Business-Lösungen">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-applications.svg" data-srcset="/assets/images/icons_svg/menu-applications.svg" alt="Applikationen">
+            <div>
+                <span>Applikationen</span>
+                <p>Ein System, alle Business-Lösungen</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="Volle Flexibilität mit Telefon-Schnittstellen">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-apis.svg" data-srcset="/assets/images/icons_svg/menu-apis.svg" alt="Schnittstellen">
+            <div>
+                <span>Schnittstellen</span>
+                <p>Volle Flexibilität mit Telefon-Schnittstellen</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <?php endif; ?>
+
+    <!-- referenzen -->
     <li>
       <a class="submenu">Referenzen</a>
       <ul class="pages-submenu">
@@ -114,12 +162,6 @@
           </a>
         </li>
         <li>
-          <a href="/case-study-navabi" title="Persönlicher Kundenservice mit Zendesk-Anbindung">
-            <span>Navabi</span>
-            Persönlicher Kundenservice mit Zendesk-Anbindung
-          </a>
-        </li>
-        <li>
           <a href="/case-study-apodiscounter" title="Intelligente Anrufsteuerung mit KI">
             <span>Apodiscounter</span>
             Intelligente Anrufsteuerung mit KI
@@ -127,6 +169,7 @@
         </li>
       </ul>
     </li>
+
   </ul>
 
   <div class="buttons">
@@ -137,6 +180,7 @@
   <div class="links">
     <div class="link"><a href="/ueber-uns">Über uns</a></div>
     <div class="link"><a href="/faq">Häufige Fragen</a></div>
+    <div class="link"><a href="/preise">Preise</a></div>
     <div class="link"><a href="https://box.callone.de" rel="noreferrer">Login</a></div>
     <div class="link"><a href="/karriere">Karriere</a></div>
     <div class="link"><a href="/testen">Kontakt</a></div>

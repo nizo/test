@@ -6,7 +6,7 @@
         <h1>Geben Sie Ihren Kunden, was sie verdienen</h1>
         <p class="primary">Customer Service, der auf die Ihre Kunden angepasst ist – automatisiert und trotzdem persönlich.</p>
         <div class="button-set">
-          <a class="button tertiary rounded">Jetzt Demo buchen</a>
+          <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">
