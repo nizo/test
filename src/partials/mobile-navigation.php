@@ -12,7 +12,7 @@
   		<ul class="pages-submenu product-menu" style="display: block;">
   			<li>
               <a href="/callcenter-software" title="Virtuelle Callcenter Lösung für Sales und Service">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_25.svg" data-srcset="/assets/images/icons_svg/small_25.svg" alt="Callcenter Software">
+                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-software.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-software.svg" alt="Callcenter Software">
                 <div>
                     <span>Callcenter-Software</span>
                     <p>Virtuelle Callcenter-Lösung <br>für Sales und Service</p>
@@ -21,7 +21,7 @@
             </li>
             <li>
               <a href="/voip-telefonanlage" title="Virtuelle Telefonanlage, intuitiv bedienbar">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_11.svg" data-srcset="/assets/images/icons_svg/small_11.svg" alt="VoIP Telefonanlage">
+                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-voip.svg" data-srcset="/assets/images/icons_svg/menu-voip.svg" alt="VoIP Telefonanlage">
                 <div>
                   <span>VoIP-Telefonanlage</span>
                   Virtuelle Telefonanlage, <br>intuitiv bedienbar
@@ -30,7 +30,7 @@
             </li>
             <li>
               <a href="/cti-schnittstellen" title="CTI-Applikationen, REST-APIs, Webhooks​">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_07_2.svg" data-srcset="/assets/images/icons_svg/small_07_2.svg" alt="Applikationen & API​">
+                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-app-api.svg" data-srcset="/assets/images/icons_svg/menu-app-api.svg" alt="Applikationen & API​">
                 <div>
                 	<span>Applikationen & API​</span>
                     CTI-Applikationen, REST-APIs, <br>Webhooks
@@ -39,7 +39,7 @@
             </li>
             <li>
               <a href="/0800-lokal-nummern"  title="Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit​">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_22.svg" data-srcset="/assets/images/icons_svg/small_22.svg" alt="Rufnummern">
+                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-numbers.svg" data-srcset="/assets/images/icons_svg/menu-numbers.svg" alt="Rufnummern">
                 <div>
                 	<span>Rufnummern</span>
                     Freecall 0800, lokale Rufnummern <br>aus Ihrem Vorwahlbereich und weltweit
@@ -48,7 +48,7 @@
             </li>
             <li>
               <a href="/call-tracking"  title="Call-Tracking, Telefon-tracking, Co-Browsing-Session">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_36.svg" data-srcset="/assets/images/icons_svg/small_36.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
+                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-calltracking.svg" data-srcset="/assets/images/icons_svg/menu-calltracking.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
                 <div>
                 	<span>Call Tracking</span>
                     Eindeutiges verknüpfen Ihrer Bestellhotline <br>mit einer laufenden Websession
@@ -57,7 +57,7 @@
             </li>
             <li>
               <a href="/callcenter-bot"  title="Voicebot, KI-Spracherkennung, IVR">
-                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_39.svg" data-srcset="/assets/images/icons_svg/small_39.svg" alt="Voicebot KI-Sprackerkennung" title="Zum Produkt Voicebot KI-Sprackerkennung">
+                <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-bot.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-bot.svg" alt="Voicebot KI-Sprackerkennung" title="Zum Produkt Voicebot KI-Sprackerkennung">
                 <div>
                 	<span>Callcenter-Bot</span>
                     Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
