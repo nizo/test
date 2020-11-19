@@ -6,6 +6,13 @@
   .text, .media {
     width: percentage(1/2);
   }
+  &--alignEnd {
+    align-items: flex-end;
+    .media {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
   .text {
     padding: $gutter-xl $gutter-xl $gutter-xl 0;
     &.no-padding {

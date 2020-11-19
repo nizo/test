@@ -20,7 +20,7 @@
     <div class="grid centered">
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/casestudy-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" />
         </div>
         <h3>Kundenservice</h3>
         <p>Das „Mach-meine-Kunden-glücklich-Paket“ steuert Anrufe intelligent, optimiert Ihre Erreichbarkeit und macht Ihr Callcenter viel effizienter.</p>
@@ -30,7 +30,7 @@
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/sales.svg" alt="" />
+          <img src="/assets/images/icons_svg/Sales-White.svg" alt="" />
         </div>
         <h3>Sales</h3>
         <p>Mehr Durchblick bringt mehr Leads und qualitativ bessere Abschlüsse. Sie verbinden CallOne mit den besten Vertriebstools, einfach per Knopfdruck.</p>
@@ -40,7 +40,7 @@
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/sales.svg" alt="" />
+          <img src="/assets/images/icons_svg/Helpdesk-White.svg" alt="" />
         </div>
         <h3>IT-Helpdesk</h3>
         <p>Organisierter und produktiver werden, Geschäftsprozesse optimieren. Mit CallOnes IT-Helpdesk lösen Sie Anfragen kompetent und transparent.</p>
