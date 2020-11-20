@@ -36,8 +36,8 @@
       <div class="customSelect">
         <div class="group">
             <div id="position" class="select-selected"></div>
-            <label for="position" class="centered">Ich bin Ansprechpartner von</label>
-            <label for="position" class="centered mobile">Abteilung</label> 
+            <label for="position" class="">Ich bin Ansprechpartner von</label>
+            <label for="position" class="mobile">Abteilung</label> 
         </div>
         <div class="select-items select-hide">
           <div class="item">IT</div>
