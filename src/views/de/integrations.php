@@ -78,7 +78,7 @@
 
     <div class="image-grid padding-top-80">
       <div class="image">
-        <img src="//placehold.it/640x640" alt="" />
+        <img src="/assets/images/logo/productlogos/app-integration-group2.svg" alt="App Integrations" />
       </div>
       <div class="text">
         <h3>Ihre Tools, direkt am Start</h3>
