@@ -99,7 +99,6 @@
     <li>
   		<a class="submenu">Integrationen</a>
       <ul class="pages-submenu product-menu">
-        <!--
   			<li>
           <a href="#" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-overview.svg" data-srcset="/assets/images/icons_svg/menu-overview.svg" alt="Überblick">
@@ -109,7 +108,6 @@
             </div>
           </a>
         </li>
-        -->
         <li>
           <a href="/callcenter-software-apps" title="Ein System, alle Business-Lösungen">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-applications.svg" data-srcset="/assets/images/icons_svg/menu-applications.svg" alt="Applikationen">
