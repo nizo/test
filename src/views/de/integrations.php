@@ -288,7 +288,7 @@
             <div class="text">
               <h4>Use Case</h4>
               <h2>Schnittstellenanbindung 2.0</h2>
-              <p>„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
+              <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
               <p>
                 <strong>Florian Flock</strong><br />
                 Business Development Manager bei Niceshops
@@ -309,10 +309,10 @@
             <div class="text">
               <h4>Use Case</h4>
               <h2>Schnittstellenanbindung 3.0</h2>
-              <p>„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
+              <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
               <p>
                 <strong>Max Mustermann</strong><br />
-                CEo bei Mustercompany
+                CEO bei Mustercompany
               </p>
               <p>
                 <a href="#" class="button tertiary black2 small-rounded">
@@ -330,10 +330,10 @@
             <div class="text">
               <h4>Use Case</h4>
               <h2>Schnittstellenanbindung 4.5</h2>
-              <p>„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
+              <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
               <p>
                 <strong>Max Mustermann</strong><br />
-                CEo bei Mustercompany
+                CEO bei Mustercompany
               </p>
               <p>
                 <a href="#" class="button tertiary black2 small-rounded">
