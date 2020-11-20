@@ -42,7 +42,7 @@
           <h3>Automatisierung mit KI</h3>
           <p>Mit skalierbarer Automatisierung senken Sie Betriebskosten und bedienen dabei Ihre Kunden kompetent und professionell.</p>
         </div>
-        <a href="#" class="icon-card__button"></a>
+        <a href="/callcenter-bot" class="icon-card__button"></a>
       </div>
       <div class="icon-card">
         <div class="icon-card__icon">
@@ -52,7 +52,7 @@
           <h3>Omnichannel Kundensupport</h3>
           <p>Service dort, wo Ihre Kunden sind: durch fertige, integrierbare Apps und offene Schnittstellen für Ihr CRM und Ticketing System.</p>
         </div>
-        <a href="#" class="icon-card__button"></a>
+        <a href="/callcenter-software-apps" class="icon-card__button"></a>
       </div>
       <div class="icon-card">
         <div class="icon-card__icon">
@@ -62,7 +62,7 @@
           <h3>Smarte Sales</h3>
           <p>Ihr Sales-Team kann endlich Vollgas geben, mit Click-to-Dial, CTI-Integrationen und Rückruf-Schnittstellen.</p>
         </div>
-        <a href="#" class="icon-card__button"></a>
+        <a href="/sales-solutions" class="icon-card__button"></a>
       </div>
       <div class="icon-card">
         <div class="icon-card__icon">
@@ -72,7 +72,7 @@
           <h3>Dezentrales Callcenter</h3>
           <p>Bringen Sie das Callcenter zu Ihren Agenten: ins Homeoffice, ans Büro-Telefon oder in den Browser. Über Ihren Client entscheiden Sie flexibel.</p>
         </div>
-        <a href="#" class="icon-card__button"></a>
+        <a href="/callcenter-software" class="icon-card__button"></a>
       </div>
     </div>
 
@@ -83,7 +83,7 @@
       <div class="text">
         <h3>Ihre Tools, direkt am Start</h3>
         <p>Vom Helpdesk über Analytics zur Abrechnung, vorbei am Content-Hub und zurück zum CRM. Mit einem Klick verbinden Sie alles mit Ihrer CallOne Telefonielösung.</p>
-        <p><a href="#" class="button transparent-border rounded">jetzt Apps kombinieren</a></p>
+        <p><a href="/callcenter-software-apps" class="button transparent-border rounded">jetzt Apps kombinieren</a></p>
       </div>
     </div>
   </div>
@@ -95,7 +95,7 @@
       <div class="col-3 padding-top-40">
         <h2>Bereit, wenn Sie es sind. Auf Knopfdruck integriert</h2>
         <p>Alle Apps, die Sie je brauchen werden: Sie haben bereits erfolgreiche Prozesse, wir haben die passende Schnittstelle dazu.</p>
-        <p><a href="#" class="button tertiary rounded">Mehr erfahren</a></p>
+        <p><a href="/voip-api" class="button tertiary rounded">Mehr erfahren</a></p>
       </div>
       <div class="col-3 mobile-hidden">
         <div class="scroller fadeOut-lightgrey-2" data-height="680">
@@ -294,7 +294,7 @@
                 Business Development Manager bei Niceshops
               </p>
               <p>
-                <a href="#" class="button tertiary black2 small-rounded">
+                <a href="/case-study-niceshops" class="button tertiary black2 small-rounded">
                   <span class="icon-casestudy"></span> Case Study lesen
                 </a>
               </p>
