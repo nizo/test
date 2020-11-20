@@ -477,8 +477,11 @@ form {
 			border: 2px solid #fff;
 			border-radius: 6px;
 			padding: $gutter-m;
+			height: auto;
 			display: block;
 			margin: $gutter-m 0;
+			font-family: $font-copy;
+			font-weight: 500;
 			&::placeholder {
 				color: #fff;
 			}
@@ -525,6 +528,10 @@ form {
 		}
 		.customSelect {
 			position: relative;
+			* {
+				font-family: $font-headline;
+				font-weight: 400;
+			}
 			.select-selected {
 				border: 2px solid #fff;
 				border-radius: 6px;
@@ -532,19 +539,20 @@ form {
 				text-align: left;
 				position: relative;
 				z-index: 2;
-				height: 44px;
+				height: 60px;
 				color: #fff;
 				font-size: 18px;
 				padding: 9px 20px;
 				&:after {
 					content: "\e5ca";
 			    width: $gutter-l;
-			    height: 100%;
+			    height: auto;
 			    display: inline-block;
 			    right: 0;
 			    position: absolute;
 			    padding: 5px;
-			    top: 0;
+			    top: 50%;
+			    transform: translateY(-50%);
 			    color: #fff;
 			    font-family: streamline;
 			    -webkit-transition-duration: 0.8s;
@@ -564,10 +572,10 @@ form {
 				}
 				&.active {
 					&:after {
-						transform: rotateX(180deg);
-						-webkit-transform:rotateX(180deg);
-					    -moz-transform:rotateX(180deg); 
-					    -o-transform:rotateX(180deg);
+						transform: translateY(-50%) rotateX(180deg);
+						-webkit-transform:translateY(-50%) rotateX(180deg);
+					    -moz-transform:translateY(-50%) rotateX(180deg); 
+					    -o-transform:translateY(-50%) rotateX(180deg);
 					}
 				}
 				&.error {
@@ -614,7 +622,7 @@ form {
 			    -moz-transition: all .3s cubic-bezier(.4,.1,.2,1);
 			    transition: all .3s cubic-bezier(.4,.1,.2,1);
 		      position: absolute;
-			    bottom: 5px;
+			    bottom: 14px;
 			    left: 0;
 			    color: #fff;
 			    font-size: 18px;

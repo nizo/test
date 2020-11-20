@@ -64,6 +64,10 @@ h1, h2, h3, h4,
 	color: #000;
 }
 
+.font-headline {
+  font-family: $font-headline !important;
+}
+
 h1, .h1 {
   font-size: $font-size-xxl;
   margin-bottom: $gutter-l;
@@ -392,6 +396,7 @@ hr {
     font-size: 18px;
     strong {
       font-size: 28px;
+      font-family: $font-headline;
     }
   }
   &__button {

@@ -31,7 +31,7 @@
 
 <div class="wrapper integrations padding-top-80 padding-bottom-80">
   <div class="content narrow">
-    <h2>Bieten Sie <span class="color-green">heute</span> schon den Telefonservice von <span class="color-green">morgen</span></h2>
+    <h2>Bieten Sie <span class="color-green font-headline">heute</span> schon den Telefonservice von <span class="color-green font-headline">morgen</span></h2>
 
     <div class="icon-cards">
       <div class="icon-card">
@@ -310,7 +310,7 @@
 <div class="wrapper dark-light-grey">
   <div class="content wide">
     <h2 class="centered">
-      Sicher, schnell, professionell &ndash; mit <span class="color-green">100% Datenschutz</span>
+      Sicher, schnell, professionell &ndash; mit <span class="color-green font-headline">100% Datenschutz</span>
     </h2>
 
     <div class="grid">

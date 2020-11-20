@@ -9,12 +9,14 @@
           <li>Eine Plattform für das gesamte Unternehmen</li>
           <li>Fertige Apps und offene Schnittstellen</li>
         </ul>
-        <div class="button-set">
+        <div class="button-set padding-top-20">
           <a href="#" class="button tertiary rounded">Unverbindlich testen</a>
         </div>
       </div>
       <div class="media centered">
-        <img src="/assets/images/photos/philipp-scaled-up2@3x.png" alt="" style="display:block;" />
+        <a href="https://omr.com/de/podcast/">
+          <img src="/assets/images/photos/philipp-scaled-up2@3x.png" alt="" style="display:block;" />
+        </a>
       </div>
     </header>
   </div>
@@ -85,10 +87,10 @@
     <p class="centered">Unternehmen denen Telefonberatung am Herzen liegt, vertrauen auf <strong>CallOne Lösungen</strong></p>
 
     <?php getLogoParade([   
-                          ['data' => 'bett1-logo.svg', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'logo-check24-2.png', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo invert small'],
-                          ['data' => 'logo-sixt-2.png', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo invert small'],
-                          ['data' => 'logo-snipes.png', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo invert small'],
+                          ['data' => 'bett-white.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
+                          ['data' => 'check24-logo.svg', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
+                          ['data' => 'sixt-logo.svg', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo invert small'],
+                          ['data' => 'snipes2-logo.svg', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo invert small'],
                           ['data' => 'logo-sodastream.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo invert small']
     ], null, 'startpage'); ?>
   </div>

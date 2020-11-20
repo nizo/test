@@ -197,7 +197,7 @@
   <div class="content wide">
     <h2 class="centered">
       Schnelle und professionelle<br />
-      Implementierung mit <span class="color-green">100% Datenschutz</span>
+      Implementierung mit <span class="color-green font-headline">100% Datenschutz</span>
     </h2>
 
     <div class="grid">

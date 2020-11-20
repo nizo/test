@@ -141,6 +141,10 @@ app =
       $('.topic-box').hide()
       $('.topic-box[data-topic="'+topic+'"]').show()
 
+    # Toggle Boxes
+    $(document).on 'click', '.toggle-box label', (e) ->
+      $(this).parent().find('.toggle-box__content').slideToggle()
+
   # autoplay_videos: ->
   #   videos = document.getElementsByTagName 'video'
   #   i = 0

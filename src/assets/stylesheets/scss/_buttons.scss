@@ -22,9 +22,17 @@
   }
   &.rounded {
     border-radius: 100px;
+    font-family: $font-headline;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 16px;
   }
   &.small-rounded {
     border-radius: 6px;
+    font-family: $font-headline;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 16px;
   }
   &--block {
     display: block;

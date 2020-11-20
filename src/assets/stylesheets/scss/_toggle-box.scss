@@ -30,7 +30,7 @@
           background-image: url(../images/icons_svg/minus-icon.svg);
         }
         &+.toggle-box__content {
-          display: block;
+          // display: block;
         }
       }
     }
@@ -38,6 +38,7 @@
   .toggle-box__content {
     display: none;
     padding: $gutter-m;
+    padding-left: calc(16px + #{$gutter-m} + #{$gutter-s});
     padding-top: 0;
   }
   &+.toggle-box {
@@ -91,6 +92,7 @@
     }
     .toggle-box__content {
       margin-top: 0;
+      padding-left: calc(20px + #{$gutter-s});
       padding-bottom: $gutter-m;
     }
     &:before {
