@@ -25,17 +25,19 @@
     <form action="" method="post" class="form omr-form">
       <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="" />
       <h2>Angebot für OMR-Fans</h2>
-      <p>Exklusiv für OMR Hörer bieten wir unsere Lösung  <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
+      <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
 
       <input type="text" name="name" placeholder="Name" />
       <input type="text" name="company" placeholder="Firma" />
       <div class="selectWithLabel">
         <label for="selectBranch">Ich bin Ansprechpartner von&hellip;</label>
         <select name="branch" id="selectBranch">
-          <option value="-1">Geschäftsabteilung auswählen</option>
-          <option value="1">Abteilung 1</option>
-          <option value="2">Abteilung 2</option>
-          <option value="3">Abteilung 3</option>
+          <option value="">Geschäftsabteilung auswählen</option>
+          <option value="IT">IT</option>
+          <option value="Kundenservice">Kundenservice</option>
+          <option value="Sales">Sales</option>
+          <option value="Geschäftsführung">Geschäftsführung</option>
+          <option value="Sonstiges">Sonstiges</option>
         </select>
       </div>
       <input type="email" placeholder="Geschäfts-E-Mail" />
