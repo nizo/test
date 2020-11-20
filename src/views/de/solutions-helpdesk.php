@@ -1,4 +1,4 @@
-<div class="wrapper lightgrey no-gutter-bottom">
+<div class="wrapper lightgrey lightgrey-2 no-gutter-bottom">
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
       <div class="text">

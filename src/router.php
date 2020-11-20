@@ -612,18 +612,16 @@ $r->addRoute('GET', '/it-helpdesk-solutions', function() {
 });
 
 // integrationen
-/*
 $r->addRoute('GET', '/callcenter-software-integrationen', function() {
-  $title = 'Solutions';
-  $description = 'Solutions';
+  $title = 'Integrationen';
+  $description = 'Integrationen';
   $keywords = '';
   $background = '';
-  $ogUrl = $GLOBALS['url'] . '/solutions';
+  $ogUrl = $GLOBALS['url'] . '/integrations';
   require_once('./layouts/header.php');
-  require_once('./views/de/solutions.php');
+  require_once('./views/de/integrations.php');
   require_once('./layouts/footer.php');
 });
-*/
 
 $r->addRoute('GET', '/callcenter-software-apps', function() {
   $title = 'Apps & Integrations';

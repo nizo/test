@@ -357,7 +357,18 @@ hr {
 	word-break: break-word;
 }
 
-.omr-badge {
+.icon-casestudy {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../images/icons_svg/casestudy-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.omr-badge, .icon-card {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -400,6 +411,106 @@ hr {
       padding: 0;
       text-align: center;
     }
+  }
+}
+
+.icon-cards {
+  .icon-card {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    &__icon {
+      
+    }
+    &__text {
+      
+    }
+    &__button {
+      display: flex;
+      flex: 0 0 50px;
+      width: 50px;
+      height: 50px;
+      background-image: url(../images/icons_svg/forward-arrow-icon.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    &+.icon-card {
+      margin-top: $gutter-l;
+    }
+  }
+}
+
+.feature-box {
+  background-color: #fff;
+  border-radius: 10px;
+  // box-shadow: 0 0 10px rgba(#000, 0.3);
+  border: 2px solid #c6cbb3;
+  padding: $gutter-m;
+  margin-bottom: $gutter-m;
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    [class*='icon-'] {
+      border-radius: 20px;
+      padding: 2px 5px;
+      font-size: 16px;
+      margin-right: 10px;
+      font-weight: 700;
+      &:before {
+        content: "";
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    .icon-callone {
+      color: #fff;
+      background-color: #525252;
+      &:before {
+        background-image: url(../images/icons_svg/callone-feature-indicator.svg);
+      }
+    }
+    .icon-phone {
+      color: #000;
+      background-color: #ffb9b9;
+      &:before {
+        background-image: url(../images/icons_svg/telephony-indicator.svg);
+      }
+    }
+    .icon-sms {
+      color: #000;
+      background-color: #76d5ff;
+      &:before {
+        background-image: url(../images/icons_svg/chat-indicator.svg);
+      }
+    }
+    .icon-mail {
+      color: #000;
+      background-color: #ba76ff;
+      &:before {
+        background-image: url(../images/icons_svg/mail-indicator.svg);
+      }
+    }
+    .icon-fax {
+      color: #000;
+      background-color: #ffe176;
+      &:before {
+        background-image: url(../images/icons_svg/fax-indicator.svg);
+      }
+    }
+  }
+  p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 !important;
   }
 }
 
@@ -594,6 +705,13 @@ img {
     background-color: #000;
     color: #fff;
   }
+  &.integrations {
+    background: linear-gradient(180deg, #213327 0%, #000000 100%);
+    color: #fff;
+    h2 {
+      color: #fff;
+    }
+  }
   &.darkgrey {
     background-color: $color-darkgrey;
     color: #fff;
@@ -616,6 +734,9 @@ img {
         }
       }
     }
+  }
+  &.lightgrey-2 {
+    background-color: $color-lightgrey-2;
   }
   &.dark-light-grey {
     background-image: linear-gradient(#252C2B, #77817F);

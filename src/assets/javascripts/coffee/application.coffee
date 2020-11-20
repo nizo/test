@@ -293,16 +293,49 @@ $(document).ready ->
   app.init()
 
   #
+  # Use Case Slider
+  #
+  usecaseSliders = document.querySelectorAll('.customer-slider')
+  usecaseSliders.forEach (slider) ->
+    currentSlide = 1
+    slidesCount = slider.querySelectorAll('.customer-slider__slide').length
+    btnLeft = slider.querySelector('.customer-slider__arrow--left')
+    btnRight = slider.querySelector('.customer-slider__arrow--right')
+    slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
+
+
+    btnLeft.addEventListener 'click', (e) ->
+      slider.querySelectorAll('.customer-slider__slide').forEach (slide) ->
+        slide.classList.remove('customer-slider__slide--active')
+      currentSlide--
+      if currentSlide == 0
+        currentSlide = slidesCount
+      slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
+
+    btnRight.addEventListener 'click', (e) ->
+      slider.querySelectorAll('.customer-slider__slide').forEach (slide) ->
+        slide.classList.remove('customer-slider__slide--active')
+      currentSlide++
+      if currentSlide > slidesCount
+        currentSlide = 1
+      slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
+
+  #
   # Content Scroller
   #
   scrollers = document.querySelectorAll('.scroller')
   x = 0
-  while x < scrollers.length
+  # while x < scrollers.length
+  scrollers.forEach (scroller) ->
     scroller = scrollers[x]
     scroller.style.height = scroller.dataset.height + 'px'
     scrollerWindowHeight = scroller.dataset.height
     scrollerBelt = scroller.querySelector('.scroller-belt')
     scrollerBeltHeight = scrollerBelt.offsetHeight
+
+    scrollerReversed = false
+    if scroller.hasAttribute('data-reversed')
+      scrollerReversed = true
     
     # Calculate how many times content has to be copied
     n = scrollerWindowHeight
@@ -321,6 +354,8 @@ $(document).ready ->
       i++
     
     currentTop = 0
+    if scrollerReversed
+      currentTop = scrollerBeltHeight
     animationSpeed = 40; # Pixels per second
     animationInterval = null
     animationPaused = false
@@ -329,10 +364,15 @@ $(document).ready ->
     scroll = () ->
       if !animationPaused
         animationStep = animationSpeed / 24
-        currentTop += animationStep
+        if scrollerReversed
+          currentTop -= animationStep
+          if currentTop <= 0
+            currentTop = scrollerBeltHeight
+        else
+          currentTop += animationStep
+          if currentTop >= scrollerBeltHeight
+            currentTop = 0
         scrollerBelt.style.marginTop = '-'+currentTop+'px'
-        if currentTop >= scrollerBeltHeight
-          currentTop = 0
     
     # Start animation
     # animationInterval = setInterval(scroll, 1000 / 24);
@@ -349,7 +389,10 @@ $(document).ready ->
     handleResize = () ->
       clearInterval(animationInterval)
       if window.innerWidth <= 800
-        currentTop = 0
+        if scrollerReversed
+          currentTop = scrollerBeltHeight
+        else
+          currentTop = 0
         scrollerBelt.style.marginTop = '-'+currentTop+'px'
       else
         animationInterval = setInterval(scroll, 1000 / 24);
