@@ -148,7 +148,7 @@
                   <div class="icon-callone">Feature</div>
                   <div class="icon-sms">SMS &amp; Chat</div>
                 </div>
-                <p>Alamierung</p>
+                <p>Alarmierung</p>
               </div>
               <div class="feature-box">
                 <div class="feature-box__icons">
@@ -235,7 +235,7 @@
                   <div class="icon-callone">Feature</div>
                   <div class="icon-sms">SMS &amp; Chat</div>
                 </div>
-                <p>Alamierung</p>
+                <p>Alarmierung</p>
               </div>
               <div class="feature-box">
                 <div class="feature-box__icons">
@@ -278,7 +278,9 @@
 <div class="wrapper">
   <div class="content wide">
     <div class="customer-slider">
+      <!--
       <div class="customer-slider__arrow customer-slider__arrow--left"></div>
+      -->
       <div class="customer-slider__slides">
         <div class="customer-slider__slide">
           <div class="image-grid">
@@ -301,50 +303,10 @@
             </div>
           </div>
         </div>
-        <div class="customer-slider__slide">
-          <div class="image-grid">
-            <div class="image centered">
-              <img src="/assets/images/photos/use-case-niceshops.png" alt="">
-            </div>
-            <div class="text">
-              <h4>Use Case</h4>
-              <h2>Schnittstellenanbindung 3.0</h2>
-              <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
-              <p>
-                <strong>Max Mustermann</strong><br />
-                CEO bei Mustercompany
-              </p>
-              <p>
-                <a href="#" class="button tertiary black2 small-rounded">
-                  <span class="icon-casestudy"></span> Case Study lesen
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="customer-slider__slide">
-          <div class="image-grid">
-            <div class="image centered">
-              <img src="/assets/images/photos/use-case-niceshops.png" alt="">
-            </div>
-            <div class="text">
-              <h4>Use Case</h4>
-              <h2>Schnittstellenanbindung 4.5</h2>
-              <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
-              <p>
-                <strong>Max Mustermann</strong><br />
-                CEO bei Mustercompany
-              </p>
-              <p>
-                <a href="#" class="button tertiary black2 small-rounded">
-                  <span class="icon-casestudy"></span> Case Study lesen
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
+      <!--
       <div class="customer-slider__arrow customer-slider__arrow--right"></div>
+      -->
     </div>
   </div>
 </div>

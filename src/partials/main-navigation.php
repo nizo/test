@@ -132,7 +132,6 @@
         <div class="submenu-content">
           <!-- <strong class="headline">Integrationen</strong> -->
           <ul>
-            <!--
             <li>
               <a href="/callcenter-software-integrationen" class="product" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
               	<span class="img">
@@ -144,7 +143,6 @@
                 </span>
               </a>
             </li>
-            -->
             <li>
               <a href="/callcenter-software-apps" class="product" title="Ein System, alle Business-Lösungen">
               	<span class="img">
