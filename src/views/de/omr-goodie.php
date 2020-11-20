@@ -31,14 +31,16 @@
       <input type="text" name="company" placeholder="Firma" />
       <div class="selectWithLabel">
         <label for="selectBranch">Ich bin Ansprechpartner von&hellip;</label>
-        <select name="branch" id="selectBranch">
-          <option value="">Geschäftsabteilung auswählen</option>
-          <option value="IT">IT</option>
-          <option value="Kundenservice">Kundenservice</option>
-          <option value="Sales">Sales</option>
-          <option value="Geschäftsführung">Geschäftsführung</option>
-          <option value="Sonstiges">Sonstiges</option>
-        </select>
+        <div class="selectWrapper">
+          <select name="branch" id="selectBranch">
+            <option value="">Geschäftsabteilung auswählen</option>
+            <option value="IT">IT</option>
+            <option value="Kundenservice">Kundenservice</option>
+            <option value="Sales">Sales</option>
+            <option value="Geschäftsführung">Geschäftsführung</option>
+            <option value="Sonstiges">Sonstiges</option>
+          </select>
+        </div>
       </div>
       <input type="email" placeholder="Geschäfts-E-Mail" />
       <input type="text" placeholder="Geschäfts-Rufnummer" />
