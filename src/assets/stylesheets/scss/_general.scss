@@ -366,7 +366,10 @@ hr {
   border-radius: 10px;
   padding: $gutter-m $gutter-l;
   &__icon {
+    display: flex;
+    flex: 0 0 50px;
     img {
+      width: 50px;
       display: block;
     }
   }
@@ -383,6 +386,19 @@ hr {
   &__button {
     .button.tertiary.rounded:hover {
       border-color: $color-primary;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    &__icon {
+      margin-bottom: $gutter-m;
+    }
+    &__text {
+      margin-bottom: $gutter-m;
+      padding: 0;
+      text-align: center;
     }
   }
 }
