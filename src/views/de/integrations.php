@@ -278,9 +278,7 @@
 <div class="wrapper">
   <div class="content wide">
     <div class="customer-slider">
-      <!--
-      <div class="customer-slider__arrow customer-slider__arrow--left"></div>
-      -->
+      <div class="customer-slider__arrow customer-slider__arrow--left" style="display: none;"></div>
       <div class="customer-slider__slides">
         <div class="customer-slider__slide">
           <div class="image-grid">
@@ -304,9 +302,7 @@
           </div>
         </div>
       </div>
-      <!--
-      <div class="customer-slider__arrow customer-slider__arrow--right"></div>
-      -->
+      <div class="customer-slider__arrow customer-slider__arrow--right" style="display: none;"></div>
     </div>
   </div>
 </div>
