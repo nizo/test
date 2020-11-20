@@ -32,11 +32,27 @@
 
       <input type="text" name="name" id="name" placeholder="Name" />
       <input type="text" name="company" id="company" placeholder="Firma" />
+
+      <div class="customSelect">
+        <div class="group">
+            <div id="position" class="select-selected"></div>
+            <label for="position" class="centered">Ich bin Ansprechpartner von</label>
+            <label for="position" class="centered mobile">Abteilung</label> 
+        </div>
+        <div class="select-items select-hide">
+          <div class="item">IT</div>
+          <div class="item">Kundenservice</div>
+          <div class="item">Sales</div>
+          <div class="item">Geschäftsführung</div>
+          <div class="item">Sonstiges</div>
+        </div>
+      </div>
+      <!--
       <div class="selectWithLabel">
         <label for="selectBranch">Ich bin Ansprechpartner von&hellip;</label>
         <div class="selectWrapper">
           <select name="position" id="selectBranch">
-            <option value="">Position wählen&hellip;</option>
+            <option value="">Geschäftsabteilung auswählen&hellip;</option>
             <option class="item" value="IT">IT</option>
             <option class="item" value="Kundenservice">Kundenservice</option>
             <option class="item" value="Sales">Sales</option>
@@ -45,6 +61,8 @@
           </select>
         </div>
       </div>
+      -->
+      
       <input type="email" name="email" id="email" placeholder="Geschäfts-E-Mail" />
       <input type="text" ame="phonenumber" id="phonenumber" placeholder="Geschäfts-Rufnummer" />
 
