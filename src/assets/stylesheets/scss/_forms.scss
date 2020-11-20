@@ -533,6 +533,9 @@ form {
 				position: relative;
 				z-index: 2;
 				height: 44px;
+				color: #fff;
+				font-size: 18px;
+				padding: 9px 20px;
 				&:after {
 					content: "\e5ca";
 			    width: $gutter-l;
@@ -626,6 +629,7 @@ form {
 						color: $color-primary;
 				    right: 0;
 				    bottom: 40px;
+				    display: none !important;
 			    }
 			    &.mobile {
 			    	display: none;
