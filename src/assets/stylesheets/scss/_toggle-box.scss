@@ -1,29 +1,34 @@
 .toggle-box {
-  position: relative;
   border-radius: 10px;
   border: 1px solid #000;
-  padding: $gutter-m;
-  padding-left: calc((#{$gutter-m} * 2) + 16px);
-  &:before {
-    content: "";
-    width: 16px;
-    height: 16px;
-    background-image: url(../images/icons_svg/plus-icon.svg);
-    position: absolute;
-    top: calc(50% - 8px);
-    left: $gutter-m;
-  }
   input {
     display: none;
     &+label {
+      position: relative;
       font-size: 20px;
       font-weight: 700;
       font-family: $font-headline;
       cursor: pointer;
       display: block;
+      padding: $gutter-m 0;
+      padding-left: calc(16px + #{$gutter-m} + #{$gutter-s});
+      &:before {
+        content: "";
+        width: 16px;
+        height: 16px;
+        background-image: url(../images/icons_svg/plus-icon.svg);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: inline-block;
+        left: $gutter-m;
+      }
     }
     &:checked {
       &+label {
+        &:before {
+          background-image: url(../images/icons_svg/minus-icon.svg);
+        }
         &+.toggle-box__content {
           display: block;
         }
@@ -31,8 +36,9 @@
     }
   }
   .toggle-box__content {
-    margin-top: $gutter-m;
     display: none;
+    padding: $gutter-m;
+    padding-top: 0;
   }
   &+.toggle-box {
     margin-top: $gutter-m;
@@ -40,38 +46,43 @@
   &--checklist {
     border: 0;
     padding: 0;
-    label {
-      position: relative;
-      padding: $gutter-m 0;
-      padding-left: calc(20px + #{$gutter-s});
-      padding-right: calc(20px + #{$gutter-s});
-      &:before, &:after {
-        content: "";
-        position: absolute;
-        background-size: contain;
-        background-repeat: no-repeat;
-        display: inline-block;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-      &:before {
-        background-image: url(../images/icons_svg/checkmark-icon.svg);
-        width: 20px;
-        height: 15px;
-        margin-right: $gutter-s;
-        left: 0;
-      }
-      &:after {
-        background-image: url(../images/icons_svg/dropdown-chevron-icon.svg);
-        width: 19px;
-        height: 11px;
-        margin-left: $gutter-s;
-        right: 0;
+    input {
+      &+label {
+        position: relative;
+        padding: $gutter-m 0;
+        padding-left: calc(20px + #{$gutter-s});
+        padding-right: calc(20px + #{$gutter-s});
+        &:before, &:after {
+          content: "";
+          position: absolute;
+          background-size: contain;
+          background-repeat: no-repeat;
+          display: inline-block;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &:before {
+          background-image: url(../images/icons_svg/checkmark-icon.svg);
+          width: 20px;
+          height: 15px;
+          margin-right: $gutter-s;
+          left: 0;
+        }
+        &:after {
+          background-image: url(../images/icons_svg/dropdown-chevron-icon.svg);
+          width: 19px;
+          height: 11px;
+          margin-left: $gutter-s;
+          right: 0;
+        }
       }
     }
     input {
       &:checked {
         &+label {
+          &:before {
+            background-image: url(../images/icons_svg/checkmark-icon.svg);
+          }
           &:after {
             transform: translateY(-50%) rotate(180deg);
           }
