@@ -176,34 +176,54 @@
       <a class="arrow" title="Referenzen">Referenzen</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
-          <strong class="headline">Case Studies</strong>
+          <!-- <strong class="headline">Case Studies</strong> -->
           <ul>
             <li>
-              <a href="/case-study-check24" title="Umfangreiche Integration über APIs &amp; Webhooks">
-                <span>Check24</span>
-                Umfangreiche Integration<br />
-                über APIs &amp; Webhooks
+              <a href="/case-study-check24" class="product" title="Umfangreiche Integration über APIs &amp; Webhooks">
+                <span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-check24.svg" data-srcset="/assets/images/icons_svg/menu-check24.svg" alt="Check24" title="Check24">
+                </span>
+                <span>
+                  <span>Check24</span>
+                  Umfangreiche Integration<br />
+                  über APIs &amp; Webhooks
+                </span>
               </a>
             </li>
             <li>
-              <a href="/case-study-flaconi" title="Zusammenspiel von Telefonanlage &amp; ACD Lösung">
-                <span>Flaconi</span>
-                Zusammenspiel von Telefon-<br />
-                Anlage &amp; ACD Lösung
+              <a href="/case-study-flaconi" class="product" title="Zusammenspiel von Telefonanlage &amp; ACD Lösung">
+                <span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-flaconi.svg" data-srcset="/assets/images/icons_svg/menu-flaconi.svg" alt="Flaconi" title="Flaconi">
+                </span>
+                <span>
+                  <span>Flaconi</span>
+                  Zusammenspiel von Telefon-<br />
+                  Anlage &amp; ACD Lösung
+                </span>
               </a>
             </li>
             <li>
-              <a href="/case-study-niceshops" title="Callcenter-Software & Telefonanlage">
-                <span>niceshops</span>
-                Callcenter-Software, VoIP<br />
-                mit Freshdesk-Anbindung
+              <a href="/case-study-niceshops" class="product" title="Callcenter-Software & Telefonanlage">
+                <span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-niceshops.svg" data-srcset="/assets/images/icons_svg/menu-niceshops.svg" alt="niceshops" title="niceshops">
+                </span>
+                <span>
+                  <span>niceshops</span>
+                  Callcenter-Software, VoIP<br />
+                  mit Freshdesk-Anbindung
+                </span>
               </a>
             </li>
             <li>
-              <a href="/case-study-apodiscounter" title="Intelligente Anrufsteuerung mit KI">
-                <span>Apodiscounter</span>
-                Intelligente Anrufsteuerung<br />
-                mit KI
+              <a href="/case-study-apodiscounter" class="product" title="Intelligente Anrufsteuerung mit KI">
+                <span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-apodiscounter.svg" data-srcset="/assets/images/icons_svg/menu-apodiscounter.svg" alt="Apodiscounter" title="Apodiscounter">
+                </span>
+                <span>
+                  <span>Apodiscounter</span>
+                  Intelligente Anrufsteuerung<br />
+                  mit KI
+                </span>
               </a>
             </li>
           </ul>

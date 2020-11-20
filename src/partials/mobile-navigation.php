@@ -100,7 +100,7 @@
   		<a class="submenu">Integrationen</a>
       <ul class="pages-submenu product-menu">
   			<li>
-          <a href="#" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
+          <a href="/callcenter-software-integrationen" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-overview.svg" data-srcset="/assets/images/icons_svg/menu-overview.svg" alt="Überblick">
             <div>
                 <span>Überblick</span>
@@ -121,8 +121,8 @@
           <a href="/voip-api" title="Volle Flexibilität mit Telefon-Schnittstellen">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-apis.svg" data-srcset="/assets/images/icons_svg/menu-apis.svg" alt="Schnittstellen">
             <div>
-                <span>Schnittstellen</span>
-                <p>Volle Flexibilität mit Telefon-Schnittstellen</p>
+              <span>Schnittstellen</span>
+              <p>Volle Flexibilität mit Telefon-Schnittstellen</p>
             </div>
           </a>
         </li>
@@ -133,29 +133,41 @@
     <!-- referenzen -->
     <li>
       <a class="submenu">Referenzen</a>
-      <ul class="pages-submenu">
+      <ul class="pages-submenu product-menu">
         <li>
           <a href="/case-study-check24" title="Umfangreiche Integration über APIs &amp; Webhooks">
-            <span>Check24</span>
-            Umfangreiche Integration über APIs &amp; Webhooks
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-check24.svg" data-srcset="/assets/images/icons_svg/menu-check24.svg" alt="Check24">
+            <div>
+              <span>Check24</span>
+              <p>Umfangreiche Integration über APIs &amp; Webhooks</p>
+            </div>
           </a>
         </li>
         <li>
           <a href="/case-study-flaconi" title="Zusammenspiel von Telefonanlage &amp; ACD Lösung">
-            <span>Flaconi</span>
-            Zusammenspiel von Telefonanlage &amp; ACD Lösung
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-flaconi.svg" data-srcset="/assets/images/icons_svg/menu-flaconi.svg" alt="Flaconi">
+            <div>
+              <span>Flaconi</span>
+              <p>Zusammenspiel von Telefonanlage &amp; ACD Lösung</p>
+            </div>
           </a>
         </li>
         <li>
           <a href="/case-study-niceshops" title="Callcenter-Software & Telefonanlage">
-            <span>niceshops</span>
-            Callcenter-Software, VoIP mit Freshdesk-Anbindung
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-niceshops.svg" data-srcset="/assets/images/icons_svg/menu-niceshops.svg" alt="niceshops">
+            <div>
+              <span>niceshops</span>
+              <p>Callcenter-Software, VoIP mit Freshdesk-Anbindung</p>
+            </div>
           </a>
         </li>
         <li>
           <a href="/case-study-apodiscounter" title="Intelligente Anrufsteuerung mit KI">
-            <span>Apodiscounter</span>
-            Intelligente Anrufsteuerung mit KI
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-apodiscounter.svg" data-srcset="/assets/images/icons_svg/menu-apodiscounter.svg" alt="Apodiscounter">
+            <div>
+              <span>Apodiscounter</span>
+              <p>Intelligente Anrufsteuerung mit KI</p>
+            </div>
           </a>
         </li>
       </ul>
