@@ -20,31 +20,47 @@
   </div>
 </div>
 
-<div class="wrapper omr-black no-margin-top padding-bottom-80">
+<div class="wrapper background no-margin-top padding-bottom-80">
   <div class="content wide">
-    <form action="" method="post" class="form omr-form">
+    <form action="#" class="form omr-form js-form">
+      <input type="hidden" name="type" value="2">
+      <input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
+
       <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="" />
       <h2>Angebot für OMR-Fans</h2>
       <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
 
-      <input type="text" name="name" placeholder="Name" />
-      <input type="text" name="company" placeholder="Firma" />
+      <input type="text" name="name" id="name" placeholder="Name" />
+      <input type="text" name="company" id="company" placeholder="Firma" />
       <div class="selectWithLabel">
         <label for="selectBranch">Ich bin Ansprechpartner von&hellip;</label>
-        <select name="branch" id="selectBranch">
-          <option value="">Geschäftsabteilung auswählen</option>
-          <option value="IT">IT</option>
-          <option value="Kundenservice">Kundenservice</option>
-          <option value="Sales">Sales</option>
-          <option value="Geschäftsführung">Geschäftsführung</option>
-          <option value="Sonstiges">Sonstiges</option>
+        <select name="position" id="selectBranch">
+          <option value=""></option>
+          <option class="item" value="IT">IT</option>
+          <option class="item" value="Kundenservice">Kundenservice</option>
+          <option class="item" value="Sales">Sales</option>
+          <option class="item" value="Geschäftsführung">Geschäftsführung</option>
+          <option class="item" value="Sonstiges">Sonstiges</option>
         </select>
       </div>
-      <input type="email" placeholder="Geschäfts-E-Mail" />
-      <input type="text" placeholder="Geschäfts-Rufnummer" />
+      <input type="email" name="email" id="email" placeholder="Geschäfts-E-Mail" />
+      <input type="text" ame="phonenumber" id="phonenumber" placeholder="Geschäfts-Rufnummer" />
 
-      <button type="submit" class="button tertiary rounded">Kostenlose Demo buchen</button>
+      <button type="submit" class="button tertiary rounded submit">Kostenlose Demo buchen</button>
     </form>
+
+    <div class="formSuccess">
+      <h3>Vielen Dank für Ihre Anfrage!</h3>
+      <p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
+      <p>Sie erhalten demnächst eine E-Mail zur Bestätigung Ihrer Anfrage bei uns. Dort finden Sie auch nochmal alle weiteren Kontaktinformationen.</p>
+      <p>Wir sind für Sie da.<br><strong>Ihr CallOne-Team</strong></p>
+    </div>
+    <div class="formFail">
+      <h3>Ihre Anfrage konnte nicht gesendet werden!</h3>
+      <p>Es ist leider ein Fehler beim übertragen der Daten aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
+      <p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
+      <p><strong>Ihr CallOne-Team</strong></p>
+    </div>
 
     <p class="centered">Unternehmen denen Telefonberatung am Herzen liegt, vertrauen auf <strong>CallOne Lösungen</strong></p>
 
