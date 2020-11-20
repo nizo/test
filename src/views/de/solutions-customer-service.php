@@ -27,7 +27,7 @@
       <a href="#automatization" class="button icon"><span class="button__icon icon-automatization"></span> Automatisierung</a>
       <a href="#analysis" class="button icon"><span class="button__icon icon-analysis"></span> Analyse</a>
       <a href="#collaboration" class="button icon"><span class="button__icon icon-collaboration"></span> Zusammenarbeit</a>
-      <a href="#alarm" class="button icon"><span class="button__icon icon-alarm"></span> Alamierung</a>
+      <a href="#alarm" class="button icon"><span class="button__icon icon-alarm"></span> Alarmierung</a>
     </div>
   </div>
 </div>

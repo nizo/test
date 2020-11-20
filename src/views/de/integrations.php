@@ -148,7 +148,7 @@
                   <div class="icon-callone">Feature</div>
                   <div class="icon-sms">SMS &amp; Chat</div>
                 </div>
-                <p>Alamierung</p>
+                <p>Alarmierung</p>
               </div>
               <div class="feature-box">
                 <div class="feature-box__icons">
@@ -235,7 +235,7 @@
                   <div class="icon-callone">Feature</div>
                   <div class="icon-sms">SMS &amp; Chat</div>
                 </div>
-                <p>Alamierung</p>
+                <p>Alarmierung</p>
               </div>
               <div class="feature-box">
                 <div class="feature-box__icons">
