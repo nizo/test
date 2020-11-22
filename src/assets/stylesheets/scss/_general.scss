@@ -64,6 +64,10 @@ h1, h2, h3, h4,
 	color: #000;
 }
 
+.font-headline {
+  font-family: $font-headline !important;
+}
+
 h1, .h1 {
   font-size: $font-size-xxl;
   margin-bottom: $gutter-l;
@@ -310,7 +314,7 @@ hr {
 	padding-bottom: 40px !important;
 }
 .padding-bottom-80 {
-	padding-bottom: 80px !important;
+  padding-bottom: 80px !important;
 }
 .padding-left-right-40 {
 	padding-left: 40px;
@@ -355,6 +359,164 @@ hr {
 
 .break-word {
 	word-break: break-word;
+}
+
+.icon-casestudy {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../images/icons_svg/casestudy-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.omr-badge, .icon-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: rgba(#000, 0.5);
+  border-radius: 10px;
+  padding: $gutter-m $gutter-l;
+  &__icon {
+    display: flex;
+    flex: 0 0 50px;
+    img {
+      width: 50px;
+      display: block;
+    }
+  }
+  &__text {
+    // display: flex;
+    // flex-direction: column;
+    flex-grow: 1;
+    padding: 0 $gutter-l;
+    font-size: 18px;
+    strong {
+      font-size: 28px;
+      font-family: $font-headline;
+    }
+  }
+  &__button {
+    .button.tertiary.rounded:hover {
+      border-color: $color-primary;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    &__icon {
+      margin-bottom: $gutter-m;
+    }
+    &__text {
+      margin-bottom: $gutter-m;
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
+
+.icon-cards {
+  .icon-card {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    &__icon {
+      
+    }
+    &__text {
+      
+    }
+    &__button {
+      display: flex;
+      flex: 0 0 50px;
+      width: 50px;
+      height: 50px;
+      background-image: url(../images/icons_svg/forward-arrow-icon.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    &+.icon-card {
+      margin-top: $gutter-l;
+    }
+  }
+}
+
+.feature-box {
+  background-color: #fff;
+  border-radius: 10px;
+  // box-shadow: 0 0 10px rgba(#000, 0.3);
+  border: 2px solid #c6cbb3;
+  padding: $gutter-m;
+  margin-bottom: $gutter-m;
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    [class*='icon-'] {
+      border-radius: 20px;
+      padding: 2px 5px;
+      font-size: 16px;
+      margin-right: 10px;
+      font-weight: 700;
+      &:before {
+        content: "";
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    .icon-callone {
+      color: #fff;
+      background-color: #525252;
+      &:before {
+        background-image: url(../images/icons_svg/callone-feature-indicator.svg);
+      }
+    }
+    .icon-phone {
+      color: #000;
+      background-color: #ffb9b9;
+      &:before {
+        background-image: url(../images/icons_svg/telephony-indicator.svg);
+      }
+    }
+    .icon-sms {
+      color: #000;
+      background-color: #76d5ff;
+      &:before {
+        background-image: url(../images/icons_svg/chat-indicator.svg);
+      }
+    }
+    .icon-mail {
+      color: #000;
+      background-color: #ba76ff;
+      &:before {
+        background-image: url(../images/icons_svg/mail-indicator.svg);
+      }
+    }
+    .icon-fax {
+      color: #000;
+      background-color: #ffe176;
+      &:before {
+        background-image: url(../images/icons_svg/fax-indicator.svg);
+      }
+    }
+  }
+  p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 !important;
+  }
 }
 
 .flex {
@@ -427,6 +589,9 @@ hr {
 			transition: ease all 0.6s;
 		}
 	}
+}
+.color-green {
+  color: $color-primary;
 }
 	
 
@@ -529,11 +694,90 @@ img {
   	margin-top: 0;
   }
   &.audioline {
-	width: 100%;
-	background-image: url("/assets/images/illus/audioline.svg");
-	background-repeat: repeat-x;
-	background-position: bottom;
-	background-size: contain;
+  	width: 100%;
+  	background-image: url("/assets/images/illus/audioline.svg");
+  	background-repeat: repeat-x;
+  	background-position: bottom;
+  	background-size: contain;
+  }
+  &.lightgrey {
+    background-color: #f2f2f2;
+    &.no-gutter-bottom {
+      padding-bottom: 0;
+    }
+  }
+  &.omr-black {
+    background-color: #000;
+    color: #fff;
+  }
+  &.integrations {
+    background: linear-gradient(180deg, #213327 0%, #000000 100%);
+    color: #fff;
+    h2 {
+      color: #fff;
+    }
+  }
+  &.darkgrey {
+    background-color: $color-darkgrey;
+    color: #fff;
+  }
+  &.lightgrey, &.solutions-header {
+    padding: $gutter-xl 0;
+    @media screen and (max-width: 1000px) {
+      padding: $gutter-l 0;
+    }
+    .content {
+      h1 {
+        font-family: apercu, sans-serif;
+        font-size: 38px;
+        font-weight: 400;
+        span {
+          font-weight: 700;
+          font-size: 20px;
+          display: block;
+          margin-bottom: $gutter-m;
+        }
+      }
+    }
+  }
+  &.lightgrey-2 {
+    background-color: $color-lightgrey-2;
+  }
+  &.dark-light-grey {
+    background-image: linear-gradient(#252C2B, #77817F);
+    padding: $gutter-xl 0;
+    @media screen and (max-width: 1000px) {
+      padding: $gutter-l 0;
+    }
+    .content {
+      h2 {
+        color: #fff;
+        font-family: apercu, sans-serif;
+        font-size: 38px;
+        font-weight: normal;
+        line-height: 1.4;
+      }
+    }
+  }
+  &.white-lightgreen { // grid 2-5/3-5
+    background-image: linear-gradient(90deg, #fff 50%, $color-lightgrey-2 50%);
+    .content {
+      h2 {
+        font-family: apercu;
+        font-size: 38px;
+        font-weight: 400;
+      }
+      background-image: linear-gradient(90deg, #fff 60%, $color-lightgrey-2 60%);
+      @media screen and (max-width: 1200px) {
+        background-image: linear-gradient(90deg, #fff 50%, $color-lightgrey-2 50%);
+      }
+    }
+    @media screen and (max-width: 800px) {
+      background: #fff;
+      .content {
+        background: #fff;
+      }
+    }
   }
   &.half-background {
     background-image: linear-gradient(#000, #000 65%, transparent 65%, transparent);
@@ -933,6 +1177,11 @@ img {
     &:last-child {
       margin-bottom: $gutter-m;
     }
+    &.no-gutter-bottom {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
     &.narrow {
       max-width: 960px;
     }
@@ -1022,6 +1271,36 @@ img {
         margin-bottom: $gutter-l;
       }
     }
+    > h2 {
+      font-size: 38px;
+      font-weight: 400;
+      font-family: $font-copy;
+      width: 100%;
+      max-width: 570px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: $gutter-l;
+      text-align: center;
+      &+p {
+        width: 100%;
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    }
+    .subtitle {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: $font-headline;
+      margin-bottom: $gutter-m;
+      width: 100%;
+      max-width: 570px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
     *:not(p)+p, *+ul, *+h2 {
       margin-top: $gutter-m;
     }
@@ -1061,9 +1340,9 @@ img {
       	&.approved-list {
       		li {
       			text-align: left;
-				padding-left: 1.5rem;
-				margin: $gutter-s 0;
-				line-height: 1.5;
+    				padding-left: 1.5rem;
+    				margin: $gutter-s 0;
+    				line-height: 1.5;
       			&:before {
       				content: url("/assets/images/icons_svg/list-element.svg");
       				width: 15px;
@@ -1072,6 +1351,9 @@ img {
 	      			top: 0;
       			}
       		}
+          &.approved-list--black:before {
+            filter: brightness(0);
+          }
       	}
       	&.inlineBox {
       		> li {
@@ -1083,7 +1365,6 @@ img {
 	      		box-shadow: 0 0 20px rgba(0,0,0,.25);
 	      		font-size: 22px;
 	      		font-family: $font-headline;
-	      		
 	      		&::before {
 	      			content: none;
 	      		}
@@ -1093,12 +1374,12 @@ img {
 	      		}
       		}
       		@media screen and (max-width:800px) {
-				> li {
-					font-size: 20px;
-					width: 100%;
-					margin: 10px 0;
+    				> li {
+    					font-size: 20px;
+    					width: 100%;
+    					margin: 10px 0;
 	      		}
-			}
+			    }
       	}
       	&.big-list {
       		font-size: $font-size-m;
@@ -1133,25 +1414,25 @@ img {
       	&.border-list {
       		> li {
       			border: 2px dashed $color-secondary-1;
-			    padding: 30px 20px 10px;
-			    margin: 50px auto 20px;
-			    position: relative;
+  			    padding: 30px 20px 10px;
+  			    margin: 50px auto 20px;
+  			    position: relative;
       			&:before {
       				content: counter(ol-counter); 
       				width: 50px;
-				    height: 50px;
-				    background: $color-secondary-1;
-				    display: block;
-				    border: none;
-				    border-radius: 50%;
-				    color: #fff;
-				    padding: 2px 0;
-				    font-size: 24px;
-				    font-weight: 600;
-				    position: absolute;
-				    top: -25px;
-				    left: calc(50% - 25px);
-				    text-align: center;
+  				    height: 50px;
+  				    background: $color-secondary-1;
+  				    display: block;
+  				    border: none;
+  				    border-radius: 50%;
+  				    color: #fff;
+  				    padding: 2px 0;
+  				    font-size: 24px;
+  				    font-weight: 600;
+  				    position: absolute;
+  				    top: -25px;
+  				    left: calc(50% - 25px);
+  				    text-align: center;
       			}
       			&:hover {
       				border: 2px dashed $color-primary;
@@ -1188,8 +1469,8 @@ img {
   		&:first-of-type {
   			margin-top: inherit;
   		}
-		margin-top: 0;
-		margin-bottom: inherit;
+  		margin-top: 0;
+  		margin-bottom: inherit;
   	}
   	&.marginTop-xxl {
   		margin-top: 240px;
@@ -1199,8 +1480,8 @@ img {
   	}
     margin-top: $gutter-xxl;
     &.no-margin-top {
-		margin-top: 0;
-	}
+  		margin-top: 0;
+  	}
   }
   
   @media screen and (max-width:800px) {
@@ -1463,5 +1744,19 @@ blockquote {
         background-image: url(../images/icons_png/icon-email.png);
       }
     }
+  }
+}
+
+.big-float-number {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .number {
+    font-size: $font-size-xxxl;
+    line-height: 1;
+    padding-right: $gutter-m;
+  }
+  .text {
+    flex: 1;
   }
 }

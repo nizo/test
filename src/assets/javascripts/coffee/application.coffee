@@ -141,6 +141,10 @@ app =
       $('.topic-box').hide()
       $('.topic-box[data-topic="'+topic+'"]').show()
 
+    # Toggle Boxes
+    $(document).on 'click', '.toggle-box label', (e) ->
+      $(this).parent().find('.toggle-box__content').slideToggle()
+
   # autoplay_videos: ->
   #   videos = document.getElementsByTagName 'video'
   #   i = 0
@@ -291,3 +295,114 @@ slider =
 
 $(document).ready ->
   app.init()
+
+  #
+  # Use Case Slider
+  #
+  usecaseSliders = document.querySelectorAll('.customer-slider')
+  usecaseSliders.forEach (slider) ->
+    currentSlide = 1
+    slidesCount = slider.querySelectorAll('.customer-slider__slide').length
+    btnLeft = slider.querySelector('.customer-slider__arrow--left')
+    btnRight = slider.querySelector('.customer-slider__arrow--right')
+    slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
+
+
+    btnLeft.addEventListener 'click', (e) ->
+      slider.querySelectorAll('.customer-slider__slide').forEach (slide) ->
+        slide.classList.remove('customer-slider__slide--active')
+      currentSlide--
+      if currentSlide == 0
+        currentSlide = slidesCount
+      slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
+
+    btnRight.addEventListener 'click', (e) ->
+      slider.querySelectorAll('.customer-slider__slide').forEach (slide) ->
+        slide.classList.remove('customer-slider__slide--active')
+      currentSlide++
+      if currentSlide > slidesCount
+        currentSlide = 1
+      slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
+
+  #
+  # Content Scroller
+  #
+  scrollers = document.querySelectorAll('.scroller')
+  x = 0
+  # while x < scrollers.length
+  scrollers.forEach (scroller) ->
+    scroller = scrollers[x]
+    scroller.style.height = scroller.dataset.height + 'px'
+    scrollerWindowHeight = scroller.dataset.height
+    scrollerBelt = scroller.querySelector('.scroller-belt')
+    scrollerBeltHeight = scrollerBelt.offsetHeight
+
+    scrollerReversed = false
+    if scroller.hasAttribute('data-reversed')
+      scrollerReversed = true
+    
+    # Calculate how many times content has to be copied
+    n = scrollerWindowHeight
+    d = scrollerBeltHeight
+    count = 0
+    while n >= d
+      n -= d
+      count++
+    count++
+    
+    # Populate box
+    originalContent = scrollerBelt.innerHTML
+    i = 0
+    while i < count
+      scrollerBelt.innerHTML += originalContent
+      i++
+    
+    currentTop = 0
+    if scrollerReversed
+      currentTop = scrollerBeltHeight
+    animationSpeed = 40; # Pixels per second
+    animationInterval = null
+    animationPaused = false
+    
+    # Actual animation function
+    scroll = () ->
+      if !animationPaused
+        animationStep = animationSpeed / 24
+        if scrollerReversed
+          currentTop -= animationStep
+          if currentTop <= 0
+            currentTop = scrollerBeltHeight
+        else
+          currentTop += animationStep
+          if currentTop >= scrollerBeltHeight
+            currentTop = 0
+        scrollerBelt.style.marginTop = '-'+currentTop+'px'
+    
+    # Start animation
+    # animationInterval = setInterval(scroll, 1000 / 24);
+    
+    # Stop animation on mouseenter, resume animation on mouseleave
+    scroller.addEventListener 'mouseenter', (e) ->
+      animationPaused = true
+    , false
+    scroller.addEventListener 'mouseleave', (e) ->
+      animationPaused = false
+    , false
+
+    # Start stop animation on window resize
+    handleResize = () ->
+      clearInterval(animationInterval)
+      if window.innerWidth <= 800
+        if scrollerReversed
+          currentTop = scrollerBeltHeight
+        else
+          currentTop = 0
+        scrollerBelt.style.marginTop = '-'+currentTop+'px'
+      else
+        animationInterval = setInterval(scroll, 1000 / 24);
+
+    handleResize()
+    window.addEventListener 'resize', (e) ->
+      handleResize()
+
+    x++

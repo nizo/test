@@ -7,7 +7,7 @@
 // echo "</pre>";
 
 // switch ($params[1]) {
-//   case "summoner":
+//   case "test":
 //     echo $params[3];
 //   break;
 // }
@@ -577,6 +577,87 @@ $r->addRoute('GET', '/case-study-navabi', function() {
   require_once('./layouts/footer.php');
 });
 
+// loesungen
+$r->addRoute('GET', '/customer-service-solutions', function() {
+  $title = 'Solutions - Customer Service';
+  $description = 'Solutions - Customer Service';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions-customer-service';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions-customer-service.php');
+  require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/sales-solutions', function() {
+  $title = 'Solutions - Sales';
+  $description = 'Solutions - Sales';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions-sales';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions-sales.php');
+  require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/it-helpdesk-solutions', function() {
+  $title = 'Solutions - IT Helpdesk';
+  $description = 'Solutions - IT Helpdesk';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/solutions-helpdesk';
+  require_once('./layouts/header.php');
+  require_once('./views/de/solutions-helpdesk.php');
+  require_once('./layouts/footer.php');
+});
+
+// integrationen
+$r->addRoute('GET', '/callcenter-software-integrationen', function() {
+  $title = 'Integrationen';
+  $description = 'Integrationen';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/integrations';
+  require_once('./layouts/header.php');
+  require_once('./views/de/integrations.php');
+  require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/callcenter-software-apps', function() {
+  $title = 'Apps & Integrations';
+  $description = 'Apps & Integrations';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/api';
+  require_once('./layouts/header.php');
+  require_once('./views/de/apps-integrations.php');
+  require_once('./layouts/footer.php');
+});
+
+$r->addRoute('GET', '/voip-api', function() {
+  $title = 'API';
+  $description = 'API';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/api';
+  require_once('./layouts/header.php');
+  require_once('./views/de/api-docs.php');
+  require_once('./layouts/footer.php');
+});
+
+// omr podcast
+$r->addRoute('GET', '/omr', function() {
+  $title = 'OMR Goodie';
+  $description = 'OMR Goodie';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/omr-goodie';
+  require_once('./layouts/header.php');
+  require_once('./views/de/omr-goodie.php');
+  require_once('./layouts/footer.php');
+});
+
+// fallback 404
 $r->addRoute('GET', '/404', function() {
     $title = '404 - Die Seite konnte nicht gefunden werden!';
     $description = '';

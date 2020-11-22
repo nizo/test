@@ -1,0 +1,61 @@
+.customer-slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  &__arrow {
+    display: flex;
+    flex: 0 0 50px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    &--left {
+      background-image: url(../images/icons_svg/backward-chevron-icon.svg);
+    }
+    &--right {
+      background-image: url(../images/icons_svg/forward-chevron-icon.svg);
+    }
+  }
+  &__slides {
+    display: flex;
+    flex: 1;
+    padding: 0 $gutter-l;
+  }
+  &__slide {
+    display: none;
+    &--active {
+      display: block;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 38px;
+      font-weight: 400;
+    }
+    .quote {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    &__slide {
+      .quote {
+        font-size: 18px;
+      }
+    }
+  }
+  @media screen and (max-width: 670px) {
+    &__arrow {
+      flex: 0 0 32px;
+      width: 32px;
+      height: 32px;
+    }
+    &__slides {
+      padding: $gutter-s;
+    }
+  }
+}

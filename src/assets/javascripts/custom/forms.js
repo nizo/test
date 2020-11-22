@@ -107,8 +107,8 @@
 	
 	$('.select-items .item').on ('click', function() {
 	    $(this).parent('.select-items').parent('.customSelect').children('.group').children('label').addClass('fixed');
-	    $(this).parent('.select-items').parent('.customSelect').children('.group').children('.select-selected').html($(this).text())
-	    $(this).parent('.select-hide').slideUp('fast')
+	    $(this).parent('.select-items').parent('.customSelect').children('.group').children('.select-selected').html($(this).text()).removeClass('active');
+	    $(this).parent('.select-hide').slideUp('fast');
 	    $(this).parent('.select-hide').removeClass('active');
 	});
 	

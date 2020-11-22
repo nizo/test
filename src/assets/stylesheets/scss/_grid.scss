@@ -44,6 +44,45 @@ $grid-gutter: $gutter-l;
 	}
 
 	[class*='col-'] {
+		&.card {
+			--c: $color-lightgrey-2;
+			border-radius: 10px;
+			background-color: #fff;
+			overflow: hidden;
+			padding: $gutter-m;
+			&--shadow {
+				box-shadow: 0 4px 10px rgba(#000, 0.1);
+			}
+			&--transparent {
+				background-color: transparent;
+				.card__image {
+					background-color: transparent !important;
+				}
+			}
+			.card__image {
+				margin-top: -$gutter-m;
+				margin-left: -$gutter-m;
+				width: calc(100% + (#{$gutter-m} * 2));
+				max-width: calc(100% + (#{$gutter-m} * 2));
+				height: 180px;
+				margin-bottom: $gutter-m;
+				background-color: var(--c);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				&--small {
+					height: auto;
+					margin-bottom: $gutter-l;
+				}
+				img {
+					display: block;
+				}
+			}
+			h3 {
+				margin-top: 0;
+				font-size: 24px;
+			}
+		}
 		&.flex {
 			display: flex;
 			flex-direction: column;
@@ -412,6 +451,27 @@ $grid-gutter: $gutter-l;
 
 		.col-#{$i} {
 			width: $col-width;
+		}
+	}
+
+	.col-2-5 {
+		width: percentage(2/5);
+		padding-left: $gutter-xl;
+	}
+	.col-3-5 {
+		width: percentage(3/5);
+		padding-right: $gutter-xl;
+	}
+	@media screen and (max-width: 1200px) {
+		.col-2-5, .col-3-5 {
+			width: 50%;
+		}	
+	}
+	@media screen and (max-width: 800px) {
+		.col-2-5, .col-3-5 {
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
 		}
 	}
 }
