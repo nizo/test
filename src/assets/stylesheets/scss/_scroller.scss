@@ -41,11 +41,11 @@
     }
     &:before {
       top: 0;
-      background-image: linear-gradient($color-lightgrey-2, transparent);
+      background-image: linear-gradient($color-lightgrey-2, rgba($color-lightgrey-2, 0));
     }
     &:after {
       bottom: 0;
-      background-image: linear-gradient(transparent, $color-lightgrey-2);
+      background-image: linear-gradient(rgba($color-lightgrey-2, 0), $color-lightgrey-2);
     }
   }
 }
