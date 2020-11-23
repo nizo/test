@@ -2,9 +2,9 @@
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
       <div class="text">
-        <p><strong>CallOne im Sales</strong></p>
+        <p class="font-headline fw700">CallOne im Sales</p>
         <h1>Hier kommt die Kohle rein</h1>
-        <p class="primary">Power für Ihre Moneymaker – mehr Abschlüsse durch Automatisierung und Tracking</p>
+        <p class="teaser">Power für Ihre Moneymaker – mehr Abschlüsse durch Automatisierung und Tracking</p>
         <div class="button-set">
           <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
@@ -18,7 +18,7 @@
 
 <div class="wrapper">
   <div class="content wide">
-    <p class="centered">Die richtigen Telefontools <strong>für Ihre Salesabteilung</strong></p>
+    <p class="centered font-headline">Die richtigen Telefontools <strong>für Ihre Salesabteilung</strong></p>
     <h2>Vertrieb wird einfacher und besser, wenn man nicht alles selbst machen muss.</h2>
 
     <p>Einsatzmöglichkeiten für Ihr <strong>Salesteam</strong>:​</p>
@@ -34,7 +34,7 @@
 
 <div class="wrapper padding-bottom-80">
   <div class="content wide">
-    <div class="image-grid" id="integrations">
+    <div class="image-grid half" id="integrations">
       <div class="image centered">
         <img src="/assets/images/illus/sales-illustration-1.svg" alt="" />
       </div>
@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="automatization">
+    <div class="image-grid half" id="automatization">
       <div class="text">
         <h2>Automatisierung</h2>
         <p>Der Boost für Ihre Sales: Schnellwahloptionen & automatisierte Kampagnen</p>
@@ -98,7 +98,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="analysis">
+    <div class="image-grid half" id="analysis">
       <div class="image centered">
         <img src="/assets/images/illus/sales-illustration-3.svg" alt="" />
       </div>
@@ -130,7 +130,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="reporting">
+    <div class="image-grid half" id="reporting">
       <div class="text">
         <h2>Reporting</h2>
         <p>Entdecken Sie neue Potenziale, die sich bisher in undurchsichtigen Daten versteckt hielten. Mit unseren Reporting-Tools haben Sie alles im Blick.</p>

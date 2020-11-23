@@ -17,13 +17,13 @@
 
 <div class="wrapper">
   <div class="content wide">
-    <p class="centered">Alles auf Erfolg: Diese Marken vertrauen auf <strong>CallOne Lösungen</strong></p>
+    <p class="centered">Alles auf Erfolg: Diese Marken vertrauen auf <span class="font-headline">CallOne Lösungen</span></p>
 
     <?php getLogoParade([   
                           ['data' => 'logo-bett1-2.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-check24-2.png', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-sixt-2.png', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'logo-snipes.svg', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo small'],
+                          ['data' => 'logo-snipes-2.png', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-sodastream-2.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo small']
     ], null, 'startpage'); ?>
   </div>
@@ -290,7 +290,7 @@
               <h2>Schnittstellenanbindung 2.0</h2>
               <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
               <p>
-                <strong>Florian Flock</strong><br />
+                <span class="font-headline">Florian Flock</span><br />
                 Business Development Manager bei Niceshops
               </p>
               <p>

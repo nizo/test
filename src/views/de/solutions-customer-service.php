@@ -2,9 +2,9 @@
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
       <div class="text">
-        <p><strong>CallOne im telefonischen Kundenservice</strong></p>
+        <p class="font-headline fw700">CallOne im telefonischen Kundenservice</p>
         <h1>Geben Sie Ihren Kunden, was sie verdienen</h1>
-        <p class="primary">Customer Service, der auf die Ihre Kunden angepasst ist – automatisiert und trotzdem persönlich.</p>
+        <p class="teaser">Customer Service, der auf die Ihre Kunden angepasst ist – automatisiert und trotzdem persönlich.</p>
         <div class="button-set">
           <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
@@ -18,7 +18,7 @@
 
 <div class="wrapper">
   <div class="content wide">
-    <p class="centered">Automatisierte Telefonie von morgen <strong>für Ihren Kundenservice</strong></p>
+    <p class="centered font-headline">Automatisierte Telefonie von morgen <strong>für Ihren Kundenservice</strong></p>
     <h2>KI, APIs, Apps: Der Roboter-Turbo für Ihre Kundenkommunikation</h2>
 
     <p>Erfahren Sie wie <strong>Contact Center</strong> CallOne verwenden:​</p>
@@ -34,7 +34,7 @@
 
 <div class="wrapper padding-bottom-80">
   <div class="content wide">
-    <div class="image-grid" id="automatization">
+    <div class="image-grid half half" id="automatization">
       <div class="image centered">
         <img src="/assets/images/illus/customer-service-illustration-1.svg" alt="" />
       </div>
@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="analysis">
+    <div class="image-grid half" id="analysis">
       <div class="text">
         <h2>Analyse</h2>
         <p>Brechen Sie Datensilos auf. Mit CallOne messen Sie alle Daten in einem System, werten sie aus und können sofort reagieren.</p>
@@ -98,7 +98,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="collaboration">
+    <div class="image-grid half" id="collaboration">
       <div class="image centered">
         <img src="/assets/images/illus/customer-service-illustration-3.svg" alt="" />
       </div>
@@ -130,7 +130,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="alarm">
+    <div class="image-grid half" id="alarm">
       <div class="text">
         <h2>Alarmierung</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

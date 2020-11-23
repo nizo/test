@@ -2,9 +2,9 @@
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
       <div class="text">
-        <p><strong>CallOne im IT-Helpdesk</strong></p>
+        <p class="font-headline fw700">CallOne im IT-Helpdesk</p>
         <h1>Zeitkiller einfach plattmachen</h1>
-        <p class="primary">Schon wieder dieselbe Anfrage? Lösen Sie wiederkehrende Vorfälle automatisiert und transparent für alle. Spart Zeit, Geld und Nerven.</p>
+        <p class="teaser">Schon wieder dieselbe Anfrage? Lösen Sie wiederkehrende Vorfälle automatisiert und transparent für alle. Spart Zeit, Geld und Nerven.</p>
         <div class="button-set">
           <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
         </div>
@@ -18,7 +18,7 @@
 
 <div class="wrapper">
   <div class="content wide">
-    <p class="centered">Die richtigen Telefontools <strong>für IT-Helpdesks</strong></p>
+    <p class="centered font-headline">Die richtigen Telefontools <strong>für IT-Helpdesks</strong></p>
     <h2>Mit andockbaren Telefonlösungen helfen Sie besser und effizienter. </h2>
 
     <p>Einsatzmöglichkeiten mit Ihrem <strong>Helpdesk</strong>:​</p>
@@ -33,7 +33,7 @@
 
 <div class="wrapper padding-bottom-80">
   <div class="content wide">
-    <div class="image-grid" id="helpdesk">
+    <div class="image-grid half" id="helpdesk">
       <div class="image centered">
         <img src="/assets/images/illus/helpdesk-illustration-1.svg" alt="" />
       </div>
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="automatization">
+    <div class="image-grid half" id="automatization">
       <div class="text">
         <h2>Automatisierung</h2>
         <p>Viele Anfragen im Callcenter kommen immer wieder. Automatisieren Sie typische Helpdesk Anfragen und steigern sie Ihre Business-Performance.</p>
@@ -97,7 +97,7 @@
       </div>
     </div>
 
-    <div class="image-grid" id="analysis">
+    <div class="image-grid half" id="analysis">
       <div class="image centered">
         <img src="/assets/images/illus/helpdesk-illustration-3.svg" alt="" />
       </div>

@@ -30,6 +30,21 @@
   	.logo {
   		width: 50%;
   	}
+    p {
+      &+h1 {
+        margin-top: 10px;
+      }
+      &.teaser {
+        font-size: 28px;
+      }
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 26px;
+    }
+    .button-set {
+      margin-top: 26px;
+    }
   }
   .media {
   	.logo {

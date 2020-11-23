@@ -6,8 +6,9 @@
     &+label {
       position: relative;
       font-size: 20px;
-      font-weight: 700;
-      font-family: $font-headline;
+      font-weight: 500;
+      font-family: $font-copy;
+      line-height: 24px;
       cursor: pointer;
       display: block;
       padding: $gutter-m 0;

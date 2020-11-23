@@ -95,6 +95,11 @@
     width: percentage(2/3);
     padding: 35px;
   }
+  &.half {
+    .image, .text {
+      width: percentage(1/2);
+    }
+  }
 }
 
 .text-grid {
