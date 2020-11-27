@@ -87,7 +87,7 @@
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-3" />
-          <label for="analyse-3">Dokumentieren und Analysierenr</label>
+          <label for="analyse-3">Dokumentieren und Analysieren</label>
           <div class="toggle-box__content">
             Anrufgründe zu dokumentieren und Gespräche auf Knopfdruck aufzuzeichnen, ermöglicht Ihnen weitreichende Analysen Ihrer Customer Experience.
           </div>
