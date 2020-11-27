@@ -39,28 +39,28 @@
         <img src="/assets/images/illus/sales-illustration-1.svg" alt="" />
       </div>
       <div class="text">
-        <h2>Integration &amp; API</h2>
+        <h2>Passgenau die richtigen Informationen</h2>
         <p>CallOne ist für Sie mit Erfahrungswerten und Best Practices vorkonfiguriert, mit offenen Schnittstellen und Integrationen, die Sie auf Knopfdruck mit der Callcenter Software verbinden.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="integrations-1" />
           <label for="integrations-1">Apps</label>
           <div class="toggle-box__content">
-            Sie nutzen weiterhin die Apps, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
+            Sie nutzen weiterhin die <a href="/cti-schnittstellen" title="Apps" target="_blank" rel="noreferrer noopener">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="integrations-2" />
           <label for="integrations-2">Schnittstellen</label>
           <div class="toggle-box__content">
-            Nutzen Sie fertige Konnektoren zu Salesforce, Pipedrive etc. oder binden Sie Ihre hauseigenen Lösungen an.
+            Nutzen Sie fertige Konnektoren zu <a href="https://www.salesforce.com/de/" title="Salesforce Webseite" target="_blank" rel="noreferrer noopener">Salesforce</a>, <a href="https://www.pipedrive.com/de" title="Pipedrive Webseite" target="_blank" rel="noreferrer noopener">Pipedrive</a> etc. oder binden Sie Ihre hauseigenen Lösungen an.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="integrations-3" />
           <label for="integrations-3">Integrationen</label>
           <div class="toggle-box__content">
-            Mit einem Klick den richtigen Partner in der Leitung: Browser Extensions für Chrome, Edge und Firefox machen Ihren Job übersichtlicher und bequemer.
+            Mit einem Klick den richtigen Partner in der Leitung: Browser Extensions für <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" title="Chrome Extension" target="_blank" rel="noreferrer noopener">Chrome</a>, <a href="https://www.microsoft.com/de-de/p/callone/9mtthd9h6bvx?rtc=1&activetab=pivot:overviewtab" title="Edge Extension" target="_blank" rel="noreferrer noopener">Edge</a> und <a href="https://addons.mozilla.org/de/firefox/addon/callone/" title="Firefox Extension" target="_blank" rel="noreferrer noopener">Firefox</a> machen Ihren Job übersichtlicher und bequemer.
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
     <div class="image-grid half" id="automatization">
       <div class="text">
         <h2>Automatisierung</h2>
-        <p>Der Boost für Ihre Sales: Schnellwahloptionen & automatisierte Kampagnen</p>
+        <p>So gewinnt man Stammkunden</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-1" />
@@ -80,14 +80,14 @@
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-2" />
-          <label for="automatisierung-2">Kampagnen</label>
+          <label for="automatisierung-2">Kampagnen ohne IT-Kenntnisse</label>
           <div class="toggle-box__content">
             Nutzen Sie unsere Schnittstellen für das Befüllen Ihrer Outbound-Kampagnen und überlassen Sie uns das automatische Anwählen​.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-3" />
-          <label for="automatisierung-3">Dialer</label>
+          <label for="automatisierung-3">Dialer im Takt</label>
           <div class="toggle-box__content">
             Mit Dialer-Funktionen wählen Sie automatisiert Kunden an. Anrufer können automatisch auf Anruflisten gesetzt und wieder enrfernt werden.
           </div>
@@ -103,26 +103,26 @@
         <img src="/assets/images/illus/sales-illustration-3.svg" alt="" />
       </div>
       <div class="text">
-        <h2>Analyse</h2>
+        <h2>Datenanalyse mit Handumdrehen</h2>
         <p>Immer ganz genau wissen, was passiert: Mit dem vielleicht umfangreichsten Portfolio an Statistiken ziehen Sie fundierte Rückschlüsse und optimieren Ihre Kampagnen.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-1" />
-          <label for="analyse-1">Protokollieren und aufzeichnen</label>
+          <label for="analyse-1">Immer aktuelle Daten</label>
           <div class="toggle-box__content">
-            Aufzeichnungen helfen dabei, einen optimalen Service-Level zu halten. Auf Anrufer- oder Agentenseite, oder beides gleichzeitig. Manuell oder automatisch.
+            Analysen und erkunden Sie das volle Potenzial Ihrer Daten mit Livedaten für sekundengenaue Berechnung Ihrer Sales KPI.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-2" />
-          <label for="analyse-2">Anrufstatistiken</label>
+          <label for="analyse-2">Analytics für Jeden</label>
           <div class="toggle-box__content">
             Wählen sie aus über 100 Livestatistiken und werten Sie alles rund um die Performance ihres Teams aus​.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-3" />
-          <label for="analyse-3">Anruferinformationen</label>
+          <label for="analyse-3">Der Kunde im Mittelpunkt</label>
           <div class="toggle-box__content">
             Dynamisches Call-Tracking führt Anrufe auf Ihrer Bestellhotline eindeutig mit einer Websession zusammen. Dadurch haben sie bereits alle Informationen zum Anrufer vorliegen, bevor Sie mit ihm sprechen.
           </div>
@@ -132,28 +132,28 @@
 
     <div class="image-grid half" id="reporting">
       <div class="text">
-        <h2>Reporting</h2>
-        <p>Entdecken Sie neue Potenziale, die sich bisher in undurchsichtigen Daten versteckt hielten. Mit unseren Reporting-Tools haben Sie alles im Blick.</p>
+        <h2>Ergebnisse im Blick: Ihre Kennzahlen für die gesamte Telefonie</h2>
+        <p>Langfristiger Erfolg beginnt mit zufriedenen Kunden. Entdecken Sie neue Potenziale, die sich bisher in undurchsichtigen Daten versteckt hielten. Mit unseren Reporting-Tools haben Sie alles im Blick.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="reporting-1" />
-          <label for="reporting-1">Rohdaten</label>
+          <label for="reporting-1">Echtzeitstatistiken im Sekundentakt </label>
           <div class="toggle-box__content">
-            Wir liefern Ihnen alle Daten, ganz einfach als Export aus dem System, wann immer Sie möchten.
+            Neben harten Kennzahlen liefern wir alle relevanten Auswertungen Ihrer Agenten, Rufnummern und Skillgruppen in einer Oberfläche.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="reporting-2" />
-          <label for="reporting-2">BI-Datenexport</label>
+          <label for="reporting-2">BI-Tools für interaktive Analysen</label>
           <div class="toggle-box__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Unsere Statistiken reichen ihnen nicht? Nutzen Sie doch einfach das BI-Tool Ihrer Wahl oder unseren fertigen Konnektor zu <a href="/tableau-callcenter-connector" title="Tableau Konnektor" target="_blank" rel="noreferrer noopener">Tableau</a>, um die für Sie passgenauen Auswertungen zu erhalten.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="reporting-3" />
-          <label for="reporting-3">Live-Wallboards</label>
+          <label for="reporting-3">Live-Wallboards und -Dashboards</label>
           <div class="toggle-box__content">
-            Erstellen Sie individuelle Live-Wallboards, die in Echtzeit alle Daten und KPIs auf einen Blick zusammenführen.
+            Echtzeitansichten Ihrer KPI, Verfolgung laufender Gespräche, Auslastung Ihres Salesteams – anpassbar an Ihre individuellen Bedürfnisse.
           </div>
         </div>
       </div>
@@ -168,26 +168,25 @@
 
     <div class="toggle-box">
       <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wie funktioniert eine Call Center Software mit Schnittstellen?</label>
+      <label for="faq-1">Wie kann ich CallOne für mein Inside-Sales Team nutzen?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Nutzen Sie die CallOne Callcenter-Software und VoIP-Telefonanlage, um Ihr Sales-Team optimal mit Tools für die Outbound- und Inbound-Telefonie auszustatten.</p>
+        <p>Neben den Telefonie-Lösungen empfehlen wir die Anbindung der für Sie relevanten Sales-Tools, insbesondere, um Ihren Agents Click2Dial und das automatisierte Erstellen von Voice Tickets aus Ihren Systemen heraus zu ermöglichen.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was ist der Vorteil beim Einsatz einer Telefonanlage mit offenen Schnittstellen?</label>
+      <label for="faq-2">Welche Funktionen bietet CallOne speziell für Salesteams?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Speziell für Ihr Sales-Team bietet die Lösungen Optionen für die Implementierung eines Power Dialers, einer Integration in Ihre CRM-Systeme und Click2Dial Features.</p>
+        <p>Außerdem können Sie bei CallOne alle notwendigen lokalen wie internationalen Rufnummern schalten, Optionen wie Gesprächsaufzeichnung und Silent Coaching für Schulungszwecke nutzen und Ihre Sales-Telefonie auf intelligenten Routingmodulen aufbauen.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?</label>
+      <label for="faq-3">Wie schnell können wir mit CallOne starten?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Ein schneller Start ist jederzeit möglich! Kontaktieren Sie uns einfach mit Ihren individuellen Anforderungen für ein Erstgespräch und ein Start ist sehr wahrscheinlich schon in den nächsten Tagen möglich.</p>
       </div>
     </div>
   </div>
