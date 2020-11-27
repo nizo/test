@@ -46,7 +46,7 @@
           <input type="checkbox" id="automatisierung-1" />
           <label for="automatisierung-1">Voice Bots optimieren Ihre Arbeitsabläufe</label>
           <div class="toggle-box__content">
-            Alle Kundenanfragen in kürzester Zeit lösen: <a href="/callcenter-bot" title="Voice Bot">Voice Bots</a> qualifizieren Anruferanliegen vor, geben sprachbasiert FAQ wieder und übermitteln voreingestellte Infos automatisch.
+            Alle Kundenanfragen in kürzester Zeit lösen: <a href="/callcenter-bot" title="Voice Bot" target="_blank" rel="noreferrer noopener">Voice Bots</a> qualifizieren Anruferanliegen vor, geben sprachbasiert FAQ wieder und übermitteln voreingestellte Infos automatisch.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
@@ -110,14 +110,14 @@
           <input type="checkbox" id="callcenter-1" />
           <label for="callcenter-1">Fertige Apps für effizienten Multichannel-Kundenservice </label>
           <div class="toggle-box__content">
-            Binden Sie Anrufe in <a href="/callcenter-software-apps" title="Apps">Ihr Lieblings-Helpdesk, Ticketing- oder CRM-Lösung</a> ein und optimieren Sie so Ihre Kundeninteraktion über alle Kommunikationskanäle.
+            Binden Sie Anrufe in <a href="/callcenter-software-apps" title="Apps" target="_blank" rel="noreferrer noopener">Ihr Lieblings-Helpdesk, Ticketing- oder CRM-Lösung</a> ein und optimieren Sie so Ihre Kundeninteraktion über alle Kommunikationskanäle.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="callcenter-2" />
           <label for="callcenter-2">Verbinden Sie sich und unsere Plattform</label>
           <div class="toggle-box__content">
-            Verbinden Sie sich mit Kunden überall dort, wo sie mit Ihnen interagieren möchten. Wir bieten eine <a href="/voip-api" title="VoIP API">schnittstellenoffene Telefonplattform</a> zur Anbindung Ihrer Businesslösungen.
+            Verbinden Sie sich mit Kunden überall dort, wo sie mit Ihnen interagieren möchten. Wir bieten eine <a href="/voip-api" title="VoIP API" target="_blank" rel="noreferrer noopener">schnittstellenoffene Telefonplattform</a> zur Anbindung Ihrer Businesslösungen.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
