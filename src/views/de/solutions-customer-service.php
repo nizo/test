@@ -40,27 +40,27 @@
       </div>
       <div class="text">
         <h2>Automatisierung</h2>
-        <p>Keine Anrufe verpassen, jeden adäquat behandeln</p>
+        <p>Kundenservice auf Spitzenniveau mit kleinen Hilfen, die dir das Leben erleichtern werden</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-1" />
           <label for="automatisierung-1">Voice Bots optimieren Ihre Arbeitsabläufe</label>
           <div class="toggle-box__content">
-            Voice Bots qualifizieren Anruferanliegen vor, geben sprachbasiert FAQ wieder und übermitteln voreingestellte Infos automatisch.
+            Alle Kundenanfragen in kürzester Zeit lösen: <a href="/callcenter-bot" title="Voice Bot">Voice Bots</a> qualifizieren Anruferanliegen vor, geben sprachbasiert FAQ wieder und übermitteln voreingestellte Infos automatisch.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-2" />
           <label for="automatisierung-2">Personalisierte Anruferlebnisse</label>
           <div class="toggle-box__content">
-            Besondere Kunden werden besonders behandelt und ganz automatisch zum richtigen Ansprechpartner weitergeleitet.
+            Mit intelligentem Routing, Last Agent Routing und Anbindungen an Ihre CRM- und Ticketing-Systeme, können Sie Kunden ganz automatisch zum richtigen Ansprechpartner leiten.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-3" />
           <label for="automatisierung-3">Verpassen Sie keinen einzigen Anruf mehr</label>
           <div class="toggle-box__content">
-            Warteschleifen vermeiden Sie in Zukunft vollständig oder sie sind so intelligent und informativ, dass Anrufer in der Leitung bleiben.
+            Warteschleifen vermeiden Sie in Zukunft vollständig oder sie sind so intelligent und informativ, dass Anrufer in der Leitung bleiben. Wenn Sie wollen ruft das System Ihre Anrufer auch automatisch zurück – zur Wunschzeit außerhalb Ihrer Anrufpeaks versteht sich. 
           </div>
         </div>
       </div>
@@ -69,27 +69,27 @@
     <div class="image-grid half" id="analysis">
       <div class="text">
         <h2>Analyse</h2>
-        <p>Brechen Sie Datensilos auf. Mit CallOne messen Sie alle Daten in einem System, werten sie aus und können sofort reagieren.</p>
+        <p>Unsere Datengrundlage hilft Ihnen nicht nur dabei Anruferanliegen besser zu bearbeiten, sondern auch Ihre gesamten Prozesse zu verbessern.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-1" />
-          <label for="analyse-1">Analysieren Sie Agenten und Warteschleifen</label>
+          <label for="analyse-1">Analysieren Sie Agenten und Anruferanliegen gleichzeitig</label>
           <div class="toggle-box__content">
-            Anrufaufkommen und Wartezeiten kontrollieren Sie in Echtzeit. Mit vollständiger Transparenz bedienen Sie Ihre Kunden zu jeder Tageszeit optimal.
+            Umfangreiche Auswertungen geben Ihnen Aufschluss darüber, warum Anrufer Sie kontaktieren und welche Performance Ihre Agenten bei der Bearbeitung der Anrufanliegen erbringen.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-2" />
-          <label for="analyse-2">Messen Sie die Performance Ihres Callcenters</label>
+          <label for="analyse-2">Kundendaten in Echtzeit erfassen</label>
           <div class="toggle-box__content">
             Nutzen Sie das vielleicht umfangreichste Angebot statistischer Auswertungsmöglichkeiten am Markt. Mit knapp 100 Echtzeitstatistiken, Daten-Exporten und Statistik Schnittstellen  haben Sie einfach alles im Blick.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-3" />
-          <label for="analyse-3">Dokumentieren Sie Gespräche sinnvoll und auswertbar</label>
+          <label for="analyse-3">Dokumentieren und Analysierenr</label>
           <div class="toggle-box__content">
-            Nutzen Sie Gesprächsaufzeichnungen für Ihr QM – manuell oder vollautomatisch. Mit Kundenbefragungen, Coaching-Funktionen und vielen Statistiken.
+            Anrufgründe zu dokumentieren und Gespräche auf Knopfdruck aufzuzeichnen, ermöglicht Ihnen weitreichende Analysen Ihrer Customer Experience.
           </div>
         </div>
       </div>
@@ -108,23 +108,23 @@
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="callcenter-1" />
-          <label for="callcenter-1">Apps</label>
+          <label for="callcenter-1">Fertige Apps für effizienten Multichannel-Kundenservice </label>
           <div class="toggle-box__content">
-            Ob Salesforce, Zendesk, Hubspot, ... Ihre CRM- oder Ticketing-Lösung verbinden Sie ganz leicht mit Ihrer Cloud-Telefonanlage. Sie nutzen einfach die Tools weiter, die Sie schon kennen.
+            Binden Sie Anrufe in <a href="/callcenter-software-apps" title="Apps">Ihr Lieblings-Helpdesk, Ticketing- oder CRM-Lösung</a> ein und optimieren Sie so Ihre Kundeninteraktion über alle Kommunikationskanäle.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="callcenter-2" />
-          <label for="callcenter-2">API für Einbindung eigenes Systems</label>
+          <label for="callcenter-2">Verbinden Sie sich und unsere Plattform</label>
           <div class="toggle-box__content">
-            Mit unseren offenen Schnittstellen kann prinzipiell jedes System mit Ihrer Telefonielösung verbunden werden.
+            Verbinden Sie sich mit Kunden überall dort, wo sie mit Ihnen interagieren möchten. Wir bieten eine <a href="/voip-api" title="VoIP API">schnittstellenoffene Telefonplattform</a> zur Anbindung Ihrer Businesslösungen.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="callcenter-3" />
-          <label for="callcenter-3">Automatische Weiterleitung eingehender Anrufe an den richtigen Ort anhand kurzer Dialoge</label>
+          <label for="callcenter-3">Flexible Anbindung in Ihrer IT-Infrastruktur</label>
           <div class="toggle-box__content">
-            Stellen Sie sicher, dass Ihre Kunden auf dem schnellsten Weg mit einem Mitarbeiter sprechen, der sich im Thema auskennt.
+            Unser Telefon läuft auch in Ihrem CRM. Sie entscheiden, wie Sie mit CallOne telefonieren wollen: Im Browser, mit einem IP-Telefon auf dem Handy oder eingebunden in Ihre Systeme..
           </div>
         </div>
       </div>
@@ -132,8 +132,8 @@
 
     <div class="image-grid half" id="alarm">
       <div class="text">
-        <h2>Alarmierung</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2>Alternative Kanäle</h2>
+        <p>Nutzen Sie neben dem klassischen Anruf über eine Rufnummer alternative Kanäle für Ihre Kunden.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="alarmierung-1" />
@@ -163,24 +163,24 @@
       <input type="checkbox" id="faq-1" />
       <label for="faq-1">Wie funktioniert eine Call Center Software mit Schnittstellen?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Ihre eigenen Businesslösungen können Sie entweder über unsere offenen API-Schnittstellen selbst oder in Zusammenarbeit mit uns anbinden. Für viele gängige Businesslösungen wie z.B. Ticketing-, Sales- oder BI-Tools bieten wir bereits fertige Applikationen an.</p>
+        <p>Eine Anbindung kann ganz nach Ihren Wünschen erfolgen. Basic Funktionn beinhalten meist das Erstellen von Voice Tickets für eingehende und ausgehende Anrufe und das Matching dieser Tickets mit Kontakten und Usern. Auch umfangreiche Anbindungen mit Routing-Rückfrage, der Abfrage von Kundennummern oder vollautomatisierte Prozessen sind denkbar.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-2" />
       <label for="faq-2">Was ist der Vorteil beim Einsatz einer Telefonanlage mit offenen Schnittstellen?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Wenn Sie eine Telefonanlage mit offenen Schnittstellen einsetzen, sind Sie nicht auf die Funktionen und Features limitiert, die Ihnen Ihr Telefonieanbieter bereitstellt.</p>
+        <p>Die Möglichkeiten sind hier extrem umfangreich. Sie können beispielsweise noch tiefgreifendere Auswertungen durch die Abfrage von Call-Rohdaten erstellen, Prozess in der Telefonie automatisieren oder tägliche Aufgaben (z.B. neue Nutzer anlegen) in Drittsysteme integrieren.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?</label>
+      <label for="faq-3">Welche Einsatzmöglichkeiten und Funktionen bietet die CallOne Voice-API?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Die CallOne Voice-API bietet vielzählige Optionen in verschiedenen Bereichen. Interne Prozess können automatisiert werden (z.B. die Pflege von Anruferlisten) und weitreichende Informationen zu Anrufen über Rohdaten abgefragt und in andere Systeme integriert werden.</p>
+        <p>Desweiteren können Sie unsere API nutzen, um Anrufprozesse intelligenter zu gestalten oder in Teilen zu automatisieren. Ein gutes Beispiel ist hierfür eine automatische Bestellannahme mit Abgleich der Daten in Ihrem CRM-System.</p>
       </div>
     </div>
   </div>
