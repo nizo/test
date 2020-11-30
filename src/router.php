@@ -579,9 +579,9 @@ $r->addRoute('GET', '/case-study-navabi', function() {
 
 // loesungen
 $r->addRoute('GET', '/customer-service-solutions', function() {
-  $title = 'Solutions - Customer Service';
-  $description = 'Solutions - Customer Service';
-  $keywords = '';
+  $title = 'Callcenter Software ACD | CallOne';
+  $description = 'Cloud Callcenter-Plattform, angepasst auf Ihre Bedürfnisse, verknüpft mit CRM und Helpdesk';
+  $keywords = 'Kundenservice, Helpdesk, Inbound, ACD, Callcenter Software, Cloud, ACD, Contact Center, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/solutions-customer-service';
   require_once('./layouts/header.php');
@@ -590,9 +590,9 @@ $r->addRoute('GET', '/customer-service-solutions', function() {
 });
 
 $r->addRoute('GET', '/sales-solutions', function() {
-  $title = 'Solutions - Sales';
-  $description = 'Solutions - Sales';
-  $keywords = '';
+  $title = 'Outbound Callcenter Software | CallOne';
+  $description = 'Outbound Sales am Telefon mit der Callcenter Software von CallOne und Ihrem Businesslösung verbunden';
+  $keywords = 'Predictive Dialing, Outdial, Telefonlösung, Speed dial, Predictive Dialer, eingehend, Callcenter-Software, Voip, gehosteter Dialer, virtuelles Callcenter, Web-Dialer, Online-Dialer, Cloud-Dialer, Cloud-Dialer-System, Power-Dialer, Telemarketing-Software, Telemarketing-Dialing, Auto-Dialing-Software, Kundenanrufsoftware';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/solutions-sales';
   require_once('./layouts/header.php');
@@ -601,9 +601,9 @@ $r->addRoute('GET', '/sales-solutions', function() {
 });
 
 $r->addRoute('GET', '/it-helpdesk-solutions', function() {
-  $title = 'Solutions - IT Helpdesk';
-  $description = 'Solutions - IT Helpdesk';
-  $keywords = '';
+  $title = 'Integriertes Telefon für IT Helpdesk Software | CallOne';
+  $description = 'Telefonlösung für Ihren IT-Helpdesk und Servicedesk zur effizienten Bearbeitung von Tickets';
+  $keywords = 'Kundenservice, Helpdesk, IT, Support, Inbound, Outbound, CRM, ACD, Callcenter Software, Cloud, Tickets, Servicedesk, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/solutions-helpdesk';
   require_once('./layouts/header.php');
@@ -613,9 +613,9 @@ $r->addRoute('GET', '/it-helpdesk-solutions', function() {
 
 // integrationen
 $r->addRoute('GET', '/callcenter-software-integrationen', function() {
-  $title = 'Integrationen';
+  $title = 'Integrieren Sie Anrufe in Ihre Businesstools und steuern Sie Anrufe bequem mit in Ihre CRM, Ticketing oder BI-Tool';
   $description = 'Integrationen';
-  $keywords = '';
+  $keywords = 'CRM, ERP, BI, API, Webhook, Rest-API, Zendesk, Salesforce, Pipedrive, Jira, Browser Extension, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/integrations';
   require_once('./layouts/header.php');
@@ -624,9 +624,9 @@ $r->addRoute('GET', '/callcenter-software-integrationen', function() {
 });
 
 $r->addRoute('GET', '/callcenter-software-apps', function() {
-  $title = 'Apps & Integrations';
-  $description = 'Apps & Integrations';
-  $keywords = '';
+  $title = 'CRM und Ticketing kombiniert mit dem Telefon | CallOne ';
+  $description = 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet';
+  $keywords = 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/api';
   require_once('./layouts/header.php');
@@ -635,9 +635,9 @@ $r->addRoute('GET', '/callcenter-software-apps', function() {
 });
 
 $r->addRoute('GET', '/voip-api', function() {
-  $title = 'API';
-  $description = 'API';
-  $keywords = '';
+  $title = 'Telefon Schnittstellen für alle Belange | CallOne';
+  $description = 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.';
+  $keywords = 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/api';
   require_once('./layouts/header.php');
