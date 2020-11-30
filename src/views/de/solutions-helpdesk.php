@@ -38,28 +38,28 @@
         <img src="/assets/images/illus/helpdesk-illustration-1.svg" alt="" />
       </div>
       <div class="text">
-        <h2>Anbindung an Helpdesk-Software</h2>
-        <p>Ihre Telefonielösung verbindet sich künftig ganz einfach mit Ihren Service-Managementsystemen.</p>
+        <h2>Bei Gesprächsannahme Ticket</h2>
+        <p>Servicedesk-Anbindung für Echtzeitübermittlung Ihrer Tickets.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="helpdesk-1" />
-          <label for="helpdesk-1">Schnittstellen</label>
+          <label for="helpdesk-1">Fertige Anbindungen</label>
           <div class="toggle-box__content">
-            Anbindungen zu den besten Helpdesk Tools machen Ihre Arbeit sinnvoller, schneller und leichter. Sie speisen einfach die Telefoniedaten in Ihre bestehende Software.
+            Ob <a href="https://freshdesk.com/de/" title="Freshdesk" target="_blank" rel="noreferrer noopener">Freshdesk, </a><a href="https://www.atlassian.com/de/software/jira" title="Jira" target="_blank" rel="noreferrer noopener">Jira</a> oder <a href="https://www.zendesk.de/" title="Zendesk" target="_blank" rel="noreferrer noopener">Zendesk</a>, nutzen Sie unsere No-Code Applikationen für ein schnelles Zusammenführen von Anrufen und Tickets.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="helpdesk-2" />
-          <label for="helpdesk-2">Service-Level Agreements</label>
+          <label for="helpdesk-2">Offene Schnittstellen</label>
           <div class="toggle-box__content">
-            Tragen Sie Service-Level-Agreements in Ihre definierten Skillgruppen im Callcenter ein, um sie dann statistisch auszuwerten.
+          Sie haben Ihr eigenes Ticketsystem? Kein Problem! Gut dokumentierte API und fachkundige Schnittstellen-Techniker unterstützen Sie bei der Anbindung.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="helpdesk-3" />
-          <label for="helpdesk-3">IT-Service-Management</label>
+          <label for="helpdesk-3">Schneller Einsatz</label>
           <div class="toggle-box__content">
-            Klicken statt Wählen: Mit unseren Browser Extensions für Chrome, Firefox und Edge können Sie Nummern in Ihrem Browser bequem mit einem Klick.
+          Ihre bestehenden IT-Support Nummern müssen Sie nicht portieren oder austauschen. Leiten Sie sie einfach zu uns weiter und wir verteilen auf Ihre KollegInnen.
           </div>
         </div>
       </div>
@@ -67,28 +67,28 @@
 
     <div class="image-grid half" id="automatization">
       <div class="text">
-        <h2>Automatisierung</h2>
-        <p>Viele Anfragen im Callcenter kommen immer wieder. Automatisieren Sie typische Helpdesk Anfragen und steigern sie Ihre Business-Performance.</p>
+        <h2>Telefonische Serviceanfragen in Hochgeschwindigkeit</h2>
+        <p>Eine intuitiv bedienbare Oberfläche ermöglicht eine übersichtliche Steuerung und Verteilung Ihrer telefonischen Anfragen.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-1" />
-          <label for="automatisierung-1">On/Offboardings</label>
+          <label for="automatisierung-1">Schluss mit Ticketwirrwar</label>
           <div class="toggle-box__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Wir liefern Telefontickets wo Sie hingehören, in Ihre Servicedesk-Lösung und direkt mit Gesprächsannahme.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-2" />
-          <label for="automatisierung-2">Zugangs-Management</label>
+          <label for="automatisierung-2">Telefonieren wie sie wollen</label>
           <div class="toggle-box__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Integrieren Sie die Telefonie in Ihr Lieblingstool, mit unserer Browser Extension oder fertigen Einbindungen in gängige Standardsoftware.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="automatisierung-3" />
-          <label for="automatisierung-3">Infrastruktur/Service-Support</label>
+          <label for="automatisierung-3">Funktioniert auch unterwegs</label>
           <div class="toggle-box__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Neben VoIP können Sie auch bequem Ihre Mobilfunkanschlüsse einbinden für mehr Flexibilität und Unabhängigkeit. 
           </div>
         </div>
       </div>
@@ -102,28 +102,28 @@
         <img src="/assets/images/illus/helpdesk-illustration-3.svg" alt="" />
       </div>
       <div class="text">
-        <h2>Helpdesk-Analyse</h2>
-        <p>Nutzen Sie die besten Statistik- und Auswertungsfeatures am Markt für besseren, schnelleren Helpdesk Service.</p>
+        <h2>Berichte und Metriken</h2>
+        <p>Das vielleicht umfangreichste Berichtswesen rund um Ihre Serviceanfragen.</p>
 
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-1" />
-          <label for="analyse-1">Helpdesk-Reports</label>
+          <label for="analyse-1">Service Level Agreements (SLA)</label>
           <div class="toggle-box__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Richten Sie individuelle SLA-Richtlinien für Ihre Anfragekategorien ein und überwachen Sie Prioritäten.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-2" />
-          <label for="analyse-2">Dashboards</label>
+          <label for="analyse-2">Live-Dashboards</label>
           <div class="toggle-box__content">
-            Die Performance stets im Blick, Optimierung nur einen Klick entfernt, mit über 100 Live-Statistiken.
+            Nutzen Sie unsere Live-Dashboards zur interaktiven Darstellung Ihrer Warteschlagen und Verfügbarkeiten und binden Sie diese mit offenen API in Ihre Überwachungsportale ein.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="analyse-3" />
-          <label for="analyse-3">Analyse-Tools</label>
+          <label for="analyse-3">Tableau-BI-Analyse</label>
           <div class="toggle-box__content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Fertige Konnektoren zu Tableau bieten den ultimativen Durchblick für alle datenaffinen Servicedesks.
           </div>
         </div>
       </div>
@@ -137,24 +137,24 @@
       <input type="checkbox" id="faq-1" />
       <label for="faq-1">Was ist eine Helpdesk-Software?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Eine Helpdesk-Software wie Zendesk oder Freshdesk ermöglicht es Ihnen eingehende Kundenanfrage verschiedenster Kanäle an einer zentralen Stelle zu bearbeiten</p>
+        <p>Die Integration Ihrer Kundenservice-Telefonie in Ihr Helpdesk-Tool ist daher sehr interessant, um telefonische Kundenanfragen an zentraler Stelle zu inkludieren und trotzdem die Funktionen einer intelligenten ACD-Lösung zu nutzen.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was ist der Vorteil beim Einsatz einer Telefonanlage mit offenen Schnittstellen?</label>
+      <label for="faq-2">Was kostet die Anbindung von Apps an die ACD-Lösung?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Die Nutzung von fertigen Apps und Anbindungen an Drittsysteme wird unsererseits i.d.R. mit einer Grundgebühr berechnet. </p>
+        <p>Für die Anbindung Ihrer eigenen Systeme stehen wir Ihnen gerne projektseitig zur Seite und erstellen mit Ihnen gemeinsam einen Plan.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-3" />
       <label for="faq-3">Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Die Schnittstellen einer Callcenter-Software bieten Ihnen extrem viele Möglichkeiten: Über den Bezug von statistischen Rohdaten bis hin zur Automatisierung von Prozessen sind alle Möglichkeiten offen.</p>
+        <p>Kontaktieren Sie uns gerne mit Ihren individuellen Anforderungen!</p>
       </div>
     </div>
   </div>
