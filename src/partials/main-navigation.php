@@ -80,51 +80,6 @@
     </li>
 
     <?php if (isset ($_GET['menu_new'])): ?>
-    <!-- loesungen -->
-    <li> 
-      <a class="arrow" title="Lösungen">Lösungen</a>
-      <div class="submenu submenu-products">
-        <div class="submenu-content">
-          <!-- <strong class="headline">Lösungen</strong> -->
-          <ul>
-            <li>
-              <a href="/customer-service-solutions" class="product" title="Der Turbo für Ihren Kundenservice">
-              	<span class="img">
-              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-customer-service.svg" data-srcset="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice" title="Kundenservice">
-              	</span>
-                <span>
-                	<span>Kundenservice</span>
-                	Der Turbo für Ihren Kundenservice
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="/sales-solutions" class="product" title="Hier kommt die Kohle rein">
-              	<span class="img">
-              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-sales.svg" data-srcset="/assets/images/icons_svg/menu-sales.svg" alt="Sales" title="Sales">
-              	</span>	
-              	<span>
-                    <span>Sales</span>
-                    Hier kommt die Kohle rein
-              	</span>	
-              </a>
-            </li>
-            <li>
-              <a href="/it-helpdesk-solutions" class="product" title="Zeitkiller einfach plattmachen​">
-              	<span class="img">
-              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-it-helpdesk.svg" data-srcset="/assets/images/icons_svg/menu-it-helpdesk.svg" alt="IT-Helpdesk​" title="IT-Helpdesk">
-              	</span>
-              	<span>
-                    <span>IT-Helpdesk​</span>
-                    Zeitkiller einfach plattmachen
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </li>
-
     <!-- integrationen -->
     <li> 
       <a class="arrow" title="Integrationen">Integrationen</a>

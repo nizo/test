@@ -61,40 +61,6 @@
     </li>
 
     <?php if (isset ($_GET['menu_new'])): ?>
-    <!-- loesungen -->
-    <li>
-  		<a class="submenu">Lösungen</a>
-      <ul class="pages-submenu product-menu">
-  			<li>
-          <a href="/customer-service-solutions" title="Der Turbo für Ihren Kundenservice">
-            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-customer-service.svg" data-srcset="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice">
-            <div>
-                <span>Kundenservice</span>
-                <p>Der Turbo für Ihren Kundenservice</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="/sales-solutions" title="Hier kommt die Kohle rein">
-            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-sales.svg" data-srcset="/assets/images/icons_svg/menu-sales.svg" alt="Sales">
-            <div>
-                <span>Sales</span>
-                <p>Hier kommt die Kohle rein</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="/it-helpdesk-solutions" title="Zeitkiller einfach plattmachen">
-            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-it-helpdesk.svg" data-srcset="/assets/images/icons_svg/menu-it-helpdesk.svg" alt="IT-Helpdesk">
-            <div>
-                <span>IT-Helpdesk</span>
-                <p>Zeitkiller einfach plattmachen</p>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </li>
-
     <!-- integrationen -->
     <li>
   		<a class="submenu">Integrationen</a>
