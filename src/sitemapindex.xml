@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <sitemap>
-      <loc>https://www.callone.de/sitemap2019.xml</loc>
-      <lastmod>2019-04-04</lastmod>
+      <loc>https://www.callone.de/sitemapcurrent.xml</loc>
+      <lastmod>2020-12-01</lastmod>
    </sitemap>	
    <sitemap>
       <loc>https://www.callone.de/sitemap.xml</loc>
@@ -10,6 +10,6 @@
    </sitemap>
    <sitemap>
       <loc>https://www.callone.de/blog/sitemap.xml</loc>
-      <lastmod>2017-09-06</lastmod>
+      <lastmod>2020-11-12</lastmod>
    </sitemap>
 </sitemapindex>
