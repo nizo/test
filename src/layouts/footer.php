@@ -83,7 +83,6 @@
               <a href="/callcenter-software" title="Callcenter Software">Callcenter Software</a><br />
               <a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a><br />
               <a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a><br />
-              <a href="/cti-schnittstellen" title="CallOne Connect">CallOne Connect</a><br />
               <a href="/call-tracking" title="Call-Tracking">Call-Tracking</a><br />
               <a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a>
             </p>
@@ -137,17 +136,17 @@
         </div>
         <ul class="footer-menu">
           <li>
-            <span>Lösungen</span>
+            <span>Integrationen</span>
             <ul>
-              <li><a href="/callcenter-software">Kundenservice</a></li>
-              <li><a href="/crm-callcenter">Sales</a></li>
-              <li><a href="/cloud-telefonanlage">Business</a></li>
+              <li><a href="/callcenter-software-integrationen">Überblick</a></li>
+              <li><a href="/callcenter-software-apps">Applikationen</a></li>
+              <li><a href="/voip-api">Schnittstellen</a></li>
             </ul>
           </li>
           <li>
           	<span>Produkte</span>
             <ul>
-              <li><a href="/callcenter-loesung" title="Callcenter Software">Callcenter Software</a></li>
+              <li><a href="/callcenter-software" title="Callcenter Software">Callcenter Software</a></li>
               <li><a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a></li>
               <li><a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a></li>
               <li><a href="/call-tracking" title="Call-Tracking">Call-Tracking</a></li>
@@ -160,7 +159,6 @@
               <li><a href="/case-study-check24" title="Case Study Check24">Check24</a></li>
               <li><a href="/case-study-flaconi" title="Case Study Flaconi">Flaconi</a></li>
               <li><a href="/case-study-niceshops" title="Case Study niceshops">niceshops</a></li>
-              <li><a href="/case-study-navabi" title="Case Study Navabi">Navabi</a></li>
               <li><a href="/case-study-apodiscounter" title="Case Study Apodiscounter">Apodiscounter</a></li>
             </ul>
           </li>
