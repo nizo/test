@@ -79,7 +79,6 @@
       </div>
     </li>
 
-    <?php if (isset ($_GET['menu_new'])): ?>
     <!-- integrationen -->
     <li> 
       <a class="arrow" title="Integrationen">Integrationen</a>
@@ -124,7 +123,6 @@
         </div>
       </div>
     </li>
-    <?php endif; ?>
     
     <!-- referenzen -->
     <li>

@@ -60,7 +60,6 @@
   		</ul>
     </li>
 
-    <?php if (isset ($_GET['menu_new'])): ?>
     <!-- integrationen -->
     <li>
   		<a class="submenu">Integrationen</a>
@@ -94,7 +93,6 @@
         </li>
       </ul>
     </li>
-    <?php endif; ?>
 
     <!-- referenzen -->
     <li>
