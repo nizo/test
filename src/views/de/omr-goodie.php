@@ -174,8 +174,8 @@
       </div>
     </div>
     <div class="toggle-box">
-      <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wie schnell können wir starten?</label>
+      <input type="checkbox" id="faq-4" />
+      <label for="faq-4">Wie schnell können wir starten?</label>
       <div class="toggle-box__content">
         <p>Ein Start ist in wenigen Schritten möglich. Wir schalten einen persönlichen Zugang zur Anlage und es kann losgehen! Persönliche AnsprechpartnerInnen stehen jederzeit zur Konfiguration des Routings zur Verfügung.</p>
       </div>
