@@ -10,7 +10,7 @@
           <li>Fertige Apps und offene Schnittstellen</li>
         </ul>
         <div class="button-set padding-top-20">
-          <a href="#" class="button tertiary rounded">Unverbindlich testen</a>
+          <a href="#offer" class="button tertiary rounded">Unverbindlich testen</a>
         </div>
       </div>
       <div class="media centered">
@@ -25,6 +25,7 @@
 <div class="wrapper background no-margin-top padding-bottom-80">
   <div class="content wide">
     <form action="#" class="form omr-form js-form">
+      <a id="offer"></a>
       <input type="hidden" name="type" value="2">
       <input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
 
@@ -49,21 +50,6 @@
           <div class="item">Sonstiges</div>
         </div>
       </div>
-      <!--
-      <div class="selectWithLabel">
-        <label for="selectBranch">Ich bin Ansprechpartner von&hellip;</label>
-        <div class="selectWrapper">
-          <select name="position" id="selectBranch">
-            <option value="">Geschäftsabteilung auswählen&hellip;</option>
-            <option class="item" value="IT">IT</option>
-            <option class="item" value="Kundenservice">Kundenservice</option>
-            <option class="item" value="Sales">Sales</option>
-            <option class="item" value="Geschäftsführung">Geschäftsführung</option>
-            <option class="item" value="Sonstiges">Sonstiges</option>
-          </select>
-        </div>
-      </div>
-      -->
       
       <input type="email" name="email" id="email" placeholder="Geschäfts-E-Mail" />
       <input type="text" ame="phonenumber" id="phonenumber" placeholder="Geschäfts-Rufnummer" />
@@ -194,7 +180,7 @@
         Dann bieten wir Ihnen unsere Telefonanlage exklusiv ohne einmalige Bereitstellungskosten an!
       </div>
       <div class="omr-badge__button">
-        <a href="#" class="button tertiary rounded">Zum Angebot</a>
+        <a href="#offer" class="button tertiary rounded">Zum Angebot</a>
       </div>
     </div>
 
@@ -206,7 +192,8 @@
         <h3>Kundenservice</h3>
         <p>Das „Mach-meine-Kunden-glücklich-Paket“ steuert Anrufe intelligent, optimiert Ihre Erreichbarkeit und macht Ihr Callcenter viel effizienter.</p>
         <p>
-          <a href="#" class="button transparent-border rounded">Mehr erfahren <span class="button__icon arrow icon-jump-forward"></span></a>
+          <br/>
+          <a href="/callcenter-software" class="button transparent-border rounded">Mehr erfahren <span class="button__icon arrow icon-jump-forward"></span></a>
         </p>
       </div>
       <div class="col-3 card card--transparent">
@@ -216,7 +203,7 @@
         <h3>Sales</h3>
         <p>Mehr Durchblick bringt mehr Leads und qualitativ bessere Abschlüsse. Sie verbinden CallOne mit den besten Vertriebstools, einfach per Knopfdruck.</p>
         <p>
-          <a href="#" class="button transparent-border rounded">Mehr erfahren <span class="button__icon arrow icon-jump-forward"></span></a>
+          <a href="/sales-solutions" class="button transparent-border rounded">Mehr erfahren <span class="button__icon arrow icon-jump-forward"></span></a>
         </p>
       </div>
       <div class="col-3 card card--transparent">
@@ -226,7 +213,8 @@
         <h3>IT-Helpdesk</h3>
         <p>Organisierter und produktiver werden, Geschäftsprozesse optimieren. Mit CallOnes IT-Helpdesk lösen Sie Anfragen kompetent und transparent.</p>
         <p>
-          <a href="#" class="button transparent-border rounded">Mehr erfahren <span class="button__icon arrow icon-jump-forward"></span></a>
+          <br/>
+          <a href="/it-helpdesk-solutions" class="button transparent-border rounded">Mehr erfahren <span class="button__icon arrow icon-jump-forward"></span></a>
         </p>
       </div>
     </div>
