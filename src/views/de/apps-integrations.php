@@ -30,6 +30,9 @@
         </div>
         <h3>Zendesk</h3>
         <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.</p>
+        <p>
+          <a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded button--block">Zendesk Marketplace</a>
+        </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#254856">
         <div class="card__image">
@@ -37,6 +40,9 @@
         </div>
         <h3>Salesforce</h3>
         <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</p>
+        <p>
+          <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded button--block">Salesforce AppExchange</a>
+        </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
@@ -51,6 +57,10 @@
         </div>
         <h3>Pipedrive</h3>
         <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.</p>
+        <p>
+          <br/><br/><br/>
+          <a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary mobileWrap rounded button--block">Pipedrive Marketplace</a>
+        </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#007537">
         <div class="card__image">
@@ -58,6 +68,10 @@
         </div>
         <h3>Freshdesk</h3>
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
+        <p>
+          <br/><br/>
+          <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded button--block">Freshdesk Marketplace</a>
+        </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#45535E">
         <div class="card__image">
@@ -65,6 +79,9 @@
         </div>
         <h3>Hubspot</h3>
         <p>Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</p>
+        <p>
+          <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="button secondary mobileWrap rounded button--block">Hubspot Blog</a>
+        </p>
       </div>
     </div>
   </div>
