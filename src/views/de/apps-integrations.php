@@ -143,6 +143,7 @@
   </div>
 
   <div class="content narrow padding-bottom-80">
+    <!--
     <h2>Fragen und Antworten</h2>
 
     <div class="toggle-box">
@@ -169,6 +170,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
       </div>
     </div>
+    -->
   </div>
 </div>
 
