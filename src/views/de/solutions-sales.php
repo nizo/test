@@ -46,7 +46,7 @@
           <input type="checkbox" id="integrations-1" />
           <label for="integrations-1">Apps</label>
           <div class="toggle-box__content">
-            Sie nutzen weiterhin die <a href="/cti-schnittstellen" title="Apps" target="_blank" rel="noreferrer noopener">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
+            Sie nutzen weiterhin die <a href="/cti-schnittstellen" title="Apps">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
@@ -60,7 +60,7 @@
           <input type="checkbox" id="integrations-3" />
           <label for="integrations-3">Integrationen</label>
           <div class="toggle-box__content">
-            Mit einem Klick den richtigen Partner in der Leitung: Browser Extensions für <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" title="Chrome Extension" target="_blank" rel="noreferrer noopener">Chrome</a>, <a href="https://www.microsoft.com/de-de/p/callone/9mtthd9h6bvx?rtc=1&activetab=pivot:overviewtab" title="Edge Extension" target="_blank" rel="noreferrer noopener">Edge</a> und <a href="https://addons.mozilla.org/de/firefox/addon/callone/" title="Firefox Extension" target="_blank" rel="noreferrer noopener">Firefox</a> machen Ihren Job übersichtlicher und bequemer.
+            Mit einem Klick den richtigen Partner in der Leitung: Browser Extensions für <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" title="Chrome Extension" target="_blank" rel="noreferrer noopener">Chrome</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" title="Edge Extension" target="_blank" rel="noreferrer noopener">Edge</a> und <a href="https://addons.mozilla.org/de/firefox/addon/callone/" title="Firefox Extension" target="_blank" rel="noreferrer noopener">Firefox</a> machen Ihren Job übersichtlicher und bequemer.
           </div>
         </div>
       </div>
