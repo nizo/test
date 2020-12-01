@@ -45,11 +45,11 @@
             </p>
           </div>
           <div class="footer-column">
-            <h4>Lösungen</h4>
+            <h4>Integrationen</h4>
             <p>
-              <a href="/callcenter-software">Kundenservice</a><br />
-              <a href="/crm-callcenter">Sales</a><br />
-              <a href="/cloud-telefonanlage">Business</a>
+              <a href="/callcenter-software-integrationen">Überblick</a><br />
+              <a href="/callcenter-software-apps">Applikationen</a><br />
+              <a href="/voip-api">Schnittstellen</a>
             </p>
           </div>
           <div class="footer-column">
@@ -58,7 +58,6 @@
               <a href="/case-study-check24" title="Case Study Check24">Check24</a><br />
               <a href="/case-study-flaconi" title="Case Study Flaconi">Flaconi</a><br />
               <a href="/case-study-niceshops" title="Case Study niceshops">niceshops</a><br />
-              <a href="/case-study-navabi" title="Case Study Navabi">Navabi</a><br />
               <a href="/case-study-apodiscounter" title="Case Study Apodiscounter">Apodiscounter</a>
             </p>
           </div>
@@ -81,7 +80,7 @@
           <div class="footer-column">
           	<h4>Produkte</h4>
             <p>
-              <a href="/callcenter-loesung" title="Callcenter Software">Callcenter Software</a><br />
+              <a href="/callcenter-software" title="Callcenter Software">Callcenter Software</a><br />
               <a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a><br />
               <a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a><br />
               <a href="/cti-schnittstellen" title="CallOne Connect">CallOne Connect</a><br />
@@ -151,7 +150,6 @@
               <li><a href="/callcenter-loesung" title="Callcenter Software">Callcenter Software</a></li>
               <li><a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a></li>
               <li><a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a></li>
-              <li><a href="/cti-schnittstellen" title="CallOne Connect">CallOne Connect</a></li>
               <li><a href="/call-tracking" title="Call-Tracking">Call-Tracking</a></li>
               <li><a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a></li>
             </ul>
