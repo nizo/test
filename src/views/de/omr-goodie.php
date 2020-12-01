@@ -153,26 +153,31 @@
 
     <div class="toggle-box">
       <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wie funktioniert eine Call Center Software mit Schnittstellen?</label>
+      <label for="faq-1">Was bietet CallOne?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>CallOne bietet Ihnen eine Telefonielösung für das gesamte Unternehmen. Dabei richten wir uns speziell an Ihre Sales- und Service-Abteilungen und bieten für diese eine ausgereifte Callcenter-Software mit weitreichenden Apps und APIs.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was ist der Vorteil beim Einsatz einer Telefonanlage mit offenen Schnittstellen?</label>
+      <label for="faq-2">Was kostet CallOne?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Wir bieten Pakete, die genau auf die Anforderungen unserer Kunden zugeschnitten sind. Dabei richten wir uns insbesondere an Unternehmen, die eine individuelle Lösung benötigen und eine persönliche Betreuung zu schätzen wissen.</p>
+        <p>Konkret startet unsere Telefonanlage bei 5 UserInnen und 99,00 EUR. Näheres erfährst du bei unserem Vertriebsteam!</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?</label>
+      <label for="faq-3">Welches Goodie erhalte ich als OMR-HörerIn?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Als OMR-HörerIn erlassen wir dir die Bereitstellunggebühren unserer Telefonanlage. Damit sparst du bis zu 499,00 EUR!</p>
+      </div>
+    </div>
+    <div class="toggle-box">
+      <input type="checkbox" id="faq-1" />
+      <label for="faq-1">Wie schnell können wir starten?</label>
+      <div class="toggle-box__content">
+        <p>Ein Start ist in wenigen Schritten möglich. Wir schalten einen persönlichen Zugang zur Anlage und es kann losgehen! Persönliche AnsprechpartnerInnen stehen jederzeit zur Konfiguration des Routings zur Verfügung.</p>
       </div>
     </div>
   </div>
