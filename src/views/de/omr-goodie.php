@@ -98,7 +98,7 @@
         <div class="card__image card__image--small">
           <img src="/assets/images/icons_svg/server-location.svg" alt="Serverstandort Deutschland" />
         </div>
-        <h3>Kristallklare Sprachqualität</h3>
+        <h3>Höchste Sicherheitsstandards</h3>
         <p>Die Server stehen in Hochsicherheitsrechenzentren in Deutschland. Verschlüsslung ist hier Standard.</p>
       </div>
       <div class="col-3 card" style="--c:transparent">
