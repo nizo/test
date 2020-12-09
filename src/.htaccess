@@ -6,9 +6,6 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} !^443$
 RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
-
 
 # ----------------------------------------------------------------------
 #  Kein Trailing Slash
