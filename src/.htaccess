@@ -276,3 +276,6 @@ RewriteRule . index.php [L]
 RewriteEngine On
 
 
+# PHP error log
+php_flag log_errors on
+php_value error_log  /usr/www/users/callonv/de.callone.www.beta/log/php.log
