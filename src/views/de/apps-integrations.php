@@ -31,6 +31,7 @@
         <h3>Zendesk</h3>
         <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.</p>
         <p>
+          <br/>
           <a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded button--block">Zendesk Marketplace</a>
         </p>
       </div>
@@ -41,6 +42,7 @@
         <h3>Salesforce</h3>
         <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</p>
         <p>
+          <br/>
           <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded button--block">Salesforce AppExchange</a>
         </p>
       </div>
@@ -50,6 +52,9 @@
         </div>
         <h3>Jira Service Desk</h3>
         <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
+        <p>
+          <a href="https://marketplace.atlassian.com/" target="_blank" class="button secondary mobileWrap rounded button--block">Jira Marketplace</a>
+        </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
@@ -70,7 +75,19 @@
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
         <p>
           <br/><br/>
-          <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded button--block">Freshdesk Marketplace</a>
+          <a style="float: left;" href="/freshdesk-callcenter-software" class="button secondary mobileWrap rounded">Infos</a>
+          <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
+        </p>
+      </div>
+      <div class="col-3 card card--shadow" style="--c:#ffa800;">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/Freshsales-app-icon.svg" alt="Freshsales" />
+        </div>
+        <h3>Freshsales</h3>
+        <p>Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</p>
+        <p>
+          <br/><br/>
+          <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded button--block">Freshsales Marketplace</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#45535E">
@@ -97,6 +114,10 @@
         </div>
         <h3>Geckoboard</h3>
         <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</p>
+        <p>
+          <br/>
+          <a href="https://www.geckoboard.com/product/data-sources/" target="_blank" class="button secondary mobileWrap rounded button--block">Geckoboard Data Sources</a>
+        </p>
       </div>
       <div class="col-2 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
@@ -104,6 +125,10 @@
         </div>
         <h3>Tableau</h3>
         <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</p>
+        <p>
+          <a style="float: left;" href="/tableau-callcenter-connector" class="button secondary mobileWrap rounded">Infos</a>
+          <a style="float: right;" href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="button secondary mobileWrap rounded">Tableau Partner</a>
+        </p>
       </div>
     </div>
   </div>
