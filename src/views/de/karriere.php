@@ -3,14 +3,14 @@
 </script>
 
 <!-- Header -->
-<div class="wrapper">
+<div class="wrapper solutions-header">
   <div class="content wide noOverflow">
     <header class="main-header">
       <div class="text">
         <h1>Da bist du ja – du fehlst bei uns!</h1>
         <p class="primary">Wir arbeiten an dem Problem, dass Kundenservice am Telefon die absolute Hölle ist. Wir unterstützen unsere großartigen Kunden dabei, ihren Customer Service so aufzubauen, dass Leute gern bei ihnen anrufen, weil ihnen wirklich geholfen wird. Interessiert?</p>
         <div class="button-set">
-          <a class="openModal button tertiary black2 trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
+          <a class="openModal button tertiary rounded trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
         </div>
       </div>
       <div class="media animation animation-bg lazyBackground karriere">
