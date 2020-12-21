@@ -38,8 +38,8 @@
           <div class="footer-column">
             <h4>CallOne GmbH</h4>
             <p>
-              Hugo-Vogel-Str. 23<br />
-              14109 Berlin<br />
+              Charlottenstr. 107<br />
+              14467 Potsdam<br />
               <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
               <a href="mailto:kontakt@callone.de">kontakt@callone.de</a>
             </p>
@@ -71,8 +71,8 @@
           </div>
           <div class="footer-column">
           	<div class="button-set centered">
-                <a href="/testen" class="button secondary trackedElement" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="linked to /testen">FÜR DEMO ANMELDEN​</a>
-                <a href="/preise" class="button primary trackedElement" data-label="Button footer - Preise" data-category="Link" data-action="linked to /preise">Preise</a>
+                <a href="/testen" class="button secondary rounded trackedElement" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="linked to /testen">FÜR DEMO ANMELDEN​</a>
+                <a href="/preise" class="button primary rounded trackedElement" data-label="Button footer - Preise" data-category="Link" data-action="linked to /preise">Preise</a>
             </div>
           </div>
 

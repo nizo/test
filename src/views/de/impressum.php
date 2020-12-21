@@ -5,21 +5,15 @@
     <h2>Postanschrift &amp; Niederlassung</h2>
     <p>
         <strong>CallOne GmbH</strong><br />
-        Hugo-Vogel-Str. 23 <br />
-        14109 Berlin
+        Dorfstraße 60 <br/>
+        15806 Zossen
     </p>
     
     <p>
-    	<strong>Zweigniederlassung</strong><br />
-        Friedrich-Koenig-Straße 25a<br />
-        55129 Mainz
-	</p>
-	
-	<p>
-    	<strong>Zweigniederlassung</strong><br />
-        Charlottenstr. 107 <br />
-        14467 Potsdam
-	</p>
+        <strong>Zweigniederlassung</strong><br />
+          Charlottenstr. 107 <br />
+          14467 Potsdam
+    </p>
 
     <p>Vertretungsberechtigter Geschäftsführer: Björn Bendig</p>
 
