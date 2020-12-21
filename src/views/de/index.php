@@ -12,8 +12,8 @@
         <h1>Wir bieten <strong class="primary-color">Telefonielösungen</strong>, die <strong class="primary-color">wie für Sie gemacht</strong> sind</h1>
         <p class="primary">Ihr Ergebnis: Besserer Kundenservice, mehr Sales und entspannte Business-Kommunikation. </p>
         <div class="button-set">
-          <a class="openModal button primary trackedElement" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Angebot einholen</a>
-          <a href="/testen" class="button secondary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
+          <a class="openModal button primary rounded trackedElement" data-label="Button Header - Angebot einholen" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Angebot einholen</a>
+          <a href="/testen" class="button secondary rounded trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
         </div>
       </div>
     </header>
@@ -89,7 +89,7 @@
     		</div>
 		</div>
 		<div class="button-set centered">
-			<a class="openModal button quinary trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24">Video abspielen</a>
+			<a class="openModal button tertiary rounded trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24">Video abspielen</a>
 		</div>
 	</div>
 </div>
@@ -308,8 +308,8 @@
         			<h3 class="h1">Grün ist unsere Natur</h3>
         			<p>Wir legen Wert auf Kompensation. Für jeden neuen Kunden pflanzen wir einen Baum.</p>
         			<div class="button-set">
-        				<a class="openModal button primary trackedElement" data-label="Button Umwelt - Angebot einholen" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Angebot einholen</a>
-      					<a href="/testen" class="button secondary trackedElement" data-label="Button Umwelt - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
+        				<a class="openModal button primary rounded trackedElement" data-label="Button Umwelt - Angebot einholen" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Angebot einholen</a>
+      					<a href="/testen" class="button secondary rounded trackedElement" data-label="Button Umwelt - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
         			</div>
         		</div>
         	</div>
