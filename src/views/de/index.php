@@ -80,11 +80,8 @@
   				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" data-srcset="/assets/images/photos/check24-video-guter-kundenservice-fallback.jpg" alt="Check24 Casestudy - Über richtig guten Kundenservice" title="Check24 Casestudy - Über richtig guten Kundenservice" class="lazy" />
 			</video>
 			<div class="padding">
-    			<div class="button-set centered">
-    				<span class="button tertiary">Im Video:</span>
-    			</div>
-    			<h3 class="headline h2">„Über richtig guten Kundenservice“</h3>
-    			<p class="autor">
+    			<h3 class="headline h2" style="text-shadow: 2px 2px #3c3c3c;">„Über richtig guten Kundenservice“</h3>
+    			<p class="autor" style="text-shadow: 2px 2px #3c3c3c;">
     				Dr. Rainer Klipp<br>
     				Geschäftsführer von Check24<br>
     				Versicherungen
@@ -116,10 +113,10 @@
     ], null, 'startpage'); ?>
     <?php getLogoParade([
                             ['data' => 'logo-verbraucherritter.png', 'alt' => 'Unser Kunde Verbraucherritter', 'cssClass' => 'partnerLogo invert small'],
-                            ['data' => 'logo-navabi.png', 'alt' => 'Unser Kunde Navabi', 'cssClass' => 'partnerLogo invert small'],
                             ['data' => 'logo-amorelie.png', 'alt' => 'Unser Kunde Amorelie', 'cssClass' => 'partnerLogo invert small'],
                             ['data' => 'logo-snipes.png', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo invert small'],
-                            ['data' => 'logo-helios.png', 'alt' => 'Unser Kunde Helios Kliniken', 'cssClass' => 'partnerLogo invert small'],
+							['data' => 'logo-helios.png', 'alt' => 'Unser Kunde Helios Kliniken', 'cssClass' => 'partnerLogo invert small'],
+							['data' => 'logo-leipziger-stadtwerke.png', 'alt' => 'Unser Kunde Stadtwerke Leipzig', 'cssClass' => 'partnerLogo invert small'],
                             ['data' => 'logo-f-touristic.png', 'alt' => 'Unser Kunde Ferien Touristik', 'cssClass' => 'partnerLogo invert small']
     ], null, 'startpage'); ?>
     
@@ -133,22 +130,19 @@
         <div class="tabs tabs3">
           <nav class="tab-nav">
             <ul>
-              <li><a data-tab="tab_1_1"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/navabi-logo.svg" data-srcset="/assets/images/client-logos/navabi-logo.svg" alt="Kundenmeinung von navabi"></a></li>
-              <li><a data-tab="tab_1_2"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-flaconi.svg" data-srcset="/assets/images/client-logos/logo-flaconi.svg" alt="Kundenmeinung von flaconi"></a></li>
-              <li><a data-tab="tab_1_3"><img class="lazy min" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-smava.svg" data-srcset="/assets/images/client-logos/logo-smava.svg" alt="Kundenmeinung von smava" style="height:30px"></a></li>
+              <li><a data-tab="tab_1_1"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-vimcar.svg" data-srcset="/assets/images/client-logos/logo-vimcar.svg" alt="Kundenmeinung von Vimcar" style="height:30px"></a></li>
+              <li><a data-tab="tab_1_2"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-flaconi.svg" data-srcset="/assets/images/client-logos/logo-flaconi.svg" alt="Kundenmeinung von Flaconi"></a></li>
+              <li><a data-tab="tab_1_3"><img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/logo-bunzl.svg" data-srcset="/assets/images/client-logos/logo-bunzl.svg" alt="Kundenmeinung von BUNZL" style="height:30px"></a></li>
             </ul>
           </nav>
     
           <div class="tab" id="tab_1_1">
             <blockquote>
-            	<p class="h2 font-secondary">„Uns war in erster Linie wichtig, eine Lösung zu erhalten, die beim täglichen Arbeiten intuitiv zu bedienen ist und speziell auf unsere Bedürfnisse zugeschnitten – und genau das haben wir erhalten. Unser persönlicher Ansprechpartner geht auf alle Anfragen sofort und individuell ein und findet immer die bestmögliche Lösung für uns.“</p>
+            	<p class="h2 font-secondary">„Eine hohe Verfügbarkeit und ein sehr flexibles System gepaart mit einem proaktiven sowie immer hilfreichen Support - so kennen und nutzen wir die Telefonielösung von CallOne seit vielen Jahren. Die intuitive Nutzung mit vielen Statistiken erleichtert unseren Arbeitsalltag erheblich.“</p>
             	<p class="autor">
-            		<span class="medium">Leonie Theißen</span> — Head of E-Commerce Operations & Customer Success
+            		<span class="medium">Nick Köhler</span> — Senior IT &amp; Technical Project Manager
             	</p>
     		</blockquote>
-    		<div class="button-set centered relative no-margin-bottom">
-    			<a href="/case-study-navabi" title="Zur Case Study von navabi" class="button senary silent sl sl-after sl-arrow-right black relative mobile">Case Study lesen</a>
-    		</div>
           </div>
     
           <div class="tab" id="tab_1_2">
@@ -165,9 +159,9 @@
     
           <div class="tab" id="tab_1_3">
             <blockquote>
-            	<p class="h2 font-secondary">„CallOne geht mit uns gemeinsam einen Weg der individuellen und professionellen Callcenter-Lösung. Wir haben sofort von Know-How und unfassbar gutem Support profitiert. Mit CallOne haben wir eine Lösung für jetzt und für die Zukunft gefunden!“</p>
+				<p class="h2 font-secondary">„Mit CallOne als Partner an unserer Seite, konnten wir eine durchdachte und clevere digitale Telefonie etablieren. Die Selbstadministration der Telefonie gepaart mit Unterstützung aus dem CallOne-Projektmanagement, versetzt uns in die Lage unentwegt und eigenständig Anpassungen vorzunehmen und flexibel auf spontane Situationen zu reagieren. Die Möglichkeiten der statistischen Auswertbarkeit sind extrem tief und für viele Unternehmenszwecke nützlich. Tolle Basis zur Weiterentwicklung des Unternehmens. Intuitiv, logisch und smart.“</p>
             	<p class="autor">
-            		<span class="medium">Julia Schmelz</span> — Head of Customer Success
+            		<span class="medium">Julian Lehmann</span> — Leitung Kundenservice
             	</p>
     		</blockquote>
           </div>

@@ -169,41 +169,6 @@ $r->addRoute('GET', '/preiskalkulator', function() {
 });
 
 
-/* LandingPages */
-
-$r->addRoute('GET', '/callcenter', function() {
-  $title = 'Das Tool für Ihren Alltag als Callcenter-Leitung';
-  $description = 'Intelligente Callcenter-Lösung für Ihr Kundenservice-Team: Agentenverwaltung, Echtzeit- Statistiken und smarte Warteschleifen.';
-  $keywords = '';
-  $background = 'bg-landingpages';
-  $ogUrl = $GLOBALS['url'] . '/callcenter';
-  require_once('./layouts/header.php');
-  require_once('./views/de/index-callcenter.php');
-  require_once('./layouts/footer.php');
-});
-
-$r->addRoute('GET', '/ceo', function() {
-  $title = 'Wartungsfreie und voll integrierte Telefonielösungen';
-  $description = 'Die CallOne Cloud-Telefonanlage schont Ihre IT. Mit offenen REST-APIs, fertigen Apps und einer intuitiven Benutzeroberfläche.';
-  $keywords = '';
-  $background = 'bg-landingpages';
-  $ogUrl = $GLOBALS['url'] . '/ceo';
-  require_once('./layouts/header.php');
-  require_once('./views/de/index-ceo.php');
-  require_once('./layouts/footer.php');
-});
-
-$r->addRoute('GET', '/it', function() {
-  $title = 'Mehr Verkäufe mit effizienter Telefonie';
-  $description = 'Die CallOne Callcenter-Lösung bringt Ihnen mehr Sales und zufriedene Kunden. Mit Telefonie, die genau zum Unternehmen passt.';
-  $keywords = '';
-  $background = 'bg-landingpages';
-  $ogUrl = $GLOBALS['url'] . '/it';
-  require_once('./layouts/header.php');
-  require_once('./views/de/index-it.php');
-  require_once('./layouts/footer.php');
-});
-
 /* Jobs Sites */
 
 $r->addRoute('GET', '/karriere', function() {
@@ -350,17 +315,6 @@ $r->addRoute('GET', '/0800-lokal-nummern', function() {
     require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/cti-schnittstellen', function() {
-    $title = 'CTI, Salesforce, Pipedrive, Zendesk, Click-to-Dial, REST-API, Webhooks';
-    $description = 'VoIP verbunden mit Ihren Businesslösungen. CTI-Integration für CRM, Ticketing,  REST-API und Webhooks. Vereinfachen Sie Ihren Workflow. Beginnen Sie noch heute!';
-    $keywords = '';
-    $background = 'bg-preisanfrage';
-    $ogUrl = $GLOBALS['url'] . '/cti-schnittstellen';
-    require_once('./layouts/header.php');
-    require_once('./views/de/produkt-cti.php');
-    require_once('./layouts/footer.php');
-});
-
     $r->addRoute('GET', '/cti-salesforce', function() {
         $title = 'CallOne Salesforce Integration';
         $description = 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.';
@@ -488,17 +442,6 @@ $r->addRoute('GET', '/referenzen', function() {
 });
 
 /* Sales Seite */
-$r->addRoute('GET', '/crm-callcenter', function() {
-  $title = 'Salesforce, Pipedrive, Zendesk Virtual Callcenter Integration, Dialer';
-  $description = 'Telefonieren sie mit ihrem CRM. Fertige CTI-Lösungen für Ticketing und CRM. Nutzen sie >  50 API und Webhooks für individuelle Anbindungen. Jetzt testen';
-  $keywords = '';
-  $background = 'bg-sales';
-  $ogUrl = $GLOBALS['url'] . '/crm-callcenter';
-  require_once('./layouts/header.php');
-  require_once('./views/de/sales.php');
-  require_once('./layouts/footer.php');
-});
-
 $r->addRoute('GET', '/testen', function() {
   $title = 'Call Center Lösung, VoIP-Telefonanlage Features vergleichen und testen';
   $description = 'Vergleichen Sie unsere VoIP-Telefonanlage und Callcenter Software ✔  Kundenwertung: Note 1  ✔ Persönlicher Success Manager. Unverbindlich testen!';
@@ -564,17 +507,6 @@ $r->addRoute('GET', '/case-study-niceshops', function() {
     require_once('./layouts/header.php');
     require_once('./views/de/case-study-niceshops.php');
     require_once('./layouts/footer.php');
-});
-
-$r->addRoute('GET', '/case-study-navabi', function() {
-  $title = 'Callcenter Software und CTI-Integration  Zendesk, Kundenbefragung';
-  $description = 'Mittelständler Navabi nutzt VoIP-Telefonanlage und kombiniert dies mit Zendesk als Ticketing-Lösung. Professionelle Anrufsteuerung mit Freecall 0800 Nummern';
-  $keywords = '';
-  $background = 'bg-casestudy';
-  $ogUrl = $GLOBALS['url'] . '/case-study-navabi';
-  require_once('./layouts/header.php');
-  require_once('./views/de/case-study-navabi.php');
-  require_once('./layouts/footer.php');
 });
 
 // loesungen

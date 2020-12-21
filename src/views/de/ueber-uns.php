@@ -62,12 +62,10 @@
                 ['data' => 'logo-gastrohero.png', 'alt' => 'Unser Kunde Gastro Hero', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
                 ['data' => 'logo-helios.png', 'alt' => 'Unser Kunde Helios Kliniken', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
                 ['data' => 'logo-leipziger-stadtwerke.png', 'alt' => 'Unser Kunde Leipziger Stadtwerke', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
-                ['data' => 'logo-navabi.png', 'alt' => 'Unser Kunde Navabi', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
                 ['data' => 'logo-newsletter2go.png', 'alt' => 'Unser Kunde Newsletter2Go', 'cssClass' => 'mobile-hidden partnerLogo sw small'],
             ], null, 'startpage'); ?>
         <?php getLogoParade([
                 ['data' => 'logo-sixt.png', 'alt' => 'Unser Kunde Sixt', 'cssClass' => 'mobile-hidden partnerLogo sw small height-146'],
-                ['data' => 'logo-smava.png', 'alt' => 'Unser Kunde Smava', 'cssClass' => 'mobile-hidden partnerLogo sw small height-146'],
                 ['data' => 'logo-snipes.png', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'mobile-hidden partnerLogo sw small height-146'],
                 ['data' => 'logo-vimcar.png', 'alt' => 'Unser Kunde Vimcar', 'cssClass' => 'mobile-hidden partnerLogo sw small height-146']
         ], null, 'startpage'); ?>
