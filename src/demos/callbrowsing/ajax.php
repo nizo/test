@@ -1,11 +1,11 @@
 <?php
-require_once ($_SERVER['DOCUMENT_ROOT'].'/../configs/mariadb.inc.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../configs/mariadb.www_callone_de_demos.inc.php');
 require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/mariadb.inc.php');
 require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/phonenumber.inc.php');
 
 
 // cors domains
-define ('CORS_DOMAINS', array ('://www.callone.de', '.surfly.com', '://resttesttest.com'));
+define ('CORS_DOMAINS', array ('://www.callone.de', '://beta.www.callone.de', '.surfly.com', '://resttesttest.com'));
 
 // register numbers
 $rootnumbers = new rootnumbers ();
@@ -157,7 +157,7 @@ else	define ('URL', $_REQUEST['url']);
 
 
 // connect to database
-$pdo = mariadb_connect ('db10427997-demos');
+$pdo = mariadb_connect (MARIADB_DATABASE);
 
 
 // init personal number

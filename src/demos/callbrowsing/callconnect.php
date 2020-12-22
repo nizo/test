@@ -1,5 +1,5 @@
 <?php
-require_once ($_SERVER['DOCUMENT_ROOT'].'/../configs/mariadb.inc.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/../configs/mariadb.www_callone_de_demos.inc.php');
 require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/mariadb.inc.php');
 require_once ($_SERVER['DOCUMENT_ROOT'].'/../libraries/phonenumber.inc.php');
 
@@ -53,7 +53,7 @@ if (empty ($request['ddi']))
 
 
 // connect to database
-$pdo = mariadb_connect ('db10427997-demos');
+$pdo = mariadb_connect (MARIADB_DATABASE);
 
 
 switch (strtoupper ($request['event']))

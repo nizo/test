@@ -22,7 +22,7 @@
     <style>.async-hide { opacity: 0 !important}</style>
 
     <!-- CallOne Callbrowsing -->
-    <link rel="stylesheet" type="text/css" href="https://www.callone.de/demos/callbrowsing/styles.css">
+    <link rel="stylesheet" type="text/css" href="/demos/callbrowsing/styles.css">
 
 	<script>
 	// load surfly
@@ -32,7 +32,7 @@
 	(window,document,'script','Surfly');
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://www.callone.de/demos/callbrowsing/functions.js"></script>
+	<script src="/demos/callbrowsing/functions.js"></script>
 
 	<script>
 	$(function ()
@@ -111,7 +111,7 @@
 			var url = null;
 			
 				if ($( "#hersteller option:selected" ).text().length > 0 && $( "#hersteller option:selected" ).text() !== 'Bitte wählen') {
-					url = "https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?";
+					url = "/demos/callbrowsing/sixt/crm/index2.php?";
 					url += 'h=' + $( "#hersteller option:selected" ).text();
 					if ($( "#modell option:selected" ).text().length > 0 && $( "#modell option:selected" ).text() !== 'Bitte wählen') {
 	                	url += '&m=' + $( "#modell option:selected" ).text();
@@ -724,7 +724,7 @@ Audi Q3 Vario-Finanzierung
 Audi A4 Vario-Finanzierung  
 </a></li>  
 </ul>  
-<a href="https://www.callone.de/demos/callbrowsing/sixt/crm/index2.php?h=BMW&m=2er%20Gran%20Tourer&k=Kompaktvan&ks=bleifrei&t=5&l=109PS%20/%2085KW&vm=218i&p=228,93&pl=246,77&caller=004917624445585" target="_blank">Anruferdaten anzeigen</a>
+<a href="/demos/callbrowsing/sixt/crm/index2.php?h=BMW&m=2er%20Gran%20Tourer&k=Kompaktvan&ks=bleifrei&t=5&l=109PS%20/%2085KW&vm=218i&p=228,93&pl=246,77&caller=004917624445585" target="_blank">Anruferdaten anzeigen</a>
 </div>  
   </div></div><div class="sx-b2cl-main-content unitRight catlevelLine"><div class="clearfix"><h1 class="headline h1 clearfix">  
 Audi A6 Vario-Finanzierungsangebote </h1></div><div class="nBreadcrumb unit">  

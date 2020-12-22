@@ -11,7 +11,7 @@
 
 
 	<!-- CallOne Callbrowsing -->
-    <link rel="stylesheet" type="text/css" href="https://www.callone.de/demos/callbrowsing/styles.css">
+    <link rel="stylesheet" type="text/css" href="/demos/callbrowsing/styles.css">
 
 	<script>
 	// load surfly
@@ -21,7 +21,7 @@
 	(window,document,'script','Surfly');
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://www.callone.de/demos/callbrowsing/functions.js"></script>
+	<script src="/demos/callbrowsing/functions.js"></script>
 
 	<script>
 	$(function ()

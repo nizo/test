@@ -41,7 +41,7 @@ $(function ()
 
 		$.ajax
 		({
-			url: 'https://www.callone.de/demos/callbrowsing/ajax.php',
+			url: '/demos/callbrowsing/ajax.php',
 			cache: false,
 			type: 'POST',
 			data:

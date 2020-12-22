@@ -41,7 +41,7 @@
   </div>
   <div class="content narrow centered">
     <div class="button-set centered">
-    	<a href="https://www.callone.de/demos/callbrowsing/reiseanbieter/" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Jetzt einfach ausprobieren!</a>
+    	<a href="/demos/callbrowsing/reiseanbieter/" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Jetzt einfach ausprobieren!</a>
     	<a href="#contactForm" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
     </div>
   </div>
@@ -163,7 +163,7 @@
                     <h2>Demo Reiseportal</h2>
                     <p>Testen Sie das Call-Tracking selbst mit unserer Demo. Füllen Sie die Eingabefelder in der Demo aus und rufen Sie dann die exklusiv für Sie erstellte Rufnummer an.</p>
                     <div class="button-set centered">
-                    	<a href="https://www.callone.de/demos/callbrowsing/reiseanbieter/" target="_blank" class="button secondary" title="Jetzt Demo starten und Call-Tracking live erleben">Demo starten</a>
+                    	<a href="/demos/callbrowsing/reiseanbieter/" target="_blank" class="button secondary" title="Jetzt Demo starten und Call-Tracking live erleben">Demo starten</a>
                     </div> 
     			</div>
     		</div>
