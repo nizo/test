@@ -122,8 +122,8 @@
         <div class="company">
           <h4>CallOne GmbH</h4>
           <p>
-              Hugo-Vogel-Str. 23<br />
-              14109 Berlin
+              Charlottenstr. 107<br />
+              14467 Potsdam
           </p>
           <p>
             <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
