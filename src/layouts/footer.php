@@ -64,7 +64,7 @@
           <div class="footer-column">
             <h4>Unternehmen</h4>
             <p>
-              <a href="/blog/" target="_blank">Blog</a><br />
+              <a href="https://www.callone.de/blog/" target="_blank">Blog</a><br />
               <a href="/karriere">Karriere</a><br>
               <a href="/ueber-uns">Über uns</a>
             </p>
@@ -90,7 +90,7 @@
           <div class="footer-column">
             <h4>Support</h4>
             <p>
-              <a href="/faq/" target="_blank">FAQs</a><br />
+              <a href="https://www.callone.de/faq" target="_blank">FAQs</a><br />
               <a href="/testen">Kontakt</a><br />
               <a href="https://status.callone.de" rel="noreferrer">Systemstatus</a><br />
               <a class="openModal trackedElement" data-label="Cookie-Einstellungen Footer" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner">Cookie-Einstellungen</a>
@@ -165,7 +165,7 @@
           <li>
             <span>Unternehmen</span>
             <ul>
-              <li><a href="/blog/" target="_blank">Blog</a></li>
+              <li><a href="https://www.callone.de/blog/" target="_blank">Blog</a></li>
               <li><a href="/karriere">Karriere</a></li>
               <li><a href="/ueber-uns">Über uns</a></li>
             </ul>
@@ -180,7 +180,7 @@
           <li>
             <span>Support</span>
             <ul>
-              <li><a href="/faq/" target="_blank">FAQs</a></li>
+              <li><a href="https://www.callone.de/faq" target="_blank">FAQs</a></li>
               <li><a href="/testen">Kontakt</a></li>
               <li><a href="https://status.callone.de" rel="noreferrer">Systemstatus</a></li>
             </ul>
