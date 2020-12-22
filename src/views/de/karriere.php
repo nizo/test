@@ -25,7 +25,7 @@
 <!-- FIXME: CSS Klasse für Icons erstellen -->
 <div class="wrapper background grey" id="angebote">
   <div class="content thin centered">
-    <h2 class="h1">Aktuelle Stellenbeschreibungen <span class="job-counter font-secondary">3</span></h2>
+    <h2 class="h1">Aktuelle Stellenbeschreibungen</h2>
     <p>Wir freuen uns immer wieder neue Leute kennenzulernen. Vielleicht passt ja eine der folgenden Stellenanzeigen zu dir?</p>
 </div>  
 <div class="content wide centered">
@@ -33,34 +33,34 @@
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
         <img src="/assets/images/icons_svg/job_02.svg" alt="" width="140"/>
-        <h3>Customer Success Manager*in (m/w/d)</h3>
+        <h3>Customer Success Manager*in<br/>(m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
         <p class="job-description-short">
-        Du liebst den Umgang mit anderen Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe? </p>
-        <a href="/karriere/job-customer-success-manager-potsdam" class="button lower-button quinary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a>
+        Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?<br/><br/></p>
+        <a href="/karriere/job-customer-success-manager-potsdam" class="button lower-button primary rounded button--block trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a>
       </div>
 
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
         <img src="/assets/images/icons_svg/job_03.svg" alt="" width="140"/>
-        <h3>Mitarbeiter*in im IT-Support (m/w/d)</h3>
+        <h3>Mitarbeiter*in im IT-Support<br/>(m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
         <p class="job-description-short">
-        Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?</p>
-        <a href="/karriere/it-helpdesk-potsdam" class="button lower-button quinary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/it-helpdesk-potsdam">Mehr erfahren</a>
+        Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?<br/><br/><br/></p>
+        <a href="/karriere/it-helpdesk-potsdam" class="button lower-button primary rounded button--block trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/it-helpdesk-potsdam">Mehr erfahren</a>
       </div>
 
       <div class="job-box col-3 flex space-between">
         <div class="job-box-header">
         <img src="/assets/images/icons_svg/job_04.svg" alt="" width="140"/>
-        <h3>Webdesigner*in (m/w/d)</h3>
+        <h3>Webdesigner*in<br/>(m/w/d)</h3>
         <p class="job-info">Potsdam · unbefristet</p>
         </div>
         <p class="job-description-short">
-        HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!</p>
-        <a href="/karriere/job-webdesigner-potsdam" class="button lower-button quinary trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a>
+        HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!<br/><br/><br/></p>
+        <a href="/karriere/job-webdesigner-potsdam" class="button lower-button primary rounded button--block trackedElement" data-label="Button - Bewirb dich bei uns" data-category="Link" data-action="linked to /karriere/job-customer-success-manager-potsdam">Mehr erfahren</a>
       </div>
 
 
@@ -182,7 +182,7 @@
         <img class="icon" src="/assets/images/icons_svg/small_30.svg" alt="Einatmen, ausatmen" />
         <h3>Einatmen, ausatmen</h3>
         <div class="benefit-description">
-        <p>Statt im Betonklotz in Friedrichshain sitzen wir in Wannsee, dem beschaulichen Mainz und auch direkt in der Potsdamer Innenstadt. Viel Nähe zur Natur in der Mittagspause und ein ruhiges, stressfreies Arbeitsklima sind Teil deiner Arbeitsumgebung. </p>
+        <p>Statt im Betonklotz in Friedrichshain sitzen wir in Wannsee und direkt in der Potsdamer Innenstadt. Viel Nähe zur Natur in der Mittagspause und ein ruhiges, stressfreies Arbeitsklima sind Teil deiner Arbeitsumgebung. </p>
 </div>
       </div>
       <div class="col-3 benefit-box">
@@ -212,13 +212,12 @@
 
   <div class="content narrow centered">
     <div class="quote-container centered">
-    <img class="head-circle" src="/assets/images/photos/jamie.jpg"/>
-    <p class="font-secondary quote">„Ich stehe jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“</p>
-    <p class="font-primary">Jamie <br/> <span class="font-secondary bold">Projektleiterin</span></p>
+      <?php // FIXME: add this style to the css classes ?>
+    <img src="/assets/images/photos/jamie.jpg" style="width: 140px; height: 128px; border: 1px solid #3c3c3c; border-radius: 50%"/>
+    <p class="font-secondary quote">„Ich stehe jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“<br/>Jamie, <span class="font-secondary bold">Projektleiterin</span><br/><br/></p>
   </div> 
-    <!--<p class="bold">Hört sich gut an? Finden wir auch.</p>-->
     <div class="button-set centered quote-button">
-      <p><a href="#angebote" class="button primary">Komm zu uns</a></p>
+      <p><a href="#angebote" class="button primary rounded">Komm zu uns</a></p>
     </div>
   </div>
 </div>
@@ -227,24 +226,18 @@
   <div class="content wide">
     <h2 class="h1">Standorte</h2>
     <div class="grid">
-      <div class="col-3">
-        <h3 class="h2">Berlin</h3>
-        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-berlin.jpg" data-srcset="/assets/images/photos/CO-berlin.jpg" alt="Standort Berlin" title="Standort Berlin" />
-        <p>Hugo-Vogel-Str. 23, 14109 Berlin<br>
-        +49 (0) 30-920 33 500</p>
-      </div>
-      <div class="col-3">
-        <h3 class="h2">Mainz</h3>
-        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-mainz.jpg" data-srcset="/assets/images/photos/CO-mainz.jpg" alt="Standort Mainz" title="Standort Mainz" />
-        <p>Friedrich-Koenig-Straße 25a, 55129 Mainz<br>
-        +49 (0) 6131-950 49 60</p>
-      </div>
-      <div class="col-3">
+      <div class="col-2">
         <h3 class="h2">Potsdam</h3>
         <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-potsdam.jpg" data-srcset="/assets/images/photos/CO-potsdam.jpg" alt="Standort Potsdam" title="Standort Potsdam" />
         <p>Charlottenstr. 107, 14467 Potsdam<br>
         +49 (0) 331-968 94 700
         </p>
+      </div>
+      <div class="col-2">
+        <h3 class="h2">Berlin</h3>
+        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/CO-berlin.jpg" data-srcset="/assets/images/photos/CO-berlin.jpg" alt="Standort Berlin" title="Standort Berlin" />
+        <p>Hugo-Vogel-Str. 23, 14109 Berlin<br>
+        +49 (0) 30-920 33 500</p>
       </div>
     </div>
   </div>

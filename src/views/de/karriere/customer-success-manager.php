@@ -106,72 +106,64 @@
   </div>
 </div>
 
-<div class="wrapper mobile-hidden" id="more">
-  <div class="content narrow centered">
-    
-    <div class="padding">
-		<strong class="h1">Der Job</strong>
-		<p class="padding-top-40">Als <strong>Customer Success Manager*in</strong> (m/w/d) bist Du Teil unseres starken Projektteams und unterstützt dies dabei, neue und bestehende Kunden zu betreuen.</p>
-		<ul class="list approved-list">
-			<li>Du stehst in frequentiertem Kundenkontakt, sei es telefonisch, per E-Mail, Websession oder vor Ort.</li>
-			<li>Dein Ziel ist es, CallOne den Kunden in einem ersten Gespräch näher zu bringen und diesen anhand von Business KPIs, Usecases, Pain Points und ihren bereits genutzten Businesslösungen zu qualifizieren</li>
-			<li>Anschließend unterstützt du tatkräftig mit dem Set-up & Vorbereitungen von Meetings mit potenziellen Kunden</li>
-			<li>Du führst eigenständig unternehmensspezifische Recherchen durch und weißt immer, warum CallOne unseren Kunden einen Mehrwert bietet und wie dieser aussieht</li>
-			<li>Du machst detaillierte Aufzeichnungen über unsere Kundenhistorie mit Hilfe Meistertask (unserer ProjektManagement App)</li>
-		</ul>
+<div class="wrapper">
+	<div class="content narrow">
+		<div class="grid">
+			<div class="col-1">
+				<div class="shadow-box padding">
+					<p><strong class="h1">Deine Mission</strong></p>
+					<p>
+						Als Customer Success ManagerIn (m/w/d) bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte.
+						Unsere Kunden sind vorwiegend mittelständische Unternehmen, die wir mit unseren Telefonlösungen im Bereich Kundenservice oder Inside-Sales Abteilungen unterstützen.
+					</p>
+					<p>
+						Wir pflegen einen sehr engen und partnerschaftlichen Kontakt mit unseren Kunden.
+						Bei uns zählt Qualität vor Quantität, heißt Du bekommst ausreichend Zeit, um Dich umfassend um die Belange Deiner Kunden zu kümmern
+						und ein starkes Team mit funktionierender Lösung im Hintergrund.
+					</p>
+					<p>
+						Du fungierst als direkter Ansprechpartner für Kunden.
+						Das heißt Du unterstützt den Kunden beim Livegang und stehst im Tagesgeschäft für Fragen zur Verfügung.
+						Technisch arbeitest Du auf intuitiv bedienbaren Oberflächen, die keine Programmierkenntnisse erfordern.
+						Optimierungsvorschläge, Beratung sowie die Bearbeitung von technischen Kundenanfragen gehören ebenfalls zu deinem Aufgabengebiet.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="grid">
-          <div class="col-3 job-specs">
-            <img class="icon icon-small" src="/assets/images/icons_svg/small_35.svg" alt="In der Location: Potsdam" />
-            <strong>Potsdam</strong>
-          </div>
-          <div class="col-3 job-specs">
-            <img class="icon icon-small" src="/assets/images/icons_svg/small_32.svg" alt="In Vollzeit" />
-            <strong>Vollzeit / Unbefristet</strong>
-          </div>
-          <div class="col-3 job-specs">
-            <img class="icon icon-small" src="/assets/images/icons_svg/small_31.svg" alt="Ab Wann? sofort" />
-            <strong>Ab sofort</strong>
-          </div>
-        </div>
-  </div>
 </div>
-<div class="wrapper mobile-hidden" id="skills-benefits">
-  <div class="content wide margin-top-40">
-  	<div class="grid flex">
-  		<div class="col-2 flex space-between">
-			<div class="padding" style="height: 100%"> 
-            	<h2>Deine Skills</h2>
-            	<ul class="list approved-list-black">
-            		<li>Du hast bereits Erfahrungen in einer Business-Development- oder Sales-Rolle sammeln können, vorzugsweise in den Bereichen Software-as-a-Service (SaaS)</li>
-            		<li>Ausgeprägtes Organisationsvermögen und Durchsetzungsvermögen sowie Führungsstärke auch in hektischen Zeiten und unter Zeitdruck sind für dich selbstverständlich</li>
-            		<li>Deine strukturierte und professionelle Arbeitsweise zeichnet Dich aus</li>
-            		<li>Du kannst dich und andere motivieren und lässt dich von einem engagierten Team weiter anspornen, die gemeinsamen Ziele zu erreichen oder sogar zu übertreffen</li>
-					<li>Du besitzt die Fähigkeit, den Mehrwert von CallOne einfach und prägnant deinem Gegenüber zu präsentieren</li>
-					<li>Du hast Erfahrung in der Arbeit mit CRM- und Projektmanagementtools wie z. B. Pipedrive oder Meistertask</li>
-            	</ul>
-    		</div>
-		</div>    
-  		<div class="col-2 flex space-between">
-        	<div class="padding" style="height: 100%">
-            	<h2>Deine Benefits</h2>
-            	<ul class="list approved-list-black">
-            		<li>Festanstellung (Vollzeit) in denen Überstunden eher die Ausnahme als die Regel ist</li>
-            		<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
-            		<li>Lebendige und offene Unternehmenskultur mit flachen Hierarchien und kurzen Kommunikationswegen</li>
-            		<li>30 Tage Urlaub</li>
-            		<li>Natürlich musst du bei uns auch nicht verhungern und verdursten, Getränke, Kaffee, Snacks etc. so viel du willst</li>
-            	</ul>
-        	</div>
-        </div>
-  	</div>
-  </div>
-  <div class="content thin">
-  	<div class="button-set centered">
-    	<a href="/karriere#benefits" class="button big tertiary" title="Was wir Dir bieten" target="_blank">Was wir Dir bieten</a>
-    </div>
-  </div> 
-</div>
+
+<div class="wrapper mobile-hidden">
+	<div class="content wide">
+		<div class="grid">
+			<div class="col-2">
+				<div class="shadow-box padding">
+					<p><strong class="h2">Deine Aufgaben</strong></p>
+					<ul class="list approved-list-black">
+						<li>Abgeschlossenes Studium oder Ausbildung (Quereinsteiger willkommen)​</li>
+						<li>Optimal aber kein Muss wären Projekterfahrungen Erfahrungen im SaaS-Umfeld</li>
+						<li>Du bringst eine proaktive Grundhaltung und eine ausgeprägte Lösungskompetenz mit</li>
+						<li>Teamfähigkeit, Zuverlässigkeit und Eigeninitiative gehören zu deiner Persönlichkeit​</li>
+						<li>Kommunikation ist eine deiner Stärken und du hast Freude am Support von internationalen Kunden</li>
+						<li>Gute Kenntnisse von MS Office<br/><br/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="shadow-box padding">
+					<p><strong class="h2">Deine Benefits</strong></p>
+					<ul class="list approved-list-black">
+						<li>Wachsender Markt mit krisensicherem Arbeitsplatz​</li>
+						<li>Festanstellung (Vollzeit) in denen Überstunden eher die Ausnahme als die Regel ist</li>
+						<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
+						<li>Lebendige und offene Unternehmenskultur mit flachen Hierarchien und kurzen Kommunikationswegen</li>
+						<li>30 Tage Urlaub</li>
+						<li>Natürlich musst du bei uns auch nicht verhungern und verdursten, Getränke, Kaffee, Snacks etc. so viel du willst</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="wrapper desktop-hidden margin-top-40">
@@ -338,10 +330,8 @@
 		<?php getLogoParade([   
 		            ['data' => 'logo-check24.png', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo sw small'],
 		            ['data' => 'logo-flaconi.png', 'alt' => 'Kunde Flaconi', 'cssClass' => 'partnerLogo sw small'],
-		            ['data' => 'logo-dertour.png', 'alt' => 'Kunde DERTour', 'cssClass' => 'partnerLogo sw small'],
-		            ['data' => 'logo-zendesk.svg', 'alt' => 'Partner Zendesk', 'cssClass' => 'partnerLogo sw small'],
-            	    ['data' => 'logo-salesforce.svg', 'alt' => 'Partner Salesforce', 'cssClass' => 'partnerLogo sw small'],
-                    ['data' => 'logo-tableau.svg', 'alt' => 'Partner Tableau', 'cssClass' => 'partnerLogo sw small']
+		            ['data' => 'logo-bett1-2.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo sw small'],
+		            ['data' => 'logo-amorelie.png', 'alt' => 'Kunde Amorelie', 'cssClass' => 'partnerLogo sw small']
         ], null); ?>
 	</div>
 </div>
