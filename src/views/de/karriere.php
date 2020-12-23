@@ -213,9 +213,9 @@
   <div class="content narrow centered">
     <div class="quote-container centered">
       <?php // FIXME: add this style to the css classes ?>
-    <img src="/assets/images/photos/jamie.jpg" style="width: 140px; height: 128px; border: 1px solid #3c3c3c; border-radius: 50%"/>
-    <p class="font-secondary quote">„Ich stehe jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“<br/>Jamie, <span class="font-secondary bold">Projektleiterin</span><br/><br/></p>
-  </div> 
+      <img src="/assets/images/photos/jamie2.jpg" style="width: 140px; border: 1px solid #3c3c3c; border-radius: 50%"/>
+      <p class="font-secondary quote">„Ich stehe jeden Tag auf und freue mich auf die Arbeit. So sollte es jedem gehen.“<br/>Jamie, <span class="font-secondary bold">Projektleiterin</span><br/><br/></p>
+    </div>
     <div class="button-set centered quote-button">
       <p><a href="#angebote" class="button primary rounded">Komm zu uns</a></p>
     </div>
