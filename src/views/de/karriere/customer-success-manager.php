@@ -141,7 +141,7 @@
 					<p><strong class="h2">Deine Aufgaben</strong></p>
 					<ul class="list approved-list-black">
 						<li>Abgeschlossenes Studium oder Ausbildung (Quereinsteiger willkommen)​</li>
-						<li>Optimal aber kein Muss wären Projekterfahrungen Erfahrungen im SaaS-Umfeld</li>
+						<li>Optimal aber kein Muss wären Projekterfahrungen im SaaS-Umfeld</li>
 						<li>Du bringst eine proaktive Grundhaltung und eine ausgeprägte Lösungskompetenz mit</li>
 						<li>Teamfähigkeit, Zuverlässigkeit und Eigeninitiative gehören zu deiner Persönlichkeit​</li>
 						<li>Kommunikation ist eine deiner Stärken und du hast Freude am Support von internationalen Kunden</li>
