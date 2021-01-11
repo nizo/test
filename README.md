@@ -20,7 +20,7 @@ This command will clone the current repository into your local project folder.
 
 Requirements are:
 
-**Node** v12.16.1
+**Node** v12.16.1  
 **NPM** v6.14.8
 
 It is recommended to use [NVM](https://github.com/nvm-sh/nvm), simply install it on your local machine and run `nvm install v12.16.1` to have node and npm being installed (adjust version number if needed).
@@ -34,21 +34,21 @@ todo...
 ### Where are which files
 
 1. HTML files / pages & sub-pages
-  - `src/views/de/*` - This is the main folder for every HTML page
-  - `src/partials/*` - Here you can find several additional files including forms and other partials that are included in other files
+    - `src/views/de/*` - This is the main folder for every HTML page
+    - `src/partials/*` - Here you can find several additional files including forms and other partials that are included in other files
 2. SASS/SCSS/CSS files / stylesheets
-  - `src/assets/stylesheets/scss/*` - This folder contains every SCSS file, files are roughly named after the block/objects they style
-  - `src/assets/stylesheets/libs/*` - Stylesheets of other libraries can be found here
+    - `src/assets/stylesheets/scss/*` - This folder contains every SCSS file, files are roughly named after the block/objects they style
+    - `src/assets/stylesheets/libs/*` - Stylesheets of other libraries can be found here
 3. JS/COFFEE files / javascripts
-  - `src/assets/javascripts/coffee/application.coffee` - Main coffeescript file that handles basic functionality
-  - `src/assets/javascripts/custom/*` - Custom javascripts that handle several functionallities throughout the page eg: callback, chat, lazyload, etc
-  - `src/assets/javascripts/libs/*` - This folder contains other javascript libraries like jquery
+    - `src/assets/javascripts/coffee/application.coffee` - Main coffeescript file that handles basic functionality
+    - `src/assets/javascripts/custom/*` - Custom javascripts that handle several functionallities throughout the page eg: callback, chat, lazyload, etc
+    - `src/assets/javascripts/libs/*` - This folder contains other javascript libraries like jquery
 4. Images, Videos & Animations
-  - `src/assets/images/*` - For images
-  - `src/assets/videos/*` - For videos
-  - `src/assets/animations/*` - For animations / SVG
+    - `src/assets/images/*` - For images
+    - `src/assets/videos/*` - For videos
+    - `src/assets/animations/*` - For animations / SVG
 5. Fonts
-  - `src/assets/fonts/*` - webfonts / iconfonts
+    - `src/assets/fonts/*` - webfonts / iconfonts
 
 ### Deploying the page
 
