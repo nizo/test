@@ -1,4 +1,4 @@
-# Callone.de
+# Callone.de Development
 
 1. [Cloning the Repository](#cloning-the-repository)
 2. [Setting up local development](#setting-up-local-development)
