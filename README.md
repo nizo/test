@@ -34,7 +34,9 @@ Before [starting the local development server](#how-to-start-the-local-developme
 ### How to start the local development server
 
 1. Run `npm start` in the project root folder
-2. Navigate to <localhost:8000> in your browser
+2. Navigate to [localhost:8000](localhost:8000) in your browser
+3. Gulp will watch for file changes and rebuild CSS/JS files as you change them as long as the npm start task is running
+4. Manual browser refreshes are currently needed
 
 ### Where are which files
 
