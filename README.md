@@ -25,11 +25,16 @@ Requirements are:
 
 It is recommended to use [NVM](https://github.com/nvm-sh/nvm), simply install it on your local machine and run `nvm install v12.16.1` to have node and npm being installed (adjust version number if needed).
 
+Optional requirements:
+
+**Gulp CLI** v2.3.0 (in case you want to run gulp tasks manually)
+
 Before [starting the local development server](#how-to-start-the-local-development-server) for the first time you need to run `npm install` to install all necessary packages.
 
 ### How to start the local development server
 
-todo...
+1. Run `npm start` in the project root folder
+2. Navigate to <localhost:8000> in your browser
 
 ### Where are which files
 
