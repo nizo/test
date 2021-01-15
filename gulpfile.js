@@ -3,20 +3,35 @@ const gulp         = require('gulp'),
       rename       = require('gulp-rename'),
       php          = require('gulp-connect-php'),
       clean        = require('gulp-clean'),
+      coffee       = require('gulp-coffee'),
+      merge2       = require('merge2'),
+      gutil        = require('gulp-util'),
+      uglify       = require('gulp-uglify'),
+      concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
       browserSync  = require('browser-sync').create();
 const { series, parallel } = require('gulp');
 
+var paths = {
+  source: './src/',
+  scss: './src/assets/stylesheets/scss/',
+  stylesheets: './src/assets/stylesheets/',
+  coffee: './src/assets/javascripts/coffee/',
+  customJS: './src/assets/javascripts/custom/',
+  libs: './src/assets/javascripts/libs/',
+  javascripts: './src/assets/javascripts/'
+};
+
 // Delete old css file
 function cleanStyle() {
-  return gulp.src('./src/assets/stylesheets/application-*.min.css', {read: false})
+  return gulp.src(paths.stylesheets + 'application-*.min.css', {read: false})
     .pipe(clean());
 }
 
 // Compile SCSS into CSS
 function compileStyle() {
-  return gulp.src('./src/assets/stylesheets/scss/application.scss')
+  return gulp.src(paths.scss + 'application.scss')
     .pipe(sass().on('error', sass.logError))          // Compile SCSS into CSS
     .pipe(autoprefixer())                             // Run autoprefixer on CSS
     .pipe(cleanCSS({debug: true}, function(details) { // Minify CSS
@@ -24,8 +39,27 @@ function compileStyle() {
       console.log(details.name + ' Minified size: ' + details.stats.minifiedSize / 1000 + 'kB');
     }))
     .pipe(rename('application-'+((new Date()).getTime())+'.min.css')) // Rename CSS file
-    .pipe(gulp.dest('./src/assets/stylesheets'))      // Save CSS file
+    .pipe(gulp.dest(paths.stylesheets))               // Save CSS file
     .pipe(browserSync.stream())
+}
+
+// Delete old js file
+function cleanScripts() {
+  return gulp.src(paths.javascripts + 'application-*.min.js', {read: false})
+    .pipe(clean());
+}
+
+// Compile Coffee into JS
+function compileScripts() {
+  var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(coffee({bare: true}).on('error', gutil.log));
+  var js2 = gulp.src(paths.customJS+'*.js');
+   
+  return merge2([coffee2go, js2])
+    .pipe(uglify().on('error', function(e){
+        console.log(e);
+    }))
+    .pipe(concat('application-'+((new Date()).getTime())+'.min.js'))
+    .pipe(gulp.dest(paths.javascripts));
 }
 
 function reload(done) {
@@ -36,15 +70,16 @@ function reload(done) {
 // Connect browserSync and watch files for changes
 function server() {
   php.server({
-    base: './src/'
+    base: paths.source
   }, function() {
     browserSync.init({
       proxy: '127.0.0.1:8000',
       open: false
     });
   });
+  gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle));
+  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
-  // gulp.watch('./src/assets/stylesheets/scss/**/*.scss', series(cleanStyle, compileStyle, reload));
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);
   // gulp.watch('./src/views/**/*.php').on('change', reload);
@@ -52,4 +87,4 @@ function server() {
 }
 
 // exports.watch = watch;
-exports.default = series(cleanStyle, compileStyle, server);
+exports.default = series(cleanStyle, compileStyle, cleanScripts, compileScripts, server);
