@@ -723,11 +723,15 @@ img {
       color: #fff;
     }
   }
+  &.background-black {
+    background-color: #000;
+    color: #fff;
+  }
   &.darkgrey {
     background-color: $color-darkgrey;
     color: #fff;
   }
-  &.lightgrey, &.solutions-header {
+  &.lightgrey, &.solutions-header, &.background-black {
     padding: $gutter-xl 0;
     @media screen and (max-width: 1000px) {
       padding: $gutter-l 0;
@@ -748,6 +752,12 @@ img {
   }
   &.lightgrey-2 {
     background-color: $color-lightgrey-2;
+    &--padding {
+      padding: $gutter-xl 0;
+      @media screen and (max-width: 1000px) {
+        padding: $gutter-l 0;
+      }
+    }
   }
   &.dark-light-grey {
     background-image: linear-gradient(#252C2B, #77817F);

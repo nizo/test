@@ -37,6 +37,9 @@
   &--block {
     display: block;
   }
+  &--inline {
+    display: inline-block;
+  }
   &.primary {
     background-color: $color-secondary-1;
     border: 2px solid $color-secondary-1;

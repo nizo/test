@@ -577,6 +577,17 @@ $r->addRoute('GET', '/voip-api', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/salesforce', function() {
+  $title = 'Salesforce';
+  $description = 'Salesforce';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/salesforce';
+  require_once('./layouts/header.php');
+  require_once('./views/de/salesforce.php');
+  require_once('./layouts/footer.php');
+});
+
 // omr podcast
 $r->addRoute('GET', '/omr', function() {
   $title = 'OMR Goodie';
