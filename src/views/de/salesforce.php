@@ -12,7 +12,12 @@
         </div>
       </div>
       <div class="media centered">
-        <!-- <img src="/assets/images/illus/api-hero-illustration.svg" alt="" /> -->
+        <div class="crm-header-image">
+          <a href="#" class="crm-tool-logo">
+            <img src="/assets/images/crm-logos/salesforce-app.png" alt="" />
+          </a>
+          <img src="/assets/images/screens/hero-image-browser-softphone.png" alt="" />
+        </div>
       </div>
     </header>
   </div>
