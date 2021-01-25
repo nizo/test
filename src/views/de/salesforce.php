@@ -115,7 +115,10 @@
         <div class="card__image">
           <img src="/assets/images/icons_svg/softphone-branding-lit.svg" alt="">
         </div>
-        <h3>CallOne Softphone</h3>
+        <h3 class="tag-above">
+          <span class="tag icon-callone">App</span>
+          CallOne Softphone
+        </h3>
         <p>Das CallOne Softphone Plugin für den Chrome Browser ist spielend einfach in jeden Kundenservice oder Sales Workflow integrierbar. Probieren Sie es jetzt aus!</p>
         <p><a href="#" class="button secondary black rounded button--inline mobileWrap">zu Chrome hinzufügen</a></p>
       </div>

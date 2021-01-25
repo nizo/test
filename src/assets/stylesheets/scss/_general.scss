@@ -160,6 +160,39 @@ h4, .h4 {
 	font-family: $font-copy;
 }
 
+.tag-above {
+  position: relative;
+  .tag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background-color: #b2b2b2;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    &:before {
+      content: "";
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &.icon-callone {
+      &:before {
+        background-image: url(../images/icons_svg/callone-feature-indicator.svg);
+      }
+    }
+  }
+}
+
 input, textarea, button {
     outline: none;
 }
