@@ -588,6 +588,17 @@ $r->addRoute('GET', '/salesforce', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/softphone', function() {
+  $title = 'Softphone';
+  $description = 'Softphone';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/softphone';
+  require_once('./layouts/header.php');
+  require_once('./views/de/softphone.php');
+  require_once('./layouts/footer.php');
+});
+
 // omr podcast
 $r->addRoute('GET', '/omr', function() {
   $title = 'OMR Goodie';

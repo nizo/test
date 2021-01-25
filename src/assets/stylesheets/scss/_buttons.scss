@@ -40,6 +40,17 @@
   &--inline {
     display: inline-block;
   }
+  &--anchor {
+    &:after {
+      content: "";
+      background-image: url(../images/icons_svg/jump-to-anchor.svg);
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      margin-left: $gutter-s;
+      vertical-align: middle;
+    }
+  }
   &.primary {
     background-color: $color-secondary-1;
     border: 2px solid $color-secondary-1;
@@ -126,6 +137,14 @@
 	      	color: #000 !important;
       	}
   	}
+  }
+  &.white-shadow {
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15), 0px 4px 20px rgba(0, 0, 0, 0.05);
+    color: #000;
+    &:hover {
+      background-color: $color-primary;
+    }
   }
   &.quaternary, &.quinary {
   	--notchSize: 6px;
