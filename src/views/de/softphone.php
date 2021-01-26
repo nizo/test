@@ -26,6 +26,47 @@
 
 <div class="wrapper lightgrey-white no-margin-top">
   <div class="content wide">
-    Softphone
+    <h1 class="headline__icon">
+      <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" />
+      <div>
+        <span class="icon-callone">App</span>
+        <span class="headline__text">Softphone</span>
+      </div>
+    </h1>
+
+    <h2>Entfesseln Sie Ihre Telefonie!</h2>
+    <p>Funktionen, die es Ihnen einfach machen</p>
+
+    <div class="tabset">
+      <div class="tabset__links">
+        <div class="tabset__link" data-tab="1">
+          <span>Softphone</span>
+          VoIP-Telefon im Browser
+        </div>
+        <div class="tabset__link" data-tab="2">
+          <span>Click-to-Dial</span>
+          Wählen mit einem Klick
+        </div>
+        <div class="tabset__link" data-tab="3">
+          <span>Bring your own Provider</span>
+          Funktioniert mit Ihrer VoIP-Telefonanlage
+        </div>
+      </div>
+      <div class="tabset__tabs">
+        <div class="tabset__tab" data-tab="1">
+          <img src="/assets/images/screens/funktionen-softphone.svg" alt="" />
+          <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
+          <div class="button-set centered">
+            <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+          </div>
+        </div>
+        <div class="tabset__tab" data-tab="2">
+          Tab 2
+        </div>
+        <div class="tabset__tab" data-tab="3">
+          Tab 3
+        </div>
+      </div>
+    </div>
   </div>
 </div>
