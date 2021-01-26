@@ -1,3 +1,7 @@
+<?php
+$jobTitle = 'IT Consultant*in (m/w/d) in Potsdam';
+?>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -10,8 +14,7 @@
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-11-04",
-  "title": "IT Consultant (m/w/d) in Potsdam",
-  "validThrough": "2020-07-30T00:00",
+  "title": "<?=$jobTitle;?>",
   "description": "  <p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
     		          Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
                     <p>Und Du?​ Du bist unser neues Ass im Ärmel</p>
@@ -201,7 +204,7 @@
     <form action="#" class="form shortApplication js-form">
   		<input type="hidden" name="type" value="4">
   		<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
-  		<input type="hidden" name="issue" value="<?= isset($jobsTitle)? $jobTitle : 'Kurzbewerbung'?>">
+  		<input type="hidden" name="issue" value="<?=$jobTitle;?>">
         <div class="wrapper"> 	
       		<div class="content thin">
     			<p>

@@ -36,8 +36,8 @@
 			<div class="shadow-box padding" style="height: 100%">
     			<form action="#" class="form form-3 js-form">
     			 	<input type="hidden" name="type" value="3">
-    			 	<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
-    			 	<input type="hidden" name="issue" value="Bewerbung <?= isset($jobTitle)? ' als ' . $jobTitle : '' ?>">
+    			 	<input type="hidden" name="path" value='<?=json_encode (implode(';', $_SESSION['userRoute']));?>'>
+    			 	<input type="hidden" name="issue" value="<?=$jobTitle;?>">
     			 	<div class="group">
                     	<input type="text" name="name" class="name" value="" placeholder="Dein Name" required>
                     </div>

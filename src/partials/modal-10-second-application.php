@@ -7,8 +7,8 @@
   <div class="modal-body">
   	<form action="#" class="form shortApplication js-form">
   		<input type="hidden" name="type" value="4">
-  		<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
-  		<input type="hidden" name="issue" value="<?= isset($jobsTitle)? $jobTitle : 'Kurzbewerbung'?>">
+  		<input type="hidden" name="path" value='<?=json_encode (implode(';', $_SESSION['userRoute']));?>'>
+  		<input type="hidden" name="issue" value="10 Sekunden Bewerbung">
         <div class="wrapper"> 	
       		<div class="content narrow">
     			<strong class="mobile-hidden h3">Zeige Profil!</strong>

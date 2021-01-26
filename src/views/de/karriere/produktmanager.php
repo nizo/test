@@ -1,3 +1,7 @@
+<?php
+$jobTitle = 'Technischer Projektleiter*in (m/w/d) - Potsdam';
+?>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -10,7 +14,7 @@
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-08-07",
-  "validThrough": "2019-12-31",
+  "title": "<?=$jobTitle;?>",
   "description": "  <p>
                         <strong>Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit.</strong>
                     </p>
@@ -83,8 +87,7 @@
                             <li>Du arbeitest eng mit deinen großartigen, smarten Kollegen zusammen und bekommst alle Unterstützung, die du brauchst.</li>
                         </ul>
                        </p>",
-  "qualifications": "<p><strong>Technisches Studium oder technische Ausbildung/ Arbeitserfahrung</strong>, gerne mit Programmier-Erfahrung.</p>",
-  "title": "Technischer Projektleiter (m/w/d) - Potsdam"
+  "qualifications": "<p><strong>Technisches Studium oder technische Ausbildung/ Arbeitserfahrung</strong>, gerne mit Programmier-Erfahrung.</p>"
 }
 </script>
 
@@ -237,7 +240,9 @@
   </div>
 </div>
 
-<?php //include_once('./partials/job-form.php'); ?>
+<?php
+  include('partials/job-form.php');
+?>
 
 <div class="wrapper marginTop-xxl">
   <div class="content thin">
