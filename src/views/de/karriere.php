@@ -37,12 +37,12 @@ $jobs[] = new job ('Customer Success Manager*in',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('Kauffrau/-mann für Bürokommunikation',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">FIXME</span>',
+				   '<span class="color-green">Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?</span>',
 				   '',
 				   '/assets/images/icons_svg/job_05.svg');
 $jobs[] = new job ('IT-Systemkaufmann/-frau',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">FIXME</span>',
+				   '<span class="color-green">Du hast ein breit aufgestelltes Wissen, um unsere Kunden IT-seitig im Alltag zu unterstützen?</span>',
 				   '',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('IT-Support',
@@ -52,7 +52,7 @@ $jobs[] = new job ('IT-Support',
 				   '/assets/images/icons_svg/job_03.svg');
 $jobs[] = new job ('Fachinformatiker*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">FIXME</span>',
+				   '<span class="color-green">Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?</span>',
 				   '',
 				   '/assets/images/icons_svg/job_04.svg');
 $jobs[] = new job ('Webdesigner*in',
