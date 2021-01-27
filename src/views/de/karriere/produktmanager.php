@@ -14,6 +14,7 @@ $jobTitle = 'Technischer Projektleiter*in (m/w/d) - Potsdam';
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-08-07",
+  "validThrough": "2020-06-30T00:00",
   "title": "<?=$jobTitle;?>",
   "description": "  <p>
                         <strong>Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit.</strong>

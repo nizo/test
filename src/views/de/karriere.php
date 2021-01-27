@@ -37,12 +37,12 @@ $jobs[] = new job ('Customer Success Manager*in',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('Kauffrau/-mann für Bürokommunikation',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">FIXME</span>',
+				   'Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?',
 				   '',
 				   '/assets/images/icons_svg/job_05.svg');
 $jobs[] = new job ('IT-Systemkaufmann/-frau',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">FIXME</span>',
+				   'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?',
 				   '',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('IT-Support',
@@ -52,7 +52,7 @@ $jobs[] = new job ('IT-Support',
 				   '/assets/images/icons_svg/job_03.svg');
 $jobs[] = new job ('Fachinformatiker*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">FIXME</span>',
+				   'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?',
 				   '',
 				   '/assets/images/icons_svg/job_04.svg');
 $jobs[] = new job ('Webdesigner*in',
@@ -79,7 +79,7 @@ $features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flac
 		<header class="main-header">
 			<div class="text">
 				<h1>Da bist du ja – du fehlst bei uns!</h1>
-				<p class="primary">Wir arbeiten an dem Problem, dass Kundenservice am Telefon die absolute Hölle ist. Wir unterstützen unsere großartigen Kunden dabei, ihren Customer Service so aufzubauen, dass Leute gern bei ihnen anrufen, weil ihnen wirklich geholfen wird. Interessiert?</p>
+				<p class="primary">Wir versorgen modern denkende Unternehmen mit Telefontechnologie, die ihren Kunden zugute kommt. Wir bauen effiziente Produkte, die Officetelefonie besser, schneller und freundlicher machen — zum Beispiel cloudbasierte Software, Schnittstellen und Apps zu Anbietern wie Zendesk, Salesforce oder Tableau. Dazu brauchen wir dich. Interessiert?</p>
 				<div class="button-set">
 					<a class="openModal button tertiary rounded trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
 
