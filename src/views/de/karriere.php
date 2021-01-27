@@ -32,7 +32,7 @@ class feature
 $jobs = array ();
 $jobs[] = new job ('Customer Success Manager*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?',
+				   '<span class="color-green">Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?</span>',
 				   '/karriere/job-customer-success-manager-potsdam',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('Kauffrau/-mann für Bürokommunikation',
@@ -42,12 +42,12 @@ $jobs[] = new job ('Kauffrau/-mann für Bürokommunikation',
 				   '/assets/images/icons_svg/job_05.svg');
 $jobs[] = new job ('IT-Systemkaufmann/-frau',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">Du hast ein breit aufgestelltes Wissen, um unsere Kunden IT-seitig im Alltag zu unterstützen?</span>',
+				   '<span class="color-green">Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?</span>',
 				   '',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('IT-Support',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?',
+				   '<span class="color-green">Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?</span>',
 				   '/karriere/it-helpdesk-potsdam',
 				   '/assets/images/icons_svg/job_03.svg');
 $jobs[] = new job ('Fachinformatiker*in',
@@ -57,7 +57,7 @@ $jobs[] = new job ('Fachinformatiker*in',
 				   '/assets/images/icons_svg/job_04.svg');
 $jobs[] = new job ('Webdesigner*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   'HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!',
+				   '<span class="color-green">HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!</span>',
 				   '/karriere/job-webdesigner-potsdam',
 				   '/assets/images/icons_svg/job_04.svg');
 
