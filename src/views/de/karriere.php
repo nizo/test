@@ -32,32 +32,32 @@ class feature
 $jobs = array ();
 $jobs[] = new job ('Customer Success Manager*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?</span>',
+				   'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?',
 				   '/karriere/job-customer-success-manager-potsdam',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('Kauffrau/-mann für Bürokommunikation',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?</span>',
+				   'Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?',
 				   '',
 				   '/assets/images/icons_svg/job_05.svg');
 $jobs[] = new job ('IT-Systemkaufmann/-frau',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?</span>',
+				   'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?',
 				   '',
 				   '/assets/images/icons_svg/job_02.svg');
 $jobs[] = new job ('IT-Support',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?</span>',
+				   'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?',
 				   '/karriere/it-helpdesk-potsdam',
 				   '/assets/images/icons_svg/job_03.svg');
 $jobs[] = new job ('Fachinformatiker*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?</span>',
+				   'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?',
 				   '',
 				   '/assets/images/icons_svg/job_04.svg');
 $jobs[] = new job ('Webdesigner*in',
 				   'Potsdam · unbefristet · (m/w/d)',
-				   '<span class="color-green">HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!</span>',
+				   'HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!',
 				   '/karriere/job-webdesigner-potsdam',
 				   '/assets/images/icons_svg/job_04.svg');
 
