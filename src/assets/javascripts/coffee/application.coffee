@@ -355,32 +355,33 @@ $(document).ready ->
     scrollerBelt = scroller.querySelector('.scroller-belt')
     scrollerBeltHeight = scrollerBelt.offsetHeight
 
-    scrollerReversed = false
-    if scroller.hasAttribute('data-reversed')
-      scrollerReversed = true
-    
-    # Calculate how many times content has to be copied
-    n = scrollerWindowHeight
-    d = scrollerBeltHeight
-    count = 0
-    while n >= d
-      n -= d
+    if scrollerBeltHeight > 0
+      scrollerReversed = false
+      if scroller.hasAttribute('data-reversed')
+        scrollerReversed = true
+      
+      # Calculate how many times content has to be copied
+      n = scrollerWindowHeight
+      d = scrollerBeltHeight
+      count = 0
+      while n >= d
+        n -= d
+        count++
       count++
-    count++
-    
-    # Populate box
-    originalContent = scrollerBelt.innerHTML
-    i = 0
-    while i < count
-      scrollerBelt.innerHTML += originalContent
-      i++
-    
-    currentTop = 0
-    if scrollerReversed
-      currentTop = scrollerBeltHeight
-    animationSpeed = 40; # Pixels per second
-    animationInterval = null
-    animationPaused = false
+      
+      # Populate box
+      originalContent = scrollerBelt.innerHTML
+      i = 0
+      while i < count
+        scrollerBelt.innerHTML += originalContent
+        i++
+      
+      currentTop = 0
+      if scrollerReversed
+        currentTop = scrollerBeltHeight
+      animationSpeed = 40; # Pixels per second
+      animationInterval = null
+      animationPaused = false
     
     # Actual animation function
     scroll = () ->

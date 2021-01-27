@@ -77,7 +77,7 @@
     </div>
 
     <div class="image-grid padding-top-80">
-      <div class="image">
+      <div class="image centered">
         <img src="/assets/images/logo/productlogos/app-integration-group2.svg" alt="App Integrations" />
       </div>
       <div class="text">
@@ -287,7 +287,7 @@
             </div>
             <div class="text">
               <h4>Use Case</h4>
-              <h2>Schnittstellenanbindung 2.0</h2>
+              <h2>Schnittstellen&shy;anbindung 2.0</h2>
               <p class="quote">„Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“</p>
               <p>
                 <span class="font-headline">Florian Flock</span><br />

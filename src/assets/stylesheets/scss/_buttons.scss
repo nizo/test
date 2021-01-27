@@ -7,8 +7,11 @@
   white-space: nowrap;
   letter-spacing: 2px;
   cursor: pointer;
+  @media screen and (max-width: 400px) {
+    white-space: inherit;
+  }
   &.break {
-  	white-space: inherit;;
+  	white-space: inherit;
   }
   &.big {
 	  padding: $gutter-s + 5px $gutter-xl;
