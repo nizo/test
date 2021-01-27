@@ -79,7 +79,7 @@ $features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flac
 		<header class="main-header">
 			<div class="text">
 				<h1>Da bist du ja – du fehlst bei uns!</h1>
-				<p class="primary">Wir arbeiten an dem Problem, dass Kundenservice am Telefon die absolute Hölle ist. Wir unterstützen unsere großartigen Kunden dabei, ihren Customer Service so aufzubauen, dass Leute gern bei ihnen anrufen, weil ihnen wirklich geholfen wird. Interessiert?</p>
+				<p class="primary">Wir versorgen modern denkende Unternehmen mit Telefontechnologie, die ihren Kunden zugute kommt. Wir bauen effiziente Produkte, die Officetelefonie besser, schneller und freundlicher machen — zum Beispiel cloudbasierte Software, Schnittstellen und Apps zu Anbietern wie Zendesk, Salesforce oder Tableau. Dazu brauchen wir dich. Interessiert?</p>
 				<div class="button-set">
 					<a class="openModal button tertiary rounded trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
 
