@@ -14,7 +14,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-11-04",
-  "validThrough": "2020-06-30T00:00",
+  "validThrough": "<?=date('Y-m', strtotime('6 months'));?>-01T00:00",
   "title": "<?=$jobTitle;?>",
   "description": "  <p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
     		          Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>

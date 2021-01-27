@@ -10,6 +10,7 @@
     "logo": "https://www.callone.de/assets/images/logo/Logo.png"
   },
   "datePosted": "2019-08-05",
+  "validThrough": "<?=date('Y-m', strtotime('6 months'));?>-01T00:00",
   "title": "Kundenberater/ Mitarbeiter Customer Support - Potsdam",
   "description": "<p>Wir haben es uns zum Ziel gesetzt Kundenservice richtig gut zu machen. Dafür brauchen wir dich als Kundenberater im 1st-Level-Support (m/w/d)!</p><p>Für dich stehen Service, Beratung und Kundenservice an erster Stelle? Du verfügst über eine ausgeprägte Lösungsorientierung und liebst ein Umgang mit Menschen? Dann bist du bei uns genau richtig!</p><h2>Wobei wir Deine Hilfe brauchen</h2><ul>
 <li>Du bist für unsere Kunden Ansprechpartner.</li>
