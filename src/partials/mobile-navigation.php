@@ -137,6 +137,55 @@
       </ul>
     </li>
 
+    <!-- jobs -->
+    <li>
+      <a class="submenu">Jobs</a>
+      <ul class="pages-submenu product-menu">
+        <li>
+          <a href="/karriere/job-customer-success-manager-potsdam">
+            <div>
+              <span>Customer Success Manager*in</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/karriere/job-FIXME-potsdam">
+            <div>
+              <span>Kauffrau/-mann für Bürokommunikation</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/karriere/job-FIXME-potsdam">
+            <div>
+              <span>IT-Systemkaufmann/-frau</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/karriere/it-helpdesk-potsdam">
+            <div>
+              <span>IT-Support</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/karriere/job-FIXME-potsdam">
+            <div>
+              <span>Fachinformatiker*in</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/karriere/job-webdesigner-potsdam">
+            <div>
+              <span>Webdesigner*in</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+
   </ul>
 
   <div class="buttons">

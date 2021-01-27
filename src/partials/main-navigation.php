@@ -17,7 +17,6 @@
       <a class="arrow" title="Produkte">Produkte</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
-          <!-- <strong class="headline">Produkte</strong> -->
           <ul>
             <li>
               <a href="/callcenter-software" class="product" title="Virtuelle Callcenter Lösung für Sales und Service">
@@ -84,7 +83,6 @@
       <a class="arrow" title="Integrationen">Integrationen</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
-          <!-- <strong class="headline">Integrationen</strong> -->
           <ul>
             <li>
               <a href="/callcenter-software-integrationen" class="product" title="Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden">
@@ -129,7 +127,6 @@
       <a class="arrow" title="Referenzen">Referenzen</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
-          <!-- <strong class="headline">Case Studies</strong> -->
           <ul>
             <li>
               <a href="/case-study-check24" class="product" title="Umfangreiche Integration über APIs &amp; Webhooks">
@@ -176,6 +173,59 @@
                   <span>Apodiscounter</span>
                   Intelligente Anrufsteuerung<br />
                   mit KI
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+
+    <!-- jobs -->
+    <li>
+      <a class="arrow">Jobs</a>
+      <div class="submenu submenu-products">
+        <div class="submenu-content">
+          <ul>
+            <li>
+              <a href="/karriere/job-customer-success-manager-potsdam" class="product">
+                <span>
+                  <span>Customer Success Manager*in</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="/karriere/job-FIXME-potsdam" class="product">
+                <span>
+                  <span>Kauffrau/-mann für Bürokommunikation</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="/karriere/job-FIXME-potsdam" class="product">
+                <span>
+                  <span>IT-Systemkaufmann/-frau</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="/karriere/it-helpdesk-potsdam" class="product">
+                <span>
+                  <span>IT-Support</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="/karriere/job-FIXME-potsdam" class="product">
+                <span>
+                  <span>Fachinformatiker*in</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="/karriere/job-webdesigner-potsdam" class="product">
+                <span>
+                  <span>Webdesigner*in</span>
                 </span>
               </a>
             </li>

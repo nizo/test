@@ -1,5 +1,4 @@
 <?php session_start(); ?>
-<?php header('Content-type: text/html; charset=utf-8'); // FIXME: HostEurope doesn't set the charset in HTTP-Header ?>
 <?php $GLOBALS['newCookieModal'] = true; ?>
 <!doctype html>
 <html lang="de">
