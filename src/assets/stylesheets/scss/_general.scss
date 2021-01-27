@@ -807,7 +807,7 @@ img {
     background-color: $color-darkgrey;
     color: #fff;
   }
-  &.lightgrey, &.solutions-header, &.background-black {
+  &.lightgrey, &.solutions-header, &.background-black, &.lightgrey-2-white {
     padding: $gutter-xl 0;
     @media screen and (max-width: 1000px) {
       padding: $gutter-l 0;
@@ -853,6 +853,9 @@ img {
         line-height: 1.4;
       }
     }
+  }
+  &.lightgrey-2-white {
+    background: linear-gradient(180deg, #EDF2E2 0%, #FFFFFF 66%);
   }
   &.white-lightgreen { // grid 2-5/3-5
     background-image: linear-gradient(90deg, #fff 50%, $color-lightgrey-2 50%);

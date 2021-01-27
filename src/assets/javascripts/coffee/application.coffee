@@ -341,6 +341,20 @@ $(document).ready ->
         tabset.querySelector('.tabset__link[data-tab="' + link.dataset.tab + '"]').classList.add 'tabset__link--active'
       , false
 
+  #
+  # Softphone Compare
+  #
+  compares = document.querySelectorAll('.compare')
+  compares.forEach (compare) ->
+    cSwitch = compare.querySelector('.compare__switch input')
+    if cSwitch.checked
+      compare.querySelector('.compare__content[data-compare="on"]').classList.add 'compare__content--active'
+    else
+      compare.querySelector('.compare__content[data-compare="off"]').classList.add 'compare__content--active'
+    cSwitch.addEventListener 'change', (e) ->
+      compare.querySelector('.compare__content[data-compare="off"]').classList.toggle 'compare__content--active'
+      compare.querySelector('.compare__content[data-compare="on"]').classList.toggle 'compare__content--active'
+    , false
 
   #
   # Content Scroller
