@@ -325,6 +325,24 @@ $(document).ready ->
       slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
 
   #
+  # Softphone Tabs
+  #
+  tabsets = document.querySelectorAll('.tabset')
+  tabsets.forEach (tabset) ->
+    tabset.querySelector('.tabset__tab:first-of-type').classList.add 'tabset__tab--active'
+    tabset.querySelector('.tabset__link:first-of-type').classList.add 'tabset__link--active'
+    links = tabset.querySelectorAll '.tabset__link'  
+    links.forEach (link) ->
+      link.addEventListener 'click', (e) ->
+        # console.log tabset
+        tabset.querySelector('.tabset__tab--active').classList.remove 'tabset__tab--active'
+        tabset.querySelector('.tabset__link--active').classList.remove 'tabset__link--active'
+        tabset.querySelector('.tabset__tab[data-tab="' + link.dataset.tab + '"]').classList.add 'tabset__tab--active'
+        tabset.querySelector('.tabset__link[data-tab="' + link.dataset.tab + '"]').classList.add 'tabset__link--active'
+      , false
+
+
+  #
   # Content Scroller
   #
   scrollers = document.querySelectorAll('.scroller')
