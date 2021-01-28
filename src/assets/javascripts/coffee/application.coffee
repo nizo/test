@@ -357,6 +357,22 @@ $(document).ready ->
     , false
 
   #
+  # Softphone Pricebox
+  #
+  currentPriceBox = 1
+  document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__button--active'
+  document.querySelector('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__content--active'
+  priceboxButtons = document.querySelectorAll('.pricetoggle__button')
+  priceboxButtons.forEach (btn) ->
+    btn.addEventListener 'click', (e) ->
+      document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.remove 'pricetoggle__button--active'
+      document.querySelector('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]').classList.remove 'pricetoggle__content--active'
+      currentPriceBox = btn.dataset.pricebox
+      document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__button--active'
+      document.querySelector('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__content--active'
+    , false
+
+  #
   # Content Scroller
   #
   scrollers = document.querySelectorAll('.scroller')
