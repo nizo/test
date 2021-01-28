@@ -10,8 +10,8 @@
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
   "datePosted": "2019-08-07",
+  "validThrough": "<?=date('Y-m', strtotime('6 months'));?>-01T00:00",
   "title": "Team Assistenz (m/w/d) - Potsdam",
-  "validThrough": "2019-12-31",
   "description": "  <p>
                         <strong>Stell Dir vor es ist Montag und Du freust Dich auf die Arbeit.</strong>
                     </p>
