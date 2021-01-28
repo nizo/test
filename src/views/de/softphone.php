@@ -99,36 +99,187 @@
       </div>
       <div class="compare__content" data-compare="on">
         <div class="compare__box">
-          Softphone
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Lizenzkosten</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Inklusivleistung im Rahmen der CallOne Telefonanlage.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          Softphone
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Integrationsaufwand</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Einfache Installation und Nutzung innerhalb von wenigen Minuten durch den Admin oder User selbst​.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          Softphone
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Datenschutzkonformität</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Deutsches Unternehmen, das Ihre Daten sicher und DS-GVO konform hostet.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          Softphone
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Flexibilität</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Spezialanbieter für Unternehmenstelefonie mit persönlichem Ansprechpartner und Support.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          Softphone
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-support.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Support</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Ein Ansprechpartner für all Ihre Belange. Softphone und Telefonie aus einer Hand.
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="compare__content" data-compare="off">
         <div class="compare__box">
-          MS Teams
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Lizenzkosten</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Zusatzkosten oder entsprechender Vertrag notwendig.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          MS Teams
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Integrationsaufwand</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Einrichtung nur mit Adminrechten. Powershell und zusätzliche Schritte notwendig.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          MS Teams
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Datenschutzkonformität</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              US-Unternehmen, das nicht mehr auf Grundlage des Privacy Shield Daten von EU-Bürgern verarbeiten darf.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          MS Teams
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Flexibilität</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Breites Portfolio, allerdings nicht spezialisiert auf Businesstelekommunikation.
+            </div>
+          </div>
         </div>
         <div class="compare__box">
-          MS Teams
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/icon-support.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              <h3>Support</h3>
+            </div>
+          </div>
+          <div class="compare__info">
+            <div class="compare__icon">
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+            </div>
+            <div class="compare__text">
+              Standard ist Selfservice mit Ticket oder Betreuung durch einen zusätzlichen IT-Systempartner.
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -138,8 +289,53 @@
 </div>
 
 <div class="wrapper background-black no-margin-top">
-  <div class="content wide">
-    Todo: Preise
+  <div class="content narrow">
+    <h2>Preise</h2>
+    <p>Das CallOne Softphone ist die perfekte Erweiterung für Ihre Businesstelefonie. Es funktioniert sowohl mit Ihrem existierenden VoIP-Carrier als auch mit der CallOne Telefonie-Welt. Wie möchten Sie das Softphone nutzen?</p>
+
+    <div class="pricetoggle">
+      <div class="pricetoggle__buttons">
+        <div class="pricetoggle__button" data-pricebox="1">
+          <img src="/assets/images/icons_svg/eigener-provider.svg" alt="" />
+          <span>Eigenen Provider verbinden</span>
+        </div>
+        <div class="pricetoggle__button" data-pricebox="2">
+          <img src="/assets/images/icons_svg/callone-telefonanlage.svg" alt="" />
+          <span>Softphone mit VoIP-Telefonanlage</span>
+        </div>
+      </div>
+
+      <div class="pricetoggle__content" data-pricebox="1">
+        <h3>Ruckzuck verbinden und aus dem Browser lostelefonieren</h3>
+        <p>Das Softphone mit den Grundfunktionen für Telefonie und Click-to-Dial können Sie stets kostenfrei nutzen. Zukünftige Features für noch angenehmere Business-Telefonie können Sie für einen Aufpreis dazubuchen.</p>
+
+        <img src="/assets/images/softphone/SIP-visualization.svg" alt="" />
+
+        <p>TODO: Form</p>
+      </div>
+
+      <div class="pricetoggle__content" data-pricebox="2">
+        <h3>Holen Sie das Beste aus Ihrer Businesstelefonie heraus!</h3>
+        <p>CallOne ist der Spezialist, wenn es um hochwertige moderne Telekommunikation geht, die sich nahtlos in Ihre IT-Infrastruktur einpasst.</p>
+
+        <div class="grid centered">
+          <div class="col-3">
+            <img src="/assets/images/icons_svg/icon-spezialist.svg" alt="" />
+            <span>Spezialist für<br />Business Telefonie</span>
+          </div>
+          <div class="col-3">
+            <img src="/assets/images/icons_svg/icon-ansprechpartner.svg" alt="" />
+            <span>Persönlicher<br />Ansprechpartner</span>
+          </div>
+          <div class="col-3">
+            <img src="/assets/images/icons_svg/icon-datenschutz.svg" alt="" />
+            <span>Deutscher<br />Datenschutz-Standard</span>
+          </div>
+        </div>
+
+        <p>TODO: Form</p>
+      </div>
+    </div>
   </div>
 </div>
 
