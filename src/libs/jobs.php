@@ -232,7 +232,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Gute Kenntnisse in HTML, PHP, mySQL und JavaScript');
 	$job->text_requirements_set ('Kenntnisse im Bereich Netzwerk, Firewall-Architekturen');
 	$job->text_requirements_set ('zuverlässige Arbeitsweise und Eigeninitiative');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter einem wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
 	$jobs[] = $job;
 
@@ -252,7 +252,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Optimal wären Grundkenntnisse in den Bereichen VoIP und SIP sowie Betriebssystemen und Arbeit mit der Browser-Console ');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben');
 	$job->icon_set ('/assets/images/icons_svg/job_03.svg');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter einem wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs[] = $job;
 
 	$job = new job ('Fachinformatiker*in', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
@@ -272,7 +272,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben');
 	$job->text_requirements_set ('Sehr gutes Deutsch in Wort & Schrift');
 	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter einem wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs[] = $job;
 
 	$job = new job ('Webdesigner*in', 'HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
@@ -291,7 +291,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben');
 	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter einem wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs[] = $job;
 
 	return $jobs;
