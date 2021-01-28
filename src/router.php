@@ -16,7 +16,8 @@ class Router {
   private $routes = [];
 
   public function __construct() {
-      require ('./libs/functions.php');
+      require_once('./libs/functions.php');
+      require_once('./libs/jobs.php');
   }
 
   public function addRoute($method, $url, $callback) {
@@ -41,7 +42,7 @@ class Router {
 
       if ($reqMet == $route['method'] && preg_match($pattern, $reqUrl, $matches)) {
         array_shift($matches);
-        call_user_func_array($route['callback'], $matches);
+        call_user_func_array($route['callback'], array ($reqUrl));
         return true;
       }
     }
@@ -170,10 +171,9 @@ $r->addRoute('GET', '/preiskalkulator', function() {
 
 
 /* Jobs Sites */
-
 $r->addRoute('GET', '/karriere', function() {
-  $title = 'Karriere, Jobs, Telekommunikation Potsdam, Berlin, Mainz, inhabergeführt';
-  $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz ';
+  $title = 'CallOne Karriere - Alle offenen Stellen';
+  $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen.';
   $keywords = '';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/karriere';
@@ -182,6 +182,34 @@ $r->addRoute('GET', '/karriere', function() {
   require_once('./layouts/footer.php');
 });
 
+/* dynamically add jobs */
+$jobs = jobs_load ();
+foreach ($jobs as $job)
+{
+  if (empty ($job->url_get()))
+    continue;
+
+  $r->addRoute('GET', $job->url_get(), function ($url) {
+    $jobs = jobs_load ();
+    $job = job_find_by_url ($jobs, $url);
+
+    define ('JOB_URL', $url);
+    
+    $title = 'CallOne Karriere - '.$job->title_get();
+    $description = $job->title_get().': '.$job->description_get();
+    $keywords = '';
+    $background = 'bg-casestudy';
+    $ogUrl = $GLOBALS['url'] . $job->url_get();
+    require_once('./layouts/header.php');
+    require_once('./views/de/job_details.php');
+    require_once('./layouts/footer.php');
+  });
+}
+
+
+// FIXME: dynamically add jobs
+
+/*
     $r->addRoute('GET', '/karriere/kundenberater-1st-level-support', function() {
         $title = 'CallOne Karriere - Kundenberater';
         $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
@@ -257,7 +285,9 @@ $r->addRoute('GET', '/karriere', function() {
         require_once('./layouts/header.php');
         require_once('./views/de/karriere/webdesigner.php');
         require_once('./layouts/footer.php');
-    });  
+    }); 
+*/
+
 
 $r->addRoute('GET', '/callcenter-software', function() {
   $title = 'Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk';

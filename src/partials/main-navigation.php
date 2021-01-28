@@ -1,3 +1,7 @@
+<?php
+$jobs = jobs_load ();
+?>
+
 <nav class="main-nav">
   <a href="/" class="logo" title="Zur Startseite von CallOne">
     <?php if(isChristmas()) : ?>
@@ -182,57 +186,27 @@
     </li>
 
     <!-- jobs -->
+    <?php if (!empty ($jobs)): ?>
     <li>
       <a class="arrow">Jobs</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
           <ul>
-            <li>
-              <a href="/karriere/job-customer-success-manager-potsdam" class="product">
-                <span>
-                  <span>Customer Success Manager*in</span>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="/karriere/job-FIXME-potsdam" class="product">
-                <span>
-                  <span>Kauffrau/-mann für Bürokommunikation</span>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="/karriere/job-FIXME-potsdam" class="product">
-                <span>
-                  <span>IT-Systemkaufmann/-frau</span>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="/karriere/it-helpdesk-potsdam" class="product">
-                <span>
-                  <span>IT-Support</span>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="/karriere/job-FIXME-potsdam" class="product">
-                <span>
-                  <span>Fachinformatiker*in</span>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="/karriere/job-webdesigner-potsdam" class="product">
-                <span>
-                  <span>Webdesigner*in</span>
-                </span>
-              </a>
-            </li>
+            <?php
+            foreach ($jobs as $job)
+			      {
+              if (empty ($job->url_get()))
+                continue;
+              
+              echo '<li><a href="'.$job->url_get().'" class="product">';
+              echo '<span><span>'.$job->title_get().'</span></span></a></li>';
+            }
+            ?>
           </ul>
         </div>
       </div>
     </li>
+    <?php endif; ?>
 
   </ul>
   <div class="btn-mobile-nav" id="btn-mobile-nav">
