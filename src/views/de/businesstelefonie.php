@@ -47,7 +47,7 @@
             <p class="primary"><span class="bold">APIs</span> zur Abfrage sämtlicher Telefoniedaten  und -statistiken</p>
             <p class="primary"><span class="bold">Click-to-Dial</span> für Anrufe direkt aus Ihren Businesstools</p>
             <div class="button-set">
-              <a href="https://www.callone.io/" target="_blank" class="button primary trackedElement" data-label="Button - Mehr erfahren" data-category="Link" data-action="linked to www.callone.io">Mehr erfahren</a>
+              <a href="/callcenter-software-apps" class="button primary trackedElement">Mehr erfahren</a>
             </div>
           </div>
         </div>
