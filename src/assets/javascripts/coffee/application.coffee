@@ -334,7 +334,6 @@ $(document).ready ->
     links = tabset.querySelectorAll '.tabset__link'  
     links.forEach (link) ->
       link.addEventListener 'click', (e) ->
-        # console.log tabset
         tabset.querySelector('.tabset__tab--active').classList.remove 'tabset__tab--active'
         tabset.querySelector('.tabset__link--active').classList.remove 'tabset__link--active'
         tabset.querySelector('.tabset__tab[data-tab="' + link.dataset.tab + '"]').classList.add 'tabset__tab--active'

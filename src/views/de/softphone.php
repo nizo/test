@@ -311,7 +311,26 @@
 
         <img src="/assets/images/softphone/SIP-visualization.svg" alt="" />
 
-        <p>TODO: Form</p>
+        <div class="pricetoggle__whitebox">
+          <div class="grid">
+            <div class="col-2">
+              <span class="headline-tag" data-tag="Basic">Softphone</span><br />
+              mit eigenem SIP-Provider
+            </div>
+            <div class="col-2">
+              <span class="headline-free">kostenfrei</span>
+            </div>
+          </div>
+
+          <ul>
+            <li>Dialpad</li>
+            <li>Click-to-Call (Nummern von Websites ins Telefon wählen)</li>
+          </ul>
+
+          <div class="button-set">
+            <a class="button button--block button--fullwidth tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+          </div>
+        </div>
       </div>
 
       <div class="pricetoggle__content" data-pricebox="2">
@@ -333,7 +352,64 @@
           </div>
         </div>
 
-        <p>TODO: Form</p>
+        <div class="pricetoggle__whitebox">
+          <p><strong>Wie viele Nutzer-Accounts brauchen Sie?</strong></p>
+
+          <div class="usercalc">
+            <div class="usercalc__box">
+              <div class="usercalc__header">
+                <div class="usercalc__icon">
+                  <img src="/assets/images/icons_svg/voip-telefonanlage.svg" alt="" />
+                </div>
+                <div class="usercalc__title">
+                  <strong>Telefonanlage</strong><br />
+                  Für das gesamte Unternehmen
+                </div>
+              </div>
+
+              <div class="usercalc__slider">
+                <div class="prerange"></div>
+                <input type="range" min="25" value="25" max="500" />
+              </div>
+
+              <div class="grid">
+                <div class="col-2">
+                  [nutzer]
+                </div>
+                <div class="col-2">
+                  [preis]
+                </div>
+              </div>
+
+              <p class="small">
+                Hinweis: Preise zzgl. optionaler Einrichtung durch CallOne und einmaliger Aktivierung von 99,00 €. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Unsere Lösungen sind erfahrungsgemäß zu umfassend für Unternehmen unter 25 Mitarbeitenden.
+              </p>
+            </div>
+
+            <p>
+              <strong>Legen Sie Wert auf hervorragenden Kundenservice?</strong><br />
+              CallOne liefert eine Callcenter-Software, die keine Wünsche offen lässt. Sie bietet umfangreiche Funktionen von Rückruf- über Warteschleifen-Management, Anbindungen an CRM-Systeme, Gesprächsaufzeichnungen bis hin zu Statistiken.
+            </p>
+
+            <input type="checkbox" id="callcenter-software" />
+            <label class="usercalc__box" for="callcenter-software">
+              <div class="usercalc__header">
+                <div class="usercalc__icon">
+                  <img src="/assets/images/icons_svg/callcenter-software.svg" alt="" />
+                </div>
+                <div class="usercalc__title">
+                  <strong>Callcenter-Software</strong><br />
+                  Für Sales und Service
+                </div>
+                <div class="usercalc__checkbox"></div>
+              </div>
+            </label>
+
+            <div class="button-set">
+              <a class="button button--block button--fullwidth tertiary black2 rounded" href="#" target="_blank">Kostenfrei installieren</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

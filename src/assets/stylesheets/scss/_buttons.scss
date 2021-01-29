@@ -40,6 +40,10 @@
   &--block {
     display: block;
   }
+  &--fullwidth {
+    width: 100%;
+    text-align: center;
+  }
   &--inline {
     display: inline-block;
   }
