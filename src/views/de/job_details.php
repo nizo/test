@@ -409,9 +409,9 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 <div class="wrapper">
   <div class="content wide mobileNoPadding">
     <h3 class="h1 centered">FAQ</h3>
-    <div class="container open">
+    <div class="container">
     	<h4 class="title">Wie läuft der Bewerbungsprozess bei CallOne ab?</h4>
-    	<div class="content" style="display: block">
+    	<div class="content">
     		<p>Nachdem wir uns deine Bewerbungsunterlagen angeschaut haben, melden wir uns zeitnah bei dir für ein kurzes Telefonat. 
     		Im Anschluss laden wir dich zu einem persönlichen Kennenlernen in unser Büro ein, wo du einen ersten Eindruck deiner Arbeitsumgebung und vom Team bekommst. 
     		Die nächsten Schritte sprechen wir dann recht individuell mit dir ab. Vielleicht möchtest du ja zum Beispiel mal einen Tag die Arbeit bei uns im Detail kennenlernen!</p>
