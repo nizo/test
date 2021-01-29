@@ -24,49 +24,6 @@
     <h2>Alle dürfen mitspielen. Auch Ihre Lieblings-Businesslösung.</h2>
 
     <div class="grid">
-      <div class="col-3 card card--shadow" style="--c:#03363D">
-        <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Zendesk-app-icon.svg" alt="Zendesk" />
-        </div>
-        <h3>Zendesk</h3>
-        <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.</p>
-        <p>
-          <br/>
-          <a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded button--block">Zendesk Marketplace</a>
-        </p>
-      </div>
-      <div class="col-3 card card--shadow" style="--c:#254856">
-        <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Salesforce-app-icon.svg" alt="Salesforce" />
-        </div>
-        <h3>Salesforce</h3>
-        <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</p>
-        <p>
-          <br/>
-          <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded button--block">Salesforce AppExchange</a>
-        </p>
-      </div>
-      <div class="col-3 card card--shadow" style="--c:#eaeaea">
-        <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg" alt="Jira Service Desk" />
-        </div>
-        <h3>Jira Service Desk</h3>
-        <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
-        <p>
-          <a href="https://marketplace.atlassian.com/" target="_blank" class="button secondary mobileWrap rounded button--block">Jira Marketplace</a>
-        </p>
-      </div>
-      <div class="col-3 card card--shadow" style="--c:#eaeaea">
-        <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Pipedrive-app-icon.svg" alt="Pipedrive" />
-        </div>
-        <h3>Pipedrive</h3>
-        <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.</p>
-        <p>
-          <br/><br/><br/>
-          <a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary mobileWrap rounded button--block">Pipedrive Marketplace</a>
-        </p>
-      </div>
       <div class="col-3 card card--shadow" style="--c:#007537">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Freshdesk-app-icon.svg" alt="Freshdesk" />
@@ -74,8 +31,7 @@
         <h3>Freshdesk</h3>
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
         <p>
-          <br/><br/>
-          <a style="float: left;" href="/freshdesk-callcenter-software" class="button secondary mobileWrap rounded">Infos</a>
+          <a style="float: left;" href="/freshdesk-callcenter-software" class="button tertiary mobileWrap rounded">Details</a>
           <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
@@ -86,8 +42,29 @@
         <h3>Freshsales</h3>
         <p>Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</p>
         <p>
-          <br/><br/>
-          <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded button--block">Freshsales Marketplace</a>
+          <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
+        </p>
+      </div>
+      <div class="col-3 card card--shadow" style="--c:#03363D">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/Zendesk-app-icon.svg" alt="Zendesk" />
+        </div>
+        <h3>Zendesk</h3>
+        <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.</p>
+        <p>
+          <br/>
+          <a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
+        </p>
+      </div>
+      <div class="col-3 card card--shadow" style="--c:#9a9a9a">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/Pipedrive-app-icon.svg" alt="Pipedrive" />
+        </div>
+        <h3>Pipedrive</h3>
+        <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.</p>
+        <p>
+          <br/><br/><br/>
+          <a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#45535E">
@@ -97,7 +74,29 @@
         <h3>Hubspot</h3>
         <p>Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</p>
         <p>
-          <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="button secondary mobileWrap rounded button--block">Hubspot Blog</a>
+          <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="button secondary mobileWrap rounded">Hubspot Blog</a>
+        </p>
+      </div>
+      <div class="col-3 card card--shadow" style="--c:#254856">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/Salesforce-app-icon.svg" alt="Salesforce" />
+        </div>
+        <h3>Salesforce</h3>
+        <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</p>
+        <p>
+          <br/><br/><br/>
+          <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded">AppExchange</a>
+        </p>
+      </div>
+      <div class="col-3 card card--shadow" style="--c:#eaeaea">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg" class="partnerLogo gray-100" alt="Jira Service Desk" />
+        </div>
+        <h3>Jira Service Desk</h3>
+        <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
+        <p>
+          <!-- <a href="https://marketplace.atlassian.com/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a> -->
+          <b><i>Coming Soon!</i></b>
         </p>
       </div>
     </div>
@@ -108,26 +107,26 @@
     <h2>Richtig Spaß macht:<br />Ungenutzte Potenziale entdecken</h2>
 
     <div class="grid">
-      <div class="col-2 card card--shadow" style="--c:#00D54C">
-        <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Geckoboard-app-icon.svg" alt="Geckoboard" />
-        </div>
-        <h3>Geckoboard</h3>
-        <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</p>
-        <p>
-          <br/>
-          <a href="https://www.geckoboard.com/product/data-sources/" target="_blank" class="button secondary mobileWrap rounded button--block">Geckoboard Data Sources</a>
-        </p>
-      </div>
-      <div class="col-2 card card--shadow" style="--c:#eaeaea">
+      <div class="col-2 card card--shadow" style="--c:#03363D">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Tableau-app-icon.svg" alt="Tableau" />
         </div>
         <h3>Tableau</h3>
         <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</p>
         <p>
-          <a style="float: left;" href="/tableau-callcenter-connector" class="button secondary mobileWrap rounded">Infos</a>
+          <a style="float: left;" href="/tableau-callcenter-connector" class="button tertiary mobileWrap rounded">Details</a>
           <a style="float: right;" href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="button secondary mobileWrap rounded">Tableau Partner</a>
+        </p>
+      </div>
+      <div class="col-2 card card--shadow" style="--c:#eaeaea">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/Geckoboard-app-icon.svg"  class="partnerLogo gray-100" alt="Geckoboard" />
+        </div>
+        <h3>Geckoboard</h3>
+        <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</p>
+        <p>
+          <!-- <a href="https://www.geckoboard.com/product/data-sources/" target="_blank" class="button secondary mobileWrap rounded button--block">Geckoboard Data Sources</a> -->
+          <br/><b><i>Coming Soon!</i></b>
         </p>
       </div>
     </div>
