@@ -6,7 +6,7 @@
           <span>Salesforce-Integration</span>
           Computer-Telefonie-Integration für Salesforce
         </h1>
-        <p class="primary">Die CallOne CTI App für Salesforce Lightning & Classic ermöglicht es Ihrem Vertriebsteam, seinen Workflow zu optimieren und die Effizienz und Produktivität zu steigern.</p>
+        <p class="primary">Die CallOne CTI App für Salesforce Lightning & Classic ermöglicht Ihrem Vertriebsteam einen optimierten Workflow mit gesteigerter Effizienz und Produktivität.</p>
         <div class="button-set">
           <a class="button tertiary rounded" href="#" target="_blank">Jetzt ausprobieren</a>
         </div>
@@ -91,7 +91,7 @@
     <img src="/assets/images/screens/Salesforce-Abgleich.png" alt="" />
 
     <h2>Abgleich aller eingehenden Anrufe mit Ihren Salesforce-Kundendaten</h2>
-    <p>Alle eingehenden Anrufe werden mit Ihren Salesforce-Leads, -Kontakten, -Accounts usw. abgeglichen und Ihre Aktivitäten sowie die native Telefonanwendung innerhalb von Salesforce angemeldet.</p>
+    <p>Alle eingehenden Anrufe werden mit Ihren Salesforce-Leads, -Kontakten und – Accounts gematcht, im Account automatisch angezeigt und als Aktivität in Salesforce gespeichert.</p>
     <div class="button-set centered">
       <a href="#" class="button tertiary rounded">Direkt testen</a>
     </div>
@@ -100,7 +100,7 @@
 
 <div class="wrapper">
   <div class="content wide">
-    <h2>Insatllation</h2>
+    <h2>Installation</h2>
 
     <div class="grid seperator-line centered">
       <div class="col-2 card card--transparent card--border-right">
@@ -108,7 +108,7 @@
           <img src="/assets/images/icons_svg/Salesforce-CallOne-Integration.svg" alt="">
         </div>
         <h3>Salesforce Integration</h3>
-        <p>Dokumentieren Sie ein- und ausgehende Gespräche direkt in Ihren Leads und Kontakten. Verpassen Sie keine Anrufe mehr und werten Sie Agenten und Ihren Funnel optimal aus.</p>
+        <p>Erfassen Sie automatisiert alle In- und Outbound-Gespräche in Salesforce mit Zuordnung zum passenden Kundendatensatz. Zusätzlich unterstützt die App das Setzen des ACD-Agentenstatus und ein einfaches Auslösen von Anrufen per Klick.</p>
         <p><a href="#" class="button secondary black rounded button--inline mobileWrap">Pipedrive Marketplace</a></p>
       </div>
       <div class="col-2 card card--transparent card--border-left">
@@ -132,24 +132,22 @@
       <input type="checkbox" id="faq-1" />
       <label for="faq-1">Wir funktioniert die Integration in Salesforce?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Sie können die Salesforce-App über den Salesforce AppExchange installieren. Gerne stellen wir Ihnen dafür eine Anleitung zur Verfügung oder unterstützen Sie bei der Einrichtung!</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was kostet telefonieren mit Salesforce?</label>
+      <label for="faq-2">Welche Funktionen bietet mir die Integration in Salesforce?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Die Callone Salesforce-Integration ermöglicht das Mapping von CallOne und Salesforce-Nutzer*innen, um automatisch alle In- und Outbound-Anrufe in Salesforce zu dokumentieren.</p>
+        <p>Zu jedem Anruf wird direkt in Salesforce eine Aktivität erstellt. Außerdem liefert die App ein CTI Softphone in Salesforce, das unter anderem das Ändern des CallOne Agentenstatus ermöglicht. Ausgehende Gespräche können mit Klick auf eine Rufnummer in Salesforce ausgelöst werden.</p>
       </div>
     </div>
     <div class="toggle-box">
       <input type="checkbox" id="faq-3" />
       <label for="faq-3">Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?</label>
       <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
+        <p>Wenn Sie die Salesforce-Integration im Zusammenspiel mit der Callcenter-Software nutzen, erweitern Sie Ihre Telefonie um weitreichende ACD-Funktionen. Hierzu gehören z.B. Skillgruppen-Routings, Warteschleifen-Administration und umfangreiche Auswertungsmöglichkeiten. Erfahren Sie <a href="/callcenter-software" title="Callcenter-Software">hier</a> mehr zur CallOne Cloud ACD.</p>
       </div>
     </div>
   </div>
