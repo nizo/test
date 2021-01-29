@@ -10,7 +10,6 @@
     	<link rel="stylesheet" type="text/css" href="/demos/callbrowsing/styles.css">
 		
 		<link rel="stylesheet" type="text/css" href="./css/style.min.css">
-		<link rel="shortcut icon" href="favicon5.ico" type="image/x-icon" />
 		<meta name="robots" content="noindex,nofollow">
 		<meta name="SiteName" content="Travel Hero">
 		<title>Pauschalreisen günstig buchen bei Travel Hero</title>

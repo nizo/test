@@ -19,13 +19,13 @@
         	<div class="col-3">
         		<span class="white-cricle">2</span>
                 <p>
-                	Wir melden uns per E-Mail bei Dir, um einen Termin bei uns vor Ort oder ein Gespräch am Telefon auszumachen.
+                	Wir melden uns bei Dir, um ein Gespräch per Videotelefonie auszumachen.
         		</p>
         	</div>
     		<div class="col-3">
     			<span class="white-cricle">3</span>
                 <p>
-                	Du kommst vorbei und lernst Deine neue Firma und das ganze Team kennen.
+                	Du lernst Deine neue Firma und das ganze Team kennen.
         		</p>
     		</div>
         </div>    		
@@ -37,7 +37,7 @@
     			<form action="#" class="form form-3 js-form">
     			 	<input type="hidden" name="type" value="3">
     			 	<input type="hidden" name="path" value='<?=json_encode (implode(';', $_SESSION['userRoute']));?>'>
-    			 	<input type="hidden" name="issue" value="<?=$jobTitle;?>">
+    			 	<input type="hidden" name="issue" value="<?=$job->title_get();?>">
     			 	<div class="group">
                     	<input type="text" name="name" class="name" value="" placeholder="Dein Name" required>
                     </div>
@@ -77,7 +77,7 @@
         				<div class="grid">
         					<div class="col-2"><h3>Deine Ansprechpartnerin</h3>
             				<strong class="h4 headline margin-top-40">Stefanie Bendig</strong>
-        					<span>Personalabteilung</span>
+        					<span>HR Department</span>
     					</div>
         					<div class="col-2">
         						<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/s-bendig-260x300.jpg" data-srcset="/assets/images/photos/s-bendig-260x300.jpg" class="lazy" alt="Dein Ansprechpartner für die Bewerbung bei uns!" />
@@ -87,7 +87,7 @@
         			</div>
         		</div>
     		</div>
-        </div>	
+        </div>
 	</div>
   </div>
 </div>

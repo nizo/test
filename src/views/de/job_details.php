@@ -1,4 +1,11 @@
 <?php
+$jobs = jobs_load ();
+$jobs_benefits = jobs_benefits_load ();
+
+$job = job_find_by_url ($jobs, JOB_URL);
+if (empty ($job))
+	exit ();
+
 $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 ?>
 
@@ -10,56 +17,68 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     "@type": "Organization",
     "name": "CallOne GmbH",
     "sameAs": "https://www.callone.de",
-    "url": "https://www.callone.de/karriere/job-customer-success-manager-potsdam",
+    "url": "https://www.callone.de<?=$job->url_get();?>",
     "logo": "https://www.callone.de/assets/images/logo/callone-logo-square.jpg"
   },
-  "datePosted": "2019-11-04",
+  "datePosted": "<?=date('Y-m');?>-01T00:00",
   "validThrough": "<?=date('Y-m', strtotime('6 months'));?>-01T00:00",
-  "title": "<?=$jobTitle;?>",
-  "description": "  <p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
-    		          Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
-                    <p>Und Du?​ Du bist unser neues Ass im Ärmel</p>
-    		        <p>Mit jedem Schritt betreten wir Neuland und wir tun alles dafür, die besten am Markt zu sein. 
-    		          Warum? Weil Kundenservice Unternehmen ein Riesenpotenzial bietet, ihr Angebot auf den Menschen auszurichten: auf dich und mich. Das macht nicht nur die Unternehmen besser, ihre Arbeit effizienter und ihre Mitarbeiter glücklicher. 
-    		          Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
-    		        <p>Deshalb brauchen wir dich.</p>
-                    <strong>Der Job</strong>
-                    <p>Als  kümmerst du dich darum, dass sich unsere Kunden wohlfühlen. 
-      	             Du holst sie ins System, beantwortest ihre Fragen und berätst sie. 
-      	             Du bringst eine gute Portion Neugier mit sowie die Fähigkeit, dich kommunikativ auf Menschen einzustellen.</p>
-                    <p>
-                        <strong>Wobei wir Deine Hilfe brauchen</strong><br>
-                        <ul>
-            		      <li>Du bist für unsere Kunden Ansprechpartner</li>
-            		      <li>Du bietest Hilfeleistung bei Fragen zu unserer Telefonielösungen und führst die Kunden in die Nutzung unserer Produkte ein</li>
-            		      <li>Du führst Onboardings und Produktpräsentationen durch</li>
-            		      <li>Du arbeitest eng mit Vertrieb und Entwicklung zusammen</li>
-            	       </ul>
-                    </p>
-                    <p>
-                        <strong>Was wir uns wünschen</strong><br>
-                        <ul>
-            		      <li>Abgeschlossene Ausbildung oder Studium</li>
-            		      <li>Erfahrung in der Kundenbetreuung mit SaaS-Lösungen​</li>
-            		      <li>Technisches Grundverständnis und digitale Affinität</li>
-            		      <li>Selbstständiges Arbeiten</li>
-            		      <li>Hands-on-Mentalität​</li>
-            		      <li>Teamgeist</li> 
-            	       </ul>
-                    </p>
-                    <p>
-                        <strong>Was wir Dir bieten</strong><br>
-                        <ul>
-                            <li>Langfristig gute Arbeit. Wir suchen enthusiastische Menschen, für die Job-Hopping nicht der Weg der Erlösung ist. Wir brauchen deine Expertise langfristig und so stimmen wir deinen Job mit deinem Leben ab.</li>
-                            <li><strong>Vertrauen und Freiraum</strong>. Für uns zählt, wie du arbeitest, nicht wann. Flexible Arbeitszeiten ohne Überstunden und ein Wochenende, das dir gehört, dafür maximale Selbständigkeit und klarer Fokus bei der Arbeit.
-                            <li><strong>Flexibilität</strong>. Du kannst uns in Berlin, Potsdam oder Mainz unterstützen, ganz so wie es dir passt.</li>
-                            <li><strong>Ein verdammt gutes und verdammt nettes Team</strong>. Wir wollen nicht nur gegenseitig das Beste aus uns herausholen (denn dann macht es am meisten Spaß), wir kümmern uns auch umeinander, in jeder Lebenslage.</li>
-                            <li><strong>Kein Stress</strong>. Ein Büro im Grünen und freundliche Kunden, sichtbare Ergebnisse deiner Arbeit und entsprechende Anerkennung.</li>
-                        </ul>
-                    </p>",
+  "title": "<?=$job->title_get();?>",
+  <?php // FIXME: ?>
+  "description": "<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
+                     Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
+                  <p>Und Du?​ Du bist unser neues Ass im Ärmel.</p>
+                  <p>Mit jedem Schritt betreten wir Neuland und wir tun alles dafür, die besten am Markt zu sein. 
+                     Warum? Weil Kundenservice Unternehmen ein Riesenpotenzial bietet, ihr Angebot auf den Menschen auszurichten: auf dich und mich. Das macht nicht nur die Unternehmen besser, ihre Arbeit effizienter und ihre Mitarbeiter glücklicher. 
+                     Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
+                  <p>Deshalb brauchen wir dich.</p>
+
+                  <?php if (!empty ($job->text_description_long_get())): ?>
+                  <strong>Der Job</strong>
+                  <?php
+                  foreach ($job->text_description_long_get() as $text_description_long)
+                    echo '<p>'.$text_description_long.'</p>'.PHP_EOL;
+                  ?>
+                  <?php endif; ?>
+
+                  <?php if (!empty ($job->text_tasks_get())): ?>
+                  <p>
+                    <strong>Wobei wir Deine Hilfe brauchen</strong><br>
+                    <ul>
+                    <?php
+                    foreach ($job->text_tasks_get() as $text_task)
+                      echo '<li>'.$text_task.'</li>'.PHP_EOL;
+                    ?>
+                    </ul>
+                  </p>
+                  <?php endif; ?>
+
+                  <?php if (!empty ($job->text_requirements_get())): ?>
+                  <p>
+                    <strong>Was wir uns wünschen</strong><br>
+                    <ul>
+                    <?php
+                    foreach ($job->text_requirements_get() as $text_requirement)
+                      echo '<li>'.$text_requirement.'</li>'.PHP_EOL;
+                    ?>
+                    </ul>
+                  </p>
+                  <?php endif; ?>
+
+                  <?php if (!empty ($jobs_benefits)): ?>
+                  <p>
+                    <strong>Was wir Dir bieten</strong><br>
+                    <ul>
+                    <?php
+                    foreach ($jobs_benefits as $jobs_benefit)
+                      echo '<li>'.$jobs_benefit->text_get().'</li>'.PHP_EOL;
+                    ?>
+                    </ul>
+                  </p>
+                  <?php endif; ?>
+                 ",
   "employmentType": "Full-time",
   "experienceRequirements": "Berufseinsteiger",
-  "image": "https://www.callone.de/assets/images/icons_png/job_02.png",
+  "image": "https://www.callone.de<?=$job->icon_get();?>",
   "industry": "Telekommunikation",
   "jobLocation": {
     "@type": "Place",
@@ -95,44 +114,67 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
         <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/job_big_02.svg" data-srcset="/assets/images/icons_svg/job_big_02.svg" class="lazy" alt="" />
       </div>
       <div class="text">
-        <h1>Customer Success Manager*in (w/m/d) in Potsdam​</h1>
-        <div class="button-set flex desktop-hidden">
-          <a href="#kontakt" class="button tertiary">Bewerben</a>
-        </div>
-        <p class="primary mobile-hidden">
-	       	Wir haben einen Job für dich, den du lieben wirst: als Customer Success Manager*in für unseren Standort in der Potsdamer Innenstadt.​
-	    </p>	    
-        <div class="button-set mobile-hidden flex">
-          <a href="#kontakt" class="button big tertiary centered ">Jetzt bewerben</a>
-        </div>
+        <h1><?=$job->title_get();?></h1>
+
+		<?php
+		if (!empty ($job->text_intro_get()))
+		{	foreach ($job->text_intro_get() as $text_intro)
+				echo '<p class="primary mobile-hidden">'.$text_intro.'</p>';
+		}
+		?>
+
+		<div class="button-set mobile-hidden">
+			<a class="button tertiary rounded trackedElement" href="#kontakt">Bewerbungsformular</a>
+			<a class="button secondary rounded trackedElement" href="#quick-application">10 Sekunden Bewerbung</a>
+		</div>
       </div>
     </header>
   </div>
 </div>
 
 <div class="wrapper">
-	<div class="content narrow">
+	<div class="content <?php if (empty ($job->statement_get())) echo 'narrow'; else echo 'wide'; ?>">
 		<div class="grid">
+			<?php if (empty ($job->statement_get())): ?>
 			<div class="col-1">
-				<div class="shadow-box padding">
-					<p><strong class="h1">Deine Mission</strong></p>
-					<p>
-						Als Customer Success ManagerIn (m/w/d) bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte.
-						Unsere Kunden sind vorwiegend mittelständische Unternehmen, die wir mit unseren Telefonlösungen im Bereich Kundenservice oder Inside-Sales Abteilungen unterstützen.
-					</p>
-					<p>
-						Wir pflegen einen sehr engen und partnerschaftlichen Kontakt mit unseren Kunden.
-						Bei uns zählt Qualität vor Quantität, heißt Du bekommst ausreichend Zeit, um Dich umfassend um die Belange Deiner Kunden zu kümmern
-						und ein starkes Team mit funktionierender Lösung im Hintergrund.
-					</p>
-					<p>
-						Du fungierst als direkter Ansprechpartner für Kunden.
-						Das heißt Du unterstützt den Kunden beim Livegang und stehst im Tagesgeschäft für Fragen zur Verfügung.
-						Technisch arbeitest Du auf intuitiv bedienbaren Oberflächen, die keine Programmierkenntnisse erfordern.
-						Optimierungsvorschläge, Beratung sowie die Bearbeitung von technischen Kundenanfragen gehören ebenfalls zu deinem Aufgabengebiet.
-					</p>
+			<?php else: ?>
+			<div class="col-2">
+			<?php endif; ?>
+				<div class="shadow-box padding" style="height: 100%">
+					<p><strong class="h1">Der Job</strong></p>
+					<?php
+					foreach ($job->text_description_long_get() as $text_description_long)
+						echo '<p>'.$text_description_long.'</p>';
+					?>
 				</div>
 			</div>
+
+			<?php if (!empty ($job->statement_get())): ?>
+			<div class="col-2">
+				<div class="shadow-box padding">
+					<div class="grid">
+						<div class="col-1">
+							<div class="grid">
+								<?php
+								$key = array_rand ($job->statement_get());
+								$statement = $job->statement_get()[$key];
+
+								echo '<div class="col-2">';
+								echo '<i>'.$statement->text_get().'</i>';
+								echo '<strong class="headline margin-top-40"><small>'.$statement->name_get().'</small></strong>';
+								echo '<small>'.$statement->position_get().'</small>';
+								echo '</div>';
+
+								echo '<div class="col-2">';
+								echo '<img src="/assets/images/photos/placeholder.gif" data-src="'.$statement->image_get().'" data-srcset="'.$statement->image_get().'" class="lazy" style="border-radius: 2%" alt="Statement" />';
+								echo '</div>';
+								?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<?php endif; ?>
 		</div>
 	</div>
 </div>
@@ -141,28 +183,24 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 	<div class="content wide">
 		<div class="grid">
 			<div class="col-2">
-				<div class="shadow-box padding">
-					<p><strong class="h2">Deine Aufgaben</strong></p>
-					<ul class="list approved-list-black">
-						<li>Abgeschlossenes Studium oder Ausbildung (Quereinsteiger willkommen)​</li>
-						<li>Optimal aber kein Muss wären Projekterfahrungen im SaaS-Umfeld</li>
-						<li>Du bringst eine proaktive Grundhaltung und eine ausgeprägte Lösungskompetenz mit</li>
-						<li>Teamfähigkeit, Zuverlässigkeit und Eigeninitiative gehören zu deiner Persönlichkeit​</li>
-						<li>Kommunikation ist eine deiner Stärken und du hast Freude am Support von internationalen Kunden</li>
-						<li>Gute Kenntnisse von MS Office<br/><br/></li>
+				<div class="shadow-box padding" style="height: 100%">
+					<p><strong class="h2">Wobei wir Deine Hilfe brauchen</strong></p>
+					<ul class="list approved-list">
+					<?php
+					foreach ($job->text_tasks_get() as $text_task)
+						echo '<li>'.$text_task.'</li>';
+					?>
 					</ul>
 				</div>
 			</div>
 			<div class="col-2">
-				<div class="shadow-box padding">
-					<p><strong class="h2">Deine Benefits</strong></p>
-					<ul class="list approved-list-black">
-						<li>Wachsender Markt mit krisensicherem Arbeitsplatz​</li>
-						<li>Festanstellung (Vollzeit) in denen Überstunden eher die Ausnahme als die Regel ist</li>
-						<li>Ein ausgewachsenes, profitables Unternehmen mit einem hohen Maß an Gestaltungsmöglichkeiten, viel Verantwortung und Raum für deine eigenen Ideen</li>
-						<li>Lebendige und offene Unternehmenskultur mit flachen Hierarchien und kurzen Kommunikationswegen</li>
-						<li>30 Tage Urlaub</li>
-						<li>Natürlich musst du bei uns auch nicht verhungern und verdursten, Getränke, Kaffee, Snacks etc. so viel du willst</li>
+				<div class="shadow-box padding" style="height: 100%">
+					<p><strong class="h2">Was wir uns wünschen</strong></p>
+					<ul class="list approved-list">
+					<?php
+					foreach ($job->text_requirements_get() as $text_requirement)
+						echo '<li>'.$text_requirement.'</li>';
+					?>
 					</ul>
 				</div>
 			</div>
@@ -175,24 +213,24 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
   		<div class="grid">
   			<div class="col-1">
   				<div class="shadow-box padding"> 
-                	<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
-                	<ul class="list approved-list">
-                		<li>Du bist für unsere Kunden Ansprechpartner*in</li>
-                		<li>Du bietest Hilfeleistung zu unserer Telefonielösungen</li>
-                		<li>Du führst Onboardings und Präsentationen durch</li>
-                		<li>Du arbeitest eng mit Vertrieb und Entwicklung</li>
-                	</ul>
+					<h2 class="centered">Wobei wir Deine Hilfe brauchen</h2>
+					<ul class="list approved-list">
+					<?php
+					foreach ($job->text_tasks_get() as $text_task)
+						echo '<li>'.$text_task.'</li>';
+					?>
+					</ul>
         		</div>
   			</div>    
       		<div class="col-1">
             	<div class="shadow-box padding">
-                	<h2 class="centered">Was wir uns wünschen</h2>
-                	<ul class="list approved-list">
-                		<li>Abgeschlossene Ausbildung oder Studium</li>
-                		<li>Erfahrung in der Kundenbetreuung von SaaS-Lösungen​</li>
-                		<li>Technisches Grundverständnis und digitale Affinität​</li>
-                		<li>Hands-on-Mentalität​</li>
-                	</ul>
+					<h2 class="centered">Was wir uns wünschen</h2>
+					<ul class="list approved-list">
+					<?php
+					foreach ($job->text_requirements_get() as $text_requirement)
+						echo '<li>'.$text_requirement.'</li>';
+					?>
+					</ul>
             	</div>
             </div>
     	</div>
@@ -205,7 +243,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     <form action="#" class="form shortApplication js-form">
   		<input type="hidden" name="type" value="4">
   		<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
-  		<input type="hidden" name="issue" value="<?=$jobTitle;?>">
+  		<input type="hidden" name="issue" value="<?=$job->title_get();?>">
         <div class="wrapper"> 	
       		<div class="content thin">
     			<p>
@@ -217,9 +255,9 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
           		<input type="text" name="url" placeholder="Link zum Xing oder LinkedIn-Profil" />
           		          		
              	<div class="button-set centered">
-                  <button class="button big tertiary submit no-margin" title="Lass uns dich so schnell wie möglich kennenlernen">Jetzt mit Profil bewerben</button>
-                  <a href="#kontakt" class="button big tertiary silent white" title="Normal auf Stelle/Job bewerben - Als ">Normal Bewerben</a>
-                </div>
+                  <button class="button tertiary rounded big submit no-margin" title="Lass uns dich so schnell wie möglich kennenlernen">Jetzt mit Profil bewerben</button>
+				  <a href="#kontakt" class="button secondary rounded big" title="Normal auf Stelle/Job bewerben">Klassische Bewerbung</a>
+				</div>
       		</div>
   		</div>
     </form>
@@ -233,6 +271,8 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
   </div>
 </div>
 
+<!--
+<?php // FIXME: ?>
 <div class="wrapper desktop-hidden margin-top-40">
   <div class="content narrow centered">
     <div class="button-set centered">
@@ -264,7 +304,10 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     </div>
   </div>
 </div>
-<!-- 
+-->
+
+<!--
+<?php // FIXME: ?>
 <div class="wrapper desktop-hidden">
   <div class="content centered" style="padding: 0;"> 
         <div class="swiper-container was-wir-bieten single no-width-100">
@@ -340,6 +383,8 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 	</div>
 </div>
 
+<?php // FIXME: ?>
+<!--
 <div class="wrapper margin-top-40 desktop-hidden">
 	<div class="content narrow centered">
 		<div class="button-set centered">
@@ -347,6 +392,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
         </div>
 	</div>
 </div>
+-->
 
 <?php
   include('partials/job-form.php');
@@ -355,7 +401,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 <div class="wrapper">
   <div class="content thin">
  	<div class="button-set centered">
-		<a href="/karriere#angebote" class="button secondary">Doch lieber was anderes?</a>
+		<a href="/karriere#jobs" class="button secondary rounded">Doch lieber was anderes?</a>
     </div>
   </div>
 </div> 

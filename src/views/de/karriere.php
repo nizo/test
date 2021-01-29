@@ -1,72 +1,6 @@
 <?php
-class job
-{
-	public $title;
-	public $description;
-	public $link;
-	public $icon;
-
-	function __construct ($title, $infos, $description, $link, $icon)
-	{
-		$this->title			= $title;
-		$this->infos			= $infos;
-		$this->description		= $description;
-		$this->link				= $link;
-		$this->icon				= $icon;
-	}
-}
-
-class feature
-{
-	public $title;
-	public $text;
-
-	function __construct ($title, $text)
-	{
-		$this->title	= $title;
-		$this->text		= $text;
-	}
-}
-
-
-$jobs = array ();
-$jobs[] = new job ('Customer Success Manager*in',
-				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?',
-				   '/karriere/job-customer-success-manager-potsdam',
-				   '/assets/images/icons_svg/job_02.svg');
-$jobs[] = new job ('Kauffrau/-mann für Bürokommunikation',
-				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?',
-				   '',
-				   '/assets/images/icons_svg/job_05.svg');
-$jobs[] = new job ('IT-Systemkaufmann/-frau',
-				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?',
-				   '',
-				   '/assets/images/icons_svg/job_02.svg');
-$jobs[] = new job ('IT-Support',
-				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?',
-				   '/karriere/it-helpdesk-potsdam',
-				   '/assets/images/icons_svg/job_03.svg');
-$jobs[] = new job ('Fachinformatiker*in',
-				   'Potsdam · unbefristet · (m/w/d)',
-				   'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?',
-				   '',
-				   '/assets/images/icons_svg/job_04.svg');
-$jobs[] = new job ('Webdesigner*in',
-				   'Potsdam · unbefristet · (m/w/d)',
-				   'HTML-Programmier-Dienstleistungen und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!',
-				   '/karriere/job-webdesigner-potsdam',
-				   '/assets/images/icons_svg/job_04.svg');
-
-$features = array ();
-$features[] = new feature ('Langfristigkeit', 'Job-Hopping bedeutet Stress und immer nur einen kurzen Energieschub. Wir setzen auf langfristige Anstellungen, krisensichere und zukunftsfähige Jobs und die Perspektive, das Beste aus dir rauszuholen, damit du zufrieden bist.');
-$features[] = new feature ('Work-Life Balance', 'Uns allen ist der Wert unserer Arbeit besonders wichtig. Wir wollen, dass unsere Arbeit einen Einfluss hat. Das bedeutet für uns: Fokussiertes, eﬀizientes Arbeiten, das sich an Ergebnissen orientiert. Aber auch pünktlich Feierabend machen zu können und am Wochenende frei zu haben.');
-$features[] = new feature ('Einatmen, ausatmen', 'Statt im Betonklotz in Friedrichshain sitzen wir in der Potsdamer Innenstadt. Viel Nähe zur Natur in der Mittagspause und ein ruhiges, stressfreies Arbeitsklima sind Teil deiner Arbeitsumgebung.');
-$features[] = new feature ('Urlaub &amp; Gehalt', '30 Tage Urlaub im Jahr und ein überdurchschnittliches Gehalt für überdurchschnittliche Leistung. Wir liegen gern ein paar Stufen über dem Durchschnitt.');
-$features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flach, unsere Strukturen sind transparent, die Kommunikationswege kurz und Wertschätzung hoch. Wir haben eine klare Vision, an der du mitarbeiten und mitentscheiden sollst.');
+$jobs = jobs_load ();
+$jobs_benefits = jobs_benefits_load ();
 ?>
 
 <script>
@@ -79,7 +13,7 @@ $features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flac
 		<header class="main-header">
 			<div class="text">
 				<h1>Da bist du ja – du fehlst bei uns!</h1>
-				<p class="primary">Wir versorgen modern denkende Unternehmen mit Telefontechnologie, die ihren Kunden zugute kommt. Wir bauen effiziente Produkte, die Officetelefonie besser, schneller und freundlicher machen — zum Beispiel cloudbasierte Software, Schnittstellen und Apps zu Anbietern wie Zendesk, Salesforce oder Tableau. Dazu brauchen wir dich. Interessiert?</p>
+				<p class="primary">Deutschland im Jahr 2021... Die Digitalisierung schreitet voran wie nie zuvor. CallOne liefert Unternehmen cloudbasierte Telekommunikationslösungen mit denen Unternehmen den Herausforderungen in einer sich schnell ändernden digitalen Welt optimal gerüstet sind.</p>
 				<div class="button-set">
 					<a class="openModal button tertiary rounded trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
 
@@ -119,13 +53,16 @@ $features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flac
 			{
 				echo '<div class="icon-card">';
 				
-				echo '<div class="icon-card__icon"><img src="'.$job->icon.'" alt="Job" /></div>';
+				if (!empty ($job->icon_get()))
+					echo '<div class="icon-card__icon"><img src="'.$job->icon_get().'" alt="Job '.$job->title_get().'" /></div>';
 				
 				echo '<div class="icon-card__text">';
-				echo '<h3>'.$job->title.'</h3>';
-				echo '<p>'.$job->description.'</p>';
+				echo '<h3>'.$job->title_get().'</h3>';
+				echo '<p>'.$job->description_get().'</p>';
 				echo '</div>';
-				echo '<a href="'.$job->link.'" class="icon-card__button"></a>';
+				
+				if (!empty ($job->url_get()))
+					echo '<a href="'.$job->url_get().'" class="icon-card__button"></a>';
 
 				echo '</div>';
 			}
@@ -209,11 +146,11 @@ $features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flac
 					<div class="scroller-belt">
 						<div class="scroller-content">
 							<?php
-							foreach ($features as $feature)
+							foreach ($jobs_benefits as $jobs_benefit)
 							{
 								echo '<div class="feature-box">';
-								echo '<p><b>'.$feature->title.'</b></p>';
-								echo '<small>'.$feature->text.'</small>';
+								echo '<p><b>'.$jobs_benefit->title_get().'</b></p>';
+								echo '<small>'.$jobs_benefit->text_get().'</small>';
 								echo '</div>';
 							}
 							?>
@@ -227,11 +164,11 @@ $features[] = new feature ('Struktur, kein Unsinn', 'Hierarchien halten wir flac
 					<div class="scroller-belt">
 						<div class="scroller-content">
 							<?php
-							foreach ($features as $feature)
+							foreach ($jobs_benefits as $jobs_benefit)
 							{
 								echo '<div class="feature-box">';
-								echo '<p><b>'.$feature->title.'</b></p>';
-								echo '<small>'.$feature->text.'</small>';
+								echo '<p><b>'.$jobs_benefit->title_get().'</b></p>';
+								echo '<small>'.$jobs_benefit->text_get().'</small>';
 								echo '</div>';
 							}
 							?>
