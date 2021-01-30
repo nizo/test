@@ -2107,3 +2107,35 @@ blockquote {
     }
   }
 }
+
+.installation {
+  &__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto 60px auto;
+  }
+  &__title {
+    flex: 1;
+  }
+  &__rating {
+    white-space: nowrap;
+    font-size: 14px;
+    span {
+      color: $color-primary;
+      font-size: 30px;
+    }
+    a {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+  &__content {
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 80px;
+  }
+}

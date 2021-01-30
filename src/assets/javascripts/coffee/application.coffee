@@ -327,17 +327,35 @@ $(document).ready ->
   #
   # Softphone Tabs
   #
+  isInViewport = (element) ->
+    rect = element.getBoundingClientRect()
+    return rect.top >= 0 && rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+
   tabsets = document.querySelectorAll('.tabset')
   tabsets.forEach (tabset) ->
     tabset.querySelector('.tabset__tab:first-of-type').classList.add 'tabset__tab--active'
     tabset.querySelector('.tabset__link:first-of-type').classList.add 'tabset__link--active'
-    links = tabset.querySelectorAll '.tabset__link'  
+    links = tabset.querySelectorAll '.tabset__link'
+    window.addEventListener 'scroll', (e) ->
+      firstVideo = tabset.querySelector('.tabset__tab:first-of-type .tabset__video video')
+      if isInViewport(firstVideo) and firstVideo.paused
+        firstVideo.currentTime = 0
+        firstVideo.loop = true
+        firstVideo.muted = true
+        firstVideo.play()
     links.forEach (link) ->
       link.addEventListener 'click', (e) ->
         tabset.querySelector('.tabset__tab--active').classList.remove 'tabset__tab--active'
         tabset.querySelector('.tabset__link--active').classList.remove 'tabset__link--active'
         tabset.querySelector('.tabset__tab[data-tab="' + link.dataset.tab + '"]').classList.add 'tabset__tab--active'
         tabset.querySelector('.tabset__link[data-tab="' + link.dataset.tab + '"]').classList.add 'tabset__link--active'
+        tabvideo = tabset.querySelector('.tabset__tab--active .tabset__video video')
+        tabvideo.currentTime = 0;
+        tabvideo.loop = true;
+        tabvideo.muted = true;
+        tabvideo.play();
       , false
 
   #

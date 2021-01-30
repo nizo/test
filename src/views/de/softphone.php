@@ -54,21 +54,30 @@
       </div>
       <div class="tabset__tabs">
         <div class="tabset__tab" data-tab="1">
-          <img src="/assets/images/screens/funktionen-softphone.svg" alt="" />
+          <!-- <img src="/assets/images/screens/funktionen-softphone.svg" alt="" /> -->
+          <div class="tabset__video">
+            <video src="/assets/videos/softphone-1.webm"></video>
+          </div>
           <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
           <div class="button-set centered">
             <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
           </div>
         </div>
         <div class="tabset__tab" data-tab="2">
-          <img src="/assets/images/screens/funktionen-click-to-dial.svg" alt="" />
+          <!-- <img src="/assets/images/screens/funktionen-click-to-dial.svg" alt="" /> -->
+          <div class="tabset__video">
+            <video src="/assets/videos/softphone-2.webm"></video>
+          </div>
           <p class="centered">Unsere Softphone App erkennt Rufnummern auf Webseiten und ermöglicht bequemes Anwählen auf Knopfdruck.</p>
           <div class="button-set centered">
             <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
           </div>
         </div>
         <div class="tabset__tab" data-tab="3">
-          <img src="/assets/images/screens/funktionen-bring-your-own-provider.svg" alt="" />
+          <!-- <img src="/assets/images/screens/funktionen-bring-your-own-provider.svg" alt="" /> -->
+          <div class="tabset__video">
+            <video src="/assets/videos/softphone-3.webm"></video>
+          </div>
           <p class="centered">Flexibilität heißt bei CallOne: Sie können unsere Telefonanlage nutzen, müssen aber nicht! Wir bieten für zahlreiche VoIP-Anbieter eine nahtlose Integration in unser Softphone.</p>
           <div class="button-set centered">
             <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
@@ -417,7 +426,25 @@
 
 <div class="wrapper lightgrey-2-white no-margin-top">
   <div class="content wide">
-    Installieren
+    <div class="installation">
+      <div class="installation__header">
+        <div class="installation__logo">
+          <img src="/assets/images/icons_svg/softphone-branding-lit.svg" alt="" />
+        </div>
+        <div class="installation__title">
+          <span class="headline-tag">App</span><br />
+          Softphone
+        </div>
+        <div class="installation__rating">
+          <span>&starf;&starf;&starf;&starf;&starf;</span><br />
+          Hervorragende Bewertung<br />
+          im <a href="#">Google Chrome Store</a>.
+        </div>
+      </div>
+      <div class="installation__content">
+        Hello World
+      </div>
+    </div>
   </div>
 </div>
 
