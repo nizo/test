@@ -115,7 +115,7 @@
           <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/dashboards.gif" data-srcset="/assets/images/photos/dashboards.gif" alt="CallOne Dashboards" />
           <p></p>
           <div class="button-set centered">
-            <a href="https://www.callone.io/" target="_blank" class="button primary trackedElement" rel="noreferrer" data-label="Button - Apps & API" data-category="Link" data-action="linked to www.callone.io">Apps & API</a>
+            <a href="/callcenter-software-apps" class="button primary trackedElement" data-label="Button - Apps & API">Apps & API</a>
           </div>
         </div>
       </div>    

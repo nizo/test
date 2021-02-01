@@ -221,7 +221,7 @@
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
             					<h3 class="h5 centered">Schnittstellen &amp; fertige Apps</h3>
-                    			<p class="text-small">Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="https://www.callone.io/" rel="noreferrer" target="_blank" title="Unsere API / Schnittstellen - Callone.io">APIs und Apps</a> zu gängigen Businesslösungen</p>
+                    			<p class="text-small">Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="/callcenter-software-apps" title="Unsere API / Schnittstellen - Callone.io">APIs und Apps</a> zu gängigen Businesslösungen</p>
                     			<div class="button-bottom">
                     				<button data-add="Zur Liste hinzugefügt" data-base="Hinzufügen" data-info="Schnittstellen & fertige Apps">
                     					<span class="sl sl-before before sl-add-wish mobile text">Hinzufügen</span>
@@ -679,9 +679,9 @@
           <div data-depth="0.7" class="lazyBackground"></div>
         </div>
         <picture class="lazyPicture">
-          <source srcset="/assets/images/photos/placeholder.png" data-srcset="/assets/images/illus/apps-acd-losungsseite-logos-2.png" type="image/png" media="(max-width: 1120px) and (min-width: 556px)">
+          <source srcset="/assets/images/photos/placeholder.png" data-srcset="/assets/images/illus/apps-acd-losungsseite-logos.png" type="image/png" media="(max-width: 1120px) and (min-width: 556px)">
           <source srcset="/assets/images/photos/placeholder.png" data-srcset="/assets/images/illus/apps-acd-losungsseite-logos-540-2.png" type="image/png" media="(max-width: 550px)">
-          <img src="/assets/images/illus/apps-acd-losungsseite-logos-2.png" alt="Unsere Apps für Ihr Unternehmen" title="Das CallOne App-Universum" />          	      
+          <img src="/assets/images/illus/apps-acd-losungsseite-logos.png" alt="Unsere Apps für Ihr Unternehmen" title="Das CallOne App-Universum" />          	      
 		</picture>
 	</div>
 </div>

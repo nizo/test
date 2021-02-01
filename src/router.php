@@ -1,17 +1,4 @@
 <?php
-// $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-// $params = explode("/", $path);
-
-// echo "<pre>";
-// print_r($params);
-// echo "</pre>";
-
-// switch ($params[1]) {
-//   case "test":
-//     echo $params[3];
-//   break;
-// }
-
 class Router {
   private $routes = [];
 
@@ -51,9 +38,11 @@ class Router {
   }
 }
 
+
 $r = new Router();
 $GLOBALS['url'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ?
     "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
+
 
 // Debug Widgets page
 $r->addRoute('GET', '/widgets', function() {
@@ -77,23 +66,23 @@ $r->addRoute('GET', '/components_overview', function() {
 });
 
 $r->addRoute('GET', '/testseite', function() {
-    $title = 'Testseite CallOne';
-    $description = '';
-    $keywords = '';
-    $background = '';
-    require_once('./layouts/header.php');
-    require_once('./views/de/testseite.php');
-    require_once('./layouts/footer.php');
+  $title = 'Testseite CallOne';
+  $description = '';
+  $keywords = '';
+  $background = '';
+  require_once('./layouts/header.php');
+  require_once('./views/de/testseite.php');
+  require_once('./layouts/footer.php');
 });
 
 $r->addRoute('GET', '/event', function() {
-    $title = 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge';
-    $description = '';
-    $keywords = '';
-    $background = 'bg-sales';
-    require_once('./layouts/header.php');
-    require_once('./views/de/event.php');
-    require_once('./layouts/footer.php');
+  $title = 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge';
+  $description = '';
+  $keywords = '';
+  $background = 'bg-sales';
+  require_once('./layouts/header.php');
+  require_once('./views/de/event.php');
+  require_once('./layouts/footer.php');
 });
         
 $r->addRoute('GET', '/', function() {
@@ -107,6 +96,7 @@ $r->addRoute('GET', '/', function() {
   require_once('./layouts/footer.php');
 });
 
+// FIXME: wofür ist das drin? [BM/2021-01-29]
 $r->addRoute('GET', '/index.php', function() {
     require_once('./views/de/redirect.php');
 });
@@ -159,14 +149,14 @@ $r->addRoute('GET', '/microsip', function() {
 
 /* Preiskalkulator */
 $r->addRoute('GET', '/preiskalkulator', function() {
-    $title = 'Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen';
-    $description = 'Berechnen Sie den Preis Ihrer VoIP-Telefonanlage und Callcenter-Lösung passend zu Ihren Anforderungen. CallOne cloudbasierte Telefonanlagen für Sales und Service';
-    $keywords = 'call center, software, callcenter, lösung, voip-telefonanlage, voip, telefonanlage, rufnummern, schnittstellen, integrationen, preis, preise, rechner, preiskalkulator, berechnen, kosten';
-    $background = 'full-bg background-transition';
-    $ogUrl = $GLOBALS['url'] . '/preiskalkulator';
-    require_once('./layouts/header.php');
-    require_once('./views/de/price-calc.php');
-    require_once('./layouts/footer.php');
+  $title = 'Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen';
+  $description = 'Berechnen Sie den Preis Ihrer VoIP-Telefonanlage und Callcenter-Lösung passend zu Ihren Anforderungen. CallOne cloudbasierte Telefonanlagen für Sales und Service';
+  $keywords = 'call center, software, callcenter, lösung, voip-telefonanlage, voip, telefonanlage, rufnummern, schnittstellen, integrationen, preis, preise, rechner, preiskalkulator, berechnen, kosten';
+  $background = 'full-bg background-transition';
+  $ogUrl = $GLOBALS['url'] . '/preiskalkulator';
+  require_once('./layouts/header.php');
+  require_once('./views/de/price-calc.php');
+  require_once('./layouts/footer.php');
 });
 
 
@@ -207,88 +197,6 @@ foreach ($jobs as $job)
 }
 
 
-// FIXME: dynamically add jobs
-
-/*
-    $r->addRoute('GET', '/karriere/kundenberater-1st-level-support', function() {
-        $title = 'CallOne Karriere - Kundenberater';
-        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
-        $keywords = '';
-        $background = 'bg-casestudy';
-        $ogUrl = $GLOBALS['url'] . '/karriere/kundenberater-1st-level-support';
-        require_once('./layouts/header.php');
-        require_once('./views/de/karriere/kundenberater.php');
-        require_once('./layouts/footer.php');
-    });
-    
-    $r->addRoute('GET', '/karriere/team-assistenz', function() {
-        $title = 'CallOne Karriere - Team Assistenz';
-        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
-        $keywords = '';
-        $background = 'bg-casestudy';
-        $ogUrl = $GLOBALS['url'] . '/karriere/team-assistenz';
-        require_once('./layouts/header.php');
-        require_once('./views/de/karriere/assistenz.php');
-        require_once('./layouts/footer.php');
-    });   
-    
-    $r->addRoute('GET', '/karriere/technischer-produktmanager', function() {
-        $title = 'CallOne Karriere - Technischer Produktmanager';
-        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen in Berlin, Potsdam, Mainz';
-        $keywords = '';
-        $background = 'bg-casestudy';
-        $ogUrl = $GLOBALS['url'] . '/karriere/technischer-produktmanager';
-        require_once('./layouts/header.php');
-        require_once('./views/de/karriere/produktmanager.php');
-        require_once('./layouts/footer.php');
-    });
-    
-    $r->addRoute('GET', '/karriere/it-consultant-potsdam', function() {
-        $title = 'CallOne Karriere - IT Consultant in Potsdam';
-        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere Stelle als IT Consultant in Potsdam';
-        $keywords = '';
-        $background = 'bg-casestudy';
-        $ogUrl = $GLOBALS['url'] . '/karriere/it-consultant-potsdam';
-        require_once('./layouts/header.php');
-        require_once('./views/de/karriere/it-consultant-potsdam.php');
-        require_once('./layouts/footer.php');
-    });   
-
-    $r->addRoute('GET', '/karriere/it-helpdesk-potsdam', function() {
-      $title = 'CallOne Karriere - IT-Helpdesk in Potsdam';
-      $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere Stelle als Mitarbeiter*in im IT-Helpdesk in Potsdam';
-      $keywords = '';
-      $background = 'bg-casestudy';
-      $ogUrl = $GLOBALS['url'] . '/karriere/it-helpdesk-potsdam';
-      require_once('./layouts/header.php');
-      require_once('./views/de/karriere/it-helpdesk-potsdam.php');
-      require_once('./layouts/footer.php');
-  });   
-    
-    $r->addRoute('GET', '/karriere/job-customer-success-manager-potsdam', function() {
-        $title = 'Customer Success Manager Stelle/Job in Potsdam - Karriere';
-        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden. Bewirb Dich auf unsere Stelle als Customer Success Manager in Potsdam';
-        $keywords = 'Karriere, Customer Success Manager, Potsdam, Job, Stelle, bewerben';
-        $background = 'bg-casestudy';
-        $ogUrl = $GLOBALS['url'] . '/karriere/job-customer-success-manager-potsdam';
-        require_once('./layouts/header.php');
-        require_once('./views/de/karriere/customer-success-manager.php');
-        require_once('./layouts/footer.php');
-    }); 
-    
-    $r->addRoute('GET', '/karriere/job-webdesigner-potsdam', function() {
-        $title = 'Webdesigner/Job in Potsdam - Karriere';
-        $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden. Bewirb Dich auf unsere Stelle als Webdesigner in Potsdam';
-        $keywords = 'Karriere, Webdesigner, Potsdam, Job, Stelle, bewerben';
-        $background = 'bg-casestudy';
-        $ogUrl = $GLOBALS['url'] . '/karriere/job-webdesigner-potsdam';
-        require_once('./layouts/header.php');
-        require_once('./views/de/karriere/webdesigner.php');
-        require_once('./layouts/footer.php');
-    }); 
-*/
-
-
 $r->addRoute('GET', '/callcenter-software', function() {
   $title = 'Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk';
   $description = 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!';
@@ -300,16 +208,16 @@ $r->addRoute('GET', '/callcenter-software', function() {
   require_once('./layouts/footer.php');
 });
 
-    $r->addRoute('GET', '/callcenter-software-features', function() {
-        $title = '';
-        $description = '';
-        $keywords = '';
-        $background = 'bg-kundenservice';
-        $ogUrl = $GLOBALS['url'] . '/callcenter-software-features';
-        require_once('./layouts/header.php');
-        require_once('./views/de/wishlist.php');
-        require_once('./layouts/footer.php');
-    });
+$r->addRoute('GET', '/callcenter-software-features', function() {
+  $title = '';
+  $description = '';
+  $keywords = '';
+  $background = 'bg-kundenservice';
+  $ogUrl = $GLOBALS['url'] . '/callcenter-software-features';
+  require_once('./layouts/header.php');
+  require_once('./views/de/wishlist.php');
+  require_once('./layouts/footer.php');
+});
 
 $r->addRoute('GET', '/preise', function() {
   $title = 'Preise vergleichen VoIP-Telefonanlage und Callcenter Software von CallOne';
@@ -335,129 +243,129 @@ $r->addRoute('GET', '/callcenter-loesung', function() {
 });
 
 $r->addRoute('GET', '/0800-lokal-nummern', function() {
-    $title = 'Freecall 0800, Ortsnetz, international, Wunschrufnummer Deutschland';
-    $description = ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!';
-    $keywords = '';
-    $background = 'bg-preisanfrage';
-    $ogUrl = $GLOBALS['url'] . '/0800-lokal-nummern';
-    require_once('./layouts/header.php');
-    require_once('./views/de/produkt-rufnummern.php');
-    require_once('./layouts/footer.php');
+  $title = 'Freecall 0800, Ortsnetz, international, Wunschrufnummer Deutschland';
+  $description = ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!';
+  $keywords = '';
+  $background = 'bg-preisanfrage';
+  $ogUrl = $GLOBALS['url'] . '/0800-lokal-nummern';
+  require_once('./layouts/header.php');
+  require_once('./views/de/produkt-rufnummern.php');
+  require_once('./layouts/footer.php');
 });
 
-    $r->addRoute('GET', '/cti-salesforce', function() {
-        $title = 'CallOne Salesforce Integration';
-        $description = 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.';
-        $keywords = '';
-        $background = 'bg-karriere';
-        $ogUrl = $GLOBALS['url'] . '/cti-salesforce';
-        require_once('./layouts/header.php');
-        require_once('./views/de/cti/salesforce.php');
-        require_once('./layouts/footer.php');
-    });
+$r->addRoute('GET', '/cti-salesforce', function() {
+  $title = 'CallOne Salesforce Integration';
+  $description = 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.';
+  $keywords = '';
+  $background = 'bg-karriere';
+  $ogUrl = $GLOBALS['url'] . '/cti-salesforce';
+  require_once('./layouts/header.php');
+  require_once('./views/de/cti/salesforce.php');
+  require_once('./layouts/footer.php');
+});
 
-    $r->addRoute('GET', '/cti-zoho', function() {
-        $title = 'CallOne ZOHO Integration';
-        $description = 'Wählen Sie direkt aus Ihrem Zoho CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Zoho-Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.';
-        $keywords = '';
-        $background = 'bg-karriere';
-        $ogUrl = $GLOBALS['url'] . '/cti-zoho';
-        require_once('./layouts/header.php');
-        require_once('./views/de/cti/zoho.php');
-        require_once('./layouts/footer.php');
-    });
+$r->addRoute('GET', '/cti-zoho', function() {
+  $title = 'CallOne ZOHO Integration';
+  $description = 'Wählen Sie direkt aus Ihrem Zoho CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Zoho-Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.';
+  $keywords = '';
+  $background = 'bg-karriere';
+  $ogUrl = $GLOBALS['url'] . '/cti-zoho';
+  require_once('./layouts/header.php');
+  require_once('./views/de/cti/zoho.php');
+  require_once('./layouts/footer.php');
+});
     
-    $r->addRoute('GET', '/tableau-callcenter-connector', function() {
-        $title = 'Tableau Callcenter Connector -Integrieren Sie Daten und Callcenter-KPI';
-        $description = 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Telefoniedaten und Callcenter-KPIs in Ihre Tableau Dashboards und Datenanalysen';
-        $keywords = 'Integration,Tableau,Callcenter,KPI,Dashboard,Connector';
-        $background = 'bg-karriere';
-        $ogUrl = $GLOBALS['url'] . '/tableau-callcenter-connector';
-        $canonical = $GLOBALS['url'] . '/tableau-callcenter-connector';
-        require_once('./layouts/header.php');
-        require_once('./views/de/cti/tableau.php');
-        require_once('./layouts/footer.php');
-    });
+$r->addRoute('GET', '/tableau-callcenter-connector', function() {
+  $title = 'Tableau Callcenter Connector -Integrieren Sie Daten und Callcenter-KPI';
+  $description = 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Telefoniedaten und Callcenter-KPIs in Ihre Tableau Dashboards und Datenanalysen';
+  $keywords = 'Integration,Tableau,Callcenter,KPI,Dashboard,Connector';
+  $background = 'bg-karriere';
+  $ogUrl = $GLOBALS['url'] . '/tableau-callcenter-connector';
+  $canonical = $GLOBALS['url'] . '/tableau-callcenter-connector';
+  require_once('./layouts/header.php');
+  require_once('./views/de/cti/tableau.php');
+  require_once('./layouts/footer.php');
+});
     
-    $r->addRoute('GET', '/freshdesk-callcenter-software', function() {
-        $title = 'Freshdesk in Verbindung mit Call Center Software & VoIP-Telefonanlage';
-        $description = 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool';
-        $keywords = 'freshdesk,callcenter,voip,telefonanlage,ticketing,cti,integration,crm,tool';
-        $background = 'bg-karriere';
-        $ogUrl = $GLOBALS['url'] . '/freshdesk-callcenter-software';
-        $canonical = $GLOBALS['url'] . '/freshdesk-callcenter-software';
-        require_once('./layouts/header.php');
-        require_once('./views/de/cti/freshdesk.php');
-        require_once('./layouts/footer.php');
-    });
+$r->addRoute('GET', '/freshdesk-callcenter-software', function() {
+  $title = 'Freshdesk in Verbindung mit Call Center Software & VoIP-Telefonanlage';
+  $description = 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool';
+  $keywords = 'freshdesk,callcenter,voip,telefonanlage,ticketing,cti,integration,crm,tool';
+  $background = 'bg-karriere';
+  $ogUrl = $GLOBALS['url'] . '/freshdesk-callcenter-software';
+  $canonical = $GLOBALS['url'] . '/freshdesk-callcenter-software';
+  require_once('./layouts/header.php');
+  require_once('./views/de/cti/freshdesk.php');
+  require_once('./layouts/footer.php');
+});
     
-    $r->addRoute('GET', '/zendesk-cti-ticketing', function() {
-        $title = 'CallOne Zendesk Integration';
-        $description = 'Bester Kundenservice und effiziente Agenten — integrieren Sie Voice Tickets in Zendesk für ein optimales Kundenerlebnis im Callcenter auf allen Kanälen';
-        $keywords = '';
-        $background = 'bg-karriere';
-        $ogUrl = $GLOBALS['url'] . '/zendesk-cti-ticketing';
-        require_once('./layouts/header.php');
-        require_once('./views/de/cti/zendesk.php');
-        require_once('./layouts/footer.php');
-    });     
+$r->addRoute('GET', '/zendesk-cti-ticketing', function() {
+  $title = 'CallOne Zendesk Integration';
+  $description = 'Bester Kundenservice und effiziente Agenten — integrieren Sie Voice Tickets in Zendesk für ein optimales Kundenerlebnis im Callcenter auf allen Kanälen';
+  $keywords = '';
+  $background = 'bg-karriere';
+  $ogUrl = $GLOBALS['url'] . '/zendesk-cti-ticketing';
+  require_once('./layouts/header.php');
+  require_once('./views/de/cti/zendesk.php');
+  require_once('./layouts/footer.php');
+});     
 
 $r->addRoute('GET', '/voip-telefonanlage', function() {
-    $title = 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage';
-    $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager';
-    $keywords = '';
-    $background = 'bg-landingpages';
-    $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
-    require_once('./layouts/header.php');
-    require_once('./views/de/produkt-telefonanlage.php');
-    require_once('./layouts/footer.php');
+  $title = 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage';
+  $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager';
+  $keywords = '';
+  $background = 'bg-landingpages';
+  $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
+  require_once('./layouts/header.php');
+  require_once('./views/de/produkt-telefonanlage.php');
+  require_once('./layouts/footer.php');
 });
 
 $r->addRoute('GET', '/call-tracking', function() {
-    $title = 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden';
-    $description = ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.';
-    $keywords = 'call,tracking,browsing,individuelle,rufnummern,websession,kunden,hotline,kundendaten,anrufe,customer journey';
-    $background = 'bg-landingpages';
-    $ogUrl = $GLOBALS['url'] . '/call-tracking';
-    $canonical = $GLOBALS['url'] . '/call-tracking';
-    require_once('./layouts/header.php');
-    require_once('./views/de/produkt-calltracking.php');
-    require_once('./layouts/footer.php');
+  $title = 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden';
+  $description = ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.';
+  $keywords = 'call,tracking,browsing,individuelle,rufnummern,websession,kunden,hotline,kundendaten,anrufe,customer journey';
+  $background = 'bg-landingpages';
+  $ogUrl = $GLOBALS['url'] . '/call-tracking';
+  $canonical = $GLOBALS['url'] . '/call-tracking';
+  require_once('./layouts/header.php');
+  require_once('./views/de/produkt-calltracking.php');
+  require_once('./layouts/footer.php');
 });
 
 $r->addRoute('GET', '/callcenter-bot', function() {
-    $title = 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR';
-    $description = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.';
-    $keywords = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR';
-    $background = 'bg-casestudy';
-    $ogUrl = $GLOBALS['url'] . '/callcenter-bot';
-    $ogImage = 'https://www.callone.de/assets/images/icons_png/robot-ogImage.png';
-    $canonical = $GLOBALS['url'] . '/callcenter-bot';
-    require_once('./layouts/header.php');
-    require_once('./views/de/produkt-voicebot.php');
-    require_once('./layouts/footer.php');
+  $title = 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR';
+  $description = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.';
+  $keywords = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR';
+  $background = 'bg-casestudy';
+  $ogUrl = $GLOBALS['url'] . '/callcenter-bot';
+  $ogImage = 'https://www.callone.de/assets/images/icons_png/robot-ogImage.png';
+  $canonical = $GLOBALS['url'] . '/callcenter-bot';
+  require_once('./layouts/header.php');
+  require_once('./views/de/produkt-voicebot.php');
+  require_once('./layouts/footer.php');
 });
 
 $r->addRoute('GET', '/callcenter-software-funktionen', function() {
-    $title = 'Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API';
-    $description = 'Die vielleicht umfangreichste Auswahl an Funktionen im Bereich virtueller Telefonanlagen. Vergleichen Sie unser Angebot und sprechen Sie mit uns. Jetzt anrufen!';
-    $keywords = '';
-    $background = 'bg-preisanfrage';
-    $ogUrl = $GLOBALS['url'] . '/callcenter-software-funktionen';
-    require_once('./layouts/header.php');
-    require_once('./views/de/features-acd.php');
-    require_once('./layouts/footer.php');
+  $title = 'Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API';
+  $description = 'Die vielleicht umfangreichste Auswahl an Funktionen im Bereich virtueller Telefonanlagen. Vergleichen Sie unser Angebot und sprechen Sie mit uns. Jetzt anrufen!';
+  $keywords = '';
+  $background = 'bg-preisanfrage';
+  $ogUrl = $GLOBALS['url'] . '/callcenter-software-funktionen';
+  require_once('./layouts/header.php');
+  require_once('./views/de/features-acd.php');
+  require_once('./layouts/footer.php');
 });
 
 $r->addRoute('GET', '/voip-telefonanlagen-funktionen', function() {
-    $title = 'Features, Funktionen, Vergleich VoIP-Telefonanlage 2019';
-    $description = 'Alle Funktionen im Überblick, vergleichen Sie und unsere Customer Success Manager helfen Ihnen bei der Auswahl ihres perfekten Settings. Rufen Sie uns an!';
-    $keywords = '';
-    $background = 'bg-preisanfrage';
-    $ogUrl = $GLOBALS['url'] . '/voip-telefonanlagen-funktionen';
-    require_once('./layouts/header.php');
-    require_once('./views/de/features-telephony.php');
-    require_once('./layouts/footer.php');
+  $title = 'Features, Funktionen, Vergleich VoIP-Telefonanlage 2019';
+  $description = 'Alle Funktionen im Überblick, vergleichen Sie und unsere Customer Success Manager helfen Ihnen bei der Auswahl ihres perfekten Settings. Rufen Sie uns an!';
+  $keywords = '';
+  $background = 'bg-preisanfrage';
+  $ogUrl = $GLOBALS['url'] . '/voip-telefonanlagen-funktionen';
+  require_once('./layouts/header.php');
+  require_once('./views/de/features-telephony.php');
+  require_once('./layouts/footer.php');
 });
         
 $r->addRoute('GET', '/referenzen', function() {
@@ -528,15 +436,15 @@ $r->addRoute('GET', '/case-study-flaconi', function() {
 });
 
 $r->addRoute('GET', '/case-study-niceshops', function() {
-    $title = 'Case Study: Die Telefonielösungen von niceshops';
-    $description = 'Die individuelle Callcenter-Lösung des österreichischen E-Commerce-Unternehmens ✔ IP-Telefonie ✔ Freshdesk-Integration ✔ WebRTC ✔ 40 Shop-Hotlines';
-    $keywords = 'niceshops, Telefonielösung, Callcenter-Lösung, E-Commerce, IP-Telefonie, Freshdesk-Integration, webRTC, Hotline';
-    $background = 'bg-casestudy';
-    $ogImage = 'https://www.callone.de/assets/images/client-logos/callone-und-niceshops.png';
-    $ogUrl = $GLOBALS['url'] . '/case-study-niceshops';
-    require_once('./layouts/header.php');
-    require_once('./views/de/case-study-niceshops.php');
-    require_once('./layouts/footer.php');
+  $title = 'Case Study: Die Telefonielösungen von niceshops';
+  $description = 'Die individuelle Callcenter-Lösung des österreichischen E-Commerce-Unternehmens ✔ IP-Telefonie ✔ Freshdesk-Integration ✔ WebRTC ✔ 40 Shop-Hotlines';
+  $keywords = 'niceshops, Telefonielösung, Callcenter-Lösung, E-Commerce, IP-Telefonie, Freshdesk-Integration, webRTC, Hotline';
+  $background = 'bg-casestudy';
+  $ogImage = 'https://www.callone.de/assets/images/client-logos/callone-und-niceshops.png';
+  $ogUrl = $GLOBALS['url'] . '/case-study-niceshops';
+  require_once('./layouts/header.php');
+  require_once('./views/de/case-study-niceshops.php');
+  require_once('./layouts/footer.php');
 });
 
 // loesungen
@@ -641,18 +549,27 @@ $r->addRoute('GET', '/omr', function() {
   require_once('./layouts/footer.php');
 });
 
-// fallback 404
+
+// FALLBACK 404
 $r->addRoute('GET', '/404', function() {
-    $title = '404 - Die Seite konnte nicht gefunden werden!';
-    $description = '';
-    $keywords = '';
-    $background = 'bg-index';
-    $status = '404';
-    $ogUrl = $GLOBALS['url'] . '/404';
-    require_once('./layouts/header.php');
-    require_once('./views/de/404.php');
-    require_once('./layouts/footer.php');
+  $title = '404 - Die Seite konnte nicht gefunden werden!';
+  $description = '';
+  $keywords = '';
+  $background = 'bg-index';
+  $status = '404';
+  $ogUrl = $GLOBALS['url'] . '/404';
+  require_once('./layouts/header.php');
+  require_once('./views/de/404.php');
+  require_once('./layouts/footer.php');
 });
+
+if (!$r->serveRoutes())
+{ header("HTTP/1.0 404 Not Found");
+  $r->serveRoutes(null, '/404');
+}
+
+
+// EXAMPLES
 
 // $r->addRoute('GET', '/new_site', function() {
 //   $title = 'new_site';
@@ -678,11 +595,4 @@ $r->addRoute('GET', '/404', function() {
 // $description = '';
 // $keywords = '';
 // });
-
-if (!$r->serveRoutes())
-{
-  // 404
-  header("HTTP/1.0 404 Not Found");
-  $r->serveRoutes(null, '/404');
-}
 ?>
