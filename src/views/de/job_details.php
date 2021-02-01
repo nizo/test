@@ -36,7 +36,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
                   <strong>Der Job</strong>
                   <?php
                   foreach ($job->text_description_long_get() as $text_description_long)
-                    echo '<p>'.$text_description_long.'</p>'.PHP_EOL;
+                    echo '<p>'.str_replace('"','\"',$text_description_long).'</p>'.PHP_EOL;
                   ?>
                   <?php endif; ?>
 
@@ -46,7 +46,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
                     <ul>
                     <?php
                     foreach ($job->text_tasks_get() as $text_task)
-                      echo '<li>'.$text_task.'</li>'.PHP_EOL;
+                      echo '<li>'.str_replace('"','\"',$text_task).'</li>'.PHP_EOL;
                     ?>
                     </ul>
                   </p>
@@ -58,7 +58,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
                     <ul>
                     <?php
                     foreach ($job->text_requirements_get() as $text_requirement)
-                      echo '<li>'.$text_requirement.'</li>'.PHP_EOL;
+                      echo '<li>'.str_replace('"','\"',$text_requirement).'</li>'.PHP_EOL;
                     ?>
                     </ul>
                   </p>
@@ -70,7 +70,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
                     <ul>
                     <?php
                     foreach ($jobs_benefits as $jobs_benefit)
-                      echo '<li>'.$jobs_benefit->text_get().'</li>'.PHP_EOL;
+                      echo '<li>'.str_replace('"','\"',$jobs_benefit->text_get()).'</li>'.PHP_EOL;
                     ?>
                     </ul>
                   </p>
