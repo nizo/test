@@ -73,7 +73,7 @@
           <img src="/assets/images/icons_svg/icon-speed.svg" alt="" />
         </div>
         <h4>Sofort startklar</h4>
-        <p>Unsere App lässt sich nahtlos in Pipedrive integrieren.</p>
+        <p>Unsere CTI-App lässt sich nahtlos aus dem Salesforce AppExchange in Ihre Sales- oder Servicecloud integrieren.</p>
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
