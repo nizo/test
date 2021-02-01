@@ -391,6 +391,38 @@ $(document).ready ->
       , false
 
   #
+  # Softphone usercalc
+  #
+  minValue = 25
+  maxValue = 500
+  if document.querySelectorAll('.usercalc').length > 0
+    usercalcs = document.querySelectorAll('.usercalc')
+    usercalcs.forEach (usercalc) ->
+      users = usercalc.querySelector('.usercalc__users')
+      price = usercalc.querySelector('.usercalc__price')
+      slider = usercalc.querySelector('.usercalc__slider input')
+      slider.addEventListener 'input', (e) ->
+        users.value = parseInt(this.value)
+        price.innerHTML = getPricePerUser(parseInt(this.value))
+      , false
+      users.addEventListener 'change', (e) ->
+        val = parseInt(this.value)
+        if val < minValue or val > maxValue
+          users.value = minValue
+          slider.value = minValue
+          price.innerHTML = getPricePerUser(minValue)
+        else
+          slider.value = val
+          price.innerHTML = getPricePerUser(this.value)
+  getPricePerUser = (count) ->
+    price = '9,90 &euro;'
+    if count >= 50
+      price = '8,90 &euro;'
+    if count >= 250
+      price = '7,90 &euro;'
+    price
+
+  #
   # Content Scroller
   #
   scrollers = document.querySelectorAll('.scroller')

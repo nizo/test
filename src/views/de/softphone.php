@@ -381,12 +381,16 @@
                 <input type="range" min="25" value="25" max="500" />
               </div>
 
-              <div class="grid">
-                <div class="col-2">
-                  [nutzer]
+              <div class="usercalc__grid">
+                <div class="usercalc__col">
+                  <input type="text" class="usercalc__users" value="25" /><span>Nutzer</span>
                 </div>
-                <div class="col-2">
-                  [preis]
+                <div class="usercalc__col">
+                  <span class="usercalc__price">9,90 &euro;</span>
+                  <span>
+                    pro Nutzer<br />
+                    pro Monat
+                  </span>
                 </div>
               </div>
 
