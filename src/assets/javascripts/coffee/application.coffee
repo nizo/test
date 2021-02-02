@@ -400,10 +400,19 @@ $(document).ready ->
     usercalcs.forEach (usercalc) ->
       users = usercalc.querySelector('.usercalc__users')
       price = usercalc.querySelector('.usercalc__price')
+      form = usercalc.querySelector('.usercalc__form')
+      result = usercalc.querySelector('.usercalc__result')
+      submit = usercalc.querySelectorAll('.usercalc__submit')
       slider = usercalc.querySelector('.usercalc__slider input')
+      total = usercalc.querySelector('.usercalc__total span')
+      callcenterCheckbox = usercalc.querySelector('#callcenter-software')
+      callcenterSection = usercalc.querySelector('.usercalc__callcenter')
+      currentTotal = minValue * 9.90
+      isCallcenterChecked = false
       slider.addEventListener 'input', (e) ->
         users.value = parseInt(this.value)
         price.innerHTML = getPricePerUser(parseInt(this.value))
+        currentTotal = getTotalPrice(parseInt(this.value))
       , false
       users.addEventListener 'change', (e) ->
         val = parseInt(this.value)
@@ -411,9 +420,30 @@ $(document).ready ->
           users.value = minValue
           slider.value = minValue
           price.innerHTML = getPricePerUser(minValue)
+          currentTotal = getTotalPrice(minValue)
         else
           slider.value = val
           price.innerHTML = getPricePerUser(this.value)
+          currentTotal = getTotalPrice(this.value)
+      callcenterCheckbox.addEventListener 'change', (e) ->
+        isCallcenterChecked = this.checked
+      submit.forEach (s) ->
+        s.addEventListener 'click', (e) ->
+          form.classList.toggle 'usercalc__form--inactive'
+          result.classList.toggle 'usercalc__result--active'
+          if isCallcenterChecked
+            callcenterSection.classList.add 'usercalc__callcenter--active'
+          else
+            callcenterSection.classList.remove 'usercalc__callcenter--active'
+          tempTotal = Math.round(currentTotal * 100) / 100
+          total.innerHTML = tempTotal.toString().replace('.', ',') + ' &euro;'
+  getTotalPrice = (count) ->
+    price = 9.90
+    if count >= 50
+      price = 8.90
+    if count >= 250
+      price = 7.90
+    price * count
   getPricePerUser = (count) ->
     price = '9,90 &euro;'
     if count >= 50

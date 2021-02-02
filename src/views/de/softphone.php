@@ -24,7 +24,7 @@
   </div>
 </div>
 
-<div class="wrapper lightgrey-white no-margin-top">
+<div class="wrapper lightgrey-white no-margin-top" id="funktionen">
   <div class="content wide">
     <h1 class="headline__icon">
       <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" />
@@ -88,7 +88,7 @@
   </div>
 </div>
 
-<div class="wrapper lightgrey">
+<div class="wrapper lightgrey" id="vergleich">
   <div class="content wide">
     <h2>Direkter Produktvergleich</h2>
     <p>Welche Vorteile bietet das CallOne Softphone gegenüber einem vergleichbaren Lösungsansatz mit Microsoft Teams? Probieren Sie es jetzt mit der Schaltertaste aus!</p>
@@ -297,7 +297,7 @@
   </div>
 </div>
 
-<div class="wrapper background-black no-margin-top">
+<div class="wrapper background-black no-margin-top" id="preise">
   <div class="content narrow">
     <h2>Preise</h2>
     <p>Das CallOne Softphone ist die perfekte Erweiterung für Ihre Businesstelefonie. Es funktioniert sowohl mit Ihrem existierenden VoIP-Carrier als auch mit der CallOne Telefonie-Welt. Wie möchten Sie das Softphone nutzen?</p>
@@ -362,64 +362,126 @@
         </div>
 
         <div class="pricetoggle__whitebox">
-          <p><strong>Wie viele Nutzer-Accounts brauchen Sie?</strong></p>
-
           <div class="usercalc">
-            <div class="usercalc__box">
-              <div class="usercalc__header">
-                <div class="usercalc__icon">
-                  <img src="/assets/images/icons_svg/voip-telefonanlage.svg" alt="" />
+            <div class="usercalc__form">
+              <p><strong>Wie viele Nutzer-Accounts brauchen Sie?</strong></p>
+
+              <div class="usercalc__box">
+                <div class="usercalc__header">
+                  <div class="usercalc__icon">
+                    <img src="/assets/images/icons_svg/voip-telefonanlage.svg" alt="" />
+                  </div>
+                  <div class="usercalc__title">
+                    <strong>Telefonanlage</strong><br />
+                    Für das gesamte Unternehmen
+                  </div>
                 </div>
-                <div class="usercalc__title">
-                  <strong>Telefonanlage</strong><br />
-                  Für das gesamte Unternehmen
+
+                <div class="usercalc__slider">
+                  <div class="prerange"></div>
+                  <input type="range" min="25" value="25" max="500" />
                 </div>
+
+                <div class="usercalc__grid">
+                  <div class="usercalc__col">
+                    <input type="text" class="usercalc__users" value="25" /><span>Nutzer</span>
+                  </div>
+                  <div class="usercalc__col">
+                    <span class="usercalc__price">9,90 &euro;</span>
+                    <span>
+                      pro Nutzer<br />
+                      pro Monat
+                    </span>
+                  </div>
+                </div>
+
+                <p class="small">
+                  Hinweis: Preise zzgl. optionaler Einrichtung durch CallOne und einmaliger Aktivierung von 99,00 €. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Unsere Lösungen sind erfahrungsgemäß zu umfassend für Unternehmen unter 25 Mitarbeitenden.
+                </p>
               </div>
 
-              <div class="usercalc__slider">
-                <div class="prerange"></div>
-                <input type="range" min="25" value="25" max="500" />
+              <p>
+                <strong>Legen Sie Wert auf hervorragenden Kundenservice?</strong><br />
+                CallOne liefert eine Callcenter-Software, die keine Wünsche offen lässt. Sie bietet umfangreiche Funktionen von Rückruf- über Warteschleifen-Management, Anbindungen an CRM-Systeme, Gesprächsaufzeichnungen bis hin zu Statistiken.
+              </p>
+
+              <input type="checkbox" id="callcenter-software" />
+              <label class="usercalc__box" for="callcenter-software">
+                <div class="usercalc__header">
+                  <div class="usercalc__icon">
+                    <img src="/assets/images/icons_svg/callcenter-software.svg" alt="" />
+                  </div>
+                  <div class="usercalc__title">
+                    <strong>Callcenter-Software</strong><br />
+                    Für Sales und Service
+                  </div>
+                  <div class="usercalc__checkbox"></div>
+                </div>
+              </label>
+
+              <div class="button-set">
+                <a class="button button--block button--fullwidth tertiary black2 rounded usercalc__submit" href="#" target="_blank">Preise ansehen</a>
+              </div>
+            </div>
+
+            <div class="usercalc__result">
+              <div class="usercalc__back usercalc__submit">
+                <span></span> Schritt zurück
               </div>
 
               <div class="usercalc__grid">
-                <div class="usercalc__col">
-                  <input type="text" class="usercalc__users" value="25" /><span>Nutzer</span>
+                <div class="usercalc__col usercalc__headline usercalc__headline--tag">
+                  <span data-tag="Pro">Softphone</span>
+                  mit CallOne Telefonanlage
                 </div>
-                <div class="usercalc__col">
-                  <span class="usercalc__price">9,90 &euro;</span>
-                  <span>
-                    pro Nutzer<br />
-                    pro Monat
-                  </span>
+                <div class="usercalc__col usercalc__total">
+                  Preis pro Monat*
+                  <span></span>
                 </div>
               </div>
 
-              <p class="small">
-                Hinweis: Preise zzgl. optionaler Einrichtung durch CallOne und einmaliger Aktivierung von 99,00 €. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Unsere Lösungen sind erfahrungsgemäß zu umfassend für Unternehmen unter 25 Mitarbeitenden.
-              </p>
-            </div>
+              <ul>
+                <li>Dialpad</li>
+                <li>Click-to-Dial (Nummern von Websites ins Telefon wählen)</li>
+                <li>Rufnummern-Portierung</li>
+                <li>Bis zu zehn Endgeräte je User gleichzeitig</li>
+                <li>Deutscher Datenschutz-Standard</li>
+              </ul>
 
-            <p>
-              <strong>Legen Sie Wert auf hervorragenden Kundenservice?</strong><br />
-              CallOne liefert eine Callcenter-Software, die keine Wünsche offen lässt. Sie bietet umfangreiche Funktionen von Rückruf- über Warteschleifen-Management, Anbindungen an CRM-Systeme, Gesprächsaufzeichnungen bis hin zu Statistiken.
-            </p>
+              <p class="subtext">* Gesamtpreis für alle Nebenstellen zzgl. Nutzung</p>
 
-            <input type="checkbox" id="callcenter-software" />
-            <label class="usercalc__box" for="callcenter-software">
-              <div class="usercalc__header">
-                <div class="usercalc__icon">
-                  <img src="/assets/images/icons_svg/callcenter-software.svg" alt="" />
+              <hr>
+
+              <div class="usercalc__callcenter">
+                <div class="usercalc__grid">
+                  <div class="usercalc__col usercalc__headline">
+                    <span>Callcenter-Software</span>
+                    für Sales und Service
+                  </div>
+                  <div class="usercalc__col">
+                    <div class="usercalc__col usercalc__total2">
+                      ab monatlich**
+                      <span>99,00 &euro;</span>
+                    </div>
+                  </div>
                 </div>
-                <div class="usercalc__title">
-                  <strong>Callcenter-Software</strong><br />
-                  Für Sales und Service
-                </div>
-                <div class="usercalc__checkbox"></div>
+
+                <ul>
+                  <li>Warteschleifenmanagement</li>
+                </ul>
+
+                <p class="subtext">** Projektspezifisch zzgl. Plattformnutzung</p>
+
+                <hr>
               </div>
-            </label>
 
-            <div class="button-set">
-              <a class="button button--block button--fullwidth tertiary black2 rounded" href="#" target="_blank">Kostenfrei installieren</a>
+              <div class="usercalc__subheadline">
+                Kontakt zum CallOne Vertrieb
+              </div>
+
+              <form>
+                [FORM HERE]
+              </form>
             </div>
           </div>
         </div>
@@ -428,12 +490,12 @@
   </div>
 </div>
 
-<div class="wrapper lightgrey-2-white no-margin-top">
+<div class="wrapper lightgrey-2-white no-margin-top" id="installation">
   <div class="content wide">
     <div class="installation">
       <div class="installation__header">
         <div class="installation__logo">
-          <img src="/assets/images/icons_svg/softphone-branding-lit.svg" alt="" />
+          <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" />
         </div>
         <div class="installation__title">
           <span class="headline-tag">App</span><br />
@@ -446,7 +508,40 @@
         </div>
       </div>
       <div class="installation__content">
-        Hello World
+        <h3>Schritte für Installation</h3>
+        <h1>In zwei Minuten eingerichtet</h1>
+
+        <div class="installation__grid">
+          <div class="installation__col">
+            <img src="/assets/images/icons_svg/icon-download-extension.svg" alt="" />
+            1. Browser App<br />herunterladen
+          </div>
+          <div class="installation__col">
+            <img src="/assets/images/icons_svg/icon-authorization.svg" alt="" />
+            2. Zugangsdaten<br />eintragen
+          </div>
+          <div class="installation__col">
+            <img src="/assets/images/icons_svg/icon-softphone-use.svg" alt="" />
+            3. Los<br />telefonieren
+          </div>
+        </div>
+
+        <h2>Wählen Sie den Browser zur Installation</h2>
+
+        <div class="installation__browsers">
+          <a href="#" class="installation__browser">
+            <img src="/assets/images/icons_png/google-chrome.png" alt="" />
+            Google<br />Chrome
+          </a>
+          <a href="#" class="installation__browser">
+            <img src="/assets/images/icons_png/mozilla-firefox.png" alt="" />
+            Mozilla<br />Firefox
+          </a>
+          <a href="#" class="installation__browser">
+            <img src="/assets/images/icons_png/internet-explorer.png" alt="" />
+            Internet<br />Explorer
+          </a>
+        </div>
       </div>
     </div>
   </div>
