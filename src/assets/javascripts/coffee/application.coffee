@@ -1,3 +1,7 @@
+# Function to make forEach work in IE
+if window.NodeList && !NodeList.prototype.forEach
+  NodeList.prototype.forEach = Array.prototype.forEach
+
 app =
   init: ->
     navbar.init('.navbar')
@@ -93,7 +97,8 @@ app =
       $(this).parent('.mobile-nav').removeClass 'open'  
 
     # SmoothScroll
-    $('a[href^="#"]').on 'click.smoothscroll', (e) ->
+    # $('a[href^="#"]').on 'click.smoothscroll', (e) ->
+    $('a[href^="#"].smoothscroll').on 'click', (e) ->
       e.preventDefault()
       target = @hash
       $target = $(target)
@@ -379,15 +384,21 @@ $(document).ready ->
   currentPriceBox = 1
   if document.querySelectorAll('.pricetoggle__button').length > 0
     document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__button--active'
-    document.querySelector('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__content--active'
+    contentBoxes = document.querySelectorAll('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]')
+    contentBoxes.forEach (content) ->
+      content.classList.add 'pricetoggle__content--active'
     priceboxButtons = document.querySelectorAll('.pricetoggle__button')
     priceboxButtons.forEach (btn) ->
       btn.addEventListener 'click', (e) ->
         document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.remove 'pricetoggle__button--active'
-        document.querySelector('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]').classList.remove 'pricetoggle__content--active'
+        contentBoxes = document.querySelectorAll('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]')
+        contentBoxes.forEach (content) ->
+          content.classList.remove 'pricetoggle__content--active'
         currentPriceBox = btn.dataset.pricebox
         document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__button--active'
-        document.querySelector('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__content--active'
+        contentBoxes = document.querySelectorAll('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]')
+        contentBoxes.forEach (content) ->
+          content.classList.add 'pricetoggle__content--active'
       , false
 
   #
@@ -429,6 +440,7 @@ $(document).ready ->
         isCallcenterChecked = this.checked
       submit.forEach (s) ->
         s.addEventListener 'click', (e) ->
+          e.preventDefault()
           form.classList.toggle 'usercalc__form--inactive'
           result.classList.toggle 'usercalc__result--active'
           if isCallcenterChecked
@@ -451,6 +463,39 @@ $(document).ready ->
     if count >= 250
       price = '7,90 &euro;'
     price
+
+  #
+  # Softphone Installation Buttons
+  #
+  currentBrowser = ''
+  if navigator.userAgent.indexOf("Chrome") != -1
+    currentBrowser = 'chrome'
+  else if navigator.userAgent.indexOf("Firefox") != -1
+    currentBrowser = 'firefox'
+  else if (navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )
+    currentBrowser = 'ie'
+  else
+    currentBrowser = ''
+  if currentBrowser
+    browserButton1 = document.querySelector('.installation__browser[data-browser="'+currentBrowser+'"]')
+    browserButton2 = document.querySelector('.installation__button[data-browser="'+currentBrowser+'"]')
+    if browserButton1 && browserButton2
+      browserButton1.classList.add 'installation__browser--active'
+      browserButton2.classList.add 'installation__button--active'
+  installationButtons = document.querySelectorAll('.installation__browser')
+  installationButtons.forEach (btn) ->
+    btn.addEventListener 'click', (e) ->
+      e.preventDefault()
+      browser = btn.getAttribute('data-browser')
+      if currentBrowser != browser
+        currentBrowser = browser
+        currentActive1 = document.querySelector('.installation__browser--active')
+        currentActive2 = document.querySelector('.installation__button--active')
+        if currentActive1 && currentActive2
+          currentActive1.classList.remove 'installation__browser--active'
+          currentActive2.classList.remove 'installation__button--active'
+        document.querySelector('.installation__browser[data-browser="'+browser+'"]').classList.add 'installation__browser--active'
+        document.querySelector('.installation__button[data-browser="'+browser+'"]').classList.add 'installation__button--active'
 
   #
   # Content Scroller
