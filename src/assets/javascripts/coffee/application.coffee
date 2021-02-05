@@ -97,13 +97,13 @@ app =
       $(this).parent('.mobile-nav').removeClass 'open'  
 
     # SmoothScroll
-    # $('a[href^="#"]').on 'click.smoothscroll', (e) ->
-    $('a[href^="#"].smoothscroll').on 'click', (e) ->
+    $('a[href^="#"]').on 'click.smoothscroll', (e) ->
       e.preventDefault()
       target = @hash
-      $target = $(target)
-      $('html, body').stop().animate { 'scrollTop': $target.offset().top }, 500, 'swing', ->
-      window.location.hash = target
+      if target
+        $target = $(target)
+        $('html, body').stop().animate { 'scrollTop': $target.offset().top }, 500, 'swing', ->
+        window.location.hash = target
       
     # ToggleCallNumbers
     $(document).on 'click', '.showDiv', (e) ->
@@ -467,15 +467,18 @@ $(document).ready ->
   #
   # Softphone Installation Buttons
   #
-  currentBrowser = ''
-  if navigator.userAgent.indexOf("Chrome") != -1
+  fallbackBrowser = 'chrome'
+  currentBrowser = fallbackBrowser
+  if navigator.userAgent.indexOf("Edg") != -1 || navigator.userAgent.indexOf("Edge") != -1
+    currentBrowser= 'edge'
+  else if navigator.userAgent.indexOf("Chrome") != -1
     currentBrowser = 'chrome'
   else if navigator.userAgent.indexOf("Firefox") != -1
     currentBrowser = 'firefox'
   else if (navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )
-    currentBrowser = 'ie'
+    currentBrowser = 'edge'
   else
-    currentBrowser = ''
+    currentBrowser = fallbackBrowser
   if currentBrowser
     browserButton1 = document.querySelector('.installation__browser[data-browser="'+currentBrowser+'"]')
     browserButton2 = document.querySelector('.installation__button[data-browser="'+currentBrowser+'"]')

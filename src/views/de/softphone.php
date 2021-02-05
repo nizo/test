@@ -5,7 +5,7 @@
         <h1 class="secondary">Telefonieren aus Ihrem Lieblingsbrowser</h1>
         <p class="primary">Eine Telefon-App integriert als Browser-Extension für Ihre ein- und ausgehenden Telefonate auf Knopfdruck</p>
         <div class="button-set mobile-hidden">
-          <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+          <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
         </div>
       </div>
       <div class="media centered mobile-hidden">
@@ -68,7 +68,7 @@
           </div>
           <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
           <div class="button-set centered">
-            <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+            <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
           </div>
         </div>
         <div class="tabset__tab" data-tab="2">
@@ -78,7 +78,7 @@
           </div>
           <p class="centered">Unsere Softphone App erkennt Rufnummern auf Webseiten und ermöglicht bequemes Anwählen auf Knopfdruck.</p>
           <div class="button-set centered">
-            <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+            <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
           </div>
         </div>
         <div class="tabset__tab" data-tab="3">
@@ -88,7 +88,7 @@
           </div>
           <p class="centered">Flexibilität heißt bei CallOne: Sie können unsere Telefonanlage nutzen, müssen aber nicht! Wir bieten für zahlreiche VoIP-Anbieter eine nahtlose Integration in unser Softphone.</p>
           <div class="button-set centered">
-            <a class="button tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+            <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
           </div>
         </div>
       </div>
@@ -346,7 +346,7 @@
             </ul>
 
             <div class="button-set">
-              <a class="button button--block button--fullwidth tertiary rounded" href="#" target="_blank">Kostenfrei installieren</a>
+              <a class="button button--block button--fullwidth tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
             </div>
           </div>
         </div>
@@ -488,8 +488,26 @@
                   Kontakt zum CallOne Vertrieb
                 </div>
 
-                <form>
-                  [FORM HERE]
+                <form class="usercalc__contact">
+                  <div>
+                    <label for="form_name">Vorname und Nachname (Pflicht)</label>
+                    <input type="text" name="name" id="form_name" placeholder="Max Mustermann" required />
+                  </div>
+                  <div>
+                    <label for="form_company">Unternehmen bzw. Organisation (Pflicht)</label>
+                    <input type="text" name="company" id="form_company" placeholder="Muster AG" required />
+                  </div>
+                  <div>
+                    <label for="form_mail">Geschäfts-Email (Pflicht)</label>
+                    <input type="email" name="mail" id="form_mail" placeholder="beispiel@muster.ag" required />
+                  </div>
+                  <div>
+                    <label for="form_comment">Anmerkungen (Optional)</label>
+                    <textarea name="comment" id="form_comment" rows="3" placeholder="Ihre Nachricht an uns&hellip;"></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" class="button tertiary rounded button--fullwidth">Anfrage absenden</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -510,10 +528,28 @@
         <div class="pricetoggle__content" data-pricebox="2">
           <div class="pricetoggle__whitebox">
             <h2 class="tag-behind" data-tag="Pro">Softphone</h2>
-            <p>Die CallOne Telefonanlage zusammen mit erweiterten Softphone Funktionen richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Preise beginnen ab  <strong>9,99 €</strong> für 25 Nutzer, zzgl Einrichtungs- und Aktivierungskosten.</p>
+            <p>Die CallOne Telefonanlage zusammen mit erweiterten Softphone Funktionen richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Preise beginnen ab <strong>9,99 €</strong> für 25 Nutzer, zzgl Einrichtungs- und Aktivierungskosten.</p>
             <h2>Kontakt zum CallOne Vertrieb</h2>
-            <form>
-              [FORM HERE]
+            <form class="usercalc__contact">
+              <div>
+                <label for="form_name_mobile">Vorname und Nachname (Pflicht)</label>
+                <input type="text" name="name" id="form_name_mobile" placeholder="Max Mustermann" required />
+              </div>
+              <div>
+                <label for="form_company_mobile">Unternehmen bzw. Organisation (Pflicht)</label>
+                <input type="text" name="company" id="form_company_mobile" placeholder="Muster AG" required />
+              </div>
+              <div>
+                <label for="form_mail_mobile">Geschäfts-Email (Pflicht)</label>
+                <input type="email" name="mail" id="form_mail_mobile" placeholder="beispiel@muster.ag" required />
+              </div>
+              <div>
+                <label for="form_comment_mobile">Anmerkungen (Optional)</label>
+                <textarea name="comment" id="form_comment_mobile" rows="3" placeholder="Ihre Nachricht an uns&hellip;"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="button tertiary rounded button--fullwidth">Anfrage absenden</button>
+              </div>
             </form>
           </div>
         </div>
@@ -569,9 +605,9 @@
             <img src="/assets/images/icons_png/mozilla-firefox.png" alt="" />
             Mozilla<br />Firefox
           </a>
-          <a href="#" class="installation__browser" data-browser="ie">
+          <a href="#" class="installation__browser" data-browser="edge">
             <img src="/assets/images/icons_png/internet-explorer.png" alt="" />
-            Internet<br />Explorer
+            Microsoft<br />Edge
           </a>
         </div>
 
@@ -582,8 +618,8 @@
           <a href="#" class="button tertiary rounded installation__button" data-browser="firefox">
             Zum Firefox Add-On <span class="button__icon icon-jump-forward"></span>
           </a>
-          <a href="#" class="button tertiary rounded installation__button" data-browser="ie">
-            Zum Internet Explorer Add-On <span class="button__icon icon-jump-forward"></span>
+          <a href="#" class="button tertiary rounded installation__button" data-browser="edge">
+            Zum Edge Add-On <span class="button__icon icon-jump-forward"></span>
           </a>
         </div>
       </div>
