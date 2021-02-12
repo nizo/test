@@ -47,6 +47,10 @@
   &--inline {
     display: inline-block;
   }
+  &--wider {
+    padding-left: $gutter-l;
+    padding-right: $gutter-l;
+  }
   &--anchor {
     &:after {
       content: "";

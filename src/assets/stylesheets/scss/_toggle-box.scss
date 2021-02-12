@@ -6,13 +6,13 @@
     &+label {
       position: relative;
       font-size: 20px;
-      font-weight: 500;
-      font-family: $font-copy;
+      font-weight: 700;
+      font-family: $font-headline;
       line-height: 24px;
       cursor: pointer;
       display: block;
-      padding: $gutter-m 0;
-      padding-left: calc(16px + #{$gutter-m} + #{$gutter-s});
+      padding: $gutter-l;
+      padding-left: calc(16px + #{$gutter-l} + #{$gutter-m});
       &:before {
         content: "";
         width: 16px;
@@ -22,7 +22,7 @@
         top: 50%;
         transform: translateY(-50%);
         display: inline-block;
-        left: $gutter-m;
+        left: $gutter-l;
       }
     }
     &:checked {
@@ -39,7 +39,7 @@
   .toggle-box__content {
     display: none;
     padding: $gutter-m;
-    padding-left: calc(16px + #{$gutter-m} + #{$gutter-s});
+    padding-left: calc(16px + #{$gutter-l} + #{$gutter-m});
     padding-top: 0;
   }
   &+.toggle-box {

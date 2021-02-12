@@ -820,11 +820,12 @@ img {
     }
     .content {
       h1 {
-        font-family: apercu, sans-serif;
+        font-family: $font-copy;
         font-size: 38px;
         font-weight: 400;
         span {
           font-weight: 700;
+          font-family: $font-headline;
           font-size: 20px;
           display: block;
           margin-bottom: $gutter-m;
