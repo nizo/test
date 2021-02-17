@@ -27,7 +27,7 @@
     border-radius: 100px;
     font-family: $font-headline;
     letter-spacing: 0.1em;
-    font-weight: 700;
+    // font-weight: 700;
     font-size: 16px;
   }
   &.small-rounded {
@@ -50,6 +50,9 @@
   &--wider {
     padding-left: $gutter-l;
     padding-right: $gutter-l;
+  }
+  &--noletterspacing {
+    letter-spacing: normal !important;
   }
   &--anchor {
     &:after {

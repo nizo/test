@@ -139,6 +139,14 @@ h2, .h2 {
     margin-bottom: $gutter-m;
   }
 }
+h2 {
+  span {
+    font-family: $font-headline;
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 12px;
+  }
+}
 
 h3, .h3 {
   font-size: $font-size-l;
@@ -250,6 +258,9 @@ p {
   }
   &.secondary {
     font-size: $font-size-xs;
+  }
+  &.footnote {
+    font-size: $font-size-xxs;
   }
   &+p {
     margin-top: $gutter-l;
@@ -1386,6 +1397,9 @@ img {
       margin-right: auto;
       margin-bottom: $gutter-l;
       text-align: center;
+      @media screen and (max-width: 500px) {
+        font-size: 32px;
+      }
       &+p {
         width: 100%;
         max-width: 570px;
@@ -1868,17 +1882,74 @@ blockquote {
 }
 
 .pricetoggle {
+  &__sticky {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    background-color: #000;
+    display: none;
+    &--active {
+      display: block;
+    }
+  }
+  &__stickybuttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  &__stickybutton {
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+    font-size: 20px;
+    font-family: $font-headline;
+    cursor: pointer;
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+      padding: 10px;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: #fff;
+    }
+    &--active {
+      color: $color-primary;
+      &:before {
+        background-color: $color-primary;
+        height: 8px;
+      }
+    }
+  }
+  .pricetoggle__stickybutton + .pricetoggle__stickybutton {
+    margin-left: 30px;
+  }
   &__content {
     display: none;
     text-align: center;
     &--active {
       display: block;
     }
-    > h3, > p {
+    > h2, > p {
       width: 100%;
       max-width: 540px;
       margin-left: auto;
       margin-right: auto;
+    }
+    > h2 {
+      font-size: 28px;
     }
     > img {
       display: inline-block;
@@ -1892,6 +1963,11 @@ blockquote {
       margin: 60px auto;
       img {
         margin-bottom: 20px;
+      }
+      p {
+        font-family: $font-copy;
+        font-weight: 400;
+        line-height: auto;
       }
     }
   }
@@ -1925,6 +2001,8 @@ blockquote {
       padding-bottom: 15px;
       border-bottom: 1px solid #000;
       margin: 0 0 15px 0;
+      font-family: $font-copy;
+      font-weight: 400;
       .col-2 {
         padding: 0;
         margin: 0;
@@ -1936,11 +2014,13 @@ blockquote {
     .headline-tag {
       position: relative;
       font-size: 28px;
+      font-family: $font-copy;
       &:after {
         content: attr(data-tag);
         background-color: #000;
         margin-left: 10px;
         color: #fff;
+        font-family: $font-headline;
         border-radius: 10px;
         font-size: 18px;
         padding: 0 8px;
@@ -1950,6 +2030,7 @@ blockquote {
     .headline-free {
       font-size: 40px;
       line-height: 48px;
+      font-family: $font-headline;
     }
     ul {
       margin-bottom: 20px;
@@ -1975,6 +2056,12 @@ blockquote {
         &--inactive {
           display: none;
         }
+        > p strong {
+          font-family: $font-headline;
+          font-size: $font-size-m;
+          margin-bottom: $gutter-s;
+          display: inline-block;
+        }
       }
       &__result {
         display: none;
@@ -1983,7 +2070,7 @@ blockquote {
         }
       }
       &__box {
-        border: 1px solid #000;
+        border: 2px solid #000;
         border-radius: 10px;
         padding: 20px;
         margin: 20px 0;
@@ -2001,6 +2088,12 @@ blockquote {
       &__title {
         padding-right: 20px;
         flex: 1;
+        font-size: $font-size-xs;
+        line-height: normal;
+        strong {
+          font-family: $font-headline;
+          font-size: $font-size-m;
+        }
       }
       &__users {
         border: 2px solid #e5e5e5;
@@ -2089,11 +2182,13 @@ blockquote {
             content: attr(data-tag);
             background-color: #000;
             color: #fff;
+            font-family: $font-headline;
             padding: 2px 8px;
             font-size: 18px;
             margin-left: 10px;
             border-radius: 10px;
             display: inline-block;
+            vertical-align: middle;
           }
         }
       }
@@ -2140,7 +2235,7 @@ blockquote {
         font-size: 14px;
       }
       .small {
-        font-size: 14px;
+        font-size: 12px;
       }
       input[type='checkbox'] {
         display: none;
@@ -2166,7 +2261,7 @@ blockquote {
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
-        margin-bottom: 35px;
+        margin: 35px 0;
         .prerange {
           background-color: #c4c4c4;
           width: 10%;
@@ -2277,10 +2372,11 @@ blockquote {
       display: block;
       margin-bottom: 30px;
     }
-    span {
+    h3 {
       font-family: $font-headline;
       font-weight: 700;
-      font-size: 24px;
+      font-size: 20px;
+      margin-top: 0 !important;
     }
     &--active, &:hover {
       border-color: $color-primary;
@@ -2312,15 +2408,22 @@ blockquote {
     width: 100%;
     margin: 0 auto 60px auto;
   }
+  &__logo {
+    img {
+      display: block;
+    }
+  }
   &__title {
     flex: 1;
     font-size: 28px;
+    line-height: 1;
     .headline-tag {
       font-size: 18px;
       background-color: #c4c4c4;
-      border-radius: 10px;
-      padding: 3px 8px;
+      border-radius: 20px;
+      padding: 5px 10px;
       margin-bottom: 16px;
+      display: inline-block;
       &:before {
         content: "";
         width: 1em;
@@ -2339,10 +2442,13 @@ blockquote {
     text-align: right;
     white-space: nowrap;
     font-size: 14px;
+    line-height: 1;
     span {
       color: $color-primary;
       font-size: 30px;
       line-height: 1;
+      margin-bottom: $gutter-xs;
+      display: inline-block;
     }
     a {
       color: #000;
@@ -2359,7 +2465,7 @@ blockquote {
       font-size: 16px;
       font-family: $font-headline;
       text-transform: uppercase;
-      letter-spacing: 0.1;
+      letter-spacing: 0.1em;
       margin-bottom: 15px;
     }
     h1 {
@@ -2406,7 +2512,7 @@ blockquote {
   }
   &__browser {
     border: 2px solid #fff;
-    padding: 30px 30px;
+    padding: 30px 30px 20px 30px;
     text-align: center;
     font-family: $font-headline;
     font-size: 24px;
@@ -2416,10 +2522,17 @@ blockquote {
     &--active {
       border-color: $color-primary;
     }
-    img {
-      display: block;
+    div {
+      background-color: #fff;
+      padding: 10px;
       width: 60px;
+      height: 60px;
+      border-radius: 50%;
       margin: 0 auto 20px auto;
+      img {
+        display: block;
+        width: 40px;
+      }
     }
   }
   &__button {
@@ -2435,5 +2548,40 @@ blockquote {
     &--active {
       display: table !important;
     }
+  }
+}
+
+.browsers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 45px;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+  &__browser {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(#c4c4c4, 0.3);
+    &--chrome {
+      background-image: url(../images/icons_png/google-chrome.png);
+    }
+    &--firefox {
+      background-image: url(../images/icons_png/mozilla-firefox.png);
+    }
+    &--edge {
+      background-image: url(../images/icons_png/internet-explorer.png);
+    }
+    &--active {
+      background-color: #fff;
+      border: 4px solid #86EC16;
+    }
+  }
+  .browsers__browser + .browsers__browser {
+    margin-left: 25px;
   }
 }

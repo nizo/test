@@ -527,9 +527,9 @@ $r->addRoute('GET', '/salesforce', function() {
 });
 
 $r->addRoute('GET', '/softphone', function() {
-  $title = 'Softphone';
-  $description = 'Softphone';
-  $keywords = '';
+  $title = 'Telefonieren aus Ihrem Lieblingsbrowser - Softphone | CallOne';
+  $description = 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter';
+  $keywords = 'Microsoft TEAMS, VoIP, SIP Phone, Softphone, 1-Click, SBC, Sipgate, Placetel, Telekom, Cloud Telefonanlage, Telefonieren mit dem PC, PBX';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/softphone';
   require_once('./layouts/header.php');

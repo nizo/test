@@ -16,19 +16,21 @@
         position: relative;
         display: block;
         width: 72px;
-        height: 48px;
+        height: 40px;
         background-color: #c4c4c4;
         cursor: pointer;
-        border-radius: 24px;
+        border-radius: 22px;
+        transition: all 0.3s ease;
         &:before {
           content: "";
           position: absolute;
-          top: 8px;
-          right: 8px;
+          top: 4px;
+          right: 4px;
           width: 32px;
           height: 32px;
           background-color: #484848;
           border-radius: 50%;
+          transition: all 0.3s ease;
         }
       }
       &:checked {
@@ -36,8 +38,7 @@
           background-color: $color-primary;
           &:before {
             background-color: #fff;
-            right: auto;
-            left: 8px;
+            right: 36px;
           }
         }
       }
@@ -65,7 +66,7 @@
   &__box {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     min-width: calc(33% - 20px);
     background-color: #fff;
     border: 2px solid #000;
@@ -81,6 +82,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: auto;
     &+.compare__info {
       margin-top: 10px;
     }
