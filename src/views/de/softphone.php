@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="media centered mobile-hidden">
-        <img src="/assets/images/screens/Intro-softphone-desktop.svg" alt="" />
+        <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="" />
       </div>
     </header>
 
@@ -23,7 +23,7 @@
     </p>
 
     <p class="centered desktop-hidden margin-top-40">
-      <img src="/assets/images/icons_svg/intro-softphone-mobil.svg" alt="" />
+      <img src="/assets/images/screens/Intro-Softphone-mobil.png" alt="" />
     </p>
 
     <p class="centered mobile-hidden"><strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?</p>
@@ -85,8 +85,8 @@
           <!-- <img src="/assets/images/screens/funktionen-click-to-dial.svg" alt="" /> -->
           <div class="tabset__video">
             <video>
-              <source src="/assets/videos/softphone-webm/Click-To-Dial.webm" type="video/webm" />
-              <source src="/assets/videos/softphone-mp4/Click-To-Dial.mp4" type="video/mp4" />
+              <source src="/assets/videos/softphone-webm/Click-to-Dial.webm" type="video/webm" />
+              <source src="/assets/videos/softphone-mp4/Click-to-Dial.mp4" type="video/mp4" />
             </video>
           </div>
           <p class="centered">Rufnummern werden im Browser erkannt und anwählbar mit nur einem Klick. Das Softphone verfügt über eine 1-Click-Funktion mit intelligenter Rufnummernerkennung.</p>
@@ -635,7 +635,7 @@
             Mozilla<br />Firefox
           </a>
           <a href="#" class="installation__browser" data-browser="edge">
-            <div><img src="/assets/images/icons_png/internet-explorer.png" alt="" /></div>
+            <div><img src="/assets/images/icons_svg/edge-logo.svg" alt="" /></div>
             Microsoft<br />Edge
           </a>
         </div>

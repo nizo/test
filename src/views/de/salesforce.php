@@ -16,7 +16,7 @@
           <a href="#" class="crm-tool-logo">
             <img src="/assets/images/crm-logos/salesforce-app.png" alt="" />
           </a>
-          <img src="/assets/images/screens/hero-image-browser-softphone.png" alt="" />
+          <img src="/assets/images/screens/Hero-Image-Salesforce.png" alt="" />
         </div>
       </div>
     </header>
@@ -25,7 +25,7 @@
 
 <div class="wrapper">
   <div class="content narrow">
-    <img src="/assets/images/screens/Click-to-Call.png" alt="Click to call" />
+    <img src="/assets/images/screens/Click-to-Call-Salesforce.png" alt="Click to call" />
 
     <h2>Click-to-Call direkt aus Salesforce oder mit dem CallOne Softphone</h2>
     <p>Führen Sie ausgehende Anrufe von Ihrer Salesforce-Benutzeroberfläche aus, ohne den Bildschirm wechseln zu müssen. Anrufe werden direkt an Ihr gewähltes VoIP-Gerät (Softphone, Hardware-Telefon) oder CallOne WebRTC gesendet.</p>
