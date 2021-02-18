@@ -2,14 +2,19 @@
   <div class="content wide">
     <header class="main-header">
       <div class="text">
-        <h1 class="secondary">Telefonieren aus Ihrem Lieblingsbrowser</h1>
-        <p class="primary">Eine Telefon-App integriert als Browser-Extension für Ihre ein- und ausgehenden Telefonate auf Knopfdruck</p>
+        <div class="browsers mobile-hidden">
+          <div class="browsers__browser browsers__browser--chrome" data-browser="chrome"></div>
+          <div class="browsers__browser browsers__browser--firefox" data-browser="firefox"></div>
+          <div class="browsers__browser browsers__browser--edge" data-browser="edge"></div>
+        </div>
+        <h1 class="secondary">Softphone integriert in Ihren Lieblingsbrowser</h1>
+        <p class="primary">Ein- und ausgehende Telefonate direkt im Browser auf Knopfdruck führen. Unser VoIP Telefon optional kombinierbar mit Ihrer Telefonanlage.</p>
         <div class="button-set mobile-hidden">
           <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
         </div>
       </div>
       <div class="media centered mobile-hidden">
-        <img src="/assets/images/screens/Intro-softphone-desktop.svg" alt="" />
+        <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="" />
       </div>
     </header>
 
@@ -18,16 +23,16 @@
     </p>
 
     <p class="centered desktop-hidden margin-top-40">
-      <img src="/assets/images/icons_svg/intro-softphone-mobil.svg" alt="" />
+      <img src="/assets/images/screens/Intro-Softphone-mobil.png" alt="" />
     </p>
 
     <p class="centered mobile-hidden"><strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?</p>
 
     <div class="button-set centered mobile-hidden">
-      <a href="#funktionen" class="button small-rounded white-shadow button--anchor">Funktionen</a>
-      <a href="#vergleich" class="button small-rounded white-shadow button--anchor">Vergleich zu MS Teams</a>
-      <a href="#preise" class="button small-rounded white-shadow button--anchor">Preise</a>
-      <a href="#installation" class="button small-rounded white-shadow button--anchor">Installation &amp; FAQ</a>
+      <a href="#funktionen" class="button small-rounded white-shadow button--anchor button--noletterspacing">Funktionen</a>
+      <a href="#vergleich" class="button small-rounded white-shadow button--anchor button--noletterspacing">Vergleich zu MS Teams</a>
+      <a href="#preise" class="button small-rounded white-shadow button--anchor button--noletterspacing">Preise</a>
+      <a href="#installation" class="button small-rounded white-shadow button--anchor button--noletterspacing">Installation &amp; FAQ</a>
     </div>
   </div>
 </div>
@@ -42,8 +47,10 @@
       </div>
     </h1>
 
-    <h2>Entfesseln Sie Ihre Telefonie!</h2>
-    <p>Funktionen, die es Ihnen einfach machen</p>
+    <h2>
+      Entfesseln Sie Ihre Telefonie!
+      <span>Telefonieren Sie über den PC und nutzen Sie kostenlos unser Softphone mit Funktionen, die Sie lieben werden</span>
+    </h2>
 
     <div class="tabset">
       <div class="tabset__links">
@@ -64,7 +71,10 @@
         <div class="tabset__tab" data-tab="1">
           <!-- <img src="/assets/images/screens/funktionen-softphone.svg" alt="" /> -->
           <div class="tabset__video">
-            <video src="/assets/videos/softphone-1.webm" type="video/webm"></video>
+            <video>
+              <source src="/assets/videos/softphone-webm/Softphone.webm" type="video/webm" />
+              <source src="/assets/videos/softphone-mp4/Softphone.mp4" type="video/mp4" />
+            </video>
           </div>
           <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
           <div class="button-set centered">
@@ -74,9 +84,12 @@
         <div class="tabset__tab" data-tab="2">
           <!-- <img src="/assets/images/screens/funktionen-click-to-dial.svg" alt="" /> -->
           <div class="tabset__video">
-            <video src="/assets/videos/softphone-2.webm" type="video/webm"></video>
+            <video>
+              <source src="/assets/videos/softphone-webm/Click-to-Dial.webm" type="video/webm" />
+              <source src="/assets/videos/softphone-mp4/Click-to-Dial.mp4" type="video/mp4" />
+            </video>
           </div>
-          <p class="centered">Unsere Softphone App erkennt Rufnummern auf Webseiten und ermöglicht bequemes Anwählen auf Knopfdruck.</p>
+          <p class="centered">Rufnummern werden im Browser erkannt und anwählbar mit nur einem Klick. Das Softphone verfügt über eine 1-Click-Funktion mit intelligenter Rufnummernerkennung.</p>
           <div class="button-set centered">
             <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
           </div>
@@ -84,7 +97,10 @@
         <div class="tabset__tab" data-tab="3">
           <!-- <img src="/assets/images/screens/funktionen-bring-your-own-provider.svg" alt="" /> -->
           <div class="tabset__video">
-            <video src="/assets/videos/softphone-3.webm" type="video/webm"></video>
+            <video>
+              <source src="/assets/videos/softphone-webm/Own-Provider.webm" type="video/webm" />
+              <source src="/assets/videos/softphone-mp4/Own-Provider.mp4" type="video/mp4" />
+            </video>
           </div>
           <p class="centered">Flexibilität heißt bei CallOne: Sie können unsere Telefonanlage nutzen, müssen aber nicht! Wir bieten für zahlreiche VoIP-Anbieter eine nahtlose Integration in unser Softphone.</p>
           <div class="button-set centered">
@@ -240,7 +256,7 @@
               <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
             </div>
             <div class="compare__text">
-              Einrichtung nur mit Adminrechten. Powershell und zusätzliche Schritte notwendig.
+              Einrichtung teilweise nur mit bestimmten Adminrechten. Powershell und zusätzliche Schritte notwendig.
             </div>
           </div>
         </div>
@@ -301,7 +317,7 @@
       </div>
     </div>
 
-    <p class="centered">*Microsoft Teams ist eine eingetragene und geschützte Marke.</p>
+    <p class="centered footnote">*Microsoft Teams ist eine eingetragene und geschützte Marke.</p>
   </div>
 </div>
 
@@ -311,26 +327,39 @@
     <p class="mobile-left">Das CallOne Softphone ist die perfekte Erweiterung für Ihre Businesstelefonie. Es funktioniert sowohl mit Ihrem existierenden VoIP-Carrier als auch mit der CallOne Telefonie-Welt. Wie möchten Sie das Softphone nutzen?</p>
 
     <div class="pricetoggle">
+      <div class="pricetoggle__sticky">
+        <div class="pricetoggle__stickybuttons">
+          <div class="pricetoggle__stickybutton" data-pricebox="1">
+            Eigenen Provider<br />
+            verbinden
+          </div>
+          <div class="pricetoggle__stickybutton" data-pricebox="2">
+            Softphone mit<br />
+            VoIP-Telefonanlage
+          </div>
+        </div>
+      </div>
+
       <div class="pricetoggle__buttons">
         <div class="pricetoggle__button" data-pricebox="1">
           <img src="/assets/images/icons_svg/eigener-provider.svg" alt="" />
-          <span>Eigenen Provider verbinden</span>
+          <h3>Eigenen Provider verbinden</h3>
         </div>
         <div class="pricetoggle__button" data-pricebox="2">
           <img src="/assets/images/icons_svg/callone-telefonanlage.svg" alt="" />
-          <span>Softphone mit VoIP-Telefonanlage</span>
+          <h3>Softphone mit VoIP-Telefonanlage</h3>
         </div>
       </div>
 
       <div class="mobile-hidden">
         <div class="pricetoggle__content" data-pricebox="1">
-          <h3>Ruckzuck verbinden und aus dem Browser lostelefonieren</h3>
+          <h2>Ruckzuck verbinden und aus dem Browser lostelefonieren</h2>
           <p>Das Softphone mit den Grundfunktionen für Telefonie und Click-to-Dial können Sie stets kostenfrei nutzen. Zukünftige Features für noch angenehmere Business-Telefonie können Sie für einen Aufpreis dazubuchen.</p>
 
           <img src="/assets/images/softphone/SIP-visualization.svg" alt="" />
 
           <div class="pricetoggle__whitebox">
-            <div class="grid">
+            <div class="grid flex vcenter">
               <div class="col-2">
                 <span class="headline-tag" data-tag="Basic">Softphone</span><br />
                 mit eigenem SIP-Provider
@@ -352,21 +381,21 @@
         </div>
 
         <div class="pricetoggle__content" data-pricebox="2">
-          <h3>Holen Sie das Beste aus Ihrer Businesstelefonie heraus!</h3>
+          <h2>Holen Sie das Beste aus Ihrer Businesstelefonie heraus!</h2>
           <p>CallOne ist der Spezialist, wenn es um hochwertige moderne Telekommunikation geht, die sich nahtlos in Ihre IT-Infrastruktur einpasst.</p>
 
           <div class="grid centered">
             <div class="col-3">
               <img src="/assets/images/icons_svg/icon-spezialist.svg" alt="" />
-              <span>Spezialist für<br />Business Telefonie</span>
+              <p class="secondary">Spezialist für<br />Business Telefonie</p>
             </div>
             <div class="col-3">
               <img src="/assets/images/icons_svg/icon-ansprechpartner.svg" alt="" />
-              <span>Persönlicher<br />Ansprechpartner</span>
+              <p class="secondary">Persönlicher<br />Ansprechpartner</p>
             </div>
             <div class="col-3">
               <img src="/assets/images/icons_svg/icon-datenschutz.svg" alt="" />
-              <span>Deutscher<br />Datenschutz-Standard</span>
+              <p class="secondary">Deutscher<br />Datenschutz-Standard</p>
             </div>
           </div>
 
@@ -405,7 +434,7 @@
                   </div>
 
                   <p class="small">
-                    Hinweis: Preise zzgl. optionaler Einrichtung durch CallOne und einmaliger Aktivierung von 99,00 €. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Unsere Lösungen sind erfahrungsgemäß zu umfassend für Unternehmen unter 25 Mitarbeitenden.
+                    <strong>Hinweis:</strong> Preise zzgl. optionaler Einrichtung durch CallOne und einmaliger Aktivierung von 99,00 €. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Unsere Lösungen sind erfahrungsgemäß zu umfassend für Unternehmen unter 25 Mitarbeitenden.
                   </p>
                 </div>
 
@@ -598,15 +627,15 @@
 
         <div class="installation__browsers">
           <a href="#" class="installation__browser" data-browser="chrome">
-            <img src="/assets/images/icons_png/google-chrome.png" alt="" />
+            <div><img src="/assets/images/icons_png/google-chrome.png" alt="" /></div>
             Google<br />Chrome
           </a>
           <a href="#" class="installation__browser" data-browser="firefox">
-            <img src="/assets/images/icons_png/mozilla-firefox.png" alt="" />
+            <div><img src="/assets/images/icons_png/mozilla-firefox.png" alt="" /></div>
             Mozilla<br />Firefox
           </a>
           <a href="#" class="installation__browser" data-browser="edge">
-            <img src="/assets/images/icons_png/internet-explorer.png" alt="" />
+            <div><img src="/assets/images/icons_svg/edge-logo.svg" alt="" /></div>
             Microsoft<br />Edge
           </a>
         </div>

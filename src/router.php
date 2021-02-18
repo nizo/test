@@ -108,7 +108,7 @@ $r->addRoute('GET', '/cloud-telefonanlage', function() {
   $background = 'bg-businesstelefonie';
   $ogUrl = $GLOBALS['url'] . '/cloud-telefonanlage';
   require_once('./layouts/header.php');
-  require_once('./views/de/businesstelefonie.php');
+  require_once('./views/de/cloud-telefonanlage.php');
   require_once('./layouts/footer.php');
 });
 
@@ -155,7 +155,7 @@ $r->addRoute('GET', '/preiskalkulator', function() {
   $background = 'full-bg background-transition';
   $ogUrl = $GLOBALS['url'] . '/preiskalkulator';
   require_once('./layouts/header.php');
-  require_once('./views/de/price-calc.php');
+  require_once('./views/de/preiskalkulator.php');
   require_once('./layouts/footer.php');
 });
 
@@ -204,7 +204,7 @@ $r->addRoute('GET', '/callcenter-software', function() {
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software';
   require_once('./layouts/header.php');
-  require_once('./views/de/kundenservice.php');
+  require_once('./views/de/callcenter-software.php');
   require_once('./layouts/footer.php');
 });
 
@@ -215,7 +215,7 @@ $r->addRoute('GET', '/callcenter-software-features', function() {
   $background = 'bg-kundenservice';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software-features';
   require_once('./layouts/header.php');
-  require_once('./views/de/wishlist.php');
+  require_once('./views/de/callcenter-software-features.php');
   require_once('./layouts/footer.php');
 });
 
@@ -238,7 +238,7 @@ $r->addRoute('GET', '/callcenter-loesung', function() {
   $background = 'bg-preisanfrage';
   $ogUrl = $GLOBALS['url'] . '/callcenter-loesung';
   require_once('./layouts/header.php');
-  require_once('./views/de/produkt-acd.php');
+  require_once('./views/de/callcenter-loesung.php');
   require_once('./layouts/footer.php');
 });
 
@@ -249,7 +249,7 @@ $r->addRoute('GET', '/0800-lokal-nummern', function() {
   $background = 'bg-preisanfrage';
   $ogUrl = $GLOBALS['url'] . '/0800-lokal-nummern';
   require_once('./layouts/header.php');
-  require_once('./views/de/produkt-rufnummern.php');
+  require_once('./views/de/rufnummern.php');
   require_once('./layouts/footer.php');
 });
 
@@ -317,7 +317,7 @@ $r->addRoute('GET', '/voip-telefonanlage', function() {
   $background = 'bg-landingpages';
   $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
   require_once('./layouts/header.php');
-  require_once('./views/de/produkt-telefonanlage.php');
+  require_once('./views/de/voip-telefonanlage.php');
   require_once('./layouts/footer.php');
 });
 
@@ -329,7 +329,7 @@ $r->addRoute('GET', '/call-tracking', function() {
   $ogUrl = $GLOBALS['url'] . '/call-tracking';
   $canonical = $GLOBALS['url'] . '/call-tracking';
   require_once('./layouts/header.php');
-  require_once('./views/de/produkt-calltracking.php');
+  require_once('./views/de/calltracking.php');
   require_once('./layouts/footer.php');
 });
 
@@ -342,7 +342,7 @@ $r->addRoute('GET', '/callcenter-bot', function() {
   $ogImage = 'https://www.callone.de/assets/images/icons_png/robot-ogImage.png';
   $canonical = $GLOBALS['url'] . '/callcenter-bot';
   require_once('./layouts/header.php');
-  require_once('./views/de/produkt-voicebot.php');
+  require_once('./views/de/callcenter-bot.php');
   require_once('./layouts/footer.php');
 });
 
@@ -353,7 +353,7 @@ $r->addRoute('GET', '/callcenter-software-funktionen', function() {
   $background = 'bg-preisanfrage';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software-funktionen';
   require_once('./layouts/header.php');
-  require_once('./views/de/features-acd.php');
+  require_once('./views/de/callcenter-software-funktionen.php');
   require_once('./layouts/footer.php');
 });
 
@@ -364,7 +364,7 @@ $r->addRoute('GET', '/voip-telefonanlagen-funktionen', function() {
   $background = 'bg-preisanfrage';
   $ogUrl = $GLOBALS['url'] . '/voip-telefonanlagen-funktionen';
   require_once('./layouts/header.php');
-  require_once('./views/de/features-telephony.php');
+  require_once('./views/de/voip-telefonanlagen-funktionen.php');
   require_once('./layouts/footer.php');
 });
         
@@ -489,7 +489,7 @@ $r->addRoute('GET', '/callcenter-software-integrationen', function() {
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/integrations';
   require_once('./layouts/header.php');
-  require_once('./views/de/integrations.php');
+  require_once('./views/de/callcenter-software-integrationen.php');
   require_once('./layouts/footer.php');
 });
 
@@ -500,7 +500,7 @@ $r->addRoute('GET', '/callcenter-software-apps', function() {
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/api';
   require_once('./layouts/header.php');
-  require_once('./views/de/apps-integrations.php');
+  require_once('./views/de/callcenter-software-apps.php');
   require_once('./layouts/footer.php');
 });
 
@@ -511,7 +511,7 @@ $r->addRoute('GET', '/voip-api', function() {
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/api';
   require_once('./layouts/header.php');
-  require_once('./views/de/api-docs.php');
+  require_once('./views/de/voip-api.php');
   require_once('./layouts/footer.php');
 });
 
@@ -527,9 +527,9 @@ $r->addRoute('GET', '/salesforce', function() {
 });
 
 $r->addRoute('GET', '/softphone', function() {
-  $title = 'Softphone';
-  $description = 'Softphone';
-  $keywords = '';
+  $title = 'Telefonieren aus Ihrem Lieblingsbrowser - Softphone | CallOne';
+  $description = 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter';
+  $keywords = 'Microsoft TEAMS, VoIP, SIP Phone, Softphone, 1-Click, SBC, Sipgate, Placetel, Telekom, Cloud Telefonanlage, Telefonieren mit dem PC, PBX';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/softphone';
   require_once('./layouts/header.php');

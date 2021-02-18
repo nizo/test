@@ -8,7 +8,7 @@
         </h1>
         <p class="primary">Die CallOne CTI App für Salesforce Lightning & Classic ermöglicht Ihrem Vertriebsteam einen optimierten Workflow mit gesteigerter Effizienz und Produktivität.</p>
         <div class="button-set">
-          <a class="button tertiary rounded" href="#" target="_blank">Jetzt ausprobieren</a>
+          <a class="button tertiary rounded button--wider" href="#installation" target="_blank">Jetzt ausprobieren</a>
         </div>
       </div>
       <div class="media centered">
@@ -16,7 +16,7 @@
           <a href="#" class="crm-tool-logo">
             <img src="/assets/images/crm-logos/salesforce-app.png" alt="" />
           </a>
-          <img src="/assets/images/screens/hero-image-browser-softphone.png" alt="" />
+          <img src="/assets/images/screens/Hero-Image-Salesforce.png" alt="" />
         </div>
       </div>
     </header>
@@ -25,12 +25,12 @@
 
 <div class="wrapper">
   <div class="content narrow">
-    <img src="/assets/images/screens/Click-to-Call.png" alt="Click to call" />
+    <img src="/assets/images/screens/Click-to-Call-Salesforce.png" alt="Click to call" />
 
     <h2>Click-to-Call direkt aus Salesforce oder mit dem CallOne Softphone</h2>
     <p>Führen Sie ausgehende Anrufe von Ihrer Salesforce-Benutzeroberfläche aus, ohne den Bildschirm wechseln zu müssen. Anrufe werden direkt an Ihr gewähltes VoIP-Gerät (Softphone, Hardware-Telefon) oder CallOne WebRTC gesendet.</p>
     <div class="button-set centered">
-      <a href="#" class="button tertiary rounded">Direkt testen</a>
+      <a href="#installation" class="button tertiary rounded">Direkt testen</a>
     </div>
   </div>
 </div>
@@ -98,7 +98,7 @@
   </div>
 </div>
 
-<div class="wrapper">
+<div class="wrapper" id="installation">
   <div class="content wide">
     <h2>Installation</h2>
 
@@ -109,7 +109,7 @@
         </div>
         <h3>Salesforce Integration</h3>
         <p>Erfassen Sie automatisiert alle In- und Outbound-Gespräche in Salesforce mit Zuordnung zum passenden Kundendatensatz. Zusätzlich unterstützt die App das Setzen des ACD-Agentenstatus und ein einfaches Auslösen von Anrufen per Klick.</p>
-        <p><a href="#" class="button secondary black rounded button--inline mobileWrap">Pipedrive Marketplace</a></p>
+        <p><a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" class="button secondary black rounded button--inline mobileWrap">Pipedrive Marketplace</a></p>
       </div>
       <div class="col-2 card card--transparent card--border-left">
         <div class="card__image">
@@ -120,7 +120,7 @@
           CallOne Softphone
         </h3>
         <p>Das CallOne Softphone Plugin für den Chrome Browser ist spielend einfach in jeden Kundenservice oder Sales Workflow integrierbar. Probieren Sie es jetzt aus!</p>
-        <p><a href="#" class="button secondary black rounded button--inline mobileWrap">zu Chrome hinzufügen</a></p>
+        <p><a href="/softphone#installation" class="button secondary black rounded button--inline mobileWrap">zu Chrome hinzufügen</a></p>
       </div>
     </div>
   </div>
