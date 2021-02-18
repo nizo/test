@@ -3,16 +3,11 @@
     <h1>Impressum</h1>
 
     <h2>Postanschrift &amp; Niederlassung</h2>
+  
     <p>
-        <strong>CallOne GmbH</strong><br />
-        Dorfstraße 60 <br/>
-        15806 Zossen
-    </p>
-    
-    <p>
-        <strong>Zweigniederlassung</strong><br />
-          Charlottenstr. 107 <br />
-          14467 Potsdam
+      <strong>CallOne GmbH</strong><br />
+      Charlottenstr. 107 <br />
+      14467 Potsdam
     </p>
 
     <p>Vertretungsberechtigter Geschäftsführer: Björn Bendig</p>
