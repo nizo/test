@@ -641,13 +641,13 @@
         </div>
 
         <div class="button-set centered">
-          <a href="#" class="button tertiary rounded installation__button" data-browser="chrome">
+          <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" target="_blank" class="button tertiary rounded installation__button" data-browser="chrome">
             Zum Chrome Store <span class="button__icon icon-jump-forward"></span>
           </a>
-          <a href="#" class="button tertiary rounded installation__button" data-browser="firefox">
+          <a href="https://addons.mozilla.org/de/firefox/addon/callone/" class="button tertiary rounded installation__button" target="_blank" data-browser="firefox">
             Zum Firefox Add-On <span class="button__icon icon-jump-forward"></span>
           </a>
-          <a href="#" class="button tertiary rounded installation__button" data-browser="edge">
+          <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" target="_blank" class="button tertiary rounded installation__button" data-browser="edge">
             Zum Edge Add-On <span class="button__icon icon-jump-forward"></span>
           </a>
         </div>
