@@ -20,8 +20,8 @@ $jobs = jobs_load ();
           <a href="/callcenter-software" title="Virtuelle Callcenter Lösung für Sales und Service">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-software.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-software.svg" alt="Callcenter Software">
             <div>
-                <span>Callcenter-Software</span>
-                <p>Virtuelle Callcenter-Lösung <br>für Sales und Service</p>
+              <span>Callcenter-Software</span>
+              <p>Virtuelle Callcenter-Lösung <br>für Sales und Service</p>
             </div>
           </a>
         </li>
@@ -35,30 +35,39 @@ $jobs = jobs_load ();
           </a>
         </li>
         <li>
-          <a href="/0800-lokal-nummern"  title="Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit​">
+          <a href="/0800-lokal-nummern" title="Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit​">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-numbers.svg" data-srcset="/assets/images/icons_svg/menu-numbers.svg" alt="Rufnummern">
             <div>
               <span>Rufnummern</span>
-                Freecall 0800, lokale Rufnummern <br>aus Ihrem Vorwahlbereich und weltweit
+              Freecall 0800, lokale Rufnummern <br>aus Ihrem Vorwahlbereich und weltweit
             </div>
           </a>
         </li>
         <li>
-          <a href="/call-tracking"  title="Call-Tracking, Telefon-tracking, Co-Browsing-Session">
+          <a href="/call-tracking" title="Call-Tracking, Telefon-tracking, Co-Browsing-Session">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-calltracking.svg" data-srcset="/assets/images/icons_svg/menu-calltracking.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
             <div>
               <span>Call Tracking</span>
-                Eindeutiges verknüpfen Ihrer Bestellhotline <br>mit einer laufenden Websession
+              Eindeutiges verknüpfen Ihrer Bestellhotline <br>mit einer laufenden Websession
             </div>
           </a>
         </li>
         <li>
-          <a href="/callcenter-bot"  title="Voicebot, KI-Spracherkennung, IVR">
+          <a href="/callcenter-bot" title="Voicebot, KI-Spracherkennung, IVR">
             <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-bot.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-bot.svg" alt="Voicebot KI-Sprackerkennung" title="Zum Produkt Voicebot KI-Sprackerkennung">
             <div>
               <span>Callcenter-Bot</span>
-                Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
+              Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen
             </div>
+          </a>
+        </li>
+        <li>
+          <a href="/softphone" title="Browser, VoIP, Softphone">
+            <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-softphone.svg" data-srcset="/assets/images/icons_svg/menu-softphone.svg" alt="Browser, VoIP, Softphone" title="Zum Produkt Softphone">
+            <div>
+              <span><b class="color-green">NEU:</b> CallOne VoIP Softphone</span>
+              Softphone integriert in Ihren Lieblingsbrowser
+            </div>	
           </a>
         </li>
   		</ul>

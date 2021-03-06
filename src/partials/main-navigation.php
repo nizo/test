@@ -39,7 +39,7 @@ $jobs = jobs_load ();
               		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-voip.svg" data-srcset="/assets/images/icons_svg/menu-voip.svg" alt="VoIP Telefonanlage" title="VoIP Telefonanlage">
               	</span>	
               	<span>
-                    <span>VoIP-Telefonanlage</span>
+                  <span>VoIP-Telefonanlage</span>
               		Virtuelle Telefonanlage, <br>intuitiv bedienbar
               	</span>	
               </a>
@@ -50,7 +50,7 @@ $jobs = jobs_load ();
               		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-numbers.svg" data-srcset="/assets/images/icons_svg/menu-numbers.svg" alt="Rufnummern" title="Rufnummern">
               	</span>
               	<span>
-                    <span>Rufnummern</span>
+                  <span>Rufnummern</span>
                 	Freecall 0800, lokale Rufnummern <br>aus Ihrem Vorwahlbereich und weltweit​
                 </span>	
               </a>
@@ -61,7 +61,7 @@ $jobs = jobs_load ();
               		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-calltracking.svg" data-srcset="/assets/images/icons_svg/menu-calltracking.svg" alt="Call-Tracking" title="Zum Produkt Call-Tracking">
               	</span>
               	<span>
-                    <span>Call-Tracking</span>
+                  <span>Call-Tracking</span>
                 	Eindeutiges verknüpfen Ihrer Bestellhotline <br>mit einer laufenden Websession
                 </span>	
               </a>
@@ -72,8 +72,19 @@ $jobs = jobs_load ();
               		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-callcenter-bot.svg" data-srcset="/assets/images/icons_svg/menu-callcenter-bot.svg" alt="Voicebot KI-Spracherkennung" title="Zum Produkt Voicebot KI-Spracherkennung">
               	</span>
               	<span>
-                    <span>Callcenter-Bot</span>
+                  <span>Callcenter-Bot</span>
                 	Anliegen sprachgesteuert mit <br>KI-gesteuerten Sprachdialogsystemen lösen
+                </span>	
+              </a>
+            </li>
+            <li>
+              <a href="/softphone" class="product" title="Browser, VoIP, Softphone">
+              	<span class="img">
+              		<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/menu-softphone.svg" data-srcset="/assets/images/icons_svg/menu-softphone.svg" alt="Browser, VoIP, Softphone" title="Zum Produkt Softphone">
+              	</span>
+              	<span>
+                  <span><b class="color-green">NEU:</b> CallOne VoIP Softphone</span>
+                	Softphone integriert in Ihren Lieblingsbrowser
                 </span>	
               </a>
             </li>
