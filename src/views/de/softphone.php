@@ -69,7 +69,6 @@
       </div>
       <div class="tabset__tabs">
         <div class="tabset__tab" data-tab="1">
-          <!-- <img src="/assets/images/screens/funktionen-softphone.svg" alt="" /> -->
           <div class="tabset__video">
             <video>
               <source src="/assets/videos/softphone-webm/Softphone.webm" type="video/webm" />
@@ -82,7 +81,6 @@
           </div>
         </div>
         <div class="tabset__tab" data-tab="2">
-          <!-- <img src="/assets/images/screens/funktionen-click-to-dial.svg" alt="" /> -->
           <div class="tabset__video">
             <video>
               <source src="/assets/videos/softphone-webm/Click-to-Dial.webm" type="video/webm" />
@@ -95,7 +93,6 @@
           </div>
         </div>
         <div class="tabset__tab" data-tab="3">
-          <!-- <img src="/assets/images/screens/funktionen-bring-your-own-provider.svg" alt="" /> -->
           <div class="tabset__video">
             <video>
               <source src="/assets/videos/softphone-webm/Own-Provider.webm" type="video/webm" />
