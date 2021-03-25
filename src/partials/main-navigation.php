@@ -199,7 +199,7 @@ $jobs = jobs_load ();
     <!-- jobs -->
     <?php if (!empty ($jobs)): ?>
     <li>
-      <a class="arrow">Jobs</a>
+      <a class="arrow" href="/karriere">Jobs</a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
           <ul>
