@@ -175,7 +175,7 @@ function jobs_load ()
 	$job = new job ('Customer Success Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->url_set ('/karriere/job-customer-success-manager-in-potsdam');
 	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Wir haben einen Job für dich, den du lieben wirst: als '.$job->title_get().' für unseren Standort in der Potsdamer Innenstadt.​');
+	$job->text_intro_set ('Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->text_description_long_set ('Als Customer Success ManagerIn (m/w/d) bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte.');
 	$job->text_description_long_set ('Unsere Kunden sind vorwiegend mittelständische Unternehmen, die wir mit unseren Telefonlösungen im Bereich Kundenservice oder Inside-Sales Abteilungen unterstützen.');
 	$job->text_description_long_set ('Du bist Ansprechpartner*in unserer Kunden, mit denen wir einen sehr engen und partnerschaftlichen Kontakt pflegen. Du unterstützt sie vom Livegang bis hin zum normalen Tagesgeschäft, erarbeitest gemeinsam mit deinem Team Optimierungsvorschläge und  Lösungsstrategien.');
@@ -190,6 +190,30 @@ function jobs_load ()
 	$job->text_requirements_set ('Teamfähigkeit, Zuverlässigkeit und Eigeninitiative gehören zu deiner Persönlichkeit');
 	$job->text_requirements_set ('Erfahrung in der Kommunikation mit Kunden und Offenheit gegenüber neuen Menschen und Situationen');
 	$job->text_requirements_set ('Optimal wären Erfahrungen im Projektmanagement oder Customer Success im SaaS-Umfeld');
+	$job->text_requirements_set ('Sehr gute Kenntnisse von MS Office');
+	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
+	$jobs[] = $job;
+
+	$job = new job ('Projektmanager*in', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
+	$job->url_set ('/karriere/job-projektmanager-in-potsdam');
+	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und die Schulung der Mitarbeiter und stehst als zentrale Ansprechpartner*in zur Verfügung.');
+	$job->text_description_long_set ('Als Projektmanager*in bist du die Schnittstelle zwischen Entwicklung, Support und Lieferanten und arbeitest eigenständig an Neu- und Bestandskundenprojekten.');
+	$job->text_description_long_set ('Gemeinsam unterstützen wir unsere Kunden mit intelligenten Cloud-Softwarelösungen im Bereich der Telefonie von Kundenservice- und Sales-Abteilungen.');
+	$job->text_description_long_set ('Bei uns bist du Ansprechpartner*in für unsere Kunden im normalen Tagesgeschäfts, bei jährlichen Workshops oder neuen Projekten und pflegst mit ihnen einen partnerschaftlichen Kontakt.');
+	$job->text_tasks_set ('Eigenständige Betreuung von Bestandskunden');
+	$job->text_tasks_set ('Partnerschaftliche Zusammenarbeit mit Kunden-Ansprechpartner*innen');
+	$job->text_tasks_set ('Koordination und Durchführung von Onboardings');
+	$job->text_tasks_set ('Planung, Umsetzung und Analyse neuer Kundenprojekte');
+	$job->text_tasks_set ('Koordination zwischen Entwicklung, Lieferanten und Kunden');
+	$job->text_tasks_set ('Unterstützung unserer Kunden bei Anwendungsfragen');
+	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung (Quereinsteiger willkommen)');
+	$job->text_requirements_set ('Gute technische Auffassungsgabe und Interesse daran technische Sachverhalte zu verstehen');
+	$job->text_requirements_set ('Proaktive Grundhaltung und ausgeprägte Lösungskompetenz');
+	$job->text_requirements_set ('Erfahrung in der Kommunikation mit Kunden und Offenheit gegenüber neuen Menschen und Situationen');
+	$job->text_requirements_set ('Optimal wären Projektmanagement-Erfahrungen im SaaS-Umfeld');
 	$job->text_requirements_set ('Sehr gute Kenntnisse von MS Office');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
@@ -221,7 +245,7 @@ function jobs_load ()
 	$job = new job ('IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->url_set ('/karriere/job-it-systemkaufmann-frau-potsdam');
 	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Wir haben einen Job für dich, den du lieben wirst: als '.$job->title_get().' für unseren Standort in der Potsdamer Innenstadt.​');
+	$job->text_intro_set ('Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->text_description_long_set ('Als IT-Systemfachkraft bist du bei uns erste Ansprechperson unserer Kunden bei technischen Fragestellungen. Dabei unterstützt du nicht nur im Bereich von Alltagsproblemen im Bereich der IP-Telefonie, sondern auch bei Onboardings und der generellen Konfiguration und Administration unserer Telefonielösungen.');
 	$job->text_description_long_set ('Wenn du Freude daran hast komplexere Sachverhalte klar zu definieren und zu analysieren, bist du bei uns genau richtig. Neben klassichen IT-Support-Themen wünschen wir uns von dir Unterstützung bei der Umsetzung von IT-Projekten im Zusammenspiel mit verschiedenen APIs und Schnittstellen sowie bei der Implementierung neuer Produkte.');
 	$job->text_tasks_set ('Hilfestellungen bei Fragen zu Soft- und Hardware, sowie bei der Inbetriebnahme unseres Telefonsystems');
