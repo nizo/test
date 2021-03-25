@@ -241,11 +241,6 @@ Redirect 301 /cti-schnittstellen /callcenter-software-integrationen
 Redirect 301 /datenschutz.php /datenschutz
 Redirect 301 /disclaimer.php /impressum
 Redirect 301 /karriere.php /karriere
-Redirect 301 /position-back-office-manager.php /karriere/kundenberater-1st-level-support
-Redirect 301 /position-bestandskundenbetreuung.php /karriere/technischer-produktmanager
-Redirect 301 /position-team-assistenz.php /karriere/kundenberater-1st-level-support
-Redirect 301 /position-technical-consultant.php /karriere/technischer-produktmanager
-Redirect 301 /position-webdesigner.php /karriere
 Redirect 301 /pricing.php /preise
 Redirect 301 /salesforce-open-cti.php /cti-salesforce
 Redirect 301 /salesforce.php /cti-salesforce
@@ -267,7 +262,7 @@ Redirect 301 /downloads/Mitarbeiter_Webdesigner.pdf /downloads/Mitarbeiter_Techn
 Redirect 301 /agb.pdf /downloads/agb.pdf
 Redirect 301 /faq.php /faq/
 
-Redirect 302 /funkschau https://umfragen3.funkschau.de/index.php/378694
+Redirect 301 /jobs /karriere
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
