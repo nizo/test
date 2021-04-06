@@ -155,6 +155,10 @@ if (empty ($_REQUEST['url']))
 		define ('URL', '');
 else	define ('URL', $_REQUEST['url']);
 
+if (empty ($_REQUEST['webview_join_url']))
+		define ('WEBVIEW_JOIN_URL', null);
+else	define ('WEBVIEW_JOIN_URL', $_REQUEST['webview_join_url']);
+
 
 // connect to database
 $pdo = mariadb_connect (MARIADB_DATABASE);
@@ -189,8 +193,8 @@ if (empty ($row['ddi']))
 
 	$params = array ();
 	$query = 'REPLACE INTO callbrowsing
-			  (rootnumber, ddi, timestamp, session, text, callstatus, caller, url)
-			  VALUES (?, ?, FROM_UNIXTIME(?), ?, ?, ?, ?, ?)';
+			  (rootnumber, ddi, timestamp, session, text, callstatus, caller, url, webview_join_url)
+			  VALUES (?, ?, FROM_UNIXTIME(?), ?, ?, ?, ?, ?, ?)';
 	$params[] = phonenumber_to_digit ($rootnumber->rootnumber_get());
 	$params[] = DDI;
 	$params[] = time();
@@ -199,6 +203,7 @@ if (empty ($row['ddi']))
 	$params[] = 0;
 	$params[] = '';
 	$params[] = '';
+	$params[] = null;
 
 	$statement = $pdo->prepare ($query);
 	if (empty ($statement->execute ($params)))
@@ -218,10 +223,14 @@ else
 	$query = 'UPDATE callbrowsing
 			  SET timestamp=NOW(),
 			  text=?,
-			  url=?
-			  WHERE session=?';
+			  url=?';
+	if (!empty (WEBVIEW_JOIN_URL))
+		$query .= ', webview_join_url=?';
+	$query .= ' WHERE session=?';
 	$params[] = TEXT;
 	$params[] = URL;
+	if (!empty (WEBVIEW_JOIN_URL))
+		$params[] = WEBVIEW_JOIN_URL;
 	$params[] = IDENTITY.SESSION;
 
 	$statement = $pdo->prepare ($query);

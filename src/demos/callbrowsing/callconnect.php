@@ -156,6 +156,38 @@ switch (strtoupper ($request['event']))
 	
 		echo json_encode (array ());
 		break;
+
+	case 'HEARTBEAT':
+		$timeout = time () - (60*60);	// one hour
+		
+		$service = null;
+		if (!empty ($request['cb_data1']))
+			$service = phonenumber_to_digit ($request['cb_data1']);
+		if (empty ($service))
+			$service = phonenumber_to_digit ($request['service']);
+		
+		$params = array ();
+		$query = 'SELECT webview_join_url
+				  FROM callbrowsing
+				  WHERE rootnumber=?
+				  AND ddi=?
+				  AND UNIX_TIMESTAMP(timestamp)>=?';
+		$params[] = $service;
+		$params[] = $request['ddi'];
+		$params[] = $timeout;
+
+		$statement = $pdo->prepare ($query);
+		if (empty ($statement->execute ($params)))
+		{	echo json_encode (array ('error' => 'Database query error: '.$statement->queryString.' '.$statement->errorInfo()[2]));
+			exit ();
+		}
+		$row = $statement->fetch ();
+
+		$response = array ();
+		if (!empty ($row['webview_join_url']))
+			$response = array_merge ($response, response_link ($row['webview_join_url'], 'Kundenbildschirm anzeigen'));
+		echo json_encode ($response);
+		break;
 	
 	case 'HANGUP':
 		$service = null;

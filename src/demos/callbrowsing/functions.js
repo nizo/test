@@ -1,33 +1,36 @@
 $(function ()
 {
-	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null, cb_url=null, webview_sharing_link=null;
+	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null, cb_url=null, webview_join_url=null;
+
+	var settings =
+	{
+		// Surfly session options can be set here, or at the Company/Plan levels.
+		widget_key: 'd9a22485fef9410eb5e07ed4966d32b7',
+		private_session: true, // to make sure only logged in agents can join the call
+		require_password: false,
+		language: 'de',
+		block_until_agent_joins: false,
+		show_loading_screen: false
+	};
 
 	function webview_sharing_init ()
 	{
-		var settings = { widget_key:'d9a22485fef9410eb5e07ed4966d32b7' };
-
 		Surfly.init(settings, function(init)
-		{
-			if (init.success)
-			{
-				if (Surfly.isInsideSession)
-				{	webview_sharing_link = Surfly.currentSession.followerLink;
-					console.debug ('Webview sharing link: '+webview_sharing_link);
-				}
-				else console.info ('Webview sharing init successful.');
-			}
-			else console.error ('Webview sharing was unable to initialize properly: '+init.errorMsg);
+		{	if (!init.success)
+				console.error ('Webview sharing was unable to initialize properly: '+init.errorMsg);
 		});
 	}
 
 	window.callbrowsing_webview_sharing_start = function ()
 	{
-		var settings = { show_loading_screen: false };
-
 		if (window.webview_sharing_state)
 			return true;
 
-		Surfly.session(settings).startLeader();
+		Surfly.session(settings)
+		.on("session_started", function (session, event)
+		{	webview_join_url = session.followerLink;
+		})
+		.startLeader();
 	}
 
 	function callbrowsing_session_update ()
@@ -50,7 +53,8 @@ $(function ()
 				identity: window.identity,
 				session: sessionStorage.getItem (window.sessionname),
 				text: text,
-				url: url
+				url: url,
+				webview_join_url: webview_join_url
 			},
 			dataType: 'json',
 			success: function (data)
