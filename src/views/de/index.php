@@ -319,7 +319,7 @@
 </div>
 
 
-<div class="modal video-casestudy-check24 mobile-hidden">
+<div class="modal video-casestudy-check24">
   <?php include('./partials/modal-video-check24.php'); ?>
 </div>
 
