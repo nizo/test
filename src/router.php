@@ -146,6 +146,17 @@ $r->addRoute('GET', '/microsip', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/download', function() {
+  $title = 'CallOne Downloads';
+  $description = 'Software und Dokumente zum herunterladen';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/download';
+  require_once('./layouts/header.php');
+  require_once('./views/de/downloads.php');
+  require_once('./layouts/footer.php');
+});
+
 
 /* Preiskalkulator */
 $r->addRoute('GET', '/preiskalkulator', function() {

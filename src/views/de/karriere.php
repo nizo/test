@@ -13,7 +13,7 @@ $jobs_benefits = jobs_benefits_load ();
 		<header class="main-header">
 			<div class="text">
 				<h1>Da bist du ja – du fehlst bei uns!</h1>
-				<p class="primary">Deutschland im Jahr 2021... Die Digitalisierung schreitet voran wie nie zuvor. CallOne liefert Unternehmen cloudbasierte Telekommunikationslösungen, mit denen sie gegenüber den Herausforderungen einer sich schnell ändernden digitalen Welt optimal gerüstet sind.</p>
+				<p class="primary">Deutschland im Jahr <?=date('Y');?>... Die Digitalisierung schreitet voran wie nie zuvor. CallOne liefert Unternehmen cloudbasierte Telekommunikationslösungen, mit denen sie gegenüber den Herausforderungen einer sich schnell ändernden digitalen Welt optimal gerüstet sind.</p>
 				<div class="button-set">
 					<a class="openModal button tertiary rounded trackedElement" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal" data-modal="shortApplication">10 Sekunden Bewerbung</a>
 

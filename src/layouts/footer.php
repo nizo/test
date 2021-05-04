@@ -113,6 +113,7 @@
           <div class="footer-note-right">
             <a href="/impressum">Impressum</a>
             <a href="/datenschutz">Datenschutz</a>
+            <a href="/download">Downloads</a>
             <a href="/downloads/agb.pdf" target="_blank">AGB</a>
           </div>
         </div>
@@ -194,6 +195,7 @@
           <div class="footer-note-right">
             <a href="/impressum">Impressum</a>
             <a href="/datenschutz">Datenschutz</a>
+            <a href="/download">Downloads</a>
             <a href="/downloads/agb.pdf" target="_blank">AGB</a>
           </div>
         </div>
