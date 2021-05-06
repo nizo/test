@@ -237,6 +237,24 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     </div>
 </div>
 
+<div class="wrapper mobile-hidden">
+	<div class="content wide">
+		<div class="grid">
+			<div class="col-1">
+				<div class="shadow-box padding" style="height: 100%">
+					<p><strong class="h2">Was wir bieten</strong></p>
+					<ul class="list approved-list">
+					<?php
+					foreach ($job->text_offer_get() as $text_offer)
+						echo '<li>'.$text_offer.'</li>';
+					?>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="wrapper mobile-hidden background" id="quick-application">
   <div class="content narrow centered">
     <h2 class="h1 padding-top-60">Passt? 1.000 Fragen? Wir auch. <br>Lass uns dich so schnell wie möglich kennenlernen.</h2>

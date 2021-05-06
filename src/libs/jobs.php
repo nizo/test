@@ -9,6 +9,7 @@ class job
 	private $text_intro;
 	private $text_requirements;
 	private $text_tasks;
+	private $text_offer;
 	private $title;
 	private $url;
 
@@ -22,6 +23,7 @@ class job
 		$this->text_intro				= array ();
 		$this->text_requirements		= array ();
 		$this->text_tasks				= array ();
+		$this->text_offer				= array ();
 		$this->title					= $title;
 		$this->url						= '';
 	}
@@ -81,6 +83,13 @@ class job
 	}
 	function text_requirements_set ($text_requirements)
 	{	$this->text_requirements[] = $text_requirements;
+	}
+
+	function text_offer_get ()
+	{	return $this->text_offer;
+	}
+	function text_offer_set ($text_offer)
+	{	$this->text_offer[] = $text_offer;
 	}
 
 	function text_tasks_get ()
@@ -191,6 +200,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Erfahrung in der Kommunikation mit Kunden und Offenheit gegenüber neuen Menschen und Situationen');
 	$job->text_requirements_set ('Optimal wären Erfahrungen im Projektmanagement oder Customer Success im SaaS-Umfeld');
 	$job->text_requirements_set ('Sehr gute MS Office Kenntnisse, vor allem Excel, Word und Outlook');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -215,6 +232,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Erfahrung in der Kommunikation mit Kunden und Offenheit gegenüber neuen Menschen und Situationen');
 	$job->text_requirements_set ('Optimal wären Projektmanagement-Erfahrungen im SaaS-Umfeld');
 	$job->text_requirements_set ('Sehr gute Kenntnisse von MS Office');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -236,6 +261,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Eigenständige, proaktive und sorgfältige Arbeitsweise');
 	$job->text_requirements_set ('Sicherer Umgang mit den gängigen MS-Office-Programmen wie Word, Excel und Power Point');
 	$job->text_requirements_set ('Interesse an der Einarbeitung in neue Themengebiete und an einer "Allrounder-"-Tätigkeit');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->icon_set ('/assets/images/icons_svg/job_05.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -257,6 +290,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Gute Kenntnisse in HTML, PHP, mySQL und JavaScript');
 	$job->text_requirements_set ('Kenntnisse im Bereich Netzwerk, Firewall-Architekturen');
 	$job->text_requirements_set ('Zuverlässige Arbeitsweise und Eigeninitiative');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
 	$jobs[] = $job;
@@ -276,6 +317,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Grundkenntnisse im Bereich Netzwerk, Firewall-Architekturen und Programmierung (PHP, Python, Java o.Ä. und SQL) ');
 	$job->text_requirements_set ('Optimal wären Grundkenntnisse in den Bereichen VoIP und SIP sowie in Betriebssystemen und in der Arbeit mit der Browser-Console ');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->icon_set ('/assets/images/icons_svg/job_03.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs[] = $job;
@@ -296,6 +345,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Ein ausgeprägtes technisches Verständnis und die Faszination für Innovationen');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise, sowie die Eigeninitiative das ganze Team mit deinen Ideen voranzutreiben');
 	$job->text_requirements_set ('Sehr gutes Deutsch in Wort & Schrift');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs[] = $job;
@@ -315,6 +372,14 @@ function jobs_load ()
 	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
 	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
+	$job->text_offer_set ('Ein humorvolles Team mit unterschiedlichen Persönlichkeiten und Hands-on-Mentalität');
+	$job->text_offer_set ('Regelmäßiger Austausch und eine Diskussionskultur ohne Angst, das Falsche zu sagen');
+	$job->text_offer_set ('Freiraum: Du kannst deine Ideen und Vorstellungen einbringen und auch einfach mal etwas ausprobieren');
+	$job->text_offer_set ('Fundierte Einarbeitung in unsere Software-Lösungen für die Business-Telefonie');
+	$job->text_offer_set ('Ein sicherer Arbeitsplatz in einem Potsdamer IT-Unternehmen mit solidem Geschäftsmodell');
+	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
+	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
+	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs[] = $job;
