@@ -443,7 +443,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Welches Bewerbungsformat bevorzugen ihr?​</h4>
+    	<h4 class="title">Welches Bewerbungsformat bevorzugt ihr?​</h4>
     	<div class="content">
     		<p>Wir bevorzugen kein bestimmtes Bewerbungsformat. Ein Lebenslauf mit kurzem Anschreiben ist für uns aber ein Muss, um uns einen ersten Eindruck verschaffen zu können.</p>
     	</div>
@@ -464,11 +464,11 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     	</div>
     </div>
     <div class="container">
-    	<h4 class="title">Was erwartet mich beim Telefon oder Skypeinterview?​</h4>
+    	<h4 class="title">Was erwartet mich beim Telefon- oder Teams-Interview?​</h4>
     	<div class="content">
-    		<p>Telefoninterviews dienen nur dazu sich einen ersten Eindruck vom Gegenüber zu machen. 
-    		Wir erzählen dir etwas zu CallOne und der offenen Stelle und du kannst dich kurz vorstellen und offene Fragen klären. 
-    		Dann vereinbaren wir aber auch schnell einen Termin für ein persönliches Kennenlernen.</p>
+    		<p>Telefoninterviews dienen dazu, sich einen ersten Eindruck vom Gegenüber zu machen. 
+			Wir erzählen dir etwas zu CallOne und der offenen Stelle und du kannst dich kurz vorstellen und offene Fragen klären.
+			Dann vereinbaren wir aber auch schnell einen Termin für ein persönliches Kennenlernen, aktuell via MS Teams. </p>
     	</div>
     </div> 
     <div class="container">
