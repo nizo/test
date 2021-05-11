@@ -237,7 +237,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     </div>
 </div>
 
-<div class="wrapper mobile-hidden">
+<div class="wrapper">
 	<div class="content wide">
 		<div class="grid">
 			<div class="col-1">
