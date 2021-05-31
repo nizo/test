@@ -10,7 +10,6 @@ jobs:
       - uses: actions/checkout@v2
       # this is the new step using the ms-teams-notification action
       - uses: toko-bifrost/ms-teams-deploy-card@master
-      - name: Notify dedicated teams channel
         if: always()
         with:
           github-token: ${{ github.token }}
