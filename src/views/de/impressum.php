@@ -26,6 +26,11 @@
 
     <p>CallOne und Cloud ACD sind eingetragene Wort-Bild-Marken beim Deutschen Patent- und Markenamt.</p>
 
+    <p><strong>Hauptsitz</strong><br />
+    CallOne GmbH<br />
+    Dorfstraße 60<br />
+    15806 Zossen</p>
+
     <p><strong>Betrieblicher Datenschutzbeauftragter gemäß §4f Abs. 1 Bundesdatenschutzgesetz:</strong> <br />
     Stephan Schmidt <br />
     JusTech Berlin GmbH <br />
