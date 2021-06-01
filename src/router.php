@@ -560,6 +560,18 @@ $r->addRoute('GET', '/omr', function() {
   require_once('./layouts/footer.php');
 });
 
+// Contact
+$r->addRoute('GET', '/kontakt', function() {
+  $title = 'Kontakt';
+  $description = 'Kontakt';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/kontakt';
+  require_once('./layouts/header.php');
+  require_once('./views/de/contact.php');
+  require_once('./layouts/footer.php');
+});
+
 
 // FALLBACK 404
 $r->addRoute('GET', '/404', function() {
