@@ -79,6 +79,7 @@ function server() {
   });
   gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle));
   gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts));
+  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);

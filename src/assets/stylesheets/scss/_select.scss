@@ -1,0 +1,84 @@
+.callone-select {
+    position: relative;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    cursor: pointer;
+    &:after {
+        content: "";
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-image: url(../images/icons_svg/small-dropdown-black.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    select {
+        display: none;
+    }
+    &--open {
+        border-radius: 5px 5px 0 0;
+        &:after {
+            transform: translateY(-50%) rotate(180deg);
+        }
+        .callone-select__options {
+            display: block;
+        }
+    }
+    &--open {
+        .callone-select__label {
+            transform: translateY(calc(-50% - 12px));
+            padding: 0 5px;
+            left: 20px;
+            font-size: 12px;
+        }
+    }
+    &__label {
+        position: absolute;
+        top: 12px;
+        left: 25px;
+        pointer-events: none;
+        color: rgba(#000, .6);
+        transition: all .3s ease;
+        background-color: #fff;
+    }
+    &__label--active {
+        transform: translateY(calc(-50% - 12px));
+        padding: 0 5px;
+        left: 20px;
+        font-size: 12px;
+    }
+    &__selected {
+        font-size: 18px;
+        font-family: $font-copy;
+        line-height: 1.6;
+        padding: 10px 25px;
+    }
+    &__options {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: -2px;
+        transform: translateY(100%);
+        background-color: #fff;
+        list-style: none;
+        border: 2px solid #c4c4c4;
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+        z-index: 100;
+        width: calc(100% + 4px);
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    &__option {
+        padding: 10px 25px;
+        border-top: 1px solid #c4c4c4;
+        transition: all .3s ease;
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}

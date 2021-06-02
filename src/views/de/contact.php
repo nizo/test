@@ -28,22 +28,21 @@
 						<input type="text" name="name" placeholder=" " />
 						<label>Ihr Name</label>
 					</div>
+                    <select name="" id="" calloneSelect>
+                        <option value="-1">Position...</option>
+                        <option value="1">Oben</option>
+                        <option value="2">Unten</option>
+                        <option value="3">Links</option>
+                    </select>
 					<div>
 						<input type="email" name="email" placeholder=" " />
 						<label>Geschäftliche E-Mail</label>
 					</div>
-					<div>
-						<div class="customSelect">
-							<div class="group">
-								<div data-name="topic" id="topic" class="select-selected"></div>
-								<label for="topic">Thema Ihrer Kontaktanfrage</label>
-							</div>
-							<div class="select-items select-hide">
-								<div class="item">Thema 1</div>
-								<div class="item">Thema 2</div>
-							</div>
-						</div>
-					</div>
+                    <select name="" id="" calloneSelect>
+                        <option value="-1">Bitte wählen...</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                    </select>
 					<div>
 						<textarea name="message" rows="5" placeholder=" "></textarea>
 						<label>Ihre Nachricht an uns</label>
