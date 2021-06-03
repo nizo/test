@@ -1,12 +1,18 @@
 /*
  * Custom Select Boxes
  * Author: Max Boll
+ * Last Modification: 03 June 2021
  * 
  * Usage:
- * <select calloneSelect>
- *     <option value="-1">Label when nothing is selected</option>
+ * <select calloneSelect required>
+ *     <option value="">Label when nothing is selected</option>
  *     <option value="1">...</option>
  * </select>
+ * 
+ * Hint:
+ * First option is the label for when nothing has been selected, don't use it as an actual option
+ * Also the value of the first option has to be empty, set but empty: value=""
+ * This has to do with the "required" attribute
  */
 
 const selectBoxes = document.querySelectorAll('[calloneSelect]');
