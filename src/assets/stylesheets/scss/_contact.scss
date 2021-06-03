@@ -89,51 +89,81 @@
     &__content {
         display: none;
         padding: 30px;
-        form {
-            > div {
-                position: relative;
-                border: 2px solid #c4c4c4;
-                border-radius: 5px;
-                &+div {
-                    margin-top: 25px;
-                }
-                input, textarea, label {
-                    font-size: 18px;
-                    font-family: $font-copy;
-                    line-height: 1.6;
-                }
-                label {
-                    position: absolute;
-                    top: 12px;
-                    left: 25px;
-                    pointer-events: none;
-                    color: rgba(#000, .6);
-                    transition: all .3s ease;
-                    background-color: #fff;
-                }
-                input, textarea {
-                    padding: 10px 25px;
-                    color: #000;
-                    &:focus, &:not(:placeholder-shown) {
-                        &~label {
-                            transform: translateY(calc(-50% - 12px));
-                            padding: 0 5px;
-                            left: 20px;
-                            font-size: 12px;
-                        }
-                    }
-                }
-                .customSelect {
-                    position: relative;
-                    height: 48px;
-                    .select-hide {
-                        display: none;
-                    }
-                    .select-items {
-                        position: absolute;
+    }
+    &__form {
+        > div {
+            position: relative;
+            border: 2px solid #c4c4c4;
+            border-radius: 5px;
+            &+div {
+                margin-top: 25px;
+            }
+            input, textarea, label {
+                font-size: 18px;
+                font-family: $font-copy;
+                line-height: 1.6;
+            }
+            label {
+                position: absolute;
+                top: 12px;
+                left: 25px;
+                pointer-events: none;
+                color: rgba(#000, .6);
+                transition: all .3s ease;
+                background-color: #fff;
+            }
+            input, textarea {
+                padding: 10px 25px;
+                color: #000;
+                &:focus, &:not(:placeholder-shown) {
+                    &~label {
+                        transform: translateY(calc(-50% - 12px));
+                        padding: 0 5px;
+                        left: 20px;
+                        font-size: 12px;
                     }
                 }
             }
+            .customSelect {
+                position: relative;
+                height: 48px;
+                .select-hide {
+                    display: none;
+                }
+                .select-items {
+                    position: absolute;
+                }
+            }
+        }
+    }
+    &__form--success {
+        background-color: $color-lightgrey-2;
+        border-radius: 6px;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            display: block;
+            width: 96px;
+        }
+        h2, p {
+            max-width: 435px;
+            width: 100%;
+            text-align: center;
+        }
+        h2 {
+            font-family: $font-headline;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 33px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-family: $font-copy;
+            font-size: 24px;
+            line-height: 1.6;
         }
     }
     &--closed {

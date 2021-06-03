@@ -23,7 +23,7 @@
                 </div>
 			</label>
             <div class="contactoption__content">
-                <form>
+                <form class="contactoption__form">
 					<div>
 						<input type="text" name="name" placeholder=" " />
 						<label>Ihr Name</label>
@@ -44,6 +44,12 @@
 						<label>Ihre Nachricht an uns</label>
 					</div>
 				</form>
+                <!-- Display code below after form has been sent -->
+                <div class="contactoption__form--success" style="display: none;">
+                    <img src="/assets/images/icons_svg/sent-out-black.svg" alt="" />
+                    <h2>Super, wir sind kontaktiert!</h2>
+                    <p>Ihre Supportanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</p>
+                </div>
             </div>
         </div>
 
