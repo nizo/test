@@ -1,3 +1,14 @@
+/*
+ * Custom Select Boxes
+ * Author: Max Boll
+ * 
+ * Usage:
+ * <select calloneSelect>
+ *     <option value="-1">Label when nothing is selected</option>
+ *     <option value="1">...</option>
+ * </select>
+ */
+
 const selectBoxes = document.querySelectorAll('[calloneSelect]');
 
 selectValue = e => {
