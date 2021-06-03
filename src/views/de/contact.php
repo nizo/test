@@ -6,7 +6,7 @@
     <div class="contactpage__content">
         <h1>Was ist Ihre Kontakt-Motivation?</h1>
 
-		<input type="checkbox" class="contactoption__checkbox" id="contactoption1" checked="checked" />
+		<input type="checkbox" class="contactoption__checkbox" id="contactoption1" />
         <div class="contactoption">
             <label for="contactoption1" class="contactoption__header">
                 <div class="contactoption__icon">
@@ -28,20 +28,16 @@
 						<input type="text" name="name" placeholder=" " />
 						<label>Ihr Name</label>
 					</div>
-                    <select name="" id="" calloneSelect>
-                        <option value="-1">Position...</option>
-                        <option value="1">Oben</option>
-                        <option value="2">Unten</option>
-                        <option value="3">Links</option>
-                    </select>
 					<div>
 						<input type="email" name="email" placeholder=" " />
 						<label>Geschäftliche E-Mail</label>
 					</div>
-                    <select name="" id="" calloneSelect>
-                        <option value="-1">Bitte wählen...</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
+                    <select name="topic" calloneSelect>
+                        <option value="-1">Thema Ihrer Kontaktanfrage</option>
+                        <option value="1">Allgemeine Frage</option>
+                        <option value="2">Technisches Problem</option>
+                        <option value="3">Informationen anfordern</option>
+                        <option value="4">Anderes Anliegen</option>
                     </select>
 					<div>
 						<textarea name="message" rows="5" placeholder=" "></textarea>
@@ -65,5 +61,16 @@
                 </div>
             </div>
         </a>
+    </div>
+
+    <div class="contactpage__footer">
+        <div>
+            <h3>Anruf</h3>
+            <p><a href="tel:+493092033500">+49 (0) 30 - 920 33 500</a></p>
+        </div>
+        <div>
+            <h3>E-Mail</h3>
+            <p><script>eval(unescape("%78%6f%64%6c%69%31%36%3d%5b%27%25%36%39%25%36%65%25%36%36%25%36%66%27%2c%5b%27%25%36%34%25%36%35%27%2c%27%25%36%33%25%36%31%25%36%63%25%36%63%25%36%66%25%36%65%25%36%35%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%7a%6c%63%72%62%35%39%3d%27%69%6e%66%6f%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%7a%6c%63%72%62%35%39%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%78%6f%64%6c%69%31%36%29%29%3b"));</script></p>
+        </div>
     </div>
 </div>

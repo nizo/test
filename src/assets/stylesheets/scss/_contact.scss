@@ -36,6 +36,29 @@
             text-align: center;
         }
     }
+    &__footer {
+        width: 100%;
+        max-width: 830px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 70px 0;
+        text-align: center;
+        h3 {
+            font-family: $font-headline;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 10px;
+        }
+        a {
+            border-bottom: 2px solid $color-primary;
+            color: #fff;
+            &:hover {
+                border-color: #fff;
+            }
+        }
+    }
 }
 
 .contactoption {

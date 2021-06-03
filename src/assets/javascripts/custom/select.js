@@ -18,12 +18,36 @@ selectValue = e => {
     // Update value of selected option
     let selected = select.querySelector('.callone-select__selected');
     selected.innerHTML = option.textContent;
+    // Add clear button
+    let clear = document.createElement('div');
+    clear.classList.add('callone-select__clear');
+    selected.appendChild(clear);
+    clear.addEventListener('click', deselectValue);
     // Set class to keep label floating above
     let label = select.querySelector('.callone-select__label');
     label.classList.add('callone-select__label--active');
     // Set value of real select to what has been selected by the user
     let realSelect = select.querySelector('select');
     realSelect.value = option.dataset.value;
+}
+
+deselectValue = e => {
+    e.stopPropagation();
+    let clear = e.currentTarget;
+    let select = clear; // Parent box
+    while ((select = select.parentNode) && !select.classList.contains('callone-select'));
+    // Deselect all options
+    let realSelect = select.querySelector('select');
+    var options = realSelect.options;
+    for(var i = 0; i < options.length; i++){
+      options[i].selected = false;
+    }
+    // Empty selected label
+    let selected = select.querySelector('.callone-select__selected');
+    selected.innerHTML = "&nbsp;";
+    // Remove active class from label
+    let label = select.querySelector('.callone-select__label');
+    label.classList.remove('callone-select__label--active');
 }
 
 selectBoxes.forEach(select => {

@@ -1,5 +1,5 @@
     
-    <?php if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/testseite' || $_SERVER['REQUEST_URI'] === '/ueber-uns') : ?>
+    <?php if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/testseite' || $_SERVER['REQUEST_URI'] === '/ueber-uns' || $_SERVER['REQUEST_URI'] === '/kontakt') : ?>
     	<?php // nothing ?>
     <?php else : ?>
         <div class="wrapper">
@@ -32,7 +32,7 @@
     	</div>
     <?php endif; ?>
 
-    <footer class="main-footer" style="<?= $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/testseite' || $_SERVER['REQUEST_URI'] === '/ueber-uns'? 'margin-top: 0;' : '' ?>">
+    <footer class="main-footer" style="<?= $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/testseite' || $_SERVER['REQUEST_URI'] === '/ueber-uns' || $_SERVER['REQUEST_URI'] === '/kontakt'? 'margin-top: 0;' : '' ?>">
       <div class="footer-content desktop">
         <div class="footer-grid">
           <div class="footer-column">

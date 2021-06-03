@@ -57,6 +57,28 @@
         line-height: 1.6;
         padding: 10px 25px;
     }
+    &__clear {
+        display: inline-block;
+        cursor: pointer;
+        background-color: #c4c4c4;
+        border-radius: 5px;
+        color: #fff;
+        margin-left: 5px;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 12px;
+        line-height: 16px;
+        vertical-align: middle;
+        transition: all .3s ease;
+        &:before {
+            content: "x";
+        }
+        &:hover {
+            background-color: darken(#c4c4c4, 10%);
+        }
+    }
     &__options {
         display: none;
         position: absolute;
@@ -72,6 +94,22 @@
         width: calc(100% + 4px);
         max-height: 300px;
         overflow-y: auto;
+
+        --scrollbarBG: transparent;
+        --thumbBG: #ddd;
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        &::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG) ;
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
+        }
     }
     &__option {
         padding: 10px 25px;
