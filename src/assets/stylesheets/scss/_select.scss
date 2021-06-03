@@ -17,10 +17,18 @@
         background-repeat: no-repeat;
     }
     select {
-        display: none;
+        //display: none;
+        position: absolute;
+        background: transparent;
+        color: transparent;
+        width: 1px;
+        height: 1px;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
     }
     &--open {
-        border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0 !important;
         &:after {
             transform: translateY(-50%) rotate(180deg);
         }
@@ -94,7 +102,14 @@
         width: calc(100% + 4px);
         max-height: 300px;
         overflow-y: auto;
-
+        box-shadow: 0 10px 10px rgba(#000, 0.25);
+        // clip-path: polygon(
+        //     -10px 0,
+        //     calc(100% + 10px) 0,
+        //     calc(100% + 10px) calc(100% + 10px),
+        //     -10px calc(100% + 10px)
+        // );
+        // Costum Scrollbars
         --scrollbarBG: transparent;
         --thumbBG: #ddd;
         scrollbar-width: thin;

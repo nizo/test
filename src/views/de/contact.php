@@ -23,26 +23,31 @@
                 </div>
 			</label>
             <div class="contactoption__content">
-                <form class="contactoption__form">
+                <div class="contactoption__form--error" style="display: none;"><!-- Only display on error -->
+                    <h2>Etwas ist schiefgelaufen...</h2>
+                    <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
+                </div>
+                <form method="post" class="contactoption__form">
 					<div>
-						<input type="text" name="name" placeholder=" " />
+						<input type="text" name="name" placeholder=" " required />
 						<label>Ihr Name</label>
 					</div>
 					<div>
-						<input type="email" name="email" placeholder=" " />
+						<input type="email" name="email" placeholder=" " required />
 						<label>Geschäftliche E-Mail</label>
 					</div>
-                    <select name="topic" calloneSelect>
-                        <option value="-1">Thema Ihrer Kontaktanfrage</option>
+                    <select name="topic" calloneSelect required>
+                        <option value="">Thema Ihrer Kontaktanfrage</option>
                         <option value="1">Allgemeine Frage</option>
                         <option value="2">Technisches Problem</option>
                         <option value="3">Informationen anfordern</option>
                         <option value="4">Anderes Anliegen</option>
                     </select>
 					<div>
-						<textarea name="message" rows="5" placeholder=" "></textarea>
+						<textarea name="message" rows="5" placeholder=" " required></textarea>
 						<label>Ihre Nachricht an uns</label>
 					</div>
+                    <button type="submit" class="button tertiary rounded">An Support senden</button>
 				</form>
                 <!-- Display code below after form has been sent -->
                 <div class="contactoption__form--success" style="display: none;">

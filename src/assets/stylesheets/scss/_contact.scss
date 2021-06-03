@@ -54,6 +54,7 @@
         a {
             border-bottom: 2px solid $color-primary;
             color: #fff;
+            font-size: 18px;
             &:hover {
                 border-color: #fff;
             }
@@ -77,11 +78,20 @@
         cursor: pointer;
     }
     &__icon {
-        
+        width: 70px;
     }
     &__text {
         flex: 1;
-        padding: 0 50px;
+        padding: 0 30px;
+        font-family: $font-copy;
+        font-size: 18px;
+        line-height: 1.6;
+        strong {
+            font-family: $font-headline;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+        }
     }
     &__action {
         
@@ -103,6 +113,9 @@
                 font-family: $font-copy;
                 line-height: 1.6;
             }
+            textarea {
+                resize: none;
+            }
             label {
                 position: absolute;
                 top: 12px;
@@ -113,6 +126,8 @@
                 background-color: #fff;
             }
             input, textarea {
+                display: block;
+                width: 100%;
                 padding: 10px 25px;
                 color: #000;
                 &:focus, &:not(:placeholder-shown) {
@@ -135,8 +150,13 @@
                 }
             }
         }
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 25px;
+        }
     }
-    &__form--success {
+    &__form--success, &__form--error {
         background-color: $color-lightgrey-2;
         border-radius: 6px;
         padding: 50px 20px;
@@ -147,6 +167,7 @@
         img {
             display: block;
             width: 96px;
+            margin-bottom: 20px;
         }
         h2, p {
             max-width: 435px;
@@ -164,6 +185,18 @@
             font-family: $font-copy;
             font-size: 24px;
             line-height: 1.6;
+        }
+    }
+    &__form--error {
+        background-color: $color-red;
+        padding: 10px;
+        margin-bottom: 25px;
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
         }
     }
     &--closed {
@@ -187,6 +220,79 @@
                 .contactoption--open {
                     display: block;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .contactpage {
+        padding: 50px 20px;
+        &__header {
+            text-align: left;
+            padding-bottom: 30px;
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+        }
+        &__content {
+            h1 {
+                font-size: 24px;
+                text-align: left;
+            }
+        }
+        &__footer {
+            padding: 35px 0;
+            text-align: left;
+            justify-content: space-between;
+            h3 {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    .contactoption {
+        &__header {
+            padding: 15px;
+        }
+        &__icon {
+            width: 50px;
+        }
+        &__text {
+            padding: 0 15px;
+            font-size: 14px;
+            strong {
+                font-size: 18px;
+            }
+        }
+        &__content {
+            padding: 15px;
+        }
+        &__form {
+            >div {
+                &+div {
+                    margin-top: 15px;
+                }
+            }
+            button {
+                margin-top: 15px;
+            }
+        }
+        &__form--success {
+            padding: 80px 20px;
+            h2 {
+                font-size: 24px;
+                line-height: 29px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 20px;
             }
         }
     }
