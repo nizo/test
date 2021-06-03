@@ -27,7 +27,7 @@
                     <h2>Etwas ist schiefgelaufen...</h2>
                     <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
                 </div>
-                <form method="post" class="contactoption__form">
+                <form method="post" action="javascript:void(0);" class="contactoption__form">
 					<div>
 						<input type="text" name="name" placeholder=" " required />
 						<label>Ihr Name</label>
@@ -49,6 +49,22 @@
 					</div>
                     <button type="submit" class="button tertiary rounded">An Support senden</button>
 				</form>
+                <script>
+                    const submit = document.querySelector('.contactoption__form button');
+                    submit.addEventListener('click', e => {
+                        const xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function() {
+                            if (this.readyState == 4 && this.status == 200) {
+                                const errorMsg = document.querySelector('.contactoption__form--error');
+                                const successMsg = document.querySelector('.contactoption__form--success');
+                                const response = this.responseText;
+                                console.log(response);
+                            }
+                        };
+                        xhttp.open("POST", "#", true);
+                        xhttp.send();
+                    });
+                </script>
                 <!-- Display code below after form has been sent -->
                 <div class="contactoption__form--success" style="display: none;">
                     <img src="/assets/images/icons_svg/sent-out-black.svg" alt="" />
