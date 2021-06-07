@@ -23,11 +23,16 @@
                 </div>
 			</label>
             <div class="contactoption__content">
-                <div class="contactoption__form--error" style="display: none;"><!-- Only display on error -->
+                <div class="contactoption__form--success"><!-- Only display on success -->
+                    <img src="/assets/images/icons_svg/sent-out-black.svg" alt="" />
+                    <h2>Super, wir sind kontaktiert!</h2>
+                    <p>Ihre Supportanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</p>
+                </div>
+                <div class="contactoption__form--error"><!-- Only display on error -->
                     <h2>Etwas ist schiefgelaufen...</h2>
                     <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
                 </div>
-                <form method="post" action="mail.php" class="contactoption__form">
+                <form method="post" action="contacttesting.php" class="contactoption__form">
 					<div>
 						<input type="text" name="name" placeholder=" " required />
 						<label>Ihr Name *</label>
@@ -51,15 +56,20 @@
 				</form>
                 <script>
                     const form = document.querySelector('.contactoption__form');
+                    const errorMsg = document.querySelector('.contactoption__form--error');
+                    const successMsg = document.querySelector('.contactoption__form--success');
 
                     form.addEventListener('submit', e => {
+                        errorMsg.style.display = 'none';
+                        successMsg.style.display = 'none';
                         e.preventDefault();
 
                         // Get inputs
                         let inputs = new Object();
                         inputs.name = form.querySelector('input[name="name"]').value;
                         inputs.email = form.querySelector('input[name="email"]').value;
-                        inputs.topic = form.querySelector('select[name="topic"]').value;
+                        let topic = form.querySelector('select[name="topic"]');
+                        inputs.topic = topic.options[topic.selectedIndex].textContent;
                         inputs.message = form.querySelector('textarea[name="message"]').value;
                         const data = JSON.stringify(inputs);
 
@@ -67,23 +77,26 @@
                         const xhttp = new XMLHttpRequest();
                         xhttp.onreadystatechange = function() {
                             if (this.readyState == 4 && this.status == 200) {
-                                const errorMsg = document.querySelector('.contactoption__form--error');
-                                const successMsg = document.querySelector('.contactoption__form--success');
                                 const response = this.responseText;
-                                console.log(response);
+                                switch (response) {
+                                    case 'success':
+                                        form.classList.add('contactoption__form--hide') // Hide form
+                                        successMsg.style.display = 'flex'; // Display success message
+                                        break;
+                                    case 'error':
+                                        errorMsg.style.display = 'flex'; // Display error message
+                                        break;
+                                    default:
+                                        console.log(response);
+                                        break;
+                                }
                             }
                         };
                         xhttp.open('POST', form.getAttribute('action'), true);
-                        XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                        xhttp.send(data);
+                        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                        xhttp.send('data='+data);
                     });
                 </script>
-                <!-- Display code below after form has been sent -->
-                <div class="contactoption__form--success" style="display: none;">
-                    <img src="/assets/images/icons_svg/sent-out-black.svg" alt="" />
-                    <h2>Super, wir sind kontaktiert!</h2>
-                    <p>Ihre Supportanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</p>
-                </div>
             </div>
         </div>
 

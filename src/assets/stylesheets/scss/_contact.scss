@@ -156,11 +156,14 @@
             margin-top: 25px;
         }
     }
+    &__form--hide {
+        display: none;
+    }
     &__form--success, &__form--error {
         background-color: $color-lightgrey-2;
         border-radius: 6px;
         padding: 50px 20px;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
