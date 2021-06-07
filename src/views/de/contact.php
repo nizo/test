@@ -43,10 +43,10 @@
 					</div>
                     <select name="topic" calloneSelect required>
                         <option value="">Thema Ihrer Kontaktanfrage *</option>
-                        <option value="1">Allgemeine Frage</option>
-                        <option value="2">Technisches Problem</option>
-                        <option value="3">Informationen anfordern</option>
-                        <option value="4">Anderes Anliegen</option>
+                        <option value="Allgemeine Frage">Allgemeine Frage</option>
+                        <option value="Technisches Problem">Technisches Problem</option>
+                        <option value="Informationen anfordern">Informationen anfordern</option>
+                        <option value="Anderes Anliegen">Anderes Anliegen</option>
                     </select>
 					<div>
 						<textarea name="message" rows="5" placeholder=" " required></textarea>
@@ -91,48 +91,44 @@ const formMethod = 'POST';
 const formAction = 'contacttesting.php';
 const form = document.querySelector('.contactoption__form');
 const errorMsg = document.querySelector('.contactoption__form--error');
+const errorMsgHeadline = errorMsg.querySelector('h2');
 const errorMsgText = errorMsg.querySelector('p');
 const successMsg = document.querySelector('.contactoption__form--success');
 
 form.addEventListener('submit', e => {
-    errorMsg.style.display = 'none';
-    successMsg.style.display = 'none';
-    e.preventDefault();
-
+    errorMsg.style.display = 'none'; // Hide error message when form is submitted
+    e.preventDefault(); // Prevent the form from reloading/switching the page
+    
     // Get inputs
     let inputs = new Object();
     inputs.name = form.querySelector('input[name="name"]').value;
     inputs.email = form.querySelector('input[name="email"]').value;
-    let topic = form.querySelector('select[name="topic"]');
-    inputs.topic = topic.options[topic.selectedIndex].textContent;
+    inputs.topic = form.querySelector('select[name="topic"]').value;
     inputs.message = form.querySelector('textarea[name="message"]').value;
     const data = JSON.stringify(inputs);
 
     // AJAX Request
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-            if (this.status == 200) {
-                // Backend sent response, evaluate
-                const response = this.responseText;
-                switch (response) {
-                    case 'success':
-                        form.classList.add('contactoption__form--hide') // Hide form
-                        successMsg.style.display = 'flex'; // Display success message
-                        break;
-                    case 'error':
-                        errorMsgText.textContent = 'Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.'; // Change error message to display
-                        errorMsg.style.display = 'flex'; // Display error message
-                        break;
-                    default:
-                        console.log(response);
-                        break;
-                }
+        if (this.readyState != XMLHttpRequest.DONE) {
+            return;
+        }
+        if (this.status == 200) {
+            // Backend sent response, evaluate
+            const response = this.responseText;
+            if (response == 'success') {
+                form.classList.add('contactoption__form--hide') // Hide form
+                successMsg.style.display = 'flex'; // Display success message
             } else {
-                // Backend not available
+                errorMsgHeadline.textContent = 'Etwas ist schiefgelaufen...';
+                errorMsgText.textContent = 'Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.'; // Change error message to display
                 errorMsg.style.display = 'flex'; // Display error message
-                errorMsgText.textContent = 'Der Server ist zurzeit leider nicht erreichbar. Bitte versuchen Sie es erneut.'; // Change error message to display
             }
+        } else {
+            // Backend not available
+            errorMsgHeadline.textContent = 'Es tut uns leid...';
+            errorMsgText.textContent = 'Der Server ist zurzeit leider nicht erreichbar. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.'; // Change error message to display
+            errorMsg.style.display = 'flex'; // Display error message
         }
     };
     xhttp.open(formMethod, formAction);
