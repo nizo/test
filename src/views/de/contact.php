@@ -27,17 +27,17 @@
                     <h2>Etwas ist schiefgelaufen...</h2>
                     <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
                 </div>
-                <form method="post" action="javascript:void(0);" class="contactoption__form">
+                <form method="post" action="mail.php" class="contactoption__form">
 					<div>
 						<input type="text" name="name" placeholder=" " required />
-						<label>Ihr Name</label>
+						<label>Ihr Name *</label>
 					</div>
 					<div>
 						<input type="email" name="email" placeholder=" " required />
-						<label>Geschäftliche E-Mail</label>
+						<label>Geschäftliche E-Mail *</label>
 					</div>
                     <select name="topic" calloneSelect required>
-                        <option value="">Thema Ihrer Kontaktanfrage</option>
+                        <option value="">Thema Ihrer Kontaktanfrage *</option>
                         <option value="1">Allgemeine Frage</option>
                         <option value="2">Technisches Problem</option>
                         <option value="3">Informationen anfordern</option>
@@ -45,13 +45,25 @@
                     </select>
 					<div>
 						<textarea name="message" rows="5" placeholder=" " required></textarea>
-						<label>Ihre Nachricht an uns</label>
+						<label>Ihre Nachricht an uns *</label>
 					</div>
                     <button type="submit" class="button tertiary rounded">An Support senden</button>
 				</form>
                 <script>
-                    const submit = document.querySelector('.contactoption__form button');
-                    submit.addEventListener('click', e => {
+                    const form = document.querySelector('.contactoption__form');
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault();
+
+                        // Get inputs
+                        let inputs = new Object();
+                        inputs.name = form.querySelector('input[name="name"]').value;
+                        inputs.email = form.querySelector('input[name="email"]').value;
+                        inputs.topic = form.querySelector('select[name="topic"]').value;
+                        inputs.message = form.querySelector('textarea[name="message"]').value;
+                        const data = JSON.stringify(inputs);
+
+                        // AJAX Request
                         const xhttp = new XMLHttpRequest();
                         xhttp.onreadystatechange = function() {
                             if (this.readyState == 4 && this.status == 200) {
@@ -61,8 +73,9 @@
                                 console.log(response);
                             }
                         };
-                        xhttp.open("POST", "#", true);
-                        xhttp.send();
+                        xhttp.open('POST', form.getAttribute('action'), true);
+                        XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                        xhttp.send(data);
                     });
                 </script>
                 <!-- Display code below after form has been sent -->
