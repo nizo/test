@@ -32,7 +32,7 @@
                     <h2>Etwas ist schiefgelaufen...</h2>
                     <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
                 </div>
-                <form method="post" action="contacttesting.php" class="contactoption__form">
+                <form class="contactoption__form">
 					<div>
 						<input type="text" name="name" placeholder=" " required />
 						<label>Ihr Name *</label>
@@ -54,49 +54,6 @@
 					</div>
                     <button type="submit" class="button tertiary rounded">An Support senden</button>
 				</form>
-                <script>
-                    const form = document.querySelector('.contactoption__form');
-                    const errorMsg = document.querySelector('.contactoption__form--error');
-                    const successMsg = document.querySelector('.contactoption__form--success');
-
-                    form.addEventListener('submit', e => {
-                        errorMsg.style.display = 'none';
-                        successMsg.style.display = 'none';
-                        e.preventDefault();
-
-                        // Get inputs
-                        let inputs = new Object();
-                        inputs.name = form.querySelector('input[name="name"]').value;
-                        inputs.email = form.querySelector('input[name="email"]').value;
-                        let topic = form.querySelector('select[name="topic"]');
-                        inputs.topic = topic.options[topic.selectedIndex].textContent;
-                        inputs.message = form.querySelector('textarea[name="message"]').value;
-                        const data = JSON.stringify(inputs);
-
-                        // AJAX Request
-                        const xhttp = new XMLHttpRequest();
-                        xhttp.onreadystatechange = function() {
-                            if (this.readyState == 4 && this.status == 200) {
-                                const response = this.responseText;
-                                switch (response) {
-                                    case 'success':
-                                        form.classList.add('contactoption__form--hide') // Hide form
-                                        successMsg.style.display = 'flex'; // Display success message
-                                        break;
-                                    case 'error':
-                                        errorMsg.style.display = 'flex'; // Display error message
-                                        break;
-                                    default:
-                                        console.log(response);
-                                        break;
-                                }
-                            }
-                        };
-                        xhttp.open('POST', form.getAttribute('action'), true);
-                        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                        xhttp.send('data='+data);
-                    });
-                </script>
             </div>
         </div>
 
@@ -127,3 +84,59 @@
         </div>
     </div>
 </div>
+
+<!-- Contact Form Script -->
+<script>
+const formMethod = 'POST';
+const formAction = 'contacttesting.php';
+const form = document.querySelector('.contactoption__form');
+const errorMsg = document.querySelector('.contactoption__form--error');
+const errorMsgText = errorMsg.querySelector('p');
+const successMsg = document.querySelector('.contactoption__form--success');
+
+form.addEventListener('submit', e => {
+    errorMsg.style.display = 'none';
+    successMsg.style.display = 'none';
+    e.preventDefault();
+
+    // Get inputs
+    let inputs = new Object();
+    inputs.name = form.querySelector('input[name="name"]').value;
+    inputs.email = form.querySelector('input[name="email"]').value;
+    let topic = form.querySelector('select[name="topic"]');
+    inputs.topic = topic.options[topic.selectedIndex].textContent;
+    inputs.message = form.querySelector('textarea[name="message"]').value;
+    const data = JSON.stringify(inputs);
+
+    // AJAX Request
+    const xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+            if (this.status == 200) {
+                // Backend sent response, evaluate
+                const response = this.responseText;
+                switch (response) {
+                    case 'success':
+                        form.classList.add('contactoption__form--hide') // Hide form
+                        successMsg.style.display = 'flex'; // Display success message
+                        break;
+                    case 'error':
+                        errorMsgText.textContent = 'Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.'; // Change error message to display
+                        errorMsg.style.display = 'flex'; // Display error message
+                        break;
+                    default:
+                        console.log(response);
+                        break;
+                }
+            } else {
+                // Backend not available
+                errorMsg.style.display = 'flex'; // Display error message
+                errorMsgText.textContent = 'Der Server ist zurzeit leider nicht erreichbar. Bitte versuchen Sie es erneut.'; // Change error message to display
+            }
+        }
+    };
+    xhttp.open(formMethod, formAction);
+    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhttp.send('data='+data);
+});
+</script>
