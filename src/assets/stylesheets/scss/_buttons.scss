@@ -117,6 +117,7 @@
     border: 2px solid $color-primary;
     color: #000;
     text-transform: uppercase;
+    transition: all .3s ease;
     &:hover {
       background-color: $color-secondary-1;
       border-color: $color-secondary-1;
