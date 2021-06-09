@@ -1,17 +1,21 @@
 /*
 * @title         Custom Range Slider
 * @author        Maximilian Boll
-* @version       1.0.0
+* @version       1.0.1
 * @description   A lightweight javascript class that transforms input type range
 *                sliders to custom sliders that can be modified in styling
 * @licence       Copyright by CallOne GmbH, all rights reserved
-* @usage         <input type="range" min="0" max="100" step="1" value="25" calloneRange data-output="#outputId" />
-* @changelog     08. June 2021: Initial creation
+* @usage         <input type="range" min="0" max="100" step="1" value="25" calloneRange data-output="#outputId" data-width="100" data-height="100" />
+* @changelog     08. June 2021
+*                   - Initial creation
+*                09. June 2021
+*                   - Fixed wrong progress calculation
+*                   - Added mobile touch support
 */
 
 class Range {
     constructor(slider) {
-        this.ns = 'callone-range';
+        this.classNamespace = 'callone-range';
         this.slider = slider;
         this.step = 100 / (this.slider.max / this.slider.step);
         this.dragging = false;
@@ -50,6 +54,18 @@ class Range {
                 this.changeProgress(e);
             }
         }).bind(this));
+        // Touch Events
+        this.thumb.addEventListener('touchstart', (() => {
+            this.dragging = true;
+        }).bind(this));
+        window.addEventListener('touchend', (() => {
+            this.dragging = false;
+        }).bind(this));
+        window.addEventListener('touchmove', ((e) => {
+            if (this.dragging) {
+                this.changeProgress(e);
+            }
+        }).bind(this));
     }
 
     setOutputValue() {
@@ -58,18 +74,19 @@ class Range {
 
     setProgress() {
         let newValue = parseInt(this.output.value);
-        if (!newValue) {
+        let min = parseInt(this.slider.min);
+        let max = parseInt(this.slider.max);
+        if (!newValue)
             newValue = 0;
-        }
-        if (newValue < this.slider.min)
-            newValue = this.slider.min;
-        if (newValue > this.slider.max)
-            newValue = this.slider.max
+        if (newValue < min)
+            newValue = min;
+        if (newValue > max)
+            newValue = max;
         this.output.value = newValue;
-        let progress = 100 / this.slider.max * newValue;
+        let progress = 100 / (max - min) * (newValue - min);
         this.thumb.style.left = progress + '%';
         this.active.style.width = progress + '%';
-        this.slider.value = this.slider.max * (progress / 100);
+        this.slider.value = newValue;
     }
     
     changeProgress(e) {
@@ -78,6 +95,12 @@ class Range {
             x: e.pageX,
             y: e.pageY
         };
+        if (e.type == 'touchmove') {
+            var touchEvent = (typeof e.originalEvent === 'undefined') ? e : e.originalEvent;
+            let touch = touchEvent.touches[0] || touchEvent.changedTouches[0];
+            mouse.x = touch.pageX;
+            mouse.y = touch.pageY;
+        }
         let progress = 100 / range.width * (mouse.x - range.x);
         progress = progress - (progress % this.step);
         if (progress < 0)
@@ -92,25 +115,29 @@ class Range {
     }
     
     wrap() {
-        this.wrapper.classList.add(this.ns);
+        this.wrapper.classList.add(this.classNamespace);
         this.slider.parentNode.insertBefore(this.wrapper, this.slider);
         this.wrapper.appendChild(this.slider);
     }
     
     addTrack() {
-        this.track.classList.add(this.ns + '__track');
+        this.track.classList.add(this.classNamespace + '__track');
         this.wrapper.appendChild(this.track);
     }
     
     addThumb() {
-        this.thumb.classList.add(this.ns + '__thumb');
+        this.thumb.classList.add(this.classNamespace + '__thumb');
         this.thumb.style.left = this.getProgressInPercent() + '%';
         this.wrapper.appendChild(this.thumb);
     }
     
     addActive() {
-        this.active.classList.add(this.ns + '__active');
+        this.active.classList.add(this.classNamespace + '__active');
         this.active.style.width = this.getProgressInPercent() + '%';
+        this.active.style.backgroundSize = this.wrapper.offsetWidth + 'px 100%';
+        window.onresize = (() => {
+            this.active.style.backgroundSize = this.wrapper.offsetWidth + 'px 100%';
+        }).bind(this);
         this.wrapper.appendChild(this.active);
     }
     
