@@ -1,17 +1,17 @@
 /*
-* @title         Custom Range Slider
-* @author        Maximilian Boll
-* @version       1.0.1
-* @description   A lightweight javascript class that transforms input type range
-*                sliders to custom sliders that can be modified in styling
-* @licence       Copyright by CallOne GmbH, all rights reserved
-* @usage         <input type="range" min="0" max="100" step="1" value="25" calloneRange data-output="#outputId" data-width="100" data-height="100" />
-* @changelog     08. June 2021
-*                   - Initial creation
-*                09. June 2021
-*                   - Fixed wrong progress calculation
-*                   - Added mobile touch support
-*/
+ * @title         Custom Range Slider
+ * @author        Maximilian Boll
+ * @version       1.1.0
+ * @description   A lightweight javascript class that transforms input type range sliders to custom sliders that can be modified in styling
+ * @licence       Copyright by CallOne GmbH, all rights reserved
+ * @usage         <input type="range" min="0" max="100" step="1" value="25" calloneRange data-output="#outputId" data-width="100" data-height="100" />
+ * @changelog     08. June 2021 (v1.0.0)
+ *                   - Initial creation
+ *                09. June 2021 (v1.1.0)
+ *                   - Fixed wrong progress calculation
+ *                   - Added mobile touch support
+ *                   - Added key support for output field
+ */
 
 class Range {
     constructor(slider) {
@@ -43,7 +43,7 @@ class Range {
         this.addThumb();
         this.addActive();
         this.wrapper.addEventListener('click', this.changeProgress.bind(this));
-        this.thumb.addEventListener('mousedown', (() => {
+        this.wrapper.addEventListener('mousedown', (() => {
             this.dragging = true;
         }).bind(this));
         window.addEventListener('mouseup', (() => {
@@ -72,8 +72,15 @@ class Range {
         this.output.value = this.slider.value;
     }
 
-    setProgress() {
+    setProgress(e) {
+        let pressedKey = e.which || e.keyCode;
         let newValue = parseInt(this.output.value);
+        if (pressedKey == 38) {
+            newValue++;
+        }
+        if (pressedKey == 40) {
+            newValue--;
+        }
         let min = parseInt(this.slider.min);
         let max = parseInt(this.slider.max);
         if (!newValue)
