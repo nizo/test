@@ -1,0 +1,67 @@
+.floating-form {
+    --gutter: 30px;
+
+    &__row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        &+.floating-form__row {
+            margin-top: var(--gutter);
+        }
+    }
+
+    &__col {
+        flex: 1;
+        &+.floating-form__col {
+            margin-left: var(--gutter);
+        }
+    }
+
+    &__field {
+        position: relative;
+        border: 2px solid #c4c4c4;
+        border-radius: 5px;
+        input, textarea, label {
+            font-size: 18px;
+            font-family: $font-copy;
+            line-height: 1.6;
+        }
+        textarea {
+            resize: none;
+        }
+        label {
+            position: absolute;
+            top: 12px;
+            left: 25px;
+            pointer-events: none;
+            color: rgba(#000, .6);
+            transition: all .3s ease;
+            background-color: #fff;
+        }
+        input, textarea {
+            display: block;
+            width: 100%;
+            padding: 10px 25px;
+            color: #000;
+            &:focus, &:not(:placeholder-shown) {
+                &~label {
+                    transform: translateY(calc(-50% - 12px));
+                    padding: 0 5px;
+                    left: 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .customSelect {
+            position: relative;
+            height: 48px;
+            .select-hide {
+                display: none;
+            }
+            .select-items {
+                position: absolute;
+            }
+        }
+    }
+}
