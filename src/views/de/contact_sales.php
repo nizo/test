@@ -13,7 +13,7 @@
                 </div>
                 <div class="contactsales__steps-progress">
                     <div>
-                        <span prevStep>Schritt zurück</span>
+                        <span buttonStep data-step="1">Schritt zurück</span>
                         <span>Schritt 1/2</span>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                 <div>
                     <input type="text" id="workers" /> Mitarbeiter
                 </div>
-                <button class="button button--wider tertiary black2 rounded" nextStep>Weiter</button>
+                <button class="button button--wider tertiary black2 rounded" buttonStep data-step="2">Weiter</button>
             </div>
 
             <div class="contactsales__step contactsales__step--hidden" data-step="2">
@@ -50,6 +50,10 @@
                     <button class="button tertiary black rounded">Jetzt Termin buchen</button>
                 </div>
             </div>
+
+            <div class="contactsales__step contactsales__step--hidden" data-step="3">
+                Nicht genug Mitarbeiter
+            </div>
         </div>
     </div>
 </div>
@@ -67,43 +71,68 @@
 </div>
 
 <script>
-let buttonNextStep = document.querySelector('[nextStep]');
-let buttonPrevStep = document.querySelector('[prevStep]');
-let contactPerson = document.querySelector('.contactsales__steps-person');
-let stepsProgress = document.querySelector('.contactsales__steps-progress');
-let stepsProgressText = stepsProgress.querySelector('span:last-of-type');
-let step1 = document.querySelector('.contactsales__step[data-step="1"]');
-let step2 = document.querySelector('.contactsales__step[data-step="2"]');
-let optionButtons = document.querySelectorAll('.contactsales__option');
-let options = document.querySelectorAll('.contactsales__option-content');
-buttonNextStep.addEventListener('click', e => {
-    e.preventDefault();
-    stepsProgress.classList.add('contactsales__steps-progress--full');
-    stepsProgressText.textContent = 'Schritt 2/2';
-    contactPerson.classList.add('contactsales__steps-person--hidden');
-    step1.classList.add('contactsales__step--hidden');
-    step2.classList.remove('contactsales__step--hidden');
-});
-buttonPrevStep.addEventListener('click', e => {
-    e.preventDefault();
-    stepsProgress.classList.remove('contactsales__steps-progress--full');
-    stepsProgressText.textContent = 'Schritt 1/2';
-    contactPerson.classList.remove('contactsales__steps-person--hidden');
-    step1.classList.remove('contactsales__step--hidden');
-    step2.classList.add('contactsales__step--hidden');
-});
-optionButtons.forEach(button => {
-    button.addEventListener('click', e => {
-        optionButtons.forEach(button => {
-            button.classList.remove('contactsales__option--active');
-        });
-        options.forEach(option => {
-            option.classList.add('contactsales__option-content--hidden');
-            if (button.dataset.option == option.dataset.option) {
-                option.classList.remove('contactsales__option-content--hidden');
+    let contactPerson = document.querySelector('.contactsales__steps-person');
+    let stepsProgress = document.querySelector('.contactsales__steps-progress');
+    let stepsProgressText = stepsProgress.querySelector('span:last-of-type');
+    let buttonsStep = document.querySelectorAll('[buttonStep]');
+    let steps = document.querySelectorAll('.contactsales__step');
+
+    buttonsStep.forEach(buttonStep => {
+        buttonStep.addEventListener('click', e => {
+            let stepToDisplay = buttonStep.dataset.step;
+            let workers = document.querySelector('#workers').value;
+            if (stepToDisplay == 2 && workers < 25) {
+                stepToDisplay = 3;
             }
+            if (stepToDisplay != 1) {
+                contactPerson.classList.add('contactsales__steps-person--hidden');
+                stepsProgress.classList.add('contactsales__steps-progress--full');
+                stepsProgressText.textContent = 'Schritt 2/2';
+            } else {
+                contactPerson.classList.remove('contactsales__steps-person--hidden');
+                stepsProgress.classList.remove('contactsales__steps-progress--full');
+                stepsProgressText.textContent = 'Schritt 1/2';
+            }
+            steps.forEach(step => {
+                step.classList.add('contactsales__step--hidden');
+                if (step.dataset.step == stepToDisplay) {
+                    step.classList.remove('contactsales__step--hidden');
+                }
+            });
         });
-        button.classList.add('contactsales__option--active');
     });
-});
+
+    // buttonNextStep.addEventListener('click', e => {
+    //     e.preventDefault();
+    //     stepsProgress.classList.add('contactsales__steps-progress--full');
+    //     stepsProgressText.textContent = 'Schritt 2/2';
+    //     contactPerson.classList.add('contactsales__steps-person--hidden');
+    //     step1.classList.add('contactsales__step--hidden');
+    //     step2.classList.remove('contactsales__step--hidden');
+    // });
+    // buttonPrevStep.addEventListener('click', e => {
+    //     e.preventDefault();
+    //     stepsProgress.classList.remove('contactsales__steps-progress--full');
+    //     stepsProgressText.textContent = 'Schritt 1/2';
+    //     contactPerson.classList.remove('contactsales__steps-person--hidden');
+    //     step1.classList.remove('contactsales__step--hidden');
+    //     step2.classList.add('contactsales__step--hidden');
+    // });
+
+    let optionButtons = document.querySelectorAll('.contactsales__option');
+    let options = document.querySelectorAll('.contactsales__option-content');
+    optionButtons.forEach(button => {
+        button.addEventListener('click', e => {
+            optionButtons.forEach(button => {
+                button.classList.remove('contactsales__option--active');
+            });
+            options.forEach(option => {
+                option.classList.add('contactsales__option-content--hidden');
+                if (button.dataset.option == option.dataset.option) {
+                    option.classList.remove('contactsales__option-content--hidden');
+                }
+            });
+            button.classList.add('contactsales__option--active');
+        });
+    });
 </script>
