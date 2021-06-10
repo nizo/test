@@ -1,0 +1,95 @@
+.step-slider {
+    margin: 40px auto;
+    user-select: none;
+    * {
+        user-select: none;
+    }
+    &__steps {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        counter-reset: item;
+    }
+
+    &__step {
+        width: 270px;
+        flex: 0 0 270px;
+        background-color: $color-lightgrey-2; 
+        color: #000;
+        border-radius: 10px;
+        padding: 20px;
+        counter-increment: item;
+        &:before {
+            content: counter(item) ".";
+            font-family: $font-headline;
+            font-size: 30px;
+            font-weight: normal;
+            line-height: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-family: $font-headline;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        &+.step-slider__step {
+            margin-left: 30px;
+        }
+    }
+    &__step--active {
+        background-color: #fff;
+    }
+
+    &__slider {
+        position: relative;
+        width: 100%;
+        height: 8px;
+        border-radius: 4px;
+        background-image: linear-gradient(90deg, #c4c4c4 0%, #86EC16 100%);
+        margin: 70px 0 20px 0;
+        &:before, &:after {
+            position: absolute;
+            top: -20px;
+            transform: translateY(-100%);
+            font-family: $font-headline;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &:before {
+            content: attr(data-left);
+            left: 0;
+        }
+        &:after {
+            content: attr(data-right);
+            right: 0;
+        }
+    }
+
+    &__handle {
+        position: absolute;
+        transform: translateY(-50%);
+        cursor: pointer;
+        left: 0;
+        top: 50%;
+        background-image: url(../images/icons_svg/slider-element.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        border-radius: 10px;
+        width: 54px;
+        height: 24px;
+    }
+
+    &__hint {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

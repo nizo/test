@@ -1,14 +1,15 @@
 .floating-form {
     --gutter: 30px;
 
+    >*+* {
+        margin-top: var(--gutter);
+    }
+
     &__row {
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        &+.floating-form__row {
-            margin-top: var(--gutter);
-        }
     }
 
     &__col {
@@ -38,6 +39,10 @@
             color: rgba(#000, .6);
             transition: all .3s ease;
             background-color: #fff;
+            overflow: hidden;
+            max-width: calc(100% - 60px);
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
         input, textarea {
             display: block;
@@ -63,5 +68,29 @@
                 position: absolute;
             }
         }
+    }
+
+    &__submit {
+        background-color: $color-primary;
+        color: #000;
+        text-transform: uppercase;
+        display: block;
+        border-radius: 100px;
+        padding: 15px 40px;
+        margin: 50px auto;
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.35;
+        letter-spacing: .1em;
+        cursor: pointer;
+        transition: all .3s ease;
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+    &__submit--fullwidth {
+        width: 100%;
     }
 }

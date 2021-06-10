@@ -94,6 +94,8 @@ class Range {
         this.thumb.style.left = progress + '%';
         this.active.style.width = progress + '%';
         this.slider.value = newValue;
+        let event = new Event('change');
+        this.slider.dispatchEvent(event);
     }
     
     changeProgress(e) {

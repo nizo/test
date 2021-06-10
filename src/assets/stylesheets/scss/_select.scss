@@ -52,6 +52,10 @@
         color: rgba(#000, .6);
         transition: all .3s ease;
         background-color: #fff;
+        max-width: calc(100% - 60px);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
     &__label--active {
         transform: translateY(calc(-50% - 12px));
@@ -64,6 +68,10 @@
         font-family: $font-copy;
         line-height: 1.6;
         padding: 10px 25px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: calc(100% - 20px);
     }
     &__clear {
         position: relative;

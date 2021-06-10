@@ -15,7 +15,7 @@
  * This has to do with the "required" attribute
  */
 
-const selectBoxes = document.querySelectorAll('[calloneSelect]');
+const selectBoxes = document.querySelectorAll('[data-calloneSelect]');
 
 selectValue = e => {
     let option = e.currentTarget; // Selected option
@@ -92,6 +92,7 @@ selectBoxes.forEach(select => {
 
     // Toggle options list on click
     wrapper.addEventListener('click', e => {
+        e.stopPropagation();
         wrapper.classList.toggle('callone-select--open');
     });
 });

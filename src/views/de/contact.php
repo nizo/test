@@ -5,58 +5,7 @@
     </div>
     <div class="contactpage__content">
         <h1>Was ist Ihre Kontakt-Motivation?</h1>
-
-		<input type="checkbox" class="contactoption__checkbox" id="contactoption1" />
-        <div class="contactoption">
-            <label for="contactoption1" class="contactoption__header">
-                <div class="contactoption__icon">
-                    <img src="/assets/images/icons_svg/support-request-white.svg" alt="" class="contactoption--closed" />
-                    <img src="/assets/images/icons_svg/support-request-black.svg" alt="" class="contactoption--open" />
-                </div>
-                <div class="contactoption__text">
-                    <strong>Support-Anfrage</strong><br />
-                    Sie sind CallOne Kunde und benötigen Support
-                </div>
-                <div class="contactoption__action">
-                    <img src="/assets/images/icons_svg/dropdown-white.svg" class="contactoption--closed" alt="" />
-                    <img src="/assets/images/icons_svg/dropdown-up-grey.svg" class="contactoption--open" alt="" />
-                </div>
-			</label>
-            <div class="contactoption__content">
-                <div class="contactoption__form--success"><!-- Only display on success -->
-                    <img src="/assets/images/icons_svg/sent-out-black.svg" alt="" />
-                    <h2>Super, wir sind kontaktiert!</h2>
-                    <p>Ihre Supportanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</p>
-                </div>
-                <div class="contactoption__form--error"><!-- Only display on error -->
-                    <h2>Etwas ist schiefgelaufen...</h2>
-                    <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
-                </div>
-                <form class="contactoption__form">
-					<div>
-						<input type="text" name="name" placeholder=" " required />
-						<label>Ihr Name *</label>
-					</div>
-					<div>
-						<input type="email" name="email" placeholder=" " required />
-						<label>Geschäftliche E-Mail *</label>
-					</div>
-                    <select name="topic" calloneSelect required>
-                        <option value="">Thema Ihrer Kontaktanfrage *</option>
-                        <option value="Allgemeine Frage">Allgemeine Frage</option>
-                        <option value="Technisches Problem">Technisches Problem</option>
-                        <option value="Informationen anfordern">Informationen anfordern</option>
-                        <option value="Anderes Anliegen">Anderes Anliegen</option>
-                    </select>
-					<div>
-						<textarea name="message" rows="5" placeholder=" " required></textarea>
-						<label>Ihre Nachricht an uns *</label>
-					</div>
-                    <button type="submit" class="button tertiary rounded">An Support senden</button>
-				</form>
-            </div>
-        </div>
-
+        
         <a href="/testen" class="contactoption">
             <div class="contactoption__header">
                 <div class="contactoption__icon">
@@ -71,6 +20,66 @@
                 </div>
             </div>
         </a>
+
+		<input type="checkbox" class="contactoption__checkbox" id="contactoption1" />
+        <div class="contactoption">
+            <label for="contactoption1" class="contactoption__header">
+                <span class="contactoption__icon">
+                    <img src="/assets/images/icons_svg/support-request-white.svg" alt="" class="contactoption--closed" />
+                    <img src="/assets/images/icons_svg/support-request-black.svg" alt="" class="contactoption--open" />
+                </span>
+                <span class="contactoption__text">
+                    <strong>Support-Anfrage</strong><br />
+                    Sie sind CallOne Kunde und benötigen Support
+                </span>
+                <span class="contactoption__action">
+                    <img src="/assets/images/icons_svg/dropdown-white.svg" class="contactoption--closed" alt="" />
+                    <img src="/assets/images/icons_svg/dropdown-up-grey.svg" class="contactoption--open" alt="" />
+                </span>
+			</label>
+            <div class="contactoption__content">
+                <p>
+                    Passt Ihre Supportanfrage nicht ins Formular?<br />
+                    Alternativ können Sie uns auch eine E-Mail an <a href="javascript:location='mailto:\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0063\u0061\u006c\u006c\u006f\u006e\u0065\u002e\u0064\u0065';void 0"><script>document.write('\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0063\u0061\u006c\u006c\u006f\u006e\u0065\u002e\u0064\u0065')</script></a> senden.
+                </p>
+
+                <div class="contactoption__form--success"><!-- Only display on success -->
+                    <img src="/assets/images/icons_svg/sent-out-black.svg" alt="" />
+                    <h2>Super, wir sind kontaktiert!</h2>
+                    <p>Ihre Supportanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</p>
+                </div>
+                <div class="contactoption__form--error"><!-- Only display on error -->
+                    <h2>Etwas ist schiefgelaufen...</h2>
+                    <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
+                </div>
+
+                <form class="floating-form contactoption__form" method="post">
+                    <div class="floating-form__field">
+                        <input type="text" name="name" placeholder=" " required />
+                        <label>Ihr Name *</label>
+                    </div>
+					<div class="floating-form__field">
+						<input type="email" name="email" placeholder=" " required />
+						<label>Geschäftliche E-Mail *</label>
+					</div>
+                    <div class="floating-form__select">
+                        <select name="issue" data-calloneSelect required>
+                            <option value="">Thema Ihrer Kontaktanfrage *</option>
+                            <option value="Allgemeine Frage">Allgemeine Frage</option>
+                            <option value="Technisches Problem">Technisches Problem</option>
+                            <option value="Informationen anfordern">Informationen anfordern</option>
+                            <option value="Anderes Anliegen">Anderes Anliegen</option>
+                        </select>
+                    </div>
+					<div class="floating-form__field">
+						<textarea name="text" rows="5" placeholder=" " required></textarea>
+						<label>Ihre Nachricht an uns *</label>
+					</div>
+                    <button type="submit" class="floating-form__submit floating-form__submit--fullwidth">An Support senden</button>
+				</form>
+            </div>
+        </div>
+
     </div>
 
     <div class="contactpage__footer">
@@ -87,52 +96,72 @@
 
 <!-- Contact Form Script -->
 <script>
-const formMethod = 'POST';
-const formAction = 'contacttesting.php';
-const form = document.querySelector('.contactoption__form');
-const errorMsg = document.querySelector('.contactoption__form--error');
-const errorMsgHeadline = errorMsg.querySelector('h2');
-const errorMsgText = errorMsg.querySelector('p');
-const successMsg = document.querySelector('.contactoption__form--success');
+    const formMethod = 'POST';
+    const formAction = 'https://connect.callone.io/backend/contact.php';
+    const form = document.querySelector('.contactoption__form');
+    const errorMsg = document.querySelector('.contactoption__form--error');
+    const errorMsgHeadline = errorMsg.querySelector('h2');
+    const errorMsgText = errorMsg.querySelector('p');
+    const successMsg = document.querySelector('.contactoption__form--success');
 
-form.addEventListener('submit', e => {
-    errorMsg.style.display = 'none'; // Hide error message when form is submitted
-    e.preventDefault(); // Prevent the form from reloading/switching the page
-    
-    // Get inputs
-    let inputs = new Object();
-    inputs.name = form.querySelector('input[name="name"]').value;
-    inputs.email = form.querySelector('input[name="email"]').value;
-    inputs.topic = form.querySelector('select[name="topic"]').value;
-    inputs.message = form.querySelector('textarea[name="message"]').value;
-    const data = JSON.stringify(inputs);
-
-    // AJAX Request
-    const xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState != XMLHttpRequest.DONE) {
-            return;
+    form.addEventListener('submit', e => {
+        errorMsg.style.display = 'none'; // Hide error message when form is submitted
+        e.preventDefault(); // Prevent the form from reloading/switching the page
+        
+        // Get inputs
+        let inputs = new Object();
+        inputs.type = 7;
+        inputs.name = form.querySelector('input[name="name"]').value;
+        inputs.email = form.querySelector('input[name="email"]').value;
+        inputs.issue = form.querySelector('select[name="issue"]').value;
+        inputs.text = form.querySelector('textarea[name="text"]').value;
+        let urlEncodedData = "", urlEncodedDataPairs = [], name;
+        for (name in inputs) {
+            urlEncodedDataPairs.push(encodeURIComponent(name)+'='+encodeURIComponent(inputs[name]));
         }
-        if (this.status == 200) {
-            // Backend sent response, evaluate
-            const response = this.responseText;
-            if (response == 'success') {
-                form.classList.add('contactoption__form--hide') // Hide form
-                successMsg.style.display = 'flex'; // Display success message
+        urlEncodedData = urlEncodedDataPairs.join('&');
+
+        // AJAX Request
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState != XMLHttpRequest.DONE) {
+                return;
+            }
+            if (this.status == 200) {
+                // Backend sent response, evaluate
+                const response = JSON.parse(this.responseText);
+                if (response.success) {
+                    form.classList.add('contactoption__form--hide') // Hide form
+                    successMsg.style.display = 'flex'; // Display success message
+                } else {
+                    errorMsgHeadline.textContent = 'Etwas ist schiefgelaufen...';
+                    let missingInput = "";
+                    switch (response.error) {
+                        case "name":
+                            missingInput = "Bitte geben Sie einen Namen an.";
+                            break;
+                        case "email":
+                            missingInput = "Bitte geben Sie eine gültige E-Mail Adresse an.";
+                            break;
+                        case "issue":
+                            missingInput = "Bitte wählen Sie das Thema Ihrer Kontaktanfrage aus.";
+                            break;
+                        case "text":
+                            missingInput = "Bitte geben Sie eine Nachricht für uns ein.";
+                            break;
+                    }
+                    errorMsgText.textContent = 'Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut. ' + missingInput; // Change error message to display
+                    errorMsg.style.display = 'flex'; // Display error message
+                }
             } else {
-                errorMsgHeadline.textContent = 'Etwas ist schiefgelaufen...';
-                errorMsgText.textContent = 'Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.'; // Change error message to display
+                // Backend not available
+                errorMsgHeadline.textContent = 'Es tut uns leid...';
+                errorMsgText.textContent = 'Der Server ist zurzeit leider nicht erreichbar. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.'; // Change error message to display
                 errorMsg.style.display = 'flex'; // Display error message
             }
-        } else {
-            // Backend not available
-            errorMsgHeadline.textContent = 'Es tut uns leid...';
-            errorMsgText.textContent = 'Der Server ist zurzeit leider nicht erreichbar. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.'; // Change error message to display
-            errorMsg.style.display = 'flex'; // Display error message
-        }
-    };
-    xhttp.open(formMethod, formAction);
-    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhttp.send('data='+data);
-});
+        };
+        xhttp.open(formMethod, formAction);
+        xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhttp.send(urlEncodedData);
+    });
 </script>
