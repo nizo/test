@@ -91,7 +91,7 @@
             <h4>Support</h4>
             <p>
               <a href="https://www.callone.de/faq" target="_blank">FAQs</a><br />
-              <a href="/testen">Kontakt</a><br />
+              <a href="/kontakt">Kontakt</a><br />
               <a href="https://status.callone.de" rel="noreferrer">Systemstatus</a><br />
               <a class="openModal trackedElement" data-label="Cookie-Einstellungen Footer" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner">Cookie-Einstellungen</a>
             </p>

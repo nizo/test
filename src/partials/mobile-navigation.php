@@ -182,7 +182,7 @@ $jobs = jobs_load ();
     <div class="link"><a href="/preise">Preise</a></div>
     <div class="link"><a href="https://box.callone.de" rel="noreferrer">Login</a></div>
     <div class="link"><a href="/karriere">Karriere</a></div>
-    <div class="link"><a href="/testen">Kontakt</a></div>
+    <div class="link"><a href="/kontakt">Kontakt</a></div>
     <div class="link"><a href="https://www.callone.de/blog/">Blog</a></div>
   </div>
 </nav>

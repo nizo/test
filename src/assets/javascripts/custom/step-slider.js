@@ -35,8 +35,8 @@ class stepSlider {
 
         let range = this.slider.getBoundingClientRect();
         let mouse = this.getMousePosition(e);
-        mouse.x -= this.mouseOffset.x;
-        mouse.y -= this.mouseOffset.y;
+        mouse.x += this.mouseOffset.x;
+        mouse.y += this.mouseOffset.y;
 
         console.log(range, mouse, this.mouseOffset);
 

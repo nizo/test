@@ -16,7 +16,7 @@
           </ul>
         </div>
       </li>
-      <li><a href="/testen">Kontakt</a></li>
+      <li><a href="/kontakt">Kontakt</a></li>
       <li><a href="https://www.callone.de/blog/" target="_blank">Blog</a></li>
       <li><a href="https://box.callone.de" rel="noreferrer" target="_blank">Login</a></li>
     </ul>
