@@ -5,6 +5,7 @@
         user-select: none;
     }
     &__steps {
+        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: no-wrap;
@@ -70,6 +71,12 @@
             content: attr(data-right);
             right: 0;
         }
+    }
+
+    &__range {
+        position: relative;
+        width: calc(100% - 54px); // 100% minus half the width of the handle
+        height: 8px;
     }
 
     &__handle {

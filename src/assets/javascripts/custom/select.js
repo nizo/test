@@ -101,8 +101,11 @@ selectBoxes.forEach(select => {
 window.addEventListener('click', e => {
     const selects = document.querySelectorAll('.callone-select');
     selects.forEach(select => {
-        if (select !== e.target.parentNode && e.target.parentNode && select !== e.target.parentNode.parentNode) {
+        if (select !== e.target && !select.contains(e.target)) {
             select.classList.remove('callone-select--open');
         }
+        // if (select !== e.target.parentNode && e.target.parentNode && select !== e.target.parentNode.parentNode) {
+        //     select.classList.remove('callone-select--open');
+        // }
     });
 });

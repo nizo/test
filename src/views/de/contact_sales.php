@@ -13,7 +13,8 @@
                 </div>
                 <div class="contactsales__steps-progress">
                     <div>
-                        <span buttonStep data-step="1">Schritt zurück</span>
+                        <span class="contactsales__steps-progress--back" buttonStep data-step="1">Schritt zurück</span>
+                        <span class="contactsales__steps-progress--done">Vertrieb kontaktiert</span>
                         <span>Schritt 1/2</span>
                     </div>
                 </div>
@@ -46,7 +47,12 @@
                 <div class="contactsales__option-content contactsales__option-content--hidden" data-option="1">
                     <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen. Füllen Sie das Formular aus und wir setzen uns so schnell wie möglich mit Ihnen in Verbindung.</p>
 
-                    <form action="#" method="POST" class="floating-form">
+                    <div class="contactsales__form--error">
+                        <h2>Etwas ist schiefgelaufen...</h2>
+                        <p>Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut.</p>
+                    </div>
+
+                    <form action="#" method="POST" class="contactsales__form floating-form">
                         <div class="floating-form__row">
                             <div class="floating-form__col">
                                 <div class="floating-form__field">
@@ -126,8 +132,28 @@
                 <p>Danke für die Anfrage, wir fühlen uns geschmeichelt. Wir lieben kleine Unternehmen, sie sind das Rückgrat unserer Branche. Doch leider haben wir noch keine adäquaten Lösungen für sie parat.</p>
                 <p>Unsere Lösungen sind aktuell zu umfassend und zu teuer für Unternehmen unter 10 Mitarbeitenden. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen.</p>
                 <p>Einige Empfehlungen sehr guter Anbieter für kleine Unternehmen finden Sie hier:</p>
-                <p>[BLOGPOST]</p>                    
+                <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="contactsales__linkcard">
+                    <img src="//placehold.it/180x120/FFFFFF/212121" alt="" />
+                    <div>
+                        <p><strong>Blogartikel</strong></p>
+                        <p>Anbieter für Flatrate-Businesstelefonie</p>
+                    </div>
+                </a>                  
                 <p>Alles Gute für die Zukunft und viel Glück mit Ihrem neuen Telefonie-Partner.</p>
+            </div>
+
+            <div class="contactsales__step contactsales__step--thinpadding contactsales__step--hidden" data-step="4">
+                <div class="contactsales__success">
+                    <h2>Super, wir sind kontaktiert!</h2>
+                    <h3>Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</h3>
+
+                    <ul>
+                        <li>Wir besprechen Ihre konkreten Anforderungen</li>
+                        <li>Klären Fragen zu Preisen</li>
+                        <li>Vereinbaren Livedemos</li>
+                        <li>Stimmen Pilotprojekte ab</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -162,7 +188,9 @@
                 </div>
             </div>
             <div class="step-slider__slider" data-left="Erste Kontaktaufnahme" data-right="Ihre Entscheidung">
-                <div class="step-slider__handle"></div>
+                <div class="step-slider__range">
+                    <div class="step-slider__handle"></div>
+                </div>
             </div>
             <div class="step-slider__hint">
                 Hinweis: Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
@@ -176,6 +204,49 @@
 <div class="contactsales contactsales--green">
     <div class="contactsales__wrapper contactsales__wrapper--narrow">
         <h1>Kundenmeinungen</h1>
+        <p>Ob das alles was bringt, fragen Sie am besten unsere Kunden.</p>
+
+        <div class="references">
+            <div class="references__tabs">
+                <div class="references__tab references__tab--active" data-tab="1">
+                    <img src="/assets/images/client-logos/f-touristic.svg" alt="Ferientouristik" />
+                </div>
+                <div class="references__tab" data-tab="2">
+                    <img src="/assets/images/client-logos/logo-vimcar.svg" alt="VIMCAR" />
+                </div>
+                <div class="references__tab" data-tab="3">
+                    <img src="/assets/images/client-logos/logo-marley-spoon.svg" alt="Marley Spoon" />
+                </div>
+            </div>
+
+            <div class="references__content references__content--active" data-tab="1">
+                <p class="references__quote">Durch die Verknüpfung mit unseren Subsystemen haben wir unsere Prozesse im Kundendialog effizienter gestalten können und bieten unseren Kunden einen besseren Service.</p>
+                <p class="references__author">
+                    <strong>Kenneth Roberts</strong><br />
+                    Head of Business Development &amp; Project Management
+                </p>
+            </div>
+
+            <div class="references__content" data-tab="2">
+                <p class="references__quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque repellat vel, veritatis tempora sint temporibus mollitia nam expedita quidem sunt, quaerat adipisci totam nihil quis, molestias accusantium nobis velit animi!</p>
+                <p class="references__author">
+                    <strong>Autor</strong><br />
+                    Position
+                </p>
+            </div>
+
+            <div class="references__content" data-tab="3">
+                <p class="references__quote">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi nulla ea accusantium tenetur! Doloremque, enim laborum? Perspiciatis ipsum nesciunt atque tenetur consequuntur! Cupiditate eos dolorum iste? Libero, officia blanditiis?</p>
+                <p class="references__author">
+                    <strong>Autor</strong><br />
+                    Position
+                </p>
+            </div>
+        </div>
+
+        <div class="google-rating">&starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.3994433,13.0518102,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.3994346!4d13.054002!9m1!1b1" target="_blank">Google Erfahrungsberichte</a></div>
+
+        <a href="#" class="btn btn--primary btn--centered">Kontakt aufnehmen</a>
     </div>
 </div>
 
@@ -207,6 +278,30 @@
         } else {
             workersExtra.style.display = 'none';
         }
+    });
+
+    // Handle form
+    let contactForm = document.querySelector('.contactsales__form');
+    let formError = document.querySelector('.contactsales__form--error');
+    contactForm.addEventListener('submit', e => {
+        e.preventDefault();
+        formError.style.display = 'none';
+
+        // Start success block
+        steps.forEach(step => {
+            step.classList.add('contactsales__step--hidden');
+            if (step.dataset.step == "4") {
+                step.classList.remove('contactsales__step--hidden');
+            }
+        });
+        document.querySelector('.contactsales__steps-progress--done').style.display = 'block';
+        document.querySelector('.contactsales__steps-progress--back').style.display = 'none';
+        // End success block
+
+        // Start error block
+        if (true)
+            formError.style.display = 'flex';
+        // End error block
     });
 
     buttonsStep.forEach(buttonStep => {
@@ -248,6 +343,19 @@
                 }
             });
             button.classList.add('contactsales__option--active');
+        });
+    });
+
+    // References
+    let referencesTabs = document.querySelectorAll('.references__tab');
+    referencesTabs.forEach(tab => {
+        tab.addEventListener('click', e => {
+            if (!tab.classList.contains('references__tab--active')) {
+                document.querySelector('.references__tab--active').classList.remove('references__tab--active');
+                document.querySelector('.references__content--active').classList.remove('references__content--active');
+                tab.classList.add('references__tab--active');
+                document.querySelector('.references__content[data-tab="' + tab.dataset.tab + '"]').classList.add('references__content--active');
+            }
         });
     });
 </script>
