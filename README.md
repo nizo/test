@@ -20,10 +20,10 @@ This command will clone the current repository into your local project folder.
 
 Requirements are:
 
-**Node** v14.15.4  
-**NPM** v6.14.10
+**Node** v14.17.0  
+**NPM** v6.14.13
 
-It is recommended to use [NVM](https://github.com/nvm-sh/nvm), simply install it on your local machine and run `nvm install v12.16.1` to have node and npm being installed (adjust version number if needed).
+It is recommended to use [NVM](https://github.com/nvm-sh/nvm), simply install it on your local machine and run `nvm install v14.17.0` to have node and npm being installed (adjust version number if needed).
 
 Optional requirements:
 
