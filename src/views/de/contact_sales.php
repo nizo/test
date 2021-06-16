@@ -153,6 +153,8 @@
                         <li>Vereinbaren Livedemos</li>
                         <li>Stimmen Pilotprojekte ab</li>
                     </ul>
+
+                    <img src="/assets/images/icons_svg/sent-out-white.svg" alt="" />
                 </div>
             </div>
         </div>

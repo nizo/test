@@ -54,6 +54,15 @@ $r->addRoute('GET', '/widgets', function() {
   require_once('./views/de/widgets.php');
   require_once('./layouts/footer.php');
 });
+$r->addRoute('GET', '/components', function() {
+  $title = 'Components';
+  $description = '';
+  $keywords = '';
+  $background = 'components--scrollbar';
+  require_once('./layouts/header-components.php');
+  require_once('./views/de/components.php');
+  require_once('./layouts/footer-components.php');
+});
 
 $r->addRoute('GET', '/components_overview', function() {
   $title = 'components_overview';
