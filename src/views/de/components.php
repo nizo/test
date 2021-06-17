@@ -13,12 +13,12 @@
             <p>We have multiple types of buttons and some modifiers that can change the overall behaviour of buttons.</p>
             <p><strong>Types:</strong></p>
             <ul>
-                <li>Primary</li>
-                <li>Secondary</li>
+                <li>Primary <code>.btn--primary</code></li>
+                <li>Secondary <code>.btn--secondary</code></li>
             </ul>
             <p><strong>Modifiers:</strong></p>
             <ul>
-                <li>Centered</li>
+                <li>Centered <code>.btn--centered</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -34,7 +34,7 @@
     <div class="components__item">
         <div class="components__docs">
             <h1>Modal via Click</h1>
-            <p>Modals can be open via click on any kind of element. The clickable element has to have the data attribute "data-callonemodal" and its content has to be the name of the modal located in "/partials/modals/".</p>
+            <p>Modals can be open via click on any kind of element. The clickable element has to have the data attribute <code>data-callonemodal</code> and its content has to be the name of the modal located in <code>/partials/modals/</code>.</p>
         </div>
         <div class="components__preview">
             <div>
@@ -50,9 +50,9 @@
             <p>Floating forms are form elements that contain labels that "float" when the corresponding input is focused/filled.</p>
             <p><strong>Elements:</strong></p>
             <ul>
-                <li>floating-form__row</li>
-                <li>floating-form__col</li>
-                <li>floating-form__field</li>
+                <li>Row <code>.floating-form__row</code></li>
+                <li>Column <code>.floating-form__col</code></li>
+                <li>Form Field <code>.floating-form__field</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -83,6 +83,10 @@
         <div class="components__docs">
             <h1>Custom Select / Dropdown</h1>
             <p>Custom selects are simply normal html select elements with the data attribute "data-calloneSelect". The first option has to have an empty value and is used as the label that is displayed when nothing is selected.</p>
+            <p><strong>Selector:</strong></p>
+            <ul>
+                <li><code>data-calloneSelect</code></li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -103,8 +107,8 @@
             <p>The infinity scroller is a special element that scrolls its contents, as the name suggests, infinitely. Both directions are possible. Default direction is scrolling upwards, it can be reversed by setting the data attribute "data-reversed". To make sure the scroller can be displayed it has to get a size by setting the data attribute "data-height".</p>
             <p><strong>Modifiers:</strong></p>
             <ul>
-                <li>data-height</li>
-                <li>data-reversed</li>
+                <li>Set height <code>data-height</code></li>
+                <li>Reverse direction <code>data-reversed</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -144,7 +148,7 @@
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/github-dark.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
+<!-- <script>hljs.highlightAll();</script> -->
 
 <script>    
     function escapeHtml(unsafe) {
@@ -185,11 +189,38 @@
         let preview = c.querySelector('.components__preview div');
         let pre = document.createElement('pre');
         let code = document.createElement('code');
+
+        // Create demo code snippet
         code.classList.add('language-html');
         let html = fixIndentation(preview);
         code.innerHTML = escapeHtml(html.innerHTML);
         pre.appendChild(code);
-        docs.appendChild(pre);
+
+        // Add code button
+        let codeButton = document.createElement('div');
+        codeButton.classList.add('components__code-button');
+        codeButton.classList.add('btn');
+        codeButton.classList.add('btn--primary');
+        codeButton.textContent = 'Show Code Snippet';
+        codeButton.addEventListener('click', e => {
+            let codePopup = document.createElement('div');
+            codePopup.classList.add('components__code-popup');
+            codePopup.appendChild(pre);
+            let codePopupClose = document.createElement('div');
+            codePopupClose.classList.add('components__code-button--close');
+            codePopup.appendChild(codePopupClose);
+            document.body.appendChild(codePopup);
+            hljs.highlightAll();
+            codePopupClose.addEventListener('click', e => {
+                codePopup.remove();
+            });
+            codePopup.addEventListener('click', e => {
+                if (e.target == codePopup) {
+                    codePopup.remove();
+                }
+            });
+        });
+        docs.appendChild(codeButton);
 
         // Fill TOC
         let tocListItem = document.createElement('li');
@@ -201,7 +232,6 @@
         tocList.appendChild(tocListItem);
         tocListItem.addEventListener('click', e => {
             let scrollPos = document.querySelector('.components__item[data-link="'+e.target.dataset.link+'"]').offsetTop;
-            console.log(scrollPos);
             window.scroll({
                 top: scrollPos,
                 behavior: 'smooth'
