@@ -20,6 +20,81 @@
     --gutter: 8px;
     background-color: #eee;
     padding: var(--gutter);
+
+    &__toc {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        min-width: 300px;
+        background: #fff;
+        padding: 10px 0;
+        transform: translateX(-100%);
+        transition: all .3s ease;
+        @extend .components--scrollbar;
+        ul {
+            list-style: none;
+            li {
+                padding: 10px 20px;
+                cursor: pointer;
+                &+li {
+                    border-top: 1px solid #eee;
+                }
+                &:hover {
+                    background-color: #eee;
+                }
+            }
+        }
+    }
+    &__toc--open {
+        transform: translateX(0);
+        box-shadow: 0 0 10px rgba(#000, 0.5);
+        .components__toc-button span {
+            background-color: transparent;
+            &:before {
+                transform: translateY(0) rotate(45deg);
+            }
+            &:after {
+                transform: translateY(0) rotate(-45deg);
+            }
+        }
+    }
+    &__toc-button {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        top: 0;
+        right: -48px;
+        border-radius: 0 0 10px 0;
+        background-color: #86ed18;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            position: relative;
+            width: 50%;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 3px;
+            &:before, &:after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                border-radius: 3px;
+                transition: all .3s ease;
+            }
+            &:before {
+                transform: translateY(-250%);
+            }
+            &:after {
+                transform: translateY(250%);
+            }
+        }
+    }
+
     &__item {
         display: flex;
         flex-direction: row;
@@ -69,5 +144,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        > div {
+            min-width: 50%;
+        }
     }
 }

@@ -1,4 +1,10 @@
 <div class="components">
+    <!-- Table of Contents -->
+    <div class="components__toc">
+        <div class="components__toc-button">
+            <span></span>
+        </div>
+    </div>
 
     <!-- Buttons -->
     <div class="components__item">
@@ -72,6 +78,68 @@
         </div>
     </div>
 
+    <!-- Custom Select / Dropdown -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Custom Select / Dropdown</h1>
+            <p>Custom selects are simply normal html select elements with the data attribute "data-calloneSelect". The first option has to have an empty value and is used as the label that is displayed when nothing is selected.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <select name="topic" data-calloneselect>
+                    <option value="">This is the label</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Infinity Scroller -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Infinity Scroller</h1>
+            <p>The infinity scroller is a special element that scrolls its contents, as the name suggests, infinitely. Both directions are possible. Default direction is scrolling upwards, it can be reversed by setting the data attribute "data-reversed". To make sure the scroller can be displayed it has to get a size by setting the data attribute "data-height".</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li>data-height</li>
+                <li>data-reversed</li>
+            </ul>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="scroller fadeOut-lightgrey-2" data-height="680">
+                    <div class="scroller-belt">
+                        <div class="scroller-content">
+                            <div class="feature-box">
+                                <div class="feature-box__icons">
+                                <div class="icon-callone">Feature</div>
+                                <div class="icon-phone">Anruf</div>
+                                </div>
+                                <p>Text zu Anrufen (TTS)</p>
+                            </div>
+                            <div class="feature-box">
+                                <div class="feature-box__icons">
+                                <div class="icon-callone">Feature</div>
+                                <div class="icon-phone">Anruf</div>
+                                </div>
+                                <p>Spracherkennung (Call Transcription)</p>
+                            </div>
+                            <div class="feature-box">
+                                <div class="feature-box__icons">
+                                <div class="icon-callone">Feature</div>
+                                <div class="icon-sms">SMS &amp; Chat</div>
+                                </div>
+                                <p>SMS Notification</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/github-dark.min.css">
@@ -109,6 +177,9 @@
     }
     
     let components = document.querySelectorAll('.components__item');
+    let toc = document.querySelector('.components__toc');
+    let tocButton = document.querySelector('.components__toc-button');
+    let tocList = document.createElement('ul');
     components.forEach(c => {
         let docs = c.querySelector('.components__docs');
         let preview = c.querySelector('.components__preview div');
@@ -119,5 +190,26 @@
         code.innerHTML = escapeHtml(html.innerHTML);
         pre.appendChild(code);
         docs.appendChild(pre);
+
+        // Fill TOC
+        let tocListItem = document.createElement('li');
+        let headline = docs.querySelector('h1');
+        let link = encodeURI(headline.textContent);
+        tocListItem.textContent = headline.textContent;
+        tocListItem.dataset.link = link;
+        c.dataset.link = link;
+        tocList.appendChild(tocListItem);
+        tocListItem.addEventListener('click', e => {
+            let scrollPos = document.querySelector('.components__item[data-link="'+e.target.dataset.link+'"]').offsetTop;
+            console.log(scrollPos);
+            window.scroll({
+                top: scrollPos,
+                behavior: 'smooth'
+            });
+        });
+    });
+    toc.appendChild(tocList);
+    tocButton.addEventListener('click', e => {
+        toc.classList.toggle('components__toc--open');
     });
 </script>
