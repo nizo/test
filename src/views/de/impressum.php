@@ -19,8 +19,8 @@
     </p>
 
     <p>
-      Registergericht: Mainz<br />
-      Registernummer: HRB 42715<br />
+      Registergericht: Berlin Charlottenburg<br />
+      Registernummer: HRB 226944 B<br />
       Umsatzsteueridentifikationsnummer: DE271894788
     </p>
 
