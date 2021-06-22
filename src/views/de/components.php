@@ -35,10 +35,24 @@
         <div class="components__docs">
             <h1>Modal via Click</h1>
             <p>Modals can be open via click on any kind of element. The clickable element has to have the data attribute <code>data-callonemodal</code> and its content has to be the name of the modal located in <code>/partials/modals/</code>.</p>
+            <ul>
+                <li><code>data-model</code>: Identifier Name</li>
+                <li><code>data-canceltext</code>: Text that is displayed as the close button (default: Schließen)</li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
-                <a href="#" class="btn btn--primary" data-callonemodal="contact">Click me to open Modal</a>
+                <a href="#" class="btn btn--primary" data-openmodal="contact">Click me to open Modal</a>
+
+                <div class="callone-modal" data-modal="contact" data-canceltext="Exit" data-title="Hello World" data-subtitle="Lorem Ipsum">
+                    <div class="callone-modal__step" data-steptitle="Step 1">
+                        Step 1
+                        <a href="#" class="btn btn--primary callone-modal__nextstep">Weiter</a>
+                    </div>
+                    <div class="callone-modal__step" data-steptitle="Step 2">
+                        Step 2
+                    </div>
+                </div>
             </div>
         </div>
     </div>
