@@ -66,7 +66,7 @@
             </div>
             <div class="col-2">
               <h3 class="h2">Unsere VoIP-Telefonie-Plattform</h3>
-              <p>Wir machen Businesstelefonie am Telefon schnell, smart und effizient. Wir bieten eine der leistungsfähigsten, sichersten und vielleicht am intuitiv zu bedienenden Full-Service-Telefonie Plattformen im deutschsprachigen Raum.</p>
+              <p>Wir machen Businesstelefonie am Telefon schnell, smart und effizient. Wir bieten eine der leistungsfähigsten, sichersten und intuitiv zu bedienensten Full-Service-Telefonie Plattformen im deutschsprachigen Raum.</p>
             </div>
           </div>    
         </div>

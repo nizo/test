@@ -89,7 +89,7 @@
           <input type="checkbox" id="automatisierung-3" />
           <label for="automatisierung-3">Dialer im Takt</label>
           <div class="toggle-box__content">
-            Mit Dialer-Funktionen wählen Sie automatisiert Kunden an. Anrufer können automatisch auf Anruflisten gesetzt und wieder enrfernt werden.
+            Mit Dialer-Funktionen wählen Sie automatisiert Kunden an. Anrufer können automatisch auf Anruflisten gesetzt und wieder entfernt werden.
           </div>
         </div>
       </div>
