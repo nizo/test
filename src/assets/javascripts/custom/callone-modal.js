@@ -2,15 +2,26 @@ class Modal {
     constructor(btn) {
         this.namespace = 'callone-modal';
         this.button = btn;
-        this.modal = document.querySelector('[data-modal="' + this.button.dataset.openmodal + '"]');
-        this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
+        this.modal = null;
+        this.steps = null;
         this.currentStep = 0;
         this.modalContent = null;
-        this.initModal();
         this.button.addEventListener('click', this.openModal.bind(this));
+        this.loadModalContent();
     }
-
+    
+    loadModalContent() {
+        this.modal = document.querySelector('[data-modal="' + this.button.dataset.openmodal + '"]');
+        if (!this.modal) {
+            this.modal = this.getModalContent(this.button.dataset.openmodal);
+        } else {
+            this.initModal();
+        }
+    }
+    
     initModal() {
+        this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
+
         // Modal Wrapper
         let modalWrapper = document.createElement('div');
         modalWrapper.classList.add(this.namespace + '__wrapper');
@@ -70,8 +81,12 @@ class Modal {
         let modalContent = document.createElement('div');
         modalContent.classList.add(this.namespace + '__content');
         modalContent.innerHTML = this.modal.innerHTML;
-        let nextButton = modalContent.querySelector('.' + this.namespace + '__nextstep');
-        nextButton.addEventListener('click', this.nextStep.bind(this));
+        let nextButtons = modalContent.querySelectorAll('.' + this.namespace + '__nextstep');
+        if (nextButtons.length > 0) {
+            nextButtons.forEach(next => {
+                next.addEventListener('click', this.nextStep.bind(this));
+            });
+        }
         modalWrapper.appendChild(modalContent);
 
         // Modal
@@ -86,7 +101,8 @@ class Modal {
         }).bind(this));
     }
 
-    nextStep() {
+    nextStep(e) {
+        e.preventDefault();
         this.currentStep++;
         this.switchStep();
     }
@@ -106,7 +122,11 @@ class Modal {
             stepIndicators[this.currentStep].classList.add(this.namespace + '__stepindicator--active');
             steps.forEach(step => step.classList.remove(this.namespace + '__step--active'));
             steps[this.currentStep].classList.add(this.namespace + '__step--active');
-            stepTitle.textContent = steps[this.currentStep].dataset.steptitle;
+            if (!steps[this.currentStep].dataset.steptitle || steps[this.currentStep].dataset.steptitle == "") {
+                stepTitle.textContent = "Schritt " + (parseInt(this.currentStep) + 1) + '/' + this.steps.length;
+            } else {
+                stepTitle.textContent = steps[this.currentStep].dataset.steptitle;
+            }
             if (this.currentStep > 0) {
                 backButton.classList.remove(this.namespace + '__headerbutton--hidden');
             } else {
@@ -116,26 +136,33 @@ class Modal {
         }
     }
 
-    openModal() {
+    openModal(e) {
+        e.preventDefault();
+        document.body.classList.add('callone-modal--scrolllock');
         this.modal.classList.add(this.namespace + '--open');
     }
-
+    
     closeModal() {
+        document.body.classList.remove('callone-modal--scrolllock');
         this.modal.classList.remove(this.namespace + '--open');
         this.currentStep = 0;
         this.switchStep();
     }
 
-    // getModalContent() {
-    //     const xhttp = new XMLHttpRequest();
-    //     xhttp.onreadystatechange = (function() {
-    //         if (xhttp.readyState != XMLHttpRequest.DONE && xhttp.status == 200)
-    //             return;
-    //         this.modal.innerHTML = xhttp.responseText;
-    //     }).bind(this);
-    //     xhttp.open('GET', '/partials/modals/' + this.modalname + '.html', true);
-    //     xhttp.send();
-    // }
+    getModalContent(id) {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = (function() {
+            if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status == 200) {
+                let res = xhttp.response;
+                this.modal = res.querySelector('.callone-modal');
+                this.button.parentNode.insertBefore(this.modal, this.button.nextSibling);
+                this.initModal();
+            }
+        }).bind(this);
+        xhttp.responseType = 'document';
+        xhttp.open('GET', '/partials/modals/' + id + '.html', true);
+        xhttp.send();
+    }
 }
 
 let modalButtons = document.querySelectorAll('[data-openmodal]');

@@ -21,6 +21,16 @@
     background-color: #eee;
     padding: var(--gutter);
 
+    > h1 {
+        font-size: 38px;
+        font-family: $font-headline;
+        font-weight: normal;
+        line-height: 1;
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
     &__toc {
         position: fixed;
         top: 0;

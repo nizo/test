@@ -1,3 +1,7 @@
+body.callone-modal--scrolllock {
+    overflow: hidden;
+}
+
 .callone-modal {
     --modal-maxwidth: 830px;
 
@@ -9,14 +13,18 @@
     height: 100%;
     z-index: 1000;
     background-color: rgba(#000, 0.5);
+    padding: 10vh 0;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
     &--open {
         display: flex;
     }
 
     &__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-height: 80vh;
         background-color: #fff;
         border-radius: 10px;
         width: 100%;
@@ -146,6 +154,21 @@
     }
 
     &__content {
-        
+        overflow-y: auto;
+        --scrollbarBG: transparent;
+        --thumbBG: #86ed18;
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        &::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG) ;
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
+        }
     }
 }

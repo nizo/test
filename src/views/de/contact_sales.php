@@ -22,7 +22,7 @@
 
             <div class="contactsales__step" data-step="1">
                 <h2>Wie groß ist Ihre Organisation?</h2>
-                <input type="range" min="1" max="200" step="1" value="25" calloneRange data-output="#workers" data-width="480" />
+                <input type="range" min="1" max="200" step="1" value="25" data-calloneRange data-output="#workers" data-width="480" />
                 <div class="workers">
                     <input type="text" id="workers" /> Mitarbeiter<span> oder mehr&hellip;</span>
                 </div>
