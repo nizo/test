@@ -4,7 +4,7 @@
  * @version       1.1.0
  * @description   A lightweight javascript class that transforms input type range sliders to custom sliders that can be modified in styling
  * @licence       Copyright by CallOne GmbH, all rights reserved
- * @usage         <input type="range" min="0" max="100" step="1" value="25" data-calloneRange data-output="#outputId" data-width="100" data-height="100" />
+ * @usage         <input type="range" min="0" max="100" step="1" value="25" data-callone-range data-output="#outputId" data-width="100" data-height="100" />
  * @changelog     08. June 2021 (v1.0.0)
  *                   - Initial creation
  *                09. June 2021 (v1.1.0)
@@ -17,6 +17,9 @@ class Range {
     constructor(slider) {
         this.classNamespace = 'callone-range';
         this.slider = slider;
+        if (this.slider.dataset.initialized && this.slider.dataset.initialized == 'true')
+            return;
+        this.slider.dataset.initialized = 'true';
         this.step = 100 / (this.slider.max / this.slider.step);
         this.dragging = false;
         this.wrapper = document.createElement('div');
@@ -156,7 +159,11 @@ class Range {
 }
 
 // Execute
-let sliders = document.querySelectorAll('[data-calloneRange]');
-sliders.forEach(slider => {
-    new Range(slider);
-});
+function initRangeSliders() {
+    let sliders = document.querySelectorAll('[data-callone-range]');
+    sliders.forEach(slider => {
+        new Range(slider);
+    });
+}
+initRangeSliders();
+document.body.addEventListener('click', initRangeSliders);

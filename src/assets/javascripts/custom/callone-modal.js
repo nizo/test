@@ -46,7 +46,11 @@ class Modal {
             // Steps
             let steptitle = document.createElement('div')
             steptitle.classList.add(this.namespace + '__steptitle');
-            steptitle.textContent = this.steps[0].dataset.steptitle;
+            if (!this.steps[0].dataset.steptitle || this.steps[0].dataset.steptitle == "") {
+                steptitle.textContent = 'Schritt 1/' + this.steps.length;
+            } else {
+                steptitle.textContent = this.steps[0].dataset.steptitle;
+            }
             title.appendChild(steptitle);
 
             let stepsWrapper = document.createElement('div');
@@ -118,12 +122,18 @@ class Modal {
             let stepTitle = this.modal.querySelector('.' + this.namespace + '__steptitle');
             let stepIndicators = this.modal.querySelectorAll('.' + this.namespace + '__stepindicator');
             let backButton = this.modal.querySelector('.' + this.namespace + '__headerbutton--back');
-            stepIndicators.forEach(step => step.classList.remove(this.namespace + '__stepindicator--active'));
+            stepIndicators.forEach((step, i) => {
+                step.classList.remove(this.namespace + '__stepindicator--past');
+                if (i < this.currentStep) {
+                    step.classList.add(this.namespace + '__stepindicator--past');
+                }
+                step.classList.remove(this.namespace + '__stepindicator--active');
+            });
             stepIndicators[this.currentStep].classList.add(this.namespace + '__stepindicator--active');
             steps.forEach(step => step.classList.remove(this.namespace + '__step--active'));
             steps[this.currentStep].classList.add(this.namespace + '__step--active');
             if (!steps[this.currentStep].dataset.steptitle || steps[this.currentStep].dataset.steptitle == "") {
-                stepTitle.textContent = "Schritt " + (parseInt(this.currentStep) + 1) + '/' + this.steps.length;
+                stepTitle.textContent = 'Schritt ' + (parseInt(this.currentStep) + 1) + '/' + this.steps.length;
             } else {
                 stepTitle.textContent = steps[this.currentStep].dataset.steptitle;
             }
@@ -132,13 +142,21 @@ class Modal {
             } else {
                 backButton.classList.add(this.namespace + '__headerbutton--hidden');
             }
-
+            this.runScripts();
         }
+    }
+
+    runScripts() {
+        let scripts = this.modal.querySelectorAll('script');
+        scripts.forEach(script => {
+            eval(script.textContent);
+        })
     }
 
     openModal(e) {
         e.preventDefault();
         document.body.classList.add('callone-modal--scrolllock');
+        this.runScripts();
         this.modal.classList.add(this.namespace + '--open');
     }
     

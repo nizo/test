@@ -22,7 +22,7 @@
 
             <div class="contactsales__step" data-step="1">
                 <h2>Wie groß ist Ihre Organisation?</h2>
-                <input type="range" min="1" max="200" step="1" value="25" data-calloneRange data-output="#workers" data-width="480" />
+                <input type="range" min="1" max="200" step="1" value="25" data-callone-range data-output="#workers" data-width="480" />
                 <div class="workers">
                     <input type="text" id="workers" /> Mitarbeiter<span> oder mehr&hellip;</span>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="floating-form__row">
                             <div class="floating-form__col">
                                 <div class="floating-form__select">
-                                    <select name="contactperson" data-calloneSelect required>
+                                    <select name="contactperson" data-callone-select required>
                                         <option value="">Sie sind Ansprechpartner für *</option>
                                         <option value="Sales">Sales</option>
                                         <option value="Finanzen">Finanzen</option>
@@ -81,7 +81,7 @@
                             </div>
                             <div class="floating-form__col">
                                 <div class="floating-form__select">
-                                    <select name="challenge" data-calloneSelect required>
+                                    <select name="challenge" data-callone-select required>
                                         <option value="">Herausforderung Ihrer Firma *</option>
                                         <option value="Wachstum &amp; Skalierung">Wachstum &amp; Skalierung</option>
                                     </select>
@@ -272,7 +272,7 @@
     let steps = document.querySelectorAll('.contactsales__step');
 
     // Display extra info if max organisation size is selected
-    let rangeSlider = document.querySelector('[calloneRange]');
+    let rangeSlider = document.querySelector('[data-callone-range]');
     rangeSlider.addEventListener('change', e => {
         let workersExtra = document.querySelector('.workers span');
         if (e.target.value == e.target.max) {

@@ -36,15 +36,15 @@
     <div class="components__item">
         <div class="components__docs">
             <h1>Custom Select / Dropdown</h1>
-            <p>Custom selects are simply normal html select elements with the data attribute "data-calloneSelect". The first option has to have an empty value and is used as the label that is displayed when nothing is selected.</p>
+            <p>Custom selects are simply normal html select elements with the data attribute "data-callone-select". The first option has to have an empty value and is used as the label that is displayed when nothing is selected.</p>
             <p><strong>Selector:</strong></p>
             <ul>
-                <li><code>data-calloneSelect</code></li>
+                <li><code>data-callone-select</code></li>
             </ul>
         </div>
         <div class="components__preview">
             <div>
-                <select name="topic" data-calloneselect>
+                <select name="topic" data-callone-select>
                     <option value="">This is the label</option>
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
@@ -196,7 +196,7 @@
         </div>
         <div class="components__preview">
             <div>
-                <input type="range" min="0" max="100" step="1" value="25" data-calloneRange data-output="#outputId" data-width="480" />
+                <input type="range" min="0" max="100" step="1" value="25" data-callone-range data-output="#outputId" data-width="480" />
                 <input type="text" id="outputId" />
             </div>
         </div>

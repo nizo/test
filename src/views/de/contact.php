@@ -6,7 +6,8 @@
     <div class="contactpage__content">
         <h1>Was ist Ihre Kontakt-Motivation?</h1>
 
-        <a href="/testen" class="contactoption">
+        <!-- <a href="/testen" class="contactoption"> -->
+        <a href="#" class="contactoption" data-openmodal="contact-sales">
             <div class="contactoption__header">
                 <div class="contactoption__icon">
                     <img src="/assets/images/icons_svg/contact-sales-white.svg" alt="" />
@@ -63,7 +64,7 @@
 						<label>Geschäftliche E-Mail *</label>
 					</div>
                     <div class="floating-form__select">
-                        <select name="issue" data-calloneSelect required>
+                        <select name="issue" data-callone-select required>
                             <option value="">Thema Ihrer Kontaktanfrage *</option>
                             <option value="Allgemeine Frage">Allgemeine Frage</option>
                             <option value="Technisches Problem">Technisches Problem</option>

@@ -1,3 +1,80 @@
-<div class="callone-modal" data-modal="contact-sales" data-title="Contact Sales" data-canceltext="test exit">
-    Hello World, Contact Sales.
+<div class="callone-modal" data-modal="contact-sales" data-title="Contact Sales">
+    <div class="callone-modal__step">
+        <div class="worker-select">
+            <h2>Wie groß ist Ihre Organisation?</h2>
+            
+            <input type="range" min="1" max="200" step="1" value="10" data-callone-range data-output="#workers" data-width="480" />
+            
+            <div class="workers">
+                <input type="text" id="workers" /> Mitarbeiter<span> oder mehr&hellip;</span>
+            </div>
+            
+            <button class="btn btn--secondary callone-modal__nextstep">Weiter</button>
+        </div>
+    </div>
+
+    <div class="callone-modal__step">
+        <div class="worker-evaluation worker-evaluation--enough">
+            <div class="radio-select">
+                <div class="radio-select__item">
+                    <input type="radio" id="topic1" name="topic" value="1" checked />
+                    <label for="topic1">
+                        <img src="assets/images/icons_svg/benefit-highlighter.svg" alt="">
+                        <h3>Senden Sie uns eine Nachricht</h3>
+                        <p>Kontaktformular nutzen</p>
+                    </label>
+                </div>
+                <div class="radio-select__item">
+                    <input type="radio" id="topic2" name="topic" value="2" />
+                    <label for="topic2">
+                        <img src="assets/images/icons_svg/benefit-highlighter.svg" alt="">
+                        <h3>Buchen Sie direkt einen Termin</h3>
+                        <p>Telefon- oder Videocall vereinbaren</p>
+                    </label>
+                </div>
+            </div>
+
+            <button class="btn btn--secondary callone-modal__nextstep">Weiter</button>
+        </div>
+
+        <div class="worker-evaluation worker-evaluation--not-enough" style="display: none">
+            <h2>Wir sind noch nicht so weit &hellip;</h2>
+            <p>Danke für die Anfrage, wir fühlen uns geschmeichelt. Wir lieben kleine Unternehmen, sie sind das Rückgrat unserer Branche. Doch leider haben wir noch keine adäquaten Lösungen für sie parat, da sie aktuell zu umfassend und damit zu teuer für Unternehmen unter 10 Mitarbeitenden sind. </p>
+            <a href="https://blog.hubspot.de/service/call-center-software" target="_blank">
+                <div>
+                    <p><strong>Blogartikel</strong></p>
+                    <p>Anbieter für Flatrate-Businesstelefonie</p>
+                </div>
+            </a>                  
+            <p>Absagen sind immer frustrierend. Deswegen möchten wir Ihnen ein paar sehr gute Telefonie-Anbieter für kleine Unternehmen empfehlen. Viel Erfolg mit Ihrem zukünftigen Telefonie-Partner!</p>
+        </div>
+    </div>
+    
+    <script>
+        let rangeSlider = document.querySelector('[data-callone-range]');
+        rangeSlider.addEventListener('change', e => {
+            let currentValue = e.target.value;
+            let barrier = 10;
+            let workersExtra = document.querySelector('.workers span');
+            let buttonNext = document.querySelector('.worker-select .callone-modal__nextstep');
+
+            // Check if max number is selected and display additional text
+            if (currentValue == e.target.max) {
+                workersExtra.style.display = 'inline';
+            } else {
+                workersExtra.style.display = 'none';
+            }
+
+            // Check if barrier is reached
+            let enoughBox = document.querySelector('.worker-evaluation--enough');
+            let notEnoughBox = document.querySelector('.worker-evaluation--not-enough');
+            if (currentValue < barrier) {
+                enoughBox.style.display = 'none';
+                notEnoughBox.style.display = 'block';
+            } else {
+                enoughBox.style.display = 'block';
+                notEnoughBox.style.display = 'none';
+            }
+        });
+    </script>
 </div>

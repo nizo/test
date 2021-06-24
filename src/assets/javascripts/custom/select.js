@@ -15,7 +15,7 @@
  * This has to do with the "required" attribute
  */
 
-const selectBoxes = document.querySelectorAll('[data-calloneSelect]');
+const selectBoxes = document.querySelectorAll('[data-callone-select]');
 
 selectValue = e => {
     let option = e.currentTarget; // Selected option
