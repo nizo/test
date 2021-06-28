@@ -160,6 +160,7 @@ body.callone-modal--scrolllock {
     &__content {
         padding: 30px;
         overflow-y: auto;
+        overflow-x: hidden;
         --scrollbarBG: transparent;
         --thumbBG: #86ed18;
         scrollbar-width: thin;

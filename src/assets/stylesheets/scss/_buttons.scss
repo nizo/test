@@ -605,27 +605,53 @@ p+.button-set {
   letter-spacing: .1em;
   cursor: pointer;
   transition: all .3s ease;
-
-  &--centered {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+  
   &--primary {
     background-color: $color-primary;
     color: #000;
     &:hover {
       background-color: #000;
       color: #fff;
+      &.btn--arrow-right:after {
+        filter: invert(1);
+      }
     }
   }
-
+  
   &--secondary {
     background-color: #000;
     color: #fff;
     &:hover {
       background-color: $color-primary;
       color: #000;
+    }
+  }
+  
+  &--centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+
+  &--arrow-right {
+    position: relative;
+    text-align: left;
+    &:after {
+      content: "";
+      position: absolute;
+      right: 40px;
+      top: calc(50% - 12px);
+      background-image: url(../images/icons_svg/forward-arrow-icon.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      transition: all .3s ease;
     }
   }
 }

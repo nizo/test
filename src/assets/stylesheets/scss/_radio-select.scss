@@ -6,10 +6,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: stretch;
-    margin: 0 -15px;
+    margin: 0 -15px 65px -15px;
 
     &__item {
-        flex-shrink: 0;
+        flex: 1;
         margin: 0 15px;
         label {
             display: block;

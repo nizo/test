@@ -21,6 +21,10 @@ class Range {
             return;
         this.slider.dataset.initialized = 'true';
         this.step = 100 / (this.slider.max / this.slider.step);
+        this.size = {
+            width: this.slider.dataset.width || 480,
+            height: this.slider.dataset.height || 25
+        };
         this.dragging = false;
         this.wrapper = document.createElement('div');
         this.track = document.createElement('div');
@@ -35,12 +39,12 @@ class Range {
             this.slider.addEventListener('change', this.setOutputValue.bind(this));
             this.output.addEventListener('keyup', this.setProgress.bind(this));
         }
-        if (this.slider.hasAttribute('data-width')) {
-            this.wrapper.style.width = this.slider.dataset.width + 'px';
-        }
-        if (this.slider.hasAttribute('data-height')) {
-            this.wrapper.style.height = this.slider.dataset.height + 'px';
-        }
+        this.wrapper.style.width = this.size.width + 'px';
+        this.wrapper.style.height = this.size.height + 'px';
+        // if (this.slider.hasAttribute('data-width')) {
+        // }
+        // if (this.slider.hasAttribute('data-height')) {
+        // }
         this.wrap();
         this.addTrack();
         this.addThumb();
@@ -146,7 +150,7 @@ class Range {
     addActive() {
         this.active.classList.add(this.classNamespace + '__active');
         this.active.style.width = this.getProgressInPercent() + '%';
-        this.active.style.backgroundSize = this.wrapper.offsetWidth + 'px 100%';
+        this.active.style.backgroundSize = this.size.width + 'px 100%';
         window.onresize = (() => {
             this.active.style.backgroundSize = this.wrapper.offsetWidth + 'px 100%';
         }).bind(this);
@@ -166,4 +170,7 @@ function initRangeSliders() {
     });
 }
 initRangeSliders();
-document.body.addEventListener('click', initRangeSliders);
+
+// Re-Init Range Sliders on click (if new sliders have been added to DOM)
+// Removed, new range sliders will be initialized manually when they appear
+//document.body.addEventListener('click', initRangeSliders);

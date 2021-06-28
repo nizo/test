@@ -6,6 +6,7 @@ class Modal {
         this.steps = null;
         this.currentStep = 0;
         this.modalContent = null;
+        this.closeButton = null;
         this.button.addEventListener('click', this.openModal.bind(this));
         this.loadModalContent();
     }
@@ -32,12 +33,12 @@ class Modal {
         modalWrapper.appendChild(modalHeader);
 
         // Close Button
-        let closeButton = document.createElement('div');
-        closeButton.classList.add(this.namespace + '__headerbutton');
-        closeButton.classList.add(this.namespace + '__headerbutton--close');
-        closeButton.textContent = this.modal.dataset.canceltext || 'Schließen';
-        closeButton.addEventListener('click', this.closeModal.bind(this));
-        modalHeader.appendChild(closeButton);
+        this.closeButton = document.createElement('div');
+        this.closeButton.classList.add(this.namespace + '__headerbutton');
+        this.closeButton.classList.add(this.namespace + '__headerbutton--close');
+        this.closeButton.textContent = this.modal.dataset.canceltext || 'Schließen';
+        this.closeButton.addEventListener('click', this.closeModal.bind(this));
+        modalHeader.appendChild(this.closeButton);
 
         // Title / Steps
         let title = document.createElement('div');
@@ -98,11 +99,16 @@ class Modal {
         this.modal.appendChild(modalWrapper);
 
         // Close on background protection click
-        this.modal.addEventListener('click', (e => {
+        this.modal.addEventListener('mousedown', (e => {
             if (this.modal == e.target) {
                 this.closeModal();
             }
         }).bind(this));
+        // this.modal.addEventListener('click', (e => {
+        //     if (this.modal == e.target) {
+        //         this.closeModal();
+        //     }
+        // }).bind(this));
     }
 
     nextStep(e) {
@@ -122,6 +128,8 @@ class Modal {
             let stepTitle = this.modal.querySelector('.' + this.namespace + '__steptitle');
             let stepIndicators = this.modal.querySelectorAll('.' + this.namespace + '__stepindicator');
             let backButton = this.modal.querySelector('.' + this.namespace + '__headerbutton--back');
+            if (steps[this.currentStep].dataset.canceltext)
+                this.closeButton.textContent = this.steps[this.currentStep].dataset.canceltext;
             stepIndicators.forEach((step, i) => {
                 step.classList.remove(this.namespace + '__stepindicator--past');
                 if (i < this.currentStep) {
@@ -142,7 +150,7 @@ class Modal {
             } else {
                 backButton.classList.add(this.namespace + '__headerbutton--hidden');
             }
-            this.runScripts();
+            // this.runScripts();
         }
     }
 

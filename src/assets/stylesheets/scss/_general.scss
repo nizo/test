@@ -2648,3 +2648,38 @@ blockquote {
     text-align: center;
   }
 }
+
+.sales-contact-form {
+  h2 {
+    font-family: $font-headline;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+  }
+
+  &__details {
+    display: flex;
+    margin-top: 20px;
+    > div {
+      flex: 1;
+    }
+    p {
+      text-align: center;
+    }
+    a {
+      color: #000;
+      transition: all 0.3s ease;
+      border-bottom: 2px solid #c4c4c4;
+      &:hover {
+        border-color: #86EC16;
+      }
+    }
+    img {
+      vertical-align: middle;
+      width: 16px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
