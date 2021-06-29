@@ -9,7 +9,7 @@
     margin: 0 -15px 65px -15px;
 
     &__item {
-        flex: 1;
+        display: flex;
         margin: 0 15px;
         label {
             display: block;
@@ -20,6 +20,7 @@
             border-radius: 10px;
             cursor: pointer;
             text-align: center;
+            flex: 1 1 0px; // Make items always same size
             img {
                 display: inline-block;
                 margin-bottom: 30px;

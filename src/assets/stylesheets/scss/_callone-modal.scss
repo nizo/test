@@ -2,9 +2,11 @@ body.callone-modal--scrolllock {
     overflow: hidden;
 }
 
-.callone-modal {
+:root {
     --modal-maxwidth: 830px;
+}
 
+.callone-modal {
     display: none;
     position: fixed;
     top: 0;
@@ -126,25 +128,25 @@ body.callone-modal--scrolllock {
         opacity: 0.5;
     }
 
-    &__steps {
+    &__step-indicators {
         display: flex;
         padding: 6px 0;
         justify-content: center;
         align-items: center;
     }
-    &__stepindicator {
+    &__step-indicator {
         width: 6px;
         height: 6px;
         border-radius: 50%;
         background-color: #c4c4c4;
-        &+.callone-modal__stepindicator {
+        &+.callone-modal__step-indicator {
             margin-left: 8px;
         }
     }
-    &__stepindicator--past {
+    &__step-indicator--past {
         background-color: #000;
     }
-    &__stepindicator--active {
+    &__step-indicator--active {
         background-color: #86ed18;
         width: 10px;
         height: 10px;
@@ -175,6 +177,22 @@ body.callone-modal--scrolllock {
             background-color: var(--thumbBG) ;
             border-radius: 6px;
             border: 3px solid var(--scrollbarBG);
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .callone-modal {
+        padding: 0;
+        align-items: flex-end;
+
+        &__wrapper {
+            max-height: calc(100vh - 60px);
+            border-radius: 10px 10px 0 0;
+        }
+
+        &__headerbutton--close {
+            text-indent: -9999px; // Hide text
         }
     }
 }

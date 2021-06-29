@@ -157,8 +157,11 @@
             <p><strong>Modal Steps:</strong></p>
             <ul>
                 <li><code>.callone-modal__step</code>: Wrapper of each step inside the <code>.callone-modal</code> block</li>
+                <li><code>data-step-id="1"</code>: Required, use incrementing numbers starting from 1</li>
+                <li><code>data-step-indicator="1/5"</code>: Used as the title if no <code>data-steptitle</code> is provided, also used to calculate and display the step indicators (dots).</li>
                 <li><code>data-steptitle="title"</code>: Title displayed for this specific step, if not provided the step number is shown instead</li>
-                <li><code>.callone-modal__nextstep</code>: Class that has to be added to a button inside a step to link to the next step in line</li>
+                <li><code>.callone-modal__nextstep</code>: Class that has to be added to a button inside a step to link to the next step, also needs <code>data-next-step="2"</code> to work properly. The number has to be the step ID.</li>
+                <li><code>data-prev-step="1"</code>: Specifies the previous step to display when back button is clicked</li>
             </ul>
         </div>
         <div class="components__preview">
@@ -170,12 +173,20 @@
                 <a href="#" class="btn btn--primary" data-openmodal="steps">Modal with steps</a>
                 
                 <div class="callone-modal" data-modal="steps" data-canceltext="Exit" data-title="Hello World" data-subtitle="Lorem Ipsum">
-                    <div class="callone-modal__step" data-steptitle="Step 1">
+                    <div class="callone-modal__step" data-step-id="1" data-steptitle="Step 1" data-step-indicator="1/3">
                         Step 1
-                        <a href="#" class="btn btn--primary callone-modal__nextstep">Weiter</a>
+                        <a href="#" class="btn btn--primary callone-modal__nextstep" data-next-step="2">Weiter</a>
                     </div>
-                    <div class="callone-modal__step" data-steptitle="Step 2">
+                    <div class="callone-modal__step" data-step-id="2" data-canceltext="Abbrechen" data-steptitle="Step 2" data-step-indicator="2/3" data-prev-step="1">
                         Step 2
+                        <a href="#" class="btn btn--primary callone-modal__nextstep" data-next-step="3">Step 3</a>
+                        <a href="#" class="btn btn--primary callone-modal__nextstep" data-next-step="4">Step 4</a>
+                    </div>
+                    <div class="callone-modal__step" data-step-id="3" data-step-indicator="3/3" data-prev-step="2">
+                        Step 3
+                    </div>
+                    <div class="callone-modal__step" data-step-id="4" data-step-indicator="3/3" data-prev-step="2">
+                        Step 4
                     </div>
                 </div>
                 

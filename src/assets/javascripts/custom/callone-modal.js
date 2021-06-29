@@ -4,7 +4,8 @@ class Modal {
         this.button = btn;
         this.modal = null;
         this.steps = null;
-        this.currentStep = 0;
+        this.activeStep = null;
+        this.currentStep = 1;
         this.modalContent = null;
         this.closeButton = null;
         this.button.addEventListener('click', this.openModal.bind(this));
@@ -44,28 +45,42 @@ class Modal {
         let title = document.createElement('div');
         title.classList.add(this.namespace + '__title');
         if (this.steps.length > 0) {
-            // Steps
+            // Has Steps
+
+            // Current Step
+            this.activeStep = this.getActiveStep();
+
+            // Set Step Title
             let steptitle = document.createElement('div')
             steptitle.classList.add(this.namespace + '__steptitle');
-            if (!this.steps[0].dataset.steptitle || this.steps[0].dataset.steptitle == "") {
-                steptitle.textContent = 'Schritt 1/' + this.steps.length;
+            if (!this.activeStep.dataset.steptitle || this.activeStep.dataset.steptitle === "") {
+                steptitle.textContent = 'Schritt ' + (this.activeStep.dataset.stepIndicator || this.activeStep.dataset.stepId);
             } else {
-                steptitle.textContent = this.steps[0].dataset.steptitle;
+                steptitle.textContent = this.activeStep.dataset.steptitle;
             }
             title.appendChild(steptitle);
 
-            let stepsWrapper = document.createElement('div');
-            stepsWrapper.classList.add(this.namespace + '__steps');
-            for (let i = 0; i < this.steps.length; i++) {
-                let step = document.createElement('div');
-                step.classList.add(this.namespace + '__stepindicator');
-                if (i == this.currentStep)
-                    step.classList.add(this.namespace + '__stepindicator--active');
-                stepsWrapper.appendChild(step);
+            // Set step indicators (points)
+            let stepIndicators = document.createElement('div');
+            stepIndicators.classList.add(this.namespace + '__step-indicators');
+            if (this.activeStep.dataset.stepIndicator) {
+                let values = this.activeStep.dataset.stepIndicator.split("/"); // Has to be "1/3" format
+                let current = parseInt(values[0]);
+                let limit = parseInt(values[1]);
+                for (let i = 1; i <= limit; i++) {
+                    let step = document.createElement('div');
+                    step.classList.add(this.namespace + '__step-indicator');
+                    if (i == current)
+                        step.classList.add(this.namespace + '__step-indicator--active');
+                    stepIndicators.appendChild(step);
+                }
             }
-            title.appendChild(stepsWrapper);
-            this.steps[this.currentStep].classList.add(this.namespace + '__step--active');
+            title.appendChild(stepIndicators);
 
+            // Show active step
+            this.activeStep.classList.add(this.namespace + '__step--active');
+
+            // Add back button to previous step
             let stepbackButton = document.createElement('div');
             stepbackButton.classList.add(this.namespace + '__headerbutton');
             stepbackButton.classList.add(this.namespace + '__headerbutton--back');
@@ -104,54 +119,68 @@ class Modal {
                 this.closeModal();
             }
         }).bind(this));
-        // this.modal.addEventListener('click', (e => {
-        //     if (this.modal == e.target) {
-        //         this.closeModal();
-        //     }
-        // }).bind(this));
     }
 
     nextStep(e) {
         e.preventDefault();
-        this.currentStep++;
+        this.currentStep = parseInt(e.currentTarget.dataset.nextStep);
         this.switchStep();
     }
 
     prevStep() {
-        this.currentStep--;
+        this.currentStep = parseInt(this.activeStep.dataset.prevStep);
         this.switchStep();
     }
 
+    getActiveStep() {
+        let activeStep = null;
+        this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
+        this.steps.forEach(step => {
+            if (step.hasAttribute('data-step-id') && parseInt(step.getAttribute('data-step-id')) === this.currentStep)
+                activeStep = step;
+        });
+        return activeStep;
+    }
+
     switchStep() {
-        if (this.currentStep >= 0 && this.currentStep < this.steps.length) {
-            let steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
-            let stepTitle = this.modal.querySelector('.' + this.namespace + '__steptitle');
-            let stepIndicators = this.modal.querySelectorAll('.' + this.namespace + '__stepindicator');
-            let backButton = this.modal.querySelector('.' + this.namespace + '__headerbutton--back');
-            if (steps[this.currentStep].dataset.canceltext)
-                this.closeButton.textContent = this.steps[this.currentStep].dataset.canceltext;
-            stepIndicators.forEach((step, i) => {
-                step.classList.remove(this.namespace + '__stepindicator--past');
-                if (i < this.currentStep) {
-                    step.classList.add(this.namespace + '__stepindicator--past');
-                }
-                step.classList.remove(this.namespace + '__stepindicator--active');
-            });
-            stepIndicators[this.currentStep].classList.add(this.namespace + '__stepindicator--active');
-            steps.forEach(step => step.classList.remove(this.namespace + '__step--active'));
-            steps[this.currentStep].classList.add(this.namespace + '__step--active');
-            if (!steps[this.currentStep].dataset.steptitle || steps[this.currentStep].dataset.steptitle == "") {
-                stepTitle.textContent = 'Schritt ' + (parseInt(this.currentStep) + 1) + '/' + this.steps.length;
-            } else {
-                stepTitle.textContent = steps[this.currentStep].dataset.steptitle;
+        this.activeStep = this.getActiveStep();
+        let stepTitle = this.modal.querySelector('.' + this.namespace + '__steptitle');
+        let stepIndicators = this.modal.querySelector('.' + this.namespace + '__step-indicators');
+        let backButton = this.modal.querySelector('.' + this.namespace + '__headerbutton--back');
+        this.closeButton.textContent = this.activeStep.dataset.canceltext || this.modal.dataset.canceltext || 'Schließen';
+
+        // Adjust step indicators
+        stepIndicators.innerHTML = '';
+        if (this.activeStep.dataset.stepIndicator) {
+            let indicatorValues = this.activeStep.dataset.stepIndicator.split("/");
+            let indicatorCurrent = parseInt(indicatorValues[0]);
+            let indicatorLimit = parseInt(indicatorValues[1]);
+            for (let i = 1; i <= indicatorLimit; i++) {
+                let step = document.createElement('div');
+                step.classList.add(this.namespace + '__step-indicator');
+                if (i == indicatorCurrent)
+                    step.classList.add(this.namespace + '__step-indicator--active');
+                    if (i < indicatorCurrent)
+                    step.classList.add(this.namespace + '__step-indicator--past');
+                stepIndicators.appendChild(step);
             }
-            if (this.currentStep > 0) {
-                backButton.classList.remove(this.namespace + '__headerbutton--hidden');
-            } else {
-                backButton.classList.add(this.namespace + '__headerbutton--hidden');
-            }
-            // this.runScripts();
         }
+
+        // Set new step as active
+        this.steps.forEach(step => step.classList.remove(this.namespace + '__step--active'));
+        this.activeStep.classList.add(this.namespace + '__step--active');
+
+        if (!this.activeStep.dataset.steptitle || this.activeStep.dataset.steptitle == "") {
+            stepTitle.textContent = 'Schritt ' + (this.activeStep.dataset.stepIndicator || this.activeStep.dataset.stepId);
+        } else {
+            stepTitle.textContent = this.activeStep.dataset.steptitle;
+        }
+        if (this.currentStep > 1) {
+            backButton.classList.remove(this.namespace + '__headerbutton--hidden');
+        } else {
+            backButton.classList.add(this.namespace + '__headerbutton--hidden');
+        }
+        // this.runScripts();
     }
 
     runScripts() {
@@ -171,7 +200,7 @@ class Modal {
     closeModal() {
         document.body.classList.remove('callone-modal--scrolllock');
         this.modal.classList.remove(this.namespace + '--open');
-        this.currentStep = 0;
+        this.currentStep = 1;
         this.switchStep();
     }
 

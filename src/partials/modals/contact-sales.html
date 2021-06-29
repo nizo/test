@@ -1,5 +1,5 @@
 <div class="callone-modal" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step">
+    <div class="callone-modal__step" data-step-id="1">
         <div class="worker-select">
             <h2>Wie groß ist Ihre Organisation?</h2>
             
@@ -9,11 +9,11 @@
                 <input type="text" id="workers" /> Mitarbeiter<span> oder mehr&hellip;</span>
             </div>
             
-            <button class="btn btn--secondary callone-modal__nextstep">Weiter</button>
+            <button class="btn btn--secondary callone-modal__nextstep" data-next-step="2">Weiter</button>
         </div>
     </div>
 
-    <div class="callone-modal__step">
+    <div class="callone-modal__step" data-step-id="2" data-prev-step="1">
         <div class="worker-evaluation worker-evaluation--enough">
             <div class="radio-select">
                 <div class="radio-select__item">
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <button class="btn btn--secondary btn--centered callone-modal__nextstep">Weiter</button>
+            <button class="btn btn--secondary btn--centered callone-modal__nextstep" data-next-step="3">Weiter</button>
         </div>
 
         <div class="worker-evaluation worker-evaluation--not-enough" style="display: none">
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="callone-modal__step" data-canceltext="Abbrechen">
+    <div class="callone-modal__step" data-step-id="3" data-prev-step="2" data-canceltext="Abbrechen">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
             <p class="centered">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quam earum quasi velit quae nulla ex tenetur harum dolorem alias veritatis nobis placeat perferendis, accusamus officia repellendus. Quia, tempore autem!</p>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__nextstep">Kontaktformular absenden</button>
+                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__nextstep" data-next-step="4">Kontaktformular absenden</button>
             </form>
 
             <p class="centered">oder kontaktieren Sie uns per Telefon/E-Mail falls Ihre Anfrage nicht in das Formular passt:</p>
@@ -128,7 +128,7 @@
         </div>
     </div>
 
-    <div class="callone-modal__step" data-steptitle="Bestätigung" data-canceltext="Schließen">
+    <div class="callone-modal__step" data-step-id="4" data-prev-step="3" data-steptitle="Bestätigung" data-canceltext="Schließen">
         <h2>Super, wir sind kontaktiert!</h2>
         <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
 

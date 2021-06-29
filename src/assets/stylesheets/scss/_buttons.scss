@@ -639,6 +639,7 @@ p+.button-set {
   &--arrow-right {
     position: relative;
     text-align: left;
+    padding-right: 70px !important;
     &:after {
       content: "";
       position: absolute;
