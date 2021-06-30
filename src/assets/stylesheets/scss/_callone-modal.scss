@@ -179,6 +179,9 @@ body.callone-modal--scrolllock {
             border: 3px solid var(--scrollbarBG);
         }
     }
+    &__content--scrolllock {
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -191,8 +194,32 @@ body.callone-modal--scrolllock {
             border-radius: 10px 10px 0 0;
         }
 
-        &__headerbutton--close {
+        &__headerbutton--back {
+            width: 32px;
+            height: 32px;
+            padding: 0;
             text-indent: -9999px; // Hide text
+            &:before {
+                top: 50%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0);
+            }
+        }
+
+        &__headerbutton--close {
+            width: 32px;
+            height: 32px;
+            padding: 0;
+            text-indent: -9999px; // Hide text
+            &:before, &:after {
+                left: 50%;
+            }
+            &:before {
+                transform: translate3d(-50%, -50%, 0) rotate(45deg) !important;
+            }
+            &:after {
+                transform: translate3d(-50%, -50%, 0) rotate(-45deg) !important;
+            }
         }
     }
 }

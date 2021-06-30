@@ -2,6 +2,9 @@ class stepSlider {
     constructor(el) {
         this.dragging = false;
         this.slider = el;
+        if (this.slider.dataset.initialized && this.slider.dataset.initialized == 'true')
+            return;
+        this.slider.dataset.initialized = 'true';
         this.steps = this.slider.querySelector('.step-slider__steps');
         this.rangeWrapper = this.slider.querySelector('.step-slider__slider');
         this.range = this.slider.querySelector('.step-slider__range');

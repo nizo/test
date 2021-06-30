@@ -72,6 +72,16 @@
     border-radius: 10px;
     margin-bottom: 25px;
     color: #fff;
+    opacity: .5;
+    transition: opacity .3s ease;
+    &--highlight {
+        background-color: #fff;
+        color: #000;
+        opacity: 1;
+    }
+    &:hover {
+        opacity: 1;
+    }
     &__header {
         display: flex;
         flex-direction: row;
@@ -170,6 +180,7 @@
             &+.contactoption {
                 background-color: #fff;
                 color: #000;
+                opacity: 1;
                 .contactoption__content {
                     display: block;
                 }

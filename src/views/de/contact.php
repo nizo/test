@@ -6,11 +6,10 @@
     <div class="contactpage__content">
         <h1>Was ist Ihre Kontakt-Motivation?</h1>
 
-        <!-- <a href="/testen" class="contactoption"> -->
-        <a href="#" class="contactoption" data-openmodal="contact-sales">
+        <a href="#" class="contactoption contactoption--highlight" data-openmodal="contact-sales">
             <div class="contactoption__header">
                 <div class="contactoption__icon">
-                    <img src="/assets/images/icons_svg/contact-sales-white.svg" alt="" />
+                    <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
                 </div>
                 <div class="contactoption__text">
                     <strong>Vertrieb kontaktieren</strong><br />

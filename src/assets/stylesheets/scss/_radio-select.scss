@@ -49,3 +49,17 @@
         }
     }
 }
+
+@media screen and (max-width: 700px) {
+    .radio-select {
+        --padding: 15px;
+        flex-direction: column;
+        margin: 0 0 var(--padding) 0;
+        &__item {
+            margin: 0;
+            &+.radio-select__item {
+                margin-top: var(--padding);
+            }
+        }
+    }
+}

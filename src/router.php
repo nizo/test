@@ -407,8 +407,7 @@ $r->addRoute('GET', '/testen', function() {
   //$background = 'bg-testen';
   $ogUrl = $GLOBALS['url'] . '/testen';
   require_once('./layouts/header.php');
-  //require_once('./views/de/testen.php');
-  require_once('./views/de/contact_sales.php');
+  require_once('./views/de/testen.php');
   require_once('./layouts/footer.php');
 });
 

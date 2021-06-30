@@ -98,16 +98,16 @@ class Modal {
         modalHeader.appendChild(title);
 
         // Modal Content
-        let modalContent = document.createElement('div');
-        modalContent.classList.add(this.namespace + '__content');
-        modalContent.innerHTML = this.modal.innerHTML;
-        let nextButtons = modalContent.querySelectorAll('.' + this.namespace + '__nextstep');
+        this.modalContent = document.createElement('div');
+        this.modalContent.classList.add(this.namespace + '__content');
+        this.modalContent.innerHTML = this.modal.innerHTML;
+        let nextButtons = this.modalContent.querySelectorAll('.' + this.namespace + '__nextstep');
         if (nextButtons.length > 0) {
             nextButtons.forEach(next => {
                 next.addEventListener('click', this.nextStep.bind(this));
             });
         }
-        modalWrapper.appendChild(modalContent);
+        modalWrapper.appendChild(this.modalContent);
 
         // Modal
         this.modal.innerHTML = '';
@@ -166,6 +166,19 @@ class Modal {
             }
         }
 
+        // Check if no scroll is set
+        if (this.activeStep.dataset.stepNoscroll && this.activeStep.dataset.stepNoscroll === 'true') {
+            this.modalContent.classList.add(this.namespace + '__content--scrolllock');
+            // Set height of first child node properly
+            var firstChild = this.activeStep.firstChild;
+            while(firstChild != null && firstChild.nodeType == 3){ // skip TextNodes
+                firstChild = firstChild.nextSibling;
+            }
+            //TODO console.log(firstChild.offsetHeight, this.modalContent.offsetHeight);
+        } else {
+            this.modalContent.classList.remove(this.namespace + '__content--scrolllock');
+        }
+
         // Set new step as active
         this.steps.forEach(step => step.classList.remove(this.namespace + '__step--active'));
         this.activeStep.classList.add(this.namespace + '__step--active');
@@ -186,6 +199,12 @@ class Modal {
     runScripts() {
         let scripts = this.modal.querySelectorAll('script');
         scripts.forEach(script => {
+            if (script.hasAttribute('src')) {
+                let scriptClone = document.createElement('script');
+                scriptClone.setAttribute('src', script.getAttribute('src'));
+                script.parentNode.insertBefore(scriptClone, script);
+                script.remove();
+            }
             eval(script.textContent);
         })
     }
@@ -194,14 +213,17 @@ class Modal {
         e.preventDefault();
         document.body.classList.add('callone-modal--scrolllock');
         this.runScripts();
+        $(this.modal).css('display', 'flex').hide().fadeIn(300);
         this.modal.classList.add(this.namespace + '--open');
     }
     
     closeModal() {
-        document.body.classList.remove('callone-modal--scrolllock');
-        this.modal.classList.remove(this.namespace + '--open');
-        this.currentStep = 1;
-        this.switchStep();
+        $(this.modal).fadeOut(300, (function() {
+            document.body.classList.remove('callone-modal--scrolllock');
+            this.modal.classList.remove(this.namespace + '--open');
+            this.currentStep = 1;
+            this.switchStep();
+        }).bind(this));
     }
 
     getModalContent(id) {
@@ -209,13 +231,16 @@ class Modal {
         xhttp.onreadystatechange = (function() {
             if (xhttp.readyState === XMLHttpRequest.DONE && xhttp.status == 200) {
                 let res = xhttp.response;
-                this.modal = res.querySelector('.callone-modal');
+                let tempContainer = document.createElement('div');
+                tempContainer.innerHTML = res;
+                this.modal = tempContainer.querySelector('.callone-modal');
                 this.button.parentNode.insertBefore(this.modal, this.button.nextSibling);
                 this.initModal();
             }
         }).bind(this);
-        xhttp.responseType = 'document';
+        // xhttp.responseType = 'document';
         xhttp.open('GET', '/partials/modals/' + id + '.html', true);
+        xhttp.overrideMimeType('application/xml; charset=UTF-8');
         xhttp.send();
     }
 }

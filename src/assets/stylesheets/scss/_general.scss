@@ -2689,3 +2689,15 @@ blockquote {
     }
   }
 }
+@media screen and (max-width: 700px) {
+  .sales-contact-form {
+    &__details {
+      flex-direction: column;
+      > div {
+        &+div {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

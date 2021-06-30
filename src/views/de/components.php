@@ -83,6 +83,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="floating-form__select">
+                        <select name="topic" data-callone-select>
+                            <option value="">Choose topic</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                        </select>
+                    </div>
                     <div class="floating-form__field">
                         <textarea name="message" rows="5" placeholder=" "></textarea>
                         <label>Message</label>

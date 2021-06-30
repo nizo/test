@@ -1,5 +1,5 @@
 <div class="callone-modal" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step" data-step-id="1">
+    <div class="callone-modal__step" data-step-id="1" data-step-indicator="1/3">
         <div class="worker-select">
             <h2>Wie groß ist Ihre Organisation?</h2>
             
@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-prev-step="1">
+    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-step-indicator="2/3">
         <div class="worker-evaluation worker-evaluation--enough">
             <div class="radio-select">
                 <div class="radio-select__item">
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="3" data-prev-step="2" data-canceltext="Abbrechen">
+    <div class="callone-modal__step" data-step-id="3" data-prev-step="2" data-step-indicator="3/3" data-canceltext="Abbrechen">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
             <p class="centered">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quam earum quasi velit quae nulla ex tenetur harum dolorem alias veritatis nobis placeat perferendis, accusamus officia repellendus. Quia, tempore autem!</p>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__nextstep" data-next-step="4">Kontaktformular absenden</button>
+                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__nextstep" data-next-step="5">Kontaktformular absenden</button>
             </form>
 
             <p class="centered">oder kontaktieren Sie uns per Telefon/E-Mail falls Ihre Anfrage nicht in das Formular passt:</p>
@@ -122,13 +122,18 @@
                 </div>
             </div>
         </div>
-
-        <div class="sales-contact-calendar" style="display: none">
-            [CALENDAR]
+    </div>
+    
+    <div class="callone-modal__step" data-step-id="4" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
+        <div class="sales-contact-calendar">
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/max-callone" style="min-width:320px;height:800px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="4" data-prev-step="3" data-steptitle="Bestätigung" data-canceltext="Schließen">
+    <div class="callone-modal__step" data-step-id="5" data-prev-step="3" data-steptitle="Bestätigung" data-canceltext="Schließen">
         <h2>Super, wir sind kontaktiert!</h2>
         <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
 
@@ -168,7 +173,7 @@
     
     <script>
         // Steps Slider
-        let stepSliders = document.querySelectorAll('.step-slider');
+        const stepSliders = document.querySelectorAll('.step-slider');
         stepSliders.forEach(s => {
             new stepSlider(s);
         });
@@ -211,18 +216,15 @@
         });
 
         // Toggle Form or Calendar, depending on what has been selected on the previous step
+        let workerEvaluationNext = document.querySelector('.worker-evaluation .callone-modal__nextstep');
         let topicSelectors = document.getElementsByName('topic');
         topicSelectors.forEach(t => {
             t.addEventListener('click', e => {
                 if (t.checked) {
-                    let salesContactForm = document.querySelector('.sales-contact-form');
-                    let salesContactCalendar = document.querySelector('.sales-contact-calendar');
                     if (t.value == 'form') {
-                        salesContactForm.style.display = 'block';
-                        salesContactCalendar.style.display = 'none';
+                        workerEvaluationNext.dataset.nextStep = 3;
                     } else if (t.value == 'calendar') {
-                        salesContactForm.style.display = 'none';
-                        salesContactCalendar.style.display = 'block';
+                        workerEvaluationNext.dataset.nextStep = 4;
                     }
                     return;
                 }

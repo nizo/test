@@ -18,6 +18,9 @@
 class Select {
     constructor(s) {
         this.select = s;
+        if (this.select.dataset.initialized && this.select.dataset.initialized == 'true')
+            return;
+        this.select.dataset.initialized = 'true';
 
         // Wrap original select
         this.wrapper = document.createElement('div');
