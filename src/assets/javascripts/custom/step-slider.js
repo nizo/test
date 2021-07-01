@@ -26,11 +26,11 @@ class stepSlider {
         // Touch Events
         this.rangeWrapper.addEventListener('touchstart', (e => {
             this.dragging = true;
-        }).bind(this));
+        }).bind(this), {passive: true});
         window.addEventListener('touchend', (e => {
             this.dragging = false;
-        }).bind(this));
-        window.addEventListener('touchmove', this.drag.bind(this));
+        }).bind(this), {passive: true});
+        window.addEventListener('touchmove', this.drag.bind(this), {passive: true});
     }
 
     calculateStepsWidth() {

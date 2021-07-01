@@ -107,6 +107,12 @@ class Modal {
                 next.addEventListener('click', this.nextStep.bind(this));
             });
         }
+        let submitButtons = this.modalContent.querySelectorAll('.' + this.namespace + '__submit');
+        if (submitButtons.length > 0) {
+            submitButtons.forEach(submit => {
+                submit.addEventListener('click', this.submitStep.bind(this));
+            });
+        }
         modalWrapper.appendChild(this.modalContent);
 
         // Modal
@@ -121,9 +127,15 @@ class Modal {
         }).bind(this));
     }
 
+    submitStep(e) {
+        e.preventDefault();
+        if (typeof window[e.target.dataset.stepCallback] === "function")
+            window[e.target.dataset.stepCallback](e, this.nextStep.bind(this, e));
+    }
+
     nextStep(e) {
         e.preventDefault();
-        this.currentStep = parseInt(e.currentTarget.dataset.nextStep);
+        this.currentStep = parseInt(e.target.dataset.nextStep);
         this.switchStep();
     }
 
@@ -169,12 +181,22 @@ class Modal {
         // Check if no scroll is set
         if (this.activeStep.dataset.stepNoscroll && this.activeStep.dataset.stepNoscroll === 'true') {
             this.modalContent.classList.add(this.namespace + '__content--scrolllock');
-            // Set height of first child node properly
-            var firstChild = this.activeStep.firstChild;
-            while(firstChild != null && firstChild.nodeType == 3){ // skip TextNodes
-                firstChild = firstChild.nextSibling;
+
+            // Set height of calendly widget if present
+            let cal = this.activeStep.querySelector('.calendly-inline-widget');
+            cal.style.height = this.modalContent.offsetHeight + 'px';
+            let styles = window.getComputedStyle(this.modalContent, null);
+            let gutters = {
+                top: parseInt(styles.getPropertyValue('padding-top')),
+                right: parseInt(styles.getPropertyValue('padding-right')),
+                bottom: parseInt(styles.getPropertyValue('padding-bottom')),
+                left: parseInt(styles.getPropertyValue('padding-left'))
             }
-            //TODO console.log(firstChild.offsetHeight, this.modalContent.offsetHeight);
+            cal.style.marginTop = -gutters.top + 'px';
+            cal.style.marginRight = -gutters.right + 'px';
+            cal.style.marginBottom = -gutters.bottom + 'px';
+            cal.style.marginLeft = -gutters.left + 'px';
+            // End Calendly height calculation
         } else {
             this.modalContent.classList.remove(this.namespace + '__content--scrolllock');
         }
@@ -239,7 +261,7 @@ class Modal {
             }
         }).bind(this);
         // xhttp.responseType = 'document';
-        xhttp.open('GET', '/partials/modals/' + id + '.html', true);
+        xhttp.open('GET', '/partials/modals/' + id + '.php', true);
         xhttp.overrideMimeType('application/xml; charset=UTF-8');
         xhttp.send();
     }

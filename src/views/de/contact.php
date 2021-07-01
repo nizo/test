@@ -40,7 +40,7 @@
             <div class="contactoption__content">
                 <p>
                     Passt Ihre Supportanfrage nicht ins Formular?<br />
-                    Alternativ können Sie uns auch eine E-Mail an <a href="javascript:location='mailto:\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0063\u0061\u006c\u006c\u006f\u006e\u0065\u002e\u0064\u0065';void 0"><script>document.write('\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0063\u0061\u006c\u006c\u006f\u006e\u0065\u002e\u0064\u0065')</script></a> senden.
+                    Alternativ können Sie uns auch eine E-Mail an <a href="mailto:support@callone.de">support@callone.de</a> senden.
                 </p>
 
                 <div class="contactoption__form--success"><!-- Only display on success -->
@@ -89,7 +89,7 @@
         </div>
         <div>
             <h3>E-Mail</h3>
-            <p><script>eval(unescape("%78%6f%64%6c%69%31%36%3d%5b%27%25%36%39%25%36%65%25%36%36%25%36%66%27%2c%5b%27%25%36%34%25%36%35%27%2c%27%25%36%33%25%36%31%25%36%63%25%36%63%25%36%66%25%36%65%25%36%35%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%7a%6c%63%72%62%35%39%3d%27%69%6e%66%6f%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%7a%6c%63%72%62%35%39%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%78%6f%64%6c%69%31%36%29%29%3b"));</script></p>
+            <p><a href="mailto:info@callone.de">info@callone.de</a></p>
         </div>
     </div>
 </div>

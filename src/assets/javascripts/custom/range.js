@@ -64,15 +64,15 @@ class Range {
         // Touch Events
         this.thumb.addEventListener('touchstart', (() => {
             this.dragging = true;
-        }).bind(this));
+        }).bind(this), {passive: true});
         window.addEventListener('touchend', (() => {
             this.dragging = false;
-        }).bind(this));
+        }).bind(this), {passive: true});
         window.addEventListener('touchmove', ((e) => {
             if (this.dragging) {
                 this.changeProgress(e);
             }
-        }).bind(this));
+        }).bind(this), {passive: true});
     }
 
     setOutputValue() {

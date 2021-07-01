@@ -13,7 +13,8 @@
     }
 
     &__col {
-        flex: 1;
+        flex: 1 1 0px;
+        width: 0;
         &+.floating-form__col {
             margin-left: var(--gutter);
         }
@@ -92,6 +93,28 @@
     }
     &__submit--fullwidth {
         width: 100%;
+    }
+
+    &__error {
+        border-radius: 6px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-red;
+        padding: 10px;
+        margin-bottom: 25px;
+        text-align: center;
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    &__error--active {
+        display: flex;
     }
 }
 
