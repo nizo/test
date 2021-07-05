@@ -1,19 +1,20 @@
 <?php
 session_start();
+$uniqueID = uniqid();
 ?>
 
-<div class="callone-modal" data-modal="contact-sales" data-title="Contact Sales">
+<div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
     <div class="callone-modal__step" data-step-id="1" data-step-indicator="1/3">
         <div class="worker-select">
             <h2>Wie groß ist Ihre Organisation?</h2>
             
-            <input type="range" min="1" max="200" step="1" value="1" data-callone-range="" data-output="#workers" data-width="480" />
+            <input type="range" min="1" max="200" step="1" value="1" data-callone-range="" data-output="#workers<?= $uniqueID; ?>" data-width="480" />
             
             <div class="workers">
-                <input type="text" name="workers" id="workers" /> Mitarbeiter<span> oder mehr…</span>
+                <input type="text" name="workers" id="workers<?= $uniqueID; ?>" /> Mitarbeiter<span> oder mehr…</span>
             </div>
             
-            <button class="btn btn--secondary callone-modal__nextstep" data-next-step="6">Weiter</button> <!-- next 3 -->
+            <button class="btn btn--secondary callone-modal__nextstep" data-next-step="3">Weiter</button>
         </div>
     </div>
 
@@ -21,16 +22,16 @@ session_start();
         <div class="worker-evaluation">
             <div class="radio-select">
                 <div class="radio-select__item">
-                    <input type="radio" id="topic1" name="topic" value="form" checked="checked" />
-                    <label for="topic1">
+                    <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
+                    <label for="topic1<?= $uniqueID; ?>">
                         <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
                         <h3>Senden Sie uns eine Nachricht</h3>
                         <p>Kontaktformular nutzen</p>
                     </label>
                 </div>
                 <div class="radio-select__item">
-                    <input type="radio" id="topic2" name="topic" value="calendar" />
-                    <label for="topic2">
+                    <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
+                    <label for="topic2<?= $uniqueID; ?>">
                         <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
                         <h3>Buchen Sie direkt einen Termin</h3>
                         <p>Telefon- oder Videocall vereinbaren</p>
@@ -48,7 +49,7 @@ session_start();
         <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="card-link">
             <span class="card-link__icons">
                 <img src="/assets/images/logo/logo-icon-green.svg" alt="" />
-                <img src="/assets/images/logo/logo-icon-green.svg" alt="" />
+                <img src="/assets/images/icons_svg/recommendations.svg" alt="" />
             </span>
             <h2 class="card-link__title">Anbieter für Flatrate-Businesstelefonie</h2>
             <span class="card-link__subtitle">Unsere Empfehlungsliste</span>
@@ -124,6 +125,8 @@ session_start();
                     </div>
                 </div>
 
+                <div class="floating-form__loader"></div>
+
                 <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__submit">Kontaktformular absenden</button>
             </form>
 
@@ -143,7 +146,7 @@ session_start();
     <div class="callone-modal__step" data-step-id="5" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig" style="min-width:320px;height:800px;"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig" style="min-width:320px;height:1200px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="async"></script>
             <!-- Calendly inline widget end -->
         </div>
@@ -199,18 +202,15 @@ session_start();
         // Sales Contact Form
         window.salesContactSubmit = function(e, cb) {
             const form = document.querySelector('.sales-contact-form form');
+            const formLoader = form.querySelector('.floating-form__loader');
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
             const formErrorText = formError.querySelector('p');
             formError.classList.remove('floating-form__error--active') // Display error message
 
-            // Fake submit form to enable required check
-            // console.log(form);
-            // $(form).submit(function(e) {
-            //     console.log('FAKE SUBMIT FORM');
-            //     e.preventDefault();
-            // });
+            formLoader.classList.add('floating-form__loader--active');
 
+            // Prepare form data
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
             var formFields = new FormData();
             formFields.set('type', 2);
@@ -230,6 +230,7 @@ session_start();
             xhttp.onreadystatechange = function() {
                 if (this.readyState != XMLHttpRequest.DONE)
                     return;
+                formLoader.classList.remove('floating-form__loader--active');
                 if (this.status == 200) {
                     // Backend sent response, evaluate
                     const response = JSON.parse(this.responseText);
@@ -274,39 +275,41 @@ session_start();
             xhttp.open('POST', 'https://connect.callone.io/backend/contact.php');
             xhttp.send(formFields);
         }
-
+        
         // Steps Slider
         const stepSliders = document.querySelectorAll('.step-slider');
         stepSliders.forEach(s => {
             new stepSlider(s);
         });
-
+        
         // Form Selects
         const selectBoxes = document.querySelectorAll('[data-callone-select]');
         selectBoxes.forEach(s => {
             new Select(s);
         });
+        
+        const thisModal = document.getElementById('<?= $uniqueID; ?>');
 
         // Range Slider
-        let rangeSliders = document.querySelectorAll('[data-callone-range]');
+        let rangeSliders = thisModal.querySelectorAll('[data-callone-range]');
         rangeSliders.forEach(rangeSlider => {
             new Range(rangeSlider);
-
+            
             rangeSlider.addEventListener('change', e => {
                 let currentValue = e.target.value;
                 let barrier = 10;
-                let workersExtra = document.querySelector('.workers span');
-                let buttonNext = document.querySelector('.worker-select .callone-modal__nextstep');
-
+                let workersExtra = thisModal.querySelector('.workers span');
+                let buttonNext = thisModal.querySelector('.worker-select .callone-modal__nextstep');
+                
                 // Check if max number is selected and display additional text
                 if (currentValue == e.target.max) {
                     workersExtra.style.display = 'inline';
                 } else {
                     workersExtra.style.display = 'none';
                 }
-
+                
                 // Check if barrier is reached
-                let workerSelectNext = document.querySelector('.worker-select .callone-modal__nextstep');
+                let workerSelectNext = thisModal.querySelector('.worker-select .callone-modal__nextstep');
                 if (currentValue < barrier) {
                     workerSelectNext.dataset.nextStep = 3;
                 } else {
@@ -314,10 +317,10 @@ session_start();
                 }
             });
         });
-
+        
         // Toggle Form or Calendar, depending on what has been selected on the previous step
-        let workerEvaluationNext = document.querySelector('.worker-evaluation .callone-modal__nextstep');
-        let topicSelectors = document.getElementsByName('topic');
+        let workerEvaluationNext = thisModal.querySelector('.worker-evaluation .callone-modal__nextstep');
+        let topicSelectors = document.getElementsByName('topic<?= $uniqueID; ?>');
         topicSelectors.forEach(t => {
             t.addEventListener('click', e => {
                 if (t.checked) {

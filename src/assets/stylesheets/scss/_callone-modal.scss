@@ -190,7 +190,7 @@ body.callone-modal--scrolllock {
         align-items: flex-end;
 
         &__wrapper {
-            max-height: calc(100vh - 60px);
+            max-height: calc(100% - 60px);
             border-radius: 10px 10px 0 0;
         }
 

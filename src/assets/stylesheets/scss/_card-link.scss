@@ -7,6 +7,11 @@
     border-radius: 10px;
     padding: 20px 80px 20px 20px;
     color: #000;
+    transition: all .3s ease;
+
+    &:hover {
+        border-color: $color-primary;
+    }
 
     &:after {
         content: "";
@@ -29,6 +34,7 @@
         img {
             display: block;
             height: 22px;
+            margin: 0;
             &+img {
                 margin-left: 10px;
             }

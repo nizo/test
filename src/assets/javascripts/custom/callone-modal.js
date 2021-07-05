@@ -6,6 +6,8 @@ class Modal {
         this.steps = null;
         this.activeStep = null;
         this.currentStep = 1;
+        this.modalWrapper = null;
+        this.modalHeader = null;
         this.modalContent = null;
         this.closeButton = null;
         this.button.addEventListener('click', this.openModal.bind(this));
@@ -25,13 +27,13 @@ class Modal {
         this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
 
         // Modal Wrapper
-        let modalWrapper = document.createElement('div');
-        modalWrapper.classList.add(this.namespace + '__wrapper');
+        this.modalWrapper = document.createElement('div');
+        this.modalWrapper.classList.add(this.namespace + '__wrapper');
 
         // Modal Header
-        let modalHeader = document.createElement('div');
-        modalHeader.classList.add(this.namespace + '__header');
-        modalWrapper.appendChild(modalHeader);
+        this.modalHeader = document.createElement('div');
+        this.modalHeader.classList.add(this.namespace + '__header');
+        this.modalWrapper.appendChild(this.modalHeader);
 
         // Close Button
         this.closeButton = document.createElement('div');
@@ -39,7 +41,7 @@ class Modal {
         this.closeButton.classList.add(this.namespace + '__headerbutton--close');
         this.closeButton.textContent = this.modal.dataset.canceltext || 'Schließen';
         this.closeButton.addEventListener('click', this.closeModal.bind(this));
-        modalHeader.appendChild(this.closeButton);
+        this.modalHeader.appendChild(this.closeButton);
 
         // Title / Steps
         let title = document.createElement('div');
@@ -87,7 +89,7 @@ class Modal {
             stepbackButton.classList.add(this.namespace + '__headerbutton--hidden');
             stepbackButton.textContent = 'Schritt zurück';
             stepbackButton.addEventListener('click', this.prevStep.bind(this));
-            modalHeader.appendChild(stepbackButton);
+            this.modalHeader.appendChild(stepbackButton);
         } else {
             // Title
             title.innerHTML = this.modal.dataset.title;
@@ -95,7 +97,7 @@ class Modal {
             subtitle.textContent = this.modal.dataset.subtitle;
             title.appendChild(subtitle);
         }
-        modalHeader.appendChild(title);
+        this.modalHeader.appendChild(title);
 
         // Modal Content
         this.modalContent = document.createElement('div');
@@ -119,11 +121,11 @@ class Modal {
                 form.addEventListener('submit', this.submitStep.bind(this));
             });
         }
-        modalWrapper.appendChild(this.modalContent);
+        this.modalWrapper.appendChild(this.modalContent);
 
         // Modal
         this.modal.innerHTML = '';
-        this.modal.appendChild(modalWrapper);
+        this.modal.appendChild(this.modalWrapper);
 
         // Close on background protection click
         this.modal.addEventListener('mousedown', (e => {
@@ -190,18 +192,23 @@ class Modal {
 
             // Set height of calendly widget if present
             let cal = this.activeStep.querySelector('.calendly-inline-widget');
-            cal.style.height = this.modalContent.offsetHeight + 'px';
-            let styles = window.getComputedStyle(this.modalContent, null);
-            let gutters = {
-                top: parseInt(styles.getPropertyValue('padding-top')),
-                right: parseInt(styles.getPropertyValue('padding-right')),
-                bottom: parseInt(styles.getPropertyValue('padding-bottom')),
-                left: parseInt(styles.getPropertyValue('padding-left'))
+            if (cal) {
+                cal.style.height = (window.innerHeight * 0.8) - this.modalHeader.offsetHeight + 'px';
+                if (window.innerWidth <= 830) {
+                    cal.style.height = 'calc(' + (window.innerHeight - this.modalHeader.offsetHeight) + 'px - 60px)';
+                }
+                let styles = window.getComputedStyle(this.modalContent, null);
+                let gutters = {
+                    top: parseInt(styles.getPropertyValue('padding-top')),
+                    right: parseInt(styles.getPropertyValue('padding-right')),
+                    bottom: parseInt(styles.getPropertyValue('padding-bottom')),
+                    left: parseInt(styles.getPropertyValue('padding-left'))
+                }
+                cal.style.marginTop = -gutters.top + 'px';
+                cal.style.marginRight = -gutters.right + 'px';
+                cal.style.marginBottom = -gutters.bottom + 'px';
+                cal.style.marginLeft = -gutters.left + 'px';
             }
-            cal.style.marginTop = -gutters.top + 'px';
-            cal.style.marginRight = -gutters.right + 'px';
-            cal.style.marginBottom = -gutters.bottom + 'px';
-            cal.style.marginLeft = -gutters.left + 'px';
             // End Calendly height calculation
         } else {
             this.modalContent.classList.remove(this.namespace + '__content--scrolllock');
@@ -239,10 +246,12 @@ class Modal {
 
     openModal(e) {
         e.preventDefault();
-        document.body.classList.add('callone-modal--scrolllock');
-        this.runScripts();
-        $(this.modal).css('display', 'flex').hide().fadeIn(300);
-        this.modal.classList.add(this.namespace + '--open');
+        if (this.modal) {
+            document.body.classList.add('callone-modal--scrolllock');
+            this.runScripts();
+            $(this.modal).css('display', 'flex').hide().fadeIn(300);
+            this.modal.classList.add(this.namespace + '--open');
+        }
     }
     
     closeModal() {
@@ -262,13 +271,15 @@ class Modal {
                 let tempContainer = document.createElement('div');
                 tempContainer.innerHTML = res;
                 this.modal = tempContainer.querySelector('.callone-modal');
-                this.button.parentNode.insertBefore(this.modal, this.button.nextSibling);
+                // this.button.parentNode.insertBefore(this.modal, this.button.nextSibling);
+                document.body.appendChild(this.modal);
                 this.initModal();
             }
         }).bind(this);
         // xhttp.responseType = 'document';
         xhttp.open('GET', '/partials/modals/' + id + '.php', true);
-        xhttp.overrideMimeType('application/xml; charset=UTF-8');
+        //xhttp.overrideMimeType('application/xml; charset=UTF-8');
+        xhttp.overrideMimeType('text/plain; charset=utf-8');
         xhttp.send();
     }
 }

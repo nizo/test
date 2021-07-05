@@ -32,6 +32,26 @@
         </div>
     </div>
 
+    <!-- Card Link -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Card Link</h1>
+            <p>A link styled as a card with icons, title and subtitle.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <a href="#" class="card-link">
+                    <span class="card-link__icons">
+                        <img src="/assets/images/logo/logo-icon-green.svg" alt="" />
+                        <img src="/assets/images/icons_svg/recommendations.svg" alt="" />
+                    </span>
+                    <h2 class="card-link__title">Anbieter für Flatrate-Businesstelefonie</h2>
+                    <span class="card-link__subtitle">Unsere Empfehlungsliste</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <!-- Custom Select / Dropdown -->
     <div class="components__item">
         <div class="components__docs">
@@ -216,6 +236,58 @@
             <div>
                 <input type="range" min="0" max="100" step="1" value="25" data-callone-range data-output="#outputId" data-width="480" />
                 <input type="text" id="outputId" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Step Slider -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Step Slider</h1>
+            <p>Slider for multiple steps.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="step-slider">
+                    <div class="step-slider__steps">
+                        <div class="step-slider__step step-slider__step--active">
+                            <h2>Besprechung Ihrer Anforderungen</h2>
+                            <p>Lassen Sie uns kurz über Ihre Anforderungen sprechen. Wir nehmen uns Zeit und beraten Sie ehrlich.</p>
+                        </div>
+                        <div class="step-slider__step">
+                            <h2>Demo Zugang</h2>
+                            <p>Sie bekommen einen komplett funktionalen Demo-Zugang und wir zeigen Ihnen, was die Telefonanlage kann.</p>
+                        </div>
+                        <div class="step-slider__step">
+                            <h2>Analyse</h2>
+                            <p>Wir machen kostenfrei eine Verkehrsmessung, analysieren Ihr System, Ihre Strukturen, Ihren Traffic.</p>
+                        </div>
+                        <div class="step-slider__step">
+                            <h2>Live-Session &amp; Lösungen</h2>
+                            <p>Aus den Ergebnissen setzen wir Ihre Telefonanlage so auf, als wären Sie bereits Kunde bei uns. Das ist unser Investment in Sie.</p>
+                        </div>
+                        <div class="step-slider__step">
+                            <h2>Testen &amp; Finetuning</h2>
+                            <p>Sie testen und prüfen ohne Risiko oder Kosten, wir stehen Ihnen mit Antworten zur Seite. Dann entscheiden Sie, ob wir Sie überzeugen konnten.</p>
+                        </div>
+                    </div>
+                    <div class="step-slider__slider">
+                        <div class="step-slider__range">
+                            <div class="step-slider__handle"></div>
+                        </div>
+                    </div>
+                    <div class="step-slider__hint">
+                        <div class="step-slider__hint-left">
+                            Erste Kontaktaufnahme
+                        </div>
+                        <div class="step-slider__hint-center">
+                            <strong>Hinweis:</strong> Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
+                        </div>
+                        <div class="step-slider__hint-right">
+                            Ihre Entscheidung
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
