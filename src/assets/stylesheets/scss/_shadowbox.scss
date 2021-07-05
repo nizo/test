@@ -43,6 +43,7 @@
       background-position: center;
       top: -247px;
       right: -311px;
+	  z-index: -1;
     }
     &.visible {
 	  	&::after {
