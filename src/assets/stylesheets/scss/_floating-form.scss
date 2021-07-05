@@ -125,6 +125,7 @@
         }
 
         &__col {
+            width: auto;
             &+.floating-form__col {
                 margin-left: 0;
                 margin-top: 25px;

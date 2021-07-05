@@ -107,10 +107,16 @@ class Modal {
                 next.addEventListener('click', this.nextStep.bind(this));
             });
         }
-        let submitButtons = this.modalContent.querySelectorAll('.' + this.namespace + '__submit');
-        if (submitButtons.length > 0) {
-            submitButtons.forEach(submit => {
-                submit.addEventListener('click', this.submitStep.bind(this));
+        // let submitButtons = this.modalContent.querySelectorAll('.' + this.namespace + '__submit');
+        // if (submitButtons.length > 0) {
+        //     submitButtons.forEach(submit => {
+        //         submit.addEventListener('click', this.submitStep.bind(this));
+        //     });
+        // }
+        let submitForms = this.modalContent.querySelectorAll('form');
+        if (submitForms.length > 0) {
+            submitForms.forEach(form => {
+                form.addEventListener('submit', this.submitStep.bind(this));
             });
         }
         modalWrapper.appendChild(this.modalContent);

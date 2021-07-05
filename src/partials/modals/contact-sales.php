@@ -13,12 +13,12 @@ session_start();
                 <input type="text" name="workers" id="workers" /> Mitarbeiter<span> oder mehr…</span>
             </div>
             
-            <button class="btn btn--secondary callone-modal__nextstep" data-next-step="3">Weiter</button>
+            <button class="btn btn--secondary callone-modal__nextstep" data-next-step="6">Weiter</button> <!-- next 3 -->
         </div>
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-step-indicator="2/3">
-        <div class="worker-evaluation worker-evaluation--enough">
+        <div class="worker-evaluation">
             <div class="radio-select">
                 <div class="radio-select__item">
                     <input type="radio" id="topic1" name="topic" value="form" checked="checked" />
@@ -38,30 +38,29 @@ session_start();
                 </div>
             </div>
 
-            <button class="btn btn--secondary btn--centered callone-modal__nextstep" data-next-step="3">Weiter</button>
+            <button class="btn btn--secondary btn--centered callone-modal__nextstep" data-next-step="4">Weiter</button>
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-steptitle="Noch nicht soweit">
-        <div class="worker-evaluation worker-evaluation--not-enough">
-            <h2>Wir sind noch nicht so weit…</h2>
-            <p>Danke für die Anfrage, wir fühlen uns geschmeichelt. Wir lieben kleine Unternehmen, sie sind das Rückgrat unserer Branche. Doch leider haben wir noch keine adäquaten Lösungen für sie parat, da sie aktuell zu umfassend und damit zu teuer für Unternehmen unter 10 Mitarbeitenden sind. </p>
-            <a href="https://blog.hubspot.de/service/call-center-software" target="_blank">
-                <div>
-                    <p><strong>Blogartikel</strong></p>
-                    <p>Anbieter für Flatrate-Businesstelefonie</p>
-                </div>
-            </a>                  
-            <p>Absagen sind immer frustrierend. Deswegen möchten wir Ihnen ein paar sehr gute Telefonie-Anbieter für kleine Unternehmen empfehlen. Viel Erfolg mit Ihrem zukünftigen Telefonie-Partner!</p>
-        </div>
+    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-steptitle="Vielen Dank für Ihre Anfrage">
+        <h2 style="margin-bottom:20px">Schauen Sie doch hier mal nach...</h2>
+        <p>Wir freuen uns über Ihr Interesse, doch leider finden wir heute noch nicht zusammen. Da sich die Ansprüche nach Firmengröße stark unterscheiden, wissen wir, dass unsere Lösung ihr Potenzial erst ab 10 Teammitgliedern voll entfalten. Dennoch möchten wir Ihnen gern helfen, einen passenden Partner zu finden. Hierzu haben wir eine Handvoll echt guter Empfehlungen für Sie bereitgestellt.</p>
+        <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="card-link">
+            <span class="card-link__icons">
+                <img src="/assets/images/logo/logo-icon-green.svg" alt="" />
+                <img src="/assets/images/logo/logo-icon-green.svg" alt="" />
+            </span>
+            <h2 class="card-link__title">Anbieter für Flatrate-Businesstelefonie</h2>
+            <span class="card-link__subtitle">Unsere Empfehlungsliste</span>
+        </a>
     </div>
 
     <div class="callone-modal__step" data-step-id="4" data-prev-step="2" data-step-indicator="3/3" data-canceltext="Abbrechen">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
-            <p class="centered">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quam earum quasi velit quae nulla ex tenetur harum dolorem alias veritatis nobis placeat perferendis, accusamus officia repellendus. Quia, tempore autem!</p>
+            <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen: Entweder indem Sie das Formular ausfüllen und wir uns so schnell wie möglich mit Ihnen in Verbindung setzen, oder indem Sie uns direkt via Telefon oder Mail kontaktieren.</p>
 
-            <form action="#" method="post" class="floating-form">
+            <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit" data-next-step="6">
                 <div class="floating-form__error">
                     <h2>Etwas ist schief gelaufen</h2>
                     <p>Bitte versuchen Sie es erneut.</p>
@@ -125,10 +124,10 @@ session_start();
                     </div>
                 </div>
 
-                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__submit" data-step-callback="salesContactSubmit" data-next-step="5">Kontaktformular absenden</button>
+                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__submit">Kontaktformular absenden</button>
             </form>
 
-            <p class="centered">oder kontaktieren Sie uns per Telefon/E-Mail falls Ihre Anfrage nicht in das Formular passt:</p>
+            <p class="centered">oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
 
             <div class="sales-contact-form__details">
                 <div>
@@ -144,7 +143,7 @@ session_start();
     <div class="callone-modal__step" data-step-id="5" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/max-callone" style="min-width:320px;height:800px;"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig" style="min-width:320px;height:800px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="async"></script>
             <!-- Calendly inline widget end -->
         </div>
@@ -177,13 +176,21 @@ session_start();
                     <p>Sie testen und prüfen ohne Risiko oder Kosten, wir stehen Ihnen mit Antworten zur Seite. Dann entscheiden Sie, ob wir Sie überzeugen konnten.</p>
                 </div>
             </div>
-            <div class="step-slider__slider" data-left="Erste Kontaktaufnahme" data-right="Ihre Entscheidung">
+            <div class="step-slider__slider">
                 <div class="step-slider__range">
                     <div class="step-slider__handle"></div>
                 </div>
             </div>
             <div class="step-slider__hint">
-                Hinweis: Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
+                <div class="step-slider__hint-left">
+                    Erste Kontaktaufnahme
+                </div>
+                <div class="step-slider__hint-center">
+                    <strong>Hinweis:</strong> Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
+                </div>
+                <div class="step-slider__hint-right">
+                    Ihre Entscheidung
+                </div>
             </div>
         </div>
     </div>
@@ -191,8 +198,6 @@ session_start();
     <script>
         // Sales Contact Form
         window.salesContactSubmit = function(e, cb) {
-            const formMethod = 'POST';
-            const formAction = 'https://connect.callone.io/backend/contact.php';
             const form = document.querySelector('.sales-contact-form form');
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
@@ -200,9 +205,11 @@ session_start();
             formError.classList.remove('floating-form__error--active') // Display error message
 
             // Fake submit form to enable required check
-            $(form).submit(function(e) {
-                e.preventDefault();
-            });
+            // console.log(form);
+            // $(form).submit(function(e) {
+            //     console.log('FAKE SUBMIT FORM');
+            //     e.preventDefault();
+            // });
 
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
             var formFields = new FormData();
@@ -217,26 +224,6 @@ session_start();
             formFields.set('company', form.querySelector('input[name="company"]').value);
             formFields.set('phonenumber', form.querySelector('input[name="phonenumber"]').value);
             formFields.set('email', form.querySelector('input[name="email"]').value);
-            
-            // Gather form data
-            // let formFields = {
-            //     type: 2,
-            //     path: form.querySelector('input[name="path"]').value || null,
-            //     employees: document.getElementById('workers').value || null,
-            //     issue: form.querySelector('select[name="issue"]').value || null,
-            //     name: form.querySelector('input[name="name"]').value || null,
-            //     position: form.querySelector('select[name="position"]').value || null,
-            //     company: form.querySelector('input[name="company"]').value || null,
-            //     phonenumber: form.querySelector('input[name="phonenumber"]').value || null,
-            //     email: form.querySelector('input[name="email"]').value || null
-            // };
-
-            // Encode form data
-            // let urlEncodedData = "", urlEncodedDataPairs = [];
-            // for (let field in formFields) {
-            //     urlEncodedDataPairs.push(encodeURIComponent(field)+'='+encodeURIComponent(formFields[field]));
-            // }
-            // urlEncodedData = urlEncodedDataPairs.join('&');
 
             // AJAX Request
             const xhttp = new XMLHttpRequest();
@@ -284,8 +271,7 @@ session_start();
                     formError.classList.add('floating-form__error--active') // Display error message
                 }
             };
-            xhttp.open(formMethod, formAction);
-            // xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhttp.open('POST', 'https://connect.callone.io/backend/contact.php');
             xhttp.send(formFields);
         }
 
@@ -321,8 +307,6 @@ session_start();
 
                 // Check if barrier is reached
                 let workerSelectNext = document.querySelector('.worker-select .callone-modal__nextstep');
-                let enoughBox = document.querySelector('.worker-evaluation--enough');
-                let notEnoughBox = document.querySelector('.worker-evaluation--not-enough');
                 if (currentValue < barrier) {
                     workerSelectNext.dataset.nextStep = 3;
                 } else {
