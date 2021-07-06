@@ -90,6 +90,10 @@
             background-color: #000;
             color: #fff;
         }
+        &:disabled, &[disabled] {
+            background-color: $color-grey;
+            cursor: not-allowed;
+        }
     }
     &__submit--fullwidth {
         width: 100%;
@@ -125,6 +129,7 @@
         border-radius: 2px;
         background-color: $color-primary;
         margin: var(--gutter) auto;
+        overflow: hidden;
         &:before, &:after {
             content: "";
             position: absolute;

@@ -203,12 +203,14 @@ $uniqueID = uniqid();
         window.salesContactSubmit = function(e, cb) {
             const form = document.querySelector('.sales-contact-form form');
             const formLoader = form.querySelector('.floating-form__loader');
+            const formSubmit = form.querySelector('.floating-form__submit');
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
             const formErrorText = formError.querySelector('p');
             formError.classList.remove('floating-form__error--active') // Display error message
 
             formLoader.classList.add('floating-form__loader--active');
+            formSubmit.disabled = true;
 
             // Prepare form data
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
@@ -231,6 +233,7 @@ $uniqueID = uniqid();
                 if (this.readyState != XMLHttpRequest.DONE)
                     return;
                 formLoader.classList.remove('floating-form__loader--active');
+                formSubmit.disabled = false;
                 if (this.status == 200) {
                     // Backend sent response, evaluate
                     const response = JSON.parse(this.responseText);

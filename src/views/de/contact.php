@@ -75,6 +75,9 @@
 						<textarea name="text" rows="5" placeholder=" " required></textarea>
 						<label>Ihre Nachricht an uns *</label>
 					</div>
+
+                    <div class="floating-form__loader"></div>
+
                     <button type="submit" class="floating-form__submit floating-form__submit--fullwidth">An Support senden</button>
 				</form>
             </div>
@@ -99,6 +102,8 @@
     const formMethod = 'POST';
     const formAction = 'https://connect.callone.io/backend/contact.php';
     const form = document.querySelector('.contactoption__form');
+    const formLoader = form.querySelector('.floating-form__loader');
+    const formSubmit = form.querySelector('.floating-form__submit');
     const errorMsg = document.querySelector('.contactoption__form--error');
     const errorMsgHeadline = errorMsg.querySelector('h2');
     const errorMsgText = errorMsg.querySelector('p');
@@ -107,6 +112,9 @@
     form.addEventListener('submit', e => {
         errorMsg.style.display = 'none'; // Hide error message when form is submitted
         e.preventDefault(); // Prevent the form from reloading/switching the page
+
+        formLoader.classList.add('floating-form__loader--active');
+        formSubmit.disabled = true;
         
         // Get inputs
         let inputs = new Object();
@@ -127,6 +135,8 @@
             if (this.readyState != XMLHttpRequest.DONE) {
                 return;
             }
+            formLoader.classList.remove('floating-form__loader--active');
+            formSubmit.disabled = false;
             if (this.status == 200) {
                 // Backend sent response, evaluate
                 const response = JSON.parse(this.responseText);
