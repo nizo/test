@@ -64,7 +64,10 @@ class Select {
 
     selectValue(e) {
         let option = e.currentTarget; // Selected option
-        this.selected.innerHTML = option.textContent;
+        this.selected.innerHTML = '';
+        let selectedText = document.createElement('span');
+        selectedText.textContent = option.textContent;
+        this.selected.appendChild(selectedText);
         // Add clear button
         let clear = document.createElement('div');
         clear.classList.add('callone-select__clear');

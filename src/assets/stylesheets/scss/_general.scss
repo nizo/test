@@ -1439,7 +1439,7 @@ img {
     }
     ul {
       list-style: none;
-      li:not(.callone-select__option) {
+      li {
         padding-left: 1em;
         position: relative;
         &:before {

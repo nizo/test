@@ -70,7 +70,7 @@
   </div>
   <div class="content narrow centered">
   	<div class="button-set centered">
-	  <a href="#" data-openmodal="contact-sales" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+	  <a href="#" data-openmodal="contact-sales" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
     </div>
   </div>
 </div>
@@ -161,7 +161,7 @@
   </div>
   <div class="content thin centered">
     <div class="button-set centered">
-      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
     </div>
   </div>
 </div>
@@ -254,7 +254,7 @@
     	<h4 class="title">Wie funktioniert der CallOne Callcenter Bot?​</h4>
     	<div class="content" style="display: block">
     		<p>Wir bieten kundenindividuelle Lösungen für Ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>
-			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="/testen" title="Sprechen Sie uns an - Wir beraten Sie gerne">Sprechen Sie uns an​</a></p>
+			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales">Sprechen Sie uns an​</a></p>
     	</div>
     </div>
     <div class="container">

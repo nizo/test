@@ -439,7 +439,7 @@
 										</p>
 										<a href="tel:493092033500" title="Fragen? Wir beraten Sie gerne!" class="phonenumber">+49 (0) 30-920 33 500</a>
 										<div class="button-set centered edge-button">
-											<a href="/testen" class="button senary sl sl-after sl-arrow-right white relative mobile trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt testen</a>
+											<a href="#" class="button senary sl sl-after sl-arrow-right white relative mobile trackedElement" data-openmodal="contact-sales" data-label="Button Header - Jetzt testen" data-category="Link" data-action="opens sales modal">Jetzt testen</a>
 										</div>
 									</div>
 									

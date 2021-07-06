@@ -84,7 +84,7 @@
       		<h2>Intelligente Ortsnetzrufnummern DE</h2>
             <p>Regionale Präsenz gepaart mit Profifeatures für Ihre Hotline. Schalten Sie jetzt Rufnummern aus Ihrem Vorwahlbereich. Kostenfrei in der Zuführung, bundesweit zum Ortstarif.</p>
             <div class="button-set centered">
-            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
+            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="opens sales modal">Für Angebot kontaktieren</a>
             </div>
             <!-- <h3>Verfügbarkeit Ihrer Vorwahl prüfen:</h3> -->
             <!--  <form class="form vorwahl-pruefung" action="#" method="POST">
@@ -102,7 +102,7 @@
       		<h2>Mobilfunkrufnummern</h2>
             <p>Setzen Sie Ihre Mobilfunknummer als Absenderkennung für ausgehende Telefonate. Bieten Sie Rückkanaloptionen, leiten eingehende Mobilfunkanrufe direkt zu Ihrem Sales- oder Serviceteam weiter und empfangen Sie eingehende SMS-Nachrichten über unsere Schnittstelle.</p>
             <div class="button-set centered">
-            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
+            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="opens sales modal">Für Angebot kontaktieren</a>
             </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
             <h2>Weltweite Ortsnetzrufnummern</h2>
             <p>CallOne bietet Ihnen Rufnummern in 60 Ländern und über 9.000 Vorwahlbereichen. Durch unsere leistungsstarke Plattform und VoIP-Infrastruktur bieten wir Ihnen optimale Gesprächsqualität und Performance auch bei hohem Anrufvolumen.</p>
             <div class="button-set centered">
-            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
+            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="opens sales modal">Für Angebot kontaktieren</a>
             </div>
         </div>
       </div>
@@ -239,7 +239,7 @@
       </div>
       <p></p>
       <div class="button-set centered">
-      	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Sales kontaktieren" data-category="Link" data-action="linked to /testen">Sales kontaktieren</a>
+      	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Sales kontaktieren" data-category="Link" data-action="opens sales modal">Sales kontaktieren</a>
       </div>    
   </div>
 </div>

@@ -148,7 +148,7 @@
   <div class="content wide centered">
   	<h2 class="white">Probieren Sie es einfach, kostenlos und unverbindlich aus</h2>
 	<div class="button-set centered">
-		<a href="/testen" class="button primary">Jetzt testen</a>
+		<a href="#" class="button primary" data-openmodal="contact-sales">Jetzt testen</a>
 	</div>    
   </div>
 </div>

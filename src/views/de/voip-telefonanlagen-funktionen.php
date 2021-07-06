@@ -104,7 +104,7 @@
 <div class="wrapper no-overflow">
   <div class="content">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Kostenlos testen" data-category="Link" data-action="linked to /testen">Kostenlos testen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Kostenlos testen</a>
       <a href="/preise" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /preise">Angebot einholen</a>
     </div>
   </div>
@@ -503,7 +503,7 @@
 <div class="wrapper no-overflow">
   <div class="content">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Kostenlos testen" data-category="Link" data-action="linked to /testen">Kostenlos testen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Kostenlos testen</a>
       <a href="/preise" class="button secondary trackedElement" data-label="Button - Angebot einholen" data-category="Link" data-action="linked to /preise">Angebot einholen</a>
     </div>
   </div>

@@ -71,7 +71,7 @@
           </div>
           <div class="footer-column">
           	<div class="button-set centered">
-                <a href="#" class="button secondary rounded trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="linked to /testen">FÜR DEMO ANMELDEN​</a>
+                <a href="#" class="button secondary rounded trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN​</a>
                 <a href="/preise" class="button primary rounded trackedElement" data-label="Button footer - Preise" data-category="Link" data-action="linked to /preise">Preise</a>
             </div>
           </div>
@@ -131,7 +131,7 @@
             <a href="mailto:kontakt@callone.de">kontakt@callone.de</a>
           </p>
           <div class="button-set centered">
-            <a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="linked to /testen">FÜR DEMO ANMELDEN​</a>
+            <a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN​</a>
             <a href="/preise" class="button primary trackedElement" data-label="Button footer - Preise" data-category="Link" data-action="linked to /preise">Preise</a>
           </div>
         </div>

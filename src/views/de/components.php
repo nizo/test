@@ -67,7 +67,7 @@
                 <select name="topic" data-callone-select>
                     <option value="">This is the label</option>
                     <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
+                    <option value="2">Option 2 with super looooong label, that will not fit within the field</option>
                     <option value="3">Option 3</option>
                 </select>
             </div>
@@ -190,6 +190,11 @@
                 <li><code>.callone-modal__nextstep</code>: Class that has to be added to a button inside a step to link to the next step, also needs <code>data-next-step="2"</code> to work properly. The number has to be the step ID.</li>
                 <li><code>data-prev-step="1"</code>: Specifies the previous step to display when back button is clicked</li>
             </ul>
+            <p><strong>Forms in Modals:</strong></p>
+            <ul>
+                <li><code>data-step-callback="functionName"</code>: Callback Function to call when form is submitted</li>
+                <li><code>data-next-step="1"</code>: Next step ID when form is successfully submittedv</li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -230,7 +235,13 @@
     <div class="components__item">
         <div class="components__docs">
             <h1>Range Slider</h1>
-            <p>...</p>
+            <p>The range slider is a simple input range element with some additional attributes. The slider is then initialized in javascript.</p>
+            <p><strong>Attributes:</strong></p>
+            <ul>
+                <li><code>data-callone-range</code>: Used to target element with javascript</li>
+                <li><code>data-output="#selector"</code>: Selector of input type text element to display current value</li>
+                <li><code>data-width="480"</code>: Desired initial width</li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>

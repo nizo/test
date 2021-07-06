@@ -64,7 +64,7 @@
         <h1>Ihr Kundenservice mit unserer Callcenter-Software</h1>
         <p class="primary">Wir liefern ein komplettes „Mach-meine-Kunden-glücklich“-Paket – welches Ihren telefonischen Kundenservice effizient steuert und sich mit Ihren Businesslösungen verbindet.</p>
         <div class="button-set">
-          <a href="#" class="button tertiary trackedElement" data-openmodal="contact-sales" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="linked to /testen" title="Sales kontaktieren">Sales kontaktieren</a>
+          <a href="#" class="button tertiary trackedElement" data-openmodal="contact-sales" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="opens sales modal" title="Sales kontaktieren">Sales kontaktieren</a>
         </div>
       </div>
     </header>
@@ -832,7 +832,7 @@
             <strong class="h3">Persönliche <span class="light">Beratung</span></strong>
 			<p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
 			<div class="button-set">
-      			<a href="#" class="button senary white trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="linked to /testen" title="Jetzt Angebot anfordern">Jetzt Angebot anfordern</a>
+      			<a href="#" class="button senary white trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal" title="Jetzt Angebot anfordern">Jetzt Angebot anfordern</a>
       		</div>
 		</div>
 		<div class="col-2 flex centered mobile-hidden">

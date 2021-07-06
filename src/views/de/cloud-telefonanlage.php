@@ -5,8 +5,7 @@
         <h1>Die digitale Telefonanlage für mehr Sales und richtig guten Kundenservice</h1>
         <p class="primary">Businesstelefonie, maßgeschneidert auf Ihr Unternehmen: Sie wächst mit Ihnen, wartet sich selbst und fügt sich nahtlos in Ihre Systeme ein.</p>
         <div class="button-set">
-          <a href="/testen" class="button primary trackedElement" data-label="Button Header - Kostenlos testen" data-category="Link" data-action="linked to /testen">Kostenlos testen</a>
-          <a href="/testen" class="button secondary trackedElement" data-label="Button Header - Angebot einholen" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+          <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button Header - Kostenlos testen" data-category="Link" data-action="opens sales modal">Kostenlos testen</a>
         </div>
       </div>
       <div class="media animation animation-bg lazyBackground business">
@@ -122,7 +121,7 @@
         <p><strong>Rufnummernblöcke</strong> aus Ihrem Vorwahlgebiet</p>
         <p><strong>0800</strong> Servicenummern</p>
         <p><strong>Ausländische Rufnummern</strong></p>
-        <p><a href="/testen" class="button secondary">Angebot einholen</a></p>
+        <p><a href="#" class="button secondary" data-openmodal="contact-sales">Angebot einholen</a></p>
       </div>
 
       <div class="tab" id="tab_1_2">
@@ -130,14 +129,14 @@
         <p><strong>Kostenfreie Portierung</strong> einzelner Rufnummern oder ganzer Blöcke</p>
         <p><strong>Ausfallfreie</strong> Portierung</p>
         <p>Wir übernehmen alle Formalitäten für Sie</p>
-        <p><a href="/testen" class="button primary">Portierung anfragen</a></p>
+        <p><a href="#" class="button primary" data-openmodal="contact-sales">Portierung anfragen</a></p>
       </div>
 
       <div class="tab" id="tab_1_3">
         <h2>Nutzen Sie neue Technologien für Ihre Telefonie</h2>
         <p>Telefonie direkt aus dem Browser mit <strong>WebRTC</strong></p>
         <p><strong>Rückrufbutton</strong> in Ihre Website integriert</p>
-        <p><a href="/testen" class="button primary">Mehr erfahren</a></p>
+        <p><a href="#" class="button primary" data-openmodal="contact-sales">Mehr erfahren</a></p>
       </div>
     </div>
   </div>

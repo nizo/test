@@ -8,7 +8,7 @@
         <h1>HEADER BOX - mit Bild/Video und Text</h1>
         <p class="primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione delectus consequatur consectetur fugiat repellat, corrupti non commodi laborum quia voluptate alias natus voluptas ea enim, minus. Amet mollitia, non.</p>
         <div class="button-set">
-          <a href="/testen" class="button primary">Kostenlos testen</a>
+          <a href="#" class="button primary" data-openmodal="contact-sales">Kostenlos testen</a>
           <a href="/preise" class="button secondary">Angebot einholen</a>
         </div>
       </div>

@@ -297,7 +297,7 @@
 
   <div class="content narrow">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button Slider - Kostenlos testen" data-category="Link" data-action="linked to /testen">Kostenlos testen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button Slider - Kostenlos testen" data-category="Link" data-action="opens sales modal">Kostenlos testen</a>
       <a href="/preise" class="button secondary trackedElement" data-label="Button Slider - Angebot einholen" data-category="Link" data-action="linked to /preise">Angebot einholen</a>
     </div>
   </div>

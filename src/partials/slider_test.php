@@ -46,7 +46,7 @@
 
   <div class="content">
     <div class="button-set">
-      <a href="/testen" class="button primary">Kostenlos testen</a>
+      <a href="#" class="button primary" data-openmodal="contact-sales">Kostenlos testen</a>
       <a href="/preise" class="button secondary">Angebot einholen</a>
     </div>
   </div>

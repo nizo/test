@@ -85,7 +85,7 @@
   				<p>ab<strong class="h3"> 99,00 €</strong> / Monat<br>
   				Faire sekundengenaue Abrechnung</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Callcenter-Software)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Callcenter-Software)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -105,7 +105,7 @@
   				<p>ab<strong class="h3"> 7,90 €</strong> / Monat<br>  				
   				Optional mit ACD, API & Apps</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Virtuelle Telefonanlage)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Virtuelle Telefonanlage)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>  		
@@ -125,7 +125,7 @@
   				<p><strong class="h3">Kostenfreie Zuführung</strong><br>
   				für lokale Rufnummern</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Rufnummern Deutschland)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Rufnummern Deutschland)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -145,7 +145,7 @@
   				<p><strong class="h3">Minuten-</strong> oder <strong class="h3">kanalgebundene</strong> <br>
   				Abrechnung möglich</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Rufnummern weltweit)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Rufnummern weltweit)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -165,7 +165,7 @@
   				<p><strong class="h3">Ausgehende Telefonate</strong> <br>
   				 ab 0,007 € / Min. in dt. Festnetz</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (SIP Trunking)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (SIP Trunking)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>  		
@@ -185,7 +185,7 @@
   				<p>ab <strong class="h3">0,00 €</strong> je Monat / Aufruf <br>
   				 Schnittstellenpakete optional</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Schnittstellen)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Schnittstellen)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -205,7 +205,7 @@
   				<p>ab <strong class="h3">0,00 €</strong> Browserplugins<br>
   				 für Click-to-Dial nutzen</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Applikationen)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Applikationen)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -225,7 +225,7 @@
   				<p>ab<strong class="h3"> 49,00 €</strong> je Monat<br>
   				Sekundengenaue Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Rückrufbutton)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Rückrufbutton)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -245,7 +245,7 @@
   				<p>ab<strong class="h3"> 0,00 € </strong> Bereitstellung<br>
   				zuzüglich Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Telefonkonferenz)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Telefonkonferenz)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -265,7 +265,7 @@
   				<p>ab<strong class="h3"> 19,00 € </strong> je Monat<br>
   				Sekundengenaue Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Fax)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Fax)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -285,7 +285,7 @@
   				<p><strong class="h3">Projektspezifisch</strong><br>
   				 Abhängig von Kundenanforderung</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Call-Browsing)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Call-Browsing)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -305,7 +305,7 @@
   				<p><strong class="h3">Projektspezifisch</strong><br>
   				 Abhängig von Kundenanforderung</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (WebRTC)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (WebRTC)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -325,7 +325,7 @@
   				<p>ab<strong class="h3"> 0,049 € </strong>je Minute<br>
   				 Projektspezifische Einbindung</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Spracherkennung VTT)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Spracherkennung VTT)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -345,7 +345,7 @@
   				<p>ab<strong class="h3"> 49,00 € </strong>je Monat<br>
   				 Sekundengenaue Nutzungskosten</p>
   				<div class="button-set centered">
-                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Text-to-Speech)" data-category="Link" data-action="linked to /testen">Angebot einholen</a>
+                	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Angebot einholen (Text-to-Speech)" data-category="Link" data-action="opens sales modal">Angebot einholen</a>
                 </div>
   			</div>
   		</div>
@@ -369,7 +369,7 @@
   <div class="content thin">
   	<h3 class="centered h2">Haben Sie Fragen zur Preisgestaltung?</h3>    
   	<div class="button-set centered">
-    	<a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Sprechen Sie mit uns" data-category="Link" data-action="linked to /testen">Sprechen Sie mit uns</a>
+    	<a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Sprechen Sie mit uns" data-category="Link" data-action="opens sales modal">Sprechen Sie mit uns</a>
     </div>
   </div>
 </div>
