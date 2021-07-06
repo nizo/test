@@ -191,9 +191,10 @@ navbar =
 
   init: (selector) ->
     @n = document.querySelector(selector)
-    @bind_events()
-    if window.pageYOffset > 0
-      $(@n).addClass 'background'
+    if @n
+      @bind_events()
+      if window.pageYOffset > 0
+        $(@n).addClass 'background'
 
   bind_events: ->
     $(window).scroll (e) ->

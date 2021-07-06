@@ -48,8 +48,8 @@
 <div class="wrapper">
   <div class="content thin centered">
     <div class="button-set centered">
-    	<a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Jetzt 14 Tage testen</a>
-      	<a href="/testen" class="button secondary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Jetzt Vorteil sichern</a>
+    	<a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Jetzt 14 Tage testen</a>
+      	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Jetzt Vorteil sichern</a>
     </div>
   </div>
 </div>

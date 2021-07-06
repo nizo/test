@@ -1,0 +1,161 @@
+.callone-select {
+    position: relative;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    &:after {
+        content: "";
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-image: url(../images/icons_svg/small-dropdown-black.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    select {
+        //display: none;
+        position: absolute;
+        background: transparent;
+        color: transparent;
+        width: 1px;
+        height: 1px;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &--open {
+        border-radius: 5px 5px 0 0 !important;
+        &:after {
+            transform: translateY(-50%) rotate(180deg);
+        }
+        .callone-select__options {
+            display: block;
+        }
+    }
+    &--open {
+        .callone-select__label {
+            transform: translateY(calc(-50% - 12px));
+            padding: 0 5px;
+            left: 20px;
+            font-size: 12px;
+        }
+    }
+    &__label {
+        position: absolute;
+        top: 12px;
+        left: 25px;
+        pointer-events: none;
+        color: rgba(#000, .6);
+        transition: all .3s ease;
+        background-color: #fff;
+        max-width: calc(100% - 60px);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    &__label--active {
+        transform: translateY(calc(-50% - 12px));
+        padding: 0 5px;
+        left: 20px;
+        font-size: 12px;
+    }
+    &__selected {
+        font-size: 18px;
+        font-family: $font-copy;
+        line-height: 1.6;
+        padding: 10px 25px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: calc(100% - 20px);
+        span {
+            max-width: calc(100% - 26px); // Clear Button Width + Margin
+            display: inline-block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            vertical-align: middle;
+        }
+    }
+    &__clear {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        background-color: #c4c4c4;
+        border-radius: 50%;
+        margin-left: 10px;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        transition: all .3s ease;
+        &:before, &:after {
+            content: "";
+            position: absolute;
+            width: 75%;
+            height: 2px;
+            background-color: #fff;
+            top: 50%;
+            left: 50%;
+        }
+        &:before {
+            transform: translate3d(-50%, -50%, 0) rotate(45deg);
+        }
+        &:after {
+            transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+        }
+        &:hover {
+            background-color: darken(#c4c4c4, 10%);
+        }
+    }
+    &__options {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: -2px;
+        transform: translateY(100%);
+        background-color: #fff;
+        list-style: none;
+        border: 2px solid #c4c4c4;
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+        z-index: 100;
+        width: calc(100% + 4px);
+        max-height: 300px;
+        overflow-y: auto;
+        box-shadow: 0 10px 10px rgba(#000, 0.25);
+        // clip-path: polygon(
+        //     -10px 0,
+        //     calc(100% + 10px) 0,
+        //     calc(100% + 10px) calc(100% + 10px),
+        //     -10px calc(100% + 10px)
+        // );
+        // Costum Scrollbars
+        --scrollbarBG: transparent;
+        --thumbBG: #ddd;
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        &::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG) ;
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
+        }
+    }
+    &__option {
+        padding: 10px 25px;
+        border-top: 1px solid #c4c4c4;
+        transition: all .3s ease;
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}

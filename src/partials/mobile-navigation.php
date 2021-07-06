@@ -172,7 +172,7 @@ $jobs = jobs_load ();
   </ul>
 
   <div class="buttons">
-    <a href="/testen" class="button primary" title="kostenlos testen">Jetzt kostenlos testen</a>
+    <a href="#" data-openmodal="contact-sales" class="button primary" title="kostenlos testen">Jetzt kostenlos testen</a>
     <a href="tel:+493092033500" class="button secondary" title="Mit Experten sprechen">Mit einem Experten reden</a>
   </div>
 
@@ -182,7 +182,7 @@ $jobs = jobs_load ();
     <div class="link"><a href="/preise">Preise</a></div>
     <div class="link"><a href="https://box.callone.de" rel="noreferrer">Login</a></div>
     <div class="link"><a href="/karriere">Karriere</a></div>
-    <div class="link"><a href="/testen">Kontakt</a></div>
+    <div class="link"><a href="/kontakt">Kontakt</a></div>
     <div class="link"><a href="https://www.callone.de/blog/">Blog</a></div>
   </div>
 </nav>

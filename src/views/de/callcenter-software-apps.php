@@ -8,7 +8,7 @@
         </h1>
         <p class="primary">Einmal mit allem, bitte. Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.</p>
         <div class="button-set">
-          <a class="button tertiary rounded" href="/testen">Jetzt Demo buchen</a>
+          <a class="button tertiary rounded" href="#" data-openmodal="contact-sales">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">

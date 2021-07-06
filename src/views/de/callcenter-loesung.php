@@ -48,7 +48,7 @@
           die die vielfältigen Kontaktmöglichkeiten Ihrer Kunden optimal verbindet. 
           Neben ACD-Lösungen und Telefonanlagen bieten wir Apps, Schnittstellen und ein breites Partnernetzwerk.</p>
           <div class="button-set centered">
-            <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt loslegen" data-category="Link" data-action="linked to /testen">JETZT LOSLEGEN</a>
+            <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt loslegen" data-category="Link" data-action="opens sales modal">JETZT LOSLEGEN</a>
           </div>
         </div>
       </div>    
@@ -65,7 +65,7 @@
           <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/callone-source.png" data-srcset="/assets/images/illus/callone-source.png" alt="CallOne Features" />
           <p></p>
           <div class="button-set centered">
-            <a href="/testen" class="button primary trackedElement" data-label="Button - Demoaccount erstellen" data-category="Link" data-action="linked to /testen">Demoaccount erstellen</a>
+            <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Demoaccount erstellen" data-category="Link" data-action="opens sales modal">Demoaccount erstellen</a>
           </div>
         </div>
       </div>    
@@ -171,7 +171,7 @@
     </div>
     <p></p>
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt loslegen" data-category="Link" data-action="linked to /testen">Jetzt loslegen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt loslegen" data-category="Link" data-action="opens sales modal">Jetzt loslegen</a>
     </div>
   </div>
 </div>

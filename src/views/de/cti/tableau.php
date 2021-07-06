@@ -36,7 +36,7 @@
   <div class="content narrow">
     <strong class="h1 font-secondary centered uppercase white p80"><img src="/assets/images/logo/partnerlogos/callone_tableau_2.svg" title="CallOne + Tableau" alt="CallOne + Tableau" /></strong>
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Experten kontaktieren" data-category="Link" data-action="linked to /testen">Experten kontaktieren</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Experten kontaktieren" data-category="Link" data-action="opens sales modal">Experten kontaktieren</a>
     </div>
     <br>
     <h2 class="h2 centered">Kunden, die erfolgreich unseren Tableau-Connector nutzen:​</h2>
@@ -140,7 +140,7 @@
   </div>
    <div class="content thin centered">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Jetzt 14 Tage testen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Jetzt 14 Tage testen</a>
     </div>
   </div>
 </div>
@@ -233,7 +233,7 @@
 			<strong class="h3">Persönliche <span class="light">Beratung</span></strong>
 			<p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
 			<div class="button-set">
-      			<a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="linked to /testen">Jetzt Angebot anfordern</a>
+      			<a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal">Jetzt Angebot anfordern</a>
       		</div>  
 		</div>
 	</div>
@@ -267,7 +267,7 @@
     	<div class="content">
     		<p>
     			Der Tableau Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne.
-    			<a href="/testen" title="Kontaktieren Sie uns für ein individuelles Angebot">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.
+    			<a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.
     		</p>
     	</div>
     </div>
@@ -277,7 +277,7 @@
     		<p>
     			Es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. 
     			Um die Telefondaten für einen Tableau-Export zu erfassen ist es stets Grundvoraussetzung, dass die Gespräche über unsere Infrastruktur geleitet und aufbereitet werden. 
-    			Zur Besprechung Ihrer individuellen Anforderungen <a href="/testen" title="Sprechen Sie mit unseren Experten">sprechen sie mit unseren Experten</a>
+    			Zur Besprechung Ihrer individuellen Anforderungen <a href="#" title="Sprechen Sie mit unseren Experten" data-openmodal="contact-sales">sprechen sie mit unseren Experten</a>
     		</p>
     	</div>
     </div>

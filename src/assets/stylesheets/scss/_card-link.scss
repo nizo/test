@@ -1,0 +1,63 @@
+.card-link {
+    position: relative;
+    display: table;
+    background-color: #fff;
+    border: 2px solid rgba(#000, 0.2);
+    box-shadow: 0px 4px 18px rgba(#000, 0.25);
+    border-radius: 10px;
+    padding: 20px 80px 20px 20px;
+    color: #000;
+    transition: all .3s ease;
+
+    &:hover {
+        border-color: $color-primary;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-image: url(../images/icons_svg/forward-arrow-icon.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: calc(50% - 10px);
+        right: 20px;
+    }
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+        img {
+            display: block;
+            height: 22px;
+            margin: 0;
+            &+img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    &__title {
+        text-align: left;
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    
+    &__subtitle {
+        text-align: left;
+        font-family: $font-copy;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 160%;
+    }
+}
+*+.card-link {
+    margin-top: 20px;
+}

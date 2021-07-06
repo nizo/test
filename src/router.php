@@ -54,6 +54,15 @@ $r->addRoute('GET', '/widgets', function() {
   require_once('./views/de/widgets.php');
   require_once('./layouts/footer.php');
 });
+$r->addRoute('GET', '/components', function() {
+  $title = 'Components';
+  $description = '';
+  $keywords = '';
+  $background = 'components--scrollbar';
+  require_once('./layouts/header-components.php');
+  require_once('./views/de/components.php');
+  require_once('./layouts/footer-components.php');
+});
 
 $r->addRoute('GET', '/components_overview', function() {
   $title = 'components_overview';
@@ -395,7 +404,7 @@ $r->addRoute('GET', '/testen', function() {
   $title = 'Call Center Lösung, VoIP-Telefonanlage Features vergleichen und testen';
   $description = 'Vergleichen Sie unsere VoIP-Telefonanlage und Callcenter Software ✔  Kundenwertung: Note 1  ✔ Persönlicher Success Manager. Unverbindlich testen!';
   $keywords = '';
-  $background = 'bg-testen';
+  //$background = 'bg-testen';
   $ogUrl = $GLOBALS['url'] . '/testen';
   require_once('./layouts/header.php');
   require_once('./views/de/testen.php');
@@ -557,6 +566,18 @@ $r->addRoute('GET', '/omr', function() {
   $ogUrl = $GLOBALS['url'] . '/omr-goodie';
   require_once('./layouts/header.php');
   require_once('./views/de/omr-goodie.php');
+  require_once('./layouts/footer.php');
+});
+
+// Contact
+$r->addRoute('GET', '/kontakt', function() {
+  $title = 'Kontakt';
+  $description = 'Kontakt';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/kontakt';
+  require_once('./layouts/header.php');
+  require_once('./views/de/contact.php');
   require_once('./layouts/footer.php');
 });
 

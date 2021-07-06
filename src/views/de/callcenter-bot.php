@@ -10,8 +10,7 @@
           </div>
           <div class="col-1">
               <div class="button-set centered">
-                  	<a class="openModal button primary trackedElement" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="Show Contact Modal" data-modal="contact">Mit Experten sprechen</a>
-                  	<a href="/testen" class="button secondary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="linked to /testen">Jetzt unsere Lösungen testen</a>
+                  	<a href="#" class="button primary trackedElement" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="Show Contact Modal" data-openmodal="contact-sales">Mit Experten sprechen</a>
               </div>
           </div>
       </div>
@@ -71,8 +70,7 @@
   </div>
   <div class="content narrow centered">
   	<div class="button-set centered">
-	  <a href=" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Termin vereinbaren</a>
-	  <a href="#contactForm" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+	  <a href="#" data-openmodal="contact-sales" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
     </div>
   </div>
 </div>
@@ -110,7 +108,7 @@
 				<li><strong class="headline">Vorqualifizierung oder Lösung des Anruferanliegens</strong> Ist das Anliegen des Anrufers definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</li> 
               </ol>
               <div class="button-set centered">
-              	<a href="#demos" class="button primary trackedElement mobileWrap" data-label="Button - Jetzt einfach ausprobieren!" data-category="Link" data-action="linked to #demos">Weitere Fragen? Kontaktieren sie uns!</a>
+              	<a href="#" data-openmodal="contact-sales" class="button primary trackedElement mobileWrap" data-label="Button - Jetzt einfach ausprobieren!" data-category="Link" data-action="linked to #demos">Weitere Fragen? Kontaktieren sie uns!</a>
               </div>
 			</div>
         </div>
@@ -163,7 +161,7 @@
   </div>
   <div class="content thin centered">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
     </div>
   </div>
 </div>
@@ -256,7 +254,7 @@
     	<h4 class="title">Wie funktioniert der CallOne Callcenter Bot?​</h4>
     	<div class="content" style="display: block">
     		<p>Wir bieten kundenindividuelle Lösungen für Ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>
-			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="/testen" title="Sprechen Sie uns an - Wir beraten Sie gerne">Sprechen Sie uns an​</a></p>
+			Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales">Sprechen Sie uns an​</a></p>
     	</div>
     </div>
     <div class="container">
@@ -303,5 +301,6 @@
 </div>
 
 <?php
-  include('partials/contact-form.php');
+// Contact form has been replaced by sales contact modal
+// include('partials/contact-form.php');
 ?>

@@ -6,7 +6,8 @@ const gulp         = require('gulp'),
       coffee       = require('gulp-coffee'),
       merge2       = require('merge2'),
       gutil        = require('gulp-util'),
-      uglify       = require('gulp-uglify'),
+      //uglify       = require('gulp-uglify'),
+      uglify       = require('gulp-uglify-es').default,
       concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
@@ -79,6 +80,7 @@ function server() {
   });
   gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle));
   gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts));
+  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);

@@ -64,8 +64,7 @@
         <h1>Ihr Kundenservice mit unserer Callcenter-Software</h1>
         <p class="primary">Wir liefern ein komplettes „Mach-meine-Kunden-glücklich“-Paket – welches Ihren telefonischen Kundenservice effizient steuert und sich mit Ihren Businesslösungen verbindet.</p>
         <div class="button-set">
-          <a href="/testen" class="button tertiary trackedElement" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="linked to /testen" title="Sales kontaktieren">Sales kontaktieren</a>
-          <a class="openModal button primary trackedElement" data-label="Button Header - Jetzt testen" data-category="Link" data-action="Show Contact Modal" data-modal="contact" title="Jetzt testen">Jetzt testen</a>
+          <a href="#" class="button tertiary trackedElement" data-openmodal="contact-sales" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="opens sales modal" title="Sales kontaktieren">Sales kontaktieren</a>
         </div>
       </div>
     </header>
@@ -209,7 +208,7 @@
   		<h2 class="h1 no-padding-top">CallOne und die Tools, die Sie lieben, vereint <span style="color: #FF0000; font-weight: 600;">&#9829;</span></h2>
         <p>Passen Sie unsere Telefonanlage mit Ihren eigenen Apps, wie CRM-Lösungen, Ticketing-Software oder BI-Software, an. Nutzen Sie offene Schnittstellen für die Integration Ihrer eigenen Lösungen.</p>
         <div class="button-set centered">
-        	<a href="/testen" class="button primary silent sl sl-after sl-arrow-right small" title="Jetzt unsere Apps testen">Jetzt unsere Apps testen</a>
+        	<a href="#" class="button primary silent sl sl-after sl-arrow-right small" title="Jetzt unsere Apps testen" data-openmodal="contact-sales">Jetzt unsere Apps testen</a>
         </div>
     </div>
 	<div class="content overflow-hidden margin-top-40 padding-bottom-40 no-margin-bottom">
@@ -294,7 +293,7 @@
     
     <div class="content narrow no-margin-bottom padding-bottom-80 no-margin-top"> 
         <div class="button-set centered">
-			<a href="/testen" title="Jetzt beraten lassen" class="button big senary">Jetzt beraten lassen</a>
+			<a href="#" title="Jetzt beraten lassen" class="button big senary" data-openmodal="contact-sales">Jetzt beraten lassen</a>
 		</div>
 	</div>
 </div>
@@ -354,7 +353,7 @@
           		</div>
           		<p>&nbsp;</p>
           		<div class="button-set">
-              		<a href="/testen" class="button secondary black big" title="Jetzt beraten lassen">Jetzt beraten lassen</a>
+              		<a href="#" class="button secondary black big" title="Jetzt beraten lassen" data-openmodal="contact-sales">Jetzt beraten lassen</a>
           		</div>
       		</div>
   		</div>
@@ -375,7 +374,7 @@
             <strong class="h3">Persönliche <span class="light">Beratung</span></strong>
 			<p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
 			<div class="button-set">
-      			<a href="/testen" class="button senary white trackedElement" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="linked to /testen" title="Jetzt Angebot anfordern">Jetzt Angebot anfordern</a>
+      			<a href="#" class="button senary white trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal" title="Jetzt Angebot anfordern">Jetzt Angebot anfordern</a>
       		</div>
 		</div>
 		<div class="col-2 flex centered mobile-hidden" style="align-self: center;">

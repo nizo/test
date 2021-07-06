@@ -78,7 +78,7 @@
           <div class="grid">
             <div class="col-2">
               <h3 class="h2">Schnelle Einführung im großen Stil</h3>
-              <p>Erhalten Sie noch heute einen <a href="/testen" target="_blank">Demoaccount</a> mit <a href="/0800-lokal-nummern">Rufnummern</a> aus Ihrem Vorwahlbereich und einen persönlichen Ansprechpartner, der sie nicht nur beim Onboarding, sondern für die komplette Dauer der Zusammenarbeit unterstützt.</p>
+              <p>Erhalten Sie noch heute einen <a href="#" data-openmodal="contact-sales">Demoaccount</a> mit <a href="/0800-lokal-nummern">Rufnummern</a> aus Ihrem Vorwahlbereich und einen persönlichen Ansprechpartner, der sie nicht nur beim Onboarding, sondern für die komplette Dauer der Zusammenarbeit unterstützt.</p>
             </div>
             <div class="col-2">
               <img src="/assets/images/illus/schnelle-einfuehrung2.svg" alt="Schnelle und professionelle Einführung" class="img-75" />
@@ -119,7 +119,7 @@
   </div>
   <div class="content thin centered">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="linked to /testen">Jetzt 14 Tage testen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Jetzt 14 Tage testen</a>
     </div>
   </div>
 </div>
@@ -246,7 +246,7 @@
 			<strong class="h3">Persönliche <span class="light">Beratung</span></strong>
 			<p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
 			<div class="button-set">
-      			<a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="linked to /testen">Jetzt Angebot anfordern</a>
+      			<a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal">Jetzt Angebot anfordern</a>
       		</div>  
 		</div>
 	</div>
@@ -272,7 +272,7 @@
     		<p>
         		Sie können die CallOne Cloud-Telefonanlage bereits ab 5,90 € je Nebenstelle nutzen. 
         		Ihnen stehen Optionen im Self-Service oder mit einem persönlichen Customer Succcess Manager zur Verfügung. 
-        		Nähere Informationen finden Sie auf unserer <a href="/preise">Preisseite</a> oder <a href="/testen">kontaktieren</a> Sie uns einfach mit <a href="/testen">Ihren Anforderungen</a>.</p>
+        		Nähere Informationen finden Sie auf unserer <a href="/preise">Preisseite</a> oder <a href="#" data-openmodal="contact-sales">kontaktieren</a> Sie uns einfach mit Ihren Anforderungen.</p>
     	</div>
     </div>
     <div class="container">

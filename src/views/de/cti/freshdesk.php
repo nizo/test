@@ -107,7 +107,7 @@
   </div>
    <div class="content thin centered">
     <div class="button-set centered">
-      <a href="/testen" class="button primary trackedElement" data-label="Button - Jetzt mit Experten sprechen" data-category="Link" data-action="linked to /testen">Jetzt mit Experten sprechen</a>
+      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt mit Experten sprechen" data-category="Link" data-action="opens sales modal">Jetzt mit Experten sprechen</a>
     </div>
   </div>
 </div>
@@ -176,7 +176,7 @@
     	<div class="content">
     		<p>
     			Der Freshdesk Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. 
-    			<a href="/testen" title="Kontaktieren Sie uns für ein individuelles Angebot">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.
+    			<a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.
     		</p>
     	</div>
     </div>

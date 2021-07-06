@@ -4,7 +4,7 @@
         <h1><span class="textBG animated fadeInDown delay-500">Einfacher, angenehmer und produktiver</span> <span class="textBG animated fadeInDown">im Unternehmen telefonieren!</span></h1>
         <p class="h2 centered mobileSmall">CallOne ist die zentrale Lösung für Telefonie im Unternehmen: <br>Wir verbinden Unternehmen und Anrufer, um Telefonate effizient zu erledigen.</p>
         <!-- <div class="button-set fullWidth centered">
-          <a href="/testen" class="button primary">Kostenlos testen</a>
+          <a href="#" class="button primary" data-openmodal="contact-sales">Kostenlos testen</a>
           <a href="/preise" class="button secondary">Angebot einholen</a>
         </div> -->
     </header>

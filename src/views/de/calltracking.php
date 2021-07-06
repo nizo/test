@@ -42,7 +42,7 @@
   <div class="content narrow centered">
     <div class="button-set centered">
     	<a href="/demos/callbrowsing/reiseanbieter/" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Jetzt einfach ausprobieren!</a>
-    	<a href="#contactForm" class="button secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="linked to /testen">Mit Experten sprechen</a>
+    	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
     </div>
   </div>
 </div>
@@ -143,7 +143,7 @@
         <p>Ihre Agenten sehen, wo sich der Anrufer gerade auf der Website befindet und können auf Wunsch aktiv unterstützen, beispielsweise beim Ausfüllen von Formularen oder im Bestellprozess.</p>
     
         <div class="button-set">
-          <a href="#contactForm" target="_blank" class="button primary trackedElement" data-label="Button - Jetzt mit einem Experten sprechen" data-category="Link" data-action="linked to /testen">Jetzt mit einem Experten sprechen</a>
+          <a href="#" target="_blank" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt mit einem Experten sprechen" data-category="Link" data-action="opens sales modal">Jetzt mit einem Experten sprechen</a>
         </div>
       </div>
     </div>
@@ -297,5 +297,6 @@
 </div>
 
 <?php
-  include('partials/contact-form.php');
+// Contact Form Replaced by Sales Contact Modal
+// include('partials/contact-form.php');
 ?>
