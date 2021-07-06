@@ -42,6 +42,7 @@ body.callone-modal--scrolllock {
         align-items: center;
         padding: 25px 30px;
         border-bottom: 2px solid rgba(#000, 0.2);
+        min-height: calc(33px + 50px); // Button Height
     }
 
     &__headerbutton {
@@ -130,13 +131,15 @@ body.callone-modal--scrolllock {
 
     &__step-indicators {
         display: flex;
-        padding: 6px 0;
+        // padding: 6px 0;
         justify-content: center;
         align-items: center;
     }
     &__step-indicator {
         width: 6px;
         height: 6px;
+        margin-top: 6px;
+        margin-bottom: 6px;
         border-radius: 50%;
         background-color: #c4c4c4;
         &+.callone-modal__step-indicator {
@@ -192,6 +195,10 @@ body.callone-modal--scrolllock {
         &__wrapper {
             max-height: calc(100% - 60px);
             border-radius: 10px 10px 0 0;
+        }
+
+        &__header {
+            min-height: calc(32px + 50px); // Button Height
         }
 
         &__headerbutton--back {

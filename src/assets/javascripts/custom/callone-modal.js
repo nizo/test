@@ -10,8 +10,9 @@ class Modal {
         this.modalHeader = null;
         this.modalContent = null;
         this.closeButton = null;
+        // this.button.addEventListener('click', this.openModal.bind(this));
+        // this.loadModalContent();
         this.button.addEventListener('click', this.openModal.bind(this));
-        this.loadModalContent();
     }
     
     loadModalContent() {
@@ -27,101 +28,115 @@ class Modal {
         this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
 
         // Modal Wrapper
-        this.modalWrapper = document.createElement('div');
-        this.modalWrapper.classList.add(this.namespace + '__wrapper');
+        if (this.modal.querySelector('.' + this.namespace + '__wrapper')) {
+            this.modalWrapper = this.modal.querySelector('.' + this.namespace + '__wrapper');
+        } else {
+            this.modalWrapper = document.createElement('div');
+            this.modalWrapper.classList.add(this.namespace + '__wrapper');
+        }
 
         // Modal Header
-        this.modalHeader = document.createElement('div');
-        this.modalHeader.classList.add(this.namespace + '__header');
-        this.modalWrapper.appendChild(this.modalHeader);
+        if (this.modal.querySelector('.' + this.namespace + '__header')) {
+            this.modalHeader = this.modal.querySelector('.' + this.namespace + '__header');
+        } else {
+            this.modalHeader = document.createElement('div');
+            this.modalHeader.classList.add(this.namespace + '__header');
+            this.modalWrapper.appendChild(this.modalHeader);
+        }
 
         // Close Button
-        this.closeButton = document.createElement('div');
-        this.closeButton.classList.add(this.namespace + '__headerbutton');
-        this.closeButton.classList.add(this.namespace + '__headerbutton--close');
-        this.closeButton.textContent = this.modal.dataset.canceltext || 'Schließen';
-        this.closeButton.addEventListener('click', this.closeModal.bind(this));
-        this.modalHeader.appendChild(this.closeButton);
+        if (this.modal.querySelector('.' + this.namespace + '__headerbutton--close')) {
+            this.closeButton = this.modal.querySelector('.' + this.namespace + '__headerbutton--close');
+        } else {
+            this.closeButton = document.createElement('div');
+            this.closeButton.classList.add(this.namespace + '__headerbutton');
+            this.closeButton.classList.add(this.namespace + '__headerbutton--close');
+            this.closeButton.textContent = this.modal.dataset.canceltext || 'Schließen';
+            this.closeButton.addEventListener('click', this.closeModal.bind(this));
+            this.modalHeader.appendChild(this.closeButton);
+        }
 
         // Title / Steps
         let title = document.createElement('div');
         title.classList.add(this.namespace + '__title');
-        if (this.steps.length > 0) {
-            // Has Steps
+        if (!this.modal.querySelector('.' + this.namespace + '__title')) {
+            if (this.steps.length > 0) {
+                // Has Steps
 
-            // Current Step
-            this.activeStep = this.getActiveStep();
+                // Current Step
+                this.activeStep = this.getActiveStep();
 
-            // Set Step Title
-            let steptitle = document.createElement('div')
-            steptitle.classList.add(this.namespace + '__steptitle');
-            if (!this.activeStep.dataset.steptitle || this.activeStep.dataset.steptitle === "") {
-                steptitle.textContent = 'Schritt ' + (this.activeStep.dataset.stepIndicator || this.activeStep.dataset.stepId);
-            } else {
-                steptitle.textContent = this.activeStep.dataset.steptitle;
-            }
-            title.appendChild(steptitle);
-
-            // Set step indicators (points)
-            let stepIndicators = document.createElement('div');
-            stepIndicators.classList.add(this.namespace + '__step-indicators');
-            if (this.activeStep.dataset.stepIndicator) {
-                let values = this.activeStep.dataset.stepIndicator.split("/"); // Has to be "1/3" format
-                let current = parseInt(values[0]);
-                let limit = parseInt(values[1]);
-                for (let i = 1; i <= limit; i++) {
-                    let step = document.createElement('div');
-                    step.classList.add(this.namespace + '__step-indicator');
-                    if (i == current)
-                        step.classList.add(this.namespace + '__step-indicator--active');
-                    stepIndicators.appendChild(step);
+                // Set Step Title
+                let steptitle = document.createElement('div')
+                steptitle.classList.add(this.namespace + '__steptitle');
+                if (!this.activeStep.dataset.steptitle || this.activeStep.dataset.steptitle === "") {
+                    steptitle.textContent = 'Schritt ' + (this.activeStep.dataset.stepIndicator || this.activeStep.dataset.stepId);
+                } else {
+                    steptitle.textContent = this.activeStep.dataset.steptitle;
                 }
+                title.appendChild(steptitle);
+
+                // Set step indicators (points)
+                let stepIndicators = document.createElement('div');
+                stepIndicators.classList.add(this.namespace + '__step-indicators');
+                if (this.activeStep.dataset.stepIndicator) {
+                    let values = this.activeStep.dataset.stepIndicator.split("/"); // Has to be "1/3" format
+                    let current = parseInt(values[0]);
+                    let limit = parseInt(values[1]);
+                    for (let i = 1; i <= limit; i++) {
+                        let step = document.createElement('div');
+                        step.classList.add(this.namespace + '__step-indicator');
+                        if (i == current)
+                            step.classList.add(this.namespace + '__step-indicator--active');
+                        stepIndicators.appendChild(step);
+                    }
+                }
+                title.appendChild(stepIndicators);
+
+                // Show active step
+                this.activeStep.classList.add(this.namespace + '__step--active');
+
+                // Add back button to previous step
+                let stepbackButton = document.createElement('div');
+                stepbackButton.classList.add(this.namespace + '__headerbutton');
+                stepbackButton.classList.add(this.namespace + '__headerbutton--back');
+                stepbackButton.classList.add(this.namespace + '__headerbutton--hidden');
+                stepbackButton.textContent = 'Schritt zurück';
+                stepbackButton.addEventListener('click', this.prevStep.bind(this));
+                this.modalHeader.appendChild(stepbackButton);
+            } else {
+                // Title
+                title.innerHTML = this.modal.dataset.title;
+                let subtitle = document.createElement('span');
+                subtitle.textContent = this.modal.dataset.subtitle;
+                title.appendChild(subtitle);
             }
-            title.appendChild(stepIndicators);
-
-            // Show active step
-            this.activeStep.classList.add(this.namespace + '__step--active');
-
-            // Add back button to previous step
-            let stepbackButton = document.createElement('div');
-            stepbackButton.classList.add(this.namespace + '__headerbutton');
-            stepbackButton.classList.add(this.namespace + '__headerbutton--back');
-            stepbackButton.classList.add(this.namespace + '__headerbutton--hidden');
-            stepbackButton.textContent = 'Schritt zurück';
-            stepbackButton.addEventListener('click', this.prevStep.bind(this));
-            this.modalHeader.appendChild(stepbackButton);
-        } else {
-            // Title
-            title.innerHTML = this.modal.dataset.title;
-            let subtitle = document.createElement('span');
-            subtitle.textContent = this.modal.dataset.subtitle;
-            title.appendChild(subtitle);
+            this.modalHeader.appendChild(title);
         }
-        this.modalHeader.appendChild(title);
 
         // Modal Content
-        this.modalContent = document.createElement('div');
-        this.modalContent.classList.add(this.namespace + '__content');
-        this.modalContent.innerHTML = this.modal.innerHTML;
+        if (this.modal.querySelector('.' + this.namespace + '__content')) {
+            this.modalContent = this.modal.querySelector('.' + this.namespace + '__content');
+        } else {
+            this.modalContent = document.createElement('div');
+            this.modalContent.classList.add(this.namespace + '__content');
+            this.modalContent.innerHTML = this.modal.innerHTML;
+            this.modalWrapper.appendChild(this.modalContent);
+        }
         let nextButtons = this.modalContent.querySelectorAll('.' + this.namespace + '__nextstep');
         if (nextButtons.length > 0) {
             nextButtons.forEach(next => {
                 next.addEventListener('click', this.nextStep.bind(this));
             });
         }
-        // let submitButtons = this.modalContent.querySelectorAll('.' + this.namespace + '__submit');
-        // if (submitButtons.length > 0) {
-        //     submitButtons.forEach(submit => {
-        //         submit.addEventListener('click', this.submitStep.bind(this));
-        //     });
-        // }
+
+        // Handle Form Submits
         let submitForms = this.modalContent.querySelectorAll('form');
         if (submitForms.length > 0) {
             submitForms.forEach(form => {
                 form.addEventListener('submit', this.submitStep.bind(this));
             });
         }
-        this.modalWrapper.appendChild(this.modalContent);
 
         // Modal
         this.modal.innerHTML = '';
@@ -133,6 +148,8 @@ class Modal {
                 this.closeModal();
             }
         }).bind(this));
+
+        this.openModal();
     }
 
     submitStep(e) {
@@ -244,13 +261,16 @@ class Modal {
         })
     }
 
-    openModal(e) {
+    openModal(e = new MouseEvent('click')) {
+        console.log(e);
         e.preventDefault();
         if (this.modal) {
             document.body.classList.add('callone-modal--scrolllock');
             this.runScripts();
             $(this.modal).css('display', 'flex').hide().fadeIn(300);
             this.modal.classList.add(this.namespace + '--open');
+        } else {
+            this.loadModalContent();
         }
     }
     
