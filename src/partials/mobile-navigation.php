@@ -172,7 +172,7 @@ $jobs = jobs_load ();
   </ul>
 
   <div class="buttons">
-    <a href="#" data-openmodal="contact-sales" class="button primary" title="kostenlos testen">Jetzt kostenlos testen</a>
+    <a href="#" data-openmodal="contact-sales" class="button primary" title="Angebot einholen">Angebot einholen</a>
     <a href="tel:+493092033500" class="button secondary" title="Mit Experten sprechen">Mit einem Experten reden</a>
   </div>
 
