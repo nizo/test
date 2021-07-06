@@ -5,7 +5,7 @@
         <h1>Als ob Sie Ihre Kunden schon immer kennen</h1>
         <p class="primary">Überraschen Sie mit idealem telefonischem Customer Service, der im Gedächtnis bleibt – effizient und langfristig, kompetent und persönlich.</p>
         <div class="button-set">
-          <a href="/testen" class="button tertiary rounded">Jetzt Demo buchen</a>
+          <a href="#" class="button tertiary rounded" data-openmodal="contact-sales">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">

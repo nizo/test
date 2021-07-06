@@ -152,7 +152,8 @@ class Range {
         this.active.style.width = this.getProgressInPercent() + '%';
         this.active.style.backgroundSize = this.size.width + 'px 100%';
         window.onresize = (() => {
-            this.active.style.backgroundSize = this.wrapper.offsetWidth + 'px 100%';
+            if (this.wrapper.offsetParent)
+                this.active.style.backgroundSize = this.wrapper.offsetWidth + 'px 100%';
         }).bind(this);
         this.wrapper.appendChild(this.active);
     }

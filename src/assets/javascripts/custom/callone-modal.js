@@ -262,7 +262,6 @@ class Modal {
     }
 
     openModal(e = new MouseEvent('click')) {
-        console.log(e);
         e.preventDefault();
         if (this.modal) {
             document.body.classList.add('callone-modal--scrolllock');

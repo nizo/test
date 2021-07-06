@@ -84,7 +84,7 @@
       		<h2>Intelligente Ortsnetzrufnummern DE</h2>
             <p>Regionale Präsenz gepaart mit Profifeatures für Ihre Hotline. Schalten Sie jetzt Rufnummern aus Ihrem Vorwahlbereich. Kostenfrei in der Zuführung, bundesweit zum Ortstarif.</p>
             <div class="button-set centered">
-            	<a href="/testen" class="button secondary trackedElement" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
+            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
             </div>
             <!-- <h3>Verfügbarkeit Ihrer Vorwahl prüfen:</h3> -->
             <!--  <form class="form vorwahl-pruefung" action="#" method="POST">
@@ -102,7 +102,7 @@
       		<h2>Mobilfunkrufnummern</h2>
             <p>Setzen Sie Ihre Mobilfunknummer als Absenderkennung für ausgehende Telefonate. Bieten Sie Rückkanaloptionen, leiten eingehende Mobilfunkanrufe direkt zu Ihrem Sales- oder Serviceteam weiter und empfangen Sie eingehende SMS-Nachrichten über unsere Schnittstelle.</p>
             <div class="button-set centered">
-            	<a href="/testen" class="button secondary trackedElement" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
+            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
             </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
             <h2>Weltweite Ortsnetzrufnummern</h2>
             <p>CallOne bietet Ihnen Rufnummern in 60 Ländern und über 9.000 Vorwahlbereichen. Durch unsere leistungsstarke Plattform und VoIP-Infrastruktur bieten wir Ihnen optimale Gesprächsqualität und Performance auch bei hohem Anrufvolumen.</p>
             <div class="button-set centered">
-            	<a href="/testen" class="button secondary trackedElement" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
+            	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="linked to /testen">Für Angebot kontaktieren</a>
             </div>
         </div>
       </div>
@@ -239,7 +239,7 @@
       </div>
       <p></p>
       <div class="button-set centered">
-      	<a href="/testen" class="button secondary trackedElement" data-label="Button - Sales kontaktieren" data-category="Link" data-action="linked to /testen">Sales kontaktieren</a>
+      	<a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Sales kontaktieren" data-category="Link" data-action="linked to /testen">Sales kontaktieren</a>
       </div>    
   </div>
 </div>
@@ -251,31 +251,31 @@
     </div>
     <div class="content wide centered">
         <div class="grid">   
-          <div class="col-4">
-            <span class="sl sl-location sl-size-xl"></span>
-            <h3>Qualitätsrouten</h3>
-            <p>Anrufe auf CallOne-Rufnummern laufen ausschließlich auf direktem Wege über Premium-Routen.</p>
-          </div>
-          <div class="col-4">
-            <span class="sl sl-call-out sl-size-xl"></span>
-            <h3>Notfallmanagement</h3>
-			<p>Wir stellen Ihre Erreichbarkeit im Notfall (z.B. Internetausfall) sicher.</p>
-          </div>
-          <div class="col-4">
-            <span class="sl sl-pie-chart sl-size-xl"></span>
-            <h3>Erfahrung</h3>
-            <p>Greifen Sie auf unsere Expertise zurück ohne selbst tief in das Thema Rufnummern einsteigen zu müssen.</p>
-          </div>
-          <div class="col-4">
-            <span class="sl sl-letter sl-size-xl"></span>
-            <h3>SLA</h3>
-            <p>Vereinbaren Sie mit uns individuell Ihr gewünschtes SLA.</p>
-          </div>
+          	<div class="col-4">
+				<span class="sl sl-location sl-size-xl"></span>
+				<h3>Qualitätsrouten</h3>
+				<p>Anrufe auf CallOne-Rufnummern laufen ausschließlich auf direktem Wege über Premium-Routen.</p>
+          	</div>
+			<div class="col-4">
+				<span class="sl sl-call-out sl-size-xl"></span>
+				<h3>Notfallmanagement</h3>
+				<p>Wir stellen Ihre Erreichbarkeit im Notfall (z.B. Internetausfall) sicher.</p>
+			</div>
+			<div class="col-4">
+				<span class="sl sl-pie-chart sl-size-xl"></span>
+				<h3>Erfahrung</h3>
+				<p>Greifen Sie auf unsere Expertise zurück ohne selbst tief in das Thema Rufnummern einsteigen zu müssen.</p>
+			</div>
+			<div class="col-4">
+				<span class="sl sl-letter sl-size-xl"></span>
+				<h3>SLA</h3>
+				<p>Vereinbaren Sie mit uns individuell Ihr gewünschtes SLA.</p>
+			</div>
         </div>
         <p></p>
         <div class="button-set centered">
-        	<a href="/testen" class="button primary">Legen Sie los!</a>
+        	<a href="#" class="button primary" data-openmodal="contact-sales">Legen Sie los!</a>
         </div>
-  </div>
+  	</div>
 </div>
 <?php require_once('./partials/logo-parade-clients.php'); ?>
