@@ -415,12 +415,19 @@ hr {
 	max-height: 146px !important;
 }
 .agentboardImage {
-	position: absolute;
-	left: 30%;
-	right: 30%;
-	width: 40%;
-	bottom: 26%;
-	margin: 0 auto;
+	// position: absolute;
+	// left: 30%;
+	// right: 30%;
+	// width: 40%;
+	// bottom: 26%;
+	// margin: 0 auto;
+  position: absolute;
+  left: 30.5%;
+  /* right: 101%; */
+  width: 36.5%;
+  bottom: 40.8%;
+  margin: 0 auto;
+  height: 48.9%;
 }
 .overflow-hidden {
 	overflow: hidden;
@@ -441,9 +448,13 @@ hr {
 		margin-top: 0 !important;
 	}
 	.agentboardImage {
-		width: 100%;
-		left: 0;
-		right: initial;
+		// width: 100%;
+		// left: 0;
+		// right: initial;
+    left: 15.9%;
+    width: 68.5%;
+    bottom: 38.2%;
+    height: 45.9%;
 	}
 }
 
