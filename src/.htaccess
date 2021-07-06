@@ -263,6 +263,7 @@ Redirect 301 /agb.pdf /downloads/agb.pdf
 Redirect 301 /faq.php /faq/
 
 Redirect 301 /jobs /karriere
+Redirect 301 /testen /kontakt
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
