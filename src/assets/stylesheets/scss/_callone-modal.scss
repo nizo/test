@@ -42,7 +42,8 @@ body.callone-modal--scrolllock {
         align-items: center;
         padding: 25px 30px;
         border-bottom: 2px solid rgba(#000, 0.2);
-        min-height: calc(33px + 50px); // Button Height
+        min-height: 91px;
+        order: 1;
     }
 
     &__headerbutton {
@@ -169,6 +170,8 @@ body.callone-modal--scrolllock {
         padding: 30px;
         overflow-y: auto;
         overflow-x: hidden;
+        order: 2;
+        flex: 1;
         --scrollbarBG: transparent;
         --thumbBG: #86ed18;
         scrollbar-width: thin;
@@ -196,6 +199,17 @@ body.callone-modal--scrolllock {
         .callone-modal__step--no-padding {
             margin: 0;
         }
+    }
+
+    &__footer {
+        order: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    }
+    &__footer--hidden {
+        display: none;
     }
 }
 
@@ -244,6 +258,13 @@ body.callone-modal--scrolllock {
             }
             &:after {
                 transform: translate3d(-50%, -50%, 0) rotate(-45deg) !important;
+            }
+        }
+
+        &__footer {
+            .btn {
+                width: 100%;
+                text-align: center;
             }
         }
     }

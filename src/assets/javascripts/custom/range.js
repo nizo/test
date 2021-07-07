@@ -21,6 +21,8 @@ class Range {
             return;
         this.slider.dataset.initialized = 'true';
         this.step = 100 / (this.slider.max / this.slider.step);
+        this.sliderStep = this.slider.step;
+        this.slider.step = 1;
         this.size = {
             width: this.slider.dataset.width || 480,
             height: this.slider.dataset.height || 25
@@ -76,17 +78,20 @@ class Range {
     }
 
     setOutputValue() {
-        this.output.value = this.slider.value;
+        this.output.value = parseInt(this.slider.value);
     }
 
     setProgress(e) {
         let pressedKey = e.which || e.keyCode;
         let newValue = parseInt(this.output.value);
         if (pressedKey == 38) {
-            newValue++;
+            newValue += parseInt(this.sliderStep);
         }
         if (pressedKey == 40) {
-            newValue--;
+            newValue -= parseInt(this.sliderStep);
+        }
+        if (newValue % this.sliderStep !== 0) {
+            newValue = Math.round(newValue / this.sliderStep) * this.sliderStep;
         }
         let min = parseInt(this.slider.min);
         let max = parseInt(this.slider.max);
@@ -125,7 +130,8 @@ class Range {
             progress = 100
         this.thumb.style.left = progress + '%';
         this.active.style.width = progress + '%';
-        this.slider.value = this.slider.max * (progress / 100);
+        let newVal = Math.floor(((parseInt(this.slider.max) - parseInt(this.slider.min)) * (progress / 100)) + parseInt(this.slider.min));
+        this.slider.value = newVal;
         let event = new Event('change');
         this.slider.dispatchEvent(event);
     }
@@ -159,7 +165,7 @@ class Range {
     }
     
     getProgressInPercent() {
-        return 100 / this.slider.max * this.slider.value;
+        return 100 / parseInt(this.slider.max) * (parseInt(this.slider.value) - parseInt(this.slider.min));
     }
 }
 

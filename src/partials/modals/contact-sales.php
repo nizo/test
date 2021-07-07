@@ -4,7 +4,7 @@ $uniqueID = uniqid();
 ?>
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step" data-step-id="1" data-step-indicator="1/3">
+    <div class="callone-modal__step" data-step-id="1" data-next-step="3" data-step-indicator="1/3">
         <div class="worker-select">
             <h2>Wie groß ist Ihre Organisation?</h2>
             
@@ -13,12 +13,10 @@ $uniqueID = uniqid();
             <div class="workers">
                 <input type="text" name="workers" id="workers<?= $uniqueID; ?>" /> Mitarbeiter<span> oder mehr…</span>
             </div>
-            
-            <button class="btn btn--secondary callone-modal__nextstep" data-next-step="3">Weiter</button>
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-step-indicator="2/3">
+    <div class="callone-modal__step" data-step-id="2" data-next-step="4" data-prev-step="1" data-step-indicator="2/3">
         <div class="worker-evaluation">
             <div class="radio-select">
                 <div class="radio-select__item">
@@ -38,12 +36,10 @@ $uniqueID = uniqid();
                     </label>
                 </div>
             </div>
-
-            <button class="btn btn--secondary btn--centered callone-modal__nextstep" data-next-step="4">Weiter</button>
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-steptitle="Vielen Dank für Ihre Anfrage">
+    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-no-footer="true" data-no-back="true" data-steptitle="Vielen Dank für Ihre Anfrage">
         <h2 style="margin-bottom:20px">Schauen Sie doch hier mal nach...</h2>
         <p>Wir freuen uns über Ihr Interesse, doch leider finden wir heute noch nicht zusammen. Da sich die Ansprüche nach Firmengröße stark unterscheiden, wissen wir, dass unsere Lösung ihr Potenzial erst ab 10 Teammitgliedern voll entfalten. Dennoch möchten wir Ihnen gern helfen, einen passenden Partner zu finden. Hierzu haben wir eine Handvoll echt guter Empfehlungen für Sie bereitgestellt.</p>
         <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="card-link">
@@ -56,12 +52,12 @@ $uniqueID = uniqid();
         </a>
     </div>
 
-    <div class="callone-modal__step" data-step-id="4" data-prev-step="2" data-step-indicator="3/3" data-canceltext="Abbrechen">
+    <div class="callone-modal__step" data-step-id="4" data-prev-step="2" data-next-step="6" data-next-button-text="Kontaktformular absenden" data-step-indicator="3/3" data-canceltext="Abbrechen">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
-            <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen: Entweder indem Sie das Formular ausfüllen und wir uns so schnell wie möglich mit Ihnen in Verbindung setzen, oder indem Sie uns direkt via Telefon oder Mail kontaktieren.</p>
+            <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen.</p>
 
-            <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit" data-next-step="6">
+            <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit">
                 <div class="floating-form__error">
                     <h2>Etwas ist schief gelaufen</h2>
                     <p>Bitte versuchen Sie es erneut.</p>
@@ -127,7 +123,8 @@ $uniqueID = uniqid();
 
                 <div class="floating-form__loader"></div>
 
-                <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__submit">Kontaktformular absenden</button>
+                <input type="submit" id="sales-contact-form" hidden />
+                <!-- <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__submit">Kontaktformular absenden</button> -->
             </form>
 
             <p class="centered">oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
@@ -143,7 +140,7 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="5" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="5" data-no-footer="true" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/bendig" style="min-width:320px;height:1200px;"></div>
@@ -152,7 +149,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="6" data-prev-step="4" data-no-back="true" data-steptitle="Bestätigung" data-canceltext="Schließen">
+    <div class="callone-modal__step" data-step-id="6" data-prev-step="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen">
         <h2 class="centered">Super, wir sind kontaktiert!</h2>
         <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
 
@@ -199,11 +196,14 @@ $uniqueID = uniqid();
     </div>
     
     <script>
+        const thisModal = document.getElementById('<?= $uniqueID; ?>');
+
         // Sales Contact Form
         window.salesContactSubmit = function(e, cb) {
             const form = document.querySelector('.sales-contact-form form');
             const formLoader = form.querySelector('.floating-form__loader');
-            const formSubmit = form.querySelector('.floating-form__submit');
+            const formSubmit = form.querySelector('input[type="submit"]');
+            const formSubmitLabel = thisModal.querySelector('label[for="sales-contact-form"]');
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
             const formErrorText = formError.querySelector('p');
@@ -211,6 +211,7 @@ $uniqueID = uniqid();
 
             formLoader.classList.add('floating-form__loader--active');
             formSubmit.disabled = true;
+            formSubmitLabel.classList.add('floating-form__label--disabled');
 
             // Prepare form data
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
@@ -234,6 +235,7 @@ $uniqueID = uniqid();
                     return;
                 formLoader.classList.remove('floating-form__loader--active');
                 formSubmit.disabled = false;
+                formSubmitLabel.classList.remove('floating-form__label--disabled');
                 if (this.status == 200) {
                     // Backend sent response, evaluate
                     const response = JSON.parse(this.responseText);
@@ -290,8 +292,6 @@ $uniqueID = uniqid();
         selectBoxes.forEach(s => {
             new Select(s);
         });
-        
-        const thisModal = document.getElementById('<?= $uniqueID; ?>');
 
         // Range Slider
         let rangeSliders = thisModal.querySelectorAll('[data-callone-range]');
@@ -312,17 +312,17 @@ $uniqueID = uniqid();
                 }
                 
                 // Check if barrier is reached
-                let workerSelectNext = thisModal.querySelector('.worker-select .callone-modal__nextstep');
+                let step1 = thisModal.querySelector('.callone-modal__step[data-step-id="1"]');
                 if (currentValue < barrier) {
-                    workerSelectNext.dataset.nextStep = 3;
+                    step1.dataset.nextStep = 3;
                 } else {
-                    workerSelectNext.dataset.nextStep = 2;
+                    step1.dataset.nextStep = 2;
                 }
             });
         });
         
         // Toggle Form or Calendar, depending on what has been selected on the previous step
-        let workerEvaluationNext = thisModal.querySelector('.worker-evaluation .callone-modal__nextstep');
+        let workerEvaluationNext = thisModal.querySelector('.callone-modal__step[data-step-id="2"]');
         let topicSelectors = document.getElementsByName('topic<?= $uniqueID; ?>');
         topicSelectors.forEach(t => {
             t.addEventListener('click', e => {

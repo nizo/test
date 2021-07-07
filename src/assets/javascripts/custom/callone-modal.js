@@ -9,9 +9,9 @@ class Modal {
         this.modalWrapper = null;
         this.modalHeader = null;
         this.modalContent = null;
+        this.modalFooter = null;
         this.closeButton = null;
-        // this.button.addEventListener('click', this.openModal.bind(this));
-        // this.loadModalContent();
+
         this.button.addEventListener('click', this.openModal.bind(this));
     }
     
@@ -104,6 +104,12 @@ class Modal {
                 stepbackButton.textContent = 'Schritt zurück';
                 stepbackButton.addEventListener('click', this.prevStep.bind(this));
                 this.modalHeader.appendChild(stepbackButton);
+
+                // Modal Footer
+                this.modalFooter = document.createElement('div');
+                this.modalFooter.classList.add(this.namespace + '__footer');
+                this.populateModalFooter();
+                this.modalWrapper.appendChild(this.modalFooter);
             } else {
                 // Title
                 title.innerHTML = this.modal.dataset.title;
@@ -160,7 +166,8 @@ class Modal {
 
     nextStep(e) {
         e.preventDefault();
-        this.currentStep = parseInt(e.target.dataset.nextStep);
+        this.activeStep = this.getActiveStep();
+        this.currentStep = parseInt(this.activeStep.dataset.nextStep || e.target.dataset.nextStep);
         this.switchStep();
     }
 
@@ -177,6 +184,35 @@ class Modal {
                 activeStep = step;
         });
         return activeStep;
+    }
+
+    populateModalFooter() {
+        this.modalFooter.innerHTML = '';
+
+        this.modalFooter.classList.remove(this.namespace + '__footer--hidden');
+        if (this.activeStep.dataset.noFooter || !this.activeStep.dataset.nextStep) {
+            this.modalFooter.classList.add(this.namespace + '__footer--hidden');
+            return;
+        }
+
+        // Check if next or submit button is needed
+        let stepForm = this.activeStep.querySelector('form');
+        if (stepForm) {
+            // Needs Submit Button
+            let submitId = stepForm.querySelector('input[type="submit"]').id;
+            let submitButton = document.createElement('label');
+            submitButton.textContent = this.activeStep.dataset.nextButtonText || 'Abschicken';
+            submitButton.setAttribute('for', submitId);
+            submitButton.classList.add('btn', 'btn--primary', 'btn--centered', this.namespace + '__submit');
+            this.modalFooter.appendChild(submitButton);
+        } else {
+            // Needs Next Button
+            let nextButton = document.createElement('a');
+            nextButton.textContent = this.activeStep.dataset.nextButtonText || 'Weiter';
+            nextButton.classList.add('btn', 'btn--secondary', 'btn--centered', this.namespace + '__nextstep');
+            nextButton.addEventListener('click', this.nextStep.bind(this));
+            this.modalFooter.appendChild(nextButton);
+        }
     }
 
     switchStep() {
@@ -232,6 +268,9 @@ class Modal {
         } else {
             backButton.classList.add(this.namespace + '__headerbutton--hidden');
         }
+
+        // Modal Footer
+        this.populateModalFooter();
     }
 
     setCalendlyHeight() {
