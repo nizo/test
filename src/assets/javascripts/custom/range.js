@@ -20,7 +20,7 @@ class Range {
         if (this.slider.dataset.initialized && this.slider.dataset.initialized == 'true')
             return;
         this.slider.dataset.initialized = 'true';
-        this.step = 100 / (this.slider.max / this.slider.step);
+        this.step = 100 / Math.ceil((this.slider.max - this.slider.min) / this.slider.step);
         this.sliderStep = this.slider.step;
         this.slider.step = 1;
         this.size = {
@@ -84,10 +84,14 @@ class Range {
     setProgress(e) {
         let pressedKey = e.which || e.keyCode;
         let newValue = parseInt(this.output.value);
-        if (pressedKey == 38) {
-            newValue += parseInt(this.sliderStep);
+        if (pressedKey == 38 || pressedKey == 39) {
+            if (newValue % this.sliderStep !== 0) {
+                newValue += (Math.ceil(newValue / this.sliderStep) * this.sliderStep) - newValue;
+            } else {
+                newValue += parseInt(this.sliderStep);
+            }
         }
-        if (pressedKey == 40) {
+        if (pressedKey == 40 || pressedKey == 37) {
             newValue -= parseInt(this.sliderStep);
         }
         if (newValue % this.sliderStep !== 0) {
@@ -123,7 +127,7 @@ class Range {
             mouse.y = touch.pageY;
         }
         let progress = 100 / range.width * (mouse.x - range.x);
-        progress = progress - (progress % this.step);
+        //progress = progress - (progress % this.step); // Snap into steps
         if (progress < 0)
             progress = 0
         if (progress > 100)
@@ -131,9 +135,25 @@ class Range {
         this.thumb.style.left = progress + '%';
         this.active.style.width = progress + '%';
         let newVal = Math.floor(((parseInt(this.slider.max) - parseInt(this.slider.min)) * (progress / 100)) + parseInt(this.slider.min));
+        if (newVal !== parseInt(this.slider.min) && newVal !== parseInt(this.slider.max))
+            newVal = this.roundToNearestFactor(newVal, this.sliderStep);
         this.slider.value = newVal;
         let event = new Event('change');
         this.slider.dispatchEvent(event);
+    }
+
+    roundToNearestFactor(n, f) {
+        n = parseInt(n);
+        f = parseInt(f);
+
+        if (f == 0)
+            return n;
+
+        let r = n % f;
+        if (r == 0)
+            return n;
+
+        return n + f - r;
     }
     
     wrap() {
