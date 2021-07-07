@@ -208,24 +208,8 @@ class Modal {
             this.modalContent.classList.add(this.namespace + '__content--scrolllock');
 
             // Set height of calendly widget if present
-            let cal = this.activeStep.querySelector('.calendly-inline-widget');
-            if (cal) {
-                cal.style.height = (window.innerHeight * 0.8) - this.modalHeader.offsetHeight + 'px';
-                if (window.innerWidth <= 830) {
-                    cal.style.height = 'calc(' + (window.innerHeight - this.modalHeader.offsetHeight) + 'px - 60px)';
-                }
-                let styles = window.getComputedStyle(this.modalContent, null);
-                let gutters = {
-                    top: parseInt(styles.getPropertyValue('padding-top')),
-                    right: parseInt(styles.getPropertyValue('padding-right')),
-                    bottom: parseInt(styles.getPropertyValue('padding-bottom')),
-                    left: parseInt(styles.getPropertyValue('padding-left'))
-                }
-                cal.style.marginTop = -gutters.top + 'px';
-                cal.style.marginRight = -gutters.right + 'px';
-                cal.style.marginBottom = -gutters.bottom + 'px';
-                cal.style.marginLeft = -gutters.left + 'px';
-            }
+            this.setCalendlyHeight();
+            window.onresize = this.setCalendlyHeight.bind(this);
             // End Calendly height calculation
         } else {
             this.modalContent.classList.remove(this.namespace + '__content--scrolllock');
@@ -246,6 +230,27 @@ class Modal {
             backButton.classList.add(this.namespace + '__headerbutton--hidden');
         }
         // this.runScripts();
+    }
+
+    setCalendlyHeight() {
+        let cal = this.activeStep.querySelector('.calendly-inline-widget');
+        if (cal) {
+            cal.style.height = (window.innerHeight * 0.8) - this.modalHeader.offsetHeight + 'px';
+            if (window.innerWidth <= 830) {
+                cal.style.height = 'calc(' + (window.innerHeight - this.modalHeader.offsetHeight) + 'px - 60px)';
+            }
+            let styles = window.getComputedStyle(this.modalContent, null);
+            let gutters = {
+                top: parseInt(styles.getPropertyValue('padding-top')),
+                right: parseInt(styles.getPropertyValue('padding-right')),
+                bottom: parseInt(styles.getPropertyValue('padding-bottom')),
+                left: parseInt(styles.getPropertyValue('padding-left'))
+            }
+            cal.style.marginTop = -gutters.top + 'px';
+            cal.style.marginRight = -gutters.right + 'px';
+            cal.style.marginBottom = -gutters.bottom + 'px';
+            cal.style.marginLeft = -gutters.left + 'px';
+        }
     }
 
     runScripts() {
