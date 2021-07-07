@@ -180,15 +180,18 @@
                 <li><code>data-canceltext="Schließen"</code>: Text that is displayed as the close button (default: Schließen)</li>
                 <li><code>data-title="title"</code>: The title that will be displayed for modals without steps</li>
                 <li><code>data-subtitle="title"</code>: The subtitle that will be displayed for modals without steps</li>
+                <li><code>.callone-modal--no-padding</code>: Removes padding of modal content if content shall flow right to the edge of the modal. (globally, for all steps if present. Can be set for single steps as well, see below)</li>
             </ul>
             <p><strong>Modal Steps:</strong></p>
             <ul>
                 <li><code>.callone-modal__step</code>: Wrapper of each step inside the <code>.callone-modal</code> block</li>
+                <li><code>.callone-modal__step--no-padding</code>: Removes padding in step content if content shall flow right to the edge of the modal.</li>
                 <li><code>data-step-id="1"</code>: Required, use incrementing numbers starting from 1</li>
                 <li><code>data-step-indicator="1/5"</code>: Used as the title if no <code>data-steptitle</code> is provided, also used to calculate and display the step indicators (dots).</li>
                 <li><code>data-steptitle="title"</code>: Title displayed for this specific step, if not provided the step number is shown instead</li>
                 <li><code>.callone-modal__nextstep</code>: Class that has to be added to a button inside a step to link to the next step, also needs <code>data-next-step="2"</code> to work properly. The number has to be the step ID.</li>
                 <li><code>data-prev-step="1"</code>: Specifies the previous step to display when back button is clicked</li>
+                <li><code>data-no-back="true"</code>: Prevents step back button from being shown.</li>
             </ul>
             <p><strong>Forms in Modals:</strong></p>
             <ul>

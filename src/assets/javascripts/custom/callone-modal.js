@@ -219,17 +219,19 @@ class Modal {
         this.steps.forEach(step => step.classList.remove(this.namespace + '__step--active'));
         this.activeStep.classList.add(this.namespace + '__step--active');
 
+        // Set Step x/y OR Step Title
         if (!this.activeStep.dataset.steptitle || this.activeStep.dataset.steptitle == "") {
             stepTitle.textContent = 'Schritt ' + (this.activeStep.dataset.stepIndicator || this.activeStep.dataset.stepId);
         } else {
             stepTitle.textContent = this.activeStep.dataset.steptitle;
         }
-        if (this.currentStep > 1) {
+
+        // Show / Hide Back Button
+        if (this.currentStep > 1 && !this.activeStep.dataset.noBack) {
             backButton.classList.remove(this.namespace + '__headerbutton--hidden');
         } else {
             backButton.classList.add(this.namespace + '__headerbutton--hidden');
         }
-        // this.runScripts();
     }
 
     setCalendlyHeight() {
@@ -239,17 +241,17 @@ class Modal {
             if (window.innerWidth <= 830) {
                 cal.style.height = 'calc(' + (window.innerHeight - this.modalHeader.offsetHeight) + 'px - 60px)';
             }
-            let styles = window.getComputedStyle(this.modalContent, null);
-            let gutters = {
-                top: parseInt(styles.getPropertyValue('padding-top')),
-                right: parseInt(styles.getPropertyValue('padding-right')),
-                bottom: parseInt(styles.getPropertyValue('padding-bottom')),
-                left: parseInt(styles.getPropertyValue('padding-left'))
-            }
-            cal.style.marginTop = -gutters.top + 'px';
-            cal.style.marginRight = -gutters.right + 'px';
-            cal.style.marginBottom = -gutters.bottom + 'px';
-            cal.style.marginLeft = -gutters.left + 'px';
+            // let styles = window.getComputedStyle(this.modalContent, null);
+            // let gutters = {
+            //     top: parseInt(styles.getPropertyValue('padding-top')),
+            //     right: parseInt(styles.getPropertyValue('padding-right')),
+            //     bottom: parseInt(styles.getPropertyValue('padding-bottom')),
+            //     left: parseInt(styles.getPropertyValue('padding-left'))
+            // }
+            // cal.style.marginTop = -gutters.top + 'px';
+            // cal.style.marginRight = -gutters.right + 'px';
+            // cal.style.marginBottom = -gutters.bottom + 'px';
+            // cal.style.marginLeft = -gutters.left + 'px';
         }
     }
 

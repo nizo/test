@@ -161,6 +161,9 @@ body.callone-modal--scrolllock {
     &__step--active {
         display: block;
     }
+    &__step--no-padding {
+        margin: -30px;
+    }
 
     &__content {
         padding: 30px;
@@ -184,6 +187,15 @@ body.callone-modal--scrolllock {
     }
     &__content--scrolllock {
         overflow: hidden;
+    }
+
+    &--no-padding {
+        .callone-modal__content {
+            padding: 0;
+        }
+        .callone-modal__step--no-padding {
+            margin: 0;
+        }
     }
 }
 

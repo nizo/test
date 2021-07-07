@@ -143,7 +143,7 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step" data-step-id="5" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="5" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/bendig" style="min-width:320px;height:1200px;"></div>
@@ -152,7 +152,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="6" data-prev-step="4" data-steptitle="Bestätigung" data-canceltext="Schließen">
+    <div class="callone-modal__step" data-step-id="6" data-prev-step="4" data-no-back="true" data-steptitle="Bestätigung" data-canceltext="Schließen">
         <h2 class="centered">Super, wir sind kontaktiert!</h2>
         <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
 
