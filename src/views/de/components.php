@@ -24,7 +24,7 @@
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
-                <li><code>/src/assets/stylesheets/scss/_buttons.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_buttons.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -43,7 +43,7 @@
             <p>A link styled as a card with icons, title and subtitle.</p>
             <p><strong>Files:</strong></p>
             <ul>
-                <li><code>/src/assets/stylesheets/scss/_card-link.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_card-link.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -72,7 +72,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/select.js</code></li>
-                <li><code>/src/assets/javascripts/scss/_select.scss</code></li>
+                <li><code>/src/assets/javascripts/scss/components/_select.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -100,7 +100,7 @@
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
-                <li><code>/src/assets/stylesheets/scss/_floating-form.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_floating-form.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -150,7 +150,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/coffee/application.coffee</code> # Content Scroller</li>
-                <li><code>/src/assets/stylesheets/scss/_scroller.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_scroller.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -225,7 +225,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/callone-modal.js</code></li>
-                <li><code>/src/assets/stylesheets/scss/_callone-modal.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_modal.scss</code></li>
                 <li><code>/src/partials/modals/*</code></li>
             </ul>
         </div>
@@ -278,7 +278,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/range.js</code></li>
-                <li><code>/src/assets/stylesheets/scss/_range.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_range.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -300,7 +300,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/step-slider.js</code></li>
-                <li><code>/src/assets/stylesheets/scss/_step-slider.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_step-slider.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">

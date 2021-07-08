@@ -199,8 +199,8 @@ $jobs = jobs_load ();
     <!-- jobs -->
     <?php if (!empty ($jobs)): ?>
     <li>
-      <a class="arrow" href="/karriere">Jobs</a>
-      <div class="submenu submenu-products">
+      <a href="/karriere">Karriere <span class="notification-bubble"><?= count($jobs) ?> Jobs</span></a>
+      <!-- <div class="submenu submenu-products">
         <div class="submenu-content">
           <ul>
             <?php
@@ -215,7 +215,7 @@ $jobs = jobs_load ();
             ?>
           </ul>
         </div>
-      </div>
+      </div> -->
     </li>
     <?php endif; ?>
 
