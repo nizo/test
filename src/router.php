@@ -192,6 +192,18 @@ $r->addRoute('GET', '/karriere', function() {
   require_once('./layouts/footer.php');
 });
 
+/* Karriere bei CallOne */
+$r->addRoute('GET', '/karriere-bei-callone', function() {
+  $title = 'CallOne Karriere - Bei uns arbeiten';
+  $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen.';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/karriere-bei-callone';
+  require_once('./layouts/header.php');
+  require_once('./views/de/karriere-bei-callone.php');
+  require_once('./layouts/footer.php');
+});
+
 /* dynamically add jobs */
 $jobs = jobs_load ();
 foreach ($jobs as $job)
