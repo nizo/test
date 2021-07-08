@@ -8,6 +8,28 @@
         </div>
     </div>
 
+    <!-- Anchors -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Anchor Buttons</h1>
+            <p>A row of anchor buttons with title message for easy access of multiple sections on a page.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="anchors">
+                    <div class="anchors__title">
+                        <strong>Schnelleinstieg:</strong> Was interessiert dich?
+                    </div>
+                    <div class="anchors__links">
+                        <a href="#anchor-1">Anchor 1</a>
+                        <a href="#anchor-2">Anchor 2</a>
+                        <a href="#anchor-3">Anchor 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Buttons -->
     <div class="components__item">
         <div class="components__docs">
@@ -15,12 +37,18 @@
             <p>We have multiple types of buttons and some modifiers that can change the overall behaviour of buttons.</p>
             <p><strong>Types:</strong></p>
             <ul>
-                <li>Primary <code>.btn--primary</code></li>
-                <li>Secondary <code>.btn--secondary</code></li>
+                <li><code>.btn--primary</code>: Primary</li>
+                <li><code>.btn--secondary</code>: Secondary</li>
             </ul>
             <p><strong>Modifiers:</strong></p>
             <ul>
-                <li>Centered <code>.btn--centered</code></li>
+                <li><code>.btn--centered</code>: Centered</li>
+                <li><code>.btn--full-width</code>: Full Width</li>
+                <li><code>.btn--arrow-right</code>: Arrow Right</li>
+            </ul>
+            <p><strong>Optional:</strong></p>
+            <ul>
+                <li><code>.btn__notification</code>: Adds notification Bubble</li>
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
@@ -32,6 +60,9 @@
                 <a href="#" class="btn btn--primary">Button Primary</a>
                 <a href="#" class="btn btn--secondary">Button Secondary</a>
                 <a href="#" class="btn btn--primary btn--centered">Centered</a>
+                <a href="#" class="btn btn--primary btn--full-width">Full Width</a>
+                <a href="#" class="btn btn--primary btn--arrow-right">Arrow Right</a>
+                <a href="#" class="btn btn--primary">Jobs <span class="btn__notification">10</span></a>
             </div>
         </div>
     </div>
