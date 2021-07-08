@@ -127,7 +127,8 @@ class Range {
             mouse.y = touch.pageY;
         }
         let progress = 100 / range.width * (mouse.x - range.x);
-        //progress = progress - (progress % this.step); // Snap into steps
+        if (this.slider.dataset.snap && this.slider.dataset.snap === "true")
+            progress = progress - (progress % this.step); // Snap into steps
         if (progress < 0)
             progress = 0
         if (progress > 100)

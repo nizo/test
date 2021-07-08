@@ -22,6 +22,10 @@
             <ul>
                 <li>Centered <code>.btn--centered</code></li>
             </ul>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/stylesheets/scss/_buttons.scss</code></li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -37,6 +41,10 @@
         <div class="components__docs">
             <h1>Card Link</h1>
             <p>A link styled as a card with icons, title and subtitle.</p>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/stylesheets/scss/_card-link.scss</code></li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -61,6 +69,11 @@
             <ul>
                 <li><code>data-callone-select</code></li>
             </ul>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/javascripts/custom/select.js</code></li>
+                <li><code>/src/assets/javascripts/scss/_select.scss</code></li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -84,6 +97,10 @@
                 <li>Row <code>.floating-form__row</code></li>
                 <li>Column <code>.floating-form__col</code></li>
                 <li>Form Field <code>.floating-form__field</code></li>
+            </ul>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/stylesheets/scss/_floating-form.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -129,6 +146,11 @@
             <ul>
                 <li>Set height <code>data-height</code></li>
                 <li>Reverse direction <code>data-reversed</code></li>
+            </ul>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/javascripts/coffee/application.coffee</code> # Content Scroller</li>
+                <li><code>/src/assets/stylesheets/scss/_scroller.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -200,6 +222,12 @@
                 <li><code>data-step-callback="functionName"</code>: Callback Function to call when form is submitted</li>
                 <li><code>data-next-step="1"</code>: Next step ID when form is successfully submittedv</li>
             </ul>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/javascripts/custom/callone-modal.js</code></li>
+                <li><code>/src/assets/stylesheets/scss/_callone-modal.scss</code></li>
+                <li><code>/src/partials/modals/*</code></li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -245,11 +273,17 @@
                 <li><code>data-callone-range</code>: Used to target element with javascript</li>
                 <li><code>data-output="#selector"</code>: Selector of input type text element to display current value</li>
                 <li><code>data-width="480"</code>: Desired initial width</li>
+                <li><code>data-snap="true"</code>: Snap to multiple of specified step, (only works with min/max values that are dividable/multiples of step)</li>
+            </ul>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/javascripts/custom/range.js</code></li>
+                <li><code>/src/assets/stylesheets/scss/_range.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
             <div>
-                <input type="range" min="0" max="200" step="1" value="25" data-callone-range data-output="#outputId" data-width="480" />
+                <input type="range" min="0" max="200" step="10" value="25" data-callone-range data-snap="true" data-output="#outputId" data-width="480" />
                 <input type="text" id="outputId" />
 
                 <input type="range" min="23" max="50" step="5" value="1" data-callone-range data-output="#output-1" data-width="480" />
@@ -263,6 +297,11 @@
         <div class="components__docs">
             <h1>Step Slider</h1>
             <p>Slider for multiple steps.</p>
+            <p><strong>Files:</strong></p>
+            <ul>
+                <li><code>/src/assets/javascripts/custom/step-slider.js</code></li>
+                <li><code>/src/assets/stylesheets/scss/_step-slider.scss</code></li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>

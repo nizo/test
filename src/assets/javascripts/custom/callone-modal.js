@@ -190,7 +190,7 @@ class Modal {
         this.modalFooter.innerHTML = '';
 
         this.modalFooter.classList.remove(this.namespace + '__footer--hidden');
-        if (this.activeStep.dataset.noFooter || !this.activeStep.dataset.nextStep) {
+        if ((this.activeStep.dataset.noFooter && this.activeStep.noFooter === 'true') || !this.activeStep.dataset.nextStep) {
             this.modalFooter.classList.add(this.namespace + '__footer--hidden');
             return;
         }
@@ -263,7 +263,7 @@ class Modal {
         }
 
         // Show / Hide Back Button
-        if (this.currentStep > 1 && !this.activeStep.dataset.noBack) {
+        if (this.currentStep > 1 && (!this.activeStep.dataset.noBack || this.activeStep.dataset.noBack !== 'true')) {
             backButton.classList.remove(this.namespace + '__headerbutton--hidden');
         } else {
             backButton.classList.add(this.namespace + '__headerbutton--hidden');
