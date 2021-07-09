@@ -168,6 +168,27 @@
         </div>
     </div>
 
+    <!-- Hero / Header -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Hero / Header Area</h1>
+            <p>Hero / Header Area to use as a page entry. It consists of text and image/media side by side.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="hero">
+                    <div class="hero__text">
+                        <h1>Headline</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam iste laboriosam, dolorum, laudantium iure ipsa earum excepturi tempore temporibus ducimus maiores ex optio aperiam quod, quas esse iusto provident!</p>
+                    </div>
+                    <div class="hero__image">
+                        <img src="//via.placeholder.com/500" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Infinity Scroller -->
     <div class="components__item">
         <div class="components__docs">
