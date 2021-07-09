@@ -45,6 +45,40 @@ $jobs = jobs_load();
             <a href="#" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
         </p>
     </div>
+    <div class="section__content section__content--wide">
+        <div class="cards">
+        <div class="cards__card cards__card--3">
+                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                <h3>Bonbons gefällig?</h3>
+                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            </div>
+            <div class="cards__card cards__card--3">
+                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                <h3>Bonbons gefällig?</h3>
+                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            </div>
+            <div class="cards__card cards__card--3">
+                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                <h3>Bonbons gefällig?</h3>
+                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            </div>
+            <div class="cards__card cards__card--3">
+                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                <h3>Bonbons gefällig?</h3>
+                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            </div>
+            <div class="cards__card cards__card--3">
+                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                <h3>Bonbons gefällig?</h3>
+                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            </div>
+            <div class="cards__card cards__card--3">
+                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                <h3>Bonbons gefällig?</h3>
+                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="section" id="vorteile">

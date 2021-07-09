@@ -1,0 +1,21 @@
+.grid {
+    --gutter: 30px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    // margin: calc(-1 * var(--gutter)) calc(-1 * calc(var(--gutter) / 2));
+
+    &__col {
+        margin: var(--gutter) calc(var(--gutter) / 2);
+    }
+
+    @for $i from 1 through 12 {
+        &__col--#{$i} {
+            // width: calc(#{percentage($i/12)} - var(--gutter));
+            width: percentage($i/12);
+        }
+    }
+}
