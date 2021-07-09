@@ -8,7 +8,7 @@ $uniqueID = uniqid();
         <div class="worker-select">
             <h2>Wie groß ist Ihre Organisation?</h2>
             
-            <input type="range" min="1" max="200" step="1" value="1" data-callone-range="" data-output="#workers<?= $uniqueID; ?>" data-width="480" />
+            <input type="range" min="1" max="100" step="5" value="1" data-snap="true" data-callone-range="" data-output="#workers<?= $uniqueID; ?>" data-width="480" />
             
             <div class="workers">
                 <input type="text" name="workers" id="workers<?= $uniqueID; ?>" /> Mitarbeiter<span> oder mehr…</span>
