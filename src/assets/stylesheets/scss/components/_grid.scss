@@ -6,16 +6,43 @@
     flex-wrap: wrap;
     align-items: stretch;
 
-    // margin: calc(-1 * var(--gutter)) calc(-1 * calc(var(--gutter) / 2));
-
     &__col {
-        margin: var(--gutter) calc(var(--gutter) / 2);
+        
     }
 
     @for $i from 1 through 12 {
         &__col--#{$i} {
-            // width: calc(#{percentage($i/12)} - var(--gutter));
             width: percentage($i/12);
         }
+
+        // XS
+        @media screen and (max-width: 767px) {
+            .grid__col--#{$i}-xs {
+                width: percentage($i/12);
+            }
+        }
+        // SM
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            .grid__col--#{$i}-sm {
+                width: percentage($i/12);
+            }
+        }
+        // MD
+        @media screen and (min-width: 922px) and (max-width: 1199px) {
+            .grid__col--#{$i}-md {
+                width: percentage($i/12);
+            }
+        }
+        // lg
+        @media screen and (min-width: 1200px) {
+            .grid__col--#{$i}-lg {
+                width: percentage($i/12);
+            }
+        }
+
+        // xs (for phones - screens less than 768px wide)
+        // sm (for tablets - screens equal to or greater than 768px wide)
+        // md (for small laptops - screens equal to or greater than 992px wide)
+        // lg (for laptops and desktops - screens equal to or greater than 1200px wide)
     }
 }

@@ -47,6 +47,23 @@
 			color: #000;
 		}
 	}
+
+	&--border-black {
+		background-color: transparent;
+		color: #000;
+		border: 2px solid currentColor;
+		&:hover {
+			color: $color-primary;
+		}
+	}
+	&--border-white {
+		background-color: transparent;
+		color: #fff;
+		border: 2px solid currentColor;
+		&:hover {
+			color: $color-primary;
+		}
+	}
 	
 	&--centered {
 		margin-left: auto;
