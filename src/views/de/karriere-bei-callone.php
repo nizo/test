@@ -121,19 +121,19 @@ $jobs = jobs_load();
             <div class="team__header">
                 <p>Menschen bei CallOne</p>
                 <div class="team__buttons">
-                    <div class="team__button team__button--active">
+                    <div class="team__button team__button--active" data-member="1">
                         <img src="https://picsum.photos/seed/avatar/200" alt="" />
                     </div>
-                    <div class="team__button">
+                    <div class="team__button" data-member="2">
                         <img src="https://picsum.photos/seed/team2/200" alt="" />
                     </div>
-                    <div class="team__button">
+                    <div class="team__button" data-member="3">
                         <img src="https://picsum.photos/seed/team3/200" alt="" />
                     </div>
                 </div>
             </div>
             <div class="team__content">
-                <div class="team__member team__member--active">
+            <div class="team__member team__member--active" data-member="1">
                     <div class="team__member-left">
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>
@@ -154,6 +154,56 @@ $jobs = jobs_load();
                         <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
                             <strong>Tagesagenda</strong><br />
                             Projektmanagerin
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team__member team__member--active" data-member="2">
+                    <div class="team__member-left">
+                        <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
+                        <h6>
+                            <strong>Max Mustermann</strong><br />
+                            Frontend-Entwickler
+                        </h6>
+
+                        <div class="team__member-booking">
+                            <h3>Lust mehr über CallOne zu erfahren?</h3>
+                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Max</u>.</p>
+                            <a href="#" class="btn btn--border-white">Termin buchen</a>
+                        </div>
+                    </div>
+                    <div class="team__member-right">
+                        <div class="team__member-image">
+                            <img src="https://picsum.photos/seed/team2/368/510" alt="" />
+                        </div>
+                        <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
+                            <strong>Tagesagenda</strong><br />
+                            Frontend-Entwickler
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team__member team__member--active" data-member="3">
+                    <div class="team__member-left">
+                        <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
+                        <h6>
+                            <strong>Helge Schneider</strong><br />
+                            Komiker / Sänger
+                        </h6>
+
+                        <div class="team__member-booking">
+                            <h3>Lust mehr über CallOne zu erfahren?</h3>
+                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Helge</u>.</p>
+                            <a href="#" class="btn btn--border-white">Termin buchen</a>
+                        </div>
+                    </div>
+                    <div class="team__member-right">
+                        <div class="team__member-image">
+                            <img src="https://picsum.photos/seed/team3/368/510" alt="" />
+                        </div>
+                        <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
+                            <strong>Tagesagenda</strong><br />
+                            Komiker / Sänger
                         </div>
                     </div>
                 </div>
