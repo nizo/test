@@ -4,7 +4,7 @@
         <h2>Setzen Sie sich mit uns in Verbindung und lassen Sie uns wissen, wie wir helfen können. Wir melden uns so schnell wie möglich!</h2>
     </div>
     <div class="contactpage__content">
-        <h1>Was ist Ihre Kontakt-Motivation?</h1>
+        <h1>Wie können wir Ihnen helfen?</h1>
 
         <a href="#" class="contactoption contactoption--highlight" data-openmodal="contact-sales">
             <div class="contactoption__header">
@@ -12,8 +12,8 @@
                     <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
                 </div>
                 <div class="contactoption__text">
-                    <strong>Vertrieb kontaktieren</strong><br />
-                    Demo-Termin vereinbaren, Anforderungen besprechen
+                    <strong>Anfrage zu Produkten & Lösungen</strong><br />
+                    Ihre Anforderungen abstimmen, Termin vereinbaren
                 </div>
                 <div class="contactoption__action">
                     <img src="/assets/images/icons_svg/forward-arrow.svg" alt="" />

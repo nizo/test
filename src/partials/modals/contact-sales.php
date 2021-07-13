@@ -6,9 +6,9 @@ $uniqueID = uniqid();
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
     <div class="callone-modal__step" data-step-id="1" data-next-step="3" data-step-indicator="1/3">
         <div class="worker-select">
-            <h2>Wie groß ist Ihre Organisation?</h2>
+            <h2>Wie viele Mitarbeiter werden telefonieren?</h2>
             
-            <input type="range" min="1" max="200" step="1" value="1" data-callone-range="" data-output="#workers<?= $uniqueID; ?>" data-width="480" />
+            <input type="range" min="1" max="100" step="5" value="1" data-snap="true" data-callone-range="" data-output="#workers<?= $uniqueID; ?>" data-width="480" />
             
             <div class="workers">
                 <input type="text" name="workers" id="workers<?= $uniqueID; ?>" /> Mitarbeiter<span> oder mehr…</span>
@@ -21,7 +21,7 @@ $uniqueID = uniqid();
             <div class="radio-select">
                 <div class="radio-select__item">
                     <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
-                    <label for="topic1<?= $uniqueID; ?>">
+                    <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="4">
                         <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
                         <h3>Senden Sie uns eine Nachricht</h3>
                         <p>Kontaktformular nutzen</p>
@@ -29,7 +29,7 @@ $uniqueID = uniqid();
                 </div>
                 <div class="radio-select__item">
                     <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
-                    <label for="topic2<?= $uniqueID; ?>">
+                    <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="5">
                         <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
                         <h3>Buchen Sie direkt einen Termin</h3>
                         <p>Telefon- oder Videocall vereinbaren</p>
@@ -39,7 +39,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-no-footer="true" data-no-back="true" data-steptitle="Vielen Dank für Ihre Anfrage">
+    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-no-footer="true" data-steptitle="Vielen Dank für Ihre Anfrage">
         <h2 style="margin-bottom:20px">Schauen Sie doch hier mal nach...</h2>
         <p>Wir freuen uns über Ihr Interesse, doch leider finden wir heute noch nicht zusammen. Da sich die Ansprüche nach Firmengröße stark unterscheiden, wissen wir, dass unsere Lösung ihr Potenzial erst ab 10 Teammitgliedern voll entfalten. Dennoch möchten wir Ihnen gern helfen, einen passenden Partner zu finden. Hierzu haben wir eine Handvoll echt guter Empfehlungen für Sie bereitgestellt.</p>
         <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="card-link">
@@ -157,23 +157,23 @@ $uniqueID = uniqid();
             <div class="step-slider__steps">
                 <div class="step-slider__step step-slider__step--active">
                     <h2>Besprechung Ihrer Anforderungen</h2>
-                    <p>Lassen Sie uns kurz über Ihre Anforderungen sprechen. Wir nehmen uns Zeit und beraten Sie ehrlich.</p>
+                    <p>Wir verabreden uns für einen ersten Austausch und tauschen und zu Ihren Anforderungen aus.</p>
                 </div>
                 <div class="step-slider__step">
-                    <h2>Demo Zugang</h2>
-                    <p>Sie bekommen einen komplett funktionalen Demo-Zugang und wir zeigen Ihnen, was die Telefonanlage kann.</p>
+                    <h2>Demo</h2>
+                    <p>Wir skizzieren unseren Lösungsvorschlag für ihr Vorhaben und zeigen Ihnen diesen sehr praxisnah.</p>
                 </div>
                 <div class="step-slider__step">
-                    <h2>Analyse</h2>
-                    <p>Wir machen kostenfrei eine Verkehrsmessung, analysieren Ihr System, Ihre Strukturen, Ihren Traffic.</p>
+                    <h2>Strategie</h2>
+                    <p>Gemeinsam entwickeln wir eine Strategie, denken Callflows, Routings und Technologie durch​.</p>
                 </div>
                 <div class="step-slider__step">
-                    <h2>Live-Session &amp; Lösungen</h2>
-                    <p>Aus den Ergebnissen setzen wir Ihre Telefonanlage so auf, als wären Sie bereits Kunde bei uns. Das ist unser Investment in Sie.</p>
+                    <h2>Konzept</h2>
+                    <p>Wir setzen das erarbeitete Konzept um, so als wären Sie schon Kunde bei uns. Damit können Sie auf Herz und Nieren testen und optimieren​.</p>
                 </div>
                 <div class="step-slider__step">
-                    <h2>Testen &amp; Finetuning</h2>
-                    <p>Sie testen und prüfen ohne Risiko oder Kosten, wir stehen Ihnen mit Antworten zur Seite. Dann entscheiden Sie, ob wir Sie überzeugen konnten.</p>
+                    <h2>Finetuning & Start</h2>
+                    <p>Alles roger? Dann gehen wir live, nachdem wir alle notwendigen Schritte für einen erfolgreichen Start gemeinsam durchlaufen haben​.</p>
                 </div>
             </div>
             <div class="step-slider__slider">
@@ -301,6 +301,7 @@ $uniqueID = uniqid();
             rangeSlider.addEventListener('change', e => {
                 let currentValue = e.target.value;
                 let barrier = 10;
+                let workers = thisModal.querySelector('.workers');
                 let workersExtra = thisModal.querySelector('.workers span');
                 let buttonNext = thisModal.querySelector('.worker-select .callone-modal__nextstep');
                 
@@ -315,8 +316,10 @@ $uniqueID = uniqid();
                 let step1 = thisModal.querySelector('.callone-modal__step[data-step-id="1"]');
                 if (currentValue < barrier) {
                     step1.dataset.nextStep = 3;
+                    workers.classList.remove('workers--valid');
                 } else {
                     step1.dataset.nextStep = 2;
+                    workers.classList.add('workers--valid');
                 }
             });
         });

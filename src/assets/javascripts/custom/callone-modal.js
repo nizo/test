@@ -167,7 +167,7 @@ class Modal {
     nextStep(e) {
         e.preventDefault();
         this.activeStep = this.getActiveStep();
-        this.currentStep = parseInt(this.activeStep.dataset.nextStep || e.target.dataset.nextStep);
+        this.currentStep = parseInt(e.currentTarget.dataset.nextStep || this.activeStep.dataset.nextStep);
         this.switchStep();
     }
 
