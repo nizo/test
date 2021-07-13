@@ -46,7 +46,7 @@ $jobs = jobs_load();
         </p>
     </div>
 
-    <div class="section__content section__content--wide">
+    <div class="section__content section__content--wide section__content--gutter-top">
         <div class="grid centered">
             <div class="grid__col--6-lg grid__col--2-md">
                 <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
@@ -73,7 +73,7 @@ $jobs = jobs_load();
         </p>
     </div>
 
-    <div class="section__content section__content--wide">
+    <div class="section__content section__content--wide section__content--gutter-top">
         <div class="cards">
             <div class="cards__card cards__card--3">
                 <img src="/assets/images/icons_svg/benefits.svg" alt="" />

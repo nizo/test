@@ -140,3 +140,19 @@
         border-color: #F1BB51;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .agenda {
+        &__row {
+            flex-direction: column;
+        }
+
+        &__col {
+            padding-right: 0;
+            &+.agenda__col {
+                margin-top: 18px;
+                padding-left: 0;
+            }
+        }
+    }
+}
