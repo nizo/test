@@ -11,6 +11,13 @@
         background: linear-gradient(180deg, #EDF2E2 70%, rgba(#EDF2E2, 0) 100%);
     }
 
+    &--light-green-white-map {
+        background-image: linear-gradient(180deg, #EDF2E2 calc(70% - 550px), rgba(#EDF2E2, 0) calc(100% - 550px)), url(../images/photos/bg-map.jpg);
+        background-position: top center, bottom center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
     &--dark-green-black {
         --color-text: #fff;
         background: linear-gradient(180deg, #213327 0%, #000000 100%);

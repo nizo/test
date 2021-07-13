@@ -212,12 +212,35 @@ $jobs = jobs_load();
     </div>
 </div>
 
-<div class="section section--light-green-white" id="arbeitsplatz">
+<div class="section section--light-green-white-map" id="arbeitsplatz">
     <div class="section__content section__content--narrow">
         <h1 class="centered">
             Potsdam-City oder <br />
             von zuhause – wie du magst
         </h1>
+
+        <div class="tablist">
+            <div class="tablist__links">
+                <div class="tablist__link tablist__link--active" data-tab="1">
+                    <strong>Office</strong><br />
+                    <span class="icon-location">Potsdam</span>
+                </div>
+                <div class="tablist__link" data-tab="2">
+                    <strong>Remote</strong><br />
+                    <span class="icon-home">Lieblingsort</span>
+                </div>
+            </div>
+
+            <div class="tablist__content tablist__content--active" data-tab="1">
+                <h2 class="centered">Dort arbeiten, wo es schön ist</h2>
+                <p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
+            </div>
+
+            <div class="tablist__content" data-tab="2">
+                <h2 class="centered">Headline</h2>
+                <p class="centered">Text</p>
+            </div>
+        </div>
     </div>
 </div>
 
