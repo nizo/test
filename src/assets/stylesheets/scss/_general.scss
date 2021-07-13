@@ -2646,6 +2646,12 @@ blockquote {
     span {
       display: none;
     }
+    &--valid {
+      input {
+        border-color: $color-primary;
+        background-color: rgba($color-primary, 0.1);
+      }
+    }
   }
 
   .btn {
