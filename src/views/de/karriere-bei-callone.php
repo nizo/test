@@ -158,7 +158,7 @@ $jobs = jobs_load();
                     </div>
                 </div>
 
-                <div class="team__member team__member--active" data-member="2">
+                <div class="team__member" data-member="2">
                     <div class="team__member-left">
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>
@@ -183,7 +183,7 @@ $jobs = jobs_load();
                     </div>
                 </div>
 
-                <div class="team__member team__member--active" data-member="3">
+                <div class="team__member" data-member="3">
                     <div class="team__member-left">
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>

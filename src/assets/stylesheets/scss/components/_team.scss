@@ -43,10 +43,10 @@
     }
 
     &__member {
+        display: none;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        display: none;
     }
     &__member--active {
         display: flex;
