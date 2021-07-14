@@ -12,6 +12,8 @@ class stepSlider {
         this.stepCount = this.allSteps.length;
         this.handle = this.slider.querySelector('.step-slider__handle');
 
+        this.setStepFirstActive();
+
         this.calculateStepsWidth();
 
         // Mouse Events
@@ -31,6 +33,17 @@ class stepSlider {
             this.dragging = false;
         }).bind(this), {passive: true});
         window.addEventListener('touchmove', this.drag.bind(this), {passive: true});
+    }
+
+    setStepFirstActive() {
+        let firstStep = this.allSteps[0];
+        firstStep.classList.add('step-slider__step--active');
+        let firstStepImage = firstStep.querySelector('img[data-alt-image]');
+        if (firstStepImage) {
+            let currentImageSource = firstStepImage.src;
+            firstStepImage.src = firstStepImage.dataset.altImage;
+            firstStepImage.dataset.altImage = currentImageSource;
+        }
     }
 
     calculateStepsWidth() {
@@ -66,9 +79,24 @@ class stepSlider {
         if (activeStep >= this.stepCount)
             activeStep = this.stepCount - 1;
         this.allSteps.forEach((step, i) => {
-            step.classList.remove('step-slider__step--active');
-            if (i == activeStep)
+            if (step.classList.contains('step-slider__step--active')) {
+                step.classList.remove('step-slider__step--active');
+                let stepImage = step.querySelector('img[data-alt-image]');
+                if (stepImage) {
+                    let currentImageSource = stepImage.src;
+                    stepImage.src = stepImage.dataset.altImage;
+                    stepImage.dataset.altImage = currentImageSource;
+                }
+            }
+            if (i == activeStep) {
                 step.classList.add('step-slider__step--active');
+                let stepImage = step.querySelector('img[data-alt-image]');
+                if (stepImage) {
+                    let currentImageSource = stepImage.src;
+                    stepImage.src = stepImage.dataset.altImage;
+                    stepImage.dataset.altImage = currentImageSource;
+                }
+            }
         });
         this.steps.style.transform = 'translateX(-' + shift + 'px)';
     }

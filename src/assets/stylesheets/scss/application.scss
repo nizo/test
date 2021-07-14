@@ -29,12 +29,10 @@
 @import '_quotes';
 @import '_pagemenu';
 @import '_compare';
-@import '_toggle-box';
 @import '_customer-slider';
 @import '_contact';
 @import '_contact-sales';
 @import '_references';
-@import '_radio-select';
 
 /*
 * Components
@@ -44,15 +42,21 @@
 @import 'components/buttons';
 @import 'components/card-link';
 @import 'components/cards';
+@import 'components/fade-box';
 @import 'components/floating-form';
 @import 'components/grid';
 @import 'components/hero';
+@import 'components/icons';
 @import 'components/modal';
+@import 'components/person';
+@import 'components/radio-select';
 @import 'components/range';
 @import 'components/scroller';
 @import 'components/section';
 @import 'components/select';
 @import 'components/step-slider';
+@import 'components/tablist';
 @import 'components/team';
+@import 'components/toggle-box';
 
 @import '_components';
