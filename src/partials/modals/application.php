@@ -12,7 +12,7 @@ $uniqueID = uniqid();
             <div class="radio-select__item">
                 <input type="radio" id="type1" name="type" value="quick" checked="checked" />
                 <label for="type1" class="callone-modal__nextstep" data-next-step="2">
-                    <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+                    <img src="/assets/images/icons_svg/application-fast.svg" alt="" />
                     <h3>Schnellbewerbung</h3>
                     <p>via LinkedIn/Xing/Portfolio-Link</p>
                 </label>
@@ -20,7 +20,7 @@ $uniqueID = uniqid();
             <div class="radio-select__item">
                 <input type="radio" id="type2" name="type" value="normal" />
                 <label for="type2" class="callone-modal__nextstep" data-next-step="4">
-                    <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+                    <img src="/assets/images/icons_svg/application-normal.svg" alt="" />
                     <h3>Klassische Bewerbung</h3>
                     <p>Bewerbungsdateien hochladen</p>
                 </label>
