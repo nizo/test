@@ -22,7 +22,7 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
                     <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="4">
-                        <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+                        <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
                         <h3>Senden Sie uns eine Nachricht</h3>
                         <p>Kontaktformular nutzen</p>
                     </label>
@@ -30,7 +30,7 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
                     <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="5">
-                        <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+                        <img src="/assets/images/icons_svg/callback-black.svg" alt="" />
                         <h3>Buchen Sie direkt einen Termin</h3>
                         <p>Telefon- oder Videocall vereinbaren</p>
                     </label>
