@@ -160,8 +160,11 @@ class Modal {
 
     submitStep(e) {
         e.preventDefault();
-        if (typeof window[e.target.dataset.stepCallback] === "function")
+        if (e.target.dataset.stepCallback && typeof window[e.target.dataset.stepCallback] === "function") {
             window[e.target.dataset.stepCallback](e, this.nextStep.bind(this, e));
+        } else {
+            this.nextStep(e);
+        }
     }
 
     nextStep(e) {
@@ -204,6 +207,10 @@ class Modal {
             submitButton.textContent = this.activeStep.dataset.nextButtonText || 'Abschicken';
             submitButton.setAttribute('for', submitId);
             submitButton.classList.add('btn', 'btn--primary', 'btn--centered', this.namespace + '__submit');
+            if (this.activeStep.dataset.nextButtonClasses) {
+                let classes = this.activeStep.dataset.nextButtonClasses.split(',');
+                classes.forEach(c => submitButton.classList.add(c.trim()));
+            }
             this.modalFooter.appendChild(submitButton);
         } else {
             // Needs Next Button
