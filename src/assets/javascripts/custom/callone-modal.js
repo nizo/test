@@ -323,8 +323,10 @@ class Modal {
         $(this.modal).fadeOut(300, (function() {
             document.body.classList.remove('callone-modal--scrolllock');
             this.modal.classList.remove(this.namespace + '--open');
-            this.currentStep = 1;
-            this.switchStep();
+            if (this.steps.length > 1) {
+                this.currentStep = 1;
+                this.switchStep();
+            }
         }).bind(this));
     }
 
