@@ -116,7 +116,7 @@ $uniqueID = uniqid();
         
         <form class="floating-form application-step-2">
             <div class="floating-form__upload">
-                <input type="file" name="application-file" id="application-file" required="required " />
+                <input type="file" name="application-file" id="application-file" required="required" />
                 <label for="application-file" data-title="Dokumente zur Bewerbung">
                     <span class="icon-application">PDF auf Computer suchen</span>
                 </label>
@@ -140,7 +140,7 @@ $uniqueID = uniqid();
                 </div>
                 <div class="floating-form__col">
                     <div class="floating-form__field">
-                        <textarea name="pitch" rows="5" placeholder=" "></textarea>
+                        <textarea name="pitch" rows="5" placeholder=" " required="required"></textarea>
                         <label>Schreibe deinen Pitch: 0/140 Zeichen</label>
                     </div>
                 </div>
@@ -235,7 +235,7 @@ $uniqueID = uniqid();
         }
 
         window.submitBewerbung = function(e, cb) {
-            console.log("Submit Quick Application");
+            console.log("Submit Normal Application");
             const appForm1 = document.querySelector('.application-step-1');
             const appForm2 = document.querySelector('.application-step-2');
             const appForm3 = document.querySelector('.application-step-3');

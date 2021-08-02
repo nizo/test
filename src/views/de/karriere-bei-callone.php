@@ -144,7 +144,7 @@ $jobs = jobs_load();
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
                             <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Charlotta</u>.</p>
-                            <a href="#" class="btn btn--border-white">Termin buchen</a>
+                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking">Termin buchen</a>
                         </div>
                     </div>
                     <div class="team__member-right">
@@ -169,7 +169,7 @@ $jobs = jobs_load();
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
                             <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Max</u>.</p>
-                            <a href="#" class="btn btn--border-white">Termin buchen</a>
+                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking">Termin buchen</a>
                         </div>
                     </div>
                     <div class="team__member-right">
@@ -194,7 +194,7 @@ $jobs = jobs_load();
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
                             <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Helge</u>.</p>
-                            <a href="#" class="btn btn--border-white">Termin buchen</a>
+                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking">Termin buchen</a>
                         </div>
                     </div>
                     <div class="team__member-right">

@@ -1,0 +1,98 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+
+    &__week {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        &+.calendar__week {
+            border-top: 2px solid rgba(#A7A7A7, .5);
+        }
+    }
+
+    &__day {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid rgba(#A7A7A7, .5);
+        border-right: 1px solid rgba(#A7A7A7, .5);
+    }
+    &__day-header {
+        background-color: #F0F0F0;
+        border-bottom: 2px solid rgba(#A7A7A7, .5);
+        padding: 8px;
+        h3 {
+            font-family: $font-headline;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: rgba(#000, .5);
+            span {
+                font-family: $font-copy;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                color: rgba(#000, .9);
+            }
+        }
+        p {
+            font-family: $font-headline;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 150%;
+            color: rgba(#000, .5);
+            margin-top: 14px;
+        }
+    }
+    &__day-times {
+        flex: 1;
+        background-color: rgba(#F0F0F0, .5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    &__day-footer {
+        background-color: #F0F0F0;
+        border-top: 2px solid rgba(#A7A7A7, .5);
+        padding: 8px;
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: rgba(#000, .5);
+    }
+    
+    &__time {
+        background-color: rgba(#E2E2F6, .5);
+        border-radius: 2px;
+        border: 2px solid #fff;
+        padding: 6px 8px;
+        color: rgba(#000, .5);
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        cursor: pointer;
+        transition: all .3s ease;
+        span {
+            display: inline-block;
+            background: #6264A7;
+            border-radius: 24px;
+            font-size: 14px;
+            line-height: 1;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 3px 15px;
+            color: #fff;
+            opacity: 0;
+            transition: all .3s ease;
+        }
+        &:hover {
+            background-color: #E2E2F6;
+            span {
+                opacity: 1;
+            }
+        }
+    }
+}
