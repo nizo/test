@@ -168,6 +168,45 @@
         </div>
     </div>
 
+    <!-- Grid -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Grid System</h1>
+            <p>A simple grid system that uses multiple breakpoints and gutters. It stretches to the full width of its container and has gutters inbetween the columns/rows.</p>
+            <p><strong>Breakpoints:</strong></p>
+            <ul>
+                <li>xs: 0px</li>
+                <li>sm: 600px</li>
+                <li>md: 960px</li>
+                <li>lg: 1280px</li>
+                <li>xl: 1920px</li>
+            </ul>
+        </div>
+        <style>
+            .grid-system .grid__col {
+                background-color: green;
+                text-align: center;
+                color: #fff;
+            }
+        </style>
+        <div class="components__preview grid-system">
+            <div>
+                <div class="grid">
+                    <div class="grid__col grid__col--12-xs">12/12</div>
+                    <div class="grid__col grid__col--6-xs">6/12</div>
+                    <div class="grid__col grid__col--6-xs">6/12</div>
+                    <div class="grid__col grid__col--4-xs">4/12</div>
+                    <div class="grid__col grid__col--4-xs">4/12</div>
+                    <div class="grid__col grid__col--4-xs">4/12</div>
+                    <div class="grid__col grid__col--3-xs">3/12</div>
+                    <div class="grid__col grid__col--3-xs">3/12</div>
+                    <div class="grid__col grid__col--3-xs">3/12</div>
+                    <div class="grid__col grid__col--3-xs">3/12</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Hero / Header -->
     <div class="components__item">
         <div class="components__docs">
@@ -268,6 +307,7 @@
                 <li><code>data-prev-step="1"</code>: Specifies the previous step to display when back button is clicked</li>
                 <li><code>data-no-back="true"</code>: Prevents step back button from being shown.</li>
                 <li><code>data-no-footer="true"</code>: Hide step footer with action button.</li>
+                <li><code>data-next-button-text="Weiter"</code>: Label for next button</li>
             </ul>
             <p><strong>Forms in Modals:</strong></p>
             <ul>

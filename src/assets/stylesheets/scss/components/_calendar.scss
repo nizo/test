@@ -95,4 +95,16 @@
             }
         }
     }
+    &__time--selected {
+        background-color: rgba($color-primary, .5);
+        span {
+            background-color: $color-primary;
+        }
+        &:hover {
+            background-color: rgba($color-primary, .5);
+            span {
+                opacity: 0;
+            }
+        }
+    }
 }

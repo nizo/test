@@ -48,12 +48,12 @@ $jobs = jobs_load();
 
     <div class="section__content section__content--wide section__content--gutter-top">
         <div class="grid centered">
-            <div class="grid__col grid__col--6-lg grid__col--2-md">
+            <div class="grid__col grid__col--12-xs grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
                 <h2>Wir alle wissen es: Kundenhotlines sind die Hölle</h2>
                 <p>Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser.</p>
             </div>
-            <div class="grid__col grid__col--6-lg grid__col--8-md">
+            <div class="grid__col grid__col--12-xs grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="" />
                 <h2>Mit CallOne macht Kundenservice das erste Mal Spaß</h2>
                 <p>Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
@@ -75,35 +75,35 @@ $jobs = jobs_load();
 
     <div class="section__content section__content--wide section__content--gutter-top">
         <div class="cards">
-            <div class="cards__card cards__card--3">
+            <div class="cards__card cards__card--3 centered">
                 <img src="/assets/images/icons_svg/benefits.svg" alt="" />
                 <h3>Bonbons gefällig?</h3>
                 <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
             </div>
-            <div class="cards__card cards__card--3">
-                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
-                <h3>Bonbons gefällig?</h3>
-                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            <div class="cards__card cards__card--3 centered">
+                <img src="/assets/images/icons_svg/work-life-balance.svg" alt="" />
+                <h3>Wachse an dir</h3>
+                <p>Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dazu brauchst und entwerfen deinen perfekten Job, inklusive Arbeitsumfeld und Life-Balance.</p>
             </div>
-            <div class="cards__card cards__card--3">
-                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
-                <h3>Bonbons gefällig?</h3>
-                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            <div class="cards__card cards__card--3 centered">
+                <img src="/assets/images/icons_svg/onboarding.svg" alt="" />
+                <h3>Wir leben Innovation</h3>
+                <p>Wir gestalten und setzen um, was Sinn macht. Am liebsten, wenn es etwas noch nicht gibt. Unsere Produkte sind immer einen Herzschlag voraus, wir setzen die Maßstäbe im Bereich Kundenkommunikation.</p>
             </div>
-            <div class="cards__card cards__card--3">
-                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
-                <h3>Bonbons gefällig?</h3>
-                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            <div class="cards__card cards__card--3 centered">
+                <img src="/assets/images/icons_svg/impact.svg" alt="" />
+                <h3>Positiver Impact</h3>
+                <p>Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unser Ansatz, Kundenservice neu zu definieren, gestaltet die Telekommunikationsindustrie maßgeblich mit. Dein Beitrag hat echte, sinnvolle Auswirkungen.</p>
             </div>
-            <div class="cards__card cards__card--3">
-                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
-                <h3>Bonbons gefällig?</h3>
-                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            <div class="cards__card cards__card--3 centered">
+                <img src="/assets/images/icons_svg/goals.svg" alt="" />
+                <h3>Kein Lari-Fari</h3>
+                <p>Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Mit Anspruch und neuen Herausforderungen wird dir nie langweilig. Deine Kolleg*innen sind immer für dich da, mit Inspiration, Motivation und positiven Vibes.</p>
             </div>
-            <div class="cards__card cards__card--3">
-                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
-                <h3>Bonbons gefällig?</h3>
-                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+            <div class="cards__card cards__card--3 centered">
+                <img src="/assets/images/icons_svg/weiterbildung.svg" alt="" />
+                <h3>Support</h3>
+                <p>Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Tecknik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.</p>
             </div>
         </div>
     </div>

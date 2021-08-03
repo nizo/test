@@ -53,8 +53,8 @@ $uniqueID = uniqid();
                 </div>
             </div>
             <div class="floating-form__privacy-toggle">
-                <input type="checkbox" id="privacy" required="required" />
-                <label for="privacy">
+                <input type="checkbox" id="privacy-quick" required="required" />
+                <label for="privacy-quick">
                     Ich habe die <a href="/datenschutz" target="_blank">Datenschutzbestimmungen</a> gelesen.
                 </label>
             </div>
@@ -131,6 +131,10 @@ $uniqueID = uniqid();
         <h2 class="centered tag-above" data-tag="Bonus">Gib ruhig ein bisschen an, <span class="person-name">...</span>!</h2>
 
         <form action="#" method="post" class="floating-form application-step-3" data-step-callback="submitBewerbung">
+            <div class="floating-form__error">
+                <h2>Etwas ist schief gelaufen</h2>
+                <p>Bitte versuchen Sie es erneut.</p>
+            </div>
             <div class="floating-form__row">
                 <div class="floating-form__col">
                     <p>

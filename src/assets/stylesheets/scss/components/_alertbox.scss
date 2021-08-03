@@ -1,0 +1,25 @@
+.alertbox {
+    border-left: 6px solid #000;
+    background-color: rgba(#000, 0.25);
+    padding: 15px;
+    border-radius: 3px;
+    font-family: $font-copy;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(#000, .8);
+    margin: 30px 0;
+
+    small {
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: rgba(#000, .5);
+    }
+    
+    &--hint {
+        border-color: #6264A7;
+        background-color: #E2E2F6;
+    }
+}

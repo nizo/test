@@ -1,48 +1,35 @@
 .grid {
     --gutter: 30px;
+    //outline: 1px solid red; // For Debugging
+    margin-bottom: var(--gutter);
+    margin-top: var(--gutter);
 
+    width: calc(100% + var(--gutter));
+    margin-left: calc(var(--gutter) / 2 * -1);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
 
     &__col {
-        
+        margin: calc(var(--gutter) / 2);
     }
+}
+  
+$breakpoints: (
+    xs: 0,
+    sm: 600,
+    md: 960,
+    lg: 1280,
+    xl: 1920
+);
 
-    @for $i from 1 through 12 {
-        &__col--#{$i} {
-            width: percentage($i/12);
-        }
-
-        // XS
-        @media screen and (max-width: 767px) {
-            .grid__col--#{$i}-xs {
-                width: percentage($i/12);
+@each $size, $value in $breakpoints {
+    @media screen and (min-width: #{$value}px) {
+        @for $i from 1 through 12 {
+            .grid__col--#{$i}-#{$size} {
+                width: calc(#{percentage($i/12)} - var(--gutter));
             }
         }
-        // SM
-        @media screen and (min-width: 768px) and (max-width: 991px) {
-            .grid__col--#{$i}-sm {
-                width: percentage($i/12);
-            }
-        }
-        // MD
-        @media screen and (min-width: 922px) and (max-width: 1199px) {
-            .grid__col--#{$i}-md {
-                width: percentage($i/12);
-            }
-        }
-        // lg
-        @media screen and (min-width: 1200px) {
-            .grid__col--#{$i}-lg {
-                width: percentage($i/12);
-            }
-        }
-
-        // xs (for phones - screens less than 768px wide)
-        // sm (for tablets - screens equal to or greater than 768px wide)
-        // md (for small laptops - screens equal to or greater than 992px wide)
-        // lg (for laptops and desktops - screens equal to or greater than 1200px wide)
     }
 }
