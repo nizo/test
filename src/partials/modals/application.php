@@ -91,8 +91,8 @@ $uniqueID = uniqid();
                         <label>E-Mail *</label>
                     </div>
                     <div class="floating-form__field">
-                        <input type="text" name="phone" placeholder=" " required="required" />
-                        <label>Telefonnummer *</label>
+                        <input type="text" name="phone" placeholder=" " />
+                        <label>Telefonnummer</label>
                     </div>
                 </div>
                 <div class="floating-form__col">
@@ -144,7 +144,7 @@ $uniqueID = uniqid();
                 </div>
                 <div class="floating-form__col">
                     <div class="floating-form__field">
-                        <textarea name="pitch" rows="5" placeholder=" " required="required"></textarea>
+                        <textarea name="pitch" rows="5" placeholder=" "></textarea>
                         <label>Schreibe deinen Pitch: 0/140 Zeichen</label>
                     </div>
                 </div>
@@ -159,6 +159,9 @@ $uniqueID = uniqid();
     <!-- Scripts -->
     <script>
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
+        let modalData = {};
+        if (thisModal.dataset.modaldata)
+            modalData = JSON.parse(thisModal.dataset.modaldata);
     
         window.submitSchnellbewerbung = function(e, cb) {
             console.log("Submit Quick Application");
@@ -178,10 +181,11 @@ $uniqueID = uniqid();
             // Prepare form data
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
             var formFields = new FormData();
-            // formFields.set('type', 2); // TODO
+            formFields.set('type', 4);
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
+            formFields.set('issue', modalData.issue || '');
             formFields.set('link', quickForm.querySelector('input[name="link"]').value);
             formFields.set('mail', quickForm.querySelector('input[name="mail"]').value);
     
@@ -258,15 +262,16 @@ $uniqueID = uniqid();
             // Prepare form data
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
             var formFields = new FormData();
-            // formFields.set('type', 2); // TODO
+            formFields.set('type', 3);
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
+            formFields.set('issue', modalData.issue || '');
             formFields.set('name', appForm1.querySelector('input[name="name"]').value);
-            formFields.set('name', appForm1.querySelector('input[name="mail"]').value);
-            formFields.set('name', appForm1.querySelector('input[name="phone"]').value);
-            // TODO FILE UPLOAD
-            formFields.set('name', appForm3.querySelector('textarea[name="pitch"]').value);
+            formFields.set('email', appForm1.querySelector('input[name="mail"]').value);
+            formFields.set('phonenumber', appForm1.querySelector('input[name="phone"]').value);
+            formFields.set('text', appForm3.querySelector('textarea[name="pitch"]').value);
+            formFields.set('file', appForm2.querySelector('input[name="application-file"]').files[0]);
     
             // AJAX Request
             const xhttp = new XMLHttpRequest();

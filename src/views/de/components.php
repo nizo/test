@@ -286,6 +286,7 @@
             <p><strong>Modal Button:</strong></p>
             <ul>
                 <li><code>data-modal="name"</code>: the identifier of the modal</li>
+                <li><code>data-modaldata='{"key": "value"}'</code>: Data that can be passed to the actual modal. Has to be JSON format with double quotes.</li>
             </ul>
             <p><strong>Modal:</strong></p>
             <ul>

@@ -5,7 +5,7 @@ $uniqueID = uniqid();
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="appointment-booking" data-title="Termin buchen">
     <!-- Step: Termin wählen -->
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="1" data-next-step="2" data-steptitle="Termin buchen" data-step-indicator="1/2" data-canceltext="Abbrechen" data-no-footer="true">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="1" data-next-step="2" data-steptitle="Termin buchen" data-step-indicator="1/2" data-no-footer="true" data-canceltext="Abbrechen">
         <?php
         $weeks = [];
         $monday = strtotime(date('o-\WW'));
@@ -104,7 +104,7 @@ $uniqueID = uniqid();
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-next-step="3" data-prev-step="1" data-step-indicator="2/2" data-canceltext="Abbrechen" data-next-button-text="Jetzt Zeitslot buchen" data-next-button-classes="btn--full-width,btn--arrow-right">
-        <h2 class="centered">Wie können wir dich kontaktieren?</h2>
+        <h2 class="centered contactperson">Wie können wir dich kontaktieren?</h2>
 
         <p class="centered">Lass uns wissen, wer du bist, damit wir den Termin auf deinen Namen buchen können.</p>
 
@@ -175,14 +175,16 @@ $uniqueID = uniqid();
         let times = document.querySelectorAll('.calendar__time');
         let chosenAppointment = document.querySelector('[name="chosenAppointment"]');
         let appointmentOutput = document.querySelectorAll('.appointment-output');
+        chosenAppointment.value = '';
         times.forEach(t => {
+            t.classList.remove('calendar__time--selected');
             t.addEventListener('click', e => {
                 // Deselect currently selected time
                 times.forEach(x => {
                     if (x != t)
                         x.classList.remove('calendar__time--selected')
                 });
-                t.classList.toggle('calendar__time--selected');
+                t.classList.add('calendar__time--selected');
 
                 // Add chosen day/time to input hidden field
                 if (t.classList.contains('calendar__time--selected')) {
@@ -199,7 +201,6 @@ $uniqueID = uniqid();
                         let datenumbers = date[0].split('.');
                         let d = new Date(datenumbers[1] + ' ' + datenumbers[0] + ' ' + datenumbers[2]);
                         let dayName = weekdays[d.getDay()];
-                        console.log(datenumbers, d, dayName);
                         o.innerHTML = dayName + ', ' + date[0] + '<br /><small>' + date[1] + '</small>';
                     });
                 }
@@ -207,6 +208,13 @@ $uniqueID = uniqid();
         });
 
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
+        let modalData = {};
+        if (thisModal.dataset.modaldata)
+            modalData = JSON.parse(thisModal.dataset.modaldata);
+
+        // Set Contact Person name
+        if (modalData.contactperson)
+            document.querySelector('.contactperson').innerHTML = "Wie kann <span class='person-name'>" + modalData.contactperson + "</span> dich kontaktieren?";
     
         window.submitBooking = function(e, cb) {
             console.log("Submit Booking");

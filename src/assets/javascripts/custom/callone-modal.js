@@ -191,9 +191,9 @@ class Modal {
 
     populateModalFooter() {
         this.modalFooter.innerHTML = '';
-
+        
         this.modalFooter.classList.remove(this.namespace + '__footer--hidden');
-        if ((this.activeStep.dataset.noFooter && this.activeStep.noFooter === 'true') || !this.activeStep.dataset.nextStep) {
+        if ((this.activeStep.dataset.noFooter || this.activeStep.noFooter === 'true') || !this.activeStep.dataset.nextStep) {
             this.modalFooter.classList.add(this.namespace + '__footer--hidden');
             return;
         }
@@ -314,9 +314,17 @@ class Modal {
         })
     }
 
+    setModalData() {
+        // Add modaldata from button to modal
+        if (this.button.dataset.modaldata && this.button.dataset.modalbutton != '') {
+            this.modal.dataset.modaldata = this.button.dataset.modaldata;
+        }
+    }
+
     openModal(e = new MouseEvent('click')) {
         e.preventDefault();
         if (this.modal) {
+            this.setModalData();
             document.body.classList.add('callone-modal--scrolllock');
             this.runScripts();
             $(this.modal).css('display', 'flex').hide().fadeIn(300);
