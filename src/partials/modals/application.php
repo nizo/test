@@ -161,7 +161,7 @@ $uniqueID = uniqid();
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
         let modalData = {};
         if (thisModal.dataset.modaldata)
-            modalData = JSON.parse(thisModal.dataset.modaldata);
+            modalData = JSON.parse(atob(thisModal.dataset.modaldata));
     
         window.submitSchnellbewerbung = function(e, cb) {
             console.log("Submit Quick Application");
@@ -185,9 +185,9 @@ $uniqueID = uniqid();
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
-            formFields.set('issue', modalData.issue || '');
-            formFields.set('link', quickForm.querySelector('input[name="link"]').value);
-            formFields.set('mail', quickForm.querySelector('input[name="mail"]').value);
+            // formFields.set('issue', modalData.issue || '');
+            formFields.set('url', quickForm.querySelector('input[name="link"]').value);
+            formFields.set('email', quickForm.querySelector('input[name="mail"]').value);
     
             // AJAX Request
             const xhttp = new XMLHttpRequest();
@@ -266,7 +266,7 @@ $uniqueID = uniqid();
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
-            formFields.set('issue', modalData.issue || '');
+            // formFields.set('issue', modalData.issue || '');
             formFields.set('name', appForm1.querySelector('input[name="name"]').value);
             formFields.set('email', appForm1.querySelector('input[name="mail"]').value);
             formFields.set('phonenumber', appForm1.querySelector('input[name="phone"]').value);

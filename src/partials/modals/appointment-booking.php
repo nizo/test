@@ -210,7 +210,7 @@ $uniqueID = uniqid();
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
         let modalData = {};
         if (thisModal.dataset.modaldata)
-            modalData = JSON.parse(thisModal.dataset.modaldata);
+            modalData = JSON.parse(atob(thisModal.dataset.modaldata));
 
         // Set Contact Person name
         if (modalData.contactperson)
@@ -234,12 +234,24 @@ $uniqueID = uniqid();
             // Prepare form data
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
             var formFields = new FormData();
-            // formFields.set('type', 2); // TODO
+            formFields.set('type', 8);
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
-            formFields.set('link', form.querySelector('input[name="link"]').value);
-            formFields.set('mail', form.querySelector('input[name="mail"]').value);
+
+            let splitDate = chosenAppointment.value.split(', ');
+            let date = splitDate[0].split('.');
+            let d = new Date(date[1] + ' ' + date[0] + ' ' + date[2]);
+            let time = splitDate[1].split(' - ');
+            let appointmentStart = Math.floor(new Date(date[1] + '-' + date[0] + '-' + date[2] + ' ' + time[0] + ':00') / 1000);
+            let appointmentEnd = appointmentStart + 3600;
+
+            formFields.set('slot_timestamp_start', appointmentStart);
+            formFields.set('slot_timestamp_end', appointmentEnd);
+            formFields.set('employee_name', modalData.contactperson);
+            formFields.set('candidate_name', form.querySelector('input[name="firstname"]').value + ' ' + form.querySelector('input[name="lastname"]').value);
+            formFields.set('candidate_phonenumber', form.querySelector('input[name="phone"]').value);
+            formFields.set('candidate_email', form.querySelector('input[name="email"]').value);
     
             // AJAX Request
             const xhttp = new XMLHttpRequest();
