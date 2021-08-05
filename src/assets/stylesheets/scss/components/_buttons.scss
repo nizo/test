@@ -73,6 +73,10 @@
 	&--full-width {
 		width: 100%;
 	}
+
+	&--nowrap {
+		white-space: nowrap;
+	}
 	
 	&--arrow-right {
 		position: relative;
@@ -110,8 +114,14 @@
 .btn-set {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	&--centered {
+		justify-content: center;
+	}
 	.btn {
-		margin-right: 30px;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 30px;
 		&:last-child {
 			margin-right: 0;
 		}

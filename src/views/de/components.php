@@ -67,6 +67,61 @@
         </div>
     </div>
 
+    <!-- Cards -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Cards / Card</h1>
+            <p>Simple cards. Single cards are best used inside grids.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <!-- Cards Version -->
+                <div class="cards">
+                    <div class="cards__card cards__card--3">
+                        <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                        <h3>Bonbons gefällig?</h3>
+                        <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                    </div>
+                    <div class="cards__card cards__card--3">
+                        <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                        <h3>Bonbons gefällig?</h3>
+                        <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                    </div>
+                    <div class="cards__card cards__card--3">
+                        <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                        <h3>Bonbons gefällig?</h3>
+                        <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                    </div>
+                </div>
+
+                <!-- Grid Version -->
+                <div class="grid">
+                    <div class="grid__col grid__col--4-xs">
+                        <div class="card centered">
+                            <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                            <h3>Bonbons gefällig?</h3>
+                            <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                        </div>
+                    </div>
+                    <div class="grid__col grid__col--4-xs">
+                        <div class="card centered">
+                            <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                            <h3>Bonbons gefällig?</h3>
+                            <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                        </div>
+                    </div>
+                    <div class="grid__col grid__col--4-xs">
+                        <div class="card centered">
+                            <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                            <h3>Bonbons gefällig?</h3>
+                            <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Card Link -->
     <div class="components__item">
         <div class="components__docs">
@@ -286,7 +341,7 @@
             <p><strong>Modal Button:</strong></p>
             <ul>
                 <li><code>data-modal="name"</code>: the identifier of the modal</li>
-                <li><code>data-modaldata='{"key": "value"}'</code>: Data that can be passed to the actual modal. Has to be JSON format with double quotes.</li>
+                <li><code>data-modaldata='<?= base64_encode('{"key": "value"}'); ?>'</code>: Data that can be passed to the actual modal. Has to be base64 encoded JSON.</li>
             </ul>
             <p><strong>Modal:</strong></p>
             <ul>
@@ -390,6 +445,10 @@
         <div class="components__docs">
             <h1>Step Slider</h1>
             <p>Slider for multiple steps.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.step-slider--on-black</code>: Version to use on black backgrounds</li>
+            </ul>
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/step-slider.js</code></li>

@@ -56,6 +56,7 @@
     }
     &__member-left {
         max-width: 670px;
+        margin-right: 30px;
 
         blockquote {
             font-family: $font-copy;
@@ -149,6 +150,24 @@
         }
         &:hover {
             background-color: $color-primary;
+        }
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .team {
+        &__member {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__member-left {
+            margin-bottom: 30px;
+        }
+        &__member-booking {
+            display: none;
+        }
+        &__member-agenda {
+            display: none;
         }
     }
 }

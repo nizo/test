@@ -1,7 +1,7 @@
 .section {
     --color-text: #000;
     width: 100%;
-    padding: 100px 0 60px 0;
+    padding: 100px 25px 60px 25px;
     overflow-x: hidden;
 
     &--light-grey-green {
@@ -14,6 +14,13 @@
 
     &--light-green-white-map {
         background-image: linear-gradient(180deg, #EDF2E2 calc(70% - 550px), rgba(#EDF2E2, 0) calc(100% - 550px)), url(../images/photos/bg-map.jpg);
+        background-position: top center, bottom center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    &--light-green-white-homeoffice {
+        background-image: linear-gradient(180deg, #EDF2E2 calc(70% - 550px), rgba(#EDF2E2, 0) calc(100% - 550px)), url(../images/photos/faded-out-homeoffice.png);
         background-position: top center, bottom center;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -53,5 +60,11 @@
     }
     &__content--gutter-top {
         margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section {
+        padding: 25px;
     }
 }

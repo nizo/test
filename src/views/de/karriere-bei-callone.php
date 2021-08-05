@@ -7,18 +7,21 @@ $jobs = jobs_load();
         <div class="hero__text">
             <h1>Da bist du ja – du fehlst bei uns!</h1>
 
-            <div class="btn-set">
-                <a class="btn btn--primary trackedElement" href="#jobs">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
-                <a class="btn btn--secondary trackedElement" data-openmodal="application" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal">Jetzt bewerben</a>
+            <div class="btn-set btn-set--centered">
+                <a class="btn btn--primary btn--nowrap trackedElement" href="#jobs">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                <a class="btn btn--secondary btn--nowrap trackedElement" data-openmodal="application" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal">Jetzt bewerben</a>
             </div>
         </div>
-        <div class="hero__image animation animation-bg lazyBackground karriere">
+        <div class="hero__image">
+            <img src="/assets/images/illus/Karriere560.gif" alt="" />
+        </div>
+        <!-- <div class="hero__image animation animation-bg lazyBackground karriere">
             <div id="lottie" class="job"></div>
             <script>jsFiles.push("/assets/animations/svg/karriere.js");</script>
-        </div>
+        </div> -->
     </header>
 
-    <div class="anchors">
+    <div class="anchors mobile-hidden">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
         </div>
@@ -74,7 +77,7 @@ $jobs = jobs_load();
     </div>
 
     <div class="section__content section__content--wide section__content--gutter-top">
-        <div class="cards">
+        <div class="cards mobile-hidden">
             <div class="cards__card cards__card--3 centered">
                 <img src="/assets/images/icons_svg/benefits.svg" alt="" />
                 <h3>Bonbons gefällig?</h3>
@@ -104,6 +107,46 @@ $jobs = jobs_load();
                 <img src="/assets/images/icons_svg/weiterbildung.svg" alt="" />
                 <h3>Support</h3>
                 <p>Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Tecknik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.</p>
+            </div>
+        </div>
+
+        <div class="step-slider centered desktop-hidden">
+            <div class="step-slider__steps">
+                <div class="step-slider__step step-slider__step--no-number step-slider__step--active">
+                    <img src="/assets/images/icons_svg/benefits.svg" alt="" data-alt-image="/assets/images/icons_svg/benefits-white.svg" />
+                    <h3>Bonbons gefällig?</h3>
+                    <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                </div>
+                <div class="step-slider__step step-slider__step--no-number">
+                    <img src="/assets/images/icons_svg/work-life-balance.svg" alt="" data-alt-image="/assets/images/icons_svg/work-life-balance-white.svg" />
+                    <h3>Wachse an dir</h3>
+                    <p>Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dazu brauchst und entwerfen deinen perfekten Job, inklusive Arbeitsumfeld und Life-Balance.</p>
+                </div>
+                <div class="step-slider__step step-slider__step--no-number">
+                    <img src="/assets/images/icons_svg/onboarding.svg" alt="" data-alt-image="/assets/images/icons_svg/onboarding-white.svg" />
+                    <h3>Wir leben Innovation</h3>
+                    <p>Wir gestalten und setzen um, was Sinn macht. Am liebsten, wenn es etwas noch nicht gibt. Unsere Produkte sind immer einen Herzschlag voraus, wir setzen die Maßstäbe im Bereich Kundenkommunikation.</p>
+                </div>
+                <div class="step-slider__step step-slider__step--no-number">
+                    <img src="/assets/images/icons_svg/impact.svg" alt="" data-alt-image="/assets/images/icons_svg/impact-white.svg" />
+                    <h3>Positiver Impact</h3>
+                    <p>Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unser Ansatz, Kundenservice neu zu definieren, gestaltet die Telekommunikationsindustrie maßgeblich mit. Dein Beitrag hat echte, sinnvolle Auswirkungen.</p>
+                </div>
+                <div class="step-slider__step step-slider__step--no-number">
+                    <img src="/assets/images/icons_svg/goals.svg" alt="" data-alt-image="/assets/images/icons_svg/goals-white.svg" />
+                    <h3>Kein Lari-Fari</h3>
+                    <p>Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Mit Anspruch und neuen Herausforderungen wird dir nie langweilig. Deine Kolleg*innen sind immer für dich da, mit Inspiration, Motivation und positiven Vibes.</p>
+                </div>
+                <div class="step-slider__step step-slider__step--no-number">
+                    <img src="/assets/images/icons_svg/weiterbildung.svg" alt="" data-alt-image="/assets/images/icons_svg/weiterbildung-white.svg" />
+                    <h3>Support</h3>
+                    <p>Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Tecknik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.</p>
+                </div>
+            </div>
+            <div class="step-slider__slider">
+                <div class="step-slider__range">
+                    <div class="step-slider__handle"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -212,7 +255,7 @@ $jobs = jobs_load();
     </div>
 </div>
 
-<div class="section section--light-green-white-map" id="arbeitsplatz">
+<div class="section section--light-green-white-homeoffice" id="arbeitsplatz">
     <div class="section__content section__content--narrow">
         <h1 class="centered">
             Potsdam-City oder <br />
@@ -299,7 +342,7 @@ $jobs = jobs_load();
             </div>
         </div>
 
-        <div class="fade-box fade-box--on-black">
+        <div class="fade-box fade-box--on-black mobile-hidden">
             <h2 class="centered">Ansprechpartnerin</h2>
             <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
 
