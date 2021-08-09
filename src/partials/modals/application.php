@@ -115,6 +115,10 @@ $uniqueID = uniqid();
         <p class="centered">Lade Lebenslauf, Motivationsschreiben und weitere relevante Bewerbungsunterlagen als eine PDF-Datei hoch.</p>
         
         <form class="floating-form application-step-2">
+            <div class="floating-form__error">
+                <h2>Falsches Dateiformat</h2>
+                <p>Bitte wählen Sie eine PDF-Datei aus.</p>
+            </div>
             <div class="floating-form__upload">
                 <input type="file" name="application-file" id="application-file" required="required" />
                 <label for="application-file" data-title="Dokumente zur Bewerbung">
@@ -336,14 +340,23 @@ $uniqueID = uniqid();
         // Read selected file from file upload
         const fileInput = document.getElementById('application-file');
         const uploadBox = document.querySelector('.application-step-2 .floating-form__upload');
+        let fileError = thisModal.querySelector('.application-step-2 .floating-form__error');
         fileInput.addEventListener('change', e => {
+            fileError.classList.remove('floating-form__error--active');
             // Remove current file labels
             let currentFileLabels = uploadBox.querySelectorAll('.floating-form__file');
             currentFileLabels.forEach(x => x.remove());
             // Add new file label
             if (e.target.files.length === 0)
                 return;
+            let accepted = ['pdf'];
             let file = e.target.files[0];
+            let extension = file.name.split('.').pop().toLowerCase();
+            if (accepted.indexOf(extension) == -1) {
+                // Display Error for file type
+                fileError.classList.add('floating-form__error--active');
+                return;
+            }
             let fileLabel = document.createElement('div');
             fileLabel.classList.add('floating-form__file');
             let fileLabelCancel = document.createElement('span');

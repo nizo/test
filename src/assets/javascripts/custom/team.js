@@ -12,7 +12,7 @@ class Team {
 
     switch(e) {
         let member = e.currentTarget.dataset.member;
-        console.log(e.currentTarget, member);
+
         this.buttons.forEach(btn => {
             if (btn.dataset.member === member) {
                 btn.classList.add('team__button--active');
@@ -20,6 +20,7 @@ class Team {
                 btn.classList.remove('team__button--active');
             }
         });
+        
         this.contents.forEach(c => {
             if (c.dataset.member === member) {
                 c.classList.add('team__member--active');

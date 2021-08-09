@@ -25,6 +25,11 @@ class Modal {
     }
     
     initModal() {
+        if (this.modal.dataset.initialized && this.modal.dataset.initialized == 'true') {
+            this.openModal();
+            return;
+        }
+        this.modal.dataset.initialized = 'true';
         this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
 
         // Modal Wrapper

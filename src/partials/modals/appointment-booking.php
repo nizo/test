@@ -121,37 +121,26 @@ $uniqueID = uniqid();
             <div class="floating-form__row">
                 <div class="floating-form__col">
                     <div class="floating-form__field">
-                        <input type="text" name="firstname" placeholder=" " required="required" />
-                        <label>Vorname *</label>
+                        <input type="text" name="name" placeholder=" " required="required" />
+                        <label>Ihr Name *</label>
                     </div>
-                </div>
-                <div class="floating-form__col">
-                    <div class="floating-form__field">
-                        <input type="text" name="lastname" placeholder=" " required="required" />
-                        <label>Nachname *</label>
-                    </div>
-                </div>
-            </div>
-            <div class="floating-form__row">
-                <div class="floating-form__col">
                     <div class="floating-form__field">
                         <input type="text" name="phone" placeholder=" " required="required" />
                         <label>Telefonnummer *</label>
                     </div>
-                </div>
-                <div class="floating-form__col">
                     <div class="floating-form__field">
                         <input type="text" name="email" placeholder=" " required="required" />
                         <label>E-Mail *</label>
                     </div>
                 </div>
-            </div>
-
-            <div class="floating-form__privacy-toggle">
-                <input type="checkbox" id="privacy-booking" required="required" />
-                <label for="privacy-booking">
-                    Ich habe die <a href="/datenschutz" target="_blank">Datenschutzbestimmungen</a> gelesen und bestätige, dass CallOne meine persönlichen Daten speichert, um mich für den Termin kontaktieren zu können.
-                </label>
+                <div class="floating-form__col">
+                    <div class="floating-form__privacy-toggle">
+                        <input type="checkbox" id="privacy-booking" required="required" />
+                        <label for="privacy-booking">
+                        Ich habe die <a href="/datenschutz" target="_blank">Datenschutzbestimmungen</a> gelesen.
+                        </label>
+                    </div>
+                </div>
             </div>
 
             <div class="floating-form__loader"></div>
@@ -215,6 +204,7 @@ $uniqueID = uniqid();
         // Set Contact Person name
         if (modalData.contactperson)
             document.querySelector('.contactperson').innerHTML = "Wie kann <span class='person-name'>" + modalData.contactperson + "</span> dich kontaktieren?";
+            document.querySelector('.callone-modal__steptitle').textContent = 'Kennenlerntermin mit ' + modalData.contactperson + ' buchen';
     
         window.submitBooking = function(e, cb) {
             console.log("Submit Booking");
@@ -249,7 +239,7 @@ $uniqueID = uniqid();
             formFields.set('slot_timestamp_start', appointmentStart);
             formFields.set('slot_timestamp_end', appointmentEnd);
             formFields.set('employee_name', modalData.contactperson);
-            formFields.set('candidate_name', form.querySelector('input[name="firstname"]').value + ' ' + form.querySelector('input[name="lastname"]').value);
+            formFields.set('candidate_name', form.querySelector('input[name="name"]').value);
             formFields.set('candidate_phonenumber', form.querySelector('input[name="phone"]').value);
             formFields.set('candidate_email', form.querySelector('input[name="email"]').value);
     

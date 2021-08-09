@@ -8,7 +8,7 @@ $jobs = jobs_load();
             <h1>Da bist du ja – du fehlst bei uns!</h1>
 
             <div class="btn-set btn-set--centered">
-                <a class="btn btn--primary btn--nowrap trackedElement" href="#jobs">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                <a class="btn btn--primary btn--nowrap trackedElement" href="/karriere">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
                 <a class="btn btn--secondary btn--nowrap trackedElement" data-openmodal="application" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal">Jetzt bewerben</a>
             </div>
         </div>
@@ -45,7 +45,7 @@ $jobs = jobs_load();
         </p>
 
         <p>
-            <a href="#" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+            <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
         </p>
     </div>
 
@@ -72,7 +72,7 @@ $jobs = jobs_load();
         <p class="centered">Hier kommt dein Job mit Sinn, Substanz und Wochenende. Als mittelständisches Potsdamer IT-Unternehmen mit Anti-Bullshit-Philosophie sind wir etabliert, zukunftsorientiert, unabhängig und krisensicher. Nicht Hype, sondern Happiness zählt. Du entscheidest, was du dafür brauchst.</p>
 
         <p>
-            <a href="#" class="btn btn--primary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+            <a href="/karriere" class="btn btn--primary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
         </p>
     </div>
 
@@ -180,7 +180,7 @@ $jobs = jobs_load();
                     <div class="team__member-left">
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>
-                            <strong>Charlotta Barth</strong><br />
+                            <strong>Charlotta</strong><br />
                             Projektmanagerin
                         </h6>
 
@@ -205,14 +205,14 @@ $jobs = jobs_load();
                     <div class="team__member-left">
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>
-                            <strong>Max Mustermann</strong><br />
-                            Frontend-Entwickler
+                            <strong>Brian</strong><br />
+                            Technik
                         </h6>
 
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
-                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Max</u>.</p>
-                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Max"}'); ?>">Termin buchen</a>
+                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Brian</u>.</p>
+                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Brian"}'); ?>">Termin buchen</a>
                         </div>
                     </div>
                     <div class="team__member-right">
@@ -221,7 +221,7 @@ $jobs = jobs_load();
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
                             <strong>Tagesagenda</strong><br />
-                            Frontend-Entwickler
+                            Technik
                         </div>
                     </div>
                 </div>
@@ -230,14 +230,14 @@ $jobs = jobs_load();
                     <div class="team__member-left">
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>
-                            <strong>Helge Schneider</strong><br />
-                            Komiker / Sänger
+                            <strong>Stefanie</strong><br />
+                            Projektmanagerin
                         </h6>
 
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
-                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Helge</u>.</p>
-                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Helge"}'); ?>">Termin buchen</a>
+                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Stefanie</u>.</p>
+                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Stefanie"}'); ?>">Termin buchen</a>
                         </div>
                     </div>
                     <div class="team__member-right">
@@ -246,7 +246,7 @@ $jobs = jobs_load();
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
                             <strong>Tagesagenda</strong><br />
-                            Komiker / Sänger
+                            Projektmanagerin
                         </div>
                     </div>
                 </div>
@@ -278,7 +278,7 @@ $jobs = jobs_load();
                 <h2 class="centered">Dort arbeiten, wo es schön ist</h2>
                 <p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
                 <p>
-                    <a href="#" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                    <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
                 </p>
 
                 <p><img src="/assets/images/photos/location-office.png" alt="" /></p>
@@ -288,7 +288,7 @@ $jobs = jobs_load();
                 <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
                 <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
                 <p>
-                    <a href="#" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                    <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
                 </p>
                 <p><img src="/assets/images/photos/location-homeoffice.png" alt="" /></p>
             </div>
