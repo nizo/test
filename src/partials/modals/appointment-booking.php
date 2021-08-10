@@ -77,8 +77,9 @@ $uniqueID = uniqid();
                                     $isToday = date($d) == $today;
                                     for ($i = 14; $i <= 17; $i++) {
                                         if (!$isToday || ($isToday && date("H") < $i)) {
+                                            $timestamp = $d + ($i * 3600);
                                             $date = date("d.m.Y", $d).", ".$i.":00 - ".($i + 1).":00";
-                                            echo "<div class='calendar__time callone-modal__nextstep' data-date='".$date."'>";
+                                            echo "<div class='calendar__time callone-modal__nextstep' data-date='".$timestamp."'>";
                                             echo $i.":00 - ".($i + 1).":00<br />";
                                             echo "<span>Buchen</span>";
                                             echo "</div>";
@@ -182,15 +183,17 @@ $uniqueID = uniqid();
                     chosenAppointment.value = '';
                 }
 
-                // Add appointment to output box on step 2
+                // Add appointment to output box on step 2 and confirmation
                 if (chosenAppointment.value != '') {
-                    let date = chosenAppointment.value.split(", ");
+                    let date = new Date(chosenAppointment.value * 1000);
                     appointmentOutput.forEach(o => {
                         let weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-                        let datenumbers = date[0].split('.');
-                        let d = new Date(datenumbers[1] + ' ' + datenumbers[0] + ' ' + datenumbers[2]);
-                        let dayName = weekdays[d.getDay()];
-                        o.innerHTML = dayName + ', ' + date[0] + '<br /><small>' + date[1] + '</small>';
+                        let dayName = weekdays[date.getDay()];
+                        let day = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
+                        let month = date.getMonth() < 10 ? '0' + date.getMonth() : date.getMonth();
+                        let hours = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();
+                        let minutes = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
+                        o.innerHTML = dayName + ', ' + day + '.' + month + '.' + date.getFullYear() + '<br /><small>' + hours + ':' + minutes + ' - ' + parseInt(hours + 1) + ':' + minutes + '</small>';
                     });
                 }
             });
@@ -229,11 +232,7 @@ $uniqueID = uniqid();
                 formFields.append('path[]', path[i]);
             }
 
-            let splitDate = chosenAppointment.value.split(', ');
-            let date = splitDate[0].split('.');
-            let d = new Date(date[1] + ' ' + date[0] + ' ' + date[2]);
-            let time = splitDate[1].split(' - ');
-            let appointmentStart = Math.floor(new Date(date[1] + '-' + date[0] + '-' + date[2] + ' ' + time[0] + ':00') / 1000);
+            let appointmentStart = chosenAppointment.value;
             let appointmentEnd = appointmentStart + 3600;
 
             formFields.set('slot_timestamp_start', appointmentStart);
