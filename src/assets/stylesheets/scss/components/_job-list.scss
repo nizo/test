@@ -42,3 +42,22 @@
         margin-left: 30px;
     }
 }
+
+@media screen and (max-width: 860px) {
+    .job-list {
+        &__item {
+            flex-direction: column;
+        }
+        &__item-icon {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+        &__item-info {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__item-action {
+            margin-left: 0;
+        }
+    }
+}
