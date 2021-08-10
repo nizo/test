@@ -190,7 +190,7 @@ $uniqueID = uniqid();
                         let weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
                         let dayName = weekdays[date.getDay()];
                         let day = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
-                        let month = date.getMonth() < 10 ? '0' + date.getMonth() : date.getMonth();
+                        let month = date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1);
                         let hours = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();
                         let minutes = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
                         o.innerHTML = dayName + ', ' + day + '.' + month + '.' + date.getFullYear() + '<br /><small>' + hours + ':' + minutes + ' - ' + parseInt(hours + 1) + ':' + minutes + '</small>';
@@ -232,7 +232,7 @@ $uniqueID = uniqid();
                 formFields.append('path[]', path[i]);
             }
 
-            let appointmentStart = chosenAppointment.value;
+            let appointmentStart = parseInt(chosenAppointment.value);
             let appointmentEnd = appointmentStart + 3600;
 
             formFields.set('slot_timestamp_start', appointmentStart);

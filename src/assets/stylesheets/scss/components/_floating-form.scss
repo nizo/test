@@ -117,6 +117,7 @@
                 font-size: 12px;
                 line-height: 1.6;
                 color: rgba(#000, .6);
+                white-space: nowrap;
             }
             span {
                 position: relative;
@@ -142,6 +143,9 @@
                     background-position: center;
                     background-size: contain;
                     background-repeat: no-repeat;
+                    @media screen and (max-width: 500px) {
+                        display: none;
+                    }
                 }
             }
         }

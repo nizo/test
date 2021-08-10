@@ -54,12 +54,12 @@ $jobs = jobs_load();
             <div class="grid__col grid__col--12-xs grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
                 <h2>Wir alle wissen es: Kundenhotlines sind die Hölle</h2>
-                <p>Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser.</p>
+                <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser.</p>
             </div>
             <div class="grid__col grid__col--12-xs grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="" />
                 <h2>Mit CallOne macht Kundenservice das erste Mal Spaß</h2>
-                <p>Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
+                <p class="mobile-hidden">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
             </div>
         </div>
     </div>
