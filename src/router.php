@@ -223,7 +223,7 @@ foreach ($jobs as $job)
     $background = 'bg-casestudy';
     $ogUrl = $GLOBALS['url'] . $job->url_get();
     require_once('./layouts/header.php');
-    require_once('./views/de/job_details.php');
+    require_once('./views/de/karriere-details.php');
     require_once('./layouts/footer.php');
   });
 }

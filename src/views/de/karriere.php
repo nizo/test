@@ -1,6 +1,5 @@
 <?php
 $jobs = jobs_load();
-// print_r($jobs);
 ?>
 
 <div class="section section--light-grey">
