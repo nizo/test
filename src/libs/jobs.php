@@ -133,7 +133,7 @@ class job
 	{	return $this->url;
 	}
 	function url_set ($url)
-	{	$this->url = $url;
+	{	$this->url = strtolower ($url);
 	}
 
 	function quickinfo_get ()
@@ -266,7 +266,7 @@ function jobs_load ()
 
 	$job = new job ('Projekte & Support', 'Customer Success Manager*in, in Teil- oder Vollzeit', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-customer-success-manager-in-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-customer-success-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->text_description_long_set ('Als Customer Success Manager*in (w/d/m) bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte in Teil- oder Vollzeit.');
@@ -302,7 +302,7 @@ function jobs_load ()
 
 	$job = new job ('Projekte & Support', 'Projektmanager*in, in Teil- oder Vollzeit', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-projektmanager-in-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-projektmanager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und die Schulung der Mitarbeitenden und stehst als zentrale Ansprechpartner*in zur Verfügung.');
 	$job->text_description_long_set ('Als Projektmanager*in bist du die Schnittstelle zwischen Entwicklung, Support und Lieferanten und arbeitest eigenständig an Neu- und Bestandskundenprojekten in Teil- oder Vollzeit.');
@@ -338,7 +338,7 @@ function jobs_load ()
 
 	$job = new job ('Office', 'Kauffrau /-mann für Bürokommunikation, in Teil- oder Vollzeit', 'Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-kaufmann-frau-fuer-buerokommunikation-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-kaufmann-frau-fuer-buerokommunikation-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du brennst für Organisation und Planung und bist bereit uns im Alltagsgeschäft tatkrätig zu unterstützen? Dann haben wir einen Job für dich!');
 	$job->text_description_long_set ('Als Unterstützung für unser Back- und Frontoffice bist du ein wichtiger Bestandteil unseres Teams. Du bist die Stütze unses Projektmanagements und Supports und hilfst mit Zuarbeit und bei der Planung neuer und bestehender Kundenprojekte.');
@@ -369,9 +369,9 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Technik', 'IT-Systemkauffrau /-mann, in Teil- oder Vollzeit', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
+	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann, in Teil- oder Vollzeit', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-it-systemkaufmann-frau-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-it-systemkaufmann-frau-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->text_description_long_set ('Als IT-Systemfachkraft bist du bei uns erste Ansprechperson für unsere Kunden bei technischen Fragestellungen. Dabei unterstützt du nicht nur im Bereich von Alltagsproblemen im Bereich der IP-Telefonie, sondern auch bei Onboardings und der generellen Konfiguration und Administration unserer Telefonielösungen.');
@@ -401,9 +401,9 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Technik', 'IT-Support, in Teil- oder Vollzeit', 'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?');
+	$job = new job ('IT & Technik', 'IT-Support, in Teil- oder Vollzeit', 'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-it-support-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-it-support-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du hast eine technische Ausbildung absolviert und kannst analytisch-strukturiert denken?	Du besitzt eine hohe Auffassungsgabe, um komplexe Prozesse zu durchdringen und arbeitest gerne im Team? Dann bist du bei uns genau richtig!');
 	$job->text_description_long_set ('Als Mitarbeiter*in im IT-Support bist du erste Ansprechperson für technische Anforderungen unserer Kunden.');
@@ -432,9 +432,9 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Technik', 'Fachinformatiker*in, in Teil- oder Vollzeit', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
+	$job = new job ('IT & Technik', 'Fachinformatiker*in, in Teil- oder Vollzeit', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-fachinformatiker-in-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-fachinformatiker-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du verfügst über grundlegende Kenntnisse der gängigen Betriebssysteme, konntest bereits in vergleichbaren IT-Projekten Erfahrungen sammeln und dein Herz schlägt für technische Sachverhalte?');
 	$job->text_intro_set ('Du besitzt eine hohe Auffassungsgabe für komplexe Prozesse und arbeitest gerne im Team? Dann bist du bei uns genau richtig!');
@@ -466,7 +466,7 @@ function jobs_load ()
 
 	$job = new job ('Vertrieb', '(Senior) Marketing und PR-Manager*in, in Teil- oder Vollzeit', 'Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause?');
 	$job->location_set ('Remote');
-	$job->url_set ('/karriere/job-marketing-manager-in-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-marketing-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause? Zugleich liebst du die Nähe zum Kunden und hast eine schnelle technische Auffassungsgabe? Dann suchen wir genau dich!');
 	$job->text_description_long_set ('Als Marketing- und PR-Manager*in bei CallOne – remote oder vor Ort in Potsdam – kümmerst du dich um unser gesamtes Digitalmarketing-Portfolio.');
@@ -506,7 +506,7 @@ function jobs_load ()
 
 	$job = new job ('Vertrieb', 'HR-Manager*in (w/d/m), Schwerpunkt Recruiting und Employer Branding, in Teilzeit (20 h)', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
 	$job->location_set ('Remote');
-	$job->url_set ('/karriere/job-hr-manager-in-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-hr-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding und hilfst uns dabei, Talente aus der Region zu finden und zu gewinnen. In enger Zusammenarbeit mit dem Team bringst du deine Ideen für den Aufbau unserer Arbeitgebermarke ein.');
 	$job->text_description_long_set ('In dieser neu geschaffenen Stelle gestaltet du dir deinen Arbeitsbereich und unterstützt das Wachstum von CallOne von der Pole Position.');
@@ -546,9 +546,9 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Technik', 'Webdesigner*in, in Teil- oder Vollzeit', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
+	$job = new job ('IT & Technik', 'Webdesigner*in, in Teil- oder Vollzeit', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-webdesigner-in-'.strtolower($job->location_get()));
+	$job->url_set ('/karriere/job-webdesigner-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
 	$job->text_intro_set ('HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
