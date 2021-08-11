@@ -1,8 +1,60 @@
 <?php
+class jobs
+{
+	private $jobs;
+
+	function __construct ()
+	{	$this->jobs = array ();
+	}
+
+	function categories_get ()
+	{
+		$categories = array ();
+
+		foreach ($this->jobs as $job_tmp)
+		{
+			if (empty ($job_tmp->category_get()))
+				continue;
+			if (in_array ($job_tmp->category_get(), $categories))
+				continue;
+			
+			$categories[] = $job_tmp->category_get();
+		}
+		sort ($categories);
+
+		return $categories;
+	}
+
+	function job_add ($job)
+	{	$this->jobs[] = $job;
+	}
+
+	function jobs_get ()
+	{	return $this->jobs;
+	}
+
+	function jobs_get_by_category ($category)
+	{
+		$jobs_filtered = array ();
+
+		foreach ($this->jobs as $job_tmp)
+		{	if ($job_tmp->category_get() == $category)
+				$jobs_filtered[] = $job_tmp;
+		}
+
+		return $jobs_filtered;
+	}
+}
+
 class job
 {
+	private $agenda_filename;
+	private $category;
 	private $description;
 	private $icon;
+	private $job_start_end;
+	private $job_worktime;
+	private $location;
 	private $quickinfo;
 	private $statement;
 	private $text_description_long;
@@ -13,10 +65,15 @@ class job
 	private $title;
 	private $url;
 
-	function __construct ($title, $description)
+	function __construct ($category, $title, $description)
 	{
+		$this->agenda_filename			= '';
+		$this->category					= $category;
 		$this->description				= $description;
 		$this->icon						= '';
+		$this->job_start_end			= '';
+		$this->job_worktime				= '';
+		$this->location					= '';
 		$this->quickinfo				= '';
 		$this->statement				= array ();
 		$this->text_description_long	= array ();
@@ -29,11 +86,19 @@ class job
 	}
 
 	// getters / setters
+	function agenda_filename_get ()
+	{	return $this->agenda_filename;
+	}
+	function agenda_filename_set ($agenda_filename)
+	{	$this->agenda_filename = $agenda_filename;
+	}
+
+	function category_get ()
+	{	return $this->category;
+	}
+
 	function description_get ()
 	{	return $this->description;
-	}
-	function description_set ($description)
-	{	$this->description = $description;
 	}
 
 	function icon_get ()
@@ -41,6 +106,27 @@ class job
 	}
 	function icon_set ($icon)
 	{	$this->icon = $icon;
+	}
+
+	function job_start_end_get ()
+	{	return $this->job_start_end;
+	}
+	function job_start_end_set ($job_start_end)
+	{	$this->job_start_end = $job_start_end;
+	}
+
+	function job_worktime_get ()
+	{	return $this->job_worktime;
+	}
+	function job_worktime_set ($job_worktime)
+	{	$this->job_worktime = $job_worktime;
+	}
+
+	function location_get ()
+	{	return $this->location;
+	}
+	function location_set ($location)
+	{	$this->location = $location;
 	}
 
 	function url_get ()
@@ -101,9 +187,6 @@ class job
 
 	function title_get ()
 	{	return $this->title;
-	}
-	function title_set ($title)
-	{	$this->title = $title;
 	}
 }
 
@@ -179,11 +262,12 @@ function job_find_by_url ($jobs, $url)
 
 function jobs_load ()
 {
-	$jobs = array ();
+	$jobs = new jobs ();
 
-	$job = new job ('Customer Success Manager*in, in Teil- oder Vollzeit', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
-	$job->url_set ('/karriere/job-customer-success-manager-in-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Projekte & Support', 'Customer Success Manager*in, in Teil- oder Vollzeit', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-customer-success-manager-in-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->text_description_long_set ('Als Customer Success Manager*in (w/d/m) bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte in Teil- oder Vollzeit.');
 	$job->text_description_long_set ('Unsere Kunden sind vorwiegend mittelständische Unternehmen, die wir mit unseren Telefonielösungen im Bereich Kundenservice oder Inside-Sales unterstützen.');
@@ -208,14 +292,18 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('Projektmanager*in, in Teil- oder Vollzeit', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
-	$job->url_set ('/karriere/job-projektmanager-in-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Projekte & Support', 'Projektmanager*in, in Teil- oder Vollzeit', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-projektmanager-in-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und die Schulung der Mitarbeitenden und stehst als zentrale Ansprechpartner*in zur Verfügung.');
 	$job->text_description_long_set ('Als Projektmanager*in bist du die Schnittstelle zwischen Entwicklung, Support und Lieferanten und arbeitest eigenständig an Neu- und Bestandskundenprojekten in Teil- oder Vollzeit.');
 	$job->text_description_long_set ('Gemeinsam unterstützen wir unsere Kunden mit intelligenten Cloud-Softwarelösungen im Bereich der Telefonie von Kundenservice- und Sales-Abteilungen.');
@@ -240,14 +328,18 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('Kauffrau /-mann für Bürokommunikation, in Teil- oder Vollzeit', 'Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?');
-	$job->url_set ('/karriere/job-kaufmann-frau-fuer-buerokommunikation-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Office', 'Kauffrau /-mann für Bürokommunikation, in Teil- oder Vollzeit', 'Du lebst für gute Organisation und hast Lust uns in unseren Arbeitsabläufen tatkräftig zu unterstützen?');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-kaufmann-frau-fuer-buerokommunikation-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du brennst für Organisation und Planung und bist bereit uns im Alltagsgeschäft tatkrätig zu unterstützen? Dann haben wir einen Job für dich!');
 	$job->text_description_long_set ('Als Unterstützung für unser Back- und Frontoffice bist du ein wichtiger Bestandteil unseres Teams. Du bist die Stütze unses Projektmanagements und Supports und hilfst mit Zuarbeit und bei der Planung neuer und bestehender Kundenprojekte.');
 	$job->text_description_long_set ('Als Allrounder sind deine Aufgaben recht vielfältig und reichen vom Erstellen von Angeboten und Accounts über Bestellungen bei Lieferanten bis hin zur Pflege von Listen und Dokumentationen. Gerne berücktsichtigen wir deine Interessen und Schwerpunkte.');
@@ -269,14 +361,18 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_05.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('IT-Systemkauffrau /-mann, in Teil- oder Vollzeit', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
-	$job->url_set ('/karriere/job-it-systemkaufmann-frau-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Technik', 'IT-Systemkauffrau /-mann, in Teil- oder Vollzeit', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-it-systemkaufmann-frau-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->text_description_long_set ('Als IT-Systemfachkraft bist du bei uns erste Ansprechperson für unsere Kunden bei technischen Fragestellungen. Dabei unterstützt du nicht nur im Bereich von Alltagsproblemen im Bereich der IP-Telefonie, sondern auch bei Onboardings und der generellen Konfiguration und Administration unserer Telefonielösungen.');
 	$job->text_description_long_set ('Wenn du Freude daran hast, komplexere Sachverhalte klar zu definieren und zu analysieren, bist du bei uns genau richtig. Neben klassischen IT-Support-Themen wünschen wir uns von dir Unterstützung bei der Umsetzung von IT-Projekten im Zusammenspiel mit verschiedenen APIs und Schnittstellen sowie bei der Implementierung neuer Produkte.');
@@ -298,13 +394,17 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
-	$jobs[] = $job;
+	$job->agenda_filename_set ('agenda-projektmanager.php');
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
 
-	$job = new job ('IT-Support, in Teil- oder Vollzeit', 'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?');
-	$job->url_set ('/karriere/job-it-support-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Technik', 'IT-Support, in Teil- oder Vollzeit', 'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-it-support-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du hast eine technische Ausbildung absolviert und kannst analytisch-strukturiert denken?	Du besitzt eine hohe Auffassungsgabe, um komplexe Prozesse zu durchdringen und arbeitest gerne im Team? Dann bist du bei uns genau richtig!');
 	$job->text_description_long_set ('Als Mitarbeiter*in im IT-Support bist du erste Ansprechperson für technische Anforderungen unserer Kunden.');
 	$job->text_description_long_set ('Du hilfst bei der Konfiguration und Administration der IP-Lösungen, die wir bereitstellen.  Zudem sorgst du dafür, dass Kundenanfragen und Probleme bestmöglich gelöst werden, indem du sie analysierst, dokumentierst und Lösungen direkt oder mit dem Team umsetzt. Dazu gehört, komplexe Sachverhalte klar zu definieren und damit die Basis für konkrete Lösungen zu schaffen.');
@@ -325,13 +425,17 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_03.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('Fachinformatiker*in, in Teil- oder Vollzeit', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
-	$job->url_set ('/karriere/job-fachinformatiker-in-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Technik', 'Fachinformatiker*in, in Teil- oder Vollzeit', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-fachinformatiker-in-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du verfügst über grundlegende Kenntnisse der gängigen Betriebssysteme, konntest bereits in vergleichbaren IT-Projekten Erfahrungen sammeln und dein Herz schlägt für technische Sachverhalte?');
 	$job->text_intro_set ('Du besitzt eine hohe Auffassungsgabe für komplexe Prozesse und arbeitest gerne im Team? Dann bist du bei uns genau richtig!');
 	$job->text_description_long_set ('Als tragende Figur in einem schlagkräftigen Team bewegst Du Dich in einer komplexen, aber anwenderfreundlichen IT-Softwarelandschaft, erkennst technische Probleme und begegnest ihnen mit Ehrgeiz und Kampfeslust.');
@@ -353,13 +457,17 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('(Senior) Marketing und PR-Manager*in, in Teil- oder Vollzeit', 'Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause?');
-	$job->url_set ('/karriere/job-marketing-manager-in-potsdam');
-	$job->quickinfo_set ('Potsdam/Remote · unbefristet · (m/w/d)');
+	$job = new job ('Vertrieb', '(Senior) Marketing und PR-Manager*in, in Teil- oder Vollzeit', 'Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause?');
+	$job->location_set ('Remote');
+	$job->url_set ('/karriere/job-marketing-manager-in-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause? Zugleich liebst du die Nähe zum Kunden und hast eine schnelle technische Auffassungsgabe? Dann suchen wir genau dich!');
 	$job->text_description_long_set ('Als Marketing- und PR-Manager*in bei CallOne – remote oder vor Ort in Potsdam – kümmerst du dich um unser gesamtes Digitalmarketing-Portfolio.');
 	$job->text_description_long_set ('Von Content-Strategie und -planung bis hin zu Website-Konzeption und Personalmarketing bist du unser Marketing-Allround-Talent und hilfst uns dabei, den Grundstein für unser zukünftiges Wachstum zu legen.');
@@ -388,14 +496,18 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('HR-Manager*in (w/d/m), Schwerpunkt Recruiting und Employer Branding, in Teilzeit (20 h)', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
-	$job->url_set ('/karriere/job-hr-manager-in-potsdam');
-	$job->quickinfo_set ('Potsdam/Remote · unbefristet · (m/w/d)');
+	$job = new job ('Vertrieb', 'HR-Manager*in (w/d/m), Schwerpunkt Recruiting und Employer Branding, in Teilzeit (20 h)', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job->location_set ('Remote');
+	$job->url_set ('/karriere/job-hr-manager-in-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding und hilfst uns dabei, Talente aus der Region zu finden und zu gewinnen. In enger Zusammenarbeit mit dem Team bringst du deine Ideen für den Aufbau unserer Arbeitgebermarke ein.');
 	$job->text_description_long_set ('In dieser neu geschaffenen Stelle gestaltet du dir deinen Arbeitsbereich und unterstützt das Wachstum von CallOne von der Pole Position.');
 	$job->text_description_long_set ('Hierbei kannst du deine Erfahrungen, idealerweise aus den Themenfeldern Personalmarketing, Social Media, Recruiting und/oder Marketing, wunderbar einsetzen.');
@@ -426,14 +538,18 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
-	$job = new job ('Webdesigner*in, in Teil- oder Vollzeit', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
-	$job->url_set ('/karriere/job-webdesigner-in-potsdam');
-	$job->quickinfo_set ('Potsdam · unbefristet · (m/w/d)');
+	$job = new job ('Technik', 'Webdesigner*in, in Teil- oder Vollzeit', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-webdesigner-in-'.strtolower($job->location_get()));
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
 	$job->text_intro_set ('HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
 	$job->text_description_long_set ('Als Webdesigner*in kümmerst du dich um das Wohl unserer Kunden auf unseren Webpräsenzen. Du pflegst und erweiterst unser Corporate Design, erstellst passende Grafiken für unsere Social Media Kanäle und vieles mehr. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
@@ -454,9 +570,12 @@ function jobs_load ()
 	$job->text_offer_set ('Individuelle Weiterbildung, die uns alle weiterbringt');
 	$job->text_offer_set ('Unterstützung bei der Vereinbarkeit von Job und Privatleben, z.B. durch die Möglichkeit zu Teilzeit und mobilem Arbeiten');
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
+	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
-	$jobs[] = $job;
+	$jobs->job_add ($job);
 
 	return $jobs;
 }
