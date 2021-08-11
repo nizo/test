@@ -2,8 +2,10 @@
     --color-text: #000;
     width: 100%;
     padding: 100px 25px 60px 25px;
+    overflow-y: visible;
     overflow-x: hidden;
 
+    // Backgrounds
     &--light-grey {
         background: #f2f2f2;
     }

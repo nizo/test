@@ -260,8 +260,21 @@ function job_find_by_url ($jobs, $url)
 	return null;
 }
 
+// Icons
+
 function jobs_load ()
 {
+	$icons = array(
+		'administration' => '/assets/images/icons_svg/administration-black.svg',
+		'care'			 => '/assets/images/icons_svg/care-black.svg',
+		'developer'		 => '/assets/images/icons_svg/developer-black.svg',
+		'mouse'			 => '/assets/images/icons_svg/job_01.svg',
+		'headset'		 => '/assets/images/icons_svg/job_02.svg',
+		'clipboard'		 => '/assets/images/icons_svg/job_03.svg',
+		'laptop'		 => '/assets/images/icons_svg/job_04.svg',
+		'screen'		 => '/assets/images/icons_svg/job_05.svg'
+	);
+
 	$jobs = new jobs ();
 
 	$job = new job ('Projekte & Support', 'Customer Success Manager*in, in Teil- oder Vollzeit', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
@@ -294,7 +307,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->icon_set ($icons['care']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -330,7 +343,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->icon_set ($icons['care']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -363,7 +376,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_05.svg');
+	$job->icon_set ($icons['administration']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -396,7 +409,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
@@ -427,7 +440,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_03.svg');
+	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
@@ -459,7 +472,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
+	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
@@ -498,7 +511,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->icon_set ($icons['care']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -540,7 +553,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_02.svg');
+	$job->icon_set ($icons['care']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
@@ -572,7 +585,7 @@ function jobs_load ()
 	$job->text_offer_set ('30 Tage Urlaub im Jahr');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
-	$job->icon_set ('/assets/images/icons_svg/job_04.svg');
+	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-projektmanager.php');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);

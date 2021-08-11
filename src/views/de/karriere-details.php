@@ -2,7 +2,7 @@
 $jobs = jobs_load ();
 $jobs_benefits = jobs_benefits_load ();
 
-$job = job_find_by_url ($jobs, JOB_URL);
+$job = job_find_by_url ($jobs->jobs_get(), JOB_URL);
 if (empty ($job))
 	exit ();
 
@@ -107,4 +107,82 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 }
 </script>
 
-Karriere Details
+<div class="section">
+    <div class="section__content section__content--narrow">
+        <p class="centered">
+            <img src="<?= $job->icon_get(); ?>" alt="" />
+        </p>
+
+        <h1 class="centered"><?= $job->title_get(); ?></h1>
+
+        <?php
+        if (!empty($job->text_intro_get())) {
+            foreach ($job->text_intro_get() as $intro) {
+                echo "<p class='centered'>".$intro."</p>";
+            }
+        }
+        ?>
+
+        <p class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary" data-openmodal="application">Jetzt bewerben</a>
+            <a href="/karriere" class="btn btn--secondary">Alle offenen Stellen <span class="btn__notification"><?= count($jobs->jobs_get()) ?></span></a>
+        </p>
+    </div>
+</div>
+
+<div class="job-details">
+    <div class="job-details__item">
+        <img src="/assets/images/icons_svg/small_35.svg" alt="" />
+        <?= $job->location_get(); ?>
+    </div>
+    <div class="job-details__item">
+        <img src="/assets/images/icons_svg/small_32.svg" alt="" />
+        <?= $job->job_worktime_get(); ?>
+    </div>
+    <div class="job-details__item">
+        <img src="/assets/images/icons_svg/small_31.svg" alt="" />
+        <?= $job->job_start_end_get(); ?>
+    </div>
+</div>
+
+<div class="section section--light-grey">
+    <div class="section__content section__content--wide">
+        <div class="grid">
+            <div class="grid__col grid__col--12-xs grid__col--6-md">
+                <h3>Der Job</h3>
+                <?php
+                foreach ($job->text_description_long_get() as $text_description_long)
+                    echo '<p>'.$text_description_long.'</p>';
+                ?>
+            </div>
+            <div class="grid__col grid__col--12-xs grid__col--6-md">
+                <?php
+                if (!empty($job->statement_get())):
+                    $key = array_rand($job->statement_get());
+                    $statement = $job->statement_get()[$key];
+                    ?>
+
+                    <div class="job-quote">
+                        <blockquote><?= $statement->text_get(); ?></blockquote>
+                        <div class="job-quote__author">
+                            <img src="/assets/images/photos/placeholder.gif" data-src="<?= $statement->image_get(); ?>" data-srcset="<?= $statement->image_get(); ?>" class="lazy" alt="Statement" />
+                            <div>
+                                <strong><?= $statement->name_get() ?></strong><br />
+                                <?= $statement->position_get() ?><br />
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+
+            <div class="grid__col grid__col--12-xs grid__col--6-md">
+                <h3>Wobei wir deine Hilfe brauchen</h3>
+                <p>...</p>
+            </div>
+            <div class="grid__col grid__col--12-xs grid__col--6-md">
+                <h3>Was wir uns wünschen</h3>
+                <p>...</p>
+            </div>
+        </div>
+    </div>
+</div>

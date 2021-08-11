@@ -199,12 +199,12 @@ $jobs = jobs_load ();
     <!-- jobs -->
     <?php if (!empty ($jobs)): ?>
     <li>
-      <a class="arrow" href="/karriere">Karriere <span class="notification-bubble"><?= count($jobs) ?> Jobs</span></a>
+      <a class="arrow" href="/karriere">Karriere <span class="notification-bubble"><?= count($jobs->jobs_get()) ?> Jobs</span></a>
       <div class="submenu submenu-products">
         <div class="submenu-content">
           <ul>
             <?php
-            foreach ($jobs as $job)
+            foreach ($jobs->jobs_get() as $job)
 			      {
               if (empty ($job->url_get()))
                 continue;

@@ -156,7 +156,7 @@ $jobs = jobs_load ();
       <a class="submenu" href="/karriere">Jobs</a>
       <ul class="pages-submenu product-menu">
         <?php
-        foreach ($jobs as $job)
+        foreach ($jobs->jobs_get() as $job)
         {
           if (empty ($job->url_get()))
             continue;

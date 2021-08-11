@@ -1,5 +1,6 @@
 <?php
 $jobs = jobs_load();
+$jobsCount = count($jobs->jobs_get());
 ?>
 
 <div class="section">
@@ -8,7 +9,7 @@ $jobs = jobs_load();
             <h1>Da bist du ja – du fehlst bei uns!</h1>
 
             <div class="btn-set btn-set--centered">
-                <a class="btn btn--primary btn--nowrap trackedElement" href="/karriere">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                <a class="btn btn--primary btn--nowrap trackedElement" href="/karriere">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= $jobsCount; ?></span><?php } ?></a>
                 <a class="btn btn--secondary btn--nowrap trackedElement" data-openmodal="application" data-label="Button TopHeader - 10 Sekunden Bewerbung" data-category="Link" data-action="Show 10 Sekunden Bewerbung Modal">Jetzt bewerben</a>
             </div>
         </div>
@@ -45,7 +46,7 @@ $jobs = jobs_load();
         </p>
 
         <p>
-            <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+            <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= $jobsCount; ?></span><?php } ?></a>
         </p>
     </div>
 
@@ -72,7 +73,7 @@ $jobs = jobs_load();
         <p class="centered">Hier kommt dein Job mit Sinn, Substanz und Wochenende. Als mittelständisches Potsdamer IT-Unternehmen mit Anti-Bullshit-Philosophie sind wir etabliert, zukunftsorientiert, unabhängig und krisensicher. Nicht Hype, sondern Happiness zählt. Du entscheidest, was du dafür brauchst.</p>
 
         <p>
-            <a href="/karriere" class="btn btn--primary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+            <a href="/karriere" class="btn btn--primary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= $jobsCount; ?></span><?php } ?></a>
         </p>
     </div>
 
@@ -278,7 +279,7 @@ $jobs = jobs_load();
                 <h2 class="centered">Dort arbeiten, wo es schön ist</h2>
                 <p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
                 <p>
-                    <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                    <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= $jobsCount; ?></span><?php } ?></a>
                 </p>
 
                 <p><img src="/assets/images/photos/location-office.png" alt="" /></p>
@@ -288,7 +289,7 @@ $jobs = jobs_load();
                 <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
                 <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
                 <p>
-                    <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= count($jobs); ?></span><?php } ?></a>
+                    <a href="/karriere" class="btn btn--secondary btn--centered">Offene Stellen <?php if (!empty($jobs)) {?><span class="btn__notification"><?= $jobsCount; ?></span><?php } ?></a>
                 </p>
                 <p><img src="/assets/images/photos/location-homeoffice.png" alt="" /></p>
             </div>

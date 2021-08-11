@@ -9,6 +9,11 @@
       '/karriere-bei-callone',
       '/karriere'
     ];
+    $jobs = jobs_load();
+    foreach ($jobs->jobs_get() as $job) {
+      $footer_hidden[] = $job->url_get();
+    }
+
     if (in_array($_SERVER['REQUEST_URI'], $footer_hidden)) : ?>
       <?php // nothing ?>
     <?php else : ?>

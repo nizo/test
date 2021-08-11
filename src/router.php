@@ -205,22 +205,22 @@ $r->addRoute('GET', '/karriere-bei-callone', function() {
 });
 
 /* dynamically add jobs */
-$jobs = jobs_load ();
-foreach ($jobs as $job)
+$jobs = jobs_load();
+foreach ($jobs->jobs_get() as $job)
 {
   if (empty ($job->url_get()))
     continue;
 
   $r->addRoute('GET', $job->url_get(), function ($url) {
-    $jobs = jobs_load ();
-    $job = job_find_by_url ($jobs, $url);
+    $jobs = jobs_load();
+    $job = job_find_by_url($jobs->jobs_get(), $url);
 
     define ('JOB_URL', $url);
     
     $title = 'CallOne Karriere - '.$job->title_get();
     $description = $job->title_get().': '.$job->description_get();
     $keywords = '';
-    $background = 'bg-casestudy';
+    $background = '';
     $ogUrl = $GLOBALS['url'] . $job->url_get();
     require_once('./layouts/header.php');
     require_once('./views/de/karriere-details.php');
