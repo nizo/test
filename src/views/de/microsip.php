@@ -1,7 +1,3 @@
-<script>
-	jsFiles.push("/assets/javascripts/custom/microsip.js");
-</script>
-
 <!-- Header -->
 <div class="wrapper">
 	<div class="content wide noOverflow">
@@ -51,10 +47,10 @@
 		<div class="shadow-box padding">
 			<form action="#" id="formMicroSip" name="formMicroSip" class="form form-3 js-form">
 				<div class="group">
-					<input type="text" name="formMicroSipAgentId" id="formMicroSipAgentId" class="name" placeholder="Deine CallOne Agenten-ID" value="" required>
+					<input type="text" name="formMicroSipUsername" id="formMicroSipUsername" class="name" placeholder="Dein CallOne Login" value="" required>
 				</div>
 				<div class="group">
-					<input type="password" name="formMicroSipAgentPassword" id="formMicroSipAgentPassword" placeholder="Dein CallOne Passwort" value="" required>
+					<input type="password" name="formMicroSipPassword" id="formMicroSipPassword" placeholder="Dein CallOne Passwort" value="" required>
 				</div>
 				<p id="formMicroSipHint"></p>
 				<div class="button-set centered" id="formMicroSipSubmit">

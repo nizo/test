@@ -51,6 +51,12 @@ $(function ()
 	{
 		e.preventDefault();
 
+		if ((!$('#formMicroSipUsername').val().trim().length) ||
+			(!$('#formMicroSipPassword').val().trim().length))
+		{	$('#formMicroSipHint').html ('Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.');
+			return;
+		}
+
 		$('#formMicroSipSubmit').hide ();
 		$('#formMicroSipHint').html ('Bitte warten, Download wird generiert...');
 
@@ -62,8 +68,8 @@ $(function ()
 			data:
 			{
 				mode: 'download',
-				agentId: $('#formMicroSipAgentId').val().trim(),
-				agentPassword: $('#formMicroSipAgentPassword').val().trim()
+				username: $('#formMicroSipUsername').val().trim(),
+				password: $('#formMicroSipPassword').val().trim()
 			},
 			dataType: 'json',
 			error: function (error)
