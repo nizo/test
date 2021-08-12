@@ -189,7 +189,8 @@ $uniqueID = uniqid();
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
-            // formFields.set('issue', modalData.issue || '');
+            if (modalData.job && modalData.job != '')
+                formFields.set('issue', modalData.job);
             formFields.set('url', quickForm.querySelector('input[name="link"]').value);
             formFields.set('email', quickForm.querySelector('input[name="mail"]').value);
     
@@ -270,7 +271,8 @@ $uniqueID = uniqid();
             for (var i = 0; i < path.length; i++) {
                 formFields.append('path[]', path[i]);
             }
-            // formFields.set('issue', modalData.issue || '');
+            if (modalData.job && modalData.job != '')
+                formFields.set('issue', modalData.job);
             formFields.set('name', appForm1.querySelector('input[name="name"]').value);
             formFields.set('email', appForm1.querySelector('input[name="mail"]').value);
             formFields.set('phonenumber', appForm1.querySelector('input[name="phone"]').value);

@@ -1,6 +1,7 @@
 <?php
 $jobs = jobs_load();
 $jobsCount = count($jobs->jobs_get());
+$jobs_benefits = jobs_benefits_load ();
 ?>
 
 <div class="section">
@@ -79,70 +80,31 @@ $jobsCount = count($jobs->jobs_get());
 
     <div class="section__content section__content--wide section__content--gutter-top">
         <div class="cards mobile-hidden">
-            <div class="cards__card cards__card--3 centered">
-                <img src="/assets/images/icons_svg/benefits.svg" alt="" />
-                <h3>Bonbons gefällig?</h3>
-                <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
-            </div>
-            <div class="cards__card cards__card--3 centered">
-                <img src="/assets/images/icons_svg/work-life-balance.svg" alt="" />
-                <h3>Wachse an dir</h3>
-                <p>Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dazu brauchst und entwerfen deinen perfekten Job, inklusive Arbeitsumfeld und Life-Balance.</p>
-            </div>
-            <div class="cards__card cards__card--3 centered">
-                <img src="/assets/images/icons_svg/onboarding.svg" alt="" />
-                <h3>Wir leben Innovation</h3>
-                <p>Wir gestalten und setzen um, was Sinn macht. Am liebsten, wenn es etwas noch nicht gibt. Unsere Produkte sind immer einen Herzschlag voraus, wir setzen die Maßstäbe im Bereich Kundenkommunikation.</p>
-            </div>
-            <div class="cards__card cards__card--3 centered">
-                <img src="/assets/images/icons_svg/impact.svg" alt="" />
-                <h3>Positiver Impact</h3>
-                <p>Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unser Ansatz, Kundenservice neu zu definieren, gestaltet die Telekommunikationsindustrie maßgeblich mit. Dein Beitrag hat echte, sinnvolle Auswirkungen.</p>
-            </div>
-            <div class="cards__card cards__card--3 centered">
-                <img src="/assets/images/icons_svg/goals.svg" alt="" />
-                <h3>Kein Lari-Fari</h3>
-                <p>Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Mit Anspruch und neuen Herausforderungen wird dir nie langweilig. Deine Kolleg*innen sind immer für dich da, mit Inspiration, Motivation und positiven Vibes.</p>
-            </div>
-            <div class="cards__card cards__card--3 centered">
-                <img src="/assets/images/icons_svg/weiterbildung.svg" alt="" />
-                <h3>Support</h3>
-                <p>Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Tecknik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.</p>
-            </div>
+            <?php
+            foreach ($jobs_benefits as $benefit) {
+                echo '<div class="cards__card cards__card--3 centered">';
+                echo '<img src="'.$benefit->icon_get().'" alt="" />';
+                echo '<h3>'.$benefit->title_get().'</h3>';
+                echo '<p>'.$benefit->text_get().'</p>';
+                echo '</div>';
+            }
+            ?>
         </div>
 
         <div class="step-slider centered desktop-hidden">
             <div class="step-slider__steps">
-                <div class="step-slider__step step-slider__step--no-number step-slider__step--active">
-                    <img src="/assets/images/icons_svg/benefits.svg" alt="" data-alt-image="/assets/images/icons_svg/benefits-white.svg" />
-                    <h3>Bonbons gefällig?</h3>
-                    <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
-                </div>
-                <div class="step-slider__step step-slider__step--no-number">
-                    <img src="/assets/images/icons_svg/work-life-balance.svg" alt="" data-alt-image="/assets/images/icons_svg/work-life-balance-white.svg" />
-                    <h3>Wachse an dir</h3>
-                    <p>Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dazu brauchst und entwerfen deinen perfekten Job, inklusive Arbeitsumfeld und Life-Balance.</p>
-                </div>
-                <div class="step-slider__step step-slider__step--no-number">
-                    <img src="/assets/images/icons_svg/onboarding.svg" alt="" data-alt-image="/assets/images/icons_svg/onboarding-white.svg" />
-                    <h3>Wir leben Innovation</h3>
-                    <p>Wir gestalten und setzen um, was Sinn macht. Am liebsten, wenn es etwas noch nicht gibt. Unsere Produkte sind immer einen Herzschlag voraus, wir setzen die Maßstäbe im Bereich Kundenkommunikation.</p>
-                </div>
-                <div class="step-slider__step step-slider__step--no-number">
-                    <img src="/assets/images/icons_svg/impact.svg" alt="" data-alt-image="/assets/images/icons_svg/impact-white.svg" />
-                    <h3>Positiver Impact</h3>
-                    <p>Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unser Ansatz, Kundenservice neu zu definieren, gestaltet die Telekommunikationsindustrie maßgeblich mit. Dein Beitrag hat echte, sinnvolle Auswirkungen.</p>
-                </div>
-                <div class="step-slider__step step-slider__step--no-number">
-                    <img src="/assets/images/icons_svg/goals.svg" alt="" data-alt-image="/assets/images/icons_svg/goals-white.svg" />
-                    <h3>Kein Lari-Fari</h3>
-                    <p>Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Mit Anspruch und neuen Herausforderungen wird dir nie langweilig. Deine Kolleg*innen sind immer für dich da, mit Inspiration, Motivation und positiven Vibes.</p>
-                </div>
-                <div class="step-slider__step step-slider__step--no-number">
-                    <img src="/assets/images/icons_svg/weiterbildung.svg" alt="" data-alt-image="/assets/images/icons_svg/weiterbildung-white.svg" />
-                    <h3>Support</h3>
-                    <p>Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Tecknik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.</p>
-                </div>
+                <?php
+                foreach ($jobs_benefits as $key => $benefit) {
+                    $extraClass = '';
+                    if ($key == 0)
+                        $extraClass = ' step-slider__step--active';
+                    echo '<div class="step-slider__step step-slider__step--no-number'.$extraClass.'">';
+                    echo '<img src="'.$benefit->icon_get().'" alt="" data-alt-image="'.$benefit->alt_icon_get().'" />';
+                    echo '<h3>'.$benefit->title_get().'</h3>';
+                    echo '<p>'.$benefit->text_get().'</p>';
+                    echo '</div>';
+                }
+                ?>
             </div>
             <div class="step-slider__slider">
                 <div class="step-slider__range">

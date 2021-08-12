@@ -124,7 +124,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
         ?>
 
         <p class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary" data-openmodal="application">Jetzt bewerben</a>
+            <a href="#" class="btn btn--primary" data-openmodal="application" data-modaldata="<?= base64_encode('{"job": "'.$job->title_get().'"}'); ?>">Jetzt bewerben</a>
             <a href="/karriere" class="btn btn--secondary">Alle offenen Stellen <span class="btn__notification"><?= count($jobs->jobs_get()) ?></span></a>
         </p>
     </div>
@@ -145,7 +145,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     </div>
 </div>
 
-<div class="section section--light-grey">
+<div class="section section--light-grey-green">
     <div class="section__content section__content--wide">
         <div class="grid">
             <div class="grid__col grid__col--12-xs grid__col--6-md">
@@ -174,15 +174,68 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
                     </div>
                 <?php endif; ?>
             </div>
+        </div>
+    </div>
 
+    <div class="section__content section__content--wide">
+        <div class="grid">
             <div class="grid__col grid__col--12-xs grid__col--6-md">
                 <h3>Wobei wir deine Hilfe brauchen</h3>
-                <p>...</p>
+                <ul class="list list--checkmarks">
+					<?php
+					foreach ($job->text_tasks_get() as $text_task)
+						echo '<li>'.$text_task.'</li>';
+					?>
+				</ul>
             </div>
             <div class="grid__col grid__col--12-xs grid__col--6-md">
                 <h3>Was wir uns wünschen</h3>
-                <p>...</p>
+                <ul class="list list--checkmarks">
+					<?php
+					foreach ($job->text_requirements_get() as $text_requirement)
+						echo '<li>'.$text_requirement.'</li>';
+					?>
+				</ul>
             </div>
         </div>
+    </div>
+
+    <div class="section__content section__content--wide">
+        <div class="split-box">
+            <div class="split-box__item">
+                <p>Du möchtest mehr über deinen Arbeitsplatz und das Team erfahren?</p>
+                <p><a href="/karriere-bei-callone" class="btn btn--secondary btn--centered">Karriere bei Callone</a></p>
+            </div>
+            <div class="split-box__divider" data-text="oder"></div>
+            <div class="split-box__item">
+                <p>Du möchtest mehr über deinen Tagesablauf in diesem Job erfahren?</p>
+                <p><a href="#" class="btn btn--border-black btn--centered" data-openmodal="<?= $job->agenda_filename_get(); ?>">Deine Tagesagenda</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section__content section__content--wide">
+        <h1 class="centered">Das haben wir dir zu bieten:</h1>
+
+        <div class="grid">
+            <?php
+            foreach ($jobs_benefits as $benefit) {
+                echo '<div class="card centered grid__col grid__col--12-xs grid__col--6-sm grid__col--4-md">';
+                echo '<img src="'.$benefit->icon_get().'" alt="" />';
+                echo '<h3>'.$benefit->title_get().'</h3>';
+                echo '<p>'.$benefit->text_get().'</p>';
+                echo '</div>';
+            }
+            ?>
+        </div>
+    </div>
+
+    <div class="section__content section__content--wide">
+        <h1 class="centered">Du hast nichts zu verlieren:</h1>
+
+        <a href="#" class="btn btn--centered btn--application" data-openmodal="application" data-modaldata="<?= base64_encode('{"job": "'.$job->title_get().'"}'); ?>">
+            <strong>Jetzt berwerben</strong><br />
+            <?= $job->title_get(); ?>
+        </a>
     </div>
 </div>

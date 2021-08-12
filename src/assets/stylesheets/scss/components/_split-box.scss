@@ -1,0 +1,41 @@
+.split-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 90px auto;
+
+    &__item {
+        flex: 1;
+        text-align: center;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    &__divider {
+        position: relative;
+        width: 2px;
+        height: auto;
+        margin: 0 140px;
+        //background-color: #c4c4c4;
+        background-image: linear-gradient(
+            #c4c4c4 0%, 
+            #c4c4c4 calc(50% - 10px), 
+            transparent calc(50% - 10px), 
+            transparent calc(50% + 10px),
+            #c4c4c4 calc(50% + 10px)    
+        );
+        &:before {
+            content: attr(data-text);
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(-50%, -50%);
+            font-family: $font-copy;
+            font-size: 12px;
+            line-height: 20px;
+            color: rgba(#000000, .6);
+        }
+    }
+}

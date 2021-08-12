@@ -1,0 +1,25 @@
+.list {
+    &--checkmarks {
+        list-style: none;
+        li {
+            position: relative;
+            padding-left: 2em;
+            &+li {
+                margin-top: 15px;
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: calc(50% - .5em);
+                width: 1em;
+                height: 1em;
+                display: inline-block;
+                background-image: url(../images/icons_svg/checkmark-icon.svg);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
