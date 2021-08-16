@@ -169,7 +169,7 @@ $jobs_benefits = jobs_benefits_load ();
                         <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <h6>
                             <strong>Brian</strong><br />
-                            Technik
+                            IT & Technik
                         </h6>
 
                         <div class="team__member-booking">
@@ -184,7 +184,7 @@ $jobs_benefits = jobs_benefits_load ();
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-it-technik">
                             <strong>Tagesagenda</strong><br />
-                            Technik
+                            IT & Technik
                         </div>
                     </div>
                 </div>
