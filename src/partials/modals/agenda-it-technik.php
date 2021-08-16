@@ -7,7 +7,7 @@
                 <div class="agenda__item agenda__item--cup">
                     Tasse Kaffee oder Tee
                 </div>
-                <div class="agenda__item agenda__item--green agenda__item--customer-support">
+                <div class="agenda__item agenda__item--green agenda__item--customer-support agenda__size--2">
                     Kunden-Support
                 </div>
             </div>

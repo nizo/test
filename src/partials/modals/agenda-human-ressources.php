@@ -33,7 +33,7 @@
                 <div class="agenda__item agenda__item--yellow agenda__item--exchange">
                     Stellenausschreibungen verwalten und Jobbörsen aktualisieren
                 </div>
-                <div class="agenda__item agenda__item--green agenda__item--customer-support">
+                <div class="agenda__item agenda__item--green agenda__item--customer-support agenda__size--2">
                     Bewerbungsgespräche führen
                 </div>
                 <div class="agenda__item agenda__item--red agenda__item--computer">

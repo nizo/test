@@ -128,13 +128,13 @@ $jobs_benefits = jobs_benefits_load ();
                 <p>Menschen bei CallOne</p>
                 <div class="team__buttons">
                     <div class="team__button team__button--active" data-member="1">
-                        <img src="https://picsum.photos/seed/avatar/200" alt="" />
+                        <img src="https://picsum.photos/id/646/200" alt="" />
                     </div>
                     <div class="team__button" data-member="2">
-                        <img src="https://picsum.photos/seed/team2/200" alt="" />
+                        <img src="https://picsum.photos/id/338/200" alt="" />
                     </div>
                     <div class="team__button" data-member="3">
-                        <img src="https://picsum.photos/seed/team3/200" alt="" />
+                        <img src="https://picsum.photos/id/550/200" alt="" />
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ $jobs_benefits = jobs_benefits_load ();
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
-                            <img src="https://picsum.photos/seed/avatar/368/510" alt="" />
+                            <img src="https://picsum.photos/id/646/368/510" alt="" />
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
                             <strong>Tagesagenda</strong><br />
@@ -180,7 +180,7 @@ $jobs_benefits = jobs_benefits_load ();
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
-                            <img src="https://picsum.photos/seed/team2/368/510" alt="" />
+                            <img src="https://picsum.photos/id/338/368/510" alt="" />
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-it-technik">
                             <strong>Tagesagenda</strong><br />
@@ -205,7 +205,7 @@ $jobs_benefits = jobs_benefits_load ();
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
-                            <img src="https://picsum.photos/seed/team3/368/510" alt="" />
+                            <img src="https://picsum.photos/id/550/368/510" alt="" />
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-human-ressources">
                             <strong>Tagesagenda</strong><br />
