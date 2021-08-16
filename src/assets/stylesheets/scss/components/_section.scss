@@ -74,6 +74,17 @@
                 vertical-align: middle;
                 margin-top: -5px;
             }
+            .headline-tag {
+                background-color: #c4c4c4;
+                border-radius: 10px;
+                font-family: $font-headline;
+                font-size: 18px;
+                line-height: 27px;
+                padding: 0 8px;
+            }
+            @media screen and (max-width: 900px) {
+                font-size: 28px;
+            }
         }
         > h2 {
             margin-top: 60px;

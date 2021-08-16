@@ -113,7 +113,10 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
             <img src="<?= $job->icon_get(); ?>" alt="" />
         </p>
 
-        <h1 class="centered"><?= $job->title_get(); ?></h1>
+        <h1 class="centered">
+            <span class="headline-tag"><?= $job->quickinfo_get(); ?></span><br />
+            <?= $job->title_get(); ?>
+        </h1>
 
         <?php
         if (!empty($job->text_intro_get())) {
@@ -217,7 +220,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     <div class="section__content section__content--wide">
         <h1 class="centered">Das haben wir dir zu bieten:</h1>
 
-        <div class="grid">
+        <div class="grid mobile-hidden">
             <?php
             foreach ($jobs_benefits as $benefit) {
                 echo '<div class="card centered grid__col grid__col--12-xs grid__col--6-sm grid__col--4-md">';
@@ -228,13 +231,35 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
             }
             ?>
         </div>
+
+        <div class="step-slider centered desktop-hidden">
+            <div class="step-slider__steps">
+                <?php
+                foreach ($jobs_benefits as $key => $benefit) {
+                    $extraClass = '';
+                    if ($key == 0)
+                        $extraClass = ' step-slider__step--active';
+                    echo '<div class="step-slider__step step-slider__step--no-number'.$extraClass.'">';
+                    echo '<img src="'.$benefit->icon_get().'" alt="" data-alt-image="'.$benefit->alt_icon_get().'" />';
+                    echo '<h3>'.$benefit->title_get().'</h3>';
+                    echo '<p>'.$benefit->text_get().'</p>';
+                    echo '</div>';
+                }
+                ?>
+            </div>
+            <div class="step-slider__slider">
+                <div class="step-slider__range">
+                    <div class="step-slider__handle"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="section__content section__content--wide">
         <h1 class="centered">Du hast nichts zu verlieren:</h1>
 
         <a href="#" class="btn btn--centered btn--application" data-openmodal="application" data-modaldata="<?= base64_encode('{"job": "'.$job->title_get().'"}'); ?>">
-            <strong>Jetzt berwerben</strong><br />
+            <strong>Jetzt bewerben</strong><br />
             <?= $job->title_get(); ?>
         </a>
     </div>

@@ -388,7 +388,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
@@ -411,7 +411,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
@@ -435,7 +435,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
@@ -524,7 +524,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 

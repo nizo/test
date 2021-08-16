@@ -39,3 +39,25 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .split-box {
+        &__divider {
+            margin: 0 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .split-box {
+        flex-direction: column;
+        align-items: center;
+        
+        &__divider {
+            display: none;
+            &+.split-box__item {
+                margin-top: 40px;
+            }
+        }
+    }
+}
