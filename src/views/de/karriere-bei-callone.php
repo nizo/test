@@ -166,7 +166,7 @@ $jobs_benefits = jobs_benefits_load ();
 
                 <div class="team__member" data-member="2">
                     <div class="team__member-left">
-                        <blockquote>„24/7 Verfügbarkeit unserer Systeme, dabei keine Überstünden und normale Arbeitszeiten. Neuste IT-Technologien wie Voice Recognition nutzen und sich kreative Lösungen für Kunden überlegen. IT - aber ohne Startup Feeling.”</blockquote>
+                        <blockquote>„24/7 Verfügbarkeit unserer Systeme, dabei keine Überstunden und normale Arbeitszeiten. Neuste IT-Technologien wie Voice Recognition nutzen und sich kreative Lösungen für Kunden überlegen. IT - aber ohne Startup Feeling.”</blockquote>
                         <h6>
                             <strong>Brian</strong><br />
                             IT & Technik
