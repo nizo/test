@@ -292,7 +292,7 @@ function jobs_load ()
 	$job->url_set ('/karriere/job-customer-success-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
-	$job->text_description_long_set ('Als Customer Success Manager*in (w/d/m) bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte in Teil- oder Vollzeit.');
+	$job->text_description_long_set ('Als Customer Success Manager*in bist Du Teil unseres Projektteams und bearbeitest eigenständig neue und bestehende Kundenprojekte in Teil- oder Vollzeit.');
 	$job->text_description_long_set ('Unsere Kunden sind vorwiegend mittelständische Unternehmen, die wir mit unseren Telefonielösungen im Bereich Kundenservice oder Inside-Sales unterstützen.');
 	$job->text_description_long_set ('Du bist Ansprechpartner*in für unsere Kunden, mit denen wir einen sehr engen und partnerschaftlichen Kontakt pflegen. Du unterstützt sie vom Livegang bis hin zum Tagesgeschäft, erarbeitest gemeinsam mit dem Team Optimierungsvorschläge und Lösungsstrategien.');
 	$job->text_tasks_set ('Betreuung von Bestandskunden');
@@ -471,7 +471,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Vertrieb', 'HR-Manager*in (w/d/m), Schwerpunkt Recruiting und Employer Branding', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job = new job ('Vertrieb', 'HR-Manager*in, Schwerpunkt Recruiting und Employer Branding', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
 	$job->location_set ('Remote');
 	$job->url_set ('/karriere/job-hr-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
