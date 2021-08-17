@@ -20,12 +20,12 @@
 			&.btn--arrow-right:after {
 				filter: invert(1);
 			}
-			.btn__notification {
+			&.btn--notification:after {
 				background-color: $color-primary;
 				color: #000;
 			}
 		}
-		.btn__notification {
+		&.btn--notification:after {
 			background-color: #000;
 			color: #fff;
 		}
@@ -37,12 +37,12 @@
 		&:hover {
 			background-color: $color-primary;
 			color: #000;
-			.btn__notification {
+			.btn--notification:after {
 				background-color: #000;
 				color: #fff;
 			}
 		}
-		.btn__notification {
+		&.btn--notification:after {
 			background-color: $color-primary;
 			color: #000;
 		}
@@ -138,6 +138,27 @@
 		}
 	}
 	
+	&--notification {
+		position: relative;
+		padding-right: 80px;
+		&:after {
+			content: attr(data-notification);
+			position: absolute;
+			top: 50%;
+			right: 40px;
+			transform: translateY(-50%);
+			font-family: $font-headline;
+			font-size: 12px;
+			line-height: 1.5;
+			border-radius: 20px;
+			padding: 0 8px 3px 8px;
+			margin-left: 15px;
+			display: inline-block;
+			vertical-align: middle;
+			transition: all .3s ease;
+		}
+	}
+
 	&__notification {
 		font-family: $font-headline;
 		font-size: 12px;

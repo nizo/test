@@ -128,7 +128,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 
         <p class="btn-set btn-set--centered">
             <a href="#" class="btn btn--primary" data-openmodal="application" data-modaldata="<?= base64_encode('{"job": "'.$job->title_get().'"}'); ?>">Jetzt bewerben</a>
-            <a href="/karriere" class="btn btn--secondary">Alle offenen Stellen <span class="btn__notification"><?= count($jobs->jobs_get()) ?></span></a>
+            <a href="/karriere" class="btn btn--secondary btn--notification" data-notification="<?= count($jobs->jobs_get()) ?>">Alle offenen Stellen</a>
         </p>
     </div>
 </div>
