@@ -128,13 +128,13 @@ $jobs_benefits = jobs_benefits_load ();
                 <p>Menschen bei CallOne</p>
                 <div class="team__buttons">
                     <div class="team__button team__button--active" data-member="1">
-                        <img src="https://picsum.photos/id/646/200" alt="" />
+                        <img src="/assets/images/photos/charlotta-portrait.jpg" alt="Charlotta" />
                     </div>
                     <div class="team__button" data-member="2">
-                        <img src="https://picsum.photos/id/338/200" alt="" />
+                        <img src="/assets/images/photos/brian-portrait.jpg" alt="Brian" />
                     </div>
                     <div class="team__button" data-member="3">
-                        <img src="https://picsum.photos/id/550/200" alt="" />
+                        <img src="/assets/images/photos/stefanie-portrait.jpg" alt="Stefanie" />
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ $jobs_benefits = jobs_benefits_load ();
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
-                            <img src="https://picsum.photos/id/646/368/510" alt="" />
+                            <img src="/assets/images/photos/charlotta-stehend.jpg" alt="Charlotta" />
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
                             <strong>Tagesagenda</strong><br />
@@ -180,7 +180,7 @@ $jobs_benefits = jobs_benefits_load ();
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
-                            <img src="https://picsum.photos/id/338/368/510" alt="" />
+                            <img src="/assets/images/photos/brian-stehend.jpg" alt="Brian" />
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-it-technik">
                             <strong>Tagesagenda</strong><br />
@@ -191,7 +191,7 @@ $jobs_benefits = jobs_benefits_load ();
 
                 <div class="team__member" data-member="3">
                     <div class="team__member-left">
-                        <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
+                        <blockquote>„Ich komme jeden Tag gerne zur Arbeit, weil ich mich auf meine Kollegen und neue, spannende Aufgaben freue.”</blockquote>
                         <h6>
                             <strong>Stefanie</strong><br />
                             Human Resources
@@ -205,7 +205,7 @@ $jobs_benefits = jobs_benefits_load ();
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
-                            <img src="https://picsum.photos/id/550/368/510" alt="" />
+                            <img src="/assets/images/photos/stefanie-stehend.jpg" alt="Stefanie" />
                         </div>
                         <div class="team__member-agenda" data-openmodal="agenda-human-ressources">
                             <strong>Tagesagenda</strong><br />
