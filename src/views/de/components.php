@@ -8,6 +8,102 @@
         </div>
     </div>
 
+    <!-- Template -->
+    <!-- <div class="components__item">
+        <div class="components__docs">
+            <h1>Title</h1>
+            <p>Description</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                HTML HERE
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Agenda -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Agenda</h1>
+            <p>The agenda is mainly used inside modals.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="agenda">
+                    <div class="agenda__title">Vormittag</div>
+
+                    <div class="agenda__row">
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--cup">
+                                Tasse Kaffee oder Tee
+                            </div>
+                            <div class="agenda__item agenda__item--green agenda__item--customer-support agenda__size--2">
+                                Kunden-Support
+                            </div>
+                        </div>
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--blue agenda__item--exchange">
+                                Daily Standup zur operativen Abstimmung
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda__break">
+                        <strong>Mittagspause</strong><br />
+                        Gemeinsam als Team oder alleine
+                    </div>
+
+                    <div class="agenda__title">Nachmittag</div>
+
+                    <div class="agenda__row">
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--red agenda__item--computer">
+                                Anforderungen der Kunden planen und umsetzen
+                            </div>
+                            <div class="agenda__item agenda__item--blue agenda__item--exchange">
+                                Schulung zu neuen Entwicklungstechniken
+                            </div>
+                            <div class="agenda__item agenda__item--red agenda__item--computer">
+                                Unrerstützung der KollegInnen bei Firewallthemen
+                            </div>
+                        </div>
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--green agenda__item--customer-support">
+                                Kunden-Support
+                            </div>
+                            <div class="agenda__item agenda__item--yellow agenda__item--exchange">
+                                Kommunikation mit CallOne Lieferanten
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda__legend">
+                        <div class="agenda__info agenda__info--blue">Interne Kommunikation</div>
+                        <div class="agenda__info agenda__info--green">Kundenkommunikation</div>
+                        <div class="agenda__info agenda__info--red">Computer-Arbeit</div>
+                        <div class="agenda__info agenda__info--yellow">Lieferantenkommunikation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alterbox -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Alertbox</h1>
+            <p>A little alert box to show important information.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="alertbox alertbox--hint appointment-output">
+                    01.01.1970<br />
+                    <small>12:00 - 15:00</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Anchors -->
     <div class="components__item">
         <div class="components__docs">
@@ -39,30 +135,153 @@
             <ul>
                 <li><code>.btn--primary</code>: Primary</li>
                 <li><code>.btn--secondary</code>: Secondary</li>
+                <li><code>.btn--border-black</code>: Bordered Button</li>
+                <li><code>.btn--border-white</code>: Bordered Button</li>
+                <li><code>.btn--application</code>: Used as a button to open the application modal</li>
             </ul>
             <p><strong>Modifiers:</strong></p>
             <ul>
                 <li><code>.btn--centered</code>: Centered</li>
                 <li><code>.btn--full-width</code>: Full Width</li>
                 <li><code>.btn--arrow-right</code>: Arrow Right</li>
+                <li><code>.btn--nowrap</code>: No white-space wrapping</li>
             </ul>
             <p><strong>Optional:</strong></p>
             <ul>
                 <li><code>.btn__notification</code>: Adds notification Bubble</li>
+                <li><code>.btn-set</code>: Creates box with buttons besides each other</li>
+                <li><code>.btn-set--centered</code>: Centeres buttons in button set</li>
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/stylesheets/scss/components/_buttons.scss</code></li>
             </ul>
         </div>
-        <div class="components__preview">
+        <div class="components__preview" style="background-color: #ddd">
             <div>
                 <a href="#" class="btn btn--primary">Button Primary</a>
                 <a href="#" class="btn btn--secondary">Button Secondary</a>
+                <a href="#" class="btn btn--border-black">Button Black Border</a>
+                <a href="#" class="btn btn--border-white">Button White Border</a>
                 <a href="#" class="btn btn--primary btn--centered">Centered</a>
                 <a href="#" class="btn btn--primary btn--full-width">Full Width</a>
                 <a href="#" class="btn btn--primary btn--arrow-right">Arrow Right</a>
                 <a href="#" class="btn btn--primary">Jobs <span class="btn__notification">10</span></a>
+                <a href="#" class="btn btn--application">
+                    <strong>Application</strong><br />
+                    Open Modal
+                </a>
+
+                <div class="btn-set">
+                    <a href="#" class="btn btn--primary">Button Primary</a>
+                    <a href="#" class="btn btn--secondary">Button Secondary</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calendar -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Calendar</h1>
+            <p>The calendar is used inside modals eg. appointment booking. Code mainly generated by using PHP, please check the source of this file.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <?php
+                $weeks = [];
+                $monday = strtotime(date('o-\WW'));
+                $weeks[] = [
+                    $monday,
+                    strtotime('next tuesday', $monday),
+                    strtotime('next wednesday', $monday),
+                    strtotime('next thursday', $monday),
+                    strtotime('next friday', $monday)
+                ];
+                $nextMonday = strtotime('next monday');
+                $weeks[] = [
+                    $nextMonday,
+                    strtotime('next tuesday', $nextMonday),
+                    strtotime('next wednesday', $nextMonday),
+                    strtotime('next thursday', $nextMonday),
+                    strtotime('next friday', $nextMonday)
+                ]
+                ?>
+
+                <div class="calendar">
+                    <?php
+                    foreach ($weeks as $w) {
+                        ?>
+                        <div class="calendar__week">
+                            <?php
+                            foreach ($w as $d) {
+                                $extraClass = "";
+                                $today = strtotime("today"); // today
+                                $past = false;
+                                if ($d < $today) {
+                                    $extraClass = " calendar__day--past";
+                                    $past = true;
+                                }
+                                ?>
+                                <div class="calendar__day<?= $extraClass; ?>">
+                                    <div class="calendar__day-header">
+                                        <h3>
+                                            <?php
+                                            $dayName = date("D", $d);
+                                            switch (date("N", $d)) {
+                                                case 1:
+                                                    $dayName = "Mo";
+                                                    break;
+                                                case 2:
+                                                    $dayName = "Di";
+                                                    break;
+                                                case 3:
+                                                    $dayName = "Mi";
+                                                    break;
+                                                case 4:
+                                                    $dayName = "Do";
+                                                    break;
+                                                case 5:
+                                                    $dayName = "Fr";
+                                                    break;
+                                            }
+                                            echo $dayName;
+                                            ?>
+                                            <br />
+                                            <span><?= date("d", $d); ?></span>
+                                        </h3>
+                                        
+                                        <p>Ab 14:00 Uhr</p>
+                                    </div>
+                                    <div class="calendar__day-times">
+                                        <?php
+                                        if (!$past) {
+                                            $isToday = date($d) == $today;
+                                            for ($i = 14; $i <= 17; $i++) {
+                                                if (!$isToday || ($isToday && date("H") < $i)) {
+                                                    $timestamp = $d + ($i * 3600);
+                                                    $date = date("d.m.Y", $d).", ".$i.":00 - ".($i + 1).":00";
+                                                    echo "<div class='calendar__time callone-modal__nextstep' data-date='".$timestamp."'>";
+                                                    echo $i.":00 - ".($i + 1).":00<br />";
+                                                    echo "<span>Buchen</span>";
+                                                    echo "</div>";
+                                                }
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                    <div class="calendar__day-footer">
+                                        Bis 18:00 Uhr
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                            ?>
+                        </div>
+                        <?php
+                    }
+                    ?>
+                </div>
             </div>
         </div>
     </div>
@@ -169,6 +388,26 @@
                     <option value="2">Option 2 with super looooong label, that will not fit within the field</option>
                     <option value="3">Option 3</option>
                 </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fade Box -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Fade Box</h1>
+            <p>Box with fading background.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.fade-box--on-black</code>: Version for dark backgrounds</li>
+            </ul>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="fade-box">
+                    <h2 class="centered">Ansprechpartnerin</h2>
+                    <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
+                </div>
             </div>
         </div>
     </div>
