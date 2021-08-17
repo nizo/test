@@ -34,7 +34,7 @@
                     Schulung zu neuen Entwicklungstechniken
                 </div>
                 <div class="agenda__item agenda__item--red agenda__item--computer">
-                    Unrerstützung der KollegInnen bei Firewallthemen
+                    Unterstützung der KollegInnen bei Firewallthemen
                 </div>
             </div>
             <div class="agenda__col">
