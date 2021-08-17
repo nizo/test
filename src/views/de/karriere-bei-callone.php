@@ -191,7 +191,7 @@ $jobs_benefits = jobs_benefits_load ();
 
                 <div class="team__member" data-member="3">
                     <div class="team__member-left">
-                        <blockquote>„Ich komme jeden Tag gerne zur Arbeit, weil ich mich auf meine Kollegen und neue, spannende Aufgaben freue.”</blockquote>
+                        <blockquote>„Das Schöne an CallOne ist der starke Zusammenhalt im Team. Innerhalb kürzester Zeit kann man viel bewegen und sich dabei selbst entfalten. Das schätze ich.”</blockquote>
                         <h6>
                             <strong>Stefanie</strong><br />
                             Human Resources
