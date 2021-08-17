@@ -73,6 +73,9 @@
                 display: inline-block;
                 vertical-align: middle;
                 margin-top: -5px;
+                @media screen and (max-width: 800px) {
+                    display: none;
+                }
             }
             .headline-tag {
                 background-color: #c4c4c4;

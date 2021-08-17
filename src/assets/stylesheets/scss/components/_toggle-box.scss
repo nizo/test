@@ -105,3 +105,18 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .toggle-box {
+    input + label {
+      padding: $gutter-m;
+      padding-left: calc(16px + #{$gutter-m} + #{$gutter-s});
+      &:before {
+        left: $gutter-m;
+      }
+    }
+    .toggle-box__content {
+      padding: $gutter-m;
+    }
+  }
+}

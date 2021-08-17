@@ -138,6 +138,7 @@
                 <li><code>.btn--border-black</code>: Bordered Button</li>
                 <li><code>.btn--border-white</code>: Bordered Button</li>
                 <li><code>.btn--application</code>: Used as a button to open the application modal</li>
+                <li><code>.btn--notification</code>: Combined with <code>data-notification</code> produces same as <code>.btn__notification</code> but position absolute, better for wrapping text inside buttons</li>
             </ul>
             <p><strong>Modifiers:</strong></p>
             <ul>
