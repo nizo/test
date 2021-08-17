@@ -21,15 +21,27 @@
         margin-top: 25px;
     }
     &__button {
+        position: relative;
         border: 2px solid transparent;
         padding: 5px;
         border-radius: 50%;
         width: 84px;
         height: 84px;
         cursor: pointer;
+
         img {
             border-radius: 50%;
         }
+
+        &:after {
+            content: attr(data-name);
+            position: absolute;
+            font-size: 12px;
+            bottom: 0;
+            left: 50%;
+            transform: translate3d(-50%, calc(100% + 5px), 0);
+        }
+
         &+.team__button {
             margin-left: 20px;
         }

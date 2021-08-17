@@ -150,15 +150,15 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 
 <div class="section section--light-grey-green">
     <div class="section__content section__content--wide">
-        <div class="grid">
-            <div class="grid__col grid__col--12-xs grid__col--6-md">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <h3>Der Job</h3>
                 <?php
                 foreach ($job->text_description_long_get() as $text_description_long)
                     echo '<p>'.$text_description_long.'</p>';
                 ?>
             </div>
-            <div class="grid__col grid__col--12-xs grid__col--6-md">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <?php
                 if (!empty($job->statement_get())):
                     $key = array_rand($job->statement_get());
@@ -181,8 +181,8 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     </div>
 
     <div class="section__content section__content--wide">
-        <div class="grid">
-            <div class="grid__col grid__col--12-xs grid__col--6-md">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <h3>Wobei wir deine Hilfe brauchen</h3>
                 <ul class="list list--checkmarks">
 					<?php
@@ -191,7 +191,7 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 					?>
 				</ul>
             </div>
-            <div class="grid__col grid__col--12-xs grid__col--6-md">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <h3>Was wir uns wünschen</h3>
                 <ul class="list list--checkmarks">
 					<?php
@@ -220,10 +220,10 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
     <div class="section__content section__content--wide">
         <h1 class="centered">Das haben wir dir zu bieten:</h1>
 
-        <div class="grid mobile-hidden">
+        <div class="co-grid mobile-hidden">
             <?php
             foreach ($jobs_benefits as $benefit) {
-                echo '<div class="card centered grid__col grid__col--12-xs grid__col--6-sm grid__col--4-md">';
+                echo '<div class="card centered co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">';
                 echo '<img src="'.$benefit->icon_get().'" alt="" />';
                 echo '<h3>'.$benefit->title_get().'</h3>';
                 echo '<p>'.$benefit->text_get().'</p>';

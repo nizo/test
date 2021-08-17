@@ -314,22 +314,22 @@
                 </div>
 
                 <!-- Grid Version -->
-                <div class="grid">
-                    <div class="grid__col grid__col--4-xs">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--4-xs">
                         <div class="card centered">
                             <img src="/assets/images/icons_svg/benefits.svg" alt="" />
                             <h3>Bonbons gefällig?</h3>
                             <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
                         </div>
                     </div>
-                    <div class="grid__col grid__col--4-xs">
+                    <div class="co-grid__col co-grid__col--4-xs">
                         <div class="card centered">
                             <img src="/assets/images/icons_svg/benefits.svg" alt="" />
                             <h3>Bonbons gefällig?</h3>
                             <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
                         </div>
                     </div>
-                    <div class="grid__col grid__col--4-xs">
+                    <div class="co-grid__col co-grid__col--4-xs">
                         <div class="card centered">
                             <img src="/assets/images/icons_svg/benefits.svg" alt="" />
                             <h3>Bonbons gefällig?</h3>
@@ -477,7 +477,7 @@
             </ul>
         </div>
         <style>
-            .grid-system .grid__col {
+            .grid-system .co-grid__col {
                 background-color: green;
                 text-align: center;
                 color: #fff;
@@ -485,17 +485,17 @@
         </style>
         <div class="components__preview grid-system">
             <div>
-                <div class="grid">
-                    <div class="grid__col grid__col--12-xs">12/12</div>
-                    <div class="grid__col grid__col--6-xs">6/12</div>
-                    <div class="grid__col grid__col--6-xs">6/12</div>
-                    <div class="grid__col grid__col--4-xs">4/12</div>
-                    <div class="grid__col grid__col--4-xs">4/12</div>
-                    <div class="grid__col grid__col--4-xs">4/12</div>
-                    <div class="grid__col grid__col--3-xs">3/12</div>
-                    <div class="grid__col grid__col--3-xs">3/12</div>
-                    <div class="grid__col grid__col--3-xs">3/12</div>
-                    <div class="grid__col grid__col--3-xs">3/12</div>
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--12-xs">12/12</div>
+                    <div class="co-grid__col co-grid__col--6-xs">6/12</div>
+                    <div class="co-grid__col co-grid__col--6-xs">6/12</div>
+                    <div class="co-grid__col co-grid__col--4-xs">4/12</div>
+                    <div class="co-grid__col co-grid__col--4-xs">4/12</div>
+                    <div class="co-grid__col co-grid__col--4-xs">4/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
                 </div>
             </div>
         </div>

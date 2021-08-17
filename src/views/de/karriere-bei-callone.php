@@ -52,13 +52,13 @@ $jobs_benefits = jobs_benefits_load ();
     </div>
 
     <div class="section__content section__content--wide section__content--gutter-top">
-        <div class="grid centered">
-            <div class="grid__col grid__col--12-xs grid__col--6-sm">
+        <div class="co-grid centered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
                 <h2>Wir alle wissen es: Kundenhotlines sind die Hölle</h2>
                 <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser.</p>
             </div>
-            <div class="grid__col grid__col--12-xs grid__col--6-sm">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="" />
                 <h2>Mit CallOne macht Kundenservice das erste Mal Spaß</h2>
                 <p class="mobile-hidden">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
@@ -127,13 +127,13 @@ $jobs_benefits = jobs_benefits_load ();
             <div class="team__header">
                 <p>Menschen bei CallOne</p>
                 <div class="team__buttons">
-                    <div class="team__button team__button--active" data-member="1">
+                    <div class="team__button team__button--active" data-member="1" data-name="Charlotta">
                         <img src="/assets/images/photos/charlotta-portrait.jpg" alt="Charlotta" />
                     </div>
-                    <div class="team__button" data-member="2">
+                    <div class="team__button" data-member="2" data-name="Brian">
                         <img src="/assets/images/photos/brian-portrait.jpg" alt="Brian" />
                     </div>
-                    <div class="team__button" data-member="3">
+                    <div class="team__button" data-member="3" data-name="Stefanie">
                         <img src="/assets/images/photos/stefanie-portrait.jpg" alt="Stefanie" />
                     </div>
                 </div>
@@ -323,12 +323,12 @@ $jobs_benefits = jobs_benefits_load ();
                 <a href="#" class="btn btn--border-white btn--centered" data-openmodal="application">Jetzt bewerben</a>
             </p>
 
-            <div class="grid centered">
-                <div class="grid__col grid__col--6-lg">
+            <div class="co-grid centered">
+                <div class="co-grid__col co-grid__col--6-lg">
                     <h4>E-Mail</h4>
                     <a href="mailto:jobs@callone.de">jobs@callone.de</a>
                 </div>
-                <div class="grid__col grid__col--6-lg">
+                <div class="co-grid__col co-grid__col--6-lg">
                     <h4>Anruf</h4>
                     <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>
                 </div>

@@ -1,4 +1,4 @@
-.grid {
+.co-grid {
     --gutter: 30px;
     //outline: 1px solid red; // For Debugging
     margin-bottom: var(--gutter);
@@ -33,7 +33,7 @@ $breakpoints: (
 @each $size, $value in $breakpoints {
     @media screen and (min-width: #{$value}px) {
         @for $i from 1 through 12 {
-            .grid__col--#{$i}-#{$size} {
+            .co-grid__col--#{$i}-#{$size} {
                 width: calc(#{percentage($i/12)} - var(--gutter));
             }
         }
