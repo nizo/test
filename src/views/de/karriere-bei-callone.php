@@ -354,7 +354,7 @@ $jobs_benefits = jobs_benefits_load ();
             <input type="checkbox" id="faq-2" />
             <label for="faq-2">Wie läuft die Einarbeitung ab?</label>
             <div class="toggle-box__content">
-                <p>Wir erstellen für dich einen Einarbeitungsplan mit verschiedenen Stationen und Themengebieten, die für dich relevant sind. Du lernst deine Kolleginnen und Kollegen näher kennen und du wirst viel von ihrem Produktwissen profitieren. Eine gute Einarbeitung lebt davon, dass es keine Scheu gibt Fragen zu stellen. Von Anfang an bist du bei den Teammeetings, Produktschulungen und Kundenmeetings dabei und lernst on-the-job.</p>
+                <p>Wir erstellen für dich einen Einarbeitungsplan mit verschiedenen Stationen und Themengebieten, die für dich relevant sind. Du lernst deine Kolleg*innen näher kennen und du wirst viel von ihrem Produktwissen profitieren. Eine gute Einarbeitung lebt davon, dass es keine Scheu gibt Fragen zu stellen. Von Anfang an bist du bei den Teammeetings, Produktschulungen und Kundenmeetings dabei und lernst on-the-job.</p>
             </div>
         </div>
         <div class="toggle-box">
@@ -368,7 +368,7 @@ $jobs_benefits = jobs_benefits_load ();
             <input type="checkbox" id="faq-4" />
             <label for="faq-4">Welche Sprachen sollte ich bei CallOne beherrschen?</label>
             <div class="toggle-box__content">
-                <p>Sehr gute Deutsch- und gute Englischkenntnisse sorgen dafür, dass die Kommunikation mit unseren Kundinnen und Kunden reibungslos läuft.</p>
+                <p>Sehr gute Deutsch- und gute Englischkenntnisse sorgen dafür, dass die Kommunikation mit unseren Kund*innen reibungslos läuft.</p>
             </div>
         </div>
         <div class="toggle-box">
