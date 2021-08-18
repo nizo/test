@@ -11,7 +11,7 @@
         <div class="promo-menu">
           <ul class="promo-menu-content">
             <li><a href="/ueber-uns">Über uns</a></li>
-            <li><a href="/karriere">Karriere</a></li>
+            <li><a href="/karriere-bei-callone">Karriere</a></li>
             <li><a href="/impressum">Impressum</a></li>
           </ul>
         </div>
