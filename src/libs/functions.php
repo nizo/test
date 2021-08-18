@@ -1,7 +1,18 @@
-<?php 
+<?php
+
+    // Get current build timestamp
+    function getBuildTimestamp() {
+        $build_timestamp = "";
+        if (file_exists(dirname(__FILE__).'/build_timestamp.cfg')) {
+            $build_timestamp = file_get_contents(dirname(__FILE__).'/build_timestamp.cfg');
+        }
+        return $build_timestamp;
+    }
     
     /* Load CSS-Files from directory */
     function loadCSS($dir, $js=false) {
+        $build_timestamp = getBuildTimestamp();
+
         if (!isset($dir)) {
             $dir = getcwd();
             $dir = $dir . "/assets/stylesheets";
@@ -33,9 +44,9 @@
                     $css .= "lazyLoadingCss('/assets/stylesheets/".$addCssFile[0]."');";
             } else {
                 if ( preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) ) {
-                    echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '" type="text/css" /><![endif]-->';
+                    echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$build_timestamp.'" type="text/css" /><![endif]-->';
                 } else {
-                    echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '" type="text/css" />';
+                    echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$build_timestamp.'" type="text/css" />';
                 }
             }
         }
@@ -53,6 +64,8 @@
 
     /* Load JS-Files from directory */
     function loadJS($dir) {
+        $build_timestamp = getBuildTimestamp();
+
         if (!isset($dir)) {
             $dir = getcwd();
             $dir = $dir . "/assets/javascripts";
@@ -71,7 +84,7 @@
             if ( empty($addJSFile) ) {
                 break;
             }
-            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '"></script>';            
+            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '?build='.$build_timestamp.'"></script>';            
         }
     }
 

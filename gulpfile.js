@@ -11,6 +11,7 @@ const gulp         = require('gulp'),
       concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
+      fs           = require('fs'),
       browserSync  = require('browser-sync').create();
 const { series, parallel } = require('gulp');
 
@@ -24,14 +25,21 @@ var paths = {
   javascripts: './src/assets/javascripts/'
 };
 
+function updateBuildTimestamp() {
+  let ts = new Date().getTime() + '';
+  console.log('Updated Build Timestmap to: ' + ts);
+  return fs.writeFileSync(paths.source + 'libs/build_timestamp.cfg', ts);
+}
+
 // Delete old css file
 function cleanStyle() {
-  return gulp.src(paths.stylesheets + 'application-*.min.css', {read: false})
+  return gulp.src(paths.stylesheets + 'application.min.css', {read: false, allowEmpty: true})
     .pipe(clean());
 }
 
 // Compile SCSS into CSS
 function compileStyle() {
+  updateBuildTimestamp();
   return gulp.src(paths.scss + 'application.scss')
     .pipe(sass().on('error', sass.logError))          // Compile SCSS into CSS
     .pipe(autoprefixer())                             // Run autoprefixer on CSS
@@ -39,14 +47,14 @@ function compileStyle() {
       console.log(details.name + ' Original size: ' + details.stats.originalSize / 1000 + 'kB');
       console.log(details.name + ' Minified size: ' + details.stats.minifiedSize / 1000 + 'kB');
     }))
-    .pipe(rename('application-'+((new Date()).getTime())+'.min.css')) // Rename CSS file
+    .pipe(rename('application.min.css')) // Rename CSS file
     .pipe(gulp.dest(paths.stylesheets))               // Save CSS file
     .pipe(browserSync.stream())
 }
 
 // Delete old js file
 function cleanScripts() {
-  return gulp.src(paths.javascripts + 'application-*.min.js', {read: false})
+  return gulp.src(paths.javascripts + 'application.min.js', {read: false, allowEmpty: true})
     .pipe(clean());
 }
 
@@ -59,7 +67,7 @@ function compileScripts() {
     .pipe(uglify().on('error', function(e){
         console.log(e);
     }))
-    .pipe(concat('application-'+((new Date()).getTime())+'.min.js'))
+    .pipe(concat('application.min.js'))
     .pipe(gulp.dest(paths.javascripts));
 }
 

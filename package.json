@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.13",
+    "fs": "0.0.1-security",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean": "^0.4.0",
