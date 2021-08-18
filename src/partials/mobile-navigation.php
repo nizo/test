@@ -156,12 +156,13 @@ $jobs = jobs_load ();
       <a class="submenu" href="/karriere">Jobs</a>
       <ul class="pages-submenu product-menu">
         <?php
-        foreach ($jobs as $job)
+        foreach ($jobs->jobs_get() as $job)
         {
           if (empty ($job->url_get()))
             continue;
           
           echo '<li><a href="'.$job->url_get().'" class="product">';
+          echo '<img src="'.$job->icon_get().'" alt="" style="width:1.5em;vertical-align:middle;margin-right:10px" />';
           echo '<div><span>'.$job->title_get().'</span></div></a></li>';
         }
         ?>

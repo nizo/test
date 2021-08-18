@@ -451,7 +451,7 @@ $grid-gutter: $gutter-l;
 		}
 	}
 
-	[class*='col-'] {
+	[class^='col-'] {
 		margin-bottom: $gutter-l;
 
 		&.padding {

@@ -6,7 +6,7 @@
     &+label {
       position: relative;
       font-size: 20px;
-      font-weight: 700;
+      font-weight: normal;
       font-family: $font-headline;
       line-height: 24px;
       cursor: pointer;
@@ -102,6 +102,21 @@
     &+.toggle-box {
       border-top: 2px solid #f1f1f1;
       margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .toggle-box {
+    input + label {
+      padding: $gutter-m;
+      padding-left: calc(16px + #{$gutter-m} + #{$gutter-s});
+      &:before {
+        left: $gutter-m;
+      }
+    }
+    .toggle-box__content {
+      padding: $gutter-m;
     }
   }
 }

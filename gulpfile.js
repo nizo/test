@@ -6,12 +6,14 @@ const gulp         = require('gulp'),
       coffee       = require('gulp-coffee'),
       merge2       = require('merge2'),
       gutil        = require('gulp-util'),
-      //uglify       = require('gulp-uglify'),
       uglify       = require('gulp-uglify-es').default,
       concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
+      fs           = require('fs'),
+      fileChecksum = require('gulp-file-checksum'),
       browserSync  = require('browser-sync').create();
+
 const { series, parallel } = require('gulp');
 
 var paths = {
@@ -26,12 +28,12 @@ var paths = {
 
 // Delete old css file
 function cleanStyle() {
-  return gulp.src(paths.stylesheets + 'application-*.min.css', {read: false})
+  return gulp.src(paths.stylesheets + 'application.min.css', {read: false, allowEmpty: true})
     .pipe(clean());
 }
 
 // Compile SCSS into CSS
-function compileStyle() {
+function compileStyle() {  
   return gulp.src(paths.scss + 'application.scss')
     .pipe(sass().on('error', sass.logError))          // Compile SCSS into CSS
     .pipe(autoprefixer())                             // Run autoprefixer on CSS
@@ -39,14 +41,24 @@ function compileStyle() {
       console.log(details.name + ' Original size: ' + details.stats.originalSize / 1000 + 'kB');
       console.log(details.name + ' Minified size: ' + details.stats.minifiedSize / 1000 + 'kB');
     }))
-    .pipe(rename('application-'+((new Date()).getTime())+'.min.css')) // Rename CSS file
+    .pipe(rename('application.min.css')) // Rename CSS file
     .pipe(gulp.dest(paths.stylesheets))               // Save CSS file
-    .pipe(browserSync.stream())
+    .pipe(browserSync.stream());
+}
+
+// Checksum CSS
+function checksumStyle() {
+  return gulp.src(paths.stylesheets + 'application.min.css')
+    .pipe(fileChecksum({
+      template: '{md5}',
+      output: 'css_hash.cfg'
+    }))
+    .pipe(gulp.dest(paths.source + 'libs'));
 }
 
 // Delete old js file
 function cleanScripts() {
-  return gulp.src(paths.javascripts + 'application-*.min.js', {read: false})
+  return gulp.src(paths.javascripts + 'application.min.js', {read: false, allowEmpty: true})
     .pipe(clean());
 }
 
@@ -59,8 +71,18 @@ function compileScripts() {
     .pipe(uglify().on('error', function(e){
         console.log(e);
     }))
-    .pipe(concat('application-'+((new Date()).getTime())+'.min.js'))
+    .pipe(concat('application.min.js'))
     .pipe(gulp.dest(paths.javascripts));
+}
+
+// Checksum JS
+function checksumScripts() {
+  return gulp.src(paths.javascripts + 'application.min.js')
+    .pipe(fileChecksum({
+      template: '{md5}',
+      output: 'js_hash.cfg'
+    }))
+    .pipe(gulp.dest(paths.source + 'libs'));
 }
 
 function reload(done) {
@@ -78,9 +100,9 @@ function server() {
       open: false
     });
   });
-  gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle));
-  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts));
-  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts));
+  gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle, checksumStyle));
+  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts, checksumScripts));
+  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts, checksumScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);
@@ -89,4 +111,4 @@ function server() {
 }
 
 // exports.watch = watch;
-exports.default = series(cleanStyle, compileStyle, cleanScripts, compileScripts, server);
+exports.default = series(cleanStyle, compileStyle, checksumStyle, cleanScripts, compileScripts, checksumScripts, server);

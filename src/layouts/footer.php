@@ -1,6 +1,21 @@
     
-    <?php if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/testseite' || $_SERVER['REQUEST_URI'] === '/ueber-uns' || $_SERVER['REQUEST_URI'] === '/kontakt' || $_SERVER['REQUEST_URI'] === '/testen') : ?>
-    	<?php // nothing ?>
+    <?php
+    $footer_hidden = [
+      '/',
+      '/testseite',
+      '/ueber-uns',
+      '/kontakt',
+      '/testen',
+      '/karriere-bei-callone',
+      '/karriere'
+    ];
+    $jobs = jobs_load();
+    foreach ($jobs->jobs_get() as $job) {
+      $footer_hidden[] = $job->url_get();
+    }
+
+    if (in_array($_SERVER['REQUEST_URI'], $footer_hidden)) : ?>
+      <?php // nothing ?>
     <?php else : ?>
         <div class="wrapper">
           <div class="content wide centered">
@@ -32,7 +47,7 @@
     	</div>
     <?php endif; ?>
 
-    <footer class="main-footer" style="<?= $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/testseite' || $_SERVER['REQUEST_URI'] === '/ueber-uns' || $_SERVER['REQUEST_URI'] === '/kontakt' || $_SERVER['REQUEST_URI'] === '/testen'? 'margin-top: 0;' : '' ?>">
+    <footer class="main-footer" style="<?= in_array($_SERVER['REQUEST_URI'], $footer_hidden) ? 'margin-top: 0;' : '' ?>">
       <div class="footer-content desktop">
         <div class="footer-grid">
           <div class="footer-column">

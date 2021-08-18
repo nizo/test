@@ -8,6 +8,124 @@
         </div>
     </div>
 
+    <!-- Template -->
+    <!-- <div class="components__item">
+        <div class="components__docs">
+            <h1>Title</h1>
+            <p>Description</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                HTML HERE
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Agenda -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Agenda</h1>
+            <p>The agenda is mainly used inside modals.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="agenda">
+                    <div class="agenda__title">Vormittag</div>
+
+                    <div class="agenda__row">
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--cup">
+                                Tasse Kaffee oder Tee
+                            </div>
+                            <div class="agenda__item agenda__item--green agenda__item--customer-support agenda__size--2">
+                                Kunden-Support
+                            </div>
+                        </div>
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--blue agenda__item--exchange">
+                                Daily Standup zur operativen Abstimmung
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda__break">
+                        <strong>Mittagspause</strong><br />
+                        Gemeinsam als Team oder alleine
+                    </div>
+
+                    <div class="agenda__title">Nachmittag</div>
+
+                    <div class="agenda__row">
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--red agenda__item--computer">
+                                Anforderungen der Kunden planen und umsetzen
+                            </div>
+                            <div class="agenda__item agenda__item--blue agenda__item--exchange">
+                                Schulung zu neuen Entwicklungstechniken
+                            </div>
+                            <div class="agenda__item agenda__item--red agenda__item--computer">
+                                Unrerstützung der KollegInnen bei Firewallthemen
+                            </div>
+                        </div>
+                        <div class="agenda__col">
+                            <div class="agenda__item agenda__item--green agenda__item--customer-support">
+                                Kunden-Support
+                            </div>
+                            <div class="agenda__item agenda__item--yellow agenda__item--exchange">
+                                Kommunikation mit CallOne Lieferanten
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda__legend">
+                        <div class="agenda__info agenda__info--blue">Interne Kommunikation</div>
+                        <div class="agenda__info agenda__info--green">Kundenkommunikation</div>
+                        <div class="agenda__info agenda__info--red">Computer-Arbeit</div>
+                        <div class="agenda__info agenda__info--yellow">Lieferantenkommunikation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alterbox -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Alertbox</h1>
+            <p>A little alert box to show important information.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="alertbox alertbox--hint appointment-output">
+                    01.01.1970<br />
+                    <small>12:00 - 15:00</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Anchors -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Anchor Buttons</h1>
+            <p>A row of anchor buttons with title message for easy access of multiple sections on a page.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="anchors">
+                    <div class="anchors__title">
+                        <strong>Schnelleinstieg:</strong> Was interessiert dich?
+                    </div>
+                    <div class="anchors__links">
+                        <a href="#anchor-1">Anchor 1</a>
+                        <a href="#anchor-2">Anchor 2</a>
+                        <a href="#anchor-3">Anchor 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Buttons -->
     <div class="components__item">
         <div class="components__docs">
@@ -15,23 +133,211 @@
             <p>We have multiple types of buttons and some modifiers that can change the overall behaviour of buttons.</p>
             <p><strong>Types:</strong></p>
             <ul>
-                <li>Primary <code>.btn--primary</code></li>
-                <li>Secondary <code>.btn--secondary</code></li>
+                <li><code>.btn--primary</code>: Primary</li>
+                <li><code>.btn--secondary</code>: Secondary</li>
+                <li><code>.btn--border-black</code>: Bordered Button</li>
+                <li><code>.btn--border-white</code>: Bordered Button</li>
+                <li><code>.btn--application</code>: Used as a button to open the application modal</li>
+                <li><code>.btn--notification</code>: Combined with <code>data-notification</code> produces same as <code>.btn__notification</code> but position absolute, better for wrapping text inside buttons</li>
             </ul>
             <p><strong>Modifiers:</strong></p>
             <ul>
-                <li>Centered <code>.btn--centered</code></li>
+                <li><code>.btn--centered</code>: Centered</li>
+                <li><code>.btn--full-width</code>: Full Width</li>
+                <li><code>.btn--arrow-right</code>: Arrow Right</li>
+                <li><code>.btn--nowrap</code>: No white-space wrapping</li>
+            </ul>
+            <p><strong>Optional:</strong></p>
+            <ul>
+                <li><code>.btn__notification</code>: Adds notification Bubble</li>
+                <li><code>.btn-set</code>: Creates box with buttons besides each other</li>
+                <li><code>.btn-set--centered</code>: Centeres buttons in button set</li>
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
-                <li><code>/src/assets/stylesheets/scss/_buttons.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_buttons.scss</code></li>
             </ul>
         </div>
-        <div class="components__preview">
+        <div class="components__preview" style="background-color: #ddd">
             <div>
                 <a href="#" class="btn btn--primary">Button Primary</a>
                 <a href="#" class="btn btn--secondary">Button Secondary</a>
+                <a href="#" class="btn btn--border-black">Button Black Border</a>
+                <a href="#" class="btn btn--border-white">Button White Border</a>
                 <a href="#" class="btn btn--primary btn--centered">Centered</a>
+                <a href="#" class="btn btn--primary btn--full-width">Full Width</a>
+                <a href="#" class="btn btn--primary btn--arrow-right">Arrow Right</a>
+                <a href="#" class="btn btn--primary">Jobs <span class="btn__notification">10</span></a>
+                <a href="#" class="btn btn--application">
+                    <strong>Application</strong><br />
+                    Open Modal
+                </a>
+
+                <div class="btn-set">
+                    <a href="#" class="btn btn--primary">Button Primary</a>
+                    <a href="#" class="btn btn--secondary">Button Secondary</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calendar -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Calendar</h1>
+            <p>The calendar is used inside modals eg. appointment booking. Code mainly generated by using PHP, please check the source of this file.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <?php
+                $weeks = [];
+                $monday = strtotime(date('o-\WW'));
+                $weeks[] = [
+                    $monday,
+                    strtotime('next tuesday', $monday),
+                    strtotime('next wednesday', $monday),
+                    strtotime('next thursday', $monday),
+                    strtotime('next friday', $monday)
+                ];
+                $nextMonday = strtotime('next monday');
+                $weeks[] = [
+                    $nextMonday,
+                    strtotime('next tuesday', $nextMonday),
+                    strtotime('next wednesday', $nextMonday),
+                    strtotime('next thursday', $nextMonday),
+                    strtotime('next friday', $nextMonday)
+                ]
+                ?>
+
+                <div class="calendar">
+                    <?php
+                    foreach ($weeks as $w) {
+                        ?>
+                        <div class="calendar__week">
+                            <?php
+                            foreach ($w as $d) {
+                                $extraClass = "";
+                                $today = strtotime("today"); // today
+                                $past = false;
+                                if ($d < $today) {
+                                    $extraClass = " calendar__day--past";
+                                    $past = true;
+                                }
+                                ?>
+                                <div class="calendar__day<?= $extraClass; ?>">
+                                    <div class="calendar__day-header">
+                                        <h3>
+                                            <?php
+                                            $dayName = date("D", $d);
+                                            switch (date("N", $d)) {
+                                                case 1:
+                                                    $dayName = "Mo";
+                                                    break;
+                                                case 2:
+                                                    $dayName = "Di";
+                                                    break;
+                                                case 3:
+                                                    $dayName = "Mi";
+                                                    break;
+                                                case 4:
+                                                    $dayName = "Do";
+                                                    break;
+                                                case 5:
+                                                    $dayName = "Fr";
+                                                    break;
+                                            }
+                                            echo $dayName;
+                                            ?>
+                                            <br />
+                                            <span><?= date("d", $d); ?></span>
+                                        </h3>
+                                        
+                                        <p>Ab 14:00 Uhr</p>
+                                    </div>
+                                    <div class="calendar__day-times">
+                                        <?php
+                                        if (!$past) {
+                                            $isToday = date($d) == $today;
+                                            for ($i = 14; $i <= 17; $i++) {
+                                                if (!$isToday || ($isToday && date("H") < $i)) {
+                                                    $timestamp = $d + ($i * 3600);
+                                                    $date = date("d.m.Y", $d).", ".$i.":00 - ".($i + 1).":00";
+                                                    echo "<div class='calendar__time callone-modal__nextstep' data-date='".$timestamp."'>";
+                                                    echo $i.":00 - ".($i + 1).":00<br />";
+                                                    echo "<span>Buchen</span>";
+                                                    echo "</div>";
+                                                }
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                    <div class="calendar__day-footer">
+                                        Bis 18:00 Uhr
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                            ?>
+                        </div>
+                        <?php
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Cards / Card</h1>
+            <p>Simple cards. Single cards are best used inside grids.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <!-- Cards Version -->
+                <div class="cards">
+                    <div class="cards__card cards__card--3">
+                        <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                        <h3>Bonbons gefällig?</h3>
+                        <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                    </div>
+                    <div class="cards__card cards__card--3">
+                        <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                        <h3>Bonbons gefällig?</h3>
+                        <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                    </div>
+                    <div class="cards__card cards__card--3">
+                        <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                        <h3>Bonbons gefällig?</h3>
+                        <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                    </div>
+                </div>
+
+                <!-- Grid Version -->
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--4-xs">
+                        <div class="card centered">
+                            <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                            <h3>Bonbons gefällig?</h3>
+                            <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                        </div>
+                    </div>
+                    <div class="co-grid__col co-grid__col--4-xs">
+                        <div class="card centered">
+                            <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                            <h3>Bonbons gefällig?</h3>
+                            <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                        </div>
+                    </div>
+                    <div class="co-grid__col co-grid__col--4-xs">
+                        <div class="card centered">
+                            <img src="/assets/images/icons_svg/benefits.svg" alt="" />
+                            <h3>Bonbons gefällig?</h3>
+                            <p>30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -43,7 +349,7 @@
             <p>A link styled as a card with icons, title and subtitle.</p>
             <p><strong>Files:</strong></p>
             <ul>
-                <li><code>/src/assets/stylesheets/scss/_card-link.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_card-link.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -72,7 +378,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/select.js</code></li>
-                <li><code>/src/assets/javascripts/scss/_select.scss</code></li>
+                <li><code>/src/assets/javascripts/scss/components/_select.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -83,6 +389,26 @@
                     <option value="2">Option 2 with super looooong label, that will not fit within the field</option>
                     <option value="3">Option 3</option>
                 </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fade Box -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Fade Box</h1>
+            <p>Box with fading background.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.fade-box--on-black</code>: Version for dark backgrounds</li>
+            </ul>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="fade-box">
+                    <h2 class="centered">Ansprechpartnerin</h2>
+                    <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -100,7 +426,7 @@
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
-                <li><code>/src/assets/stylesheets/scss/_floating-form.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_floating-form.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -137,6 +463,66 @@
         </div>
     </div>
 
+    <!-- Grid -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Grid System</h1>
+            <p>A simple grid system that uses multiple breakpoints and gutters. It stretches to the full width of its container and has gutters inbetween the columns/rows.</p>
+            <p><strong>Breakpoints:</strong></p>
+            <ul>
+                <li>xs: 0px</li>
+                <li>sm: 600px</li>
+                <li>md: 960px</li>
+                <li>lg: 1280px</li>
+                <li>xl: 1920px</li>
+            </ul>
+        </div>
+        <style>
+            .grid-system .co-grid__col {
+                background-color: green;
+                text-align: center;
+                color: #fff;
+            }
+        </style>
+        <div class="components__preview grid-system">
+            <div>
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--12-xs">12/12</div>
+                    <div class="co-grid__col co-grid__col--6-xs">6/12</div>
+                    <div class="co-grid__col co-grid__col--6-xs">6/12</div>
+                    <div class="co-grid__col co-grid__col--4-xs">4/12</div>
+                    <div class="co-grid__col co-grid__col--4-xs">4/12</div>
+                    <div class="co-grid__col co-grid__col--4-xs">4/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                    <div class="co-grid__col co-grid__col--3-xs">3/12</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero / Header -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Hero / Header Area</h1>
+            <p>Hero / Header Area to use as a page entry. It consists of text and image/media side by side.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="hero">
+                    <div class="hero__text">
+                        <h1>Headline</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam iste laboriosam, dolorum, laudantium iure ipsa earum excepturi tempore temporibus ducimus maiores ex optio aperiam quod, quas esse iusto provident!</p>
+                    </div>
+                    <div class="hero__image">
+                        <img src="//via.placeholder.com/500" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Infinity Scroller -->
     <div class="components__item">
         <div class="components__docs">
@@ -150,7 +536,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/coffee/application.coffee</code> # Content Scroller</li>
-                <li><code>/src/assets/stylesheets/scss/_scroller.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_scroller.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -195,6 +581,7 @@
             <p><strong>Modal Button:</strong></p>
             <ul>
                 <li><code>data-modal="name"</code>: the identifier of the modal</li>
+                <li><code>data-modaldata='<?= base64_encode('{"key": "value"}'); ?>'</code>: Data that can be passed to the actual modal. Has to be base64 encoded JSON.</li>
             </ul>
             <p><strong>Modal:</strong></p>
             <ul>
@@ -216,6 +603,7 @@
                 <li><code>data-prev-step="1"</code>: Specifies the previous step to display when back button is clicked</li>
                 <li><code>data-no-back="true"</code>: Prevents step back button from being shown.</li>
                 <li><code>data-no-footer="true"</code>: Hide step footer with action button.</li>
+                <li><code>data-next-button-text="Weiter"</code>: Label for next button</li>
             </ul>
             <p><strong>Forms in Modals:</strong></p>
             <ul>
@@ -225,7 +613,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/callone-modal.js</code></li>
-                <li><code>/src/assets/stylesheets/scss/_callone-modal.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_modal.scss</code></li>
                 <li><code>/src/partials/modals/*</code></li>
             </ul>
         </div>
@@ -278,7 +666,7 @@
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/range.js</code></li>
-                <li><code>/src/assets/stylesheets/scss/_range.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_range.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">
@@ -297,10 +685,14 @@
         <div class="components__docs">
             <h1>Step Slider</h1>
             <p>Slider for multiple steps.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.step-slider--on-black</code>: Version to use on black backgrounds</li>
+            </ul>
             <p><strong>Files:</strong></p>
             <ul>
                 <li><code>/src/assets/javascripts/custom/step-slider.js</code></li>
-                <li><code>/src/assets/stylesheets/scss/_step-slider.scss</code></li>
+                <li><code>/src/assets/stylesheets/scss/components/_step-slider.scss</code></li>
             </ul>
         </div>
         <div class="components__preview">

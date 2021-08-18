@@ -1,7 +1,25 @@
-<?php 
+<?php
+
+    // Get css/js hash
+    function getCssHash() {
+        $css_hash = "";
+        if (file_exists($_SERVER['DOCUMENT_ROOT'].'/libs/css_hash.cfg')) {
+            $css_hash = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/libs/css_hash.cfg');
+        }
+        return $css_hash;
+    }
+    function getJsHash() {
+        $js_hash = "";
+        if (file_exists($_SERVER['DOCUMENT_ROOT'].'/libs/js_hash.cfg')) {
+            $js_hash = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/libs/js_hash.cfg');
+        }
+        return $js_hash;
+    }
     
     /* Load CSS-Files from directory */
     function loadCSS($dir, $js=false) {
+        $css_hash = getCssHash();
+
         if (!isset($dir)) {
             $dir = getcwd();
             $dir = $dir . "/assets/stylesheets";
@@ -33,9 +51,9 @@
                     $css .= "lazyLoadingCss('/assets/stylesheets/".$addCssFile[0]."');";
             } else {
                 if ( preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) ) {
-                    echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '" type="text/css" /><![endif]-->';
+                    echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" /><![endif]-->';
                 } else {
-                    echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '" type="text/css" />';
+                    echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" />';
                 }
             }
         }
@@ -53,6 +71,8 @@
 
     /* Load JS-Files from directory */
     function loadJS($dir) {
+        $js_hash = getJsHash();
+
         if (!isset($dir)) {
             $dir = getcwd();
             $dir = $dir . "/assets/javascripts";
@@ -71,7 +91,7 @@
             if ( empty($addJSFile) ) {
                 break;
             }
-            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '"></script>';            
+            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '?build='.$js_hash.'"></script>';            
         }
     }
 

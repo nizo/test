@@ -199,18 +199,19 @@ $jobs = jobs_load ();
     <!-- jobs -->
     <?php if (!empty ($jobs)): ?>
     <li>
-      <a class="arrow" href="/karriere">Jobs</a>
-      <div class="submenu submenu-products">
+      <a class="arrow" href="/karriere">Karriere <span class="notification-bubble"><?= count($jobs->jobs_get()) ?> Jobs</span></a>
+      <div class="submenu submenu-products" style="min-width:400px">
         <div class="submenu-content">
           <ul>
             <?php
-            foreach ($jobs as $job)
+            foreach ($jobs->jobs_get() as $job)
 			      {
               if (empty ($job->url_get()))
                 continue;
               
-              echo '<li><a href="'.$job->url_get().'" class="product">';
-              echo '<span><span>'.$job->title_get().'</span></span></a></li>';
+              echo '<li><a href="'.$job->url_get().'" class="product" style="padding:10px">';
+              echo '<img src="'.$job->icon_get().'" alt="" style="width:32px;vertical-align:middle;margin-right:10px" />';
+              echo '<span><span style="margin-bottom:0;white-space:initial">'.$job->title_get().'</span></span></a></li>';
             }
             ?>
           </ul>

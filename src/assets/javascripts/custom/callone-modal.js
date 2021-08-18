@@ -25,6 +25,11 @@ class Modal {
     }
     
     initModal() {
+        if (this.modal.dataset.initialized && this.modal.dataset.initialized == 'true') {
+            this.openModal();
+            return;
+        }
+        this.modal.dataset.initialized = 'true';
         this.steps = this.modal.querySelectorAll('.' + this.namespace + '__step');
 
         // Modal Wrapper
@@ -160,8 +165,11 @@ class Modal {
 
     submitStep(e) {
         e.preventDefault();
-        if (typeof window[e.target.dataset.stepCallback] === "function")
+        if (e.target.dataset.stepCallback && typeof window[e.target.dataset.stepCallback] === "function") {
             window[e.target.dataset.stepCallback](e, this.nextStep.bind(this, e));
+        } else {
+            this.nextStep(e);
+        }
     }
 
     nextStep(e) {
@@ -192,9 +200,9 @@ class Modal {
 
     populateModalFooter() {
         this.modalFooter.innerHTML = '';
-
+        
         this.modalFooter.classList.remove(this.namespace + '__footer--hidden');
-        if ((this.activeStep.dataset.noFooter && this.activeStep.noFooter === 'true') || !this.activeStep.dataset.nextStep) {
+        if ((this.activeStep.dataset.noFooter || this.activeStep.noFooter === 'true') || !this.activeStep.dataset.nextStep) {
             this.modalFooter.classList.add(this.namespace + '__footer--hidden');
             return;
         }
@@ -208,6 +216,10 @@ class Modal {
             submitButton.textContent = this.activeStep.dataset.nextButtonText || 'Abschicken';
             submitButton.setAttribute('for', submitId);
             submitButton.classList.add('btn', 'btn--primary', 'btn--centered', this.namespace + '__submit');
+            if (this.activeStep.dataset.nextButtonClasses) {
+                let classes = this.activeStep.dataset.nextButtonClasses.split(',');
+                classes.forEach(c => submitButton.classList.add(c.trim()));
+            }
             this.modalFooter.appendChild(submitButton);
         } else {
             // Needs Next Button
@@ -311,9 +323,17 @@ class Modal {
         })
     }
 
+    setModalData() {
+        // Add modaldata from button to modal
+        if (this.button.dataset.modaldata && this.button.dataset.modalbutton != '') {
+            this.modal.dataset.modaldata = this.button.dataset.modaldata;
+        }
+    }
+
     openModal(e = new MouseEvent('click')) {
         e.preventDefault();
         if (this.modal) {
+            this.setModalData();
             document.body.classList.add('callone-modal--scrolllock');
             this.runScripts();
             $(this.modal).css('display', 'flex').hide().fadeIn(300);

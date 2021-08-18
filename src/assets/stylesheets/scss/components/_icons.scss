@@ -1,0 +1,22 @@
+[class^='icon-'] {
+    white-space: nowrap;
+    &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 0.5em;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.icon-location:before {
+    background-image: url(../images/icons_svg/location-pin.svg);
+}
+
+.icon-home:before {
+    background-image: url(../images/icons_svg/home.svg);
+}
