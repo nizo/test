@@ -34,4 +34,11 @@ $jobs = jobs_load();
         <?php
     }
     ?>
+
+    <div class="section__content section__content--narrow">
+        <h2 class="centered">Passt alles nicht?</h2>
+        <p class="centered">
+            <a href="#" class="btn btn--primary btn--centered" data-openmodal="application">Jetzt initiativ bewerben</a>
+        </p>
+    </div>
 </div>

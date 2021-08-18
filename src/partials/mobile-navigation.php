@@ -162,6 +162,7 @@ $jobs = jobs_load ();
             continue;
           
           echo '<li><a href="'.$job->url_get().'" class="product">';
+          echo '<img src="'.$job->icon_get().'" alt="" style="width:1.5em;vertical-align:middle;margin-right:10px" />';
           echo '<div><span>'.$job->title_get().'</span></div></a></li>';
         }
         ?>
