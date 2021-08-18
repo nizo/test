@@ -8,6 +8,7 @@ $jobs_benefits = jobs_benefits_load ();
     <header class="hero">
         <div class="hero__text">
             <h1>Da bist du ja – du fehlst bei uns!</h1>
+            <h2>Gestatten, CallOne: IT-Unternehmen, das Kommunikationsplattformen für bessere Kundenbeziehungen entwickelt.</h2>
 
             <div class="btn-set btn-set--centered">
                 <a class="btn btn--primary btn--nowrap btn--notification trackedElement" href="/karriere" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
@@ -39,11 +40,12 @@ $jobs_benefits = jobs_benefits_load ();
 
 <div class="section section--light-grey-green" id="unsere-arbeit">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Gestatten, CallOne:</h1>
+        <h1 class="centered">Das ist CallOne</h1>
 
         <p class="centered">
-            Kein Callcenter, sondern IT-Unternehmen mit einem wertschätzenden Team, das Business-Telefonie neu denkt – mit hochqualitativen Lösungen und Sinn dahinter. Du gestaltest aktiv deinen Beitrag dazu, mit allem, was du am besten kannst.<br />
-            Über deinen neuen Job wirst du dich jeden Tag freuen. Denn hier kannst du dein Potenzial entfalten, Dinge entwickeln, die es noch gar nicht gibt und einen positiven Unterschied im Leben vieler Menschen machen.
+            Wir sind ein wertschätzendes Team, das Business-Kommunikation neu denkt - mit hochqualitativen Lösungen und Sinn dahinter. Du gestaltest aktiv deinen Beitrag dazu, mit allem, was du am besten kannst.<br />
+            <br />
+            Über deinen neuen Job wirst du dich jeden Tag freuen. Denn hier kannst du dein Potenzial entfalten, Dinge entwickeln, die es noch gar nicht gibt und einen positiven Unterschied im Leben vieler Menschen machen.​
         </p>
 
         <p>
@@ -56,11 +58,11 @@ $jobs_benefits = jobs_benefits_load ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
                 <h2>Wir alle wissen es: Kundenhotlines sind die Hölle</h2>
-                <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser.</p>
+                <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser &ndash; mit Software von CallOne.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="" />
-                <h2>Mit CallOne macht Kundenservice das erste Mal Spaß</h2>
+                <h2>Kundenservice mit WOW-Effekt</h2>
                 <p class="mobile-hidden">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
             </div>
         </div>
@@ -273,13 +275,13 @@ $jobs_benefits = jobs_benefits_load ();
                 </div>
                 <div class="step-slider__step step-slider__step--no-number">
                     <p><img src="/assets/images/icons_svg/meeting-white.svg" data-alt-image="/assets/images/icons_svg/meeting-black.svg" alt="" /></p>
-                    <h2>Persönliches Kennenlernen</h2>
+                    <h2>Kennenlernen</h2>
                     <p>Lerne zwei Mitglieder unseres Teams kennen und wir zeigen uns gegenseitig, was wir draufhaben.</p>
                 </div>
                 <div class="step-slider__step step-slider__step--no-number">
                     <p><img src="/assets/images/icons_svg/team-white.svg" data-alt-image="/assets/images/icons_svg/team-black.svg" alt="" /></p>
                     <h2>Triff das Team</h2>
-                    <p>Jetzt wird’s spannend. Du lernst deine engsten Kolleginnen und Kollegen kennen.</p>
+                    <p>Jetzt wird’s spannend. Du lernst deine engsten Kolleg*innen kennen.</p>
                 </div>
                 <div class="step-slider__step step-slider__step--no-number">
                     <p><img src="/assets/images/icons_svg/workplace-white.svg" data-alt-image="/assets/images/icons_svg/workplace-black.svg" alt="" /></p>
@@ -297,7 +299,7 @@ $jobs_benefits = jobs_benefits_load ();
                     Erster Call
                 </div>
                 <div class="step-slider__hint-center">
-                    <strong>Hinweis:</strong> Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
+                    <strong>Hinweis:</strong> Bewege den Schieberegler über den Zeitstrahl​
                 </div>
                 <div class="step-slider__hint-right">
                     Dein Start bei uns

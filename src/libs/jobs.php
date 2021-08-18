@@ -567,7 +567,7 @@ function jobs_benefits_load ()
 	$jobs_benefit->text_set ('Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Mit Anspruch und neuen Herausforderungen wird dir nie langweilig. Deine Kolleg*innen sind immer für dich da, mit Inspiration, Motivation und positiven Vibes.');
 	$jobs_benefits[] = $jobs_benefit;
 
-	$jobs_benefit = new jobs_benefit ('Support');
+	$jobs_benefit = new jobs_benefit ('Coachings');
 	$jobs_benefit->icon_set ('/assets/images/icons_svg/weiterbildung.svg');
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/weiterbildung-white.svg');
 	$jobs_benefit->text_set ('Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Tecknik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.');

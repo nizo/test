@@ -36,7 +36,11 @@ $jobs = jobs_load();
     ?>
 
     <div class="section__content section__content--narrow">
-        <h2 class="centered">Passt alles nicht?</h2>
+        <h2 class="centered">Nix passendes dabei? Kein Problem!</h2>
+        <p class="centered">
+            CallOne arbeitet liebend gerne mit Quereinsteiger*innen.<br />
+            Wir schulen Dich und machen Dich zum Profi.
+        </p>
         <p class="centered">
             <a href="#" class="btn btn--primary btn--centered" data-openmodal="application">Jetzt initiativ bewerben</a>
         </p>
