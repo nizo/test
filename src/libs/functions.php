@@ -1,17 +1,24 @@
 <?php
 
-    // Get current build timestamp
-    function getBuildTimestamp() {
-        $build_timestamp = "";
-        if (file_exists(dirname(__FILE__).'/build_timestamp.cfg')) {
-            $build_timestamp = file_get_contents(dirname(__FILE__).'/build_timestamp.cfg');
+    // Get css/js hash
+    function getCssHash() {
+        $css_hash = "";
+        if (file_exists($_SERVER['DOCUMENT_ROOT'].'/libs/css_hash.cfg')) {
+            $css_hash = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/libs/css_hash.cfg');
         }
-        return $build_timestamp;
+        return $css_hash;
+    }
+    function getJsHash() {
+        $js_hash = "";
+        if (file_exists($_SERVER['DOCUMENT_ROOT'].'/libs/js_hash.cfg')) {
+            $js_hash = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/libs/js_hash.cfg');
+        }
+        return $js_hash;
     }
     
     /* Load CSS-Files from directory */
     function loadCSS($dir, $js=false) {
-        $build_timestamp = getBuildTimestamp();
+        $css_hash = getCssHash();
 
         if (!isset($dir)) {
             $dir = getcwd();
@@ -44,9 +51,9 @@
                     $css .= "lazyLoadingCss('/assets/stylesheets/".$addCssFile[0]."');";
             } else {
                 if ( preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) ) {
-                    echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$build_timestamp.'" type="text/css" /><![endif]-->';
+                    echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" /><![endif]-->';
                 } else {
-                    echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$build_timestamp.'" type="text/css" />';
+                    echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" />';
                 }
             }
         }
@@ -64,7 +71,7 @@
 
     /* Load JS-Files from directory */
     function loadJS($dir) {
-        $build_timestamp = getBuildTimestamp();
+        $js_hash = getJsHash();
 
         if (!isset($dir)) {
             $dir = getcwd();
@@ -84,7 +91,7 @@
             if ( empty($addJSFile) ) {
                 break;
             }
-            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '?build='.$build_timestamp.'"></script>';            
+            echo '<script src="/assets/javascripts/' . $addJSFile[0] . '?build='.$js_hash.'"></script>';            
         }
     }
 

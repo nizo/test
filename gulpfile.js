@@ -6,13 +6,14 @@ const gulp         = require('gulp'),
       coffee       = require('gulp-coffee'),
       merge2       = require('merge2'),
       gutil        = require('gulp-util'),
-      //uglify       = require('gulp-uglify'),
       uglify       = require('gulp-uglify-es').default,
       concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
       fs           = require('fs'),
+      fileChecksum = require('gulp-file-checksum'),
       browserSync  = require('browser-sync').create();
+
 const { series, parallel } = require('gulp');
 
 var paths = {
@@ -25,12 +26,6 @@ var paths = {
   javascripts: './src/assets/javascripts/'
 };
 
-function updateBuildTimestamp() {
-  let ts = new Date().getTime() + '';
-  console.log('Updated Build Timestmap to: ' + ts);
-  return fs.writeFileSync(paths.source + 'libs/build_timestamp.cfg', ts);
-}
-
 // Delete old css file
 function cleanStyle() {
   return gulp.src(paths.stylesheets + 'application.min.css', {read: false, allowEmpty: true})
@@ -38,9 +33,7 @@ function cleanStyle() {
 }
 
 // Compile SCSS into CSS
-function compileStyle() {
-  updateBuildTimestamp();
-  
+function compileStyle() {  
   return gulp.src(paths.scss + 'application.scss')
     .pipe(sass().on('error', sass.logError))          // Compile SCSS into CSS
     .pipe(autoprefixer())                             // Run autoprefixer on CSS
@@ -50,7 +43,17 @@ function compileStyle() {
     }))
     .pipe(rename('application.min.css')) // Rename CSS file
     .pipe(gulp.dest(paths.stylesheets))               // Save CSS file
-    .pipe(browserSync.stream())
+    .pipe(browserSync.stream());
+}
+
+// Checksum CSS
+function checksumStyle() {
+  return gulp.src(paths.stylesheets + 'application.min.css')
+    .pipe(fileChecksum({
+      template: '{md5}',
+      output: 'css_hash.cfg'
+    }))
+    .pipe(gulp.dest(paths.source + 'libs'));
 }
 
 // Delete old js file
@@ -61,8 +64,6 @@ function cleanScripts() {
 
 // Compile Coffee into JS
 function compileScripts() {
-  updateBuildTimestamp();
-
   var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(coffee({bare: true}).on('error', gutil.log));
   var js2 = gulp.src(paths.customJS+'*.js');
    
@@ -72,6 +73,16 @@ function compileScripts() {
     }))
     .pipe(concat('application.min.js'))
     .pipe(gulp.dest(paths.javascripts));
+}
+
+// Checksum JS
+function checksumScripts() {
+  return gulp.src(paths.javascripts + 'application.min.js')
+    .pipe(fileChecksum({
+      template: '{md5}',
+      output: 'js_hash.cfg'
+    }))
+    .pipe(gulp.dest(paths.source + 'libs'));
 }
 
 function reload(done) {
@@ -89,9 +100,9 @@ function server() {
       open: false
     });
   });
-  gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle));
-  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts));
-  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts));
+  gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle, checksumStyle));
+  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts, checksumScripts));
+  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts, checksumScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);
@@ -100,4 +111,4 @@ function server() {
 }
 
 // exports.watch = watch;
-exports.default = series(cleanStyle, compileStyle, cleanScripts, compileScripts, server);
+exports.default = series(cleanStyle, compileStyle, checksumStyle, cleanScripts, compileScripts, checksumScripts, server);
