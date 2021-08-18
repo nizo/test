@@ -32,9 +32,13 @@
 		<h2>Dokumente</h2>
 		<div class="icon-cards">
 			<div class="icon-card">
+				<div class="icon-card__text"><h3>Personenbezogene Daten im Bewerbungsverfahren</h3></div>
+				<a href="/downloads/Informationen zur Erhebung personenbezogener Daten im Bewerbungsverfahren.pdf" class="icon-card__button"></a>
+			</div>
+
+			<div class="icon-card">
 				<div class="icon-card__text"><h3>Wiederverkäufernachweis</h3></div>
 				<a href="/downloads/CallOne-Wiederverkaeufernachweis-Online.pdf" class="icon-card__button"></a>
-				</div>
 			</div>
 		</div>
 	</div>
