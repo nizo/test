@@ -368,6 +368,29 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
+	$job = new job ('Office', 'Quereinsteiger*in, Junior Projektmanagent', 'Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-quereinsteiger-in-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
+	$job->text_description_long_set ('Du bringst als Quereinsteiger*in die nötigen Softskills mit, die es braucht, um partnerschaftlich und serviceorientiert mit dem CallOne Team und unseren Kunden zusammenzuarbeiten. Den Rest bringen wir dir bei!');
+	$job->text_description_long_set ('Projektmanager*innen sind unsere Schnittstelle zum Kunden und betreuen Sie. Mit unserem Quereinsteigerprogramm vermitteln wir dir das nötige Fachwissen, dass Du neben Deinen Softskills benötigst, um Sie fachkundig zu betreuen.');
+	$job->text_description_long_set ('Du lernst neben Projektmanagement mit smarten Tools das nötige Fachwissen durch praxisnahe Unterstützung, Schulungsvideos und durch Deine neuen Kolleg*innen, die dich in diesem Prozess unterstützen.');
+	$job->text_tasks_set ('Unterstützung des Projektteams​');
+	$job->text_tasks_set ('Gemeinsame Projektumsetzungen​');
+	$job->text_tasks_set ('Betreuung kleinerer Accounts');
+	$job->text_tasks_set ('Unterstützung bei Kundenanfragen');
+	$job->text_tasks_set ('Gemeinsame, stetige Optimierung unserer internen Prozesse​');
+	$job->text_requirements_set ('Erfahrung in der Kommunikation mit Kunden und Offenheit gegenüber neuen Menschen und Situationen');
+	$job->text_requirements_set ('Teamfähigkeit, Zuverlässigkeit, Strukturiertheit und Eigeninitiative gehören zu deiner Persönlichkeit');
+	$job->text_requirements_set ('Sehr gutes Deutsch in Wort & Schrift');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['administration']);
+	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
+	$jobs->job_add ($job);
+
 	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-it-systemkaufmann-frau-'.$job->location_get());
@@ -439,6 +462,29 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
+	$job = new job ('IT & Technik', 'Webdesigner*in', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-webdesigner-in-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
+	$job->text_intro_set ('HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
+	$job->text_description_long_set ('Als Webdesigner*in kümmerst du dich um das Wohl unserer Kunden auf unseren Webpräsenzen. Du pflegst und erweiterst unser Corporate Design, erstellst passende Grafiken für unsere Social Media Kanäle und vieles mehr. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
+	$job->text_tasks_set ('Planung, Entwicklung und technische Umsetzung von statischen, dynamischen und mobilen Webseiten der CallOne');
+	$job->text_tasks_set ('Schaffung webbasierter Benutzeroberflächen für unsere Kunden');
+	$job->text_tasks_set ('Kreative Ideen für die Weiterentwicklung von Webseiten und/oder Produkten ');
+	$job->text_tasks_set ('Erstellung von Online-Werbemitteln und Landingpages');
+	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in Grafikdesign, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
+	$job->text_requirements_set ('Gute Kenntnisse in HTML5 und CSS3 (SASS), JS');
+	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
+	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
+	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['developer']);
+	$job->agenda_filename_set ('agenda-it-technik');
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+
 	$job = new job ('Vertrieb', '(Senior) Marketing und PR-Manager*in', 'Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause?');
 	$job->location_set ('Remote');
 	$job->url_set ('/karriere/job-marketing-manager-in-'.$job->location_get());
@@ -503,29 +549,6 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-projektmanager');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs->job_add ($job);
-
-	$job = new job ('IT & Technik', 'Webdesigner*in', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
-	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-webdesigner-in-'.$job->location_get());
-	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
-	$job->text_intro_set ('HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
-	$job->text_description_long_set ('Als Webdesigner*in kümmerst du dich um das Wohl unserer Kunden auf unseren Webpräsenzen. Du pflegst und erweiterst unser Corporate Design, erstellst passende Grafiken für unsere Social Media Kanäle und vieles mehr. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
-	$job->text_tasks_set ('Planung, Entwicklung und technische Umsetzung von statischen, dynamischen und mobilen Webseiten der CallOne');
-	$job->text_tasks_set ('Schaffung webbasierter Benutzeroberflächen für unsere Kunden');
-	$job->text_tasks_set ('Kreative Ideen für die Weiterentwicklung von Webseiten und/oder Produkten ');
-	$job->text_tasks_set ('Erstellung von Online-Werbemitteln und Landingpages');
-	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in Grafikdesign, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
-	$job->text_requirements_set ('Gute Kenntnisse in HTML5 und CSS3 (SASS), JS');
-	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
-	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
-	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
-	$job->job_start_end_set ('Ab sofort / unbefristet');
-	$job->job_worktime_set ('Teilzeit / Vollzeit');
-	$job->icon_set ($icons['developer']);
-	$job->agenda_filename_set ('agenda-it-technik');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
 	return $jobs;
