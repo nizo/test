@@ -138,7 +138,7 @@ $uniqueID = uniqid();
                     <div class="floating-form__privacy-toggle">
                         <input type="checkbox" id="privacy-booking" required="required" />
                         <label for="privacy-booking">
-                        Ich habe die <a href="/datenschutz" target="_blank">Datenschutzbestimmungen</a> gelesen.
+                        Ich habe die <a href="/downloads/Informationen zur Erhebung personenbezogener Daten im Bewerbungsverfahren.pdf" target="_blank">Datenschutzbestimmungen</a> gelesen.
                         </label>
                     </div>
                 </div>
