@@ -40,6 +40,7 @@ function cleanStyle() {
 // Compile SCSS into CSS
 function compileStyle() {
   updateBuildTimestamp();
+  
   return gulp.src(paths.scss + 'application.scss')
     .pipe(sass().on('error', sass.logError))          // Compile SCSS into CSS
     .pipe(autoprefixer())                             // Run autoprefixer on CSS
@@ -60,6 +61,8 @@ function cleanScripts() {
 
 // Compile Coffee into JS
 function compileScripts() {
+  updateBuildTimestamp();
+
   var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(coffee({bare: true}).on('error', gutil.log));
   var js2 = gulp.src(paths.customJS+'*.js');
    
