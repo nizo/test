@@ -199,7 +199,7 @@ $jobs = jobs_load ();
     <!-- jobs -->
     <?php if (!empty ($jobs)): ?>
     <li>
-      <a class="arrow" href="/karriere">Karriere <span class="notification-bubble"><?= count($jobs->jobs_get()) ?> Jobs</span></a>
+      <a class="arrow" href="/karriere-bei-callone">Karriere <span class="notification-bubble"><?= count($jobs->jobs_get()) ?> Jobs</span></a>
       <div class="submenu submenu-products" style="min-width:400px">
         <div class="submenu-content">
           <ul>

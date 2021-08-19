@@ -153,7 +153,7 @@ $jobs = jobs_load ();
     <!-- jobs -->
     <?php if (!empty ($jobs)): ?>
     <li>
-      <a class="submenu" href="/karriere">Jobs</a>
+      <a class="submenu" href="/karriere-bei-callone">Karriere</a>
       <ul class="pages-submenu product-menu">
         <?php
         foreach ($jobs->jobs_get() as $job)
