@@ -523,6 +523,20 @@
         </div>
     </div>
 
+    <!-- Icons -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Icons</h1>
+            <p>Various icons that can be used by CSS classes.</p>
+        </div>
+        <div class="components__preview">
+            <div style="text-align: center;">
+                <span class="icon-location"></span>
+                <span class="icon-home"></span>
+            </div>
+        </div>
+    </div>
+
     <!-- Infinity Scroller -->
     <div class="components__item">
         <div class="components__docs">
@@ -571,7 +585,104 @@
             </div>
         </div>
     </div>
+
+    <!-- Job List -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Job List</h1>
+            <p>Listing of jobs.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="job-list">
+                    <div class="job-list__item">
+                        <div class="job-list__item-icon">
+                            <img src="/assets/images/icons_svg/care-black.svg" alt="" />
+                        </div>
+                        <a href="/karriere/job-customer-success-manager-in-potsdam" class="job-list__item-info">
+                            <small>Potsdam · unbefristet · (m/w/d)</small><br />
+                            Customer Success Manager*in
+                        </a>
+                    </div>
+                    <div class="job-list__item">
+                        <div class="job-list__item-icon">
+                            <img src="/assets/images/icons_svg/care-black.svg" alt="" />
+                        </div>
+                        <a href="/karriere/job-customer-success-manager-in-potsdam" class="job-list__item-info">
+                            <small>Potsdam · unbefristet · (m/w/d)</small><br />
+                            Customer Success Manager*in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Job Details -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Job Details</h1>
+            <p>A little element to display job details between two sections. Be careful, overlapping element.</p>
+        </div>
+        <div class="components__preview">
+            <div style="min-height: 160px;">
+                <div class="job-details">
+                    <div class="job-details__item">
+                        <img src="/assets/images/icons_svg/small_35.svg" alt="">
+                        Potsdam
+                    </div>
+                    <div class="job-details__item">
+                        <img src="/assets/images/icons_svg/small_32.svg" alt="">
+                        Teilzeit / Vollzeit
+                    </div>
+                    <div class="job-details__item">
+                        <img src="/assets/images/icons_svg/small_31.svg" alt="">
+                        Ab sofort / unbefristet
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <!-- Job Quote -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Job Quote</h1>
+            <p>Simple quote for job details.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="job-quote">
+                    <blockquote>Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.</blockquote>
+                    <div class="job-quote__author">
+                        <img src="/assets/images/photos/jenny_radziejewski.jpg" data-src="/assets/images/photos/jenny_radziejewski.jpg" data-srcset="/assets/images/photos/jenny_radziejewski.jpg" class="" alt="Statement" style="visibility: visible;" srcset="/assets/images/photos/jenny_radziejewski.jpg">
+                        <div>
+                            <strong>Jenny Radziejewski</strong><br>
+                            Customer Success Management<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lists -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Lists</h1>
+        </div>
+        <div class="components__preview">
+            <div>
+                <ul class="list list--checkmarks">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Modal via Click -->
     <div class="components__item">
         <div class="components__docs">
@@ -651,6 +762,56 @@
         </div>
     </div>
 
+    <!-- Person Display -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Person Display</h1>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="person">
+                    <div class="person__avatar">
+                        <img src="/assets/images/photos/stefanie-bending-round-sm.png" alt="">
+                    </div>
+                    <div class="person__details">
+                        <h4>Stefanie Bendig</h4>
+                        <p>Personalabteilung</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Radio Select -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Radio Select</h1>
+            <p>Toggle buttons to choose from multiple options.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="radio-select">
+                    <div class="radio-select__item">
+                        <input type="radio" id="type1" name="type" value="quick" checked="checked" />
+                        <label for="type1">
+                            <img src="/assets/images/icons_svg/application-fast.svg" alt="" />
+                            <h3>Schnellbewerbung</h3>
+                            <p>via LinkedIn/Xing/Portfolio-Link</p>
+                        </label>
+                    </div>
+                    <div class="radio-select__item">
+                        <input type="radio" id="type2" name="type" value="normal" />
+                        <label for="type2">
+                            <img src="/assets/images/icons_svg/application-normal.svg" alt="" />
+                            <h3>Klassische Bewerbung</h3>
+                            <p>Bewerbungsdateien hochladen</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Range Slider -->
     <div class="components__item">
         <div class="components__docs">
@@ -676,6 +837,75 @@
 
                 <input type="range" min="23" max="50" step="5" value="1" data-callone-range data-output="#output-1" data-width="480" />
                 <input type="text" id="output-1" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Sections -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Section</h1>
+            <p>Sections are the wrapper element of all contents.</p>
+            <p><strong>Section Modifiers:</strong></p>
+            <ul>
+                <li><code>.section--no-padding-top</code>: Removes gutter on top of section</li>
+                <li><code>.section--light-grey</code>: Background</li>
+                <li><code>.section--light-grey-green</code>: Background</li>
+                <li><code>.section--light-green-white</code>: Background</li>
+                <li><code>.section--light-green-white-map</code>: Background</li>
+                <li><code>.section--light-green-white-homeoffice</code>: Background</li>
+                <li><code>.section--dark-green-black</code>: Background</li>
+                <li><code>.section--black</code>: Background</li>
+            </ul>
+            <p><strong>Section Content Modifiers:</strong></p>
+            <ul>
+                <li><code>.section__content--narrow</code>: Narrow width</li>
+                <li><code>.section__content--wide</code>: Wide width</li>
+                <li><code>.section__content--gutter-top</code>: Increase gutter top</li>
+                <li><code>.section__content--shadow</code>: Adds shadow around section content</li>
+            </ul>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="section">
+                    <div class="section__content section__content--narrow">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, animi porro? Laborum repellat, ex sit sequi illum accusamus. Amet tempore nobis, laborum maxime eius voluptatum quis id provident sed aperiam!
+                    </div>
+                    <div class="section__content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, animi porro? Laborum repellat, ex sit sequi illum accusamus. Amet tempore nobis, laborum maxime eius voluptatum quis id provident sed aperiam!
+                    </div>
+                    <div class="section__content section__content--wide">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, animi porro? Laborum repellat, ex sit sequi illum accusamus. Amet tempore nobis, laborum maxime eius voluptatum quis id provident sed aperiam!
+                    </div>
+                    <div class="section__content section__content--gutter-top">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, animi porro? Laborum repellat, ex sit sequi illum accusamus. Amet tempore nobis, laborum maxime eius voluptatum quis id provident sed aperiam!
+                    </div>
+                    <div class="section__content section__content--shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, animi porro? Laborum repellat, ex sit sequi illum accusamus. Amet tempore nobis, laborum maxime eius voluptatum quis id provident sed aperiam!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Split Box -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Split Box</h1>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="split-box">
+                    <div class="split-box__item">
+                        <p>Du möchtest mehr über deinen Arbeitsplatz und das Team erfahren?</p>
+                        <p><a href="/karriere-bei-callone" class="btn btn--secondary btn--centered">Karriere bei Callone</a></p>
+                    </div>
+                    <div class="split-box__divider" data-text="oder"></div>
+                    <div class="split-box__item">
+                        <p>Du möchtest mehr über deinen Tagesablauf in diesem Job erfahren?</p>
+                        <p><a href="/karriere-bei-callone" class="btn btn--secondary btn--centered">Karriere bei Callone</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -735,6 +965,170 @@
                         <div class="step-slider__hint-right">
                             Ihre Entscheidung
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tab List -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Tab List</h1>
+            <p>Use multiple tabs to switch through content blocks.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="tablist">
+                    <div class="tablist__links">
+                        <div class="tablist__link tablist__link--active" data-tab="1">
+                            <strong>Office</strong><br />
+                            <span class="icon-location">Potsdam</span>
+                        </div>
+                        <div class="tablist__link" data-tab="2">
+                            <strong>Remote</strong><br />
+                            <span class="icon-home">Lieblingsort</span>
+                        </div>
+                    </div>
+
+                    <div class="tablist__content tablist__content--active" data-tab="1">
+                        <h2 class="centered">Dort arbeiten, wo es schön ist</h2>
+                        <p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
+                    </div>
+
+                    <div class="tablist__content" data-tab="2">
+                        <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
+                        <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Team</h1>
+            <p>Team display.</p>
+        </div>
+        <div class="components__preview" style="background:#000;color:#fff">
+            <div>
+                <div class="team">
+                    <div class="team__header">
+                        <p>Menschen bei CallOne</p>
+                        <div class="team__buttons">
+                            <div class="team__button team__button--active" data-member="1" data-name="Charlotta">
+                                <img src="/assets/images/photos/charlotta-portrait.jpg" alt="Charlotta" />
+                            </div>
+                            <div class="team__button" data-member="2" data-name="Brian">
+                                <img src="/assets/images/photos/brian-portrait.jpg" alt="Brian" />
+                            </div>
+                            <div class="team__button" data-member="3" data-name="Stefanie">
+                                <img src="/assets/images/photos/stefanie-portrait.jpg" alt="Stefanie" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__content">
+                        <div class="team__member team__member--active" data-member="1">
+                            <div class="team__member-left">
+                                <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
+                                <h6>
+                                    <strong>Charlotta</strong><br />
+                                    Projektmanagerin
+                                </h6>
+
+                                <div class="team__member-booking">
+                                    <h3>Lust mehr über CallOne zu erfahren?</h3>
+                                    <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Charlotta</u>.</p>
+                                    <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Charlotta"}'); ?>">Termin buchen</a>
+                                </div>
+                            </div>
+                            <div class="team__member-right">
+                                <div class="team__member-image">
+                                    <img src="/assets/images/photos/charlotta-stehend.jpg" alt="Charlotta" />
+                                </div>
+                                <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
+                                    <strong>Tagesagenda</strong><br />
+                                    Projektmanagerin
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team__member" data-member="2">
+                            <div class="team__member-left">
+                                <blockquote>„24/7 Verfügbarkeit unserer Systeme, dabei keine Überstunden und normale Arbeitszeiten. Neuste IT-Technologien wie Voice Recognition nutzen und sich kreative Lösungen für Kunden überlegen. IT - aber ohne Startup Feeling.”</blockquote>
+                                <h6>
+                                    <strong>Brian</strong><br />
+                                    IT & Technik
+                                </h6>
+
+                                <div class="team__member-booking">
+                                    <h3>Lust mehr über CallOne zu erfahren?</h3>
+                                    <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Brian</u>.</p>
+                                    <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Brian"}'); ?>">Termin buchen</a>
+                                </div>
+                            </div>
+                            <div class="team__member-right">
+                                <div class="team__member-image">
+                                    <img src="/assets/images/photos/brian-stehend.jpg" alt="Brian" />
+                                </div>
+                                <div class="team__member-agenda" data-openmodal="agenda-it-technik">
+                                    <strong>Tagesagenda</strong><br />
+                                    IT & Technik
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team__member" data-member="3">
+                            <div class="team__member-left">
+                                <blockquote>„Das Schöne an CallOne ist der starke Zusammenhalt im Team. Innerhalb kürzester Zeit kann man viel bewegen und sich dabei selbst entfalten. Das schätze ich.”</blockquote>
+                                <h6>
+                                    <strong>Stefanie</strong><br />
+                                    Human Resources
+                                </h6>
+
+                                <div class="team__member-booking">
+                                    <h3>Lust mehr über CallOne zu erfahren?</h3>
+                                    <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Stefanie</u>.</p>
+                                    <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Stefanie"}'); ?>">Termin buchen</a>
+                                </div>
+                            </div>
+                            <div class="team__member-right">
+                                <div class="team__member-image">
+                                    <img src="/assets/images/photos/stefanie-stehend.jpg" alt="Stefanie" />
+                                </div>
+                                <div class="team__member-agenda" data-openmodal="agenda-human-ressources">
+                                    <strong>Tagesagenda</strong><br />
+                                    Human Resources
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toggle Box -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Toggle Box</h1>
+            <p>Boxes that toggle on click.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="toggle-box">
+                    <input type="checkbox" id="faq-1" />
+                    <label for="faq-1">Wie läuft der Bewerbungsprozess bei CallOne ab?</label>
+                    <div class="toggle-box__content">
+                        <p>Nachdem wir uns deine Bewerbungsunterlagen angeschaut haben, melden wir uns zeitnah bei dir für ein kurzes Telefonat. Im Anschluss laden wir dich zu einem persönlichen Kennenlernen in unser Büro ein, wo du einen ersten Eindruck deiner Arbeitsumgebung und vom Team bekommst. Die nächsten Schritte sprechen wir dann recht individuell mit dir ab. Vielleicht möchtest du ja zum Beispiel einmal einen Tag die Arbeit bei uns im Detail kennenlernen.</p>
+                    </div>
+                </div>
+                <div class="toggle-box">
+                    <input type="checkbox" id="faq-2" />
+                    <label for="faq-2">Wie läuft die Einarbeitung ab?</label>
+                    <div class="toggle-box__content">
+                        <p>Wir erstellen für dich einen Einarbeitungsplan mit verschiedenen Stationen und Themengebieten, die für dich relevant sind. Du lernst deine Kolleg*innen näher kennen und du wirst viel von ihrem Produktwissen profitieren. Eine gute Einarbeitung lebt davon, dass es keine Scheu gibt Fragen zu stellen. Von Anfang an bist du bei den Teammeetings, Produktschulungen und Kundenmeetings dabei und lernst on-the-job.</p>
                     </div>
                 </div>
             </div>
