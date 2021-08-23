@@ -6,9 +6,17 @@
   height: 124px;
   z-index: 100;
   transition: background 0.3s ease;
-  &.background {
-    background-color: #fff;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  &.scrolled {
     box-shadow: 0 0 20px rgba(#000, 0.25);
+    height: 94px;
+    &+.navbar-spacer {
+      height: 94px;
+    }
+    .main-nav {
+      padding: 5px 40px 0;
+    }
   }
 }
 .navbar-spacer {
@@ -17,6 +25,7 @@
   // height: 163px;
   height: 124px;
   z-index: -1;
+  transition: all 0.3s ease;
 }
 
 .main-nav {
@@ -30,6 +39,7 @@
   justify-content: space-between;
   padding: $gutter-m $gutter-l 0;
   min-height: 88px;
+  transition: all 0.3s ease;
   .logo {
     display: block;
     img {

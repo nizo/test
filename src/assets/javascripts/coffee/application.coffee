@@ -4,7 +4,7 @@ if window.NodeList && !NodeList.prototype.forEach
 
 app =
   init: ->
-    navbar.init('.navbar')
+    navbar.init()
     @bind_events()
     @init_slider()
     # @autoplay_videos()
@@ -179,54 +179,14 @@ app =
 #	data = formData.getAll()
 #	console.log data 
 
+# Adds additional class to navbar when scrolled
 navbar =
-  n: ""                 # Navbar object
-  n_height: 0           # Navbar height
-  n_top: 0              # Navbar offset top
-  d_height: 0           # Document height
-  w_height: 0           # Window height
-  w_scroll_current: 0   # Current scroll position
-  w_scroll_before: 0    # Most recent scroll position
-  w_scroll_diff: 0      # Difference between current and most recent scroll position
-
-  init: (selector) ->
-    @n = document.querySelector(selector)
-    if @n
-      @bind_events()
-      if window.pageYOffset > 0
-        $(@n).addClass 'background'
-
-  bind_events: ->
-    $(window).scroll (e) ->
-      navbar.scroll()
-
-  scroll: ->
-    @n_height = @n.offsetHeight
-    @d_height = document.body.offsetHeight
-    @w_height = window.innerHeight
-    @w_scroll_current = window.pageYOffset
-    @w_scroll_diff = @w_scroll_before - @w_scroll_current
-    @n_top = parseInt(window.getComputedStyle(@n).getPropertyValue('top')) + @w_scroll_diff
-
-    if @w_scroll_current >= @n_height
-      $(@n).addClass 'background'
-    if @w_scroll_current is 0
-      $(@n).removeClass 'background'
-
-    if @w_scroll_current <= 0
-      @n.style.top = '0px'
-      #console.log '0px'
-    else if @w_scroll_diff > 0
-      @n.style.top = (if @n_top > 0 then 0 else @n_top) + 'px'
-      #console.log 'hochscrollen'
-    else if @w_scroll_diff < 0
-      if @w_scroll_current + @w_height >= @d_height - @n_height
-        @n.style.top = (if (@n_top = @w_scroll_current + @w_height - @d_height) < 0 then @n_top else 0) + 'px'
-        #console.log 'runter 1'
+  init: ->
+    document.addEventListener 'scroll', (e) ->
+      if window.scrollY > 0
+        document.querySelector('.navbar').classList.add('scrolled')
       else
-        @n.style.top = (if Math.abs(@n_top) > @n_height then -@n_height else @n_top) + 'px'
-        #console.log 'Unten angekommen'
-    @w_scroll_before = @w_scroll_current
+        document.querySelector('.navbar').classList.remove('scrolled')
 
 slider =
   slider: ""
