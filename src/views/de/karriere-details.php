@@ -102,7 +102,12 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
    "salaryCurrency": "EUR",
    "baseSalary": {
     "@type": "MonetaryAmount",
-    "currency": "EUR"
+    "currency": "EUR",
+    "value": {
+        "@type": "QuantitativeValue",
+        "value": 0,
+        "unitText": "HOUR"
+    }
   }
 }
 </script>
