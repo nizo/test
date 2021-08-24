@@ -225,7 +225,7 @@ Redirect 301 /acd-faq /callcenter-software-funktionen
 Redirect 301 /acd-faq.php /callcenter-software-funktionen
 Redirect 301 /acd-features.php /callcenter-software-funktionen
 Redirect 301 /callback.php /preise
-Redirect 301 /callcenter-loesung /callcenter-software​
+Redirect 301 /callcenter-loesung /callcenter-software
 Redirect 301 /callcenter-software.php /callcenter-software
 Redirect 301 /callcenter-software-cloud-acd /callcenter-software
 Redirect 301 /case-study-1.php /case-study-niceshops
