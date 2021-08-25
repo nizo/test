@@ -28,25 +28,25 @@ $(function ()
 
 
 	// get current MicroSIP version
-	let versionContainers = document.querySelectorAll('#formMicroSipHint');
-	if (versionContainers.length > 0) {
-		$.ajax
-		({
-			url: 'https://connect.callone.io/backend/microsip/ajax.php',
-			cache: false,
-			type: 'GET',
-			data:
-			{	mode: 'version'
-			},
-			dataType: 'json',
-			error: function (error)
-			{	console.error (JSON.stringify (error));
-			},
-			success: function (jsonData)
-			{	$('#formMicroSipHint').html ('MicroSIP v'+jsonData['version']);
-			}
-		});
-	}
+	// let versionContainers = document.querySelectorAll('#formMicroSipHint');
+	// if (versionContainers.length > 0) {
+	// 	$.ajax
+	// 	({
+	// 		url: 'https://connect.callone.io/backend/microsip/ajax.php',
+	// 		cache: false,
+	// 		type: 'GET',
+	// 		data:
+	// 		{	mode: 'version'
+	// 		},
+	// 		dataType: 'json',
+	// 		error: function (error)
+	// 		{	console.error (JSON.stringify (error));
+	// 		},
+	// 		success: function (jsonData)
+	// 		{	$('#formMicroSipHint').html ('MicroSIP v'+jsonData['version']);
+	// 		}
+	// 	});
+	// }
 
 
 	// download prepared package
