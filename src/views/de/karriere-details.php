@@ -77,7 +77,10 @@ $jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
                   <?php endif; ?>
                  ",
   "employmentType": "Full-time",
-  "experienceRequirements": "Berufseinsteiger",
+  "experienceRequirements" : {
+    "@type" : "OccupationalExperienceRequirements",
+    "monthsOfExperience" : "0"
+  },
   "image": "https://www.callone.de<?=$job->icon_get();?>",
   "industry": "Telekommunikation",
   "jobLocation": {
