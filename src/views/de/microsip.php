@@ -52,7 +52,7 @@
 				<div class="group">
 					<input type="password" name="formMicroSipPassword" id="formMicroSipPassword" placeholder="Dein CallOne Passwort" value="" required>
 				</div>
-				<!-- <p id="formMicroSipHint"></p> -->
+				<p id="formMicroSipHint"></p>
 				<div class="button-set centered" id="formMicroSipSubmit">
 					<button class="button big no-margin-bottom tertiary">Download</button>
 				</div>
