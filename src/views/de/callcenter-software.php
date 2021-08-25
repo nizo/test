@@ -10,6 +10,16 @@
     "ratingValue": "5",
     "reviewCount": "14"
   },
+  "sku": "1",
+  "mpn": "Callcenter-Software",
+  "brand": {
+	"@type": "Brand",
+	"name": "CallOne"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00"
+  },
   "review": [
     {
       "@type": "Review",
@@ -53,6 +63,7 @@
   ]
 }
 </script>
+
 <div class="wrapper">
   <div class="content wide noOverflow">
     <header class="main-header">
