@@ -13,12 +13,14 @@
   "sku": "6",
   "mpn": "Softphone",
   "brand": {
-	"@type": "Brand",
-	"name": "CallOne"
+	  "@type": "Brand",
+	  "name": "CallOne GmbH"
   },
   "offers": {
     "@type": "Offer",
-    "price": "0.00"
+    "price": "0.00",
+	  "priceCurrency": "EUR",
+	  "availability": "https://schema.org/InStock"
   },
   "review": [
     {

@@ -14,11 +14,13 @@
   "mpn": "Callcenter-Software",
   "brand": {
 	"@type": "Brand",
-	"name": "CallOne"
+	"name": "CallOne GmbH"
   },
   "offers": {
     "@type": "Offer",
-    "price": "0.00"
+    "price": "0.00",
+	"priceCurrency": "EUR",
+	"availability": "https://schema.org/InStock"
   },
   "review": [
     {
