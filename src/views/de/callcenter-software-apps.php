@@ -1,8 +1,30 @@
 <?php
-$product = new product ('Integration in Ihr CRM & CTI', 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet');
-$product->image_set ('https://callone.de/assets/images/illus/CRM-hero-illustration.svg');
-$product->reviews_load ();
+$product = new product ('Integration in Freshdesk', 'Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Freshdesk-app-icon.svg');
+$product->structured_data_get_code ();
 
+$product = new product ('Integration in Freshsales', 'Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Freshsales-app-icon.svg');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Zendesk', 'Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Zendesk-app-icon.svg');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Pipedrive', 'Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Pipedrive-app-icon.svg');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Hubspot', 'Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Hubspot-app-icon.svg');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Salesforce', 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Salesforce-app-icon.svg');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Tableau', 'Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.');
+$product->image_set ('https://callone.de/assets/images/logo/productlogos/Tableau-app-icon.svg');
 $product->structured_data_get_code ();
 ?>
 
