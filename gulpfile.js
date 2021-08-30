@@ -12,6 +12,7 @@ const gulp         = require('gulp'),
       cleanCSS     = require('gulp-clean-css'),
       fs           = require('fs'),
       fileChecksum = require('gulp-file-checksum'),
+      sort         = require('gulp-sort'),
       browserSync  = require('browser-sync').create();
 
 const { series, parallel } = require('gulp');
@@ -64,9 +65,9 @@ function cleanScripts() {
 
 // Compile Coffee into JS
 function compileScripts() {
-  var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(coffee({bare: true}).on('error', gutil.log));
-  var js2 = gulp.src(paths.customJS+'*.js');
-   
+  var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(sort()).pipe(coffee({bare: true}).on('error', gutil.log));
+  var js2 = gulp.src(paths.customJS+'*.js').pipe(sort());
+
   return merge2([coffee2go, js2])
     .pipe(uglify().on('error', function(e){
         console.log(e);
