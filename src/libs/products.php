@@ -119,7 +119,7 @@ class product
 	{	return $this->reviews;
 	}
 
-	function structured_data_get ()
+	function structured_data_get_raw ()
 	{
 		$data = [];
 
@@ -136,13 +136,6 @@ class product
 			$data['image']		= $this->image_get();
 		$data['sku']			= $this->sku_id_get();
 		$data['mpn']			= $this->name_get();
-
-		$offers = [];
-		$offers['@type']			= 'Offer';
-		$offers['price']			= '0.00';
-		$offers['priceCurrency']	= 'EUR';
-		$offers['availability']		= 'InStock';
-		$data['offers'] = $offers;
 
 		$aggregate_rating = [];
 		$aggregate_rating['@type']			= 'AggregateRating';
@@ -192,6 +185,13 @@ class product
 		}
 
 		return $data;
+	}
+
+	function structured_data_get_code ()
+	{
+		echo '<script type="application/ld+json">';
+		echo json_encode ($this->structured_data_get_raw ());
+		echo '</script>';
 	}
 }
 

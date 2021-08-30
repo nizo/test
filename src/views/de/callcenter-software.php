@@ -3,9 +3,7 @@ $product = new product ('Callcenter-Software', 'Callcenter-Software mit Computer
 $product->image_set ('https://www.callone.de/assets/images/photos/agentenmaske-hintergrund-mobile.jpg');
 $product->reviews_load ();
 
-echo '<script type="application/ld+json">';
-echo json_encode ($product->structured_data_get ());
-echo '</script>';
+$product->structured_data_get_code ();
 ?>
 
 <div class="wrapper">
