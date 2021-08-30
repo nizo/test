@@ -1,70 +1,10 @@
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Product",
-  "name": "Callcenter-Bot",
-  "description": "Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.",
-  "image": "https://callone.de/assets/images/illus/relaxing.gif",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "14"
-  },
-  "sku": "5",
-  "mpn": "Callcenter-Bot",
-  "brand": {
-	  "@type": "Brand",
-	  "name": "CallOne GmbH"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "0.00",
-	  "priceCurrency": "EUR",
-	  "availability": "https://schema.org/InStock"
-  },
-  "review": [
-    {
-      "@type": "Review",
-      "author": "Dr. Rainer Klipp",
-      "datePublished": "2019-04-04",
-      "description": "Für uns als Marktführer im Bereich Preisvergleich ist eine ausgewachsene Callcenter-Software, wie sie CallOne anbietet unabdingbar für unser weiteres schnelles Wachstum.",
-      "name": "Check24",
-      "reviewRating": {
-        "@type": "Rating",
-        "bestRating": "5",
-        "ratingValue": "5",
-        "worstRating": "1"
-      }
-    },
-    {
-      "@type": "Review",
-      "author": "Dennis Voth",
-      "datePublished": "2019-05-01",
-      "description": "Mit CallOne können wir unseren europaweiten Kundenservice an zentraler Stelle schnell und einfach steuern und mit Hilfe von zahlreichen Statistiken analysieren und optimieren.",
-      "name": "Snipes",
-      "reviewRating": {
-        "@type": "Rating",
-        "bestRating": "5",
-        "ratingValue": "5",
-        "worstRating": "1"
-      }
-    },
-    {
-      "@type": "Review",
-      "author": "Robert Kudrass",
-      "datePublished": "2019-04-04",
-      "description": "Wir setzen in allen Bereichen auf Schnelligkeit, Kompetenz und modernste Technik. So können wir unsere Kunden von unserem Service begeistern und genauso hat uns auch CallOne begeistert!",
-      "name": "apo-discounter.de",
-      "reviewRating": {
-        "@type": "Rating",
-        "bestRating": "5",
-        "ratingValue": "5",
-        "worstRating": "1"
-      }
-    }
-  ]
-}
-</script>
+<?php
+$product = new product ('Callcenter-Bot', 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.');
+$product->image_set ('https://callone.de/assets/images/illus/relaxing.gif');
+$product->reviews_load ();
+
+$product->structured_data_get_code ();
+?>
 
 <div class="wrapper " style="overflow: hidden;">
   <div class="content narrow">
