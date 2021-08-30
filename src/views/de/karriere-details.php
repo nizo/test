@@ -5,8 +5,6 @@ $jobs_benefits = jobs_benefits_load ();
 $job = job_find_by_url ($jobs->jobs_get(), JOB_URL);
 if (empty ($job))
 	exit ();
-
-$jobTitle = 'Customer Success Manager*in (m/w/d) in Potsdam';
 ?>
 
 <script type="application/ld+json">
