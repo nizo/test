@@ -39,7 +39,7 @@ $product->structured_data_get_code ();
         <h3>Freshdesk</h3>
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
         <p>
-          <a style="float: left;" href="/freshdesk-callcenter-software" class="button tertiary mobileWrap rounded">Details</a>
+          <a style="float: left;" href="/freshdesk-callcenter-software" class="button tertiary mobileWrap rounded">Infos</a>
           <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
@@ -50,7 +50,7 @@ $product->structured_data_get_code ();
         <h3>Freshsales</h3>
         <p>Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</p>
         <p>
-          <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
+          <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#03363D">
@@ -61,7 +61,8 @@ $product->structured_data_get_code ();
         <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.</p>
         <p>
           <br/>
-          <a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
+          <a style="float: left;" href="/zendesk-cti-ticketing" class="button tertiary mobileWrap rounded">Infos</a>
+          <a style="float: right;" href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#9a9a9a">
@@ -72,7 +73,7 @@ $product->structured_data_get_code ();
         <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.</p>
         <p>
           <br/><br/><br/>
-          <a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
+          <a style="float: right;" href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#45535E">
@@ -82,7 +83,7 @@ $product->structured_data_get_code ();
         <h3>Hubspot</h3>
         <p>Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</p>
         <p>
-          <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="button secondary mobileWrap rounded">Hubspot Blog</a>
+          <a style="float: right;" href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="button secondary mobileWrap rounded">Hubspot Blog</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#254856">
@@ -93,7 +94,7 @@ $product->structured_data_get_code ();
         <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</p>
         <p>
           <br/><br/><br/>
-          <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded">AppExchange</a>
+          <a style="float: right;" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded">AppExchange</a>
         </p>
       </div>
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
@@ -103,7 +104,6 @@ $product->structured_data_get_code ();
         <h3>Jira Service Desk</h3>
         <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
         <p>
-          <!-- <a href="https://marketplace.atlassian.com/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a> -->
           <b><i>Coming Soon!</i></b>
         </p>
       </div>
@@ -122,8 +122,8 @@ $product->structured_data_get_code ();
         <h3>Tableau</h3>
         <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</p>
         <p>
-          <a style="float: left;" href="/tableau-callcenter-connector" class="button tertiary mobileWrap rounded">Details</a>
-          <a style="float: right;" href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="button secondary mobileWrap rounded">Tableau Partner</a>
+          <a style="float: left;" href="/tableau-callcenter-connector" class="button tertiary mobileWrap rounded">Infos</a>
+          <a style="float: right;" href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="button secondary mobileWrap rounded">Partnercenter</a>
         </p>
       </div>
       <div class="col-2 card card--shadow" style="--c:#eaeaea">
@@ -133,18 +133,17 @@ $product->structured_data_get_code ();
         <h3>Geckoboard</h3>
         <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</p>
         <p>
-          <!-- <a href="https://www.geckoboard.com/product/data-sources/" target="_blank" class="button secondary mobileWrap rounded button--block">Geckoboard Data Sources</a> -->
           <br/><b><i>Coming Soon!</i></b>
         </p>
       </div>
     </div>
   </div>
 
-  <div class="content wide">
-    <p class="subtitle">Browser-Erweiterungen</p>
+  <div class="content wide padding-bottom-80">
+    <p class="subtitle">Browser-Erweiterung</p>
     <h2>Direkt aus dem Browser anrufen</h2>
 
-    <p> Die CallOne Browser-Erweiterungen integrieren sich perfekt in Ihre Outbound-Prozesse: Für effizientere Outbound-Calls aus allen browserbasierten Tools. Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen!</p>
+    <p> Die <a href="/softphone">CallOne Browser-Erweiterung</a> integriert sich perfekt in Ihre Outbound-Prozesse: Für effizientere Outbound-Calls aus allen browserbasierten Tools. Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen!</p>
 
     <div class="grid centered">
       <div class="col-3">
@@ -172,37 +171,6 @@ $product->structured_data_get_code ();
         </p>
       </div>
     </div>
-  </div>
-
-  <div class="content narrow padding-bottom-80">
-    <!--
-    <h2>Fragen und Antworten</h2>
-
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wir funktioniert die Anbindung an Apps?</label>
-      <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Lässt sich CallOne auch mit von uns verwendeten Apps verbinden, die hier nicht gelistet sind?</label>
-      <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Was ist der Nutzen der Browser-Erweiterungen?</label>
-      <div class="toggle-box__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate unde laborum sed, dicta optio, dolores doloremque quam quisquam tempora sequi, quaerat repellat atque laudantium inventore nesciunt consequatur tenetur? Veniam!</p>
-      </div>
-    </div>
-    -->
   </div>
 </div>
 
