@@ -15,20 +15,11 @@ if (!isset($_SESSION['userRoute'])) {
     if($lastElement !== $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'])
         array_push($_SESSION['userRoute'],$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 }
-
 ?>
 <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1)): ?>
  
-    <?php  if (isLocalHost()) : ?>	
-        <!--Google Tag Manager Testsystem --> 
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-MZN2XV4');</script>
-        <!--End Google Tag Manager-->
-
-        <!--Local Mouseflow-->
+    <?php if (!isLocalHost()) : ?>
+        <!--Mouseflow-->
         <script type="text/javascript">
         window._mfq = window._mfq || [];
         (function() {
@@ -37,9 +28,24 @@ if (!isset($_SESSION['userRoute'])) {
             mf.src = "//cdn.mouseflow.com/projects/a81cdc73-8001-422e-9d46-c67c4f092c90.js";
             document.getElementsByTagName("head")[0].appendChild(mf);
         })();
-        window._mfq.push(["tag", "dev"]);
         </script>
-        <!--End Local Mouseflow-->
+        <!--End Mouseflow-->
+    <?php endif; ?>
+
+    <?php  if (isLocalHost()) : ?>	
+        <!--Google Tag Manager Testsystem --> 
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MZN2XV4');</script>
+        <!--End Google Tag Manager-->
+    <?php elseif (isBeta()) : ?>
+        <!--Mouseflow Beta Tag-->
+        <script type="text/javascript">
+        window._mfq.push(["tag", "beta"]);
+        </script>
+        <!--Mouseflow Beta Tag-->
     <?php else : ?>
     	<!--Google Tag Manager-->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

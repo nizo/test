@@ -123,6 +123,12 @@
         
         return false;
     }
+
+    function isBeta(){
+        if (strpos($_SERVER['HTTP_HOST'], 'beta.www.') !== false)
+            return true;
+        return false;
+    }
         
     function isRole($role) {
         
