@@ -21,6 +21,7 @@ if (!isset($_SESSION['userRoute'])) {
     <?php if (!isLocalHost()) : ?>
         <!--Mouseflow-->
         <script type="text/javascript">
+        var mouseflowCrossDomainSupport = true;
         window._mfq = window._mfq || [];
         (function() {
             var mf = document.createElement("script");
