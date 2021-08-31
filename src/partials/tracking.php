@@ -27,6 +27,19 @@ if (!isset($_SESSION['userRoute'])) {
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MZN2XV4');</script>
         <!--End Google Tag Manager-->
+
+        <!--Local Mouseflow-->
+        <script type="text/javascript">
+        window._mfq = window._mfq || [];
+        (function() {
+            var mf = document.createElement("script");
+            mf.type = "text/javascript"; mf.defer = true;
+            mf.src = "//cdn.mouseflow.com/projects/a81cdc73-8001-422e-9d46-c67c4f092c90.js";
+            document.getElementsByTagName("head")[0].appendChild(mf);
+        })();
+        window._mfq.push(["tag", "dev"]);
+        </script>
+        <!--End Local Mouseflow-->
     <?php else : ?>
     	<!--Google Tag Manager-->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
