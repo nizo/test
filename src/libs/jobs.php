@@ -368,7 +368,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Office', 'Quereinsteiger*in, Junior Projektmanagent', 'Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
+	$job = new job ('Office', 'Quereinsteiger*in, Junior Projektmanagement', 'Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-quereinsteiger-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
