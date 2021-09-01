@@ -6,6 +6,7 @@ class Router {
       require_once('./libs/functions.php');
       require_once('./libs/jobs.php');
       require_once('./libs/products.php');
+      require_once('./libs/faqs.php');
   }
 
   public function addRoute($method, $url, $callback) {

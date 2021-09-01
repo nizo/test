@@ -1,3 +1,19 @@
+<?php
+$faqs = new faqs();
+$faqs->faq_add(
+  'Wie funktioniert eine Call Center Software mit Schnittstellen?',
+  '<p>Ihre eigenen Businesslösungen können Sie entweder über unsere offenen API-Schnittstellen selbst oder in Zusammenarbeit mit uns anbinden. Für viele gängige Businesslösungen wie z.B. Ticketing-, Sales- oder BI-Tools bieten wir bereits fertige Applikationen an.</p><p>Eine Anbindung kann ganz nach Ihren Wünschen erfolgen. Basic Funktionn beinhalten meist das Erstellen von Voice Tickets für eingehende und ausgehende Anrufe und das Matching dieser Tickets mit Kontakten und Usern. Auch umfangreiche Anbindungen mit Routing-Rückfrage, der Abfrage von Kundennummern oder vollautomatisierte Prozessen sind denkbar.</p>'
+);
+$faqs->faq_add(
+  'Was ist der Vorteil beim Einsatz einer Telefonanlage mit offenen Schnittstellen?',
+  '<p>Wenn Sie eine Telefonanlage mit offenen Schnittstellen einsetzen, sind Sie nicht auf die Funktionen und Features limitiert, die Ihnen Ihr Telefonieanbieter bereitstellt.</p><p>Die Möglichkeiten sind hier extrem umfangreich. Sie können beispielsweise noch tiefgreifendere Auswertungen durch die Abfrage von Call-Rohdaten erstellen, Prozess in der Telefonie automatisieren oder tägliche Aufgaben (z.B. neue Nutzer anlegen) in Drittsysteme integrieren.</p>'
+);
+$faqs->faq_add(
+  'Welche Einsatzmöglichkeiten und Funktionen bietet die CallOne Voice-API?',
+  '<p>Die CallOne Voice-API bietet vielzählige Optionen in verschiedenen Bereichen. Interne Prozess können automatisiert werden (z.B. die Pflege von Anruferlisten) und weitreichende Informationen zu Anrufen über Rohdaten abgefragt und in andere Systeme integriert werden.</p><p>Desweiteren können Sie unsere API nutzen, um Anrufprozesse intelligenter zu gestalten oder in Teilen zu automatisieren. Ein gutes Beispiel ist hierfür eine automatische Bestellannahme mit Abgleich der Daten in Ihrem CRM-System.</p>'
+);
+?>
+
 <div class="wrapper lightgrey lightgrey-2">
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
@@ -159,30 +175,10 @@
   <div class="content narrow">
     <h2>Fragen und Antworten</h2>
 
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wie funktioniert eine Call Center Software mit Schnittstellen?</label>
-      <div class="toggle-box__content">
-        <p>Ihre eigenen Businesslösungen können Sie entweder über unsere offenen API-Schnittstellen selbst oder in Zusammenarbeit mit uns anbinden. Für viele gängige Businesslösungen wie z.B. Ticketing-, Sales- oder BI-Tools bieten wir bereits fertige Applikationen an.</p>
-        <p>Eine Anbindung kann ganz nach Ihren Wünschen erfolgen. Basic Funktionn beinhalten meist das Erstellen von Voice Tickets für eingehende und ausgehende Anrufe und das Matching dieser Tickets mit Kontakten und Usern. Auch umfangreiche Anbindungen mit Routing-Rückfrage, der Abfrage von Kundennummern oder vollautomatisierte Prozessen sind denkbar.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was ist der Vorteil beim Einsatz einer Telefonanlage mit offenen Schnittstellen?</label>
-      <div class="toggle-box__content">
-        <p>Wenn Sie eine Telefonanlage mit offenen Schnittstellen einsetzen, sind Sie nicht auf die Funktionen und Features limitiert, die Ihnen Ihr Telefonieanbieter bereitstellt.</p>
-        <p>Die Möglichkeiten sind hier extrem umfangreich. Sie können beispielsweise noch tiefgreifendere Auswertungen durch die Abfrage von Call-Rohdaten erstellen, Prozess in der Telefonie automatisieren oder tägliche Aufgaben (z.B. neue Nutzer anlegen) in Drittsysteme integrieren.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Welche Einsatzmöglichkeiten und Funktionen bietet die CallOne Voice-API?</label>
-      <div class="toggle-box__content">
-        <p>Die CallOne Voice-API bietet vielzählige Optionen in verschiedenen Bereichen. Interne Prozess können automatisiert werden (z.B. die Pflege von Anruferlisten) und weitreichende Informationen zu Anrufen über Rohdaten abgefragt und in andere Systeme integriert werden.</p>
-        <p>Desweiteren können Sie unsere API nutzen, um Anrufprozesse intelligenter zu gestalten oder in Teilen zu automatisieren. Ein gutes Beispiel ist hierfür eine automatische Bestellannahme mit Abgleich der Daten in Ihrem CRM-System.</p>
-      </div>
-    </div>
+    <?php
+    $faqs->structured_data_get_code();
+    $faqs->html_get_code();
+    ?>
   </div>
 </div>
 

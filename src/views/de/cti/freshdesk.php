@@ -1,3 +1,27 @@
+<?php
+$faqs = new faqs();
+$faqs->faq_add(
+	'Wie funktioniert die Anbindung von Freshdesk?',
+	'<p>CallOne bietet eine in Deutschland gehostete Telefonanlage mit Callcenter-Software, die schnittstellenoffen ist und durch den fertigen Konnektor zu Freshdesk bequem mittels CTI angebunden werden kann. Wir benötigen dafür nur Ihren API-Key, entsprechende Freigaben und Ihre Freshdesk-Domain.</p>'
+);
+$faqs->faq_add(
+	'Was kann ich mit dem Freshdesk-Konnektor machen?',
+	'<p>Sie erhalten die Möglichkeit das Ticketsystem Freshdesk mit unserer Callcenter-Software zu koppeln. Eingehende Anrufe werden bei Gesprächsannahme dem Agenten in Freshdesk angezeigt. Neue Tickets können bearbeitet werden und bereits bestehende Tickets eines Anrufers werden diesem zugeordnet.</p>'
+);
+$faqs->faq_add(
+	'Was kostet die Anbindung an Freshdesk?',
+	'<p>Der Freshdesk Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. <a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.</p>'
+);
+$faqs->faq_add(
+	'Kann ich auch meine bestehende Telefonanlage nutzen?',
+	'<p>Ja, es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Bitte sprechen sie mit uns über ihre individuellen Anforderungen.</p>'
+);
+$faqs->faq_add(
+	'Kann ich die Callcenter-Software und die Freshdesk-Integration testen?',
+	'<p>Ja, testen ist gewünscht. Sprechen sie uns an, um im ersten Step über ihre konkreten Anforderungen auszutauschen.</p>'
+);
+?>
+
 <div class="wrapper">
   <div class="content wide">
     <header class="main-header">
@@ -155,48 +179,14 @@
 <div class="wrapper" id="faq">
   <div class="content wide mobileNoPadding">
     <h3 class="h1 centered">FAQ Freshdesk Callcenter Software</h3>
-    <div class="container">
-    	<h4 class="title">Wie funktioniert die Anbindung von Freshdesk?</h4>
-    	<div class="content">
-    		<p>
-    			CallOne bietet eine in Deutschland gehostete Telefonanlage mit Callcenter-Software, die schnittstellenoffen ist und durch den fertigen Konnektor zu Freshdesk bequem mittels CTI angebunden werden kann. Wir benötigen dafür nur Ihren API-Key, entsprechende Freigaben und Ihre Freshdesk-Domain.
-    		</p>
-    	</div>
-    </div>
-    <div class="container">
-    	<h4 class="title">Was kann ich mit dem Freshdesk-Konnektor machen?</h4>
-    	<div class="content">
-    		<p>
-        		Sie erhalten die Möglichkeit das Ticketsystem Freshdesk mit unserer Callcenter-Software zu koppeln. Eingehende Anrufe werden bei Gesprächsannahme dem Agenten in Freshdesk angezeigt. Neue Tickets können bearbeitet werden und bereits bestehende Tickets eines Anrufers werden diesem zugeordnet.
-        	</p>
-    	</div>
-    </div>
-    <div class="container">
-    	<h4 class="title">Was kostet die Anbindung an Freshdesk?</h4>
-    	<div class="content">
-    		<p>
-    			Der Freshdesk Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. 
-    			<a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.
-    		</p>
-    	</div>
-    </div>
-    <div class="container">
-    	<h4 class="title">Kann ich auch meine bestehende Telefonanlage nutzen?</h4>
-    	<div class="content">
-    		<p>
-    			Ja, es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Bitte sprechen sie mit uns über ihre individuellen Anforderungen. 
-    		</p>
-    	</div>
-    </div>
-    <div class="container">
-    	<h4 class="title">Kann ich die Callcenter-Software und die Freshdesk-Integration testen?</h4>
-    	<div class="content">
-    		<p>
-    			Ja, testen ist gewünscht. Sprechen sie uns an, um im ersten Step über ihre konkreten Anforderungen auszutauschen.
-    		</p>
-    	</div>
-    </div>
+    
+	<?php
+    $faqs->structured_data_get_code();
+    $faqs->html_get_code();
+    ?>
+
     <p></p>
+	
     <div class="button-set centered">
 		<a href="/faq/" class="button primary trackedElement" data-label="Button - Mehr FAQ" data-category="Link" data-action="linked to /faq/">Mehr FAQ</a>
 	</div>  

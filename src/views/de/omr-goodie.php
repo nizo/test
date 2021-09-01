@@ -1,3 +1,23 @@
+<?php
+$faqs = new faqs();
+$faqs->faq_add(
+  'Was bietet CallOne?',
+  '<p>CallOne bietet Ihnen eine Telefonielösung für das gesamte Unternehmen. Dabei richten wir uns speziell an Ihre Sales- und Service-Abteilungen und bieten für diese eine ausgereifte Callcenter-Software mit weitreichenden Apps und APIs.</p>'
+);
+$faqs->faq_add(
+  'Was kostet CallOne?',
+  '<p>Wir bieten Pakete, die genau auf die Anforderungen unserer Kunden zugeschnitten sind. Dabei richten wir uns insbesondere an Unternehmen, die eine individuelle Lösung benötigen und eine persönliche Betreuung zu schätzen wissen.</p><p>Konkret startet unsere Telefonanlage bei 5 UserInnen und 99,00 EUR. Näheres erfährst du bei unserem Vertriebsteam!</p>'
+);
+$faqs->faq_add(
+  'Welches Goodie erhalte ich als OMR-HörerIn?',
+  '<p>Als OMR-HörerIn erlassen wir dir die Bereitstellunggebühren unserer Telefonanlage. Damit sparst du bis zu 499,00 EUR!</p>'
+);
+$faqs->faq_add(
+  'Wie schnell können wir starten?',
+  '<p>Ein Start ist in wenigen Schritten möglich. Wir schalten einen persönlichen Zugang zur Anlage und es kann losgehen! Persönliche AnsprechpartnerInnen stehen jederzeit zur Konfiguration des Routings zur Verfügung.</p>'
+);
+?>
+
 <div class="wrapper lightgrey no-gutter-bottom">
   <div class="content wide no-gutter-bottom">
     <header class="main-header main-header--alignEnd">
@@ -137,35 +157,10 @@
   <div class="content narrow">
     <h2>Fragen und Antworten</h2>
 
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Was bietet CallOne?</label>
-      <div class="toggle-box__content">
-        <p>CallOne bietet Ihnen eine Telefonielösung für das gesamte Unternehmen. Dabei richten wir uns speziell an Ihre Sales- und Service-Abteilungen und bieten für diese eine ausgereifte Callcenter-Software mit weitreichenden Apps und APIs.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was kostet CallOne?</label>
-      <div class="toggle-box__content">
-        <p>Wir bieten Pakete, die genau auf die Anforderungen unserer Kunden zugeschnitten sind. Dabei richten wir uns insbesondere an Unternehmen, die eine individuelle Lösung benötigen und eine persönliche Betreuung zu schätzen wissen.</p>
-        <p>Konkret startet unsere Telefonanlage bei 5 UserInnen und 99,00 EUR. Näheres erfährst du bei unserem Vertriebsteam!</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Welches Goodie erhalte ich als OMR-HörerIn?</label>
-      <div class="toggle-box__content">
-        <p>Als OMR-HörerIn erlassen wir dir die Bereitstellunggebühren unserer Telefonanlage. Damit sparst du bis zu 499,00 EUR!</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-4" />
-      <label for="faq-4">Wie schnell können wir starten?</label>
-      <div class="toggle-box__content">
-        <p>Ein Start ist in wenigen Schritten möglich. Wir schalten einen persönlichen Zugang zur Anlage und es kann losgehen! Persönliche AnsprechpartnerInnen stehen jederzeit zur Konfiguration des Routings zur Verfügung.</p>
-      </div>
-    </div>
+    <?php
+    $faqs->structured_data_get_code();
+    $faqs->html_get_code();
+    ?>
   </div>
 </div>
 

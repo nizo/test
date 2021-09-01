@@ -104,6 +104,12 @@
       margin-top: 0;
     }
   }
+  &--on-black {
+    border-color: #fff;
+    input+label:before {
+      filter: invert(1);
+    }
+  }
 }
 
 @media screen and (max-width: 800px) {

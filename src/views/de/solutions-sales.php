@@ -1,3 +1,19 @@
+<?php
+$faqs = new faqs();
+$faqs->faq_add(
+  'Wie kann ich CallOne für mein Inside-Sales Team nutzen?',
+  '<p>Nutzen Sie die CallOne Callcenter-Software und VoIP-Telefonanlage, um Ihr Sales-Team optimal mit Tools für die Outbound- und Inbound-Telefonie auszustatten.</p><p>Neben den Telefonie-Lösungen empfehlen wir die Anbindung der für Sie relevanten Sales-Tools, insbesondere, um Ihren Agents Click2Dial und das automatisierte Erstellen von Voice Tickets aus Ihren Systemen heraus zu ermöglichen.</p>'
+);
+$faqs->faq_add(
+  'Welche Funktionen bietet CallOne speziell für Salesteams?',
+  '<p>Speziell für Ihr Sales-Team bietet die Lösungen Optionen für die Implementierung eines Power Dialers, einer Integration in Ihre CRM-Systeme und Click2Dial Features.</p><p>Außerdem können Sie bei CallOne alle notwendigen lokalen wie internationalen Rufnummern schalten, Optionen wie Gesprächsaufzeichnung und Silent Coaching für Schulungszwecke nutzen und Ihre Sales-Telefonie auf intelligenten Routingmodulen aufbauen.</p>'
+);
+$faqs->faq_add(
+  'Wie schnell können wir mit CallOne starten?',
+  '<p>Ein schneller Start ist jederzeit möglich! Kontaktieren Sie uns einfach mit Ihren individuellen Anforderungen für ein Erstgespräch und ein Start ist sehr wahrscheinlich schon in den nächsten Tagen möglich.</p>'
+);
+?>
+
 <div class="wrapper lightgrey lightgrey-2 no-gutter-bottom">
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
@@ -166,29 +182,11 @@
   <div class="content narrow">
     <h2>Fragen und Antworten</h2>
 
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Wie kann ich CallOne für mein Inside-Sales Team nutzen?</label>
-      <div class="toggle-box__content">
-        <p>Nutzen Sie die CallOne Callcenter-Software und VoIP-Telefonanlage, um Ihr Sales-Team optimal mit Tools für die Outbound- und Inbound-Telefonie auszustatten.</p>
-        <p>Neben den Telefonie-Lösungen empfehlen wir die Anbindung der für Sie relevanten Sales-Tools, insbesondere, um Ihren Agents Click2Dial und das automatisierte Erstellen von Voice Tickets aus Ihren Systemen heraus zu ermöglichen.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Welche Funktionen bietet CallOne speziell für Salesteams?</label>
-      <div class="toggle-box__content">
-        <p>Speziell für Ihr Sales-Team bietet die Lösungen Optionen für die Implementierung eines Power Dialers, einer Integration in Ihre CRM-Systeme und Click2Dial Features.</p>
-        <p>Außerdem können Sie bei CallOne alle notwendigen lokalen wie internationalen Rufnummern schalten, Optionen wie Gesprächsaufzeichnung und Silent Coaching für Schulungszwecke nutzen und Ihre Sales-Telefonie auf intelligenten Routingmodulen aufbauen.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Wie schnell können wir mit CallOne starten?</label>
-      <div class="toggle-box__content">
-        <p>Ein schneller Start ist jederzeit möglich! Kontaktieren Sie uns einfach mit Ihren individuellen Anforderungen für ein Erstgespräch und ein Start ist sehr wahrscheinlich schon in den nächsten Tagen möglich.</p>
-      </div>
-    </div>
+    <?php
+    $faqs->structured_data_get_code();
+    $faqs->html_get_code();
+    ?>
+
   </div>
 </div>
 

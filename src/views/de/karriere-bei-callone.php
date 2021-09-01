@@ -2,6 +2,36 @@
 $jobs = jobs_load();
 $jobsCount = count($jobs->jobs_get());
 $jobs_benefits = jobs_benefits_load ();
+
+$faqs = new faqs();
+$faqs->faq_add(
+    'Wie läuft der Bewerbungsprozess bei CallOne ab?',
+    '<p>Nachdem wir uns deine Bewerbungsunterlagen angeschaut haben, melden wir uns zeitnah bei dir für ein kurzes Telefonat. Im Anschluss laden wir dich zu einem persönlichen Kennenlernen in unser Büro ein, wo du einen ersten Eindruck deiner Arbeitsumgebung und vom Team bekommst. Die nächsten Schritte sprechen wir dann recht individuell mit dir ab. Vielleicht möchtest du ja zum Beispiel einmal einen Tag die Arbeit bei uns im Detail kennenlernen.</p>'
+);
+$faqs->faq_add(
+    'Wie läuft die Einarbeitung ab?t">',
+    '<p>Wir erstellen für dich einen Einarbeitungsplan mit verschiedenen Stationen und Themengebieten, die für dich relevant sind. Du lernst deine Kolleg*innen näher kennen und du wirst viel von ihrem Produktwissen profitieren. Eine gute Einarbeitung lebt davon, dass es keine Scheu gibt Fragen zu stellen. Von Anfang an bist du bei den Teammeetings, Produktschulungen und Kundenmeetings dabei und lernst on-the-job.</p>'
+);
+$faqs->faq_add(
+    'Welches Bewerbungsformat bevorzugt ihr?',
+    '<p>Wir bevorzugen kein bestimmtes Bewerbungsformat. Ein Lebenslauf mit kurzem Anschreiben ist für uns aber ein Muss, um uns einen ersten Eindruck verschaffen zu können.</p>'
+);
+$faqs->faq_add(
+    'Welche Sprachen sollte ich bei CallOne beherrschen?',
+    '<p>Sehr gute Deutsch- und gute Englischkenntnisse sorgen dafür, dass die Kommunikation mit unseren Kund*innen reibungslos läuft.</p>'
+);
+$faqs->faq_add(
+    'Was erwartet mich beim Telefon- oder Teams-Interview?',
+    '<p>Telefoninterviews dienen nur dazu, sich einen ersten Eindruck vom Gegenüber zu machen. Wir erzählen dir etwas zu CallOne und der offenen Stelle und du kannst dich kurz vorstellen und deine Fragen klären. Dann vereinbaren wir aber auch schnell einen Termin für ein persönliches Kennenlernen, aktuell via MS Teams.</p>'
+);
+$faqs->faq_add(
+    'Bietet CallOne Trainings und Fortbildungen an?',
+    '<p>Auf jeden Fall! Lass uns gern darüber sprechen, in welchen Bereichen du dich gerne fortbilden und du dein Wissen erweitern möchtest.</p>'
+);
+$faqs->faq_add(
+    'Kann ich mich bei CallOne auch initiativ bewerben?',
+    '<p>Sehr gerne. Bei uns gibt es viele Quereinsteiger*innen und Allrounder*innen. wir finden sicher eine passende Stelle für dich.</p>'
+);
 ?>
 
 <div class="section">
@@ -343,54 +373,9 @@ $jobs_benefits = jobs_benefits_load ();
     <div class="section__content section__content--narrow">
         <h1 class="centered">Fragen und Antworten</h1>
 
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-1" />
-            <label for="faq-1">Wie läuft der Bewerbungsprozess bei CallOne ab?</label>
-            <div class="toggle-box__content">
-                <p>Nachdem wir uns deine Bewerbungsunterlagen angeschaut haben, melden wir uns zeitnah bei dir für ein kurzes Telefonat. Im Anschluss laden wir dich zu einem persönlichen Kennenlernen in unser Büro ein, wo du einen ersten Eindruck deiner Arbeitsumgebung und vom Team bekommst. Die nächsten Schritte sprechen wir dann recht individuell mit dir ab. Vielleicht möchtest du ja zum Beispiel einmal einen Tag die Arbeit bei uns im Detail kennenlernen.</p>
-            </div>
-        </div>
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-2" />
-            <label for="faq-2">Wie läuft die Einarbeitung ab?</label>
-            <div class="toggle-box__content">
-                <p>Wir erstellen für dich einen Einarbeitungsplan mit verschiedenen Stationen und Themengebieten, die für dich relevant sind. Du lernst deine Kolleg*innen näher kennen und du wirst viel von ihrem Produktwissen profitieren. Eine gute Einarbeitung lebt davon, dass es keine Scheu gibt Fragen zu stellen. Von Anfang an bist du bei den Teammeetings, Produktschulungen und Kundenmeetings dabei und lernst on-the-job.</p>
-            </div>
-        </div>
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-3" />
-            <label for="faq-3">Welches Bewerbungsformat bevorzugt ihr?</label>
-            <div class="toggle-box__content">
-                <p>Wir bevorzugen kein bestimmtes Bewerbungsformat. Ein Lebenslauf mit kurzem Anschreiben ist für uns aber ein Muss, um uns einen ersten Eindruck verschaffen zu können.</p>
-            </div>
-        </div>
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-4" />
-            <label for="faq-4">Welche Sprachen sollte ich bei CallOne beherrschen?</label>
-            <div class="toggle-box__content">
-                <p>Sehr gute Deutsch- und gute Englischkenntnisse sorgen dafür, dass die Kommunikation mit unseren Kund*innen reibungslos läuft.</p>
-            </div>
-        </div>
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-5" />
-            <label for="faq-5">Was erwartet mich beim Telefon- oder Teams-Interview?</label>
-            <div class="toggle-box__content">
-                <p>Telefoninterviews dienen nur dazu, sich einen ersten Eindruck vom Gegenüber zu machen. Wir erzählen dir etwas zu CallOne und der offenen Stelle und du kannst dich kurz vorstellen und deine Fragen klären. Dann vereinbaren wir aber auch schnell einen Termin für ein persönliches Kennenlernen, aktuell via MS Teams.</p>
-            </div>
-        </div>
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-6" />
-            <label for="faq-6">Bietet CallOne Trainings und Fortbildungen an?</label>
-            <div class="toggle-box__content">
-                <p>Auf jeden Fall! Lass uns gern darüber sprechen, in welchen Bereichen du dich gerne fortbilden und du dein Wissen erweitern möchtest.</p>
-            </div>
-        </div>
-        <div class="toggle-box">
-            <input type="checkbox" id="faq-7" />
-            <label for="faq-7">Kann ich mich bei CallOne auch initiativ bewerben?</label>
-            <div class="toggle-box__content">
-                <p>Sehr gerne. Bei uns gibt es viele Quereinsteiger*innen und Allrounder*innen. wir finden sicher eine passende Stelle für dich.</p>
-            </div>
-        </div>
+        <?php
+        $faqs->structured_data_get_code();
+        $faqs->html_get_code();
+        ?>
     </div>
 </div>

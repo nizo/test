@@ -1,3 +1,19 @@
+<?php
+$faqs = new faqs();
+$faqs->faq_add(
+  'Was ist eine Helpdesk-Software?',
+  '<p>Eine Helpdesk-Software wie Zendesk oder Freshdesk ermöglicht es Ihnen eingehende Kundenanfrage verschiedenster Kanäle an einer zentralen Stelle zu bearbeiten</p><p>Die Integration Ihrer Kundenservice-Telefonie in Ihr Helpdesk-Tool ist daher sehr interessant, um telefonische Kundenanfragen an zentraler Stelle zu inkludieren und trotzdem die Funktionen einer intelligenten ACD-Lösung zu nutzen.</p>'
+);
+$faqs->faq_add(
+  'Was kostet die Anbindung von Apps an die ACD-Lösung?',
+  '<p>Die Nutzung von fertigen Apps und Anbindungen an Drittsysteme wird unsererseits i.d.R. mit einer Grundgebühr berechnet.</p><p>Für die Anbindung Ihrer eigenen Systeme stehen wir Ihnen gerne projektseitig zur Seite und erstellen mit Ihnen gemeinsam einen Plan.</p>'
+);
+$faqs->faq_add(
+  'Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?',
+  '<p>Die Schnittstellen einer Callcenter-Software bieten Ihnen extrem viele Möglichkeiten: Über den Bezug von statistischen Rohdaten bis hin zur Automatisierung von Prozessen sind alle Möglichkeiten offen.</p><p>Kontaktieren Sie uns gerne mit Ihren individuellen Anforderungen!</p>'
+);
+?>
+
 <div class="wrapper lightgrey lightgrey-2 no-gutter-bottom">
   <div class="content wide no-gutter-bottom">
     <header class="main-header">
@@ -133,30 +149,10 @@
   <div class="content narrow">
     <h2>Fragen und Antworten</h2>
 
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-1" />
-      <label for="faq-1">Was ist eine Helpdesk-Software?</label>
-      <div class="toggle-box__content">
-        <p>Eine Helpdesk-Software wie Zendesk oder Freshdesk ermöglicht es Ihnen eingehende Kundenanfrage verschiedenster Kanäle an einer zentralen Stelle zu bearbeiten</p>
-        <p>Die Integration Ihrer Kundenservice-Telefonie in Ihr Helpdesk-Tool ist daher sehr interessant, um telefonische Kundenanfragen an zentraler Stelle zu inkludieren und trotzdem die Funktionen einer intelligenten ACD-Lösung zu nutzen.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-2" />
-      <label for="faq-2">Was kostet die Anbindung von Apps an die ACD-Lösung?</label>
-      <div class="toggle-box__content">
-        <p>Die Nutzung von fertigen Apps und Anbindungen an Drittsysteme wird unsererseits i.d.R. mit einer Grundgebühr berechnet. </p>
-        <p>Für die Anbindung Ihrer eigenen Systeme stehen wir Ihnen gerne projektseitig zur Seite und erstellen mit Ihnen gemeinsam einen Plan.</p>
-      </div>
-    </div>
-    <div class="toggle-box">
-      <input type="checkbox" id="faq-3" />
-      <label for="faq-3">Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?</label>
-      <div class="toggle-box__content">
-        <p>Die Schnittstellen einer Callcenter-Software bieten Ihnen extrem viele Möglichkeiten: Über den Bezug von statistischen Rohdaten bis hin zur Automatisierung von Prozessen sind alle Möglichkeiten offen.</p>
-        <p>Kontaktieren Sie uns gerne mit Ihren individuellen Anforderungen!</p>
-      </div>
-    </div>
+    <?php
+    $faqs->structured_data_get_code();
+    $faqs->html_get_code();
+    ?>
   </div>
 </div>
 
