@@ -1,14 +1,14 @@
 <?php
-$faqs = new faqs();
-$faqs->faq_add(
+$faqs = new faqs ();
+$faqs->faq_add (
   'Was ist eine Helpdesk-Software?',
   '<p>Eine Helpdesk-Software wie Zendesk oder Freshdesk ermöglicht es Ihnen eingehende Kundenanfrage verschiedenster Kanäle an einer zentralen Stelle zu bearbeiten</p><p>Die Integration Ihrer Kundenservice-Telefonie in Ihr Helpdesk-Tool ist daher sehr interessant, um telefonische Kundenanfragen an zentraler Stelle zu inkludieren und trotzdem die Funktionen einer intelligenten ACD-Lösung zu nutzen.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Was kostet die Anbindung von Apps an die ACD-Lösung?',
   '<p>Die Nutzung von fertigen Apps und Anbindungen an Drittsysteme wird unsererseits i.d.R. mit einer Grundgebühr berechnet.</p><p>Für die Anbindung Ihrer eigenen Systeme stehen wir Ihnen gerne projektseitig zur Seite und erstellen mit Ihnen gemeinsam einen Plan.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?',
   '<p>Die Schnittstellen einer Callcenter-Software bieten Ihnen extrem viele Möglichkeiten: Über den Bezug von statistischen Rohdaten bis hin zur Automatisierung von Prozessen sind alle Möglichkeiten offen.</p><p>Kontaktieren Sie uns gerne mit Ihren individuellen Anforderungen!</p>'
 );
@@ -150,8 +150,8 @@ $faqs->faq_add(
     <h2>Fragen und Antworten</h2>
 
     <?php
-    $faqs->structured_data_get_code();
-    $faqs->html_get_code();
+    $faqs->structured_data_get_code ();
+    $faqs->html_get_code ();
     ?>
   </div>
 </div>

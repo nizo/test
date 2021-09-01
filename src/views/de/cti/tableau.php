@@ -1,26 +1,26 @@
 <?php
-$faqs = new faqs();
-$faqs->faq_add(
+$faqs = new faqs ();
+$faqs->faq_add (
   'Wie funktioniert der Telefonanlagen Connector für Tableau?',
   '<p>CallOne bietet eine umfassende VoIP-Telefonanlage mit Callcenter-Software und unzähligen Schnittstellen. Für das BI-Tool Tableau bietet wir als Tableau Technologie-Partner eine fertige Anbindung über den Tableau Webdata-Connetor zur Übermittlung aller anrufspezifischen Daten. Sie erhalten nach Freischaltung von Telefonanlage und Connector Ihre Zugangsdaten und könne sofort loslegen.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Welche KPI kann ich mit dem Tableau Konnector erhalten?',
   '<p>Sie erhalten eine umfassende Sammlung aller anrufrelevanten Daten. Neben Anruf- und Wartedauer erhalten Sie eine Vielzahl von Informationen rund um Ihre Agenten, Warteschleifen, Anrufgründe, Herkünfte und Verteilung der Anrufe. Sie können somit Telefon-KPIs ermitteln und diese Daten mit Ihren sonstigen Kontaktkanälen für einen Gesamtbild in Verbindung bringen.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Was kostet der Telefonanlagen Connector für Tableau?',
   '<p>Der Tableau Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. <a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Kann ich den Tableau Connector auch mit meiner bestehenden Telefonanlage nutzen?',
   '<p>Es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Um die Telefondaten für einen Tableau-Export zu erfassen ist es stets Grundvoraussetzung, dass die Gespräche über unsere Infrastruktur geleitet und aufbereitet werden. Zur Besprechung Ihrer individuellen Anforderungen <a href="#" title="Sprechen Sie mit unseren Experten" data-openmodal="contact-sales">sprechen sie mit unseren Experten</a></p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Gibt es bei CallOne noch andere Möglichkeiten Telefondaten für meine BI-Abteilung zu erhalten?',
   '<p>CallOne bietet weit <a href="https://connect.callone.io/api/rest/" title="Apps und Schnittstellen">über 50 unterschiedliche Schnittstellen und Webhooks</a> um ihre Businesslösungen mit unserer VoIP-Telefonanlage zu koppeln. Insbesondere für Kunden, die umfassende Rohdaten rund um das Callcenter oder die Telefonanlage benötigen. Unsere Schnittstellenprogrammierer helfen Ihnen bei individuellen Anforderungen persönlich weiter.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Kann ich die Callcenter-Software und den Tableau Connector testen?',
   '<p>Ja, ein Test und eine Demo ist möglich und von unserer Seite auch gewünscht. <a class="openModal" data-modal="contact" title="Treten Sie ins Kontakt">Bitte kontaktieren sie unsere Experten für eine Websession</a></p><p>Darüber hinaus bietet CallOne eine Vielzahl fertiger Apps für beliebte Tools wie Pipedrive, Salesforce, Zendesk, uvm. sowie Integrationen mit BI-Tools wie tableau und Geckoboard.</p>'
 );
@@ -274,8 +274,8 @@ $faqs->faq_add(
     <h3 class="h1 centered">FAQ Tableau Callcenter Connector</h3>
     
     <?php
-    $faqs->structured_data_get_code();
-    $faqs->html_get_code();
+    $faqs->structured_data_get_code ();
+    $faqs->html_get_code ();
     ?>
 
     <p></p>

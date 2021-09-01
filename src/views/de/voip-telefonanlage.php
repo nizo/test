@@ -5,28 +5,28 @@ $product->reviews_load ();
 
 $product->structured_data_get_code ();
 
-$faqs = new faqs();
-$faqs->faq_add(
+$faqs = new faqs ();
+$faqs->faq_add (
   'Was unterscheidet die virtuelle Telefonanlage von CallOne von anderen Anbietern?',
   '<p>CallOne kombiniert eine flexibel anpassbare Cloud-Telefonanlage mit einer umfangreichen Callcenter-Lösung, Integrationen in andere Systeme und offenen APIs. Die CallOne Telefonielösungen sind somit frei skalierbar und können alle Anforderungen von der kleinen Officetelefonielösung bis hin zu weit ausgewachsenen und voll integrierten Kundenservice- und Sales-Abteilungen abbilden. Alle Telefoniedaten sind bei CallOne in detaillierten Statistiken auswertbar, die auch über APIs abgefragt oder in BI-Tools <a href="/cti-schnittstellen" title="Schnittstellen">integriert</a> werden können. Kontaktieren Sie uns einfach mit Ihren individuellen Anforderungen!</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Was kostet die CallOne Telefonanlage?',
   '<p>Sie können die CallOne Cloud-Telefonanlage bereits ab 5,90 € je Nebenstelle nutzen. Ihnen stehen Optionen im Self-Service oder mit einem persönlichen Customer Succcess Manager zur Verfügung. Nähere Informationen finden Sie auf unserer <a href="/preise">Preisseite</a> oder <a href="#" data-openmodal="contact-sales">kontaktieren</a> Sie uns einfach mit Ihren Anforderungen.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Erhalte ich auch Rufnummern von CallOne?',
   '<p>Wir schalten Ihnen Rufnummern aus allen Vorwahlbereichen in Deutschland sowie lokale Rufnummern weltweit. Auch Servicerufnummern wie z.B. 0800-Rufnummern stellen wir Ihnen gerne zur Verfügung. Ebenso können Sie Ihre bereits vorhandenen Rufnummern jederzeit zu uns weiterleiten oder einfach portieren. Alle Rufnummern im CallOne Netz laufen über stabile Premium-Routen und bieten auszeichnete Sprachqualität.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Wie kann ich über die virtuelle Telefonanlage von CallOne telefonieren?',
   '<p>Bei der Wahl des gewünschten Endgeräts sind Sie bei CallOne komplett flexibel. Nutzen Sie jedes beliebige Softphone oder Hardware-IP-Telefon und kombinieren Sie Ihre Telefonie für Sales und Kundenservice mit Dialerfunktionen und Click-to-Call. Oder Sie verzichten komplett auf Hard- oder Software-Telefone und nutzen die bei CallOne bereits integrierte Browsertelefonie (WebRTC).</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Welche Funktionen unterstützt die CallOne Telefonanlage?',
   '<p>Die Cloud-Telefonanlage von CallOne unterstützt alle bekannten Funktionen und Features einer Telefonanlage, z.B. Besetztlampenfelder, Parallelruf, Ringschaltung, Rufnummernübermittlung, uvm. Darüber hinaus bietet CallOne weitreichende Callcenter-Funktionen wie Warteschleifenadministration, SLAs, IVR-Menüs und Gesprächsaufzeichnung auch im Zusammenspiel mit der Telefonanlage. Kontaktieren Sie uns gerne mit Ihren Anforderungen! <a href="/voip-telefonanlagen-funktionen">Hier finden Sie mehr zu unseren Features</a>.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Mit welchen anderen CRMs und Tools kann ich CallOne kombinieren?',
   '<p>Mit unseren offenen APIs haben Sie Möglichkeit Telefoniefunktionen in nahezu alle CRM-, Kundenservice- und Salestools zu integrieren. Beliebte Funktionen sind z.B. Click-to-Dial oder das automatisierte Anlegen von Nebenstellen oder Telefonbucheinträgen. Mehr Informationen zu unseren APIs finden Sie <a href="/cti-schnittstellen" title="´Apps und Schnittstellen">hier</a>.</p><p>Darüber hinaus bietet CallOne eine Vielzahl fertiger Apps für beliebte Tools wie Pipedrive, Salesforce, Zendesk, uvm. sowie Integrationen mit BI-Tools wie tableau und Geckoboard.</p>'
 );
@@ -293,8 +293,8 @@ $faqs->faq_add(
     <h3 class="h1 centered">FAQ virtuelle Telefonanlage</h3>
     
     <?php
-    $faqs->structured_data_get_code();
-    $faqs->html_get_code();
+    $faqs->structured_data_get_code ();
+    $faqs->html_get_code ();
     ?>
 
     <p></p>

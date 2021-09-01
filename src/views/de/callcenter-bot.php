@@ -5,28 +5,28 @@ $product->reviews_load ();
 
 $product->structured_data_get_code ();
 
-$faqs = new faqs();
-$faqs->faq_add(
+$faqs = new faqs ();
+$faqs->faq_add (
   'Wie funktioniert der CallOne Callcenter Bot?​',
   '<p>Wir bieten kundenindividuelle Lösungen für Ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales">Sprechen Sie uns an​</a></p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Was sind die häufigsten Anwendungsfälle des Callcenter-Bots?',
   '<p>Wir bieten Ihnen drei Anwendungsbereiche: Sprachgesteuerte IVR-Auswahlmenüs, FAQ-Portale, individuelle KI-gesteuerte Kundendialoglösungen mit Voice-to-Text, KI, Text-to-Speech und Schnittstellenintegrationen.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Was sind die ersten Schritte mit dem Callcenter-Bot?',
   '<p>Sie setzen sich mit uns in Verbindung und wir besprechen Ihr konkretes Anwendungsszenario. Recht schnell erstellen wir ein Prototyp für Sie und testen. Bei komplexeren Anwendungsfällen wie Schnittstellenintegrationen und komplexen Anwendungsfällen steht Ihnen ein Projektteam aus eigenen Full Stack- und Schnittstellenentwicklern, Web-Entwicklern und Sprachwissenschaftlern zur Verfügung.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Wie können wir den CallOne Callcenter-Bot nutzen?',
   '<p>Wir bieten Ihnen ein Full-Service-Paket. Hierbei erhalten Sie von uns alles, was Sie brauchen, um Ihr Spracherlebnis auf den Weg zu bringen - von der Konzeptentwicklung bis zur Markteinführung und Optimierung Ihres Produkts.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Was kostet der Callcenter-Bot?',
   '<p>Die Pricing des Callcenter-Bots erfolgt nach Nutzung. Sie zahlen je Aufruf der Sprachanforderung (VTT) und Text-to-Speech (TTS). Der Aufwand für die Bereitstellung Ihres Callcenter-Bots ist kundenindividuell und richtet sich nach Art und Umfang des Projekts.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Wie lange dauert die Umsetzung?',
   '<p>Der Start für einen Callcenter Bot kann innerhalb weniger Stunden für Sie erfolgen, wenn es sich beispielsweise um die Sprachautomatisierung Ihres IVR-Menüs handelt. Im laufenden Betrieb optimieren wir mit Ihnen die erkannten Eingaben. Projekte bei denen Schnittstellenintegrationen und vielzählige Plausibilitäten abzubilden sind, werden in einem individuellen Projektplan für Sie verbindlich zusammengestellt.​</p>'
 );
@@ -286,8 +286,8 @@ $faqs->faq_add(
     <h3 class="h1 centered">FAQ Callcenter-Bot</h3>
     
     <?php
-    $faqs->structured_data_get_code();
-    $faqs->html_get_code();
+    $faqs->structured_data_get_code ();
+    $faqs->html_get_code ();
     ?>
 
     <p></p>

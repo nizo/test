@@ -1,14 +1,14 @@
 <?php
-$faqs = new faqs();
-$faqs->faq_add(
+$faqs = new faqs ();
+$faqs->faq_add (
   'Wir funktioniert die Integration in Salesforce?',
   '<p>Sie können die Salesforce-App über den Salesforce AppExchange installieren. Gerne stellen wir Ihnen dafür eine Anleitung zur Verfügung oder unterstützen Sie bei der Einrichtung!</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Welche Funktionen bietet mir die Integration in Salesforce?',
   '<p>Die Callone Salesforce-Integration ermöglicht das Mapping von CallOne und Salesforce-Nutzer*innen, um automatisch alle In- und Outbound-Anrufe in Salesforce zu dokumentieren.</p><p>Zu jedem Anruf wird direkt in Salesforce eine Aktivität erstellt. Außerdem liefert die App ein CTI Softphone in Salesforce, das unter anderem das Ändern des CallOne Agentenstatus ermöglicht. Ausgehende Gespräche können mit Klick auf eine Rufnummer in Salesforce ausgelöst werden.</p>'
 );
-$faqs->faq_add(
+$faqs->faq_add (
   'Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?',
   '<p>Wenn Sie die Salesforce-Integration im Zusammenspiel mit der Callcenter-Software nutzen, erweitern Sie Ihre Telefonie um weitreichende ACD-Funktionen. Hierzu gehören z.B. Skillgruppen-Routings, Warteschleifen-Administration und umfangreiche Auswertungsmöglichkeiten. Erfahren Sie <a href="/callcenter-software" title="Callcenter-Software">hier</a> mehr zur CallOne Cloud ACD.</p>'
 );
@@ -145,8 +145,8 @@ $faqs->faq_add(
     <h2>Fragen und Antworten</h2>
 
     <?php
-    $faqs->structured_data_get_code();
-    $faqs->html_get_code();
+    $faqs->structured_data_get_code ();
+    $faqs->html_get_code ();
     ?>
   </div>
 </div>

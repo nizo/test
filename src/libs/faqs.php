@@ -1,9 +1,11 @@
 <?php
-class faqs {
+class faqs
+{
     private $list;
 
 	function __construct ()
 	{
+        $this->list = [];
 	}
 
     function faq_add ($q, $a)
@@ -18,20 +20,20 @@ class faqs {
 		$data['@context']		= 'http://schema.org/';
 		$data['@type']			= 'FAQPage';
 
-		$mainEntity = [];
+		$main_entity = [];
 		
         foreach ($this->list as $faq) {
             $entry = [];
             $entry['@type'] = 'Question';
             $entry['name'] = $faq->question_get ();
-            $acceptedAnswer = [];
-            $acceptedAnswer['@type'] = 'Answer';
-            $acceptedAnswer['text'] = $faq->answer_get ();
-            $entry['acceptedAnswer'] = $acceptedAnswer;
-            $mainEntity[] = $entry;
+            $accepted_answer = [];
+            $accepted_answer['@type'] = 'Answer';
+            $accepted_answer['text'] = $faq->answer_get ();
+            $entry['acceptedAnswer'] = $accepted_answer;
+            $main_entity[] = $entry;
         }
 
-		$data['mainEntity'] = $mainEntity;
+		$data['mainEntity'] = $main_entity;
 
 		return $data;
 	}
@@ -59,7 +61,8 @@ class faqs {
     }
 }
 
-class faq_entry {
+class faq_entry
+{
     private $question;
     private $answer;
 
@@ -69,18 +72,21 @@ class faq_entry {
         $this->answer_set ($answer);
     }
 
-    function question_set ($q)
+    function question_set ($question)
     {
-        $this->question = $q;
+        $this->question = $question;
     }
-    function question_get () {
+
+    function question_get ()
+    {
         return $this->question;
     }
 
-    function answer_set ($a)
+    function answer_set ($answer)
     {
-        $this->answer = $a;
+        $this->answer = $answer;
     }
+
     function answer_get ()
     {
         return $this->answer;
