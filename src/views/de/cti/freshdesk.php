@@ -193,7 +193,7 @@ $faqs->faq_add (
   </div>
 </div>
 
-<div class="wrapper quarter-background" id="blog">
+<div class="wrapper background-black" id="blog">
   <div class="content narrow">
     <h2 class="h1 centered">Neues aus unserem Blog</h2>
     <div class="shadow-box">

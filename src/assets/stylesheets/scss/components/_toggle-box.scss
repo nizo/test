@@ -1,6 +1,7 @@
 .toggle-box {
   border-radius: 10px;
   border: 1px solid #000;
+  background-color: rgba(#fff, .75);
   input {
     display: none;
     &+label {
@@ -106,6 +107,7 @@
   }
   &--on-black {
     border-color: #fff;
+    background-color: rgba(#000, .75);
     input+label:before {
       filter: invert(1);
     }
