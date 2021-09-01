@@ -10,7 +10,7 @@ class faqs
 
     function faq_add ($q, $a)
     {
-        $this->list[] = new faq_entry($q, $a);
+        $this->list[] = new faq_entry ($q, $a);
     }
 
     function structured_data_get_raw ()
@@ -22,7 +22,8 @@ class faqs
 
 		$main_entity = [];
 		
-        foreach ($this->list as $faq) {
+        foreach ($this->list as $faq)
+        {
             $entry = [];
             $entry['@type'] = 'Question';
             $entry['name'] = $faq->question_get ();
@@ -49,10 +50,11 @@ class faqs
     {
         $html = '';
 
-        foreach ($this->list as $faq) {
+        foreach ($this->list as $faq)
+        {
             $html .= '<div class="toggle-box '.$extra_classes.'">';
-            $html .= '<input type="checkbox" id="'.md5($faq->question_get ()).'" />';
-            $html .= '<label for="'.md5($faq->question_get ()).'">'.$faq->question_get ().'</label>';
+            $html .= '<input type="checkbox" id="'.md5 ($faq->question_get ()).'" />';
+            $html .= '<label for="'.md5 ($faq->question_get ()).'">'.$faq->question_get ().'</label>';
             $html .= '<div class="toggle-box__content">'.$faq->answer_get ().'</div>';
             $html .= '</div>';
         }
