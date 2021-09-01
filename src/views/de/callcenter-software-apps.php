@@ -1,30 +1,46 @@
 <?php
 $product = new product ('Integration in Freshdesk', 'Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Freshdesk-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Freshdesk-app-icon.svg');
 $product->structured_data_get_code ();
 
 $product = new product ('Integration in Freshsales', 'Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Freshsales-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Freshsales-app-icon.svg');
 $product->structured_data_get_code ();
 
 $product = new product ('Integration in Zendesk', 'Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Zendesk-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Zendesk-app-icon.svg');
 $product->structured_data_get_code ();
 
 $product = new product ('Integration in Pipedrive', 'Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Pipedrive-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Pipedrive-app-icon.svg');
 $product->structured_data_get_code ();
 
 $product = new product ('Integration in Hubspot', 'Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Hubspot-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Hubspot-app-icon.svg');
 $product->structured_data_get_code ();
 
 $product = new product ('Integration in Salesforce', 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Salesforce-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Salesforce-app-icon.svg');
 $product->structured_data_get_code ();
 
 $product = new product ('Integration in Tableau', 'Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.');
-$product->image_set ('https://callone.de/assets/images/logo/productlogos/Tableau-app-icon.svg');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Tableau-app-icon.svg');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Power BI', 'Erstellen Sie aufwendige Dashboards, die komplexe Prognosen zu Auslastung und Callvolumen zulassen. Erleben sie bessere Planbarkeit ihrer Agenten und eine optimale Auswertung.');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/PowerBI-app-icon.png');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Qlik Sense', 'Nutzen sie ausgefeilte AI-Funktionen und die assoziative Analyse-Engine um tiefe Einblicke in Telefoniedaten zu bekommen. Treffen sie bessere Entscheidungen durch datengesteuerte Echtzeitanalysen.');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/QlikSense-app-icon.png');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Google Data Studio', 'Werten sie Telefoniedaten standortübergreifend mit der cloudbasierten Google BI-Software aus. Integrieren sie nahtlos in bestehende Dashboards und Auswertungen, um eine vielschichtigere Optimierung zu ermöglichen.');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/GoogleDataStudio-app-icon.png');
+$product->structured_data_get_code ();
+
+$product = new product ('Integration in Excel Data Connector', 'Nutzen sie die Pivot-Funktionen von Excel um in gewohnter Umgebung umfangreiche Datenanalysen durchzuführen. Keine teure BI-Software notwendig, alle Rohdaten stehen genauso in Excel zur Verfügung.');
+$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/ExcelDataConnector-app-icon.png');
 $product->structured_data_get_code ();
 ?>
 
@@ -65,6 +81,7 @@ $product->structured_data_get_code ();
           <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
+
       <div class="col-3 card card--shadow" style="--c:#ffa800;">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Freshsales-app-icon.svg" alt="Freshsales" />
@@ -75,6 +92,7 @@ $product->structured_data_get_code ();
           <a style="float: right;" href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
+
       <div class="col-3 card card--shadow" style="--c:#03363D">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Zendesk-app-icon.svg" alt="Zendesk" />
@@ -87,6 +105,7 @@ $product->structured_data_get_code ();
           <a style="float: right;" href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
+
       <div class="col-3 card card--shadow" style="--c:#9a9a9a">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Pipedrive-app-icon.svg" alt="Pipedrive" />
@@ -98,6 +117,7 @@ $product->structured_data_get_code ();
           <a style="float: right;" href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="button secondary mobileWrap rounded">Marketplace</a>
         </p>
       </div>
+
       <div class="col-3 card card--shadow" style="--c:#45535E">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Hubspot-app-icon.svg" alt="Hubspot" />
@@ -108,6 +128,7 @@ $product->structured_data_get_code ();
           <a style="float: right;" href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="button secondary mobileWrap rounded">Hubspot Blog</a>
         </p>
       </div>
+
       <div class="col-3 card card--shadow" style="--c:#254856">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Salesforce-app-icon.svg" alt="Salesforce" />
@@ -119,6 +140,7 @@ $product->structured_data_get_code ();
           <a style="float: right;" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="button secondary mobileWrap rounded">AppExchange</a>
         </p>
       </div>
+
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg" class="partnerLogo gray-100" alt="Jira Service Desk" />
@@ -132,30 +154,78 @@ $product->structured_data_get_code ();
     </div>
   </div>
 
-  <div class="content narrow">
+  <div class="content wide">
     <p class="subtitle">Apps für Reports, Wallboards, Statistiken</p>
     <h2>Richtig Spaß macht:<br />Ungenutzte Potenziale entdecken</h2>
 
     <div class="grid">
-      <div class="col-2 card card--shadow" style="--c:#03363D">
+      <div class="col-3 card card--shadow" style="--c:#03363D">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Tableau-app-icon.svg" alt="Tableau" />
         </div>
         <h3>Tableau</h3>
-        <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</p>
+        <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von Tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</p>
         <p>
           <a style="float: left;" href="/tableau-callcenter-connector" class="button tertiary mobileWrap rounded">Infos</a>
           <a style="float: right;" href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="button secondary mobileWrap rounded">Partnercenter</a>
         </p>
       </div>
-      <div class="col-2 card card--shadow" style="--c:#eaeaea">
+
+      <div class="col-3 card card--shadow" style="--c:#ffe678">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/PowerBI-app-icon.png" alt="Power BI" />
+        </div>
+        <h3>Power BI</h3>
+        <p>Erstellen Sie aufwendige Dashboards, die komplexe Prognosen zu Auslastung und Callvolumen zulassen. Erleben sie bessere Planbarkeit ihrer Agenten und eine optimale Auswertung.</p>
+        <p>
+          <br/><br/><br/><br/>
+          <a style="float: right;" href="https://docs.microsoft.com/de-de/power-bi/connect-data/power-bi-data-sources" target="_blank" class="button secondary mobileWrap rounded">Datenquellen</a>
+        </p>
+      </div>
+
+      <div class="col-3 card card--shadow" style="--c:#6eb43f">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/QlikSense-app-icon.png" alt="Qlik Sense" />
+        </div>
+        <h3>Qlik Sense</h3>
+        <p>Nutzen sie ausgefeilte AI-Funktionen und die assoziative Analyse-Engine um tiefe Einblicke in Telefoniedaten zu bekommen. Treffen sie bessere Entscheidungen durch datengesteuerte Echtzeitanalysen.</p>
+        <p>
+          <br/><br/><br/>
+          <a style="float: right;" href="https://www.qlik.com/de-de/products/qlik-sense/data-sources" target="_blank" class="button secondary mobileWrap rounded">Datenquellen</a>
+        </p>
+      </div>
+
+      <div class="col-3 card card--shadow" style="--c:#00319a">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/GoogleDataStudio-app-icon.png" alt="Google Data Studio" />
+        </div>
+        <h3>Google Data Studio</h3>
+        <p>Werten sie Telefoniedaten standortübergreifend mit der cloudbasierten Google BI-Software aus. Integrieren sie nahtlos in bestehende Dashboards und Auswertungen, um eine vielschichtigere Optimierung zu ermöglichen.</p>
+        <p>
+          <a style="float: right;" href="https://datastudio.google.com/data" target="_blank" class="button secondary mobileWrap rounded">Datenquellen</a>
+        </p>
+      </div>
+
+      <div class="col-3 card card--shadow" style="--c:#00a26a">
+        <div class="card__image">
+          <img src="/assets/images/logo/productlogos/ExcelDataConnector-app-icon.png" alt="Excel Data Connector" />
+        </div>
+        <h3>Excel Data Connector</h3>
+        <p>Nutzen sie die Pivot-Funktionen von Excel um in gewohnter Umgebung umfangreiche Datenanalysen durchzuführen. Keine teure BI-Software notwendig, alle Rohdaten stehen genauso in Excel zur Verfügung.</p>
+        <p>
+          <br/>
+          <a style="float: right;" href="https://support.microsoft.com/en-us/office/create-edit-and-manage-connections-to-external-data-89d44137-f18d-49cf-953d-d22a2eea2d46" target="_blank" class="button secondary mobileWrap rounded">Datenquellen</a>
+        </p>
+      </div>
+
+      <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Geckoboard-app-icon.svg"  class="partnerLogo gray-100" alt="Geckoboard" />
         </div>
         <h3>Geckoboard</h3>
         <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</p>
         <p>
-          <br/><b><i>Coming Soon!</i></b>
+          <b><i>Coming Soon!</i></b>
         </p>
       </div>
     </div>
