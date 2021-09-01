@@ -280,8 +280,17 @@
   .navbar, .navbar-spacer {
     height: 143px;
   }
+  .navbar {
+    &.scrolled {
+      .promotion {
+        .promotion-content {
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
   .main-nav {
-    padding: $gutter-m;
+    //padding: $gutter-m;
     .menu {
       display: none;
     }
