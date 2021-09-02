@@ -32,8 +32,64 @@ $faqs->faq_add (
 );
 ?>
 
+<div class="section section--no-padding-bottom">
+	<div class="hero">
+		<div class="hero__image">
+			<img src="/assets/images/illus/CCS-header-illu.png" alt="" />
+		</div>
+		<div class="hero__text">
+			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden​</h1>
+			<p>Eine intuitiv bedienbare cloudbasiertes Telefonsystem für ​mehr Effizienz</p>
+			<p>
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="section section--white-grey-white section--same-padding">
+	<div class="anchors">
+		<div class="anchors__title">
+			<strong>Schnelleinstieg:</strong> Was interessiert dich?
+		</div>
+		<div class="anchors__links">
+			<a href="#features">Features</a>
+			<a href="#mehrwertrechner">Mehrwertrechner</a>
+			<a href="#referenzen">Referenzen</a>
+		</div>
+	</div>
+</div>
+
 <div class="section">
-	Callcenter Software
+	<div class="section__content section__content--narrow">
+		<h1 class="centered">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
+		<p class="centered">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+	</div>
+
+	<div class="section__content section__content--wide">
+		<div class="tablist">
+			<div class="tablist__links">
+				<div class="tablist__link tablist__link--active" data-tab="1">
+					<strong>Fullservice</strong><br>
+					CallOne liefert Ihnen das <br />Komplettpaket für Ihr Unternehmen
+				</div>
+				<div class="tablist__link" data-tab="2">
+					<strong>Remote</strong><br>
+					<span class="icon-home">Lieblingsort</span>
+				</div>
+			</div>
+
+			<div class="tablist__content tablist__content--active" data-tab="1">
+				<h2 class="centered">Dort arbeiten, wo es schön ist</h2>
+				<p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
+			</div>
+
+			<div class="tablist__content" data-tab="2">
+				<h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
+				<p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <?php
