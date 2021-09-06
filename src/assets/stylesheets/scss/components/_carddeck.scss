@@ -1,0 +1,96 @@
+.carddeck {
+    &__indicators {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 8px;
+        margin-left: 15px;
+    }
+
+    &__indicator {
+        width: 6px;
+        height: auto;
+        flex: 1;
+        background-color: #c4c4c4;
+        &+.carddeck__indicator {
+            margin-top: 8px;
+        }
+    }
+    &__indicator--active {
+        background-color: $color-primary;
+        width: 8px;
+    }
+
+    &__cards {
+        position: relative;
+        width: calc(100% - 23px);
+    }
+
+    &__card {
+        // position: absolute;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        padding: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 18px rgba(#000, 0.25);
+        border-radius: 10px;
+        transition: all .3s ease;
+
+        >* {
+            &:first-child {
+                padding-top: 0;
+                margin-top: 0;
+            }
+            &:last-child {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__card--messured {
+        position: absolute;
+    }
+    &__card--top {
+        transform: scale(1);
+        z-index: 3;
+    }
+    &__card--center {
+        transform: translateX(-30px) scale(.9);
+        z-index: 2;
+    }
+    &__card--bottom {
+        transform: translateX(-60px) scale(.8);
+        z-index: 1;
+    }
+    &__card--fade {
+        transform: translateX(30px) scale(1.1);
+        opacity: 0;
+        z-index: 4;
+    }
+    &__card--hidden {
+        display: none;
+    }
+
+    &--alternate {
+        .carddeck__indicators {
+            margin-left: 0;
+            margin-right: 15px;
+            align-items: flex-end;
+        }
+        .carddeck__cards {
+            
+        }
+        .carddeck__card--center {
+            transform: translateX(30px) scale(.9);
+        }
+        .carddeck__card--bottom {
+            transform: translateX(60px) scale(.8);
+        }
+        .carddeck__card--fade {
+            transform: translateX(-30px) scale(1.1);
+            opacity: 0;
+            z-index: 4;
+        }
+    }
+}
