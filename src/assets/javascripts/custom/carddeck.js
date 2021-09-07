@@ -2,13 +2,20 @@ class Carddeck {
     constructor(deck) {
         this.deck = deck;
         this.currentCard = 0;
-        this.speed = 2000;
+        this.speed = parseInt(this.deck.dataset.speed) || 2000;
         this.allCards = this.deck.querySelectorAll('.carddeck__card');
+        this.wrapCardContent();
         this.cardSize = this.getCardSize();
         this.cards = this.initCards();
-        // this.indicators = this.initIndicators();
+        this.indicators = this.initIndicators();
 
-        // this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+        this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+    }
+
+    wrapCardContent() {
+        this.allCards.forEach(card => {
+            card.innerHTML = '<div>' + card.innerHTML + '</div>';
+        });
     }
 
     initCards() {

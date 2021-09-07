@@ -87,7 +87,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs">Test</div>
 					<div class="co-grid__col co-grid__col--4-xs">Test</div>
 					<div class="co-grid__col co-grid__col--4-xs">
-						<div class="carddeck">
+						<div class="carddeck carddeck--no-indicators" data-speed="2500">
 							<div class="carddeck__card">
 								<h2>Lorem, ipsum dolor. 1</h2>
 								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
