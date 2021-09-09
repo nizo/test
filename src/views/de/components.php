@@ -291,7 +291,7 @@
     <div class="components__item" id="carddeck">
         <div class="components__docs">
             <h1><a href="#carddeck">Carddeck</a></h1>
-            <p>Carddeck Animation to cycle through multiple cards.</p>
+            <p>Carddeck Animation to cycle through multiple cards. Carddecks need a minimum of 4 cards.</p>
             <p><strong>Modifiers:</strong></p>
             <ul>
                 <li><code>.carddeck--no-indicators</code>: Removes indicators</li>
@@ -305,7 +305,7 @@
         </style>
         <div class="components__preview carddeck-component">
             <div>
-                <div class="carddeck">
+                <div class="carddeck" data-speed="2500">
                     <div class="carddeck__card">
                         <h2>Lorem, ipsum dolor. 1</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
@@ -324,7 +324,7 @@
                     </div>
                 </div>
 
-                <div class="carddeck carddeck--right">
+                <div class="carddeck carddeck--right" data-speed="5000">
                     <div class="carddeck__card">
                         <h2>Lorem, ipsum dolor. 1</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
@@ -341,9 +341,25 @@
                         <h2>Lorem, ipsum dolor. 4</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
                     </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 5</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 6</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 7</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
                 </div>
 
-                <div class="carddeck carddeck--no-indicators" data-speed="1000">
+                <div class="carddeck carddeck--no-indicators" data-speed="4000">
                     <div class="carddeck__card">
                         <h2>Lorem, ipsum dolor. 1</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
@@ -835,6 +851,24 @@
                 
                 <div class="callone-modal" data-modal="nosteps" datacanceltext="Zu machen" data-title="Headline" data-subtitle="Subheadline">
                     Hello World
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Number Card -->
+    <div class="components__item">
+        <div class="components__docs">
+            <h1>Number Card (Animated)</h1>
+            <p>Number cards. Animation is added by using the <code>.counting-number</code> class.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="number-card">
+                    <div class="number-card__number">
+                        <span class="counting-number" data-start="0" data-end="50" data-suffix="%">50%</span>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, laborum?
                 </div>
             </div>
         </div>

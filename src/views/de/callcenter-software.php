@@ -62,60 +62,93 @@ $faqs->faq_add (
 
 <div class="section">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
-		<p class="centered">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+		<h1 class="centered">Über 200 Features - aber die Magie steckt im Detail​​</h1>
+		<p class="centered">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
 	</div>
 
 	<div class="section__content section__content--wide">
 		<div class="tablist">
 			<div class="tablist__links">
-				<div class="tablist__link tablist__link--active" data-tab="1">
-					<strong>Fullservice</strong><br>
-					CallOne liefert Ihnen das <br />Komplettpaket für Ihr Unternehmen
+				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
+					<strong>Smarte Automatisierung</strong><br>
+					Erfahren Sie wie Automatisierung<br />Ihren Geldbeutel schont.​
 				</div>
-				<div class="tablist__link" data-tab="2">
-					<strong>Remote</strong><br>
-					<span class="icon-home">Lieblingsort</span>
+				<div class="tablist__link tablist__link--smaller" data-tab="2">
+					<strong>Mehr Effizienz</strong><br>
+					Sie wollen richtig sparen und<br />Ihr Personal effizienter einsetzen?
+				</div>
+				<div class="tablist__link tablist__link--smaller" data-tab="3">
+					<strong>Glücklichere Kunden</strong><br>
+					Sie wollen Ihre<br />Warteminuten reduzieren?
+				</div>
+				<div class="tablist__link tablist__link--smaller" data-tab="4">
+					<strong>Bessere Daten</strong><br>
+					Sie haben Lust Ihre Prozesse<br />datenbasiert zu optimieren?​
 				</div>
 			</div>
 
 			<div class="tablist__content tablist__content--active" data-tab="1">
-				<h2 class="centered">Dort arbeiten, wo es schön ist</h2>
-				<p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
+				<h2 class="centered">Schnittstellenanbindung</h2>
+				<p class="centered">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--4-xs">Test</div>
-					<div class="co-grid__col co-grid__col--4-xs">Test</div>
-					<div class="co-grid__col co-grid__col--4-xs">
-						<div class="carddeck carddeck--no-indicators" data-speed="2500">
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 1</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="5">5%</span>
+								</div>
+								weniger Kosten pro Kontakt durch gesteigerte FCR*
 							</div>
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 2</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
+								</div>
+								kürzere Gesprächsdauern (AHT)*
 							</div>
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 3</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
+								</div>
+								Erkennung des Anruferanliegens*
 							</div>
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 4</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
+								</div>
+								schnellerer Anrufaufbau*
 							</div>
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 5</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+						</div>
+
+						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-11">
+							<label for="faq-11">Intelligente Anrufsteuerung mittels API​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
 							</div>
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 6</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-12">
+							<label for="faq-12">Anruferinformationen wenn es klingelt​</label>
+							<div class="toggle-box__content">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
 							</div>
-							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 7</h2>
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro.</p>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-13">
+							<label for="faq-13">Wissen ohne Fragen zu müssen​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-14">
+							<label for="faq-14">Wählen ohne Tippen​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, sequi ea nisi magni inventore ipsa voluptas doloribus modi dignissimos.</p>
 							</div>
 						</div>
 					</div>
@@ -123,8 +156,58 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="2">
-				<h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
-				<p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
+				<h2 class="centered">Automatisierung und KI</h2>
+				<p class="centered">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
+
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
+								</div>
+								weniger Gesprächszeit für Ihre Agent*innen*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
+								</div>
+								kürzere IVR-Menüs durch Spracherkennung​*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-start="0" data-end="94">94%</span>
+								</div>
+								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung​*
+							</div>
+						</div>
+
+						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-21">
+							<label for="faq-21">Sprachdialoge ohne Agenten​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-22">
+							<label for="faq-22">Intelligentes Sprachrouting​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-23">
+							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

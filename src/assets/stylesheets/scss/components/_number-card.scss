@@ -1,0 +1,16 @@
+.number-card {
+    padding: 20px;
+    background-color: #F0F0F0;
+    font-family: $font-copy;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 10px;
+
+    &__number {
+        font-size: 54px;
+        line-height: 1;
+        color: #FF002E;
+        margin-bottom: 10px;
+    }
+}

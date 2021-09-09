@@ -112,7 +112,7 @@ class Carddeck {
         setTimeout(() => {
             topCard.classList.remove('carddeck__card--fade');
             topCard.classList.add('carddeck__card--hidden');
-        }, 310);
+        }, 610);
 
         // Set indicator
         this.indicators.querySelector('.carddeck__indicator--active').classList.remove('carddeck__indicator--active');
