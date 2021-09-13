@@ -1,0 +1,111 @@
+.saving-calculation {
+    h3 {
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        span {
+            font-family: $font-copy;
+            font-weight: normal;
+            font-size: 54px;
+            line-height: 1.5;
+            border-bottom: 4px solid $color-primary;
+        }
+    }
+
+    h4 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    h5 {
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 1.4;
+        text-align: center;
+        min-height: 66px;
+        span {
+            color: $color-primary;
+        }
+    }
+
+    h6 {
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        span {
+            color: $color-primary;
+            font-family: $font-copy;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 1.4;
+        }
+    }
+
+    &__grid {
+        position: relative;
+        background-image: url(../images/icons_svg/box-top.svg);
+        background-size: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        margin-top: 25px;
+        padding-top: 51px;
+    }
+
+    &__col {
+        background: rgba(124, 124, 124, 0.2);
+        box-shadow: inset 0px 4px 20px rgba(134, 236, 22, 0.05);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    &__content {
+        border-radius: 10px;
+        padding: 20px 15px;
+        background: linear-gradient(358.98deg, rgba(220, 235, 216, 0.2) 0.47%, rgba(220, 235, 216, 0.154) 95.48%);
+        box-shadow: inset 0px 4px 20px rgba(134, 236, 22, 0.05);
+        margin: 30px 0;
+    }
+
+    &__blurred {
+        filter: blur(10px);
+    }
+
+    &__toggle {
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__toggle--open {
+        background-image: url(../images/icons_svg/dropdown.svg);
+    }
+    &__toggle--close {
+        background-image: url(../images/icons_svg/dropdown-reverse.svg);
+    }
+
+    &__overlay {
+        position: absolute;
+        text-align: center;
+        bottom: 10px;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        width: 100%;
+        padding: 50px;
+        max-width: 770px;
+        background: rgba(#000, .5);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        z-index: 80;
+    }
+}

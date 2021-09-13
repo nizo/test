@@ -8,9 +8,10 @@
     border-radius: 10px;
 
     &__number {
+        --color: #FF002E;
         font-size: 54px;
         line-height: 1;
-        color: #FF002E;
+        color: var(--color);
         margin-bottom: 10px;
     }
 }

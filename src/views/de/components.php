@@ -517,6 +517,9 @@
                 <li>Row <code>.floating-form__row</code></li>
                 <li>Column <code>.floating-form__col</code></li>
                 <li>Form Field <code>.floating-form__field</code></li>
+                <li><code>.floating-form__field--short</code>: Short field for numbers for example</li>
+                <li><code>.floating-form__icon</code>: Can be used inside row before field to display an icon</li>
+                <li><code>.floating-form__description</code>: Can be used inside row after field to display field description</li>
             </ul>
             <p><strong>Files:</strong></p>
             <ul>

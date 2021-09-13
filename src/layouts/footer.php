@@ -7,7 +7,8 @@
       '/kontakt',
       '/testen',
       '/karriere-bei-callone',
-      '/karriere'
+      '/karriere',
+      '/callcenter-software'
     ];
     $jobs = jobs_load();
     foreach ($jobs->jobs_get() as $job) {

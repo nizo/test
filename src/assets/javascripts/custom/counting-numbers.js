@@ -9,6 +9,11 @@ class CountingNumbers {
         this.step = this.calculateStep();
         this.running = false;
 
+        respondToVisibility(this.element, visible => {
+            this.reset();
+            this.isInView();
+        });
+
         window.addEventListener('scroll', this.isInView.bind(this));
     }
     

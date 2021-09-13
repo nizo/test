@@ -163,19 +163,19 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--6-xs">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--6-xs number-card">
-								<div class="number-card__number">
+								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
 								</div>
 								weniger Gesprächszeit für Ihre Agent*innen*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
-								<div class="number-card__number">
+								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung​*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs number-card">
-								<div class="number-card__number">
+								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-start="0" data-end="94">94%</span>
 								</div>
 								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung​*
@@ -206,6 +206,264 @@ $faqs->faq_add (
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tablist__content" data-tab="3">
+				<h2 class="centered">Warteschleifenmanagement</h2>
+				<p class="centered">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt​.</p>
+
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #DB00C5;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
+								</div>
+								bessere Erreichbarkeit*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #DB00C5;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
+								</div>
+								Verkürzung der Wartezeit​*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #DB00C5;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+								</div>
+								geringere Abbruchquote​*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #DB00C5;">
+									1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
+								</div>
+								gesteigerte Agentenauslastung*
+							</div>
+						</div>
+
+						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-31">
+							<label for="faq-31">Intelligente Routingfunktionen​​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-32">
+							<label for="faq-32">Virtuelle Warteschleife & Co.​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-33">
+							<label for="faq-33">Wahlwiederholerpriorisierung​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-34">
+							<label for="faq-34">Rückrufe für optimale Auslastung​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tablist__content" data-tab="4">
+				<h2 class="centered">Statistik & Datenanalyse</h2>
+				<p class="centered">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten​.</p>
+
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #0088EA;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+								</div>
+								mehr Effizienz in der Personalplanung*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #0088EA;">
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
+								</div>
+								schnellere Reaktion dank Echtzeit-Benachrichtigung*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #0088EA;">
+									<span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span>
+								</div>
+								Zeitersparnis täglich mittels Autoreporting​*
+							</div>
+							<div class="co-grid__col co-grid__col--6-xs number-card">
+								<div class="number-card__number" style="--color: #0088EA;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span>
+								</div>
+								gesteigerte Teamleistung​*
+							</div>
+						</div>
+
+						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs">
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-41">
+							<label for="faq-41">Arbeitszeiterfassung & Forecasting​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-42">
+							<label for="faq-42">Sofortige Benachrichtigung​​</label>
+							<div class="toggle-box__content">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-43">
+							<label for="faq-43">Sparen Sie kostbare Zeit​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--checklist">
+							<input type="checkbox" id="faq-44">
+							<label for="faq-44">Zielerreichung mittels wichtiger Kennzahlen​</label>
+							<div class="toggle-box__content">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section section--black">
+	<div class="section__content section__content--narrow">
+		<h1 class="centered">
+			Lust Ihr Einsparpotenzial <br />
+			direkt hier zu berechnen?
+		</h1>
+
+		<p class="centered">
+			Wir stehen für messbare Effizienzsteigerungen <br />
+			und heben Einsparpotentiale im großen Stil.​
+		</p>
+
+		<div class="content-box content-box--white">
+			<h2>Geben Sie uns 2 Ihrer Kennzahlen</h2>
+			<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
+
+			<form action="#" method="post" class="floating-form">
+				<div class="floating-form__row">
+					<div class="floating-form__icon">
+						<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
+					</div>
+					<div class="floating-form__field floating-form__field--short">
+						<input type="text" name="calls" placeholder=" " />
+						<label>1234</label>
+					</div>
+					<div class="floating-form__description">
+						Anrufe gesamt pro Monat​
+					</div>
+				</div>
+
+				<div class="floating-form__row">
+					<div class="floating-form__icon">
+						<img src="/assets/images/icons_svg/amount-of-agents-big.svg" alt="" />
+					</div>
+					<div class="floating-form__field floating-form__field--short">
+						<input type="text" name="agents" placeholder=" " />
+						<label>10</label>
+					</div>
+					<div class="floating-form__description">
+						Anzahl Ihrer Agent*innen​
+					</div>
+				</div>
+
+				<button class="floating-form__submit btn btn--full-width" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
+			</form>
+		</div>
+	</div>
+	
+	<div class="section__content section__content--wide">
+		<div class="saving-calculation">
+			<h3>
+				Jährliche Ersparnis bis zu:<br />
+				<span>xxx.xxx.xxx €</span>
+			</h3>
+
+			<h4>Aufschlüsselung des Einsparpotenzials</h4>
+			
+			<div class="saving-calculation__grid">
+				<div class="saving-calculation__overlay">
+					<h3>
+						Eine Rechnung die nur mit Ihren <br />
+						realistischen Unternehmenswerten aufgeht
+					</h3>
+					<p>Füllen Sie Ihre Unternehmenswerte oben ein und erhalten Sie eine ungefähre Kalkulation Ihres effektiven Einsparpotenzials mit CallOne basierend auf Ihrem Anrufvolumen und Lorem Ipsum.</p>
+					<p><a href="#" class="btn btn--primary btn--centered">Jetzt Werte eintragen</a></p>
+				</div>
+
+				<div class="co-grid" style="--gutter:10px">
+					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+						<h5>Verkürzung der <span>Anrufdauer</span></h5>
+
+						<div class="saving-calculation__content">
+							<h6>
+								Ermöglicht bis zu:<br />
+								<span>xxx.xxx €</span>
+							</h6>
+
+							<div class="saving-calculation__toggle saving-calculation__toggle--open"></div>
+						</div>
+
+						<p class="saving-calculation__blurred">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste explicabo tempore unde, non similique delectus mollitia laudantium beatae harum!</p>
+						<p class="saving-calculation__blurred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, vel!</p>
+						<p class="saving-calculation__blurred">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque, vel dicta quisquam officia iusto.</p>
+					</div>
+					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+						<h5>Steigerung der <span>Agentenauslastung</span></h5>
+
+						<div class="saving-calculation__content">
+							<h6>
+								Ermöglicht bis zu:<br />
+								<span>xxx.xxx €</span>
+							</h6>
+
+							<div class="saving-calculation__toggle saving-calculation__toggle--open"></div>
+						</div>
+
+						<p class="saving-calculation__blurred">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste explicabo tempore unde, non similique delectus mollitia laudantium beatae harum!</p>
+						<p class="saving-calculation__blurred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, vel!</p>
+						<p class="saving-calculation__blurred">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque, vel dicta quisquam officia iusto.</p>
+					</div>
+					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+						<h5>Optimierte <span>Personalplanung</span></h5>
+
+						<div class="saving-calculation__content">
+							<h6>
+								Ermöglicht bis zu:<br />
+								<span>xxx.xxx €</span>
+							</h6>
+
+							<div class="saving-calculation__toggle saving-calculation__toggle--open"></div>
+						</div>
+
+						<p class="saving-calculation__blurred">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste explicabo tempore unde, non similique delectus mollitia laudantium beatae harum!</p>
+						<p class="saving-calculation__blurred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, vel!</p>
+						<p class="saving-calculation__blurred">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque, vel dicta quisquam officia iusto.</p>
 					</div>
 				</div>
 			</div>

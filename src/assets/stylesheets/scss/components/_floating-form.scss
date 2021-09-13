@@ -28,6 +28,17 @@
         }
     }
 
+    &__icon {
+        margin-right: 20px;
+        img {
+            display: block;
+        }
+    }
+
+    &__description {
+        margin-left: 20px;
+    }
+
     &__field {
         position: relative;
         border: 2px solid #c4c4c4;
@@ -77,6 +88,10 @@
                 position: absolute;
             }
         }
+    }
+    &__field--short {
+        width: 100%;
+        max-width: 120px;
     }
 
     &__upload {
