@@ -99,7 +99,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section" id="vorteile">
+<div class="section section--overflow-protection" id="vorteile">
     <div class="section__content section__content--narrow">
         <h1 class="centered">Deinen Traumjob gestaltest du selbst</h1>
 
@@ -291,7 +291,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--black" id="bewerbung">
+<div class="section section--black section--overflow-protection" id="bewerbung">
     <div class="section__content section__content--narrow">
         <h1 class="centered">Dein Weg zu uns</h1>
         <p class="centered">Egal, auf welchem Wege unser erster Kontakt mit dir zustande kommt, wir mögen Transparenz und klare Kommunikation:</p>

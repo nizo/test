@@ -2,9 +2,7 @@
     --color-text: #000;
     width: 100%;
     padding: 100px 25px 60px 25px;
-    overflow-y: visible;
-    overflow-x: hidden;
-
+    
     // Modifiers
     &--no-padding-top {
         padding-top: 0;
@@ -14,6 +12,10 @@
     }
     &--same-padding {
         padding: 60px 25px;
+    }
+    &--overflow-protection {
+        overflow-y: visible;
+        overflow-x: hidden;
     }
 
     // Backgrounds

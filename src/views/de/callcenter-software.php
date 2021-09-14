@@ -102,19 +102,22 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number">
-									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
+									<!-- <span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span> -->
+									5-15s
 								</div>
 								kürzere Gesprächsdauern (AHT)*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number">
-									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
+									<!-- <span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span> -->
+									50%-70%
 								</div>
 								Erkennung des Anruferanliegens*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number">
-									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
+									<!-- <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span> -->
+									3x
 								</div>
 								schnellerer Anrufaufbau*
 							</div>
@@ -170,13 +173,15 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
+									<!-- <span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span> -->
+									4x
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung​*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="counting-number" data-start="0" data-end="94">94%</span>
+									<!-- <span class="counting-number" data-start="0" data-end="94">94%</span> -->
+									94%
 								</div>
 								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung​*
 							</div>
@@ -225,19 +230,22 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
+									<!-- <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span> -->
+									65%
 								</div>
 								Verkürzung der Wartezeit​*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+									<!-- <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span> -->
+									25%
 								</div>
 								geringere Abbruchquote​*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
+									<!-- 1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span> -->
+									1,5x
 								</div>
 								gesteigerte Agentenauslastung*
 							</div>
@@ -293,19 +301,22 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
+									<!-- <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span> -->
+									3x
 								</div>
 								schnellere Reaktion dank Echtzeit-Benachrichtigung*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span>
+									<!-- <span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span> -->
+									60min
 								</div>
 								Zeitersparnis täglich mittels Autoreporting​*
 							</div>
 							<div class="co-grid__col co-grid__col--6-xs number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span>
+									<!-- <span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span> -->
+									20%
 								</div>
 								gesteigerte Teamleistung​*
 							</div>
@@ -381,7 +392,7 @@ $faqs->faq_add (
 
 				<div class="floating-form__row">
 					<div class="floating-form__icon">
-						<img src="/assets/images/icons_svg/amount-of-agents-big.svg" alt="" />
+						<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
 					</div>
 					<div class="floating-form__field floating-form__field--short">
 						<input type="text" name="agents" placeholder=" " />
@@ -407,63 +418,310 @@ $faqs->faq_add (
 			<h4>Aufschlüsselung des Einsparpotenzials</h4>
 			
 			<div class="saving-calculation__grid">
-				<div class="saving-calculation__overlay">
+				<!-- <div class="saving-calculation__overlay">
 					<h3>
 						Eine Rechnung die nur mit Ihren <br />
 						realistischen Unternehmenswerten aufgeht
 					</h3>
 					<p>Füllen Sie Ihre Unternehmenswerte oben ein und erhalten Sie eine ungefähre Kalkulation Ihres effektiven Einsparpotenzials mit CallOne basierend auf Ihrem Anrufvolumen und Lorem Ipsum.</p>
 					<p><a href="#" class="btn btn--primary btn--centered">Jetzt Werte eintragen</a></p>
-				</div>
+				</div> -->
 
 				<div class="co-grid" style="--gutter:10px">
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
 						<h5>Verkürzung der <span>Anrufdauer</span></h5>
 
-						<div class="saving-calculation__content">
+						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
 								<span>xxx.xxx €</span>
 							</h6>
 
-							<div class="saving-calculation__toggle saving-calculation__toggle--open"></div>
+							<div class="saving-calculation__details">
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight">1234</strong><br />
+										<em>Anrufe pro Jahr</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>30s</strong><br />
+										<em>Angenommener<br />Einspareffekt je<br/>Anruf</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>= 18.510s</strong>
+									</div>
+									<div class="saving-calculation__entry">
+										oder
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>= 51,42h</strong>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>51,42h</strong><br />
+										<em>Einsparung<br />Stundenzahl</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>30 €</strong><br />
+										<em>angenommener<br />Stundenlohn der<br />Agenten</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>1542,6 €</strong><br />
+										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>12</strong><br />
+										<em>Monate im<br />Jahr</em>
+									</div>
+								</div>
+								<div class="saving-calculation__total">
+									<div class="saving-calculation__entry">
+										<strong>= 18.511,2 €</strong>
+									</div>
+									<div class="saving-calculation__entry">
+										<em>Jährliches<br />Kostensenkungs&shy;potential</em>
+									</div>
+								</div>
+							</div>
+
+							<div class="saving-calculation__toggle saving-calculation__toggle--open">Berechnung einblenden</div>
 						</div>
 
-						<p class="saving-calculation__blurred">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste explicabo tempore unde, non similique delectus mollitia laudantium beatae harum!</p>
-						<p class="saving-calculation__blurred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, vel!</p>
-						<p class="saving-calculation__blurred">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque, vel dicta quisquam officia iusto.</p>
+						<div class="saving-calculation__content">
+							<p class="saving-calculation__blurred1">Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.<br /><br /></p>
+							<p class="saving-calculation__blurred1"><strong>Unsere Tools dafür:</strong></p>
+							<ul class="saving-calculation__blurred1">
+								<li>
+									Anrufer-Vorqualifizierung
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Automatisierung
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									CRM-Anbindung
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									KI-Integration
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
 						<h5>Steigerung der <span>Agentenauslastung</span></h5>
 
-						<div class="saving-calculation__content">
+						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
 								<span>xxx.xxx €</span>
 							</h6>
 
-							<div class="saving-calculation__toggle saving-calculation__toggle--open"></div>
+							<div class="saving-calculation__details">
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight">1234</strong><br />
+										<em>Anrufe pro Jahr</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>20%</strong><br />
+										<em>gesteigerte<br />Erreichbarkeit</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>= 246,8</strong>
+									</div>
+									<div class="saving-calculation__entry">
+										<em>mehr angenommene<br />Anrufe (3,5 min/Call)</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>1166h</strong><br />
+										<em>Einsparung<br />Stundenzahl</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>30 €</strong><br />
+										<em>angenommener<br />Stundenlohn der<br />Agenten</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>1542,6 €</strong><br />
+										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>12</strong><br />
+										<em>Monate im<br />Jahr</em>
+									</div>
+								</div>
+								<div class="saving-calculation__total">
+									<div class="saving-calculation__entry">
+										<strong>= 18.511,2 €</strong>
+									</div>
+									<div class="saving-calculation__entry">
+										<em>Jährliches<br />Kostensenkungs&shy;potential</em>
+									</div>
+								</div>
+							</div>
+
+							<div class="saving-calculation__toggle saving-calculation__toggle--open">Berechnung einblenden</div>
 						</div>
 
-						<p class="saving-calculation__blurred">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste explicabo tempore unde, non similique delectus mollitia laudantium beatae harum!</p>
-						<p class="saving-calculation__blurred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, vel!</p>
-						<p class="saving-calculation__blurred">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque, vel dicta quisquam officia iusto.</p>
+						<div class="saving-calculation__content">
+							<p class="saving-calculation__blurred1">Mehr Gespräche in gleicher Zeit führen und durch Verschiebung von sogenannten Anrufspitzen. CallOne liefert hier verschiedenste Tools um eine optimale Verteilung eingehender Anrufe in Ihrem Callcenter zu gewährleisten. </p>
+							<p class="saving-calculation__blurred1"><strong>Unsere Tools dafür:</strong></p>
+							<ul class="saving-calculation__blurred1">
+								<li>
+									Virtuelle Warteschleifen
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Automatisierter Rückruf aus Warteschleife
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Realtime-Website Callback​
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Terminierter Rückruf
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
 						<h5>Optimierte <span>Personalplanung</span></h5>
 
-						<div class="saving-calculation__content">
+						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
 								<span>xxx.xxx €</span>
 							</h6>
 
-							<div class="saving-calculation__toggle saving-calculation__toggle--open"></div>
+							<div class="saving-calculation__details">
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" width="40"> <strong class="highlight">1234</strong><br />
+										<em>Anzahl Agent*innen</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>5%</strong><br />
+										<em>Effizienzgewinn<br />Personal</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>1234</strong><br />
+										<em>Agent*innen</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>= 700000€</strong><br />
+										<em>Personalkosten/jährlich</em>
+									</div>
+								</div>
+								<div class="saving-calculation__row">
+									<div class="saving-calculation__entry">
+										<strong>5%</strong><br />
+										<em>Effizienzgewinn<br />Personal</em>
+									</div>
+									<div class="saving-calculation__entry">
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+									</div>
+									<div class="saving-calculation__entry">
+										<strong>7000000€</strong><br />
+										<em>Personalkosten<br />/jährlich</em>
+									</div>
+								</div>
+								<div class="saving-calculation__total">
+									<div class="saving-calculation__entry">
+										<strong>= 35.000 €</strong>
+									</div>
+									<div class="saving-calculation__entry">
+										<em>Jährliches<br />Kostensenkungs&shy;potential</em>
+									</div>
+								</div>
+							</div>
+
+							<div class="saving-calculation__toggle saving-calculation__toggle--open">Berechnung einblenden</div>
 						</div>
 
-						<p class="saving-calculation__blurred">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste explicabo tempore unde, non similique delectus mollitia laudantium beatae harum!</p>
-						<p class="saving-calculation__blurred">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, vel!</p>
-						<p class="saving-calculation__blurred">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque, vel dicta quisquam officia iusto.</p>
+						<div class="saving-calculation__content">
+							<p class="saving-calculation__blurred1">Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.​<br /><br /></p>
+							<p class="saving-calculation__blurred1"><strong>Unsere Tools dafür:</strong></p>
+							<ul class="saving-calculation__blurred1">
+								<li>
+									BI-gesteuerte Arbeitszeitplanung- und Erfassung​
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Realtime-Dashboards zur KPI-Optimierung​
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Prozessoptimierung durch Call Tagging​​
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+								<li>
+									Agenten-Performance Analyse​
+									<span class="tooltip tooltip--light">
+										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+									</span>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

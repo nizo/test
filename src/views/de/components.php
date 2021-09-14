@@ -971,6 +971,7 @@
                 <li><code>.section--light-green-white-homeoffice</code>: Background</li>
                 <li><code>.section--dark-green-black</code>: Background</li>
                 <li><code>.section--black</code>: Background</li>
+                <li><code>.section--overflow-protection</code>: Avoid horizontal scrollbars for elements wider than the viewport (step-slider)</li>
             </ul>
             <p><strong>Section Content Modifiers:</strong></p>
             <ul>
