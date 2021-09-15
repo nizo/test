@@ -3,7 +3,17 @@ class Tooltip {
         this.element = el;
 
         this.detectPosition();
-        window.addEventListener('scroll', this.detectPosition.bind(this));
+        this.element.addEventListener('mouseover', this.show.bind(this));
+        this.element.addEventListener('mouseleave', this.hide.bind(this));
+    }
+
+    show() {
+        this.detectPosition();
+        this.element.classList.add('tooltip--open');
+    }
+
+    hide() {
+        this.element.classList.remove('tooltip--open');
     }
 
     detectPosition() {
@@ -15,7 +25,7 @@ class Tooltip {
         let contentPos = content.getBoundingClientRect();
         this.element.classList.remove('tooltip--open');
 
-        if (contentPos.y + contentPos.height > viewportHeight) {
+        if (pos.y + contentPos.height > viewportHeight) {
             this.element.classList.add('tooltip--top');
         } else {
             this.element.classList.remove('tooltip--top');
