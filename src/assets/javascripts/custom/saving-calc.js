@@ -38,7 +38,7 @@ class Mehrwertrechner {
 
         // Remove overlay
         let overlay = savingCalculation.querySelector('.saving-calculation__overlay');
-        overlay.remove();
+        overlay.style.display = 'none';
 
         // Remove blurry from columns
         let contents = this.element.querySelectorAll('.saving-calculation__content');
