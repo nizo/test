@@ -360,8 +360,8 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--black">
-	<div class="section__content section__content--narrow">
+<div class="section section--black" id="mehrwertrechner">
+	<div class="section__content section__content--wide">
 		<h1 class="centered">
 			Lust Ihr Einsparpotenzial <br />
 			direkt hier zu berechnen?
@@ -372,44 +372,69 @@ $faqs->faq_add (
 			und heben Einsparpotentiale im großen Stil.​
 		</p>
 
-		<div class="content-box content-box--white">
-			<h2>Geben Sie uns 2 Ihrer Kennzahlen</h2>
-			<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
+		<div class="co-grid saving-calculation__form-grid">
+			<div class="co-grid__col co-grid__col--12-xs">
+				<div class="content-box content-box--white">
+					<h2>Geben Sie uns 2 Ihrer Kennzahlen</h2>
+					<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
 
-			<form action="#" method="post" class="floating-form">
-				<div class="floating-form__row">
-					<div class="floating-form__icon">
-						<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
-					</div>
-					<div class="floating-form__field floating-form__field--short">
-						<input type="text" name="calls" placeholder=" " />
-						<label>1234</label>
-					</div>
-					<div class="floating-form__description">
-						Anrufe gesamt pro Monat​
-					</div>
+					<form action="#" method="post" class="floating-form saving-calculation__form">
+						<div class="floating-form__row">
+							<div class="floating-form__icon">
+								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
+							</div>
+							<div class="floating-form__field floating-form__field--short">
+								<input type="text" name="calls" placeholder=" " />
+								<label>Anrufe</label>
+							</div>
+							<div class="floating-form__description">
+								Anrufe gesamt pro Monat​
+							</div>
+						</div>
+
+						<div class="floating-form__row">
+							<div class="floating-form__icon">
+								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+							</div>
+							<div class="floating-form__field floating-form__field--short">
+								<input type="text" name="agents" placeholder=" " />
+								<label>Agent*innen</label>
+							</div>
+							<div class="floating-form__description">
+								Anzahl Ihrer Agent*innen​
+							</div>
+						</div>
+
+						<button class="floating-form__submit btn btn--full-width" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
+					</form>
 				</div>
-
-				<div class="floating-form__row">
-					<div class="floating-form__icon">
-						<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
-					</div>
-					<div class="floating-form__field floating-form__field--short">
-						<input type="text" name="agents" placeholder=" " />
-						<label>10</label>
-					</div>
-					<div class="floating-form__description">
-						Anzahl Ihrer Agent*innen​
-					</div>
-				</div>
-
-				<button class="floating-form__submit btn btn--full-width" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
-			</form>
+			</div>
+			<div class="co-grid__col co-grid__col--6-xs" style="display: none; border-left: 2px solid #fff; padding-left: 30px;">
+				<p>Grundlage der Kalkulation</p>
+				<p>Die folgende ROI-Aufstellung verwendet Annahmen basierend auf Durschnittswerten bei folgenden Variablen:</p>
+				<p>
+					<strong>Durchschnittliche Gesprächsdauer:</strong> 3,5 min<br />
+					<strong>Erreichbarkeit:</strong> 75%<br />
+					<strong>Kosten je Arbeitnehmer:</strong> 50.000€ p.a. (30€/h) *<br />
+					<strong>Agentenauslastung:</strong> 60%
+				</p>
+				<p><small>*Bruttoarbeitslohn: Kosten je Arbeitnehmer laut statistischem Bundesamt</small></p>
+			</div>
 		</div>
 	</div>
 	
 	<div class="section__content section__content--wide">
 		<div class="saving-calculation">
+			<div class="atomic-loader atomic-loader--hidden">
+				<div class="atomic-loader__circle"></div>
+				<div class="atomic-loader__dots">
+					<div class="atomic-loader__dot"></div>
+					<div class="atomic-loader__dot"></div>
+					<div class="atomic-loader__dot"></div>
+					<div class="atomic-loader__dot"></div>
+				</div>
+			</div>
+
 			<h3>
 				Jährliche Ersparnis bis zu:<br />
 				<span>xxx.xxx.xxx €</span>
@@ -418,17 +443,19 @@ $faqs->faq_add (
 			<h4>Aufschlüsselung des Einsparpotenzials</h4>
 			
 			<div class="saving-calculation__grid">
-				<!-- <div class="saving-calculation__overlay">
+				<div class="saving-calculation__overlay">
 					<h3>
 						Eine Rechnung die nur mit Ihren <br />
 						realistischen Unternehmenswerten aufgeht
 					</h3>
 					<p>Füllen Sie Ihre Unternehmenswerte oben ein und erhalten Sie eine ungefähre Kalkulation Ihres effektiven Einsparpotenzials mit CallOne basierend auf Ihrem Anrufvolumen und Lorem Ipsum.</p>
-					<p><a href="#" class="btn btn--primary btn--centered">Jetzt Werte eintragen</a></p>
-				</div> -->
+					<p><a href="#mehrwertrechner" class="btn btn--primary btn--centered">Jetzt Werte eintragen</a></p>
+				</div>
 
 				<div class="co-grid" style="--gutter:10px">
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+						<div class="saving-calculation__col-loader"></div>
+
 						<h5>Verkürzung der <span>Anrufdauer</span></h5>
 
 						<div class="saving-calculation__calculation">
@@ -501,10 +528,10 @@ $faqs->faq_add (
 							<div class="saving-calculation__toggle saving-calculation__toggle--open">Berechnung einblenden</div>
 						</div>
 
-						<div class="saving-calculation__content">
-							<p class="saving-calculation__blurred1">Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.<br /><br /></p>
-							<p class="saving-calculation__blurred1"><strong>Unsere Tools dafür:</strong></p>
-							<ul class="saving-calculation__blurred1">
+						<div class="saving-calculation__content saving-calculation__content--blurred">
+							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.<br /><br /></p>
+							<p><strong>Unsere Tools dafür:</strong></p>
+							<ul>
 								<li>
 									Anrufer-Vorqualifizierung
 									<span class="tooltip tooltip--light">
@@ -533,6 +560,8 @@ $faqs->faq_add (
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+						<div class="saving-calculation__col-loader"></div>
+
 						<h5>Steigerung der <span>Agentenauslastung</span></h5>
 
 						<div class="saving-calculation__calculation">
@@ -602,10 +631,10 @@ $faqs->faq_add (
 							<div class="saving-calculation__toggle saving-calculation__toggle--open">Berechnung einblenden</div>
 						</div>
 
-						<div class="saving-calculation__content">
-							<p class="saving-calculation__blurred1">Mehr Gespräche in gleicher Zeit führen und durch Verschiebung von sogenannten Anrufspitzen. CallOne liefert hier verschiedenste Tools um eine optimale Verteilung eingehender Anrufe in Ihrem Callcenter zu gewährleisten. </p>
-							<p class="saving-calculation__blurred1"><strong>Unsere Tools dafür:</strong></p>
-							<ul class="saving-calculation__blurred1">
+						<div class="saving-calculation__content saving-calculation__content--blurred">
+							<p>Mehr Gespräche in gleicher Zeit führen und durch Verschiebung von sogenannten Anrufspitzen. CallOne liefert hier verschiedenste Tools um eine optimale Verteilung eingehender Anrufe in Ihrem Callcenter zu gewährleisten. </p>
+							<p><strong>Unsere Tools dafür:</strong></p>
+							<ul>
 								<li>
 									Virtuelle Warteschleifen
 									<span class="tooltip tooltip--light">
@@ -634,6 +663,8 @@ $faqs->faq_add (
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+						<div class="saving-calculation__col-loader"></div>
+						
 						<h5>Optimierte <span>Personalplanung</span></h5>
 
 						<div class="saving-calculation__calculation">
@@ -692,10 +723,10 @@ $faqs->faq_add (
 							<div class="saving-calculation__toggle saving-calculation__toggle--open">Berechnung einblenden</div>
 						</div>
 
-						<div class="saving-calculation__content">
-							<p class="saving-calculation__blurred1">Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.​<br /><br /></p>
-							<p class="saving-calculation__blurred1"><strong>Unsere Tools dafür:</strong></p>
-							<ul class="saving-calculation__blurred1">
+						<div class="saving-calculation__content saving-calculation__content--blurred">
+							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.​<br /><br /></p>
+							<p><strong>Unsere Tools dafür:</strong></p>
+							<ul>
 								<li>
 									BI-gesteuerte Arbeitszeitplanung- und Erfassung​
 									<span class="tooltip tooltip--light">

@@ -95,6 +95,38 @@
         }
     }
 
+    &__col-loader {
+        position: relative;
+        border-radius: 5px;
+        width: calc(100% - 90px);
+        height: 10px;
+        background-color: rgba(#fff, .5);
+        margin: 30px 45px;
+        overflow: hidden;
+        display: none;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border-radius: 5px;
+            background-color: $color-primary;
+            animation: loadCol 2s infinite ease;
+        }
+    }
+    @keyframes loadCol {
+        50% {
+            left: 0%;
+            width: 100%;
+        }
+        100% {
+            left: 100%;
+            width: 0%;
+        }
+    }
+
     &__entry {
         text-align: center;
         img {
@@ -173,8 +205,7 @@
     &__content--hidden {
         display: none;
     }
-
-    &__blurred {
+    &__content--blurred {
         filter: blur(10px);
     }
 
@@ -182,16 +213,19 @@
         display: block;
         cursor: pointer;
         width: 100%;
-        margin-top: 15px;
-        padding-bottom: 16px;
+        margin-top: 5px;
+        padding-top: 16px;
         background-repeat: no-repeat;
-        background-position: center bottom;
+        background-position: center top;
         text-align: center;
         font-size: 14px;
         color: rgba(#fff, .7);
-        text-transform: uppercase;
         font-family: $font-headline;
         font-weight: normal;
+        transition: all .3s ease;
+        &:hover {
+            color: $color-primary;
+        }
     }
     &__toggle--open {
         background-image: url(../images/icons_svg/dropdown.svg);
@@ -203,9 +237,9 @@
     &__overlay {
         position: absolute;
         text-align: center;
-        bottom: 10px;
+        top: 50%;
         left: 50%;
-        transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, -40%, 0);
         width: 100%;
         padding: 50px;
         max-width: 770px;
@@ -213,5 +247,14 @@
         border: 2px solid #FFFFFF;
         border-radius: 10px;
         z-index: 80;
+    }
+
+    &--loading {
+        .saving-calculation__col > * {
+            display: none;
+        }
+        .saving-calculation__col-loader {
+            display: block;
+        }
     }
 }
