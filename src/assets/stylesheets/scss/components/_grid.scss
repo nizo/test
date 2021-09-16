@@ -20,6 +20,11 @@
             margin: 0 auto 30px auto;
         }
     }
+    &__col--vcentered {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
   
 $breakpoints: (

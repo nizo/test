@@ -409,8 +409,8 @@ $faqs->faq_add (
 					</form>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--6-xs" style="display: none; border-left: 2px solid #fff; padding-left: 30px;">
-				<p>Grundlage der Kalkulation</p>
+			<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered saving-calculation__infos" style="display: none; border-left: 2px solid #fff; padding-left: 30px;">
+				<h3>Grundlage der Kalkulation</h3>
 				<p>Die folgende ROI-Aufstellung verwendet Annahmen basierend auf Durschnittswerten bei folgenden Variablen:</p>
 				<p>
 					<strong>Durchschnittliche Gesprächsdauer:</strong> 3,5 min<br />
@@ -423,7 +423,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 	
-	<div class="section__content section__content--wide">
+	<div class="section__content section__content--wide" id="mehrwertrechner-result">
 		<div class="saving-calculation">
 			<div class="atomic-loader atomic-loader--hidden">
 				<div class="atomic-loader__circle"></div>
@@ -453,7 +453,7 @@ $faqs->faq_add (
 				</div>
 
 				<div class="co-grid" style="--gutter:10px">
-					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--anrufdauer">
 						<div class="saving-calculation__col-loader"></div>
 
 						<h5>Verkürzung der <span>Anrufdauer</span></h5>
@@ -461,63 +461,63 @@ $faqs->faq_add (
 						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
-								<span>xxx.xxx €</span>
+								<span class="total-ersparnis">?€</span>
 							</h6>
 
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight">1234</strong><br />
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Jahr</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>30s</strong><br />
+										<strong class="einspareffekt-anruf">?s</strong><br />
 										<em>Angenommener<br />Einspareffekt je<br/>Anruf</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>= 18.510s</strong>
+										<strong class="gesparte-sekunden">= ?s</strong>
 									</div>
 									<div class="saving-calculation__entry">
 										oder
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>= 51,42h</strong>
+										<strong>= <span class="gesparte-stunden">?h</span></strong>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>51,42h</strong><br />
+										<strong class="gesparte-stunden">?h</strong><br />
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>30 €</strong><br />
+										<strong class="stundenlohn">?€</strong><br />
 										<em>angenommener<br />Stundenlohn der<br />Agenten</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>1542,6 €</strong><br />
+										<strong class="monatliche-einsparung">?€</strong><br />
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>12</strong><br />
+										<strong class="monate-im-jahr">?</strong><br />
 										<em>Monate im<br />Jahr</em>
 									</div>
 								</div>
 								<div class="saving-calculation__total">
 									<div class="saving-calculation__entry">
-										<strong>= 18.511,2 €</strong>
+										<strong>= <span class="total-ersparnis">?€</span></strong>
 									</div>
 									<div class="saving-calculation__entry">
 										<em>Jährliches<br />Kostensenkungs&shy;potential</em>
@@ -559,7 +559,7 @@ $faqs->faq_add (
 							</ul>
 						</div>
 					</div>
-					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--agentenauslastung">
 						<div class="saving-calculation__col-loader"></div>
 
 						<h5>Steigerung der <span>Agentenauslastung</span></h5>
@@ -567,60 +567,60 @@ $faqs->faq_add (
 						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
-								<span>xxx.xxx €</span>
+								<span class="total-ersparnis">?€</span>
 							</h6>
 
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight">1234</strong><br />
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Jahr</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>20%</strong><br />
+										<strong class="erreichbarkeitssteigerung">?%</strong><br />
 										<em>gesteigerte<br />Erreichbarkeit</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>= 246,8</strong>
+										<strong>= <span class="mehr-anrufe">?</span></strong>
 									</div>
 									<div class="saving-calculation__entry">
-										<em>mehr angenommene<br />Anrufe (3,5 min/Call)</em>
+										<em>mehr angenommene<br />Anrufe (<span class="dauer-anruf">?</span> min/Call)</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>1166h</strong><br />
+										<strong class="gesparte-stunden">?h</strong><br />
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>30 €</strong><br />
+										<strong class="stundenlohn">?€</strong><br />
 										<em>angenommener<br />Stundenlohn der<br />Agenten</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>1542,6 €</strong><br />
+										<strong class="monatliche-einsparung">?€</strong><br />
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>12</strong><br />
+										<strong class="monate-im-jahr">?</strong><br />
 										<em>Monate im<br />Jahr</em>
 									</div>
 								</div>
 								<div class="saving-calculation__total">
 									<div class="saving-calculation__entry">
-										<strong>= 18.511,2 €</strong>
+										<strong>= <span class="total-ersparnis">?€</span></strong>
 									</div>
 									<div class="saving-calculation__entry">
 										<em>Jährliches<br />Kostensenkungs&shy;potential</em>
@@ -662,7 +662,7 @@ $faqs->faq_add (
 							</ul>
 						</div>
 					</div>
-					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col">
+					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--personalplanung">
 						<div class="saving-calculation__col-loader"></div>
 						
 						<h5>Optimierte <span>Personalplanung</span></h5>
@@ -670,49 +670,49 @@ $faqs->faq_add (
 						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
-								<span>xxx.xxx €</span>
+								<span class="total-ersparnis">?€</span>
 							</h6>
 
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" width="40"> <strong class="highlight">1234</strong><br />
+										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" width="40"> <strong class="highlight nummer-agenten">????</strong><br />
 										<em>Anzahl Agent*innen</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>5%</strong><br />
+										<strong class="effizienzgewinn">?%</strong><br />
 										<em>Effizienzgewinn<br />Personal</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>1234</strong><br />
+										<strong class="nummer-agenten">????</strong><br />
 										<em>Agent*innen</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>= 700000€</strong><br />
+										<strong>= <span class="kosten-agent">?€</span></strong><br />
 										<em>Personalkosten/jährlich</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong>5%</strong><br />
+										<strong class="effizienzgewinn">?%</strong><br />
 										<em>Effizienzgewinn<br />Personal</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>7000000€</strong><br />
+										<strong class="personalkosten-jahr">?€</strong><br />
 										<em>Personalkosten<br />/jährlich</em>
 									</div>
 								</div>
 								<div class="saving-calculation__total">
 									<div class="saving-calculation__entry">
-										<strong>= 35.000 €</strong>
+										<strong>= <span class="total-ersparnis">?€</span></strong>
 									</div>
 									<div class="saving-calculation__entry">
 										<em>Jährliches<br />Kostensenkungs&shy;potential</em>

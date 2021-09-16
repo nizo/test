@@ -19,6 +19,10 @@
     h4 {
         margin-top: 50px;
         text-align: center;
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 1.4;
     }
 
     h5 {
@@ -65,36 +69,9 @@
         box-shadow: inset 0px 4px 20px rgba(134, 236, 22, 0.05);
         border-radius: 10px;
         padding: 10px;
-    }
-
-    &__calculation {
-        border-radius: 10px;
-        background: linear-gradient(358.98deg, rgba(220, 235, 216, 0.2) 0.47%, rgba(220, 235, 216, 0.154) 95.48%);
-        box-shadow: inset 0px 4px 20px rgba(134, 236, 22, 0.05);
-        margin: 30px 0;
-        padding: 15px 0;
-    }
-
-    &__details {
-        display: none;
-    }
-    &__details--open {
-        display: block;
-    }
-
-    &__row, &__total {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 20px 0;
-
-        &+.saving-calculation__row {
-            border-top: 2px solid rgba(#fff, .5);
-        }
+        flex-direction: column;
     }
-
     &__col-loader {
         position: relative;
         border-radius: 5px;
@@ -124,6 +101,40 @@
         100% {
             left: 100%;
             width: 0%;
+        }
+    }
+
+    &__calculation {
+        border-radius: 10px;
+        background: linear-gradient(358.98deg, rgba(220, 235, 216, 0.2) 0.47%, rgba(220, 235, 216, 0.154) 95.48%);
+        box-shadow: inset 0px 4px 20px rgba(134, 236, 22, 0.05);
+        margin: 30px 0;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    &__calculation--open {
+        flex: 1;
+        margin-bottom: 0;
+    }
+    
+    &__details {
+        display: none;
+    }
+    &__details--open {
+        display: block;
+    }
+
+    &__row, &__total {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 0;
+
+        &+.saving-calculation__row {
+            border-top: 2px solid rgba(#fff, .5);
         }
     }
 
@@ -223,6 +234,7 @@
         font-family: $font-headline;
         font-weight: normal;
         transition: all .3s ease;
+        margin-top: auto;
         &:hover {
             color: $color-primary;
         }
@@ -232,6 +244,30 @@
     }
     &__toggle--close {
         background-image: url(../images/icons_svg/dropdown-reverse.svg);
+    }
+
+    &__infos {
+        h3 {
+            font-family: $font-headline;
+            font-size: 24px;
+            margin-bottom: 10px;
+            background-image: url(../images/icons_svg/attention.svg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 45px;
+        }
+        p {
+            &+p {
+                margin-top: 20px;
+            }
+        }
+        strong {
+            font-family: $font-headline;
+            font-weight: normal;
+        }
+        small {
+            font-size: 14px;
+        }
     }
 
     &__overlay {
