@@ -52,20 +52,59 @@ class Mehrwertrechner {
         
         this.form = this.element.querySelector('.saving-calculation__form');
         this.form.addEventListener('submit', this.submitForm.bind(this));
+        this.formError = this.form.querySelector('.floating-form__error');
+        this.formErrorText = this.formError.querySelector('p');
         
         this.inputs = {
             calls: this.form.querySelector('[name="calls"]'),
             agents: this.form.querySelector('[name="agents"]')
         };
 
-        this.setDefaultFormValues();
+        this.inputs.calls.addEventListener('keyup', e => {
+            this.form.querySelector('.floating-form__submit').disabled = false;
+        });
+        this.inputs.agents.addEventListener('keyup', e => {
+            this.form.querySelector('.floating-form__submit').disabled = false;
+        });
 
+        
+        this.setDefaultFormValues();
         this.calculate();
+        this.removeDefaultFormValues();
     }
 
     setDefaultFormValues() {
         this.inputs.calls.value = this.values.defaultCalls;
         this.inputs.agents.value = this.values.defaultAgents;
+    }
+    removeDefaultFormValues() {
+        this.inputs.calls.value = '';
+        this.inputs.agents.value = '';
+    }
+
+    isInputValid() {
+        this.formError.classList.remove('floating-form__error--active');
+        
+        let calls = parseInt(this.inputs['calls'].value);
+        let agents = parseInt(this.inputs['agents'].value);
+        
+        if (isNaN(calls) || isNaN(agents)) {
+            this.formError.classList.add('floating-form__error--active');
+            this.formErrorText.textContent = 'Bitte geben Sie gültige Zahlen ein.';
+            return false;
+        }
+        if (calls < 100) {
+            this.formError.classList.add('floating-form__error--active');
+            this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 100 Anrufe eingetragen werden.';
+            return false;
+        }
+        if (agents < 10) {
+            this.formError.classList.add('floating-form__error--active');
+            this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 10 Agenten eingetragen werden.';
+            return false;
+        }
+
+        return true;
     }
 
     getInput(input) {
@@ -80,15 +119,15 @@ class Mehrwertrechner {
         this.columns.anrufdauer.einspareffektAnruf.textContent = this.values.einspareffektAnruf + 's';
         let gesparteSekunden = this.getInput('calls') * this.values.einspareffektAnruf;
         this.columns.anrufdauer.gesparteSekunden.textContent = this.formatNumber(gesparteSekunden) + 's';
-        let gesparteStunden1 = Math.round((gesparteSekunden / 60) * 100) / 100;
+        let gesparteStunden1 = (Math.round((gesparteSekunden / 60 / 60) * 100) / 100).toFixed(2);
         this.columns.anrufdauer.gesparteStunden.forEach(stundenBox => {
             stundenBox.textContent = this.formatNumber(gesparteStunden1) + 'h';
         });
         this.columns.anrufdauer.stundenlohn.textContent = this.values.stundenlohn + '€';
-        let monatlicheEinsparung1 = Math.round((gesparteStunden1 * this.values.stundenlohn) * 100) / 100;
+        let monatlicheEinsparung1 = (Math.round((gesparteStunden1 * this.values.stundenlohn) * 100) / 100).toFixed(2);
         this.columns.anrufdauer.monatlicheEinsparung.textContent = this.formatNumber(monatlicheEinsparung1) + '€';
         this.columns.anrufdauer.monateImJahr.textContent = this.values.monateImJahr;
-        let totalErsparnis1 = Math.round((monatlicheEinsparung1 * this.values.monateImJahr) * 100) / 100;
+        let totalErsparnis1 = Math.round(monatlicheEinsparung1 * this.values.monateImJahr);
         this.columns.anrufdauer.totalErsparnis.forEach(totalBox => {
             totalBox.textContent = this.formatNumber(totalErsparnis1) + '€';
         });
@@ -96,16 +135,16 @@ class Mehrwertrechner {
         // Agentenauslastung
         this.columns.agentenauslastung.anrufeProJahr.textContent = this.getInput('calls');
         this.columns.agentenauslastung.erreichbarkeitsSteigerung.textContent = this.values.erreichbarkeitsSteigerung + '%';
-        let mehrAnrufe = Math.round((this.getInput('calls') / 100 * this.values.erreichbarkeitsSteigerung) * 100) / 100;
+        let mehrAnrufe = (Math.round((this.getInput('calls') / 100 * this.values.erreichbarkeitsSteigerung) * 100) / 100).toFixed(2);
         this.columns.agentenauslastung.dauerAnruf.textContent = this.formatNumber(this.values.anrufDauer);
         this.columns.agentenauslastung.mehrAnrufe.textContent = this.formatNumber(mehrAnrufe);
-        let gesparteStunden2 = Math.round((mehrAnrufe * this.values.anrufDauer / 60) * 100) / 100;
+        let gesparteStunden2 = (Math.round((mehrAnrufe * this.values.anrufDauer / 60) * 100) / 100).toFixed(2);
         this.columns.agentenauslastung.gesparteStunden.textContent = this.formatNumber(gesparteStunden2) + 'h';
         this.columns.agentenauslastung.stundenlohn.textContent = this.values.stundenlohn + '€';
         let monatlicheEinsparung2 = Math.round((gesparteStunden2 * this.values.stundenlohn) * 100) / 100;
         this.columns.agentenauslastung.monatlicheEinsparung.textContent = this.formatNumber(monatlicheEinsparung2) + '€';
         this.columns.agentenauslastung.monateImJahr.textContent = this.values.monateImJahr;
-        let totalErsparnis2 = Math.round((monatlicheEinsparung2 * this.values.monateImJahr) * 100) / 100;
+        let totalErsparnis2 = Math.round(monatlicheEinsparung2 * this.values.monateImJahr);
         this.columns.agentenauslastung.totalErsparnis.forEach(totalBox => {
             totalBox.textContent = this.formatNumber(totalErsparnis2) + '€';
         });
@@ -120,7 +159,7 @@ class Mehrwertrechner {
         this.columns.personalplanung.kostenAgent.textContent = this.formatNumber(this.values.kostenAgent) + '€';
         let personalkostenJahr = this.getInput('agents') * this.values.kostenAgent;
         this.columns.personalplanung.personalkostenJahr.textContent = this.formatNumber(personalkostenJahr) + '€';
-        let totalErsparnis3 = Math.round((personalkostenJahr / 100 * this.values.effizienzgewinn) * 100) / 100;
+        let totalErsparnis3 = Math.round(personalkostenJahr / 100 * this.values.effizienzgewinn);
         this.columns.personalplanung.totalErsparnis.forEach(totalBox => {
             totalBox.textContent = this.formatNumber(totalErsparnis3) + '€';
         });
@@ -137,6 +176,9 @@ class Mehrwertrechner {
 
     submitForm(e) {
         e.preventDefault();
+
+        if (!this.isInputValid())
+            return;
         
         // Scroll to result
         let result = document.getElementById('mehrwertrechner-result');

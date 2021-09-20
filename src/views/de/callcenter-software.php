@@ -379,12 +379,16 @@ $faqs->faq_add (
 					<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
 
 					<form action="#" method="post" class="floating-form saving-calculation__form">
+						<div class="floating-form__error">
+							<p>Bitte dies das</p>
+						</div>
+
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
 								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="calls" placeholder=" " />
+								<input type="text" name="calls" placeholder=" " autocomplete="off" />
 								<label>Anrufe</label>
 							</div>
 							<div class="floating-form__description">
@@ -397,7 +401,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="agents" placeholder=" " />
+								<input type="text" name="agents" placeholder=" " autocomplete="off" />
 								<label>Agent*innen</label>
 							</div>
 							<div class="floating-form__description">
@@ -405,7 +409,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<button class="floating-form__submit btn btn--full-width" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
+						<button class="floating-form__submit btn btn--full-width" disabled type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
 					</form>
 				</div>
 			</div>
@@ -468,7 +472,7 @@ $faqs->faq_add (
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight nummer-anrufe">????</strong><br />
-										<em>Anrufe pro Jahr</em>
+										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
@@ -574,7 +578,7 @@ $faqs->faq_add (
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight nummer-anrufe">????</strong><br />
-										<em>Anrufe pro Jahr</em>
+										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
 										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
@@ -759,6 +763,239 @@ $faqs->faq_add (
 		</div>
 	</div>
 </div>
+
+<div class="section section--light-green-white">
+	<div class="section__content section__content--wide">
+		<h1 class="centered">Das glauben Sie uns nicht?</h1>
+
+		<p class="centered">Dann schauen Sie sich jetzt an, was unsere Kunden schon <br /><strong>mit der CallOne Callcenter-Software erreichen konnten.</strong></p>
+
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--6-xs">
+				Logos
+			</div>
+			<div class="co-grid__col co-grid__col--6-xs">
+				Cards
+			</div>
+		</div>
+
+		<h1 class="centered">Das hat Sie neugierig gemacht?</h1>
+
+		<p class="centered">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</p>
+
+		<div class="content-box content-box--wide content-box--shadow content-box--white">
+			<div class="co-grid">
+				<div class="co-grid__col co-grid__col--6-xs">
+					Links
+				</div>
+				<div class="co-grid__col co-grid__col--6-xs">
+					Rechts
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section section--dark-green-black">
+	<div class="section__content">
+		<h1 class="centered">Noch nicht überzeugt?</h1>
+
+		<p class="centered">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.​</p>
+
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--6-xs">
+				<div class="radio-select">
+					<div class="radio-select__item">
+						<input type="radio" id="button1" name="themen" value="1" checked="checked">
+						<label for="button1">
+							<h3>Flexibel telefonieren</h3>
+							<p>Erfahren Sie mehr zu unseren <br />unterstützten Telefonie-Optionen​</p>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--6-xs">
+				<div class="radio-select">
+					<div class="radio-select__item">
+						<input type="radio" id="button2" name="themen" value="2">
+						<label for="button2">
+							<h3>Integrationsmöglichkeiten</h3>
+							<p>Optionen für Anbindung Ihrer <br />genutzten Businesslösungen​​</p>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--6-xs">
+				<div class="radio-select">
+					<div class="radio-select__item">
+						<input type="radio" id="button3" name="themen" value="3">
+						<label for="button3">
+							<h3>Zusammenarbeit</h3>
+							<p>Unsere Kommunikationsplattform mit <br />Expertenunterstützung​</p>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--6-xs">
+				<div class="radio-select">
+					<div class="radio-select__item">
+						<input type="radio" id="button4" name="themen" value="4">
+						<label for="button4">
+							<h3>Sicherheit</h3>
+							<p>Wie kommen <br />99,999% Erreichbarkeit zustande?</p>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section__content section__content--wide" data-thema="1">
+		<hr class="bracket-spacer" />
+		
+		<h1 class="centered">Flexibel heißt bei CallOne: <br />Telefonieren wie und wo sie möchten!</h1>
+		<p class="centered">Wählen Sie aus der vielleicht umfangreichsten Auswahl von Endgerät-Optionen und kombinieren Sie diese nach Bedarf in Ihrem Unternehmen und Mitarbeiter.</p>
+	</div>
+
+	<div class="section__content section__content--wide" data-thema="2">
+		<hr class="bracket-spacer" />
+		
+		<h1 class="centered">Telefonie mit Lieblings-Apps verbinden</h1>
+	</div>
+	
+	<div class="section__content section__content--wide" data-thema="3">
+		<hr class="bracket-spacer" />
+		
+		<h1 class="centered">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung​</h1>
+		
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--4-xs right">
+				<h3>Technologie „Made in Germany“​</h3>
+				<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
+			</div>
+			<div class="co-grid__col co-grid__col--4-xs centered">
+				<img src="/assets/images/icons_png/overlap.png" alt="" />
+			</div>
+			<div class="co-grid__col co-grid__col--4-xs left">
+				<h3>Expertenberatung</h3>
+				<p>Bei uns arbeiten Projektmanager*innen und Kunden Hand in Hand – tagtäglich! Sie erhalten einen zentralen Ansprechpartner. Dies schafft nicht nur unglaubliche Geschwindigkeit im Projekt sondern auch messbare Erfolge in Ihrem ROI.​</p>
+			</div>
+		</div>
+		
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--6-xs">
+				<img src="/assets/images/photos/video-preview.png" alt="" />
+			</div>
+			<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+				<h1>„Über richtig guten Kundenservice”</h1>
+				<p>
+					<strong>Dr. Rainer Klipp</strong><br />
+					Geschäftsführer von Check24 Versicherungen
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="section__content section__content--wide" data-thema="4">
+		<hr class="bracket-spacer" />
+
+		<h1 class="centered">Datenschutz und Ausfallsicherheit</h1>
+
+		<div class="co-grid cards">
+			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
+				<div class="cards__card--dark-top">
+					<p class="centered">
+						<img src="/assets/images/icons_svg/quick-delivery.svg" alt="" />
+					</p>
+					<h3 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h3>
+				</div>
+				<div class="cards__card--dark-bottom">
+					<p>Kein nerviger Self-Service mehr. Ein CallOne Experte berät Sie persönlich. In kürzester Zeit ist alles eingerichtet, wie sie es brauchen. Und auch schon live.</p>
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
+				<div class="cards__card--dark-top">
+					<p class="centered">
+						<img src="/assets/images/icons_svg/data-protection.svg" alt="" />
+					</p>
+					<h3 class="centered">Telefonie mit deutschem Datenschutz-Standard</h3>
+				</div>
+				<div class="cards__card--dark-bottom">
+					<p>Das Privacy Shield Abkommen braucht Sie nicht mehr zu interessieren. Unsere Telefonie-Lösungen hosten wir ausschließlich in Deutschland.</p>
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
+				<div class="cards__card--dark-top">
+					<p class="centered">
+						<img src="/assets/images/icons_svg/uptime.svg" alt="" />
+					</p>
+					<h3 class="centered">Garantierte 99,999% Erreichbarkeit</h3>
+				</div>
+				<div class="cards__card--dark-bottom">
+					<p>Mehr als genug Backup-Server, supersicherer DDoS-Schutz und individuelle Redundanzkonzepte machen CallOne-Lösungen extrem stabil und rund um die Uhr erreichbar.</p>
+				</div>
+			</div>
+		</div>
+
+		<p>
+			<a href="#" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
+		</p>
+	</div>
+	
+	<div class="section__content section__content--wide">
+		<div class="cta-contact">
+			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
+			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
+
+			<div class="co-grid">
+				<div class="co-grid__col co-grid__col--4-xs">
+					<img src="/assets/images/icons_svg/first-call.svg" alt="" />
+					<h4>
+						<span>Schritt 1</span><br />
+						Erstgespräch
+					</h4>
+					<p>Kein Verkaufsgespräch, sondern Austausch.</p>
+				</div>
+				<div class="co-grid__col co-grid__col--4-xs">
+					<img src="/assets/images/icons_svg/presentation.svg" alt="" />
+					<h4>
+						<span>Schritt 2</span><br />
+						Showcase
+					</h4>
+					<p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
+				</div>
+				<div class="co-grid__col co-grid__col--4-xs">
+					<img src="/assets/images/icons_svg/team-dark.svg" alt="" />
+					<h4>
+						<span>Schritt 3</span><br />
+						Lösungsfindung
+					</h4>
+					<p>Wir passen individuelles Lösungsangebot auf Sie zu.</p>
+				</div>
+			</div>
+
+			<p>
+				<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<script>
+	const radios = document.querySelectorAll('[name="themen"]');
+	const themen = document.querySelectorAll('[data-thema]');
+	themen.forEach(thema => thema.style.display = 'none');
+	themen[0].style.display = 'block';
+	radios.forEach(radio => {
+		radio.addEventListener('click', e => {
+			themen.forEach(thema => {
+				thema.style.display = 'none';
+				if (e.currentTarget.value == thema.dataset.thema)
+					thema.style.display = 'block';
+			});
+		});
+	})
+</script>
 
 <?php
 // $faqs->structured_data_get_code ();

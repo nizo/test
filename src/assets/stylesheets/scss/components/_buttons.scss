@@ -103,6 +103,9 @@
 		&:hover {
 			color: $color-primary;
 		}
+		&.btn--arrow-right:after {
+			filter: invert(1);
+		}
 	}
 	
 	&--centered {

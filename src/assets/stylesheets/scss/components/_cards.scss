@@ -18,8 +18,26 @@
         margin-top: 15px;
     }
 }
+.cards__card--no-padding {
+    padding: 0;
+}
+.cards__card--transparent {
+    background: transparent;
+}
 .card {
     margin-bottom: 0;
+}
+
+.cards__card--dark-top {
+    background-color: rgba(237, 242, 226, 0.2);
+    padding: 30px;
+    border-radius: 8px 8px 0 0;
+}
+.cards__card--dark-bottom {
+    background-color: rgba(#000, 0.5);
+    padding: 30px;
+    border-radius: 0 0 8px 8px;
+    margin-top: 0 !important;
 }
 
 .cards__card--3 {

@@ -274,6 +274,17 @@ hr {
 	border-bottom: 2px solid $color-secondary-1;
 	margin: $gutter-l 0;
 }
+hr.bracket-spacer {
+	position: relative;
+	border: 0;
+	margin: 0;
+	background-image: url(../images/icons_svg/box-top.svg);
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+	width: 100%;
+    height: 51px;
+}
 
 .light {
 	font-weight: 300;
