@@ -16,6 +16,7 @@
         font-size: 14px;
         line-height: 1.4;
         cursor: pointer;
+        opacity: .5;
         strong {
             font-family: $font-headline;
             font-weight: normal;
@@ -40,6 +41,7 @@
     &__link--active {
         border-bottom: 4px solid #000;
         padding-bottom: 15px;
+        opacity: 1;
     }
 
     &__content {
@@ -54,6 +56,45 @@
     }
     &__content--active {
         display: block;
+    }
+    &__content--border-bottom {
+        border-bottom: 2px solid rgba(#000, .2);
+    }
+
+    &__content--red-footer {
+        background-image: url(../images/illus/connection-illustration.svg),
+            url(../images/backgrounds_svg/red-circle.svg);
+        background-position: 30px bottom, center bottom;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+    &__content--yellow-footer {
+        background-image: url(../images/illus/automation-illustration.svg),
+            url(../images/backgrounds_svg/yellow-circle.svg);
+        background-position: 30px bottom, center bottom;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+    &__content--purple-footer {
+        background-image: url(../images/illus/queue-illustration-left.svg),
+            url(../images/illus/queue-illustration-right.svg),
+            url(../images/backgrounds_svg/purple-circle.svg);
+        background-position: 30px bottom, calc(100% - 30px) bottom, center bottom;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+    &__content--blue-footer {
+        background-image: url(../images/illus/statistics-illustration.svg),
+            url(../images/backgrounds_svg/blue-circle.svg);
+        background-position: calc(100% - 30px) bottom, center bottom;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+
+    &--on-black {
+        .tablist__link, .tablist__link--active {
+            border-color: #fff;
+        }
     }
 }
 
