@@ -68,7 +68,6 @@ class Carddeck {
     getCardSize() {
         let tallest = 0;
         this.allCards.forEach(card => {
-            console.log(card.offsetHeight);
             if (card.offsetHeight > tallest)
                 tallest = card.offsetHeight;
             card.classList.add('carddeck__card--messured');

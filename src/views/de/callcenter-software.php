@@ -62,6 +62,73 @@ $faqs->faq_add (
 
 <div class="section">
 	<div class="section__content section__content--narrow">
+		<h1 class="centered">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
+		<p class="centered">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+	</div>
+
+	<div class="section__content section__content--wide">
+		<div class="tablist">
+			<div class="tablist__links">
+				<div class="tablist__link tablist__link--active" data-tab="1">
+					<strong>Fullservice</strong><br>
+					CallOne liefert Ihnen das <br />
+					Komplettpaket für Ihr Unternehmen
+				</div>
+				<div class="tablist__link" data-tab="2">
+					<strong>Integriert</strong><br>
+					CallOne Callcenter Software verbunden <br />
+					mit Ihrer eigener Telefonanlage
+				</div>
+			</div>
+			
+			<div class="tablist__content tablist__content--active" data-tab="1">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" style="margin:0" />
+						<h2>Lösungen für Ihr <br />gesamtes Unternehmen</h2>
+						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.​</p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
+						<div class="carddeck carddeck--right" data-speed="2500">
+							<div class="carddeck__card">
+								<h2>Lorem, ipsum dolor. 1</h2>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+							</div>
+							<div class="carddeck__card">
+								<h2>Lorem, ipsum dolor. 2</h2>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+							</div>
+							<div class="carddeck__card">
+								<h2>Lorem, ipsum dolor. 3</h2>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+							</div>
+							<div class="carddeck__card">
+								<h2>Lorem, ipsum dolor. 4</h2>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tablist__content" data-tab="2">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" style="margin:0" />
+						<h2>Lösungen für Ihr Callcenter</h2>
+						<p>CallOne ist Spezialist wenn es um das Thema Call Center Software geht. Wir liefern diesen Baustein unserer VoIP-Telefonanlage wahlweise integriert in Ihre​</p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<img src="/assets/images/photos/integration-callcenter.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section" id="features">
+	<div class="section__content section__content--narrow">
 		<h1 class="centered">Über 200 Features - aber die Magie steckt im Detail​​</h1>
 		<p class="centered">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
 	</div>
@@ -764,7 +831,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--light-green-white">
+<div class="section section--light-green-white" id="referenzen">
 	<div class="section__content section__content--wide">
 		<h1 class="centered">Das glauben Sie uns nicht?</h1>
 
@@ -772,10 +839,41 @@ $faqs->faq_add (
 
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--6-xs">
-				Logos
+				<div class="fader" data-speed="2500">
+					<div class="fader__item" data-title="Enterprise">
+						<img src="/assets/images/client-logos/Logos-enterprise.svg" alt="" />
+					</div>
+					<div class="fader__item" data-title="Fast Growing">
+						<img src="/assets/images/client-logos/Logos-Fast-Growing.svg" alt="" />
+					</div>
+					<div class="fader__item" data-title="Mittelstand">
+						<img src="/assets/images/client-logos/Logos-mittelstand.svg" alt="" />
+					</div>
+					<div class="fader__item" data-title="Ihre Organisation">
+						<h3 class="centered">Unternehmen jeder Größe vertrauen auf CallOne</h3>
+						<p class="centered">Lassen Sie uns gemeinsam über Potentiale für Ihren Kundenservice sprechen.</p>
+					</div>
+				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--6-xs">
-				Cards
+				<div class="carddeck carddeck--right" data-speed="2500">
+					<div class="carddeck__card">
+						<h2>Lorem, ipsum dolor. 1</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+					</div>
+					<div class="carddeck__card">
+						<h2>Lorem, ipsum dolor. 2</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+					</div>
+					<div class="carddeck__card">
+						<h2>Lorem, ipsum dolor. 3</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+					</div>
+					<div class="carddeck__card">
+						<h2>Lorem, ipsum dolor. 4</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
