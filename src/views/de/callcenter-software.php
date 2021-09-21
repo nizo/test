@@ -91,20 +91,20 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--6-xs" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
 						<div class="carddeck carddeck--right" data-speed="2500">
 							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 1</h2>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+								<h2 class="icon-schnittstellen">Schnittstellen</h2>
+								<p>Fertige Apps oder API für die Anbindung an Ihre BI, Ticketing, CRM und alle anderen System, die mit Ihrer Telefonie sprechen sollten.</p>
 							</div>
 							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 2</h2>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+								<h2 class="icon-rufnummern">Rufnummern</h2>
+								<p>Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich​.</p>
 							</div>
 							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 3</h2>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+								<h2 class="icon-voip-telefonanlage">VoIP-Telefonanlage</h2>
+								<p>Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit​.</p>
 							</div>
 							<div class="carddeck__card">
-								<h2>Lorem, ipsum dolor. 4</h2>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+								<h2 class="icon-phone-ms-teams">Microsoft Teams</h2>
+								<p>Ihre Telefonie in Microsoft Teams integriert.</p>
 							</div>
 						</div>
 					</div>
@@ -155,7 +155,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer tablist__content--active" data-tab="1">
-				<h2 class="centered">Schnittstellenanbindung</h2>
+				<h2 class="centered icon-connectors">Schnittstellenanbindung</h2>
 				<p class="centered">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
 
 				<div class="co-grid">
@@ -235,7 +235,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
-				<h2 class="centered">Automatisierung und KI</h2>
+				<h2 class="centered icon-automation">Automatisierung und KI</h2>
 				<p class="centered">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
 
 				<div class="co-grid">
@@ -301,7 +301,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
-				<h2 class="centered">Warteschleifenmanagement</h2>
+				<h2 class="centered icon-queue">Warteschleifenmanagement</h2>
 				<p class="centered">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
 
 				<div class="co-grid">
@@ -381,7 +381,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
-				<h2 class="centered">Statistik & Datenanalyse</h2>
+				<h2 class="centered icon-statistics">Statistik & Datenanalyse</h2>
 				<p class="centered">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten.</p>
 
 				<div class="co-grid">
@@ -907,7 +907,7 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--6-xs">
 				<div class="carddeck carddeck--right" data-speed="2500">
 					<div class="carddeck__card">
-						<h2>Lorem, ipsum dolor. 1</h2>
+						<h2 class="icon-roi-indicator">Erreichbare Steigerung</h2>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
 					</div>
 					<div class="carddeck__card">
