@@ -44,6 +44,27 @@
         opacity: 1;
     }
 
+    &__arrow {
+        position: absolute;
+        display: none;
+        width: 16px;
+        height: 32px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__arrow--left {
+        background-image: url(../images/icons_svg/backward-chevron-icon.svg);
+        left: 0;
+    }
+    &__arrow--right {
+        background-image: url(../images/icons_svg/forward-chevron-icon.svg);
+        right: 0;
+    }
+
     &__content {
         display: none;
         h2 {
@@ -102,10 +123,21 @@
     .tablist {
         &__links {
             flex-wrap: wrap;
+            position: relative;
+            padding: 0 46px;
+            border-bottom: 2px solid rgba(#000, .2);
         }
         &__link {
             padding-left: 30px;
             padding-right: 30px;
+            display: none;
+            border-bottom: 0;
+        }
+        &__link--active {
+            display: block;
+        }
+        &__arrow {
+            display: block;
         }
     }
 }

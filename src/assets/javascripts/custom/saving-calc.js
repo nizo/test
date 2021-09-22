@@ -141,7 +141,7 @@ class Mehrwertrechner {
         let gesparteStunden2 = (Math.round((mehrAnrufe * this.values.anrufDauer / 60) * 100) / 100).toFixed(2);
         this.columns.agentenauslastung.gesparteStunden.textContent = this.formatNumber(gesparteStunden2) + 'h';
         this.columns.agentenauslastung.stundenlohn.textContent = this.values.stundenlohn + '€';
-        let monatlicheEinsparung2 = Math.round((gesparteStunden2 * this.values.stundenlohn) * 100) / 100;
+        let monatlicheEinsparung2 = (Math.round((gesparteStunden2 * this.values.stundenlohn) * 100) / 100).toFixed(2);
         this.columns.agentenauslastung.monatlicheEinsparung.textContent = this.formatNumber(monatlicheEinsparung2) + '€';
         this.columns.agentenauslastung.monateImJahr.textContent = this.values.monateImJahr;
         let totalErsparnis2 = Math.round(monatlicheEinsparung2 * this.values.monateImJahr);

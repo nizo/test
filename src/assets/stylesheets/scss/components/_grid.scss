@@ -20,6 +20,9 @@
         );
         background-position: center;
         background-repeat: no-repeat;
+        @media screen and (max-width: 1170px) {
+            background: none;
+        }
     }
 
     &__col {
@@ -52,6 +55,11 @@ $breakpoints: (
             .co-grid__col--#{$i}-#{$size} {
                 width: calc(#{percentage($i/12)} - var(--gutter));
             }
+        }
+    }
+    @media screen and (max-width: #{$value}px) {
+        .co-grid__col--hidden-#{$size} {
+            display: none;
         }
     }
 }

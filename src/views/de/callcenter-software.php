@@ -35,7 +35,7 @@ $faqs->faq_add (
 <div class="section section--no-padding-bottom">
 	<div class="hero">
 		<div class="hero__image">
-			<img src="/assets/images/illus/CCS-header-illu.png" alt="" />
+			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" />
 		</div>
 		<div class="hero__text">
 			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
@@ -83,12 +83,12 @@ $faqs->faq_add (
 			
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" style="margin:0" />
 						<h2>Lösungen für Ihr <br />gesamtes Unternehmen</h2>
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
 						<div class="carddeck carddeck--right" data-speed="2500">
 							<div class="carddeck__card">
 								<h2 class="icon-schnittstellen">Schnittstellen</h2>
@@ -113,12 +113,12 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" style="margin:0" />
 						<h2>Lösungen für Ihr Callcenter</h2>
 						<p>CallOne ist Spezialist wenn es um das Thema Call Center Software geht. Wir liefern diesen Baustein unserer VoIP-Telefonanlage wahlweise integriert in Ihre</p>
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/integration-callcenter.png" alt="" />
 					</div>
 				</div>
@@ -159,32 +159,32 @@ $faqs->faq_add (
 				<p class="centered">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="5">5%</span>
 								</div>
 								weniger Kosten pro Kontakt durch gesteigerte FCR*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<!-- <span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span> -->
-									5-15s
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="10" data-end="5">5</span>-<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="30" data-end="15" data-suffix="s">15s</span>
+									<!-- 5-15s -->
 								</div>
 								kürzere Gesprächsdauern (AHT)*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<!-- <span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span> -->
-									50%-70%
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="0" data-end="50">50</span>-<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="20" data-end="70" data-suffix="%">70%</span>
+									<!-- 50%-70% -->
 								</div>
 								Erkennung des Anruferanliegens*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<!-- <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span> -->
-									3x
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="3">3x</span>
+									<!-- 3x -->
 								</div>
 								schnellerer Anrufaufbau*
 							</div>
@@ -192,7 +192,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-11">
 							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
@@ -239,25 +239,25 @@ $faqs->faq_add (
 				<p class="centered">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
 								</div>
 								weniger Gesprächszeit für Ihre Agent*innen*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<!-- <span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span> -->
-									4x
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="4">4x</span>
+									<!-- 4x -->
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<!-- <span class="counting-number" data-start="0" data-end="94">94%</span> -->
-									94%
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="0" data-end="94">94%</span>
+									<!-- 94% -->
 								</div>
 								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung*
 							</div>
@@ -265,7 +265,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-21">
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
@@ -305,32 +305,32 @@ $faqs->faq_add (
 				<p class="centered">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
 								</div>
 								bessere Erreichbarkeit*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<!-- <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span> -->
-									65%
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="%" data-start="0" data-end="65">65%</span>
+									<!-- 65% -->
 								</div>
 								Verkürzung der Wartezeit*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<!-- <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span> -->
-									25%
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="%" data-start="0" data-end="25">25%</span>
+									<!-- 25% -->
 								</div>
 								geringere Abbruchquote*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<!-- 1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span> -->
-									1,5x
+									1,<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="5">5x</span>
+									<!-- 1,5x -->
 								</div>
 								gesteigerte Agentenauslastung*
 							</div>
@@ -338,7 +338,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-31">
 							<label for="faq-31">Intelligente Routingfunktionen</label>
@@ -385,32 +385,32 @@ $faqs->faq_add (
 				<p class="centered">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								mehr Effizienz in der Personalplanung*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<!-- <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span> -->
-									3x
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="3">3x</span>
+									<!-- 3x -->
 								</div>
 								schnellere Reaktion dank Echtzeit-Benachrichtigung*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<!-- <span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span> -->
-									60min
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="min" data-start="0" data-end="60">60min</span>
+									<!-- 60min -->
 								</div>
 								Zeitersparnis täglich mittels Autoreporting*
 							</div>
-							<div class="co-grid__col co-grid__col--6-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<!-- <span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span> -->
-									20%
+									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="%" data-start="0" data-end="20">20%</span>
+									<!-- 20% -->
 								</div>
 								gesteigerte Teamleistung*
 							</div>
@@ -418,7 +418,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-41">
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
@@ -474,7 +474,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--black" id="mehrwertrechner">
+<div class="section section--black mobile-hidden" id="mehrwertrechner">
 	<div class="section__content section__content--wide">
 		<h1 class="centered">
 			Lust Ihr Einsparpotenzial <br />
@@ -503,7 +503,7 @@ $faqs->faq_add (
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" name="calls" placeholder=" " autocomplete="off" />
-								<label>Anrufe</label>
+								<label></label>
 							</div>
 							<div class="floating-form__description">
 								Anrufe gesamt pro Monat
@@ -516,7 +516,7 @@ $faqs->faq_add (
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" name="agents" placeholder=" " autocomplete="off" />
-								<label>Agent*innen</label>
+								<label></label>
 							</div>
 							<div class="floating-form__description">
 								Anzahl Ihrer Agent*innen
@@ -887,7 +887,7 @@ $faqs->faq_add (
 
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
-			<div class="co-grid__col co-grid__col--6-xs">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 				<div class="fader" data-speed="2500">
 					<div class="fader__item" data-title="Enterprise">
 						<img src="/assets/images/client-logos/Logos-enterprise.svg" alt="" />
@@ -904,7 +904,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--6-xs">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 				<div class="carddeck carddeck--right" data-speed="2500">
 					<div class="carddeck__card">
 						<h2 class="icon-roi-indicator">Erreichbare Steigerung</h2>
@@ -936,13 +936,13 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
-				<div class="co-grid__col co-grid__col--6-xs">
+				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 					<img src="/assets/images/icons_svg/callback-black.svg" alt="" />
 					<h3>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h3>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
-				<div class="co-grid__col co-grid__col--6-xs">
+				<div class="co-grid__col co-grid__col--6-md co-grid__col--hidden-md">
 					<img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
 					<h3>Senden Sie uns <br />eine Nachricht</h3>
 					<p>Kontaktformular nutzen</p>
@@ -960,7 +960,7 @@ $faqs->faq_add (
 		<p class="centered">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.</p>
 
 		<div class="co-grid">
-			<div class="co-grid__col co-grid__col--6-xs">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
 				<div class="radio-select">
 					<div class="radio-select__item">
 						<input type="radio" id="button1" name="themen" value="1" checked="checked">
@@ -971,18 +971,18 @@ $faqs->faq_add (
 					</div>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--6-xs">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
 				<div class="radio-select">
 					<div class="radio-select__item">
 						<input type="radio" id="button2" name="themen" value="2">
 						<label for="button2">
-							<h3>Integrationsmöglichkeiten</h3>
+							<h3>Integrations&shy;möglichkeiten</h3>
 							<p>Optionen für Anbindung Ihrer <br />genutzten Businesslösungen</p>
 						</label>
 					</div>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--6-xs">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
 				<div class="radio-select">
 					<div class="radio-select__item">
 						<input type="radio" id="button3" name="themen" value="3">
@@ -993,7 +993,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--6-xs">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
 				<div class="radio-select">
 					<div class="radio-select__item">
 						<input type="radio" id="button4" name="themen" value="4">
@@ -1039,10 +1039,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/agent-view-desktop.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<p>Eine webbasierte Oberfläche speziell konzipiert für höchste Ansprüche Ihre Agenten im Kundenservice und Sales.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1306,7 +1306,7 @@ $faqs->faq_add (
 		</p>
 	</div>
 	
-	<div class="section__content section__content--wide">
+	<div class="section__content section__content--wide mobile-hidden">
 		<div class="cta-contact">
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
 			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
