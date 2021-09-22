@@ -8,7 +8,8 @@
 .icon-automation,
 .icon-queue,
 .icon-statistics,
-.icon-roi-indicator {
+.icon-roi-indicator,
+.icon-attention {
     white-space: nowrap;
     &:before {
         content: '';
@@ -65,4 +66,8 @@
 
 .icon-roi-indicator:before {
     background-image: url(../images/icons_svg/roi-indicator.svg);
+}
+
+.icon-attention:before {
+    background-image: url(../images/icons_svg/attention.svg);
 }

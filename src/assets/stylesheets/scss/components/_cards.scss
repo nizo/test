@@ -27,6 +27,17 @@
 .card {
     margin-bottom: 0;
 }
+.cards__card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 30px 20px;
+    img {
+        display: block;
+        max-height: 100%;
+    }
+}
 
 .cards__card--dark-top {
     background-color: rgba(237, 242, 226, 0.2);

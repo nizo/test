@@ -56,6 +56,9 @@
             }
         }
     }
+    &__card--content-centered {
+        // align-items: center;
+    }
     &__card--messured {
         position: absolute;
     }

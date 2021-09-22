@@ -528,7 +528,7 @@ $faqs->faq_add (
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered saving-calculation__infos" style="display: none; border-left: 2px solid #fff; padding-left: 30px;">
-				<h3>Grundlage der Kalkulation</h3>
+				<h3 class="icon-attention">Grundlage der Kalkulation</h3>
 				<p>Die folgende ROI-Aufstellung verwendet Annahmen basierend auf Durschnittswerten bei folgenden Variablen:</p>
 				<p>
 					<strong>Durchschnittliche Gesprächsdauer:</strong> 3,5 min<br />
@@ -1173,6 +1173,53 @@ $faqs->faq_add (
 		<hr class="bracket-spacer" />
 		
 		<h1 class="centered">Telefonie mit Lieblings-Apps verbinden</h1>
+
+		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
+			<div class="co-grid__col co-grid__col--1-xs"></div>
+			<div class="co-grid__col co-grid__col--3-xs">
+				<div class="carddeck carddeck--no-indicators centered">
+					<div class="carddeck__card">
+						<img src="/assets/images/client-logos/HubSpot.svg" alt="" />
+					</div>
+					<div class="carddeck__card">
+						<img src="/assets/images/client-logos/logo-de.svg" alt="" />
+					</div>
+					<div class="carddeck__card">
+						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" />
+					</div>
+					<div class="carddeck__card">
+						<img src="/assets/images/client-logos/HubSpot.svg" alt="" />
+					</div>
+					<div class="carddeck__card">
+						<img src="/assets/images/client-logos/logo-de.svg" alt="" />
+					</div>
+					<div class="carddeck__card">
+						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
+				<!-- <img src="/assets/images/logo/logo-round.svg" alt="" /> -->
+			</div>
+			<div class="co-grid__col co-grid__col--3-xs co-grid__col--vcentered">
+				<div class="content-box content-box--white centered">
+					<img src="/assets/images/icons_svg/api-integration.svg" alt="" />
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--1-xs"></div>
+		</div>
+
+		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto">
+			<div class="co-grid__col co-grid__col--5-xs right">
+				<h3>Konnektoren zu den wichtigsten Business-Anwendungen</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie congue dictumst donec cursus. Bibendum habitasse feugiat aenean bibendum faucibus in. Semper in.</p>
+			</div>
+			<div class="co-grid__col co-grid__col--2-xs"></div>
+			<div class="co-grid__col co-grid__col--5-xs left">
+				<h3>Individuelle Anbindung an Ihr Business-System</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque leo urna, lorem sagittis urna neque accumsan, sed ac. Suspendisse faucibus quam netus.</p>
+			</div>
+		</div>
 	</div>
 	
 	<div class="section__content section__content--wide" data-thema="3">
@@ -1196,7 +1243,12 @@ $faqs->faq_add (
 		
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--6-xs">
-				<img src="/assets/images/photos/video-preview.png" alt="" />
+				<div class="co-video">
+					<div class="co-video__poster">
+						<img src="/assets/images/photos/video-preview.png" alt="" />
+					</div>
+					<a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
+				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
 				<h1>„Über richtig guten Kundenservice”</h1>
@@ -1216,9 +1268,9 @@ $faqs->faq_add (
 		<div class="co-grid cards">
 			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
 				<div class="cards__card--dark-top">
-					<p class="centered">
+					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
-					</p>
+					</div>
 					<h3 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h3>
 				</div>
 				<div class="cards__card--dark-bottom">
@@ -1227,9 +1279,9 @@ $faqs->faq_add (
 			</div>
 			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
 				<div class="cards__card--dark-top">
-					<p class="centered">
+					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
-					</p>
+					</div>
 					<h3 class="centered">Telefonie mit deutschem Datenschutz-Standard</h3>
 				</div>
 				<div class="cards__card--dark-bottom">
@@ -1238,9 +1290,9 @@ $faqs->faq_add (
 			</div>
 			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
 				<div class="cards__card--dark-top">
-					<p class="centered">
+					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
-					</p>
+					</div>
 					<h3 class="centered">Garantierte 99,999% Erreichbarkeit</h3>
 				</div>
 				<div class="cards__card--dark-bottom">
@@ -1309,6 +1361,10 @@ $faqs->faq_add (
 	})
 </script>
 
+
+<div class="modal video-casestudy-check24">
+  <?php include('./partials/modal-video-check24.php'); ?>
+</div>
 <?php
 // $faqs->structured_data_get_code ();
 // $faqs->html_get_code('toggle-box--on-black');

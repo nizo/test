@@ -10,6 +10,13 @@ class Carddeck {
         this.indicators = this.initIndicators();
 
         this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+
+        respondToVisibility(this.deck, visible => {
+            this.cardSize = this.getCardSize();
+            this.cards.style.height = this.cardSize + 'px';
+            this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
+            this.indicators.style.height = this.cardSize + 'px';
+        });
     }
 
     wrapCardContent() {
@@ -68,6 +75,8 @@ class Carddeck {
     getCardSize() {
         let tallest = 0;
         this.allCards.forEach(card => {
+            card.style.height = '';
+            card.classList.remove('carddeck__card--messured');
             if (card.offsetHeight > tallest)
                 tallest = card.offsetHeight;
             card.classList.add('carddeck__card--messured');
