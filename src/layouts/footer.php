@@ -1,5 +1,5 @@
     
-    <?php
+    <?php /*
     $footer_hidden = [
       '/',
       '/testseite',
@@ -46,7 +46,7 @@
             </div>
           </div>
     	</div>
-    <?php endif; ?>
+    <?php endif; */ ?>
 
     <footer class="main-footer" style="<?= in_array($_SERVER['REQUEST_URI'], $footer_hidden) ? 'margin-top: 0;' : '' ?>">
       <div class="footer-content desktop">

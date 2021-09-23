@@ -75,7 +75,7 @@
         z-index: 1;
     }
     &__card--fade {
-        transform: translateX(calc(5% + 9px)) scale(1.1);
+        transform: translateX(calc(2.5% + 9px)) scale(1.05);
         opacity: 0;
         z-index: 4;
     }
@@ -111,7 +111,7 @@
             transform: translateX(calc(10% + 18px)) scale(.8);
         }
         .carddeck__card--fade {
-            transform: translateX(calc(-5% - 9px)) scale(1.1);
+            transform: translateX(calc(-2.5% - 9px)) scale(1.05);
         }
     }
 }

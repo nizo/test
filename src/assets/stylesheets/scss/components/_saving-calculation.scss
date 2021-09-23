@@ -1,4 +1,12 @@
 .saving-calculation {
+
+    &--mobile {
+        display: none;
+    }
+    &--desktop {
+        display: block;
+    }
+
     h3 {
         font-family: $font-headline;
         font-weight: normal;
@@ -289,6 +297,17 @@
         }
         .saving-calculation__col-loader {
             display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .saving-calculation {
+        &--mobile {
+            display: block;
+        }
+        &--desktop {
+            display: none;
         }
     }
 }

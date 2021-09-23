@@ -35,7 +35,7 @@ $faqs->faq_add (
 <div class="section section--no-padding-bottom">
 	<div class="hero">
 		<div class="hero__image">
-			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" />
+			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" style="width:100%" />
 		</div>
 		<div class="hero__text">
 			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
@@ -474,8 +474,18 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--black mobile-hidden" id="mehrwertrechner">
-	<div class="section__content section__content--wide">
+<div class="section section--black" id="mehrwertrechner">
+	<div class="section__content section__content--narrow saving-calculation--mobile">
+		<h1>Lust, Ihr Einsparpotenzial durch CallOne direkt zu berechnen?</h1>
+		
+		<div class="content-box content-box--white">
+			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt=""></p>
+			<h2>Lassen Sie uns dazu zum Desktop-Browser wechseln!</h2>
+			<p>Wenn Sie uns Ihre ungefähre <strong>Anzahl an Anrufen pro Monat</strong> sowie die <strong>Menge Ihrer Agenten</strong> nennen, rechnen wir Ihnen gerne detailiert vor wir Ihnen durch Effizienzsteigerungen und Einsparpotenziale bares Geld schenken. Um Ihnen das vorzurechnen brauchen wir etwas mehr Platz als dieses Gerät bietet.</p>
+		</div>
+	</div>
+
+	<div class="section__content section__content--wide saving-calculation--desktop">
 		<h1 class="centered">
 			Lust Ihr Einsparpotenzial <br />
 			direkt hier zu berechnen?
@@ -541,7 +551,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 	
-	<div class="section__content section__content--wide" id="mehrwertrechner-result">
+	<div class="section__content section__content--wide saving-calculation--desktop" id="mehrwertrechner-result">
 		<div class="saving-calculation">
 			<div class="atomic-loader atomic-loader--hidden">
 				<div class="atomic-loader__circle"></div>
@@ -593,7 +603,7 @@ $faqs->faq_add (
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="einspareffekt-anruf">?s</strong><br />
-										<em>Angenommener<br />Einspareffekt je<br/>Anruf</em>
+										<em>Angenommener<br />Einspareffekt</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
@@ -807,12 +817,10 @@ $faqs->faq_add (
 								</div>
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<strong class="nummer-agenten">????</strong><br />
-										<em>Agent*innen</em>
+										<strong>= <span class="kosten-agent">?€</span></strong><br />
 									</div>
 									<div class="saving-calculation__entry">
-										<strong>= <span class="kosten-agent">?€</span></strong><br />
-										<em>Personalkosten/jährlich</em>
+										<em>Personalkosten<br />/jährlich</em>
 									</div>
 								</div>
 								<div class="saving-calculation__row">
@@ -904,7 +912,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+			<div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md">
 				<div class="carddeck carddeck--right" data-speed="2500">
 					<div class="carddeck__card">
 						<h2 class="icon-roi-indicator">Erreichbare Steigerung</h2>
@@ -957,9 +965,147 @@ $faqs->faq_add (
 	<div class="section__content">
 		<h1 class="centered">Noch nicht überzeugt?</h1>
 
-		<p class="centered">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.</p>
+		<p class="centered mobile-hidden">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.</p>
 
-		<div class="co-grid">
+		<div class="tablist tablist--on-black desktop-hidden">
+			<div class="tablist__links">
+				<div class="tablist__link tablist__link--active" data-tab="1">
+					<strong>Flexibel telefonieren</strong><br />
+					Erfahren Sie mehr zu unseren <br />unterstützten Telefonie-Optionen​
+				</div>
+				<div class="tablist__link" data-tab="2">
+					<strong>Integrationsmöglichkeiten</strong><br />
+					Optionen für Anbindung Ihrer <br />genutzten Businesslösungen​
+				</div>
+				<div class="tablist__link" data-tab="3">
+					<strong>Zusammenarbeit</strong><br />
+					Unsere Kommunikationsplattform mit <br />Expertenunterstützung​
+				</div>
+				<div class="tablist__link" data-tab="4">
+					<strong>Sicherheit</strong><br />
+					Wie kommen <br />99,999% Erreichbarkeit zustande?
+				</div>
+			</div>
+
+			<div class="tablist__content tablist__content--active" data-tab="1">
+				<div class="co-grid cards">
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" />
+							</div>
+							<h3 class="centered">Softphone im Browser/Desktop​</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/sip-telephone-white.svg" alt="" />
+							</div>
+							<h3 class="centered">SIP Tischtelefon</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" />
+							</div>
+							<h3 class="centered">Agentenmaske im Browser​ und viele weitere</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tablist__content" data-tab="2">
+				<div class="co-grid cards">
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/client-logos/beispiel-apps-1.svg" alt="" />
+							</div>
+							<h3 class="centered">Ticketing-Systeme​</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/client-logos/beispiel-apps-2.svg" alt="" />
+							</div>
+							<h3 class="centered">Business Intelligence-Tools</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/menu-apis-white.svg" alt="" />
+							</div>
+							<h3 class="centered">Eigene Systeme verbinden</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tablist__content" data-tab="3">
+				<div class="co-grid cards">
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/menu-callcenter-bot-white.svg" alt="" />
+							</div>
+							<h3 class="centered">Zukunftssichere <br />Technologie</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/first-call-white.svg" alt="" />
+							</div>
+							<h3 class="centered">Expertenberatung</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs">
+						<div class="co-video">
+							<div class="co-video__poster">
+								<img src="/assets/images/photos/video-preview.png" alt="" />
+							</div>
+							<a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tablist__content" data-tab="4">
+				<div class="co-grid cards">
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+							</div>
+							<h3 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+							</div>
+							<h3 class="centered">Telefonie mit deutschem Datenschutz-Standard</h3>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+						<div class="cards__card--dark-top">
+							<div class="cards__card-image">
+								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+							</div>
+							<h3 class="centered">Garantierte 99,999% Erreichbarkeit</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<p class="desktop-hidden">
+			<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+		</p>
+
+		<div class="co-grid mobile-hidden">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
 				<div class="radio-select">
 					<div class="radio-select__item">
@@ -1007,7 +1153,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--wide" data-thema="1">
+	<div class="section__content section__content--wide mobile-hidden" data-thema="1">
 		<hr class="bracket-spacer" />
 		
 		<h1 class="centered">Unsere Vielfalt an Telefonie-Clients</h1>
@@ -1065,10 +1211,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/softphone-view.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<p>Für Unternehmen, die eine optimale Einbindung der Telefonie in Ihre Unternehmenssoftware wünschen.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1091,10 +1237,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="3">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/microsoft-teams.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<p>Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1117,10 +1263,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="4">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/sip-tischtelefon.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<p>Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1143,10 +1289,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="5">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/phone-client.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<p>Ob für Notfälle oder dauerhaft. Die Einbindung von Mobilfunkgeräten ist auf vielfältige Weise mit CallOne möglich.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
