@@ -31,18 +31,20 @@
                 display: inline-block;
                 margin-bottom: 30px;
             }
-            h2 {
+            h2, h3, .radio-select__headline {
                 font-family: $font-headline;
                 font-weight: normal;
                 font-size: 24px;
                 line-height: 29px;
                 margin-bottom: 4px;
+                display: block;
             }
-            p {
+            p, .radio-select__text {
                 font-family: $font-copy;
                 font-size: 18px;
                 line-height: 1.6;
                 margin: 0;
+                display: block;
             }
         }
         input {

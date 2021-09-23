@@ -44,6 +44,27 @@
         opacity: 1;
     }
 
+    &__indicators {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &__indicator {
+        border-radius: 50%;
+        width: 6px;
+        height: 6px;
+        background-color: #c4c4c4;
+        &+.tablist__indicator {
+            margin-left: 6px;
+        }
+    }
+    &__indicator--active {
+        width: 10px;
+        height: 10px;
+        background-color: $color-primary;
+    }
+
     &__arrow {
         position: absolute;
         display: none;
@@ -140,6 +161,9 @@
         &__link--active {
             display: block;
         }
+        &__indicators {
+            display: flex;
+        }
         &__arrow {
             display: block;
         }
@@ -147,6 +171,10 @@
             .tablist__links {
                 border-color: rgba(#fff, .2);
             }
+        }
+        &__content--red-footer, &__content--yellow-footer, &__content--purple-footer, &__content--blue-footer {
+            background: none;
+            margin-bottom: 0;
         }
     }
 }

@@ -38,16 +38,21 @@ $faqs->faq_add (
 			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" style="width:100%" />
 		</div>
 		<div class="hero__text">
-			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
-			<p>Eine intuitiv bedienbare cloudbasiertes Telefonsystem für mehr Effizienz</p>
-			<p>
+			<h1 class="mobile-hidden">Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
+			<p class="mobile-hidden">Eine intuitiv bedienbare cloudbasiertes Telefonsystem für mehr Effizienz</p>
+			<p class="mobile-hidden">
 				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+			</p>
+
+			<h1 class="desktop-hidden">Ihr Kundenservice mit unserer Callcenter-Software</h1>
+			<p class="desktop-hidden">
+				<a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>
 		</div>
 	</div>
 </div>
 
-<div class="section section--white-grey-white section--same-padding">
+<div class="section section--white-grey-white section--same-padding mobile-hidden">
 	<div class="anchors">
 		<div class="anchors__title">
 			<strong>Schnelleinstieg:</strong> Was interessiert dich?
@@ -62,8 +67,11 @@ $faqs->faq_add (
 
 <div class="section">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
-		<p class="centered">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+		<h1 class="centered mobile-hidden">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
+		<p class="centered mobile-hidden">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+
+		<h1 class="desktop-hidden">Angepasst an Ihre individuellen Bedürfnisse</h1>
+		<p class="desktop-hidden">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice oder Inside-Sales mit Ihren bestehenden Bsuinesslösungen.</p>
 	</div>
 
 	<div class="section__content section__content--wide">
@@ -129,8 +137,8 @@ $faqs->faq_add (
 
 <div class="section" id="features">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered">Über 200 Features - aber die Magie steckt im Detail</h1>
-		<p class="centered">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
+		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
+		<p class="centered mobile-left">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
 	</div>
 
 	<div class="section__content section__content--wide section__content--border-bottom">
@@ -155,8 +163,8 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer tablist__content--active" data-tab="1">
-				<h2 class="centered icon-connectors">Schnittstellenanbindung</h2>
-				<p class="centered">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
+				<h2 class="centered icon-connectors mobile-hidden">Schnittstellenanbindung</h2>
+				<p class="centered mobile-hidden">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
@@ -192,7 +200,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-11">
 							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
@@ -224,7 +232,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<p class="centered" style="margin-top: 150px;">
+				<p class="centered mobile-hidden" style="margin-top: 150px;">
 					Wir haben noch mehr<br />
 					<strong>Informationen zu Konnektivität:</strong>
 				</p>
@@ -235,8 +243,8 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
-				<h2 class="centered icon-automation">Automatisierung und KI</h2>
-				<p class="centered">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
+				<h2 class="centered icon-automation mobile-hidden">Automatisierung und KI</h2>
+				<p class="centered mobile-hidden">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
@@ -265,7 +273,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-21">
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
@@ -290,7 +298,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<p class="centered" style="margin-top: 150px;">
+				<p class="centered mobile-hidden" style="margin-top: 150px;">
 					Wir haben noch mehr<br />
 					<strong>Informationen zu Effizienz:</strong>
 				</p>
@@ -301,8 +309,8 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
-				<h2 class="centered icon-queue">Warteschleifenmanagement</h2>
-				<p class="centered">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
+				<h2 class="centered icon-queue mobile-hidden">Warteschleifenmanagement</h2>
+				<p class="centered mobile-hidden">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
@@ -338,7 +346,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-31">
 							<label for="faq-31">Intelligente Routingfunktionen</label>
@@ -370,7 +378,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<p class="centered" style="margin-top: 150px;">
+				<p class="centered mobile-hidden" style="margin-top: 150px;">
 					Wir haben noch mehr<br />
 					<strong>Informationen zu Kundenzufriedenheit:</strong>
 				</p>
@@ -381,8 +389,8 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
-				<h2 class="centered icon-statistics">Statistik & Datenanalyse</h2>
-				<p class="centered">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten.</p>
+				<h2 class="centered icon-statistics mobile-hidden">Statistik & Datenanalyse</h2>
+				<p class="centered mobile-hidden">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten.</p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
@@ -418,7 +426,7 @@ $faqs->faq_add (
 
 						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-41">
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
@@ -450,7 +458,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<p class="centered" style="margin-top: 150px;">
+				<p class="centered mobile-hidden" style="margin-top: 150px;">
 					Wir haben noch mehr<br />
 					<strong>Informationen zu Datenauswertung:</strong>
 				</p>
@@ -462,7 +470,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--narrow">
+	<div class="section__content section__content--narrow mobile-hidden">
 		<p class="centered">
 			<strong>Bei den Funktionen noch nicht fündig geworden?</strong><br />
 			Hier gibt es weitere Features und Funktionen​:
@@ -888,9 +896,10 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white" id="referenzen">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered">Das glauben Sie uns nicht?</h1>
+		<h1 class="centered mobile-left">Das glauben Sie uns nicht?</h1>
 		
-		<p class="centered">Dann schauen Sie sich jetzt an, was unsere Kunden schon <br /><strong>mit der CallOne Callcenter-Software erreichen konnten.</strong></p>
+		<p class="centered mobile-hidden">Dann schauen Sie sich jetzt an, was unsere Kunden schon <br /><strong>mit der CallOne Callcenter-Software erreichen konnten.</strong></p>
+		<p class="desktop-hidden">Folgende Kunden konnten mit unserer Callcenter-Software Ihren ROI steigern!</p>
 	</div>	
 
 	<div class="section__content section__content--wide">
@@ -936,9 +945,9 @@ $faqs->faq_add (
 	</div>
 
 	<div class="section__content section__content--narrow">
-		<h1 class="centered">Das hat Sie neugierig gemacht?</h1>
+		<h1 class="centered mobile-left">Das hat Sie neugierig gemacht?</h1>
 		
-		<p class="centered">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</p>
+		<p class="centered mobile-hidden">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</p>
 	</div>
 
 	<div class="section__content section__content--wide">
@@ -1111,8 +1120,8 @@ $faqs->faq_add (
 					<div class="radio-select__item">
 						<input type="radio" id="button1" name="themen" value="1" checked="checked">
 						<label for="button1">
-							<h3>Flexibel telefonieren</h3>
-							<p>Erfahren Sie mehr zu unseren <br />unterstützten Telefonie-Optionen</p>
+							<span class="radio-select__headline">Flexibel telefonieren</span>
+							<span class="radio-select__text">Erfahren Sie mehr zu unseren <br />unterstützten Telefonie-Optionen</span>
 						</label>
 					</div>
 				</div>
@@ -1122,8 +1131,8 @@ $faqs->faq_add (
 					<div class="radio-select__item">
 						<input type="radio" id="button2" name="themen" value="2">
 						<label for="button2">
-							<h3>Integrations&shy;möglichkeiten</h3>
-							<p>Optionen für Anbindung Ihrer <br />genutzten Businesslösungen</p>
+							<span class="radio-select__headline">Integrations&shy;möglichkeiten</span>
+							<span class="radio-select__text">Optionen für Anbindung Ihrer <br />genutzten Businesslösungen</span>
 						</label>
 					</div>
 				</div>
@@ -1133,8 +1142,8 @@ $faqs->faq_add (
 					<div class="radio-select__item">
 						<input type="radio" id="button3" name="themen" value="3">
 						<label for="button3">
-							<h3>Zusammenarbeit</h3>
-							<p>Unsere Kommunikationsplattform mit <br />Expertenunterstützung</p>
+							<span class="radio-select__headline">Zusammenarbeit</span>
+							<span class="radio-select__text">Unsere Kommunikationsplattform mit <br />Expertenunterstützung</span>
 						</label>
 					</div>
 				</div>
@@ -1144,8 +1153,8 @@ $faqs->faq_add (
 					<div class="radio-select__item">
 						<input type="radio" id="button4" name="themen" value="4">
 						<label for="button4">
-							<h3>Sicherheit</h3>
-							<p>Wie kommen <br />99,999% Erreichbarkeit zustande?</p>
+							<span class="radio-select__headline">Sicherheit</span>
+							<span class="radio-select__text">Wie kommen <br />99,999% Erreichbarkeit zustande?</span>
 						</label>
 					</div>
 				</div>
@@ -1324,23 +1333,23 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--1-xs"></div>
 			<div class="co-grid__col co-grid__col--3-xs">
 				<div class="carddeck carddeck--no-indicators centered">
-					<div class="carddeck__card">
-						<img src="/assets/images/client-logos/HubSpot.svg" alt="" />
+					<div class="carddeck__card carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/HubSpot.svg" alt="" style="max-width:96px;" />
 					</div>
-					<div class="carddeck__card">
-						<img src="/assets/images/client-logos/logo-de.svg" alt="" />
+					<div class="carddeck__card carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/logo-de.svg" alt="" style="max-width:96px;" />
 					</div>
-					<div class="carddeck__card">
-						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" />
+					<div class="carddeck__card carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" style="max-width:96px;" />
 					</div>
-					<div class="carddeck__card">
-						<img src="/assets/images/client-logos/HubSpot.svg" alt="" />
+					<div class="carddeck__card carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/HubSpot.svg" alt="" style="max-width:96px;" />
 					</div>
-					<div class="carddeck__card">
-						<img src="/assets/images/client-logos/logo-de.svg" alt="" />
+					<div class="carddeck__card carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/logo-de.svg" alt="" style="max-width:96px;" />
 					</div>
-					<div class="carddeck__card">
-						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" />
+					<div class="carddeck__card carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" style="max-width:96px;" />
 					</div>
 				</div>
 			</div>
