@@ -31,6 +31,9 @@ html, body {
 	font-weight: 400;
 	font-size: $font-size-s;
 	line-height: 1.5;
+	@media screen and (max-width: 770px) {
+		font-size: $font-size-xs;
+	}
 }
 
 a {
@@ -759,6 +762,10 @@ img {
 	}
 	.mobile-left {
 		text-align: left !important;
+		img, .btn--centered {
+			margin-left: initial !important;
+			margin-right: initial !important;
+		}
 	}
 	img {
 		&.img-25, &.img-50, &.img-75, &.img-100 {

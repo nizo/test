@@ -63,8 +63,8 @@
     &__card--vcentered {
         justify-content: center;
     }
-    &__card--content-centered {
-        // align-items: center;
+    &__card--small-padding {
+        padding: 15px;
     }
     &__card--messured {
         position: absolute;

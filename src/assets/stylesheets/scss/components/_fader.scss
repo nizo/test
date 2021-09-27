@@ -66,3 +66,15 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .fader {
+        &__title {
+            text-align: left;
+        }
+        &__indicators {
+            left: auto;
+            right: 0;
+        }
+    }
+}

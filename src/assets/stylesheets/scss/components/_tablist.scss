@@ -184,6 +184,9 @@
                 border-color: rgba(#fff, .2);
             }
         }
+        &__content--border-bottom {
+            border: 0;
+        }
         &__content--red-footer, &__content--yellow-footer, &__content--purple-footer, &__content--blue-footer {
             background: none;
             margin-bottom: 0;

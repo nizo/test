@@ -32,7 +32,7 @@ $faqs->faq_add (
 );
 ?>
 
-<div class="section section--no-padding-bottom">
+<div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
 		<div class="hero__image">
 			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" style="width:100%" />
@@ -68,7 +68,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section">
+<div class="section section--mobile-divider">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-hidden">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
 		<p class="centered mobile-hidden">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
@@ -95,8 +95,8 @@ $faqs->faq_add (
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" style="margin:0" />
-						<h2>Lösungen für Ihr <br />gesamtes Unternehmen</h2>
+						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" style="margin:0" class="mobile-hidden" />
+						<h2 class="mobile-hidden">Lösungen für Ihr <br />gesamtes Unternehmen</h2>
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
@@ -125,8 +125,8 @@ $faqs->faq_add (
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" style="margin:0" />
-						<h2>Lösungen für Ihr Callcenter</h2>
+						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" style="margin:0" class="mobile-hidden" />
+						<h2 class="mobile-hidden">Lösungen für Ihr Callcenter</h2>
 						<p>CallOne ist Spezialist wenn es um das Thema Call Center Software geht. Wir liefern diesen Baustein unserer VoIP-Telefonanlage wahlweise integriert in Ihre</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -138,7 +138,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section" id="features">
+<div class="section section--grey-white" id="features">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
 		<p class="centered mobile-left">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
@@ -204,28 +204,28 @@ $faqs->faq_add (
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-11">
 							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-12">
 							<label for="faq-12">Anruferinformationen wenn es klingelt</label>
 							<div class="toggle-box__content">
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-14">
 							<label for="faq-14">Wählen ohne Tippen</label>
 							<div class="toggle-box__content">
@@ -236,7 +236,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div style="height:200px;"><!-- Debug --></div>
+				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
 				<!-- <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
@@ -280,21 +280,21 @@ $faqs->faq_add (
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-21">
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-22">
 							<label for="faq-22">Intelligentes Sprachrouting</label>
 							<div class="toggle-box__content">
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-23">
 							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
 							<div class="toggle-box__content">
@@ -305,7 +305,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div style="height:200px;"><!-- Debug --></div>
+				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
 				<!-- <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
@@ -356,28 +356,28 @@ $faqs->faq_add (
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-31">
 							<label for="faq-31">Intelligente Routingfunktionen</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-32">
 							<label for="faq-32">Virtuelle Warteschleife & Co.</label>
 							<div class="toggle-box__content">
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-33">
 							<label for="faq-33">Wahlwiederholerpriorisierung</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-34">
 							<label for="faq-34">Rückrufe für optimale Auslastung</label>
 							<div class="toggle-box__content">
@@ -388,7 +388,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div style="height:200px;"><!-- Debug --></div>
+				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
 				<!-- <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
@@ -439,28 +439,28 @@ $faqs->faq_add (
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-41">
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-42">
 							<label for="faq-42">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-43">
 							<label for="faq-43">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
-						<div class="toggle-box toggle-box--checklist">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-44">
 							<label for="faq-44">Zielerreichung mittels wichtiger Kennzahlen</label>
 							<div class="toggle-box__content">
@@ -471,7 +471,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div style="height:200px;"><!-- Debug --></div>
+				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
 				<!-- <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
@@ -933,8 +933,8 @@ $faqs->faq_add (
 						<img src="/assets/images/client-logos/Logos-mittelstand.svg" alt="" />
 					</div>
 					<div class="fader__item" data-title="Ihre Organisation">
-						<h3 class="centered">Unternehmen jeder Größe vertrauen auf CallOne</h3>
-						<p class="centered">Lassen Sie uns gemeinsam über Potentiale für Ihren Kundenservice sprechen.</p>
+						<h4 class="centered">Unternehmen jeder Größe vertrauen auf CallOne</h4>
+						<p class="centered">Lassen Sie uns gemeinsam über Potentiale für <br />Ihren Kundenservice sprechen.</p>
 					</div>
 				</div>
 			</div>
@@ -970,15 +970,15 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
-				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-left">
 					<img src="/assets/images/icons_svg/callback-black.svg" alt="" />
-					<h3>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h3>
+					<h4>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h4>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
 				<div class="co-grid__col co-grid__col--6-md co-grid__col--hidden-md">
 					<img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
-					<h3>Senden Sie uns <br />eine Nachricht</h3>
+					<h4>Senden Sie uns <br />eine Nachricht</h4>
 					<p>Kontaktformular nutzen</p>
 					<p><a href="/kontakt" class="btn btn--secondary btn--centered">Kontakt aufnehmen</a></p>
 				</div>
@@ -1020,7 +1020,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" />
 							</div>
-							<h3 class="centered">Softphone im Browser/Desktop​</h3>
+							<h4 class="centered">Softphone im Browser/Desktop​</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1028,7 +1028,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/sip-telephone-white.svg" alt="" />
 							</div>
-							<h3 class="centered">SIP Tischtelefon</h3>
+							<h4 class="centered">SIP Tischtelefon</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1036,7 +1036,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" />
 							</div>
-							<h3 class="centered">Agentenmaske im Browser​ und viele weitere</h3>
+							<h4 class="centered">Agentenmaske im Browser​ und viele weitere</h4>
 						</div>
 					</div>
 				</div>
@@ -1048,7 +1048,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/client-logos/beispiel-apps-1.svg" alt="" />
 							</div>
-							<h3 class="centered">Ticketing-Systeme​</h3>
+							<h4 class="centered">Ticketing-Systeme​</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1056,7 +1056,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/client-logos/beispiel-apps-2.svg" alt="" />
 							</div>
-							<h3 class="centered">Business Intelligence-Tools</h3>
+							<h4 class="centered">Business Intelligence-Tools</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1064,7 +1064,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/menu-apis-white.svg" alt="" />
 							</div>
-							<h3 class="centered">Eigene Systeme verbinden</h3>
+							<h4 class="centered">Eigene Systeme verbinden</h4>
 						</div>
 					</div>
 				</div>
@@ -1076,7 +1076,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/menu-callcenter-bot-white.svg" alt="" />
 							</div>
-							<h3 class="centered">Zukunftssichere <br />Technologie</h3>
+							<h4 class="centered">Zukunftssichere <br />Technologie</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1084,7 +1084,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/first-call-white.svg" alt="" />
 							</div>
-							<h3 class="centered">Expertenberatung</h3>
+							<h4 class="centered">Expertenberatung</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs">
@@ -1104,7 +1104,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
 							</div>
-							<h3 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h3>
+							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1112,7 +1112,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
 							</div>
-							<h3 class="centered">Telefonie mit deutschem Datenschutz-Standard</h3>
+							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1120,7 +1120,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
 							</div>
-							<h3 class="centered">Garantierte 99,999% Erreichbarkeit</h3>
+							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
 					</div>
 				</div>
@@ -1215,20 +1215,20 @@ $faqs->faq_add (
 						<img src="/assets/images/photos/agent-view-desktop.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<p>Eine webbasierte Oberfläche speziell konzipiert für höchste Ansprüche Ihre Agenten im Kundenservice und Sales.</p>
+						<p class="bigtext">Eine webbasierte Oberfläche speziell konzipiert für höchste Ansprüche Ihre Agenten im Kundenservice und Sales.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
 							<li>
-								<strong>Integriertes Softphone im Browser</strong><br />
-								Keine Installation notwendig. Headset anschließen und lostelefonieren.
+								Integriertes Softphone im Browser<br />
+								<span class="subtext">Keine Installation notwendig. Headset anschließen und lostelefonieren.</span>
 							</li>
 							<li>
-								<strong>Zugeschnitten auf Ihre Bedürfnisse</strong><br />
-								Frei konfigurierbar mit Einbindung ihrer Daten (Iframe oder Link), Anrufgründe und smarten Weiterleitungsfunktionen.
+								Zugeschnitten auf Ihre Bedürfnisse<br />
+								<span class="subtext">Frei konfigurierbar mit Einbindung ihrer Daten (Iframe oder Link), Anrufgründe und smarten Weiterleitungsfunktionen.</span>
 							</li>
 							<li>
-								<strong>Bereitstellung sofort</strong><br />
-								Agenten und Agentinnen erhalten Ihre Zugangsdaten und können mit diesem intuitiven Client sofort lostelefonieren.
+								Bereitstellung sofort<br />
+								<span class="subtext">Agenten und Agentinnen erhalten Ihre Zugangsdaten und können mit diesem intuitiven Client sofort lostelefonieren.</span>
 							</li>
 						</ul>
 					</div>
@@ -1241,20 +1241,20 @@ $faqs->faq_add (
 						<img src="/assets/images/photos/softphone-view.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<p>Für Unternehmen, die eine optimale Einbindung der Telefonie in Ihre Unternehmenssoftware wünschen.</p>
+						<p class="bigtext">Für Unternehmen, die eine optimale Einbindung der Telefonie in Ihre Unternehmenssoftware wünschen.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
 							<li>
-								<strong>Browser Extension mit Click-to-Dial</strong><br />
-								Softclient für alle gängigen Browser integriert als Extension, heißt Telefonieren auch wenn kein Tab geöffnet ist.
+								Browser Extension mit Click-to-Dial<br />
+								<span class="subtext">Softclient für alle gängigen Browser integriert als Extension, heißt Telefonieren auch wenn kein Tab geöffnet ist.</span>
 							</li>
 							<li>
-								<strong>Softphone mit Autokonfiguration</strong><br />
-								Alternativ bieten wir kostenfreie Softphone vorkonfiguriert für Ihre Mitarbeiter.
+								Softphone mit Autokonfiguration<br />
+								<span class="subtext">Alternativ bieten wir kostenfreie Softphone vorkonfiguriert für Ihre Mitarbeiter.</span>
 							</li>
 							<li>
-								<strong>Javascript-Bibliothek vollständig eingebunden</strong><br />
-								Möglichkeit in Ihrer eigenen Businesslösung über CallOne zu telefonieren.
+								Javascript-Bibliothek vollständig eingebunden<br />
+								<span class="subtext">Möglichkeit in Ihrer eigenen Businesslösung über CallOne zu telefonieren.</span>
 							</li>
 						</ul>
 					</div>
@@ -1267,20 +1267,20 @@ $faqs->faq_add (
 						<img src="/assets/images/photos/microsoft-teams.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<p>Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
+						<p class="bigtext">Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
 							<li>
-								<strong>Optimale Einbindung Ihres gesamten Unternehmens</strong><br />
-								Nutzen Sie die Vorteile von Teams und lösen Sie Kundenfälle auch abteilungsübergreifend mit den Weiterleitungsmöglichkeiten, die Teams ihnen bietet.
+								Optimale Einbindung Ihres gesamten Unternehmens<br />
+								<span class="subtext">Nutzen Sie die Vorteile von Teams und lösen Sie Kundenfälle auch abteilungsübergreifend mit den Weiterleitungsmöglichkeiten, die Teams ihnen bietet.</span>
 							</li>
 							<li>
-								<strong>Kombinierbar mit unserer Agentenmaske</strong><br />
-								Eine perfekte Mischung für Unternehmen, die auf Teams setzen, weitreichende Agentenfunktionen nicht missen wollen.
+								Kombinierbar mit unserer Agentenmaske<br />
+								<span class="subtext">Eine perfekte Mischung für Unternehmen, die auf Teams setzen, weitreichende Agentenfunktionen nicht missen wollen.</span>
 							</li>
 							<li>
-								<strong>Alles in einem Tool</strong><br />
-								Nutzen Sie Teams auch für ausgehende Telefonate und mobil. Die Möglichkeiten sind grenzenlos und erlauben auch einen hybriden Mischbetrieb.
+								Alles in einem Tool<br />
+								<span class="subtext">Nutzen Sie Teams auch für ausgehende Telefonate und mobil. Die Möglichkeiten sind grenzenlos und erlauben auch einen hybriden Mischbetrieb.</span>
 							</li>
 						</ul>
 					</div>
@@ -1293,20 +1293,20 @@ $faqs->faq_add (
 						<img src="/assets/images/photos/sip-tischtelefon.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<p>Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
+						<p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
 							<li>
-								<strong>Optimales Zusammenspiel mit der ACD</strong><br />
-								Agenten an- und abmelden. Gespräche aus der Warteschleife ziehen oder freie Sitzplatzwahl.
+								Optimales Zusammenspiel mit der ACD<br />
+								<span class="subtext">Agenten an- und abmelden. Gespräche aus der Warteschleife ziehen oder freie Sitzplatzwahl.</span>
 							</li>
 							<li>
-								<strong>Neue Updates auf Knopfdruck</strong><br />
-								Spielen Sie neue Firmware über CallOne ein oder hinterlegen sie Kurzwahltasten im Handumdrehen – einfacher geht’s nicht.
+								Neue Updates auf Knopfdruck<br />
+								<span class="subtext">Spielen Sie neue Firmware über CallOne ein oder hinterlegen sie Kurzwahltasten im Handumdrehen – einfacher geht’s nicht.</span>
 							</li>
 							<li>
-								<strong>Verschlüsslung auf Spitzenniveau</strong><br />
-								Verschlüsseln Sie die Endgeräte mittels VPN und sichern Sie Gesprächsinhalte und Übertragung mittels SRTP und TLS.
+								Verschlüsslung auf Spitzenniveau<br />
+								<span class="subtext">Verschlüsseln Sie die Endgeräte mittels VPN und sichern Sie Gesprächsinhalte und Übertragung mittels SRTP und TLS.</span>
 							</li>
 						</ul>
 					</div>
@@ -1319,20 +1319,20 @@ $faqs->faq_add (
 						<img src="/assets/images/photos/phone-client.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<p>Ob für Notfälle oder dauerhaft. Die Einbindung von Mobilfunkgeräten ist auf vielfältige Weise mit CallOne möglich.</p>
+						<p class="bigtext">Ob für Notfälle oder dauerhaft. Die Einbindung von Mobilfunkgeräten ist auf vielfältige Weise mit CallOne möglich.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
 							<li>
-								<strong>Viele mobile Möglichkeiten</strong><br />
-								Ob direkt als hinterlegtes SIP-Konto im Betriebssystem oder mittels mobiler App oder als sog. PSTN-Weiterleitung aufs Handy.
+								Viele mobile Möglichkeiten<br />
+								<span class="subtext">Ob direkt als hinterlegtes SIP-Konto im Betriebssystem oder mittels mobiler App oder als sog. PSTN-Weiterleitung aufs Handy.</span>
 							</li>
 							<li>
-								<strong>Rausrufen mit der Officenummer</strong><br />
-								Auch mit dem Handy über die Büronummer telefonieren.
+								Rausrufen mit der Officenummer<br />
+								<span class="subtext">Auch mit dem Handy über die Büronummer telefonieren.</span>
 							</li>
 							<li>
-								<strong>Auch ohne mobiles Netz nutzbar</strong><br />
-								Sie können bequem über WLAN über die Datenleitung telefonieren auch wenn einmal kein Handyempfang vorhanden sein sollte.
+								Auch ohne mobiles Netz nutzbar<br />
+								<span class="subtext">Sie können bequem über WLAN über die Datenleitung telefonieren auch wenn einmal kein Handyempfang vorhanden sein sollte.</span>
 							</li>
 						</ul>
 					</div>
@@ -1350,23 +1350,23 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--1-xs"></div>
 			<div class="co-grid__col co-grid__col--3-xs">
 				<div class="carddeck carddeck--no-indicators centered">
-					<div class="carddeck__card carddeck__card--vcentered">
-						<img src="/assets/images/client-logos/HubSpot.svg" alt="" style="max-width:96px;" />
+				<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" />
 					</div>
-					<div class="carddeck__card carddeck__card--vcentered">
-						<img src="/assets/images/client-logos/logo-de.svg" alt="" style="max-width:96px;" />
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/GastroHero-Card.svg" alt="" />
 					</div>
-					<div class="carddeck__card carddeck__card--vcentered">
-						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" style="max-width:96px;" />
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Flaconi-Card.svg" alt="" />
 					</div>
-					<div class="carddeck__card carddeck__card--vcentered">
-						<img src="/assets/images/client-logos/HubSpot.svg" alt="" style="max-width:96px;" />
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" />
 					</div>
-					<div class="carddeck__card carddeck__card--vcentered">
-						<img src="/assets/images/client-logos/logo-de.svg" alt="" style="max-width:96px;" />
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/GastroHero-Card.svg" alt="" />
 					</div>
-					<div class="carddeck__card carddeck__card--vcentered">
-						<img src="/assets/images/client-logos/flaconi-seeklogo.com.svg" alt="" style="max-width:96px;" />
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Flaconi-Card.svg" alt="" />
 					</div>
 				</div>
 			</div>
@@ -1375,7 +1375,7 @@ $faqs->faq_add (
 			</div>
 			<div class="co-grid__col co-grid__col--3-xs co-grid__col--vcentered">
 				<div class="content-box content-box--white centered">
-					<img src="/assets/images/icons_svg/api-integration.svg" alt="" />
+					<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="" style="display:inline-block" />
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--1-xs"></div>
@@ -1401,14 +1401,14 @@ $faqs->faq_add (
 		
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--4-xs right">
-				<h3>Technologie „Made in Germany“</h3>
+				<h4>Technologie „Made in Germany“</h4>
 				<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
 			</div>
 			<div class="co-grid__col co-grid__col--4-xs centered">
 				<img src="/assets/images/icons_png/overlap.png" alt="" />
 			</div>
 			<div class="co-grid__col co-grid__col--4-xs left">
-				<h3>Expertenberatung</h3>
+				<h4>Expertenberatung</h4>
 				<p>Bei uns arbeiten Projektmanager*innen und Kunden Hand in Hand – tagtäglich! Sie erhalten einen zentralen Ansprechpartner. Dies schafft nicht nur unglaubliche Geschwindigkeit im Projekt sondern auch messbare Erfolge in Ihrem ROI.</p>
 			</div>
 		</div>
@@ -1443,7 +1443,7 @@ $faqs->faq_add (
 					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
 					</div>
-					<h3 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h3>
+					<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 				</div>
 				<div class="cards__card--dark-bottom">
 					<p>Kein nerviger Self-Service mehr. Ein CallOne Experte berät Sie persönlich. In kürzester Zeit ist alles eingerichtet, wie sie es brauchen. Und auch schon live.</p>
@@ -1454,7 +1454,7 @@ $faqs->faq_add (
 					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
 					</div>
-					<h3 class="centered">Telefonie mit deutschem Datenschutz-Standard</h3>
+					<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 				</div>
 				<div class="cards__card--dark-bottom">
 					<p>Das Privacy Shield Abkommen braucht Sie nicht mehr zu interessieren. Unsere Telefonie-Lösungen hosten wir ausschließlich in Deutschland.</p>
@@ -1465,7 +1465,7 @@ $faqs->faq_add (
 					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
 					</div>
-					<h3 class="centered">Garantierte 99,999% Erreichbarkeit</h3>
+					<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 				</div>
 				<div class="cards__card--dark-bottom">
 					<p>Mehr als genug Backup-Server, supersicherer DDoS-Schutz und individuelle Redundanzkonzepte machen CallOne-Lösungen extrem stabil und rund um die Uhr erreichbar.</p>
