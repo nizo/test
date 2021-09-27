@@ -263,7 +263,8 @@
             color: #fff;
         }
         &:disabled, &[disabled] {
-            background-color: $color-grey;
+            background-color: $color-primary;
+            color: currentColor;
             cursor: not-allowed;
         }
     }
@@ -271,7 +272,8 @@
         width: 100%;
     }
     &__label--disabled, &__label--disabled:hover {
-        background-color: $color-grey;
+        background-color: $color-primary;
+        color: currentColor;
         cursor: not-allowed;
     }
 

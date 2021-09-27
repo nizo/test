@@ -281,14 +281,22 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate3d(-50%, -40%, 0);
+        transform: translate3d(-50%, -25%, 0);
         width: 100%;
-        padding: 50px;
+        padding: 50px 30px;
         max-width: 770px;
         background: rgba(#000, .5);
         border: 2px solid #FFFFFF;
         border-radius: 10px;
         z-index: 80;
+
+        h3 {
+            font-size: 28px;
+            font-family: $font-headline;
+            font-weight: normal;
+            text-transform: none;
+            letter-spacing: normal;
+        }
     }
 
     &--loading {

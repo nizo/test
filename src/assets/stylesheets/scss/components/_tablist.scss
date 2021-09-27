@@ -7,6 +7,13 @@
         align-items: stretch;
         margin-bottom: 60px;
     }
+    &__links--full-width {
+        .tablist__link {
+            flex: 1;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 
     &__link {
         border-bottom: 2px solid rgba(#000, .5);
@@ -91,9 +98,14 @@
         h2 {
             font-family: $font-headline;
             font-weight: normal;
-            font-size: 28px;
+            font-size: 38px;
             line-height: 1.2;
             margin-top: 20px;
+        }
+        >p {
+            max-width: 770px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     &__content--active {

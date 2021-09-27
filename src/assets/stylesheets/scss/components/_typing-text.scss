@@ -1,0 +1,36 @@
+.typing-text {
+    position: relative;
+    font-family: $font-headline;
+    font-weight: normal;
+    // border-bottom: 2px solid $color-primary;
+    margin-top: 0;
+
+    &:before {
+        content: " "; // Space to keep size of element when textContent is empty during animation
+        display: inline-block;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: .2em;
+        right: calc(-.5em - 2px);
+        width: .5em;
+        height: 2px;
+        background-color: rgba(#000, .8);
+        animation: blink 1s infinite linear;
+    }
+}
+
+@keyframes blink {
+    49% {
+        opacity: 1;
+    }
+    50%, 100% {
+        opacity: 0;
+    }
+}
+
+h2 span.typing-text {
+    font-size: 24px;
+}

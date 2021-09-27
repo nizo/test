@@ -38,8 +38,11 @@ $faqs->faq_add (
 			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" style="width:100%" />
 		</div>
 		<div class="hero__text">
+			<div class="tag mobile-hidden">
+				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> CallOne Cloud ACD &copy;
+			</div>
 			<h1 class="mobile-hidden">Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
-			<p class="mobile-hidden">Eine intuitiv bedienbare cloudbasiertes Telefonsystem für mehr Effizienz</p>
+			<h2 class="mobile-hidden">Eine intuitiv bedienbare cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz,weniger Ausfälle,mehr Transparenz,bessere Planbarkeit" data-colors="#FF002E,#FF7B1B,#DB00C5,#0088EA">mehr Effizienz</span></h2>
 			<p class="mobile-hidden">
 				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>
@@ -99,19 +102,19 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
 						<div class="carddeck carddeck--right" data-speed="2500">
 							<div class="carddeck__card">
-								<h2 class="icon-schnittstellen">Schnittstellen</h2>
+								<h3 class="icon-schnittstellen">Schnittstellen</h3>
 								<p>Fertige Apps oder API für die Anbindung an Ihre BI, Ticketing, CRM und alle anderen System, die mit Ihrer Telefonie sprechen sollten.</p>
 							</div>
 							<div class="carddeck__card">
-								<h2 class="icon-rufnummern">Rufnummern</h2>
+								<h3 class="icon-rufnummern">Rufnummern</h3>
 								<p>Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich​.</p>
 							</div>
 							<div class="carddeck__card">
-								<h2 class="icon-voip-telefonanlage">VoIP-Telefonanlage</h2>
+								<h3 class="icon-voip-telefonanlage">VoIP-Telefonanlage</h3>
 								<p>Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit​.</p>
 							</div>
 							<div class="carddeck__card">
-								<h2 class="icon-phone-ms-teams">Microsoft Teams</h2>
+								<h3 class="icon-phone-ms-teams">Microsoft Teams</h3>
 								<p>Ihre Telefonie in Microsoft Teams integriert.</p>
 							</div>
 						</div>
@@ -143,7 +146,7 @@ $faqs->faq_add (
 
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
-			<div class="tablist__links">
+			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
 					<strong>Smarte Automatisierung</strong><br>
 					Erfahren Sie wie Automatisierung<br />Ihren Geldbeutel schont.
@@ -167,7 +170,7 @@ $faqs->faq_add (
 				<p class="centered mobile-hidden">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
@@ -177,30 +180,30 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="10" data-end="5">5</span>-<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="30" data-end="15" data-suffix="s">15s</span>
+									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
 									<!-- 5-15s -->
 								</div>
-								kürzere Gesprächsdauern (AHT)*
+								kürzere <br />Gesprächsdauern (AHT)*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="0" data-end="50">50</span>-<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="20" data-end="70" data-suffix="%">70%</span>
+									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
 									<!-- 50%-70% -->
 								</div>
 								Erkennung des Anruferanliegens*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="3">3x</span>
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 									<!-- 3x -->
 								</div>
-								schnellerer Anrufaufbau*
+								schnellerer <br />Anrufaufbau*
 							</div>
 						</div>
 
-						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-11">
 							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
@@ -229,17 +232,20 @@ $faqs->faq_add (
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, sequi ea nisi magni inventore ipsa voluptas doloribus modi dignissimos.</p>
 							</div>
 						</div>
+						<p class="subtext">&nbsp;</p>
 					</div>
 				</div>
 
-				<p class="centered mobile-hidden" style="margin-top: 150px;">
-					Wir haben noch mehr<br />
-					<strong>Informationen zu Konnektivität:</strong>
-				</p>
-				<p>
+				<div style="height:200px;"><!-- Debug --></div>
+				<!-- <p class="centered" style="margin-top: 150px;">
+					<span class="mobile-hidden">
+						Wir haben noch mehr<br />
+						<strong>Informationen zu Konnektivität:</strong><br />
+						<br />
+					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p>
+				</p> -->
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
@@ -247,7 +253,7 @@ $faqs->faq_add (
 				<p class="centered mobile-hidden">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
@@ -257,23 +263,23 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="4">4x</span>
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
 									<!-- 4x -->
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-start="0" data-end="94">94%</span>
+									<span class="counting-number" data-start="0" data-end="94">94%</span>
 									<!-- 94% -->
 								</div>
 								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung*
 							</div>
 						</div>
 
-						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-21">
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
@@ -295,17 +301,20 @@ $faqs->faq_add (
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
+						<p class="subtext">&nbsp;</p>
 					</div>
 				</div>
 
-				<p class="centered mobile-hidden" style="margin-top: 150px;">
-					Wir haben noch mehr<br />
-					<strong>Informationen zu Effizienz:</strong>
-				</p>
-				<p>
+				<div style="height:200px;"><!-- Debug --></div>
+				<!-- <p class="centered" style="margin-top: 150px;">
+					<span class="mobile-hidden">
+						Wir haben noch mehr<br />
+						<strong>Informationen zu Effizienz:</strong><br />
+						<br />
+					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p>
+				</p> -->
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
@@ -313,40 +322,40 @@ $faqs->faq_add (
 				<p class="centered mobile-hidden">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
 								</div>
-								bessere Erreichbarkeit*
+								bessere <br />Erreichbarkeit*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="%" data-start="0" data-end="65">65%</span>
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
 									<!-- 65% -->
 								</div>
-								Verkürzung der Wartezeit*
+								Verkürzung <br />der Wartezeit*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="%" data-start="0" data-end="25">25%</span>
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 									<!-- 25% -->
 								</div>
-								geringere Abbruchquote*
+								geringere <br />Abbruchquote*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
-									1,<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="5">5x</span>
+									1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
 									<!-- 1,5x -->
 								</div>
-								gesteigerte Agentenauslastung*
+								gesteigerte <br />Agentenauslastung*
 							</div>
 						</div>
 
-						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-31">
 							<label for="faq-31">Intelligente Routingfunktionen</label>
@@ -375,17 +384,20 @@ $faqs->faq_add (
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
+						<p class="subtext">&nbsp;</p>
 					</div>
 				</div>
 
-				<p class="centered mobile-hidden" style="margin-top: 150px;">
-					Wir haben noch mehr<br />
-					<strong>Informationen zu Kundenzufriedenheit:</strong>
-				</p>
-				<p>
+				<div style="height:200px;"><!-- Debug --></div>
+				<!-- <p class="centered" style="margin-top: 150px;">
+					<span class="mobile-hidden">
+						Wir haben noch mehr<br />
+						<strong>Informationen zu Kundenzufriedenheit:</strong><br />
+						<br />
+					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p>
+				</p> -->
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
@@ -393,7 +405,7 @@ $faqs->faq_add (
 				<p class="centered mobile-hidden">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten.</p>
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
@@ -403,30 +415,30 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="x" data-start="0" data-end="3">3x</span>
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 									<!-- 3x -->
 								</div>
 								schnellere Reaktion dank Echtzeit-Benachrichtigung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="min" data-start="0" data-end="60">60min</span>
+									<span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span>
 									<!-- 60min -->
 								</div>
 								Zeitersparnis täglich mittels Autoreporting*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
-									<span class="<?= isset($_GET['count']) ? 'counting-number':''; ?>" data-suffix="%" data-start="0" data-end="20">20%</span>
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span>
 									<!-- 20% -->
 								</div>
-								gesteigerte Teamleistung*
+								gesteigerte <br />Teamleistung*
 							</div>
 						</div>
 
-						<p class="centered">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
 						<div class="toggle-box toggle-box--checklist">
 							<input type="checkbox" id="faq-41">
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
@@ -455,24 +467,28 @@ $faqs->faq_add (
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
 							</div>
 						</div>
+						<p class="subtext">&nbsp;</p>
 					</div>
 				</div>
 
-				<p class="centered mobile-hidden" style="margin-top: 150px;">
-					Wir haben noch mehr<br />
-					<strong>Informationen zu Datenauswertung:</strong>
-				</p>
-				<p>
+				<div style="height:200px;"><!-- Debug --></div>
+				<!-- <p class="centered" style="margin-top: 150px;">
+					<span class="mobile-hidden">
+						Wir haben noch mehr<br />
+						<strong>Informationen zu Datenauswertung:</strong><br />
+						<br />
+					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p>
+				</p> -->
 			</div>
 		</div>
 	</div>
 
 	<div class="section__content section__content--narrow mobile-hidden">
+		<h4 class="centered">Bei den Funktionen noch nicht fündig geworden?</h4>
+
 		<p class="centered">
-			<strong>Bei den Funktionen noch nicht fündig geworden?</strong><br />
 			Hier gibt es weitere Features und Funktionen​:
 		</p>
 
@@ -520,7 +536,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="calls" placeholder=" " autocomplete="off" />
+								<input type="text" name="calls" placeholder="100" autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -533,7 +549,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="agents" placeholder=" " autocomplete="off" />
+								<input type="text" name="agents" placeholder="10" autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -898,7 +914,8 @@ $faqs->faq_add (
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Das glauben Sie uns nicht?</h1>
 		
-		<p class="centered mobile-hidden">Dann schauen Sie sich jetzt an, was unsere Kunden schon <br /><strong>mit der CallOne Callcenter-Software erreichen konnten.</strong></p>
+		<p class="centered mobile-hidden" style="font-size:28px">Dann schauen Sie sich jetzt an, was unsere Kunden schon</p>
+		<h3 class="centered mobile-hidden">mit der CallOne Callcenter-Software erreichen konnten.</h3>
 		<p class="desktop-hidden">Folgende Kunden konnten mit unserer Callcenter-Software Ihren ROI steigern!</p>
 	</div>	
 
@@ -924,19 +941,19 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md">
 				<div class="carddeck carddeck--right" data-speed="2500">
 					<div class="carddeck__card">
-						<h2 class="icon-roi-indicator">Erreichbare Steigerung</h2>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
 					</div>
 					<div class="carddeck__card">
-						<h2>Lorem, ipsum dolor. 2</h2>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
 					</div>
 					<div class="carddeck__card">
-						<h2>Lorem, ipsum dolor. 3</h2>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
 					</div>
 					<div class="carddeck__card">
-						<h2>Lorem, ipsum dolor. 4</h2>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
 					</div>
 				</div>
@@ -944,7 +961,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--narrow">
+	<div class="section__content section__content--narrow" style="margin-top: 100px">
 		<h1 class="centered mobile-left">Das hat Sie neugierig gemacht?</h1>
 		
 		<p class="centered mobile-hidden">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</p>
@@ -1165,11 +1182,11 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide mobile-hidden" data-thema="1">
 		<hr class="bracket-spacer" />
 		
-		<h1 class="centered">Unsere Vielfalt an Telefonie-Clients</h1>
+		<h3 class="centered">Unsere Vielfalt an Telefonie-Clients</h3>
 		<p class="centered">Telefonieren mit CallOne heißt aus vielen verschiedenen Möglichkeiten der <br />Telefonie zu schöpfen und so Ihr ideales Setup zu finden.<br /><br /></p>
 
 		<div class="tablist tablist--on-black">
-			<div class="tablist__links">
+			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
 					<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" /><br />
 					<strong>Agentenmaske <br />im Browser</strong>
@@ -1188,16 +1205,16 @@ $faqs->faq_add (
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="5">
 					<img src="/assets/images/icons_svg/mobile-phone-white.svg" alt="" /><br />
-					<strong><br />Handyclient</strong>
+					<strong>Mobiler<br />Handyclient</strong>
 				</div>
 			</div>
 
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/agent-view-desktop.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p>Eine webbasierte Oberfläche speziell konzipiert für höchste Ansprüche Ihre Agenten im Kundenservice und Sales.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1220,10 +1237,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/softphone-view.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p>Für Unternehmen, die eine optimale Einbindung der Telefonie in Ihre Unternehmenssoftware wünschen.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1246,10 +1263,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="3">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/microsoft-teams.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p>Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1272,10 +1289,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="4">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/sip-tischtelefon.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p>Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1298,10 +1315,10 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="5">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/phone-client.png" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p>Ob für Notfälle oder dauerhaft. Die Einbindung von Mobilfunkgeräten ist auf vielfältige Weise mit CallOne möglich.</p>
 						<br />
 						<ul class="list list--checkmarks list--on-black">
@@ -1406,7 +1423,7 @@ $faqs->faq_add (
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-				<h1>„Über richtig guten Kundenservice”</h1>
+				<blockquote class="quote">„Über richtig guten Kundenservice”</blockquote>
 				<p>
 					<strong>Dr. Rainer Klipp</strong><br />
 					Geschäftsführer von Check24 Versicherungen
@@ -1421,7 +1438,7 @@ $faqs->faq_add (
 		<h1 class="centered">Datenschutz und Ausfallsicherheit</h1>
 
 		<div class="co-grid cards">
-			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
+			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 				<div class="cards__card--dark-top">
 					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
@@ -1432,7 +1449,7 @@ $faqs->faq_add (
 					<p>Kein nerviger Self-Service mehr. Ein CallOne Experte berät Sie persönlich. In kürzester Zeit ist alles eingerichtet, wie sie es brauchen. Und auch schon live.</p>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
+			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 				<div class="cards__card--dark-top">
 					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
@@ -1443,7 +1460,7 @@ $faqs->faq_add (
 					<p>Das Privacy Shield Abkommen braucht Sie nicht mehr zu interessieren. Unsere Telefonie-Lösungen hosten wir ausschließlich in Deutschland.</p>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding">
+			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 				<div class="cards__card--dark-top">
 					<div class="cards__card-image">
 						<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
@@ -1456,9 +1473,9 @@ $faqs->faq_add (
 			</div>
 		</div>
 
-		<p>
+		<!-- <p>
 			<a href="#" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
-		</p>
+		</p> -->
 	</div>
 	
 	<div class="section__content section__content--wide mobile-hidden">
