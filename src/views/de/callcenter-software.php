@@ -939,7 +939,7 @@ $faqs->faq_add (
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md">
-				<div class="carddeck carddeck--right" data-speed="2500">
+				<div class="carddeck carddeck--right carddeck--no-indicators" data-speed="2500">
 					<div class="carddeck__card">
 						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
