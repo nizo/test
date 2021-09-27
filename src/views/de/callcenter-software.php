@@ -608,7 +608,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--anrufdauer">
 						<div class="saving-calculation__col-loader"></div>
 
-						<h5>Verkürzung der <span>Anrufdauer</span></h5>
+						<h5>Verkürzung der <br /><span>Anrufdauer</span></h5>
 
 						<div class="saving-calculation__calculation">
 							<h6>
@@ -714,7 +714,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--agentenauslastung">
 						<div class="saving-calculation__col-loader"></div>
 
-						<h5>Steigerung der <span>Agentenauslastung</span></h5>
+						<h5>Steigerung der <br /><span>Agentenauslastung</span></h5>
 
 						<div class="saving-calculation__calculation">
 							<h6>
@@ -817,7 +817,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--personalplanung">
 						<div class="saving-calculation__col-loader"></div>
 						
-						<h5>Optimierte <span>Personalplanung</span></h5>
+						<h5>Optimierte <br /><span>Personalplanung</span></h5>
 
 						<div class="saving-calculation__calculation">
 							<h6>
