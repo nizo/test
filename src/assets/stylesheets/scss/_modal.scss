@@ -324,6 +324,10 @@
 				    	width: 500px;
 	  				}
 	  				&.animation-1 {
+						  &:before {
+							  top: 10px;
+							  right: 63px;
+						  }
 	  					&::after {
 	  						top: -228px;
     						right: -290px;
