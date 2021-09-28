@@ -281,7 +281,7 @@ $faqs->faq_add (
 
             <div class="tablist__content" data-tab="2">
                 <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
-                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
+                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind.</p>
                 <p>
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
                 </p>
