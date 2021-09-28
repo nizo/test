@@ -1,12 +1,16 @@
 .content-box {
     border-radius: 10px;
-    padding: 15px;
+    padding: 30px;
     margin: 0 auto;
     max-width: 570px;
     width: 100%;
 
     &--wide {
         max-width: 1030px;
+    }
+
+    &--small-padding {
+        padding: 15px;
     }
 
     &--shadow {

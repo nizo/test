@@ -92,6 +92,11 @@
     &__field--short {
         width: 100%;
         max-width: 120px;
+        input {
+            font-size: 28px;
+            font-family: $font-headline;
+            padding: 5px 20px 10px 20px;
+        }
     }
 
     &__upload {

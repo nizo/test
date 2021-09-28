@@ -115,6 +115,13 @@
     input+label:before {
       filter: invert(1);
     }
+    a {
+      color: $color-primary;
+      border-bottom: 2px solid #fff;
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 }
 

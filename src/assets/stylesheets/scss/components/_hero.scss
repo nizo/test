@@ -42,6 +42,14 @@
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .hero {
+        &__image {
+            max-width: 330px;
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .hero {
         flex-direction: column;

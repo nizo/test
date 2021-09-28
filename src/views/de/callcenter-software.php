@@ -68,7 +68,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--mobile-divider">
+<div class="section">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-hidden">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
 		<p class="centered mobile-hidden">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
@@ -100,22 +100,26 @@ $faqs->faq_add (
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
-						<div class="carddeck carddeck--right" data-speed="2500">
+						<div class="carddeck carddeck--right" data-speed="2500" style="max-width:430px;margin-left:auto;margin-right:auto;">
 							<div class="carddeck__card">
-								<h3 class="icon-schnittstellen">Schnittstellen</h3>
-								<p>Fertige Apps oder API für die Anbindung an Ihre BI, Ticketing, CRM und alle anderen System, die mit Ihrer Telefonie sprechen sollten.</p>
+								<h5><span class="icon-schnittstellen" style="font-size:28px;"></span>Schnittstellen</h5>
+								<br />
+								<p class="subtext">Fertige Apps oder API für die Anbindung an Ihre BI, Ticketing, CRM und alle anderen System, die mit Ihrer Telefonie sprechen sollten.</p>
 							</div>
 							<div class="carddeck__card">
-								<h3 class="icon-rufnummern">Rufnummern</h3>
-								<p>Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich​.</p>
+								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
+								<br />
+								<p class="subtext">Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich​.</p>
 							</div>
 							<div class="carddeck__card">
-								<h3 class="icon-voip-telefonanlage">VoIP-Telefonanlage</h3>
-								<p>Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit​.</p>
+								<h5><span class="icon-voip-telefonanlage" style="font-size:28px;"></span>VoIP-Telefonanlage</h5>
+								<br />
+								<p class="subtext">Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit​.</p>
 							</div>
 							<div class="carddeck__card">
-								<h3 class="icon-phone-ms-teams">Microsoft Teams</h3>
-								<p>Ihre Telefonie in Microsoft Teams integriert.</p>
+								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
+								<br />
+								<p class="subtext">Ihre Telefonie in Microsoft Teams integriert.</p>
 							</div>
 						</div>
 					</div>
@@ -181,21 +185,18 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
-									<!-- 5-15s -->
 								</div>
 								kürzere <br />Gesprächsdauern (AHT)*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
-									<!-- 50%-70% -->
 								</div>
 								Erkennung des Anruferanliegens*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
-									<!-- 3x -->
 								</div>
 								schnellerer <br />Anrufaufbau*
 							</div>
@@ -236,8 +237,8 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
-				<!-- <p class="centered" style="margin-top: 150px;">
+				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
+				<?php /* <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Konnektivität:</strong><br />
@@ -245,7 +246,7 @@ $faqs->faq_add (
 					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> -->
+				</p> */ ?>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
@@ -264,14 +265,12 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
-									<!-- 4x -->
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-start="0" data-end="94">94%</span>
-									<!-- 94% -->
 								</div>
 								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung*
 							</div>
@@ -305,8 +304,8 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
-				<!-- <p class="centered" style="margin-top: 150px;">
+				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
+				<?php /* <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Effizienz:</strong><br />
@@ -314,7 +313,7 @@ $faqs->faq_add (
 					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> -->
+				</p> */ ?>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
@@ -333,21 +332,18 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
-									<!-- 65% -->
 								</div>
 								Verkürzung <br />der Wartezeit*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
-									<!-- 25% -->
 								</div>
 								geringere <br />Abbruchquote*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
-									<!-- 1,5x -->
 								</div>
 								gesteigerte <br />Agentenauslastung*
 							</div>
@@ -388,8 +384,8 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
-				<!-- <p class="centered" style="margin-top: 150px;">
+				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
+				<?php /* <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Kundenzufriedenheit:</strong><br />
@@ -397,7 +393,7 @@ $faqs->faq_add (
 					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> -->
+				</p> */ ?>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
@@ -416,21 +412,18 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
-									<!-- 3x -->
 								</div>
 								schnellere Reaktion dank Echtzeit-Benachrichtigung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span>
-									<!-- 60min -->
 								</div>
 								Zeitersparnis täglich mittels Autoreporting*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span>
-									<!-- 20% -->
 								</div>
 								gesteigerte <br />Teamleistung*
 							</div>
@@ -471,8 +464,8 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div class="mobile-hidden" style="height:200px;"><!-- Debug --></div>
-				<!-- <p class="centered" style="margin-top: 150px;">
+				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
+				<?php /* <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Datenauswertung:</strong><br />
@@ -480,7 +473,7 @@ $faqs->faq_add (
 					</span>
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> -->
+				</p> */ ?>
 			</div>
 		</div>
 	</div>
@@ -493,7 +486,7 @@ $faqs->faq_add (
 		</p>
 
 		<p>
-			<a href="#" class="btn btn--border-black btn--centered btn--arrow-right">Weitere Funktionen</a>
+			<a href="/callcenter-software-integrationen" class="btn btn--border-black btn--centered btn--arrow-right">Weitere Funktionen</a>
 		</p>
 	</div>
 </div>
@@ -523,7 +516,7 @@ $faqs->faq_add (
 		<div class="co-grid saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
 				<div class="content-box content-box--white">
-					<h2>Geben Sie uns 2 Ihrer Kennzahlen</h2>
+					<h3>Geben Sie uns 2 Ihrer Kennzahlen</h3>
 					<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
 
 					<form action="#" method="post" class="floating-form saving-calculation__form">
@@ -961,14 +954,16 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--narrow" style="margin-top: 100px">
+	<div class="mobile-hidden" style="height: 100px;"></div>
+
+	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Das hat Sie neugierig gemacht?</h1>
 		
 		<p class="centered mobile-hidden">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</p>
 	</div>
 
 	<div class="section__content section__content--wide">
-		<div class="content-box content-box--wide content-box--shadow content-box--white">
+		<div class="content-box content-box--wide content-box--small-padding content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-left">
 					<img src="/assets/images/icons_svg/callback-black.svg" alt="" />
@@ -997,19 +992,19 @@ $faqs->faq_add (
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1">
 					<strong>Flexibel telefonieren</strong><br />
-					Erfahren Sie mehr zu unseren <br />unterstützten Telefonie-Optionen​
+					Erfahren Sie mehr zu unseren <br class="mobile-hidden" />unterstützten Telefonie-Optionen​
 				</div>
 				<div class="tablist__link" data-tab="2">
-					<strong>Integrationsmöglichkeiten</strong><br />
-					Optionen für Anbindung Ihrer <br />genutzten Businesslösungen​
+					<strong>Integrations&shy;möglichkeiten</strong><br />
+					Optionen für Anbindung Ihrer <br class="mobile-hidden" />genutzten Businesslösungen​
 				</div>
 				<div class="tablist__link" data-tab="3">
 					<strong>Zusammenarbeit</strong><br />
-					Unsere Kommunikationsplattform mit <br />Expertenunterstützung​
+					Unsere Kommunikations&shy;plattform mit <br class="mobile-hidden" />Expertenunterstützung​
 				</div>
 				<div class="tablist__link" data-tab="4">
 					<strong>Sicherheit</strong><br />
-					Wie kommen <br />99,999% Erreichbarkeit zustande?
+					Wie kommen <br class="mobile-hidden" />99,999% Erreichbarkeit zustande?
 				</div>
 			</div>
 
@@ -1090,7 +1085,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs">
 						<div class="co-video">
 							<div class="co-video__poster">
-								<img src="/assets/images/photos/video-preview.png" alt="" />
+								<img src="/assets/images/photos/video-preview-min.png" alt="" />
 							</div>
 							<a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 						</div>
@@ -1290,7 +1285,7 @@ $faqs->faq_add (
 			<div class="tablist__content" data-tab="4">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/photos/sip-tischtelefon.png" alt="" />
+						<img src="/assets/images/photos/sip-tischtelefon-min.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
@@ -1344,9 +1339,9 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide" data-thema="2">
 		<hr class="bracket-spacer" />
 		
-		<h1 class="centered">Telefonie mit Lieblings-Apps verbinden</h1>
+		<h3 class="centered">Telefonie mit Lieblings-Apps verbinden</h3>
 
-		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
+		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-min.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
 			<div class="co-grid__col co-grid__col--1-xs"></div>
 			<div class="co-grid__col co-grid__col--3-xs">
 				<div class="carddeck carddeck--no-indicators centered">
@@ -1370,9 +1365,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 			</div>
-			<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
-				<!-- <img src="/assets/images/logo/logo-round.svg" alt="" /> -->
-			</div>
+			<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered"></div>
 			<div class="co-grid__col co-grid__col--3-xs co-grid__col--vcentered">
 				<div class="content-box content-box--white centered">
 					<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="" style="display:inline-block" />
@@ -1397,7 +1390,7 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide" data-thema="3">
 		<hr class="bracket-spacer" />
 		
-		<h1 class="centered">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung</h1>
+		<h3 class="centered">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung</h3>
 		
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--4-xs right">
@@ -1417,7 +1410,7 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--6-xs">
 				<div class="co-video">
 					<div class="co-video__poster">
-						<img src="/assets/images/photos/video-preview.png" alt="" />
+						<img src="/assets/images/photos/video-preview-min.png" alt="" />
 					</div>
 					<a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 				</div>
@@ -1435,7 +1428,7 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide" data-thema="4">
 		<hr class="bracket-spacer" />
 
-		<h1 class="centered">Datenschutz und Ausfallsicherheit</h1>
+		<h3 class="centered">Datenschutz und Ausfallsicherheit</h3>
 
 		<div class="co-grid cards">
 			<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
@@ -1473,9 +1466,9 @@ $faqs->faq_add (
 			</div>
 		</div>
 
-		<!-- <p>
+		<?php /* <p>
 			<a href="#" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
-		</p> -->
+		</p> */ ?>
 	</div>
 	
 	<div class="section__content section__content--wide mobile-hidden">
@@ -1515,6 +1508,13 @@ $faqs->faq_add (
 			</p>
 		</div>
 	</div>
+
+	<div class="section__content">
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code('toggle-box--on-black');
+		?>
+	</div>
 </div>
 
 <script>
@@ -1537,7 +1537,3 @@ $faqs->faq_add (
 <div class="modal video-casestudy-check24">
   <?php include('./partials/modal-video-check24.php'); ?>
 </div>
-<?php
-// $faqs->structured_data_get_code ();
-// $faqs->html_get_code('toggle-box--on-black');
-?>

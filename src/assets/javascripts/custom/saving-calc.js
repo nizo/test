@@ -104,6 +104,9 @@ class Mehrwertrechner {
             return false;
         }
 
+        this.inputs['calls'].value = calls;
+        this.inputs['agents'].value = agents;
+
         return true;
     }
 
@@ -232,26 +235,29 @@ class Mehrwertrechner {
 }
 
 const mehrwertrechner = document.getElementById('mehrwertrechner');
-new Mehrwertrechner(mehrwertrechner);
+if (mehrwertrechner)
+    new Mehrwertrechner(mehrwertrechner);
 
 let savingCalculator = document.querySelector('.saving-calculation');
 
-let toggleButtons = savingCalculator.querySelectorAll('.saving-calculation__toggle');
-toggleButtons.forEach(toggleButton => {
-    toggleButton.addEventListener('click', e => {
-        let col = toggleButton.closest('.saving-calculation__col');
-        let details = col.querySelector('.saving-calculation__details');
-        let content = col.querySelector('.saving-calculation__content');
-        let calculation = col.querySelector('.saving-calculation__calculation');
-        details.classList.toggle('saving-calculation__details--open');
-        content.classList.toggle('saving-calculation__content--hidden');
-        calculation.classList.toggle('saving-calculation__calculation--open');
-        toggleButton.classList.toggle('saving-calculation__toggle--close');
-        toggleButton.classList.toggle('saving-calculation__toggle--open');
-        if (toggleButton.classList.contains('saving-calculation__toggle--close')) {
-            toggleButton.textContent = 'Berechnung ausblenden';
-        } else {
-            toggleButton.textContent = 'Berechnung einblenden';
-        }
+if (savingCalculator) {
+    let toggleButtons = savingCalculator.querySelectorAll('.saving-calculation__toggle');
+    toggleButtons.forEach(toggleButton => {
+        toggleButton.addEventListener('click', e => {
+            let col = toggleButton.closest('.saving-calculation__col');
+            let details = col.querySelector('.saving-calculation__details');
+            let content = col.querySelector('.saving-calculation__content');
+            let calculation = col.querySelector('.saving-calculation__calculation');
+            details.classList.toggle('saving-calculation__details--open');
+            content.classList.toggle('saving-calculation__content--hidden');
+            calculation.classList.toggle('saving-calculation__calculation--open');
+            toggleButton.classList.toggle('saving-calculation__toggle--close');
+            toggleButton.classList.toggle('saving-calculation__toggle--open');
+            if (toggleButton.classList.contains('saving-calculation__toggle--close')) {
+                toggleButton.textContent = 'Berechnung ausblenden';
+            } else {
+                toggleButton.textContent = 'Berechnung einblenden';
+            }
+        });
     });
-});
+}

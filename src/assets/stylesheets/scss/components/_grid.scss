@@ -44,11 +44,11 @@
         justify-content: center;
         align-items: flex-start;
         // align-items: stretch;
-        >* {
+        >*:not(.co-grid) {
             width: 100%;
         }
         img {
-            width: auto;
+            width: auto !important;
         }
     }
 }
