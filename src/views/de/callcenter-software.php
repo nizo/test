@@ -130,8 +130,8 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" style="margin:0" class="mobile-hidden" />
-						<h2 class="mobile-hidden">Lösungen für Ihr Callcenter</h2>
-						<p>CallOne ist Spezialist wenn es um das Thema Call Center Software geht. Wir liefern diesen Baustein unserer VoIP-Telefonanlage wahlweise integriert in Ihre</p>
+						<h2 class="mobile-hidden">Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
+						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/photos/integration-callcenter.png" alt="" />
@@ -486,7 +486,7 @@ $faqs->faq_add (
 		</p>
 
 		<p>
-			<a href="/callcenter-software-integrationen" class="btn btn--border-black btn--centered btn--arrow-right">Weitere Funktionen</a>
+			<a href="/callcenter-software-funktionen" class="btn btn--border-black btn--centered btn--arrow-right">Weitere Funktionen</a>
 		</p>
 	</div>
 </div>
@@ -529,7 +529,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="calls" placeholder="1000" autocomplete="off" />
+								<input type="text" name="calls" placeholder="10.000" autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -542,7 +542,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="agents" placeholder="10" autocomplete="off" />
+								<input type="text" name="agents" placeholder="25" autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -680,25 +680,25 @@ $faqs->faq_add (
 								<li>
 									Anrufer-Vorqualifizierung
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Ihre Agent*innen wissen bereits bei Gesprächsannahme um das Anliegen ihrer Anrufer.</span>
 									</span>
 								</li>
 								<li>
 									Automatisierung
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Nicht alle Anliegen müssen von Agenten bearbeitet werden. Wir liefern die Schnittstellen und technischen Optionen für Selfservice am Telefon.</span>
 									</span>
 								</li>
 								<li>
 									CRM-Anbindung
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Ihr CRM liefert die Informationen des Kunden. Wir liefern die passenden Schnittstellen, um es anzubinden.</span>
 									</span>
 								</li>
 								<li>
 									KI-Integration
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Spracherkennung, Sprachausgabe, offene Schnittstellen bilden die Grundlage bei CallOne mittels KI Sachverhalte intelligent zu automatisieren.</span>
 									</span>
 								</li>
 							</ul>
@@ -783,25 +783,25 @@ $faqs->faq_add (
 								<li>
 									Virtuelle Warteschleifen
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Anrufer warten virtuell und werden auf spätere Zeitpunkte verteilt in denen Ihre Agenten besser erreichbar sind.</span>
 									</span>
 								</li>
 								<li>
 									Automatisierter Rückruf aus Warteschleife
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Anrufer erhalten einen gezielten Rückrufzeitpunkt außerhalb Ihrer Peaks benannt zu dem das System sie zurückruft.</span>
 									</span>
 								</li>
 								<li>
 									Realtime-Website Callback
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Verkürzte Gesprächszeiten, denn der Callback bestimmt den optimalen Anrufzeitpunkt direkt auf Ihrer Webseite.</span>
 									</span>
 								</li>
 								<li>
 									Terminierter Rückruf
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Stellen Sie vereinbarte Rückrufe individuell auf unserer Oberfläche ein. CallOne erledigt den Rest. </span>
 									</span>
 								</li>
 							</ul>
@@ -873,25 +873,25 @@ $faqs->faq_add (
 								<li>
 									BI-gesteuerte Arbeitszeitplanung- und Erfassung
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Fertige BI-Konnektoren für Ihr Lieblingstool geben ihnen alle Daten für eine gezielte Personaleinsatzplanung.</span>
 									</span>
 								</li>
 								<li>
 									Realtime-Dashboards zur KPI-Optimierung
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Wir liefern fertige Dashboards und  Schnittstellen, die Ihnen sekündlich relevante KPI vermitteln.</span>
 									</span>
 								</li>
 								<li>
 									Prozessoptimierung durch Call Tagging
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Gesprächsmitschnitte oder Live-Coachings liefern wir in allen erdenklichen Formen - DSGVO-konform und anpassbar auf Ihre Anforderungen.</span>
 									</span>
 								</li>
 								<li>
 									Agenten-Performance Analyse
 									<span class="tooltip tooltip--light">
-										<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt minus fuga a eos, enim aspernatur adipisci voluptas vel maiores?</span>
+										<span>Wir liefern die vielleicht umfänglichsten Auswertungsmöglichkeiten für Ihre Agenten und Agentinnen.</span>
 									</span>
 								</li>
 							</ul>
@@ -934,20 +934,20 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md">
 				<div class="carddeck carddeck--right carddeck--no-indicators" data-speed="2500">
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<p>> 33% Auslastung Ihrer Agents</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<p>97% Erreichbarkeit im Tagesverlauf</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<p>Halbierung der Wahlwiederholer</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerung</h6>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<p>65% kürzere Wartedauer</p>
 					</div>
 				</div>
 			</div>
@@ -963,19 +963,19 @@ $faqs->faq_add (
 	</div>
 
 	<div class="section__content section__content--wide">
-		<div class="content-box content-box--wide content-box--small-padding content-box--shadow content-box--white">
+		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-left">
-					<img src="/assets/images/icons_svg/callback-black.svg" alt="" />
+					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="" width="48" /></p>
 					<h4>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h4>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
 				<div class="co-grid__col co-grid__col--6-md co-grid__col--hidden-md">
-					<img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
+					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" width="48" /></p>
 					<h4>Senden Sie uns <br />eine Nachricht</h4>
 					<p>Kontaktformular nutzen</p>
-					<p><a href="/kontakt" class="btn btn--secondary btn--centered">Kontakt aufnehmen</a></p>
+					<p><a href="#" class="btn btn--secondary btn--centered" data-openmodal="contact-sales">Kontakt aufnehmen</a></p>
 				</div>
 			</div>
 		</div>

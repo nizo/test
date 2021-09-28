@@ -2,8 +2,8 @@ class Mehrwertrechner {
     constructor(el) {
         this.element = el;
         this.values = {
-            defaultCalls: 1000,
-            defaultAgents: 10,
+            defaultCalls: 10000,
+            defaultAgents: 25,
             einspareffektAnruf: 30, // Sekunden
             stundenlohn: 30, // Euro
             monateImJahr: 12,
