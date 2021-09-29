@@ -4,6 +4,8 @@ class Mehrwertrechner {
         this.values = {
             defaultCalls: 10000,
             defaultAgents: 25,
+            minCalls: 100,
+            minAgents: 10,
             einspareffektAnruf: 30, // Sekunden
             stundenlohn: 30, // Euro
             monateImJahr: 12,
@@ -61,9 +63,11 @@ class Mehrwertrechner {
         };
 
         this.inputs.calls.addEventListener('keyup', e => {
+            this.inputs.calls.value = this.inputs.calls.value.replace(/\D/, '');
             this.form.querySelector('.floating-form__submit').disabled = false;
         });
         this.inputs.agents.addEventListener('keyup', e => {
+            this.inputs.agents.value = this.inputs.agents.value.replace(/\D/, '');
             this.form.querySelector('.floating-form__submit').disabled = false;
         });
 
@@ -93,12 +97,12 @@ class Mehrwertrechner {
             this.formErrorText.textContent = 'Bitte geben Sie gültige Zahlen ein.';
             return false;
         }
-        if (calls < 100) {
+        if (calls < this.minCalls) {
             this.formError.classList.add('floating-form__error--active');
             this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 100 Anrufe eingetragen werden.';
             return false;
         }
-        if (agents < 10) {
+        if (agents < this.minAgents) {
             this.formError.classList.add('floating-form__error--active');
             this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 10 Agenten eingetragen werden.';
             return false;
