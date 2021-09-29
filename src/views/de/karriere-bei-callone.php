@@ -270,7 +270,7 @@ $faqs->faq_add (
             </div>
 
             <div class="tablist__content tablist__content--active" data-tab="1">
-                <h2 class="centered">Dort arbeiten, wo es schön ist</h2>
+                <h2 class="centered">Dort arbeiten, <br />wo es schön ist</h2>
                 <p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
                 <p>
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
@@ -280,8 +280,8 @@ $faqs->faq_add (
             </div>
 
             <div class="tablist__content" data-tab="2">
-                <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
-                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind.</p>
+                <h2 class="centered">Dort arbeiten, <br />wo du dich am wohlsten fühlst</h2>
+                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, <br />sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind.</p>
                 <p>
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
                 </p>
