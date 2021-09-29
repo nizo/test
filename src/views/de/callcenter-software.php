@@ -109,12 +109,12 @@ $faqs->faq_add (
 							<div class="carddeck__card">
 								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
 								<br />
-								<p class="subtext">Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich​.</p>
+								<p class="subtext">Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich.</p>
 							</div>
 							<div class="carddeck__card">
 								<h5><span class="icon-voip-telefonanlage" style="font-size:28px;"></span>VoIP-Telefonanlage</h5>
 								<br />
-								<p class="subtext">Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit​.</p>
+								<p class="subtext">Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit.</p>
 							</div>
 							<div class="carddeck__card">
 								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
@@ -178,27 +178,27 @@ $faqs->faq_add (
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="5">5%</span>
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
-								weniger Kosten pro Kontakt durch gesteigerte FCR*
+								weniger Kosten <br />pro Kontakt <br />durch gesteigerte FCR*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
 								</div>
-								kürzere <br />Gesprächsdauern (AHT)*
+								kürzere Gesprächsdauern (AHT) durch intelligente Vorqualifizierung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
 								</div>
-								Erkennung des Anruferanliegens*
+								Erkennung des Anruferanliegens bei Anrufannahme*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 								</div>
-								schnellerer <br />Anrufaufbau*
+								schnellerer Anrufaufbau durch Click-to-Dial im eigenen CRM*
 							</div>
 						</div>
 
@@ -209,28 +209,28 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-11">
 							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+								<p>Steuern Anrufe gezielt mit Hilfe Ihres ERP oder CRM-System und unserer API, denn Sie wissen wer gerade bestellt hat und wir wer anruft.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-12">
 							<label for="faq-12">Anruferinformationen wenn es klingelt</label>
 							<div class="toggle-box__content">
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+								<p>Sparen Sie sich die Zeit den Anrufer den Anrufer aufwendig zu identifizieren. Dies erfolgt mit CallOne und Anbindung an Ihre Systeme automatisch.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+								<p>Schnittstellen zur Übermittlung der Kundennummer oder Spracherkennung ermöglichen ein gezieltes Routing und schneller Fallbearbeitung.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-14">
 							<label for="faq-14">Wählen ohne Tippen</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic, sequi ea nisi magni inventore ipsa voluptas doloribus modi dignissimos.</p>
+								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- ound Outboundtelefonie.</p>
 							</div>
 						</div>
 						<p class="subtext">&nbsp;</p>
@@ -283,21 +283,21 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-21">
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+								<p>Nutzen Sie unsere VTT und TTS-Funktionen in Kombination mit unseren Schnittstellen für automatisierte Dialoge mit ihren Anrufern und das 24/7 mit 99,999% Verfügbarkeit.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-22">
 							<label for="faq-22">Intelligentes Sprachrouting</label>
 							<div class="toggle-box__content">
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+								<p>Statt endlosem Auswahltasten drücken, bieten wir Echtzeit- Spracherkennung für bessere Kundenerlebnisse.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-23">
 							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+								<p>Wir übergeben Ihnen Anrufernummer oder Kundennummer und Sie antworten mit allen relevanten Kundendaten, wahlweise implementiert in der CallOne Agentenmaske.</p>
 							</div>
 						</div>
 						<p class="subtext">&nbsp;</p>
@@ -356,28 +356,28 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-31">
 							<label for="faq-31">Intelligente Routingfunktionen</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+								<p>Lassen Sie Ihre Anrufer nicht warten und nutzen Sie die von uns errechnete voraussichtliche Wartezeit, um Rückruffunktionen anzubieten.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-32">
 							<label for="faq-32">Virtuelle Warteschleife & Co.</label>
 							<div class="toggle-box__content">
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+								<p>Rückrufen, dann wenn es für Sie passt. Zum fixen Termin oder dann wenn der Anrufer an der Reihe ist.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-33">
-							<label for="faq-33">Wahlwiederholerpriorisierung</label>
+							<label for="faq-33">Wahlwiederholer&shy;priorisierung</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+								<p>Wartedauer wird bei erfolglosen Folgeanrufen hinzugerechnet. Damit steigt die Kundenzufriedenheit und die Abbruchquote sinkt.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-34">
 							<label for="faq-34">Rückrufe für optimale Auslastung</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+								<p>Anrufpeaks aus dem Vormittag in den Nachmittag verschieben. Wir liefern hier unzählige Optionen, passgenau für Ihren Anwendungsfall.</p>
 							</div>
 						</div>
 						<p class="subtext">&nbsp;</p>
@@ -398,7 +398,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
 				<h2 class="centered icon-statistics mobile-hidden">Statistik & Datenanalyse</h2>
-				<p class="centered mobile-hidden">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analysemöglichkeiten, die Sie vorher nicht für möglich hielten.</p>
+				<p class="centered mobile-hidden">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analyse-möglichkeiten, die Sie vorher nicht für möglich hielten.</p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -436,28 +436,28 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-41">
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorem ab nobis dicta eveniet enim tempora quod animi esse iusto.</p>
+								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-42">
 							<label for="faq-42">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia officia obcaecati dolorum animi similique eligendi laudantium maiores nihil quisquam.</p>
+								<p>Sie erhalten von CallOne Echtzeiteinblicke und können umgehend reagieren, um Ihre KPI hochzuhalten.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-43">
 							<label for="faq-43">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+								<p>Nutzen Sie unsere Rohdatenschnittstellen und fertigen Konnektoren zu Tableau für Auswertungen auf Profiniveau.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-44">
 							<label for="faq-44">Zielerreichung mittels wichtiger Kennzahlen</label>
 							<div class="toggle-box__content">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores, numquam expedita sunt dignissimos magni explicabo quo perferendis dolore tempore.</p>
+								<p>Umfangreiche Agentenstatistiken ermöglichen individuelle oder allgemeine Zielplanung zur Erreichung Ihrer Ziele.</p>
 							</div>
 						</div>
 						<p class="subtext">&nbsp;</p>
@@ -482,7 +482,7 @@ $faqs->faq_add (
 		<h4 class="centered">Bei den Funktionen noch nicht fündig geworden?</h4>
 
 		<p class="centered">
-			Hier gibt es weitere Features und Funktionen​:
+			Hier gibt es weitere Features und Funktionen:
 		</p>
 
 		<p>
@@ -493,7 +493,7 @@ $faqs->faq_add (
 
 <div class="section section--black" id="mehrwertrechner">
 	<div class="section__content section__content--narrow saving-calculation--mobile">
-		<h1>Lust, Ihr Einsparpotenzial durch CallOne direkt zu berechnen?</h1>
+		<h1>Lust Ihr Einsparpotential direkt hier zu berechnen?</h1>
 		
 		<div class="content-box content-box--white">
 			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt=""></p>
@@ -509,19 +509,19 @@ $faqs->faq_add (
 		</h1>
 
 		<p class="centered">
-			Wir stehen für messbare Effizienzsteigerungen <br />
-			und heben Einsparpotentiale im großen Stil.
+		Wir stehen für messbare Effizienzsteigerungen <br />
+		und heben Einsparpotentiale im großen Stil.​
 		</p>
 
 		<div class="co-grid saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
 				<div class="content-box content-box--white">
-					<h3>Geben Sie uns 2 Ihrer Kennzahlen</h3>
+					<h3>Geben Sie und zwei Ihrer Kennzahlen</h3>
 					<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
 
 					<form action="#" method="post" class="floating-form saving-calculation__form">
 						<div class="floating-form__error">
-							<p>Bitte dies das</p>
+							<p>Fehler, bitte versuchen Sie es erneut.</p>
 						</div>
 
 						<div class="floating-form__row">
@@ -992,15 +992,15 @@ $faqs->faq_add (
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1">
 					<strong>Flexibel telefonieren</strong><br />
-					Erfahren Sie mehr zu unseren <br class="mobile-hidden" />unterstützten Telefonie-Optionen​
+					Erfahren Sie mehr zu unseren <br class="mobile-hidden" />unterstützten Telefonie-Optionen
 				</div>
 				<div class="tablist__link" data-tab="2">
 					<strong>Integrations&shy;möglichkeiten</strong><br />
-					Optionen für Anbindung Ihrer <br class="mobile-hidden" />genutzten Businesslösungen​
+					Optionen für Anbindung Ihrer <br class="mobile-hidden" />genutzten Businesslösungen
 				</div>
 				<div class="tablist__link" data-tab="3">
 					<strong>Zusammenarbeit</strong><br />
-					Unsere Kommunikations&shy;plattform mit <br class="mobile-hidden" />Expertenunterstützung​
+					Unsere Kommunikations&shy;plattform mit <br class="mobile-hidden" />Expertenunterstützung
 				</div>
 				<div class="tablist__link" data-tab="4">
 					<strong>Sicherheit</strong><br />
@@ -1015,7 +1015,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" />
 							</div>
-							<h4 class="centered">Softphone im Browser/Desktop​</h4>
+							<h4 class="centered">Softphone im Browser/Desktop</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1031,7 +1031,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" />
 							</div>
-							<h4 class="centered">Agentenmaske im Browser​ und viele weitere</h4>
+							<h4 class="centered">Agentenmaske im Browser und viele weitere</h4>
 						</div>
 					</div>
 				</div>
@@ -1043,7 +1043,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/client-logos/beispiel-apps-1.svg" alt="" />
 							</div>
-							<h4 class="centered">Ticketing-Systeme​</h4>
+							<h4 class="centered">Ticketing-Systeme</h4>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -1376,13 +1376,13 @@ $faqs->faq_add (
 
 		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto">
 			<div class="co-grid__col co-grid__col--5-xs right">
-				<h3>Konnektoren zu den wichtigsten Business-Anwendungen</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie congue dictumst donec cursus. Bibendum habitasse feugiat aenean bibendum faucibus in. Semper in.</p>
+				<h3>Fertige Konnektoren zu Ihren Lieblings-Apps</h3>
+				<p>Verbinden Sie gängige Ticketing, CRM-, Ticketing-, BI- oder ERP-Tools für effiziente und zielgerichtete Zusammenarbeit​.</p>
 			</div>
 			<div class="co-grid__col co-grid__col--2-xs"></div>
 			<div class="co-grid__col co-grid__col--5-xs left">
-				<h3>Individuelle Anbindung an Ihr Business-System</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque leo urna, lorem sagittis urna neque accumsan, sed ac. Suspendisse faucibus quam netus.</p>
+				<h3>Ihre Systeme flexibel angebunden</h3>
+				<p>Wir liefern Ihnen alles was Sie benötigen, um sich optimal anzubinden und den Effizienzturbo zu zünden.</p>
 			</div>
 		</div>
 	</div>
