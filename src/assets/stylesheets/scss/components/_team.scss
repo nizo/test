@@ -180,7 +180,18 @@
             margin-right: 0;
         }
         &__member-booking {
-            display: none;
+            padding: 0;
+            background: none;
+            margin-top: 30px;
+            background: none;
+            box-shadow: none;
+            h3, p {
+                display: none;
+            }
+            .btn {
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
         &__member-agenda {
             display: none;

@@ -108,3 +108,15 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .calendar {
+        &__week {
+            flex-direction: column;
+        }
+
+        &__day--past {
+            display: none;
+        }
+    }
+}
