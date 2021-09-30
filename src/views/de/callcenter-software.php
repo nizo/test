@@ -1085,7 +1085,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs">
 						<div class="co-video">
 							<div class="co-video__poster">
-								<img src="/assets/images/photos/video-preview-min.png" alt="" />
+								<img src="/assets/images/photos/video-preview-reduced.png" alt="" />
 							</div>
 							<a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 						</div>
@@ -1285,7 +1285,7 @@ $faqs->faq_add (
 			<div class="tablist__content" data-tab="4">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/photos/sip-tischtelefon-min.png" alt="" />
+						<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
@@ -1336,12 +1336,12 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--wide" data-thema="2">
+	<div class="section__content section__content--wide mobile-hidden" data-thema="2">
 		<hr class="bracket-spacer" />
 		
 		<h3 class="centered">Telefonie mit Lieblings-Apps verbinden</h3>
 
-		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-min.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
+		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
 			<div class="co-grid__col co-grid__col--1-xs"></div>
 			<div class="co-grid__col co-grid__col--3-xs">
 				<div class="carddeck carddeck--no-indicators centered">
@@ -1387,7 +1387,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 	
-	<div class="section__content section__content--wide" data-thema="3">
+	<div class="section__content section__content--wide mobile-hidden" data-thema="3">
 		<hr class="bracket-spacer" />
 		
 		<h3 class="centered">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung</h3>
@@ -1410,7 +1410,7 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--6-xs">
 				<div class="co-video">
 					<div class="co-video__poster">
-						<img src="/assets/images/photos/video-preview-min.png" alt="" />
+						<img src="/assets/images/photos/video-preview-reduced.png" alt="" />
 					</div>
 					<a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 				</div>
@@ -1425,7 +1425,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--wide" data-thema="4">
+	<div class="section__content section__content--wide mobile-hidden" data-thema="4">
 		<hr class="bracket-spacer" />
 
 		<h3 class="centered">Datenschutz und Ausfallsicherheit</h3>
