@@ -9,9 +9,9 @@
     </div>
 
     <!-- Template -->
-    <!-- <div class="components__item">
+    <!-- <div class="components__item" id="id">
         <div class="components__docs">
-            <h1>Title</h1>
+            <h1><a href="#id">Title</a></h1>
             <p>Description</p>
         </div>
         <div class="components__preview">
@@ -120,6 +120,31 @@
                         <a href="#anchor-1">Anchor 1</a>
                         <a href="#anchor-2">Anchor 2</a>
                         <a href="#anchor-3">Anchor 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Atomic Loader -->
+    <div class="components__item" id="atomic-loader">
+        <div class="components__docs">
+            <h1><a href="#atomic-loader">Atomic Loader</a></h1>
+            <p>Loading animation.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.atomic-loader--hidden</code>: Hides loader</li>
+            </ul>
+        </div>
+        <div class="components__preview" style="background-color: black;">
+            <div>
+                <div class="atomic-loader">
+                    <div class="atomic-loader__circle"></div>
+                    <div class="atomic-loader__dots">
+                        <div class="atomic-loader__dot"></div>
+                        <div class="atomic-loader__dot"></div>
+                        <div class="atomic-loader__dot"></div>
+                        <div class="atomic-loader__dot"></div>
                     </div>
                 </div>
             </div>
@@ -460,6 +485,85 @@
         </div>
     </div>
 
+    <!-- Content Box -->
+    <div class="components__item" id="content-box">
+        <div class="components__docs">
+            <h1><a href="#content-box">Content-Box</a></h1>
+            <p>Content box that can contain other content.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.content-box--white</code>: White box to use on dark backgrounds</li>
+                <li><code>.content-box--wide</code>: Wider version</li>
+                <li><code>.content-box--small-padding</code>: Box with reduced padding on all sides</li>
+            </ul>
+        </div>
+        <style>
+            .content-box-component {
+                background-image: linear-gradient(#000, #000);
+                background-repeat: no-repeat;
+                background-size: 100% 50%;
+                background-position: center bottom;
+            }
+        </style>
+        <div class="components__preview content-box-component">
+            <div>
+                <div class="content-box content-box--shadow">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et repellat dolorem consequuntur, possimus quaerat maiores quos aut a exercitationem molestias.</p>
+                </div>
+                <div class="content-box content-box--white">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et repellat dolorem consequuntur, possimus quaerat maiores quos aut a exercitationem molestias.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Contact -->
+    <div class="components__item" id="cta-contact">
+        <div class="components__docs">
+            <h1><a href="#cta-contact">Call-To-Action: Contact</a></h1>
+            <p>Call-To-Action section for general contact.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="cta-contact">
+                    <h2 class="centered">Lassen Sie uns miteinander reden!</h2>
+                    <p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
+
+                    <div class="co-grid">
+                        <div class="co-grid__col co-grid__col--4-xs">
+                            <img src="/assets/images/icons_svg/first-call.svg" alt="" />
+                            <h4>
+                                <span>Schritt 1</span><br />
+                                Erstgespräch
+                            </h4>
+                            <p>Kein Verkaufsgespräch, sondern Austausch.</p>
+                        </div>
+                        <div class="co-grid__col co-grid__col--4-xs">
+                            <img src="/assets/images/icons_svg/presentation.svg" alt="" />
+                            <h4>
+                                <span>Schritt 2</span><br />
+                                Showcase
+                            </h4>
+                            <p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
+                        </div>
+                        <div class="co-grid__col co-grid__col--4-xs">
+                            <img src="/assets/images/icons_svg/team-dark.svg" alt="" />
+                            <h4>
+                                <span>Schritt 3</span><br />
+                                Lösungsfindung
+                            </h4>
+                            <p>Wir passen individuelles Lösungsangebot auf Sie zu.</p>
+                        </div>
+                    </div>
+
+                    <p>
+                        <a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Custom Select / Dropdown -->
     <div class="components__item" id="dropdown">
         <div class="components__docs">
@@ -502,6 +606,32 @@
                 <div class="fade-box">
                     <h2 class="centered">Ansprechpartnerin</h2>
                     <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fader -->
+    <div class="components__item" id="fader">
+        <div class="components__docs">
+            <h1><a href="#fader">Fader</a></h1>
+            <p>Simple fader to cycle between content.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="fader">
+                    <div class="fader__item">
+                        <h3>Lorem, ipsum dolor 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!</p>
+                    </div>
+                    <div class="fader__item">
+                        <h3>Lorem, ipsum dolor 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!</p>
+                    </div>
+                    <div class="fader__item">
+                        <h3>Lorem, ipsum dolor 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -864,11 +994,26 @@
         <div class="components__docs">
             <h1>Number Card (Animated)</h1>
             <p>Number cards. Animation is added by using the <code>.counting-number</code> class.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li>Add <code>style="--color:blue"</code> to <code>.number-card__number</code> to change the color.</li>
+            </ul>
         </div>
-        <div class="components__preview">
+        <style>
+            .number-card-component .number-card + .number-card {
+                margin-top: 30px;
+            }
+        </style>
+        <div class="components__preview number-card-component">
             <div>
                 <div class="number-card">
                     <div class="number-card__number">
+                        <span class="counting-number" data-start="0" data-end="50" data-suffix="%">50%</span>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, laborum?
+                </div>
+                <div class="number-card">
+                    <div class="number-card__number" style="--color:blue">
                         <span class="counting-number" data-start="0" data-end="50" data-suffix="%">50%</span>
                     </div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, laborum?
@@ -893,6 +1038,25 @@
                         <p>Personalabteilung</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="components__item" id="quote">
+        <div class="components__docs">
+            <h1><a href="#quote">Quote</a></h1>
+            <p>Simple quotes.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <blockquote class="quote">
+                    This is the quote. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, asperiores!
+                </blockquote>
+                <p>
+                    <strong>Jack Smith</strong><br />
+                    CEO Company
+                </p>
             </div>
         </div>
     </div>
@@ -1117,6 +1281,20 @@
                         <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tag -->
+    <div class="components__item" id="tag">
+        <div class="components__docs">
+            <h1><a href="#tag">Tag</a></h1>
+            <p>Tag above text or headlines.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="tag"><img src="/assets/images/icons_svg/callone-logo-white.svg" alt="">CallOne</div>
+                <h1>Lorem, ipsum dolor.</h1>
             </div>
         </div>
     </div>
