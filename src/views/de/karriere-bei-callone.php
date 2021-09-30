@@ -369,13 +369,13 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section">
+<div class="section section--black">
     <div class="section__content section__content--narrow">
         <h1 class="centered">Fragen und Antworten</h1>
 
         <?php
         $faqs->structured_data_get_code ();
-        $faqs->html_get_code ();
+        $faqs->html_get_code ('toggle-box--on-black');
         ?>
     </div>
 </div>
