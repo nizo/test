@@ -1,0 +1,124 @@
+.carddeck {
+    position: relative;
+    padding-right: 23px;
+
+    &__indicators {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 8px;
+        height: 100%;
+    }
+
+    &__indicator {
+        width: 6px;
+        height: auto;
+        flex: 1;
+        background-color: #c4c4c4;
+        &+.carddeck__indicator {
+            margin-top: 8px;
+        }
+    }
+    &__indicator--active {
+        background-color: $color-primary;
+        width: 8px;
+    }
+
+    &__cards {
+        position: relative;
+        // width: calc(100% - 23px);
+    }
+
+    &__card {
+        // position: absolute;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        // justify-content: center;
+        padding: 30px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 18px rgba(#000, 0.25);
+        border-radius: 10px;
+        opacity: 1;
+        transition: all .6s ease;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        div>* {
+            &:first-child {
+                padding-top: 0;
+                margin-top: 0;
+            }
+            &:last-child {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__card--vcentered {
+        justify-content: center;
+    }
+    &__card--small-padding {
+        padding: 15px;
+    }
+    &__card--messured {
+        position: absolute;
+    }
+    &__card--top {
+        transform: scale(1);
+        z-index: 3;
+    }
+    &__card--center {
+        transform: translateX(calc(-5% - 9px)) scale(.9);
+        z-index: 2;
+    }
+    &__card--bottom {
+        transform: translateX(calc(-10% - 18px)) scale(.8);
+        z-index: 1;
+    }
+    &__card--fade {
+        transform: translateX(calc(2.5% + 9px)) scale(1.05);
+        opacity: 0;
+        z-index: 4;
+    }
+    &__card--hidden {
+        display: none;
+    }
+
+    &--no-indicators {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        
+        .carddeck__indicators {
+            display: none;
+        }
+    }
+
+    &--right {
+        padding-right: 0;
+        padding-left: 23px;
+
+        .carddeck__indicators {
+            left: 0;
+            right: auto;
+            align-items: flex-end;
+        }
+        .carddeck__cards {
+            
+        }
+        .carddeck__card--center {
+            transform: translateX(calc(5% + 9px)) scale(.9);
+        }
+        .carddeck__card--bottom {
+            transform: translateX(calc(10% + 18px)) scale(.8);
+        }
+        .carddeck__card--fade {
+            transform: translateX(calc(-2.5% - 9px)) scale(1.05);
+        }
+    }
+}

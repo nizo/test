@@ -22,4 +22,10 @@
             }
         }
     }
+
+    &--on-black {
+        &.list--checkmarks li:before {
+            filter: invert(1);
+        }
+    }
 }

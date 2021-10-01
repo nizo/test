@@ -1,0 +1,80 @@
+.fader {
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+        position: relative;
+        order: 1;
+        height: 16px;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-family: $font-headline;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgba(#000, .5);
+        text-align: center;
+    }
+
+    &__indicators {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__indicator {
+        width: 12px;
+        height: 12px;
+        background-color: #c4c4c4;
+        border-radius: 50%;
+        &+.fader__indicator {
+            margin-left: 10px;
+        }
+    }
+    &__indicator--active {
+        width: 16px;
+        height: 16px;
+        background-color: $color-primary;
+    }
+    
+    &__items {
+        position: relative;
+        order: 2;
+    }
+
+    &__item {
+        opacity: 0;
+        top: 0;
+        left: 0;
+        transition: opacity .6s ease;
+
+        img {
+            display: block;
+        }
+    }
+    &__item--messured {
+        position: absolute;
+    }
+    &__item--active {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .fader {
+        &__title {
+            text-align: left;
+        }
+        &__indicators {
+            left: auto;
+            right: 0;
+        }
+    }
+}

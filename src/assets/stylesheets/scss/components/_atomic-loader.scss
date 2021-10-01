@@ -1,0 +1,83 @@
+.atomic-loader {
+    position: relative;
+    width: 134px;
+    height: 134px;
+    background-image: url(../images/icons_svg/quantum-computing.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+
+    &--hidden {
+        display: none;
+    }
+    
+    &__circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 6px solid #fff;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: circleSpin 2s infinite linear;
+        z-index: 1;
+    }
+    
+    &__dots {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    
+    &__dot {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 6px;
+        transform-origin: left center;
+        transform: translateY(-50%) rotate(-135deg);
+        animation-name: dotSpin;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 6px;
+            height: 6px;
+            background-color: $color-primary;
+            border-radius: 50%;
+        }
+        &:nth-of-type(2) {
+            animation-delay: .1s;
+        }
+        &:nth-of-type(3) {
+            animation-delay: .2s;
+        }
+        &:nth-of-type(4) {
+            animation-delay: .3s;
+        }
+    }
+}
+
+@keyframes circleSpin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dotSpin {
+    50% {
+        transform: translateY(-50%) rotate(45deg);
+    }
+    100% {
+        transform: translateY(-50%) rotate(225deg);
+    }
+}

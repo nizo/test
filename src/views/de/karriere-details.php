@@ -154,7 +154,7 @@ if (empty ($job))
     </div>
 </div>
 
-<div class="section section--light-grey-green">
+<div class="section section--light-grey-green section--overflow-protection">
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">

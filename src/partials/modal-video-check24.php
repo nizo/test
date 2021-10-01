@@ -9,18 +9,18 @@
         <div class="content wide" style="padding: 0;">
         	<div class="shadow-box">
         		<div class="video">
-                  <video controls preload="none" id="videoCheck24" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/poster-video-client-check24-550x309.jpg" class="trackedElement lazyPoster" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" onclick="this.play();">
-                    <source src="/assets/videos/Callone-Casestudy-Check24-720p.webm" type="video/webm">
-                    <source src="/assets/videos/Callone-Casestudy-Check24-720p.mp4" type="video/mp4">
-                  </video>
-                </div>
-    		</div>
+              <video controls preload="none" id="videoCheck24" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/poster-video-client-check24-550x309.jpg" class="trackedElement lazyPoster" data-label="Casestudy Check24" data-category="Video" data-action="Play Video" onclick="this.play();">
+                <source src="/assets/videos/Callone-Casestudy-Check24-720p.webm" type="video/webm">
+                <source src="/assets/videos/Callone-Casestudy-Check24-720p.mp4" type="video/mp4">
+              </video>
+            </div>
+    		  </div>
       	</div>
         <script>
-          videos = document.querySelectorAll("#videoCheck24"); 
-          for(video of videos) {
-            video.pause(); 
-          }
+          // videos = document.querySelectorAll("#videoCheck24"); 
+          // for(video of videos) {
+          //   video.pause(); 
+          // }
         </script>
     </div>
   </div>

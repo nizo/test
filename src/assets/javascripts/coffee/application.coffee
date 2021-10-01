@@ -148,6 +148,10 @@ app =
 
     # Toggle Boxes
     $(document).on 'click', '.toggle-box label', (e) ->
+      $('.toggle-box').each (i, box) =>
+        if box != e.currentTarget.parentNode
+          $('.toggle-box__content', box).slideUp();
+          $('input', box).prop('checked', false);
       $(this).parent().find('.toggle-box__content').slideToggle()
 
   # autoplay_videos: ->

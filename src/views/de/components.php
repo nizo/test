@@ -1,45 +1,3 @@
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-    "@type": "Question",
-    "name": "What is the return policy?",
-    "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<p>Most unopened items in new condition and returned within <strong>90 days</strong> will receive a refund or exchange. Some items have a modified return policy noted on the receipt or packing slip. Items that are opened or damaged or do not have a receipt may be denied a refund or exchange. Items purchased online or in-store may be returned to any store.</p><p>Online purchases may be returned via a major parcel carrier. <a href=http://example.com/returns> Click here </a> to initiate a return.</p>"
-    }
-    }, {
-    "@type": "Question",
-    "name": "How long does it take to process a refund?",
-    "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We will reimburse you for returned items in the same way you paid for them. For example, any amounts deducted from a gift card will be credited back to a gift card. For returns by mail, once we receive your return, we will process it within 4–5 business days. It may take up to 7 days after we process the return to reflect in your account, depending on your financial institution's processing time."
-    }
-    }, {
-    "@type": "Question",
-    "name": "What is the policy for late/non-delivery of items ordered online?",
-    "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<p>Our local teams work diligently to make sure that your order arrives on time, within our normaldelivery hours of 9AM to 8PM in the recipient's time zone. During  busy holiday periods like Christmas, Valentine's and Mother's Day, we may extend our delivery hours before 9AM and after 8PM to ensure that all gifts are delivered on time. If for any reason your gift does not arrive on time, our dedicated Customer Service agents will do everything they can to help successfully resolve your issue.</p><p><a href=https://example.com/orders/>Click here</a> to complete the form with your order-related question(s).</p>"
-    }
-    }, {
-    "@type": "Question",
-    "name": "When will my credit card be charged?",
-    "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We'll attempt to securely charge your credit card at the point of purchase online. If there's a problem, you'll be notified on the spot and prompted to use another card. Once we receive verification of sufficient funds, your payment will be completed and transferred securely to us. Your account will be charged in 24 to 48 hours."
-    }
-    }, {
-    "@type": "Question",
-    "name": "Will I be charged sales tax for online orders?",
-    "acceptedAnswer": {
-        "@type": "Answer",
-        "text":"Local and State sales tax will be collected if your recipient's mailing address is in: <ul><li>Arizona</li><li>California</li><li>Colorado</li></ul>"}
-    }]
-}
-</script>
-
 <div class="components">
     <h1>CallOne Components</h1>
 
@@ -51,9 +9,9 @@
     </div>
 
     <!-- Template -->
-    <!-- <div class="components__item">
+    <!-- <div class="components__item" id="id">
         <div class="components__docs">
-            <h1>Title</h1>
+            <h1><a href="#id">Title</a></h1>
             <p>Description</p>
         </div>
         <div class="components__preview">
@@ -64,9 +22,9 @@
     </div> -->
 
     <!-- Agenda -->
-    <div class="components__item">
+    <div class="components__item" id="agenda">
         <div class="components__docs">
-            <h1>Agenda</h1>
+            <h1><a href="#agenda">Agenda</a></h1>
             <p>The agenda is mainly used inside modals.</p>
         </div>
         <div class="components__preview">
@@ -131,9 +89,9 @@
     </div>
 
     <!-- Alterbox -->
-    <div class="components__item">
+    <div class="components__item" id="alertbox">
         <div class="components__docs">
-            <h1>Alertbox</h1>
+            <h1><a href="#alertbox">Alertbox</a></h1>
             <p>A little alert box to show important information.</p>
         </div>
         <div class="components__preview">
@@ -147,9 +105,9 @@
     </div>
 
     <!-- Anchors -->
-    <div class="components__item">
+    <div class="components__item" id="anchors">
         <div class="components__docs">
-            <h1>Anchor Buttons</h1>
+            <h1><a href="#anchors">Anchor Buttons</a></h1>
             <p>A row of anchor buttons with title message for easy access of multiple sections on a page.</p>
         </div>
         <div class="components__preview">
@@ -168,10 +126,35 @@
         </div>
     </div>
 
-    <!-- Buttons -->
-    <div class="components__item">
+    <!-- Atomic Loader -->
+    <div class="components__item" id="atomic-loader">
         <div class="components__docs">
-            <h1>Buttons</h1>
+            <h1><a href="#atomic-loader">Atomic Loader</a></h1>
+            <p>Loading animation.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.atomic-loader--hidden</code>: Hides loader</li>
+            </ul>
+        </div>
+        <div class="components__preview" style="background-color: black;">
+            <div>
+                <div class="atomic-loader">
+                    <div class="atomic-loader__circle"></div>
+                    <div class="atomic-loader__dots">
+                        <div class="atomic-loader__dot"></div>
+                        <div class="atomic-loader__dot"></div>
+                        <div class="atomic-loader__dot"></div>
+                        <div class="atomic-loader__dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="components__item" id="buttons">
+        <div class="components__docs">
+            <h1><a href="#buttons">Buttons</a></h1>
             <p>We have multiple types of buttons and some modifiers that can change the overall behaviour of buttons.</p>
             <p><strong>Types:</strong></p>
             <ul>
@@ -224,9 +207,9 @@
     </div>
 
     <!-- Calendar -->
-    <div class="components__item">
+    <div class="components__item" id="calendar">
         <div class="components__docs">
-            <h1>Calendar</h1>
+            <h1><a href="#calendar">Calendar</a></h1>
             <p>The calendar is used inside modals eg. appointment booking. Code mainly generated by using PHP, please check the source of this file.</p>
         </div>
         <div class="components__preview">
@@ -329,10 +312,104 @@
         </div>
     </div>
 
-    <!-- Cards -->
-    <div class="components__item">
+    <!-- Carddeck -->
+    <div class="components__item" id="carddeck">
         <div class="components__docs">
-            <h1>Cards / Card</h1>
+            <h1><a href="#carddeck">Carddeck</a></h1>
+            <p>Carddeck Animation to cycle through multiple cards. Carddecks need a minimum of 4 cards.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.carddeck--no-indicators</code>: Removes indicators</li>
+                <li><code>data-speed="2000"</code>: Speed to cycle through cards in ms</li>
+            </ul>
+        </div>
+        <style>
+            .carddeck-component .carddeck + .carddeck {
+                margin-top: 30px;
+            }
+        </style>
+        <div class="components__preview carddeck-component">
+            <div>
+                <div class="carddeck" data-speed="2500">
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 4</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                </div>
+
+                <div class="carddeck carddeck--right" data-speed="5000">
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 4</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 5</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 6</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 7</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                </div>
+
+                <div class="carddeck carddeck--no-indicators" data-speed="4000">
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h2>Lorem, ipsum dolor. 4</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="components__item" id="cards">
+        <div class="components__docs">
+            <h1><a href="#cards">Cards / Card</a></h1>
             <p>Simple cards. Single cards are best used inside grids.</p>
         </div>
         <div class="components__preview">
@@ -385,9 +462,9 @@
     </div>
 
     <!-- Card Link -->
-    <div class="components__item">
+    <div class="components__item" id="card-link">
         <div class="components__docs">
-            <h1>Card Link</h1>
+            <h1><a href="#card-link">Card Link</a></h1>
             <p>A link styled as a card with icons, title and subtitle.</p>
             <p><strong>Files:</strong></p>
             <ul>
@@ -408,10 +485,89 @@
         </div>
     </div>
 
-    <!-- Custom Select / Dropdown -->
-    <div class="components__item">
+    <!-- Content Box -->
+    <div class="components__item" id="content-box">
         <div class="components__docs">
-            <h1>Custom Select / Dropdown</h1>
+            <h1><a href="#content-box">Content-Box</a></h1>
+            <p>Content box that can contain other content.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.content-box--white</code>: White box to use on dark backgrounds</li>
+                <li><code>.content-box--wide</code>: Wider version</li>
+                <li><code>.content-box--small-padding</code>: Box with reduced padding on all sides</li>
+            </ul>
+        </div>
+        <style>
+            .content-box-component {
+                background-image: linear-gradient(#000, #000);
+                background-repeat: no-repeat;
+                background-size: 100% 50%;
+                background-position: center bottom;
+            }
+        </style>
+        <div class="components__preview content-box-component">
+            <div>
+                <div class="content-box content-box--shadow">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et repellat dolorem consequuntur, possimus quaerat maiores quos aut a exercitationem molestias.</p>
+                </div>
+                <div class="content-box content-box--white">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et repellat dolorem consequuntur, possimus quaerat maiores quos aut a exercitationem molestias.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Contact -->
+    <div class="components__item" id="cta-contact">
+        <div class="components__docs">
+            <h1><a href="#cta-contact">Call-To-Action: Contact</a></h1>
+            <p>Call-To-Action section for general contact.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="cta-contact">
+                    <h2 class="centered">Lassen Sie uns miteinander reden!</h2>
+                    <p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
+
+                    <div class="co-grid">
+                        <div class="co-grid__col co-grid__col--4-xs">
+                            <img src="/assets/images/icons_svg/first-call.svg" alt="" />
+                            <h4>
+                                <span>Schritt 1</span><br />
+                                Erstgespräch
+                            </h4>
+                            <p>Kein Verkaufsgespräch, sondern Austausch.</p>
+                        </div>
+                        <div class="co-grid__col co-grid__col--4-xs">
+                            <img src="/assets/images/icons_svg/presentation.svg" alt="" />
+                            <h4>
+                                <span>Schritt 2</span><br />
+                                Showcase
+                            </h4>
+                            <p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
+                        </div>
+                        <div class="co-grid__col co-grid__col--4-xs">
+                            <img src="/assets/images/icons_svg/team-dark.svg" alt="" />
+                            <h4>
+                                <span>Schritt 3</span><br />
+                                Lösungsfindung
+                            </h4>
+                            <p>Wir passen individuelles Lösungsangebot auf Sie zu.</p>
+                        </div>
+                    </div>
+
+                    <p>
+                        <a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Select / Dropdown -->
+    <div class="components__item" id="dropdown">
+        <div class="components__docs">
+            <h1><a href="#dropdown">Custom Select / Dropdown</a></h1>
             <p>Custom selects are simply normal html select elements with the data attribute "data-callone-select". The first option has to have an empty value and is used as the label that is displayed when nothing is selected.</p>
             <p><strong>Selector:</strong></p>
             <ul>
@@ -436,9 +592,9 @@
     </div>
 
     <!-- Fade Box -->
-    <div class="components__item">
+    <div class="components__item" id="fadebox">
         <div class="components__docs">
-            <h1>Fade Box</h1>
+            <h1><a href="#fadebox">Fade Box</a></h1>
             <p>Box with fading background.</p>
             <p><strong>Modifiers:</strong></p>
             <ul>
@@ -455,16 +611,45 @@
         </div>
     </div>
 
-    <!-- Floating Form -->
-    <div class="components__item">
+    <!-- Fader -->
+    <div class="components__item" id="fader">
         <div class="components__docs">
-            <h1>Floating Form</h1>
+            <h1><a href="#fader">Fader</a></h1>
+            <p>Simple fader to cycle between content.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="fader">
+                    <div class="fader__item">
+                        <h3>Lorem, ipsum dolor 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!</p>
+                    </div>
+                    <div class="fader__item">
+                        <h3>Lorem, ipsum dolor 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!</p>
+                    </div>
+                    <div class="fader__item">
+                        <h3>Lorem, ipsum dolor 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Form -->
+    <div class="components__item" id="floatingform">
+        <div class="components__docs">
+            <h1><a href="#floatingform">Floating Form</a></h1>
             <p>Floating forms are form elements that contain labels that "float" when the corresponding input is focused/filled.</p>
             <p><strong>Elements:</strong></p>
             <ul>
                 <li>Row <code>.floating-form__row</code></li>
                 <li>Column <code>.floating-form__col</code></li>
                 <li>Form Field <code>.floating-form__field</code></li>
+                <li><code>.floating-form__field--short</code>: Short field for numbers for example</li>
+                <li><code>.floating-form__icon</code>: Can be used inside row before field to display an icon</li>
+                <li><code>.floating-form__description</code>: Can be used inside row after field to display field description</li>
             </ul>
             <p><strong>Files:</strong></p>
             <ul>
@@ -506,9 +691,9 @@
     </div>
 
     <!-- Grid -->
-    <div class="components__item">
+    <div class="components__item" id="grid">
         <div class="components__docs">
-            <h1>Grid System</h1>
+            <h1><a href="#grid">Grid System</a></h1>
             <p>A simple grid system that uses multiple breakpoints and gutters. It stretches to the full width of its container and has gutters inbetween the columns/rows.</p>
             <p><strong>Breakpoints:</strong></p>
             <ul>
@@ -545,9 +730,9 @@
     </div>
 
     <!-- Hero / Header -->
-    <div class="components__item">
+    <div class="components__item" id="hero">
         <div class="components__docs">
-            <h1>Hero / Header Area</h1>
+            <h1><a href="#hero">Hero / Header Area</a></h1>
             <p>Hero / Header Area to use as a page entry. It consists of text and image/media side by side.</p>
         </div>
         <div class="components__preview">
@@ -566,9 +751,9 @@
     </div>
 
     <!-- Icons -->
-    <div class="components__item">
+    <div class="components__item" id="icons">
         <div class="components__docs">
-            <h1>Icons</h1>
+            <h1><a href="#icons">Icons</a></h1>
             <p>Various icons that can be used by CSS classes.</p>
         </div>
         <div class="components__preview">
@@ -580,9 +765,9 @@
     </div>
 
     <!-- Infinity Scroller -->
-    <div class="components__item">
+    <div class="components__item" id="infinity-scroller">
         <div class="components__docs">
-            <h1>Infinity Scroller</h1>
+            <h1><a href="#infinity-scroller">Infinity Scroller</a></h1>
             <p>The infinity scroller is a special element that scrolls its contents, as the name suggests, infinitely. Both directions are possible. Default direction is scrolling upwards, it can be reversed by setting the data attribute "data-reversed". To make sure the scroller can be displayed it has to get a size by setting the data attribute "data-height".</p>
             <p><strong>Modifiers:</strong></p>
             <ul>
@@ -629,9 +814,9 @@
     </div>
 
     <!-- Job List -->
-    <div class="components__item">
+    <div class="components__item" id="joblist">
         <div class="components__docs">
-            <h1>Job List</h1>
+            <h1><a href="#joblist">Job List</a></h1>
             <p>Listing of jobs.</p>
         </div>
         <div class="components__preview">
@@ -661,9 +846,9 @@
     </div>
 
     <!-- Job Details -->
-    <div class="components__item">
+    <div class="components__item" id="jobdetails">
         <div class="components__docs">
-            <h1>Job Details</h1>
+            <h1><a href="#jobdetails">Job Details</a></h1>
             <p>A little element to display job details between two sections. Be careful, overlapping element.</p>
         </div>
         <div class="components__preview">
@@ -687,9 +872,9 @@
     </div>
     
     <!-- Job Quote -->
-    <div class="components__item">
+    <div class="components__item" id="jobquote">
         <div class="components__docs">
-            <h1>Job Quote</h1>
+            <h1><a href="#jobquote">Job Quote</a></h1>
             <p>Simple quote for job details.</p>
         </div>
         <div class="components__preview">
@@ -709,9 +894,9 @@
     </div>
 
     <!-- Lists -->
-    <div class="components__item">
+    <div class="components__item" id="lists">
         <div class="components__docs">
-            <h1>Lists</h1>
+            <h1><a href="#lists">Lists</a></h1>
         </div>
         <div class="components__preview">
             <div>
@@ -726,9 +911,9 @@
     </div>
 
     <!-- Modal via Click -->
-    <div class="components__item">
+    <div class="components__item" id="modal">
         <div class="components__docs">
-            <h1>Modal via Click</h1>
+            <h1><a href="#modal">Modal via Click</a></h1>
             <p>A modal can be created by adding <code>data-openmodal</code> to a button. Also create a <code>.callone-modal</code> element with <code>data-modal</code> having the same value to have them connected. There are other options below to make it a single modal or with steps.</p>
             <p>If no modal is specified in HTML, a modal file has to be placed inside <code>/partials/modals/[NAME].html</code>. [NAME] has to be the same identifier as placed in <code>data-openmodal</code> of the button.</p>
             <p><strong>Modal Button:</strong></p>
@@ -804,10 +989,43 @@
         </div>
     </div>
 
-    <!-- Person Display -->
+    <!-- Number Card -->
     <div class="components__item">
         <div class="components__docs">
-            <h1>Person Display</h1>
+            <h1>Number Card (Animated)</h1>
+            <p>Number cards. Animation is added by using the <code>.counting-number</code> class.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li>Add <code>style="--color:blue"</code> to <code>.number-card__number</code> to change the color.</li>
+            </ul>
+        </div>
+        <style>
+            .number-card-component .number-card + .number-card {
+                margin-top: 30px;
+            }
+        </style>
+        <div class="components__preview number-card-component">
+            <div>
+                <div class="number-card">
+                    <div class="number-card__number">
+                        <span class="counting-number" data-start="0" data-end="50" data-suffix="%">50%</span>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, laborum?
+                </div>
+                <div class="number-card">
+                    <div class="number-card__number" style="--color:blue">
+                        <span class="counting-number" data-start="0" data-end="50" data-suffix="%">50%</span>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, laborum?
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Person Display -->
+    <div class="components__item" id="persondisplay">
+        <div class="components__docs">
+            <h1><a href="#persondisplay">Person Display</a></h1>
         </div>
         <div class="components__preview">
             <div>
@@ -824,10 +1042,29 @@
         </div>
     </div>
 
-    <!-- Radio Select -->
-    <div class="components__item">
+    <!-- Quote -->
+    <div class="components__item" id="quote">
         <div class="components__docs">
-            <h1>Radio Select</h1>
+            <h1><a href="#quote">Quote</a></h1>
+            <p>Simple quotes.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <blockquote class="quote">
+                    This is the quote. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, asperiores!
+                </blockquote>
+                <p>
+                    <strong>Jack Smith</strong><br />
+                    CEO Company
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Radio Select -->
+    <div class="components__item" id="radio">
+        <div class="components__docs">
+            <h1><a href="#radio">Radio Select</a></h1>
             <p>Toggle buttons to choose from multiple options.</p>
         </div>
         <div class="components__preview">
@@ -855,9 +1092,9 @@
     </div>
 
     <!-- Range Slider -->
-    <div class="components__item">
+    <div class="components__item" id="range">
         <div class="components__docs">
-            <h1>Range Slider</h1>
+            <h1><a href="#range">Range Slider</a></h1>
             <p>The range slider is a simple input range element with some additional attributes. The slider is then initialized in javascript.</p>
             <p><strong>Attributes:</strong></p>
             <ul>
@@ -884,9 +1121,9 @@
     </div>
 
     <!-- Sections -->
-    <div class="components__item">
+    <div class="components__item" id="section">
         <div class="components__docs">
-            <h1>Section</h1>
+            <h1><a href="#section">Section</a></h1>
             <p>Sections are the wrapper element of all contents.</p>
             <p><strong>Section Modifiers:</strong></p>
             <ul>
@@ -898,6 +1135,7 @@
                 <li><code>.section--light-green-white-homeoffice</code>: Background</li>
                 <li><code>.section--dark-green-black</code>: Background</li>
                 <li><code>.section--black</code>: Background</li>
+                <li><code>.section--overflow-protection</code>: Avoid horizontal scrollbars for elements wider than the viewport (step-slider)</li>
             </ul>
             <p><strong>Section Content Modifiers:</strong></p>
             <ul>
@@ -931,9 +1169,9 @@
     </div>
 
     <!-- Split Box -->
-    <div class="components__item">
+    <div class="components__item" id="splitbox">
         <div class="components__docs">
-            <h1>Split Box</h1>
+            <h1><a href="#splitbox">Split Box</a></h1>
         </div>
         <div class="components__preview">
             <div>
@@ -953,9 +1191,9 @@
     </div>
 
     <!-- Step Slider -->
-    <div class="components__item">
+    <div class="components__item" id="stepslider">
         <div class="components__docs">
-            <h1>Step Slider</h1>
+            <h1><a href="#stepslider">Step Slider</a></h1>
             <p>Slider for multiple steps.</p>
             <p><strong>Modifiers:</strong></p>
             <ul>
@@ -1014,9 +1252,9 @@
     </div>
 
     <!-- Tab List -->
-    <div class="components__item">
+    <div class="components__item" id="tablist">
         <div class="components__docs">
-            <h1>Tab List</h1>
+            <h1><a href="#tablist">Tab List</a></h1>
             <p>Use multiple tabs to switch through content blocks.</p>
         </div>
         <div class="components__preview">
@@ -1047,10 +1285,24 @@
         </div>
     </div>
 
-    <!-- Team -->
-    <div class="components__item">
+    <!-- Tag -->
+    <div class="components__item" id="tag">
         <div class="components__docs">
-            <h1>Team</h1>
+            <h1><a href="#tag">Tag</a></h1>
+            <p>Tag above text or headlines.</p>
+        </div>
+        <div class="components__preview">
+            <div>
+                <div class="tag"><img src="/assets/images/icons_svg/callone-logo-white.svg" alt="">CallOne</div>
+                <h1>Lorem, ipsum dolor.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div class="components__item" id="team">
+        <div class="components__docs">
+            <h1><a href="#team">Team</a></h1>
             <p>Team display.</p>
         </div>
         <div class="components__preview" style="background:#000;color:#fff">
@@ -1152,9 +1404,9 @@
     </div>
 
     <!-- Toggle Box -->
-    <div class="components__item">
+    <div class="components__item" id="togglebox">
         <div class="components__docs">
-            <h1>Toggle Box</h1>
+            <h1><a href="#togglebox">Toggle Box</a></h1>
             <p>Boxes that toggle on click.</p>
         </div>
         <div class="components__preview">

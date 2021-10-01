@@ -10,7 +10,7 @@
 
     &__text {
         width: 100%;
-        max-width: 570px;
+        max-width: 670px;
         h1 {
             font-family: $font-copy;
             font-weight: normal;
@@ -42,6 +42,14 @@
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .hero {
+        &__image {
+            max-width: 330px;
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .hero {
         flex-direction: column;
@@ -49,6 +57,10 @@
         &__text {
             order: 2;
             max-width: 100%;
+
+            h1 {
+                font-size: 30px;
+            }
         }
         &__image {
             order: 1;

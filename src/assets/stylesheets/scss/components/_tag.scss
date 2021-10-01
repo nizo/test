@@ -1,0 +1,21 @@
+.tag {
+    --color: #fff;
+    --bg: #b3b3b3;
+
+    padding: 0 8px;
+    line-height: 27px;
+    font-family: $font-headline;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 18px;
+    background-color: var(--bg);
+    color: var(--color);
+    display: table;
+    margin-bottom: 15px;
+
+    img {
+        height: 14px;
+        display: inline-block;
+        margin-right: 8px;
+    }
+}

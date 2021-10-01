@@ -1,5 +1,16 @@
 .icon-location,
-.icon-home {
+.icon-home,
+.icon-phone-ms-teams,
+.icon-voip-telefonanlage,
+.icon-rufnummern,
+.icon-schnittstellen,
+.icon-connectors,
+.icon-automation,
+.icon-queue,
+.icon-statistics,
+.icon-roi-indicator,
+.icon-attention,
+.icon-callone-white {
     white-space: nowrap;
     &:before {
         content: '';
@@ -7,7 +18,7 @@
         vertical-align: middle;
         width: 1.5em;
         height: 1.5em;
-        margin-right: 0.5em;
+        margin-right: 1em;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -20,4 +31,48 @@
 
 .icon-home:before {
     background-image: url(../images/icons_svg/home.svg);
+}
+
+.icon-phone-ms-teams:before {
+    background-image: url(../images/icons_svg/msteams-icon.svg);
+}
+
+.icon-voip-telefonanlage:before {
+    background-image: url(../images/icons_svg/voip-telefonanlage.svg);
+}
+
+.icon-rufnummern:before {
+    background-image: url(../images/icons_svg/rufnummern-icon.svg);
+}
+
+.icon-schnittstellen:before {
+    background-image: url(../images/icons_svg/schnittstellen-icon.svg);
+}
+
+.icon-connectors:before {
+    background-image: url(../images/icons_svg/connectors.svg);
+}
+
+.icon-automation:before {
+    background-image: url(../images/icons_svg/automation.svg);
+}
+
+.icon-queue:before {
+    background-image: url(../images/icons_svg/queue.svg);
+}
+
+.icon-statistics:before {
+    background-image: url(../images/icons_svg/statistics.svg);
+}
+
+.icon-roi-indicator:before {
+    background-image: url(../images/icons_svg/roi-indicator.svg);
+}
+
+.icon-attention:before {
+    background-image: url(../images/icons_svg/attention.svg);
+}
+
+.icon-callone-white:before {
+    background-image: url(../images/icons_svg/callone-logo-white.svg);
 }

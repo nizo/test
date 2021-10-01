@@ -103,6 +103,9 @@
 		&:hover {
 			color: $color-primary;
 		}
+		&.btn--arrow-right:after {
+			filter: invert(1);
+		}
 	}
 	
 	&--centered {
@@ -121,18 +124,18 @@
 	&--arrow-right {
 		position: relative;
 		text-align: left;
-		padding-right: 70px !important;
+		padding-right: 84px !important;
 		&:after {
 			content: "";
 			position: absolute;
 			right: 40px;
-			top: calc(50% - 12px);
+			top: calc(50% - 7px);
 			background-image: url(../images/icons_svg/forward-arrow-icon.svg);
-			background-size: cover;
+			background-size: 14px;
 			background-position: center;
 			background-repeat: no-repeat;
-			width: 24px;
-			height: 24px;
+			width: 14px;
+			height: 14px;
 			vertical-align: middle;
 			transition: all .3s ease;
 		}
@@ -169,6 +172,11 @@
 		display: inline-block;
 		vertical-align: middle;
 		transition: all .3s ease;
+	}
+
+	&--disabled, &:disabled, &[disabled] {
+		opacity: 0.5;
+		cursor: not-allowed;
 	}
 }
 

@@ -1,0 +1,22 @@
+.quote {
+    font-family: $font-copy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 1.5;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 30px;
+
+    &:before, &:after {
+        display: none;
+    }
+
+    &+p {
+        font-size: 20px;
+        strong {
+            font-family: $font-headline;
+            font-weight: normal;
+        }
+    }
+}
