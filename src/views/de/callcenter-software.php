@@ -8,7 +8,7 @@ $product->structured_data_get_code ();
 $faqs = new faqs ();
 $faqs->faq_add (
 	'Wie schnell kann die Callcenter-Lösung für uns bereitstehen?',
-	'<p>Grundsätzlich sind wir ein kleines Team von Spezialisten und können Ihre individuellen Anforderungen sehr rasch umsetzen. Dies ist wohl auch einer der zentralen Vorteile bei einer Zusammenarbeit mit uns: Die Cloud Software sowie unser Service stehen Ihnen direkt und auch sehr kurzfristig zur Verfügung und flexible Anpassungen auf Ihre Bedürfnisse sind jederzeit möglich. Außerdem sind sowohl Callcenter-Software als auch die IP-Telefonanlage extrem intuitiv und Sie können natürlich selbst eingreifen und nach Wunsch abändern.</p>'
+	'<p>Sehr schnell! Es kommt ein wenig darauf an, was Ihre Anforderungen sind. Individuelle Schnittstellenanbindungen dauern in der Regel immer ein wenig länger, doch grundsätzlich stehen unsere Callcenter Software Ihnen direkt und auch sehr kurzfristig zur Verfügung. Flexible Anpassungen auf Ihre Bedürfnisse sind dabie jederzeit möglich. Außerdem sind sowohl Callcenter-Software als auch die IP-Telefonanlage extrem intuitiv und Sie können natürlich selbst eingreifen und nach Wunsch abändern.​</p>'
 );
 $faqs->faq_add (
 	'Warum CallOne?',
@@ -171,7 +171,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer tablist__content--active" data-tab="1">
 				<h2 class="centered icon-connectors mobile-hidden">Schnittstellenanbindung</h2>
-				<p class="centered mobile-hidden">Unser System ist schnittstellenoffen. Für Sie bedeutet dies, dass sie Anrufe schneller, kundenfreundlicher und deutlich effizienter bearbeiten können indem sie ihre CRM, ERP, Ticketing oder BI-Lösung bei uns anbinden.</p>
+				<p class="centered mobile-hidden">Wir agieren schnittstellenoffen. Kundenanliegen können schneller bearbeitet werden, indem sie ihre bestehenden Businesslösungen anbinden.</p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -204,7 +204,7 @@ $faqs->faq_add (
 
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-11">
 							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
@@ -278,7 +278,7 @@ $faqs->faq_add (
 
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-21">
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
@@ -298,6 +298,13 @@ $faqs->faq_add (
 							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
 							<div class="toggle-box__content">
 								<p>Wir übergeben Ihnen Anrufernummer oder Kundennummer und Sie antworten mit allen relevanten Kundendaten, wahlweise implementiert in der CallOne Agentenmaske.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-23">
+							<label for="faq-24">Bring your own Bot</label>
+							<div class="toggle-box__content">
+								<p>Sie haben bereits eine KI im Einsatz? Prima, dann bringen Sie sie doch einfach mit. Mit unseren Schnittstellen bieten wir ausreichend Anbindungsmöglichkeiten.</p>
 							</div>
 						</div>
 						<p class="subtext">&nbsp;</p>
@@ -351,7 +358,7 @@ $faqs->faq_add (
 
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-31">
 							<label for="faq-31">Intelligente Routingfunktionen</label>
@@ -431,7 +438,7 @@ $faqs->faq_add (
 
 						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered mobile-hidden">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-41">
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
@@ -934,19 +941,19 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md">
 				<div class="carddeck carddeck--right carddeck--no-indicators" data-speed="2500">
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<h6 class="icon-roi-indicator">Erreichbare Enterprise Steigerungen</h6>
 						<p>> 33% Auslastung Ihrer Agents</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<h6 class="icon-roi-indicator">Erreichbare Fast Growing Steigerungen</h6>
 						<p>97% Erreichbarkeit im Tagesverlauf</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<h6 class="icon-roi-indicator">Erreichbare Mittelstand Steigerungen</h6>
 						<p>Halbierung der Wahlwiederholer</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Steigerungen</h6>
+						<h6 class="icon-roi-indicator">Ihre Erreichbare Steigerungen</h6>
 						<p>65% kürzere Wartedauer</p>
 					</div>
 				</div>
