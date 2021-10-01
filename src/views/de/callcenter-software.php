@@ -96,7 +96,7 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" style="margin:0" class="mobile-hidden" />
-						<h2 class="mobile-hidden">Lösungen für Ihr <br />gesamtes Unternehmen</h2>
+						<h2 class="mobile-hidden">Callcenter Software und Telefonielösungen für Ihr <br />gesamtes Unternehmen</h2>
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
@@ -104,7 +104,7 @@ $faqs->faq_add (
 							<div class="carddeck__card">
 								<h5><span class="icon-schnittstellen" style="font-size:28px;"></span>Schnittstellen</h5>
 								<br />
-								<p class="subtext">Fertige Apps oder API für die Anbindung an Ihre BI, Ticketing, CRM und alle anderen System, die mit Ihrer Telefonie sprechen sollten.</p>
+								<p class="subtext">Apps und API's für die Anbindung an Ihre BI, für Ticketing und CRM.</p>
 							</div>
 							<div class="carddeck__card">
 								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
@@ -119,7 +119,7 @@ $faqs->faq_add (
 							<div class="carddeck__card">
 								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
 								<br />
-								<p class="subtext">Ihre Telefonie in Microsoft Teams integriert.</p>
+								<p class="subtext">Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.</p>
 							</div>
 						</div>
 					</div>
@@ -516,7 +516,7 @@ $faqs->faq_add (
 		<div class="co-grid saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
 				<div class="content-box content-box--white">
-					<h3>Geben Sie und zwei Ihrer Kennzahlen</h3>
+					<h3>Geben Sie uns zwei Ihrer Kennzahlen</h3>
 					<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
 
 					<form action="#" method="post" class="floating-form saving-calculation__form">
