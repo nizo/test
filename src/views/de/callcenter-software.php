@@ -536,7 +536,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="calls" placeholder="10.000" autocomplete="off" />
+								<input type="text" id="mouseflow-calls" name="calls" placeholder="10.000" autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -549,7 +549,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" name="agents" placeholder="25" autocomplete="off" />
+								<input type="text" id="mouseflow-agents" name="agents" placeholder="25" autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -597,10 +597,9 @@ $faqs->faq_add (
 			<div class="saving-calculation__grid">
 				<div class="saving-calculation__overlay">
 					<h3>
-						Eine Rechnung die nur mit Ihren <br />
-						realistischen Unternehmenswerten aufgeht
+						Jetzt persönliches Einsparpotential berechnen
 					</h3>
-					<p>Füllen Sie Ihre Unternehmenswerte oben ein und erhalten Sie eine ungefähre Kalkulation Ihres effektiven Einsparpotenzials mit CallOne basierend auf Ihrem Anrufvolumen und Lorem Ipsum.</p>
+					<p>Wir berechnen Ihr individuelles Einsparpotential im Kundenservice. Mit nur zwei eingegebenen Werten erhalten Sie Ihr Ergebnis.</p>
 					<p><a href="#mehrwertrechner" class="btn btn--primary btn--centered">Jetzt Werte eintragen</a></p>
 				</div>
 
