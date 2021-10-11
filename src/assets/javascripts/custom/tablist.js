@@ -12,7 +12,7 @@ class Tablist {
 
         this.swipeStart = 0;
         this.addSwipeSupport();
-        window.addEventListener('resize', this.addSwipeSupport.bind(this), true);
+        // window.addEventListener('resize', this.addSwipeSupport.bind(this), true);
 
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
     }
