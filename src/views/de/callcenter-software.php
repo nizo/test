@@ -237,16 +237,16 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
-				<?php /* <p class="centered" style="margin-top: 150px;">
+				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
+				<p class="centered" style="margin-top: 100px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Konnektivität:</strong><br />
 						<br />
 					</span>
-					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+					<a href="/voip-api" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> */ ?>
+				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
@@ -311,16 +311,16 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
-				<?php /* <p class="centered" style="margin-top: 150px;">
+				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
+				<p class="centered" style="margin-top: 100px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Effizienz:</strong><br />
 						<br />
 					</span>
-					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+					<a href="/callcenter-bot" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> */ ?>
+				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
@@ -530,13 +530,16 @@ $faqs->faq_add (
 						<div class="floating-form__error">
 							<p>Fehler, bitte versuchen Sie es erneut.</p>
 						</div>
+						<div class="floating-form__hint">
+							<p>Bitte geben Sie Ihre persönlichen Kennzahlen ein um die mögliche Einsparung zu berechnen.</p>
+						</div>
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
 								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" id="mouseflow-calls" name="calls" placeholder="10.000" autocomplete="off" />
+								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -549,7 +552,7 @@ $faqs->faq_add (
 								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
-								<input type="text" id="mouseflow-agents" name="agents" placeholder="25" autocomplete="off" />
+								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off" />
 								<label></label>
 							</div>
 							<div class="floating-form__description">
@@ -557,7 +560,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<button class="floating-form__submit btn btn--full-width" disabled type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
+						<button class="floating-form__submit btn btn--full-width" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
 					</form>
 				</div>
 			</div>
@@ -589,7 +592,7 @@ $faqs->faq_add (
 
 			<h3>
 				Jährliche Ersparnis bis zu:<br />
-				<span>xxx.xxx.xxx €</span>
+				<span>_ _ _ . _ _ _ €</span>
 			</h3>
 
 			<h4>Aufschlüsselung des Einsparpotenzials</h4>
@@ -612,7 +615,7 @@ $faqs->faq_add (
 						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
-								<span class="total-ersparnis">?€</span>
+								<span class="total-ersparnis">_ _ . _ _ _ €</span>
 							</h6>
 
 							<div class="saving-calculation__details">
@@ -718,7 +721,7 @@ $faqs->faq_add (
 						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
-								<span class="total-ersparnis">?€</span>
+								<span class="total-ersparnis">_ _ . _ _ _ €</span>
 							</h6>
 
 							<div class="saving-calculation__details">
@@ -821,7 +824,7 @@ $faqs->faq_add (
 						<div class="saving-calculation__calculation">
 							<h6>
 								Ermöglicht bis zu:<br />
-								<span class="total-ersparnis">?€</span>
+								<span class="total-ersparnis">_ _ . _ _ _ €</span>
 							</h6>
 
 							<div class="saving-calculation__details">

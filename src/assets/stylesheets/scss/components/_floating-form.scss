@@ -282,13 +282,12 @@
         cursor: not-allowed;
     }
 
-    &__error {
+    &__error, &__hint {
         border-radius: 6px;
         display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: $color-red;
         padding: 10px;
         margin-bottom: 25px;
         text-align: center;
@@ -300,8 +299,14 @@
             font-size: 16px;
         }
     }
-    &__error--active {
+    &__error--active, &__hint--active {
         display: flex;
+    }
+    &__error {
+        background-color: $color-red;
+    }
+    &__hint {
+        background-color: rgba($color-blue, .4);
     }
 
     &__loader {

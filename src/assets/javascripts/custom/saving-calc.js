@@ -56,6 +56,8 @@ class Mehrwertrechner {
         this.form.addEventListener('submit', this.submitForm.bind(this));
         this.formError = this.form.querySelector('.floating-form__error');
         this.formErrorText = this.formError.querySelector('p');
+        this.formHint = this.form.querySelector('.floating-form__hint');
+        this.formHintText = this.formHint.querySelector('p');
         
         this.inputs = {
             calls: this.form.querySelector('[name="calls"]'),
@@ -72,9 +74,9 @@ class Mehrwertrechner {
         });
 
         
-        this.setDefaultFormValues();
-        this.calculate();
-        this.removeDefaultFormValues();
+        // this.setDefaultFormValues();
+        // this.calculate();
+        // this.removeDefaultFormValues();
     }
 
     setDefaultFormValues() {
@@ -88,21 +90,22 @@ class Mehrwertrechner {
 
     isInputValid() {
         this.formError.classList.remove('floating-form__error--active');
+        this.formHint.classList.remove('floating-form__hint--active');
         
         let calls = parseInt(this.inputs['calls'].value);
         let agents = parseInt(this.inputs['agents'].value);
-        
+
         if (isNaN(calls) || isNaN(agents)) {
-            this.formError.classList.add('floating-form__error--active');
-            this.formErrorText.textContent = 'Bitte geben Sie gültige Zahlen ein.';
+            this.formHint.classList.add('floating-form__hint--active');
+            this.formHintText.textContent = 'Bitte geben Sie Ihre persönlichen Kennzahlen ein um die mögliche Einsparung zu berechnen.';
             return false;
         }
-        if (calls < this.minCalls) {
+        if (calls < this.values.minCalls) {
             this.formError.classList.add('floating-form__error--active');
             this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 100 Anrufe eingetragen werden.';
             return false;
         }
-        if (agents < this.minAgents) {
+        if (agents < this.values.minAgents) {
             this.formError.classList.add('floating-form__error--active');
             this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 10 Agenten eingetragen werden.';
             return false;
