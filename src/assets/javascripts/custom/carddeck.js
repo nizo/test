@@ -3,7 +3,9 @@ class Carddeck {
         this.deck = deck;
         this.currentCard = 0;
         this.speed = parseInt(this.deck.dataset.speed) || 2000;
-        this.allCards = this.deck.querySelectorAll('.carddeck__card');
+        this.allCards = Array.from(this.deck.querySelectorAll('.carddeck__card'));
+        this.cardCount = this.allCards.length;
+        this.duplicateCards();
         this.wrapCardContent();
         this.cardSize = this.getCardSize();
         this.cards = this.initCards();
@@ -11,6 +13,7 @@ class Carddeck {
 
         this.deckInterval = setInterval(this.switch.bind(this), this.speed);
 
+        // Adjust certain things if a carddeck becomes visible for the first time
         respondToVisibility(this.deck, visible => {
             this.cardSize = this.getCardSize();
             this.cards.style.height = this.cardSize + 'px';
@@ -53,19 +56,30 @@ class Carddeck {
         
         return cards;
     }
+
+    duplicateCards() {
+        if (this.allCards.length < 4) {
+            this.allCards.forEach(card => {
+                this.allCards.push(card.cloneNode(true));
+            });
+            if (this.allCards.length < 4) {
+                this.duplicateCards();
+            }
+        }
+    }
     
     initIndicators() {
         let indicators = document.createElement('div');
         indicators.classList.add('carddeck__indicators');
         indicators.style.height = this.cardSize + 'px';
 
-        this.allCards.forEach((card, i) => {
+        for (let i = 0; i < this.cardCount; i++) {
             let indicator = document.createElement('div');
             indicator.classList.add('carddeck__indicator');
             if (i == 0)
                 indicator.classList.add('carddeck__indicator--active');
             indicators.appendChild(indicator);
-        });
+        }
 
         this.deck.appendChild(indicators);
 
@@ -124,7 +138,12 @@ class Carddeck {
 
         // Set indicator
         this.indicators.querySelector('.carddeck__indicator--active').classList.remove('carddeck__indicator--active');
-        let newIndicator = this.indicators.querySelectorAll('.carddeck__indicator')[this.currentCard];
+        let indicatorIndex = this.currentCard;
+        if (this.currentCard >= this.cardCount)
+            indicatorIndex -= this.cardCount;
+        if (this.cardCount == 1)
+            indicatorIndex = 0;
+        let newIndicator = this.indicators.querySelectorAll('.carddeck__indicator')[indicatorIndex];
         newIndicator.classList.add('carddeck__indicator--active');
     }
 }
