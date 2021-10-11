@@ -1,6 +1,7 @@
 class Tablist {
     constructor(el) {
         this.tablist = el;
+        this.tabLinksWrapper = this.tablist.querySelector('.tablist__links');
         this.tabLinks = this.tablist.querySelectorAll('.tablist__link');
         this.tabContents = this.tablist.querySelectorAll('.tablist__content');
         this.activeIndex = 0;
@@ -9,7 +10,40 @@ class Tablist {
         this.addArrowButtons();
         this.indicators = this.addIndicators();
 
+        this.swipeStart = 0;
+        this.addSwipeSupport();
+        window.addEventListener('resize', this.addSwipeSupport.bind(this), true);
+
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
+    }
+
+    addSwipeSupport() {
+        if (window.innerWidth <= 1170) {
+            this.tabLinksWrapper.addEventListener('touchstart', this.handleTouchstart.bind(this));
+            this.tabLinksWrapper.addEventListener('touchend', this.handleTouchend.bind(this));
+        } else {
+            this.tabLinksWrapper.removeEventListener('touchstart', this.handleTouchstart.bind(this));
+            this.tabLinksWrapper.removeEventListener('touchend', this.handleTouchend.bind(this));
+        }
+    }
+    handleTouchstart(e) {
+        let touch = e.touches[0] || e.changedTouches[0];
+        this.swipeStart = touch.clientX;
+    }
+    handleTouchend(e) {
+        let touch = e.touches[0] || e.changedTouches[0];
+        let diff = Math.abs(this.swipeStart - touch.clientX);
+
+        // At least swipe 50 pixels
+        if(diff > 50) {
+            if (this.swipeStart > touch.clientX) {
+                // Swipe left
+                this.nextTab();
+            } else {
+                // Swipe right
+                this.prevTab();
+            }
+        }
     }
 
     switchTab(e) {
