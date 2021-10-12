@@ -171,7 +171,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer tablist__content--active" data-tab="1">
 				<h2 class="centered icon-connectors mobile-hidden">Schnittstellenanbindung</h2>
-				<p class="centered mobile-hidden">Wir agieren schnittstellenoffen. Kundenanliegen können schneller bearbeitet werden, indem sie ihre bestehenden Businesslösungen anbinden.</p>
+				<p class="centered mobile-hidden">Wir agieren schnittstellenoffen. Kundenanliegen können schneller bearbeitet werden, indem sie ihre bestehenden Businesslösungen anbinden.<br /><br /></p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -202,7 +202,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -251,7 +251,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
 				<h2 class="centered icon-automation mobile-hidden">Automatisierung und KI</h2>
-				<p class="centered mobile-hidden">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
+				<p class="centered mobile-hidden">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.<br /><br /></p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -276,7 +276,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -325,7 +325,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
 				<h2 class="centered icon-queue mobile-hidden">Warteschleifenmanagement</h2>
-				<p class="centered mobile-hidden">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
+				<p class="centered mobile-hidden">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.<br /><br /></p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -356,7 +356,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -405,7 +405,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
 				<h2 class="centered icon-statistics mobile-hidden">Statistik & Datenanalyse</h2>
-				<p class="centered mobile-hidden">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analyse-möglichkeiten, die Sie vorher nicht für möglich hielten.</p>
+				<p class="centered mobile-hidden">Optimieren sie Ihre Prozesse datengestützt und reduzieren Kosten durch Analyse-möglichkeiten, die Sie vorher nicht für möglich hielten.<br /><br /></p>
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -436,7 +436,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -516,9 +516,12 @@ $faqs->faq_add (
 		</h1>
 
 		<p class="centered">
-		Wir stehen für messbare Effizienzsteigerungen <br />
-		und heben Einsparpotentiale im großen Stil.
+			Wir stehen für messbare Effizienzsteigerungen <br />
+			und heben Einsparpotentiale im großen Stil.
 		</p>
+
+		<br />
+		<br />
 
 		<div class="co-grid saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
@@ -1499,6 +1502,9 @@ $faqs->faq_add (
 		<div class="cta-contact">
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
 			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
+
+			<br />
+			<br />
 
 			<div class="co-grid">
 				<div class="co-grid__col co-grid__col--4-xs">

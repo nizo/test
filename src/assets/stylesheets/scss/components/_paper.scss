@@ -1,0 +1,30 @@
+/*
+ * Paper Component
+ *
+ * Similar to the content-box component but with
+ * multiple compartments and borders
+ */
+
+.paper {
+    border: 2px solid #E5E5E5;
+    border-radius: 10px;
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        &+.paper__row {
+            border-top: 2px solid #E5E5E5;
+        }
+    }
+
+    &__item {
+        flex: 1;
+        padding: 30px;
+
+        &+.paper__item {
+            border-left: 2px solid #E5E5E5;
+        }
+    }
+}

@@ -76,12 +76,16 @@
     font-style: normal;
 }
 
-.font-primary {
-	font-family: PxGroteskBold;
+.ff-headline, .font-primary {
+	font-family: 'Px Grotesk';
 }
 
-.font-secondary {
-	font-family: apercu;
+.ff-copy, .font-secondary {
+	font-family: 'apercu';
+}
+
+.fw400 {
+    font-weight: 400;
 }
 
 .fw500 {
