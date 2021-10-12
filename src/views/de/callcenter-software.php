@@ -8,7 +8,7 @@ $product->structured_data_get_code ();
 $faqs = new faqs ();
 $faqs->faq_add (
 	'Wie schnell kann die Callcenter-Lösung für uns bereitstehen?',
-	'<p>Sehr schnell! Es kommt ein wenig darauf an, was Ihre Anforderungen sind. Individuelle Schnittstellenanbindungen dauern in der Regel immer ein wenig länger, doch grundsätzlich stehen unsere Callcenter Software Ihnen direkt und auch sehr kurzfristig zur Verfügung. Flexible Anpassungen auf Ihre Bedürfnisse sind dabie jederzeit möglich. Außerdem sind sowohl Callcenter-Software als auch die IP-Telefonanlage extrem intuitiv und Sie können natürlich selbst eingreifen und nach Wunsch abändern.​</p>'
+	'<p>Sehr schnell! Es kommt ein wenig darauf an, was Ihre Anforderungen sind. Individuelle Schnittstellenanbindungen dauern in der Regel immer ein wenig länger, doch grundsätzlich stehen unsere Callcenter Software Ihnen direkt und auch sehr kurzfristig zur Verfügung. Flexible Anpassungen auf Ihre Bedürfnisse sind dabie jederzeit möglich. Außerdem sind sowohl Callcenter-Software als auch die IP-Telefonanlage extrem intuitiv und Sie können natürlich selbst eingreifen und nach Wunsch abändern.</p>'
 );
 $faqs->faq_add (
 	'Warum CallOne?',
@@ -68,7 +68,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section">
+<div class="section section--no-padding-top">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-hidden">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
 		<p class="centered mobile-hidden">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
@@ -207,30 +207,30 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-11">
-							<label for="faq-11">Intelligente Anrufsteuerung mittels API</label>
+							<label for="faq-11">Anrufsteuerung mittels Voice-API</label>
 							<div class="toggle-box__content">
-								<p>Steuern Anrufe gezielt mit Hilfe Ihres ERP oder CRM-System und unserer API, denn Sie wissen wer gerade bestellt hat und wir wer anruft.</p>
+								<p>Binden Sie Ihre bestehenden CRM-, ERP- oder Ticketingsysteme an und steuern sie damit gezielt eingehende Anrufe.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-12">
-							<label for="faq-12">Anruferinformationen wenn es klingelt</label>
+							<label for="faq-12">Alle Anruferinfos bei Gesprächsannahme</label>
 							<div class="toggle-box__content">
-								<p>Sparen Sie sich die Zeit den Anrufer den Anrufer aufwendig zu identifizieren. Dies erfolgt mit CallOne und Anbindung an Ihre Systeme automatisch.</p>
+								<p>Sparen Sie wertvolle Gesprächszeit und reichern Sie die Anruferinformationen mit Kundenname, Kundennummer oder einem Link in Ihr CRM-System an.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
 							<div class="toggle-box__content">
-								<p>Schnittstellen zur Übermittlung der Kundennummer oder Spracherkennung ermöglichen ein gezieltes Routing und schneller Fallbearbeitung.</p>
+								<p>Nutzen Sie unsere vielzähligen Möglichkeiten zur Anrufervorqaulifizierung: Eingabe und Übermittlung von Kunden- oder Bestellnummern, Echtzeit-Spracherkennung oder Text-to-Speech.</p>
 							</div>
 						</div>
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-14">
 							<label for="faq-14">Wählen ohne Tippen</label>
 							<div class="toggle-box__content">
-								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- ound Outboundtelefonie.</p>
+								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- und Outboundtelefonie.</p>
 							</div>
 						</div>
 						<p class="subtext">&nbsp;</p>
@@ -270,9 +270,9 @@ $faqs->faq_add (
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="counting-number" data-start="0" data-end="94">94%</span>
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="94">94%</span>
 								</div>
-								Kundenzufriedenheitsraten dank schnellerer Fallbearbeitung*
+								Kundenzufriedenheit dank schnellerer Fallbearbeitung*
 							</div>
 						</div>
 
@@ -517,7 +517,7 @@ $faqs->faq_add (
 
 		<p class="centered">
 		Wir stehen für messbare Effizienzsteigerungen <br />
-		und heben Einsparpotentiale im großen Stil.​
+		und heben Einsparpotentiale im großen Stil.
 		</p>
 
 		<div class="co-grid saving-calculation__form-grid">
@@ -941,21 +941,21 @@ $faqs->faq_add (
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md">
-				<div class="carddeck carddeck--right carddeck--no-indicators" data-speed="2500">
+				<div class="carddeck carddeck--right carddeck--no-indicators" data-speed="2500" style="padding-left: 60px !important;">
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Enterprise Steigerungen</h6>
+						<h6><span class="icon-roi-indicator"></span>Erreichbare Enterprise Steigerungen</h6>
 						<p>> 33% Auslastung Ihrer Agents</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Fast Growing Steigerungen</h6>
+						<h6><span class="icon-roi-indicator"></span>Erreichbare Fast Growing Steigerungen</h6>
 						<p>97% Erreichbarkeit im Tagesverlauf</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Erreichbare Mittelstand Steigerungen</h6>
+						<h6><span class="icon-roi-indicator"></span>Erreichbare Mittelstand Steigerungen</h6>
 						<p>Halbierung der Wahlwiederholer</p>
 					</div>
 					<div class="carddeck__card">
-						<h6 class="icon-roi-indicator">Ihre Erreichbare Steigerungen</h6>
+						<h6><span class="icon-roi-indicator"></span>Ihre Erreichbare Steigerungen</h6>
 						<p>65% kürzere Wartedauer</p>
 					</div>
 				</div>
@@ -1354,7 +1354,22 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--1-xs"></div>
 			<div class="co-grid__col co-grid__col--3-xs">
 				<div class="carddeck carddeck--no-indicators centered">
-				<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" />
+					</div>
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/logo-zendesk.svg" alt="" />
+					</div>
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Pipedrive.svg" alt="" />
+					</div>
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/Freshdesk.svg" alt="" />
+					</div>
+					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
+						<img src="/assets/images/client-logos/logo-salesforce.svg" alt="" />
+					</div>
+					<!-- <div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
 						<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" />
 					</div>
 					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
@@ -1371,7 +1386,7 @@ $faqs->faq_add (
 					</div>
 					<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
 						<img src="/assets/images/client-logos/Flaconi-Card.svg" alt="" />
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered"></div>
@@ -1386,7 +1401,7 @@ $faqs->faq_add (
 		<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto">
 			<div class="co-grid__col co-grid__col--5-xs right">
 				<h3>Fertige Konnektoren zu Ihren Lieblings-Apps</h3>
-				<p>Verbinden Sie gängige Ticketing, CRM-, Ticketing-, BI- oder ERP-Tools für effiziente und zielgerichtete Zusammenarbeit​.</p>
+				<p>Verbinden Sie gängige Ticketing, CRM-, Ticketing-, BI- oder ERP-Tools für effiziente und zielgerichtete Zusammenarbeit.</p>
 			</div>
 			<div class="co-grid__col co-grid__col--2-xs"></div>
 			<div class="co-grid__col co-grid__col--5-xs left">
