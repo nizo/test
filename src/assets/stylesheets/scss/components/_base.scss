@@ -1,4 +1,8 @@
+// Headlines
 h1 {
+    font-family: $font-copy;
+    font-size: 38px;
+    font-weight: 400;
     @media screen and (max-width: 30px) {
         font-size: 30px;
     }
@@ -37,9 +41,20 @@ h6 {
     }
 }
 
+// Text Modifications
 .bigtext {
     font-size: 20px;
 }
 .subtext {
     font-size: 14px;
+}
+
+// Links
+.inline-link {
+    font-family: $font-headline;
+    border-bottom: 2px solid $color-primary;
+    color: currentColor;
+    &:hover {
+        border-color: currentColor;
+    }
 }

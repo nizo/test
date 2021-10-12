@@ -100,7 +100,7 @@ $r->addRoute('GET', '/', function() {
   $title = 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern';
   $description = 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!';
   $keywords = 'Software,callone,callcenter,telefonanlage,voip,cloud,rufnummern,sales,kundenservice,Unternehmen,integration,api,schnittstellen,crm,telefonie,lösung,call,center';
-  $background = 'bg-index';
+  $background = '';
   $ogUrl = $GLOBALS['url'] . '/';
   require_once('./layouts/header.php');
   require_once('./views/de/index.php');
