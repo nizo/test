@@ -1,6 +1,8 @@
 class stepSlider {
     constructor(el) {
         this.dragging = false;
+        this.swiping = false;
+        this.currentOffset = 0;
         this.slider = el;
         if (this.slider.dataset.initialized && this.slider.dataset.initialized == 'true')
             return;
@@ -31,8 +33,17 @@ class stepSlider {
         }).bind(this), {passive: true});
         window.addEventListener('touchend', (e => {
             this.dragging = false;
+            this.swiping = false;
         }).bind(this), {passive: true});
         window.addEventListener('touchmove', this.drag.bind(this), {passive: true});
+        
+        // Swipe by Touch
+        this.steps.addEventListener('touchstart', (e => {
+            this.swiping = true;
+            let touch = e.touches[0] || e.changedTouches[0];
+            this.lastSwipePos = touch.clientX;
+        }).bind(this));
+        window.addEventListener('touchmove', this.swipe.bind(this), {passive: true});
     }
 
     setStepFirstActive() {
@@ -51,6 +62,61 @@ class stepSlider {
         let stepGutter = 30;
         let stepsWidth = (stepWidth * this.stepCount) + ((this.stepCount - 1) * stepGutter);
         this.steps.style.width = stepsWidth + 'px';
+    }
+
+    swipe(e) {
+        if (!this.swiping)
+            return false;
+        
+        let touch = e.touches[0] || e.changedTouches[0];
+        let currentSwipePos = touch.clientX;
+        let distance = Math.abs(this.lastSwipePos - currentSwipePos);
+        let box = this.slider.getBoundingClientRect();
+        let slider = this.steps.getBoundingClientRect();
+        let overflow = Math.abs(box.width - slider.width);
+
+        if (this.lastSwipePos > currentSwipePos) {
+            // Swipe Left / Move Slider backwards
+            this.currentOffset += distance;
+            if (this.currentOffset > overflow)
+                this.currentOffset = overflow;
+        } else {
+            // Swipe Right / Move slider forwards
+            this.currentOffset -= distance;
+            if (this.currentOffset < 0)
+                this.currentOffset = 0;
+        }
+        this.steps.style.transform = 'translateX(-' + this.currentOffset + 'px)';
+        this.lastSwipePos = currentSwipePos;
+
+        // Handle
+        let progress = 100 / overflow * this.currentOffset;
+        this.handle.style.left = progress + '%';
+
+        // Active Step
+        let activeStep = Math.floor(progress / (100 / this.stepCount));
+        if (activeStep >= this.stepCount)
+            activeStep = this.stepCount - 1;
+        this.allSteps.forEach((step, i) => {
+            if (step.classList.contains('step-slider__step--active')) {
+                step.classList.remove('step-slider__step--active');
+                let stepImage = step.querySelector('img[data-alt-image]');
+                if (stepImage) {
+                    let currentImageSource = stepImage.src;
+                    stepImage.src = stepImage.dataset.altImage;
+                    stepImage.dataset.altImage = currentImageSource;
+                }
+            }
+            if (i == activeStep) {
+                step.classList.add('step-slider__step--active');
+                let stepImage = step.querySelector('img[data-alt-image]');
+                if (stepImage) {
+                    let currentImageSource = stepImage.src;
+                    stepImage.src = stepImage.dataset.altImage;
+                    stepImage.dataset.altImage = currentImageSource;
+                }
+            }
+        });
     }
 
     drag(e) {
@@ -98,6 +164,7 @@ class stepSlider {
                 }
             }
         });
+        this.currentOffset = shift;
         this.steps.style.transform = 'translateX(-' + shift + 'px)';
     }
 
