@@ -58,6 +58,9 @@ class Mehrwertrechner {
         this.formErrorText = this.formError.querySelector('p');
         this.formHint = this.form.querySelector('.floating-form__hint');
         this.formHintText = this.formHint.querySelector('p');
+
+        this.overlay = this.element.querySelector('.saving-calculation__overlay');
+        this.overlayButton = this.overlay.querySelector('.saving-calculation__overlay-button');
         
         this.inputs = {
             calls: this.form.querySelector('[name="calls"]'),
@@ -71,6 +74,11 @@ class Mehrwertrechner {
         this.inputs.agents.addEventListener('keyup', e => {
             this.inputs.agents.value = this.inputs.agents.value.replace(/\D/, '');
             this.form.querySelector('.floating-form__submit').disabled = false;
+        });
+
+        // Focus first form input when overlay button is clicked
+        this.overlayButton.addEventListener('click', e => {
+            this.inputs.calls.focus();
         });
 
         

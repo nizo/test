@@ -603,7 +603,7 @@ $faqs->faq_add (
 						Jetzt persönliches Einsparpotential berechnen
 					</h3>
 					<p>Wir berechnen Ihr individuelles Einsparpotential im Kundenservice. Mit nur zwei eingegebenen Werten erhalten Sie Ihr Ergebnis.</p>
-					<p><a href="#mehrwertrechner" class="btn btn--primary btn--centered">Jetzt Werte eintragen</a></p>
+					<p><a href="#mehrwertrechner" class="btn btn--primary btn--centered saving-calculation__overlay-button">Jetzt Werte eintragen</a></p>
 				</div>
 
 				<div class="co-grid" style="--gutter:10px">
