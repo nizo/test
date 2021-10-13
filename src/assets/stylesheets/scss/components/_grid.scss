@@ -52,6 +52,9 @@
             margin-bottom: 0;
         }
     }
+    &__col--fill {
+        flex: 1;
+    }
     &__col--vcentered {
         display: flex;
         flex-direction: column;

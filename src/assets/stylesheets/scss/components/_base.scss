@@ -49,6 +49,12 @@ h6 {
     font-size: 14px;
 }
 
+// Boxes
+.left-border {
+    border-left: 4px solid $color-primary;
+    padding-left: 18px;
+}
+
 // Links
 .inline-link {
     font-family: $font-headline;
