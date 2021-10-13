@@ -81,7 +81,7 @@
 
             <div class="tablist__content paper" data-tab="1">
                 <div class="paper__row">
-                    <div class="paper__item co-grid">
+                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--6-xs">
                             <div class="tag">
                                 <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
@@ -99,7 +99,7 @@
                 </div>
                 <div class="paper__row">
                     <div class="paper__item">
-                        <div class="co-grid">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/business-full-package.svg" alt="" />
                             </div>
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="paper__item">
-                        <div class="co-grid">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/personal-contacts.png" alt="" />
                             </div>
@@ -125,7 +125,7 @@
 
             <div class="tablist__content paper" data-tab="2">
                 <div class="paper__row">
-                    <div class="paper__item co-grid">
+                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--6-xs">
                             <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
                             <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="paper__row">
-                    <div class="paper__item co-grid">
+                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                             <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
                             <h3 style="margin-top:15px">
