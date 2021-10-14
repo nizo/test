@@ -217,8 +217,12 @@ $uniqueID = uniqid();
             let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
             var formFields = new FormData();
             formFields.set('type', 2);
-            for (var i = 0; i < path.length; i++) {
-                formFields.append('path[]', path[i]);
+            if (Array.isArray(path)) {
+                for (var i = 0; i < path.length; i++) {
+                    formFields.append('path[]', path[i]);
+                }
+            } else {
+                formFields.append('path[]', 'Unbekannt');
             }
             formFields.set('employees', document.getElementById('workers<?= $uniqueID; ?>').value);
             formFields.set('issue', form.querySelector('select[name="issue"]').value);
