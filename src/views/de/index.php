@@ -48,7 +48,7 @@
         </div>
     </div>
     
-    <div class="section__content section__content--wide">
+    <div class="section__content section__content--wide" id="referenzen">
         <p class="centered bigtext">
             <span class="fw500">CallOne Kunden jeder Größe, haben ein Ziel:</span> <br />
             Überdurchschnittliche Kundenerlebnisse!
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <div class="section__content section__content--wide">
+    <div class="section__content section__content--wide" id="gruende">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1">
@@ -274,20 +274,211 @@
     </div>
 </div>
 
-<div class="section">
+<div class="section section--home-slider section--home-slider-1 section--home-slider-active" id="pakete">
     <div class="section__content section__content--wide">
-        <div class="co-grid">
+        <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--7-xs">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
                 <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
 
-                <p>TODO: Cards</p>
+                <div class="index-card">
+                    <div class="index-card__top">
+                        <div class="index-card__arrow index-card__arrow--left"></div>
+                        <div class="index-card__header">
+                            <div class="index-card__indicators">
+                                <div class="index-card__indicator index-card__indicator--active" style="--color:#FF002E"></div>
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator"></div>
+                            </div>
+                            <h6 class="index-card__title">Schnittstellen</h6>
+                        </div>
+                        <div class="index-card__arrow index-card__arrow--right"></div>
+                    </div>
+                    <div class="index-card__content index-card__content--active">
+                        <h3 class="centered">Kürzere und bessere Gespräche</h3>
+                        
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#FF002E;">
+                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+                                </div>
+                                weniger Kosten pro Kontakt durch gesteigerte FCR*
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#FF002E;">
+                                    <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
+                                </div>
+                                kürzere <br />Gesprächsdauern (AHT)*
+                            </div>
+                        </div>
+
+                        <p>
+                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        </p>
+
+                        <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section section--black-grey section--wave-animation">
+<div class="section section--home-slider section--home-slider-2">
+    <div class="section__content section__content--wide">
+        <div class="co-grid co-grid--no-margin-bottom">
+            <div class="co-grid__col co-grid__col--7-xs">
+                <h4>Callcenter Software Anbieter gibt es viele...</h4>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+
+                <div class="index-card">
+                    <div class="index-card__top">
+                        <div class="index-card__arrow index-card__arrow--left"></div>
+                        <div class="index-card__header">
+                            <div class="index-card__indicators">
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator index-card__indicator--active" style="--color:#FF7B1B;"></div>
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator"></div>
+                            </div>
+                            <h6 class="index-card__title">Automatisierung</h6>
+                        </div>
+                        <div class="index-card__arrow index-card__arrow--right"></div>
+                    </div>
+                    <div class="index-card__content index-card__content--active">
+                        <h3 class="centered">Kürzere und bessere Gespräche</h3>
+                        
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#FF7B1B;">
+                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
+                                </div>
+                                weniger Gesprächszeit für <br />Ihre Agent*innen​*
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#FF7B1B;">
+                                    <span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
+                                </div>
+                                kürzere IVR-Menüs durch <br />Spracherkennung​*
+                            </div>
+                        </div>
+
+                        <p>
+                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        </p>
+
+                        <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--home-slider section--home-slider-3">
+    <div class="section__content section__content--wide">
+        <div class="co-grid co-grid--no-margin-bottom">
+            <div class="co-grid__col co-grid__col--7-xs">
+                <h4>Callcenter Software Anbieter gibt es viele...</h4>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+
+                <div class="index-card">
+                    <div class="index-card__top">
+                        <div class="index-card__arrow index-card__arrow--left"></div>
+                        <div class="index-card__header">
+                            <div class="index-card__indicators">
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator index-card__indicator--active" style="--color:#DB00C5;"></div>
+                                <div class="index-card__indicator"></div>
+                            </div>
+                            <h6 class="index-card__title">Warteschleifen</h6>
+                        </div>
+                        <div class="index-card__arrow index-card__arrow--right"></div>
+                    </div>
+                    <div class="index-card__content index-card__content--active">
+                        <h3 class="centered">Kürzere und bessere Gespräche</h3>
+                        
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#DB00C5;">
+                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
+                                </div>
+                                bessere <br />Erreichbarkeit*
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#DB00C5;">
+                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
+                                </div>
+                                Verkürzung <br />der Wartezeit​*
+                            </div>
+                        </div>
+
+                        <p>
+                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        </p>
+
+                        <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--home-slider section--home-slider-4">
+    <div class="section__content section__content--wide">
+        <div class="co-grid co-grid--no-margin-bottom">
+            <div class="co-grid__col co-grid__col--7-xs">
+                <h4>Callcenter Software Anbieter gibt es viele...</h4>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+
+                <div class="index-card">
+                    <div class="index-card__top">
+                        <div class="index-card__arrow index-card__arrow--left"></div>
+                        <div class="index-card__header">
+                            <div class="index-card__indicators">
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator"></div>
+                                <div class="index-card__indicator index-card__indicator--active" style="--color:#0088EA;"></div>
+                            </div>
+                            <h6 class="index-card__title">Statistik</h6>
+                        </div>
+                        <div class="index-card__arrow index-card__arrow--right"></div>
+                    </div>
+                    <div class="index-card__content index-card__content--active">
+                        <h3 class="centered">Kürzere und bessere Gespräche</h3>
+                        
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#0088EA;">
+                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+                                </div>
+                                mehr Effizienz in <br />der Personalplanung*
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                                <div class="number-card__number" style="--color:#0088EA;">
+                                    <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
+                                </div>
+                                gesteigerte <br />Teamleistung​*
+                            </div>
+                        </div>
+
+                        <p>
+                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        </p>
+
+                        <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--black-grey section--wave-animation" id="kosten">
     <div class="section__content section__content--narrow">
         <h1 class="centered">Kundenbesessene Unternehmen <br />vertrauen auf CallOne</h1>
         <p class="centered">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
@@ -339,3 +530,37 @@
         </div>
     </div>
 </div>
+
+<script>
+    let homeSlides = document.querySelectorAll('.section--home-slider');
+    let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
+    let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
+    let currentSlide = 1;
+
+    nextSlideButtons.forEach(nextSlideButton => {
+        nextSlideButton.addEventListener('click', nextSlide);
+    });
+    prevSlideButtons.forEach(prevSlideButton => {
+        prevSlideButton.addEventListener('click', prevSlide);
+    });
+
+    function nextSlide() {
+        currentSlide++;
+        if (currentSlide > homeSlides.length)
+            currentSlide = 1;
+        updateSlide();
+    }
+    function prevSlide() {
+        currentSlide--;
+        if (currentSlide < 1)
+            currentSlide = homeSlides.length;
+        updateSlide();
+    }
+    function updateSlide() {
+        homeSlides.forEach(homeSlide => {
+            homeSlide.classList.remove('section--home-slider-active');
+            if (homeSlide.classList.contains('section--home-slider-'+currentSlide))
+                homeSlide.classList.add('section--home-slider-active');
+        });
+    }
+</script>

@@ -51,6 +51,9 @@
 <rect x="636" y="123.314" width="6" height="5.72578" rx="2.86289" stroke="black" stroke-width="2"/>
 <rect x="636" y="132.972" width="6" height="5.72578" rx="2.86289" stroke="black" stroke-width="2"/>
 </g>
+<!-- <g>
+    <text x="600" y="175" fill="black">Text 1</text>
+</g> -->
 <defs>
 <linearGradient id="paint0_linear" x1="376.5" y1="44" x2="376.5" y2="262" gradientUnits="userSpaceOnUse">
 <stop offset="0" stop-color="#86EC16"/>

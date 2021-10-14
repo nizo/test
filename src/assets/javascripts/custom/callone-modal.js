@@ -195,6 +195,14 @@ class Modal {
             if (step.hasAttribute('data-step-id') && parseInt(step.getAttribute('data-step-id')) === this.currentStep)
                 activeStep = step;
         });
+        if (!activeStep)
+            activeStep = document.querySelector('.' + this.namespace + '__step[data-step-id="'+this.currentStep+'"]');
+        if (!activeStep)
+            activeStep = this.steps[0];
+        if (!activeStep) {
+            console.error('Modal: getActiveStep() konnte nicht ermittelt werden.');
+            return false;
+        }
         return activeStep;
     }
 
