@@ -46,7 +46,9 @@
                 <img src="/assets/images/illus/callone-platform-illustration.png" alt="" />
             </div>
         </div>
-
+    </div>
+    
+    <div class="section__content section__content--wide">
         <p class="centered bigtext">
             <span class="fw500">CallOne Kunden jeder Größe, haben ein Ziel:</span> <br />
             Überdurchschnittliche Kundenerlebnisse!
@@ -68,7 +70,9 @@
                 <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" />
             </div>
         </div>
+    </div>
 
+    <div class="section__content section__content--wide">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1">

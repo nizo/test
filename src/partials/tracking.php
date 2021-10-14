@@ -4,7 +4,7 @@
  */
 
 //  Tracken des Userrouten - Wird per Formular weiter gegeben
-if (!isset($_SESSION['userRoute'])) {
+if (empty($_SESSION['userRoute'])) {
     $_SESSION['userRoute'] = []; 
     if(isset($_SERVER['HTTP_REFERER'])) {
         array_push($_SESSION['userRoute'], $_SERVER['HTTP_REFERER']);
