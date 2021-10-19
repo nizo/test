@@ -7,7 +7,7 @@
                 optimale Kundenerlebnis.
             </h1>
             
-            <div class="co-grid co-grid--small-gutter centered subtext">
+            <div class="co-grid co-grid--small-gutter centered subtext mobile-hidden">
                 <div class="co-grid__col co-grid__col--2-xs">
                     <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="" height="50" />
                     <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
@@ -33,7 +33,7 @@
 </div>
 
 <div class="section section--light-green-white-2 section--no-padding-bottom">
-    <div class="anchors">
+    <div class="anchors mobile-hidden">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
@@ -45,25 +45,29 @@
         </div>
     </div>
 
-    <br />
-    <br />
+    <br class="mobile-hidden" />
+    <br class="mobile-hidden" />
 
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
                 <h1>Die CallOne Plattform</h1>
                 <p class="bigtext">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="#todo" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
-                <p>
+                <p class="mobile-hidden">
                     <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
                 </p>
             </div>
-            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--7-lg co-grid__col--vcentered">
                 <img src="/assets/images/illus/callone-platform-illustration.png" alt="" />
             </div>
         </div>
+
+        <p class="desktop-hidden">
+            <a href="#todo" class="btn btn--primary btn--full-width centered">Mehr erfahren</a>
+        </p>
     </div>
     
-    <div class="section__content section__content--wide" id="referenzen">
+    <div class="section__content section__content--wide mobile-hidden" id="referenzen">
         <p class="centered bigtext">
             <span class="fw500">CallOne Kunden jeder Größe, haben ein Ziel:</span> <br />
             Überdurchschnittliche Kundenerlebnisse!
@@ -116,7 +120,7 @@
             <div class="tablist__content paper" data-tab="1">
                 <div class="paper__row">
                     <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--6-lg">
                             <div class="tag">
                                 <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
                             </div>
@@ -126,7 +130,7 @@
                                 <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
                             </p>
                         </div>
-                        <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg">
                             <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
                         </div>
                     </div>
