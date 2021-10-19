@@ -170,14 +170,18 @@ class Modal {
         }
         // Close Button Text Priority
         // activeStep text > modal text > default text
-        this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext') || this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
+        this.modalCloseButton.textContent = this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
+        if (this.activeStep && this.activeStep.hasAttribute('data-canceltext'))
+            this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext');
         this.modalCloseButton.addEventListener('click', this.closeModal.bind(this));
         this.modalHeader.appendChild(this.modalCloseButton);
     }
 
     updateModalCloseButton() {
         if (this.modalCloseButton)
-            this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext') || this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
+            this.modalCloseButton.textContent = this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
+            if (this.activeStep && this.activeStep.hasAttribute('data-canceltext'))
+                this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext');
     }
 
     createModalTitle() {
