@@ -38,8 +38,10 @@ class Modal {
     }
 
     runModalScripts() {
+        // Get all script tags in modal
         let modalScripts = this.modal.querySelectorAll('script');
         modalScripts.forEach(script => {
+            // Clone scripts to re-run them
             if (script.hasAttribute('src')) {
                 let scriptClone = document.createElement('script');
                 scriptClone.setAttribute('src', script.getAttribute('src'));
@@ -54,18 +56,21 @@ class Modal {
         e.preventDefault();
         this.modal = document.querySelector('[data-modal="' + this.modalName + '"]');
         if (this.modal) {
+            // Modal already exists in DOM
             this.initModal();
             this.setModalData();
             document.body.classList.add(this.classPrefix + '--scrolllock'); // Scroll-Lock Body
             this.runModalScripts();
-            $(this.modal).css('display', 'flex').hide().fadeIn(300);
+            $(this.modal).css('display', 'flex').hide().fadeIn(300); // Fade in modal
             this.modal.classList.add(this.classPrefix + '--open');
         } else {
+            // Modal does not exist in DOM yet, load from file
             this.loadModalFromFile();
         }
     }
 
     closeModal() {
+        console.log('CLOSE');
         $(this.modal).fadeOut(300, () => {
             document.body.classList.remove(this.classPrefix + '--scrolllock');
             this.modal.classList.remove(this.classPrefix + '--open');
@@ -91,10 +96,17 @@ class Modal {
             return response.text();
         })
         .then(data => {
+            // Create temp container to store retrieved HTML
             let tmpContainer = document.createElement('div');
             tmpContainer.innerHTML = data;
+
+            // Read temp container for created HTML code and store it in variable
             this.modal = tmpContainer.querySelector('.' + this.classPrefix);
+
+            // Add HTML to actual DOM
             document.body.appendChild(this.modal);
+
+            // Call openModal again, this time with existing modal code in DOM
             this.openModal();
         })
         .catch(e => {
@@ -155,10 +167,17 @@ class Modal {
                 this.classPrefix + '__headerbutton',
                 this.classPrefix + '__headerbutton--close'
             ]);
-            this.modalCloseButton.textContent = this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
         }
+        // Close Button Text Priority
+        // activeStep text > modal text > default text
+        this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext') || this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
         this.modalCloseButton.addEventListener('click', this.closeModal.bind(this));
         this.modalHeader.appendChild(this.modalCloseButton);
+    }
+
+    updateModalCloseButton() {
+        if (this.modalCloseButton)
+            this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext') || this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
     }
 
     createModalTitle() {
@@ -189,14 +208,21 @@ class Modal {
         } else {
             // Modal has no steps (single view)
             this.modalTitle.innerHTML = this.modal.getAttribute('data-title');
-            this.modalSubtitle = this.createNode('span', [
-                this.classPrefix + '__subtitle'
-            ]);
-            this.modalSubtitle.textContent = this.modal.getAttribute('data-subtitle');
-            this.modalTitle.appendChild(this.modalSubtitle);
+            this.createModalSubtitle();
         }
 
         this.modalHeader.appendChild(this.modalTitle);
+    }
+
+    createModalSubtitle() {
+        this.modalSubtitle = this.modal.querySelector('.' + this.classPrefix + '__subtitle');
+        if (!this.modalSubtitle) {
+            this.modalSubtitle = this.createNode('span', [
+                this.classPrefix + '__subtitle'
+            ]);
+        }
+        this.modalSubtitle.textContent = this.modal.getAttribute('data-subtitle');
+        this.modalTitle.appendChild(this.modalSubtitle);
     }
 
     createModalFooter() {
@@ -416,6 +442,9 @@ class Modal {
 
         // Hide all steps and show active steps
         this.showActiveStep();
+
+        // Adjust close button
+        this.updateModalCloseButton();
 
         // Adjust steptitle
         this.createModalSteptitle();
