@@ -6,7 +6,22 @@
                 Unsere Leidenschaft ist das <br />
                 optimale Kundenerlebnis.
             </h1>
-            <p>[TODO: Logos]</p>
+            
+            <div class="co-grid co-grid--small-gutter centered subtext">
+                <div class="co-grid__col co-grid__col--2-xs">
+                    <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="" height="50" />
+                    <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
+                </div>
+                <div class="co-grid__col co-grid__col--2-xs">
+                    <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="" height="50" />
+                    <p style="margin-top:10px">Rasante Bereitstellung</p>
+                </div>
+                <div class="co-grid__col co-grid__col--2-xs">
+                    <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="" height="50" />
+                    <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
+                </div>
+            </div>
+
             <p>
                 <a href="#todo" class="btn btn--primary">Jetzt loslegen</a>
             </p>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26mm"
+   height="26mm"
+   viewBox="0 0 26 26"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="usp-availability-icon-square.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.4823793"
+     inkscape:cx="-131.88257"
+     inkscape:cy="116.36697"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g41" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="paint0_linear"
+       x1="42.9375"
+       y1="4"
+       x2="42.9375"
+       y2="93"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#9BA3A2"
+         id="stop22" />
+      <stop
+         offset="1"
+         stop-color="#626A69"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="paint0_linear-4"
+       x1="108"
+       y1="0"
+       x2="108"
+       y2="46"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#AAEA39"
+         id="stop323" />
+      <stop
+         offset="1"
+         stop-color="#86EC16"
+         id="stop325" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear"
+       x1="49"
+       y1="41"
+       x2="58.5"
+       y2="-18.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#626A69"
+         id="stop328" />
+      <stop
+         offset="0.869792"
+         stop-color="#9BA3A2"
+         id="stop330" />
+    </linearGradient>
+    <linearGradient
+       id="paint0_linear-9"
+       x1="54.5895"
+       y1="5"
+       x2="54.5895"
+       y2="54.5968"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#AAEA39"
+         id="stop452" />
+      <stop
+         offset="1"
+         stop-color="#86EC16"
+         id="stop454" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear-6"
+       x1="87.2581"
+       y1="47.742"
+       x2="47.7419"
+       y2="47.742"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#9BA3A2"
+         id="stop457" />
+      <stop
+         offset="1"
+         stop-color="#626A69"
+         id="stop459" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.373327,-127.06907)">
+    <g
+       style="fill:none"
+       id="g41"
+       transform="matrix(0.26458333,0,0,0.26458333,95.373827,127.06907)">
+      <g
+         style="fill:none"
+         id="g477"
+         transform="matrix(0.89993698,0,0,0.89993698,-0.00188963,22.317177)">
+        <path
+           d="M 104.194,54.5968 C 104.194,27.2052 81.9883,5 54.5968,5 27.2052,5 5,27.2052 5,54.5968"
+           stroke="#5cfa29"
+           stroke-width="10"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           id="path446" />
+        <path
+           d="M 5,54.5968 C 5,27.2052 27.2052,5 54.5968,5 81.5839,5 103.537,26.5545 104.179,53.3871"
+           stroke="url(#paint0_linear)"
+           stroke-width="10"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           id="path448"
+           style="stroke:url(#paint0_linear-9)" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 87.2581,47.742 c 0,-1.6525 -1.2433,-3.0403 -2.8858,-3.2213 L 59.0713,41.7325 C 57.9103,40.9444 56.5089,40.4839 55,40.4839 c -3.9989,0 -7.2425,3.234 -7.258,7.2293 -10e-5,0.0096 -10e-5,0.0192 -10e-5,0.0288 0,0.0096 0,0.0191 10e-5,0.0287 C 47.7575,51.766 51.0011,55 55,55 c 1.5089,0 2.9103,-0.4604 4.0713,-1.2485 l 25.301,-2.7883 c 1.6425,-0.181 2.8858,-1.5688 2.8858,-3.2212 z"
+           fill="url(#paint1_linear)"
+           id="path450"
+           style="fill:url(#paint1_linear-6)" />
+      </g>
+    </g>
+  </g>
+</svg>
