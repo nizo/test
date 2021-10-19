@@ -70,7 +70,6 @@ class Modal {
     }
 
     closeModal() {
-        console.log('CLOSE');
         $(this.modal).fadeOut(300, () => {
             document.body.classList.remove(this.classPrefix + '--scrolllock');
             this.modal.classList.remove(this.classPrefix + '--open');
