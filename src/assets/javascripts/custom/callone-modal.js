@@ -17,6 +17,7 @@ class Modal {
         this.modalCloseButton = null;
         this.modalStepbackButton = null;
         this.activeStep = null;
+        this.initialized = false;
         
         this.modalButton.addEventListener('click', this.openModal.bind(this));
     }
@@ -55,7 +56,7 @@ class Modal {
         if (this.modal) {
             this.initModal();
             this.setModalData();
-            document.body.classList.add(this.classPrefix + '--scrolllock'); // Scroll-Locl Body
+            document.body.classList.add(this.classPrefix + '--scrolllock'); // Scroll-Lock Body
             this.runModalScripts();
             $(this.modal).css('display', 'flex').hide().fadeIn(300);
             this.modal.classList.add(this.classPrefix + '--open');
@@ -103,18 +104,17 @@ class Modal {
     }
 
     initModal() {
-        if (!this.modal)
+        if (!this.modal || this.initialized)
             return;
+        this.initialized = true;
         
-        this.modalSteps = document.querySelectorAll('.' + this.classPrefix + '__step');
+        this.createModalWrapper();
+        this.createModalContent(); // Also sets this.modalSteps
         if (this.modalSteps.length > 0)
             this.activeStep = this.modalSteps[0];
-
-        this.createModalWrapper();
         this.createModalHeader();
         this.createModalCloseButton();
         this.createModalTitle();
-        this.createModalContent();
         this.handleNextButtons();
         this.handleFormSubmits();
 
@@ -157,6 +157,7 @@ class Modal {
             ]);
             this.modalCloseButton.textContent = this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
         }
+        this.modalCloseButton.addEventListener('click', this.closeModal.bind(this));
         this.modalHeader.appendChild(this.modalCloseButton);
     }
 
@@ -172,18 +173,7 @@ class Modal {
             // Modal has multiple steps
 
             // Add Steptitle
-            this.modalSteptitle = this.modal.querySelector('.' + this.classPrefix + '__steptitle');
-            if (!this.modalSteptitle) {
-                this.modalSteptitle = this.createNode('div', [
-                    this.classPrefix + '__steptitle'
-                ]);
-            }
-            if (this.activeStep.getAttribute('data-steptitle')) {
-                this.modalSteptitle.textContent = this.activeStep.getAttribute('data-steptitle')
-            } else {
-                this.modalSteptitle.textContent = 'Schritt ' + (this.activeStep.getAttribute('data-step-indicator') || this.activeStep.getAttribute('data-step-id'));
-            }
-            this.modalTitle.appendChild(this.modalSteptitle);
+            this.createModalSteptitle();
 
             // Add step indicators (points)
             this.createModalStepIndicators();
@@ -192,27 +182,10 @@ class Modal {
             this.activeStep.classList.add(this.classPrefix + '__step--active');
 
             // Add go back button
-            this.modalStepbackButton = this.modal.querySelector('.' + this.classPrefix + '__headerbutton--back');
-            if (!this.modalStepbackButton) {
-                this.modalStepbackButton = this.createNode('div', [
-                    this.classPrefix + '__headerbutton',
-                    this.classPrefix + '__headerbutton--back',
-                    this.classPrefix + '__headerbutton--hidden'
-                ]);
-            }
-            this.modalStepbackButton.textContent = 'Schritt zurück';
-            this.modalStepbackButton.addEventListener('click', this.prevStep.bind(this));
-            this.modalHeader.appendChild(this.modalStepbackButton);
+            this.createGoBackButton();
 
             // Add modal footer
-            this.modalFooter = this.modal.querySelector('.' + this.classPrefix + '__footer');
-            if (!this.modalFooter) {
-                this.modalFooter = this.createNode('div', [
-                    this.classPrefix + '__footer'
-                ]);
-            }
-            this.populateModalFooter();
-            this.modalWrapper.appendChild(this.modalFooter);
+            this.createModalFooter();
         } else {
             // Modal has no steps (single view)
             this.modalTitle.innerHTML = this.modal.getAttribute('data-title');
@@ -224,6 +197,17 @@ class Modal {
         }
 
         this.modalHeader.appendChild(this.modalTitle);
+    }
+
+    createModalFooter() {
+        this.modalFooter = this.modal.querySelector('.' + this.classPrefix + '__footer');
+        if (!this.modalFooter) {
+            this.modalFooter = this.createNode('div', [
+                this.classPrefix + '__footer'
+            ]);
+        }
+        this.populateModalFooter();
+        this.modalWrapper.appendChild(this.modalFooter);
     }
 
     populateModalFooter() {
@@ -270,9 +254,38 @@ class Modal {
         }
     }
 
+    createGoBackButton() {
+        this.modalStepbackButton = this.modal.querySelector('.' + this.classPrefix + '__headerbutton--back');
+        if (!this.modalStepbackButton) {
+            this.modalStepbackButton = this.createNode('div', [
+                this.classPrefix + '__headerbutton',
+                this.classPrefix + '__headerbutton--back',
+                this.classPrefix + '__headerbutton--hidden'
+            ]);
+        }
+        this.modalStepbackButton.textContent = 'Schritt zurück';
+        this.modalStepbackButton.addEventListener('click', this.prevStep.bind(this));
+        this.modalHeader.appendChild(this.modalStepbackButton);
+    }
+
+    createModalSteptitle() {
+        this.modalSteptitle = this.modal.querySelector('.' + this.classPrefix + '__steptitle');
+        if (!this.modalSteptitle) {
+            this.modalSteptitle = this.createNode('div', [
+                this.classPrefix + '__steptitle'
+            ]);
+        }
+        if (this.activeStep.getAttribute('data-steptitle')) {
+            this.modalSteptitle.textContent = this.activeStep.getAttribute('data-steptitle')
+        } else {
+            this.modalSteptitle.textContent = 'Schritt ' + (this.activeStep.getAttribute('data-step-indicator') || this.activeStep.getAttribute('data-step-id'));
+        }
+        this.modalTitle.appendChild(this.modalSteptitle);
+    }
+
     createModalStepIndicators() {
+        this.modalStepIndicators = this.modal.querySelector('.' + this.classPrefix + '__step-indicators');
         if (this.activeStep.getAttribute('data-step-indicator')) {
-            this.modalStepIndicators = this.modal.querySelector('.' + this.classPrefix + '__step-indicators');
             if (!this.modalStepIndicators) {
                 this.modalStepIndicators = this.createNode('div', [
                     this.classPrefix + '__step-indicators'
@@ -287,11 +300,15 @@ class Modal {
                 let classes = [this.classPrefix + '__step-indicator'];
                 if (i == currentStep)
                     classes.push(this.classPrefix + '__step-indicator--active');
+                if (i < currentStep)
+                    classes.push(this.classPrefix + '__step-indicator--past');
                 let step = this.createNode('div', classes);
                 this.modalStepIndicators.appendChild(step);
             }
 
             this.modalTitle.appendChild(this.modalStepIndicators);
+        } else if (this.modalStepIndicators) {
+            this.modalStepIndicators.innerHTML = '';
         }
     }
 
@@ -303,7 +320,33 @@ class Modal {
             ]);
         }
         this.modalContent.innerHTML = this.modal.innerHTML;
+        this.modalSteps = this.modalContent.querySelectorAll('.' + this.classPrefix + '__step');
         this.modalWrapper.appendChild(this.modalContent);
+    }
+
+    checkForNoScroll() {
+        if (this.activeStep.hasAttribute('data-step-noscroll')) {
+            this.modalContent.classList.add(this.classPrefix + '__content--scrolllock');
+            
+            // Set height of calendly widget if present
+            this.setCalendlyHeight();
+        } else {
+            this.modalContent.classList.remove(this.classPrefix + '__content--scrolllock');
+        }
+    }
+
+    setCalendlyHeight() {
+        let calendly = this.activeStep.querySelector('.calendly-inline-widget');
+        if (calendly) {
+            // If calendly widget exists set its height to the modal height
+            let newHeight = (window.innerHeight * 0.8) - this.modalHeader.offsetHeight + 'px';
+            if (window.innerWidth <= 830) {
+                newHeight = 'calc(' + (window.innerHeight - this.modalHeader.offsetHeight) + 'px - 60px)';
+            }
+            calendly.style.height = newHeight;
+        }
+
+        window.onresize = this.setCalendlyHeight.bind(this)
     }
 
     handleNextButtons() {
@@ -324,26 +367,84 @@ class Modal {
         }
     }
 
+    toggleBackButton() {
+        // Hide back button if option is set or first step is active
+        if (this.activeStep.hasAttribute('data-no-back') || this.activeStep == this.modalSteps[0]) {
+            this.modalStepbackButton.classList.add(this.classPrefix + '__headerbutton--hidden');
+        } else {
+            this.modalStepbackButton.classList.remove(this.classPrefix + '__headerbutton--hidden');
+        }
+    }
+
+    showActiveStep() {
+        // Hide all steps
+        this.modalSteps.forEach(step => {
+            step.classList.remove(this.classPrefix + '__step--active');
+        });
+
+        // Show current active step
+        this.activeStep.classList.add(this.classPrefix + '__step--active');
+    }
+
     nextStep(e) {
         e.preventDefault();
+
+        // Get next step id from current active step
         let nextStepId = this.activeStep.getAttribute('data-next-step');
+
+        // Replace next step id if one is passed by the clicked button
         if (e.currentTarget && e.currentTarget.hasAttribute('data-next-step'))
             nextStepId = e.currentTarget.getAttribute('data-next-step');
-        this.activeStep = this.modalContent.querySelectorAll('.' + this.classPrefix + '__step[data-step-id="' + nextStepId + '"]');
+
+        this.activeStep = this.getStepById(nextStepId);
         this.switchStep();
     }
 
     prevStep() {
-        console.log('PREVIOUS STEP');
+        // Get previous step id from active step data attribute
+        let prevStepId = this.activeStep.getAttribute('data-prev-step');
+        this.activeStep = this.getStepById(prevStepId);
+        this.switchStep();
     }
 
     switchStep() {
         // Adjust step indicators
         this.createModalStepIndicators();
+        
+        // Check if no scroll is set
+        this.checkForNoScroll();
+
+        // Hide all steps and show active steps
+        this.showActiveStep();
+
+        // Adjust steptitle
+        this.createModalSteptitle();
+
+        // Show/Hide back button
+        this.toggleBackButton();
+
+        // Adjust modal footer content
+        this.populateModalFooter();
     }
 
-    submitStep() {
-        console.log('SUBMIT STEP');
+    submitStep(e) {
+        e.preventDefault();
+        if (e.target.hasAttribute('data-step-callback') && typeof window[e.target.getAttribute('data-step-callback')] === 'function') {
+            // Execute passed callback function (located in modal file)
+            window[e.target.dataset.stepCallback](e, this.nextStep.bind(this, e));
+        } else {
+            // If no callback function is passed go to next step
+            this.nextStep(e);
+        }
+    }
+
+    getStepById(id) {
+        let returnStep = this.activeStep;
+        this.modalSteps.forEach(step => {
+            if (step.getAttribute('data-step-id') == id)
+                returnStep = step;
+        });
+        return returnStep;
     }
 
     createNode(type, classes) {
