@@ -95,5 +95,10 @@ $breakpoints: (
         .co-grid__col--hidden-#{$size} {
             display: none;
         }
+        @for $i from 1 through 5 {
+            .co-grid__col--order-#{$i}-#{$size} {
+                order: #{$i};
+            }
+        }
     }
 }

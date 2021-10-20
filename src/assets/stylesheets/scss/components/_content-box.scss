@@ -4,6 +4,7 @@
     margin: 0 auto;
     max-width: 570px;
     width: 100%;
+    overflow: hidden;
 
     &--wide {
         max-width: 1030px;
@@ -20,6 +21,10 @@
     &--white {
         background-color: #fff;
         color: #000;
+    }
+
+    &--full-width {
+        max-width: 100%;
     }
 
     p+p {

@@ -32,7 +32,7 @@
     </header>
 </div>
 
-<div class="section section--light-green-white-2 section--no-padding-bottom">
+<div class="section section--light-green-white-2 section--no-padding-bottom section--mobile-divider">
     <div class="anchors mobile-hidden">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
@@ -117,162 +117,240 @@
                 </div>
             </div>
 
-            <div class="tablist__content paper" data-tab="1">
-                <div class="paper__row">
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg">
-                                <div class="tag">
-                                    <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
+            <div class="tablist__content" data-tab="1">
+                <div class="paper mobile-hidden">
+                    <div class="paper__row">
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg">
+                                    <div class="tag">
+                                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
+                                    </div>
+                                    <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
+                                    <p class="bigtext">Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
+                                    <p>
+                                        <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                    </p>
                                 </div>
-                                <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
-                                <p class="bigtext">Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
-                                <p>
-                                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
-                                </p>
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
+                                    <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
+                                </div>
                             </div>
-                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                                <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="paper__row">
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--4-xs co-grid__col--6-lg co-grid__col--vcentered">
+                                    <img src="/assets/images/illus/business-full-package.svg" alt="" />
+                                </div>
+                                <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
+                                    <h4>Zugeschnitten statt standardisiert</h4>
+                                    <p class="bigtext">Unser Ziel: Ihr Geschäft voranbringen. Wie? Mit dem vielleicht umfassendsten Angebot rund um das Thema Office-Telefonie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--4-xs co-grid__col--6-lg co-grid__col--vcentered">
+                                    <img src="/assets/images/illus/personal-contacts.png" alt="" />
+                                </div>
+                                <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
+                                    <h4>Immer persönlich betreut</h4>
+                                    <p class="bigtext">Unsere Kunden lieben Schnelligkeit. Deshalb erhalten alle unsere Kunden persönliche Ansprechpartner.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="paper__row">
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered">
-                                <img src="/assets/images/illus/business-full-package.svg" alt="" />
-                            </div>
-                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--6-lg co-grid__col--vcentered">
-                                <h4>Zugeschnitten statt standardisiert</h4>
-                                <p class="bigtext">Unser Ziel: Ihr Geschäft voranbringen. Wie? Mit dem vielleicht umfassendsten Angebot rund um das Thema Office-Telefonie.</p>
-                            </div>
-                        </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <p class="centered">
+                        <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
+                    </p>
+                    <div class="tag">
+                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
                     </div>
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/personal-contacts.png" alt="" />
-                            </div>
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                                <h4>Immer persönlich betreut</h4>
-                                <p class="bigtext">Unsere Kunden lieben Schnelligkeit. Deshalb erhalten alle unsere Kunden persönliche Ansprechpartner.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <h3>Callcenter Software & VoIP-Telefonanlage</h3>
+                    <p>Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
+                    <p class="centered">
+                        <a href="#todo" class="btn btn--primary btn--full-width">Mehr erfahren</a>
+                    </p>
+                </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <h6>Fullservice</h6>
+                    <h4 style="margin-top: 0;">Zugeschnitten statt standardisiert</h4>
+                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
+                        <br />
+                        <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="" style="display:block;width:100%;" />
+                    </p>
+                </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <h6>Projektmanagement</h6>
+                    <h4 style="margin-top: 0;">Immer persönlich betreut</h4>
+                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
+                        <br />
+                        <img src="/assets/images/icons_png/personal-contacts-mobile@2x.png" alt="" style="display:block;width:100%;" />
+                    </p>
                 </div>
             </div>
 
-            <div class="tablist__content paper" data-tab="2">
-                <div class="paper__row" style="background-image: url(/assets/images/illus/ROI-airdrop-illustration.svg);
-                                                background-repeat: no-repeat;
-                                                background-position: 82% bottom;
-                                                background-size: 35%;">
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--6-xs">
-                                <br />
-                                <br />
-                                <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
-                                <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
-                                <p>
-                                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
-                                </p>
-                                <br />
-                                <br />
+            <div class="tablist__content" data-tab="2">
+                <div class="paper mobile-hidden">
+                    <div class="paper__row" style="background-image: url(/assets/images/illus/ROI-airdrop-illustration.svg);
+                                                    background-repeat: no-repeat;
+                                                    background-position: 82% bottom;
+                                                    background-size: 35%;">
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--6-xs">
+                                    <br />
+                                    <br />
+                                    <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
+                                    <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
+                                    <p>
+                                        <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                    </p>
+                                    <br />
+                                    <br />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="paper__row">
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
-                                <h3 style="margin-top:15px">
-                                    Zukunftssichere Technologie <br />
-                                    <span class="ff-copy fw400">trifft</span> Expertenberatung
-                                </h3>
-                            </div>
-                            <div class="co-grid__col co-grid__col--6-xs">
-                                <div class="carddeck carddeck--right">
-                                    <div class="carddeck__card">
-                                        <h4>Messbare Ergebnisse am ersten Tag</h4>
-                                        <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
-                                    </div>
-                                    <div class="carddeck__card">
-                                        <h4>Lorem, ipsum dolor.</h4>
-                                        <p class="bigtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat laudantium recusandae asperiores sapiente, eaque repellendus, vitae, officiis excepturi.</p>
-                                    </div>
-                                    <div class="carddeck__card">
-                                        <h4>Lorem ipsum dolor sit.</h4>
-                                        <p class="bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde ea placeat et officiis assumenda modi eaque, esse aut quisquam delectus magnam distinctio facere.</p>
+                    <div class="paper__row">
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+                                    <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
+                                    <h3 style="margin-top:15px">
+                                        Zukunftssichere Technologie <br />
+                                        <span class="ff-copy fw400">trifft</span> Expertenberatung
+                                    </h3>
+                                </div>
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+                                    <div class="carddeck carddeck--right">
+                                        <div class="carddeck__card">
+                                            <h4>Messbare Ergebnisse am ersten Tag</h4>
+                                            <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
+                                        </div>
+                                        <div class="carddeck__card">
+                                            <h4>Lorem, ipsum dolor.</h4>
+                                            <p class="bigtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat laudantium recusandae asperiores sapiente, eaque repellendus, vitae, officiis excepturi.</p>
+                                        </div>
+                                        <div class="carddeck__card">
+                                            <h4>Lorem ipsum dolor sit.</h4>
+                                            <p class="bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde ea placeat et officiis assumenda modi eaque, esse aut quisquam delectus magnam distinctio facere.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <p class="centered">
+                        <img src="/assets/images/illus/ROI-airdrop-illustration.svg" alt="" />
+                    </p>
+                    <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
+                    <p>Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
+                    <p class="centered">
+                        <a href="#todo" class="btn btn--primary btn--full-width">Mehr erfahren</a>
+                    </p>
+                </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <h6>Unser Service-versprechen</h6>
+                    <h4 style="margin-top: 0;">Zukunftssichere Technologie trifft Expertenberatung</h4>
+                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
+                        <br />
+                        <img src="/assets/images/icons_svg/service-promise-mobile.svg" alt="" style="display:block;width:100%;" />
+                    </p>
                 </div>
             </div>
 
-            <div class="tablist__content paper" data-tab="3">
-                <div class="paper__row" style="background-image: url(/assets/images/illus/client-diversity-illustration.svg);
-                                                background-repeat: no-repeat;
-                                                background-position: right bottom;
-                                                background-size: 50%;">
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--6-xs">
-                                <br />
-                                <br />
-                                <h3>Eine Plattform, unendlich Optionen</h3>
-                                <p class="bigtext">Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
-                                <p>
-                                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
-                                </p>
-                                <br />
-                                <br />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="paper__row">
-                    <div class="paper__item">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
-                                <?php require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
-                                <script>
-                                    let svg = document.querySelector('.clients-circle-callcenter-software');
-                                    let circles = svg.querySelectorAll('.circle');
-                                    let circleIcons = svg.querySelectorAll('.circle-icon');
-                                    let currentCircle = 0;
-                                    let countCircles = circles.length;
-
-                                    setInterval(e => {
-                                        circles.forEach(circle => {
-                                            circle.setAttribute('stroke', 'black');
-                                            circle.setAttribute('stroke-width', '2');
-                                            circle.setAttribute('stroke-opacity', '0.1');
-                                        });
-                                        circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
-                                        currentCircle++;
-                                        if (currentCircle >= countCircles)
-                                            currentCircle = 0;
-                                        circles[currentCircle].setAttribute('stroke', '#86ed18');
-                                        circles[currentCircle].setAttribute('stroke-width', '4');
-                                        circles[currentCircle].setAttribute('stroke-opacity', '1');
-                                        circleIcons[currentCircle].setAttribute('opacity', '1');
-                                    }, 2000);
-                                </script>
-                            </div>
-                            <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
-                                <div class="left-border">
-                                    <h4>Callcenter-Software</h4>
-                                    <p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
+            <div class="tablist__content" data-tab="3">
+                <div class="paper mobile-hidden">
+                    <div class="paper__row" style="background-image: url(/assets/images/illus/client-diversity-illustration.svg);
+                                                    background-repeat: no-repeat;
+                                                    background-position: right bottom;
+                                                    background-size: 50%;">
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--6-xs">
+                                    <br />
+                                    <br />
+                                    <h3>Eine Plattform, unendlich Optionen</h3>
+                                    <p class="bigtext">Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
+                                    <p>
+                                        <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                    </p>
+                                    <br />
+                                    <br />
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="paper__row">
+                        <div class="paper__item">
+                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+                                    <?php require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
+                                    <script>
+                                        let svg = document.querySelector('.clients-circle-callcenter-software');
+                                        let circles = svg.querySelectorAll('.circle');
+                                        let circleIcons = svg.querySelectorAll('.circle-icon');
+                                        let currentCircle = 0;
+                                        let countCircles = circles.length;
+
+                                        setInterval(e => {
+                                            circles.forEach(circle => {
+                                                circle.setAttribute('stroke', 'black');
+                                                circle.setAttribute('stroke-width', '2');
+                                                circle.setAttribute('stroke-opacity', '0.1');
+                                            });
+                                            circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+                                            currentCircle++;
+                                            if (currentCircle >= countCircles)
+                                                currentCircle = 0;
+                                            circles[currentCircle].setAttribute('stroke', '#86ed18');
+                                            circles[currentCircle].setAttribute('stroke-width', '4');
+                                            circles[currentCircle].setAttribute('stroke-opacity', '1');
+                                            circleIcons[currentCircle].setAttribute('opacity', '1');
+                                        }, 2000);
+                                    </script>
+                                </div>
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+                                    <div class="left-border">
+                                        <h4>Callcenter-Software</h4>
+                                        <p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <p class="centered" style="margin-left:-15px;width:calc(100% + 30px);margin-top:-15px;margin-bottom:15px;">
+                        <img src="/assets/images/illus/client-diversity-illustration-mobile.svg" alt="" style="display:block;width:100%;" />
+                    </p>
+                    <h3>Eine Plattform, unendlich Optionen</h3>
+                    <p>Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
+                    <p class="centered">
+                        <a href="#todo" class="btn btn--primary btn--full-width">Mehr erfahren</a>
+                    </p>
+                </div>
+
+                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                    <h6>Clients</h6>
+                    <h4 style="margin-top: 0;">Für jeden was dabei!</h4>
+                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
+                        <br />
+                        <img src="/assets/images/icons_svg/client-diversity-mobile.svg" alt="" style="display:block;width:100%;" />
+                    </p>
                 </div>
             </div>
         </div>
@@ -306,7 +384,7 @@
 <div class="section section--home-slider section--home-slider-1 section--home-slider-active" id="pakete">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--7-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
                 <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
 
@@ -328,13 +406,13 @@
                         <h3 class="centered">Kürzere und bessere Gespräche</h3>
                         
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#FF002E;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
                                 </div>
                                 weniger Kosten pro Kontakt durch gesteigerte FCR*
                             </div>
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#FF002E;">
                                     <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
                                 </div>
@@ -357,7 +435,7 @@
 <div class="section section--home-slider section--home-slider-2">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--7-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
                 <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
 
@@ -379,13 +457,13 @@
                         <h3 class="centered">Kürzere und bessere Gespräche</h3>
                         
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#FF7B1B;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
                                 </div>
                                 weniger Gesprächszeit für <br />Ihre Agent*innen​*
                             </div>
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#FF7B1B;">
                                     <span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
                                 </div>
@@ -408,7 +486,7 @@
 <div class="section section--home-slider section--home-slider-3">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--7-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
                 <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
 
@@ -430,13 +508,13 @@
                         <h3 class="centered">Kürzere und bessere Gespräche</h3>
                         
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#DB00C5;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
                                 </div>
                                 bessere <br />Erreichbarkeit*
                             </div>
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#DB00C5;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
                                 </div>
@@ -459,7 +537,7 @@
 <div class="section section--home-slider section--home-slider-4">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--7-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
                 <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
 
@@ -481,13 +559,13 @@
                         <h3 class="centered">Kürzere und bessere Gespräche</h3>
                         
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#0088EA;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
                                 </div>
                                 mehr Effizienz in <br />der Personalplanung*
                             </div>
-                            <div class="co-grid__col co-grid__col--6-xs number-card">
+                            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#0088EA;">
                                     <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
                                 </div>
@@ -514,25 +592,25 @@
     </div>
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--3-xs number-card number-card--on-black">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md number-card number-card--on-black">
                 <div class="number-card__number" style="--color:#86ed18;">
                     <span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
                 </div>
                 weniger Kosten pro Kontakt durch gesteigerte FCR*
             </div>
-            <div class="co-grid__col co-grid__col--3-xs number-card number-card--on-black">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md number-card number-card--on-black">
                 <div class="number-card__number" style="--color:#86ed18;">
                     <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
                 </div>
                 kürzere Gesprächsdauern (AHT)*
             </div>
-            <div class="co-grid__col co-grid__col--3-xs number-card number-card--on-black">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md number-card number-card--on-black">
                 <div class="number-card__number" style="--color:#86ed18;">
                     <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
                 </div>
                 kürzere Gesprächsdauern (AHT)*
             </div>
-            <div class="co-grid__col co-grid__col--3-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--6-sm co-grid__col--hidden-sm co-grid__col--3-md co-grid__col--vcentered">
                 <h3>Unsere Kunden erhalten Ergebnisse.</h3>
             </div>
         </div>
@@ -540,7 +618,7 @@
         <br /><br />
 
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--7-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
                         <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" />
@@ -552,8 +630,9 @@
                         </h3>
                     </div>
                 </div>
-                <p>
-                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                <p class="mobile-centered">
+                    <a href="#" class="btn btn--primary desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary btn--full-width mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
                 </p>
             </div>
         </div>

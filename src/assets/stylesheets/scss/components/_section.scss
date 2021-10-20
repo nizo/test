@@ -138,6 +138,20 @@
             animation: wave 3s infinite ease;
             z-index: 0;
         }
+
+        @media screen and (max-width: 960px) {
+            padding-bottom: 35vw !important;
+
+            &:before {
+                display: none;
+            }
+            &:after {
+                width: 50vw;
+                height: 50vw;
+                left: calc(50% - 25vw);
+                bottom: -15vw;
+            }
+        }
     }
     @keyframes wave {
         50% {
@@ -151,34 +165,48 @@
     // Homepage Section
     &--home-slider {
         display: none;
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
+        background-repeat: no-repeat;
+        background-position: calc(50% + 475px) center, calc(50% + 585px) center, center;
+        background-size: auto, 731px, auto;
+
+        @media screen and (max-width: 960px) {
+            background-repeat: no-repeat;
+            background-position: center 150px, center;
+            background-size: 731px, auto;
+
+            .index-card {
+                margin-left: -25px;
+                width: calc(100% + 50px);
+            }
+        }
     }
     &--home-slider-active {
         display: block;
     }
     &--home-slider-1 {
         background-image: url(../images/backgrounds_png/integrations-full.png), url(../images/backgrounds_svg/bg-fullcircle-red.svg), linear-gradient(360deg, #FFF0F3 0%, #FFFFFF 100%);
-        background-repeat: no-repeat;
-        background-position: calc(50% + 475px) center, calc(50% + 585px) center, center;
-        background-size: auto, 731px, auto;
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-red.svg), linear-gradient(360deg, #FFF0F3 0%, #FFFFFF 100%);
+        }
     }
     &--home-slider-2 {
         background-image: url(../images/backgrounds_png/callcenter-bot-full.png), url(../images/backgrounds_svg/bg-fullcircle-orange.svg), linear-gradient(360deg, #FFF5E9 0%, #FFFFFF 100%);
-        background-repeat: no-repeat;
-        background-position: calc(50% + 475px) center, calc(50% + 585px) center, center;
-        background-size: auto, 731px, auto;
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-orange.svg), linear-gradient(360deg, #FFF5E9 0%, #FFFFFF 100%);
+        }
     }
     &--home-slider-3 {
         background-image: url(../images/backgrounds_png/queue-full.png), url(../images/backgrounds_svg/bg-fullcircle-magenta.svg), linear-gradient(360deg, #FFF0FD 0%, #FFFFFF 100%);
-        background-repeat: no-repeat;
-        background-position: calc(50% + 475px) center, calc(50% + 585px) center, center;
-        background-size: auto, 731px, auto;
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-magenta.svg), linear-gradient(360deg, #FFF0FD 0%, #FFFFFF 100%);
+        }
     }
     &--home-slider-4 {
         background-image: url(../images/backgrounds_png/analytics-full.png), url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(360deg, #ECF9FF 0%, #FFFFFF 100%);
-        background-repeat: no-repeat;
-        background-position: calc(50% + 475px) center, calc(50% + 585px) center, center;
-        background-size: auto, 731px, auto;
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(360deg, #ECF9FF 0%, #FFFFFF 100%);
+        }
     }
 
     &__content {
