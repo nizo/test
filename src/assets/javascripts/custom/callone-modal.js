@@ -1,8 +1,11 @@
 class Modal {
-    constructor(modalButton) {
+    constructor(modalButton, modalName = null, modalData = null, modalDelay = 0) {
         this.classPrefix = 'callone-modal';
         this.modalButton = modalButton;
-        this.modalName = this.getModalName();
+        this.modalName = modalName || this.getModalName();
+        this.originalModalName = this.modalName;
+        this.modalData = modalData;
+        this.modalDelay = modalDelay;
         this.defaultClosetext = 'Schließen';
         this.modal = null;
         this.modalWrapper = null;
@@ -17,23 +20,29 @@ class Modal {
         this.modalCloseButton = null;
         this.modalStepbackButton = null;
         this.activeStep = null;
-        this.initialized = false;
+        this.fileLoading = false;
         
-        this.modalButton.addEventListener('click', this.openModal.bind(this));
+        if (this.modalButton) {
+            this.modalButton.addEventListener('click', this.getModal.bind(this));
+        } else {
+            setTimeout(this.getModal.bind(this), this.modalDelay);
+        }
     }
 
     getModalName() {
         // Get modal name from button dataset or return empty string
-        if (this.modalButton.hasAttribute('data-openmodal')) {
+        if (this.modalButton && this.modalButton.hasAttribute('data-openmodal')) {
             return this.modalButton.dataset.openmodal;
         }
-        return '';
+        return null;
     }
 
     setModalData() {
         // Add custom modal data from button to modal
-        if (this.modalButton.hasAttribute('data-modaldata') && this.modalButton.getAttribute('data-modaldata') != '') {
+        if (this.modalButton && this.modalButton.getAttribute('data-modaldata')) {
             this.modal.setAttribute('data-modaldata', this.modalButton.getAttribute('data-modaldata'));
+        } else if (this.modalData) {
+            this.modal.setAttribute('data-modaldata', this.modalData);
         }
     }
 
@@ -52,21 +61,28 @@ class Modal {
         });
     }
 
-    openModal(e = new MouseEvent('click')) {
+    getModal(e = new MouseEvent('click')) {
         e.preventDefault();
         this.modal = document.querySelector('[data-modal="' + this.modalName + '"]');
         if (this.modal) {
             // Modal already exists in DOM
-            this.initModal();
-            this.setModalData();
-            document.body.classList.add(this.classPrefix + '--scrolllock'); // Scroll-Lock Body
-            this.runModalScripts();
-            $(this.modal).css('display', 'flex').hide().fadeIn(300); // Fade in modal
-            this.modal.classList.add(this.classPrefix + '--open');
+            this.openModal()
         } else {
             // Modal does not exist in DOM yet, load from file
+            if (this.fileLoading)
+                return;
+            this.fileLoading = true; // Prevent fetch from being called multiple times on slow connection
             this.loadModalFromFile();
         }
+    }
+
+    openModal() {
+        this.initModal();
+        this.setModalData();
+        document.body.classList.add(this.classPrefix + '--scrolllock'); // Scroll-Lock Body
+        this.runModalScripts();
+        $(this.modal).css('display', 'flex').hide().fadeIn(300); // Fade in modal
+        this.modal.classList.add(this.classPrefix + '--open');
     }
 
     closeModal() {
@@ -77,7 +93,29 @@ class Modal {
                 this.activeStep = this.modalSteps[0];
                 this.switchStep();
             }
+            if (this.modalName == 'fallback-modal') {
+                this.resetModal();
+            }
         });
+    }
+
+    resetModal() {
+        this.modal.remove();
+        this.modalName = this.originalModalName;
+        this.modal = null;
+        this.modalWrapper = null;
+        this.modalHeader = null;
+        this.modalTitle = null;
+        this.modalSubtitle = null;
+        this.modalSteptitle = null;
+        this.modalSteps = null;
+        this.modalStepIndicators = null;
+        this.modalContent = null;
+        this.modalFooter = null;
+        this.modalCloseButton = null;
+        this.modalStepbackButton = null;
+        this.activeStep = null;
+        this.fileLoading = false;
     }
 
     loadModalFromFile() {
@@ -109,15 +147,25 @@ class Modal {
             this.openModal();
         })
         .catch(e => {
+            console.log('Modal could not be loaded from file, opening fallback modal');
             this.modal = null;
-            this.initModal();
+            this.modalName = 'fallback-modal';
+            this.modal = this.createNode('div', [
+                this.classPrefix
+            ]);
+            this.modal.setAttribute('data-modal', this.modalName);
+            this.modal.setAttribute('data-title', 'Ups...');
+            this.modal.setAttribute('data-subtitle', 'Etwas ist schiefgelaufen');
+            this.modal.innerHTML = '<p class="centered">Leider ist beim öffnen etwas schiefgelaufen. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie uns.</p><p><a href="/kontakt" class="btn btn--primary btn--centered">Jetzt Kontakt aufnehmen</a></p>';
+            document.body.appendChild(this.modal);
+            this.openModal();
         });
     }
 
     initModal() {
-        if (!this.modal || this.initialized)
+        if (!this.modal || this.modal.getAttribute('initialized'))
             return;
-        this.initialized = true;
+        this.modal.setAttribute('initialized', true);
         
         this.createModalWrapper();
         this.createModalContent(); // Also sets this.modalSteps
