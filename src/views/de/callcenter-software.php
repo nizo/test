@@ -44,7 +44,7 @@ $faqs->faq_add (
 			<h1 class="mobile-hidden">Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
 			<h2 class="mobile-hidden">Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz,weniger Ausfälle,mehr Transparenz,bessere Planbarkeit" data-colors="#FF002E,#FF7B1B,#DB00C5,#0088EA">mehr Effizienz</span></h2>
 			<p class="mobile-hidden">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales1">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>
 
 			<h1 class="desktop-hidden">Ihr Kundenservice mit unserer Callcenter-Software</h1>
@@ -1555,10 +1555,6 @@ $faqs->faq_add (
 			});
 		});
 	});
-
-	// document.addEventListener('DOMContentLoaded', () => {
-	// 	new Modal(null, 'contact-sales1');
-	// });
 </script>
 
 

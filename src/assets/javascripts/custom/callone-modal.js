@@ -543,3 +543,8 @@ let modalButtons = document.querySelectorAll('[data-openmodal]');
 modalButtons.forEach(modalButton => {
     new Modal(modalButton);
 });
+
+// Call Modal via code example:
+// document.addEventListener('DOMContentLoaded', () => {
+// 	new Modal(null, 'contact-sales', 'data', 2000); // null, name, data, delay
+// });
