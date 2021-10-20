@@ -37,3 +37,30 @@
         }
     }
 }
+
+@media screen and (max-width: 1170px) {
+    .paper:not(.paper--gradient) {
+        background: none;
+        border: 0;
+
+        .paper__row {
+            flex-direction: column;
+
+            &+.paper__row {
+                border-top: 0;
+                margin-top: 30px;
+            }
+        }
+
+        .paper__item {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 18px rgba(#000, 0.25);
+            border-radius: 10px;
+
+            &+.paper__item {
+                border-left: 0;
+                margin-top: 30px;
+            }
+        }
+    }
+}

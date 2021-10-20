@@ -119,29 +119,31 @@
 
             <div class="tablist__content paper" data-tab="1">
                 <div class="paper__row">
-                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--6-lg">
-                            <div class="tag">
-                                <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
+                    <div class="paper__item">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg">
+                                <div class="tag">
+                                    <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
+                                </div>
+                                <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
+                                <p class="bigtext">Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
+                                <p>
+                                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                </p>
                             </div>
-                            <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
-                            <p class="bigtext">Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
-                            <p>
-                                <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
-                            </p>
-                        </div>
-                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg">
-                            <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
+                                <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="paper__row">
                     <div class="paper__item">
                         <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered">
                                 <img src="/assets/images/illus/business-full-package.svg" alt="" />
                             </div>
-                            <div class="co-grid__col co-grid__col--6-xs">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--6-lg co-grid__col--vcentered">
                                 <h4>Zugeschnitten statt standardisiert</h4>
                                 <p class="bigtext">Unser Ziel: Ihr Geschäft voranbringen. Wie? Mit dem vielleicht umfassendsten Angebot rund um das Thema Office-Telefonie.</p>
                             </div>
@@ -152,7 +154,7 @@
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/personal-contacts.png" alt="" />
                             </div>
-                            <div class="co-grid__col co-grid__col--6-xs">
+                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                                 <h4>Immer persönlich betreut</h4>
                                 <p class="bigtext">Unsere Kunden lieben Schnelligkeit. Deshalb erhalten alle unsere Kunden persönliche Ansprechpartner.</p>
                             </div>
@@ -166,42 +168,46 @@
                                                 background-repeat: no-repeat;
                                                 background-position: 82% bottom;
                                                 background-size: 35%;">
-                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--6-xs">
-                            <br />
-                            <br />
-                            <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
-                            <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
-                            <p>
-                                <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
-                            </p>
-                            <br />
-                            <br />
+                    <div class="paper__item">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                            <div class="co-grid__col co-grid__col--6-xs">
+                                <br />
+                                <br />
+                                <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
+                                <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
+                                <p>
+                                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                </p>
+                                <br />
+                                <br />
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="paper__row">
-                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
-                            <h3 style="margin-top:15px">
-                                Zukunftssichere Technologie <br />
-                                <span class="ff-copy fw400">trifft</span> Expertenberatung
-                            </h3>
-                        </div>
-                        <div class="co-grid__col co-grid__col--6-xs">
-                            <div class="carddeck carddeck--right">
-                                <div class="carddeck__card">
-                                    <h4>Messbare Ergebnisse am ersten Tag</h4>
-                                    <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
-                                </div>
-                                <div class="carddeck__card">
-                                    <h4>Lorem, ipsum dolor.</h4>
-                                    <p class="bigtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat laudantium recusandae asperiores sapiente, eaque repellendus, vitae, officiis excepturi.</p>
-                                </div>
-                                <div class="carddeck__card">
-                                    <h4>Lorem ipsum dolor sit.</h4>
-                                    <p class="bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde ea placeat et officiis assumenda modi eaque, esse aut quisquam delectus magnam distinctio facere.</p>
+                    <div class="paper__item">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
+                                <h3 style="margin-top:15px">
+                                    Zukunftssichere Technologie <br />
+                                    <span class="ff-copy fw400">trifft</span> Expertenberatung
+                                </h3>
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs">
+                                <div class="carddeck carddeck--right">
+                                    <div class="carddeck__card">
+                                        <h4>Messbare Ergebnisse am ersten Tag</h4>
+                                        <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
+                                    </div>
+                                    <div class="carddeck__card">
+                                        <h4>Lorem, ipsum dolor.</h4>
+                                        <p class="bigtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat laudantium recusandae asperiores sapiente, eaque repellendus, vitae, officiis excepturi.</p>
+                                    </div>
+                                    <div class="carddeck__card">
+                                        <h4>Lorem ipsum dolor sit.</h4>
+                                        <p class="bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde ea placeat et officiis assumenda modi eaque, esse aut quisquam delectus magnam distinctio facere.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -214,52 +220,56 @@
                                                 background-repeat: no-repeat;
                                                 background-position: right bottom;
                                                 background-size: 50%;">
-                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--6-xs">
-                            <br />
-                            <br />
-                            <h3>Eine Plattform, unendlich Optionen</h3>
-                            <p class="bigtext">Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
-                            <p>
-                                <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
-                            </p>
-                            <br />
-                            <br />
+                    <div class="paper__item">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                            <div class="co-grid__col co-grid__col--6-xs">
+                                <br />
+                                <br />
+                                <h3>Eine Plattform, unendlich Optionen</h3>
+                                <p class="bigtext">Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
+                                <p>
+                                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                </p>
+                                <br />
+                                <br />
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="paper__row">
-                    <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
-                            <?php require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
-                            <script>
-                                let svg = document.querySelector('.clients-circle-callcenter-software');
-                                let circles = svg.querySelectorAll('.circle');
-                                let circleIcons = svg.querySelectorAll('.circle-icon');
-                                let currentCircle = 0;
-                                let countCircles = circles.length;
+                    <div class="paper__item">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                            <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
+                                <?php require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
+                                <script>
+                                    let svg = document.querySelector('.clients-circle-callcenter-software');
+                                    let circles = svg.querySelectorAll('.circle');
+                                    let circleIcons = svg.querySelectorAll('.circle-icon');
+                                    let currentCircle = 0;
+                                    let countCircles = circles.length;
 
-                                setInterval(e => {
-                                    circles.forEach(circle => {
-                                        circle.setAttribute('stroke', 'black');
-                                        circle.setAttribute('stroke-width', '2');
-                                        circle.setAttribute('stroke-opacity', '0.1');
-                                    });
-                                    circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
-                                    currentCircle++;
-                                    if (currentCircle >= countCircles)
-                                        currentCircle = 0;
-                                    circles[currentCircle].setAttribute('stroke', '#86ed18');
-                                    circles[currentCircle].setAttribute('stroke-width', '4');
-                                    circles[currentCircle].setAttribute('stroke-opacity', '1');
-                                    circleIcons[currentCircle].setAttribute('opacity', '1');
-                                }, 2000);
-                            </script>
-                        </div>
-                        <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
-                            <div class="left-border">
-                                <h4>Callcenter-Software</h4>
-                                <p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
+                                    setInterval(e => {
+                                        circles.forEach(circle => {
+                                            circle.setAttribute('stroke', 'black');
+                                            circle.setAttribute('stroke-width', '2');
+                                            circle.setAttribute('stroke-opacity', '0.1');
+                                        });
+                                        circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+                                        currentCircle++;
+                                        if (currentCircle >= countCircles)
+                                            currentCircle = 0;
+                                        circles[currentCircle].setAttribute('stroke', '#86ed18');
+                                        circles[currentCircle].setAttribute('stroke-width', '4');
+                                        circles[currentCircle].setAttribute('stroke-opacity', '1');
+                                        circleIcons[currentCircle].setAttribute('opacity', '1');
+                                    }, 2000);
+                                </script>
+                            </div>
+                            <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
+                                <div class="left-border">
+                                    <h4>Callcenter-Software</h4>
+                                    <p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -269,7 +279,7 @@
     </div>
 </div>
 
-<div class="section">
+<div class="section tablet-hidden">
     <div class="section__content section__content--wide">
         <div class="paper paper--gradient">
             <div class="paper__row" style="background-image: url(/assets/images/illus/brochure-CCS-checklist.png);
