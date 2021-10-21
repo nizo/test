@@ -27,9 +27,9 @@
                 <a href="#todo" class="btn btn--primary btn--full-width desktop-hidden">Jetzt loslegen</a>
             </p>
         </div>
-        <div class="hero__image">
+        <!-- <div class="hero__image">
             
-        </div>
+        </div> -->
     </header>
 </div>
 
