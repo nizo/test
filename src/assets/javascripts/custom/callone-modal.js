@@ -1,3 +1,8 @@
+// Call Modal via code example:
+// document.addEventListener('DOMContentLoaded', () => {
+// 	new Modal(null, 'contact-sales', 'data', 2000); // null, name, data, delay
+// });
+
 class Modal {
     constructor(modalButton, modalName = null, modalData = null, modalDelay = 0) {
         this.classPrefix = 'callone-modal';
@@ -543,8 +548,3 @@ let modalButtons = document.querySelectorAll('[data-openmodal]');
 modalButtons.forEach(modalButton => {
     new Modal(modalButton);
 });
-
-// Call Modal via code example:
-// document.addEventListener('DOMContentLoaded', () => {
-// 	new Modal(null, 'contact-sales', 'data', 2000); // null, name, data, delay
-// });
