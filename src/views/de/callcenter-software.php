@@ -1560,7 +1560,7 @@ $faqs->faq_add (
 					thema.style.display = 'block';
 			});
 		});
-	})
+	});
 </script>
 
 

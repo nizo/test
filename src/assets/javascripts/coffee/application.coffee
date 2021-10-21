@@ -186,11 +186,13 @@ app =
 # Adds additional class to navbar when scrolled
 navbar =
   init: ->
+    bar = document.querySelector('.navbar')
     document.addEventListener 'scroll', (e) ->
-      if window.scrollY > 0
-        document.querySelector('.navbar').classList.add('scrolled')
-      else
-        document.querySelector('.navbar').classList.remove('scrolled')
+      if bar
+        if window.scrollY > 0
+          bar.classList.add('scrolled')
+        else
+          bar.classList.remove('scrolled')
 
 slider =
   slider: ""
