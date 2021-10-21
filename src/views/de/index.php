@@ -631,8 +631,8 @@
                     </div>
                 </div>
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
-                    <a href="#" class="btn btn--primary btn--full-width mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary btn--full-width desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
                 </p>
             </div>
         </div>
