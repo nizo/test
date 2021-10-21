@@ -52,7 +52,7 @@
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
                 <h1>Die CallOne Plattform</h1>
-                <p class="bigtext">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="#todo" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
+                <p class="bigtext">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
                 <p class="mobile-hidden">
                     <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
                 </p>
