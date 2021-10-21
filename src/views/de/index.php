@@ -3,7 +3,7 @@
         <div class="hero__text">
             <h4>Cloud Call Center Software ist unsere Expertise.</h4>
             <h1>
-                Unsere Leidenschaft ist das <br />
+                Unsere Leidenschaft ist das <br class="mobile-hidden" />
                 optimale Kundenerlebnis.
             </h1>
             
@@ -22,8 +22,9 @@
                 </div>
             </div>
 
-            <p>
-                <a href="#todo" class="btn btn--primary">Jetzt loslegen</a>
+            <p class="mobile-centered">
+                <a href="#todo" class="btn btn--primary mobile-hidden">Jetzt loslegen</a>
+                <a href="#todo" class="btn btn--primary btn--full-width desktop-hidden">Jetzt loslegen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -39,7 +40,7 @@
         </div>
         <div class="anchors__links">
             <a href="#gruende">Gründe für Integration</a>
-            <a href="#pakete">Integrationspakete</a>
+            <a href="#pakete1" class="anchor-packages">Integrationspakete</a>
             <a href="#referenzen">Referenzen</a>
             <a href="#kosten">Kosten für Neukunden</a>
         </div>
@@ -52,7 +53,8 @@
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
                 <h1>Die CallOne Plattform</h1>
-                <p class="bigtext">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
+                <p class="bigtext mobile-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
+                <p class="desktop-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können.</p>
                 <p class="mobile-hidden">
                     <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
                 </p>
@@ -371,7 +373,7 @@
                         <h3>So holt Ihr Kundenservice alles raus!</h3>
                         <p class="bigtext">Unseres hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
                         <p>
-                            <a href="#todo" class="btn btn--primary">Jetzt herunterladen</a>
+                            <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
                         </p>
                         <br /><br />
                     </div>
@@ -381,7 +383,7 @@
     </div>
 </div>
 
-<div class="section section--home-slider section--home-slider-1 section--home-slider-active" id="pakete">
+<div class="section section--home-slider section--home-slider-1 section--home-slider-active" id="pakete1">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -420,8 +422,9 @@
                             </div>
                         </div>
 
-                        <p>
-                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        <p class="mobile-centered">
+                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -432,7 +435,7 @@
     </div>
 </div>
 
-<div class="section section--home-slider section--home-slider-2">
+<div class="section section--home-slider section--home-slider-2" id="pakete2">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -471,8 +474,9 @@
                             </div>
                         </div>
 
-                        <p>
-                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        <p class="mobile-centered">
+                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -483,7 +487,7 @@
     </div>
 </div>
 
-<div class="section section--home-slider section--home-slider-3">
+<div class="section section--home-slider section--home-slider-3" id="pakete3">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -522,8 +526,9 @@
                             </div>
                         </div>
 
-                        <p>
-                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        <p class="mobile-centered">
+                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -534,7 +539,7 @@
     </div>
 </div>
 
-<div class="section section--home-slider section--home-slider-4">
+<div class="section section--home-slider section--home-slider-4" id="pakete4">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -573,8 +578,9 @@
                             </div>
                         </div>
 
-                        <p>
-                            <a href="#todo" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+                        <p class="mobile-centered">
+                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -587,8 +593,9 @@
 
 <div class="section section--black-grey section--wave-animation" id="kosten">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Kundenbesessene Unternehmen <br />vertrauen auf CallOne</h1>
-        <p class="centered">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
+        <h1 class="centered mobile-left">Kundenbesessene Unternehmen <br />vertrauen auf CallOne</h1>
+        <p class="centered mobile-hidden">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
+        <h5 class="desktop-hidden">Denn unsere Kunden erhalten Ergebnisse:</h5>
     </div>
     <div class="section__content section__content--wide">
         <div class="co-grid">
@@ -615,7 +622,7 @@
             </div>
         </div>
 
-        <br /><br />
+        <br class="mobile-hidden"/><br class="mobile-hidden"/>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -643,6 +650,7 @@
     let homeSlides = document.querySelectorAll('.section--home-slider');
     let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
     let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
+    let anchorButton = document.querySelector('.anchor-packages');
     let currentSlide = 1;
 
     nextSlideButtons.forEach(nextSlideButton => {
@@ -665,6 +673,7 @@
         updateSlide();
     }
     function updateSlide() {
+        anchorButton.setAttribute('href', '#pakete' + currentSlide);
         homeSlides.forEach(homeSlide => {
             homeSlide.classList.remove('section--home-slider-active');
             if (homeSlide.classList.contains('section--home-slider-'+currentSlide))
