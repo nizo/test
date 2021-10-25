@@ -20,6 +20,10 @@
                     <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="" height="50" />
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
+                <div class="co-grid__col co-grid__col--2-xs">
+                    <img src="/assets/images/icons_svg/usp-rating-icon-square.svg" alt="" height="50" />
+                    <p style="margin-top:10px">5 Sterne <br />bei Google</p>
+                </div>
             </div>
 
             <p class="mobile-centered">
@@ -77,18 +81,18 @@
 
         <div class="small-tabs">
             <div class="small-tabs__tabs">
-                <div class="small-tabs__tab" data-tab="1">Enterprise</div>
+                <div class="small-tabs__tab" data-tab="1">Fast-Growing</div>
                 <div class="small-tabs__tab" data-tab="2">Mittelstand</div>
-                <div class="small-tabs__tab" data-tab="3">Fast-Growing</div>
+                <div class="small-tabs__tab" data-tab="3">Enterprise</div>
             </div>
             <div class="small-tabs__content centered" data-tab="1">
-                <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" />
+                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" />
             </div>
             <div class="small-tabs__content centered" data-tab="2">
                 <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" />
             </div>
             <div class="small-tabs__content centered" data-tab="3">
-                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" />
+                <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" />
             </div>
         </div>
     </div>
@@ -213,7 +217,7 @@
                                     <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
                                     <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
                                     <p>
-                                        <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                        <a href="/callcenter-software#mehrwertrechner" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
                                     <br />
                                     <br />
@@ -238,12 +242,12 @@
                                             <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
                                         </div>
                                         <div class="carddeck__card">
-                                            <h4>Lorem, ipsum dolor.</h4>
-                                            <p class="bigtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat laudantium recusandae asperiores sapiente, eaque repellendus, vitae, officiis excepturi.</p>
+                                            <h4>Zügige Umsetzung Ihres Projekts</h4>
+                                            <p class="bigtext">Persönliche Ansprechpartner stehen Ihnen von Tag 1 und während der gesamten Zusammenarbeit zur Verfügung.</p>
                                         </div>
                                         <div class="carddeck__card">
-                                            <h4>Lorem ipsum dolor sit.</h4>
-                                            <p class="bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde ea placeat et officiis assumenda modi eaque, esse aut quisquam delectus magnam distinctio facere.</p>
+                                            <h4>Keine Kompromisse bei Qualität & Stabilität</h4>
+                                            <p class="bigtext">Gehen Sie mit CallOne auf Nummer sicher. Wir setzen auf Hochverfügbarkeit und können auf 99,999% Erreichbarkeit auf die letzten Jahre zurückblicken.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +263,7 @@
                     <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
                     <p>Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
                     <p class="centered">
-                        <a href="#todo" class="btn btn--primary btn--full-width">Mehr erfahren</a>
+                        <a href="/callcenter-software#mehrwertrechner" class="btn btn--primary btn--full-width">Mehr erfahren</a>
                     </p>
                 </div>
 
@@ -423,8 +427,8 @@
                         </div>
 
                         <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                            <a href="/voip-api" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="/voip-api" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -475,8 +479,8 @@
                         </div>
 
                         <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                            <a href="/callcenter-bot" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="/callcenter-bot" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -613,9 +617,9 @@
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md number-card number-card--on-black">
                 <div class="number-card__number" style="--color:#86ed18;">
-                    <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
+                    <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
                 </div>
-                kürzere Gesprächsdauern (AHT)*
+                Verkürzung der Wartezeit*
             </div>
             <div class="co-grid__col co-grid__col--6-sm co-grid__col--hidden-sm co-grid__col--3-md co-grid__col--vcentered">
                 <h3>Unsere Kunden erhalten Ergebnisse.</h3>

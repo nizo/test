@@ -6,7 +6,7 @@
  */
 
 .paper+*,*+.paper {
-    margin-top: 60px;
+    margin-top: var(--gutter-xl);
 }
 
 .paper {
@@ -30,7 +30,7 @@
 
     &__item {
         flex: 1;
-        padding: 30px;
+        padding: var(--gutter-m);
 
         &+.paper__item {
             border-left: 2px solid #E5E5E5;

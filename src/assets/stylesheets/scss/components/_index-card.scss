@@ -26,7 +26,7 @@
         background-position: center;
         background-repeat: no-repeat;
         cursor: pointer;
-        opacity: .5;
+        opacity: .7;
         transition: all .3s ease;
         &:hover {
             opacity: 1;
@@ -49,17 +49,17 @@
     &__indicator {
         background-color: #c4c4c4;
         border-radius: 50%;
-        width: 6px;
-        height: 6px;
+        width: 8px;
+        height: 8px;
 
         &+.index-card__indicator {
-            margin-left: 8px;
+            margin-left: 10px;
         }
     }
     &__indicator--active {
         --color: #{$color-primary};
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
         background-color: var(--color);
     }
 
