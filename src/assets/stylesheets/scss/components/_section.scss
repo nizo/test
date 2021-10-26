@@ -21,7 +21,7 @@
     // Headers
     &--index-header {
         position: relative;
-        background-image: url(../images/illus/startpage-header-lotta-jamie-illustration.png);
+        background-image: url(../images/illus/startpage-header-lotta-jamie-illustration-colored.png);
         background-size: 585px auto;
         background-position: calc(50% + 292px) bottom;
         background-repeat: no-repeat;
@@ -42,7 +42,7 @@
             background-image: linear-gradient(180deg, rgba(#EDF2E2, 0), #EDF2E2 100%);
         }
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1000px) {
             background-position: center bottom;
             background-size: auto 375px;
             padding-bottom: 320px !important;

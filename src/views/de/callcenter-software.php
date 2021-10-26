@@ -1186,7 +1186,7 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--wide mobile-hidden" data-thema="1">
+	<div class="section__content section__content--wide mobile-hidden" data-thema="1" id="not-convinced-yet">
 		<hr class="bracket-spacer" />
 		
 		<h3 class="centered">Unsere Vielfalt an Telefonie-Clients</h3>

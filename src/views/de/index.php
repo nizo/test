@@ -1,7 +1,7 @@
 <div class="section section--index-header">
     <header class="hero">
         <div class="hero__text">
-            <h4>Cloud Call Center Software ist unsere Expertise.</h4>
+            <h4>Call Center Software ist unsere Expertise.</h4>
             <h1>
                 Unsere Leidenschaft ist das <br class="mobile-hidden" />
                 optimale Kundenerlebnis.
@@ -27,8 +27,8 @@
             </div>
 
             <p class="mobile-centered">
-                <a href="#todo" class="btn btn--primary mobile-hidden">Jetzt loslegen</a>
-                <a href="#todo" class="btn btn--primary btn--full-width desktop-hidden">Jetzt loslegen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Jetzt loslegen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Jetzt loslegen</a>
             </p>
         </div>
         <!-- <div class="hero__image">
@@ -57,10 +57,10 @@
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
                 <h1>Die CallOne Plattform</h1>
-                <p class="bigtext mobile-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
-                <p class="desktop-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können.</p>
+                <p class="bigtext mobile-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, die speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
+                <p class="desktop-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikations&shy;lösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können.</p>
                 <p class="mobile-hidden">
-                    <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                    <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--7-lg co-grid__col--vcentered">
@@ -69,7 +69,9 @@
         </div>
 
         <p class="desktop-hidden">
-            <a href="#todo" class="btn btn--primary btn--full-width centered">Mehr erfahren</a>
+            <a href="/callcenter-software" class="btn btn--primary btn--full-width centered">Mehr erfahren</a>
+            <br />
+            <br />
         </p>
     </div>
     
@@ -101,21 +103,21 @@
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1">
-                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" /><br />
+                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
                     <strong>
                         Was bietet unsere <br />
                         Telefonlösung?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" /><br />
+                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
                     <strong>
                         Was sind die Vorteile <br />
                         von CallOne?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="3">
-                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" /><br />
+                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
                     <strong>
                         Wie kann ich mit <br />
                         CallOne telefonieren?
@@ -135,7 +137,7 @@
                                     <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
                                     <p class="bigtext">Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
                                     <p>
-                                        <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                        <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
@@ -180,7 +182,7 @@
                     <h3>Callcenter Software & VoIP-Telefonanlage</h3>
                     <p>Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
                     <p class="centered">
-                        <a href="#todo" class="btn btn--primary btn--full-width">Mehr erfahren</a>
+                        <a href="/callcenter-software" class="btn btn--primary btn--full-width">Mehr erfahren</a>
                     </p>
                 </div>
 
@@ -236,7 +238,7 @@
                                     </h3>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                                    <div class="carddeck carddeck--right">
+                                    <div class="carddeck carddeck--right" data-speed="4000">
                                         <div class="carddeck__card">
                                             <h4>Messbare Ergebnisse am ersten Tag</h4>
                                             <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
@@ -291,7 +293,7 @@
                                     <h3>Eine Plattform, unendlich Optionen</h3>
                                     <p class="bigtext">Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
                                     <p>
-                                        <a href="#todo" class="btn btn--primary">Mehr erfahren</a>
+                                        <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
                                     <br />
                                     <br />
@@ -308,16 +310,43 @@
                                         let svg = document.querySelector('.clients-circle-callcenter-software');
                                         let circles = svg.querySelectorAll('.circle');
                                         let circleIcons = svg.querySelectorAll('.circle-icon');
+                                        let svgTexts = svg.querySelectorAll('.text');
                                         let currentCircle = 0;
                                         let countCircles = circles.length;
+                                        let circleInterval = null;
 
-                                        setInterval(e => {
+                                        document.addEventListener('DOMContentLoaded', () => {
+                                            respondToVisibility(document.querySelector('.clients-circle-callcenter-software'), visible => {
+                                                currentCircle = 0;
+                                                clearInterval(circleInterval);
+
+                                                circles.forEach(circle => {
+                                                    circle.setAttribute('stroke', 'black');
+                                                    circle.setAttribute('stroke-width', '2');
+                                                    circle.setAttribute('stroke-opacity', '0.1');
+                                                });
+                                                circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+                                                svgTexts.forEach(text => text.setAttribute('opacity', '0'));
+                                                circles[currentCircle].setAttribute('stroke', '#86ed18');
+                                                circles[currentCircle].setAttribute('stroke-width', '4');
+                                                circles[currentCircle].setAttribute('stroke-opacity', '1');
+                                                circleIcons[currentCircle].setAttribute('opacity', '1');
+                                                svgTexts[currentCircle].setAttribute('opacity', '1');
+
+                                                circleInterval = setInterval(animateCircles, 2000);
+                                            });
+                                        });
+
+                                        circleInterval = setInterval(animateCircles, 2000);
+
+                                        function animateCircles() {
                                             circles.forEach(circle => {
                                                 circle.setAttribute('stroke', 'black');
                                                 circle.setAttribute('stroke-width', '2');
                                                 circle.setAttribute('stroke-opacity', '0.1');
                                             });
                                             circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+                                            svgTexts.forEach(text => text.setAttribute('opacity', '0'));
                                             currentCircle++;
                                             if (currentCircle >= countCircles)
                                                 currentCircle = 0;
@@ -325,7 +354,8 @@
                                             circles[currentCircle].setAttribute('stroke-width', '4');
                                             circles[currentCircle].setAttribute('stroke-opacity', '1');
                                             circleIcons[currentCircle].setAttribute('opacity', '1');
-                                        }, 2000);
+                                            svgTexts[currentCircle].setAttribute('opacity', '1');
+                                        };
                                     </script>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
@@ -346,7 +376,7 @@
                     <h3>Eine Plattform, unendlich Optionen</h3>
                     <p>Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
                     <p class="centered">
-                        <a href="#todo" class="btn btn--primary btn--full-width">Mehr erfahren</a>
+                        <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary btn--full-width">Mehr erfahren</a>
                     </p>
                 </div>
 
@@ -375,7 +405,7 @@
                     <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                         <br /><br />
                         <h3>So holt Ihr Kundenservice alles raus!</h3>
-                        <p class="bigtext">Unseres hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
+                        <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
                         <p>
                             <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
                         </p>
@@ -427,8 +457,8 @@
                         </div>
 
                         <p class="mobile-centered">
-                            <a href="/voip-api" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="/voip-api" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                            <a href="/voip-api" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="/voip-api" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -479,8 +509,8 @@
                         </div>
 
                         <p class="mobile-centered">
-                            <a href="/callcenter-bot" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="/callcenter-bot" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                            <a href="/callcenter-bot" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="/callcenter-bot" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -530,9 +560,9 @@
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p class="mobile-centered" style="visibility:hidden">
+                            <a href="#todo" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="#todo" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -582,9 +612,9 @@
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p class="mobile-centered" style="visibility:hidden">
+                            <a href="#todo" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="#todo" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
