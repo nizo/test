@@ -656,12 +656,27 @@
     let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
     let anchorButton = document.querySelector('.anchor-packages');
     let currentSlide = 1;
+    let homeSlidesInterval = null;
+    window.addEventListener('scroll', e => {
+        let offsetTop = homeSlides[0].getBoundingClientRect().top;
+        if (!homeSlidesInterval && offsetTop < window.innerHeight * 0.7) {
+            homeSlidesInterval = setInterval(nextSlide, 3000);
+        }
+    });
 
     nextSlideButtons.forEach(nextSlideButton => {
-        nextSlideButton.addEventListener('click', nextSlide);
+        nextSlideButton.addEventListener('click', e => {
+            clearInterval(homeSlidesInterval);
+            homeSlidesInterval = true;
+            nextSlide();
+        });
     });
     prevSlideButtons.forEach(prevSlideButton => {
-        prevSlideButton.addEventListener('click', prevSlide);
+        prevSlideButton.addEventListener('click', e => {
+            clearInterval(homeSlidesInterval);
+            homeSlidesInterval = true;
+            prevSlide();
+        });
     });
 
     function nextSlide() {
