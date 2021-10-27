@@ -773,6 +773,9 @@ img {
 			margin-right: initial !important;
 		}
 	}
+	.mobile-centered {
+		text-align: center;
+	}
 	img {
 		&.img-25, &.img-50, &.img-75, &.img-100 {
 			width: 100%;

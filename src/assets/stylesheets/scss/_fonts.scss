@@ -19,6 +19,7 @@
  */
 @font-face {
     font-family: 'Px Grotesk';
+    font-display: swap;
     src: url('../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.eot');
     src: url('../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.ttf') format('truetype'),
@@ -76,12 +77,20 @@
     font-style: normal;
 }
 
-.font-primary {
-	font-family: PxGroteskBold;
+.ff-headline, .font-primary {
+	font-family: 'Px Grotesk';
 }
 
-.font-secondary {
-	font-family: apercu;
+.ff-copy, .font-secondary {
+	font-family: 'apercu';
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
 }
 
 .fw700 {

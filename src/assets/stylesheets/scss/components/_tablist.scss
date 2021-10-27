@@ -169,6 +169,9 @@
             padding-right: 30px;
             display: none;
             border-bottom: 0;
+            strong {
+                font-size: 20px;
+            }
         }
         &__link--active {
             display: block;

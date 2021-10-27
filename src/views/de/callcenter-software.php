@@ -202,7 +202,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -276,7 +276,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -356,7 +356,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -436,7 +436,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-						<p class="centered subtext">*erreichte Referenzwerte unserer Kunden</p>
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
@@ -516,9 +516,12 @@ $faqs->faq_add (
 		</h1>
 
 		<p class="centered">
-		Wir stehen für messbare Effizienzsteigerungen <br />
-		und heben Einsparpotentiale im großen Stil.
+			Wir stehen für messbare Effizienzsteigerungen <br />
+			und heben Einsparpotentiale im großen Stil.
 		</p>
+
+		<br />
+		<br />
 
 		<div class="co-grid saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
@@ -683,7 +686,7 @@ $faqs->faq_add (
 						</div>
 
 						<div class="saving-calculation__content saving-calculation__content--blurred">
-							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.<br /><br /></p>
+							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.</p>
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
@@ -876,7 +879,7 @@ $faqs->faq_add (
 						</div>
 
 						<div class="saving-calculation__content saving-calculation__content--blurred">
-							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.<br /><br /></p>
+							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.</p>
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
@@ -1183,11 +1186,11 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--wide mobile-hidden" data-thema="1">
+	<div class="section__content section__content--wide mobile-hidden" data-thema="1" id="not-convinced-yet">
 		<hr class="bracket-spacer" />
 		
 		<h3 class="centered">Unsere Vielfalt an Telefonie-Clients</h3>
-		<p class="centered">Telefonieren mit CallOne heißt aus vielen verschiedenen Möglichkeiten der <br />Telefonie zu schöpfen und so Ihr ideales Setup zu finden.<br /><br /></p>
+		<p class="centered">Telefonieren mit CallOne heißt aus vielen verschiedenen Möglichkeiten der <br />Telefonie zu schöpfen und so Ihr ideales Setup zu finden.</p>
 
 		<div class="tablist tablist--on-black">
 			<div class="tablist__links tablist__links--full-width">
@@ -1499,6 +1502,9 @@ $faqs->faq_add (
 		<div class="cta-contact">
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
 			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
+
+			<br />
+			<br />
 
 			<div class="co-grid">
 				<div class="co-grid__col co-grid__col--4-xs">

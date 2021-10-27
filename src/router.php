@@ -65,6 +65,15 @@ $r->addRoute('GET', '/components', function() {
   require_once('./views/de/components.php');
   require_once('./layouts/footer-components.php');
 });
+$r->addRoute('GET', '/icons', function() {
+  $title = 'Icons';
+  $description = '';
+  $keywords = '';
+  $background = 'components--scrollbar';
+  require_once('./layouts/header-components.php');
+  require_once('./views/de/icons.php');
+  require_once('./layouts/footer-components.php');
+});
 
 $r->addRoute('GET', '/components_overview', function() {
   $title = 'components_overview';
@@ -100,7 +109,7 @@ $r->addRoute('GET', '/', function() {
   $title = 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern';
   $description = 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!';
   $keywords = 'Software,callone,callcenter,telefonanlage,voip,cloud,rufnummern,sales,kundenservice,Unternehmen,integration,api,schnittstellen,crm,telefonie,lösung,call,center';
-  $background = 'bg-index';
+  $background = '';
   $ogUrl = $GLOBALS['url'] . '/';
   require_once('./layouts/header.php');
   require_once('./views/de/index.php');

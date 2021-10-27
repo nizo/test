@@ -1,16 +1,17 @@
 .content-box {
     border-radius: 10px;
-    padding: 30px;
+    padding: var(--gutter-m);
     margin: 0 auto;
     max-width: 570px;
     width: 100%;
+    overflow: hidden;
 
     &--wide {
         max-width: 1030px;
     }
 
     &--small-padding {
-        padding: 15px;
+        padding: var(--gutter-xs);
     }
 
     &--shadow {
@@ -22,8 +23,12 @@
         color: #000;
     }
 
+    &--full-width {
+        max-width: 100%;
+    }
+
     p+p {
-        margin-top: 15px;
+        margin-top: var(--gutter-xs);
     }
 
     >.co-grid {
@@ -33,5 +38,5 @@
 }
 
 *+.content-box {
-    margin-top: 60px;
+    margin-top: var(--gutter-xl);
 }
