@@ -4,14 +4,14 @@
     padding: 100px 25px 60px 25px;
     
     // Modifiers
+    &--same-padding {
+        padding: 60px 25px;
+    }
     &--no-padding-top {
         padding-top: 0;
     }
     &--no-padding-bottom {
         padding-bottom: 0;
-    }
-    &--same-padding {
-        padding: 60px 25px;
     }
     &--overflow-protection {
         overflow-y: visible;

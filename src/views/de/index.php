@@ -560,6 +560,7 @@
                             </div>
                         </div>
 
+						<!-- TODO: Show block and add correct links -->
                         <p class="mobile-centered" style="visibility:hidden">
                             <a href="#todo" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
                             <a href="#todo" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
@@ -612,6 +613,7 @@
                             </div>
                         </div>
 
+						<!-- TODO: Show block and add correct links -->
                         <p class="mobile-centered" style="visibility:hidden">
                             <a href="#todo" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
                             <a href="#todo" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>

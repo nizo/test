@@ -41,7 +41,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--same-padding mobile-hidden">
+<div class="section section--same-padding section--no-padding-top mobile-hidden">
     <div class="section__content section__content--wide centered">
         <p>
             CallOne Kunden jeder Größe haben ein Ziel: <span class="fw500">Überdurchschnittliche Kundenerlebnisse!</span><br />

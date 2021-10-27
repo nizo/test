@@ -391,6 +391,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
+				<!-- TODO: Hide debug code and add link -->
 				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
 				<?php /* <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
@@ -471,6 +472,7 @@ $faqs->faq_add (
 					</div>
 				</div>
 
+				<!-- TODO: Hide debug code and add link -->
 				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
 				<?php /* <p class="centered" style="margin-top: 150px;">
 					<span class="mobile-hidden">
@@ -1493,6 +1495,7 @@ $faqs->faq_add (
 			</div>
 		</div>
 
+		<!-- TODO: Add link -->
 		<?php /* <p>
 			<a href="#" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
 		</p> */ ?>
