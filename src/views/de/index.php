@@ -43,8 +43,8 @@
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
         <div class="anchors__links">
-            <a href="#gruende">Gründe für Integration</a>
-            <a href="#pakete1" class="anchor-packages">Integrationspakete</a>
+            <a href="#gruende">Gründe für den Start</a>
+            <a href="#pakete1" class="anchor-packages">Lösungspakete</a>
             <a href="#referenzen">Referenzen</a>
             <a href="#kosten">Kosten für Neukunden</a>
         </div>
@@ -57,8 +57,8 @@
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
                 <h1>Die CallOne Plattform</h1>
-                <p class="bigtext mobile-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikationslösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, die speziell für die Anforderungen im Kundenservice oder Inside-Salesabteilung geeignet ist. Unsere vielzähligen <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertigen <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> helfen Ihnen auf einfache Weise Ihre bestehenden Businesslösungen einzubinden, um das bestmögliche Kundenerlebnis zu schaffen.</p>
-                <p class="desktop-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikations&shy;lösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient über eine Oberfläche steuern können.</p>
+                <p class="bigtext mobile-hidden">CallOne liefert cloudbasierte Telekommunikationslösungen, mit denen Sie alle Bereiche Ihrer Unternehmenstelefonie effizient und intuitiv steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, die speziell für die Anforderungen im Kundenservice oder Sales geeignet ist. Vielzählige <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertige <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> integrieren Ihre bestehenden Businesslösungen, um das beste Kundenerlebnis zu schaffen.</p>
+                <p class="desktop-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikations&shy;lösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient steuern können.</p>
                 <p class="mobile-hidden">
                     <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                 </p>
@@ -77,7 +77,7 @@
     
     <div class="section__content section__content--wide mobile-hidden" id="referenzen">
         <p class="centered bigtext">
-            <span class="fw500">CallOne Kunden jeder Größe, haben ein Ziel:</span> <br />
+            <span class="fw500">CallOne Kunden jeder Größe haben ein Ziel:</span> <br />
             Überdurchschnittliche Kundenerlebnisse!
         </p>
 
@@ -135,7 +135,7 @@
                                         <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
                                     </div>
                                     <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
-                                    <p class="bigtext">Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
+                                    <p class="bigtext">Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
                                     <p>
                                         <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
@@ -153,8 +153,8 @@
                                     <img src="/assets/images/illus/business-full-package.svg" alt="" />
                                 </div>
                                 <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
-                                    <h4>Zugeschnitten statt standardisiert</h4>
-                                    <p class="bigtext">Unser Ziel: Ihr Geschäft voranbringen. Wie? Mit dem vielleicht umfassendsten Angebot rund um das Thema Office-Telefonie.</p>
+                                    <h4>Personalisiert statt standardisiert</h4>
+                                    <p class="bigtext">Unser Ziel: Ihr Geschäft voranbringen. Mit dem vielleicht umfassendsten Angebot rund um das Thema Officetelefonie.</p>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                         <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
                     </div>
                     <h3>Callcenter Software & VoIP-Telefonanlage</h3>
-                    <p>Eine cloudbasierte Plattform, speziell angepasst auf Ihre individuellen Anforderungen mit der Sie alle Anfordernisse moderner Unternehmenstelefonie abbilden können.</p>
+                    <p>Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
                     <p class="centered">
                         <a href="/callcenter-software" class="btn btn--primary btn--full-width">Mehr erfahren</a>
                     </p>
@@ -188,7 +188,7 @@
 
                 <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <h6>Fullservice</h6>
-                    <h4 style="margin-top: 0;">Zugeschnitten statt standardisiert</h4>
+                    <h4 style="margin-top: 0;">Personalisiert statt standardisiert</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
                         <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="" style="display:block;width:100%;" />
@@ -234,14 +234,14 @@
                                     <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
                                     <h3 style="margin-top:15px">
                                         Zukunftssichere Technologie <br />
-                                        <span class="ff-copy fw400">trifft</span> Expertenberatung
+                                        <span class="ff-copy fw400">trifft</span> Expertise
                                     </h3>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                                     <div class="carddeck carddeck--right" data-speed="4000">
                                         <div class="carddeck__card">
                                             <h4>Messbare Ergebnisse am ersten Tag</h4>
-                                            <p class="bigtext">Kaum jemand bietet so viel Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen die richtigen Entscheidungen zu treffen, datengestützt und nicht aus dem Bauch.</p>
+                                            <p class="bigtext">Kaum jemand bietet so viele Statistiken und Auswertmöglichkeiten wie wir. Wir helfen Ihnen datengestützt die richtigen Entscheidungen zu treffen.</p>
                                         </div>
                                         <div class="carddeck__card">
                                             <h4>Zügige Umsetzung Ihres Projekts</h4>
@@ -249,7 +249,7 @@
                                         </div>
                                         <div class="carddeck__card">
                                             <h4>Keine Kompromisse bei Qualität & Stabilität</h4>
-                                            <p class="bigtext">Gehen Sie mit CallOne auf Nummer sicher. Wir setzen auf Hochverfügbarkeit und können auf 99,999% Erreichbarkeit auf die letzten Jahre zurückblicken.</p>
+                                            <p class="bigtext">Gehen Sie mit CallOne auf Nummer sicher. Wir setzen auf Hochverfügbarkeit und können auf 99,999% Erreichbarkeit in den letzten Jahren zurückblicken.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -290,8 +290,8 @@
                                 <div class="co-grid__col co-grid__col--6-xs">
                                     <br />
                                     <br />
-                                    <h3>Eine Plattform, unendlich Optionen</h3>
-                                    <p class="bigtext">Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
+                                    <h3>Eine Plattform, unendliche Optionen</h3>
+                                    <p class="bigtext">Maximale Flexibilität, wie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
                                     <p>
                                         <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
@@ -361,7 +361,7 @@
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
                                     <div class="left-border">
                                         <h4>Callcenter-Software</h4>
-                                        <p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
+                                        <p class="bigtext">Binden Sie flexibel jedes gängige SIP- oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung aller Clients in einer Oberfläche.</p>
                                     </div>
                                 </div>
                             </div>
@@ -373,8 +373,8 @@
                     <p class="centered" style="margin-left:-15px;width:calc(100% + 30px);margin-top:-15px;margin-bottom:15px;">
                         <img src="/assets/images/illus/client-diversity-illustration-mobile.svg" alt="" style="display:block;width:100%;" />
                     </p>
-                    <h3>Eine Plattform, unendlich Optionen</h3>
-                    <p>Maximale Flexibilität wie Sie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
+                    <h3>Eine Plattform, unendlich viele Optionen</h3>
+                    <p>Maximale Flexibilität, wie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
                     <p class="centered">
                         <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary btn--full-width">Mehr erfahren</a>
                     </p>
@@ -382,7 +382,7 @@
 
                 <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <h6>Clients</h6>
-                    <h4 style="margin-top: 0;">Für jeden was dabei!</h4>
+                    <h4 style="margin-top: 0;">Für jeden etwas dabei!</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
                         <img src="/assets/images/icons_svg/client-diversity-mobile.svg" alt="" style="display:block;width:100%;" />
@@ -404,7 +404,7 @@
                     <div class="co-grid__col co-grid__col--5-xs"></div>
                     <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                         <br /><br />
-                        <h3>So holt Ihr Kundenservice alles raus!</h3>
+                        <h3>Holen Sie alles aus Ihrem Kundenservice heraus!</h3>
                         <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
                         <p>
                             <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
@@ -422,7 +422,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -474,7 +474,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -578,7 +578,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -627,7 +627,7 @@
 
 <div class="section section--black-grey section--wave-animation" id="kosten">
     <div class="section__content section__content--narrow">
-        <h1 class="centered mobile-left">Kundenbesessene Unternehmen <br />vertrauen auf CallOne</h1>
+        <h1 class="centered mobile-left">Kundenorientierte Unternehmen <br />vertrauen auf CallOne</h1>
         <p class="centered mobile-hidden">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
         <h5 class="desktop-hidden">Denn unsere Kunden erhalten Ergebnisse:</h5>
     </div>
@@ -666,7 +666,7 @@
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h3>
-                            Lust Ihre Einsparpotenziale anzupacken? <br />
+                            Lust Ihre Einsparpotenziale zu entdecken? <br />
                             Auf ins unverbindliche Erstgespräch!
                         </h3>
                     </div>
