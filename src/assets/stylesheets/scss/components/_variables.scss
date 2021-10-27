@@ -1,0 +1,19 @@
+:root {
+    --gutter-micro: 5px;
+    --gutter-xs: 15px;
+    --gutter-s: 20px;
+    --gutter-m: 30px;
+    --gutter-l: 45px;
+    --gutter-xl: 60px;
+    --gutter-xxl: 90px;
+    --gutter-xxxl: 120px;
+}
+
+@media screen and (max-width: 960px) {
+    :root {
+        --gutter-m: 15px;
+        --gutter-xl: 30px;
+        --gutter-xxl: 45px;
+        --gutter-xxxl: 60px;
+    }
+}

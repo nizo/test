@@ -102,7 +102,7 @@ app =
       target = @hash
       if target
         $target = $(target)
-        $('html, body').stop().animate { 'scrollTop': $target.offset().top }, 500, 'swing', ->
+        $('html, body').stop().animate { 'scrollTop': $target.offset().top - 94 }, 500, 'swing', ->
         window.location.hash = target
       
     # ToggleCallNumbers

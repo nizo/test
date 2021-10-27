@@ -6,6 +6,7 @@ class Tablist {
         this.tabContents = this.tablist.querySelectorAll('.tablist__content');
         this.activeIndex = 0;
         this.tabLinks[this.activeIndex].classList.add('tablist__link--active');
+        this.tabContents[this.activeIndex].classList.add('tablist__content--active');
 
         this.addArrowButtons();
         this.indicators = this.addIndicators();

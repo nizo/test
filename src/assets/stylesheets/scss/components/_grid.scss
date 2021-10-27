@@ -1,8 +1,17 @@
+*+.co-grid, .co-grid+* {
+    margin-top: var(--gutter-m);
+}
+
 .co-grid {
-    --gutter: 30px;
+    --gutter: var(--gutter-m);
+
+    &--small-gutter {
+        --gutter: var(--gutter-xs);
+    }
+
     //outline: 1px solid red; // For Debugging
-    margin-bottom: var(--gutter);
-    margin-top: var(--gutter);
+    // margin-bottom: var(--gutter);
+    // margin-top: var(--gutter);
 
     width: calc(100% + var(--gutter));
     margin-left: calc(var(--gutter) / 2 * -1);
@@ -11,6 +20,13 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
+    
+    &--no-margin-top {
+        margin-top: calc(var(--gutter) / 2 * -1);
+    }
+    &--no-margin-bottom {
+        margin-bottom: calc(var(--gutter) / 2 * -1);
+    }
 
     &--center-line {
         background-image: linear-gradient(90deg, 
@@ -31,12 +47,18 @@
 
         > img {
             display: block;
-            margin: 0 auto 30px auto;
+            margin: 0 auto;
+            &+* {
+                margin-top: var(--gutter-m);
+            }
         }
         .co-grid {
             margin-top: 0;
             margin-bottom: 0;
         }
+    }
+    &__col--fill {
+        flex: 1;
     }
     &__col--vcentered {
         display: flex;
@@ -72,6 +94,11 @@ $breakpoints: (
     @media screen and (max-width: #{$value}px) {
         .co-grid__col--hidden-#{$size} {
             display: none;
+        }
+        @for $i from 1 through 5 {
+            .co-grid__col--order-#{$i}-#{$size} {
+                order: #{$i};
+            }
         }
     }
 }

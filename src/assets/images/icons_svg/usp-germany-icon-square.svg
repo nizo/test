@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26mm"
+   height="26mm"
+   viewBox="0 0 26 26"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="usp-germany-icon-square.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.4823793"
+     inkscape:cx="-131.88257"
+     inkscape:cy="116.36697"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g41" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="paint0_linear"
+       x1="42.9375"
+       y1="4"
+       x2="42.9375"
+       y2="93"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#9BA3A2"
+         id="stop22" />
+      <stop
+         offset="1"
+         stop-color="#626A69"
+         id="stop24" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.373327,-127.06907)">
+    <g
+       style="fill:none"
+       id="g41"
+       transform="matrix(0.26458333,0,0,0.26458333,95.373827,127.06907)">
+      <g
+         id="g223"
+         transform="translate(6.1944629,0.5154543)">
+        <path
+           d="M 81.6266,17.7275 C 81.6022,17.2503 81.3861,16.8016 81.0247,16.4777 80.6632,16.1538 80.1854,15.9807 79.694,15.9956 72.0575,16.1232 56.9534,14.8836 44.1571,4.43764 43.8172,4.15521 43.3847,4 42.9375,4 42.4903,4 42.0578,4.15521 41.7179,4.43764 28.9216,14.8836 13.8175,16.1232 6.18101,15.9956 5.68958,15.9807 5.21175,16.1538 4.85033,16.4777 4.48891,16.8016 4.27278,17.2503 4.24844,17.7275 3.51669,36.0853 3.92947,59.3653 12.1476,70.3034 20.741,81.7884 38.7346,91.5416 42.9375,93 47.1404,91.5234 65.134,81.7702 73.7274,70.3034 81.9455,59.3653 82.3583,36.0853 81.6266,17.7275 Z"
+           stroke="url(#paint0_linear)"
+           stroke-width="8"
+           id="path9"
+           style="stroke:url(#paint0_linear)" />
+        <g
+           mask="url(#mask0)"
+           id="g20">
+          <rect
+             x="42.9375"
+             y="17.985701"
+             width="28.1833"
+             height="22.143999"
+             fill="#000000"
+             id="rect14" />
+          <rect
+             x="42.9375"
+             y="40.129902"
+             width="28.1833"
+             height="16.104799"
+             fill="#fa2929"
+             id="rect16" />
+          <rect
+             x="42.9375"
+             y="56.234402"
+             width="28.1833"
+             height="22.143999"
+             fill="#ffcf24"
+             id="rect18" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

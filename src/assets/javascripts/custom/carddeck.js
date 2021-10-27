@@ -15,11 +15,19 @@ class Carddeck {
 
         // Adjust certain things if a carddeck becomes visible for the first time
         respondToVisibility(this.deck, visible => {
-            this.cardSize = this.getCardSize();
-            this.cards.style.height = this.cardSize + 'px';
-            this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
-            this.indicators.style.height = this.cardSize + 'px';
+            this.resizeDeck();
         });
+
+        window.addEventListener('resize', (e => {
+            this.resizeDeck();
+        }).bind(this));
+    }
+
+    resizeDeck() {
+        this.cardSize = this.getCardSize();
+        this.cards.style.height = this.cardSize + 'px';
+        this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
+        this.indicators.style.height = this.cardSize + 'px';
     }
 
     wrapCardContent() {

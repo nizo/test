@@ -1,17 +1,27 @@
+// Headlines
 h1 {
-    @media screen and (max-width: 30px) {
+    font-family: $font-copy;
+    font-size: 38px;
+    font-weight: 400;
+    @media screen and (max-width: 800px) {
         font-size: 30px;
     }
 }
 
 h2 {
-
+    font-size: 38px;
+    @media screen and (max-width: 800px) {
+        font-size: 28px;
+    }
 }
 
 h3 {
     font-family: $font-headline;
     font-size: 28px;
     font-weight: normal;
+    @media screen and (max-width: 800px) {
+        font-size: 24px;
+    }
 }
 
 h4 {
@@ -19,12 +29,18 @@ h4 {
     font-size: 24px;
     font-weight: normal;
     margin-bottom: .5em;
+    @media screen and (max-width: 800px) {
+        font-size: 20px;
+    }
 }
 
 h5 {
     font-family: $font-copy;
     font-size: 20px;
     font-weight: 500;
+    @media screen and (max-width: 800px) {
+        font-size: 16px;
+    }
 }
 
 h6 {
@@ -32,14 +48,35 @@ h6 {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: .1em;
+    opacity: .5;
     &+* {
         margin-top: 1em;
     }
+    @media screen and (max-width: 800px) {
+        font-size: 14px;
+    }
 }
 
+// Text Modifications
 .bigtext {
     font-size: 20px;
 }
 .subtext {
     font-size: 14px;
+}
+
+// Boxes
+.left-border {
+    border-left: 4px solid $color-primary;
+    padding-left: 18px;
+}
+
+// Links
+.inline-link {
+    font-family: $font-headline;
+    border-bottom: 2px solid $color-primary;
+    color: currentColor;
+    &:hover {
+        border-color: currentColor;
+    }
 }

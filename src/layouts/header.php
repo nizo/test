@@ -53,10 +53,10 @@
  
     
     <?php 
-	   require_once('./partials/tracking.php');
-	?>
+	  require_once('./partials/tracking.php');
+	  ?>
 	
-	<script type="application/ld+json">
+	  <script type="application/ld+json">
         {
 	       "@context" : "http://schema.org",
 	       "@type" : "Organization",
