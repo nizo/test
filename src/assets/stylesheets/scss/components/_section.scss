@@ -23,6 +23,10 @@
         background: #f2f2f2;
     }
 
+    &--light-green {
+        background-color: #EDF2E2;
+    }
+
     &--white-grey-white {
         background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(235, 235, 235, 0.51) 46.88%, rgba(196, 196, 196, 0) 100%, rgba(255, 255, 255, 0) 100%);
     }
@@ -58,13 +62,18 @@
         background: linear-gradient(180deg, #213327 0%, #000000 100%);
     }
 
+    &--white-blue {
+        background-image: linear-gradient(180deg, #FFFFFF 0%, #ECF9FF 100%);
+    }
+
     &--black {
         --color-text: #fff;
         background-color: #000;
     }
 
     &__content {
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         color: var(--color-text);
         max-width: 960px;
@@ -107,6 +116,13 @@
         }
         > h2 {
             margin-top: 60px;
+        }
+        >h1, >h2, >h3 {
+            &+p.centered {
+                max-width: 770px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
         h3 {
             margin-bottom: 20px;

@@ -1,3 +1,7 @@
+.anchors+*, *+.anchors {
+    margin-top: 60px;
+}
+
 .anchors {
     &__title {
         color: #000;

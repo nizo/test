@@ -134,6 +134,17 @@ $r->addRoute('GET', '/datenschutz', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/statistiken', function() {
+  $title = 'CallOne Statistiken';
+  $description = '';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/statistiken';
+  require_once('./layouts/header.php');
+  require_once('./views/de/statistiken.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/impressum', function() {
   $title = 'CallOne Impressum - Callcenter Software und VoIP-Telefonanlagen';
   $description = 'CallOne ist ein inhabergeführtes Unternehmen mit Sitz in Berlin, Potsdam und Mainz. Wir bieten hochwertige cloudbasierte Telefonanlagen für Sales und Service';
