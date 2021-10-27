@@ -104,7 +104,96 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <h1 class="centered">Callcenter Management leicht gemacht</h1>
 
-        <p>TODO: Tabs</p>
+        <div class="tablist">
+            <div class="tablist__links">
+                <div class="tablist__link tablist__link--active" data-tab="1">
+                    <strong>Dashboards</strong>
+                </div>
+                <div class="tablist__link" data-tab="2">
+                    <strong>Statistiken</strong>
+                </div>
+                <div class="tablist__link" data-tab="3">
+                    <strong>Analyse</strong>
+                </div>
+            </div>
+
+            <div class="tablist__content tablist__content--active" data-tab="1">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                        <img src="/assets/images/illus/dashboards-mockup.svg" alt="" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                        <h3>Alles im Blick</h3>
+                        <p class="bigtext">Dashboards sind das ideale Steuerelement für Ihre Teamleiter und Supervisoren. CallOne liefert hier die richtigen Instrumente, um 	Ihre KPIs 	optimal zu überwachen und steuern zu können – webbasiert, in Echtzeit und optional als Live-Schnittstelle.</p>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-11">
+							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
+							<div class="toggle-box__content">
+								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
+							</div>
+						</div>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-12">
+							<label for="faq-12">Sofortige Benachrichtigung</label>
+							<div class="toggle-box__content">
+								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-13">
+							<label for="faq-13">Sparen Sie kostbare Zeit</label>
+							<div class="toggle-box__content">
+								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablist__content" data-tab="2">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                        <img src="/assets/images/illus/statistics-mockup.svg" alt="" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                        <h3>Entwicklungen erkennen</h3>
+                        <p class="bigtext">CallOne liefert die vielleicht umfänglichste Auswahl an Echtzeitstatistiken in einer webbasierten Oberfläche für unerreichte Transparenz und Planbarkeit. Werten Sie Ihre Rufnummern, KPI wie Erreichbarkeiten, SLA, Skillgruppen, Agenten in über 50 Statistiken aus.</p>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-11">
+							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
+							<div class="toggle-box__content">
+								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
+							</div>
+						</div>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-12">
+							<label for="faq-12">Sofortige Benachrichtigung</label>
+							<div class="toggle-box__content">
+								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-13">
+							<label for="faq-13">Sparen Sie kostbare Zeit</label>
+							<div class="toggle-box__content">
+								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablist__content" data-tab="3">
+                <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
+                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
+            </div>
+        </div>
     </div>
 </div>
 
