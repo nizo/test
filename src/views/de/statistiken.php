@@ -1,28 +1,16 @@
 <?php
 $faqs = new faqs ();
 $faqs->faq_add (
-	'Wie schnell kann die Callcenter-Lösung für uns bereitstehen?',
-	'<p>Sehr schnell! Es kommt ein wenig darauf an, was Ihre Anforderungen sind. Individuelle Schnittstellenanbindungen dauern in der Regel immer ein wenig länger, doch grundsätzlich stehen unsere Callcenter Software Ihnen direkt und auch sehr kurzfristig zur Verfügung. Flexible Anpassungen auf Ihre Bedürfnisse sind dabie jederzeit möglich. Außerdem sind sowohl Callcenter-Software als auch die IP-Telefonanlage extrem intuitiv und Sie können natürlich selbst eingreifen und nach Wunsch abändern.</p>'
+	'Wie werden Statistiken von CallOne bereitgestellt?',
+	'<p>CallOne liefert alle Statistiken in Echtzeit. Sie können wählen, ob SIe die fertigen Statistiken über unsere Weboberfläche anzeigen oder exportieren möchten. Hierbei liefern wir csv, xls, pdf oder json-Formate. Zusätzlich können Sie neben Tabellen auch grafische Auswertungen erhalten. Daneben steht unseren Kunden ein sog. LiveMonitor zur Verfügung, der alle Anrufe und callcenterrelevante KPI in Echtzeit ausgibt.</p>'
 );
 $faqs->faq_add (
-	'Warum CallOne?',
-	'<p>Wir sind Spezialisten, wenn es um individuelle Business-Lösungen rund um das Thema Kundenservice geht. Bei uns bekommen Sie nicht nur die technische Lösung, sondern auch das Know-How für Alles was sonst noch dazu gehört. Aus unserer täglichen Auseinandersetzungen mit den für Business-Telefonie und telefonischen Kundenservice relevanten Themen, bieten wir eine State of the Art Contact Center Lösung mit virtueller Telefonanlage, passen diese optimal auf Ihre individuellen Anforderungen an und verknüpfen sie mit Ihren anderen Systemen.</p><p>Bei uns finden Sie keine anonymen Support-Mitarbeiter, sondern mündige Ansprechpartner, die Ihnen tagtäglich mit Rat und Tat zur Seite stehen. Wir betreuen Sie und entwickeln Ihre Lösung stetig gemeinsam mit Ihnen weiter.</p>'
+	'Wie kann ich mein BI-System an CallOne koppeln?',
+	'<p>CallOne liefert einen universellen Datenkonnektor für alle gängigen BI-Systeme. Die Kopplung erfolgt einfach über einen sog. Webkonnektor, den wir unseren Kunden bereitstellen. Neben Agenten und Anrufen können nahezu alle zusätzlichen Informationen wie Anrufgründe, Klingel-, Halte- Warte- oder Gesprächsdauern ausgewertet und miteinander kombiniert werden.</p>'
 );
 $faqs->faq_add (
-	'Kann ich die CallOne Callcenter-Software mit anderen Businesslösungen, Systemen oder Applikationen verknüpfen?',
-	'<p>Ja. Die Callcenter-Lösung verfügt über eine Vielzahl von Echtzeit-Schnittstellen, die sich ideal dafür eignen bestehende Businesslösungen (BI, CRM, ERP oder Ticketing-Lösungen) anzubinden und in Echtzeit Daten mit diesen Systemen auszutauschen. Gerade hier liegt die Stärke von CallOne: Wir passen unsere Telefonie-Lösung optimal in Ihre bestehende IT-Infrastruktur ein.</p>'
-);
-$faqs->faq_add (
-	'Welche Schnittstellen und Anbindungsmöglichkeiten gibt es?',
-	'<p>Es besteht eine Vielzahl von Standard-Schnittstellen für die verschiedensten Anforderungen. Mehr Informationen finden Sie <a href="/cti-schnittstellen" title="Mehr Infos zu Schnittstellen">hier</a>. Sprechen Sie uns hierzu gerne mit Ihren konkreten Anforderungen an. Unsere Telefonanlage und Callcenter-Lösung verfügt über eine Vielzahl von Telefon-APIs zur optimalen Anbindung Ihrer eigenen Businesslösungen. Neben Echtzeit-APIs, die Ihnen alle Call-Events live pushen, stehen weitere APIs speziell für das Abrufen von anrufspezifischen Informationen bereit. Für eine Vielzahl von CRM- und Ticketing-Lösungen stehen Standard-Konnektoren zur Verfügung, die es Ihnen ermöglichen Ihre bestehenden Lösungen auf einfachste Weise zu koppeln. Aktuell bieten wir hier Konnektoren für die Anbindung von <a href="/zendesk-cti-ticketing" title="Zendesk Integration">Zendesk</a>, <a href="/cti-zoho" title="Zoho Integration">Zoho CRM</a>, <a href="/cti-salesforce" title="Salesforce Integration">Salesforce</a> und weiteren Businessanwendungen an. Sprechen Sie uns an, wenn Sie spezielle Anforderungen und Wünsche dazu haben Ihre Lösung anzubinden. Mehr Informationen über das Zusammenspiel der CallOne Cloud ACD und Zendesk finden Sie <a href="/blog/schnittstellen-fuer-guten-kundenservice-auf-allen-kanaelen/" title="Blogartikel - Multichannel mit CallOne und Zendesk">hier</a>.</p>'
-);
-$faqs->faq_add (
-	'Kann man durch die CallOne ACD Kosten sparen?',
-	'<p>Ja. Durch die intelligente Anrufverteilung der ACD sorgen Sie für eine effiziente Arbeitsweise in Ihrem Callcenter und können damit die Callbearbeitungszeiten erheblich senken. Durch die daraus resultierende bessere Auslastung Ihres Callcenters, senken Sie automatisch Ihre Kosten.</p>'
-);
-$faqs->faq_add (
-	'Welche Möglichkeiten bietet die Callcenter-Lösung das Anrufaufkommen zu beeinflussen?',
-	'<p>Mit der ACD können wir das Anrufaufkommen natürlich nicht direkt beeinflussen, aber sie bietet intelligente Funktionen um Ihre Anrufverteilung optimal zu gestalten, unabhängig von der Anzahl der eingehenden Anrufe. Optionen wie ursprungsabhängige Routings, intelligente Vorqualifizierung mittels IVR und Rückruf aus der Warteschleife sind hier nur einige Ihrer Möglichkeiten. Werfen Sie gerne einmal einen Blick auf die <a href="/callcenter-software-funktionen" title="Callcenter-Software Funktionen & Features">Features</a> der CallOne Cloud ACD.</p>'
+	'Was kosten Statistiken und Auswertungen bei CallOne?',
+	'<p>CallOne bietet für seine VoIP-Telefonanlage und Callcenter Software die meisten Statistiken inkludiert als Teil seiner Lösung. FÜr Kunden, die spezielle Anforderungen an Ihr Reporting haben stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
 );
 ?>
 
@@ -127,7 +115,7 @@ $faqs->faq_add (
                         <p class="bigtext">Dashboards sind das ideale Steuerelement für Ihre Teamleiter und Supervisoren. CallOne liefert hier die richtigen Instrumente, um 	Ihre KPIs 	optimal zu überwachen und steuern zu können – webbasiert, in Echtzeit und optional als Live-Schnittstelle.</p>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-11">
+							<input type="checkbox" id="faq-11" checked>
 							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
 								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
@@ -163,24 +151,24 @@ $faqs->faq_add (
                         <p class="bigtext">CallOne liefert die vielleicht umfänglichste Auswahl an Echtzeitstatistiken in einer webbasierten Oberfläche für unerreichte Transparenz und Planbarkeit. Werten Sie Ihre Rufnummern, KPI wie Erreichbarkeiten, SLA, Skillgruppen, Agenten in über 50 Statistiken aus.</p>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-11">
-							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
+							<input type="checkbox" id="faq-21" checked>
+							<label for="faq-21">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
 								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-12">
-							<label for="faq-12">Sofortige Benachrichtigung</label>
+							<input type="checkbox" id="faq-22">
+							<label for="faq-22">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
 								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-13">
-							<label for="faq-13">Sparen Sie kostbare Zeit</label>
+							<input type="checkbox" id="faq-23">
+							<label for="faq-23">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
 								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
 							</div>
@@ -190,8 +178,39 @@ $faqs->faq_add (
             </div>
 
             <div class="tablist__content" data-tab="3">
-                <h2 class="centered">Dort arbeiten, wo du dich am wohlsten fühlst</h2>
-                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind. Wo immer du am produktivsten bist, ist uns recht.</p>
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                        <img src="/assets/images/illus/analysis-mockup.svg" alt="" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                        <h3>Kundeninteraktionen auswerten</h3>
+                        <p class="bigtext">Neben Zahlen können wir bei CallOne auch das gesprochene Wort auswerten. Mit Sprachtranskription in Echtzeit sog. Voice-to-Text Funktion wandeln wir Sprache in lesbaren Text um. Sie können dies auf vielfältige Art nutzbar für sich machen.</p>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-31" checked>
+							<label for="faq-31">Arbeitszeiterfassung & Forecasting</label>
+							<div class="toggle-box__content">
+								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
+							</div>
+						</div>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-32">
+							<label for="faq-32">Sofortige Benachrichtigung</label>
+							<div class="toggle-box__content">
+								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-33">
+							<label for="faq-33">Sparen Sie kostbare Zeit</label>
+							<div class="toggle-box__content">
+								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
+							</div>
+						</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -199,7 +218,34 @@ $faqs->faq_add (
 
 <div class="section section--light-green" id="referenzen">
     <div class="section__content section__content--wide">
-        <p>TODO: Check 24</p>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--5-xs">
+                <div class="co-video">
+                    <div class="co-video__poster">
+                        <img src="/assets/images/photos/check24-face-circle.png" alt="" />
+                    </div>
+                    <a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                <p>
+                    <img src="/assets/images/client-logos/check24_logo.svg" alt="" style="max-width: 185px !important;" />
+                </p>
+
+                <blockquote class="quote">
+                    „Wir können mit den CallOne Statistiken über Verbesserungen nachdenken, die uns bisher gar nicht in den Sinn kamen.“
+                </blockquote>
+                <p>
+                    <strong>Dr. Rainer Klipp</strong><br />
+                    Geschäftsführer CHECK24 Vergleichsportal für Kfz-Versicherungen GmbH
+                </p>
+
+                <p>
+                    <!-- TODO: Add link -->
+                    <a href="#todo" class="btn btn--primary">Beratungsgespräch vereinbaren</a>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -211,7 +257,75 @@ $faqs->faq_add (
             Schnittstellen zu Ihren Lieblingstools.
         </h4>
 
-        <p>TODO: Boxen</p>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--6-xs">
+                <div class="split-card">
+                    <div class="split-card__top centered">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--12-xs">
+                                <h6>Business Intelligence</h6>
+                                <p><img src="/assets/images/client-logos/bi-logo-group@2x.png" alt="" style="max-width: 407px" /></p>
+                            </div>
+                            <div class="co-grid__col co-grid__col--12-xs">
+                                <h6>Customer Relationship Management</h6>
+                                <p><img src="/assets/images/client-logos/crm-logo-group.svg" alt="" /></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split-card__bottom">
+                        <h3>Plattformen</h3>
+                        <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet faucibus sagittis orci enim sed pretium varius. Mauris aliquam consequat at pharetra. Integer.</p>
+                        <p><a href="/callcenter-software-apps" class="btn btn--primary btn--full-width centered">Zu unseren Konnektoren</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--6-xs">
+                <div class="split-card">
+                    <div class="split-card__top centered">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--12-xs">
+                                <h6>API</h6>
+                                <p><img src="/assets/images/icons_svg/api-icon-group.svg" alt="" /></p>
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs">
+                                <h6>Konnektoren</h6>
+                                <p><img src="/assets/images/icons_svg/csv-icon.svg" alt="" /></p>
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs">
+                                <h6>Skripte</h6>
+                                <p><img src="/assets/images/icons_svg/script-icon.svg" alt="" /></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split-card__bottom">
+                        <h3>Entwickler</h3>
+                        <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet faucibus sagittis orci enim sed pretium varius. Mauris aliquam consequat at pharetra. Integer.</p>
+                        <p><a href="/voip-api" class="btn btn--secondary btn--full-width centered">Zur Entwicklerseite</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--2-xs"></div>
+            <div class="co-grid__col co-grid__col--8-xs">
+                <div class="fade-box fade-box--on-black">
+                    <h3>Datensicherheit</h3>
+                    <p class="bigtext">Die Integrität und Sicherheit der Daten unserer Kunden hat höchste Priorität. Ihre Daten lagern deshalb auf Servern in ISO-zertifizierten Hochsicherheitsrechenzentren in Deutschland.</p>
+                    
+                    <div class="co-grid">
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <!-- TODO: Add link -->
+                            <a href="#todo" class="btn btn--border-white" style="visibility:hidden">Mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--2-xs"></div>
+        </div>
     </div>
 </div>
 
@@ -219,7 +333,100 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <h1 class="centered">Weitere Funktionen</h1>
 
-        <p>TODO: Tabs</p>
+        <div class="tablist">
+            <div class="tablist__links">
+                <div class="tablist__link tablist__link--active" data-tab="1">
+                    <strong>Alamierung</strong>
+                </div>
+                <div class="tablist__link" data-tab="2">
+                    <strong>Automatisierung</strong>
+                </div>
+                <div class="tablist__link" data-tab="3">
+                    <strong>Visualisierung</strong>
+                </div>
+            </div>
+
+            <div class="tablist__content tablist__content--active" data-tab="1">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="" />
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>SLA-Alarmierung</h3>
+                                <p class="bigtext">Bei Unterschreitung Ihrer Servicelevel (SLA) werden Sie informiert – per E-Mail oder individuell sie es sich wünschen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/notification-icon.svg" alt="" />
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Multi-KPI Warnungen</h3>
+                                <p class="bigtext">Lösen Sie Warnungen aus, wenn es zu Erreichbarkeitsproblemen in Ihrem Kundenservice kommt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablist__content" data-tab="2">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/results-icon.svg" alt="" />
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Berichtsautomatisierung</h3>
+                                <p class="bigtext">Sparen Sie Zeit und erstellen Sie Ihre individuellen Berichte direkt aus CallOne oder über angebunden Lösungen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/rating-icon.svg" alt="" />
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Kundenbewertungen</h3>
+                                <p class="bigtext">In Echtzeit wissen was Ihre Kunden über Sie denken. Erhalten sie diese Informationen von CallOne in Echtzeit aufbereitet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tablist__content" data-tab="3">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/benchmark-icon.svg" alt="" />
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Benchmark-Daten</h3>
+                                <p class="bigtext">Nutzen Sie unsere Vergleichsfunktion und setzen auf Knopfdurch Zeiträume in einem intelligenten KPI-Vergleich.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="co-grid__col co-grid__col--6-xs">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <img src="/assets/images/icons_svg/diagrams-icon.svg" alt="" />
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Geckoboard & Co.</h3>
+                                <p class="bigtext">Sie wünschen ein eigenes Dashboard? Nutzen Sie unsere Live-API und schaffen Sie Verbindung zum Dashboard Ihrer Wahl.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -232,4 +439,8 @@ $faqs->faq_add (
 		$faqs->html_get_code ();
 		?>
 	</div>
+</div>
+
+<div class="modal video-casestudy-check24">
+  <?php include('./partials/modal-video-check24.php'); ?>
 </div>

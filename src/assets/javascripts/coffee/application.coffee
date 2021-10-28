@@ -153,6 +153,9 @@ app =
           $('.toggle-box__content', box).slideUp();
           $('input', box).prop('checked', false);
       $(this).parent().find('.toggle-box__content').slideToggle()
+    $('.toggle-box').each (i, toggleBox) =>
+      if $('input', toggleBox).prop('checked')
+        $('.toggle-box__content', toggleBox)[0].style.display = 'block'
 
   # autoplay_videos: ->
   #   videos = document.getElementsByTagName 'video'
