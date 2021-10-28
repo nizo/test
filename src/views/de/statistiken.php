@@ -100,7 +100,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section">
+<div class="section" id="features">
     <div class="section__content section__content--wide">
         <h1 class="centered">Callcenter Management leicht gemacht</h1>
 
@@ -197,7 +197,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--light-green">
+<div class="section section--light-green" id="referenzen">
     <div class="section__content section__content--wide">
         <p>TODO: Check 24</p>
     </div>
