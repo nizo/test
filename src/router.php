@@ -74,6 +74,15 @@ $r->addRoute('GET', '/icons', function() {
   require_once('./views/de/icons.php');
   require_once('./layouts/footer-components.php');
 });
+$r->addRoute('GET', '/screensize', function() {
+  $title = 'Screen Size';
+  $description = '';
+  $keywords = '';
+  $background = 'components--scrollbar';
+  require_once('./layouts/header-components.php');
+  require_once('./views/de/screensize.php');
+  require_once('./layouts/footer-components.php');
+});
 
 $r->addRoute('GET', '/components_overview', function() {
   $title = 'components_overview';
