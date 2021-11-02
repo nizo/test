@@ -8,7 +8,7 @@ class Typing {
             this.colors = this.element.dataset.colors.split(',');
         this.currentText = 0;
         this.textIndex = 0;
-        this.speed = 50;
+        this.speed = parseInt(this.element.dataset.speed) || 50;
         this.keepTime = 2000;
 
         this.element.textContent = '';
