@@ -41,7 +41,7 @@ $faqs->faq_add (
 </div>
 
 <div class="section section--no-padding-top section--white-blue">
-    <div class="anchors">
+    <div class="anchors mobile-hidden">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
         </div>
@@ -53,8 +53,8 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide">
-        <h1 class="centered">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
-        <p class="centered">CallOne liefert die statistischen Grundlagen für Unternehmen um datengestützte Entscheidungen treffen zu können. Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
+        <h1 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
+        <p class="centered mobile-hidden">CallOne liefert die statistischen Grundlagen für Unternehmen um datengestützte Entscheidungen treffen zu können. Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
 
         <div class="grid-slider">
             <div class="grid-slider__item">
@@ -91,7 +91,7 @@ $faqs->faq_add (
 
 <div class="section" id="features">
     <div class="section__content section__content--wide">
-        <h1 class="centered">Callcenter Management leicht gemacht</h1>
+        <h1 class="centered mobile-left">Callcenter Management leicht gemacht</h1>
 
         <div class="tablist">
             <div class="tablist__links">
