@@ -315,17 +315,6 @@ $r->addRoute('GET', '/cti-salesforce', function() {
   require_once('./views/de/cti/salesforce.php');
   require_once('./layouts/footer.php');
 });
-
-$r->addRoute('GET', '/cti-zoho', function() {
-  $title = 'CallOne ZOHO Integration';
-  $description = 'Wählen Sie direkt aus Ihrem Zoho CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Zoho-Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.';
-  $keywords = '';
-  $background = 'bg-karriere';
-  $ogUrl = $GLOBALS['url'] . '/cti-zoho';
-  require_once('./layouts/header.php');
-  require_once('./views/de/cti/zoho.php');
-  require_once('./layouts/footer.php');
-});
     
 $r->addRoute('GET', '/tableau-callcenter-connector', function() {
   $title = 'Tableau Callcenter Connector -Integrieren Sie Daten und Callcenter-KPI';

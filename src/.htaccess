@@ -254,7 +254,8 @@ Redirect 301 /voip-telefonie.php /voip-telefonanlage
 Redirect 301 /webrtc-browsertelefonie.php /preise
 Redirect 301 /webrtc-browsertelefonie.php. /preise
 Redirect 301 /zendesk.php /zendesk-cti-ticketing
-Redirect 301 /zoho.php /cti-zoho
+Redirect 301 /zoho.php /callcenter-software-apps
+Redirect 301 /cti-zoho /callcenter-software-apps
 Redirect 301 /downloads/Mitarbeiter_Bestands-Kundenbetreuung.pdf /downloads/Organisationsprofi_%20Kundenberater_1st-Level-Support.pdf
 Redirect 301 /downloads/Mitarbeiter_Team_Assistenz_-_Schwerpunkt_Vertrieb.pdf /downloads/Team_Assistenz.pdf
 Redirect 301 /downloads/Mitarbeiter_Technischer_Support.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
