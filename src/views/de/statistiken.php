@@ -23,7 +23,8 @@ $faqs->faq_add (
 			<h1>Steigern Sie Ihre Leistung um 25%</h1>
 			<h2>CallOne liefert mit seiner Callcenter Software die vielleicht umfänglichste Datengrundlage für die optimale Steuerung, Planung und Optimierung Ihres Kundenservices.</h2>
 			<p>
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>
 		</div>
 	</div>
@@ -107,14 +108,14 @@ $faqs->faq_add (
 
             <div class="tablist__content tablist__content--active" data-tab="1">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <img src="/assets/images/illus/dashboards-mockup.svg" alt="" />
                     </div>
-                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Alles im Blick</h3>
                         <p class="bigtext">Dashboards sind das ideale Steuerelement für Ihre Teamleiter und Supervisoren. CallOne liefert hier die richtigen Instrumente, um 	Ihre KPIs 	optimal zu überwachen und steuern zu können – webbasiert, in Echtzeit und optional als Live-Schnittstelle.</p>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-11" checked>
 							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
@@ -122,7 +123,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-12">
 							<label for="faq-12">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
@@ -130,7 +131,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
@@ -143,14 +144,14 @@ $faqs->faq_add (
 
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <img src="/assets/images/illus/statistics-mockup.svg" alt="" />
                     </div>
-                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Entwicklungen erkennen</h3>
                         <p class="bigtext">CallOne liefert die vielleicht umfänglichste Auswahl an Echtzeitstatistiken in einer webbasierten Oberfläche für unerreichte Transparenz und Planbarkeit. Werten Sie Ihre Rufnummern, KPI wie Erreichbarkeiten, SLA, Skillgruppen, Agenten in über 50 Statistiken aus.</p>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-21" checked>
 							<label for="faq-21">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
@@ -158,7 +159,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-22">
 							<label for="faq-22">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
@@ -166,7 +167,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-23">
 							<label for="faq-23">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
@@ -179,14 +180,14 @@ $faqs->faq_add (
 
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <img src="/assets/images/illus/analysis-mockup.svg" alt="" />
                     </div>
-                    <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Kundeninteraktionen auswerten</h3>
                         <p class="bigtext">Neben Zahlen können wir bei CallOne auch das gesprochene Wort auswerten. Mit Sprachtranskription in Echtzeit sog. Voice-to-Text Funktion wandeln wir Sprache in lesbaren Text um. Sie können dies auf vielfältige Art nutzbar für sich machen.</p>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-31" checked>
 							<label for="faq-31">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
@@ -194,7 +195,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-32">
 							<label for="faq-32">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
@@ -202,7 +203,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-33">
 							<label for="faq-33">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
@@ -219,7 +220,7 @@ $faqs->faq_add (
 <div class="section section--light-green" id="referenzen">
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--5-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md mobile-hidden">
                 <div class="co-video">
                     <div class="co-video__poster">
                         <img src="/assets/images/photos/check24-face-circle.png" alt="" />
@@ -227,7 +228,7 @@ $faqs->faq_add (
                     <a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                 <p>
                     <img src="/assets/images/client-logos/check24_logo.svg" alt="" style="max-width: 185px !important;" />
                 </p>
@@ -242,8 +243,19 @@ $faqs->faq_add (
 
                 <p>
                     <!-- TODO: Add link -->
-                    <a href="#todo" class="btn btn--primary">Beratungsgespräch vereinbaren</a>
+                    <a href="#todo" class="btn btn--primary mobile-hidden">Beratungsgespräch vereinbaren</a>
+                    <a href="#todo" class="btn btn--primary btn--full-width centered desktop-hidden">Beratungsgespräch<br />vereinbaren</a>
+                    <br class="desktop-hidden" />
+                    <br class="desktop-hidden" />
                 </p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs desktop-hidden">
+                <div class="co-video" style="width:calc(100% + 50px);margin-left:-25px;margin-bottom:-65px;aspect-ratio:375/277">
+                    <div class="co-video__poster">
+                        <img src="/assets/images/photos/check24-face-circle@2x.png" alt="" />
+                    </div>
+                    <a class="co-video__play openModal trackedElement" style="--size:20vw;" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -251,14 +263,43 @@ $faqs->faq_add (
 
 <div class="section section--black">
     <div class="section__content section__content--wide">
-        <h1 class="centered">Brechen Sie die Datensilos auf!</h1>
-        <h4 class="centered">
+        <h1 class="centered mobile-left">Brechen Sie die Datensilos auf!</h1>
+        <h4 class="centered mobile-left">
             Nutzen Sie unsere Anbindungen und <br />
             Schnittstellen zu Ihren Lieblingstools.
         </h4>
 
-        <div class="co-grid">
-            <div class="co-grid__col co-grid__col--6-xs">
+        <div class="co-grid cards desktop-hidden centered">
+            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+                <div class="cards__card--dark-top">
+                    <h6>Beispiel-Apps</h6>
+                    <div class="cards__card-image" style="margin-top:0">
+                        <img src="/assets/images/client-logos/freshdesk-hubspot-white.png" alt="" />
+                    </div>
+                    <h4>Ticketing-Systeme</h4>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+                <div class="cards__card--dark-top">
+                    <h6>Besipiel-Apps</h6>
+                    <div class="cards__card-image" style="margin-top:0">
+                        <img src="/assets/images/client-logos/bi-logo-group-white@2x.png" alt="" />
+                    </div>
+                    <h4>Business Intelligence-Tools</h4>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
+                <div class="cards__card--dark-top">
+                    <div class="cards__card-image" style="margin-top:0">
+                        <img src="/assets/images/icons_svg/integrations-icon-group.svg" alt="" />
+                    </div>
+                    <h4>Eigene Systeme verbinden</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="co-grid mobile-hidden">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="split-card">
                     <div class="split-card__top centered">
                         <div class="co-grid">
@@ -279,7 +320,7 @@ $faqs->faq_add (
                     </div>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--6-xs">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="split-card">
                     <div class="split-card__top centered">
                         <div class="co-grid">
@@ -307,8 +348,8 @@ $faqs->faq_add (
         </div>
 
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--2-xs"></div>
-            <div class="co-grid__col co-grid__col--8-xs">
+            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--2-md"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md">
                 <div class="fade-box fade-box--on-black">
                     <h3>Datensicherheit</h3>
                     <p class="bigtext">Die Integrität und Sicherheit der Daten unserer Kunden hat höchste Priorität. Ihre Daten lagern deshalb auf Servern in ISO-zertifizierten Hochsicherheitsrechenzentren in Deutschland.</p>
@@ -324,12 +365,12 @@ $faqs->faq_add (
                     </div>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--2-xs"></div>
+            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--2-md"></div>
         </div>
     </div>
 </div>
 
-<div class="section section--light-green-white">
+<div class="section section--light-green-white mobile-hidden">
     <div class="section__content section__content--wide">
         <h1 class="centered">Weitere Funktionen</h1>
 
@@ -348,7 +389,7 @@ $faqs->faq_add (
 
             <div class="tablist__content tablist__content--active" data-tab="1">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--6-xs">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
                                 <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="" />
@@ -359,7 +400,7 @@ $faqs->faq_add (
                             </div>
                         </div>
                     </div>
-                    <div class="co-grid__col co-grid__col--6-xs">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
                                 <img src="/assets/images/icons_svg/notification-icon.svg" alt="" />
@@ -375,7 +416,7 @@ $faqs->faq_add (
 
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--6-xs">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
                                 <img src="/assets/images/icons_svg/results-icon.svg" alt="" />
@@ -386,7 +427,7 @@ $faqs->faq_add (
                             </div>
                         </div>
                     </div>
-                    <div class="co-grid__col co-grid__col--6-xs">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
                                 <img src="/assets/images/icons_svg/rating-icon.svg" alt="" />
@@ -430,7 +471,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section">
+<div class="section mobile-hidden">
     <div class="section__content">
         <h1 class="centered">Fragen und Antworten</h1>
 

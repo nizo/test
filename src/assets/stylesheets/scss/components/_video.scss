@@ -10,12 +10,13 @@
     }
 
     &__play {
+        --size: 60px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
-        width: 60px;
-        height: 60px;
+        width: var(--size);
+        height: var(--size);
         border-radius: 50%;
         background-color: $color-primary;
         transition: all .3s ease;
@@ -28,9 +29,9 @@
             top: 50%;
             left: calc(50% + 3px);
             transform: translate3d(-50%, -50%, 0);
-            border-left: 16px solid #000;
-            border-top: 12px solid transparent;
-            border-bottom: 12px solid transparent;
+            border-left: calc(var(--size) / 4) solid #000;
+            border-top: calc(var(--size) / 5) solid transparent;
+            border-bottom: calc(var(--size) / 5) solid transparent;
         }
 
         &:hover {

@@ -54,6 +54,7 @@
 @media screen and (max-width: 1000px) {
     .hero {
         flex-direction: column;
+        margin-bottom: 0;
 
         &__text {
             order: 2;
