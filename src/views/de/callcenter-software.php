@@ -152,16 +152,16 @@ $faqs->faq_add (
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
-					<strong>Smarte Automatisierung</strong><br>
-					Erfahren Sie wie Automatisierung<br />Ihren Geldbeutel schont.
+					<strong>Glücklichere Kunden</strong><br>
+					Sie wollen Ihre<br />Warteminuten reduzieren?
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="2">
 					<strong>Mehr Effizienz</strong><br>
 					Sie wollen richtig sparen und<br />Ihr Personal effizienter einsetzen?
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="3">
-					<strong>Glücklichere Kunden</strong><br>
-					Sie wollen Ihre<br />Warteminuten reduzieren?
+					<strong>Smarte Automatisierung</strong><br>
+					Erfahren Sie wie Automatisierung<br />Ihren Geldbeutel schont.
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="4">
 					<strong>Bessere Daten</strong><br>
@@ -169,161 +169,7 @@ $faqs->faq_add (
 				</div>
 			</div>
 
-			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer tablist__content--active" data-tab="1">
-				<h2 class="centered icon-connectors mobile-hidden">Schnittstellenanbindung</h2>
-				<p class="centered mobile-hidden">Wir agieren schnittstellenoffen. Kundenanliegen können schneller bearbeitet werden, indem sie ihre bestehenden Businesslösungen anbinden.</p>
-
-				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
-								<div class="number-card__number">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
-								</div>
-								weniger Kosten <br />pro Kontakt <br />durch gesteigerte FCR*
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
-								<div class="number-card__number">
-									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
-								</div>
-								kürzere Gesprächsdauern (AHT) durch intelligente Vorqualifizierung*
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
-								<div class="number-card__number">
-									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
-								</div>
-								Erkennung des Anruferanliegens bei Anrufannahme*
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
-								<div class="number-card__number">
-									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
-								</div>
-								schnellerer Anrufaufbau durch Click-to-Dial im eigenen CRM*
-							</div>
-						</div>
-
-						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-11">
-							<label for="faq-11">Anrufsteuerung mittels Voice-API</label>
-							<div class="toggle-box__content">
-								<p>Binden Sie Ihre bestehenden CRM-, ERP- oder Ticketingsysteme an und steuern sie damit gezielt eingehende Anrufe.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-12">
-							<label for="faq-12">Alle Anruferinfos bei Gesprächsannahme</label>
-							<div class="toggle-box__content">
-								<p>Sparen Sie wertvolle Gesprächszeit und reichern Sie die Anruferinformationen mit Kundenname, Kundennummer oder einem Link in Ihr CRM-System an.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-13">
-							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere vielzähligen Möglichkeiten zur Anrufervorqaulifizierung: Eingabe und Übermittlung von Kunden- oder Bestellnummern, Echtzeit-Spracherkennung oder Text-to-Speech.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-14">
-							<label for="faq-14">Wählen ohne Tippen</label>
-							<div class="toggle-box__content">
-								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- und Outboundtelefonie.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
-					</div>
-				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 100px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Konnektivität:</strong><br />
-						<br />
-					</span>
-					<a href="/voip-api" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
-			</div>
-
-			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
-				<h2 class="centered icon-automation mobile-hidden">Automatisierung und KI</h2>
-				<p class="centered mobile-hidden">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
-
-				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
-								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
-								</div>
-								weniger Gesprächszeit für Ihre Agent*innen*
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
-								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
-								</div>
-								kürzere IVR-Menüs durch Spracherkennung*
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs number-card">
-								<div class="number-card__number" style="--color: #FF7B1B;">
-									<span class="counting-number" data-suffix="%" data-start="0" data-end="94">94%</span>
-								</div>
-								Kundenzufriedenheit dank schnellerer Fallbearbeitung*
-							</div>
-						</div>
-
-						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-21">
-							<label for="faq-21">Sprachdialoge ohne Agenten</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere VTT und TTS-Funktionen in Kombination mit unseren Schnittstellen für automatisierte Dialoge mit ihren Anrufern und das 24/7 mit 99,999% Verfügbarkeit.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-22">
-							<label for="faq-22">Intelligentes Sprachrouting</label>
-							<div class="toggle-box__content">
-								<p>Statt endlosem Auswahltasten drücken, bieten wir Echtzeit- Spracherkennung für bessere Kundenerlebnisse.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-23">
-							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
-							<div class="toggle-box__content">
-								<p>Wir übergeben Ihnen Anrufernummer oder Kundennummer und Sie antworten mit allen relevanten Kundendaten, wahlweise implementiert in der CallOne Agentenmaske.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-23">
-							<label for="faq-24">Bring your own Bot</label>
-							<div class="toggle-box__content">
-								<p>Sie haben bereits eine KI im Einsatz? Prima, dann bringen Sie sie doch einfach mit. Mit unseren Schnittstellen bieten wir ausreichend Anbindungsmöglichkeiten.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
-					</div>
-				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 100px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Effizienz:</strong><br />
-						<br />
-					</span>
-					<a href="/callcenter-bot" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
-			</div>
-
-			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer" data-tab="3">
+			<div class="tablist__content tablist__content--border-bottom tablist__content--purple-footer tablist__content--active" data-tab="1">
 				<h2 class="centered icon-queue mobile-hidden">Warteschleifenmanagement</h2>
 				<p class="centered mobile-hidden">Reduzieren Sie die Anruflast durch weniger Wahlwiederholer und Abbrecher. Wie? Mit dem vielleicht umfänglichsten Warteschleifenmanagement am Markt.</p>
 
@@ -401,6 +247,160 @@ $faqs->faq_add (
 					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
 				</p> */ ?>
+			</div>
+
+			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
+				<h2 class="centered icon-automation mobile-hidden">Automatisierung und KI</h2>
+				<p class="centered mobile-hidden">Nicht jeder Anruf muss zum Agenten, um gelöst zu werden. Nutzen Sie Echtzeit-Spracherkennung und unsere vielzähligen Schnittstellen, um effizienter zu telefonieren.</p>
+
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number" style="--color: #FF7B1B;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
+								</div>
+								weniger Gesprächszeit für Ihre Agent*innen*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number" style="--color: #FF7B1B;">
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
+								</div>
+								kürzere IVR-Menüs durch Spracherkennung*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs number-card">
+								<div class="number-card__number" style="--color: #FF7B1B;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="94">94%</span>
+								</div>
+								Kundenzufriedenheit dank schnellerer Fallbearbeitung*
+							</div>
+						</div>
+
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-21">
+							<label for="faq-21">Sprachdialoge ohne Agenten</label>
+							<div class="toggle-box__content">
+								<p>Nutzen Sie unsere VTT und TTS-Funktionen in Kombination mit unseren Schnittstellen für automatisierte Dialoge mit ihren Anrufern und das 24/7 mit 99,999% Verfügbarkeit.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-22">
+							<label for="faq-22">Intelligentes Sprachrouting</label>
+							<div class="toggle-box__content">
+								<p>Statt endlosem Auswahltasten drücken, bieten wir Echtzeit- Spracherkennung für bessere Kundenerlebnisse.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-23">
+							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
+							<div class="toggle-box__content">
+								<p>Wir übergeben Ihnen Anrufernummer oder Kundennummer und Sie antworten mit allen relevanten Kundendaten, wahlweise implementiert in der CallOne Agentenmaske.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-23">
+							<label for="faq-24">Bring your own Bot</label>
+							<div class="toggle-box__content">
+								<p>Sie haben bereits eine KI im Einsatz? Prima, dann bringen Sie sie doch einfach mit. Mit unseren Schnittstellen bieten wir ausreichend Anbindungsmöglichkeiten.</p>
+							</div>
+						</div>
+						<p class="subtext">&nbsp;</p>
+					</div>
+				</div>
+
+				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
+				<p class="centered" style="margin-top: 100px;">
+					<span class="mobile-hidden">
+						Wir haben noch mehr<br />
+						<strong>Informationen zu Effizienz:</strong><br />
+						<br />
+					</span>
+					<a href="/callcenter-bot" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+					<br />
+				</p>
+			</div>
+
+			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer" data-tab="3">
+				<h2 class="centered icon-connectors mobile-hidden">Schnittstellenanbindung</h2>
+				<p class="centered mobile-hidden">Wir agieren schnittstellenoffen. Kundenanliegen können schneller bearbeitet werden, indem sie ihre bestehenden Businesslösungen anbinden.</p>
+
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+								</div>
+								weniger Kosten <br />pro Kontakt <br />durch gesteigerte FCR*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
+								</div>
+								kürzere Gesprächsdauern (AHT) durch intelligente Vorqualifizierung*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
+								</div>
+								Erkennung des Anruferanliegens bei Anrufannahme*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number">
+									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
+								</div>
+								schnellerer Anrufaufbau durch Click-to-Dial im eigenen CRM*
+							</div>
+						</div>
+
+						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-11">
+							<label for="faq-11">Anrufsteuerung mittels Voice-API</label>
+							<div class="toggle-box__content">
+								<p>Binden Sie Ihre bestehenden CRM-, ERP- oder Ticketingsysteme an und steuern sie damit gezielt eingehende Anrufe.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-12">
+							<label for="faq-12">Alle Anruferinfos bei Gesprächsannahme</label>
+							<div class="toggle-box__content">
+								<p>Sparen Sie wertvolle Gesprächszeit und reichern Sie die Anruferinformationen mit Kundenname, Kundennummer oder einem Link in Ihr CRM-System an.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-13">
+							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
+							<div class="toggle-box__content">
+								<p>Nutzen Sie unsere vielzähligen Möglichkeiten zur Anrufervorqaulifizierung: Eingabe und Übermittlung von Kunden- oder Bestellnummern, Echtzeit-Spracherkennung oder Text-to-Speech.</p>
+							</div>
+						</div>
+						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
+							<input type="checkbox" id="faq-14">
+							<label for="faq-14">Wählen ohne Tippen</label>
+							<div class="toggle-box__content">
+								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- und Outboundtelefonie.</p>
+							</div>
+						</div>
+						<p class="subtext">&nbsp;</p>
+					</div>
+				</div>
+
+				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
+				<p class="centered" style="margin-top: 100px;">
+					<span class="mobile-hidden">
+						Wir haben noch mehr<br />
+						<strong>Informationen zu Konnektivität:</strong><br />
+						<br />
+					</span>
+					<a href="/voip-api" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+					<br />
+				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
@@ -509,8 +509,8 @@ $faqs->faq_add (
 		</div>
 	</div>
 
-	<div class="section__content section__content--wide saving-calculation--desktop">
-		<h1 class="centered">
+	<div class="section__content section__content--wide saving-calculation--desktop" style="margin-top:0">
+		<!-- <h1 class="centered">
 			Lust Ihr Einsparpotenzial <br />
 			direkt hier zu berechnen?
 		</h1>
@@ -521,13 +521,13 @@ $faqs->faq_add (
 		</p>
 
 		<br />
-		<br />
+		<br /> -->
 
-		<div class="co-grid saving-calculation__form-grid">
+		<div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
 				<div class="content-box content-box--white">
-					<h3>Geben Sie uns zwei Ihrer Kennzahlen</h3>
-					<p>Wir errechnen Ihr Einsparpotential mit realistischen Annahmen basierend auf unserer langjährigen Erfahrung.</p>
+					<h4>Ihr persönliches Einsparpotential errechnen</h4>
+					<p>Mit nur zwei Werten errechnen wir ihr Einsparpotential  basierend auf realistischen Annahmen und unseren Erfahrungswerten.</p>
 
 					<form action="#" method="post" class="floating-form saving-calculation__form">
 						<div class="floating-form__error">
@@ -543,10 +543,10 @@ $faqs->faq_add (
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off" />
-								<label></label>
+								<label>Hier eingeben, z.B. 10.000</label>
 							</div>
 							<div class="floating-form__description">
-								Anrufe gesamt pro Monat
+								Anrufzahl je Monat
 							</div>
 						</div>
 
@@ -556,10 +556,10 @@ $faqs->faq_add (
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off" />
-								<label></label>
+								<label>Hier eingeben, z.B. 25​</label>
 							</div>
 							<div class="floating-form__description">
-								Anzahl Ihrer Agent*innen
+								Anzahl Agent*innen
 							</div>
 						</div>
 
