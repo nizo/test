@@ -471,17 +471,16 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<!-- TODO: Hide debug code and add link -->
-				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
-				<?php /* <p class="centered" style="margin-top: 150px;">
+				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
+				<p class="centered" style="margin-top: 50px;">
 					<span class="mobile-hidden">
 						Wir haben noch mehr<br />
 						<strong>Informationen zu Datenauswertung:</strong><br />
 						<br />
 					</span>
-					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
+					<a href="/statistiken" class="btn btn--secondary btn--centered">Mehr erfahren</a>
 					<br />
-				</p> */ ?>
+				</p>
 			</div>
 		</div>
 	</div>

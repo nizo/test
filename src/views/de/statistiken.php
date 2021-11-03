@@ -33,16 +33,6 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--same-padding section--no-padding-top mobile-hidden">
-    <div class="section__content section__content--wide centered">
-        <p>
-            CallOne Kunden jeder Größe haben ein Ziel: <span class="fw500">Überdurchschnittliche Kundenerlebnisse!</span><br />
-            <br />
-            <img src="/assets/images/client-logos/logo-parade.svg" alt="" />
-        </p>
-    </div>
-</div>
-
 <div class="section section--no-padding-top section--white-blue">
     <div class="anchors mobile-hidden">
         <div class="anchors__title">
@@ -57,7 +47,7 @@ $faqs->faq_add (
 
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
-        <p class="centered mobile-hidden">CallOne liefert die statistischen Grundlagen für Unternehmen um datengestützte Entscheidungen treffen zu können. Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
+        <p class="centered mobile-hidden">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
 
         <div class="grid-slider">
             <div class="grid-slider__item">
@@ -130,7 +120,7 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-12">
 							<label for="faq-12">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
-								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
+								<p>Abweichungen Ihrer SLA oder Erreichbarkeiten teilen wir Ihnen sofort mit per E-Mail oder API eingebunden in Ihre Systeme. Damit gar nix erst anbrennt.</p>
 							</div>
 						</div>
 
@@ -138,7 +128,7 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
-								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
+								<p>Automatisierte Reportings zugeschnitten auf Ihre individuellen Bedürfnisse bieten Ihnen alle Infos auf einen Blick.</p>
 							</div>
 						</div>
                     </div>
@@ -156,25 +146,25 @@ $faqs->faq_add (
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-21" checked>
-							<label for="faq-21">Arbeitszeiterfassung & Forecasting</label>
+							<label for="faq-21">Tabellen, Grafiken, Schnittstellen</label>
 							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
+								<p>Nutzen Sie über 50 Echtzeitstatistiken abrufbar in Echtzeit versteht sich.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-22">
-							<label for="faq-22">Sofortige Benachrichtigung</label>
+							<label for="faq-22">Datenexport in ihrem Lieblingsformat</label>
 							<div class="toggle-box__content">
-								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
+								<p>Excel, csv, json oder pdf oder als fertig aufbereiteter Export für Ihr BI-Tool. Sie haben die Wahl!</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-23">
-							<label for="faq-23">Sparen Sie kostbare Zeit</label>
+							<label for="faq-23">Reports wie Sie sie benötigen</label>
 							<div class="toggle-box__content">
-								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
+								<p>Wir versenden Ihre Reports wann und wohin sie wünschen, als E-Mail, ftp-Upload oder Schnittstellenexport in Ihr BI-System.</p>
 							</div>
 						</div>
                     </div>
@@ -192,25 +182,25 @@ $faqs->faq_add (
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-31" checked>
-							<label for="faq-31">Arbeitszeiterfassung & Forecasting</label>
+							<label for="faq-31">Konversationsanalyse und Coaching in Echtzeit</label>
 							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
+								<p>Ihre Daten zu nutzen und zu verstehen, was Ihr Team erfolgreich und Kunden glücklich macht – in Echtzeit und mit KI.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-32">
-							<label for="faq-32">Sofortige Benachrichtigung</label>
+							<label for="faq-32">Spracherkennung einfach integriert</label>
 							<div class="toggle-box__content">
-								<p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptate deleniti. Alias. Lorem ipsum dolor sit amet.</p>
+								<p>Wir bieten Echtzeittranskription des gesprochenen Wortes am Telefon. Was Ihnen das bringt? Beste Voraussetzungen Kosten zu sparen indem Ihre Agenten entlastet werden.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-33">
-							<label for="faq-33">Sparen Sie kostbare Zeit</label>
+							<label for="faq-33">Prozesse mittels Anruftagging optimieren</label>
 							<div class="toggle-box__content">
-								<p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam dolores repellendus deleniti iste vero minus?</p>
+								<p>Taggen Sie Anrufe im Kundenservice und verschaffen Sie sich einen Überblick über die Anrufgründe – eine optimale Ausgangslage für Prozessoptimierungen im ganzen Unternehmen.</p>
 							</div>
 						</div>
                     </div>
@@ -246,8 +236,8 @@ $faqs->faq_add (
 
                 <p>
                     <!-- TODO: Add link -->
-                    <a href="#todo" class="btn btn--primary mobile-hidden">Beratungsgespräch vereinbaren</a>
-                    <a href="#todo" class="btn btn--primary btn--full-width centered desktop-hidden">Beratungsgespräch<br />vereinbaren</a>
+                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Beratungsgespräch vereinbaren</a>
+                    <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Beratungsgespräch<br />vereinbaren</a>
                     <br class="desktop-hidden" />
                     <br class="desktop-hidden" />
                 </p>
@@ -266,10 +256,10 @@ $faqs->faq_add (
 
 <div class="section section--black">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Brechen Sie die Datensilos auf!</h1>
+        <h1 class="centered mobile-left">Reibungsloser Zugriff auf Ihre Daten</h1>
         <h4 class="centered mobile-left">
-            Nutzen Sie unsere Anbindungen und <br />
-            Schnittstellen zu Ihren Lieblingstools.
+        Verbinden Sie CallOne mit Ihren <br />
+        BI-, Lead- oder Ticketingtools
         </h4>
 
         <div class="co-grid cards desktop-hidden centered">
@@ -317,8 +307,8 @@ $faqs->faq_add (
                         </div>
                     </div>
                     <div class="split-card__bottom">
-                        <h3>Plattformen</h3>
-                        <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet faucibus sagittis orci enim sed pretium varius. Mauris aliquam consequat at pharetra. Integer.</p>
+                        <h3>Fertige Integrationen</h3>
+                        <p class="bigtext">CallOne bietet Standardanbindungen zu zahlreichen Standard-Softwarelösungen.</p>
                         <p><a href="/callcenter-software-apps" class="btn btn--primary btn--full-width centered">Zu unseren Konnektoren</a></p>
                     </div>
                 </div>
@@ -342,8 +332,8 @@ $faqs->faq_add (
                         </div>
                     </div>
                     <div class="split-card__bottom">
-                        <h3>Entwickler</h3>
-                        <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet faucibus sagittis orci enim sed pretium varius. Mauris aliquam consequat at pharetra. Integer.</p>
+                        <h3>Werkzeuge für Ihre Entwickler</h3>
+                        <p class="bigtext">Nutzen Sie unsere umfassendes Schnittstellenportfolio von REST- und PUSH-API.</p>
                         <p><a href="/voip-api" class="btn btn--secondary btn--full-width centered">Zur Entwicklerseite</a></p>
                     </div>
                 </div>
@@ -380,7 +370,7 @@ $faqs->faq_add (
         <div class="tablist">
             <div class="tablist__links">
                 <div class="tablist__link tablist__link--active" data-tab="1">
-                    <strong>Alamierung</strong>
+                    <strong>Alarmierung</strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
                     <strong>Automatisierung</strong>
