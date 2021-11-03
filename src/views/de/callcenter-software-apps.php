@@ -159,7 +159,7 @@ $product->structured_data_get_code ();
     <h2>Richtig Spaß macht:<br />Ungenutzte Potenziale entdecken</h2>
 
     <div class="grid">
-      <div class="col-3 card card--shadow" style="--c:#03363D">
+      <div class="col-3 card card--shadow" style="--c:#03363D" id="tableau">
         <div class="card__image">
           <img src="/assets/images/logo/productlogos/Tableau-app-icon.svg" alt="Tableau" />
         </div>

@@ -153,8 +153,8 @@ $r->addRoute('GET', '/datenschutz', function() {
 });
 
 $r->addRoute('GET', '/statistiken', function() {
-  $title = 'CallOne Statistiken';
-  $description = '';
+  $title = 'Call Center Software Statistiken | KPI, SLA mit BI-Integration​';
+  $description = 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.';
   $keywords = '';
   $background = '';
   $ogUrl = $GLOBALS['url'] . '/statistiken';

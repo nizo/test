@@ -20,7 +20,10 @@ $faqs->faq_add (
 			<img src="/assets/images/illus/statistics-header-illustration.svg" alt="" style="width:100%" />
 		</div>
 		<div class="hero__text">
-			<h1>Steigern Sie Ihre Leistung um 25%</h1>
+			<h1>
+                Unsere Echtzeitstatistiken<br />
+                <span class="typing-text" data-speed="35" data-texts="geben Ihnen Planungssicherheit,steigern Ihren Umsatz,motivieren Ihre Mitarbeiter,zeigen Optimierungspotentiale" data-colors="#FF002E,#FF7B1B,#DB00C5,#0088EA">geben Ihnen Planungssicherheit</span>
+            </h1>
 			<h2>CallOne liefert mit seiner Callcenter Software die vielleicht umfänglichste Datengrundlage für die optimale Steuerung, Planung und Optimierung Ihres Kundenservices.</h2>
 			<p>
 				<a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
@@ -79,7 +82,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="grid-slider__item">
-                <a href="/voip-api" class="grid-slider__image"><img src="/assets/images/illus/plus-grey-bg.svg" alt="" /></a>
+                <a href="/callcenter-software-apps#tableau" class="grid-slider__image"><img src="/assets/images/illus/plus-grey-bg.svg" alt="" /></a>
                 <div class="grid-slider__content">
                     <h4>Ihr KPI nicht dabei?</h4>
                     <p class="bigtext">Erstellen Sie sich einfach ihre eigenen ganz indivduellen Auswertungen. Wie? Mit unseren Datenexporten!</p>
