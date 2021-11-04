@@ -1,6 +1,6 @@
 :root {
     --navigationHeight: 125px;
-    --navigationHeightScrolled: 80px;
+    --navigationHeightScrolled: 60px;
 }
 
 .navigation {
@@ -147,6 +147,7 @@
 
     &__logo {
         margin-right: var(--gutter-m);
+        height: 40px;
 
         img {
             display: block;

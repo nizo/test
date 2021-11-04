@@ -20,7 +20,7 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
         <ul>
             <li class="navigation__item">
                 <div class="navigation__link navigation__link--highlight">
-                    <a href="#">Call Center Software</a>
+                    <a href="/callcenter-software">Call Center Software</a>
                 </div>
             </li>
             <li class="navigation__item">
@@ -64,7 +64,7 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
             </li>
             <li class="navigation__item">
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="#">Karriere</a>
+                    <a href="/karriere-bei-callone">Karriere</a>
                 </div>
 
                 <div class="navigation__submenu">
@@ -91,7 +91,7 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
         </ul>
             
         <div class="navigation__login">
-            <a href="#"><img src="/assets/images/icons_svg/impact.svg" alt="" width="32" /></a>
+            <a href="https://box.callone.de" target="_blank"><img src="/assets/images/icons_svg/impact.svg" alt="" width="32" /></a>
         </div>
     </div>
 </nav>
