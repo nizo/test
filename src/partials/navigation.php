@@ -8,35 +8,7 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 ?>
 
 <nav class="navigation">
-    <div class="navigation__sublinks">
-        <ul>
-            <li>
-                <a href="#">+49 (0) 30-920 33 500</a>
-            </li>
-            <li>
-                <a href="#">Häufige Fragen</a>
-            </li>
-            <li>
-                <a href="#">Preise</a>
-            </li>
-            <li>
-                <a href="#">Unternehmen</a>
-            </li>
-            <li>
-                <a href="#">Kontakt</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Login</a>
-            </li>
-        </ul>
-    </div>
-
-    <hr />
-
-    <div class="navigation__mainlinks">
+    <div class="navigation__links">
         <a href="/" class="navigation__logo" title="Zur Startseite von CallOne">
             <?php if(isChristmas()) : ?>
                 <img src="/assets/images/logo/Logo-Christmas.svg" alt="Logo" title="CallOne Logo"/>
@@ -46,26 +18,81 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
         </a>
 
         <ul>
-            <li>
-                <a href="#" class="navigation__mainlink navigation__mainlink--highlight">Call Center Software</a>
-            </li>
-            <li>
-                <a href="#" class="navigation__mainlink navigation__mainlink--arrow">Produkte</a>
-
-                <div class="navigation__submenu">
-                    Test
+            <li class="navigation__item">
+                <div class="navigation__link navigation__link--highlight">
+                    <a href="#">Call Center Software</a>
                 </div>
             </li>
-            <li>
-                <a href="#" class="navigation__mainlink navigation__mainlink--arrow">Integrationen</a>
+            <li class="navigation__item">
+                <div class="navigation__link navigation__link--arrow">
+                    <a href="#">Produkte</a>
+                </div>
+
+                <div class="navigation__submenu">
+                    Produkte<br />
+                    Produkte<br />
+                    Produkte<br />
+                    Produkte<br />
+                    Produkte
+                </div>
             </li>
-            <li>
-                <a href="#" class="navigation__mainlink navigation__mainlink--arrow">Referenzen</a>
+            <li class="navigation__item">
+                <div class="navigation__link navigation__link--arrow">
+                    <a href="#">Integrationen</a>
+                </div>
+
+                <div class="navigation__submenu">
+                    Integrationen<br />
+                    Integrationen<br />
+                    Integrationen<br />
+                    Integrationen<br />
+                    Integrationen
+                </div>
             </li>
-            <li>
-                <a href="#" class="navigation__mainlink navigation__mainlink--arrow">Karriere</a>
+            <li class="navigation__item">
+                <div class="navigation__link navigation__link--arrow">
+                    <a href="#">Referenzen</a>
+                </div>
+
+                <div class="navigation__submenu">
+                    Referenzen<br />
+                    Referenzen<br />
+                    Referenzen<br />
+                    Referenzen<br />
+                    Referenzen
+                </div>
+            </li>
+            <li class="navigation__item">
+                <div class="navigation__link navigation__link--arrow">
+                    <a href="#">Karriere</a>
+                </div>
+
+                <div class="navigation__submenu">
+                    Karriere<br />
+                    Karriere<br />
+                    Karriere<br />
+                    Karriere<br />
+                    Karriere
+                </div>
+            </li>
+            <li class="navigation__item">
+                <div class="navigation__link navigation__link--arrow">
+                    <a href="#">Unternehmen</a>
+                </div>
+
+                <div class="navigation__submenu">
+                    Unternehmen<br />
+                    Unternehmen<br />
+                    Unternehmen<br />
+                    Unternehmen<br />
+                    Unternehmen
+                </div>
             </li>
         </ul>
+            
+        <div class="navigation__login">
+            <a href="#"><img src="/assets/images/icons_svg/impact.svg" alt="" width="32" /></a>
+        </div>
     </div>
 </nav>
 
