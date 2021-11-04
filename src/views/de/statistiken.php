@@ -10,7 +10,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
 	'Was kosten Statistiken und Auswertungen bei CallOne?',
-	'<p>CallOne bietet für die VoIP-Telefonanlage und Callcenter Software die meisten Statistiken inkludiert als Teil der Lösung. Für Kunden, die spezielle Anforderungen an das Reporting haben, stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
+	'<p>CallOne bietet für seine VoIP-Telefonanlage und Callcenter Software die meisten Statistiken inkludiert als Teil seiner Lösung. FÜr Kunden, die spezielle Anforderungen an Ihr Reporting haben stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
 );
 ?>
 
@@ -20,11 +20,12 @@ $faqs->faq_add (
 			<img src="/assets/images/illus/statistics-header-illustration.svg" alt="" style="width:100%" />
 		</div>
 		<div class="hero__text">
-			<h1>
+			<h1 class="mobile-hidden">
                 Unsere Echtzeitstatistiken<br />
                 <span class="typing-text" data-speed="35" data-texts="geben Ihnen Planungssicherheit,steigern Ihren Umsatz,motivieren Ihre Mitarbeiter,zeigen Optimierungspotentiale" data-colors="#FF002E,#FF7B1B,#DB00C5,#0088EA">geben Ihnen Planungssicherheit</span>
             </h1>
-			<h2>CallOne liefert eine Callcenter Software mit der vielleicht umfänglichsten Datengrundlage für die optimale Steuerung, Planung und Optimierung Ihres Kundenservices.</h2>
+            <h1 class="desktop-hidden">Unsere Echtzeit&shy;statistiken geben Ihnen Planungs&shy;sicherheit</h1>
+			<h2>CallOne liefert mit seiner Callcenter Software die vielleicht umfänglichste Datengrundlage für die optimale Steuerung, Planung und Optimierung Ihres Kundenservices.</h2>
 			<p>
 				<a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
 				<a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
@@ -47,35 +48,35 @@ $faqs->faq_add (
 
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
-        <p class="centered mobile-hidden">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen! Egal, ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
+        <p class="centered mobile-hidden">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
 
         <div class="grid-slider">
             <div class="grid-slider__item">
                 <img src="/assets/images/illus/performance-analysis-grey-bg.svg" alt="" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Top-Performer</h4>
-                    <p class="bigtext">Annahmedauer, Abschlussquoten, Erreichbarkeit und Vieles mehr. Wir zeigen Ihnen Ihre Top-Performer.</p>
+                    <p class="bigtext">Annahmedauer, Abschlussquoten, Erreichbarkeit und vieles mehr zeigen Ihnen ihre Top-Performer.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
                 <img src="/assets/images/illus/availability-grey-bg.svg" alt="" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Erreichbarkeit</h4>
-                    <p class="bigtext">Eine der wichtigsten Kennzahlen im Kundenservice mit umfangreichen Zusatzinformationen.</p>
+                    <p class="bigtext">Eine der wichtigsten Kennzahlen im Kundenservice. Wir liefern hier umfangreiche Zusatzinformationen.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
                 <img src="/assets/images/illus/call-reasons-grey-bg.svg" alt="" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Anrufgründe</h4>
-                    <p class="bigtext"> Die Grundlage für jede datengestützte Analyse. Wir liefern die Daten, Sie optimieren zielgerichtet.</p>
+                    <p class="bigtext">Grundlage für jede  datengestützte Analyse. Wir liefern diese Daten, sie optimieren zielgerichtet.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
                 <a href="/callcenter-software-apps#tableau" class="grid-slider__image"><img src="/assets/images/illus/plus-grey-bg.svg" alt="" /></a>
                 <div class="grid-slider__content">
-                    <h4>Ihr Wunsch-KPI nicht dabei?</h4>
-                    <p class="bigtext">Erstellen Sie sich mit unseren Datenexporten ganz einfach Ihre eigenen, indivduellen Auswertungen.</p>
+                    <h4>Ihr KPI nicht dabei?</h4>
+                    <p class="bigtext">Erstellen Sie sich einfach ihre eigenen ganz indivduellen Auswertungen. Wie? Mit unseren Datenexporten!</p>
                 </div>
             </div>
         </div>
@@ -106,21 +107,21 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Alles im Blick</h3>
-                        <p class="bigtext">Dashboards sind das ideale Steuerelement für Teamleitung und Supervisors. CallOne liefert hier die passenden Instrumente, um Ihre KPIs optimal überwachen und steuern zu können – webbasiert, in Echtzeit oder als Live-Schnittstelle.</p>
+                        <p class="bigtext">Dashboards sind das ideale Steuerelement für Ihre Teamleiter und Supervisoren. CallOne liefert hier die richtigen Instrumente, um 	Ihre KPIs 	optimal zu überwachen und steuern zu können – webbasiert, in Echtzeit und optional als Live-Schnittstelle.</p>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-11" checked>
 							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere Arbeitszeiterfassung und planen Sie Ihren Personaleinsatz mit unseren Datenschnittstellen deutlich effizienter.</p>
+								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-12">
-							<label for="faq-12">Sofortige Alarmierung</label>
+							<label for="faq-12">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
-								<p>Abweichungen Ihrer SLA oder Erreichbarkeiten teilen wir Ihnen sofort mit - per E-Mail oder API direkt eingebunden in Ihre Systeme. Damit gar nix erst anbrennt!</p>
+								<p>Abweichungen Ihrer SLA oder Erreichbarkeiten teilen wir Ihnen sofort mit per E-Mail oder API eingebunden in Ihre Systeme. Damit gar nix erst anbrennt.</p>
 							</div>
 						</div>
 
@@ -128,7 +129,7 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
-								<p>Automatisierte Reportings, zugeschnitten auf Ihre individuellen Bedürfnisse, bieten Ihnen alle Infos auf einen Blick.</p>
+								<p>Automatisierte Reportings zugeschnitten auf Ihre individuellen Bedürfnisse bieten Ihnen alle Infos auf einen Blick.</p>
 							</div>
 						</div>
                     </div>
@@ -142,12 +143,13 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Entwicklungen erkennen</h3>
-                        <p class="bigtext">Für bisher unerreichte Transparenz und Planbarkeit liefert CallOne eine umfängliche Auswahl an webbasierten Echtzeitstatistiken. Werten Sie KPIs wie Erreichbarkeiten, SLA, Skillgruppen und Agents in über 50 Statistiken aus.</p>
+                        <p class="bigtext">CallOne liefert die vielleicht umfänglichste Auswahl an Echtzeitstatistiken in einer webbasierten Oberfläche für unerreichte Transparenz und Planbarkeit. Werten Sie Ihre Rufnummern, KPI wie Erreichbarkeiten, SLA, Skillgruppen, Agenten in über 50 Statistiken aus.</p>
+
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-21" checked>
 							<label for="faq-21">Tabellen, Grafiken, Schnittstellen</label>
 							<div class="toggle-box__content">
-								<p>Nutzen Sie jederzeit abrufbare Echtzeitstatistiken in der Darstellung Ihrer Wahl oder direkt integriert in Ihre Systeme.</p>
+								<p>Nutzen Sie über 50 Echtzeitstatistiken abrufbar in Echtzeit versteht sich.</p>
 							</div>
 						</div>
 
@@ -155,13 +157,13 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-22">
 							<label for="faq-22">Datenexport in ihrem Lieblingsformat</label>
 							<div class="toggle-box__content">
-								<p>Excel, csv, json, pdf oder als fertig aufbereiteter Export für Ihr BI-Tool. Sie haben die Wahl!</p>
+								<p>Excel, csv, json oder pdf oder als fertig aufbereiteter Export für Ihr BI-Tool. Sie haben die Wahl!</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-23">
-							<label for="faq-23">Reports, wie Sie sie benötigen</label>
+							<label for="faq-23">Reports wie Sie sie benötigen</label>
 							<div class="toggle-box__content">
 								<p>Wir versenden Ihre Reports wann und wohin sie wünschen, als E-Mail, ftp-Upload oder Schnittstellenexport in Ihr BI-System.</p>
 							</div>
@@ -177,13 +179,13 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Kundeninteraktionen auswerten</h3>
-                        <p class="bigtext">Neben Zahlen können wir bei CallOne auch das gesprochene Wort auswerten. Mit Sprachtranskription in Echtzeit (sog. Voice-to-Text) wandeln wir Sprache in lesbaren Text um. Dies können Sie auf vielfältige Arten nutzbar für sich machen.</p>
+                        <p class="bigtext">Neben Zahlen können wir bei CallOne auch das gesprochene Wort auswerten. Mit Sprachtranskription in Echtzeit sog. Voice-to-Text Funktion wandeln wir Sprache in lesbaren Text um. Sie können dies auf vielfältige Art nutzbar für sich machen.</p>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-31" checked>
 							<label for="faq-31">Konversationsanalyse und Coaching in Echtzeit</label>
 							<div class="toggle-box__content">
-								<p>Ihre Daten nutzen und verstehen, was Ihr Team erfolgreich und Kunden glücklich macht – in Echtzeit und mit KI.</p>
+								<p>Ihre Daten zu nutzen und zu verstehen, was Ihr Team erfolgreich und Kunden glücklich macht – in Echtzeit und mit KI.</p>
 							</div>
 						</div>
 
@@ -191,13 +193,13 @@ $faqs->faq_add (
 							<input type="checkbox" id="faq-32">
 							<label for="faq-32">Spracherkennung einfach integriert</label>
 							<div class="toggle-box__content">
-								<p>Wir bieten Echtzeittranskription des gesprochenen Wortes am Telefon. Was Ihnen das bringt? Beste Voraussetzungen Kosten zu sparen, indem Ihre Agents entlastet werden.</p>
+								<p>Wir bieten Echtzeittranskription des gesprochenen Wortes am Telefon. Was Ihnen das bringt? Beste Voraussetzungen Kosten zu sparen indem Ihre Agenten entlastet werden.</p>
 							</div>
 						</div>
 
                         <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
 							<input type="checkbox" id="faq-33">
-							<label for="faq-33">Prozesse mittels Call-Tagging optimieren</label>
+							<label for="faq-33">Prozesse mittels Anruftagging optimieren</label>
 							<div class="toggle-box__content">
 								<p>Taggen Sie Anrufe im Kundenservice und verschaffen Sie sich einen Überblick über die Anrufgründe – eine optimale Ausgangslage für Prozessoptimierungen im ganzen Unternehmen.</p>
 							</div>
@@ -307,7 +309,7 @@ $faqs->faq_add (
                     </div>
                     <div class="split-card__bottom">
                         <h3>Fertige Integrationen</h3>
-                        <p class="bigtext">CallOne bietet Standardanbindungen zu zahlreichen Softwarelösungen.</p>
+                        <p class="bigtext">CallOne bietet Standardanbindungen zu zahlreichen Standard-Softwarelösungen.</p>
                         <p><a href="/callcenter-software-apps" class="btn btn--primary btn--full-width centered">Zu unseren Konnektoren</a></p>
                     </div>
                 </div>
@@ -331,7 +333,7 @@ $faqs->faq_add (
                         </div>
                     </div>
                     <div class="split-card__bottom">
-                        <h3>Werkzeuge für Ihre Entwicklung</h3>
+                        <h3>Werkzeuge für Ihre Entwickler</h3>
                         <p class="bigtext">Nutzen Sie unsere umfassendes Schnittstellenportfolio von REST- und PUSH-API.</p>
                         <p><a href="/voip-api" class="btn btn--secondary btn--full-width centered">Zur Entwicklerseite</a></p>
                     </div>
@@ -344,9 +346,9 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md">
                 <div class="fade-box fade-box--on-black">
                     <h3>Datensicherheit</h3>
-                    <p class="bigtext">Die Integrität und Sicherheit der Daten unserer Kunden hat höchste Priorität. Ihre Daten lagern deshalb auf Servern in ISO-zertifizierten Hochsicherheitsrechenzentren in Deutschland.</p>
+                    <p class="bigtext">Die Integrität und Sicherheit der Daten unserer Kunden hat höchste Priorität. Ihre Daten lagern deshalb auf Servern in ISO-zertifizierten Hochsicherheits&shy;rechenzentren in Deutschland.</p>
                     
-                    <div class="co-grid">
+                    <div class="co-grid mobile-hidden">
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" />
                         </div>
@@ -355,6 +357,14 @@ $faqs->faq_add (
                             <a href="#todo" class="btn btn--border-white" style="visibility:hidden">Mehr erfahren</a>
                         </div>
                     </div>
+                    
+                    <p class="desktop-hidden">
+                        <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" />
+                    </p>
+                    <p class="desktop-hidden" style="display:none !important;">
+                        <!-- TODO: Add link -->
+                        <a href="#todo" class="btn btn--border-white">Mehr erfahren</a>
+                    </p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--2-md"></div>
@@ -388,7 +398,7 @@ $faqs->faq_add (
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>SLA-Alarmierung</h3>
-                                <p class="bigtext">Bei Unterschreitung Ihrer Servicelevel (SLA) werden Sie informiert – per E-Mail oder individuell wie Sie es sich wünschen.</p>
+                                <p class="bigtext">Bei Unterschreitung Ihrer Servicelevel (SLA) werden Sie informiert – per E-Mail oder individuell sie es sich wünschen.</p>
                             </div>
                         </div>
                     </div>
@@ -415,7 +425,7 @@ $faqs->faq_add (
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Berichtsautomatisierung</h3>
-                                <p class="bigtext">Sparen Sie Zeit und erstellen Sie Ihre individuellen Berichte direkt in CallOne oder über angebunden Lösungen.</p>
+                                <p class="bigtext">Sparen Sie Zeit und erstellen Sie Ihre individuellen Berichte direkt aus CallOne oder über angebunden Lösungen.</p>
                             </div>
                         </div>
                     </div>
@@ -426,7 +436,7 @@ $faqs->faq_add (
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Kundenbewertungen</h3>
-                                <p class="bigtext">In Echtzeit wissen, was Ihre Kunden über Sie denken. Erhalten sie diese Informationen von CallOne aufbereitet.</p>
+                                <p class="bigtext">In Echtzeit wissen was Ihre Kunden über Sie denken. Erhalten sie diese Informationen von CallOne in Echtzeit aufbereitet.</p>
                             </div>
                         </div>
                     </div>
@@ -442,7 +452,7 @@ $faqs->faq_add (
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Benchmark-Daten</h3>
-                                <p class="bigtext">Nutzen Sie unsere Vergleichsfunktion und setzen Sie auf Knopfdurch Zeiträume in einem intelligenten KPI-Vergleich.</p>
+                                <p class="bigtext">Nutzen Sie unsere Vergleichsfunktion und setzen auf Knopfdurch Zeiträume in einem intelligenten KPI-Vergleich.</p>
                             </div>
                         </div>
                     </div>
