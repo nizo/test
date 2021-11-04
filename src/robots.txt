@@ -17,4 +17,4 @@ Disallow: /tmp/
 Disallow: /testseite
 Disallow: /event
 
-Sitemap: https://www.callone.de/sitemapindex.xml
+Sitemap: https://www.callone.de/sitemapindex.xml 
