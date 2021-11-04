@@ -21,7 +21,12 @@
         box-shadow: 0 0 20px rgba(#000, 0.25);
 
         .navigation__mainlink {
+            font-size: 14px;
             padding: var(--gutter-micro) var(--gutter-xs);
+        }
+
+        .navigation__logo {
+            height: 24px;
         }
 
         &+.navigation-spacer {
@@ -143,6 +148,7 @@
 
         img {
             display: block;
+            height: 100%;
         }
     }
 }
