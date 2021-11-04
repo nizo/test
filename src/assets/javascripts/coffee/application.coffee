@@ -148,7 +148,7 @@ app =
 
     # Toggle Boxes
     $(document).on 'click', '.toggle-box label', (e) ->
-      $('.toggle-box').each (i, box) =>
+      $('.toggle-box', $(this).parent().parent()).each (i, box) =>
         if box != e.currentTarget.parentNode
           $('.toggle-box__content', box).slideUp();
           $('input', box).prop('checked', false);
