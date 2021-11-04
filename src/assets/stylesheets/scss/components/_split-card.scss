@@ -1,0 +1,29 @@
+.split-card+*, *+.split-card {
+    margin-top: var(--gutter-xl);
+}
+
+.split-card {
+    --bg-color: #EDF2E2;
+
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    height: 100%;
+
+    &__top {
+        padding: var(--gutter-m);
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__bottom {
+        border-radius: 10px;
+        background-color: #fff;
+        padding: var(--gutter-m);
+        margin-top: auto;
+    }
+}

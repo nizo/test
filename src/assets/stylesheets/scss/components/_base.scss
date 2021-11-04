@@ -57,12 +57,25 @@ h6 {
     }
 }
 
+p {
+    font-size: 18px;
+    @media screen and (max-width: 800px) {
+        font-size: 14px;
+    }
+}
+
 // Text Modifications
 .bigtext {
     font-size: 20px;
+    @media screen and (max-width: 800px) {
+        font-size: 16px;
+    }
 }
 .subtext {
     font-size: 14px;
+    @media screen and (max-width: 800px) {
+        font-size: 10px;
+    }
 }
 
 // Boxes

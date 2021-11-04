@@ -1,3 +1,12 @@
+.anchors+*, *+.anchors {
+    margin-top: 60px;
+}
+@media screen and (max-width: 800px) {   
+    .anchors.mobile-hidden+*:not(.mobile-hidden) {
+        margin-top: 0px;
+    }
+}
+
 .anchors {
     &__title {
         color: #000;

@@ -152,6 +152,17 @@ $r->addRoute('GET', '/datenschutz', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/statistiken', function() {
+  $title = 'Call Center Software Statistiken | KPI, SLA mit BI-Integration​';
+  $description = 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/statistiken';
+  require_once('./layouts/header.php');
+  require_once('./views/de/statistiken.php');
+  require_once('./layouts/footer.php');
+});
+
 $r->addRoute('GET', '/impressum', function() {
   $title = 'CallOne Impressum - Callcenter Software und VoIP-Telefonanlagen';
   $description = 'CallOne ist ein inhabergeführtes Unternehmen mit Sitz in Berlin, Potsdam und Mainz. Wir bieten hochwertige cloudbasierte Telefonanlagen für Sales und Service';
