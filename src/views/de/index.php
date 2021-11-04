@@ -423,7 +423,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -475,7 +475,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -527,7 +527,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -580,7 +580,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
