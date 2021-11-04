@@ -132,14 +132,15 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg">
-                                    <div class="tag">
-                                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
-                                    </div>
+                                    <br />
+                                    <br />
                                     <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
                                     <p class="bigtext">Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
                                     <p>
                                         <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
+                                    <br />
+                                    <br />
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
                                     <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
@@ -218,7 +219,7 @@
                                     <br />
                                     <br />
                                     <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
-                                    <p class="bigtext">Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
+                                    <p class="bigtext">Wir steigern nachweislich Ihren ROI, <br />indem wir gemeinsam an den großen <br />Stellschrauben im Kundenservice drehen.</p>
                                     <p>
                                         <a href="/callcenter-software#mehrwertrechner" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
@@ -291,8 +292,8 @@
                                 <div class="co-grid__col co-grid__col--6-xs">
                                     <br />
                                     <br />
-                                    <h3>Eine Plattform, unendliche Optionen</h3>
-                                    <p class="bigtext">Maximale Flexibilität, wie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
+                                    <h3>Eine Plattform, <br />unendliche Optionen</h3>
+                                    <p class="bigtext">Maximale Flexibilität, wie und wo <br />Sie mit uns telefonieren. Ob Hardware, <br />Browser oder mobil.</p>
                                     <p>
                                         <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
@@ -527,7 +528,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment wie CallOne.</h1>
+                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
