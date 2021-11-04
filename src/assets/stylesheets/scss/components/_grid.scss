@@ -1,12 +1,12 @@
 *+.co-grid, .co-grid+* {
-    margin-top: var(--gutter-m);
+    margin-top: 30px;
 }
 
 .co-grid {
-    --gutter: var(--gutter-m);
+    --gutter: 30px;
 
     &--small-gutter {
-        --gutter: var(--gutter-xs);
+        --gutter: 15px;
     }
 
     //outline: 1px solid red; // For Debugging
@@ -49,10 +49,10 @@
             display: block;
             margin: 0 auto;
             &+* {
-                margin-top: var(--gutter-m);
+                margin-top: 30px;
             }
         }
-        .co-grid {
+        >.co-grid {
             margin-top: 0;
             margin-bottom: 0;
         }

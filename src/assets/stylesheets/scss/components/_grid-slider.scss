@@ -1,0 +1,102 @@
+.grid-slider+*, *+.grid-slider {
+    margin-top: 60px;
+}
+
+.grid-slider {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    &__item {
+        flex: 1 1 calc(25% - 30px);
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+
+        &+.grid-slider__item {
+            margin-left: 30px;
+        }
+    }
+    &__item--measured {
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 30px); // Minus indicators height
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity .3s ease;
+    }
+    &__item--active {
+        opacity: 1;
+    }
+
+    &__image {
+        display: block;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+        img {
+            border-radius: 10px;
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__indicators {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__indicator {
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        background-color: #c4c4c4;
+
+        &+.grid-slider__indicator {
+            margin-left: 6px;
+        }
+    }
+    &__indicator--active {
+        width: 10px;
+        height: 10px;
+        background-color: $color-primary;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .grid-slider {
+        max-width: 325px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__item {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &+.grid-slider__item {
+                margin-left: 0;
+            }
+        }
+
+        &__image {
+            order: 2;
+            width: 100%;
+            margin-bottom: 0;
+            border-radius: 0 0 10px 10px;
+        }
+
+        &__content {
+            order: 1;
+            padding: 20px 25px;
+        }
+    }
+}

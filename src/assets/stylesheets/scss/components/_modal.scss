@@ -234,6 +234,11 @@ body.callone-modal--scrolllock {
             //min-height: calc(32px + 50px); // Button Height
         }
 
+        &__content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         &__headerbutton--back {
             width: 32px;
             height: 32px;

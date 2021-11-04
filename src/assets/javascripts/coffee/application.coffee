@@ -148,11 +148,23 @@ app =
 
     # Toggle Boxes
     $(document).on 'click', '.toggle-box label', (e) ->
-      $('.toggle-box').each (i, box) =>
+      $('.toggle-box', $(this).parent().parent()).each (i, box) =>
         if box != e.currentTarget.parentNode
           $('.toggle-box__content', box).slideUp();
           $('input', box).prop('checked', false);
       $(this).parent().find('.toggle-box__content').slideToggle()
+    $('.toggle-box').each (i, toggleBox) =>
+      if $('input', toggleBox).prop('checked')
+        $('.toggle-box__content', toggleBox)[0].style.display = 'block'
+    
+    @check_for_anchor()
+
+  check_for_anchor: ->
+    if window.location.hash && window.location.hash != ''
+      # Anchor present
+      anchor = $(window.location.hash)
+      if anchor
+        window.scrollTop = anchor.offset().top - 94
 
   # autoplay_videos: ->
   #   videos = document.getElementsByTagName 'video'
@@ -185,14 +197,20 @@ app =
 
 # Adds additional class to navbar when scrolled
 navbar =
+  bar: document.querySelector('.navbar')
+
   init: ->
-    bar = document.querySelector('.navbar')
-    document.addEventListener 'scroll', (e) ->
-      if bar
-        if window.scrollY > 0
-          bar.classList.add('scrolled')
-        else
-          bar.classList.remove('scrolled')
+    @adjust()
+    document.addEventListener 'scroll', ((e) =>
+      @adjust()
+    ).bind(@)
+
+  adjust: ->
+    if @bar
+      if window.scrollY > 0
+        @bar.classList.add('scrolled')
+      else
+        @bar.classList.remove('scrolled')
 
 slider =
   slider: ""
