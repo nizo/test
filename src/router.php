@@ -85,6 +85,15 @@ $r->addRoute('GET', '/screensize', function() {
   require_once('./views/de/screensize.php');
   require_once('./layouts/footer-components.php');
 });
+$r->addRoute('GET', '/statistics', function() {
+  $title = 'Statistics';
+  $description = '';
+  $keywords = '';
+  $background = 'components--scrollbar';
+  require_once('./layouts/header-components.php');
+  require_once('./views/de/statistics.php');
+  require_once('./layouts/footer-components.php');
+});
 
 $r->addRoute('GET', '/components_overview', function() {
   $title = 'components_overview';
