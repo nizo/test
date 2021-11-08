@@ -34,20 +34,20 @@ if (!is_dir (SESSION_TRACKING_DIR_ACCEPTED))
 if (!is_dir (SESSION_TRACKING_DIR_DENIED))
 	mkdir (SESSION_TRACKING_DIR_DENIED, 0777, true);
 
-if (empty ($_SESSION['userRoute']))
-		define ('USER_ROUTE', null);
-else	define ('USER_ROUTE', implode (PHP_EOL, $_SESSION['userRoute']));
+$file_content = [];
+$file_content['HTTP_USER_AGENT'] = (empty ($_SERVER['HTTP_USER_AGENT']) ? null : $_SERVER['HTTP_USER_AGENT']);
+$file_content['userRoute'] = (empty ($_SESSION['userRoute']) ? null : $_SESSION['userRoute']);
 
 if (empty ($_COOKIE[COOKIES_ACCEPTED_NAME]))
 {
 	// 'cookies NOT accepted'
-	file_put_contents (SESSION_TRACKING_DENIED_FILE, USER_ROUTE);
+	file_put_contents (SESSION_TRACKING_DENIED_FILE, json_encode ($file_content));
 }
 else
 {
 	// 'cookies accepted'
 	if (file_exists (SESSION_TRACKING_DENIED_FILE))
 		unlink (SESSION_TRACKING_DENIED_FILE);
-	file_put_contents (SESSION_TRACKING_ACCEPTED_FILE, USER_ROUTE);
+	file_put_contents (SESSION_TRACKING_ACCEPTED_FILE, json_encode ($file_content));
 }
 ?>
