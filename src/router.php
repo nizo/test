@@ -4,9 +4,11 @@ class Router {
 
   public function __construct() {
       require_once('./libs/functions.php');
+
+      require_once('./libs/faqs.php');
       require_once('./libs/jobs.php');
       require_once('./libs/products.php');
-      require_once('./libs/faqs.php');
+      require_once('./libs/session.inc.php');
   }
 
   public function addRoute($method, $url, $callback) {
