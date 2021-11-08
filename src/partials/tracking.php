@@ -1,21 +1,3 @@
-<?php
-/** tracking.php 
- *  
- */
-
-//  Tracken des Userrouten - Wird per Formular weiter gegeben
-if (empty($_SESSION['userRoute'])) {
-    $_SESSION['userRoute'] = []; 
-    if(isset($_SERVER['HTTP_REFERER'])) {
-        array_push($_SESSION['userRoute'], $_SERVER['HTTP_REFERER']);
-    }
-    array_push($_SESSION['userRoute'],$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
-} else {
-    $lastElement = array_slice($_SESSION['userRoute'], -1)[0];
-    if($lastElement !== $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'])
-        array_push($_SESSION['userRoute'],$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
-}
-?>
 <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1)): ?>
  
     <?php if (!isLocalHost()) : ?>
