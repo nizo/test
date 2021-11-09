@@ -4,9 +4,11 @@ class Router {
 
   public function __construct() {
       require_once('./libs/functions.php');
+
+      require_once('./libs/faqs.php');
       require_once('./libs/jobs.php');
       require_once('./libs/products.php');
-      require_once('./libs/faqs.php');
+      require_once('./libs/session.inc.php');
   }
 
   public function addRoute($method, $url, $callback) {
@@ -81,6 +83,15 @@ $r->addRoute('GET', '/screensize', function() {
   $background = 'components--scrollbar';
   require_once('./layouts/header-components.php');
   require_once('./views/de/screensize.php');
+  require_once('./layouts/footer-components.php');
+});
+$r->addRoute('GET', '/statistics', function() {
+  $title = 'Statistics';
+  $description = '';
+  $keywords = '';
+  $background = 'components--scrollbar';
+  require_once('./layouts/header-components.php');
+  require_once('./views/de/statistics.php');
   require_once('./layouts/footer-components.php');
 });
 

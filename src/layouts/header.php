@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <?php $GLOBALS['newCookieModal'] = true; ?>
 <!doctype html>
 <html lang="de">

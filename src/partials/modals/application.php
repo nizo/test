@@ -1,5 +1,6 @@
 <?php
-session_start();
+require_once('../../libs/session.inc.php');
+
 $uniqueID = uniqid();
 ?>
 
