@@ -44,6 +44,15 @@ class jobs
 
 		return $jobs_filtered;
 	}
+
+	function category_id_get ($category)
+	{
+		$category_id = preg_replace("/[^A-Za-z0-9 ]/", '', $category); // Remove all but alphanumeric
+		$category_id = preg_replace('!\s+!', ' ', $category_id); // Replace multiple spaces with single space
+		$category_id = strtolower($category_id); // To lowercase
+		$category_id = str_replace(" ", "-", $category_id); // Replace spaces with hyphen
+		return $category_id;
+	}
 }
 
 class job

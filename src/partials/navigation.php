@@ -231,22 +231,27 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                 </div>
             </li>
             <li class="navigation__item">
+                <?php
+                $jobs = jobs_load();
+                ?>
+
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="/karriere-bei-callone">Karriere <span class="navigation__notification">9</span></a>
+                    <a href="/karriere-bei-callone">Karriere<?php if (!empty($jobs)) { ?> <span class="navigation__notification"><?= count($jobs->jobs_get()); ?></span><?php } ?></a>
                 </div>
 
                 <div class="navigation__submenu submenu">
                     <div class="submenu__left">
                         <div class="submenu__headline">Arbeiten bei CallOne</div>
 
-                        <div class="submenu__info">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aut omnis cumque nisi veritatis ab.
-                        </div>
-
-                        <a href="#" class="submenu__link submenu__link--small">
-                            <strong>Callcenter-Software</strong>
-                            <span>Lorem ipsum dolor</span>
-                        </a>
+                        <?php
+                        foreach ($jobs->categories_get() as $category) {
+                            ?>
+                            <a href="/karriere#<?= $jobs->category_id_get($category); ?>" class="submenu__link submenu__link--small">
+                                <strong><?= $category; ?></strong>
+                            </a>
+                            <?php
+                        }
+                        ?>
                     </div>
                     <div class="submenu__right">
                         <div class="submenu__headline">Aktuelle Jobangebote</div>
@@ -326,24 +331,72 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                     </a>
                 </div>
             </li>
-            <li class="navigation__item navigation__item--small-submenu">
-                <div class="navigation__link">
-                    <a href="https://box.callone.de" target="_blank">
-                        <img src="/assets/images/icons_svg/icon-authorization-black.svg" alt="" width="32" />
-                    </a>
-                </div>
 
-                <div class="navigation__submenu submenu">
-                    <a href="#" class="submenu__link submenu__link--small">
-                        <strong>Login</strong>
-                        <span>Zu Ihrem Dashboard</span>
-                    </a>
-                    <a href="#" class="submenu__link submenu__link--small">
-                        <strong>Registrieren</strong>
-                        <span>Jetzt Kontakt aufnehmen</span>
-                    </a>
-                </div>
-            </li>
+            <?php
+            if ($faq) {
+                // Display FAQ Menu
+                ?>
+                <li class="navigation__item navigation__item--small-submenu">
+                    <div class="navigation__link">
+                        <a href="#">FAQ</a>
+                    </div>
+
+                    <div class="navigation__submenu submenu">
+                        <a href="#" class="submenu__link submenu__link--small">
+                            <strong>Kategorie 1</strong>
+                            <span>Lorem, ipsum dolor.</span>
+                        </a>
+                        <a href="#" class="submenu__link submenu__link--small">
+                            <strong>Kategorie 2</strong>
+                            <span>Lorem, ipsum dolor.</span>
+                        </a>
+                    </div>
+                </li>
+                <?php
+            } elseif ($blog) {
+                // Display Blog Menu
+                ?>
+                <li class="navigation__item navigation__item--small-submenu">
+                    <div class="navigation__link">
+                        <a href="#">Blog</a>
+                    </div>
+
+                    <div class="navigation__submenu submenu">
+                        <a href="#" class="submenu__link submenu__link--small">
+                            <strong>Kategorie 1</strong>
+                            <span>Lorem, ipsum dolor.</span>
+                        </a>
+                        <a href="#" class="submenu__link submenu__link--small">
+                            <strong>Kategorie 2</strong>
+                            <span>Lorem, ipsum dolor.</span>
+                        </a>
+                    </div>
+                </li>
+                <?php
+            } else {
+                // Display Login Menu
+                ?>
+                <li class="navigation__item navigation__item--small-submenu">
+                    <div class="navigation__link">
+                        <a href="https://box.callone.de" target="_blank">
+                            <img src="/assets/images/icons_svg/icon-authorization-black.svg" alt="" width="32" />
+                        </a>
+                    </div>
+
+                    <div class="navigation__submenu submenu">
+                        <a href="#" class="submenu__link submenu__link--small">
+                            <strong>Login</strong>
+                            <span>Zu Ihrem Dashboard</span>
+                        </a>
+                        <a href="#" class="submenu__link submenu__link--small">
+                            <strong>Registrieren</strong>
+                            <span>Jetzt Kontakt aufnehmen</span>
+                        </a>
+                    </div>
+                </li>
+                <?php
+            }
+            ?>
         </ul>
     </div>
 </nav>

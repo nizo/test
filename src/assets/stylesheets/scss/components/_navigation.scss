@@ -22,9 +22,13 @@
         box-shadow: 0 0 20px rgba(#000, 0.25);
 
         .navigation__link {
-            a {
-                font-size: 14px;
+            &:after {
+                bottom: 0px;
             }
+        }
+
+        .navigation__submenu {
+            bottom: 0px;
         }
 
         .navigation__logo {
@@ -141,7 +145,7 @@
             position: absolute;
             display: none;
             z-index: 20;
-            bottom: 0;
+            bottom: 20px;
             left: calc(50% - (var(--arrow-size) / 2));
             border-bottom: var(--arrow-size) solid var(--arrow-color);
             border-left: var(--arrow-size) solid transparent;
@@ -181,7 +185,7 @@
         display: none;
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: 20px;
         width: 100%;
         z-index: 10;
         transform: translateY(100%);
@@ -191,11 +195,13 @@
 
     &__logo {
         margin-right: var(--gutter-m);
+        width: 170px;
         height: 40px;
 
         img {
             display: block;
-            height: 100%;
+            width: 100%;
+            max-height: 100%;
         }
     }
 }
