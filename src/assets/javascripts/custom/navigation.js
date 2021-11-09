@@ -2,6 +2,11 @@ class Navigation {
     constructor() {
         this.navigation = document.querySelector('.navigation');
         this.mobileButton = this.navigation.querySelector('.navigation__mobile-button');
+        this.navItems = this.navigation.querySelectorAll('.navigation__item');
+        this.submenuLinks = this.navigation.querySelectorAll('.submenu__link');
+
+        this.handleMobileNavLinks();
+        this.handleMobileSubmenuLinks();
 
         // Handle Mobile Button
         this.mobileButton.addEventListener('click', this.handleMobileButton.bind(this));
@@ -9,6 +14,36 @@ class Navigation {
         // Handle Scroll
         this.checkScroll();
         window.addEventListener('scroll', this.checkScroll.bind(this));
+    }
+
+    handleMobileSubmenuLinks() {
+        this.submenuLinks.forEach(link => {
+            link.addEventListener('click', (e => {
+                this.toggleMobileNav();
+            }).bind(this));
+        });
+    }
+
+    handleMobileNavLinks() {
+        this.navItems.forEach(item => {
+            let link = item.querySelector('.navigation__link');
+            link.addEventListener('click', (e => {
+                if (this.navigation.classList.contains('navigation--mobile-open')) {
+                    e.preventDefault();
+                    this.navItems.forEach(navItem => {
+                        if (navItem != item)
+                            navItem.classList.remove('navigation__item--open');
+                    });
+                    item.classList.toggle('navigation__item--open');
+
+                    // Scroll to open link
+                    if (item.classList.contains('navigation__item--open')) {
+                        let nav = this.navigation.querySelector('.navigation__links > ul');
+                        nav.scrollTop = item.offsetTop;
+                    }
+                }
+            }).bind(this));
+        });
     }
 
     checkScroll(e) {
@@ -20,6 +55,10 @@ class Navigation {
     }
 
     handleMobileButton(e) {
+        this.toggleMobileNav();
+    }
+    
+    toggleMobileNav() {
         this.mobileButton.classList.toggle('navigation__mobile-button--active');
         this.navigation.classList.toggle('navigation--mobile-open');
     }

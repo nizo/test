@@ -42,10 +42,12 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                             </div>
                         </a>
 
-                        <a href="#" class="submenu__link submenu__link--small">
-                            <strong>Callcenter-Software</strong>
-                            <span>Lorem ipsum dolor</span>
-                        </a>
+                        <div class="submenu__headline">Wussten Sie schon?</div>
+
+                        <div class="submenu__info">
+                            Mit der CallOne Callcenter Software können Sie zum Mond fliegen.<br />
+                            <a href="#">Mehr erfahren &raquo;</a>
+                        </div>
                     </div>
                     <div class="submenu__right">
                         <div class="submenu__headline">Produkte</div>
@@ -193,10 +195,10 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                             <strong>Callcenter-Software</strong>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
                         </a>
-                        <a href="#" class="submenu__link submenu__link--small">
-                            <strong>Callcenter-Software</strong>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
-                        </a>
+                        
+                        <div class="submenu__info">
+                            <a href="#">&starf;&starf;&starf;&starf;&starf; 5 Sterne bei Google</a>
+                        </div>
                     </div>
                     <div class="submenu__right">
                         <div class="submenu__headline">Auswahl unserer Kunden</div>
@@ -257,7 +259,17 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 
                 <div class="navigation__submenu submenu">
                     <div class="submenu__left">
-                        <div class="submenu__headline">Arbeiten bei CallOne</div>
+                        <div class="submenu__headline">Karriere</div>
+
+                        <a href="/karriere-bei-callone" class="submenu__link">
+                            <div class="submenu__link-icon">
+                                <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" />
+                            </div>
+                            <div class="sunmenu__link-text">
+                                <strong>Karriere bei CallOne</strong>
+                                <span>Der Weg zu deinem Traumjob</span>
+                            </div>
+                        </a>
 
                         <?php
                         foreach ($jobs->categories_get() as $category) {
@@ -281,7 +293,6 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                                 ?>
                                 <a href="<?= $job->url_get(); ?>" class="submenu__link submenu__link--small">
                                     <strong><?= $job->title_get(); ?></strong>
-                                    <span><?= $job->quickinfo_get(); ?></span>
                                 </a>
                                 <?php
                             }
