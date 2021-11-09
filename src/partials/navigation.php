@@ -52,57 +52,63 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 
                         <div class="submenu__grid">
                             <div class="submenu__column">
-                                <a href="#" class="submenu__link">
+                                <a href="/callcenter-software" class="submenu__link">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+                                        <img src="/assets/images/icons_svg/menu-callcenter-software.svg" alt="" />
                                     </div>
                                     <div class="sunmenu__link-text">
                                         <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                                        <span>Virtuelle Callcenter Lösung für Sales und Service<br /><br /></span>
                                     </div>
                                 </a>
-                                <a href="#" class="submenu__link">
+                                <a href="/voip-telefonanlage" class="submenu__link">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+                                        <img src="/assets/images/icons_svg/menu-voip.svg" alt="" />
                                     </div>
                                     <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                            </div>
-                            <div class="submenu__column">
-                                <a href="#" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                                        <strong>VoIP-Telefonanlage</strong>
+                                        <span>Virtuelle Telefonanlage, intuitiv bedienbar<br /><br /></span>
                                     </div>
                                 </a>
                             </div>
                             <div class="submenu__column">
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
+                                <a href="/0800-lokal-nummern" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-numbers.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>Rufnummern</strong>
+                                        <span>Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit</span>
+                                    </div>
                                 </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
+                                <a href="/call-tracking" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-calltracking.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>Call-Tracking</strong>
+                                        <span>Eindeutiges verknüpfen Ihrer Bestellhotline mit einer laufenden Websession</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="submenu__column">
+                                <a href="/callcenter-bot" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-callcenter-bot.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>Callcenter-Bot</strong>
+                                        <span>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen</span>
+                                    </div>
+                                </a>
+                                <a href="/softphone" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-softphone.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>CallOne VoIP Softphone</strong>
+                                        <span>Softphone integriert in Ihren Lieblingsbrowser<br /><br /></span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -138,37 +144,36 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 
                         <div class="submenu__grid">
                             <div class="submenu__column">
-                                <a href="#" class="submenu__link">
+                                <a href="/callcenter-software-integrationen" class="submenu__link">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+                                        <img src="/assets/images/icons_svg/menu-overview.svg" alt="" />
                                     </div>
                                     <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                                        <strong>Überblick</strong>
+                                        <span>Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden</span>
                                     </div>
                                 </a>
                             </div>
                             <div class="submenu__column">
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
+                                <a href="/callcenter-software-apps" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-applications.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>Applikationen</strong>
+                                        <span>Ein System, alle Business-Lösungen<br /><br /></span>
+                                    </div>
                                 </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
+                            </div>
+                            <div class="submenu__column">
+                                <a href="/voip-api" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-apis.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>Schnittstellen</strong>
+                                        <span>Volle Flexibilität bei Telefon-Schnittstellen<br /><br /></span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -194,35 +199,46 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                         </a>
                     </div>
                     <div class="submenu__right">
-                        <div class="submenu__headline">Integrationen</div>
+                        <div class="submenu__headline">Auswahl unserer Kunden</div>
 
                         <div class="submenu__grid">
                             <div class="submenu__column">
-                                <a href="#" class="submenu__link">
+                                <a href="/case-study-check24" class="submenu__link">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+                                        <img src="/assets/images/icons_svg/menu-check24.svg" alt="" />
                                     </div>
                                     <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                                        <strong>Check24</strong>
+                                        <span>Umfangreiche Integration über APIs & Webhooks<br /><br /></span>
                                     </div>
                                 </a>
-                                <a href="#" class="submenu__link">
+                                <a href="/case-study-flaconi" class="submenu__link">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+                                        <img src="/assets/images/icons_svg/menu-flaconi.svg" alt="" />
                                     </div>
                                     <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                                        <strong>Flaconi</strong>
+                                        <span>Zusammenspiel von Telefonanlage & ACD Lösung<br /><br /></span>
                                     </div>
                                 </a>
-                                <a href="#" class="submenu__link">
+                            </div>
+                            <div class="submenu__column">
+                                <a href="/case-study-niceshops" class="submenu__link">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+                                        <img src="/assets/images/icons_svg/menu-niceshops.svg" alt="" />
                                     </div>
                                     <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                                        <strong>niceshops</strong>
+                                        <span>Callcenter-Software, VoIP mit Freshdesk-Anbindung</span>
+                                    </div>
+                                </a>
+                                <a href="/case-study-apodiscounter" class="submenu__link">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/icons_svg/menu-apodiscounter.svg" alt="" />
+                                    </div>
+                                    <div class="sunmenu__link-text">
+                                        <strong>Apodiscounter</strong>
+                                        <span>Intelligente Anrufsteuerung mit KI<br /><br /></span>
                                     </div>
                                 </a>
                             </div>
@@ -230,12 +246,12 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                     </div>
                 </div>
             </li>
-            <li class="navigation__item">
+            <li class="navigation__item navigation__item--divider">
                 <?php
                 $jobs = jobs_load();
                 ?>
 
-                <div class="navigation__link navigation__link--arrow">
+                <div class="navigation__link navigation__link--arrow navigation__link--faded">
                     <a href="/karriere-bei-callone">Karriere<?php if (!empty($jobs)) { ?> <span class="navigation__notification"><?= count($jobs->jobs_get()); ?></span><?php } ?></a>
                 </div>
 
@@ -256,89 +272,64 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                     <div class="submenu__right">
                         <div class="submenu__headline">Aktuelle Jobangebote</div>
 
-                        <div class="submenu__grid">
-                            <div class="submenu__column">
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
+                        <div class="submenu__list">
+                            <?php
+                            foreach ($jobs->jobs_get() as $job)
+                            {
+                                if (empty ($job->url_get()))
+                                    continue;
+                                ?>
+                                <a href="<?= $job->url_get(); ?>" class="submenu__link submenu__link--small">
+                                    <strong><?= $job->title_get(); ?></strong>
+                                    <span><?= $job->quickinfo_get(); ?></span>
                                 </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                            </div>
-                            <div class="submenu__column">
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                            </div>
-                            <div class="submenu__column">
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                                <a href="#" class="submenu__link submenu__link--small">
-                                    <strong>Callcenter-Software</strong>
-                                    <span>Lorem ipsum dolor</span>
-                                </a>
-                            </div>
+                                <?php
+                            }
+                            ?>
                         </div>
                     </div>
                 </div>
             </li>
-            <li class="navigation__item navigation__item--divider navigation__item--small-submenu">
+            <li class="navigation__item navigation__item--small-submenu">
                 <div class="navigation__link navigation__link--arrow navigation__link--faded">
-                    <a href="#">Unternehmen</a>
+                    <a href="/ueber-uns">Unternehmen</a>
                 </div>
 
                 <div class="navigation__submenu submenu">
-                    <a href="#" class="submenu__link submenu__link--small">
+                    <a href="/faq" class="submenu__link submenu__link--small">
                         <strong>Häufige Fragen</strong>
                         <span>Auf jede Frage eine Antwort</span>
                     </a>
-                    <a href="#" class="submenu__link submenu__link--small">
+                    <a href="/preise" class="submenu__link submenu__link--small">
                         <strong>Preise</strong>
                         <span>Alle Preise im Überblick</span>
                     </a>
-                    <a href="#" class="submenu__link submenu__link--small">
-                        <strong>Das Team</strong>
+                    <a href="/ueber-uns" class="submenu__link submenu__link--small">
+                        <strong>Über uns</strong>
                         <span>Die Menschen hinter CallOne</span>
                     </a>
-                    <a href="#" class="submenu__link submenu__link--small">
+                    <a href="/kontakt" class="submenu__link submenu__link--small">
                         <strong>Kontakt</strong>
                         <span>Wir helfen Ihnen gerne</span>
                     </a>
-                    <a href="#" class="submenu__link submenu__link--small">
+                    <a href="/blog" class="submenu__link submenu__link--small">
                         <strong>Blog</strong>
                         <span>Lesenswerte Artikel</span>
+                    </a>
+                    <a href="/Impressum" class="submenu__link submenu__link--small">
+                        <strong>Impressum</strong>
+                        <span>Rechtliches</span>
                     </a>
                 </div>
             </li>
 
             <?php
-            if ($faq) {
+            if ($isFaq) {
                 // Display FAQ Menu
                 ?>
                 <li class="navigation__item navigation__item--small-submenu">
-                    <div class="navigation__link">
-                        <a href="#">FAQ</a>
+                    <div class="navigation__link navigation__link--arrow navigation__link--faded">
+                        <a href="/faq">FAQ</a>
                     </div>
 
                     <div class="navigation__submenu submenu">
@@ -353,12 +344,12 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                     </div>
                 </li>
                 <?php
-            } elseif ($blog) {
+            } elseif ($isBlog) {
                 // Display Blog Menu
                 ?>
                 <li class="navigation__item navigation__item--small-submenu">
-                    <div class="navigation__link">
-                        <a href="#">Blog</a>
+                    <div class="navigation__link navigation__link--arrow navigation__link--faded">
+                        <a href="/blog">Blog</a>
                     </div>
 
                     <div class="navigation__submenu submenu">
@@ -398,6 +389,10 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
             }
             ?>
         </ul>
+
+        <div class="navigation__mobile-button">
+            <div></div>
+        </div>
     </div>
 </nav>
 
