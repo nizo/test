@@ -87,12 +87,12 @@ $faqs->faq_add (
         <div class="co-grid centered">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
-                <h2>Wir alle wissen es: Kundenhotlines sind die Hölle</h2>
+                <h2>Wir alle wissen es: <br />Kundenhotlines sind die Hölle</h2>
                 <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser &ndash; mit Software von CallOne.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="" />
-                <h2>Kundenservice mit WOW-Effekt</h2>
+                <h2>Kundenservice <br />mit WOW-Effekt</h2>
                 <p class="mobile-hidden">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
             </div>
         </div>
