@@ -11,13 +11,18 @@ class Carddeck {
         this.cards = this.initCards();
         this.indicators = this.initIndicators();
 
-        this.deckInterval = setInterval(this.switch.bind(this), this.speed);
-
+        // this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+        
         // Adjust certain things if a carddeck becomes visible for the first time
         respondToVisibility(this.deck, visible => {
-            this.resizeDeck();
+            if (visible) {
+                this.resizeDeck();
+                this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+            } else {
+                clearInterval(this.deckInterval);
+            }
         });
-
+        
         window.addEventListener('resize', (e => {
             this.resizeDeck();
         }).bind(this));
@@ -68,7 +73,8 @@ class Carddeck {
     duplicateCards() {
         if (this.allCards.length < 4) {
             this.allCards.forEach(card => {
-                this.allCards.push(card.cloneNode(true));
+                let cardClone = card.cloneNode(true);
+                this.allCards.push(cardClone);
             });
             if (this.allCards.length < 4) {
                 this.duplicateCards();

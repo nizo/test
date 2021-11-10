@@ -11,7 +11,25 @@ class Fader {
         this.indicatorsBox = this.initIndicators();
         this.header = this.initHeader();
 
-        this.faderInterval = setInterval(this.fade.bind(this), this.speed);
+        // this.faderInterval = setInterval(this.fade.bind(this), this.speed);
+        
+        respondToVisibility(this.fader, visible => {
+            if (visible) {
+                this.resizeFader();
+                this.faderInterval = setInterval(this.fade.bind(this), this.speed);
+            } else {
+                clearInterval(this.faderInterval);
+            }
+        });
+
+        window.addEventListener('resize', (e => {
+            this.resizeFader();
+        }).bind(this));
+    }
+
+    resizeFader() {
+        this.itemSize = this.getItemSize();
+        this.itemsBox.style.height = this.itemSize + 'px';
     }
 
     fade() {
@@ -69,6 +87,7 @@ class Fader {
             item.classList.remove('fader__item--active');
             item.classList.add('fader__item--messured');
         });
+        this.items[this.currentItem].classList.add('fader__item--active');
         return tallest;
     }
 
