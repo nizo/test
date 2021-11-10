@@ -287,7 +287,11 @@
         background-color: #333635;
         color: #eee;
         width: 25%;
-        padding: var(--gutter-xs);
+        padding: var(--gutter-s) var(--gutter-xs);
+
+        >*:not(.submenu__headline) + * {
+            margin-top: var(--gutter-m);
+        }
     }
     
     &__right {
@@ -295,7 +299,7 @@
         --c-link-hover: #{$color-primary};
         --c-link-border: 0, 0, 0; 
         width: 75%;
-        padding: var(--gutter-xs);
+        padding: var(--gutter-s) var(--gutter-xs);
     }
 
     &__grid {
