@@ -104,7 +104,7 @@
     </div>
 </div>
 
-<div class="section section--light-green section--no-padding-bottom">
+<div class="section section--light-green section--no-padding-bottom" id="umwelt">
     <div class="section__content section__content--wide" style="background-image:url(/assets/images/backgrounds_svg/plant-planet-illustration.svg);background-position:center bottom;background-repeat:no-repeat;padding-bottom:260px;">
         <h1 class="centered">Grün ist unsere Natur!</h1>
         <p class="bigtext centered">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque enim praesent libero neque sit sit. Amet posuere leo, lectus cras libero ut rhoncus adipiscing. Tortor euismod pharetra blandit aliquet mi, non maecenas. Tellus morbi convallis dolor.</p>
@@ -129,7 +129,7 @@
     </div>
 </div>
 
-<div class="section section--black">
+<div class="section section--black" id="kunden">
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
@@ -240,7 +240,7 @@
 $jobs = jobs_load();
 $jobsCount = count($jobs->jobs_get());
 ?>
-<div class="section section--no-padding-bottom" style="background-image:url(/assets/images/backgrounds_svg/work-background.svg);background-repeat:no-repeat;background-position:calc(50% +  333px) calc(100% + 30px);">
+<div class="section section--no-padding-bottom" id="karriere" style="background-image:url(/assets/images/backgrounds_svg/work-background.svg);background-repeat:no-repeat;background-position:calc(50% +  333px) calc(100% + 30px);">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--6-xs">
