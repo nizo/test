@@ -194,7 +194,7 @@
       			<strong class="h3">Applikationen</strong>
       			<p>Kombinieren Sie Ihre Business-Lösungen</p>
       			<ul class="list approved-list">
-          			<li>CRM: Salesforce, Pipedrive, ZOHO</li>
+          			<li>CRM: Salesforce, Pipedrive, Freshdesk</li>
           			<li>Ticketing: Zendesk</li>
           			<li>Browser: Chrome, Firefox, EDGE</li>
       			</ul>
