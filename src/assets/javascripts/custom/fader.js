@@ -30,6 +30,7 @@ class Fader {
     resizeFader() {
         this.itemSize = this.getItemSize();
         this.itemsBox.style.height = this.itemSize + 'px';
+        this.items.forEach(item => item.style.height = this.itemSize + 'px');
     }
 
     fade() {
@@ -81,6 +82,7 @@ class Fader {
     getItemSize() {
         let tallest = 0;
         this.items.forEach(item => {
+            item.style.height = '';
             item.classList.add('fader__item--active');
             if (item.offsetHeight > tallest)
             tallest = item.offsetHeight;
@@ -97,6 +99,7 @@ class Fader {
         itemsBox.style.height = this.itemSize + 'px';
 
         this.items.forEach(item => {
+            item.style.height = this.itemSize + 'px';
             itemsBox.appendChild(item);
         });
 

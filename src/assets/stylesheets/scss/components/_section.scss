@@ -8,10 +8,10 @@
         padding: 60px 25px;
     }
     &--no-padding-top {
-        padding-top: 0;
+        padding-top: 0 !important;
     }
     &--no-padding-bottom {
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
     }
     &--overflow-protection {
         overflow-y: visible;
