@@ -220,6 +220,32 @@
         }
     }
 
+    // Work Section (/ueber-uns)
+    &--work-bg {
+        position: relative;
+        overflow: hidden;
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            bottom: -40px;
+            left: 47.5%;
+            width: 100%;
+            height: 588px;
+            max-width: 754px;
+            background-image: url(/assets/images/backgrounds_svg/work-background.svg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        @media screen and (max-width: 1220px) {
+            // padding-bottom: 294px !important;
+            &:after {
+                left: 50%;
+                transform: translate3d(-50%, 200px, 0);
+            }
+        }
+    }
+
     &__content {
         margin-left: auto;
         margin-right: auto;

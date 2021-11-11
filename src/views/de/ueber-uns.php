@@ -302,7 +302,7 @@
 $jobs = jobs_load();
 $jobsCount = count($jobs->jobs_get());
 ?>
-<div class="section section--no-padding-bottom" id="karriere" style="background-image:url(/assets/images/backgrounds_svg/work-background.svg);background-repeat:no-repeat;background-position:calc(50% +  333px) calc(100% + 30px);">
+<div class="section section--no-padding-bottom section--work-bg" id="karriere">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
