@@ -200,49 +200,19 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-31" checked>
-							<label for="faq-31">Intelligente Routingfunktionen</label>
-							<div class="toggle-box__content">
-								<p>Lassen Sie Ihre Anrufer nicht warten und nutzen Sie die von uns errechnete voraussichtliche Wartezeit, um Rückruffunktionen anzubieten.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-32">
-							<label for="faq-32">Virtuelle Warteschleife & Co.</label>
-							<div class="toggle-box__content">
-								<p>Rückrufen, dann wenn es für Sie passt. Zum fixen Termin oder dann wenn der Anrufer an der Reihe ist.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-33">
-							<label for="faq-33">Wahlwiederholer&shy;priorisierung</label>
-							<div class="toggle-box__content">
-								<p>Wartedauer wird bei erfolglosen Folgeanrufen hinzugerechnet. Damit steigt die Kundenzufriedenheit und die Abbruchquote sinkt.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-34">
-							<label for="faq-34">Rückrufe für optimale Auslastung</label>
-							<div class="toggle-box__content">
-								<p>Anrufpeaks aus dem Vormittag in den Nachmittag verschieben. Wir liefern hier unzählige Optionen, passgenau für Ihren Anwendungsfall.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Intelligente Routingfunktionen</li>
+							<li>Virtuelle Warteschleife & Co.</li>
+							<li>Wahlwiederholer&shy;priorisierung</li>
+							<li>Rückrufe für optimale Auslastung</li>
+						</ul>
+						<p style="visibility:hidden">
+							<br />
+							<a href="#todo" class="btn btn--secondary">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
-				<?php /* <p class="centered" style="margin-top: 150px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Kundenzufriedenheit:</strong><br />
-						<br />
-					</span>
-					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p> */ ?>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
@@ -274,49 +244,19 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-21" checked>
-							<label for="faq-21">Sprachdialoge ohne Agenten</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere VTT und TTS-Funktionen in Kombination mit unseren Schnittstellen für automatisierte Dialoge mit ihren Anrufern und das 24/7 mit 99,999% Verfügbarkeit.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-22">
-							<label for="faq-22">Intelligentes Sprachrouting</label>
-							<div class="toggle-box__content">
-								<p>Statt endlosem Auswahltasten drücken, bieten wir Echtzeit- Spracherkennung für bessere Kundenerlebnisse.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-23">
-							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
-							<div class="toggle-box__content">
-								<p>Wir übergeben Ihnen Anrufernummer oder Kundennummer und Sie antworten mit allen relevanten Kundendaten, wahlweise implementiert in der CallOne Agentenmaske.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-23">
-							<label for="faq-24">Bring your own Bot</label>
-							<div class="toggle-box__content">
-								<p>Sie haben bereits eine KI im Einsatz? Prima, dann bringen Sie sie doch einfach mit. Mit unseren Schnittstellen bieten wir ausreichend Anbindungsmöglichkeiten.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Sprachdialoge ohne Agenten</li>
+							<li>Intelligentes Sprachrouting</li>
+							<li>Schnittstellen für schnelle Fallbearbeitung</li>
+							<li>Bring your own Bot</li>
+						</ul>
+						<p>
+							<br />
+							<a href="/callcenter-bot" class="btn btn--secondary">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 100px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Effizienz:</strong><br />
-						<br />
-					</span>
-					<a href="/callcenter-bot" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer" data-tab="3">
@@ -354,49 +294,19 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-11" checked>
-							<label for="faq-11">Anrufsteuerung mittels Voice-API</label>
-							<div class="toggle-box__content">
-								<p>Binden Sie Ihre bestehenden CRM-, ERP- oder Ticketingsysteme an und steuern sie damit gezielt eingehende Anrufe.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-12">
-							<label for="faq-12">Alle Anruferinfos bei Gesprächsannahme</label>
-							<div class="toggle-box__content">
-								<p>Sparen Sie wertvolle Gesprächszeit und reichern Sie die Anruferinformationen mit Kundenname, Kundennummer oder einem Link in Ihr CRM-System an.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-13">
-							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere vielzähligen Möglichkeiten zur Anrufervorqaulifizierung: Eingabe und Übermittlung von Kunden- oder Bestellnummern, Echtzeit-Spracherkennung oder Text-to-Speech.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-14">
-							<label for="faq-14">Wählen ohne Tippen</label>
-							<div class="toggle-box__content">
-								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- und Outboundtelefonie.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Anrufsteuerung mittels Voice-API</li>
+							<li>Alle Anruferinfos bei Gesprächsannahme</li>
+							<li>Wissen ohne Fragen zu müssen</li>
+							<li>Wählen ohne Tippen</li>
+						</ul>
+						<p>
+							<br />
+							<a href="/voip-api" class="btn btn--secondary">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 100px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Konnektivität:</strong><br />
-						<br />
-					</span>
-					<a href="/voip-api" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
@@ -434,49 +344,19 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-41" checked>
-							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-42">
-							<label for="faq-42">Sofortige Benachrichtigung</label>
-							<div class="toggle-box__content">
-								<p>Sie erhalten von CallOne Echtzeiteinblicke und können umgehend reagieren, um Ihre KPI hochzuhalten.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-43">
-							<label for="faq-43">Sparen Sie kostbare Zeit</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere Rohdatenschnittstellen und fertigen Konnektoren zu Tableau für Auswertungen auf Profiniveau.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-44">
-							<label for="faq-44">Zielerreichung mittels wichtiger Kennzahlen</label>
-							<div class="toggle-box__content">
-								<p>Umfangreiche Agentenstatistiken ermöglichen individuelle oder allgemeine Zielplanung zur Erreichung Ihrer Ziele.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Arbeitszeiterfassung & Forecasting</li>
+							<li>Sofortige Benachrichtigung</li>
+							<li>Sparen Sie kostbare Zeit</li>
+							<li>Zielerreichung mittels wichtiger Kennzahlen</li>
+						</ul>
+						<p>
+							<br />
+							<a href="/statistiken" class="btn btn--secondary">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 50px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Datenauswertung:</strong><br />
-						<br />
-					</span>
-					<a href="/statistiken" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
 			</div>
 		</div>
 	</div>
