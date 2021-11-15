@@ -3,7 +3,7 @@
     background-color: rgba(#000, 0.05);
     font-family: $font-copy;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.2;
     text-align: center;
     border-radius: 10px;
 
@@ -13,10 +13,9 @@
 
     &__number {
         --color: #FF002E;
-        font-size: 54px;
+        font-size: 48px;
         line-height: 1;
         color: var(--color);
-        margin-bottom: 10px;
     }
 }
 
