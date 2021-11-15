@@ -209,7 +209,8 @@ $faqs->faq_add (
 						</ul>
 						<p style="visibility:hidden">
 							<br />
-							<a href="#todo" class="btn btn--secondary">Mehr erfahren</a>
+							<a href="#todo" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="#todo" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
 						</p>
 					</div>
 				</div>
@@ -253,7 +254,8 @@ $faqs->faq_add (
 						</ul>
 						<p>
 							<br />
-							<a href="/callcenter-bot" class="btn btn--secondary">Mehr erfahren</a>
+							<a href="/callcenter-bot" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/callcenter-bot" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
 						</p>
 					</div>
 				</div>
@@ -303,7 +305,8 @@ $faqs->faq_add (
 						</ul>
 						<p>
 							<br />
-							<a href="/voip-api" class="btn btn--secondary">Mehr erfahren</a>
+							<a href="/voip-api" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/voip-api" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
 						</p>
 					</div>
 				</div>
@@ -353,7 +356,8 @@ $faqs->faq_add (
 						</ul>
 						<p>
 							<br />
-							<a href="/statistiken" class="btn btn--secondary">Mehr erfahren</a>
+							<a href="/statistiken" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/statistiken" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
 						</p>
 					</div>
 				</div>
