@@ -145,27 +145,23 @@ $faqs->faq_add (
 <div class="section section--grey-white" id="features">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
-		<p class="centered mobile-left">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
+		<p class="centered mobile-left">Das Rundum-Paket angepasst auf Ihre individuellen Bedürfnisse</p>
 	</div>
 
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
-					<strong>Glücklichere Kunden</strong><br>
-					Sie wollen Ihre<br />Warteminuten reduzieren?
+					<strong>Beste Erreichbarkeit</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="2">
-					<strong>Mehr Effizienz</strong><br>
-					Sie wollen richtig sparen und<br />Ihr Personal effizienter einsetzen?
+					<strong>Mehr Effizienz</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="3">
-					<strong>Smarte Automatisierung</strong><br>
-					Erfahren Sie wie Automatisierung<br />Ihren Geldbeutel schont.
+					<strong>Schnellere Bearbeitung</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="4">
-					<strong>Bessere Daten</strong><br>
-					Sie haben Lust Ihre Prozesse<br />datenbasiert zu optimieren?
+					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
 
@@ -206,7 +202,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-31">
+							<input type="checkbox" id="faq-31" checked>
 							<label for="faq-31">Intelligente Routingfunktionen</label>
 							<div class="toggle-box__content">
 								<p>Lassen Sie Ihre Anrufer nicht warten und nutzen Sie die von uns errechnete voraussichtliche Wartezeit, um Rückruffunktionen anzubieten.</p>
@@ -280,7 +276,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-21">
+							<input type="checkbox" id="faq-21" checked>
 							<label for="faq-21">Sprachdialoge ohne Agenten</label>
 							<div class="toggle-box__content">
 								<p>Nutzen Sie unsere VTT und TTS-Funktionen in Kombination mit unseren Schnittstellen für automatisierte Dialoge mit ihren Anrufern und das 24/7 mit 99,999% Verfügbarkeit.</p>
@@ -360,7 +356,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-11">
+							<input type="checkbox" id="faq-11" checked>
 							<label for="faq-11">Anrufsteuerung mittels Voice-API</label>
 							<div class="toggle-box__content">
 								<p>Binden Sie Ihre bestehenden CRM-, ERP- oder Ticketingsysteme an und steuern sie damit gezielt eingehende Anrufe.</p>
@@ -440,7 +436,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
 						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-41">
+							<input type="checkbox" id="faq-41" checked>
 							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
 								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
