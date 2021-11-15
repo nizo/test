@@ -219,7 +219,7 @@
             <div class="tablist__content" data-tab="1">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                        <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" style="aspect-ratio:74/43;">
+                        <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
                                 <img src="/assets/images/client-logos/helios-black.svg" alt="" />
                             </div>
@@ -245,7 +245,7 @@
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                        <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" style="aspect-ratio:74/43;">
+                        <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
                                 <img src="/assets/images/client-logos/helios-black.svg" alt="" />
                             </div>
@@ -271,7 +271,7 @@
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                        <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" style="aspect-ratio:74/43;">
+                        <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
                                 <img src="/assets/images/client-logos/helios-black.svg" alt="" />
                             </div>
