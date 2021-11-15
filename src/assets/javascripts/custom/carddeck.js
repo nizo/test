@@ -100,13 +100,24 @@ class Carddeck {
         return indicators;
     }
 
+    getElementHeight(el) {
+        let elClone = el.cloneNode(true);
+        elClone.style.height = '';
+        elClone.style.width = el.offsetWidth + 'px';
+        document.body.appendChild(elClone);
+        let elHeight = elClone.offsetHeight;
+        // elClone.remove();
+        return elHeight;
+    }
+
     getCardSize() {
         let tallest = 0;
         this.allCards.forEach(card => {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
-            if (card.offsetHeight > tallest)
-                tallest = card.offsetHeight;
+            let cardHeight = this.getElementHeight(card);
+            if (cardHeight > tallest)
+                tallest = cardHeight;
             card.classList.add('carddeck__card--messured');
         });
 
