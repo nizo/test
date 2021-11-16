@@ -56,7 +56,10 @@ class Tablist {
     switchTab(e) {
         let btn = e.currentTarget;
         let tabId = btn.dataset.tab;
-        let currentHeight = this.tabContents[this.activeIndex].offsetHeight;
+        this.tablist.style.minHeight = '';
+        let currentContentHeight = this.tabContents[this.activeIndex].offsetHeight;
+        let currentTablistHeight = this.tablist.offsetHeight;
+        this.tablist.style.minHeight = currentTablistHeight + 'px';
 
         this.tabLinks.forEach((link, i) => {
             if (link.dataset.tab === tabId) {
@@ -67,9 +70,9 @@ class Tablist {
             }
         });
         this.tabContents.forEach(content => {
+            content.style.minHeight = '';
             if (content.dataset.tab === tabId) {
-                if (content.style.height == "")
-                    content.style.minHeight = currentHeight + 'px';
+                content.style.minHeight = currentContentHeight + 'px';
                 content.classList.add('tablist__content--active');
             } else {
                 content.classList.remove('tablist__content--active');

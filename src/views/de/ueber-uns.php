@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<div class="section section--white-grey">
+<div class="section section--no-padding-top section--white-grey">
     <div class="section__content section__content--wide" id="geschichte">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -312,8 +312,10 @@ $jobsCount = count($jobs->jobs_get());
                     <a href="/karriere-bei-callone" class="btn btn--primary btn--notification btn--nowrap mobile-hidden" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Karriere bei CallOne</a>
                     <a href="/karriere-bei-callone" class="btn btn--primary btn--notification btn--nowrap btn--full-width centered desktop-hidden" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Karriere bei CallOne</a>
                 </p>
+                <br />
+                <br />
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vend">
                 <img src="/assets/images/photos/work-foreground.png" alt="" />
             </div>
         </div>

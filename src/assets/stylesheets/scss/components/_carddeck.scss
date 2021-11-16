@@ -29,6 +29,7 @@
 
     &__cards {
         position: relative;
+        display: flex;
         width: calc(100% - 18px);
         margin-left: 18px;
         // width: calc(100% - 23px);

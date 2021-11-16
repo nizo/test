@@ -79,13 +79,23 @@ class Fader {
         return header;
     }
 
+    getElementHeight(el) {
+        let clone = el.cloneNode(true);
+        clone.style.position = 'absolute';
+        document.body.appendChild(clone);
+        let cloneHeight = clone.offsetHeight;
+        clone.remove();
+        return cloneHeight;
+    }
+
     getItemSize() {
         let tallest = 0;
         this.items.forEach(item => {
             item.style.height = '';
             item.classList.add('fader__item--active');
-            if (item.offsetHeight > tallest)
-            tallest = item.offsetHeight;
+            let itemHeight = this.getElementHeight(item);
+            if (itemHeight > tallest)
+                tallest = itemHeight;
             item.classList.remove('fader__item--active');
             item.classList.add('fader__item--messured');
         });

@@ -33,7 +33,7 @@
         border-left: 2px solid $color-primary;
         padding-left: var(--gutter-xs);
         margin-top: var(--gutter-m);
-        margin-left: calc(20% + (10px + var(--gutter-m)));
+        margin-left: calc(20% + (20px + var(--gutter-m)));
 
         strong {
             font-family: $font-headline;

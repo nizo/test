@@ -238,7 +238,7 @@
             background-position: center bottom;
         }
         @media screen and (max-width: 1220px) {
-            // padding-bottom: 294px !important;
+            // padding-bottom: var(--gutter-l) !important;
             &:after {
                 left: 50%;
                 transform: translate3d(-50%, 200px, 0);
