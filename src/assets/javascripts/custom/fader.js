@@ -80,12 +80,14 @@ class Fader {
     }
 
     getElementHeight(el) {
-        let clone = el.cloneNode(true);
-        clone.style.position = 'absolute';
-        document.body.appendChild(clone);
-        let cloneHeight = clone.offsetHeight;
-        clone.remove();
-        return cloneHeight;
+        // let clone = el.cloneNode(true);
+        // clone.style.position = 'absolute';
+        // clone.style.width = 'auto';
+        // document.body.appendChild(clone);
+        // let cloneHeight = clone.offsetHeight;
+        // clone.remove();
+        // return cloneHeight;
+        return el.offsetHeight;
     }
 
     getItemSize() {

@@ -100,14 +100,14 @@ class Carddeck {
         return indicators;
     }
 
-    getElementHeight(el) {
-        let clone = el.cloneNode(true);
-        clone.style.position = 'absolute';
-        document.body.appendChild(clone);
-        let cloneHeight = clone.offsetHeight;
-        clone.remove();
-        return cloneHeight;
-    }
+    // getElementHeight(el) {
+    //     let clone = el.cloneNode(true);
+    //     clone.style.position = 'absolute';
+    //     document.body.appendChild(clone);
+    //     let cloneHeight = clone.offsetHeight;
+    //     clone.remove();
+    //     return cloneHeight;
+    // }
 
     getCardSize() {
         if (this.deck.getAttribute('data-height')) {
@@ -118,8 +118,7 @@ class Carddeck {
         this.allCards.forEach(card => {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
-            // let cardHeight = card.offsetHeight;
-            let cardHeight = this.getElementHeight(card);
+            let cardHeight = card.offsetHeight;
             if (cardHeight > tallest)
                 tallest = cardHeight;
             card.classList.add('carddeck__card--messured');
