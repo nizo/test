@@ -235,11 +235,17 @@ $faqs->faq_add (
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="94">94%</span>
 								</div>
 								Kundenzufriedenheit dank schnellerer Fallbearbeitung*
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+								<div class="number-card__number" style="--color: #FF7B1B;">
+									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+								</div>
+								Weniger Standardaufgaben für Agent*innen*
 							</div>
 						</div>
 
@@ -272,25 +278,25 @@ $faqs->faq_add (
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
-								weniger Kosten <br />pro Kontakt <br />durch gesteigerte FCR*
+								weniger Kosten pro Kontakt durch gesteigerte FCR*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
 								</div>
-								kürzere Gesprächsdauern (AHT) durch intelligente Vorqualifizierung*
+								kürzere Gespräche (AHT) durch Vorqualifizierung*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
 								</div>
-								Erkennung des Anruferanliegens bei Anrufannahme*
+								Erkennung des Anruferanliegens*
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 								</div>
-								schnellerer Anrufaufbau durch Click-to-Dial im eigenen CRM*
+								schnellerer Anrufaufbau durch Click-to-Dial*
 							</div>
 						</div>
 
