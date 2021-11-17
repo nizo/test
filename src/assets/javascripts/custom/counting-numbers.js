@@ -10,8 +10,11 @@ class CountingNumbers {
         this.running = false;
 
         respondToVisibility(this.element, visible => {
-            this.reset();
-            this.isInView();
+            console.log(visible, this.element, 'Counting Number visible');
+            if (visible) {
+                this.reset();
+                this.isInView();
+            }
         });
 
         window.addEventListener('scroll', this.isInView.bind(this));

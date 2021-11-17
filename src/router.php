@@ -304,6 +304,17 @@ $r->addRoute('GET', '/preise', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/warteschleifen-management', function() {
+  $title = '';
+  $description = '';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/warteschleifen-management';
+  require_once('./layouts/header.php');
+  require_once('./views/de/warteschleifen-management.php');
+  require_once('./layouts/footer.php');
+});
+
 /* Product sites */
 $r->addRoute('GET', '/callcenter-loesung', function() {
   $title = 'Callcenter Software, Kundenservice, Sales, WebRTC, CTI, VoIP, Cloud';

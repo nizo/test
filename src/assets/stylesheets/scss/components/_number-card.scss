@@ -11,6 +11,18 @@
         background-color: rgba(#fff, .2);
     }
 
+    &--no-bg {
+        background: none;
+    }
+
+    &--no-padding {
+        padding: 0;
+    }
+
+    &--align-left {
+        text-align: left;
+    }
+
     &__number {
         --color: #FF002E;
         font-size: 48px;
