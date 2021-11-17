@@ -116,29 +116,28 @@
     }
 
     &__content--red-footer {
-        background-image: url(../images/illus/connection-illustration.svg),
+        background-image: url(../images/illus/connection-illustration--dimmed.svg),
             url(../images/backgrounds_svg/red-circle.svg);
-        background-position: 30px bottom, center bottom;
+        background-position: calc(100% - 30px) bottom, center bottom;
         background-repeat: no-repeat;
         margin-bottom: 50px;
     }
     &__content--yellow-footer {
-        background-image: url(../images/illus/automation-illustration.svg),
+        background-image: url(../images/illus/automation-illustration--dimmed.svg),
             url(../images/backgrounds_svg/yellow-circle.svg);
-        background-position: 30px bottom, center bottom;
+        background-position: calc(100% - 30px) bottom, center bottom;
         background-repeat: no-repeat;
         margin-bottom: 50px;
     }
     &__content--purple-footer {
-        background-image: url(../images/illus/queue-illustration-left.svg),
-            url(../images/illus/queue-illustration-right.svg),
+        background-image: url(../images/illus/queue-illustration--dimmed.svg),
             url(../images/backgrounds_svg/purple-circle.svg);
-        background-position: 30px bottom, calc(100% - 30px) bottom, center bottom;
+        background-position: calc(100% - 30px) bottom, center bottom;
         background-repeat: no-repeat;
         margin-bottom: 50px;
     }
     &__content--blue-footer {
-        background-image: url(../images/illus/statistics-illustration.svg),
+        background-image: url(../images/illus/statistics-illustration--dimmed.svg),
             url(../images/backgrounds_svg/blue-circle.svg);
         background-position: calc(100% - 30px) bottom, center bottom;
         background-repeat: no-repeat;

@@ -47,6 +47,12 @@ class Tablist {
         }
     }
 
+    scrollToTabs() {
+        $('html,body').animate({
+            scrollTop: $(this.tablist).offset().top - 100 + 'px'
+        }, 300);
+    }
+
     switchTab(e) {
         let btn = e.currentTarget;
         let tabId = btn.dataset.tab;
@@ -66,6 +72,8 @@ class Tablist {
                 content.classList.remove('tablist__content--active');
             }
         });
+
+        this.scrollToTabs();
     }
 
     prevTab() {

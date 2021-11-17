@@ -46,7 +46,7 @@
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
             					<h3 class="h5 centered">Schnittstellen &amp; fertige Apps</h3>
-                    			<p class="text-small">Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, ZOHO und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="/callcenter-software-apps" title="Unsere API / Schnittstellen">APIs und Apps</a> zu gängigen Businesslösungen</p>
+                    			<p class="text-small">Unser Spezialgebiet:  Effizienz durch Datenaustausch und offene APIs: Salesforce, Zendesk, Freshdesk und mehr. Unsere Callcenter-Software bietet Ihnen für nahezu alle Bereiche fertige <a href="/callcenter-software-apps" title="Unsere API / Schnittstellen">APIs und Apps</a> zu gängigen Businesslösungen</p>
                     			<div class="button-bottom">
                     				<button data-add="Zur Liste hinzugefügt" data-base="Hinzufügen" data-info="Schnittstellen & fertige Apps">
                     					<span class="sl sl-before before sl-add-wish mobile text">Hinzufügen</span>
@@ -236,7 +236,7 @@
             			</div>
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-freshdesk.svg" data-srcset="/assets/images/logo/partnerlogos/logo-freshdesk.svg" alt="Freshdesk Integration" title="Zoho Integration" />
+            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-freshdesk.svg" data-srcset="/assets/images/logo/partnerlogos/logo-freshdesk.svg" alt="Freshdesk Integration" title="Freshdesk Integration" />
             					<h3 class="h5 centered no-margin-top">Freshdesk</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">

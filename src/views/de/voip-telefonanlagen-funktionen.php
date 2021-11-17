@@ -78,7 +78,7 @@
           <div class="col-3">
             <span class="sl sl-cut sl-size-xl"></span>
             <h3>Schnittstellen/APIs</h3>
-            <p>Mit unseren vielzähligen Konnektoren zu CRM- und Ticketinglösungen wie Zendesk, Salesforce und Zoho sowie weitreichende APIs können Sie Ihre Unternehmenstelefonie mit bereits bestehenden Businesslösungen vollumfänglich integrieren.</p>
+            <p>Mit unseren vielzähligen Konnektoren zu CRM- und Ticketinglösungen wie Zendesk, Salesforce und Freshdesk sowie weitreichende APIs können Sie Ihre Unternehmenstelefonie mit bereits bestehenden Businesslösungen vollumfänglich integrieren.</p>
           </div>
           <div class="col-3">
             <span class="sl sl-award sl-size-xl"></span>

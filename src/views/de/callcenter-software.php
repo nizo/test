@@ -20,7 +20,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
 	'Welche Schnittstellen und Anbindungsmöglichkeiten gibt es?',
-	'<p>Es besteht eine Vielzahl von Standard-Schnittstellen für die verschiedensten Anforderungen. Mehr Informationen finden Sie <a href="/cti-schnittstellen" title="Mehr Infos zu Schnittstellen">hier</a>. Sprechen Sie uns hierzu gerne mit Ihren konkreten Anforderungen an. Unsere Telefonanlage und Callcenter-Lösung verfügt über eine Vielzahl von Telefon-APIs zur optimalen Anbindung Ihrer eigenen Businesslösungen. Neben Echtzeit-APIs, die Ihnen alle Call-Events live pushen, stehen weitere APIs speziell für das Abrufen von anrufspezifischen Informationen bereit. Für eine Vielzahl von CRM- und Ticketing-Lösungen stehen Standard-Konnektoren zur Verfügung, die es Ihnen ermöglichen Ihre bestehenden Lösungen auf einfachste Weise zu koppeln. Aktuell bieten wir hier Konnektoren für die Anbindung von <a href="/zendesk-cti-ticketing" title="Zendesk Integration">Zendesk</a>, <a href="/cti-zoho" title="Zoho Integration">Zoho CRM</a>, <a href="/cti-salesforce" title="Salesforce Integration">Salesforce</a> und weiteren Businessanwendungen an. Sprechen Sie uns an, wenn Sie spezielle Anforderungen und Wünsche dazu haben Ihre Lösung anzubinden. Mehr Informationen über das Zusammenspiel der CallOne Cloud ACD und Zendesk finden Sie <a href="/blog/schnittstellen-fuer-guten-kundenservice-auf-allen-kanaelen/" title="Blogartikel - Multichannel mit CallOne und Zendesk">hier</a>.</p>'
+	'<p>Es besteht eine Vielzahl von Standard-Schnittstellen für die verschiedensten Anforderungen. Mehr Informationen finden Sie <a href="/cti-schnittstellen" title="Mehr Infos zu Schnittstellen">hier</a>. Sprechen Sie uns hierzu gerne mit Ihren konkreten Anforderungen an. Unsere Telefonanlage und Callcenter-Lösung verfügt über eine Vielzahl von Telefon-APIs zur optimalen Anbindung Ihrer eigenen Businesslösungen. Neben Echtzeit-APIs, die Ihnen alle Call-Events live pushen, stehen weitere APIs speziell für das Abrufen von anrufspezifischen Informationen bereit. Für eine Vielzahl von CRM- und Ticketing-Lösungen stehen Standard-Konnektoren zur Verfügung, die es Ihnen ermöglichen Ihre bestehenden Lösungen auf einfachste Weise zu koppeln. Aktuell bieten wir hier Konnektoren für die Anbindung von <a href="/zendesk-cti-ticketing" title="Zendesk Integration">Zendesk</a>, <a href="/freshdesk-callcenter-software" title="Freshdesk Integration">Freshdesk CRM</a>, <a href="/cti-salesforce" title="Salesforce Integration">Salesforce</a> und weiteren Businessanwendungen an. Sprechen Sie uns an, wenn Sie spezielle Anforderungen und Wünsche dazu haben Ihre Lösung anzubinden. Mehr Informationen über das Zusammenspiel der CallOne Cloud ACD und Zendesk finden Sie <a href="/blog/schnittstellen-fuer-guten-kundenservice-auf-allen-kanaelen/" title="Blogartikel - Multichannel mit CallOne und Zendesk">hier</a>.</p>'
 );
 $faqs->faq_add (
 	'Kann man durch die CallOne ACD Kosten sparen?',
@@ -145,27 +145,23 @@ $faqs->faq_add (
 <div class="section section--grey-white" id="features">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
-		<p class="centered mobile-left">Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Voller Leistungsumfang, ohne Einschränkungen.</p>
+		<p class="centered mobile-left">Das Rundum-Paket angepasst auf Ihre individuellen Bedürfnisse</p>
 	</div>
 
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
-					<strong>Glücklichere Kunden</strong><br>
-					Sie wollen Ihre<br />Warteminuten reduzieren?
+					<strong>Beste Erreichbarkeit</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="2">
-					<strong>Mehr Effizienz</strong><br>
-					Sie wollen richtig sparen und<br />Ihr Personal effizienter einsetzen?
+					<strong>Mehr Effizienz</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="3">
-					<strong>Smarte Automatisierung</strong><br>
-					Erfahren Sie wie Automatisierung<br />Ihren Geldbeutel schont.
+					<strong>Schnellere Bearbeitung</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="4">
-					<strong>Bessere Daten</strong><br>
-					Sie haben Lust Ihre Prozesse<br />datenbasiert zu optimieren?
+					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
 
@@ -204,49 +200,20 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-31">
-							<label for="faq-31">Intelligente Routingfunktionen</label>
-							<div class="toggle-box__content">
-								<p>Lassen Sie Ihre Anrufer nicht warten und nutzen Sie die von uns errechnete voraussichtliche Wartezeit, um Rückruffunktionen anzubieten.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-32">
-							<label for="faq-32">Virtuelle Warteschleife & Co.</label>
-							<div class="toggle-box__content">
-								<p>Rückrufen, dann wenn es für Sie passt. Zum fixen Termin oder dann wenn der Anrufer an der Reihe ist.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-33">
-							<label for="faq-33">Wahlwiederholer&shy;priorisierung</label>
-							<div class="toggle-box__content">
-								<p>Wartedauer wird bei erfolglosen Folgeanrufen hinzugerechnet. Damit steigt die Kundenzufriedenheit und die Abbruchquote sinkt.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-34">
-							<label for="faq-34">Rückrufe für optimale Auslastung</label>
-							<div class="toggle-box__content">
-								<p>Anrufpeaks aus dem Vormittag in den Nachmittag verschieben. Wir liefern hier unzählige Optionen, passgenau für Ihren Anwendungsfall.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Intelligente Routingfunktionen</li>
+							<li>Virtuelle Warteschleife & Co.</li>
+							<li>Wahlwiederholer&shy;priorisierung</li>
+							<li>Rückrufe für optimale Auslastung</li>
+						</ul>
+						<p style="visibility:hidden">
+							<br />
+							<a href="#todo" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="#todo" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<div class="tablet-hidden" style="height:200px;"><!-- Debug --></div>
-				<?php /* <p class="centered" style="margin-top: 150px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Kundenzufriedenheit:</strong><br />
-						<br />
-					</span>
-					<a href="#" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p> */ ?>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--yellow-footer" data-tab="2">
@@ -278,49 +245,20 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-21">
-							<label for="faq-21">Sprachdialoge ohne Agenten</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere VTT und TTS-Funktionen in Kombination mit unseren Schnittstellen für automatisierte Dialoge mit ihren Anrufern und das 24/7 mit 99,999% Verfügbarkeit.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-22">
-							<label for="faq-22">Intelligentes Sprachrouting</label>
-							<div class="toggle-box__content">
-								<p>Statt endlosem Auswahltasten drücken, bieten wir Echtzeit- Spracherkennung für bessere Kundenerlebnisse.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-23">
-							<label for="faq-23">Schnittstellen für schnelle Fallbearbeitung</label>
-							<div class="toggle-box__content">
-								<p>Wir übergeben Ihnen Anrufernummer oder Kundennummer und Sie antworten mit allen relevanten Kundendaten, wahlweise implementiert in der CallOne Agentenmaske.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-23">
-							<label for="faq-24">Bring your own Bot</label>
-							<div class="toggle-box__content">
-								<p>Sie haben bereits eine KI im Einsatz? Prima, dann bringen Sie sie doch einfach mit. Mit unseren Schnittstellen bieten wir ausreichend Anbindungsmöglichkeiten.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Sprachdialoge ohne Agenten</li>
+							<li>Intelligentes Sprachrouting</li>
+							<li>Schnittstellen für schnelle Fallbearbeitung</li>
+							<li>Bring your own Bot</li>
+						</ul>
+						<p>
+							<br />
+							<a href="/callcenter-bot" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/callcenter-bot" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 100px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Effizienz:</strong><br />
-						<br />
-					</span>
-					<a href="/callcenter-bot" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--red-footer" data-tab="3">
@@ -358,49 +296,20 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-11">
-							<label for="faq-11">Anrufsteuerung mittels Voice-API</label>
-							<div class="toggle-box__content">
-								<p>Binden Sie Ihre bestehenden CRM-, ERP- oder Ticketingsysteme an und steuern sie damit gezielt eingehende Anrufe.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-12">
-							<label for="faq-12">Alle Anruferinfos bei Gesprächsannahme</label>
-							<div class="toggle-box__content">
-								<p>Sparen Sie wertvolle Gesprächszeit und reichern Sie die Anruferinformationen mit Kundenname, Kundennummer oder einem Link in Ihr CRM-System an.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-13">
-							<label for="faq-13">Wissen ohne Fragen zu müssen</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere vielzähligen Möglichkeiten zur Anrufervorqaulifizierung: Eingabe und Übermittlung von Kunden- oder Bestellnummern, Echtzeit-Spracherkennung oder Text-to-Speech.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-14">
-							<label for="faq-14">Wählen ohne Tippen</label>
-							<div class="toggle-box__content">
-								<p>Click-to-Dial-, CTI- oder TAPI-Schnittstellen implementiert in Ihrem System für nahtlose In- und Outboundtelefonie.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Anrufsteuerung mittels Voice-API</li>
+							<li>Alle Anruferinfos bei Gesprächsannahme</li>
+							<li>Wissen ohne Fragen zu müssen</li>
+							<li>Wählen ohne Tippen</li>
+						</ul>
+						<p>
+							<br />
+							<a href="/voip-api" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/voip-api" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 100px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Konnektivität:</strong><br />
-						<br />
-					</span>
-					<a href="/voip-api" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
 			</div>
 
 			<div class="tablist__content tablist__content--border-bottom tablist__content--blue-footer" data-tab="4">
@@ -438,49 +347,20 @@ $faqs->faq_add (
 
 						<p class="centered subtext" style="margin-top:0;">*erreichte Referenzwerte unserer Kunden</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-hidden">
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-41">
-							<label for="faq-41">Arbeitszeiterfassung & Forecasting</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere implementiere Arbeitszeiterfassung und planen Sie Ihr Personal deutlich effizienter mit unseren Datenschnittstellen.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-42">
-							<label for="faq-42">Sofortige Benachrichtigung</label>
-							<div class="toggle-box__content">
-								<p>Sie erhalten von CallOne Echtzeiteinblicke und können umgehend reagieren, um Ihre KPI hochzuhalten.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-43">
-							<label for="faq-43">Sparen Sie kostbare Zeit</label>
-							<div class="toggle-box__content">
-								<p>Nutzen Sie unsere Rohdatenschnittstellen und fertigen Konnektoren zu Tableau für Auswertungen auf Profiniveau.</p>
-							</div>
-						</div>
-						<div class="toggle-box toggle-box--transparent toggle-box--checklist">
-							<input type="checkbox" id="faq-44">
-							<label for="faq-44">Zielerreichung mittels wichtiger Kennzahlen</label>
-							<div class="toggle-box__content">
-								<p>Umfangreiche Agentenstatistiken ermöglichen individuelle oder allgemeine Zielplanung zur Erreichung Ihrer Ziele.</p>
-							</div>
-						</div>
-						<p class="subtext">&nbsp;</p>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+						<ul class="list list--checkmarks bigtext">
+							<li>Arbeitszeiterfassung & Forecasting</li>
+							<li>Sofortige Benachrichtigung</li>
+							<li>Sparen Sie kostbare Zeit</li>
+							<li>Zielerreichung mittels wichtiger Kennzahlen</li>
+						</ul>
+						<p>
+							<br />
+							<a href="/statistiken" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/statistiken" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
+						</p>
 					</div>
 				</div>
-
-				<?php /* <div class="tablet-hidden" style="height:200px;"><!-- Debug --></div> */ ?>
-				<p class="centered" style="margin-top: 50px;">
-					<span class="mobile-hidden">
-						Wir haben noch mehr<br />
-						<strong>Informationen zu Datenauswertung:</strong><br />
-						<br />
-					</span>
-					<a href="/statistiken" class="btn btn--secondary btn--centered">Mehr erfahren</a>
-					<br />
-				</p>
 			</div>
 		</div>
 	</div>
