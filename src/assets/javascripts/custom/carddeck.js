@@ -133,6 +133,15 @@ class Carddeck {
         // Animate center to top
         centerCard.classList.toggle('carddeck__card--center');
         centerCard.classList.toggle('carddeck__card--top');
+        let evt = new CustomEvent('testEvent', {
+            detail: {
+                visible: true
+            }
+        });
+        let eventReceiver = centerCard.querySelectorAll('*');
+        eventReceiver.forEach(receiver => {
+            receiver.dispatchEvent(evt);
+        });
 
         // Animate top to fade away
         topCard.classList.toggle('carddeck__card--top');

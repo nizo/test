@@ -9,12 +9,17 @@ class CountingNumbers {
         this.step = this.calculateStep();
         this.running = false;
 
-        respondToVisibility(this.element, visible => {
-            console.log(visible, this.element, 'Counting Number visible');
-            if (visible) {
-                this.reset();
-                this.isInView();
-            }
+        // respondToVisibility(this.element, visible => {
+        //     if (visible) {
+        //         this.reset();
+        //         this.isInView();
+        //     }
+        // });
+
+        // console.log(this.element);
+        this.element.addEventListener('testEvent', e => {
+            this.reset();
+            this.isInView();
         });
 
         window.addEventListener('scroll', this.isInView.bind(this));
@@ -74,7 +79,9 @@ class CountingNumbers {
     }
 }
 
-const numbers = document.querySelectorAll('.counting-number');
-numbers.forEach(number => {
-    new CountingNumbers(number);
+document.addEventListener('DOMContentLoaded', e => {
+    const numbers = document.querySelectorAll('.counting-number');
+    numbers.forEach(number => {
+        new CountingNumbers(number);
+    });
 });

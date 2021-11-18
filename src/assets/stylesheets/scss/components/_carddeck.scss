@@ -1,4 +1,5 @@
 .carddeck {
+    --color: #{$color-primary};
     position: relative;
     padding-right: 23px;
 
@@ -23,7 +24,7 @@
         }
     }
     &__indicator--active {
-        background-color: $color-primary;
+        background-color: var(--color);
         width: 8px;
     }
 
