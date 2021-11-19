@@ -8,8 +8,8 @@
                 Hallo, wir sind CallOne
             </h1>
             
-            <h5>Wir sind die zentrale Telekommunikationslösung von Unternehmen, die Ihre Kundenbeziehungen wertschätzen und Grundlage für Ihr Wachstum und Erfolg sehen.</h5>
-            <p>Mit unseren leistungsstarken und flexiblen Lösungen passen wir uns an die Anforderungen jedes Unternehmens an. Auch Ihres!​</p>
+            <h5>Wir sind die zentrale Telekommunikationslösung von Unternehmen, die Ihre Kundenbeziehungen wertschätzen und als Grundlage für ihr Wachstum und ihren Erfolg sehen.</h5>
+            <p>Mit unseren leistungsstarken und flexiblen Lösungen passen wir uns an die Anforderungen jedes Unternehmens an. Auch an Ihres!​</p>
         </div>
     </header>
 
@@ -31,7 +31,7 @@
     <div class="section__content section__content--wide" id="geschichte">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <h1>Wir realisieren Telekommunikationslösungen. Zum Erfolg.</h1>
+                <h1>Wir realisieren erfolgreiche Telekommunikationslösungen.</h1>
                 <p class="bigtext">Egal ob Start-Up oder Traditionsmarke. Wir bieten passgenaue Kommunikationslösungen, die Unternehmen messbare Erfolge liefern.</p>
                 
                 <div class="collage desktop-hidden">
@@ -101,7 +101,7 @@
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__6-md co-grid__col--vcentered">
                 <h1 class="mobile-hidden">Was wir anders machen</h1>
-                <p class="bigtext">Telekommunikationsanbieter gibt es viele am Markt. Wir bei CallOne glauben an das perfekte Zusammenspiel zukunftsweisender cloudbasierter Telekommunikation und persönlicher Expertenbetreuung der Grund für den Erfolg unserer Kunden ist. Wir liefern eine intuitiv bedienbare Plattform und passen Sie optimal auf die individuellen Bedürfnisse an. Damit schaffen wir einen nachweislichen ROI und tragen maßgeblich zum Erfolg unserer Kunden bei.</p>
+                <p class="bigtext">Telekommunikationsanbieter gibt es viele am Markt. Wir bei CallOne glauben, dass cloudbasierte Telekommunikation und persönliche Expertenbetreuung der Grund für den Erfolg unserer Kunden sind. Wir liefern eine intuitiv bedienbare Plattform und passen sie optimal auf individuelle Bedürfnisse an. Damit schaffen wir einen nachweislichen ROI und tragen maßgeblich zum Erfolg unserer Kunden bei.</p>
                 <p>
                     <a href="/case-study-check24" class="btn btn--secondary">Mehr erfahren</a>
                 </p>
@@ -116,13 +116,13 @@
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
                 <p><img src="/assets/images/icons_svg/partnership-icon.svg" alt="" /></p>
-                <h3>Persönliche<br />Projekt Manager*innen</h3>
-                <p class="bigtext">Jeder Kunde erhält seine persönliche Ansprechpartnerin, geschult und darauf fokussiert Sie von Anbeginn und dauerhaft bei Ihren Themen rund um unsere Telefonlösung zu unterstützen.</p>
+                <h3>Persönliche<br />Projektmanager*innen</h3>
+                <p class="bigtext">Jeder Kunde erhält seine persönliche Ansprechperson, geschult und darauf fokussiert Sie von Anbeginn und dauerhaft bei Ihren Themen rund um unsere Telefonlösung zu unterstützen.</p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
                 <p><img src="/assets/images/icons_svg/reliability-icon.svg" alt="" /></p>
                 <h3>Zuverlässige<br />Technologie</h3>
-                <p class="bigtext">Bei uns gibt es kein „wenn und aber“ wenn es um Zuverlässigkeit und Stabilität geht. Unsere Systeme sind zertifiziert und auf Hochlast ausgelegt, um operative Exzellenz zu gewährleisten.</p>
+                <p class="bigtext">Bei uns gibt es kein „wenn und aber“, wenn es um Zuverlässigkeit und Stabilität geht. Unsere Systeme sind zertifiziert und auf Hochlast ausgelegt, um operative Exzellenz zu gewährleisten.</p>
             </div>
         </div>
 
@@ -157,7 +157,7 @@
 <div class="section section--light-green section--no-padding-bottom" id="umwelt">
     <div class="section__content section__content--wide">
         <h1 class="centered">Grün ist unsere Natur!</h1>
-        <p class="bigtext centered">Wir übernehmen Verantwortung gegenüber unseren Kunden und Mitarbeitern. Dazu gehört, dass wir unser unternehmerisches Handeln konsequent nachhaltig ausrichten – für die Gesellschaft und die Natur, in der wir leben.</p>
+        <p class="bigtext centered">Wir übernehmen Verantwortung gegenüber unseren Kunden und Mitarbeiter*innen. Dazu gehört, dass wir unser unternehmerisches Handeln konsequent nachhaltig ausrichten – für die Gesellschaft und die Natur, in der wir leben.</p>
 
         <div class="co-grid centered">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
@@ -205,8 +205,8 @@
     </div>
 
     <div class="section__content section__content--narrow mobile-hidden">
-        <h3 class="centered">Kundenbesessene Unternehmen vertrauen auf CallOne</h3>
-        <p class="bigtext centered">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
+        <h3 class="centered">Kundenorientierte Unternehmen vertrauen auf CallOne</h3>
+        <p class="bigtext centered">Kunden kommen zu CallOne, wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
 
         <div class="tablist tablist--on-black">
             <div class="tablist__links tablist__links--full-width">
@@ -317,7 +317,7 @@ $jobsCount = count($jobs->jobs_get());
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <h1>Lass uns <br />zusammenarbeiten!</h1>
-                <p class="bigtext">Komm zu uns! Wir sind ein inhabergeführtes Unternehmen, dass seit 2010 stetig wächst und Du dich von Tag eins einbringen kannst und Dein volles Potential entfalten kannst. Wirf einen Blick auf unsere aktuellen Stellenausschreibungen.</p>
+                <p class="bigtext">Komm zu uns! Wir sind ein inhabergeführtes Unternehmen, das seit 2010 stetig wächst und bei dem Du dich von Tag eins einbringen kannst, um Dein volles Potential zu entfalten. Wirf einen Blick auf unsere aktuellen Stellenausschreibungen.</p>
                 <p>
                     <a href="/karriere-bei-callone" class="btn btn--primary btn--notification btn--nowrap mobile-hidden" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Karriere bei CallOne</a>
                     <a href="/karriere-bei-callone" class="btn btn--primary btn--notification btn--nowrap btn--full-width centered desktop-hidden" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Karriere bei CallOne</a>
