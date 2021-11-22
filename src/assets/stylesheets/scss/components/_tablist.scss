@@ -1,3 +1,7 @@
+.tablist+*, *+.tablist {
+    margin-top: var(--gutter-l);
+}
+
 .tablist {
     &__links {
         display: flex;

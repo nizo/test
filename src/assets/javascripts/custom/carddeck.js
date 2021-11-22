@@ -11,13 +11,18 @@ class Carddeck {
         this.cards = this.initCards();
         this.indicators = this.initIndicators();
 
-        this.deckInterval = setInterval(this.switch.bind(this), this.speed);
-
+        // this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+        
         // Adjust certain things if a carddeck becomes visible for the first time
         respondToVisibility(this.deck, visible => {
-            this.resizeDeck();
+            if (visible) {
+                this.resizeDeck();
+                this.deckInterval = setInterval(this.switch.bind(this), this.speed);
+            } else {
+                clearInterval(this.deckInterval);
+            }
         });
-
+        
         window.addEventListener('resize', (e => {
             this.resizeDeck();
         }).bind(this));
@@ -68,7 +73,8 @@ class Carddeck {
     duplicateCards() {
         if (this.allCards.length < 4) {
             this.allCards.forEach(card => {
-                this.allCards.push(card.cloneNode(true));
+                let cardClone = card.cloneNode(true);
+                this.allCards.push(cardClone);
             });
             if (this.allCards.length < 4) {
                 this.duplicateCards();
@@ -94,13 +100,27 @@ class Carddeck {
         return indicators;
     }
 
+    // getElementHeight(el) {
+    //     let clone = el.cloneNode(true);
+    //     clone.style.position = 'absolute';
+    //     document.body.appendChild(clone);
+    //     let cloneHeight = clone.offsetHeight;
+    //     clone.remove();
+    //     return cloneHeight;
+    // }
+
     getCardSize() {
+        if (this.deck.getAttribute('data-height')) {
+            this.allCards.forEach(card => card.classList.add('carddeck__card--messured'));
+            return parseInt(this.deck.getAttribute('data-height'));
+        }
         let tallest = 0;
         this.allCards.forEach(card => {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
-            if (card.offsetHeight > tallest)
-                tallest = card.offsetHeight;
+            let cardHeight = card.offsetHeight;
+            if (cardHeight > tallest)
+                tallest = cardHeight;
             card.classList.add('carddeck__card--messured');
         });
 

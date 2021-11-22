@@ -320,6 +320,7 @@
             <p><strong>Modifiers:</strong></p>
             <ul>
                 <li><code>.carddeck--no-indicators</code>: Removes indicators</li>
+                <li><code>.carddeck--right</code>: Switches carddeck to right side</li>
                 <li><code>data-speed="2000"</code>: Speed to cycle through cards in ms</li>
             </ul>
         </div>
@@ -616,6 +617,10 @@
         <div class="components__docs">
             <h1><a href="#fader">Fader</a></h1>
             <p>Simple fader to cycle between content.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.fader--no-header</code>: Hides fader header with indicators and title</li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>

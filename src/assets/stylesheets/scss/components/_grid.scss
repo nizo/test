@@ -73,6 +73,18 @@
             width: auto !important;
         }
     }
+    &__col--vend {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        >*:not(.co-grid) {
+            width: 100%;
+        }
+        img {
+            width: auto !important;
+        }
+    }
 }
   
 $breakpoints: (
