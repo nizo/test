@@ -20,6 +20,10 @@
     &__extra-left, &__extra-right {
         flex: 0 0 50%;
         padding: var(--gutter-m) var(--gutter-l);
+
+        h4 {
+            margin-bottom: var(--gutter-l);
+        }
     }
     &__extra-left {
         border-right: 1px solid #e5e5e5;

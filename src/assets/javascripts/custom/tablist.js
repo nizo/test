@@ -2,6 +2,7 @@ class Tablist {
     constructor(el) {
         this.tablist = el;
         this.tabLinksWrapper = this.tablist.querySelector('.tablist__links');
+        this.tabLinksWrapperClone = this.tabLinksWrapper.cloneNode(true);
         this.tabLinks = this.tablist.querySelectorAll('.tablist__link');
         this.tabContents = this.tablist.querySelectorAll('.tablist__content');
         this.activeIndex = 0;
@@ -16,6 +17,22 @@ class Tablist {
         // window.addEventListener('resize', this.addSwipeSupport.bind(this), true);
 
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
+
+        window.addEventListener('scroll', this.stickyLinks.bind(this));
+    }
+
+    stickyLinks() {
+        let offsetToReach = 94; // Navbar height
+        let currentOffset = this.tabLinksWrapper.getBoundingClientRect().top;
+
+        // if (currentOffset <= offsetToReach) {
+        //     this.tabLinksWrapperClone = this.tabLinksWrapper.cloneNode(true);
+        //     this.tablist.appendChild(this.tabLinksWrapperClone);
+        //     this.tabLinksWrapper.classList.add('tablist__links--invisible');
+        //     this.tabLinksWrapperClone.classList.add('tablist__links--stuck');
+        // } else {
+        //     this.tabLinksWrapper.classList.remove('tablist__links--stuck');
+        // }
     }
 
     addSwipeSupport() {
@@ -60,6 +77,9 @@ class Tablist {
         let currentContentHeight = this.tabContents[this.activeIndex].offsetHeight;
         let currentTablistHeight = this.tablist.offsetHeight;
         this.tablist.style.minHeight = currentTablistHeight + 'px';
+        setTimeout(((e) => {
+            this.tablist.style.minHeight = '0px';
+        }).bind(this), 300);
 
         this.tabLinks.forEach((link, i) => {
             if (link.dataset.tab === tabId) {
@@ -72,7 +92,7 @@ class Tablist {
         this.tabContents.forEach(content => {
             content.style.minHeight = '';
             if (content.dataset.tab === tabId) {
-                content.style.minHeight = currentContentHeight + 'px';
+                // content.style.minHeight = currentContentHeight + 'px';
                 content.classList.add('tablist__content--active');
             } else {
                 content.classList.remove('tablist__content--active');

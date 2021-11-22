@@ -17,7 +17,7 @@ class CountingNumbers {
         // });
 
         // console.log(this.element);
-        this.element.addEventListener('testEvent', e => {
+        this.element.addEventListener('trigger', e => {
             this.reset();
             this.isInView();
         });

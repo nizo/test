@@ -3,6 +3,9 @@
 }
 
 .tablist {
+    transition: min-height 2s ease;
+    height: auto;
+
     &__links {
         display: flex;
         flex-direction: row;
@@ -10,6 +13,7 @@
         justify-content: center;
         align-items: stretch;
         margin-bottom: 60px;
+        transition: all .3s ease;
     }
     &__links--full-width {
         .tablist__link {
@@ -17,6 +21,16 @@
             padding-left: 0;
             padding-right: 0;
         }
+    }
+    &__links--invisible {
+        opacity: 0;
+    }
+    &__links--stuck {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        z-index: 99;
+        background-color: red;
     }
 
     &__link {

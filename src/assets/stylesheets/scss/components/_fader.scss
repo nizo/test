@@ -8,6 +8,10 @@
         }
     }
 
+    &--centered {
+        justify-self: center;
+    }
+
     &__header {
         position: relative;
         order: 1;

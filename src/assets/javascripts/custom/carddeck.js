@@ -153,7 +153,7 @@ class Carddeck {
         // Animate center to top
         centerCard.classList.toggle('carddeck__card--center');
         centerCard.classList.toggle('carddeck__card--top');
-        let evt = new CustomEvent('testEvent', {
+        let evt = new CustomEvent('trigger', {
             detail: {
                 visible: true
             }
