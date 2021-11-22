@@ -8,10 +8,10 @@
         padding: 60px 25px;
     }
     &--no-padding-top {
-        padding-top: 0;
+        padding-top: 0 !important;
     }
     &--no-padding-bottom {
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
     }
     &--overflow-protection {
         overflow-y: visible;
@@ -64,6 +64,9 @@
 
     &--grey-white {
         background: linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+    }
+    &--white-grey {
+        background-image: linear-gradient(180deg, #fff 0%, #fafbf6 100%);
     }
 
     &--light-grey-green {
@@ -218,6 +221,32 @@
         background-image: url(../images/backgrounds_png/analytics-full.png), url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(360deg, #ECF9FF 0%, #FFFFFF 100%);
         @media screen and (max-width: 960px) {
             background-image: url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(360deg, #ECF9FF 0%, #FFFFFF 100%);
+        }
+    }
+
+    // Work Section (/ueber-uns)
+    &--work-bg {
+        position: relative;
+        overflow: hidden;
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            bottom: -40px;
+            left: 47.5%;
+            width: 100%;
+            height: 588px;
+            max-width: 754px;
+            background-image: url(/assets/images/backgrounds_svg/work-background.svg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        @media screen and (max-width: 1220px) {
+            // padding-bottom: var(--gutter-l) !important;
+            &:after {
+                left: 50%;
+                transform: translate3d(-50%, 200px, 0);
+            }
         }
     }
 
