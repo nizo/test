@@ -112,7 +112,7 @@
             <div class="co-grid__col co-grid__col--4-xs">
                 <p><img src="/assets/images/icons_svg/results-icon.svg" alt="" /></p>
                 <h3>Messbare<br />Ergebnisse</h3>
-                <p class="bigtext">Kunden kommen nicht wegen der günstigsten Flatrate zu CallOne. Sie wollen wirklich sparen und hier unterstützen wir tagtäglich mit einer leistungsstarken Plattform, die die großen Kostenhebel bewegt.</p>
+                <p class="bigtext">Kunden kommen zu CallOne wenn Sie richtig sparen wollen. Wir unterstützen mit einer leistungsstarken Plattform und zielführender Beratung mit dem Ziel Ihren ROI zu maximieren.</p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
                 <p><img src="/assets/images/icons_svg/partnership-icon.svg" alt="" /></p>
@@ -132,7 +132,7 @@
                     <div class="content-box content-box--white">
                         <p><img src="/assets/images/icons_svg/results-icon.svg" alt="" /></p>
                         <h3>Messbare<br />Ergebnisse</h3>
-                        <p class="bigtext">Kunden kommen nicht wegen der günstigsten Flatrate zu CallOne. Sie wollen wirklich sparen und hier unterstützen wir tagtäglich mit einer leistungsstarken Plattform, die die großen Kostenhebel bewegt.</p>
+                        <p class="bigtext">Kunden kommen zu CallOne wenn Sie richtig sparen wollen. Wir unterstützen mit einer leistungsstarken Plattform und zielführender Beratung mit dem Ziel Ihren ROI zu maximieren.</p>
                     </div>
                 </div>
                 <div class="fader__item">
