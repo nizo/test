@@ -2,7 +2,6 @@ class Tablist {
     constructor(el) {
         this.tablist = el;
         this.tabLinksWrapper = this.tablist.querySelector('.tablist__links');
-        this.tabLinksWrapperClone = this.tabLinksWrapper.cloneNode(true);
         this.tabLinks = this.tablist.querySelectorAll('.tablist__link');
         this.tabContents = this.tablist.querySelectorAll('.tablist__content');
         this.activeIndex = 0;
@@ -18,21 +17,46 @@ class Tablist {
 
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
 
+        this.stickyStart = this.tablist.offsetTop - 94;
+        this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
+        this.stickyPlaceholderActive = false;
         window.addEventListener('scroll', this.stickyLinks.bind(this));
     }
-
+    
     stickyLinks() {
-        let offsetToReach = 94; // Navbar height
-        let currentOffset = this.tabLinksWrapper.getBoundingClientRect().top;
-
-        // if (currentOffset <= offsetToReach) {
-        //     this.tabLinksWrapperClone = this.tabLinksWrapper.cloneNode(true);
-        //     this.tablist.appendChild(this.tabLinksWrapperClone);
-        //     this.tabLinksWrapper.classList.add('tablist__links--invisible');
-        //     this.tabLinksWrapperClone.classList.add('tablist__links--stuck');
-        // } else {
-        //     this.tabLinksWrapper.classList.remove('tablist__links--stuck');
-        // }
+        // console.log(window.scrollY + '/' + this.stickyStart, window.scrollY + '/' + this.stickyEnd);
+        let scrollPos = window.scrollY;
+        if (this.tablist.offsetTop != this.stickyStart) {
+            this.stickyStart = this.tablist.offsetTop - 94;
+            this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        }
+        if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
+            this.spawnPlaceholder();
+            this.tabLinksWrapper.classList.add('tablist__links--sticky');
+        } else {
+            this.despawnPlaceholder();
+            this.tabLinksWrapper.classList.remove('tablist__links--sticky');
+        }
+    }
+    
+    spawnPlaceholder() {
+        if (this.stickyPlaceholderActive)
+            return;
+        this.tabLinksWrapper.style.opacity = '0';
+        this.stickyPlaceholderActive = true;
+        this.stickyPlaceholder.classList.add('tablist__sticky-placeholder');
+        this.stickyPlaceholder.style.visibility = 'hidden';
+        this.stickyPlaceholder.style.height = this.tabLinksWrapper.offsetHeight + 'px';
+        this.tablist.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
+    }
+    
+    despawnPlaceholder() {
+        if (!this.stickyPlaceholderActive)
+            return;
+        this.tabLinksWrapper.style.opacity = '';
+        this.stickyPlaceholderActive = false;
+        this.stickyPlaceholder.remove();
     }
 
     addSwipeSupport() {
@@ -167,5 +191,7 @@ class Tablist {
     }
 }
 
-const lists = document.querySelectorAll('.tablist');
-lists.forEach(list => new Tablist(list));
+document.addEventListener('DOMContentLoaded', e => {
+    const lists = document.querySelectorAll('.tablist');
+    lists.forEach(list => new Tablist(list));
+});

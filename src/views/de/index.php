@@ -104,21 +104,21 @@
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1">
-                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
+                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Was bietet unsere <br />
                         Telefonlösung?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
+                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Was sind die Vorteile <br />
                         von CallOne?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="3">
-                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
+                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Wie kann ich mit <br />
                         CallOne telefonieren?

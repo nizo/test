@@ -77,11 +77,11 @@
         <div class="tablist" id="features">
             <div class="tablist__links">
                 <div class="tablist__link" data-tab="1">
-                    <img src="/assets/images/icons_svg/callback-icon.svg" alt="" /><br />
+                    <img src="/assets/images/icons_svg/callback-icon.svg" alt="" />
                     <strong>Rückrufmodule</strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <img src="/assets/images/icons_svg/routing-icon.svg" alt="" /><br />
+                    <img src="/assets/images/icons_svg/routing-icon.svg" alt="" />
                     <strong>Routingfunktionen</strong>
                 </div>
             </div>

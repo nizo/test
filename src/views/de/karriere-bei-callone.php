@@ -260,11 +260,11 @@ $faqs->faq_add (
         <div class="tablist">
             <div class="tablist__links">
                 <div class="tablist__link tablist__link--active" data-tab="1">
-                    <strong>Office</strong><br />
+                    <strong>Office</strong>
                     <span class="icon-location">Potsdam</span>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <strong>Remote</strong><br />
+                    <strong>Remote</strong>
                     <span class="icon-home">Lieblingsort</span>
                 </div>
             </div>
