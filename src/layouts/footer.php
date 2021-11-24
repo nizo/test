@@ -193,7 +193,7 @@
       <?php include('./partials/modal-10-second-application.php'); ?>
     </div>  
 
-    <script src="/assets/javascripts/libs/jquery-3.4.1.min.js"></script>
+    <script src="/assets/javascripts/libs/jquery-3.6.0.min.js"></script>
     
     <?php
         loadJS(null);
