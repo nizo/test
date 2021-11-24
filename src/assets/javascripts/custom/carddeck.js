@@ -10,8 +10,6 @@ class Carddeck {
         this.cardSize = this.getCardSize();
         this.cards = this.initCards();
         this.indicators = this.initIndicators();
-
-        // this.deckInterval = setInterval(this.switch.bind(this), this.speed);
         
         // Adjust certain things if a carddeck becomes visible for the first time
         respondToVisibility(this.deck, visible => {
@@ -47,8 +45,8 @@ class Carddeck {
         cards.classList.add('carddeck__cards');
 
         // Set cards container size depending on tallest card
-        // cards.style.height = this.cardSize + 'px';
-        // this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
+        cards.style.height = this.cardSize + 'px';
+        this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
         
         // Add first 3 cards to deck
         this.allCards.forEach((card, i) => {
@@ -115,11 +113,12 @@ class Carddeck {
             return parseInt(this.deck.getAttribute('data-height'));
         }
         let tallest = 0;
+        if (this.cards)
+            this.cards.style.height = '';
         this.allCards.forEach(card => {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
             let cardHeight = card.offsetHeight;
-            console.log(card, cardHeight);
             if (cardHeight > tallest)
                 tallest = cardHeight;
             card.classList.add('carddeck__card--messured');
@@ -154,6 +153,15 @@ class Carddeck {
         // Animate center to top
         centerCard.classList.toggle('carddeck__card--center');
         centerCard.classList.toggle('carddeck__card--top');
+        let evt = new CustomEvent('trigger', {
+            detail: {
+                visible: true
+            }
+        });
+        let eventReceiver = centerCard.querySelectorAll('*');
+        eventReceiver.forEach(receiver => {
+            receiver.dispatchEvent(evt);
+        });
 
         // Animate top to fade away
         topCard.classList.toggle('carddeck__card--top');
