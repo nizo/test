@@ -47,8 +47,8 @@ class Carddeck {
         cards.classList.add('carddeck__cards');
 
         // Set cards container size depending on tallest card
-        cards.style.height = this.cardSize + 'px';
-        this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
+        // cards.style.height = this.cardSize + 'px';
+        // this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
         
         // Add first 3 cards to deck
         this.allCards.forEach((card, i) => {
@@ -100,14 +100,14 @@ class Carddeck {
         return indicators;
     }
 
-    // getElementHeight(el) {
-    //     let clone = el.cloneNode(true);
-    //     clone.style.position = 'absolute';
-    //     document.body.appendChild(clone);
-    //     let cloneHeight = clone.offsetHeight;
-    //     clone.remove();
-    //     return cloneHeight;
-    // }
+    getElementHeight(el) {
+        let clone = el.cloneNode(true);
+        clone.style.position = 'absolute';
+        document.body.appendChild(clone);
+        let cloneHeight = clone.offsetHeight;
+        clone.remove();
+        return cloneHeight;
+    }
 
     getCardSize() {
         if (this.deck.getAttribute('data-height')) {
@@ -119,6 +119,7 @@ class Carddeck {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
             let cardHeight = card.offsetHeight;
+            console.log(card, cardHeight);
             if (cardHeight > tallest)
                 tallest = cardHeight;
             card.classList.add('carddeck__card--messured');
