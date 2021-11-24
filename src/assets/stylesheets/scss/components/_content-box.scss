@@ -34,6 +34,12 @@
         background-image: url(/assets/images/illus/queue-stoerer-illustration.svg), linear-gradient(180deg, #FFFFFF 0%, #FFF0FD 100%);
         background-position: right bottom, center;
         background-repeat: no-repeat;
+
+        @media screen and (max-width: 959px) {
+            padding-bottom: 260px;
+            background-size: auto 250px, 100%;
+            background-position: center bottom, center
+        }
     }
 
     &--white {

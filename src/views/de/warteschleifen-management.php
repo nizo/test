@@ -9,28 +9,31 @@
             <h2>Nutzen Sie die neueste Technik und machen Sie Ihre Kunden glücklich.</h2>
 
             <p>
-                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Demo Termin einreichen</a>
+                <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Demo Termin einreichen</a>
+                <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Demo Termin einreichen</a>
             </p>
         </div>
     </header>
+</div>
 
-    <div class="anchors">
-		<div class="anchors__title">
-			<strong>Schnelleinstieg:</strong> Was interessiert dich?
-		</div>
-		<div class="anchors__links">
-			<a href="#features">Features</a>
-			<a href="/callcenter-software#mehrwertrechner">Mehrwertrechner</a>
-			<a href="/case-study-check24">Referenzen</a>
-		</div>
+<div class="section section--no-padding-top section--no-padding-bottom mobile-hidden">
+    <div class="anchors mobile-hidden">
+        <div class="anchors__title">
+            <strong>Schnelleinstieg:</strong> Was interessiert dich?
+        </div>
+        <div class="anchors__links">
+            <a href="#features">Features</a>
+            <a href="/callcenter-software#mehrwertrechner">Mehrwertrechner</a>
+            <a href="/case-study-check24">Referenzen</a>
+        </div>
     </div>
 </div>
 
-<div class="section section--white-purple section--no-padding-top">
+<div class="section section--white-purple">
     <div class="section__content section__content--wide">
         <div class="content-box content-box--purple-queue content-box--big-padding content-box--border content-box--full-width">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                <div class="co-grid__col co-grid__col--7-xs">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                     <h3>Ihr potenziell wichtigstes Ziel:<br />bestmöglichen Kundenservice erreichen!</h3>
 
                     <div class="carddeck carddeck--right" style="--color:#db00c5">
@@ -63,9 +66,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="co-grid__col co-grid__col--5-xs">
+                <!-- <div class="co-grid__col co-grid__col--5-xs">
                     
-                </div>
+                </div> -->
             </div>
         </div>
 
