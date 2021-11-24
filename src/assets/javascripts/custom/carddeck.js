@@ -45,8 +45,8 @@ class Carddeck {
         cards.classList.add('carddeck__cards');
 
         // Set cards container size depending on tallest card
-        // cards.style.height = this.cardSize + 'px';
-        // this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
+        cards.style.height = this.cardSize + 'px';
+        this.allCards.forEach(card => card.style.height = this.cardSize + 'px');
         
         // Add first 3 cards to deck
         this.allCards.forEach((card, i) => {
@@ -113,6 +113,8 @@ class Carddeck {
             return parseInt(this.deck.getAttribute('data-height'));
         }
         let tallest = 0;
+        if (this.cards)
+            this.cards.style.height = '';
         this.allCards.forEach(card => {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
