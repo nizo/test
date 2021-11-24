@@ -10,8 +10,6 @@ class Carddeck {
         this.cardSize = this.getCardSize();
         this.cards = this.initCards();
         this.indicators = this.initIndicators();
-
-        // this.deckInterval = setInterval(this.switch.bind(this), this.speed);
         
         // Adjust certain things if a carddeck becomes visible for the first time
         respondToVisibility(this.deck, visible => {
@@ -119,7 +117,6 @@ class Carddeck {
             card.style.height = '';
             card.classList.remove('carddeck__card--messured');
             let cardHeight = card.offsetHeight;
-            console.log(card, cardHeight);
             if (cardHeight > tallest)
                 tallest = cardHeight;
             card.classList.add('carddeck__card--messured');

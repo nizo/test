@@ -321,10 +321,16 @@
     height: 64px;
     &.scrolled {
       height: 64px;
+      &+.navbar-spacer+.navbar-shadow {
+        top: 64px;
+      }
       .main-nav {
         min-height: 64px;
       }
     }
+  }
+  .navbar-shadow {
+    top: 64px;
   }
   .main-nav {
     min-height: 64px;
