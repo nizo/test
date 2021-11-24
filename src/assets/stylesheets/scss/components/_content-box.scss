@@ -20,6 +20,10 @@
 
     &--big-padding {
         padding: var(--gutter-xxl);
+
+        @media screen and (max-width: 760px) {
+            padding: var(--gutter-m);
+        }
     }
 
     &--shadow {

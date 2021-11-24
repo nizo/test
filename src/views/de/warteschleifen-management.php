@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <h1 class="centered">
+        <h1 class="centered mobile-hidden">
             Geben Sie Ihren Agenten die Werkzeuge für <br />
             erfolgreiche Kundenerfahrungen
         </h1>
@@ -90,7 +90,7 @@
             </div>
 
             <div class="tablist__content" data-tab="1">
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
 
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
@@ -180,7 +180,7 @@
                     </div>
                 </div>
 
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
 
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
@@ -270,10 +270,37 @@
                     </div>
                 </div>
 
+                <!-- Mobile Content for this tab -->
+                <div class="fader fader--indicators-centered desktop-hidden">
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Rückruf aus der Warteschleife</h4>
+                            <img src="/assets/images/illus/calendar-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Virtuelle Warteschleife</h4>
+                            <img src="/assets/images/illus/queue-pendulum-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Rückruf von Webseite</h4>
+                            <img src="/assets/images/illus/callback-website-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Terminierter Rückruf</h4>
+                            <img src="/assets/images/illus/automated-callback-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
             
             <div class="tablist__content" data-tab="2">
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
@@ -318,7 +345,7 @@
                     </div>
                 </div>
 
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
@@ -362,7 +389,7 @@
                     </div>
                 </div>
 
-                <div class="expandable">
+                <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
@@ -406,14 +433,37 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Mobile Content for this tab -->
+                <div class="fader fader--indicators-centered desktop-hidden">
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Routing nach voraussichtlicher Wartedauer</h4>
+                            <img src="/assets/images/illus/routing-waitingtime-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Wartedauer auf Website anzeigen</h4>
+                            <img src="/assets/images/illus/waitingtime-website-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="fader__item">
+                        <div class="content-box content-box--shadow">
+                            <h4 class="centered">Wartedauer- und Positionsansage</h4>
+                            <img src="/assets/images/illus/waitingtime-announcement-illustration.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <p class="bigtext centered">
+        <p class="bigtext centered mobile-left">
             Wollen Sie mehr erfahren zu unseren Funktionen hinsichtlich <br />
             Warteschleifen, Rückrufen und Routing?<br />
             <br />
-            <a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+            <a href="#" class="btn btn--primary btn--centered mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+            <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
         </p>
     </div>
 </div>
@@ -428,8 +478,8 @@
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h3>
-                            Jetzt Einsparpotenziale über intelligentes <br />
-                            Warteschleifenmanagement gemeinsam <br />
+                            Jetzt Einspar&shy;potenziale über intelligentes <br />
+                            Warteschleifen&shy;management gemeinsam <br />
                             und unverbindlich besprechen!
                         </h3>
                     </div>
