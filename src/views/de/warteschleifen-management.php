@@ -34,7 +34,7 @@
         <div class="content-box content-box--purple-queue content-box--big-padding content-box--border content-box--full-width">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                    <h3>Ihr potenziell wichtigstes Ziel:<br />bestmöglichen Kundenservice erreichen!</h3>
+                    <h3>Ihr potenziell wichtigstes Ziel: <br class="mobile-hidden" />bestmöglichen Kundenservice erreichen!</h3>
 
                     <div class="carddeck carddeck--right" style="--color:#db00c5">
                         <div class="carddeck__card">
@@ -273,26 +273,26 @@
                 <!-- Mobile Content for this tab -->
                 <div class="fader fader--indicators-centered desktop-hidden">
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Rückruf aus der Warteschleife</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Rückruf aus <br />der Warteschleife</h4>
                             <img src="/assets/images/illus/calendar-illustration.svg" alt="" />
                         </div>
                     </div>
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Virtuelle Warteschleife</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Virtuelle <br />Warteschleife</h4>
                             <img src="/assets/images/illus/queue-pendulum-illustration.svg" alt="" />
                         </div>
                     </div>
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Rückruf von Webseite</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Rückruf <br />von Webseite</h4>
                             <img src="/assets/images/illus/callback-website-illustration.svg" alt="" />
                         </div>
                     </div>
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Terminierter Rückruf</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Terminierter <br />Rückruf</h4>
                             <img src="/assets/images/illus/automated-callback-illustration.svg" alt="" />
                         </div>
                     </div>
@@ -437,20 +437,20 @@
                 <!-- Mobile Content for this tab -->
                 <div class="fader fader--indicators-centered desktop-hidden">
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Routing nach voraussichtlicher Wartedauer</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Routing nach <br />voraussichtlicher Wartedauer</h4>
                             <img src="/assets/images/illus/routing-waitingtime-illustration.svg" alt="" />
                         </div>
                     </div>
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Wartedauer auf Website anzeigen</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Wartedauer auf <br />Website anzeigen</h4>
                             <img src="/assets/images/illus/waitingtime-website-illustration.svg" alt="" />
                         </div>
                     </div>
                     <div class="fader__item">
-                        <div class="content-box content-box--shadow">
-                            <h4 class="centered">Wartedauer- und Positionsansage</h4>
+                        <div class="content-box content-box--white content-box--shadow">
+                            <h4 class="centered">Wartedauer- <br />und Positionsansage</h4>
                             <img src="/assets/images/illus/waitingtime-announcement-illustration.svg" alt="" />
                         </div>
                     </div>

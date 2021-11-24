@@ -207,10 +207,10 @@ $faqs->faq_add (
 							<li>Wahlwiederholer&shy;priorisierung</li>
 							<li>Rückrufe für optimale Auslastung</li>
 						</ul>
-						<p style="visibility:hidden">
+						<p>
 							<br />
-							<a href="#todo" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
-							<a href="#todo" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
+							<a href="/telefonanlage-mit-warteschleife" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/telefonanlage-mit-warteschleife" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
 						</p>
 					</div>
 				</div>

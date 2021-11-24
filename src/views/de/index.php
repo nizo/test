@@ -562,10 +562,9 @@
                             </div>
                         </div>
 
-						<!-- TODO: Show block and add correct links -->
-                        <p class="mobile-centered" style="visibility:hidden">
-                            <a href="#todo" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="#todo" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p class="mobile-centered">
+                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
