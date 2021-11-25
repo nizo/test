@@ -14,107 +14,116 @@ app =
   bind_events: ->
     _this = @
 
-    $(document).on 'click', '.tab-nav a', (e) ->
+    eventListener 'click', '.tab-nav a', (e) ->
       e.preventDefault()
-      tabs = $(this).closest '.tabs'
-      $('.tab', tabs).removeClass 'active'
-      $('.tab-nav a', tabs).removeClass 'active'
-      $(this).addClass 'active'
-      $('.tab#'+$(this).data('tab'), tabs).addClass 'active'
+      tabs = e.target.closest '.tabs'
+      tab = tabs.querySelectorAll '.tab'
+      tab.forEach (t) =>
+        t.classList.remove 'active'
+      tabLinks = tabs.querySelectorAll '.tab-nav a'
+      tabLinks.forEach (tLink) =>
+        tLink.classList.remove 'active'
+      e.target.classList.add 'active'
+      newActive = tabs.querySelector('.tab#' + e.target.getAttribute('data-tab'))
+      newActive.classList.add 'active'
     
     # Callback & Form
-    $(document).on 'click', '.form .submit', (e) ->
+    eventListener 'click', '.form .submit', (e) ->
       e.preventDefault()
-      if $(this).parents('.js-form').hasClass 'callback'
-        console.log('send Callback')    
-        sendCallback($(this).parents('.js-form'))
+      form = e.target.closest('.js-form')
+      if form.classList.contains('callback')
+        sendCallback(form)
       else
-        sendForm($(this).parents('.js-form')) 
-        
-    # toggle boxes in contact form
-    $(document).on 'click', '.openBox', (e) ->
-      e.preventDefault()
-      $('.SwitchBoxes').toggleClass 'hidden'
-      text = $(this).text()
-      text2 = $(this).attr('data-text')
-      $(this).text(text2)
-      $(this).attr('data-text', text)
+        sendForm(form)
     
     # OpenContainer
-    $(document).on 'click', '.container .title', (e) ->
+    eventListener 'click', '.container .title', (e) ->
       e.preventDefault()
-      $(this).parent().toggleClass 'open'   
-      $(this).next('.content').slideToggle 'fast'   
+      e.target.parentNode.classList.toggle 'open'
         
     # OpenContainer type2
-    $(document).on 'click', '.accordion', (e) ->
+    eventListener 'click', '.accordion', (e) ->
       e.preventDefault()
-      if $(this).hasClass('open')
-        if $(this).hasClass('accordion-closeable')
-          $(this).removeClass('open')
-          $(this).children('.content').slideUp 'fast'
+      accordion = e.target.closest('.accordion')
+      accordionContent = accordion.querySelector('.content')
+      if accordion.classList.contains('open')
+        if accordion.classList.contains('accordion-closeable')
+          accordion.classList.remove('open')
+          accordionContent.style.display = ''
       else
-        $('.accordion').removeClass('open');
-        $(this).addClass 'open'
-        $('.accordion .content').slideUp 'fast'          
-        $(this).children('.content').slideDown 'fast'      
-        if $(this).attr('data-link')
-          console.log $(this).attr('data-area')
-          $($(this).attr('data-area')).children().hide()
-          $($(this).attr('data-area')).children($(this).attr('data-link')).fadeIn()
+        accordions = document.querySelectorAll('.accordion')
+        accordions.forEach (a) =>
+          a.classList.remove('open')
+          aContent = a.querySelector('.content')
+          aContent.style.display = ''
+        accordion.classList.add('open')
       
     # Mobile footer nav
-    $(document).on 'click', '.footer-menu li span', (e) ->
-      if $(this).closest('li').hasClass('open')
-        $(this).closest('li').removeClass 'open'
+    eventListener 'click', '.footer-menu li span', (e) ->
+      if e.target.closest('li').classList.contains('open')
+        e.target.closest('li').classList.remove('open')
       else
-        $('.footer-menu li').removeClass 'open'
-        $(this).closest('li').addClass 'open'
+        footerItems = document.querySelectorAll('.footer-menu li')
+        footerItems.forEach((item) => item.classList.remove('open'))
+        e.target.closest('li').classList.add('open')
 
     # Mobile subnav
-    $(document).on 'click', '.mobile-nav .pages-menu .submenu', (e) ->
+    eventListener 'click', '.mobile-nav .pages-menu .submenu', (e) ->
       e.preventDefault()
       e.stopPropagation()
-      if $(this).hasClass 'submenu-open'
-        $(this).removeClass 'submenu-open'
-        $(this).next('ul').slideUp 'fast'
+      submenu = e.target.closest('.submenu')
+      if submenu.classList.contains('submenu-open')
+        submenu.classList.remove('submenu-open')
+        submenu.nextElementSibling.style.display = 'none'
       else
-        $('.pages-submenu').slideUp 'fast'
-        $('.pages-menu .submenu-open').removeClass 'submenu-open'
-        $(this).addClass 'submenu-open'
-        $(this).next('ul').slideDown 'fast'
+        submenusBoxes = document.querySelectorAll('.pages-submenu')
+        submenusBoxes.forEach((submenuBox) => submenuBox.style.display = 'none')
+        submenus = document.querySelectorAll('.pages-menu .submenu-open')
+        submenus.forEach((sub) => sub.classList.remove('submenu-open'))
+        submenu.classList.add('submenu-open')
+        submenu.nextElementSibling.style.display = 'block'
 
     # Toggle mobile nav
-    $('.btn-mobile-nav').on 'click', (e) ->
+    eventListener 'click', '.btn-mobile-nav', (e) ->
       e.preventDefault()
-      #console.log 'mobile nav open'
-      $(this).parent().next('.mobile-nav').addClass 'open'
-    
-    # Toggle mobile nav
-    $('.btn-mobile-nav.close').on 'click', (e) ->
-      e.preventDefault()
-      #console.log 'mobile nav close'
-      $(this).parent('.mobile-nav').removeClass 'open'  
+      document.querySelector('.mobile-nav').classList.toggle('open')
 
     # SmoothScroll
-    $('a[href^="#"]').on 'click.smoothscroll', (e) ->
+    eventListener 'click', 'a[href^="#"]', (e) ->
       e.preventDefault()
-      target = @hash
-      if target
-        $target = $(target)
-        $('html, body').stop().animate { 'scrollTop': $target.offset().top - 94 }, 500, 'swing', ->
-        window.location.hash = target
+      anchor = e.target.hash
+      if anchor
+        target = document.querySelector(anchor)
+        window.scrollTo({
+          top: target.offsetTop - 94,
+          behaviour: 'smooth'
+        });
+        # FIXME: Set hash but prevent another scroll/jump
+        # window.location.hash = anchor;
+        # return false;
+    # $('a[href^="#"]').on 'click.smoothscroll', (e) ->
+    #   e.preventDefault()
+    #   target = @hash
+    #   if target
+    #     $target = $(target)
+    #     $('html, body').stop().animate { 'scrollTop': $target.offset().top - 94 }, 500, 'swing', ->
+    #     window.location.hash = target
       
     # ToggleCallNumbers
-    $(document).on 'click', '.showDiv', (e) ->
+    eventListener 'click', '.showDiv', (e) ->
       e.preventDefault()
-      $(this).next('.selection').toggleClass 'active'
-      toggle_id = $(this).next('.selection').data 'toggle'
-      if $(this).next('.selection').hasClass 'active'
-         $(this).next('.selection').slideDown()
+      selection = e.target.parentNode.querySelector('.selection')
+      selection.classList.toggle('active')
+      if selection.classList.contains('active')
+        selection.style.display = 'block'
       else
-         $(this).next('.selection').slideUp()
-      
+        selection.style.display = 'none'
+
+    # eventListener 'click', '.customCheckbox', (e) ->
+    #   boxes = document.querySelectorAll('.showField')
+    #   boxes.forEach((box) =>
+    #     box.classList.add('active')
+    #   )
     $(document).on 'click', '.customCheckbox', (e) ->
       $('.showField').addClass 'active'
       if $('.showField').hasClass 'active'

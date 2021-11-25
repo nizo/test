@@ -139,7 +139,7 @@
     
 	var sendForm = function(form) {
 			
-			var formData = new FormData(form[0]);
+			var formData = new FormData(form);
 	
 			var type = $(form).find('[name="type"]').val();
 			var data = null;

@@ -174,15 +174,11 @@
     </div>
     
     <div class="modal cookiebanner">
-      <?php include('./partials/modal-cookiebanner.php'); ?>
+        <?php include('./partials/modal-cookiebanner.php'); ?>
     </div>
     
     <div class="modal cookiebanner-config">
-      <?php include('./partials/modal-cookiebanner-config.php'); ?>
-    </div>
-    
-    <div class="modal contact">
-      <?php include('./partials/modal-contact.php'); ?>
+        <?php include('./partials/modal-cookiebanner-config.php'); ?>
     </div>
     
     <div class="modal wishlist">
@@ -190,14 +186,14 @@
     </div>
      
 	<div class="modal shortApplication">
-      <?php include('./partials/modal-10-second-application.php'); ?>
+        <?php include('./partials/modal-10-second-application.php'); ?>
     </div>  
 
     <script src="/assets/javascripts/libs/jquery-3.6.0.min.js"></script>
     
     <?php
-        loadJS(null);
+    loadJS(null);
     ?>
     
-  </body>
+</body>
 </html>
