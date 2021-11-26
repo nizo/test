@@ -1,11 +1,16 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+</IfModule>
+
+
 # ----------------------------------------------------------------------
 # Rewrite non-www to www and https
 # ----------------------------------------------------------------------
 
-RewriteEngine On
-RewriteCond %{SERVER_PORT} !^443$
-RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
-
+<IfModule mod_rewrite.c>
+  RewriteCond %{SERVER_PORT} !^443$
+  RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
 
 # ----------------------------------------------------------------------
 #  Kein Trailing Slash
@@ -131,7 +136,6 @@ RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
-  RewriteEngine On
 </IfModule>
 
 
@@ -270,9 +274,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
 
-RewriteEngine On
-
 
 # PHP error log
 php_flag log_errors on
-php_value error_log  /usr/www/users/callonv/de.callone.www.beta/log/php.log
+php_value error_log ../log/php.log
