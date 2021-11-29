@@ -1,67 +1,48 @@
-<div class="section section--mobile-divider">
+<div class="section section--no-padding-bottom section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
             <img src="/assets/images/illus/queue-header-illustration.svg" alt="" />
         </div>
         <div class="hero__text">
-            <h1>Das 1x1 des guten Kundenservice machen wir möglich</h1>
+            <h1>Guter Service wartet nicht!</h1>
 
-            <h2>Nutzen Sie die neueste Technik und machen Sie Ihre Kunden glücklich.</h2>
+            <h2>Schnellerer Service, bessere Ergebnisse, solide Markenerfahrung mit unübertroffenem Warteschleifenmanagement</h2>
 
             <p>
-                <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Demo Termin einreichen</a>
-                <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Demo Termin einreichen</a>
+                <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
+                <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
             </p>
         </div>
     </header>
 </div>
 
-<div class="section section--no-padding-top section--no-padding-bottom mobile-hidden">
-    <div class="anchors mobile-hidden">
-        <div class="anchors__title">
-            <strong>Schnelleinstieg:</strong> Was interessiert dich?
-        </div>
-        <div class="anchors__links">
-            <a href="#features">Features</a>
-            <a href="/callcenter-software#mehrwertrechner">Mehrwertrechner</a>
-            <a href="/case-study-check24">Referenzen</a>
-        </div>
-    </div>
-</div>
-
-<div class="section section--white-purple">
+<div class="section section--no-padding-top section--white-purple">
     <div class="section__content section__content--wide">
         <div class="content-box content-box--purple-queue content-box--big-padding content-box--border content-box--full-width">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                    <h3>Ihr potenziell wichtigstes Ziel: <br class="mobile-hidden" />bestmöglichen Kundenservice erreichen!</h3>
+                    <h3>Was Sie vielleicht noch nicht wussten:</h3>
 
                     <div class="carddeck carddeck--right" style="--color:#db00c5">
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
-                                <div class="number-card__number" style="--color:#db00c5">
-                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
-                                </div>
+                                <div class="number-card__number" style="--color:#db00c5">86%</div>
                                 <p>der Käufer sind bereit, für ein großartiges Kundenerlebnis mehr zu bezahlen.</p>
-                                <p>Quelle: <a href="#" class="inline-link">PWC</a></p>
+                                <p>Quelle: <a href="https://www.pwc.com/us/en/advisory-services/publications/consumer-intelligence-series/pwc-consumer-intelligence-series-customer-experience.pdf" target="_blank" class="inline-link">PWC​</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
-                                <div class="number-card__number" style="--color:#db00c5">
-                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
-                                </div>
-                                <p>der Käufer sind bereit, für ein großartiges Kundenerlebnis mehr zu bezahlen.</p>
-                                <p>Quelle: <a href="#" class="inline-link">PWC</a></p>
+                                <div class="number-card__number" style="--color:#db00c5">40%</div>
+                                <p>der Kunden bevorzugen das Telefonieren, wenn es um die Klärung komplizierter Sachverhalte geht.</p>
+                                <p>Quelle: <a href="https://about.americanexpress.com/press-release/wellactually-americans-say-customer-service-better-ever/" target="_blank" class="inline-link">American Express</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
-                                <div class="number-card__number" style="--color:#db00c5">
-                                    <span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
-                                </div>
-                                <p>der Käufer sind bereit, für ein großartiges Kundenerlebnis mehr zu bezahlen.</p>
-                                <p>Quelle: <a href="#" class="inline-link">PWC</a></p>
+                                <div class="number-card__number" style="--color:#db00c5">89%</div>
+                                <p>der Verbraucher gaben an, nach einer schlechten Kundenerfahrung zu einem Wettbewerber gewechselt zu haben.</p>
+                                <p>Quelle: <a href="https://harris-interactive.co.uk/" target="_blank" class="inline-link">Harris Interactive</a></p>
                             </div>
                         </div>
                     </div>
@@ -73,15 +54,15 @@
         </div>
 
         <h1 class="centered mobile-hidden">
-            Geben Sie Ihren Agenten die Werkzeuge für <br />
-            erfolgreiche Kundenerfahrungen
+            Für jeden die richtige Lösung – die CallOne <br class="mobile-hidden" />
+            Warteschleifen- und Routingfunktionen im Überblick
         </h1>
 
         <div class="tablist" id="features">
             <div class="tablist__links">
                 <div class="tablist__link" data-tab="1">
                     <img src="/assets/images/icons_svg/callback-icon.svg" alt="" />
-                    <strong>Rückrufmodule</strong>
+                    <strong>Warteschleifenmodule</strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
                     <img src="/assets/images/icons_svg/routing-icon.svg" alt="" />

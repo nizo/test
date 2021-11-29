@@ -335,7 +335,12 @@
         padding: 50px 25px;
 
         &--mobile-divider {
+            padding-bottom: 50px !important;
             border-bottom: 2px solid rgba(#000, .3);
+
+            &+.section {
+                padding-top: 50px !important;
+            }
         }
     }
 }
