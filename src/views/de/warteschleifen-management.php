@@ -6,7 +6,7 @@
         <div class="hero__text">
             <h1>Guter Service wartet nicht!</h1>
 
-            <h2>Schnellerer Service, bessere Ergebnisse, solide Markenerfahrung mit unübertroffenem Warteschleifenmanagement</h2>
+            <h2>Schnellerer Service, bessere Ergebnisse und eine solide Markenerfahrung durch unübertroffenes Warteschleifenmanagement</h2>
 
             <p>
                 <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
@@ -27,21 +27,21 @@
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
                                 <div class="number-card__number" style="--color:#db00c5">86%</div>
-                                <p>der Käufer sind bereit, für ein großartiges Kundenerlebnis mehr zu bezahlen.</p>
+                                <p>der Käufer*innen sind bereit, für ein großartiges Kundenerlebnis mehr zu bezahlen.</p>
                                 <p>Quelle: <a href="https://www.pwc.com/us/en/advisory-services/publications/consumer-intelligence-series/pwc-consumer-intelligence-series-customer-experience.pdf" target="_blank" class="inline-link">PWC​</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
                                 <div class="number-card__number" style="--color:#db00c5">40%</div>
-                                <p>der Kunden bevorzugen das Telefonieren, wenn es um die Klärung komplizierter Sachverhalte geht.</p>
+                                <p>der Kund*innen bevorzugen das Telefonieren, wenn es um die Klärung komplizierter Sachverhalte geht.</p>
                                 <p>Quelle: <a href="https://about.americanexpress.com/press-release/wellactually-americans-say-customer-service-better-ever/" target="_blank" class="inline-link">American Express</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
                                 <div class="number-card__number" style="--color:#db00c5">89%</div>
-                                <p>der Verbraucher gaben an, nach einer schlechten Kundenerfahrung zu einem Wettbewerber gewechselt zu haben.</p>
+                                <p>der Verbraucher*innen gaben an, nach einer schlechten Kundenerfahrung zu einem Wettbewerber gewechselt zu haben.</p>
                                 <p>Quelle: <a href="https://harris-interactive.co.uk/" target="_blank" class="inline-link">Harris Interactive</a></p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Rückruf aus der Warteschleife</h3>
-                                <p class="bigtext">Die CallOne ACD bietet dem Anrufer innerhalb der Warteschleife einen optimalen Zeitpunkt für einen terminierten Rückruf. Mit Bestätigung wird dieser vollständig automatisiert zum gewünschten Zeitpunkt gestartet und Agent und Anrufer miteinander verbunden.</p>
+                                <p class="bigtext">Die CallOne ACD bietet dem Anrufenden innerhalb der Warteschleife einen optimalen Zeitpunkt für einen terminierten Rückruf. Mit Bestätigung wird dieser vollständig automatisiert zum gewünschten Zeitpunkt gestartet und Agent*in und Anrufender miteinander verbunden.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/calendar-illustration.svg" alt="" />
@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    Höhere Kundenakzeptanz <br />gegenüber Warteschleife
+                                    Höhere Kundenakzeptanz <br />gegenüber Warteschleife erhöhen
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
@@ -124,7 +124,7 @@
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Virtuelle Warteschleife</h3>
-                                <p class="bigtext">Der Anrufer erhält das Angebot virtuell zu warten. Dabei berechnet das System den optimalen Rückrufzeitpunkt anhand tatsächlicher Wartedauern oder es reiht den Anrufer in die Warteschleife ein bis zur Anwahl und virtuell der anschließenden Verbindung mit dem Agenten.</p>
+                                <p class="bigtext">Der Anrufende erhält das Angebot virtuell zu warten. Dabei berechnet das System den optimalen Rückrufzeitpunkt anhand tatsächlicher Wartedauern oder es reiht die Anrufer*in virtuell in die Warteschleife ein mit anschließender Verbindung mit einer Agent*in.</p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Automatisierter Rückruf Ihrer Anrufer zum optimalen Rückrufzeitpunkt</li>
+                                <li>Automatisierter Rückruf Ihrer Anrufer*innen zum optimalen Rückrufzeitpunkt</li>
                                 <li>Parametrisierung anhand berechneter voraussichtlicher Wartedauer und/oder Erreichen der gewünschten Warteposition</li>
                                 <li>Kombinierbar mit anderen Warteschleifen-Funktionen</li>
                             </ul>
@@ -166,7 +166,7 @@
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Rückruf von Webseite</h3>
-                                <p class="bigtext">Echtzeitrückruffunktion integriert in Kundenwebseite. Auswahloptionen für Themen und Trackingmöglichkeit aller relevanten Webseiten-inhalte zum Agenten bei Gesprächsannahme.</p>
+                                <p class="bigtext">Echtzeitrückruffunktion integriert in Ihre Webseite. Auswahloptionen für Themen und Trackingmöglichkeit aller relevanten Webseiteninhalte mit Übermittlung zur Agent*in bei Gesprächsannahme.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/callback-website-illustration.svg" alt="" />
@@ -180,9 +180,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Bereitgestelltes Tool von CallOne mit dem Sie Kunden von Ihrer Webseite zurückrufen können</li>
-                                <li>Webseitenbesucher geben ihre Rufnummer ein, wir rufen zurück und verbinden mit ihrem Service</li>
-                                <li>Optional: Zeitgesteuerter Rückruf, Übergabe von relevanten Webseiteninfos (Benutzer, Warenkorb) möglich</li>
+                                <li>Bereitgestelltes Tool von CallOne mit dem Sie Kund*innen von Ihrer Webseite zurückrufen können</li>
+                                <li>Webseitenbesucher*innen geben ihre Rufnummer ein, wir rufen automatisiert zurück und verbinden mit Ihrem Service</li>
+                                <li>Optional: Zeitgesteuerter Rückruf, Übergabe von relevanten Webseiteninfos (Benutzer*in, Warenkorb) möglich</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -214,7 +214,7 @@
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Terminierter Rückruf</h3>
-                                <p class="bigtext">Rückrufentgegennahme durch Agenten, der einen automatisierten Rückruf auf dem CallOne System einstellt. Slots können hierbei flexible angeboten und begrenzt werden.</p>
+                                <p class="bigtext">Rückrufentgegennahme durch Agent*innen, die einen automatisierten Rückruf im CallOne System einstellen. Slots können hierbei flexibel angeboten und begrenzt werden.</p>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Wir nennen es den „menschlichen Anrufbeantworter“. Kunden rufen Sie an und auf unserer Weboberfläche stellen sie in Abstimmung mit dem Anrufer einen Rückruftermin ein. Den Rest erledigen wir und rufen zum gewählten Zeitpunkt Anrufer und Ihren Kundenservice zurück</li>
+                                <li>Wir nennen es den „menschlichen Anrufbeantworter“. Kund*innen rufen Sie an und auf unserer Weboberfläche stellen Sie in Abstimmung mit dem Anrufenden einen Rückruftermin ein. Den Rest erledigen wir und rufen zum gewählten Zeitpunkt Anrufer*in und Ihren Kundenservice zurück</li>
                                 <li>Kapazitätslimits je Slot können frei gewählt werden</li>
                                 <li>Nutzbar für mehrere Hotlines gleichzeitig</li>
                             </ul>
@@ -286,7 +286,7 @@
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Routing nach voraussichtlicher Wartedauer</h3>
-                                <p class="bigtext">Warum den Anrufer erst warten lassen? Wir berechnen die voraussichtliche Wartedauer all ihrer eintreffenden Anrufe und können sofort eine individuelle Aktion anbieten.</p>
+                                <p class="bigtext">Warum den Anrufenden erst warten lassen? Wir berechnen die voraussichtliche Wartedauer all ihrer eintreffenden Anrufe und können sofort eine individuelle Aktion anbieten.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/routing-waitingtime-illustration.svg" alt="" />
@@ -300,7 +300,7 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Routingfeature, dass aus einem Quotienten aus verfügbaren Agent*innen, Gesprächsdauer und wartenden Anrufern eine Wartedauer ermittelt</li>
+                                <li>Routingfeature, dass aus einem Quotienten aus verfügbaren Agent*innen, Gesprächsdauer und wartenden Anrufer*innen eine Wartedauer ermittelt</li>
                                 <li>Bei Überschreiten der individuell eingestellten voraussichtlichen Wartedauer bestimmen Sie welche Aktion greifen soll</li>
                                 <li>Kombinierbar mit Optionen „SLA-Routing“ oder tatsächlicher Wartedauer</li>
                             </ul>
@@ -319,7 +319,7 @@
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    Mehr Kunden-<br />zufriedenheit
+                                    Mehr Kund*innen-<br />zufriedenheit
                                 </div>
                             </div>
                         </div>
@@ -334,7 +334,7 @@
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Wartedauer auf Website anzeigen</h3>
-                                <p class="bigtext">Zeigen Sie wie gut Ihr Service ist und kombinieren Sie ihre Webseite mit Echtzeit-SLA ihres Kundenservice. Wenn es mal voll wird in der Hotline nutzen Sie das Tool um auf alternative Kanäle zu verweisen.</p>
+                                <p class="bigtext">Zeigen Sie wie gut Ihr Service ist und kombinieren Sie Ihre Webseite mit dem Echtzeit-SLA ihres Kundenservice. Wenn es mal voll wird in der Hotline, nutzen Sie das Tool um auf alternative Kanäle zu verweisen.</p>
                             </div>
                         </div>
                     </div>
@@ -345,8 +345,8 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Fertiges Plugin für Ihre Webseite, dass ihnen die voraussichtliche Wartedauer in ihren Skillgruppen übermittelt</li>
-                                <li>Statt Wartezeiten können Sie natürlich auch Symbole oder das Ein- und Ausblenden Ihrer Hotline auf Ihrer Webseite selbst steuern</li>
+                                <li>Fertiges Plugin für Ihre Webseite, dass Ihnen die voraussichtliche Wartedauer Ihrer Skillgruppen übermittelt</li>
+                                <li>Statt Wartezeiten können Sie natürlich auch Symbole oder das Ein- und Ausblenden Ihrer Hotline auf der Webseite selbst steuern</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -375,7 +375,7 @@
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Wartedauer- und Positionsansage</h3>
-                                <p class="bigtext">Wartedaueransagen kennen Sie sicher aus eigener Kundenerfahrung. Wir bei CallOne gehen hier einen Schritt weiter: Weibliche oder männliche Stimme oder die Flexibilität wann und wem sie eine Ansage einspielen.</p>
+                                <p class="bigtext">Wartedaueransagen kennen Sie sicher aus eigener Erfahrung. Wir bei CallOne gehen hier einen Schritt weiter: Mit individueller Stimmauswahl und der Flexibilität wann und wem Sie eine Ansage einspielen möchten.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
                                 <img src="/assets/images/illus/waitingtime-announcement-illustration.svg" alt="" />
@@ -389,7 +389,7 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Standardtool unserer Callcenter Software, dass Anrufern die voraussichtliche Wartedauer oder Position ansagt</li>
+                                <li>Standardtool unserer Callcenter Software, das Anrufer*innen die voraussichtliche Wartedauer oder -position ansagt</li>
                                 <li>Position und Wartedauer sind individuell wählbar</li>
                                 <li>Kombinierbar mit Funktion „Warteschleife unterbrechbar“</li>
                             </ul>
@@ -400,7 +400,7 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    Bessere <br />Kundenerfahrung
+                                    Bessere <br />Customer Experience
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
@@ -440,8 +440,8 @@
         </div>
 
         <p class="bigtext centered mobile-left">
-            Wollen Sie mehr erfahren zu unseren Funktionen hinsichtlich <br />
-            Warteschleifen, Rückrufen und Routing?<br />
+            Wollen Sie mehr zu unseren Funktionen hinsichtlich <br />
+            Warteschleifen, Rückrufen und Routing erfahren?<br />
             <br />
             <a href="#" class="btn btn--primary btn--centered mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
             <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
