@@ -38,5 +38,6 @@
     <script>
     	var jsFiles = [];
     </script>
+    <script src="/assets/javascripts/libs/utilities.js"></script>
   </head>
   <body class="<?= $background; ?>">

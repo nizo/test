@@ -18,13 +18,14 @@ app =
       e.preventDefault()
       tabs = e.target.closest '.tabs'
       tab = tabs.querySelectorAll '.tab'
+      link = e.target.closest('a')
       tab.forEach (t) =>
         t.classList.remove 'active'
       tabLinks = tabs.querySelectorAll '.tab-nav a'
       tabLinks.forEach (tLink) =>
         tLink.classList.remove 'active'
-      e.target.classList.add 'active'
-      newActive = tabs.querySelector('.tab#' + e.target.getAttribute('data-tab'))
+      link.classList.add 'active'
+      newActive = tabs.querySelector('.tab#' + link.getAttribute('data-tab'))
       newActive.classList.add 'active'
     
     # Callback & Form
@@ -119,90 +120,52 @@ app =
       else
         selection.style.display = 'none'
 
-    # eventListener 'click', '.customCheckbox', (e) ->
-    #   boxes = document.querySelectorAll('.showField')
-    #   boxes.forEach((box) =>
-    #     box.classList.add('active')
-    #   )
-    $(document).on 'click', '.customCheckbox', (e) ->
-      $('.showField').addClass 'active'
-      if $('.showField').hasClass 'active'
-        $('.showField').fadeIn()
-
-    # Expert Mode Button
-    $(document).on 'click', '.expertmode', (e) ->
-      e.preventDefault()
-      $(this).toggleClass 'active'
-      toggle_id = $(this).data 'toggle'
-      if $(this).hasClass 'active'
-        $('.expertmode-on.expertmode-'+toggle_id).show()
-        $('.expertmode-off.expertmode-'+toggle_id).hide()
-      else
-        $('.expertmode-on.expertmode-'+toggle_id).hide()
-        $('.expertmode-off.expertmode-'+toggle_id).show()
-
-    # Topic Selector
-    $(document).on 'change', '.topic', (e) ->
-      topic = $(this).val()
-      setCookie('co_role', '00'+$(this).val(), 365);
-      #console.log topic
-      $('.subtopic, .topic-box').hide()
-      $('.subtopic[data-subtopic="'+topic+'"]').show()
-      subtopic = $('.subtopic[data-subtopic="'+topic+'"]').val()
-      $('.topic-box[data-topic="'+subtopic+'"]').show()
-    $(document).on 'change', '.subtopic', (e) ->
-      topic = $(this).val()
-      $('.topic-box').hide()
-      $('.topic-box[data-topic="'+topic+'"]').show()
+    eventListener 'click', '.customCheckbox', (e) ->
+      boxes = document.querySelectorAll('.showField')
+      boxes.forEach((box) =>
+        box.style.display = 'block'
+      )
 
     # Toggle Boxes
-    $(document).on 'click', '.toggle-box label', (e) ->
-      $('.toggle-box', $(this).parent().parent()).each (i, box) =>
-        if box != e.currentTarget.parentNode
-          $('.toggle-box__content', box).slideUp();
-          $('input', box).prop('checked', false);
-      $(this).parent().find('.toggle-box__content').slideToggle()
-    $('.toggle-box').each (i, toggleBox) =>
-      if $('input', toggleBox).prop('checked')
-        $('.toggle-box__content', toggleBox)[0].style.display = 'block'
+    toggleBoxes = document.querySelectorAll('.toggle-box')
+    eventListener 'click', '.toggle-box label', (e) ->
+      currentBox = e.target.closest('.toggle-box')
+      toggleBoxes.forEach (box) ->
+        if box != currentBox
+          slideUp(box.querySelector('.toggle-box__content'), 300)
+          box.querySelector('input').checked = false;
+      slideToggle(currentBox.querySelector('.toggle-box__content'), 300)
+    toggleBoxes.forEach (box) ->
+      if box.querySelector('input').checked
+        box.querySelector('.toggle-box__content').style.display = 'block'
     
     @check_for_anchor()
 
   check_for_anchor: ->
     if window.location.hash && window.location.hash != ''
       # Anchor present
-      anchor = $(window.location.hash)
+      anchor = document.querySelector(window.location.hash)
       if anchor
-        window.scrollTop = anchor.offset().top - 94
-
-  # autoplay_videos: ->
-  #   videos = document.getElementsByTagName 'video'
-  #   i = 0
-  #   while i < videos.length
-  #     videos[i].play()
-  #     i++
+        window.scrollTop = anchor.offsetTop - 94
 
   loop_videos: ->
-    $.each $('video[data-loop]'), (i, elem) ->
-      loop_time = parseFloat($(this).data('loop'))
-      elem.addEventListener 'ended', (->
+    videos = Array.from(document.querySelectorAll('video[data-loop]'))
+    videos.forEach (video) ->
+      loop_time = parseFloat(video.getAttribute('data-loop'))
+      video.addEventListener 'ended', (e) ->
         this.currentTime = loop_time
         this.play()
-      ), false
 
   init_tabs: ->
-    $.each $('.tabs'), (i, elem) ->
-      $('.tab-nav a:eq(0), .tab:eq(0)', $(this)).addClass 'active'
+    tabs = document.querySelectorAll('.tabs')
+    tabs.forEach (tab) ->
+      tab.querySelectorAll('.tab-nav a')[0].classList.add 'active'
+      tab.querySelectorAll('.tab')[0].classList.add 'active'
 
   init_slider: ->
-    $.each $('.slider'), (i, val) ->
-      slider.init $(val)
-
-#sendForms = (form) ->
-#	console.log form
-#	formData = new FormData form: form
-#	data = formData.getAll()
-#	console.log data 
+    sliders = document.querySelectorAll('.slider')
+    sliders.forEach (s) ->
+      slider.init(s)
 
 # Adds additional class to navbar when scrolled
 navbar =
@@ -231,20 +194,21 @@ slider =
 
   init: (elem) ->
     @slider = elem
-    @slides_box = $('.slides', @slider)
-    @slides = $('.slide', @slider)
+    @slides_box = @slider.querySelector('.slides')
+    @slides = @slider.querySelectorAll('.slide')
     @get_slider_height()
     @init_slider_nav()
-    @slide_width = $(@slides[0]).outerWidth()
+    @slide_width = @slides[0].offsetWidth
     @bind_events()
-    $(@slides[0]).addClass 'active'
-    $(@slides[1]).addClass 'active'
-    $(@slides[2]).addClass 'active'
+    @slides[0].classList.add 'active'
+    @slides[1].classList.add 'active'
+    @slides[2].classList.add 'active'
 
   bind_events: ->
     _this = @
-    $(window).resize ->
-      $('.slider .slide').css 'width', $('.slider').outerWidth() / 3 + 'px'
+    window.onresize = () ->
+      _this.slides.forEach (slide) ->
+        slide.style.width = _this.slider.offsetWidth / 3 + 'px'
       _this.get_slider_height()
       # _this.slide_width = $(@slides[0]).outerWidth()
     # _this = @
@@ -263,36 +227,43 @@ slider =
   get_slider_height: ->
     extra_height = 33 + 40 + 100 # button height + slides padding + gutters
     _this = @
-    $.each @slides, (i, val) ->
-      if $(val).outerHeight() > _this.slider_height
-        _this.slider_height = $(val).outerHeight()
-    @slider.css 'height', @slider_height + extra_height + 'px'
-    $('.slide-content', @slider).css 'height', @slider_height + 'px'
+    @slides.forEach (val) ->
+      if val.offsetHeight > _this.slider_height
+        _this.slider_height = val.offsetHeight
+    @slider.style.height = @slider_height + extra_height + 'px'
+    contents = @slider.querySelectorAll('.slide-content')
+    contents.forEach (c) ->
+      c.style.height = _this.slider_height + 'px'
 
   init_slider_nav: ->
     i = 0
     while i < @slides.length - 2
-      button = $("<div class='btn-slider-nav' data-slide='"+i+"'></div>")
+      button = document.createElement('div')
+      button.classList.add('btn-slider-nav')
+      button.setAttribute('data-slide', i)
       _this = @
-      button.on 'click', (e) ->
-        slider = $(this).closest '.slider'
-        current_slide = $(this).data 'slide'
-        slide_width = $('.slider').outerWidth() / 3
-        $('.slides', slider).animate
-          left: current_slide * slide_width * -1 + 'px'
-        , 300
-        $('.btn-slider-nav', slider).removeClass 'active'
-        $('.btn-slider-nav:eq('+current_slide+')', slider).addClass 'active'
-        $('.slide', slider).removeClass 'active'
-        $('.slide:eq('+current_slide+')', slider).addClass 'active'
-        $('.slide:eq('+(current_slide+1)+')', slider).addClass 'active'
-        $('.slide:eq('+(current_slide+2)+')', slider).addClass 'active'
+      eventListener 'click', '.btn-slider-nav', (e) ->
+        btn = e.target.closest '.btn-slider-nav'
+        slider = e.target.closest '.slider'
+        current_slide = parseInt btn.getAttribute('data-slide')
+        slide_width = slider.offsetWidth / 3
+        slider.querySelector('.slides').style.left = current_slide * slide_width * -1 + 'px'
+        btns = slider.querySelectorAll('.btn-slider-nav')
+        btns.forEach (b) ->
+          b.classList.remove 'active'
+        btns[current_slide].classList.add 'active'
+        slides = slider.querySelectorAll('.slide')
+        slides.forEach (s) ->
+          s.classList.remove 'active'
+        slides[current_slide].classList.add 'active'
+        slides[current_slide+1].classList.add 'active'
+        slides[current_slide+2].classList.add 'active'
       if i is 0
-        button.addClass 'active'
-      $('.slider-navigation', @slider).append button
+        button.classList.add 'active'
+      _this.slider.querySelector('.slider-navigation').appendChild button
       i++
 
-$(document).ready ->
+document.addEventListener 'DOMContentLoaded', ->
   app.init()
 
   #

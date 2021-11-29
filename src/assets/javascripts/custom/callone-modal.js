@@ -86,12 +86,12 @@ class Modal {
         this.setModalData();
         document.body.classList.add(this.classPrefix + '--scrolllock'); // Scroll-Lock Body
         this.runModalScripts();
-        $(this.modal).css('display', 'flex').hide().fadeIn(300); // Fade in modal
+        fadeIn(this.modal, 300, 'flex');
         this.modal.classList.add(this.classPrefix + '--open');
     }
 
     closeModal() {
-        $(this.modal).fadeOut(300, () => {
+        fadeOut(this.modal, 300, () => {
             document.body.classList.remove(this.classPrefix + '--scrolllock');
             this.modal.classList.remove(this.classPrefix + '--open');
             if (this.modalSteps.length > 1) {

@@ -70,6 +70,7 @@
     <script>
     	var jsFiles = [];
     </script>
+    <script src="/assets/javascripts/libs/utilities.js"></script>
   </head>
   <body class="<?= $background; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
   <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>

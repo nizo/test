@@ -185,8 +185,8 @@
     	<?php include('./partials/modal-wishlist.php'); ?>
     </div>
      
-	<div class="modal shortApplication">
-        <?php include('./partials/modal-10-second-application.php'); ?>
+	  <div class="modal shortApplication">
+      <?php include('./partials/modal-10-second-application.php'); ?>
     </div>  
 
     <script src="/assets/javascripts/libs/jquery-3.6.0.min.js"></script>
