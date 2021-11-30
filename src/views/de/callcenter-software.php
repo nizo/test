@@ -81,12 +81,12 @@ $faqs->faq_add (
 		<div class="tablist">
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1">
-					<strong>Fullservice</strong><br>
+					<strong>Fullservice</strong>
 					CallOne liefert Ihnen das <br />
 					Komplettpaket für Ihr Unternehmen
 				</div>
 				<div class="tablist__link" data-tab="2">
-					<strong>Integriert</strong><br>
+					<strong>Integriert</strong>
 					CallOne Callcenter Software verbunden <br />
 					mit Ihrer eigener Telefonanlage
 				</div>
@@ -207,10 +207,10 @@ $faqs->faq_add (
 							<li>Wahlwiederholer&shy;priorisierung</li>
 							<li>Rückrufe für optimale Auslastung</li>
 						</ul>
-						<p style="visibility:hidden">
+						<p>
 							<br />
-							<a href="#todo" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
-							<a href="#todo" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
+							<a href="/telefonanlage-mit-warteschleife" class="btn btn--secondary mobile-hidden">Mehr erfahren</a>
+							<a href="/telefonanlage-mit-warteschleife" class="btn btn--secondary btn--full-width centered desktop-hidden">Mehr erfahren</a>
 						</p>
 					</div>
 				</div>
@@ -889,19 +889,19 @@ $faqs->faq_add (
 		<div class="tablist tablist--on-black desktop-hidden">
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1">
-					<strong>Flexibel telefonieren</strong><br />
+					<strong>Flexibel telefonieren</strong>
 					Erfahren Sie mehr zu unseren <br class="mobile-hidden" />unterstützten Telefonie-Optionen
 				</div>
 				<div class="tablist__link" data-tab="2">
-					<strong>Integrations&shy;möglichkeiten</strong><br />
+					<strong>Integrations&shy;möglichkeiten</strong>
 					Optionen für Anbindung Ihrer <br class="mobile-hidden" />genutzten Businesslösungen
 				</div>
 				<div class="tablist__link" data-tab="3">
-					<strong>Zusammenarbeit</strong><br />
+					<strong>Zusammenarbeit</strong>
 					Unsere Kommunikations&shy;plattform mit <br class="mobile-hidden" />Expertenunterstützung
 				</div>
 				<div class="tablist__link" data-tab="4">
-					<strong>Sicherheit</strong><br />
+					<strong>Sicherheit</strong>
 					Wie kommen <br class="mobile-hidden" />99,999% Erreichbarkeit zustande?
 				</div>
 			</div>
@@ -1081,23 +1081,23 @@ $faqs->faq_add (
 		<div class="tablist tablist--on-black">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
-					<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" /><br />
+					<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" />
 					<strong>Agentenmaske <br />im Browser</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="2">
-					<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" /><br />
+					<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" />
 					<strong>Softphone im <br />Browser/Desktop</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="3">
-					<img src="/assets/images/icons_svg/microsoft-teams-white.svg" alt="" /><br />
+					<img src="/assets/images/icons_svg/microsoft-teams-white.svg" alt="" />
 					<strong>Microsoft <br />Teams Client</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="4">
-					<img src="/assets/images/icons_svg/sip-telephone-white.svg" alt="" /><br />
+					<img src="/assets/images/icons_svg/sip-telephone-white.svg" alt="" />
 					<strong>SIP <br />Tischtelefon</strong>
 				</div>
 				<div class="tablist__link tablist__link--smaller" data-tab="5">
-					<img src="/assets/images/icons_svg/mobile-phone-white.svg" alt="" /><br />
+					<img src="/assets/images/icons_svg/mobile-phone-white.svg" alt="" />
 					<strong>Mobiler<br />Handyclient</strong>
 				</div>
 			</div>

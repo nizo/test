@@ -9,7 +9,15 @@ class CountingNumbers {
         this.step = this.calculateStep();
         this.running = false;
 
-        respondToVisibility(this.element, visible => {
+        // respondToVisibility(this.element, visible => {
+        //     if (visible) {
+        //         this.reset();
+        //         this.isInView();
+        //     }
+        // });
+
+        // console.log(this.element);
+        this.element.addEventListener('trigger', e => {
             this.reset();
             this.isInView();
         });
@@ -71,7 +79,9 @@ class CountingNumbers {
     }
 }
 
-const numbers = document.querySelectorAll('.counting-number');
-numbers.forEach(number => {
-    new CountingNumbers(number);
+document.addEventListener('DOMContentLoaded', e => {
+    const numbers = document.querySelectorAll('.counting-number');
+    numbers.forEach(number => {
+        new CountingNumbers(number);
+    });
 });
