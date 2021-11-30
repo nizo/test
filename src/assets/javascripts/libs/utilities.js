@@ -185,3 +185,20 @@ function toggleDisplay(el, mode = 'block') {
         el.style.display = 'none';
     }
 }
+
+/*
+ * Find next sibling
+ */
+function next(elem, selector) {
+	var nextElem = elem.nextElementSibling;
+
+	if (!selector) {
+		return nextElem;
+	}
+
+	if (nextElem && nextElem.matches(selector)) {
+		return nextElem;
+	}
+
+	return null;
+}

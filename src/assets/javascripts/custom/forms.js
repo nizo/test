@@ -86,27 +86,40 @@ $('.button-bottom > button').on("click", function(e) {
 	}
 });
 
-$('.js-form .select-selected').on ("click", function(){
-	$(this).toggleClass('active'),
-	$(this).parent('.group').next('.select-hide').toggleClass( 'active');
-	if ($(this).parent('.group').next('.select-hide').hasClass('active')) {
-		$(this).parent('.group').next('.select-hide').slideDown('fast');
-	} else {
-		$(this).parent('.group').next('.select-hide').slideUp('fast');	
+eventListener('click', '.js-form .select-selected', e => {
+	let group = e.target.closest('.group');
+	let next = window.next(group, '.select-hide');
+	if (next) {
+		next.classList.toggle('active');
+		if (next.classList.contains('active')) {
+			slideDown(next, 300);
+		} else {
+			slideUp(next, 300);
+		}
 	}
 });
 
-$('.select-items .item').on ('click', function() {
-	$(this).parent('.select-items').parent('.customSelect').children('.group').children('label').addClass('fixed');
-	$(this).parent('.select-items').parent('.customSelect').children('.group').children('.select-selected').html($(this).text()).removeClass('active');
-	$(this).parent('.select-hide').slideUp('fast');
-	$(this).parent('.select-hide').removeClass('active');
+eventListener('click', '.select-items .item', e => {
+	let item = e.target.closest('.item');
+	let parent = item.closest('.customSelect');
+	let label = parent.querySelector('label');
+	label.classList.add('fixed');
+	let selected = parent.querySelector('.select-selected');
+	selected.innerHTML = item.textContent;
+	selected.classList.remove('active');
+	let selectHide = item.closest('.select-hide');
+	slideUp(selectHide, 300, () => {
+		selectHide.classList.remove('active');
+	});
 });
 
-$('.js-form input').on ('change', function() {
-	$(this).parent('.group').children('label').addClass('fixed');
+eventListener('change', '.js-form input', e => {
+	let label = e.target.closest('.group');
+	if (group) {
+		label = label.querySelector('label');
+		label.classList.add('fixed');
+	}
 });
-
 
 /* upload Button */
 const uploadButton = document.getElementById('fileButton');
@@ -157,7 +170,6 @@ var sendForm = function(form) {
 					selectedNumbers.push($(this).val());
 				});
 			}
-			console.log(selectedNumbers);
 			
 			data = {
 				'type':	type, 
@@ -231,24 +243,8 @@ var sendForm = function(form) {
 		$(form).hasClass('wishlistContactForm')? action = 'Wunschthemen' : action = 'Kontaktformular';
 		
 		label = data['company'];
-		
-		/*formData.set('type', type);
-		formData.set('path', JSON.parse($(form).find('[name="path"]').val()));
-		formData.set('employees', $(form).find('#position').text());
-		formData.set('issue', $(form).find('[name="issue"]').val());
-		formData.set('name', $(form).find('[name="name"]').val());
-		formData.set('position', $(form).find('#position').text());
-		formData.set('company', $(form).find('[name="company"]').val());
-		formData.set('phonenumber', $(form).find('[name="phonenumber"]').val());
-		formData.set('email', $(form).find('[name="email"]').val());
-		*/
-		// ToDo js Evaluierung
-		
-		//console.log(data);
-		
 		break;
 	case '3':
-		
 		formData.set('type', type);
 		formData.set('path', JSON.parse($(form).find('[name="path"]').val()));
 		formData.set('issue', $(form).find('[name="issue"]').val());
@@ -257,34 +253,20 @@ var sendForm = function(form) {
 		formData.set('email', $(form).find('[name="email"]').val());
 		formData.set('text', $(form).find('[name="text"]').val());
 		formData.set('file', document.getElementById('realFile').files[0]);
-		
 		break;
-		
 	case '4':
-		/*data = {
-			'type':	type, 
-			'path': JSON.parse(formData.get('path')),
-			'issue': formData.get('issue'),
-			'name': formData.get('name'),
-			'url': formData.get('url')	    			
-		} */
-		
 		formData.set('type', type);
 		formData.set('path', JSON.parse($(form).find('[name="path"]').val()));
 		formData.set('issue', $(form).find('[name="issue"]').val());
 		formData.set('name', $(form).find('[name="name"] ').val());
 		formData.set('url', $(form).find('[name="url"] ').val());
-						
 		break;
-	case '5':
-						
+	case '5':			
 		formData.set('type', type);
 		formData.set('email', $(form).find('[name="email"]').val());
 		formData.set('position', $(form).find('[name="position"] ').val());
-		
 		break;
 	case '6':
-		
 		formData.set('type', type);
 		formData.set('issue', $(form).find('[name="issue"]').val());
 		formData.set('participant_email', $(form).find('[name="participant_email"]').val());
@@ -300,24 +282,11 @@ var sendForm = function(form) {
 		return;
 		break;
 	}
-	/*
-	console.log(formData.getAll('type'));
-	console.log(formData.getAll('issue'));
-	console.log(formData.getAll('participant_email'));
-	console.log(formData.getAll('participant_name'));
-	console.log(formData.getAll('participation'));
-	console.log(formData.getAll('partner_name'));
-	
-	console.log(data);
-	*/
+
 	$(form).find('.error').removeClass('error');
 	$(form).find('.submit').attr("disabled", true);
 	
-	
-	//return;
-	
 	if (type == '1' || type == '2') {
-		
 		$.ajax({
 			method: 'POST',
 			url: $(form).hasClass('form-1')? "https://connect.callone.io/backend/phonenumbers.php" : "https://connect.callone.io/backend/contact.php",
@@ -363,9 +332,7 @@ var sendForm = function(form) {
 				$(form).next('.formFail').fadeIn();
 			} 
 		});  
-	}
-	else {
-		
+	} else {
 		$.ajax({
 			url: "https://connect.callone.io/backend/contact.php",
 			cache: false,

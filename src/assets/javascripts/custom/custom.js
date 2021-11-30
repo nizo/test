@@ -379,7 +379,7 @@ if (checkCookie('wishlist')) {
 				/*check if buttons to activate*/
 				if (document.contains(document.querySelectorAll('.elements .button-bottom')[0])) {
 					console.log('yes is contains it');
-					wlist.forEach(val, i => {
+					wlist.forEach((val, i) => {
 						let note = document.querySelector('.elements .button-bottom > [data-info^="' + val + '"]');
 						note.classList.add("added");
 						note.children.forEach(child => {
@@ -388,7 +388,7 @@ if (checkCookie('wishlist')) {
 						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
 					});
 				} else {
-					wlist.forEach(val, i => {
+					wlist.forEach((val, i) => {
 						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
 					});
 				}
