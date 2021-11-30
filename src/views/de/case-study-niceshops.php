@@ -39,10 +39,10 @@
   <div class="content narrow centered">
     <h2 class="h1">Callcenter-Software für 40 Online-Shops</h2>
   </div>
-  <div class="content thin centered animatedParent animateOnce no-margin-top overflow-hidden" data-sequence="500">
-    <p class="animated fadeInDownShort" data-id="1">Fast jeder Österreicher hat wohl schon mal in einem der über 40 Onlineshops gestöbert, die das Steirer Unternehmen Niceshops vereint.</p>
-    <p class="animated fadeInDownShort" data-id="2">Niceshops ist eines der führenden österreichischen E-Commerce Unternehmen. Jeden Tag verschicken sie etwa 6500 Pakete an einen Kundenstamm von 2,2 Millionen Menschen weltweit. Der Erfolg kommt durch die nachhaltige Produktion, optimale Prozesse, technisches Know-How und insbesondere exzellenten Kundenservice: freundlicher, hilfreicher Kontakt und die schnelle, problemlose Abwicklung von Serviceanfragen.</p>
-    <p class="animated fadeInDownShort" data-id="3">CallOne unterstützt Niceshops im Callcenterbetrieb und der Officetelefonie mit ganzheitlichen Kommunikationslösungen, Schnittstellenanbindungen und, in Zusammenarbeit mit unserem Partner <a href="https://www.yuutel.at" target="_blank" title="CallOne Partner yuutel">yuutel</a>, bei sämtlichen shop- und länderspezifischen Hotlines sowie Mitarbeiterdurchwahlen.</p>
+  <div class="content thin centered no-margin-top overflow-hidden" data-sequence="500">
+    <p data-id="1">Fast jeder Österreicher hat wohl schon mal in einem der über 40 Onlineshops gestöbert, die das Steirer Unternehmen Niceshops vereint.</p>
+    <p data-id="2">Niceshops ist eines der führenden österreichischen E-Commerce Unternehmen. Jeden Tag verschicken sie etwa 6500 Pakete an einen Kundenstamm von 2,2 Millionen Menschen weltweit. Der Erfolg kommt durch die nachhaltige Produktion, optimale Prozesse, technisches Know-How und insbesondere exzellenten Kundenservice: freundlicher, hilfreicher Kontakt und die schnelle, problemlose Abwicklung von Serviceanfragen.</p>
+    <p data-id="3">CallOne unterstützt Niceshops im Callcenterbetrieb und der Officetelefonie mit ganzheitlichen Kommunikationslösungen, Schnittstellenanbindungen und, in Zusammenarbeit mit unserem Partner <a href="https://www.yuutel.at" target="_blank" title="CallOne Partner yuutel">yuutel</a>, bei sämtlichen shop- und länderspezifischen Hotlines sowie Mitarbeiterdurchwahlen.</p>
   </div>
 </div>
 
@@ -76,8 +76,8 @@
   </div>
 </div>
 <div class="wrapper">
-  <div class="content narrow animatedParent animateOnce overflow-hidden" data-sequence="500">
-    <div class="shadow-box animated bounceInLeft" data-id="1">
+  <div class="content narrow overflow-hidden" data-sequence="500">
+    <div class="shadow-box" data-id="1">
       <div class="image-grid">
         <div class="image padding centered">
           <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_03_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_03_animate.svg" alt="Multichannel" title="" />
@@ -94,7 +94,7 @@
       </div>
     </div>
 
-    <div class="shadow-box animated bounceInLeft" data-id="2">
+    <div class="shadow-box" data-id="2">
       <div class="image-grid">
         <div class="text">
           <h3 class="h2">Ticketing mit Freshdesk-Anbindung</h3>
@@ -111,7 +111,7 @@
       </div>
     </div>
 
-    <div class="shadow-box animated bounceInLeft" data-id="3">
+    <div class="shadow-box" data-id="3">
       <div class="image-grid">
         <div class="image padding">
           <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_02_animate.svg" alt="Optimierte Workflows" title="Mailbox -und Telefonbuchfunktion, Intelligente Anrufverteilung (ACD)"/>
@@ -128,7 +128,7 @@
       </div>
     </div>
 
-    <div class="shadow-box animated bounceInLeft" data-id="4">
+    <div class="shadow-box" data-id="4">
       <div class="image-grid">
         <div class="text">
           <h3 class="h2">Uptime &amp; Skalierbarkeit</h3>
@@ -254,18 +254,18 @@
     <h2 class="h1 centered white">Fazit: <br>individuelle E-Commerce Telefonlösung</h2>
     <h3 class="h2 centered no-padding white">Flexible Settings, bessere Erreichbarkeit und geringe Wartedauer</h2>
   </div>
-  <div class="content wide animatedParent margin-top-40" data-sequence="500">
+  <div class="content wide margin-top-40" data-sequence="500">
     <div class="shadow-box">
       <div class="text-grid">
         <div class="text"> 	
           <div class="grid">
-            <div class="col-3 centered animated growIn"  data-id="1">
+            <div class="col-3 centered"  data-id="1">
               <h3><span class="primary-color h1">&gt; 95 %</span><br><br>durchschnittliche Erreichbarkeit</h3>
             </div>
-            <div class="col-3 centered animated growIn" data-id="2">
+            <div class="col-3 centered" data-id="2">
               <h3><span class="primary-color h1">&lt; 30</span><br><br>Sekunden durchschnittliche Wartezeit</h3>
             </div>
-            <div class="col-3 centered animated growIn" data-id="3">
+            <div class="col-3 centered" data-id="3">
               <h3><span class="primary-color h1">80</span><br><br>Skillgruppen für verschiedene Shops und Länder</h3>
             </div>
           </div>

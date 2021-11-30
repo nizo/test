@@ -1326,11 +1326,6 @@ img {
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 $gutter-l;
-		&.animatedParent {
-			overflow: hidden;
-			padding-top: $gutter-m;
-			padding-bottom: $gutter-m;
-		}
 		&:last-child {
 			margin-bottom: $gutter-m;
 		}

@@ -1,6 +1,6 @@
 
 var sendCallback = function(form) {
-	var formData = new FormData(form[0]);
+	var formData = new FormData(form);
 	var id = "callone_cfcd208495d565ef66e7dff9f98764da";
 	var key = "58e6f511a00324c208628ae903d7f2f0";
 	

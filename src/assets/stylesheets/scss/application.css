@@ -781,10 +781,6 @@ img.img-100 {
     width: 100%;
     margin: 0 auto;
     padding: 0 40px; }
-    .wrapper .content.animatedParent {
-      overflow: hidden;
-      padding-top: 20px;
-      padding-bottom: 20px; }
     .wrapper .content:last-child {
       margin-bottom: 20px; }
     .wrapper .content.narrow {

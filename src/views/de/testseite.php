@@ -263,26 +263,26 @@
     		<li>Rohdaten für Ihre BI-Abteilung</li>
     	</ul>
     	
-    	<div class="grid mobile-hidden centered animatedParent animateOnce overflow-hidden" data-sequence="250">
-              <div class="col-4 flex space-between animated bounceInUp" data-id="1">
+    	<div class="grid mobile-hidden centered overflow-hidden" data-sequence="250">
+              <div class="col-4 flex space-between" data-id="1">
               	<div class="break-word relative padding space-between flex column">
                     <img src="/assets/images/icons_svg/small_15.svg" alt="" class="icon" />
                     <h3 class="small">Über 100 Echtzeitstatistiken</h3>
                 </div>
               </div>
-              <div class="col-4 flex space-between animated bounceInUp" data-id="2">
+              <div class="col-4 flex space-between" data-id="2">
               	<div class="break-word relative padding space-between flex column">
                     <img src="/assets/images/icons_svg/small_10.svg" alt="" class="icon" />
                     <h3 class="small">SLA je Skill, Agent und Rufnummer</h3>
                 </div>
               </div>
-              <div class="col-4 flex space-between animated bounceInUp" data-id="3">
+              <div class="col-4 flex space-between" data-id="3">
               	<div class="break-word relative padding space-between flex column">
                     <img src="/assets/images/icons_svg/small_08.svg" alt="" class="icon" />
                     <h3 class="small">Anbindung an <br>Tableau</h3>
                 </div>
               </div>
-              <div class="col-4 flex space-between animated bounceInUp" data-id="4">
+              <div class="col-4 flex space-between" data-id="4">
                 <div class="break-word relative padding space-between flex column">
                     <img src="/assets/images/icons_svg/small_11.svg" alt="" class="icon" />
                     <h3 class="small">Rohdaten für Ihre BI-Abteilung</h3>
@@ -313,10 +313,10 @@
   		<div class="col-2 no-margin-bottom">
   			<h2 class="h1">Hard- & Software</h2>
   			<p>Genießen Sie endlose Freiheit und telefonieren Sie, wie Sie es wünschen: Über den Browser, einem Softphone oder klassisch mit einem IP-Telefon oder dem Handy – oder alles zusammen!​</p>
-  			<div class="mockup-animation desktop-hidden relative animatedParent animateOnce overflow-hidden" data-sequence="750">
-  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/mockup-pc-mobile.png" data-srcset="/assets/images/photos/mockup-pc-mobile.png" class="lazy animated fadeIn" data-id="1" alt="Telefonieren sie über den Browser oder ein Softphone" title="Telefonieren sie über den Browser oder ein Softphone" />
-  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/mockup-telefon-mobile.png" data-srcset="/assets/images/photos/mockup-telefon-mobile.png" class="lazy animated bounceInRight" data-id="2" alt="Telefonieren sie über Ihr Smarthphone" title="Telefonieren sie über Ihr Smarthphone" />
-  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/mockup-mobile-phone-mobile.png" data-srcset="/assets/images/photos/mockup-mobile-phone-mobile.png" class="lazy animated bounceInLeft" data-id="3" alt="Telefonieren sie über IP-Telefon" title="Telefonieren sie über IP-Telefon" />
+  			<div class="mockup-animation desktop-hidden relative overflow-hidden" data-sequence="750">
+  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/mockup-pc-mobile.png" data-srcset="/assets/images/photos/mockup-pc-mobile.png" class="lazy" data-id="1" alt="Telefonieren sie über den Browser oder ein Softphone" title="Telefonieren sie über den Browser oder ein Softphone" />
+  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/mockup-telefon-mobile.png" data-srcset="/assets/images/photos/mockup-telefon-mobile.png" class="lazy" data-id="2" alt="Telefonieren sie über Ihr Smarthphone" title="Telefonieren sie über Ihr Smarthphone" />
+  				<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/mockup-mobile-phone-mobile.png" data-srcset="/assets/images/photos/mockup-mobile-phone-mobile.png" class="lazy" data-id="3" alt="Telefonieren sie über IP-Telefon" title="Telefonieren sie über IP-Telefon" />
   			</div>
   			<ul class="list approved-list big-list">
         		<li class="accordion list accordion-closeable open">

@@ -28,8 +28,8 @@
               <!-- <a href="#" class="button secondary">Browsercall</a> -->
         	</div>
         </div>	
-		<div class="col-2 cross animatedParent animateOnce">
-			<div class="shadow-box padding animated fadeInUp">
+		<div class="col-2 cross">
+			<div class="shadow-box padding">
 				<h2 class="h1">Sprechen Sie mit dem Vertrieb!</h2>
     			<p>Unsere Experten beantworten gerne Ihre Fragen. Füllen Sie das untenstehende Formular aus oder rufen Sie uns an unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a></p>
     			 <form action="#" class="form form-2 js-form">

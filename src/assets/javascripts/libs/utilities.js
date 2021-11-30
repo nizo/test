@@ -160,3 +160,28 @@ function respondToVisibility(element, callback) {
 	
 	observer.observe(element);
 }
+
+/*
+ * Find all siblings
+ */
+function getAllSiblings(elem, filter) {
+    var sibs = [];
+    elem = elem.parentNode.firstChild;
+    do {
+        if (elem.nodeType === 3) continue; // text node
+        if (!filter || filter(elem)) sibs.push(elem);
+    } while (elem = elem.nextSibling)
+    return sibs;
+}
+
+/*
+ * Display Toggle for element
+ */
+function toggleDisplay(el, mode = 'block') {
+    let display = window.getComputedStyle(el).getPropertyValue('display');
+    if (display == 'none') {
+        el.style.display = mode;
+    } else {
+        el.style.display = 'none';
+    }
+}
