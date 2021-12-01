@@ -94,3 +94,4 @@
         ?>
     </div>
     <div class="navbar-spacer"></div>
+    <div class="navbar-shadow"></div>
