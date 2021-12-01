@@ -16,6 +16,47 @@ class Tablist {
         // window.addEventListener('resize', this.addSwipeSupport.bind(this), true);
 
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
+
+        this.stickyStart = this.tablist.offsetTop - 94;
+        this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
+        this.stickyPlaceholderActive = false;
+        window.addEventListener('scroll', this.stickyLinks.bind(this));
+    }
+    
+    stickyLinks() {
+        // console.log(window.scrollY + '/' + this.stickyStart, window.scrollY + '/' + this.stickyEnd);
+        let scrollPos = window.scrollY;
+        if (this.tablist.offsetTop != this.stickyStart) {
+            this.stickyStart = this.tablist.offsetTop - 94;
+            this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        }
+        if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
+            this.spawnPlaceholder();
+            this.tabLinksWrapper.classList.add('tablist__links--sticky');
+        } else {
+            this.despawnPlaceholder();
+            this.tabLinksWrapper.classList.remove('tablist__links--sticky');
+        }
+    }
+    
+    spawnPlaceholder() {
+        if (this.stickyPlaceholderActive)
+            return;
+        this.tabLinksWrapper.style.opacity = '0';
+        this.stickyPlaceholderActive = true;
+        this.stickyPlaceholder.classList.add('tablist__sticky-placeholder');
+        this.stickyPlaceholder.style.visibility = 'hidden';
+        this.stickyPlaceholder.style.height = this.tabLinksWrapper.offsetHeight + 'px';
+        this.tablist.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
+    }
+    
+    despawnPlaceholder() {
+        if (!this.stickyPlaceholderActive)
+            return;
+        this.tabLinksWrapper.style.opacity = '';
+        this.stickyPlaceholderActive = false;
+        this.stickyPlaceholder.remove();
     }
 
     addSwipeSupport() {
@@ -56,6 +97,13 @@ class Tablist {
     switchTab(e) {
         let btn = e.currentTarget;
         let tabId = btn.dataset.tab;
+        this.tablist.style.minHeight = '';
+        let currentContentHeight = this.tabContents[this.activeIndex].offsetHeight;
+        let currentTablistHeight = this.tablist.offsetHeight;
+        this.tablist.style.minHeight = currentTablistHeight + 'px';
+        setTimeout(((e) => {
+            this.tablist.style.minHeight = '0px';
+        }).bind(this), 300);
 
         this.tabLinks.forEach((link, i) => {
             if (link.dataset.tab === tabId) {
@@ -66,7 +114,9 @@ class Tablist {
             }
         });
         this.tabContents.forEach(content => {
+            content.style.minHeight = '';
             if (content.dataset.tab === tabId) {
+                // content.style.minHeight = currentContentHeight + 'px';
                 content.classList.add('tablist__content--active');
             } else {
                 content.classList.remove('tablist__content--active');
@@ -141,5 +191,7 @@ class Tablist {
     }
 }
 
-const lists = document.querySelectorAll('.tablist');
-lists.forEach(list => new Tablist(list));
+document.addEventListener('DOMContentLoaded', e => {
+    const lists = document.querySelectorAll('.tablist');
+    lists.forEach(list => new Tablist(list));
+});

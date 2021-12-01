@@ -249,8 +249,8 @@ form {
 						border-radius: 50%;
 					}
 				 }
-				 &.checked {
-				 	.checkmark {
+				 &.checked, input:checked {
+				 	.checkmark, &+.checkmark {
 				 		&:after {
 						  content: "";
 						  position: absolute;

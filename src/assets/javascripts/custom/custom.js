@@ -116,8 +116,10 @@ function scrollTo(anker, speed) {
 }
 
 $(document).ready(function(){
+	let numbersLoaded = false;
 	$(".form .showDiv").click(function(){
-		//console.log("get numbers");
+		if (numbersLoaded)
+			return;
 		$(".form-1 .selection .spinner").fadeIn();
 	    $.post("https://connect.callone.io/backend/phonenumbers.php",
 	    {
@@ -131,12 +133,13 @@ $(document).ready(function(){
 	    		//console.log(data.phonenumbers.length);
 	    		$(".form-1 .selection").html(function() {
 	    			for(var i = 0; i < data.phonenumbers.length; i++) {
-	    				output += '<label for="'+ i +'" class="customCheckbox"><input name="checkboxNumbers" type="checkbox" id="'+ i +'" value="'+ data.phonenumbers[i]['number'] +'" />';		
-	    				output += data.phonenumbers[i]['number'];
-	    				output += '<span class="checkmark"></span></label>';
+	    				output += '<label for="'+ i +'" class="customCheckbox"><input name="checkboxNumbers" type="checkbox" id="'+ i +'" value="'+ data.phonenumbers[i]['number'] +'" /><span class="checkmark"></span>';		
+						output += data.phonenumbers[i]['number'];
+	    				output += '</label>';
 	    			}
 	    			return output;
 	    		});
+				numbersLoaded = true;
     		} else {
     			$(".form-1 .selection").html(function() {
     				output = '<div class="error">Es ist ein Fehler beim laden der Rufnummern aufgetreten! Bitte versuchen Sie es später noch einmal.</div>';
@@ -440,7 +443,7 @@ function loadLazyTracking(reload){
 // Observer to track if elements become visible
 function respondToVisibility(element, callback) {
 	var options = {
-		root: document.documentElement,
+		root: document.documentElement
 	};
 	
 	var observer = new IntersectionObserver((entries, observer) => {

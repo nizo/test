@@ -37,6 +37,7 @@
 /*
 * Components
 */
+@import 'components/grid';
 @import 'components/agenda';
 @import 'components/alertbox';
 @import 'components/anchors';
@@ -47,12 +48,13 @@
 @import 'components/card-link';
 @import 'components/carddeck';
 @import 'components/cards';
+@import 'components/collage';
 @import 'components/content-box';
 @import 'components/cta-contact';
+@import 'components/expandable';
 @import 'components/fade-box';
 @import 'components/fader';
 @import 'components/floating-form';
-@import 'components/grid';
 @import 'components/grid-slider';
 @import 'components/hero';
 @import 'components/icons';

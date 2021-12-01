@@ -1,0 +1,43 @@
+.collage+*, *+.collage {
+    margin-top: var(--gutter-l) !important;
+}
+
+.collage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+
+    &__big, &__small {
+        img {
+            display: block;
+            width: 100% !important;
+        }
+    }
+
+    &__big {
+        align-self: flex-end;
+        aspect-ratio: 164/117;
+        width: 100%;
+    }
+    
+    &__small {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        aspect-ratio: 131/126;
+        width: 40%;
+    }
+
+    &__text {
+        border-left: 2px solid $color-primary;
+        padding-left: var(--gutter-xs);
+        margin-top: var(--gutter-m);
+        margin-left: calc(20% + (20px + var(--gutter-m)));
+
+        strong {
+            font-family: $font-headline;
+            font-weight: normal;
+        }
+    }
+}

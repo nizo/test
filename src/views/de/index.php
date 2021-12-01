@@ -104,21 +104,21 @@
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1">
-                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
+                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Was bietet unsere <br />
                         Telefonlösung?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
+                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Was sind die Vorteile <br />
                         von CallOne?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="3">
-                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" /><br class="mobile-hidden" />
+                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Wie kann ich mit <br />
                         CallOne telefonieren?
@@ -562,10 +562,9 @@
                             </div>
                         </div>
 
-						<!-- TODO: Show block and add correct links -->
-                        <p class="mobile-centered" style="visibility:hidden">
-                            <a href="#todo" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="#todo" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p class="mobile-centered">
+                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
+                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>

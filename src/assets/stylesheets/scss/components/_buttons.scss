@@ -2,7 +2,7 @@
 	display: table;
 	text-transform: uppercase;
 	border-radius: 100px;
-	padding: 15px 40px;
+	padding: var(--gutter-xs) var(--gutter-m);
 	font-family: $font-headline;
 	font-weight: normal;
 	font-size: 16px;
@@ -10,6 +10,10 @@
 	letter-spacing: .1em;
 	cursor: pointer;
 	transition: all .3s ease;
+
+	&--small-padding {
+		padding: var(--gutter-xs);
+	}
 	
 	&--primary {
 		background-color: $color-primary;

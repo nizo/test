@@ -11,7 +11,26 @@ class Fader {
         this.indicatorsBox = this.initIndicators();
         this.header = this.initHeader();
 
-        this.faderInterval = setInterval(this.fade.bind(this), this.speed);
+        // this.faderInterval = setInterval(this.fade.bind(this), this.speed);
+        
+        respondToVisibility(this.fader, visible => {
+            if (visible) {
+                this.resizeFader();
+                this.faderInterval = setInterval(this.fade.bind(this), this.speed);
+            } else {
+                clearInterval(this.faderInterval);
+            }
+        });
+
+        window.addEventListener('resize', (e => {
+            this.resizeFader();
+        }).bind(this));
+    }
+
+    resizeFader() {
+        this.itemSize = this.getItemSize();
+        this.itemsBox.style.height = this.itemSize + 'px';
+        this.items.forEach(item => item.style.height = this.itemSize + 'px');
     }
 
     fade() {
@@ -60,15 +79,29 @@ class Fader {
         return header;
     }
 
+    getElementHeight(el) {
+        // let clone = el.cloneNode(true);
+        // clone.style.position = 'absolute';
+        // clone.style.width = 'auto';
+        // document.body.appendChild(clone);
+        // let cloneHeight = clone.offsetHeight;
+        // clone.remove();
+        // return cloneHeight;
+        return el.offsetHeight;
+    }
+
     getItemSize() {
         let tallest = 0;
         this.items.forEach(item => {
+            item.style.height = '';
             item.classList.add('fader__item--active');
-            if (item.offsetHeight > tallest)
-            tallest = item.offsetHeight;
+            let itemHeight = this.getElementHeight(item);
+            if (itemHeight > tallest)
+                tallest = itemHeight;
             item.classList.remove('fader__item--active');
             item.classList.add('fader__item--messured');
         });
+        this.items[this.currentItem].classList.add('fader__item--active');
         return tallest;
     }
 
@@ -78,6 +111,7 @@ class Fader {
         itemsBox.style.height = this.itemSize + 'px';
 
         this.items.forEach(item => {
+            item.style.height = this.itemSize + 'px';
             itemsBox.appendChild(item);
         });
 

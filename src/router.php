@@ -304,6 +304,17 @@ $r->addRoute('GET', '/preise', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/telefonanlage-mit-warteschleife', function() {
+  $title = 'Cloud Telefonanlage mit virtueller Warteschleife';
+  $description = 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer';
+  $keywords = '';
+  $background = '';
+  $ogUrl = $GLOBALS['url'] . '/telefonanlage-mit-warteschleife';
+  require_once('./layouts/header.php');
+  require_once('./views/de/warteschleifen-management.php');
+  require_once('./layouts/footer.php');
+});
+
 /* Product sites */
 $r->addRoute('GET', '/callcenter-loesung', function() {
   $title = 'Callcenter Software, Kundenservice, Sales, WebRTC, CTI, VoIP, Cloud';

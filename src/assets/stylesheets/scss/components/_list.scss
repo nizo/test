@@ -1,5 +1,5 @@
 .list {
-    &--checkmarks {
+    &--checkmarks, &--checkmarks-top {
         list-style: none;
         li {
             position: relative;
@@ -19,6 +19,14 @@
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
+            }
+        }
+    }
+
+    &--checkmarks-top {
+        li {
+            &:before {
+                top: calc(1em / 4);
             }
         }
     }

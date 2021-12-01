@@ -320,6 +320,7 @@
             <p><strong>Modifiers:</strong></p>
             <ul>
                 <li><code>.carddeck--no-indicators</code>: Removes indicators</li>
+                <li><code>.carddeck--right</code>: Switches carddeck to right side</li>
                 <li><code>data-speed="2000"</code>: Speed to cycle through cards in ms</li>
             </ul>
         </div>
@@ -616,6 +617,10 @@
         <div class="components__docs">
             <h1><a href="#fader">Fader</a></h1>
             <p>Simple fader to cycle between content.</p>
+            <p><strong>Modifiers:</strong></p>
+            <ul>
+                <li><code>.fader--no-header</code>: Hides fader header with indicators and title</li>
+            </ul>
         </div>
         <div class="components__preview">
             <div>
@@ -1262,11 +1267,11 @@
                 <div class="tablist">
                     <div class="tablist__links">
                         <div class="tablist__link tablist__link--active" data-tab="1">
-                            <strong>Office</strong><br />
+                            <strong>Office</strong>
                             <span class="icon-location">Potsdam</span>
                         </div>
                         <div class="tablist__link" data-tab="2">
-                            <strong>Remote</strong><br />
+                            <strong>Remote</strong>
                             <span class="icon-home">Lieblingsort</span>
                         </div>
                     </div>
