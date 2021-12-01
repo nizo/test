@@ -144,7 +144,7 @@ $uniqueID = uniqid();
     <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="5" data-no-footer="true" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig" style="min-width:320px;height:1200px;"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min" style="min-width:320px;height:1200px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="async"></script>
             <!-- Calendly inline widget end -->
         </div>
