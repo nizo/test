@@ -84,14 +84,6 @@
             <!-- End Google Tag Manager (noscript) -->
         <?php endif; ?>
     <?php endif; ?>
-    <!-- <div class="navbar ">
-        <?php
-        // require_once('./partials/top-promotion.php');
-        // require_once('./partials/main-navigation.php');
-        // require_once('./partials/mobile-navigation.php');
-        ?>
-    </div>
-    <div class="navbar-spacer"></div> -->
 
     <?php
     require_once('./partials/navigation.php');

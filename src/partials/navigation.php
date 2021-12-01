@@ -19,107 +19,45 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 
         <ul>
             <li class="navigation__item">
-                <div class="navigation__link navigation__link--highlight">
-                    <a href="/callcenter-software">Call Center Software</a>
-                </div>
-            </li>
-            <li class="navigation__item">
-                <div class="navigation__link navigation__link--arrow" style="--arrow-color:#333635">
-                    <a href="#">Produkte</a>
+                <div class="navigation__link navigation__link--arrow">
+                    <a href="#">Lösungen</a>
                 </div>
 
                 <div class="navigation__submenu submenu">
-                    <div class="submenu__left">
-                        <div class="submenu__headline">Lösungen</div>
-
-                        <a href="#" class="submenu__link">
-                            <div class="submenu__link-icon">
-                                <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" />
+                    <div class="submenu__left submenu__row">
+                        <div class="submenu__column submenu__column--border-right">
+                            <div class="submenu__link submenu__link--big">
+                                <div class="submenu__link-icon">
+                                    <img src="/assets/images/navigation/callone-plattform.png" alt="" />
+                                </div>
+                                <div class="submenu__link-text">
+                                    <strong>CallOne Plattform</strong>
+                                    <p>Unsere Kern-Telefonieprodukte die tief ineinander verzahnt sind</p>
+                                </div>
                             </div>
-                            <div class="sunmenu__link-text">
-                                <strong>Callcenter-Software</strong>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quia.</span>
+                        </div>
+                        <div class="submenu__column">
+                            <div class="submenu__link submenu__link--big">
+                                <div class="submenu__link-icon">
+                                    <img src="/assets/images/navigation/callone-plattform.png" alt="" />
+                                </div>
+                                <div class="submenu__link-text">
+                                    <strong>CallOne Plattform</strong>
+                                    <p>Unsere Kern-Telefonieprodukte die tief ineinander verzahnt sind</p>
+                                </div>
                             </div>
-                        </a>
-
-                        <div class="submenu__headline">Wussten Sie schon?</div>
-
-                        <div class="submenu__info">
-                            Mit der CallOne Callcenter Software können Sie zum Mond fliegen.<br />
-                            <a href="#">Mehr erfahren &raquo;</a>
                         </div>
                     </div>
                     <div class="submenu__right">
-                        <div class="submenu__headline">Produkte</div>
-
-                        <div class="submenu__grid">
-                            <div class="submenu__column">
-                                <a href="/callcenter-software" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-callcenter-software.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Software</strong>
-                                        <span>Virtuelle Callcenter Lösung für Sales und Service<br /><br /></span>
-                                    </div>
-                                </a>
-                                <a href="/voip-telefonanlage" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-voip.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>VoIP-Telefonanlage</strong>
-                                        <span>Virtuelle Telefonanlage, intuitiv bedienbar<br /><br /></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="submenu__column">
-                                <a href="/0800-lokal-nummern" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-numbers.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Rufnummern</strong>
-                                        <span>Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich und weltweit</span>
-                                    </div>
-                                </a>
-                                <a href="/call-tracking" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-calltracking.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Call-Tracking</strong>
-                                        <span>Eindeutiges verknüpfen Ihrer Bestellhotline mit einer laufenden Websession</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="submenu__column">
-                                <a href="/callcenter-bot" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-callcenter-bot.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>Callcenter-Bot</strong>
-                                        <span>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen lösen</span>
-                                    </div>
-                                </a>
-                                <a href="/softphone" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/icons_svg/menu-softphone.svg" alt="" />
-                                    </div>
-                                    <div class="sunmenu__link-text">
-                                        <strong>CallOne VoIP Softphone</strong>
-                                        <span>Softphone integriert in Ihren Lieblingsbrowser<br /><br /></span>
-                                    </div>
-                                </a>
-                            </div>
+                        <div class="submenu__ad">
+                            <img src="/assets/images/navigation/softphone-ad.png" alt="" />
                         </div>
                     </div>
                 </div>
             </li>
             <li class="navigation__item">
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="#">Integrationen</a>
+                    <a href="#">Produkte</a>
                 </div>
 
                 <div class="navigation__submenu submenu">
@@ -184,7 +122,7 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
             </li>
             <li class="navigation__item">
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="#">Referenzen</a>
+                    <a href="#">Warum CallOne</a>
                 </div>
 
                 <div class="navigation__submenu submenu">
@@ -248,91 +186,6 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                     </div>
                 </div>
             </li>
-            <li class="navigation__item navigation__item--divider">
-                <?php
-                $jobs = jobs_load();
-                ?>
-
-                <div class="navigation__link navigation__link--arrow navigation__link--faded">
-                    <a href="/karriere-bei-callone">Karriere<?php if (!empty($jobs)) { ?> <span class="navigation__notification"><?= count($jobs->jobs_get()); ?></span><?php } ?></a>
-                </div>
-
-                <div class="navigation__submenu submenu">
-                    <div class="submenu__left">
-                        <div class="submenu__headline">Karriere</div>
-
-                        <a href="/karriere-bei-callone" class="submenu__link">
-                            <div class="submenu__link-icon">
-                                <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" />
-                            </div>
-                            <div class="sunmenu__link-text">
-                                <strong>Karriere bei CallOne</strong>
-                                <span>Der Weg zu deinem Traumjob</span>
-                            </div>
-                        </a>
-
-                        <?php
-                        foreach ($jobs->categories_get() as $category) {
-                            ?>
-                            <a href="/karriere#<?= $jobs->category_id_get($category); ?>" class="submenu__link submenu__link--small">
-                                <strong><?= $category; ?></strong>
-                            </a>
-                            <?php
-                        }
-                        ?>
-                    </div>
-                    <div class="submenu__right">
-                        <div class="submenu__headline">Aktuelle Jobangebote</div>
-
-                        <div class="submenu__list">
-                            <?php
-                            foreach ($jobs->jobs_get() as $job)
-                            {
-                                if (empty ($job->url_get()))
-                                    continue;
-                                ?>
-                                <a href="<?= $job->url_get(); ?>" class="submenu__link submenu__link--small">
-                                    <strong><?= $job->title_get(); ?></strong>
-                                </a>
-                                <?php
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="navigation__item navigation__item--small-submenu">
-                <div class="navigation__link navigation__link--arrow navigation__link--faded">
-                    <a href="/ueber-uns">Unternehmen</a>
-                </div>
-
-                <div class="navigation__submenu submenu">
-                    <a href="/faq" class="submenu__link submenu__link--small">
-                        <strong>Häufige Fragen</strong>
-                        <span>Auf jede Frage eine Antwort</span>
-                    </a>
-                    <a href="/preise" class="submenu__link submenu__link--small">
-                        <strong>Preise</strong>
-                        <span>Alle Preise im Überblick</span>
-                    </a>
-                    <a href="/ueber-uns" class="submenu__link submenu__link--small">
-                        <strong>Über uns</strong>
-                        <span>Die Menschen hinter CallOne</span>
-                    </a>
-                    <a href="/kontakt" class="submenu__link submenu__link--small">
-                        <strong>Kontakt</strong>
-                        <span>Wir helfen Ihnen gerne</span>
-                    </a>
-                    <a href="/blog" class="submenu__link submenu__link--small">
-                        <strong>Blog</strong>
-                        <span>Lesenswerte Artikel</span>
-                    </a>
-                    <a href="/Impressum" class="submenu__link submenu__link--small">
-                        <strong>Impressum</strong>
-                        <span>Rechtliches</span>
-                    </a>
-                </div>
-            </li>
 
             <?php
             if ($isFaq) {
@@ -375,36 +228,20 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
                     </div>
                 </li>
                 <?php
-            } else {
-                // Display Login Menu
-                ?>
-                <li class="navigation__item navigation__item--small-submenu">
-                    <div class="navigation__link">
-                        <a href="https://box.callone.de" target="_blank">
-                            <img src="/assets/images/icons_svg/icon-authorization-black.svg" alt="" width="32" />
-                        </a>
-                    </div>
-
-                    <div class="navigation__submenu submenu">
-                        <a href="#" class="submenu__link submenu__link--small">
-                            <strong>Login</strong>
-                            <span>Zu Ihrem Dashboard</span>
-                        </a>
-                        <a href="#" class="submenu__link submenu__link--small">
-                            <strong>Registrieren</strong>
-                            <span>Jetzt Kontakt aufnehmen</span>
-                        </a>
-                    </div>
-                </li>
-                <?php
             }
             ?>
         </ul>
+
+        <a href="https://box.callone.de" class="navigation__login">
+            Login
+        </a>
 
         <div class="navigation__mobile-button">
             <div></div>
         </div>
     </div>
 </nav>
+
+<div class="navigation__shadow"></div>
 
 <div class="navigation-spacer"></div>
