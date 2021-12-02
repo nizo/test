@@ -77,26 +77,26 @@ $jobsCount = count($jobs->jobs_get());
                                 </div>
                             </div>
 
-                            <div class="submenu__link">
+                            <a href="#" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Reduzierte Wartedauern</strong>
                                     <p>Reduzieren Sie die Anruflast mit unserem Warteschleifenmanagement</p>
                                 </div>
-                            </div>
+                            </a>
 
-                            <div class="submenu__link">
+                            <a href="#" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Schnellere Bearbeitung</strong>
                                     <p>Schnittstellen beschleunigen die Bearbeitung von Kundenanliegen</p>
                                 </div>
-                            </div>
+                            </a>
 
-                            <div class="submenu__link">
+                            <a href="#" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Mehr Transparenz</strong>
                                     <p>Datenanalyse ermöglicht Prozessoptimierung & Kostensenkung</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="submenu__right">
