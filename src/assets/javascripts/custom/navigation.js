@@ -61,6 +61,10 @@ class Navigation {
     toggleMobileNav() {
         this.mobileButton.classList.toggle('navigation__mobile-button--active');
         this.navigation.classList.toggle('navigation--mobile-open');
+        this.navItems.forEach(navItem => navItem.classList.remove('navigation__item--open'));
+        if (this.navigation.classList.contains('navigation--mobile-open')) {
+            this.navItems[0].classList.add('navigation__item--open');
+        }
     }
 }
 
