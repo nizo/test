@@ -8,6 +8,15 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 
 $jobs = jobs_load();
 $jobsCount = count($jobs->jobs_get());
+
+if (!isset($menuPosition)) {
+    $menuPosition = '';
+}
+/*
+ * Menu Positions can be
+ * loesungen, produkte, callone
+ * Has to be set in router.php
+ */
 ?>
 
 <nav class="navigation">
@@ -17,7 +26,7 @@ $jobsCount = count($jobs->jobs_get());
         </a>
 
         <ul>
-            <li class="navigation__item">
+            <li class="navigation__item<?= $menuPosition == 'loesungen' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <a href="#">Lösungen</a>
                 </div>
@@ -26,7 +35,7 @@ $jobsCount = count($jobs->jobs_get());
                     <div class="submenu__inner">
                         <div class="submenu__left submenu__row">
                             <div class="submenu__column submenu__column--border-right" style="--col-width:360px;">
-                                <div class="submenu__link submenu__link--big submenu__link--border-bottom">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/callone-plattform.png" alt="" />
                                     </div>
@@ -56,39 +65,39 @@ $jobsCount = count($jobs->jobs_get());
                                     </div>
                                 </a>
 
-                                <a href="/voip-api" class="submenu__link">
+                                <a href="/callcenter-software-apps" class="submenu__link">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/menu-apis.png" alt="" />
                                     </div>
                                     <div class="submenu__link-text">
-                                        <strong>Kommunikations-APIs</strong>
-                                        <p>Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden</p>
+                                        <strong>Schnellere Bearbeitung</strong>
+                                        <p>Fertige Anbindungen beschleunigen die Bearbeitung von Kundenanliegen</p>
                                     </div>
                                 </a>
                             </div>
                             <div class="submenu__column" style="--col-width:270px;">
-                                <div class="submenu__link submenu__link--big submenu__link--border-bottom">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
                                         <strong>Geschäftsergebnisse</strong>
                                         <p>Mehrwerte, die Sie mit CallOne direkt zu spüren bekommen</p>
                                     </div>
                                 </div>
 
-                                <a href="#" class="submenu__link">
+                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link">
                                     <div class="submenu__link-text">
                                         <strong>Reduzierte Wartedauern</strong>
                                         <p>Reduzieren Sie die Anruflast mit unserem Warteschleifenmanagement</p>
                                     </div>
                                 </a>
 
-                                <a href="#" class="submenu__link">
+                                <a href="/voip-api" class="submenu__link">
                                     <div class="submenu__link-text">
-                                        <strong>Schnellere Bearbeitung</strong>
-                                        <p>Schnittstellen beschleunigen die Bearbeitung von Kundenanliegen</p>
+                                        <strong>Kommunikations-APIs</strong>
+                                        <p>Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden</p>
                                     </div>
                                 </a>
 
-                                <a href="#" class="submenu__link">
+                                <a href="/statistiken" class="submenu__link">
                                     <div class="submenu__link-text">
                                         <strong>Mehr Transparenz</strong>
                                         <p>Datenanalyse ermöglicht Prozessoptimierung & Kostensenkung</p>
@@ -111,7 +120,7 @@ $jobsCount = count($jobs->jobs_get());
                     </div>
                 </div>
             </li>
-            <li class="navigation__item">
+            <li class="navigation__item<?= $menuPosition == 'produkte' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <a href="#">Produkte</a>
                 </div>
@@ -120,7 +129,7 @@ $jobsCount = count($jobs->jobs_get());
                     <div class="submenu__inner">
                         <div class="submenu__left">
                             <div class="submenu__row">
-                                <div class="submenu__link submenu__link--big submenu__link--border-bottom">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/callone-produkte.png" alt="" />
                                     </div>
@@ -187,7 +196,7 @@ $jobsCount = count($jobs->jobs_get());
                             </div>
                         </div>
                         <div class="submenu__right">
-                            <div class="submenu__link submenu__link--big submenu__link--border-bottom">
+                            <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
                                     <strong>Unser Serviceangebot</strong>
                                     <p>Mit persönlichen Ansprechpartnern erklären wir unsere Lösungen</p>
@@ -218,7 +227,7 @@ $jobsCount = count($jobs->jobs_get());
                     </div>
                 </div>
             </li>
-            <li class="navigation__item">
+            <li class="navigation__item<?= $menuPosition == 'callone' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <a href="#">Warum CallOne</a>
                 </div>
@@ -227,7 +236,7 @@ $jobsCount = count($jobs->jobs_get());
                     <div class="submenu__inner">
                         <div class="submenu__left submenu__row">
                             <div class="submenu__column" style="--col-width:270px;">
-                                <div class="submenu__link submenu__link--big submenu__link--border-bottom">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
                                         <strong>Warum CallOne?</strong>
                                         <p>Was uns zu einem hervoragenden deutschen Telefonieanbieter macht</p>
@@ -264,7 +273,7 @@ $jobsCount = count($jobs->jobs_get());
                             </div>
                         </div>
                         <div class="submenu__right" style="--width:300px">
-                            <div class="submenu__link submenu__link--big submenu__link--border-bottom">
+                            <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
                                     <strong>Unsere Referenzen</strong>
                                     <p>Kunden, die erfolgreich mit CallOne Ihre Businesstelefonie bestreiten</p>
@@ -384,9 +393,10 @@ $jobsCount = count($jobs->jobs_get());
             ?>
         </ul>
 
-        <a href="https://box.callone.de" class="navigation__login">
-            Login
-        </a>
+        <div class="navigation__right">
+            <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
+            <a href="https://box.callone.de" target="_blank">Login</a>
+        </div>
 
         <div class="navigation__mobile-button">
             <div></div>

@@ -157,6 +157,7 @@ $r->addRoute('GET', '/datenschutz', function() {
   $description = 'CallOne bietet VoIP-Telefonanlagen und Callcenter Lösungen aus der deutschen Cloud. Datenschutz hat für uns oberste Priorität. ✔  DSGVO-konform  ✔';
   $keywords = '';
   $background = 'bg-landingpages';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/datenschutz';
   require_once('./layouts/header.php');
   require_once('./views/de/datenschutz.php');
@@ -168,6 +169,7 @@ $r->addRoute('GET', '/statistiken', function() {
   $description = 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.';
   $keywords = '';
   $background = '';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/statistiken';
   require_once('./layouts/header.php');
   require_once('./views/de/statistiken.php');
@@ -228,6 +230,7 @@ $r->addRoute('GET', '/karriere', function() {
   $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen.';
   $keywords = '';
   $background = '';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/karriere';
   require_once('./layouts/header.php');
   require_once('./views/de/karriere.php');
@@ -240,6 +243,7 @@ $r->addRoute('GET', '/karriere-bei-callone', function() {
   $description = 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen.';
   $keywords = '';
   $background = '';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/karriere-bei-callone';
   require_once('./layouts/header.php');
   require_once('./views/de/karriere-bei-callone.php');
@@ -263,6 +267,7 @@ foreach ($jobs->jobs_get() as $job)
     $description = $job->title_get().': '.$job->description_get();
     $keywords = '';
     $background = '';
+    $menuPosition = 'callone';
     $ogUrl = $GLOBALS['url'] . $job->url_get();
     require_once('./layouts/header.php');
     require_once('./views/de/karriere-details.php');
@@ -276,6 +281,7 @@ $r->addRoute('GET', '/callcenter-software', function() {
   $description = 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!';
   $keywords = 'callcenter software, call center software, ACD, contact center software, helpdesk, computer telephony integration, cti, warteschleifenmanagement, callbackfuntion, kostenlos testen';
   $background = '';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software';
   require_once('./layouts/header.php');
   require_once('./views/de/callcenter-software.php');
@@ -309,6 +315,7 @@ $r->addRoute('GET', '/telefonanlage-mit-warteschleife', function() {
   $description = 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer';
   $keywords = '';
   $background = '';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/telefonanlage-mit-warteschleife';
   require_once('./layouts/header.php');
   require_once('./views/de/warteschleifen-management.php');
@@ -332,6 +339,7 @@ $r->addRoute('GET', '/0800-lokal-nummern', function() {
   $description = ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!';
   $keywords = '';
   $background = 'bg-preisanfrage';
+  $menuPosition = 'produkte';
   $ogUrl = $GLOBALS['url'] . '/0800-lokal-nummern';
   require_once('./layouts/header.php');
   require_once('./views/de/rufnummern.php');
@@ -389,6 +397,7 @@ $r->addRoute('GET', '/voip-telefonanlage', function() {
   $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager';
   $keywords = '';
   $background = 'bg-landingpages';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
   require_once('./layouts/header.php');
   require_once('./views/de/voip-telefonanlage.php');
@@ -400,6 +409,7 @@ $r->addRoute('GET', '/call-tracking', function() {
   $description = ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.';
   $keywords = 'call,tracking,browsing,individuelle,rufnummern,websession,kunden,hotline,kundendaten,anrufe,customer journey';
   $background = 'bg-landingpages';
+  $menuPosition = 'produkte';
   $ogUrl = $GLOBALS['url'] . '/call-tracking';
   $canonical = $GLOBALS['url'] . '/call-tracking';
   require_once('./layouts/header.php');
@@ -412,6 +422,7 @@ $r->addRoute('GET', '/callcenter-bot', function() {
   $description = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.';
   $keywords = 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR';
   $background = 'bg-casestudy';
+  $menuPosition = 'produkte';
   $ogUrl = $GLOBALS['url'] . '/callcenter-bot';
   $ogImage = 'https://www.callone.de/assets/images/icons_png/robot-ogImage.png';
   $canonical = $GLOBALS['url'] . '/callcenter-bot';
@@ -470,6 +481,7 @@ $r->addRoute('GET', '/ueber-uns', function() {
   $description = 'CallOne bietet cloudbasierte Telefonieprodukte. Einfach bedienbare VoIP-Telefonanlagen, professionelle cloudbasierte Callcenter Software. Wie können wir helfen?';
   $keywords = '';
   $background = '';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/ueber-uns';
   require_once('./layouts/header.php');
   require_once('./views/de/ueber-uns.php');
@@ -583,6 +595,7 @@ $r->addRoute('GET', '/voip-api', function() {
   $description = 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.';
   $keywords = 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon';
   $background = '';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/api';
   require_once('./layouts/header.php');
   require_once('./views/de/voip-api.php');
@@ -605,6 +618,7 @@ $r->addRoute('GET', '/softphone', function() {
   $description = 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter';
   $keywords = 'Microsoft TEAMS, VoIP, SIP Phone, Softphone, 1-Click, SBC, Sipgate, Placetel, Telekom, Cloud Telefonanlage, Telefonieren mit dem PC, PBX';
   $background = '';
+  $menuPosition = 'produkte';
   $ogUrl = $GLOBALS['url'] . '/softphone';
   require_once('./layouts/header.php');
   require_once('./views/de/softphone.php');
