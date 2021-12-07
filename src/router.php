@@ -217,6 +217,7 @@ $r->addRoute('GET', '/preiskalkulator', function() {
   $description = 'Berechnen Sie den Preis Ihrer VoIP-Telefonanlage und Callcenter-Lösung passend zu Ihren Anforderungen. CallOne cloudbasierte Telefonanlagen für Sales und Service';
   $keywords = 'call center, software, callcenter, lösung, voip-telefonanlage, voip, telefonanlage, rufnummern, schnittstellen, integrationen, preis, preise, rechner, preiskalkulator, berechnen, kosten';
   $background = 'full-bg background-transition';
+  $menuPosition = 'produkte';
   $ogUrl = $GLOBALS['url'] . '/preiskalkulator';
   require_once('./layouts/header.php');
   require_once('./views/de/preiskalkulator.php');

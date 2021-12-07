@@ -33,6 +33,10 @@ $navMinHeight: 570px;
         opacity: 0;
     }
 
+    &--mobile-scrolllock {
+        overflow: hidden;
+    }
+
     &--scrolled {
         height: var(--navigationHeightScrolled);
 
@@ -290,7 +294,8 @@ $navMinHeight: 570px;
     }
 
     &__left, &__right {
-        // padding: var(--gutter-m) var(--gutter-s);
+        display: flex;
+        flex-direction: column;
         padding: var(--gutter-s) 0;
     }
 
@@ -309,6 +314,9 @@ $navMinHeight: 570px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+    &__row--fill {
+        flex: 1;
     }
 
     &__column {

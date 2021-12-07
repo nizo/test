@@ -77,7 +77,7 @@ if (!isset($menuPosition)) {
                             </div>
                             <div class="submenu__column" style="--col-width:270px;">
                                 <div class="submenu__mobile-divider"></div>
-                                
+
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
                                         <strong>Geschäftsergebnisse</strong>
@@ -109,7 +109,7 @@ if (!isset($menuPosition)) {
                         </div>
                         <div class="submenu__right">
                             <div class="submenu__ad">
-                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="" /></a>
+                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="" width="192" /></a>
                             </div>
 
                             <a href="/softphone" class="submenu__link submenu__link--big">
@@ -142,7 +142,7 @@ if (!isset($menuPosition)) {
                                 </div>
                             </div>
                             
-                            <div class="submenu__row">
+                            <div class="submenu__row submenu__row--fill">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:360px;">
                                     <a href="/0800-lokal-nummern" class="submenu__link">
                                         <div class="submenu__link-icon">
@@ -163,16 +163,6 @@ if (!isset($menuPosition)) {
                                             <p>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen</p>
                                         </div>
                                     </a>
-
-                                    <a href="/call-tracking" class="submenu__link">
-                                        <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="" />
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>Call-Tracking</strong>
-                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
-                                        </div>
-                                    </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:340px;">
                                     <a href="/softphone" class="submenu__link">
@@ -184,8 +174,18 @@ if (!isset($menuPosition)) {
                                             <p>Softphone integriert in Ihren Lieblingsbrowser</p>
                                         </div>
                                     </a>
+                                    
+                                    <a href="/call-tracking" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Call-Tracking</strong>
+                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
+                                        </div>
+                                    </a>
 
-                                    <a href="#todo" class="submenu__link">
+                                    <!-- <a href="#todo" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="" />
                                         </div>
@@ -193,7 +193,7 @@ if (!isset($menuPosition)) {
                                             <strong>Virtueller Assistent</strong>
                                             <p>Managen Sie Ihr Telefonaufkommen mit einem Serviceboard</p>
                                         </div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ if (!isset($menuPosition)) {
                                 </div>
                             </div>
 
-                            <a href="#todo" class="submenu__link">
+                            <a href="#" class="submenu__link" data-openmodal="contact-sales">
                                 <div class="submenu__link-text">
                                     <strong>Produktdemo<span class="submenu__link-tag">Live</span></strong>
                                     <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
@@ -219,7 +219,7 @@ if (!isset($menuPosition)) {
                                 </div>
                             </a>
 
-                            <a href="#todo" class="submenu__link">
+                            <a href="/preiskalkulator" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Preiskonfigurator</strong>
                                     <p>Finden Sie heraus, wieviel Sie Ihr CallOne-Paket ungefähr kostet</p>
@@ -236,89 +236,93 @@ if (!isset($menuPosition)) {
 
                 <div class="navigation__submenu submenu">
                     <div class="submenu__inner">
-                        <div class="submenu__left submenu__row">
-                            <div class="submenu__column" style="--col-width:270px;">
+                        <div class="submenu__left">
+                            <div class="submenu__row">
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
-                                        <strong>Warum CallOne?</strong>
-                                        <p>Was uns zu einem hervoragenden deutschen Telefonieanbieter macht</p>
+                                        <strong>Unsere Referenzen</strong>
+                                        <p>Kunden, die erfolgreich mit CallOne <br />Ihre Businesstelefonie bestreiten</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="submenu__row">
+                                <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
+                                    <a href="/case-study-check24" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/check24.png" alt="" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Check24</strong>
+                                            <p>Umfangreiche Integration über APIs & Webhooks</p>
+                                        </div>
+                                    </a>
+        
+                                    <a href="/case-study-flaconi" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/flaconi.png" alt="" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Flaconi</strong>
+                                            <p>Zusammenspiel von Telefonanlage & ACD-Lösung</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="submenu__column" style="--col-width:300px">
+                                    <a href="/case-study-niceshops" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/niceshops.png" alt="" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>niceshops</strong>
+                                            <p>Callcenter-Software, VoIP mit Freshdesk-Anbindung</p>
+                                        </div>
+                                    </a>
 
-                                <a href="#todo" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Customer Success</strong>
-                                        <p>Wie unsere Projekt Manager*innen Sie tiefgehend unterstützen</p>
-                                    </div>
-                                </a>
-
-                                <a href="/datenschutz" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Datenschutz</strong>
-                                        <p>Wie wir Ausfallsicherheit und DSGVO-Kompatibilität garantieren</p>
-                                    </div>
-                                </a>
-
-                                <a href="/ueber-uns" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Über uns</strong>
-                                        <p>Wer wir sind, unsere Geschichte und Unternehmenskultur</p>
-                                    </div>
-                                </a>
-
-                                <a href="/karriere-bei-callone" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Karriere<?php if ($jobsCount > 0) { ?><span class="submenu__link-tag"><?= $jobsCount; ?> Jobs</span><?php } ?></strong>
-                                        <p>Wir suchen Talente, die die CallOne Erfolgsgeschichte weiterschreiben</p>
-                                    </div>
-                                </a>
+                                    <a href="/case-study-apodiscounter" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/apodiscounter.png" alt="" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Apodiscounter</strong>
+                                            <p>Intelligente Anrufsteuerung mit KI</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="submenu__right" style="--width:300px">
+                        <div class="submenu__right" style="--width:270px">
                             <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
-                                    <strong>Unsere Referenzen</strong>
-                                    <p>Kunden, die erfolgreich mit CallOne Ihre Businesstelefonie bestreiten</p>
+                                    <strong>Warum CallOne?</strong>
+                                    <p>Was uns zu einem hervoragenden deutschen Telefonieanbieter macht</p>
                                 </div>
                             </div>
 
-                            <a href="/case-study-check24" class="submenu__link">
-                                <div class="submenu__link-icon">
-                                    <img src="/assets/images/navigation/check24.png" alt="" />
-                                </div>
+                            <!-- <a href="#todo" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Check24</strong>
-                                    <p>Umfangreiche Integration über APIs & Webhooks</p>
+                                    <strong>Customer Success</strong>
+                                    <p>Wie unsere Projekt Manager*innen Sie tiefgehend unterstützen</p>
+                                </div>
+                            </a> -->
+
+                            <!-- <a href="/datenschutz" class="submenu__link">
+                                <div class="submenu__link-text">
+                                    <strong>Datenschutz</strong>
+                                    <p>Wie wir Ausfallsicherheit und DSGVO-Kompatibilität garantieren</p>
+                                </div>
+                            </a> -->
+
+                            <a href="/ueber-uns" class="submenu__link">
+                                <div class="submenu__link-text">
+                                    <strong>Über uns</strong>
+                                    <p>Wer wir sind, unsere Geschichte und Unternehmenskultur</p>
                                 </div>
                             </a>
 
-                            <a href="/case-study-flaconi" class="submenu__link">
-                                <div class="submenu__link-icon">
-                                    <img src="/assets/images/navigation/flaconi.png" alt="" />
-                                </div>
+                            <a href="/karriere-bei-callone" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Flaconi</strong>
-                                    <p>Zusammenspiel von Telefonanlage & ACD-Lösung</p>
-                                </div>
-                            </a>
-
-                            <a href="/case-study-niceshops" class="submenu__link">
-                                <div class="submenu__link-icon">
-                                    <img src="/assets/images/navigation/niceshops.png" alt="" />
-                                </div>
-                                <div class="submenu__link-text">
-                                    <strong>niceshops</strong>
-                                    <p>Callcenter-Software, VoIP mit Freshdesk-Anbindung</p>
-                                </div>
-                            </a>
-
-                            <a href="/case-study-apodiscounter" class="submenu__link">
-                                <div class="submenu__link-icon">
-                                    <img src="/assets/images/navigation/apodiscounter.png" alt="" />
-                                </div>
-                                <div class="submenu__link-text">
-                                    <strong>Apodiscounter</strong>
-                                    <p>Intelligente Anrufsteuerung mit KI</p>
+                                    <strong>Karriere<?php if ($jobsCount > 0) { ?><span class="submenu__link-tag"><?= $jobsCount; ?> Jobs</span><?php } ?></strong>
+                                    <p>Wir suchen Talente, die die CallOne Erfolgsgeschichte weiterschreiben</p>
                                 </div>
                             </a>
                         </div>

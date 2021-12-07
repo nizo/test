@@ -64,10 +64,10 @@ class Navigation {
             if (navItem.classList.contains('navigation__item--active'))
                 hasActive = i;
         });
-        console.log(hasActive);
         if (this.navigation.classList.contains('navigation--mobile-open')) {
             this.navItems[hasActive].classList.add('navigation__item--open');
         }
+        document.body.classList.toggle('navigation--mobile-scrolllock');
     }
 }
 
