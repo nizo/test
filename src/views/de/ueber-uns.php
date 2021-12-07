@@ -31,7 +31,7 @@
     <div class="section__content section__content--wide" id="geschichte">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <h1>Wir realisieren erfolgreiche Telekommunikationslösungen.</h1>
+                <h1>Wir realisieren erfolgreiche Telekommunikations&shy;lösungen.</h1>
                 <p class="bigtext">Egal ob Start-Up oder Traditionsmarke. Wir bieten passgenaue Kommunikationslösungen, die Unternehmen messbare Erfolge liefern.</p>
                 
                 <div class="collage desktop-hidden">
