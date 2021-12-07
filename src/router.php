@@ -584,6 +584,7 @@ $r->addRoute('GET', '/callcenter-software-apps', function() {
   $description = 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet';
   $keywords = 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage';
   $background = '';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/api';
   require_once('./layouts/header.php');
   require_once('./views/de/callcenter-software-apps.php');
