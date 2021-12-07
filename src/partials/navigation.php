@@ -76,6 +76,8 @@ if (!isset($menuPosition)) {
                                 </a>
                             </div>
                             <div class="submenu__column" style="--col-width:270px;">
+                                <div class="submenu__mobile-divider"></div>
+                                
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
                                         <strong>Geschäftsergebnisse</strong>

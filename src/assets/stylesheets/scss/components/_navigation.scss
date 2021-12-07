@@ -477,7 +477,7 @@ a.submenu__link {
                     background-color: #fff;
                     margin-left: 0;
                     justify-content: space-evenly;
-                    border-bottom: 1px solid rgba(#000, .2);
+                    border-bottom: 2px solid rgba(#000, .2);
                 }
             }
 
@@ -542,6 +542,13 @@ a.submenu__link {
             img {
                 display: none;
             }
+        }
+
+        &__mobile-divider {
+            width: calc(100% - (var(--gutter-s) * 2));
+            height: 2px;
+            margin: var(--gutter-xs) auto;
+            background-color: rgba(#000, .2);
         }
 
         &__column {
