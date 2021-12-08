@@ -535,7 +535,8 @@ a.submenu__link {
 
         &__left, &__right {
             width: 100%;
-            flex: 1;
+            flex: auto;
+            display: block;
         }
 
         &__row {
@@ -544,6 +545,10 @@ a.submenu__link {
 
         &__title {
             display: none;
+        }
+
+        &__link {
+            height: auto;
         }
 
         &__ad {
