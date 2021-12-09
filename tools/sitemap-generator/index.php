@@ -144,13 +144,35 @@ class Parser
     private $doc;
     private $url;
 
-    function __construct($url)
+    function __construct ($url, $whitelist = [])
 	{
         $this->url = $url;
-        $this->doc = new DOMDocument();
-        @$this->doc->loadHTMLFile($this->url);
-		$this->exclude_dom_parts();
+		$this->whitelist = $whitelist;
+        $this->doc = new DOMDocument ();
+        @$this->doc->loadHTMLFile ($this->url);
+		if (count ($this->whitelist)) {
+			$this->reduce_to_whitelist ();
+		} else {
+			$this->exclude_dom_parts ();
+		}
     }
+
+	function reduce_to_whitelist ()
+	{
+		$html = '';
+		$xpath = new DOMXPath ($this->doc);
+
+		foreach ($this->whitelist as $whitelist)
+		{
+			foreach ($xpath->query ('//*[contains(attribute::class, "'.$whitelist.'")]') as $e)
+			{
+				$html .= $e->nodeValue;
+			}
+		}
+
+		$this->doc = new DOMDocument ();
+		@$this->doc->loadHTML($html);
+	}
 
 	function exclude_dom_parts ()
 	{
@@ -391,7 +413,8 @@ $output_file = $argv[1];
 define ('DOMAIN', 'https://www.callone.de');
 $structure = new structure ();
 $current_item = $structure->item_add ('/', null);
-walk_links ($structure, $current_item, '');
+$parser = new Parser (DOMAIN.'/', ['navbar']);
+// walk_links ($structure, $current_item, '');
 
 // Build graph
 $graph = [];
