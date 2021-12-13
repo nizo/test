@@ -173,6 +173,34 @@
         </y:ShapeNode>
       </data>
     </node>
+    <node id="/preise">
+      <data key="d2"><![CDATA[/preise]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="657"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preise</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Preise vergleichen VoIP-Telefonanlage und Callcenter Software von CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/preiskalkulator">
+      <data key="d2"><![CDATA[/preiskalkulator]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="630"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preiskalkulator</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <node id="/cti-schnittstellen">
       <data key="d2"><![CDATA[/cti-schnittstellen]]></data>
       <data key="d0">
@@ -411,76 +439,6 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/call-tracking">
-      <data key="d2"><![CDATA[/call-tracking]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="495"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/call-tracking</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Call-Tracking: Individuelle Rufnummern für Ihre Kunden&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/demos/callbrowsing/reiseanbieter/">
-      <data key="d2"><![CDATA[/demos/callbrowsing/reiseanbieter/]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="414"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/demos/callbrowsing/reiseanbieter/</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Pauschalreisen günstig buchen bei Travel Hero&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/preiskalkulator">
-      <data key="d2"><![CDATA[/preiskalkulator]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="630"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preiskalkulator</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/case-study-flaconi">
-      <data key="d2"><![CDATA[/case-study-flaconi]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="639"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-flaconi</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;VoIP-Telefonanlage und Callcenter Software für das gesamte Unternehmen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/case-study-apodiscounter">
-      <data key="d2"><![CDATA[/case-study-apodiscounter]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="621"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-apodiscounter</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Anrufsteuerung im virtuellen Callcenter mittels REST-API und Webhooks&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <edge id="/-/callcenter-software_" source="/" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
@@ -701,7 +659,17 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-funktionen-/callcenter-software_" source="/callcenter-software-funktionen" target="/callcenter-software">
+    <edge id="/callcenter-software-funktionen-/preise_" source="/callcenter-software-funktionen" target="/preise">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/preise-/preiskalkulator_" source="/preise" target="/preiskalkulator">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -821,7 +789,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/callcenter-software_" source="/voip-telefonanlage" target="/callcenter-software">
+    <edge id="/voip-telefonanlage-/preise_" source="/voip-telefonanlage" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1071,7 +1039,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlagen-funktionen-/callcenter-software_" source="/voip-telefonanlagen-funktionen" target="/callcenter-software">
+    <edge id="/voip-telefonanlagen-funktionen-/preise_" source="/voip-telefonanlagen-funktionen" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1162,16 +1130,6 @@
       </data>
     </edge>
     <edge id="/callcenter-loesung-/cti-salesforce_" source="/callcenter-loesung" target="/cti-salesforce">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/call-tracking-/demos/callbrowsing/reiseanbieter/_" source="/call-tracking" target="/demos/callbrowsing/reiseanbieter/">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

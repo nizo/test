@@ -5,43 +5,15 @@
   <key attr.name="description" attr.type="string" for="node" id="d2"/>
   <key attr.name="description" attr.type="string" for="edge" id="d3"/>
   <graph edgedefault="directed" id="G">
-    <node id="/">
-      <data key="d2"><![CDATA[/]]></data>
+    <node id="/callcenter-software-integrationen">
+      <data key="d2"><![CDATA[/callcenter-software-integrationen]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="612"/>
-          <y:Fill color="#ff0000" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/callcenter-software">
-      <data key="d2"><![CDATA[/callcenter-software]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="666"/>
-          <y:Fill color="#00ff00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/telefonanlage-mit-warteschleife">
-      <data key="d2"><![CDATA[/telefonanlage-mit-warteschleife]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="432"/>
+          <y:Geometry height="60" width="1026"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/telefonanlage-mit-warteschleife</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Cloud Telefonanlage mit virtueller Warteschleife&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software-integrationen</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Integrieren Sie Anrufe in Ihre Businesstools und steuern Sie Anrufe bequem mit in Ihre CRM, Ticketing oder BI-Tool&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
@@ -56,34 +28,6 @@
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-bot</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/voip-api">
-      <data key="d2"><![CDATA[/voip-api]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="450"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/voip-api</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Telefon Schnittstellen für alle Belange | CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="/statistiken">
-      <data key="d2"><![CDATA[/statistiken]]></data>
-      <data key="d0">
-        <y:ShapeNode>
-          <y:Geometry height="60" width="585"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/statistiken</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Call Center Software Statistiken | KPI, SLA mit BI-Integration​&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
@@ -159,15 +103,15 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/callcenter-software-funktionen">
-      <data key="d2"><![CDATA[/callcenter-software-funktionen]]></data>
+    <node id="/sales-solutions">
+      <data key="d2"><![CDATA[/sales-solutions]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="594"/>
+          <y:Geometry height="60" width="342"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software-funktionen</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/sales-solutions</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Outbound Callcenter Software | CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
@@ -187,15 +131,113 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/sales-solutions">
-      <data key="d2"><![CDATA[/sales-solutions]]></data>
+    <node id="/callcenter-software">
+      <data key="d2"><![CDATA[/callcenter-software]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="342"/>
+          <y:Geometry height="60" width="666"/>
+          <y:Fill color="#00ff00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/telefonanlage-mit-warteschleife">
+      <data key="d2"><![CDATA[/telefonanlage-mit-warteschleife]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="432"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/sales-solutions</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Outbound Callcenter Software | CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/telefonanlage-mit-warteschleife</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Cloud Telefonanlage mit virtueller Warteschleife&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/voip-api">
+      <data key="d2"><![CDATA[/voip-api]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="450"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/voip-api</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Telefon Schnittstellen für alle Belange | CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/statistiken">
+      <data key="d2"><![CDATA[/statistiken]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="585"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/statistiken</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Call Center Software Statistiken | KPI, SLA mit BI-Integration​&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/callcenter-software-funktionen">
+      <data key="d2"><![CDATA[/callcenter-software-funktionen]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="594"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software-funktionen</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/preise">
+      <data key="d2"><![CDATA[/preise]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="657"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preise</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Preise vergleichen VoIP-Telefonanlage und Callcenter Software von CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/preiskalkulator">
+      <data key="d2"><![CDATA[/preiskalkulator]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="630"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preiskalkulator</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/cti-salesforce">
+      <data key="d2"><![CDATA[/cti-salesforce]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="270"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/cti-salesforce</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Salesforce Integration&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
@@ -397,15 +439,29 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/cti-salesforce">
-      <data key="d2"><![CDATA[/cti-salesforce]]></data>
+    <node id="/case-study-flaconi">
+      <data key="d2"><![CDATA[/case-study-flaconi]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="270"/>
+          <y:Geometry height="60" width="639"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/cti-salesforce</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Salesforce Integration&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-flaconi</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;VoIP-Telefonanlage und Callcenter Software für das gesamte Unternehmen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/case-study-apodiscounter">
+      <data key="d2"><![CDATA[/case-study-apodiscounter]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="621"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-apodiscounter</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Anrufsteuerung im virtuellen Callcenter mittels REST-API und Webhooks&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
@@ -439,103 +495,265 @@
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/preiskalkulator">
-      <data key="d2"><![CDATA[/preiskalkulator]]></data>
+    <node id="/kontakt">
+      <data key="d2"><![CDATA[/kontakt]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="630"/>
+          <y:Geometry height="60" width="63"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preiskalkulator</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/kontakt</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Kontakt&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/case-study-flaconi">
-      <data key="d2"><![CDATA[/case-study-flaconi]]></data>
+    <node id="/impressum">
+      <data key="d2"><![CDATA[/impressum]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="639"/>
+          <y:Geometry height="60" width="567"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-flaconi</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;VoIP-Telefonanlage und Callcenter Software für das gesamte Unternehmen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/impressum</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Impressum - Callcenter Software und VoIP-Telefonanlagen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="/case-study-apodiscounter">
-      <data key="d2"><![CDATA[/case-study-apodiscounter]]></data>
+    <node id="/datenschutz">
+      <data key="d2"><![CDATA[/datenschutz]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="621"/>
+          <y:Geometry height="60" width="333"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-apodiscounter</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Anrufsteuerung im virtuellen Callcenter mittels REST-API und Webhooks&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/datenschutz</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Datenschutz - DSGVO, Cloud EU&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
       </data>
     </node>
-    <edge id="/-/callcenter-software_" source="/" target="/callcenter-software">
+    <node id="/download">
+      <data key="d2"><![CDATA[/download]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="153"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/download</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Downloads&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/microsip">
+      <data key="d2"><![CDATA[/microsip]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="216"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/microsip</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;MicroSIP vorkonfiguriert&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/testen">
+      <data key="d2"><![CDATA[/testen]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="63"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/testen</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Kontakt&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="/callcenter-software-integrationen-/callcenter-bot_" source="/callcenter-software-integrationen" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/voip-api_" source="/" target="/voip-api">
+    <edge id="/callcenter-software-integrationen-/callcenter-software-apps_" source="/callcenter-software-integrationen" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/callcenter-software-apps_" source="/" target="/callcenter-software-apps">
+    <edge id="/callcenter-software-integrationen-/sales-solutions_" source="/callcenter-software-integrationen" target="/sales-solutions">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/callcenter-bot_" source="/" target="/callcenter-bot">
+    <edge id="/callcenter-software-integrationen-/callcenter-software_" source="/callcenter-software-integrationen" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/telefonanlage-mit-warteschleife_" source="/" target="/telefonanlage-mit-warteschleife">
+    <edge id="/callcenter-software-integrationen-/voip-api_" source="/callcenter-software-integrationen" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/statistiken_" source="/" target="/statistiken">
+    <edge id="/callcenter-software-integrationen-/case-study-niceshops_" source="/callcenter-software-integrationen" target="/case-study-niceshops">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/freshdesk-callcenter-software_" source="/callcenter-software-apps" target="/freshdesk-callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/zendesk-cti-ticketing_" source="/callcenter-software-apps" target="/zendesk-cti-ticketing">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/tableau-callcenter-connector_" source="/callcenter-software-apps" target="/tableau-callcenter-connector">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/softphone_" source="/callcenter-software-apps" target="/softphone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/sales-solutions-/cti-schnittstellen_" source="/sales-solutions" target="/cti-schnittstellen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/sales-solutions-/tableau-callcenter-connector_" source="/sales-solutions" target="/tableau-callcenter-connector">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/callcenter-bot_" source="/cti-schnittstellen" target="/callcenter-bot">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/callcenter-software-apps_" source="/cti-schnittstellen" target="/callcenter-software-apps">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/sales-solutions_" source="/cti-schnittstellen" target="/sales-solutions">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/callcenter-software_" source="/cti-schnittstellen" target="/callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/voip-api_" source="/cti-schnittstellen" target="/voip-api">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/case-study-niceshops_" source="/cti-schnittstellen" target="/case-study-niceshops">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
@@ -661,7 +879,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-apps-/freshdesk-callcenter-software_" source="/callcenter-software-apps" target="/freshdesk-callcenter-software">
+    <edge id="/callcenter-software-funktionen-/preise_" source="/callcenter-software-funktionen" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -671,117 +889,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-apps-/zendesk-cti-ticketing_" source="/callcenter-software-apps" target="/zendesk-cti-ticketing">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/callcenter-software-apps-/tableau-callcenter-connector_" source="/callcenter-software-apps" target="/tableau-callcenter-connector">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/callcenter-software-apps-/softphone_" source="/callcenter-software-apps" target="/softphone">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/callcenter-software-funktionen-/callcenter-software_" source="/callcenter-software-funktionen" target="/callcenter-software">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/cti-schnittstellen-/callcenter-bot_" source="/cti-schnittstellen" target="/callcenter-bot">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/cti-schnittstellen-/callcenter-software-apps_" source="/cti-schnittstellen" target="/callcenter-software-apps">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/cti-schnittstellen-/sales-solutions_" source="/cti-schnittstellen" target="/sales-solutions">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/cti-schnittstellen-/callcenter-software_" source="/cti-schnittstellen" target="/callcenter-software">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/cti-schnittstellen-/voip-api_" source="/cti-schnittstellen" target="/voip-api">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/cti-schnittstellen-/case-study-niceshops_" source="/cti-schnittstellen" target="/case-study-niceshops">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/sales-solutions-/cti-schnittstellen_" source="/sales-solutions" target="/cti-schnittstellen">
-      <data key="d1">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="/sales-solutions-/tableau-callcenter-connector_" source="/sales-solutions" target="/tableau-callcenter-connector">
+    <edge id="/preise-/preiskalkulator_" source="/preise" target="/preiskalkulator">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -821,7 +929,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/callcenter-software_" source="/voip-telefonanlage" target="/callcenter-software">
+    <edge id="/voip-telefonanlage-/preise_" source="/voip-telefonanlage" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1071,7 +1179,7 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlagen-funktionen-/callcenter-software_" source="/voip-telefonanlagen-funktionen" target="/callcenter-software">
+    <edge id="/voip-telefonanlagen-funktionen-/preise_" source="/voip-telefonanlagen-funktionen" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1172,6 +1280,26 @@
       </data>
     </edge>
     <edge id="/call-tracking-/demos/callbrowsing/reiseanbieter/_" source="/call-tracking" target="/demos/callbrowsing/reiseanbieter/">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/download-/microsip_" source="/download" target="/microsip">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/download-/softphone_" source="/download" target="/softphone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

@@ -411,8 +411,8 @@ if ($argc < 2)
 $output_file = $argv[1];
 
 // Start program
-// define ('DOMAIN', 'https://www.callone.de');
-define ('DOMAIN', 'https://beta.www.callone.de');
+define ('DOMAIN', 'https://www.callone.de');
+// define ('DOMAIN', 'https://beta.www.callone.de');
 $highlight_urls = [(object) [
 	'url' => '/',
 	'color' => '#ff0000'
@@ -426,20 +426,17 @@ $highlight_urls = [(object) [
 $structure = new structure ();
 
 // Only walk content links
-// $current_item = $structure->item_add ('/', null);
-// walk_links ($structure, $current_item, '');
+$current_item = $structure->item_add ('/', null);
+walk_links ($structure, $current_item, '');
 
 // Use main nav as entry points
-$main_nav = new Parser (DOMAIN.'/', ['navigation']);
-$links = $main_nav->get_page_links ();
-foreach ($links as $link)
-{
-	$current_item = $structure->item_add ($link, null);
-	walk_links ($structure, $current_item, '');
-}
-// $all_items = $structure->items_get();
-// $current_item = $all_items[count($all_items) - 1];
-// walk_links ($structure, $current_item, '');
+// $main_nav = new Parser (DOMAIN.'/', ['navbar']);
+// $links = $main_nav->get_page_links ();
+// foreach ($links as $link)
+// {
+// 	$current_item = $structure->item_add ($link, null);
+// 	walk_links ($structure, $current_item, '');
+// }
 
 // Build graph
 $graph = [];
