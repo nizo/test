@@ -45,33 +45,33 @@ if (!isset($menuPosition)) {
                                     </div>
                                 </div>
 
-                                <a href="/callcenter-software" class="submenu__link">
+                                <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/navigation/menu-callcenter-software.png" alt="" />
+                                    </div>
+                                    <div class="submenu__link-text">
+                                        <strong>Cloud Telefonanlage</strong>
+                                        <p>Egal ob im Büro oder Homeoffice. Perfekte Erreichbarkeit für Ihre Kolleg*innen</p>
+                                    </div>
+                                </a>
+
+                                <a href="/callcenter-software" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/callcenter-software-icon.png" alt="" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>Callcenter-Software<span class="submenu__link-tag">Beliebt</span></strong>
-                                        <p>Virtuelle Callcenter-Lösung für Sales und Service</p>
+                                        <p>Cloud Voice Lösung optimal für den Einsatz im Kundenservice und Inside-Sales</p>
                                     </div>
                                 </a>
 
-                                <a href="/voip-telefonanlage" class="submenu__link">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-callcenter-software.png" alt="" />
-                                    </div>
-                                    <div class="submenu__link-text">
-                                        <strong>Cloud-Telefonanlage</strong>
-                                        <p>Virtuelle Telefonanlage, intuitiv bedienbar</p>
-                                    </div>
-                                </a>
-
-                                <a href="/callcenter-software-apps" class="submenu__link">
+                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/menu-apis.png" alt="" />
                                     </div>
                                     <div class="submenu__link-text">
-                                        <strong>Schnellere Bearbeitung</strong>
-                                        <p>Fertige Anbindungen beschleunigen die Bearbeitung von Kundenanliegen</p>
+                                        <strong>Kommunikations-APIs</strong>
+                                        <p>Von CRM-Integration bis individueller Schnittstellen&shy;anbindung liefern wir passende Anbindungen</p>
                                     </div>
                                 </a>
                             </div>
@@ -81,41 +81,41 @@ if (!isset($menuPosition)) {
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
                                         <strong>Geschäftsergebnisse</strong>
-                                        <p>Mehrwerte, die Sie mit CallOne direkt zu spüren bekommen</p>
+                                        <p>Wir schaffen überdurchschnittliche Kundenerlebnisse</p>
                                     </div>
                                 </div>
 
-                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link">
+                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-text">
-                                        <strong>Reduzierte Wartedauern</strong>
-                                        <p>Reduzieren Sie die Anruflast mit unserem Warteschleifenmanagement</p>
+                                        <strong>Smarte Warteschleifen</strong>
+                                        <p>Bessere Erreichbarkeit und glücklichere Anrufer mittels Rückruf- und Anrufvorqualifizierung</p>
                                     </div>
                                 </a>
 
-                                <a href="/voip-api" class="submenu__link">
+                                <a href="/statistiken" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-text">
-                                        <strong>Kommunikations-APIs</strong>
-                                        <p>Integrationen, die Sie persönlich und effizient mit Ihren Kunden verbinden</p>
+                                        <strong>Echtzeit-Analysen</strong>
+                                        <p>Echtzeitstatistiken, Dashboards, BI-Datenschnittstellen für Transparenz, die sie so noch nicht kannten</p>
                                     </div>
                                 </a>
 
-                                <a href="/statistiken" class="submenu__link">
+                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-text">
-                                        <strong>Mehr Transparenz</strong>
-                                        <p>Datenanalyse ermöglicht Prozessoptimierung & Kostensenkung</p>
+                                        <strong>Passgenaue Einbindung</strong>
+                                        <p>Fertige Apps stehen zur Anbindung bereit egal ob TEAMS-Telefonie, CRM oder BI- oder Ticketinglösungen</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="submenu__right">
+                        <div class="submenu__right submenu__right--align-bottom">
                             <div class="submenu__ad">
-                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="" width="192" /></a>
+                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="" /></a>
                             </div>
 
-                            <a href="/softphone" class="submenu__link submenu__link--big">
+                            <a href="/softphone" class="submenu__link submenu__link--3-lines">
                                 <div class="submenu__link-text">
                                     <strong>Softphone<span class="submenu__link-tag">Kostenlos</span></strong>
-                                    <p>Softphone integriert in Ihren Lieblingsbrowser</p>
+                                    <p>Telefonieren Sie in Ihrem Lieblingsbrowser mit unser Browser Extension</p>
                                 </div>
                             </a>
                         </div>
@@ -143,7 +143,7 @@ if (!isset($menuPosition)) {
                             </div>
                             
                             <div class="submenu__row submenu__row--fill">
-                                <div class="submenu__column submenu__column--border-right" style="--col-width:360px;">
+                                <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
                                     <a href="/0800-lokal-nummern" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-numbers.png" alt="" />
@@ -164,7 +164,7 @@ if (!isset($menuPosition)) {
                                         </div>
                                     </a>
                                 </div>
-                                <div class="submenu__column" style="--col-width:340px;">
+                                <div class="submenu__column" style="--col-width:330px;">
                                     <a href="/softphone" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-softphone.png" alt="" />
