@@ -300,17 +300,6 @@ $r->addRoute('GET', '/callcenter-software-features', function() {
   require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/preise', function() {
-  $title = 'Preise vergleichen VoIP-Telefonanlage und Callcenter Software von CallOne';
-  $description = 'Preise vergleichen für Cloud Telefonanlagen von CallOne ✔  bestes Preis-Leistungsverhältnis  ✔  Persönlicher Success Manager. Unverbindlich testen!';
-  $keywords = '';
-  $background = 'bg-preisanfrage';
-  $ogUrl = $GLOBALS['url'] . '/preise';
-  require_once('./layouts/header.php');
-  require_once('./views/de/preise.php');
-  require_once('./layouts/footer.php');
-});
-
 $r->addRoute('GET', '/telefonanlage-mit-warteschleife', function() {
   $title = 'Cloud Telefonanlage mit virtueller Warteschleife';
   $description = 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer';

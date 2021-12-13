@@ -9,15 +9,1201 @@
       <data key="d2"><![CDATA[/]]></data>
       <data key="d0">
         <y:ShapeNode>
-          <y:Geometry height="60" width="0"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:Geometry height="60" width="612"/>
+          <y:Fill color="#ff0000" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
           <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
         </y:ShapeNode>
       </data>
     </node>
+    <node id="/callcenter-software">
+      <data key="d2"><![CDATA[/callcenter-software]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="666"/>
+          <y:Fill color="#00ff00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/telefonanlage-mit-warteschleife">
+      <data key="d2"><![CDATA[/telefonanlage-mit-warteschleife]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="432"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/telefonanlage-mit-warteschleife</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Cloud Telefonanlage mit virtueller Warteschleife&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/callcenter-bot">
+      <data key="d2"><![CDATA[/callcenter-bot]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="504"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-bot</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/voip-api">
+      <data key="d2"><![CDATA[/voip-api]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="450"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/voip-api</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Telefon Schnittstellen für alle Belange | CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/statistiken">
+      <data key="d2"><![CDATA[/statistiken]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="585"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/statistiken</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Call Center Software Statistiken | KPI, SLA mit BI-Integration​&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/callcenter-software-apps">
+      <data key="d2"><![CDATA[/callcenter-software-apps]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="495"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software-apps</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CRM und Ticketing kombiniert mit dem Telefon | CallOne &lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/freshdesk-callcenter-software">
+      <data key="d2"><![CDATA[/freshdesk-callcenter-software]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="621"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/freshdesk-callcenter-software</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Freshdesk in Verbindung mit Call Center Software &amp; VoIP-Telefonanlage&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/zendesk-cti-ticketing">
+      <data key="d2"><![CDATA[/zendesk-cti-ticketing]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="243"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/zendesk-cti-ticketing</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Zendesk Integration&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/tableau-callcenter-connector">
+      <data key="d2"><![CDATA[/tableau-callcenter-connector]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="630"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/tableau-callcenter-connector</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Tableau Callcenter Connector -Integrieren Sie Daten und Callcenter-KPI&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/softphone">
+      <data key="d2"><![CDATA[/softphone]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="486"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/softphone</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;VoIP Telefon im Browser integriert | CallOne Softphone&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/callcenter-software-funktionen">
+      <data key="d2"><![CDATA[/callcenter-software-funktionen]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="594"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-software-funktionen</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/preise">
+      <data key="d2"><![CDATA[/preise]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="657"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preise</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Preise vergleichen VoIP-Telefonanlage und Callcenter Software von CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/preiskalkulator">
+      <data key="d2"><![CDATA[/preiskalkulator]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="630"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/preiskalkulator</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/cti-schnittstellen">
+      <data key="d2"><![CDATA[/cti-schnittstellen]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="1026"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/cti-schnittstellen</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Integrieren Sie Anrufe in Ihre Businesstools und steuern Sie Anrufe bequem mit in Ihre CRM, Ticketing oder BI-Tool&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/sales-solutions">
+      <data key="d2"><![CDATA[/sales-solutions]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="342"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/sales-solutions</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Outbound Callcenter Software | CallOne&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/case-study-niceshops">
+      <data key="d2"><![CDATA[/case-study-niceshops]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="432"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-niceshops</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Case Study: Die Telefonielösungen von niceshops&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/voip-telefonanlage">
+      <data key="d2"><![CDATA[/voip-telefonanlage]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="603"/>
+          <y:Fill color="#ff00ff" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/voip-telefonanlage</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/0800-lokal-nummern">
+      <data key="d2"><![CDATA[/0800-lokal-nummern]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="603"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/0800-lokal-nummern</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Freecall 0800, Ortsnetz, international, Wunschrufnummer Deutschland&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/ueber-uns">
+      <data key="d2"><![CDATA[/ueber-uns]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="666"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/ueber-uns</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne ist ein inhabergeführtes Unternehmen für cloudbasierte Telefonie&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/case-study-check24">
+      <data key="d2"><![CDATA[/case-study-check24]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="639"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-check24</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter Software und Tableau-Integration - Kundenservice bei Check24&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere-bei-callone">
+      <data key="d2"><![CDATA[/karriere-bei-callone]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="315"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere-bei-callone</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - Bei uns arbeiten&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere">
+      <data key="d2"><![CDATA[/karriere]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="351"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - Alle offenen Stellen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere/job-it-systemkaufmann-frau-potsdam">
+      <data key="d2"><![CDATA[/karriere/job-it-systemkaufmann-frau-potsdam]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="387"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere/job-it-systemkaufmann-frau-potsdam</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - IT-Systemkauffrau /-mann&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere/job-it-support-potsdam">
+      <data key="d2"><![CDATA[/karriere/job-it-support-potsdam]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="261"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere/job-it-support-potsdam</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - IT-Support&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere/job-fachinformatiker-in-potsdam">
+      <data key="d2"><![CDATA[/karriere/job-fachinformatiker-in-potsdam]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="342"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere/job-fachinformatiker-in-potsdam</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - Fachinformatiker*in&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere/job-quereinsteiger-in-potsdam">
+      <data key="d2"><![CDATA[/karriere/job-quereinsteiger-in-potsdam]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="558"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere/job-quereinsteiger-in-potsdam</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - Quereinsteiger*in, Junior Projektmanagement&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/karriere/job-projektmanager-in-potsdam">
+      <data key="d2"><![CDATA[/karriere/job-projektmanager-in-potsdam]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="324"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/karriere/job-projektmanager-in-potsdam</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Karriere - Projektmanager*in&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/voip-telefonanlagen-funktionen">
+      <data key="d2"><![CDATA[/voip-telefonanlagen-funktionen]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="495"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/voip-telefonanlagen-funktionen</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Features, Funktionen, Vergleich VoIP-Telefonanlage 2019&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/callcenter-loesung">
+      <data key="d2"><![CDATA[/callcenter-loesung]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="666"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/callcenter-loesung</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/cti-salesforce">
+      <data key="d2"><![CDATA[/cti-salesforce]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="270"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/cti-salesforce</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;CallOne Salesforce Integration&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/call-tracking">
+      <data key="d2"><![CDATA[/call-tracking]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="495"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/call-tracking</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Call-Tracking: Individuelle Rufnummern für Ihre Kunden&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/demos/callbrowsing/reiseanbieter/">
+      <data key="d2"><![CDATA[/demos/callbrowsing/reiseanbieter/]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="414"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/demos/callbrowsing/reiseanbieter/</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Pauschalreisen günstig buchen bei Travel Hero&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/case-study-flaconi">
+      <data key="d2"><![CDATA[/case-study-flaconi]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="639"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-flaconi</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;VoIP-Telefonanlage und Callcenter Software für das gesamte Unternehmen&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="/case-study-apodiscounter">
+      <data key="d2"><![CDATA[/case-study-apodiscounter]]></data>
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry height="60" width="621"/>
+          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">/case-study-apodiscounter</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true">&lt;html&gt;&lt;b&gt;Anrufsteuerung im virtuellen Callcenter mittels REST-API und Webhooks&lt;/b&gt;&lt;/html&gt;</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#DDDDDD" offsetX="3" offsetY="3"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="/-/callcenter-software_" source="/" target="/callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/-/voip-api_" source="/" target="/voip-api">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/-/callcenter-software-apps_" source="/" target="/callcenter-software-apps">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/-/callcenter-bot_" source="/" target="/callcenter-bot">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/-/telefonanlage-mit-warteschleife_" source="/" target="/telefonanlage-mit-warteschleife">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/-/statistiken_" source="/" target="/statistiken">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff0000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/telefonanlage-mit-warteschleife_" source="/callcenter-software" target="/telefonanlage-mit-warteschleife">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/callcenter-bot_" source="/callcenter-software" target="/callcenter-bot">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/voip-api_" source="/callcenter-software" target="/voip-api">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/statistiken_" source="/callcenter-software" target="/statistiken">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/callcenter-software-funktionen_" source="/callcenter-software" target="/callcenter-software-funktionen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/cti-schnittstellen_" source="/callcenter-software" target="/cti-schnittstellen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/zendesk-cti-ticketing_" source="/callcenter-software" target="/zendesk-cti-ticketing">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/freshdesk-callcenter-software_" source="/callcenter-software" target="/freshdesk-callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-/cti-salesforce_" source="/callcenter-software" target="/cti-salesforce">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00ff00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/statistiken-/callcenter-software_" source="/statistiken" target="/callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/statistiken-/callcenter-software-apps_" source="/statistiken" target="/callcenter-software-apps">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/statistiken-/voip-api_" source="/statistiken" target="/voip-api">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/freshdesk-callcenter-software_" source="/callcenter-software-apps" target="/freshdesk-callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/zendesk-cti-ticketing_" source="/callcenter-software-apps" target="/zendesk-cti-ticketing">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/tableau-callcenter-connector_" source="/callcenter-software-apps" target="/tableau-callcenter-connector">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-apps-/softphone_" source="/callcenter-software-apps" target="/softphone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-software-funktionen-/preise_" source="/callcenter-software-funktionen" target="/preise">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/preise-/preiskalkulator_" source="/preise" target="/preiskalkulator">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/callcenter-bot_" source="/cti-schnittstellen" target="/callcenter-bot">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/callcenter-software-apps_" source="/cti-schnittstellen" target="/callcenter-software-apps">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/sales-solutions_" source="/cti-schnittstellen" target="/sales-solutions">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/callcenter-software_" source="/cti-schnittstellen" target="/callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/voip-api_" source="/cti-schnittstellen" target="/voip-api">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/cti-schnittstellen-/case-study-niceshops_" source="/cti-schnittstellen" target="/case-study-niceshops">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/sales-solutions-/cti-schnittstellen_" source="/sales-solutions" target="/cti-schnittstellen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/sales-solutions-/tableau-callcenter-connector_" source="/sales-solutions" target="/tableau-callcenter-connector">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/case-study-niceshops-/freshdesk-callcenter-software_" source="/case-study-niceshops" target="/freshdesk-callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/case-study-niceshops-/voip-telefonanlage_" source="/case-study-niceshops" target="/voip-telefonanlage">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/case-study-niceshops-/callcenter-loesung_" source="/case-study-niceshops" target="/callcenter-loesung">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlage-/preise_" source="/voip-telefonanlage" target="/preise">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff00ff" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlage-/0800-lokal-nummern_" source="/voip-telefonanlage" target="/0800-lokal-nummern">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff00ff" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlage-/ueber-uns_" source="/voip-telefonanlage" target="/ueber-uns">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff00ff" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlage-/callcenter-software-apps_" source="/voip-telefonanlage" target="/callcenter-software-apps">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff00ff" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlage-/voip-telefonanlagen-funktionen_" source="/voip-telefonanlage" target="/voip-telefonanlagen-funktionen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff00ff" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlage-/cti-schnittstellen_" source="/voip-telefonanlage" target="/cti-schnittstellen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#ff00ff" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/ueber-uns-/case-study-check24_" source="/ueber-uns" target="/case-study-check24">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/ueber-uns-/karriere-bei-callone_" source="/ueber-uns" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-bei-callone-/karriere_" source="/karriere-bei-callone" target="/karriere">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-/karriere-bei-callone_" source="/karriere" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-/karriere/job-it-systemkaufmann-frau-potsdam_" source="/karriere" target="/karriere/job-it-systemkaufmann-frau-potsdam">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-/karriere/job-it-support-potsdam_" source="/karriere" target="/karriere/job-it-support-potsdam">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-/karriere/job-fachinformatiker-in-potsdam_" source="/karriere" target="/karriere/job-fachinformatiker-in-potsdam">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-/karriere/job-quereinsteiger-in-potsdam_" source="/karriere" target="/karriere/job-quereinsteiger-in-potsdam">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere-/karriere/job-projektmanager-in-potsdam_" source="/karriere" target="/karriere/job-projektmanager-in-potsdam">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-it-systemkaufmann-frau-potsdam-/karriere_" source="/karriere/job-it-systemkaufmann-frau-potsdam" target="/karriere">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-it-systemkaufmann-frau-potsdam-/karriere-bei-callone_" source="/karriere/job-it-systemkaufmann-frau-potsdam" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-it-support-potsdam-/karriere_" source="/karriere/job-it-support-potsdam" target="/karriere">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-it-support-potsdam-/karriere-bei-callone_" source="/karriere/job-it-support-potsdam" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-fachinformatiker-in-potsdam-/karriere_" source="/karriere/job-fachinformatiker-in-potsdam" target="/karriere">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-fachinformatiker-in-potsdam-/karriere-bei-callone_" source="/karriere/job-fachinformatiker-in-potsdam" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-quereinsteiger-in-potsdam-/karriere_" source="/karriere/job-quereinsteiger-in-potsdam" target="/karriere">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-quereinsteiger-in-potsdam-/karriere-bei-callone_" source="/karriere/job-quereinsteiger-in-potsdam" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-projektmanager-in-potsdam-/karriere_" source="/karriere/job-projektmanager-in-potsdam" target="/karriere">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/karriere/job-projektmanager-in-potsdam-/karriere-bei-callone_" source="/karriere/job-projektmanager-in-potsdam" target="/karriere-bei-callone">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/voip-telefonanlagen-funktionen-/preise_" source="/voip-telefonanlagen-funktionen" target="/preise">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/telefonanlage-mit-warteschleife_" source="/callcenter-loesung" target="/telefonanlage-mit-warteschleife">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/callcenter-bot_" source="/callcenter-loesung" target="/callcenter-bot">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/voip-api_" source="/callcenter-loesung" target="/voip-api">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/statistiken_" source="/callcenter-loesung" target="/statistiken">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/callcenter-software-funktionen_" source="/callcenter-loesung" target="/callcenter-software-funktionen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/cti-schnittstellen_" source="/callcenter-loesung" target="/cti-schnittstellen">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/zendesk-cti-ticketing_" source="/callcenter-loesung" target="/zendesk-cti-ticketing">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/freshdesk-callcenter-software_" source="/callcenter-loesung" target="/freshdesk-callcenter-software">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/callcenter-loesung-/cti-salesforce_" source="/callcenter-loesung" target="/cti-salesforce">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="/call-tracking-/demos/callbrowsing/reiseanbieter/_" source="/call-tracking" target="/demos/callbrowsing/reiseanbieter/">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
   </graph>
 </graphml>

@@ -140,7 +140,7 @@ class link
 class Parser
 {
     private $excludeLinks = ['#', 'tel:', 'mailto:', '\"', '/blog', '/faq'];
-	private $excludeClasses = ['navbar', 'main-footer', 'modal'];
+	private $excludeClasses = ['navigation', 'navbar', 'main-footer', 'modal'];
     private $doc;
     private $url;
 
@@ -150,7 +150,8 @@ class Parser
 		$this->whitelist = $whitelist;
         $this->doc = new DOMDocument ();
         @$this->doc->loadHTMLFile ($this->url);
-		if (count ($this->whitelist)) {
+		if (count ($this->whitelist))
+		{
 			$this->reduce_to_whitelist ();
 		} else {
 			$this->exclude_dom_parts ();
@@ -160,14 +161,16 @@ class Parser
 	function reduce_to_whitelist ()
 	{
 		$html = '';
-		$xpath = new DOMXPath ($this->doc);
+		$tmp_dom = new DOMDocument ();
+		$finder = new DOMXPath ($this->doc);
 
 		foreach ($this->whitelist as $whitelist)
 		{
-			foreach ($xpath->query ('//*[contains(attribute::class, "'.$whitelist.'")]') as $e)
+			foreach ($finder->query ('//*[contains(attribute::class, "'.$whitelist.'")]') as $node)
 			{
-				$html .= $e->nodeValue;
+				$tmp_dom->appendChild ($tmp_dom->importNode ($node, true));
 			}
+			$html .= trim ($tmp_dom->saveHTML ()); 
 		}
 
 		$this->doc = new DOMDocument ();
@@ -330,6 +333,12 @@ function yed_node_create ($key, $id, $name)
 	$color_border = '#000000';
 	$color_info_text = '#000000';
 
+	global $highlight_urls;
+	foreach ($highlight_urls as $highlight) {
+		if ($highlight->url == $id)
+			$color_background = $highlight->color;
+	}
+
 	$xml = [];
 
 	$xml[] = '    <node id="'.$key.'">';
@@ -357,19 +366,11 @@ function yed_node_create ($key, $id, $name)
 	return $xml;
 }
 
-function yed_edge_create ($key_from, $key_to, $description, $color)
+function yed_edge_create ($key_from, $key_to, $description, $color = '#000000')
 {
 	$description = xml_prepare ($description);
 
-	
-	$color_line = '#000000';
-	switch ($color) {
-		case 1:
-			$color_line = '#FF0000';
-		case 0:
-		default:
-			$color_line = '#000000';
-	}
+	$color_line = $color;
 	$color_text = '#000000';
 	$color_background = '#ffffff';
 
@@ -410,10 +411,34 @@ if ($argc < 2)
 $output_file = $argv[1];
 
 // Start program
-define ('DOMAIN', 'https://www.callone.de');
+// define ('DOMAIN', 'https://www.callone.de');
+define ('DOMAIN', 'https://beta.www.callone.de');
+$highlight_urls = [(object) [
+	'url' => '/',
+	'color' => '#ff0000'
+], (object) [
+	'url' => '/callcenter-software',
+	'color' => '#00ff00'
+], (object) [
+	'url' => '/voip-telefonanlage',
+	'color' => '#ff00ff'
+]];
 $structure = new structure ();
-$current_item = $structure->item_add ('/', null);
-$parser = new Parser (DOMAIN.'/', ['navbar']);
+
+// Only walk content links
+// $current_item = $structure->item_add ('/', null);
+// walk_links ($structure, $current_item, '');
+
+// Use main nav as entry points
+$main_nav = new Parser (DOMAIN.'/', ['navigation']);
+$links = $main_nav->get_page_links ();
+foreach ($links as $link)
+{
+	$current_item = $structure->item_add ($link, null);
+	walk_links ($structure, $current_item, '');
+}
+// $all_items = $structure->items_get();
+// $current_item = $all_items[count($all_items) - 1];
 // walk_links ($structure, $current_item, '');
 
 // Build graph
@@ -437,7 +462,14 @@ foreach ($structure->items_get() as $item)
 		$item_destination = $link->destination_item_get();
 		$link_description = $link->link_description_get();
 
-		$color = 0;
+		$color = '#000000';
+
+		global $highlight_urls;
+		foreach ($highlight_urls as $highlight)
+		{
+			if ($highlight->url == $item->id_get ())
+				$color = $highlight->color;
+		}
 		
 		// find recursion
 		// if (!empty ($item_destination->links_next_get()))
