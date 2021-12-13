@@ -12,7 +12,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
   'Was kostet die CallOne Telefonanlage?',
-  '<p>Sie können die CallOne Cloud-Telefonanlage bereits ab 5,90 € je Nebenstelle nutzen. Ihnen stehen Optionen im Self-Service oder mit einem persönlichen Customer Succcess Manager zur Verfügung. Nähere Informationen finden Sie auf unserer <a href="/preise">Preisseite</a> oder <a href="#" data-openmodal="contact-sales">kontaktieren</a> Sie uns einfach mit Ihren Anforderungen.</p>'
+  '<p>Sie können die CallOne Cloud-Telefonanlage bereits ab 5,90 € je Nebenstelle nutzen. Ihnen stehen Optionen im Self-Service oder mit einem persönlichen Customer Succcess Manager zur Verfügung. Nähere Informationen finden Sie auf unserer <a href="/callcenter-software">Preisseite</a> oder <a href="#" data-openmodal="contact-sales">kontaktieren</a> Sie uns einfach mit Ihren Anforderungen.</p>'
 );
 $faqs->faq_add (
   'Erhalte ich auch Rufnummern von CallOne?',
@@ -50,7 +50,7 @@ $faqs->faq_add (
       				<a href="#angebot" class="arrow">Persönliches Angebot</a>
       			</li>
       			<li>
-      				<a href="/preise" class="arrow" target="_blank">Preise</a>
+      				<a href="/callcenter-software" class="arrow" target="_blank">Preise</a>
       			</li>
       		</ul>	
         </nav>

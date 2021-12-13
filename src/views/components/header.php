@@ -9,7 +9,7 @@
         <p class="primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione delectus consequatur consectetur fugiat repellat, corrupti non commodi laborum quia voluptate alias natus voluptas ea enim, minus. Amet mollitia, non.</p>
         <div class="button-set">
           <a href="#" class="button primary" data-openmodal="contact-sales">Kostenlos testen</a>
-          <a href="/preise" class="button secondary">Angebot einholen</a>
+          <a href="/callcenter-software" class="button secondary">Angebot einholen</a>
         </div>
       </div>
     </header>

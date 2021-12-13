@@ -11,7 +11,6 @@
     <a href="/it">it</a><br>
     <a href="/karriere">karriere</a><br>
     <a href="/callcenter-software">kundenservice</a><br>
-    <a href="/preise">preisanfrage</a><br>
     <a href="/referenzen">referenzen</a><br>
     <a href="/crm-callcenter">sales</a><br>
     <a href="/testen">testen</a><br>
