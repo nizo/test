@@ -144,13 +144,13 @@ class Parser
     private $doc;
     private $url;
 
-    function __construct ($url, $whitelist = [])
+    function __construct ($url, $whitelist = null)
 	{
         $this->url = $url;
 		$this->whitelist = $whitelist;
         $this->doc = new DOMDocument ();
         @$this->doc->loadHTMLFile ($this->url);
-		if (count ($this->whitelist))
+		if ($this->whitelist)
 		{
 			$this->reduce_to_whitelist ();
 		} else {
@@ -164,14 +164,11 @@ class Parser
 		$tmp_dom = new DOMDocument ();
 		$finder = new DOMXPath ($this->doc);
 
-		foreach ($this->whitelist as $whitelist)
+		foreach ($finder->query ('//*[contains(attribute::class, "'.$this->whitelist.'")]') as $node)
 		{
-			foreach ($finder->query ('//*[contains(attribute::class, "'.$whitelist.'")]') as $node)
-			{
-				$tmp_dom->appendChild ($tmp_dom->importNode ($node, true));
-			}
-			$html .= trim ($tmp_dom->saveHTML ()); 
+			$tmp_dom->appendChild ($tmp_dom->importNode ($node, true));
 		}
+		$html .= trim ($tmp_dom->saveHTML ()); 
 
 		$this->doc = new DOMDocument ();
 		@$this->doc->loadHTML($html);
@@ -266,16 +263,27 @@ function walk_links ($structure, $current_item, $space)
     if ($current_item->done_get ())
         return;
     $current_item->done_set (true);
-    echo $space."Parsing: ".$current_item->id_get ().PHP_EOL;
-    $parser = new Parser (DOMAIN.$current_item->id_get ());
-    $current_item->name_set ($parser->get_page_title ());
+	// If id starts with / treat as url
+	if (substr ($current_item->id_get (), 0, 1) === '/')
+	{
+		$type = 'URL';
+		$parser = new Parser (DOMAIN.$current_item->id_get ());
+		$current_item->name_set ($parser->get_page_title ());
+	} else { // Else treat at DOM element
+		$type = 'DOM Element';
+		$parser = new Parser (DOMAIN.'/', $current_item->id_get ());
+		$current_item->name_set (strtoupper ($current_item->id_get ()));
+	}
+	if (strlen($space) == 0)
+		$space = '├';
+	echo "\e[90m".$space." \e[32mParsing ".$type.": \e[39m".$current_item->id_get ()." \e[90m[".$current_item->name_get ()."]".PHP_EOL;
     foreach ($parser->get_page_links () as $url)
     {
 		$new_item = $structure->item_get_by_id ($url);
 		if (empty ($new_item))
 			$new_item = $structure->item_add ($url, null);
-		$current_item->link_next_add ($new_item, null);
-		walk_links ($structure, $new_item, $space.'  ');
+			$current_item->link_next_add ($new_item, null);
+		walk_links ($structure, $new_item, $space.'──');
     }
 }
 
@@ -333,9 +341,9 @@ function yed_node_create ($key, $id, $name)
 	$color_border = '#000000';
 	$color_info_text = '#000000';
 
-	global $highlight_urls;
-	foreach ($highlight_urls as $highlight) {
-		if ($highlight->url == $id)
+	global $highlight_ids;
+	foreach ($highlight_ids as $highlight) {
+		if ($highlight->id == $id)
 			$color_background = $highlight->color;
 	}
 
@@ -403,6 +411,10 @@ function xml_prepare ($text)
 	return $text;
 }
 
+/* ******************* **
+** ** PROGRAM START ** **
+** ******************* */
+
 // Get arguments
 if ($argc < 2)
 {	echo 'Usage: '.$argv[0].' <output_file>'.PHP_EOL;
@@ -410,36 +422,44 @@ if ($argc < 2)
 }
 $output_file = $argv[1];
 
-// Start program
-// define ('DOMAIN', 'https://www.callone.de');
-define ('DOMAIN', 'https://beta.www.callone.de');
-$highlight_urls = [(object) [
-	'url' => '/',
-	'color' => '#ff0000'
+echo PHP_EOL;
+echo "\e[90m***************************".PHP_EOL;
+echo "\e[39mStarting linkmap generation".PHP_EOL;
+echo "Saving to \e[93m".$output_file.PHP_EOL;
+echo "\e[90m***************************\e[39m".PHP_EOL;
+echo PHP_EOL;
+
+// Define global settings/variables
+define ('DOMAIN', 'https://www.callone.de');
+$highlight_ids = [(object) [
+	'id' => '/',
+	'color' => '#e74c3c'
 ], (object) [
-	'url' => '/callcenter-software',
-	'color' => '#00ff00'
+	'id' => '/callcenter-software',
+	'color' => '#2ecc71'
 ], (object) [
-	'url' => '/voip-telefonanlage',
-	'color' => '#ff00ff'
+	'id' => '/voip-telefonanlage',
+	'color' => '#1abc9c'
+], (object) [
+	'id' => 'navbar',
+	'color' => '#9b59b6'
+], (object) [
+	'id' => 'main-footer',
+	'color' => '#3498db'
 ]];
 $structure = new structure ();
 
-// Only walk content links
-// $current_item = $structure->item_add ('/', null);
-// walk_links ($structure, $current_item, '');
+// Add navbar as node
+$navbar = $structure->item_add ('navbar', null);
+walk_links ($structure, $navbar, '');
 
-// Use main nav as entry points
-$main_nav = new Parser (DOMAIN.'/', ['navigation']);
-$links = $main_nav->get_page_links ();
-foreach ($links as $link)
-{
-	$current_item = $structure->item_add ($link, null);
-	walk_links ($structure, $current_item, '');
-}
-// $all_items = $structure->items_get();
-// $current_item = $all_items[count($all_items) - 1];
-// walk_links ($structure, $current_item, '');
+// Add main-footer as node
+$footer = $structure->item_add ('main-footer', null);
+walk_links ($structure, $footer, '');
+
+// Walk through content links
+$current_item = $structure->item_add ('/', null);
+walk_links ($structure, $current_item, '');
 
 // Build graph
 $graph = [];
@@ -464,10 +484,10 @@ foreach ($structure->items_get() as $item)
 
 		$color = '#000000';
 
-		global $highlight_urls;
-		foreach ($highlight_urls as $highlight)
+		global $highlight_ids;
+		foreach ($highlight_ids as $highlight)
 		{
-			if ($highlight->url == $item->id_get ())
+			if ($highlight->id == $item->id_get ())
 				$color = $highlight->color;
 		}
 		
@@ -483,11 +503,6 @@ foreach ($structure->items_get() as $item)
 		// 		break;
 		// 	}
 		// }
-
-		// if (($link_description == 'BACKUPROUTING') ||
-		// 	($link_description == 'OVERRIDEROUTING') ||
-		// 	($link_description == 'DEAKTIVIERT'))
-		// 	$color = -2;
 		
 		$graph = array_merge ($graph, yed_edge_create ($item->id_get(), $item_destination->id_get(), $link_description, $color));
 	}
@@ -500,5 +515,7 @@ file_put_contents ($output_file, implode (PHP_EOL, $graph));
 // Display runtime in seconds
 $time_end = microtime(true);
 $execution_time = $time_end - $time_start;
-echo "Script runtime: ".round($execution_time, 2)."s".PHP_EOL;
+echo PHP_EOL;
+echo "\e[90mScript runtime: \e[93m".round($execution_time, 2)."s\e[39m".PHP_EOL;
+echo PHP_EOL;
 ?>
