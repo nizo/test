@@ -181,6 +181,18 @@ $faqs->faq_add (
     </div>
 </div>
 
+<div class="section section--dark-green-black">
+    <div class="section__content section__content--wide">
+        TODO: Tabs
+    </div>
+</div>
+
+<div class="section section--grey-white">
+    <div class="section__content section__content--wide">
+        TODO: Slider
+    </div>
+</div>
+
 <?php
 // $faqs->structured_data_get_code ();
 // $faqs->html_get_code ();
