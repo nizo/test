@@ -148,7 +148,7 @@
             <span>Support</span>
             <ul>
               <li><a href="https://www.callone.de/faq" target="_blank">FAQs</a></li>
-              <li><a href="/testen">Kontakt</a></li>
+              <li><a href="/kontakt">Kontakt</a></li>
               <li><a href="https://status.callone.de" rel="noreferrer">Systemstatus</a></li>
             </ul>
           </li>
