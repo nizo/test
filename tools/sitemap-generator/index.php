@@ -411,6 +411,10 @@ function xml_prepare ($text)
 	return $text;
 }
 
+/* ******************* **
+** ** PROGRAM START ** **
+** ******************* */
+
 // Get arguments
 if ($argc < 2)
 {	echo 'Usage: '.$argv[0].' <output_file>'.PHP_EOL;
@@ -418,7 +422,14 @@ if ($argc < 2)
 }
 $output_file = $argv[1];
 
-// Start program
+echo PHP_EOL;
+echo "\e[90m***************************".PHP_EOL;
+echo "\e[39mStarting linkmap generation".PHP_EOL;
+echo "Saving to \e[93m".$output_file.PHP_EOL;
+echo "\e[90m***************************\e[39m".PHP_EOL;
+echo PHP_EOL;
+
+// Define global settings/variables
 define ('DOMAIN', 'https://www.callone.de');
 $highlight_ids = [(object) [
 	'id' => '/',
@@ -446,7 +457,7 @@ walk_links ($structure, $navbar, '');
 $footer = $structure->item_add ('main-footer', null);
 walk_links ($structure, $footer, '');
 
-// Only walk content links
+// Walk through content links
 $current_item = $structure->item_add ('/', null);
 walk_links ($structure, $current_item, '');
 
@@ -492,11 +503,6 @@ foreach ($structure->items_get() as $item)
 		// 		break;
 		// 	}
 		// }
-
-		// if (($link_description == 'BACKUPROUTING') ||
-		// 	($link_description == 'OVERRIDEROUTING') ||
-		// 	($link_description == 'DEAKTIVIERT'))
-		// 	$color = -2;
 		
 		$graph = array_merge ($graph, yed_edge_create ($item->id_get(), $item_destination->id_get(), $link_description, $color));
 	}
@@ -509,5 +515,7 @@ file_put_contents ($output_file, implode (PHP_EOL, $graph));
 // Display runtime in seconds
 $time_end = microtime(true);
 $execution_time = $time_end - $time_start;
+echo PHP_EOL;
 echo "\e[90mScript runtime: \e[93m".round($execution_time, 2)."s\e[39m".PHP_EOL;
+echo PHP_EOL;
 ?>
