@@ -266,6 +266,7 @@ Redirect 301 /downloads/Mitarbeiter_Technischer_Support.pdf /downloads/Mitarbeit
 Redirect 301 /downloads/Mitarbeiter_Webdesigner.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
 Redirect 301 /agb.pdf /downloads/agb.pdf
 Redirect 301 /faq.php /faq/
+Redirect 301 /preise /callcenter-software
 
 Redirect 301 /jobs /karriere
 Redirect 301 /testen /kontakt

@@ -38,7 +38,6 @@
           <div class="footer-column">
           	<div class="btn-set btn-set--centered centered">
                 <a href="#" class="btn btn--primary btn--small-padding trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN​</a>
-                <a href="/preise" class="btn btn--border-white trackedElement" data-label="Button footer - Preise" data-category="Link" data-action="linked to /preise">Preise</a>
             </div>
           </div>
 
@@ -51,6 +50,7 @@
               <a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a><br />
               <a href="/call-tracking" title="Call-Tracking">Call-Tracking</a><br />
               <a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a>
+              <a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a>
             </p>
           </div>
           <div class="footer-column">
@@ -98,7 +98,6 @@
           </p>
           <div class="button-set centered">
             <a href="#" class="button secondary trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN​</a>
-            <a href="/preise" class="button primary trackedElement" data-label="Button footer - Preise" data-category="Link" data-action="linked to /preise">Preise</a>
           </div>
         </div>
         <ul class="footer-menu">
@@ -118,6 +117,7 @@
               <li><a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a></li>
               <li><a href="/call-tracking" title="Call-Tracking">Call-Tracking</a></li>
               <li><a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a></li>
+              <li><a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a></li>
             </ul>
           </li>
           <li>
