@@ -377,7 +377,7 @@ $r->addRoute('GET', '/voip-telefonanlage', function() {
   $title = 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage';
   $description = 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager';
   $keywords = '';
-  $background = 'bg-landingpages';
+  $background = '';
   $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
   require_once('./layouts/header.php');
   require_once('./views/de/voip-telefonanlage.php');
