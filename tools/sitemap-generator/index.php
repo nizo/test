@@ -503,6 +503,8 @@ foreach ($structure->items_get() as $item)
 		// 		break;
 		// 	}
 		// }
+
+		$link_description = $item->id_get()." => ".$item_destination->id_get();
 		
 		$graph = array_merge ($graph, yed_edge_create ($item->id_get(), $item_destination->id_get(), $link_description, $color));
 	}

@@ -621,1242 +621,1366 @@
         </y:ShapeNode>
       </data>
     </node>
-    <edge id="navbar-/preise_" source="navbar" target="/preise">
+    <edge id="navbar-/preise_navbar =&amp;gt; /preise" source="navbar" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /preise</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/ueber-uns_" source="navbar" target="/ueber-uns">
+    <edge id="navbar-/ueber-uns_navbar =&amp;gt; /ueber-uns" source="navbar" target="/ueber-uns">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /ueber-uns</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere-bei-callone_" source="navbar" target="/karriere-bei-callone">
+    <edge id="navbar-/karriere-bei-callone_navbar =&amp;gt; /karriere-bei-callone" source="navbar" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/impressum_" source="navbar" target="/impressum">
+    <edge id="navbar-/impressum_navbar =&amp;gt; /impressum" source="navbar" target="/impressum">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /impressum</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/kontakt_" source="navbar" target="/kontakt">
+    <edge id="navbar-/kontakt_navbar =&amp;gt; /kontakt" source="navbar" target="/kontakt">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /kontakt</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/_" source="navbar" target="/">
+    <edge id="navbar-/_navbar =&amp;gt; /" source="navbar" target="/">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/callcenter-software_" source="navbar" target="/callcenter-software">
+    <edge id="navbar-/callcenter-software_navbar =&amp;gt; /callcenter-software" source="navbar" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/voip-telefonanlage_" source="navbar" target="/voip-telefonanlage">
+    <edge id="navbar-/voip-telefonanlage_navbar =&amp;gt; /voip-telefonanlage" source="navbar" target="/voip-telefonanlage">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /voip-telefonanlage</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/0800-lokal-nummern_" source="navbar" target="/0800-lokal-nummern">
+    <edge id="navbar-/0800-lokal-nummern_navbar =&amp;gt; /0800-lokal-nummern" source="navbar" target="/0800-lokal-nummern">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /0800-lokal-nummern</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/call-tracking_" source="navbar" target="/call-tracking">
+    <edge id="navbar-/call-tracking_navbar =&amp;gt; /call-tracking" source="navbar" target="/call-tracking">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /call-tracking</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/callcenter-bot_" source="navbar" target="/callcenter-bot">
+    <edge id="navbar-/callcenter-bot_navbar =&amp;gt; /callcenter-bot" source="navbar" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /callcenter-bot</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/softphone_" source="navbar" target="/softphone">
+    <edge id="navbar-/softphone_navbar =&amp;gt; /softphone" source="navbar" target="/softphone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /softphone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/callcenter-software-integrationen_" source="navbar" target="/callcenter-software-integrationen">
+    <edge id="navbar-/callcenter-software-integrationen_navbar =&amp;gt; /callcenter-software-integrationen" source="navbar" target="/callcenter-software-integrationen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /callcenter-software-integrationen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/callcenter-software-apps_" source="navbar" target="/callcenter-software-apps">
+    <edge id="navbar-/callcenter-software-apps_navbar =&amp;gt; /callcenter-software-apps" source="navbar" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/voip-api_" source="navbar" target="/voip-api">
+    <edge id="navbar-/voip-api_navbar =&amp;gt; /voip-api" source="navbar" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/case-study-check24_" source="navbar" target="/case-study-check24">
+    <edge id="navbar-/case-study-check24_navbar =&amp;gt; /case-study-check24" source="navbar" target="/case-study-check24">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /case-study-check24</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/case-study-flaconi_" source="navbar" target="/case-study-flaconi">
+    <edge id="navbar-/case-study-flaconi_navbar =&amp;gt; /case-study-flaconi" source="navbar" target="/case-study-flaconi">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /case-study-flaconi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/case-study-niceshops_" source="navbar" target="/case-study-niceshops">
+    <edge id="navbar-/case-study-niceshops_navbar =&amp;gt; /case-study-niceshops" source="navbar" target="/case-study-niceshops">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /case-study-niceshops</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/case-study-apodiscounter_" source="navbar" target="/case-study-apodiscounter">
+    <edge id="navbar-/case-study-apodiscounter_navbar =&amp;gt; /case-study-apodiscounter" source="navbar" target="/case-study-apodiscounter">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /case-study-apodiscounter</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere/job-projektmanager-in-potsdam_" source="navbar" target="/karriere/job-projektmanager-in-potsdam">
+    <edge id="navbar-/karriere/job-projektmanager-in-potsdam_navbar =&amp;gt; /karriere/job-projektmanager-in-potsdam" source="navbar" target="/karriere/job-projektmanager-in-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere/job-projektmanager-in-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere/job-quereinsteiger-in-potsdam_" source="navbar" target="/karriere/job-quereinsteiger-in-potsdam">
+    <edge id="navbar-/karriere/job-quereinsteiger-in-potsdam_navbar =&amp;gt; /karriere/job-quereinsteiger-in-potsdam" source="navbar" target="/karriere/job-quereinsteiger-in-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere/job-quereinsteiger-in-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere/job-it-systemkaufmann-frau-potsdam_" source="navbar" target="/karriere/job-it-systemkaufmann-frau-potsdam">
+    <edge id="navbar-/karriere/job-it-systemkaufmann-frau-potsdam_navbar =&amp;gt; /karriere/job-it-systemkaufmann-frau-potsdam" source="navbar" target="/karriere/job-it-systemkaufmann-frau-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere/job-it-systemkaufmann-frau-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere/job-it-support-potsdam_" source="navbar" target="/karriere/job-it-support-potsdam">
+    <edge id="navbar-/karriere/job-it-support-potsdam_navbar =&amp;gt; /karriere/job-it-support-potsdam" source="navbar" target="/karriere/job-it-support-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere/job-it-support-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere/job-fachinformatiker-in-potsdam_" source="navbar" target="/karriere/job-fachinformatiker-in-potsdam">
+    <edge id="navbar-/karriere/job-fachinformatiker-in-potsdam_navbar =&amp;gt; /karriere/job-fachinformatiker-in-potsdam" source="navbar" target="/karriere/job-fachinformatiker-in-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere/job-fachinformatiker-in-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="navbar-/karriere_" source="navbar" target="/karriere">
+    <edge id="navbar-/karriere_navbar =&amp;gt; /karriere" source="navbar" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#9b59b6" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">navbar =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/preise-/preiskalkulator_" source="/preise" target="/preiskalkulator">
+    <edge id="/preise-/preiskalkulator_/preise =&amp;gt; /preiskalkulator" source="/preise" target="/preiskalkulator">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/preise =&gt; /preiskalkulator</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/ueber-uns-/case-study-check24_" source="/ueber-uns" target="/case-study-check24">
+    <edge id="/ueber-uns-/case-study-check24_/ueber-uns =&amp;gt; /case-study-check24" source="/ueber-uns" target="/case-study-check24">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ueber-uns =&gt; /case-study-check24</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/ueber-uns-/karriere-bei-callone_" source="/ueber-uns" target="/karriere-bei-callone">
+    <edge id="/ueber-uns-/karriere-bei-callone_/ueber-uns =&amp;gt; /karriere-bei-callone" source="/ueber-uns" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ueber-uns =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-bei-callone-/karriere_" source="/karriere-bei-callone" target="/karriere">
+    <edge id="/karriere-bei-callone-/karriere_/karriere-bei-callone =&amp;gt; /karriere" source="/karriere-bei-callone" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere-bei-callone =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-/karriere-bei-callone_" source="/karriere" target="/karriere-bei-callone">
+    <edge id="/karriere-/karriere-bei-callone_/karriere =&amp;gt; /karriere-bei-callone" source="/karriere" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-/karriere/job-it-systemkaufmann-frau-potsdam_" source="/karriere" target="/karriere/job-it-systemkaufmann-frau-potsdam">
+    <edge id="/karriere-/karriere/job-it-systemkaufmann-frau-potsdam_/karriere =&amp;gt; /karriere/job-it-systemkaufmann-frau-potsdam" source="/karriere" target="/karriere/job-it-systemkaufmann-frau-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere =&gt; /karriere/job-it-systemkaufmann-frau-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-/karriere/job-it-support-potsdam_" source="/karriere" target="/karriere/job-it-support-potsdam">
+    <edge id="/karriere-/karriere/job-it-support-potsdam_/karriere =&amp;gt; /karriere/job-it-support-potsdam" source="/karriere" target="/karriere/job-it-support-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere =&gt; /karriere/job-it-support-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-/karriere/job-fachinformatiker-in-potsdam_" source="/karriere" target="/karriere/job-fachinformatiker-in-potsdam">
+    <edge id="/karriere-/karriere/job-fachinformatiker-in-potsdam_/karriere =&amp;gt; /karriere/job-fachinformatiker-in-potsdam" source="/karriere" target="/karriere/job-fachinformatiker-in-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere =&gt; /karriere/job-fachinformatiker-in-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-/karriere/job-quereinsteiger-in-potsdam_" source="/karriere" target="/karriere/job-quereinsteiger-in-potsdam">
+    <edge id="/karriere-/karriere/job-quereinsteiger-in-potsdam_/karriere =&amp;gt; /karriere/job-quereinsteiger-in-potsdam" source="/karriere" target="/karriere/job-quereinsteiger-in-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere =&gt; /karriere/job-quereinsteiger-in-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere-/karriere/job-projektmanager-in-potsdam_" source="/karriere" target="/karriere/job-projektmanager-in-potsdam">
+    <edge id="/karriere-/karriere/job-projektmanager-in-potsdam_/karriere =&amp;gt; /karriere/job-projektmanager-in-potsdam" source="/karriere" target="/karriere/job-projektmanager-in-potsdam">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere =&gt; /karriere/job-projektmanager-in-potsdam</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-it-systemkaufmann-frau-potsdam-/karriere_" source="/karriere/job-it-systemkaufmann-frau-potsdam" target="/karriere">
+    <edge id="/karriere/job-it-systemkaufmann-frau-potsdam-/karriere_/karriere/job-it-systemkaufmann-frau-potsdam =&amp;gt; /karriere" source="/karriere/job-it-systemkaufmann-frau-potsdam" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-it-systemkaufmann-frau-potsdam =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-it-systemkaufmann-frau-potsdam-/karriere-bei-callone_" source="/karriere/job-it-systemkaufmann-frau-potsdam" target="/karriere-bei-callone">
+    <edge id="/karriere/job-it-systemkaufmann-frau-potsdam-/karriere-bei-callone_/karriere/job-it-systemkaufmann-frau-potsdam =&amp;gt; /karriere-bei-callone" source="/karriere/job-it-systemkaufmann-frau-potsdam" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-it-systemkaufmann-frau-potsdam =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-it-support-potsdam-/karriere_" source="/karriere/job-it-support-potsdam" target="/karriere">
+    <edge id="/karriere/job-it-support-potsdam-/karriere_/karriere/job-it-support-potsdam =&amp;gt; /karriere" source="/karriere/job-it-support-potsdam" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-it-support-potsdam =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-it-support-potsdam-/karriere-bei-callone_" source="/karriere/job-it-support-potsdam" target="/karriere-bei-callone">
+    <edge id="/karriere/job-it-support-potsdam-/karriere-bei-callone_/karriere/job-it-support-potsdam =&amp;gt; /karriere-bei-callone" source="/karriere/job-it-support-potsdam" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-it-support-potsdam =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-fachinformatiker-in-potsdam-/karriere_" source="/karriere/job-fachinformatiker-in-potsdam" target="/karriere">
+    <edge id="/karriere/job-fachinformatiker-in-potsdam-/karriere_/karriere/job-fachinformatiker-in-potsdam =&amp;gt; /karriere" source="/karriere/job-fachinformatiker-in-potsdam" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-fachinformatiker-in-potsdam =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-fachinformatiker-in-potsdam-/karriere-bei-callone_" source="/karriere/job-fachinformatiker-in-potsdam" target="/karriere-bei-callone">
+    <edge id="/karriere/job-fachinformatiker-in-potsdam-/karriere-bei-callone_/karriere/job-fachinformatiker-in-potsdam =&amp;gt; /karriere-bei-callone" source="/karriere/job-fachinformatiker-in-potsdam" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-fachinformatiker-in-potsdam =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-quereinsteiger-in-potsdam-/karriere_" source="/karriere/job-quereinsteiger-in-potsdam" target="/karriere">
+    <edge id="/karriere/job-quereinsteiger-in-potsdam-/karriere_/karriere/job-quereinsteiger-in-potsdam =&amp;gt; /karriere" source="/karriere/job-quereinsteiger-in-potsdam" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-quereinsteiger-in-potsdam =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-quereinsteiger-in-potsdam-/karriere-bei-callone_" source="/karriere/job-quereinsteiger-in-potsdam" target="/karriere-bei-callone">
+    <edge id="/karriere/job-quereinsteiger-in-potsdam-/karriere-bei-callone_/karriere/job-quereinsteiger-in-potsdam =&amp;gt; /karriere-bei-callone" source="/karriere/job-quereinsteiger-in-potsdam" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-quereinsteiger-in-potsdam =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-projektmanager-in-potsdam-/karriere_" source="/karriere/job-projektmanager-in-potsdam" target="/karriere">
+    <edge id="/karriere/job-projektmanager-in-potsdam-/karriere_/karriere/job-projektmanager-in-potsdam =&amp;gt; /karriere" source="/karriere/job-projektmanager-in-potsdam" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-projektmanager-in-potsdam =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/karriere/job-projektmanager-in-potsdam-/karriere-bei-callone_" source="/karriere/job-projektmanager-in-potsdam" target="/karriere-bei-callone">
+    <edge id="/karriere/job-projektmanager-in-potsdam-/karriere-bei-callone_/karriere/job-projektmanager-in-potsdam =&amp;gt; /karriere-bei-callone" source="/karriere/job-projektmanager-in-potsdam" target="/karriere-bei-callone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/karriere/job-projektmanager-in-potsdam =&gt; /karriere-bei-callone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/callcenter-software_" source="/" target="/callcenter-software">
+    <edge id="/-/callcenter-software_/ =&amp;gt; /callcenter-software" source="/" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#e74c3c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ =&gt; /callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/voip-api_" source="/" target="/voip-api">
+    <edge id="/-/voip-api_/ =&amp;gt; /voip-api" source="/" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#e74c3c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/callcenter-software-apps_" source="/" target="/callcenter-software-apps">
+    <edge id="/-/callcenter-software-apps_/ =&amp;gt; /callcenter-software-apps" source="/" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#e74c3c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/callcenter-bot_" source="/" target="/callcenter-bot">
+    <edge id="/-/callcenter-bot_/ =&amp;gt; /callcenter-bot" source="/" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#e74c3c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ =&gt; /callcenter-bot</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/telefonanlage-mit-warteschleife_" source="/" target="/telefonanlage-mit-warteschleife">
+    <edge id="/-/telefonanlage-mit-warteschleife_/ =&amp;gt; /telefonanlage-mit-warteschleife" source="/" target="/telefonanlage-mit-warteschleife">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#e74c3c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ =&gt; /telefonanlage-mit-warteschleife</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/-/statistiken_" source="/" target="/statistiken">
+    <edge id="/-/statistiken_/ =&amp;gt; /statistiken" source="/" target="/statistiken">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#e74c3c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/ =&gt; /statistiken</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/telefonanlage-mit-warteschleife_" source="/callcenter-software" target="/telefonanlage-mit-warteschleife">
+    <edge id="/callcenter-software-/telefonanlage-mit-warteschleife_/callcenter-software =&amp;gt; /telefonanlage-mit-warteschleife" source="/callcenter-software" target="/telefonanlage-mit-warteschleife">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /telefonanlage-mit-warteschleife</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/callcenter-bot_" source="/callcenter-software" target="/callcenter-bot">
+    <edge id="/callcenter-software-/callcenter-bot_/callcenter-software =&amp;gt; /callcenter-bot" source="/callcenter-software" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /callcenter-bot</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/voip-api_" source="/callcenter-software" target="/voip-api">
+    <edge id="/callcenter-software-/voip-api_/callcenter-software =&amp;gt; /voip-api" source="/callcenter-software" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/statistiken_" source="/callcenter-software" target="/statistiken">
+    <edge id="/callcenter-software-/statistiken_/callcenter-software =&amp;gt; /statistiken" source="/callcenter-software" target="/statistiken">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /statistiken</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/callcenter-software-funktionen_" source="/callcenter-software" target="/callcenter-software-funktionen">
+    <edge id="/callcenter-software-/callcenter-software-funktionen_/callcenter-software =&amp;gt; /callcenter-software-funktionen" source="/callcenter-software" target="/callcenter-software-funktionen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /callcenter-software-funktionen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/cti-schnittstellen_" source="/callcenter-software" target="/cti-schnittstellen">
+    <edge id="/callcenter-software-/cti-schnittstellen_/callcenter-software =&amp;gt; /cti-schnittstellen" source="/callcenter-software" target="/cti-schnittstellen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /cti-schnittstellen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/zendesk-cti-ticketing_" source="/callcenter-software" target="/zendesk-cti-ticketing">
+    <edge id="/callcenter-software-/zendesk-cti-ticketing_/callcenter-software =&amp;gt; /zendesk-cti-ticketing" source="/callcenter-software" target="/zendesk-cti-ticketing">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /zendesk-cti-ticketing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/freshdesk-callcenter-software_" source="/callcenter-software" target="/freshdesk-callcenter-software">
+    <edge id="/callcenter-software-/freshdesk-callcenter-software_/callcenter-software =&amp;gt; /freshdesk-callcenter-software" source="/callcenter-software" target="/freshdesk-callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /freshdesk-callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-/cti-salesforce_" source="/callcenter-software" target="/cti-salesforce">
+    <edge id="/callcenter-software-/cti-salesforce_/callcenter-software =&amp;gt; /cti-salesforce" source="/callcenter-software" target="/cti-salesforce">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#2ecc71" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software =&gt; /cti-salesforce</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/statistiken-/callcenter-software_" source="/statistiken" target="/callcenter-software">
+    <edge id="/statistiken-/callcenter-software_/statistiken =&amp;gt; /callcenter-software" source="/statistiken" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/statistiken =&gt; /callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/statistiken-/callcenter-software-apps_" source="/statistiken" target="/callcenter-software-apps">
+    <edge id="/statistiken-/callcenter-software-apps_/statistiken =&amp;gt; /callcenter-software-apps" source="/statistiken" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/statistiken =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/statistiken-/voip-api_" source="/statistiken" target="/voip-api">
+    <edge id="/statistiken-/voip-api_/statistiken =&amp;gt; /voip-api" source="/statistiken" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/statistiken =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-apps-/freshdesk-callcenter-software_" source="/callcenter-software-apps" target="/freshdesk-callcenter-software">
+    <edge id="/callcenter-software-apps-/freshdesk-callcenter-software_/callcenter-software-apps =&amp;gt; /freshdesk-callcenter-software" source="/callcenter-software-apps" target="/freshdesk-callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-apps =&gt; /freshdesk-callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-apps-/zendesk-cti-ticketing_" source="/callcenter-software-apps" target="/zendesk-cti-ticketing">
+    <edge id="/callcenter-software-apps-/zendesk-cti-ticketing_/callcenter-software-apps =&amp;gt; /zendesk-cti-ticketing" source="/callcenter-software-apps" target="/zendesk-cti-ticketing">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-apps =&gt; /zendesk-cti-ticketing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-apps-/tableau-callcenter-connector_" source="/callcenter-software-apps" target="/tableau-callcenter-connector">
+    <edge id="/callcenter-software-apps-/tableau-callcenter-connector_/callcenter-software-apps =&amp;gt; /tableau-callcenter-connector" source="/callcenter-software-apps" target="/tableau-callcenter-connector">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-apps =&gt; /tableau-callcenter-connector</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-apps-/softphone_" source="/callcenter-software-apps" target="/softphone">
+    <edge id="/callcenter-software-apps-/softphone_/callcenter-software-apps =&amp;gt; /softphone" source="/callcenter-software-apps" target="/softphone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-apps =&gt; /softphone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-funktionen-/preise_" source="/callcenter-software-funktionen" target="/preise">
+    <edge id="/callcenter-software-funktionen-/preise_/callcenter-software-funktionen =&amp;gt; /preise" source="/callcenter-software-funktionen" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-funktionen =&gt; /preise</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/cti-schnittstellen-/callcenter-bot_" source="/cti-schnittstellen" target="/callcenter-bot">
+    <edge id="/cti-schnittstellen-/callcenter-bot_/cti-schnittstellen =&amp;gt; /callcenter-bot" source="/cti-schnittstellen" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/cti-schnittstellen =&gt; /callcenter-bot</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/cti-schnittstellen-/callcenter-software-apps_" source="/cti-schnittstellen" target="/callcenter-software-apps">
+    <edge id="/cti-schnittstellen-/callcenter-software-apps_/cti-schnittstellen =&amp;gt; /callcenter-software-apps" source="/cti-schnittstellen" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/cti-schnittstellen =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/cti-schnittstellen-/sales-solutions_" source="/cti-schnittstellen" target="/sales-solutions">
+    <edge id="/cti-schnittstellen-/sales-solutions_/cti-schnittstellen =&amp;gt; /sales-solutions" source="/cti-schnittstellen" target="/sales-solutions">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/cti-schnittstellen =&gt; /sales-solutions</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/cti-schnittstellen-/callcenter-software_" source="/cti-schnittstellen" target="/callcenter-software">
+    <edge id="/cti-schnittstellen-/callcenter-software_/cti-schnittstellen =&amp;gt; /callcenter-software" source="/cti-schnittstellen" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/cti-schnittstellen =&gt; /callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/cti-schnittstellen-/voip-api_" source="/cti-schnittstellen" target="/voip-api">
+    <edge id="/cti-schnittstellen-/voip-api_/cti-schnittstellen =&amp;gt; /voip-api" source="/cti-schnittstellen" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/cti-schnittstellen =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/cti-schnittstellen-/case-study-niceshops_" source="/cti-schnittstellen" target="/case-study-niceshops">
+    <edge id="/cti-schnittstellen-/case-study-niceshops_/cti-schnittstellen =&amp;gt; /case-study-niceshops" source="/cti-schnittstellen" target="/case-study-niceshops">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/cti-schnittstellen =&gt; /case-study-niceshops</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/sales-solutions-/cti-schnittstellen_" source="/sales-solutions" target="/cti-schnittstellen">
+    <edge id="/sales-solutions-/cti-schnittstellen_/sales-solutions =&amp;gt; /cti-schnittstellen" source="/sales-solutions" target="/cti-schnittstellen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/sales-solutions =&gt; /cti-schnittstellen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/sales-solutions-/tableau-callcenter-connector_" source="/sales-solutions" target="/tableau-callcenter-connector">
+    <edge id="/sales-solutions-/tableau-callcenter-connector_/sales-solutions =&amp;gt; /tableau-callcenter-connector" source="/sales-solutions" target="/tableau-callcenter-connector">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/sales-solutions =&gt; /tableau-callcenter-connector</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/case-study-niceshops-/freshdesk-callcenter-software_" source="/case-study-niceshops" target="/freshdesk-callcenter-software">
+    <edge id="/case-study-niceshops-/freshdesk-callcenter-software_/case-study-niceshops =&amp;gt; /freshdesk-callcenter-software" source="/case-study-niceshops" target="/freshdesk-callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/case-study-niceshops =&gt; /freshdesk-callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/case-study-niceshops-/voip-telefonanlage_" source="/case-study-niceshops" target="/voip-telefonanlage">
+    <edge id="/case-study-niceshops-/voip-telefonanlage_/case-study-niceshops =&amp;gt; /voip-telefonanlage" source="/case-study-niceshops" target="/voip-telefonanlage">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/case-study-niceshops =&gt; /voip-telefonanlage</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/case-study-niceshops-/callcenter-loesung_" source="/case-study-niceshops" target="/callcenter-loesung">
+    <edge id="/case-study-niceshops-/callcenter-loesung_/case-study-niceshops =&amp;gt; /callcenter-loesung" source="/case-study-niceshops" target="/callcenter-loesung">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/case-study-niceshops =&gt; /callcenter-loesung</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/preise_" source="/voip-telefonanlage" target="/preise">
+    <edge id="/voip-telefonanlage-/preise_/voip-telefonanlage =&amp;gt; /preise" source="/voip-telefonanlage" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#1abc9c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlage =&gt; /preise</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/0800-lokal-nummern_" source="/voip-telefonanlage" target="/0800-lokal-nummern">
+    <edge id="/voip-telefonanlage-/0800-lokal-nummern_/voip-telefonanlage =&amp;gt; /0800-lokal-nummern" source="/voip-telefonanlage" target="/0800-lokal-nummern">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#1abc9c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlage =&gt; /0800-lokal-nummern</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/ueber-uns_" source="/voip-telefonanlage" target="/ueber-uns">
+    <edge id="/voip-telefonanlage-/ueber-uns_/voip-telefonanlage =&amp;gt; /ueber-uns" source="/voip-telefonanlage" target="/ueber-uns">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#1abc9c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlage =&gt; /ueber-uns</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/callcenter-software-apps_" source="/voip-telefonanlage" target="/callcenter-software-apps">
+    <edge id="/voip-telefonanlage-/callcenter-software-apps_/voip-telefonanlage =&amp;gt; /callcenter-software-apps" source="/voip-telefonanlage" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#1abc9c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlage =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/voip-telefonanlagen-funktionen_" source="/voip-telefonanlage" target="/voip-telefonanlagen-funktionen">
+    <edge id="/voip-telefonanlage-/voip-telefonanlagen-funktionen_/voip-telefonanlage =&amp;gt; /voip-telefonanlagen-funktionen" source="/voip-telefonanlage" target="/voip-telefonanlagen-funktionen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#1abc9c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlage =&gt; /voip-telefonanlagen-funktionen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlage-/cti-schnittstellen_" source="/voip-telefonanlage" target="/cti-schnittstellen">
+    <edge id="/voip-telefonanlage-/cti-schnittstellen_/voip-telefonanlage =&amp;gt; /cti-schnittstellen" source="/voip-telefonanlage" target="/cti-schnittstellen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#1abc9c" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlage =&gt; /cti-schnittstellen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/voip-telefonanlagen-funktionen-/preise_" source="/voip-telefonanlagen-funktionen" target="/preise">
+    <edge id="/voip-telefonanlagen-funktionen-/preise_/voip-telefonanlagen-funktionen =&amp;gt; /preise" source="/voip-telefonanlagen-funktionen" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/voip-telefonanlagen-funktionen =&gt; /preise</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/telefonanlage-mit-warteschleife_" source="/callcenter-loesung" target="/telefonanlage-mit-warteschleife">
+    <edge id="/callcenter-loesung-/telefonanlage-mit-warteschleife_/callcenter-loesung =&amp;gt; /telefonanlage-mit-warteschleife" source="/callcenter-loesung" target="/telefonanlage-mit-warteschleife">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /telefonanlage-mit-warteschleife</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/callcenter-bot_" source="/callcenter-loesung" target="/callcenter-bot">
+    <edge id="/callcenter-loesung-/callcenter-bot_/callcenter-loesung =&amp;gt; /callcenter-bot" source="/callcenter-loesung" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /callcenter-bot</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/voip-api_" source="/callcenter-loesung" target="/voip-api">
+    <edge id="/callcenter-loesung-/voip-api_/callcenter-loesung =&amp;gt; /voip-api" source="/callcenter-loesung" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/statistiken_" source="/callcenter-loesung" target="/statistiken">
+    <edge id="/callcenter-loesung-/statistiken_/callcenter-loesung =&amp;gt; /statistiken" source="/callcenter-loesung" target="/statistiken">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /statistiken</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/callcenter-software-funktionen_" source="/callcenter-loesung" target="/callcenter-software-funktionen">
+    <edge id="/callcenter-loesung-/callcenter-software-funktionen_/callcenter-loesung =&amp;gt; /callcenter-software-funktionen" source="/callcenter-loesung" target="/callcenter-software-funktionen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /callcenter-software-funktionen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/cti-schnittstellen_" source="/callcenter-loesung" target="/cti-schnittstellen">
+    <edge id="/callcenter-loesung-/cti-schnittstellen_/callcenter-loesung =&amp;gt; /cti-schnittstellen" source="/callcenter-loesung" target="/cti-schnittstellen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /cti-schnittstellen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/zendesk-cti-ticketing_" source="/callcenter-loesung" target="/zendesk-cti-ticketing">
+    <edge id="/callcenter-loesung-/zendesk-cti-ticketing_/callcenter-loesung =&amp;gt; /zendesk-cti-ticketing" source="/callcenter-loesung" target="/zendesk-cti-ticketing">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /zendesk-cti-ticketing</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/freshdesk-callcenter-software_" source="/callcenter-loesung" target="/freshdesk-callcenter-software">
+    <edge id="/callcenter-loesung-/freshdesk-callcenter-software_/callcenter-loesung =&amp;gt; /freshdesk-callcenter-software" source="/callcenter-loesung" target="/freshdesk-callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /freshdesk-callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-loesung-/cti-salesforce_" source="/callcenter-loesung" target="/cti-salesforce">
+    <edge id="/callcenter-loesung-/cti-salesforce_/callcenter-loesung =&amp;gt; /cti-salesforce" source="/callcenter-loesung" target="/cti-salesforce">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-loesung =&gt; /cti-salesforce</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/call-tracking-/demos/callbrowsing/reiseanbieter/_" source="/call-tracking" target="/demos/callbrowsing/reiseanbieter/">
+    <edge id="/call-tracking-/demos/callbrowsing/reiseanbieter/_/call-tracking =&amp;gt; /demos/callbrowsing/reiseanbieter/" source="/call-tracking" target="/demos/callbrowsing/reiseanbieter/">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/call-tracking =&gt; /demos/callbrowsing/reiseanbieter/</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-integrationen-/callcenter-bot_" source="/callcenter-software-integrationen" target="/callcenter-bot">
+    <edge id="/callcenter-software-integrationen-/callcenter-bot_/callcenter-software-integrationen =&amp;gt; /callcenter-bot" source="/callcenter-software-integrationen" target="/callcenter-bot">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-integrationen =&gt; /callcenter-bot</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-integrationen-/callcenter-software-apps_" source="/callcenter-software-integrationen" target="/callcenter-software-apps">
+    <edge id="/callcenter-software-integrationen-/callcenter-software-apps_/callcenter-software-integrationen =&amp;gt; /callcenter-software-apps" source="/callcenter-software-integrationen" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-integrationen =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-integrationen-/sales-solutions_" source="/callcenter-software-integrationen" target="/sales-solutions">
+    <edge id="/callcenter-software-integrationen-/sales-solutions_/callcenter-software-integrationen =&amp;gt; /sales-solutions" source="/callcenter-software-integrationen" target="/sales-solutions">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-integrationen =&gt; /sales-solutions</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-integrationen-/callcenter-software_" source="/callcenter-software-integrationen" target="/callcenter-software">
+    <edge id="/callcenter-software-integrationen-/callcenter-software_/callcenter-software-integrationen =&amp;gt; /callcenter-software" source="/callcenter-software-integrationen" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-integrationen =&gt; /callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-integrationen-/voip-api_" source="/callcenter-software-integrationen" target="/voip-api">
+    <edge id="/callcenter-software-integrationen-/voip-api_/callcenter-software-integrationen =&amp;gt; /voip-api" source="/callcenter-software-integrationen" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-integrationen =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/callcenter-software-integrationen-/case-study-niceshops_" source="/callcenter-software-integrationen" target="/case-study-niceshops">
+    <edge id="/callcenter-software-integrationen-/case-study-niceshops_/callcenter-software-integrationen =&amp;gt; /case-study-niceshops" source="/callcenter-software-integrationen" target="/case-study-niceshops">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/callcenter-software-integrationen =&gt; /case-study-niceshops</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/callcenter-software-integrationen_" source="main-footer" target="/callcenter-software-integrationen">
+    <edge id="main-footer-/callcenter-software-integrationen_main-footer =&amp;gt; /callcenter-software-integrationen" source="main-footer" target="/callcenter-software-integrationen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /callcenter-software-integrationen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/callcenter-software-apps_" source="main-footer" target="/callcenter-software-apps">
+    <edge id="main-footer-/callcenter-software-apps_main-footer =&amp;gt; /callcenter-software-apps" source="main-footer" target="/callcenter-software-apps">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /callcenter-software-apps</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/voip-api_" source="main-footer" target="/voip-api">
+    <edge id="main-footer-/voip-api_main-footer =&amp;gt; /voip-api" source="main-footer" target="/voip-api">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /voip-api</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/case-study-check24_" source="main-footer" target="/case-study-check24">
+    <edge id="main-footer-/case-study-check24_main-footer =&amp;gt; /case-study-check24" source="main-footer" target="/case-study-check24">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /case-study-check24</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/case-study-flaconi_" source="main-footer" target="/case-study-flaconi">
+    <edge id="main-footer-/case-study-flaconi_main-footer =&amp;gt; /case-study-flaconi" source="main-footer" target="/case-study-flaconi">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /case-study-flaconi</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/case-study-niceshops_" source="main-footer" target="/case-study-niceshops">
+    <edge id="main-footer-/case-study-niceshops_main-footer =&amp;gt; /case-study-niceshops" source="main-footer" target="/case-study-niceshops">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /case-study-niceshops</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/case-study-apodiscounter_" source="main-footer" target="/case-study-apodiscounter">
+    <edge id="main-footer-/case-study-apodiscounter_main-footer =&amp;gt; /case-study-apodiscounter" source="main-footer" target="/case-study-apodiscounter">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /case-study-apodiscounter</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/karriere_" source="main-footer" target="/karriere">
+    <edge id="main-footer-/karriere_main-footer =&amp;gt; /karriere" source="main-footer" target="/karriere">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /karriere</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/ueber-uns_" source="main-footer" target="/ueber-uns">
+    <edge id="main-footer-/ueber-uns_main-footer =&amp;gt; /ueber-uns" source="main-footer" target="/ueber-uns">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /ueber-uns</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/preise_" source="main-footer" target="/preise">
+    <edge id="main-footer-/preise_main-footer =&amp;gt; /preise" source="main-footer" target="/preise">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /preise</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/callcenter-software_" source="main-footer" target="/callcenter-software">
+    <edge id="main-footer-/callcenter-software_main-footer =&amp;gt; /callcenter-software" source="main-footer" target="/callcenter-software">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /callcenter-software</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/voip-telefonanlage_" source="main-footer" target="/voip-telefonanlage">
+    <edge id="main-footer-/voip-telefonanlage_main-footer =&amp;gt; /voip-telefonanlage" source="main-footer" target="/voip-telefonanlage">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /voip-telefonanlage</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/0800-lokal-nummern_" source="main-footer" target="/0800-lokal-nummern">
+    <edge id="main-footer-/0800-lokal-nummern_main-footer =&amp;gt; /0800-lokal-nummern" source="main-footer" target="/0800-lokal-nummern">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /0800-lokal-nummern</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/call-tracking_" source="main-footer" target="/call-tracking">
+    <edge id="main-footer-/call-tracking_main-footer =&amp;gt; /call-tracking" source="main-footer" target="/call-tracking">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /call-tracking</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/cti-schnittstellen_" source="main-footer" target="/cti-schnittstellen">
+    <edge id="main-footer-/cti-schnittstellen_main-footer =&amp;gt; /cti-schnittstellen" source="main-footer" target="/cti-schnittstellen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /cti-schnittstellen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/kontakt_" source="main-footer" target="/kontakt">
+    <edge id="main-footer-/kontakt_main-footer =&amp;gt; /kontakt" source="main-footer" target="/kontakt">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /kontakt</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/impressum_" source="main-footer" target="/impressum">
+    <edge id="main-footer-/impressum_main-footer =&amp;gt; /impressum" source="main-footer" target="/impressum">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /impressum</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/datenschutz_" source="main-footer" target="/datenschutz">
+    <edge id="main-footer-/datenschutz_main-footer =&amp;gt; /datenschutz" source="main-footer" target="/datenschutz">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /datenschutz</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/download_" source="main-footer" target="/download">
+    <edge id="main-footer-/download_main-footer =&amp;gt; /download" source="main-footer" target="/download">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /download</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="main-footer-/testen_" source="main-footer" target="/testen">
+    <edge id="main-footer-/testen_main-footer =&amp;gt; /testen" source="main-footer" target="/testen">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#3498db" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">main-footer =&gt; /testen</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/download-/microsip_" source="/download" target="/microsip">
+    <edge id="/download-/microsip_/download =&amp;gt; /microsip" source="/download" target="/microsip">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/download =&gt; /microsip</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="/download-/softphone_" source="/download" target="/softphone">
+    <edge id="/download-/softphone_/download =&amp;gt; /softphone" source="/download" target="/softphone">
       <data key="d1">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#ffffff" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="true" hasLineColor="true" horizontalTextPosition="center" iconTextGap="4" lineColor="#000000" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true">/download =&gt; /softphone</y:EdgeLabel>
           <y:BendStyle smoothed="true"/>
         </y:PolyLineEdge>
       </data>
