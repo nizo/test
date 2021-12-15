@@ -31,7 +31,7 @@
         left: 50%;
         transform: translateX(-50%);
         box-shadow: 0 10px 10px rgba(#000, .2);
-        top: 94px; // Navigation Height
+        top: var(--navigationHeightScrolled); // Navigation Height
         background-color: #fff;
         overflow: hidden;
         opacity: 1 !important;
