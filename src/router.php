@@ -483,6 +483,7 @@ $r->addRoute('GET', '/case-study-check24', function() {
   $description = 'Callcenter Lösung beim Marktführer Check24. CallOne stellt umfassende VoIP-Telefonanlage und Callcenter Software mit offenen API für Kundenservice bereit';
   $keywords = '';
   $background = 'bg-casestudy';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/case-study-check24';
   require_once('./layouts/header.php');
   require_once('./views/de/case-study-check24.php');
@@ -494,6 +495,7 @@ $r->addRoute('GET', '/case-study-apodiscounter', function() {
   $description = 'Automatierung und Effizienz im telefonischen Kundenservice. Mit kompletter ERP-Integration steuert die Onlineapotheke Apodicounter sein virtuelles Callcenter';
   $keywords = '';
   $background = 'bg-casestudy';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/case-study-apodiscounter';
   require_once('./layouts/header.php');
   require_once('./views/de/case-study-apodiscounter.php');
@@ -505,6 +507,7 @@ $r->addRoute('GET', '/case-study-flaconi', function() {
   $description = 'Das Startup Flaconi setzt bei der VoIP-Telefonanlage komplett auf den Dienstleister CallOne. Callcenter Software, Rufnummern, SNOM-Telefone fürs Unternehmen';
   $keywords = '';
   $background = 'bg-casestudy';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/case-study-flaconi';
   require_once('./layouts/header.php');
   require_once('./views/de/case-study-flaconi.php');
@@ -516,6 +519,7 @@ $r->addRoute('GET', '/case-study-niceshops', function() {
   $description = 'Die individuelle Callcenter-Lösung des österreichischen E-Commerce-Unternehmens ✔ IP-Telefonie ✔ Freshdesk-Integration ✔ WebRTC ✔ 40 Shop-Hotlines';
   $keywords = 'niceshops, Telefonielösung, Callcenter-Lösung, E-Commerce, IP-Telefonie, Freshdesk-Integration, webRTC, Hotline';
   $background = 'bg-casestudy';
+  $menuPosition = 'callone';
   $ogImage = 'https://www.callone.de/assets/images/client-logos/callone-und-niceshops.png';
   $ogUrl = $GLOBALS['url'] . '/case-study-niceshops';
   require_once('./layouts/header.php');
@@ -563,6 +567,7 @@ $r->addRoute('GET', '/callcenter-software-integrationen', function() {
   $description = 'Integrationen';
   $keywords = 'CRM, ERP, BI, API, Webhook, Rest-API, Zendesk, Salesforce, Pipedrive, Jira, Browser Extension, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage';
   $background = '';
+  $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/integrations';
   require_once('./layouts/header.php');
   require_once('./views/de/callcenter-software-integrationen.php');
