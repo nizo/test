@@ -14,7 +14,7 @@ $jobs = jobs_load();
     <?php
     foreach ($jobs->categories_get() as $category) {
         ?>
-        <div class="section__content">
+        <div class="section__content" id="<?= $jobs->category_id_get($category) ?>">
             <h2 class="centered"><?= $category ?></h2>
         </div>
 
