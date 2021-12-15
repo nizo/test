@@ -3,6 +3,7 @@
 }
 
 .small-tabs {
+    --linkColor: 0, 0, 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,8 +14,9 @@
             border-radius: 0;
         }
         .small-tabs__tab {
-            color: rgba(#000, .5);
+            color: rgba(var(--linkColor), .5);
             padding: 0;
+            margin-bottom: var(--gutter-s);
             border-bottom: 2px solid transparent;
 
             &:hover {
@@ -33,12 +35,18 @@
         }
     }
 
+    &--on-black {
+        --linkColor: 255, 255, 255;
+    }
+
     &__tabs {
         border: 2px solid #000;
         border-radius: 10px;
         overflow: hidden;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-bottom: 30px;
     }
 

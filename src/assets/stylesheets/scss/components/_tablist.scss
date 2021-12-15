@@ -42,6 +42,8 @@
             padding: var(--gutter-s) var(--gutter-m);
             font-size: 0;
             white-space: nowrap;
+            flex-direction: row;
+            align-items: center;
 
             img {
                 display: inline-block;
@@ -69,6 +71,10 @@
         line-height: 1.4;
         cursor: pointer;
         opacity: .5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         img {
             display: block;
             margin-left: auto;
@@ -232,7 +238,7 @@
             box-shadow: none;
             top: auto;
             background-color: initial;
-    
+            
             .tablist__link {
                 flex: initial;
                 padding: 15px 30px 17px 30px;
@@ -265,7 +271,7 @@
             }
         }
         &__link--active {
-            display: block;
+            display: flex;
         }
         &__indicators {
             display: flex;
@@ -274,6 +280,12 @@
             display: block;
         }
         &--on-black {
+            .tablist__links--sticky {
+                background-color: unset;
+                .tablist__link {
+                    font-size: 14px;
+                }
+            }
             .tablist__links {
                 border-color: rgba(#fff, .2);
             }
