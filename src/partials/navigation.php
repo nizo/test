@@ -65,7 +65,7 @@ if (!isset($menuPosition)) {
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/menu-apis.png" alt="" />
                                     </div>
@@ -88,21 +88,21 @@ if (!isset($menuPosition)) {
                                 <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-text">
                                         <strong>Smarte Warteschleifen</strong>
-                                        <p>Bessere Erreichbarkeit und glücklichere Anrufer mittels Rückruf- und Anrufvorqualifizierung</p>
+                                        <p>Bessere Erreichbarkeit mit Rückrufoptionen</p>
                                     </div>
                                 </a>
 
                                 <a href="/statistiken" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-text">
                                         <strong>Echtzeit-Analysen</strong>
-                                        <p>Echtzeitstatistiken, Dashboards, BI-Datenschnittstellen für Transparenz, die sie so noch nicht kannten</p>
+                                        <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
                                     </div>
                                 </a>
 
                                 <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-text">
                                         <strong>Passgenaue Einbindung</strong>
-                                        <p>Fertige Apps stehen zur Anbindung bereit egal ob TEAMS-Telefonie, CRM oder BI- oder Ticketinglösungen</p>
+                                        <p>Teams-Telefonie, CRM- und BI-Apps, Schnittstellen</p>
                                     </div>
                                 </a>
                             </div>
