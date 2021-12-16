@@ -19,7 +19,8 @@ class Navigation {
     handleMobileSubmenuLinks() {
         this.submenuLinks.forEach(link => {
             link.addEventListener('click', (e => {
-                this.toggleMobileNav();
+                if (window.innerWidth <= 950 || window.innerHeight <= 552)
+                    this.toggleMobileNav();
             }).bind(this));
         });
     }

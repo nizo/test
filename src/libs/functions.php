@@ -154,11 +154,8 @@ function isRole($role) {
 }
 
 function isChristmas() {
-    $month = date('n');
-    $day = date('j');
-    return ($month == 12 && $day >= 1) || ($month == 1 && $day <= 1);
+    return (date('n') == 12);
 }
-
 
 /* Simple decode function (bitweise) */
 function decode($encoded) {

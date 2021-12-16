@@ -1,7 +1,4 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/libs/functions.php');
-require_once($_SERVER['DOCUMENT_ROOT'].'/libs/jobs.php');
-
 // Check if file is loaded from FAQ or blog
 $isFaq = false;
 $isBlog = false;
@@ -20,12 +17,6 @@ if (!isset($menuPosition)) {
  * loesungen, produkte, callone
  * Has to be set in router.php
  */
-if (function_exists('isChristmas'))
-    echo "<!-- isChristmas() exists -->";
-if (isChristmas())
-    echo "<!-- It is Christmas right now -->";
-echo "<!-- ".date('j n')." -->";
-echo "<!-- Output: ".isChristmas()." -->";
 ?>
 
 <nav class="navigation">
@@ -424,23 +415,34 @@ echo "<!-- Output: ".isChristmas()." -->";
                     <div class="navigation__submenu submenu">
                         <div class="submenu__inner">
                             <div class="submenu__left">
-                                <a href="#todo" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Kategorie 1</strong>
-                                        <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="submenu__row">
+                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
+                                        <a href="/blog/" title="Startseite CallOne Blog  - Alles zu den Themen Callcenter-Software und VoIP-Telefonie" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Alle Artikel</strong>
+                                                <p>Übersicht aller Artikel und Beiträge</p>
+                                            </div>
+                                        </a>
+                                        <a href="/blog/category/aktuelles/" title="Aktuelle Artikel und Beiträge" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Aktuelles</strong>
+                                                <p>Die aktuellen Artikel und Beiträge</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
-        
-                                <a href="#todo" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Kategorie 2</strong>
-                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    <div class="submenu__column" style="--col-width:300px">
+                                        <a href="/blog/category/know-how/" title="Know-how - Wissen zum Thema Telefonie" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Know-how</strong>
+                                                <p>Wissen zum Thema Telefonie</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
-                            <div class="submenu__right">
+                            <!-- <div class="submenu__right">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis itaque velit illum adipisci ipsam! Soluta magni officia vero possimus nemo aliquid facilis voluptate voluptates deleniti atque, voluptatibus eos exercitationem vel!
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </li>
