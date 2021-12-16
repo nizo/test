@@ -743,8 +743,45 @@ $faqs->faq_add (
 
 <div class="section section--light-green">
     <div class="section__content section__content--wide">
-        TODO: Tabs
-    </div>
+        <h1 class="centered">Mach es wie unsere Kunden, <br />entscheide dich für CallOne!</h1>
+
+		<div class="tablist">
+			<div class="tablist__links tablist__links--full-width">
+				<div class="tablist__link" data-tab="1">
+					<strong>Telefonanlage mit passgenauer Kundenservicelösung</strong>
+				</div>
+				<div class="tablist__link" data-tab="2">
+					<strong>Telefonieren mit Microsoft Teams</strong>
+				</div>
+				<div class="tablist__link" data-tab="3">
+					<strong>Warteschleifen optimal steuern</strong>
+				</div>
+				<div class="tablist__link" data-tab="4">
+					<strong>Schnittstellen-Integration in die eigenen Systeme</strong>
+				</div>
+			</div>
+
+			<div class="tablist__content" data-tab="1">
+				Tab 1
+			</div>
+			<div class="tablist__content" data-tab="2">
+				Tab 2
+			</div>
+			<div class="tablist__content" data-tab="3">
+				Tab 3
+			</div>
+			<div class="tablist__content" data-tab="4">
+				Tab 4
+			</div>
+		</div>
+
+		<h3 class="centered">Neugierig geworden?</h3>
+		<h4 class="centered">Jetzt unverbindliches Erstgespräch aufnehmen!</h4>
+
+		<p>
+			<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Kontakt aufnehmen</a>
+		</p>
+	</div>
 </div>
 
 <?php
