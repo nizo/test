@@ -48,7 +48,7 @@ $faqs->faq_add (
     </header>
 </div>
 
-<div class="section section--no-padding-top">
+<div class="section section--no-padding-top mobile-hidden">
     <div class="section__content section__content--wide">
         <p class="centered bigtext">Cloud-Telefonanlagen angepasst für Unternehmen jeder Größe - auch Ihres!</p>
 
