@@ -2,7 +2,6 @@
 // init
 session_start();
 
-
 //  track visited websites for each visitor, data is forwarded to form submits
 $current_url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
