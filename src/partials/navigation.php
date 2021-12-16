@@ -1,4 +1,7 @@
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/libs/functions.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/libs/jobs.php');
+
 // Check if file is loaded from FAQ or blog
 $isFaq = false;
 $isBlog = false;
@@ -17,12 +20,18 @@ if (!isset($menuPosition)) {
  * loesungen, produkte, callone
  * Has to be set in router.php
  */
+if (function_exists('isChristmas'))
+    echo "<!-- isChristmas() exists -->";
+if (isChristmas())
+    echo "<!-- It is Christmas right now -->";
+echo "<!-- ".date('j n')." -->";
+echo "<!-- Output: ".isChristmas()." -->";
 ?>
 
 <nav class="navigation">
     <div class="navigation__links">
         <a href="/" class="navigation__logo<?= isChristmas() ? ' navigation__logo--christmas' : '' ?>" title="Zur Startseite von CallOne">
-            <?php require_once('./assets/images/logo/Logo-Christmas-Equal.svg'); ?>
+            <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/images/logo/Logo-Christmas-Equal.svg'); ?>
         </a>
 
         <ul>
@@ -334,7 +343,7 @@ if (!isset($menuPosition)) {
             if ($isFaq) {
                 // Display FAQ Menu
                 ?>
-                <li class="navigation__item">
+                <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
                     <div class="navigation__link navigation__link--arrow">
                         <a href="/faq">FAQ</a>
                     </div>
@@ -342,23 +351,64 @@ if (!isset($menuPosition)) {
                     <div class="navigation__submenu submenu">
                         <div class="submenu__inner">
                             <div class="submenu__left">
-                                <a href="#todo" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Kategorie 1</strong>
-                                        <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="submenu__row">
+                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
+                                        <a href="/faq/category/verwaltung/" title="Verwaltung - Administration der Software" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Verwaltung</strong>
+                                                <p>Administration der Software</p>
+                                            </div>
+                                        </a>
+                                        <a href="/faq/category/rufnummern/" title="Rufnummern - Verwaltung, Schaltung und Portierung" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Rufnummern</strong>
+                                                <p>Verwaltung, Schaltung und Portierung</p>
+                                            </div>
+                                        </a>
+                                        <a href="/faq/category/telefonanlage/" title="Telefonanlage - Voraussetzungen, Einrichtung & Funktionen" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Telefonanlage</strong>
+                                                <p>Voraussetzungen, Einrichtung & Funktionen</p>
+                                            </div>
+                                        </a>
+                                        <a href="/faq/category/callcenter-loesung/" title="Callcenter-Lösung - Funktionen und Administration" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Callcenter-Lösung</strong>
+                                                <p>Funktionen und Administration</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
-        
-                                <a href="#todo" class="submenu__link">
-                                    <div class="submenu__link-text">
-                                        <strong>Kategorie 2</strong>
-                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    <div class="submenu__column" style="--col-width:300px">
+                                        <a href="/faq/category/routing/" title="Routing - Informationen zu Releases und Updates" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Routing</strong>
+                                                <p>Anrufe, Auswahl- und IVR-Menüs, Modulen und Plugins</p>
+                                            </div>
+                                        </a>
+                                        <a href="/faq/category/schnittstellen/" title="Schnittstellen - Systemintegration von Schnittstellen & APIs" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Schnittstellen</strong>
+                                                <p>Systemintegration von Schnittstellen & APIs</p>
+                                            </div>
+                                        </a>
+                                        <a href="/faq/category/statistiken/" title="Statistiken - Anruf- und Agenten-Statistiken" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Statistiken</strong>
+                                                <p>Anruf- und Agenten-Statistiken</p>
+                                            </div>
+                                        </a>
+                                        <a href="/faq/category/weitere-produkte/" title="Weitere Produkte - Fragen zu neusten Features und Tools" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Weitere Produkte</strong>
+                                                <p>Fragen zu neusten Features und Tools</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
+                                </div>        
                             </div>
-                            <div class="submenu__right">
+                            <!-- <div class="submenu__right">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis itaque velit illum adipisci ipsam! Soluta magni officia vero possimus nemo aliquid facilis voluptate voluptates deleniti atque, voluptatibus eos exercitationem vel!
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </li>
@@ -366,7 +416,7 @@ if (!isset($menuPosition)) {
             } elseif ($isBlog) {
                 // Display Blog Menu
                 ?>
-                <li class="navigation__item">
+                <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
                     <div class="navigation__link navigation__link--arrow">
                         <a href="/blog">Blog</a>
                     </div>

@@ -500,6 +500,11 @@ a.submenu__link {
                 height: var(--item-height);
                 justify-content: center;
             }
+            .navigation__item--hide-mobile {
+                .navigation__link {
+                    display: none;
+                }
+            }
 
             .navigation__link {
                 text-align: center;
