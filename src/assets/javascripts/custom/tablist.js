@@ -17,19 +17,24 @@ class Tablist {
 
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
 
-        this.stickyStart = this.tablist.offsetTop - 94;
-        this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        this.navbarHeight = 60;
+        this.stickyStart = null;
+        this.stickyEnd = null;
         this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
         this.stickyPlaceholderActive = false;
         window.addEventListener('scroll', this.stickyLinks.bind(this));
     }
     
     stickyLinks() {
-        // console.log(window.scrollY + '/' + this.stickyStart, window.scrollY + '/' + this.stickyEnd);
         let scrollPos = window.scrollY;
-        if (this.tablist.offsetTop != this.stickyStart) {
-            this.stickyStart = this.tablist.offsetTop - 94;
+        if (!this.stickyStart && this.tabLinksWrapper.getBoundingClientRect().top - this.navbarHeight <= 0) {
+            this.stickyStart = scrollPos - this.navbarHeight;
             this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        }
+        console.log(scrollPos, this.stickyEnd);
+        if (scrollPos < this.stickyStart || scrollPos > this.stickyEnd) {
+            this.stickyStart = null;
+            this.stickyEnd = null;
         }
         if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
             this.spawnPlaceholder();
@@ -48,7 +53,8 @@ class Tablist {
         this.stickyPlaceholder.classList.add('tablist__sticky-placeholder');
         this.stickyPlaceholder.style.visibility = 'hidden';
         this.stickyPlaceholder.style.height = this.tabLinksWrapper.offsetHeight + 'px';
-        this.tablist.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
+        // this.tablist.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
+        this.tabLinksWrapper.parentNode.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
     }
     
     despawnPlaceholder() {

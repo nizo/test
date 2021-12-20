@@ -739,13 +739,13 @@ $faqs->faq_add (
             </div>
         </div>
     </div>
-</div>
+</div>		
+		
+<div class="tablist">
+	<div class="section section--light-green section--no-padding-bottom">
+		<div class="section__content section__content--wide">
+			<h1 class="centered">Mach es wie unsere Kunden, <br />entscheide dich für CallOne!</h1>
 
-<div class="section section--light-green">
-    <div class="section__content section__content--wide">
-        <h1 class="centered">Mach es wie unsere Kunden, <br />entscheide dich für CallOne!</h1>
-
-		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link" data-tab="1">
 					<strong>Telefonanlage mit passgenauer Kundenservicelösung</strong>
@@ -760,21 +760,56 @@ $faqs->faq_add (
 					<strong>Schnittstellen-Integration in die eigenen Systeme</strong>
 				</div>
 			</div>
+		</div>
+	</div>
 
-			<div class="tablist__content" data-tab="1">
-				Tab 1
-			</div>
-			<div class="tablist__content" data-tab="2">
-				Tab 2
-			</div>
-			<div class="tablist__content" data-tab="3">
-				Tab 3
-			</div>
-			<div class="tablist__content" data-tab="4">
-				Tab 4
+	<div class="tablist__content" data-tab="1">
+		<div class="section section--no-padding-bottom blurry" style="background-image:url(/assets/images/photos/gastro-hero-beispiel-image.png), url(/assets/images/photos/gastro-hero-beispiel-image-blurred.png)">
+			<div class="section__content section__content--wide">
+				<div class="blurry__content">
+					<p>
+						<img src="/assets/images/client-logos/gastro-hero-logo-text.png" alt="" />
+					</p>
+					<br />
+					<h4 class="no-gutter-bottom">Branche</h4>
+					<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
+					<br />
+					<h4 class="no-gutter-bottom">Skalierung</h4>
+					<p class="bigtext">100-150 Agenten</p>
+					<br />
+					<h4 class="no-gutter-bottom">Kunde seit</h4>
+					<p class="bigtext">24 Monaten</p>
+				</div>
 			</div>
 		</div>
+		<div class="section section--light-green">
+			<div class="section__content section__content--wide">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
+						<p class="bigtext">TODO: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas excepturi minus reiciendis corporis possimus, eligendi vero esse nostrum voluptatem id ducimus enim tempora libero necessitatibus deleniti omnis. Minus, vitae doloribus.</p>
+						<p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						TODO: Fader
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tablist__content" data-tab="2">
+		Tab 2
+	</div>
+	<div class="tablist__content" data-tab="3">
+		Tab 3
+	</div>
+	<div class="tablist__content" data-tab="4">
+		Tab 4
+	</div>
+</div>
 
+<div class="section section--light-green section--no-padding-top" style="margin-top:0">
+	<div class="section__content section__content--wide">
 		<h3 class="centered">Neugierig geworden?</h3>
 		<h4 class="centered">Jetzt unverbindliches Erstgespräch aufnehmen!</h4>
 
