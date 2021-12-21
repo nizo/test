@@ -18,24 +18,22 @@ class Tablist {
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
 
         this.navbarHeight = 60;
-        this.stickyStart = null;
-        this.stickyEnd = null;
+        this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
+        this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
         this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
         this.stickyPlaceholderActive = false;
         window.addEventListener('scroll', this.stickyLinks.bind(this));
     }
     
     stickyLinks() {
-        let scrollPos = window.scrollY;
-        if (!this.stickyStart && this.tabLinksWrapper.getBoundingClientRect().top - this.navbarHeight <= 0) {
-            this.stickyStart = scrollPos - this.navbarHeight;
+        // Skip if has this class
+        if (this.tablist.classList.contains('tablist--no-sticky'))
+            return;
+        if (!this.stickyPlaceholderActive && this.stickyStart != this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight) {
+            this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
             this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
         }
-        console.log(scrollPos, this.stickyEnd);
-        if (scrollPos < this.stickyStart || scrollPos > this.stickyEnd) {
-            this.stickyStart = null;
-            this.stickyEnd = null;
-        }
+        let scrollPos = window.scrollY;
         if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
             this.spawnPlaceholder();
             this.tabLinksWrapper.classList.add('tablist__links--sticky');

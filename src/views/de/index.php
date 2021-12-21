@@ -103,21 +103,21 @@
     <div class="section__content section__content--wide" id="gruende">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" data-tab="1">
+                <div class="tablist__link" data-tab="1" data-sticky-text="Unsere Telefonlösung">
                     <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Was bietet unsere <br />
                         Telefonlösung?
                     </strong>
                 </div>
-                <div class="tablist__link" data-tab="2">
+                <div class="tablist__link" data-tab="2" data-sticky-text="Vorteile von CallOne">
                     <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Was sind die Vorteile <br />
                         von CallOne?
                     </strong>
                 </div>
-                <div class="tablist__link" data-tab="3">
+                <div class="tablist__link" data-tab="3" data-sticky-text="Mit CallOne telefonieren">
                     <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" />
                     <strong>
                         Wie kann ich mit <br />

@@ -35,11 +35,11 @@ $faqs->faq_add (
 <div class="section">
     <header class="hero">
         <div class="hero__text">
-            <h1>Die sichere Cloud-Telefonanlage für Teams jeder Größe.</h1>
-            <h2>CallOne ist die zentrale Lösung für Telefonie im Unternehmen:<br />Wir verbinden Unternehmen und Anrufer, um Telefonate effizient zu erledigen.</h2>
+            <h1>Die passende Kombination aus <br />Freiheit und Sicherheit: <br />Unsere Cloud Telefonanlage</h1>
+            <h2>Sie halten die Fäden in der Hand. Die cloudbasierte Telefonanlage von CallOne ist die passgenaue Lösung für die Telefonie Ihres Unternehmens - wir helfen Ihnen, Ihre Telefonate effizient zu erledigen.</h2>
 
             <p>
-                <a class="btn btn--primary" href="#" data-openmodal="contact-sales">Kontakt aufnehmen</a>
+                <a class="btn btn--primary" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
             </p>
         </div>
         <div class="hero__image">
@@ -89,15 +89,15 @@ $faqs->faq_add (
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                 <p><img src="/assets/images/icons_svg/solution-package.svg" alt="" /></p>
-                <h1>Funktionen unserer Telefonanlage</h1>
-                <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tincidunt at eget eget. Scelerisque proin ultrices sed viverra amet. Euismod diam cursus rutrum vestibulum suspendisse. Vitae pretium consequat neque facilisis dignissim turpis mattis. Blandit.</p>
+                <h1>Endlich effizienter telefonieren - Dank zahlreicher Funktionen</h1>
+                <p class="bigtext">Vom Ansagen-Management bis zur Warteschleife umfasst unsere Cloud Telefonanlage zahlreiche Funktionen. Sie bekommen alle Möglichkeiten für mehr Effizienz und Zuverlässigkeit - also ein Rundum-sorglos-Paket, das sich auf die individuellen Ansprüche Ihrer Businesstelefonie anpassen lässt.</p>
                 <div class="btn-set">
-                    <a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Anrufgruppen</a>
-                    <a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Zeitsteuerungen</a>
-                    <a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">BLF</a>
-                    <a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Voicemail</a>
-                    <a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Parallel Ringing</a>
-                    <a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Rufumleitung</a>
+                    <a href="/voip-telefonanlagen-funktionen#Anrufsteuerung" class="btn btn--border-bottom btn--arrow-right-small">Warteschleife</a>
+                    <a href="/voip-telefonanlagen-funktionen#Anrufsteuerung" class="btn btn--border-bottom btn--arrow-right-small">Callback-Optionen</a>
+                    <a href="/voip-telefonanlagen-funktionen#Endgeraete" class="btn btn--border-bottom btn--arrow-right-small">BLF</a>
+                    <a href="/voip-telefonanlagen-funktionen#Statistiken" class="btn btn--border-bottom btn--arrow-right-small">Live Monitor</a>
+                    <a href="/voip-telefonanlagen-funktionen#Endgeraete" class="btn btn--border-bottom btn--arrow-right-small">Softphones</a>
+                    <a href="/voip-telefonanlagen-funktionen#Unlimitierte" class="btn btn--border-bottom btn--arrow-right-small">Parralelruf</a>
                 </div>
                 <p>
                     <a href="#todo" class="btn btn--primary">Alle Funktionen entdecken</a>
@@ -110,21 +110,20 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--white-grey-green-half-circle section--no-padding-top">
+<div class="section section--white-grey-green-half-circle section--no-padding-top" id="erweiterbarkeit">
     <div class="section__content section__content--wide">
         <p class="centered">
             <img src="/assets/images/icons_svg/modules-icon.svg" alt="" />
         </p>
 
-        <h1 class="centered">Mehr als nur eine Cloud-Telefonanlage</h1>
+        <h1 class="centered">Darf es noch ein bisschen mehr sein? <br />Addons und Zusatzmodule</h1>
         <p class="centered bigtext">
-            Wie alle unsere Telefonie-Produkte kann sie modular an Ihre <br />
-            Unternehmensbedürfnisse angepasst werden.<br />
+			CallOne bietet das vielleicht umfänglichste Angebot, wenn es um moderne Business Telefonie geht. Neben Cloud Telefonanlagen erhalten Sie bei uns alles für die Einbindung in Ihre bestehenden Systeme und die perfekt integrierte Lösung für Ihren Kundenservice und Inside-Sales Abteilung<br />
             <br />
             <br />
         </p>
 
-        <h3 class="centered">Welches Modul hilft Ihren Geschäftsprozessen?</h3>
+        <h3 class="centered">Welches Modul passt zu Ihren Geschäftsprozessen?</h3>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--4-xs">
@@ -139,9 +138,10 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Unsere Callcenter Software ist modular und funktioniert mit unserer oder Ihrer bestehenden Telefonanlage.</p>
+                    <p style="margin-top:var(--gutter-xs)">Unsere absolute Expertise! Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
 
-                    <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Bessere Businesstelefonie</a></p>
+					<!-- TODO: Add link -->
+                    <p><a href="#" class="btn btn--border-bottom btn--arrow-right-small">Bessere Businesstelefonie</a></p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
@@ -155,9 +155,10 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Kommunikation muss für Sie ohne Stress funktionieren. Passen Sie die CallOne Telefonanlage mit unseren offenen.</p>
+                    <p style="margin-top:var(--gutter-xs)">Innovative Features für Ihre Telefonanlage und individuelle Lösungen, die in Ihr CRM integriert sind - für noch mehr Effizienz.</p>
 
-                    <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Schneller Kunden bearbeiten</a></p>
+					<!-- TODO: Add link -->
+                    <p><a href="#" class="btn btn--border-bottom btn--arrow-right-small">Schneller Kunden bearbeiten</a></p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
@@ -168,23 +169,30 @@ $faqs->faq_add (
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
-                            <h4 style="margin-bottom:0">Teams-Integration</h4>
+                            <h4 style="margin-bottom:0">Teams-Telefonie</h4>
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Kommunikation muss für Sie ohne Stress funktionieren. Passen Sie die CallOne Telefonanlage mit unseren offenen.</p>
+                    <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams gefällig? Kein Problem!</p>
 
-                    <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
+					<!-- TODO: Add link -->
+                    <p><a href="#" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section section--dark-green-black">
+<div class="section section--dark-green-black" id="vorteile">
 	<div class="section__content section__content--wide" id="not-convinced-yet">
+		<h1 class="centered">Was ist sonst noch für Sie drin?</h1>
+		<p class="centered">Informieren Sie sich zu wichtigen Themen rundum unsere Call Center Software und finden Sie heraus, wie unsere Lösung für Sie zum Rundum-sorglos-Paket ergänzt werden kann.</p>
+
+		<br />
+		<br />
+
 		<!-- Mobile Tabs -->
-		<div class="tablist tablist--on-black desktop-hidden">
+		<div class="tablist tablist--on-black tablist--no-sticky desktop-hidden">
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1">
 					<strong>Flexibel telefonieren</strong>
@@ -616,8 +624,8 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h1>Weil wir nicht nur Dienstleister,<br />sondern vor allem Partner sind:</h1>
-                <p class="bigtext">Als Infrastrukturanbieter legen wir Wert darauf unseren Kundenanforderungen immer 100% gerecht zu werden und Ihren Erfolg in der Businesstelefonie zu stemmen.</p>
+                <h1>Holen Sie sich kompetente Partner an Board: Wir sind mehr als Dienstleister.</h1>
+                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
 
@@ -635,13 +643,14 @@ $faqs->faq_add (
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
                     <div class="index-card__content index-card__content--active centered">
-                        <h3>Persönliche Ansprechpartner</h3>
+                        <h3>Immer individuell & persönlich</h3>
                         
-                        <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, sit purus massa, condimentum quis morbi augue tincidunt ullamcorper. Est lectus diam, et nisi habitant sit sit. Tortor morbi viverra massa, pharetra sit urna, ultrices tincidunt in. Arcu.</p>
+                        <p class="bigtext">Sie erhalten Unterstützung sobald Sie sie brauchen. Unsere Kunden lieben Schnelligkeit und um Ihnen diese zu ermöglichen, stellen wir Ihnen einen persönlichen Ansprechpartner zur Seite So können Ihre konkreten Anliegen passgenau erfüllt werden. Unser Team aus Entwicklern, Projektleitern und Telekommunikationsexperten bildet dabei die Task Force für die erfolgreiche Telefonie Ihres Unternehmens.</p>
 
                         <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Wie wir sie zum erfolg führen</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir sie zum erfolg führen</a>
+							<!-- TODO: Add link -->
+                            <a href="#" class="btn btn--secondary btn--centered mobile-hidden">Wie wir sie zum erfolg führen</a>
+                            <a href="#" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir sie zum erfolg führen</a>
                         </p>
                     </div>
                 </div>
@@ -654,8 +663,8 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h1>Weil wir nicht nur Dienstleister,<br />sondern vor allem Partner sind:</h1>
-                <p class="bigtext">Als Infrastrukturanbieter legen wir Wert darauf unseren Kundenanforderungen immer 100% gerecht zu werden und Ihren Erfolg in der Businesstelefonie zu stemmen.</p>
+				<h1>Holen Sie sich kompetente Partner an Board: Wir sind mehr als Dienstleister.</h1>
+                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
 
@@ -673,29 +682,32 @@ $faqs->faq_add (
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
                     <div class="index-card__content index-card__content--active centered">
-                        <h3>Bessere Erreichbarkeit</h3>
+                        <h3>Bessere Erreichbarkeit - höhere Leistung</h3>
                         
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#86ed18;">
                                     <span class="counting-number" data-suffix=" Mio." data-start="0" data-end="100">100 Mio.</span>
                                 </div>
-                                Interaktionen jährlich
+                                Interaktionen jährlich*
                             </div>
                             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#86ed18;">
                                     <span class="counting-number" data-start="0" data-end="127">127</span>
                                 </div>
-                                Softwareupdates
+                                Softwareupdates*
                             </div>
                         </div>
 
                         <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">TODO: Link</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">TODO: Link</a>
+							<!-- TODO: Add link -->
+                            <a href="#" class="btn btn--secondary btn--centered mobile-hidden">TODO: Link</a>
+                            <a href="#" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">TODO: Link</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
+
+						<br class="mobile-hidden" />
                     </div>
                 </div>
             </div>
@@ -707,8 +719,8 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h1>Weil wir nicht nur Dienstleister,<br />sondern vor allem Partner sind:</h1>
-                <p class="bigtext">Als Infrastrukturanbieter legen wir Wert darauf unseren Kundenanforderungen immer 100% gerecht zu werden und Ihren Erfolg in der Businesstelefonie zu stemmen.</p>
+				<h1>Holen Sie sich kompetente Partner an Board: Wir sind mehr als Dienstleister.</h1>
+                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
 
@@ -726,14 +738,17 @@ $faqs->faq_add (
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
                     <div class="index-card__content index-card__content--active centered">
-                        <h3>Flatrate? Dann doch bitte richtig sparen</h3>
+                        <h3>Nachhaltig Kosten sparen - noch besser als eine Flatrate</h3>
                         
-                        <p class="bigtext">TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, sit purus massa, condimentum quis morbi augue tincidunt ullamcorper. Est lectus diam, et nisi habitant sit sit. Tortor morbi viverra massa, pharetra sit urna, ultrices tincidunt in. Arcu.</p>
+                        <p class="bigtext">Wir verkürzen und verbessern Ihre Telefonate durch Schnittstellen, Automatisierungen und umfangreiche Statistiken. So wird ihre Businesstelefonie schnell, smart und effizient - und spart nachweislich Kosten!</p>
 
                         <p class="mobile-centered">
-                            <a href="#todo" class="btn btn--secondary btn--centered mobile-hidden">Wie wir sie zum erfolg führen</a>
-                            <a href="#todo" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir sie zum erfolg führen</a>
+                            <a href="/callcenter-software#mehrwertrechner" class="btn btn--secondary btn--centered mobile-hidden">Jetzt ROI berechnen</a>
+                            <a href="/callcenter-software#mehrwertrechner" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Jetzt ROI berechnen</a>
                         </p>
+
+						<br class="mobile-hidden" />
+						<br class="mobile-hidden" />
                     </div>
                 </div>
             </div>
@@ -741,75 +756,316 @@ $faqs->faq_add (
     </div>
 </div>		
 		
-<div class="tablist">
-	<div class="section section--light-green section--no-padding-bottom">
-		<div class="section__content section__content--wide">
-			<h1 class="centered">Mach es wie unsere Kunden, <br />entscheide dich für CallOne!</h1>
-
+<div class="section section--light-green" id="geschichten">
+	<div class="section__content section__content--wide">
+		<h1 class="centered">Gehen auch Sie den Weg der Effizienz: <br />Entscheiden Sie sich jetzt für CallOne!</h1>
+		
+		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link" data-tab="1">
-					<strong>Telefonanlage mit passgenauer Kundenservicelösung</strong>
+				<div class="tablist__link" data-tab="1" data-sticky-text="Sales / Customer Service">
+					<strong>Passgenaue Telefonanlage für Sales und Customer Service</strong>
 				</div>
-				<div class="tablist__link" data-tab="2">
+				<div class="tablist__link" data-tab="2" data-sticky-text="Microsoft Teams">
 					<strong>Telefonieren mit Microsoft Teams</strong>
 				</div>
-				<div class="tablist__link" data-tab="3">
+				<div class="tablist__link" data-tab="3" data-sticky-text="Warteschleifen">
 					<strong>Warteschleifen optimal steuern</strong>
 				</div>
-				<div class="tablist__link" data-tab="4">
+				<div class="tablist__link" data-tab="4" data-sticky-text="Schnittstellenintegration">
 					<strong>Schnittstellen-Integration in die eigenen Systeme</strong>
 				</div>
 			</div>
-		</div>
-	</div>
 
-	<div class="tablist__content" data-tab="1">
-		<div class="section section--no-padding-bottom blurry" style="background-image:url(/assets/images/photos/gastro-hero-beispiel-image.png), url(/assets/images/photos/gastro-hero-beispiel-image-blurred.png)">
-			<div class="section__content section__content--wide">
-				<div class="blurry__content">
-					<p>
-						<img src="/assets/images/client-logos/gastro-hero-logo-text.png" alt="" />
-					</p>
-					<br />
-					<h4 class="no-gutter-bottom">Branche</h4>
-					<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
-					<br />
-					<h4 class="no-gutter-bottom">Skalierung</h4>
-					<p class="bigtext">100-150 Agenten</p>
-					<br />
-					<h4 class="no-gutter-bottom">Kunde seit</h4>
-					<p class="bigtext">24 Monaten</p>
+			<div class="tablist__content" data-tab="1">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<div class="content-box content-box--white content-box--shadow">
+							<p>
+								<img src="/assets/images/client-logos/gastro-hero-logo-text-inverted.png" alt="" />
+							</p>
+							<br />
+							<h4 class="no-gutter-bottom">Branche</h4>
+							<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
+							<br />
+							<h4 class="no-gutter-bottom">Skalierung</h4>
+							<p class="bigtext">100-150 Agenten</p>
+							<br />
+							<h4 class="no-gutter-bottom">Kunde seit</h4>
+							<p class="bigtext">24 Monaten</p>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h3>Kunden Setup</h3>
+						<div class="fader fader--no-header">
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>Cloud-Telefonanlage</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: 1</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: Text 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="section section--light-green">
-			<div class="section__content section__content--wide">
+				
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
 						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
 						<p class="bigtext">TODO: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas excepturi minus reiciendis corporis possimus, eligendi vero esse nostrum voluptatem id ducimus enim tempora libero necessitatibus deleniti omnis. Minus, vitae doloribus.</p>
 						<p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered image--shadow" style="background-image:url(/assets/images/photos/gastro-hero-beispiel-image.png)">
+
+					</div>
+				</div>
+			</div>
+			<div class="tablist__content" data-tab="2">
+				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-						TODO: Fader
+						<div class="content-box content-box--white content-box--shadow">
+							<p>
+								<img src="/assets/images/client-logos/gastro-hero-logo-text-inverted.png" alt="" />
+							</p>
+							<br />
+							<h4 class="no-gutter-bottom">Branche</h4>
+							<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
+							<br />
+							<h4 class="no-gutter-bottom">Skalierung</h4>
+							<p class="bigtext">100-150 Agenten</p>
+							<br />
+							<h4 class="no-gutter-bottom">Kunde seit</h4>
+							<p class="bigtext">24 Monaten</p>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h3>Kunden Setup</h3>
+						<div class="fader fader--no-header">
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>Cloud-Telefonanlage</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: 1</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: Text 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
+						<p class="bigtext">TODO: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas excepturi minus reiciendis corporis possimus, eligendi vero esse nostrum voluptatem id ducimus enim tempora libero necessitatibus deleniti omnis. Minus, vitae doloribus.</p>
+						<p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered image--shadow" style="background-image:url(/assets/images/photos/gastro-hero-beispiel-image.png)">
+
+					</div>
+				</div>
+			</div>
+			<div class="tablist__content" data-tab="3">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<div class="content-box content-box--white content-box--shadow">
+							<p>
+								<img src="/assets/images/client-logos/gastro-hero-logo-text-inverted.png" alt="" />
+							</p>
+							<br />
+							<h4 class="no-gutter-bottom">Branche</h4>
+							<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
+							<br />
+							<h4 class="no-gutter-bottom">Skalierung</h4>
+							<p class="bigtext">100-150 Agenten</p>
+							<br />
+							<h4 class="no-gutter-bottom">Kunde seit</h4>
+							<p class="bigtext">24 Monaten</p>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h3>Kunden Setup</h3>
+						<div class="fader fader--no-header">
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>Cloud-Telefonanlage</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: 1</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: Text 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
+						<p class="bigtext">TODO: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas excepturi minus reiciendis corporis possimus, eligendi vero esse nostrum voluptatem id ducimus enim tempora libero necessitatibus deleniti omnis. Minus, vitae doloribus.</p>
+						<p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered image--shadow" style="background-image:url(/assets/images/photos/gastro-hero-beispiel-image.png)">
+
+					</div>
+				</div>
+			</div>
+			<div class="tablist__content" data-tab="4">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<div class="content-box content-box--white content-box--shadow">
+							<p>
+								<img src="/assets/images/client-logos/gastro-hero-logo-text-inverted.png" alt="" />
+							</p>
+							<br />
+							<h4 class="no-gutter-bottom">Branche</h4>
+							<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
+							<br />
+							<h4 class="no-gutter-bottom">Skalierung</h4>
+							<p class="bigtext">100-150 Agenten</p>
+							<br />
+							<h4 class="no-gutter-bottom">Kunde seit</h4>
+							<p class="bigtext">24 Monaten</p>
+						</div>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h3>Kunden Setup</h3>
+						<div class="fader fader--no-header">
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>Cloud-Telefonanlage</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: 1</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+							<div class="fader__item">
+								<p>
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>TODO: Text 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas semper elementum placerat ac. Sed est cras porttitor placerat odio erat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
+						<p class="bigtext">TODO: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas excepturi minus reiciendis corporis possimus, eligendi vero esse nostrum voluptatem id ducimus enim tempora libero necessitatibus deleniti omnis. Minus, vitae doloribus.</p>
+						<p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
+					</div>
+					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered image--shadow" style="background-image:url(/assets/images/photos/gastro-hero-beispiel-image.png)">
+
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="tablist__content" data-tab="2">
-		Tab 2
-	</div>
-	<div class="tablist__content" data-tab="3">
-		Tab 3
-	</div>
-	<div class="tablist__content" data-tab="4">
-		Tab 4
-	</div>
-</div>
 
-<div class="section section--light-green section--no-padding-top" style="margin-top:0">
-	<div class="section__content section__content--wide">
 		<h3 class="centered">Neugierig geworden?</h3>
 		<h4 class="centered">Jetzt unverbindliches Erstgespräch aufnehmen!</h4>
 

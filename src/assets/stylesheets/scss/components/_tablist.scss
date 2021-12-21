@@ -56,9 +56,22 @@
                 font-size: 18px;
                 display: inline-block;
                 vertical-align: middle;
+                // display: none;
             }
             span {
                 display: none;
+            }
+            &[data-sticky-text] {
+                strong {
+                    display: none;
+                }
+                &:after {
+                    content: attr(data-sticky-text);
+                    font-size: 18px;
+                    font-family: $font-headline;
+                    font-weight: normal;
+                    line-height: 1.4;
+                }
             }
         }
     }

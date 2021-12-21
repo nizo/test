@@ -80,12 +80,12 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="tablist">
 			<div class="tablist__links">
-				<div class="tablist__link tablist__link--active" data-tab="1">
+				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
 					<strong>Fullservice</strong>
 					CallOne liefert Ihnen das <br />
 					Komplettpaket für Ihr Unternehmen
 				</div>
-				<div class="tablist__link" data-tab="2">
+				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
 					<strong>Integriert</strong>
 					CallOne Callcenter Software verbunden <br />
 					mit Ihrer eigener Telefonanlage
@@ -151,16 +151,16 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1">
+				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" data-sticky-text="Erreichbarkeit">
 					<strong>Beste Erreichbarkeit</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="2">
+				<div class="tablist__link tablist__link--smaller" data-tab="2" data-sticky-text="Effizienz">
 					<strong>Mehr Effizienz</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="3">
+				<div class="tablist__link tablist__link--smaller" data-tab="3" data-sticky-text="Bearbeitung">
 					<strong>Schnellere Bearbeitung</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="4">
+				<div class="tablist__link tablist__link--smaller" data-tab="4" data-sticky-text="Transparenz">
 					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
@@ -887,7 +887,7 @@ $faqs->faq_add (
 		<p class="centered mobile-hidden">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.</p>
 
 		<!-- Mobile Tabs -->
-		<div class="tablist tablist--on-black desktop-hidden">
+		<div class="tablist tablist--on-black tablist--no-sticky desktop-hidden">
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1">
 					<strong>Flexibel telefonieren</strong>
@@ -1030,16 +1030,16 @@ $faqs->faq_add (
 		<!-- Desktop Tabs -->
 		<div class="tablist tablist--on-black mobile-hidden">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link" data-tab="1">
+				<div class="tablist__link" data-tab="1" data-sticky-text="Flexibel telefonieren">
 					<strong>Flexibel<br />telefonieren</strong>
 				</div>
-				<div class="tablist__link" data-tab="2">
+				<div class="tablist__link" data-tab="2" data-sticky-text="Integrationsmöglichkeiten">
 					<strong>Integrations-<br />möglichkeiten</strong>
 				</div>
-				<div class="tablist__link" data-tab="3">
+				<div class="tablist__link" data-tab="3" data-sticky-text="Statistiken">
 					<strong>Statistiken</strong>
 				</div>
-				<div class="tablist__link" data-tab="4">
+				<div class="tablist__link" data-tab="4" data-sticky-text="Sicherheit">
 					<strong>Sicherheit</strong>
 				</div>
 			</div>
