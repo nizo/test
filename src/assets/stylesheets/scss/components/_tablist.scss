@@ -12,7 +12,7 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: stretch;
-        padding-bottom: 60px;
+        margin-bottom: 60px;
     }
     &__links--full-width {
         .tablist__link {
@@ -36,7 +36,6 @@
         overflow: hidden;
         opacity: 1 !important;
         transition: opacity .3s ease;
-        padding-bottom: 0;
 
         .tablist__link {
             flex: initial !important;
@@ -237,7 +236,7 @@
             position: relative;
             padding: 0 46px;
             border-bottom: 2px solid rgba(#000, .2);
-            padding-bottom: 30px;
+            margin-bottom: 30px;
         }
         &__links--sticky {
             position: relative;

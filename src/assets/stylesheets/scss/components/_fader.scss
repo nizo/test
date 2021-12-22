@@ -20,6 +20,15 @@
         }
     }
 
+    &--header-below {
+        .fader__header {
+            order: 2;
+        }
+        .fader__items {
+            order: 1;
+        }
+    }
+
     &__header {
         position: relative;
         order: 1;

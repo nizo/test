@@ -85,6 +85,9 @@
             width: auto !important;
         }
     }
+    &__col--hcentered {
+        align-items: center;
+    }
 }
   
 $breakpoints: (
