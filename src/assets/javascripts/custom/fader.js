@@ -25,6 +25,9 @@ class Fader {
         window.addEventListener('resize', (e => {
             this.resizeFader();
         }).bind(this));
+        window.addEventListener('scroll', (e => {
+            this.resizeFader();
+        }).bind(this));
     }
 
     resizeFader() {

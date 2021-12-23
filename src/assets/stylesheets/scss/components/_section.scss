@@ -253,6 +253,7 @@
         .index-card {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
+            height: 461px;
         }
 
         @media screen and (max-width: 960px) {
@@ -263,6 +264,7 @@
             .index-card {
                 margin-left: -25px;
                 width: calc(100% + 50px);
+                height: auto;
             }
         }
     }
