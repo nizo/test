@@ -21,12 +21,13 @@ function eventListener(event, element, callback) {
  * @param offset - offset to scroll to
  * @param callback - callback function
  */
- function scrollTo(offset, callback) {
-    const fixedOffset = offset.toFixed();
+function scrollToOffset(offset, callback = null) {
+    const fixedOffset = parseFloat(offset).toFixed();
     const onScroll = function () {
-        if (window.pageYOffset.toFixed() === fixedOffset) {
+        if (window.scrollY.toFixed() === fixedOffset) {
             window.removeEventListener('scroll', onScroll)
-            callback()
+            if (callback)
+                callback()
         }
     }
 

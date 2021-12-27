@@ -95,20 +95,9 @@ app =
       anchor = e.target.hash
       if anchor
         target = document.querySelector(anchor)
-        window.scrollTo({
-          top: target.offsetTop - 94,
-          behaviour: 'smooth'
-        });
-        # FIXME: Set hash but prevent another scroll/jump
-        # window.location.hash = anchor;
-        # return false;
-    # $('a[href^="#"]').on 'click.smoothscroll', (e) ->
-    #   e.preventDefault()
-    #   target = @hash
-    #   if target
-    #     $target = $(target)
-    #     $('html, body').stop().animate { 'scrollTop': $target.offset().top - 94 }, 500, 'swing', ->
-    #     window.location.hash = target
+        window.scrollToOffset(target.offsetTop - 94, =>
+          window.location.hash = anchor
+        )
       
     # ToggleCallNumbers
     eventListener 'click', '.showDiv', (e) ->

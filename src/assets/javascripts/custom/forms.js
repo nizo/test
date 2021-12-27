@@ -26,63 +26,49 @@ eventListener('click', '.button-bottom > button', e => {
 	button.classList.toggle('added');
 	let dataInfo = button.getAttribute('data-info');
 	if (button.classList.contains('added')) {
-
-	} else {
-
-	}
-});
-$('.button-bottom > button').on("click", function(e) {
-	e.preventDefault();
-	$(this).toggleClass("added");
-	var dataInfo = $(this).attr('data-info');
-	if ($(this).hasClass('added')) {
-		if(dataInfo) {
+		if (dataInfo) {
 			console.log(wishlist);
 			wishlist.push(dataInfo);
 		}
-		$(this).children().html( $(this).attr('data-add') );
-		$(this).parent().append( '<div class="arrow-box shortModal" style="display: none;"><strong>'+dataInfo+'</strong>Zur Wunschliste hinzugefügt</div>' );
-		var arrowBox = $(this).next('.arrow-box');
-		arrowBox.delay('450').fadeIn();
+		button.children.forEach(child => child.innerHTML = button.getAttribute('data-add'));
+		button.parentNode.insertAdjacentHTML('beforeend', '<div class="arrow-box shortModal" style="display: none;"><strong>'+dataInfo+'</strong>Zur Wunschliste hinzugefügt</div>');
+		var arrowBox = next(button, '.arrow-box');
+		setTimeout(e => {
+			fadeIn(arrowBox, 300);
+		}, 450);
 		
 		timeoutID = window.setTimeout(function() {
-			var arrowBox = $('.button-bottom .arrow-box');
-			arrowBox.fadeOut(function() {
-				arrowBox.delay(400).remove();	
-			});
+			var arrowBox = document.querySelectorAll('.button-bottom .arrow-box');
+			setTimeout(e => {
+				arrowBox.forEach(box => {
+					fadeOut(box, 300);
+				});
+			}, 400);
 		}, 4000);
-		
-		//$(this).next('arrow-box').delay(1000).fadeOut();
-		
 	} else {
 		if(dataInfo) {
 			wishlist.splice(wishlist.indexOf(dataInfo),1);
 		}
-		$(this).children().html( $(this).attr('data-base') ); 
-		$('#wishlist .numberOfElements').html(wishlist.length);
+		button.children.forEach(child => child.innerHTML = button.getAttribute('data-base'));
+		document.querySelector('#wishlist .numberOfElements').innerHTML = wishlist.length;
 	}
 	
-	
-	if (!localStorage) {
-		return;
-	}
-		
 	var wlist = [];
 	if((typeof wishlist != "undefined" || wishlist != null) && (wishlist.length > 0)) {
 		console.log('wishlist: ' + wishlist);
 		window.localStorage.setItem('wishlist', JSON.stringify(wishlist));
-		$('#wishlist .numberOfElements').html(wishlist.length);
-		var note2 = $( ".modal.wishlist .wish-list" );	
-		note2.empty();
-		jQuery.each( wishlist, function( i, val ) {
-			note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+		document.querySelector('#wishlist .numberOfElements').innerHTML = wishlist.length;
+		var note2 = document.querySelector('.modal.wishlist .wish-list');
+		note2.innerHTML = '';
+		wishlist.forEach(val => {
+			note2.parentNode.insertAdjacentHTML('beforeend', '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
 		});
 		setCookie('wishlist', '1', 90);
-		$('#wishlist').slideDown();
+		slideDown(document.querySelector('wishlist'), 300);
 	} else {
 		window.localStorage.removeItem('wishlist');
 		document.cookie = "cookiename='wishlist' ; expires = Thu, 01 Jan 1970 00:00:00 GMT";
-		$('#wishlist').slideUp();
+		slideUp(document.querySelector('#wishlist'), 300);
 	}
 });
 
@@ -161,7 +147,7 @@ var sendForm = function(form) {
 		}
 		break;
 	case '1':
-			if($(form).hasClass('form-1')) {
+		if(form.classList.contains('form-1')) {
 			console.log('Rufnummern');
 			var selectedNumbers = new Array();
 			var n = $('.customCheckbox input[name="checkboxNumbers"]:checked').length;

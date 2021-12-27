@@ -31,77 +31,88 @@ if(checkCookie('cookiebanner-accepted') === false) {
 	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
 }
 
-$('.cookieSubmit').on('click', function(event) {
-	event.preventDefault();
-	console.log("cookie richtlinien akzeptiert");
+eventListener('click', '.cookieSubmit', (e) => {
+	e.preventDefault();
+	console.log('Cookie Richtlinien akzeptiert.');
+	let button = e.target.closest('.cookieSubmit');
+
 	var checkCode = 100;
-	if ($(this).hasClass('full')) {
+	if (button.classList.contains('full')) {
 		checkCode = 111;
 	} else {
-		if ($('#CookieConf input#marketing').parent().hasClass('checked')) {
+		if (document.querySelector('#CookieConf input#marketing').parentNode.classList.contains('checked'))
 			checkCode += 10;
-		}
-		if ($('#CookieConf input#extern').parent().hasClass('checked')) {
+		if (document.querySelector('#CookieConf input#extern').parentNode.classList.contains('checked'))
 			checkCode += 1;
-		}
 	}
 	if (checkCode > 100) {
 		console.log('loadTracking');
-		loadLazyTracking(checkCode > 101? true : false);
+		loadLazyTracking(checkCode > 101 ? true : false);
 	}
-	if(checkCode < 110) {
-		$.ajax({ 
-			url: '/libs/count.php',
-	        data: {
-	        	optInActive: '1'
-	        },
-	        type: 'POST',
-	        success: function(output) {
-	        	//nothing
-	        }
+	if (checkCode < 110) {
+		let postData = new FormData();
+		postData.set('optInActive', '1');
+		fetch('/libs/count.php', {
+			method: 'POST',
+			body: postData
+		})
+		.then(response => {
+			return response.json();
+		})
+		.then(data => {
+			console.log(data);
+		})
+		.catch(response => {
+			console.error (JSON.stringify (error));
 		});
 	}
 	setCookie('cookiebanner-accepted', checkCode, 365);
 	/* Set Cookie für Role selection */
 	if (!checkCookie('co_role'))
 		setCookie('co_role', '001', 365); //000 default value (it-leiter)
-
+	
 	hideModal('cookiebanner', 'slideDown');
 	hideModal('cookiebanner-config', 'slideDown');
 });
-$('.cookieDeny').on('click', function(event) {
-	event.preventDefault();
-	console.log("cookie richtlinien widersprochen");
+
+eventListener('click', '.cookieDeny', (e) => {
+	e.preventDefault();
+	console.log('Cookie Richtlinien widersprochen.');
 	setCookie('cookiebanner-accepted', 100, 365);
 	/* Set Cookie für Role selection */
 	if (!checkCookie('co_role'))
 		setCookie('co_role', '001', 365); //000 default value (it-leiter)
-
+	
 	hideModal('cookiebanner', 'slideDown');
 	hideModal('cookiebanner-config', 'slideDown');
 	deleteAllCookies();
-	$.ajax({ 
-		url: '/libs/count.php',
-        data: {
-        	optInActive: '1'
-        },
-        type: 'POST',
-        success: function(output) {
-        	//nothing
-        }
+	let postData = new FormData();
+	postData.set('optInActive', '1');
+	fetch('/libs/count.php', {
+		method: 'POST',
+		body: postData
+	})
+	.then(response => {
+		return response.json();
+	})
+	.then(data => {
+		console.log(data);
+	})
+	.catch(response => {
+		console.error (JSON.stringify (error));
 	});
 });
-$('.cookieConf').on('click', function() {
-	console.log("cookie config");
+
+eventListener('click', '.cookieConf', (e) => {
+	console.log('Cookie Config.');
 	hideModal('cookiebanner', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
 });
-$('.cookieBanner').on('click', function() {
-	console.log("cookie start");
+eventListener('click', '.cookieBanner', (e) => {
+	console.log("Cookie Start.");
 	hideModal('cookiebanner-config', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner'); }, 1000);
 });
-
 
 window.onload = function() {
 	var paramModal = urlHasParam("om", null);
@@ -146,19 +157,22 @@ function displayModal(modalName, titleContent, part) {
 		});
 	}
 
-	var x = setTimeout(function() { $('.inputFields').css('display', 'block'); }, 500);
+	var x = setTimeout(function() {
+		let fields = document.querySelectorAll('.inputFields');
+		fields.forEach(field => field.style.display = 'block');
+	}, 500);
 	
 	
 	// Close Modal
 	modal.addEventListener("click", function(event) { 
 		if (event.target == modal) {
-		    $(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 		}
 	});
 	
 	for(var i = 0; i < closeButtons.length; i++) {
 		closeButtons[i].addEventListener("click", function() { 
-			$(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 		});
 	}
 }
@@ -167,13 +181,13 @@ function hideModal(modalName, type) {
 	var modal = document.getElementsByClassName(modalName)[0];
 	switch(type) {
 		case 'fadeOut':
-			$(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 			break;
 		case 'slideToggle':
-			$(modal).slideToggle('slow');
+			slideToggle(modal, 700);
 			break;
 		default:
-			$(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 			break;
 	}
 }
