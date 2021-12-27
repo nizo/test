@@ -20,6 +20,15 @@
         }
     }
 
+    &--header-below {
+        .fader__header {
+            order: 2;
+        }
+        .fader__items {
+            order: 1;
+        }
+    }
+
     &__header {
         position: relative;
         order: 1;
@@ -74,7 +83,7 @@
         width: 100%;
         transition: opacity .6s ease;
 
-        img {
+        > img {
             display: block;
         }
     }

@@ -75,6 +75,11 @@
             h2 {
                 font-size: 16px;
             }
+
+            &+.hero__image {
+                padding-left: 0;
+                margin-left: 0;
+            }
         }
         &__image {
             order: 1;

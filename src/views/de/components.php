@@ -1266,11 +1266,11 @@
             <div>
                 <div class="tablist">
                     <div class="tablist__links">
-                        <div class="tablist__link tablist__link--active" data-tab="1">
+                        <div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Office">
                             <strong>Office</strong>
                             <span class="icon-location">Potsdam</span>
                         </div>
-                        <div class="tablist__link" data-tab="2">
+                        <div class="tablist__link" data-tab="2" data-sticky-text="Remote">
                             <strong>Remote</strong>
                             <span class="icon-home">Lieblingsort</span>
                         </div>

@@ -17,7 +17,8 @@ class Tablist {
 
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
 
-        this.stickyStart = this.tablist.offsetTop - 94;
+        this.navbarHeight = 60;
+        this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
         this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
         this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
         this.stickyPlaceholderActive = false;
@@ -25,12 +26,14 @@ class Tablist {
     }
     
     stickyLinks() {
-        // console.log(window.scrollY + '/' + this.stickyStart, window.scrollY + '/' + this.stickyEnd);
-        let scrollPos = window.scrollY;
-        if (this.tablist.offsetTop != this.stickyStart) {
-            this.stickyStart = this.tablist.offsetTop - 94;
+        // Skip if has this class
+        if (this.tablist.classList.contains('tablist--no-sticky'))
+            return;
+        if (!this.stickyPlaceholderActive && this.stickyStart != this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight) {
+            this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
             this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
         }
+        let scrollPos = window.scrollY;
         if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
             this.spawnPlaceholder();
             this.tabLinksWrapper.classList.add('tablist__links--sticky');
@@ -48,7 +51,8 @@ class Tablist {
         this.stickyPlaceholder.classList.add('tablist__sticky-placeholder');
         this.stickyPlaceholder.style.visibility = 'hidden';
         this.stickyPlaceholder.style.height = this.tabLinksWrapper.offsetHeight + 'px';
-        this.tablist.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
+        // this.tablist.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
+        this.tabLinksWrapper.parentNode.insertBefore(this.stickyPlaceholder, this.tabLinksWrapper);
     }
     
     despawnPlaceholder() {
