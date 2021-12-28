@@ -1,30 +1,15 @@
 // Get the modalButtons
-var buttons = document.getElementsByClassName('openModal');
+var buttons = document.querySelectorAll('.openModal');
 
 //Set the EventListeners
-for(var i = 0; i < buttons.length; i++)
-{
-	buttons[i].addEventListener("click", function() { 
-		var modal = $(this).attr('data-modal');
-		var title = null;
-		title = $(this).attr('data-title');
-		// Part - Selektor für einen bestimmten Part eines Modal zum anzeigen
-		var part = $(this).attr('data-modal-part');
+buttons.forEach(button => {
+	button.addEventListener('click', e => {
+		let modal = button.getAttribute('data-modal');
+		let title = button.getAttribute('data-title') || null;
+		let part = button.getAttribute('data-modal-part') || null;
 		displayModal(modal, title != undefined? title : null, part != undefined? part : null);
 	});
-}
- /** Old Cookiebanner
-if(!checkCookie('cookiebanner-accepted')) {
-	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-	setCookie('cookiebanner-accepted', 1, 90);
-}
-	
-window.onscroll = function() {
-	if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-		hideModal('cookiebanner', 'fadeOut');
-	}
-};	
-**/
+});
 
 if(checkCookie('cookiebanner-accepted') === false) {
 	console.log("cookie banner anzeigen");
@@ -131,7 +116,7 @@ function displayModal(modalName, titleContent, part) {
 	modal.style.display = "block";
 	
 	if(modalName === 'priceCalc') {
-		$('.formSuccess').hide();
+		document.querySelector('.formSuccess').style.display = 'none';
 				
 		//console.log(modalName);
 		var title = modal.getElementsByClassName('title-'+part)[0];

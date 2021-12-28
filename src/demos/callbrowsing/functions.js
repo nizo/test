@@ -1,4 +1,4 @@
-$(function ()
+document.addEventListener("DOMContentLoaded", function()
 {
 	var sessioname=null, rootnumberhash=null, identity=null, cb_text=null, cb_url=null, webview_join_url=null;
 

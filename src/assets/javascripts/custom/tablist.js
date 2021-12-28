@@ -95,9 +95,6 @@ class Tablist {
     scrollToTabs() {
         let offset = this.tablist.offsetTop - 100;
         scrollToOffset(offset);
-        // $('html,body').animate({
-        //     scrollTop: $(this.tablist).offset().top - 100 + 'px'
-        // }, 300);
     }
 
     switchTab(e) {

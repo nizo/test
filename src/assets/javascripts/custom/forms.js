@@ -149,11 +149,12 @@ var sendForm = function(form) {
 	case '1':
 		if(form.classList.contains('form-1')) {
 			console.log('Rufnummern');
-			var selectedNumbers = new Array();
-			var n = $('.customCheckbox input[name="checkboxNumbers"]:checked').length;
+			let selectedNumbers = new Array();
+			let checkedBoxes = document.querySelectorAll('.customCheckbox input[name="checkboxNumbers"]:checked');
+			let n = checkedBoxes.length;
 			if (n > 0){
-				$('.customCheckbox input[name="checkboxNumbers"]:checked').each(function(){
-					selectedNumbers.push($(this).val());
+				checkedBoxes.forEach(box => {
+					selectedNumbers.push(box.value);
 				});
 			}
 			
@@ -167,7 +168,6 @@ var sendForm = function(form) {
 				
 			action = '0800 Rufnummern Reservierung';
 			label = data['company'];
-			
 		} else {
 			data = {
 				'type':	type, 
@@ -183,25 +183,26 @@ var sendForm = function(form) {
 		break;
 	case '2':
 		var issue = '';
-		if($(form).find('#issue').hasClass('select-selected'))
-			issue =  $('#issue').text();
-		else
-			issue = $(form).find('[name="issue"]').val();
+		let issueEl = form.querySelector('#issue');
+		if (issueEl.classList.contains('select-selected')) {
+			issue =  issueEl.textContent;
+		} else {
+			issue = form.querySelector('[name="issue"]').value;
+		}
 		
 		// CalcForm
 		var employees, functions = '';
 		var func = [];
-		if ($(form).hasClass('calcForm')) {
+		if (form.classList.contains('calcForm')) {
 			employees = formData.get('employees');
-			$(form).find("input[name='functions']:checked").each(function ()
-			{
-				func.push($(this).val());
+			form.querySelectorAll('input[name="functions"]:checked').forEach(input => {
+				func.push(input.value);
 			});					
 		} else {
-			employees = $('#employees').text()
+			employees = document.querySelector('#employees').textContent;
 		}
 		
-		if ($(form).hasClass('wishlistContactForm')) {
+		if (form.classList.contains('wishlistContactForm')) {
 			if (window.localStorage) {			
 				func = JSON.parse(window.localStorage.getItem('wishlist'));
 			}
@@ -213,7 +214,7 @@ var sendForm = function(form) {
 			'employees': employees,
 			'issue': issue,
 			'name': formData.get('name'),
-			'position': $('#position').text(),
+			'position': document.querySelector('#position').textContent,
 			'company': formData.get('company'),
 			'phonenumber': formData.get('phonenumber'),
 			'email': formData.get('email'),
@@ -222,44 +223,46 @@ var sendForm = function(form) {
 			'functions': func
 		} 
 		
-		if (formData.has('newsletter'))
-			data.newsletter = $(form).find('[name=newsletter]').attr('checked')? true : false;
+		if (formData.has('newsletter')) {
+			let newsletter = form.querySelector('[name="newsletter"]');
+			data.newsletter = newsletter.checked ? true : false;
+		}
 						
-		$(form).hasClass('calcForm')? action = 'Preis Modal' : action = 'Kontaktformular';
-		$(form).hasClass('wishlistContactForm')? action = 'Wunschthemen' : action = 'Kontaktformular';
+		form.classList.contains('calcForm') ? action = 'Preis Modal' : action = 'Kontaktformular';
+		form.classList.contains('wishlistContactForm') ? action = 'Wunschthemen' : action = 'Kontaktformular';
 		
 		label = data['company'];
 		break;
 	case '3':
 		formData.set('type', type);
-		formData.set('path', JSON.parse($(form).find('[name="path"]').val()));
-		formData.set('issue', $(form).find('[name="issue"]').val());
-		formData.set('name', $(form).find('[name="name"]').val());
-		formData.set('phonenumber', $(form).find('[name="phonenumber"]').val());
-		formData.set('email', $(form).find('[name="email"]').val());
-		formData.set('text', $(form).find('[name="text"]').val());
+		formData.set('path', JSON.parse(form.querySelector('[name="path"]').value));
+		formData.set('issue', form.querySelector('[name="issue"]').value);
+		formData.set('name', form.querySelector('[name="name"]').value);
+		formData.set('phonenumber', form.querySelector('[name="phonenumber"]').value);
+		formData.set('email', form.querySelector('[name="email"]').value);
+		formData.set('text', form.querySelector('[name="text"]').value);
 		formData.set('file', document.getElementById('realFile').files[0]);
 		break;
 	case '4':
 		formData.set('type', type);
-		formData.set('path', JSON.parse($(form).find('[name="path"]').val()));
-		formData.set('issue', $(form).find('[name="issue"]').val());
-		formData.set('name', $(form).find('[name="name"] ').val());
-		formData.set('url', $(form).find('[name="url"] ').val());
+		formData.set('path', JSON.parse(form.querySelector('[name="path"]').value));
+		formData.set('issue', form.querySelector('[name="issue"]').value);
+		formData.set('name', form.querySelector('[name="name"]').value);
+		formData.set('url', form.querySelector('[name="url"]').value);
 		break;
 	case '5':			
 		formData.set('type', type);
-		formData.set('email', $(form).find('[name="email"]').val());
-		formData.set('position', $(form).find('[name="position"] ').val());
+		formData.set('email', form.querySelector('[name="email"]').value);
+		formData.set('position', form.querySelector('[name="position"]').value);
 		break;
 	case '6':
 		formData.set('type', type);
-		formData.set('issue', $(form).find('[name="issue"]').val());
-		formData.set('participant_email', $(form).find('[name="participant_email"]').val());
-		formData.set('participant_name', $(form).find('[name="participant_name"]').val());
-		formData.set('participation', $(form).find('[name="participation"]:checked').val() == 'ja'? true : false);
-		if( $(form).find('[name="participation_partner"]:checked').val() == 'ja' )
-			formData.set('partner_name', $(form).find('[name="partner_name"]').val());
+		formData.set('issue', form.querySelector('[name="issue"]').value);
+		formData.set('participant_email', form.querySelector('[name="participant_email"]').value);
+		formData.set('participant_name', form.querySelector('[name="participant_name"]').value);
+		formData.set('participation', form.querySelector('[name="participation"]:checked').value == 'ja' ? true : false);
+		if (form.querySelector('[name="participation_partner"]:checked').value == 'ja')
+			formData.set('partner_name', form.querySelector('[name="partner_name"]').value);
 		else
 			formData.set('partner_name', ' ');
 		
@@ -269,90 +272,85 @@ var sendForm = function(form) {
 		break;
 	}
 
-	$(form).find('.error').removeClass('error');
-	$(form).find('.submit').attr("disabled", true);
+	form.querySelector('.error').classList.remove('error');
+	form.querySelector('.submit').disabled = true;
 	
 	if (type == '1' || type == '2') {
-		$.ajax({
+		let postUrl = form.classList.contains('form-1') ? 'https://connect.callone.io/backend/phonenumbers.php' : 'https://connect.callone.io/backend/contact.php';
+		fetch(postUrl, {
 			method: 'POST',
-			url: $(form).hasClass('form-1')? "https://connect.callone.io/backend/phonenumbers.php" : "https://connect.callone.io/backend/contact.php",
-			data: data,
-			dataType: 'json',
-			success: function(response) {
-				if (response.error) {
-					console.log(response.error);
-					$(form).find('[name='+response.error+']').addClass('error');
-					$(form).find('.submit').removeAttr("disabled");
-				} else {
-					$(form).hide();
-					$(form).next('.formSuccess').fadeIn();
-					
-					// Conversion Pixel
-					dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'})
-					
-					// Conversion Lead with data
-					if (type != 3 && type != 4) {
-						//console.log('Lead pushed');
-						dataLayer.push({
-							'_event': 'Lead',
-							'event' : 'Lead',
-							'eventCategory' : 'Lead',
-							'eventAction' : action,
-							'eventLabel' : label
-						});	
-					}	  
-					
-					// Facebook Tracking Pixel
-					window._fbq = window._fbq || [];
-					window._fbq.push(['track', '6018846817861', {'value':'0.00','currency':'EUR'}]);	
-				}        		
-			},
-			error: function(response) {
+			cache: 'no-cache',
+			body: data
+		})
+		.then(response => {
+			return response.json();
+		})
+		.then(data => {
+			if (response.error) {
 				console.log(response.error);
-				$(form).hide();
-				$(form).next('.formFail').fadeIn();
-			},
-			fail: function(msg) {
-				console.log(msg);
-				$(form).hide();
-				$(form).next('.formFail').fadeIn();
-			} 
-		});  
+				form.querySelector('[name='+response.error+']').classList.add('error');
+				form.querySelector('.submit').disabled = false;
+			} else {
+				form.style.display = 'none';
+				fadeIn(form.nextSibling('.formSuccess'), 300);
+				
+				// Conversion Pixel
+				dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'})
+				
+				// Conversion Lead with data
+				if (type != 3 && type != 4) {
+					//console.log('Lead pushed');
+					dataLayer.push({
+						'_event': 'Lead',
+						'event' : 'Lead',
+						'eventCategory' : 'Lead',
+						'eventAction' : action,
+						'eventLabel' : label
+					});	
+				}	  
+				
+				// Facebook Tracking Pixel
+				window._fbq = window._fbq || [];
+				window._fbq.push(['track', '6018846817861', {'value':'0.00','currency':'EUR'}]);	
+			}
+		})
+		.catch(response => {
+			console.error (JSON.stringify (response));
+			form.style.display = 'none';
+			fadeIn(form.nextSibling('.formFail'), 300);
+		}); 
 	} else {
-		$.ajax({
-			url: "https://connect.callone.io/backend/contact.php",
-			cache: false,
-			type: 'POST',
-			data: formData,
-			dataType: 'json',
-			processData: false,
-			contentType: false,
-			success: function(response) {
-				if (response.error) {
-					console.log(response.error);
-					$(form).find('#'+response.error).addClass('error');
-					$(form).find('.submit').removeAttr("disabled");
+		let postUrl = 'https://connect.callone.io/backend/contact.php';
+		fetch(postUrl, {
+			method: 'POST',
+			cache: 'no-cache',
+			body: formData
+		})
+		.then(response => {
+			return response.json();
+		})
+		.then(data => {
+			if (data.error) {
+				console.log(data.error);
+				form.querySelector('#'+data.error).classList.add('error');
+				form.querySelector('.submit').disabled = false;
+			} else {
+				form.style.display = 'none';
+				if (form.querySelector('[name="participation"]:checked').value == 'nein') {
+					document.querySelector('.animation-3::after').style.bottom = '6px';
+					document.querySelector('.animation-4::after').style.bottom = '6px';
+					fadeIn(form.parentNode.querySelector('.formSuccess.absage'), 300);
+				} else if (form.querySelector('[name="participation"]:checked').value == 'ja') {
+					document.querySelector('.animation-3::after').style.bottom = '6px';
+					document.querySelector('.animation-4::after').style.bottom = '6px';
+					fadeIn(form.nextSibling('.formSuccess.zusage'), 300);
 				} else {
-					$(form).hide();
-					if( $(form).find('[name="participation"]:checked').val() == 'nein') {
-						$('.animation-3::after').css('bottom', '6px');
-						$('.animation-4::after').css('bottom', '6px');
-						$(form).parent().find('.formSuccess.absage').fadeIn();
-					} else if( $(form).find('[name="participation"]:checked').val() == 'ja') {
-						$('.animation-3::after').css('bottom', '6px');
-						$('.animation-4::after').css('bottom', '6px');
-						$(form).next('.formSuccess.zusage').fadeIn();
-					} else {
-						$(form).next('.formSuccess').fadeIn();
-					}
-				}        		
-			},
-			error: function(response) {
-				console.log(response.error);
-			},
-			fail: function(msg) {
-				console.log(msg);
-			} 
+					fadeIn(form.nextSibling('.formSuccess'), 300);
+				}
+			}  
+		})
+		.catch(response => {
+			console.error (JSON.stringify (response));
 		});
 	}
 };

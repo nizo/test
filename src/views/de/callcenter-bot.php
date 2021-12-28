@@ -120,10 +120,13 @@ $faqs->faq_add (
                 	    e = e || window.event;
                 	    e.preventDefault();
 
-                	    $( document ).ready(function() {
-                	    	$('.mapList li').css('border-color','#000000');
-                	       $('.mapList li:nth-child('+ step +')').css('border-color','#86ed18');
-                	    });
+                      let mapItems = document.querySelectorAll('.mapList li');
+                      mapItems.forEach((item, i) => {
+                        let color = '#000000';
+                        if (step == (i+1))
+                          color = '#86ED18';
+                        item.style.borderColor = color;
+                      });
                 	}
             	</script>
         		<area class="blue" onmouseover="showStep(event, 1)" onclick="showStep(event, 1)" shape="rect" coords="0,70,80,145" href="#">
