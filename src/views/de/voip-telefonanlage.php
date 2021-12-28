@@ -8,11 +8,11 @@ $product->structured_data_get_code ();
 $faqs = new faqs ();
 $faqs->faq_add (
     'Was kostet unsere Cloud Telefonanlage?',
-    '<p>Wir starten ab 10 Mitarbeitern und ab 7,90 € je Nebenstelle. Hinzu kommen nutzungsabhängige Kosten und Zusatzfunktionen wie Call Center Software, Schnittstellen und Rufnummern. Sie können stets auf unsere Projektmanager:innen zurückgreifen, die wir pauschal oder zeitbasiert abrechnen. Da wir uns als Lösungsanbieter mit einem sehr breiten Portfolio verstehen erhalten Sie von uns stets ein passgenaues Angebot zugeschnitten auf Ihre individuellen Anforderungen. Vereinbaren Sie <a href="#" data-openmodal="contact-sales">hier</a> gerne ein erstes unverbindliches Beratungsgespräch.</p>'
+    '<p>Wir starten ab 10 Mitarbeitern und ab 7,90 € je Nebenstelle. Hinzu kommen nutzungsabhängige Kosten und Zusatzfunktionen wie Call Center Software, Schnittstellen und Rufnummern. Sie können stets auf unsere Projektmanager*innen zurückgreifen, die wir pauschal oder zeitbasiert abrechnen. Da wir uns als Lösungsanbieter mit einem sehr breiten Portfolio verstehen erhalten Sie von uns stets ein passgenaues Angebot zugeschnitten auf Ihre individuellen Anforderungen. Vereinbaren Sie <a href="#" data-openmodal="contact-sales">hier</a> gerne ein erstes unverbindliches Beratungsgespräch.</p>'
 );
 $faqs->faq_add (
     'Wie kann ich mit CallOne sparen?',
-    '<p>Wir sind sicher nicht der günstigste Anbieter am Markt. Fragt man jedoch unsere Kunden sparen Sie mit CallOne täglich eine Menge Geld. Wie? Mit smarten Telefonanlagenfunktionen in Paarung mit optimalem Consulting durch unsere Projektmanager:innen. Schlagworte sind hier: <a href="/statistiken">Effizientere Personalsteuerung</a>,  <a href="/callcenter-bot">Kürzere Gesprächsdauern durch Automatisierung</a>, <a href="/telefonanlage-mit-warteschleife">Wettbewerbsvorteile durch erfolgreichen Kundenservice</a>.</p>'
+    '<p>Wir sind sicher nicht der günstigste Anbieter am Markt. Fragt man jedoch unsere Kunden sparen Sie mit CallOne täglich eine Menge Geld. Wie? Mit smarten Telefonanlagenfunktionen in Paarung mit optimalem Consulting durch unsere Projektmanager*innen. Schlagworte sind hier: <a href="/statistiken">Effizientere Personalsteuerung</a>,  <a href="/callcenter-bot">Kürzere Gesprächsdauern durch Automatisierung</a>, <a href="/telefonanlage-mit-warteschleife">Wettbewerbsvorteile durch erfolgreichen Kundenservice</a>.</p>'
 );
 $faqs->faq_add (
     'Was unterscheidet CallOne von alternativen Telefonanlagen-Anbietern?',
@@ -93,7 +93,7 @@ $faqs->faq_add (
 				<p class="desktop-hidden centered"><img src="/assets/images/illus/voip-telefonanlage-softphone.png" alt="" style="max-width:66%;" /><br /><br /></p>
 
                 <h1>VoIP-Telefonanlage maß&shy;geschneidert auf Ihre Bedürfnisse</h1>
-                <p class="bigtext">Sie erhalten bei uns die vielleicht intuitiv bedienbare virtuelle Telefonzentrale für Ihr Unternehmen. Unsere Funktionen werden Sie nicht mehr missen wollen. Versprochen!</p>
+                <p class="bigtext">Sie erhalten bei uns die vielleicht am einfachsten bedienbare virtuelle Telefonanlage für Ihr Unternehmen. Unsere Funktionen werden Sie nicht mehr missen wollen. Versprochen!</p>
 
                 <div class="btn-set">
                     <a href="/voip-telefonanlagen-funktionen#Anrufsteuerung" class="btn btn--border-bottom btn--arrow-right-small">Warteschleife</a>
@@ -354,13 +354,61 @@ $faqs->faq_add (
 
 				<div class="small-tabs small-tabs--clear small-tabs--on-black">
 					<div class="small-tabs__tabs">
-						<div class="small-tabs__tab" data-tab="1">Agentenmaske</div>
-						<div class="small-tabs__tab" data-tab="2">Softphone</div>
-						<div class="small-tabs__tab" data-tab="3">Microsoft Teams</div>
-						<div class="small-tabs__tab" data-tab="4">Tischtelefon</div>
-						<div class="small-tabs__tab" data-tab="5">Handyclient</div>
+						<div class="small-tabs__tab" data-tab="1">Tischtelefon</div>
+						<div class="small-tabs__tab" data-tab="2">Microsoft Teams</div>
+						<div class="small-tabs__tab" data-tab="3">Softphone</div>
+						<div class="small-tabs__tab" data-tab="4">Browsertelefon</div>
+						<div class="small-tabs__tab" data-tab="5">Mobilfunk</div>
 					</div>
 					<div class="small-tabs__content" data-tab="1">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
+								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" />
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
+								<p class="bigtext">Telefonieren ohne Umwege! Für unser Browsertelefon benötigen Sie nur einen Browser und ein Headset, um ein- und ausgehende Telefonate zu führen. Zudem erhalten Sie die volle Power für ihre Kundenservicemitarbeiter.</p>
+								<br />
+								<ul class="list list--checkmarks list--on-black">
+									<li>Weiterleiten (kalt und warm)</li>
+									<li>Telefonbuchintegration</li>
+									<li>Viele weitreichende Call Center Software Funktionen</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="small-tabs__content" data-tab="2">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
+								<img src="/assets/images/photos/microsoft-teams.png" alt="" />
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
+								<p class="bigtext">Teams Telefonie mit CallOne bedeutet nahtlose Integration.</p>
+								<br />
+								<ul class="list list--checkmarks list--on-black">
+									<li>Telefonate ins öffentliche Telefonnetz führen</li>
+									<li>Erweiterbar um Call Center Software</li>
+									<li>Einfache Benutzerverwaltung</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="small-tabs__content" data-tab="3">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
+								<img src="/assets/images/photos/softphone-view.png" alt="" />
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
+								<p class="bigtext">Die integrierte Alternative zur Teams Telefonie. Das <a href="/softphone" class="inline-link">CallOne Softphone</a> smart integriert als Browser Plugin in Ihren Lieblingsbrowser.</p>
+								<br />
+								<ul class="list list--checkmarks list--on-black">
+									<li>Smarte Integration im Hintergrund als Extension</li>
+									<li>Günstige Alternative für Teams Telefonie</li>
+									<li>Optimal für alle die browserbasiert arbeiten und eine schlanken und flexiblen Telefonclient suchen</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="small-tabs__content" data-tab="4">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
 								<img src="/assets/images/photos/agent-view-desktop.png" alt="" />
@@ -385,99 +433,18 @@ $faqs->faq_add (
 							</div>
 						</div>
 					</div>
-					<div class="small-tabs__content" data-tab="2">
-						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/softphone-view.png" alt="" />
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Sie möchten die Cloud Telefonanlage als Integration in Ihre Unternehmenssoftware nutzen? Das bekommen wir hin!</p>
-								<br />
-								<ul class="list list--checkmarks list--on-black">
-									<li>
-										Browser Extension mit Click-to-Dial<br />
-										<span class="subtext">Softclient für alle gängigen Browser integriert als Extension, heißt Telefonieren auch wenn kein Tab geöffnet ist.</span>
-									</li>
-									<li>
-										Softphone mit Autokonfiguration<br />
-										<span class="subtext">Alternativ bieten wir kostenfreie Softphone vorkonfiguriert für Ihre Mitarbeiter.</span>
-									</li>
-									<li>
-										Javascript-Bibliothek vollständig eingebunden<br />
-										<span class="subtext">Möglichkeit in Ihrer eigenen Businesslösung über CallOne zu telefonieren.</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="small-tabs__content" data-tab="3">
-						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/microsoft-teams.png" alt="" />
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
-								<br />
-								<ul class="list list--checkmarks list--on-black">
-									<li>
-										Optimale Einbindung Ihres gesamten Unternehmens<br />
-										<span class="subtext">Nutzen Sie die Vorteile von Teams und lösen Sie Kundenfälle auch abteilungsübergreifend mit den Weiterleitungsmöglichkeiten, die Teams ihnen bietet.</span>
-									</li>
-									<li>
-										Kombinierbar mit unserer Agentenmaske<br />
-										<span class="subtext">Eine perfekte Mischung für Unternehmen, die auf Teams setzen, weitreichende Agentenfunktionen nicht missen wollen.</span>
-									</li>
-									<li>
-										Alles in einem Tool<br />
-										<span class="subtext">Nutzen Sie Teams auch für ausgehende Telefonate und mobil. Die Möglichkeiten sind grenzenlos und erlauben auch einen hybriden Mischbetrieb.</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="small-tabs__content" data-tab="4">
-						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" />
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein. Nutzen Sie die Möglichkeit, alles bequem in einer Oberfläche zu verwalten.</p>
-								<br />
-								<ul class="list list--checkmarks list--on-black">
-									<li>
-										Optimales Zusammenspiel mit der ACD<br />
-										<span class="subtext">Agenten an- und abmelden. Gespräche aus der Warteschleife ziehen oder freie Sitzplatzwahl.</span>
-									</li>
-									<li>
-										Neue Updates auf Knopfdruck<br />
-										<span class="subtext">Spielen Sie neue Firmware über CallOne ein oder hinterlegen Sie Kurzwahltasten im Handumdrehen. Einfacher geht´s nicht.</span>
-									</li>
-									<li>
-										Verschlüsslung auf Spitzenniveau<br />
-										<span class="subtext">Verschlüsseln Sie die Endgeräte mittels VPN. Sichern Sie Gesprächsinhalte sowie Übertragung mittels SRTP und TLS.</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
 					<div class="small-tabs__content" data-tab="5">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
 								<img src="/assets/images/photos/phone-client.png" alt="" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Mobilfunkgeräte in Ihre Cloud Telefonanlage einbinden? Das kann so einige Herausforderung lösen und ist mit CallOne kein Problem!</p>
+								<p class="bigtext">Binden Sie auf vielfältige Weise Ihre Mobilfunkgeräte in unsere Cloud Telefonanlage ein. Die Möglichkeiten sind dabei vielfältig.</p>
 								<br />
 								<ul class="list list--checkmarks list--on-black">
-									<li>
-										Erstaunlich viele Optionen: Nutzen Sie ein direkt hinterlegtes SIP-Konto in Ihrem Betriebssystem, die mobile App oder die so genannte PSTN-Weiterleitung auf Ihr Handy.
-									</li>
-									<li>
-										Auch über Ihr Handy können Sie ganz einfach mit Ihrer Büronummer raustelefonieren.
-									</li>
-									<li>
-										Herausforderung fehlender Handyempfang! Kein Problem, denn Sie können mittels WLAN bequem über die Datenleitung telefonieren.
-									</li>
+									<li>SIP-Konto direkt ins Telefon einbinden</li>
+									<li>Fertige Telefonapps</li>
+									<li>Intelligente Anrufweiterleitungen</li>
 								</ul>
 							</div>
 						</div>
@@ -537,10 +504,10 @@ $faqs->faq_add (
 				<br />
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-						<p class="bigtext">Sie bekommen mit der CallOne Lösung eine webbasierte Oberfläche mit der vielleicht umfangreichsten Auswahl an Echtzeitstatistiken. So erhalten Sie eine unerreichte Transparenz sowie unschlagbare Planbarkeit. In mehr als 50 Statistiken können Sie verschiedenste Daten auswerten: Von Rufnummern über SLA, Skillgruppen, Agent*innen bis hin zu KPIs wie Erreichbarkeiten.</p>
+					<div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+						<img src="/assets/images/illus/dashboards-mockup.svg" alt="" />
 					</div>
-					<div class="co-grid__col co-grid__col--6-xs">
+					<div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
 						<ul class="list list--checkmarks list--on-black">
 							<li>
 								Tabellen, Grafiken, Schnittstellen<br />
@@ -633,7 +600,7 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active centered">
                         <h3>Immer individuell & persönlich</h3>
                         
-                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager:innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
+                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager*innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
 						<p class="bigtext desktop-hidden">Unser Team betreut und berät Sie persönlich zu allem rundum Ihre Cloud Telefonanlage von CallOne.</p>
 
                         <p class="mobile-centered">
@@ -768,13 +735,13 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h3>Kunden Setup</h3>
-						<div class="fader fader--no-header">
+						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
+									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
@@ -784,10 +751,10 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
+									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
@@ -797,10 +764,10 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
@@ -810,9 +777,9 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
 									<img src="/assets/images/icons_png/icon-4-green.png" alt="">
 								</p>
 								<br />
@@ -841,7 +808,15 @@ $faqs->faq_add (
 							<p class="bigtext">100-150 Agent*innen</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
-							<p class="bigtext">24 Monaten</p>
+							<p class="bigtext">
+								<?php
+								$origin = new DateTime('2019-12-01');
+								$target = new DateTime(date('Y-m-d'));
+								$interval = $origin->diff($target);
+								$months = $interval->format('%m') + ($interval->format('%y') * 12);
+								echo $months.' Monaten';
+								?>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -855,7 +830,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h3>Kunden Setup</h3>
-						<div class="fader fader--no-header">
+						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
@@ -928,7 +903,15 @@ $faqs->faq_add (
 							<p class="bigtext">40 Agent*innen</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
-							<p class="bigtext">12 Monaten</p>
+							<p class="bigtext">
+								<?php
+								$origin = new DateTime('2020-12-01');
+								$target = new DateTime(date('Y-m-d'));
+								$interval = $origin->diff($target);
+								$months = $interval->format('%m') + ($interval->format('%y') * 12);
+								echo $months.' Monaten';
+								?>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -942,7 +925,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h3>Kunden Setup</h3>
-						<div class="fader fader--no-header">
+						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
@@ -999,7 +982,15 @@ $faqs->faq_add (
 							<p class="bigtext">120 Agenten*innen</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
-							<p class="bigtext">25 Monaten</p>
+							<p class="bigtext">
+								<?php
+								$origin = new DateTime('2019-11-01');
+								$target = new DateTime(date('Y-m-d'));
+								$interval = $origin->diff($target);
+								$months = $interval->format('%m') + ($interval->format('%y') * 12);
+								echo $months.' Monaten';
+								?>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -1013,7 +1004,7 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h3>Kunden Setup</h3>
-						<div class="fader fader--no-header">
+						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
@@ -1070,7 +1061,15 @@ $faqs->faq_add (
 							<p class="bigtext">40 Agenten*innen</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
-							<p class="bigtext">19 Monaten</p>
+							<p class="bigtext">
+								<?php
+								$origin = new DateTime('2020-05-01');
+								$target = new DateTime(date('Y-m-d'));
+								$interval = $origin->diff($target);
+								$months = $interval->format('%m') + ($interval->format('%y') * 12);
+								echo $months.' Monaten';
+								?>
+							</p>
 						</div>
 					</div>
 				</div>

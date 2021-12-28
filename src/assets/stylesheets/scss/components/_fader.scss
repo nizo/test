@@ -82,6 +82,7 @@
         left: 0;
         width: 100%;
         transition: opacity .6s ease;
+        z-index: 0;
 
         > img {
             display: block;
@@ -93,6 +94,11 @@
     }
     &__item--active {
         opacity: 1;
+        z-index: 1;
+    }
+
+    &__next {
+        cursor: pointer;
     }
 }
 
