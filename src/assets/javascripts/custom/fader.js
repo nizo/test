@@ -10,6 +10,16 @@ class Fader {
         this.indicators = [];
         this.indicatorsBox = this.initIndicators();
         this.header = this.initHeader();
+        this.nextButtons = this.fader.querySelectorAll('.fader__next');
+        this.nextButtons.forEach(nextButton => {
+            nextButton.addEventListener('click', (e => {
+                clearInterval(this.faderInterval);
+                let next = null;
+                if (nextButton.getAttribute('data-next'))
+                    next = parseInt(nextButton.getAttribute('data-next'));
+                this.fade(next);
+            }).bind(this));
+        });
 
         // this.faderInterval = setInterval(this.fade.bind(this), this.speed);
         
@@ -36,10 +46,14 @@ class Fader {
         this.items.forEach(item => item.style.height = this.itemSize + 'px');
     }
 
-    fade() {
+    fade(to = null) {
         this.items[this.currentItem].classList.remove('fader__item--active');
         this.indicators[this.currentItem].classList.remove('fader__indicator--active');
-        this.currentItem++;
+        if (to !== null) {
+            this.currentItem = to;
+        } else {
+            this.currentItem++;
+        }
         if (this.currentItem == this.items.length)
             this.currentItem = 0;
         this.items[this.currentItem].classList.add('fader__item--active');
