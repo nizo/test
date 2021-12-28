@@ -4,10 +4,8 @@ if window.NodeList && !NodeList.prototype.forEach
 
 app =
   init: ->
-    navbar.init()
     @bind_events()
     @init_slider()
-    # @autoplay_videos()
     @loop_videos()
     @init_tabs()
 
@@ -156,23 +154,6 @@ app =
     sliders.forEach (s) ->
       slider.init(s)
 
-# Adds additional class to navbar when scrolled
-navbar =
-  bar: document.querySelector('.navbar')
-
-  init: ->
-    @adjust()
-    document.addEventListener 'scroll', ((e) =>
-      @adjust()
-    ).bind(@)
-
-  adjust: ->
-    if @bar
-      if window.scrollY > 0
-        @bar.classList.add('scrolled')
-      else
-        @bar.classList.remove('scrolled')
-
 slider =
   slider: ""
   slides_box: ""
@@ -199,19 +180,6 @@ slider =
       _this.slides.forEach (slide) ->
         slide.style.width = _this.slider.offsetWidth / 3 + 'px'
       _this.get_slider_height()
-      # _this.slide_width = $(@slides[0]).outerWidth()
-    # _this = @
-    # $(document).on 'click', '.btn-slider-nav', (e) ->
-    #   _this.current_slide = $(this).data 'slide'
-    #   $(_this.slides_box).animate
-    #     left: _this.current_slide * _this.slide_width * -1 + 'px'
-    #   , 300
-    #   $('.btn-slider-nav', _this.slider).removeClass 'active'
-    #   $('.btn-slider-nav:nth('+_this.current_slide+')', _this.slider).addClass 'active'
-    #   _this.slides.removeClass 'active'
-    #   $(_this.slides[_this.current_slide]).addClass 'active'
-    #   $(_this.slides[_this.current_slide+1]).addClass 'active'
-    #   $(_this.slides[_this.current_slide+2]).addClass 'active'
 
   get_slider_height: ->
     extra_height = 33 + 40 + 100 # button height + slides padding + gutters

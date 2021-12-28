@@ -190,7 +190,7 @@
     </div>  
 
     <!-- <script src="/assets/javascripts/libs/jquery-3.6.0.min.js"></script> -->
-    
+
     <?php
     loadJS(null);
     ?>

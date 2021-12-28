@@ -101,7 +101,7 @@ eventListener('click', '.select-items .item', e => {
 
 eventListener('change', '.js-form input', e => {
 	let label = e.target.closest('.group');
-	if (group) {
+	if (label) {
 		label = label.querySelector('label');
 		label.classList.add('fixed');
 	}
