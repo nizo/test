@@ -834,9 +834,9 @@ $faqs->faq_add (
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
+									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
@@ -846,10 +846,10 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
+									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
@@ -859,10 +859,10 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
@@ -872,9 +872,9 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
 									<img src="/assets/images/icons_png/icon-4-green.png" alt="">
 								</p>
 								<br />
@@ -929,8 +929,8 @@ $faqs->faq_add (
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-6-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-6-grey.png" alt="" class="fader__next" data-next="2">
 								</p>
 								<br />
 								<div class="left-border">
@@ -940,9 +940,9 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-6-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-6-grey.png" alt="" class="fader__next" data-next="2">
 								</p>
 								<br />
 								<div class="left-border">
@@ -952,8 +952,8 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="1">
 									<img src="/assets/images/icons_png/icon-6-green.png" alt="">
 								</p>
 								<br />
@@ -1008,8 +1008,8 @@ $faqs->faq_add (
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-5-grey.png" alt="" class="fader__next" data-next="2">
 								</p>
 								<br />
 								<div class="left-border">
@@ -1019,9 +1019,9 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-5-grey.png" alt="" class="fader__next" data-next="2">
 								</p>
 								<br />
 								<div class="left-border">
@@ -1031,8 +1031,8 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="1">
 									<img src="/assets/images/icons_png/icon-5-green.png" alt="">
 								</p>
 								<br />
