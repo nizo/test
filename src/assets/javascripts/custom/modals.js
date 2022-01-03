@@ -107,7 +107,7 @@ window.onload = function() {
 
 //ShowModal
 function displayModal(modalName, titleContent, part) {
-	var modal = document.getElementsByClassName(modalName)[0];
+	var modal = document.querySelector('.modal.'+modalName);
 	var closeButtons = document.getElementsByClassName('close');
 	
 	if (modal == null)

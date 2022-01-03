@@ -105,16 +105,6 @@ $r->addRoute('GET', '/components_overview', function() {
   require_once('./layouts/footer.php');
 });
 
-$r->addRoute('GET', '/testseite', function() {
-  $title = 'Testseite CallOne';
-  $description = '';
-  $keywords = '';
-  $background = '';
-  require_once('./layouts/header.php');
-  require_once('./views/de/testseite.php');
-  require_once('./layouts/footer.php');
-});
-
 $r->addRoute('GET', '/event', function() {
   $title = 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge';
   $description = '';

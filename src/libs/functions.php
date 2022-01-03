@@ -50,9 +50,9 @@ function loadCSS($dir, $js=false) {
                 $css .= "lazyLoadingCss('/assets/stylesheets/".$addCssFile[0]."');";
         } else {
             if ( preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) ) {
-                echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" /><![endif]-->';
+                echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" media="screen" /><![endif]-->';
             } else {
-                echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" />';
+                echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" media="screen" />';
             }
         }
     }

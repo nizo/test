@@ -297,7 +297,7 @@ var sendForm = function(form) {
 				form.querySelector('.submit').disabled = false;
 			} else {
 				form.style.display = 'none';
-				fadeIn(form.nextSibling('.formSuccess'), 300);
+				fadeIn(next(form, '.formSuccess'), 300);
 				
 				// Conversion Pixel
 				dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'})
@@ -322,7 +322,7 @@ var sendForm = function(form) {
 		.catch(response => {
 			console.error (JSON.stringify (response));
 			form.style.display = 'none';
-			fadeIn(form.nextSibling('.formFail'), 300);
+			fadeIn(next(form, '.formFail'), 300);
 		}); 
 	} else {
 		let postUrl = 'https://connect.callone.io/backend/contact.php';
@@ -348,9 +348,9 @@ var sendForm = function(form) {
 				} else if (form.querySelector('[name="participation"]:checked').value == 'ja') {
 					document.querySelector('.animation-3::after').style.bottom = '6px';
 					document.querySelector('.animation-4::after').style.bottom = '6px';
-					fadeIn(form.nextSibling('.formSuccess.zusage'), 300);
+					fadeIn(next(form, '.formSuccess.zusage'), 300);
 				} else {
-					fadeIn(form.nextSibling('.formSuccess'), 300);
+					fadeIn(next(form, '.formSuccess'), 300);
 				}
 			}  
 		})

@@ -184,11 +184,12 @@
     <div class="modal wishlist">
     	<?php include('./partials/modal-wishlist.php'); ?>
     </div>
-     
-	  <div class="modal shortApplication">
-      <?php include('./partials/modal-10-second-application.php'); ?>
-    </div>  
 
+    <div class="modal callback">
+    	<?php include('./partials/modal-callback.php'); ?>
+    </div>
+
+    <script src="/assets/javascripts/libs/utilities.js"></script>
     <?php
     loadJS(null);
     ?>

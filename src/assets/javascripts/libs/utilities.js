@@ -191,15 +191,16 @@ function toggleDisplay(el, mode = 'block') {
  * Find next sibling
  */
 function next(elem, selector) {
-	var nextElem = elem.nextElementSibling;
+	// Get the next sibling element
+	var sibling = elem.nextElementSibling;
 
-	if (!selector) {
-		return nextElem;
+	// If there's no selector, return the first sibling
+	if (!selector) return sibling;
+
+	// If the sibling matches our selector, use it
+	// If not, jump to the next sibling and continue the loop
+	while (sibling) {
+		if (sibling.matches(selector)) return sibling;
+		sibling = sibling.nextElementSibling
 	}
-
-	if (nextElem && nextElem.matches(selector)) {
-		return nextElem;
-	}
-
-	return null;
 }
