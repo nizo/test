@@ -30,7 +30,7 @@
           <div class="footer-column">
             <h4>Unternehmen</h4>
             <p>
-              <a href="https://www.callone.de/blog/" target="_blank">Blog</a><br />
+              <a href="https://www.callone.de/blog/" target="_blank" rel="noreferrer">Blog</a><br />
               <a href="/karriere">Karriere</a><br>
               <a href="/ueber-uns">Über uns</a>
             </p>
@@ -56,9 +56,9 @@
           <div class="footer-column">
             <h4>Support</h4>
             <p>
-              <a href="https://www.callone.de/faq" target="_blank">FAQs</a><br />
+              <a href="https://www.callone.de/faq" target="_blank" rel="noreferrer">FAQs</a><br />
               <a href="/kontakt">Kontakt</a><br />
-              <a href="https://status.callone.de" rel="noreferrer">Systemstatus</a><br />
+              <a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a><br />
               <a class="openModal trackedElement" data-label="Cookie-Einstellungen Footer" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner">Cookie-Einstellungen</a>
             </p>
           </div>
@@ -80,7 +80,7 @@
             <a href="/impressum">Impressum</a>
             <a href="/datenschutz">Datenschutz</a>
             <a href="/download">Downloads</a>
-            <a href="/downloads/agb.pdf" target="_blank">AGB</a>
+            <a href="/downloads/agb.pdf" target="_blank" rel="noreferrer">AGB</a>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@
           <li>
             <span>Unternehmen</span>
             <ul>
-              <li><a href="https://www.callone.de/blog/" target="_blank">Blog</a></li>
+              <li><a href="https://www.callone.de/blog/" target="_blank" rel="noreferrer">Blog</a></li>
               <li><a href="/karriere">Karriere</a></li>
               <li><a href="/ueber-uns">Über uns</a></li>
             </ul>
@@ -140,16 +140,16 @@
           <li>
             <span>Social</span>
             <ul>
-              <li><a href="https://de.linkedin.com/company/callone-gmbh" rel="noreferrer">LinkedIn</a></li>
-              <li><a href="https://de-de.facebook.com/CallOneGmbH/" rel="noreferrer">Twitter</a></li>
+              <li><a href="https://de.linkedin.com/company/callone-gmbh" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://de-de.facebook.com/CallOneGmbH/" target="_blank" rel="noreferrer">Twitter</a></li>
             </ul>
           </li>
           <li>
             <span>Support</span>
             <ul>
-              <li><a href="https://www.callone.de/faq" target="_blank">FAQs</a></li>
+              <li><a href="https://www.callone.de/faq" target="_blank" rel="noreferrer">FAQs</a></li>
               <li><a href="/kontakt">Kontakt</a></li>
-              <li><a href="https://status.callone.de" rel="noreferrer">Systemstatus</a></li>
+              <li><a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a></li>
             </ul>
           </li>
         </ul>
@@ -162,7 +162,7 @@
             <a href="/impressum">Impressum</a>
             <a href="/datenschutz">Datenschutz</a>
             <a href="/download">Downloads</a>
-            <a href="/downloads/agb.pdf" target="_blank">AGB</a>
+            <a href="/downloads/agb.pdf" target="_blank" rel="noreferrer">AGB</a>
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@
               	</div>
               	<div class="col-2">
               		<div class="button-set centered">
-            			<a class="button secondary cookieSubmit trackedElement close" data-label="OK" data-category="Link clicked" data-action="Cookiebanner akzeptieren">OK</a>
+            			<a href="#" class="button secondary cookieSubmit trackedElement close" data-label="OK" data-category="Link clicked" data-action="Cookiebanner akzeptieren">OK</a>
             		</div>
               	</div>	
               </div>	

@@ -65,11 +65,11 @@ class Tablist {
 
     addSwipeSupport() {
         if (window.innerWidth <= 1170) {
-            this.tabLinksWrapper.addEventListener('touchstart', this.handleTouchstart.bind(this));
-            this.tabLinksWrapper.addEventListener('touchend', this.handleTouchend.bind(this));
+            this.tabLinksWrapper.addEventListener('touchstart', this.handleTouchstart.bind(this), {passive: true});
+            this.tabLinksWrapper.addEventListener('touchend', this.handleTouchend.bind(this), {passive: true});
         } else {
-            this.tabLinksWrapper.removeEventListener('touchstart', this.handleTouchstart.bind(this));
-            this.tabLinksWrapper.removeEventListener('touchend', this.handleTouchend.bind(this));
+            this.tabLinksWrapper.removeEventListener('touchstart', this.handleTouchstart.bind(this), {passive: true});
+            this.tabLinksWrapper.removeEventListener('touchend', this.handleTouchend.bind(this), {passive: true});
         }
     }
     handleTouchstart(e) {

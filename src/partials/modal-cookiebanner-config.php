@@ -20,7 +20,7 @@
                   	<div class="col-1">
                   		<p>Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.</p>
                   		<div class="button-set centered">
-                			<a class="button borderless cookieSubmit primary trackedElement" data-label="Ich akzeptiere" data-category="Link clicked" data-action="Cookiebanner akzeptieren">Einstellungen speichern & schließen</a>
+                			<a href="#" class="button borderless cookieSubmit primary trackedElement" data-label="Ich akzeptiere" data-category="Link clicked" data-action="Cookiebanner akzeptieren">Einstellungen speichern & schließen</a>
                 		</div>
                 		<div class="config">
                     		<div class="container">
@@ -32,7 +32,7 @@
                     				<div class="col-2 right">
                     				</div>
                     			</div>
-                    			<a class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
+                    			<a href="#" class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
             
                     			<div class="content">
                     				<div class="cookie">
@@ -78,7 +78,7 @@
                                         </label>
                             		</div>
                             	</div>
-                    			<a class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
+                    			<a href="#" class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
                     			<div class="content">
                     				<div class="cookie">
                         				<div class="head">Name</div><div class="desc">Google Analytics</div>
@@ -130,7 +130,7 @@
                                         </label>
                             		</div>
                             	</div>
-                    			<a class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
+                    			<a href="#" class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
                     			<div class="content">
                     				<div class="cookie">
                         				<div class="head">Name</div><div class="desc">Cookie Support</div>
