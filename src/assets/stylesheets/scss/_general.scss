@@ -992,42 +992,10 @@ img {
 			padding-bottom: 80px;
 			.customers {
 				padding-bottom: 80px;
-				.swiper-pagination {
-					.swiper-pagination-bullet {
-						background-color: #fff;
-						opacity: .65;
-						&.swiper-pagination-bullet-active {
-							background-color: $color-primary;
-							opacity: 1; 
-						}
-						&:hover {
-							opacity: 1;
-						}
-					}
-				}
 			}
 			> h2:first-of-type {
 				&.black {
 					color: #000;
-				}
-			}
-		}
-		&.grey {
-			.content {
-				.customers {
-					.swiper-pagination {
-						.swiper-pagination-bullet {
-							background-color: $color-secondary-1;
-							opacity: .65;
-							&.swiper-pagination-bullet-active {
-								background-color: $color-primary;
-								opacity: 1; 
-							}
-							&:hover {
-								opacity: 1;
-							}
-						}
-					}
 				}
 			}
 		}

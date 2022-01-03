@@ -100,10 +100,11 @@ eventListener('click', '.select-items .item', e => {
 });
 
 eventListener('change', '.js-form input', e => {
-	let label = e.target.closest('.group');
-	if (label) {
-		label = label.querySelector('label');
-		label.classList.add('fixed');
+	let group = e.target.closest('.group');
+	if (group) {
+		let label = group.querySelector('label');
+		if (label)
+			label.classList.add('fixed');
 	}
 });
 
@@ -272,8 +273,12 @@ var sendForm = function(form) {
 		break;
 	}
 
-	form.querySelector('.error').classList.remove('error');
-	form.querySelector('.submit').disabled = true;
+	let error = form.querySelector('.error');
+	if (error)
+		error.classList.remove('error');
+	let submit = form.querySelector('.submit');
+	if (submit)
+		submit.disabled = true;
 	
 	if (type == '1' || type == '2') {
 		let postUrl = form.classList.contains('form-1') ? 'https://connect.callone.io/backend/phonenumbers.php' : 'https://connect.callone.io/backend/contact.php';

@@ -49,7 +49,7 @@ Before [starting the local development server](#how-to-start-the-local-developme
 3. JS/COFFEE files / javascripts
     - `src/assets/javascripts/coffee/application.coffee` - Main coffeescript file that handles basic functionality
     - `src/assets/javascripts/custom/*` - Custom javascripts that handle several functionallities throughout the page eg: callback, chat, lazyload, etc
-    - `src/assets/javascripts/libs/*` - This folder contains other javascript libraries like jquery
+    - `src/assets/javascripts/libs/*` - This folder contains other javascript libraries
 4. Images, Videos & Animations
     - `src/assets/images/*` - For images
     - `src/assets/videos/*` - For videos
