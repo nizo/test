@@ -37,7 +37,6 @@
     <link rel="preconnect" href="https://www.google.com">
     <link rel="preconnect" href="https://www.googleadservices.com">
 
-    <!-- Load CSS -->
     <?php
     // LazyLoading CSS Files
     loadCSS(null,true);

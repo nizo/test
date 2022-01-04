@@ -176,10 +176,10 @@
 
                 <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <p class="centered">
-                        <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" />
+                        <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" width="352px" height="232px" />
                     </p>
                     <div class="tag">
-                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> App
+                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" width="13px" height="14px" /> App
                     </div>
                     <h3>Callcenter Software & VoIP-Telefonanlage</h3>
                     <p>Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
@@ -193,7 +193,7 @@
                     <h4 style="margin-top: 0;">Personalisiert statt standardisiert</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
-                        <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="" style="display:block;width:100%;" />
+                        <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="" width="382px" height="136px" style="display:block;width:100%;" />
                     </p>
                 </div>
 
@@ -202,7 +202,7 @@
                     <h4 style="margin-top: 0;">Immer persönlich betreut</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
-                        <img src="/assets/images/icons_png/personal-contacts-mobile@2x.png" alt="" style="display:block;width:100%;" />
+                        <img src="/assets/images/icons_png/personal-contacts-mobile@2x.png" alt="" width="382px" height="106px" style="display:block;width:100%;" />
                     </p>
                 </div>
             </div>

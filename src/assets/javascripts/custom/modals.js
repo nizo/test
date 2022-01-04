@@ -11,8 +11,10 @@ buttons.forEach(button => {
 	});
 });
 
-if(checkCookie('cookiebanner-accepted') === false) {
-	console.log("cookie banner anzeigen");
+let urlQuery = window.location.search;
+let params = new URLSearchParams(urlQuery);
+if (!params.has('no-banner') && checkCookie('cookiebanner-accepted') === false) {
+	// Show cookiebanner after 1000 second if no yet accepted and URL does not include "?no-banner"
 	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
 }
 
