@@ -42,7 +42,7 @@ $faqs->faq_add (
 				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> CallOne Cloud ACD &copy;
 			</div>
 			<h1 class="mobile-hidden">Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
-			<h2 class="mobile-hidden">Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz,weniger Ausfälle,mehr Transparenz,bessere Planbarkeit" data-colors="#FF002E,#FF7B1B,#DB00C5,#0088EA">mehr Effizienz</span></h2>
+			<h2 class="mobile-hidden">Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz|weniger Ausfälle|mehr Transparenz|bessere Planbarkeit" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">mehr Effizienz</span></h2>
 			<p class="mobile-hidden">
 				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>

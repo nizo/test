@@ -160,6 +160,7 @@
             <ul>
                 <li><code>.btn--primary</code>: Primary</li>
                 <li><code>.btn--secondary</code>: Secondary</li>
+                <li><code>.btn--cta</code>: Call-To-Action (Bigger)</li>
                 <li><code>.btn--border-black</code>: Bordered Button</li>
                 <li><code>.btn--border-white</code>: Bordered Button</li>
                 <li><code>.btn--application</code>: Used as a button to open the application modal</li>
@@ -187,6 +188,7 @@
             <div>
                 <a href="#" class="btn btn--primary">Button Primary</a>
                 <a href="#" class="btn btn--secondary">Button Secondary</a>
+                <a href="#" class="btn btn--cta">Button Call-To-Action</a>
                 <a href="#" class="btn btn--border-black">Button Black Border</a>
                 <a href="#" class="btn btn--border-white">Button White Border</a>
                 <a href="#" class="btn btn--primary btn--centered">Centered</a>

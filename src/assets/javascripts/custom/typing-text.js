@@ -1,11 +1,11 @@
 class Typing {
     constructor(el) {
         this.element = el;
-        this.texts = this.element.dataset.texts.split(',');
+        this.texts = this.element.dataset.texts.split('|');
         this.colors = Array(this.texts.length);
         this.colors.fill('currentColor');
         if (this.element.dataset.colors)
-            this.colors = this.element.dataset.colors.split(',');
+            this.colors = this.element.dataset.colors.split('|');
         this.currentText = 0;
         this.textIndex = 0;
         this.speed = parseInt(this.element.dataset.speed) || 50;
