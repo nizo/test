@@ -96,8 +96,8 @@ $faqs->faq_add (
     <div class="section__content section__content--wide" id="funktionen">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                <p class="mobile-hidden"><img src="/assets/images/icons_svg/solution-package.svg" alt="" /></p>
-				<p class="desktop-hidden centered"><img src="/assets/images/illus/voip-telefonanlage-softphone.png" alt="" style="max-width:66%;" /><br /><br /></p>
+                <!-- <p class="mobile-hidden"><img src="/assets/images/icons_svg/solution-package.svg" alt="" /></p>
+				<p class="desktop-hidden centered"><img src="/assets/images/illus/voip-telefonanlage-softphone.png" alt="" style="max-width:66%;" /><br /><br /></p> -->
 
                 <h1>VoIP-Telefonanlage maß&shy;geschneidert auf Ihre Bedürfnisse</h1>
                 <p class="bigtext">Sie erhalten bei uns die vielleicht am einfachsten bedienbare virtuelle Telefonanlage für Ihr Unternehmen. Unsere Funktionen werden Sie nicht mehr missen wollen. Versprochen!</p>
