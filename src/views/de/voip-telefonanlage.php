@@ -597,12 +597,12 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active centered">
                         <h3>Immer individuell & persönlich</h3>
                         
-                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager*innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
+                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager*innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
 						<p class="bigtext desktop-hidden">Unser Team betreut und berät Sie persönlich zu allem rundum Ihre Cloud Telefonanlage von CallOne.</p>
 
                         <p class="mobile-centered">
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered mobile-hidden">Wie wir sie zum erfolg führen</a>
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir sie zum erfolg führen</a>
+                            <a href="/ueber-uns" class="btn btn--secondary btn--centered mobile-hidden">Wie wir Sie zum erfolg führen</a>
+                            <a href="/ueber-uns" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir Sie zum erfolg führen</a>
                         </p>
                     </div>
                 </div>
