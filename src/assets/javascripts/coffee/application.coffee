@@ -125,15 +125,6 @@ app =
     toggleBoxes.forEach (box) ->
       if box.querySelector('input').checked
         box.querySelector('.toggle-box__content').style.display = 'block'
-    
-    @check_for_anchor()
-
-  check_for_anchor: ->
-    if window.location.hash && window.location.hash != ''
-      # Anchor present
-      anchor = document.querySelector(window.location.hash)
-      if anchor
-        window.scrollTop = anchor.offsetTop - 94
 
   loop_videos: ->
     videos = Array.from(document.querySelectorAll('video[data-loop]'))
