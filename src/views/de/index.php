@@ -5,7 +5,7 @@
             <h1>
                 Unsere Leidenschaft ist <br class="mobile-hidden" />
                 <span class="desktop-hidden">das optimale Kundenerlebnis</span>
-                <span class="typing-text mobile-hidden" data-speed="35" data-texts="das optimale Kundenerlebnis,Ihren ROI zu maximieren,maximale Sicherheit Ihrer Telefonie,persönliche Betreuung" data-colors="#FF002E,#FF7B1B,#DB00C5,#0088EA">das optimale Kundenerlebnis</span>
+                <span class="typing-text mobile-hidden" data-speed="35" data-texts="das optimale Kundenerlebnis|Ihren ROI zu maximieren|maximale Sicherheit Ihrer Telefonie|persönliche Betreuung" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">das optimale Kundenerlebnis</span>
             </h1>
             
             <div class="co-grid co-grid--small-gutter centered subtext mobile-hidden">

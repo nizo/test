@@ -52,6 +52,17 @@
 		}
 	}
 
+	&--cta {
+		font-size: 1.5em;
+		padding: var(--gutter-m) var(--gutter-l);
+		background-color: $color-primary;
+		color: #000;
+		&:hover {
+			background-color: #000;
+			color: #fff;
+		}
+	}
+
 	&--application {
 		position: relative;
 		background-color: #000;

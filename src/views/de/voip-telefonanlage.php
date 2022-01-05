@@ -35,8 +35,16 @@ $faqs->faq_add (
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__text">
-            <h1>Die passende Kombination aus <br />Freiheit und Sicherheit: <br />Unsere Cloud Telefonanlage</h1>
-            <h2>Sie halten die Fäden in der Hand. Die virtuelle Telefonanlage von CallOne ist die Lösung für die Telefonie Ihres Unternehmens. Wir helfen Ihnen, Ihre Telefonate effizient zu erledigen.</h2>
+			<div class="tag mobile-hidden">
+				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> CallOne TEL &copy;
+			</div>
+
+            <h1>Viel <u>mehr</u> als eine Cloud Telefonanlage</h1>
+            <h2 class="mobile-hidden">
+				Ein intuitiv bedienbare Cloud Plattform <br />
+				mit <span class="typing-text" data-texts="integrierter TEAMS-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,9999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter TEAMS-Telefonie</span>
+			</h2>
+			<h2 class="desktop-hidden">integrierter TEAMS-Telefonie, Call Center Software, 99,9999% Erreichbarkeit und viel mehr.</h2>
 
             <p>
                 <a class="btn btn--primary mobile-hidden" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
@@ -81,7 +89,6 @@ $faqs->faq_add (
             <a href="#funktionen">Funktionen</a>
             <a href="#erweiterbarkeit">Erweiterbarkeit</a>
             <a href="#vorteile">Vorteile</a>
-            <a href="#telefonanlage1" class="anchor-telefonanlage">Warum CallOne?</a>
             <a href="#geschichten">Kundengeschichten</a>
         </div>
     </div>
@@ -239,10 +246,8 @@ $faqs->faq_add (
 
 <div class="section section--dark-green-black" id="vorteile">
 	<div class="section__content section__content--wide" id="not-convinced-yet">
-		<h1 class="centered mobile-left">Der CallOne Vorteil</h1>
-		<p class="centered mobile-left">Maximale Flexibilität, gepaart mit Transparenz und Sicherheit.</p>
+		<h1 class="centered mobile-left">Eine Plattform, unzählige Möglichkeiten</h1>
 
-		<br class="mobile-hidden" />
 		<br class="mobile-hidden" />
 
 		<!-- Mobile Tabs -->
@@ -354,29 +359,14 @@ $faqs->faq_add (
 
 				<div class="small-tabs small-tabs--clear small-tabs--on-black">
 					<div class="small-tabs__tabs">
-						<div class="small-tabs__tab" data-tab="1">Tischtelefon</div>
-						<div class="small-tabs__tab" data-tab="2">Microsoft Teams</div>
+						<div class="small-tabs__tab" data-tab="1">Microsoft Teams</div>
+						<div class="small-tabs__tab" data-tab="2">Tischtelefon</div>
 						<div class="small-tabs__tab" data-tab="3">Softphone</div>
 						<div class="small-tabs__tab" data-tab="4">Browsertelefon</div>
 						<div class="small-tabs__tab" data-tab="5">Mobilfunk</div>
 					</div>
+
 					<div class="small-tabs__content" data-tab="1">
-						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" />
-							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Telefonieren ohne Umwege! Für unser Browsertelefon benötigen Sie nur einen Browser und ein Headset, um ein- und ausgehende Telefonate zu führen. Zudem erhalten Sie die volle Power für ihre Kundenservicemitarbeiter.</p>
-								<br />
-								<ul class="list list--checkmarks list--on-black">
-									<li>Weiterleiten (kalt und warm)</li>
-									<li>Telefonbuchintegration</li>
-									<li>Viele weitreichende Call Center Software Funktionen</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="small-tabs__content" data-tab="2">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
 								<img src="/assets/images/photos/microsoft-teams.png" alt="" />
@@ -388,6 +378,22 @@ $faqs->faq_add (
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
 									<li>Erweiterbar um Call Center Software</li>
 									<li>Einfache Benutzerverwaltung</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="small-tabs__content" data-tab="2">
+						<div class="co-grid">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
+								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" />
+							</div>
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
+								<p class="bigtext">Optimale Einbindung von allen IP-Telefonen.</p>
+								<br />
+								<ul class="list list--checkmarks list--on-black">
+									<li>Konfiguration via Autoprovisionierung</li>
+									<li>Komfortfunktionen wie freie Sitzplatzwahl</li>
+									<li>Umfassende Verschlüsslungsoptionen</li>
 								</ul>
 							</div>
 						</div>
@@ -414,21 +420,12 @@ $faqs->faq_add (
 								<img src="/assets/images/photos/agent-view-desktop.png" alt="" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Sie haben hohe Ansprüche für Ihren Kundenservice und Sales? Wir auch! Darum bieten wir für Ihr Unternehmen eine webbasierte und speziell konzipierte Oberfläche für Telefonie.</p>
+								<p class="bigtext">Telefonieren ohne Umwege! Für unser Browsertelefon benötigen Sie nur einen Browser und ein Headset, um ein- und ausgehende Telefonate zu führen. Zudem erhalten Sie die volle Power für ihre Kundenservicemitarbeiter.</p>
 								<br />
 								<ul class="list list--checkmarks list--on-black">
-									<li>
-										Integriertes Softphone im Browser<br />
-										<span class="subtext">Einfach das Headset anschließen und lostelefonieren - Ganz ohne gesonderte Installation.</span>
-									</li>
-									<li>
-										Für Ihr Unternehmen maßgeschneidert<br />
-										<span class="subtext">Frei konfigurierbar mit Einbindung Ihrer Daten (Iframe oder Link), Anrufgründe und smarten Weiterleitungsfunktionen.</span>
-									</li>
-									<li>
-										Sofortige Bereitstellung - Keine Wartezeit<br />
-										<span class="subtext">Agent*innen erhalten die Zugangsdaten und können sofort telefonieren. Mit dem intuitiven Client unserer Cloud Telefonanlage.</span>
-									</li>
+									<li>Weiterleiten (kalt und warm)</li>
+									<li>Telefonbuchintegration</li>
+									<li>Viele weitreichende Call Center Software Funktionen</li>
 								</ul>
 							</div>
 						</div>
@@ -575,7 +572,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--telefonanlage-slider section--telefonanlage-slider-1 section--telefonanlage-slider-active" id="telefonanlage1">
+<div class="section section--telefonanlage-slider section--telefonanlage-slider-1 section--telefonanlage-slider-active">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -614,7 +611,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--telefonanlage-slider section--telefonanlage-slider-2" id="telefonanlage2">
+<div class="section section--telefonanlage-slider section--telefonanlage-slider-2">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -667,7 +664,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--telefonanlage-slider section--telefonanlage-slider-3" id="telefonanlage3">
+<div class="section section--telefonanlage-slider section--telefonanlage-slider-3">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -719,10 +716,10 @@ $faqs->faq_add (
 					<strong>Hybride <br />Teams Telefonie</strong>
 				</div>
 				<div class="tablist__link" data-tab="3" data-sticky-text="Check24 KFZ">
-					<strong>Warteschleifen&shy;management</strong>
+					<strong>Warteschleifen-<br />management</strong>
 				</div>
 				<div class="tablist__link" data-tab="4" data-sticky-text="SodaStream">
-					<strong>Hybride Schnittstellen&shy;integration</strong>
+					<strong>Schnittstellen-<br />integration</strong>
 				</div>
 			</div>
 
@@ -741,12 +738,11 @@ $faqs->faq_add (
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
 									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
 									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud-Telefonanlage</h4>
-									<p>Die Freiheit einer Cloud-Telefonanlage nutzen, deren Funktionen passgenau auf Ihr Unternehmen abgestimmt sind.</p>
+									<h4>Cloud Telefonanlage</h4>
+									<p>Cloud Telefonanlage mit umfangreichem Auswahlmenüs.</p>
 								</div>
 							</div>
 							<div class="fader__item">
@@ -754,39 +750,28 @@ $faqs->faq_add (
 									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-2-green.png" alt="">
 									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
 									<h4>Rufnummern</h4>
-									<p>Einfach virtuelle Rufnummern weltweit schalten und so eigene Servicenummern unkompliziert verwalten.</p>
+									<p>Rufnummernschaltung in einer Vielzahl Europäischer Länder.</p>
 								</div>
+								<br />
+								<p><a href="/0800-lokal-nummern" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Callcenter Software</h4>
-									<p>Die Lösung für Ihren Sales und Kundenservice - individuell auf die Bedürfnisse Ihres Unternehmens angepasst.</p>
+									<h4>Call Center Software</h4>
+									<p>Komplexes Routing verteilt auf zahlreiche Skillgruppen.</p>
 								</div>
-							</div>
-							<div class="fader__item">
-								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-4-green.png" alt="">
-								</p>
 								<br />
-								<div class="left-border">
-									<h4>Teams Telefonie</h4>
-									<p>Nutzen Sie Microsoft Teams, um Ihre Businesstelefonie noch effizienter und einfacher zu machen!</p>
-								</div>
+								<p><a href="/callcenter-software" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 						</div>
 					</div>
@@ -840,8 +825,8 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud-Telefonanlage</h4>
-									<p>Die Freiheit einer Cloud-Telefonanlage nutzen, deren Funktionen passgenau auf Ihr Unternehmen abgestimmt sind.</p>
+									<h4>Cloud Telefonanlage</h4>
+									<p>Cloud Telefonanlage in Kombination mit Teams Telefonie.</p>
 								</div>
 							</div>
 							<div class="fader__item">
@@ -854,8 +839,10 @@ $faqs->faq_add (
 								<br />
 								<div class="left-border">
 									<h4>Rufnummern</h4>
-									<p>Einfach virtuelle Rufnummern weltweit schalten und so eigene Servicenummern unkompliziert verwalten.</p>
+									<p>Schaltung von Rufnummernblöcken aus dem Kundenvorwahlbereich.</p>
 								</div>
+								<br />
+								<p><a href="/0800-lokal-nummern" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
@@ -866,9 +853,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Callcenter Software</h4>
-									<p>Die Lösung für Ihren Sales und Kundenservice - individuell auf die Bedürfnisse Ihres Unternehmens angepasst.</p>
+									<h4>Call Center Software</h4>
+									<p>Sales- und Kundenservicehotlines mit intelligenten Warteschleifen.</p>
 								</div>
+								<br />
+								<p><a href="/callcenter-software" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
@@ -880,8 +869,11 @@ $faqs->faq_add (
 								<br />
 								<div class="left-border">
 									<h4>Teams Telefonie</h4>
-									<p>Nutzen Sie Microsoft Teams, um Ihre Businesstelefonie noch effizienter und einfacher zu machen!</p>
+									<p>Integration ins kundeneigenes MS Teams als Hauptclient für die Telefonie.</p>
 								</div>
+								<!-- TODO: Add Link -->
+								<!-- <br /> -->
+								<!-- <p><a href="#todo" class="btn btn--border-black">Mehr erfahren</a></p> -->
 							</div>
 						</div>
 					</div>
@@ -930,30 +922,50 @@ $faqs->faq_add (
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-green.png" alt="">
 									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-5-grey.png" alt="" class="fader__next" data-next="2">
 									<img src="/assets/images/icons_png/icon-6-grey.png" alt="" class="fader__next" data-next="2">
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud-Telefonanlage</h4>
-									<p>Die Freiheit einer Cloud-Telefonanlage nutzen, deren Funktionen passgenau auf Ihr Unternehmen abgestimmt sind.</p>
+									<h4>Cloud Telefonanlage</h4>
+									<p>Unsere Telefonanlage in perfekter Kombination mit unserer Call Center Software.</p>
 								</div>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-3-green.png" alt="">
-									<img src="/assets/images/icons_png/icon-6-grey.png" alt="" class="fader__next" data-next="2">
+									<img src="/assets/images/icons_png/icon-5-grey.png" alt="" class="fader__next" data-next="2">
+									<img src="/assets/images/icons_png/icon-6-grey.png" alt="" class="fader__next" data-next="3">
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Callcenter Software</h4>
-									<p>Die Lösung für Ihren Sales und Kundenservice - individuell auf die Bedürfnisse Ihres Unternehmens angepasst.</p>
+									<h4>Call Center Software</h4>
+									<p>Umfangreiche Einbindung in kundeneigene Businesslösungen mit Anbindung an diverse Partner.</p>
 								</div>
+								<br />
+								<p><a href="/callcenter-software" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
 									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
 									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-5-green.png" alt="">
+									<img src="/assets/images/icons_png/icon-6-grey.png" alt="" class="fader__next" data-next="3">
+								</p>
+								<br />
+								<div class="left-border">
+									<h4>Schnittstellen</h4>
+									<p>Nutzung zahlreicher CallOne Konnektoren zur Anbindung kundeneigener Systeme für Routing und Statistiken.</p>
+								</div>
+								<br />
+								<p><a href="/callcenter-software-integrationen" class="btn btn--border-black">Mehr erfahren</a></p>
+							</div>
+							<div class="fader__item">
+								<p class="mobile-stacked-images">
+									<img src="/assets/images/icons_png/icon-1-grey.png" alt="" class="fader__next" data-next="0">
+									<img src="/assets/images/icons_png/icon-3-grey.png" alt="" class="fader__next" data-next="1">
+									<img src="/assets/images/icons_png/icon-5-grey.png" alt="" class="fader__next" data-next="2">
 									<img src="/assets/images/icons_png/icon-6-green.png" alt="">
 								</p>
 								<br />
@@ -961,6 +973,8 @@ $faqs->faq_add (
 									<h4>BI-Konnektor</h4>
 									<p>Optimale Versorgung mit relevanten SLA- und KPI-Daten zur Auswertung aller relevanten Parameter im Contact Center.</p>
 								</div>
+								<br />
+								<p><a href="/tableau-callcenter-connector" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 						</div>
 					</div>
@@ -1013,9 +1027,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Callcenter Software</h4>
-									<p>Die Lösung für Ihren Sales und Kundenservice - individuell auf die Bedürfnisse Ihres Unternehmens angepasst.</p>
+									<h4>Call Center Software</h4>
+									<p>Volle Automatisierung mittels Sprachausgabe und Kundendatenabgleich.</p>
 								</div>
+								<br />
+								<p><a href="/callcenter-software" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
@@ -1025,8 +1041,8 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud-Telefonanlage</h4>
-									<p>Die Freiheit einer Cloud-Telefonanlage nutzen, deren Funktionen passgenau auf Ihr Unternehmen abgestimmt sind.</p>
+									<h4>Cloud Telefonanlage</h4>
+									<p>Flexibler standortübergreifender Einsatz mit unterschiedlichen Clients.</p>
 								</div>
 							</div>
 							<div class="fader__item">
@@ -1037,9 +1053,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Kommunikations-API</h4>
+									<h4>Schnittstellen</h4>
 									<p>Integration von zahlreichen API-Bausteinen zur automatisierten Bearbeitung des Anruferanliegens.</p>
 								</div>
+								<br />
+								<p><a href="/callcenter-software-integrationen" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 						</div>
 					</div>
@@ -1079,9 +1097,11 @@ $faqs->faq_add (
 		<h3 class="centered mobile-left">Neugierig geworden?</h3>
 		<h4 class="centered mobile-left">Jetzt unverbindliches Erstgespräch aufnehmen!</h4>
 
+		<br />
+
 		<p>
-			<a href="#" class="btn btn--primary btn--centered mobile-hidden" data-openmodal="contact-sales">Kontakt aufnehmen</a>
-			<a href="#" class="btn btn--primary btn--centered btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Kontakt aufnehmen</a>
+			<a href="#" class="btn btn--cta btn--centered mobile-hidden" data-openmodal="contact-sales">Demo ansehen</a>
+			<a href="#" class="btn btn--cta btn--centered btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Demo ansehen</a>
 		</p>
 	</div>
 </div>
@@ -1103,7 +1123,6 @@ $faqs->faq_add (
     let telefonanlageSlides = document.querySelectorAll('.section--telefonanlage-slider');
     let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
     let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
-    let anchorButton = document.querySelector('.anchor-telefonanlage');
     let currentSlide = 1;
     let telefonanlageSlidesInterval = null;
 
@@ -1143,7 +1162,6 @@ $faqs->faq_add (
         updateSlide();
     }
     function updateSlide() {
-        anchorButton.setAttribute('href', '#telefonanlage' + currentSlide);
         telefonanlageSlides.forEach(telefonanlageSlide => {
             telefonanlageSlide.classList.remove('section--telefonanlage-slider-active');
             if (telefonanlageSlide.classList.contains('section--telefonanlage-slider-'+currentSlide))
