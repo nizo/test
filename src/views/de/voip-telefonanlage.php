@@ -108,7 +108,7 @@ $faqs->faq_add (
                     <a href="/voip-telefonanlagen-funktionen#Endgeraete" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">BLF</a>
                     <a href="/voip-telefonanlagen-funktionen#Statistiken" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">Live Monitor</a>
                     <a href="/voip-telefonanlagen-funktionen#Endgeraete" class="btn btn--border-bottom btn--arrow-right-small">Softphones</a>
-                    <a href="/voip-telefonanlagen-funktionen#Unlimitierte" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">Parralelruf</a>
+                    <a href="/voip-telefonanlagen-funktionen#Unlimitierte" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">Parallelruf</a>
                 </div>
                 <p>
                     <a href="/voip-telefonanlagen-funktionen" class="btn btn--primary mobile-hidden">Alle Funktionen entdecken</a>
@@ -301,7 +301,7 @@ $faqs->faq_add (
 				</ul>
 			</div>
 			<div class="tablist__content" data-tab="4">
-				<p class="bigtext">99,999 % Erreichbarkeit mit der CallOne Cloud Telefonanlage</p>
+				<p class="bigtext">99,999% Erreichbarkeit mit der CallOne Cloud Telefonanlage</p>
 
 				<div class="co-grid cards">
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -325,7 +325,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
 							</div>
-							<h4 class="centered">Garantierte 99,999 % Erreichbarkeit</h4>
+							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
 					</div>
 				</div>
@@ -524,7 +524,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="4">
-				<h3 class="centered">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999 % Erreichbarkeit!</h3>
+				<h3 class="centered">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999% Erreichbarkeit!</h3>
 				<br />
 
 				<div class="co-grid cards">
