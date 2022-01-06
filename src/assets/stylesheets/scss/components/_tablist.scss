@@ -42,6 +42,8 @@
             padding: var(--gutter-s) var(--gutter-m);
             font-size: 0;
             white-space: nowrap;
+            flex-direction: row;
+            align-items: center;
 
             img {
                 display: inline-block;
@@ -53,9 +55,22 @@
                 font-size: 18px;
                 display: inline-block;
                 vertical-align: middle;
+                // display: none;
             }
             span {
                 display: none;
+            }
+            &[data-sticky-text] {
+                strong {
+                    display: none;
+                }
+                &:after {
+                    content: attr(data-sticky-text);
+                    font-size: 18px;
+                    font-family: $font-headline;
+                    font-weight: normal;
+                    line-height: 1.4;
+                }
             }
         }
     }
@@ -69,6 +84,10 @@
         line-height: 1.4;
         cursor: pointer;
         opacity: .5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         img {
             display: block;
             margin-left: auto;
@@ -154,6 +173,10 @@
             font-size: 38px;
             line-height: 1.2;
             margin-top: 20px;
+
+            @media screen and (max-width: 800px) {
+                font-size: 28px;
+            }
         }
         >p {
             max-width: 770px;
@@ -232,7 +255,7 @@
             box-shadow: none;
             top: auto;
             background-color: initial;
-    
+            
             .tablist__link {
                 flex: initial;
                 padding: 15px 30px 17px 30px;
@@ -265,7 +288,7 @@
             }
         }
         &__link--active {
-            display: block;
+            display: flex;
         }
         &__indicators {
             display: flex;
@@ -274,6 +297,12 @@
             display: block;
         }
         &--on-black {
+            .tablist__links--sticky {
+                background-color: unset;
+                .tablist__link {
+                    font-size: 14px;
+                }
+            }
             .tablist__links {
                 border-color: rgba(#fff, .2);
             }

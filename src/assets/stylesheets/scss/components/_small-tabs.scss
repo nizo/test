@@ -3,9 +3,41 @@
 }
 
 .small-tabs {
+    --linkColor: 0, 0, 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &--clear {
+        .small-tabs__tabs {
+            border: 0;
+            border-radius: 0;
+        }
+        .small-tabs__tab {
+            color: rgba(var(--linkColor), .5);
+            padding: 0;
+            // margin-bottom: var(--gutter-s);
+            border-bottom: 2px solid transparent;
+
+            &:hover {
+                color: rgba($color-primary, .5);
+            }
+
+            &+.small-tabs__tab {
+                border-left: 0;
+                margin-left: var(--gutter-m);
+            }
+        }
+        .small-tabs__tab--active {
+            background-color: transparent;
+            color: $color-primary;
+            border-color: $color-primary;
+        }
+    }
+
+    &--on-black {
+        --linkColor: 255, 255, 255;
+    }
 
     &__tabs {
         border: 2px solid #000;
@@ -13,6 +45,8 @@
         overflow: hidden;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-bottom: 30px;
     }
 

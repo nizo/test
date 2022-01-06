@@ -156,22 +156,6 @@ app =
     $('.toggle-box').each (i, toggleBox) =>
       if $('input', toggleBox).prop('checked')
         $('.toggle-box__content', toggleBox)[0].style.display = 'block'
-    
-    @check_for_anchor()
-
-  check_for_anchor: ->
-    if window.location.hash && window.location.hash != ''
-      # Anchor present
-      anchor = $(window.location.hash)
-      if anchor
-        window.scrollTop = anchor.offset().top - 94
-
-  # autoplay_videos: ->
-  #   videos = document.getElementsByTagName 'video'
-  #   i = 0
-  #   while i < videos.length
-  #     videos[i].play()
-  #     i++
 
   loop_videos: ->
     $.each $('video[data-loop]'), (i, elem) ->
