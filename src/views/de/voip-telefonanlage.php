@@ -42,9 +42,9 @@ $faqs->faq_add (
             <h1>Viel <u>mehr</u> als eine Cloud Telefonanlage</h1>
             <h2 class="mobile-hidden">
 				Ein intuitiv bedienbare Cloud Plattform <br />
-				mit <span class="typing-text" data-texts="integrierter TEAMS-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,9999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter TEAMS-Telefonie</span>
+				mit <span class="typing-text" data-texts="integrierter TEAMS-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter TEAMS-Telefonie</span>
 			</h2>
-			<h2 class="desktop-hidden">integrierter TEAMS-Telefonie, Call Center Software, 99,9999% Erreichbarkeit und viel mehr.</h2>
+			<h2 class="desktop-hidden">integrierter TEAMS-Telefonie, Call Center Software, 99,999% Erreichbarkeit und viel mehr.</h2>
 
             <p>
                 <a class="btn btn--primary mobile-hidden" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
