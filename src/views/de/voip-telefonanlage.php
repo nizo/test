@@ -42,9 +42,9 @@ $faqs->faq_add (
             <h1>Viel <u>mehr</u> als eine Cloud Telefonanlage</h1>
             <h2 class="mobile-hidden">
 				Ein intuitiv bedienbare Cloud Plattform <br />
-				mit <span class="typing-text" data-texts="integrierter TEAMS-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,9999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter TEAMS-Telefonie</span>
+				mit <span class="typing-text" data-texts="integrierter TEAMS-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter TEAMS-Telefonie</span>
 			</h2>
-			<h2 class="desktop-hidden">integrierter TEAMS-Telefonie, Call Center Software, 99,9999% Erreichbarkeit und viel mehr.</h2>
+			<h2 class="desktop-hidden">integrierter TEAMS-Telefonie, Call Center Software, 99,999% Erreichbarkeit und viel mehr.</h2>
 
             <p>
                 <a class="btn btn--primary mobile-hidden" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
@@ -108,7 +108,7 @@ $faqs->faq_add (
                     <a href="/voip-telefonanlagen-funktionen#Endgeraete" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">BLF</a>
                     <a href="/voip-telefonanlagen-funktionen#Statistiken" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">Live Monitor</a>
                     <a href="/voip-telefonanlagen-funktionen#Endgeraete" class="btn btn--border-bottom btn--arrow-right-small">Softphones</a>
-                    <a href="/voip-telefonanlagen-funktionen#Unlimitierte" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">Parralelruf</a>
+                    <a href="/voip-telefonanlagen-funktionen#Unlimitierte" class="btn btn--border-bottom btn--arrow-right-small mobile-hidden">Parallelruf</a>
                 </div>
                 <p>
                     <a href="/voip-telefonanlagen-funktionen" class="btn btn--primary mobile-hidden">Alle Funktionen entdecken</a>
@@ -301,7 +301,7 @@ $faqs->faq_add (
 				</ul>
 			</div>
 			<div class="tablist__content" data-tab="4">
-				<p class="bigtext">99,999 % Erreichbarkeit mit der CallOne Cloud Telefonanlage</p>
+				<p class="bigtext">99,999% Erreichbarkeit mit der CallOne Cloud Telefonanlage</p>
 
 				<div class="co-grid cards">
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
@@ -325,7 +325,7 @@ $faqs->faq_add (
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
 							</div>
-							<h4 class="centered">Garantierte 99,999 % Erreichbarkeit</h4>
+							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
 					</div>
 				</div>
@@ -524,7 +524,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="4">
-				<h3 class="centered">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999 % Erreichbarkeit!</h3>
+				<h3 class="centered">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999% Erreichbarkeit!</h3>
 				<br />
 
 				<div class="co-grid cards">
@@ -597,12 +597,12 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active centered">
                         <h3>Immer individuell & persönlich</h3>
                         
-                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager*innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
+                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager*innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
 						<p class="bigtext desktop-hidden">Unser Team betreut und berät Sie persönlich zu allem rundum Ihre Cloud Telefonanlage von CallOne.</p>
 
                         <p class="mobile-centered">
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered mobile-hidden">Wie wir sie zum erfolg führen</a>
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir sie zum erfolg führen</a>
+                            <a href="/ueber-uns" class="btn btn--secondary btn--centered mobile-hidden">Wie wir Sie zum erfolg führen</a>
+                            <a href="/ueber-uns" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir Sie zum erfolg führen</a>
                         </p>
                     </div>
                 </div>
