@@ -42,9 +42,9 @@ $faqs->faq_add (
             <h1>Viel <u>mehr</u> als eine Cloud Telefonanlage</h1>
             <h2 class="mobile-hidden">
 				Ein intuitiv bedienbare Cloud Plattform <br />
-				mit <span class="typing-text" data-texts="integrierter TEAMS-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter TEAMS-Telefonie</span>
+				mit <span class="typing-text" data-texts="integrierter Teams-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter Teams-Telefonie</span>
 			</h2>
-			<h2 class="desktop-hidden">integrierter TEAMS-Telefonie, Call Center Software, 99,999% Erreichbarkeit und viel mehr.</h2>
+			<h2 class="desktop-hidden">Mit integrierter Teams-Telefonie, Call Center Software, 99,999% Erreichbarkeit und viel mehr.</h2>
 
             <p>
                 <a class="btn btn--primary mobile-hidden" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
@@ -188,7 +188,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-		<div class="fader fader--indicators-centered fader--header-below desktop-hidden">
+		<div class="fader fader--indicators-centered fader--header-below desktop-hidden" data-speed="4000">
             <div class="fader__item">
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
@@ -286,7 +286,15 @@ $faqs->faq_add (
 				<br />
 
 				<ul class="list list--checkmarks list--on-black">
-					<li>Fertige Konnektoren, die Ihre Lieblings-Apps flexibel an Ihre Systeme anbinden können.</li>
+					<li>
+						Fertige Konnektoren zu Ihren Lieblings-Apps<br >
+						<span class="subtext">Verbinden Sie Ihre unsere VoIP-Telefonanlage mit Ihren gängigen Ticketing-, CRM-, BI- oder ERP-Tools auf Knopfdruck.</span>
+					</li>
+					<li>
+						Ihre Systeme flexibel angebunden<br />
+						<span class="subtext">Zünden Sie jetzt den Effizienzturbo! Wir liefern Ihnen alles was Sie benötigen, um sich optimal anzubinden und loszulegen.</span>
+					</li>
+					<!-- <li>Fertige Konnektoren, die Ihre Lieblings-Apps flexibel an Ihre Systeme anbinden können.</li> -->
 				</ul>
 			</div>
 			<div class="tablist__content" data-tab="3">
