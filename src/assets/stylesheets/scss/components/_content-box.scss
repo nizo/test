@@ -46,6 +46,36 @@
         }
     }
 
+    &--green-dataprotection {
+        background-image: url(/assets/images/illus/data-protection-stoerer-illustration.svg), linear-gradient(180deg, #FFFFFF 0%, #EDF2E2 100%);
+        background-position: right bottom, center;
+        background-repeat: no-repeat;
+
+        @media screen and (max-width: 959px) {
+            padding-bottom: 260px;
+            background-size: auto 250px, 100%;
+            background-position: center bottom, center
+        }
+    }
+
+    &--white-datenschutz {
+        background-image: url(/assets/images/illus/law-text-illustration.svg);
+        background-color: rgba(#fff, .2);
+        background-position: calc(100% - 70px) bottom;
+        background-repeat: no-repeat;
+
+        @media screen and (max-width: 959px) {
+            padding-bottom: 260px;
+            background-size: auto 250px, 100%;
+            background-position: center bottom
+        }
+    }
+
+    &--white-on-black {
+        background-color: rgba(#fff, .2);
+        color: #fff;
+    }
+
     &--white {
         background-color: #fff;
         color: #000;
