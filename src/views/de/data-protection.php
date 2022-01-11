@@ -4,7 +4,7 @@
             <img src="/assets/images/illus/data-protection-header-illustration.svg" alt="" />
         </div>
         <div class="hero__text">
-            <h1>Zeigen Sie Ausfällen, Notfällen und Datenschutzproblemen den Mittelfinger!</h1>
+            <h1>Zeigen Sie Ausfällen, Notfällen und Datenschutz&shy;problemen den Mittelfinger!</h1>
 
             <p class="bigtext">Wenn die Technik ausfällt, bezahlen Sie das mit viel Geld und viel kaltem Schweiß. Eine Stunde Ausfall kostet schnell mehrere tausend Euro. Und eine Datenschutzlücke? Nicht auszudenken. Deshalb sorgen wir dafür, dass Ihnen das nicht passiert.</p>
 
@@ -20,7 +20,6 @@
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
         <div class="anchors__links">
-            <!-- TODO: Add anchors to content -->
             <a href="#ausfaelle-notfaelle">Ausfälle & Notfälle</a>
             <a href="#datenschutz">Datenschutz</a>
         </div>
@@ -37,23 +36,16 @@
                     <div class="carddeck carddeck--right">
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
-                                <div class="number-card__number" style="--color:#86ed18">5.600</div>
-                                <p>US-Dollar kosten laut Gartner durschnittlich eine Minute Downtime</p>
-                                <p>Quelle: <a href="https://www.pwc.com/us/en/advisory-services/publications/consumer-intelligence-series/pwc-consumer-intelligence-series-customer-experience.pdf" target="_blank" class="inline-link">PWC​</a></p>
+                                <div class="number-card__number" style="--color:#86ed18">63%</div>
+                                <p>der IT-Führungskräfte gaben an, dass sie eine Umsatzsteigerung ihres Unternehmens erwarten, wenn sie keine Ausfallzeiten erreichen.</p>
+                                <p>Quelle: <a href="https://www.ibm.com/downloads/cas/GMVZLWRZ" target="_blank" class="inline-link">IBM</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
-                                <div class="number-card__number" style="--color:#86ed18">???%</div>
-                                <p>TODO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eveniet!</p>
-                                <p>Quelle: <a href="#" target="_blank" class="inline-link">???</a></p>
-                            </div>
-                        </div>
-                        <div class="carddeck__card">
-                            <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
-                                <div class="number-card__number" style="--color:#86ed18">???%</div>
-                                <p>TODO: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, maiores!</p>
-                                <p>Quelle: <a href="#" target="_blank" class="inline-link">???</a></p>
+                                <div class="number-card__number" style="--color:#86ed18">72%</div>
+                                <p>der deutschen Unternehmen verzögert sich die digitale Transformation durch ungeplante Systemausfälle.</p>
+                                <p>Quelle: <a href="https://ap-verlag.de/ausfaelle-der-it-infrastruktur-behindern-digitale-transformation-und-kosten-jede-firma-ueber-20-millionen-euro-im-jahr/33662/" target="_blank" class="inline-link">Manage IT</a></p>
                             </div>
                         </div>
                     </div>
@@ -112,7 +104,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>Mehrfach angebunden an unterschiedliche Internet Service Provider</li>
+                                <li>Unterschiedliche Brandabschnitte im ISO 27001 zertifizierten Rechenzentrum</li>
+                                <li>Vom Hauptsystem losgelöste Backupserver, die bei Ausfällen optional genutzt werden können</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -121,15 +115,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Hochverfügbarkeit nahe 100%
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Sicherheit und Planbarkeit
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Skalieren ohne Risiko
                                 </div>
                             </div>
                         </div>
@@ -155,7 +149,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>DDos (Distributed Denial of Service)-Attacken sind Cyberattacken, die eine Überlastsituation auf dem angegriffenen Webservern erzeugen.</li>
+                                <li>Der eingesetzte DDoS-Schutz erfolgt durch intelligente KI-basierte Echtzeitfilter</li>
+                                <li>Der (VoIP)-Datenverkehr wird dabei fortlaufend analysiert und mittels Border Gateway Protocol (BGP) geschützt</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -164,15 +160,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Schutz Ihres Geschäfts
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Lösung für ein größer werdendes Problem
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Weltweit nutzbar
                                 </div>
                             </div>
                         </div>
@@ -198,7 +194,8 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>Redundantes IT-Konzept mit virtualisierten Maschinen</li>
+                                <li>Wir nutzen ausschließlich namenhafte IT-Partner mit 24/7/365-Support und Austausch innerhalb weniger Stunden</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -207,15 +204,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Keine oder nur minimale Ausfallzeit
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Schnellere Anwendungs- und Ressourcenbereitstellung
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Verbesserte Produktivität und Effizienz
                                 </div>
                             </div>
                         </div>
@@ -241,7 +238,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>Kontinuierliche Datensicherung für Echtzeit-Wiederherstellung der Daten</li>
+                                <li>Backup-Server, die im Falle einer Störung angesprochen werden können</li>
+                                <li>Notfall-Routingkonzepte, die auch bei Datenbankausfall Ihre Erreichbarkeit sicherstellen</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -250,15 +249,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Sicherheit, die sich auszahlt
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    DSGVO-Konformität
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Erreichbarkeit der Telefonie nahe 100%
                                 </div>
                             </div>
                         </div>
@@ -321,7 +320,8 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>CallOne Notfall-Routings werden vorkonfiguriert und ermöglichen einen Weiterbetrieb Ihrer Rufnummern bei uns</li>
+                                <li>Ansagen oder Weiterleitungen sind weiterhin möglich auch wenn es bei uns einmal zu Störungen kommen sollte</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -330,15 +330,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Frühzeige Planbarkeit
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Optimale Erreichbarkeit
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Flexible Ausweichmöglichkeiten
                                 </div>
                             </div>
                         </div>
@@ -364,7 +364,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>Ein Text-to-Speech (TTS-Ansagengenerator), der aus Ihren Texten Ansagen generiert</li>
+                                <li>TTS-Ansagen können Sie innerhalb von Sekunden ins Routing einbinden und beispielsweise über Störungen informieren</li>
+                                <li>TTS funktioniert bei CallOne auch über Schnittstellen, heißt Sie übergeben uns Text den wir dem Anrufer am Telefon vorspielen</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -373,15 +375,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Gezielte Anruferinformationen
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Vermeidung von Anrufpeaks
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Individuelle, gezielte Kundenansprache
                                 </div>
                             </div>
                         </div>
@@ -407,7 +409,8 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>Wir schalten Notfallrufnummern für Sie und mit einem Anruf stellen Sie das Routing Ihrer Servicehotline auf Wartungsmodus oder Ihr ganz individuelles Notfallrouting</li>
+                                <li>PIN-Abfragen sichern diesen Service gegen Missbrauch</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -416,15 +419,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Schnelle Reaktion im Notfall
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Weltweit nutzbar
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Individuell umsetzbar
                                 </div>
                             </div>
                         </div>
@@ -450,7 +453,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>CallOne liefert echte Ortsrufnummern mit Notruffunktionen</li>
+                                <li>Automatische Verteilung auf die korrekte Leitstelle</li>
+                                <li>Nutzbar optimal im Filialbetrieb mit mehreren Niederlassungen</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -459,15 +464,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Deutschlandweiter Service
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Arbeitsschutzgesetz-konform
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Inklusivleistung unserer Lösung
                                 </div>
                             </div>
                         </div>
@@ -493,7 +498,9 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>TODO: Add content</li>
+                                <li>Einbindung erfolgt flexibel via PSTN oder SIP-Trunking oder Nutzung der CallOne Agentenmaske</li>
+                                <li>Über- und Unterpriorisierungen im Zusammenspiel mit eigenen Agenten perfekt kombiniert</li>
+                                <li>Steuerung auch mittels KPI-basiertem Routing möglich</li>
                             </ul>
                         </div>
                         <div class="expandable__extra-right">
@@ -502,15 +509,15 @@
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Optimales Zusammenspiel mit eigenen Agenten
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Transparenz durch umfangreiche Statistiken
                                 </div>
                                 <div class="fader__item">
                                     <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" style="display:inline" /><br />
-                                    TODO: Add content
+                                    Flexible Steuerung
                                 </div>
                             </div>
                         </div>

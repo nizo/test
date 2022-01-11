@@ -1308,10 +1308,9 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<!-- TODO: Add link to datenschutz -->
-				<?php /* <p>
-					<a href="#" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
-				</p> */ ?>
+				<p>
+					<a href="/dsgvo-telekommunikation" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
+				</p>
 			</div>
 		</div>
 	</div>

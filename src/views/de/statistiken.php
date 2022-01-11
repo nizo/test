@@ -236,7 +236,6 @@ $faqs->faq_add (
                 </p>
 
                 <p>
-                    <!-- TODO: Add link -->
                     <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Beratungsgespräch vereinbaren</a>
                     <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Beratungsgespräch<br />vereinbaren</a>
                     <br class="desktop-hidden" />
@@ -353,17 +352,15 @@ $faqs->faq_add (
                             <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" />
                         </div>
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: Add link -->
-                            <a href="#todo" class="btn btn--border-white" style="visibility:hidden">Mehr erfahren</a>
+                            <a href="/dsgvo-telekommunikation" class="btn btn--border-white">Mehr erfahren</a>
                         </div>
                     </div>
                     
                     <p class="desktop-hidden">
                         <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" />
                     </p>
-                    <p class="desktop-hidden" style="display:none !important;">
-                        <!-- TODO: Add link -->
-                        <a href="#todo" class="btn btn--border-white">Mehr erfahren</a>
+                    <p class="desktop-hidden">
+                        <a href="/dsgvo-telekommunikation" class="btn btn--border-white btn--full-width centered">Mehr erfahren</a>
                     </p>
                 </div>
             </div>
