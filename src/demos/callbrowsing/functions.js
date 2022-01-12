@@ -42,34 +42,58 @@ document.addEventListener("DOMContentLoaded", function()
 		if (window.cb_url != null)
 			url = window.cb_url ();
 
-		$.ajax
-		({
-			url: '/demos/callbrowsing/ajax.php',
-			cache: false,
-			type: 'POST',
-			data:
-			{
-				rootnumberhash: window.rootnumberhash,
-				identity: window.identity,
-				session: sessionStorage.getItem (window.sessionname),
-				text: text,
-				url: url,
-				webview_join_url: webview_join_url
-			},
-			dataType: 'json',
-			success: function (data)
-			{
-				sessionStorage.setItem (window.sessionname, data['session']);
+		let postUrl = '/demos/callbrowsing/ajax.php';
 
-				if ((data['callstatus'] == 2) && (Surfly.isInsideSession))
-					data['callstatus'] = 3;
+		// let postData =  'rootnumberhash=' + window.rootnumberhash + '&' +
+		// 				'identity=' + window.identity + '&' +
+		// 				'session=' + sessionStorage.getItem (window.sessionname) + '&' +
+		// 				'text=' + text + '&' +
+		// 				'url=' + url + '&' +
+		// 				'webview_join_url=' + webview_join_url;
 
-				if (window.cb_status != null)
-					window.cb_status (data['rootnumber'], data['ddi'], data['callstatus'], data['caller']);
-			}
+		let postData = new FormData();
+		postData.set('rootnumberhash', window.rootnumberhash);
+		postData.set('identity', window.identity);
+		postData.set('session', sessionStorage.getItem (window.sessionname) !== null ? sessionStorage.getItem (window.sessionname) : '');
+		postData.set('text', text);
+		postData.set('url', url);
+		postData.set('webview_join_url', webview_join_url);
+
+		// let postData = {
+		// 	'rootnumberhash': window.rootnumberhash,
+		// 	'identity': window.identity,
+		// 	'session': sessionStorage.getItem (window.sessionname),
+		// 	'text': text,
+		// 	'url': url,
+		// 	'webview_join_url': webview_join_url
+		// };
+
+		fetch(postUrl, {
+			method: 'POST',
+			cache: 'no-cache',
+			body: postData
+		})
+		.then(response => {
+			return response.json();
+		})
+		.then(data => {
+			setTimeout (callbrowsing_session_update, 1000);
+
+			if (data['error'])
+				return;
+
+			sessionStorage.setItem (window.sessionname, data['session']);
+
+			if ((data['callstatus'] == 2) && (Surfly.isInsideSession))
+				data['callstatus'] = 3;
+
+			if (window.cb_status != null)
+				window.cb_status (data['rootnumber'], data['ddi'], data['callstatus'], data['caller']);	
+		})
+		.catch(error => {
+			setTimeout (callbrowsing_session_update, 1000);
+			console.error (JSON.stringify (error));
 		});
-
-		setTimeout (callbrowsing_session_update, 1000);
 	}
 
 	window.callbrowsing_session_init = function (rootnumberhash, identity, cb_text, cb_url, cb_status)
