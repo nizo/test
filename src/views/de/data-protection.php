@@ -33,7 +33,7 @@
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                     <h3>Warum Sie hinsichtlich Ihrer Telefonie auf Nummer sicher gehen sollten:</h3>
 
-                    <div class="carddeck carddeck--right">
+                    <div class="carddeck carddeck--right" data-speed="4000">
                         <div class="carddeck__card">
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
                                 <div class="number-card__number" style="--color:#86ed18">63%</div>
@@ -79,7 +79,7 @@
 
             <div class="tablist__content" data-tab="1">
                 <h3 class="centered mobile-left">
-                    Ein Maßnahmen-Paket mit dem wir fast <br />
+                    Ein Maßnahmen-Paket, mit dem wir fast <br />
                     jeden Ausfall verhindern können:
                     <br class="mobile-hidden" />
                     <br class="mobile-hidden" />
@@ -295,7 +295,7 @@
 
             <div class="tablist__content" data-tab="2">
                 <h3 class="centered mobile-left">
-                    Ein Maßnahmen-Paket mit dem wir fast <br />
+                    Ein Maßnahmen-Paket, mit dem wir fast <br />
                     jeden Ausfall verhindern können:
                     <br class="mobile-hidden" />
                     <br class="mobile-hidden" />
@@ -353,7 +353,7 @@
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Störungsansagen</h3>
-                                <p class="bigtext">Direkt und proaktiv zu kommunizieren hilft Ihren Kunden am besten. Für automatisierte Sprachansagen in 12 Sprachen geben Sie Ihren Text ein, generieren die Ansage, implementieren sie im Routing und alles ist gut.</p>
+                                <p class="bigtext">Direkt und proaktiv zu kommunizieren, hilft Ihren Kunden am besten. Für automatisierte Sprachansagen in 12 Sprachen geben Sie Ihren Text ein, generieren die Ansage, implementieren sie im Routing und alles ist gut.</p>
                             </div>
                         </div>
                     </div>
