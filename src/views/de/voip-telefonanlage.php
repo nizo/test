@@ -8,15 +8,15 @@ $product->structured_data_get_code ();
 $faqs = new faqs ();
 $faqs->faq_add (
     'Was kostet unsere Cloud Telefonanlage?',
-    '<p>Wir starten ab 10 Mitarbeitern und ab 7,90 € je Nebenstelle. Hinzu kommen nutzungsabhängige Kosten und Zusatzfunktionen wie Call Center Software, Schnittstellen und Rufnummern. Sie können stets auf unsere Projektmanager*innen zurückgreifen, die wir pauschal oder zeitbasiert abrechnen. Da wir uns als Lösungsanbieter mit einem sehr breiten Portfolio verstehen erhalten Sie von uns stets ein passgenaues Angebot zugeschnitten auf Ihre individuellen Anforderungen. Vereinbaren Sie <a href="#" data-openmodal="contact-sales">hier</a> gerne ein erstes unverbindliches Beratungsgespräch.</p>'
+    '<p>Wir starten ab 10 Mitarbeitern und ab 7,90 € je Nebenstelle. Hinzu kommen nutzungsabhängige Kosten und Zusatzfunktionen wie Call Center Software, Schnittstellen und Rufnummern. Sie können stets auf unsere Projektmanager zurückgreifen, die wir pauschal oder zeitbasiert abrechnen. Da wir uns als Lösungsanbieter mit einem sehr breiten Portfolio verstehen erhalten Sie von uns stets ein passgenaues Angebot zugeschnitten auf Ihre individuellen Anforderungen. Vereinbaren Sie <a href="#" data-openmodal="contact-sales">hier</a> gerne ein erstes unverbindliches Beratungsgespräch.</p>'
 );
 $faqs->faq_add (
     'Wie kann ich mit CallOne sparen?',
-    '<p>Wir sind sicher nicht der günstigste Anbieter am Markt. Fragt man jedoch unsere Kunden sparen Sie mit CallOne täglich eine Menge Geld. Wie? Mit smarten Telefonanlagenfunktionen in Paarung mit optimalem Consulting durch unsere Projektmanager*innen. Schlagworte sind hier: <a href="/statistiken">Effizientere Personalsteuerung</a>,  <a href="/callcenter-bot">Kürzere Gesprächsdauern durch Automatisierung</a>, <a href="/telefonanlage-mit-warteschleife">Wettbewerbsvorteile durch erfolgreichen Kundenservice</a>.</p>'
+    '<p>Wir sind sicher nicht der günstigste Anbieter am Markt. Fragt man jedoch unsere Kunden sparen Sie mit CallOne täglich eine Menge Geld. Wie? Mit smarten Telefonanlagenfunktionen in Paarung mit optimalem Consulting durch unsere Projektmanager. Schlagworte sind hier: <a href="/statistiken">Effizientere Personalsteuerung</a>,  <a href="/callcenter-bot">Kürzere Gesprächsdauern durch Automatisierung</a>, <a href="/telefonanlage-mit-warteschleife">Wettbewerbsvorteile durch erfolgreichen Kundenservice</a>.</p>'
 );
 $faqs->faq_add (
     'Was unterscheidet CallOne von alternativen Telefonanlagen-Anbietern?',
-    '<p>Wir bieten Ihnen das vielleicht breiteste Portfolio rundum die Cloud Telefonie. Natürlich versorgen wir Ihr Unternehmen problemlos mit Basics wie Cloud Telefonanlagen, SIP-Trunks, Rufnummernschaltung und Portierung. Und wenn Sie für Ihren Kundenservice und Ihre Inside-Sales Abteilung eine maßgeschneiderte Call Center Software wollen, bieten wir Ihnen auch das.</p><p>Bei CallOne stehen Sie als Kunde wirklich im Mittelpunkt: Unsere Projektmanager*innen und Schnittstellenprogrammierer*innen erstellen eine Kommunikationslösung, die genau zu Ihrem Bedarf und Ihren Ansprüchen passt.</p><p>Im Ergebnis stehen wir für ein Einsparpotential, dass sich durch mehr Effizienz, besserer Planbarkeit und Transparenz und damit schlussendlich einem nachweisbaren höheren ROI ergibt.</p>'
+    '<p>Wir bieten Ihnen das vielleicht breiteste Portfolio rundum die Cloud Telefonie. Natürlich versorgen wir Ihr Unternehmen problemlos mit Basics wie Cloud Telefonanlagen, SIP-Trunks, Rufnummernschaltung und Portierung. Und wenn Sie für Ihren Kundenservice und Ihre Inside-Sales Abteilung eine maßgeschneiderte Call Center Software wollen, bieten wir Ihnen auch das.</p><p>Bei CallOne stehen Sie als Kunde wirklich im Mittelpunkt: Unsere Projektmanager und Schnittstellenprogrammierer erstellen eine Kommunikationslösung, die genau zu Ihrem Bedarf und Ihren Ansprüchen passt.</p><p>Im Ergebnis stehen wir für ein Einsparpotential, dass sich durch mehr Effizienz, besserer Planbarkeit und Transparenz und damit schlussendlich einem nachweisbaren höheren ROI ergibt.</p>'
 );
 $faqs->faq_add (
     'Wie läuft die Zusammenarbeit mit CallOne?',
@@ -41,7 +41,7 @@ $faqs->faq_add (
 
             <h1>Viel <u>mehr</u> als eine Cloud Telefonanlage</h1>
             <h2 class="mobile-hidden">
-				Ein intuitiv bedienbare Cloud Plattform <br />
+				Eine intuitiv bedienbare Cloud Plattform <br />
 				mit <span class="typing-text" data-texts="integrierter Teams-Telefonie|integrierter Call Center Software|Mach-Dich-Glücklich-Garantie ♥|99,999% Erreichbarkeit|persönlichen Ansprechpartnern" data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B|#DB00C5">integrierter Teams-Telefonie</span>
 			</h2>
 			<h2 class="desktop-hidden">Mit integrierter Teams-Telefonie, Call Center Software, 99,999% Erreichbarkeit und viel mehr.</h2>
@@ -126,7 +126,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-hidden">Wo andere Anbieter aufhören, fangen wir erst an.</h1>
         <p class="centered bigtext mobile-hidden">
-			VoIP-Telefonanlagen gibt es viele, doch wir haben uns auf die Fahne geschrieben Full-Service Anbieter für alle Bereiche Ihrer Telefonie zu sein.<br />
+			VoIP-Telefonanlagen gibt es viele, doch wir haben uns auf die Fahne geschrieben, Full-Service Anbieter für alle Bereiche Ihrer Telefonie zu sein.<br />
             <br />
             <br />
         </p>
@@ -604,7 +604,7 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active centered">
                         <h3>Immer individuell & persönlich</h3>
                         
-                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager*innen zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
+                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
 						<p class="bigtext desktop-hidden">Unser Team betreut und berät Sie persönlich zu allem rundum Ihre Cloud Telefonanlage von CallOne.</p>
 
                         <p class="mobile-centered">
@@ -797,7 +797,7 @@ $faqs->faq_add (
 							<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
 							<br />
 							<h4 class="no-gutter-bottom">Skalierung</h4>
-							<p class="bigtext">100-150 Agent*innen</p>
+							<p class="bigtext">100-150 Agent</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
 							<p class="bigtext">
@@ -899,7 +899,7 @@ $faqs->faq_add (
 							<p class="bigtext">Immobilien</p>
 							<br />
 							<h4 class="no-gutter-bottom">Skalierung</h4>
-							<p class="bigtext">40 Agent*innen</p>
+							<p class="bigtext">40 Agent</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
 							<p class="bigtext">
@@ -1000,7 +1000,7 @@ $faqs->faq_add (
 							<p class="bigtext">KFZ-Versicherungen</p>
 							<br />
 							<h4 class="no-gutter-bottom">Skalierung</h4>
-							<p class="bigtext">120 Agenten*innen</p>
+							<p class="bigtext">120 Agenten</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
 							<p class="bigtext">
@@ -1083,7 +1083,7 @@ $faqs->faq_add (
 							<p class="bigtext">Haushalts-Sprudlersysteme</p>
 							<br />
 							<h4 class="no-gutter-bottom">Skalierung</h4>
-							<p class="bigtext">40 Agenten*innen</p>
+							<p class="bigtext">40 Agenten</p>
 							<br />
 							<h4 class="no-gutter-bottom">Kunde seit</h4>
 							<p class="bigtext">
