@@ -312,6 +312,18 @@ $r->addRoute('GET', '/telefonanlage-mit-warteschleife', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/customer-success', function() {
+  $title = '';
+  $description = '';
+  $keywords = '';
+  $background = '';
+  $menuPosition = 'loesungen';
+  $ogUrl = $GLOBALS['url'] . '/customer-success';
+  require_once('./layouts/header.php');
+  require_once('./views/de/customer-success.php');
+  require_once('./layouts/footer.php');
+});
+
 /* Product sites */
 $r->addRoute('GET', '/callcenter-loesung', function() {
   $title = 'Callcenter Software, Kundenservice, Sales, WebRTC, CTI, VoIP, Cloud';
