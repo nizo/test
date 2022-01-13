@@ -353,12 +353,12 @@ var ScarabUtil = function() {
           throw new SyntaxError("command should be a non-empty array: " + commandArray);
         }
         var command = commandArray[0];
-        var params = [];
+        var paramsArr = [];
         for (var j = 1;j < commandArray.length;++j) {
-          params.push(commandArray[j]);
+          paramsArr.push(commandArray[j]);
         }
         if (publicAPI.hasOwnProperty(command)) {
-          publicAPI[command].apply(null, params);
+          publicAPI[command].apply(null, paramsArr);
         } else {
           throw new SyntaxError("unknown command: " + command);
         }

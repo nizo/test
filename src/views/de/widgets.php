@@ -27,7 +27,7 @@
     <div id="lottie"></div>
 
     <script>
-        var params = {
+        var animationOptions = {
             container: document.getElementById('lottie'),
             renderer: 'svg',
             loop: true,
@@ -37,7 +37,7 @@
 
         var anim;
 
-        anim = lottie.loadAnimation(params);
+        anim = lottie.loadAnimation(animationOptions);
         anim.playSegments([[0,109],[31,109]], true);
     </script>
   </div>

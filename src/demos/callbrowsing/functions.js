@@ -44,13 +44,6 @@ document.addEventListener("DOMContentLoaded", function()
 
 		let postUrl = '/demos/callbrowsing/ajax.php';
 
-		// let postData =  'rootnumberhash=' + window.rootnumberhash + '&' +
-		// 				'identity=' + window.identity + '&' +
-		// 				'session=' + sessionStorage.getItem (window.sessionname) + '&' +
-		// 				'text=' + text + '&' +
-		// 				'url=' + url + '&' +
-		// 				'webview_join_url=' + webview_join_url;
-
 		let postData = new FormData();
 		postData.set('rootnumberhash', window.rootnumberhash);
 		postData.set('identity', window.identity);
@@ -58,15 +51,6 @@ document.addEventListener("DOMContentLoaded", function()
 		postData.set('text', text);
 		postData.set('url', url);
 		postData.set('webview_join_url', webview_join_url);
-
-		// let postData = {
-		// 	'rootnumberhash': window.rootnumberhash,
-		// 	'identity': window.identity,
-		// 	'session': sessionStorage.getItem (window.sessionname),
-		// 	'text': text,
-		// 	'url': url,
-		// 	'webview_join_url': webview_join_url
-		// };
 
 		fetch(postUrl, {
 			method: 'POST',

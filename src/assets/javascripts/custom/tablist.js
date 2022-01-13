@@ -93,7 +93,7 @@ class Tablist {
     }
 
     scrollToTabs() {
-        let offset = this.tablist.offsetTop - 100;
+        let offset = this.tablist.getBoundingClientRect().y + window.scrollY - 61;
         scrollToOffset(offset);
     }
 

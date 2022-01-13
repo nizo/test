@@ -93,7 +93,7 @@ app =
       anchor = e.target.hash
       if anchor
         target = document.querySelector(anchor)
-        window.scrollToOffset(target.offsetTop - 94, =>
+        window.scrollToOffset(target.offsetTop, =>
           window.location.hash = anchor
         )
       
