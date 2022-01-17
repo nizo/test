@@ -20,6 +20,7 @@ class Tablist {
         this.navbarHeight = 60;
         this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
         this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        this.originalHeight = this.tablist.offsetHeight;
         this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
         this.stickyPlaceholderActive = false;
         window.addEventListener('scroll', this.stickyLinks.bind(this));
@@ -32,6 +33,11 @@ class Tablist {
         if (!this.stickyPlaceholderActive && this.stickyStart != this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight) {
             this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
             this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+        }
+        // Recalculate stickyEnd if tablist height changed while scrolling down
+        if (this.stickyPlaceholderActive && this.originalHeight != this.tablist.offsetHeight) {
+            this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
+            this.originalHeight = this.tablist.offsetHeight;
         }
         let scrollPos = window.scrollY;
         if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
