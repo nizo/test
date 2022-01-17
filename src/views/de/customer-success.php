@@ -1,4 +1,4 @@
-<div class="section">
+<div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
             <img src="/assets/images/illus/customer-success-header.svg" alt="" />
@@ -29,12 +29,16 @@
     </div>
 </div>
 
-<div class="section">
+<div class="section section--no-padding-top">
     <div class="section__content section__content--wide">
         <p class="bigtext centered">CallOne Kunden jeder Größe haben ein Ziel: Überdurchschnittliche Kundenerlebnisse!</p>
-        <p>
+        <p class="centered">
             <!-- TODO: Add logos -->
-            <img src="/assets/images/client-logos/" alt="" />
+            <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" />
         </p>
+    </div>
+
+    <div class="section__content section__content--wide">
+        <h1 class="centered">Unser bewährter Weg zu Ihrem Erfolg:</h1>
     </div>
 </div>
