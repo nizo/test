@@ -324,6 +324,18 @@ $r->addRoute('GET', '/customer-success', function() {
   require_once('./layouts/footer.php');
 });
 
+$r->addRoute('GET', '/dsgvo-telekommunikation', function() {
+  $title = 'Datenschutz in der Telekommunikation mit CallOne';
+  $description = 'Gehen Sie mit Ihrer Cloud Telefonanlage auf Nummer sicher. CallOne hostet in Deutschland und bietet die vielleicht umfänglichsten Optionen beim Thema Datenschutz';
+  $keywords = '';
+  $background = '';
+  $menuPosition = 'callone';
+  $ogUrl = $GLOBALS['url'] . '/dsgvo-telekommunikation';
+  require_once('./layouts/header.php');
+  require_once('./views/de/data-protection.php');
+  require_once('./layouts/footer.php');
+});
+
 /* Product sites */
 $r->addRoute('GET', '/callcenter-loesung', function() {
   $title = 'Callcenter Software, Kundenservice, Sales, WebRTC, CTI, VoIP, Cloud';

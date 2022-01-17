@@ -79,6 +79,9 @@
     &--light-green-white-2 {
         background: linear-gradient(180deg, #EDF2E2 0%, rgba(#EDF2E2, 0) 100%);
     }
+    &--white-light-green {
+        background: linear-gradient(180deg, #FFFFFF 0%, #EDF2E2 100%);
+    }
 
     &--light-green-white-map {
         background-image: linear-gradient(180deg, #EDF2E2 calc(70% - 550px), rgba(#EDF2E2, 0) calc(100% - 550px)), url(../images/photos/bg-map.jpg);
@@ -335,7 +338,7 @@
             font-size: 38px;
             line-height: 1.25;
             margin-bottom: var(--gutter-s);
-            &+p {
+            &+p:not(.bigtext) {
                 font-size: 20px;
                 line-height: 1.5;
             }

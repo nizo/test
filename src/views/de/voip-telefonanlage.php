@@ -182,7 +182,7 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams gefällig? Kein Problem!</p>
 
-					<!-- TODO: Add link -->
+					<!-- TODO: Add link to MS Teams -->
                     <p><a href="#" style="visibility:hidden" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
@@ -236,7 +236,7 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams.</p>
 
-					<!-- TODO: Add link -->
+					<!-- TODO: Add link to MS Teams -->
                     <p><a href="#" style="visibility:hidden" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
@@ -571,10 +571,9 @@ $faqs->faq_add (
 					</div>
 				</div>
 
-				<!-- TODO: Add link to datenschutz -->
-				<?php /* <p>
-					<a href="#" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
-				</p> */ ?>
+				<p>
+					<a href="/dsgvo-telekommunikation" class="btn btn--border-white btn--arrow-right btn--centered">Mehr erfahren</a>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -789,7 +788,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
 						<p class="bigtext">Stressfrei und effizient kommunizieren - GastroHero zeigt, wie es mit der CallOne Cloud Telefonanlage geht. Um dem schnellen Wachstum des eigenen Unternehmens gerecht zu werden, macht sich GastroHero die passgenaue Lösung von CallOne zu Nutzen. So kann sowohl Sales als auch Kundenservice so effizient und zuverlässig wie möglich gestaltet werden.</p>
-						<!-- TODO: Add link -->
+						<!-- TODO: Add link to Customer Success -->
 						<!-- <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p> -->
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -879,7 +878,7 @@ $faqs->faq_add (
 									<h4>Teams Telefonie</h4>
 									<p>Integration ins kundeneigenes MS Teams als Hauptclient für die Telefonie.</p>
 								</div>
-								<!-- TODO: Add Link -->
+								<!-- TODO: Add Link to MS Teams -->
 								<!-- <br /> -->
 								<!-- <p><a href="#todo" class="btn btn--border-black">Mehr erfahren</a></p> -->
 							</div>
@@ -891,7 +890,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h2>Eine App, volle Integration - Teams Telefonie für Kundenservice und Office-Telefonie</h2>
 						<p class="bigtext">LBS setzt auf die Lieblings-App in Kombination mit der CallOne Lösung, um nicht nur die interne Kommunikation über Microsoft Teams abzuwickeln. Die Kombination aus Kundenservice-Callcenter-Betrieb und Office-Telefonie ist fast unschlagbar. Microsoft Teams als Integration der CallOne Rundum-sorglos-Lösung bietet genau die Funktionen, die LBS für Costumer Service und interne Kommunikation benötigt.</p>
-						<!-- TODO: Add link -->
+						<!-- TODO: Add link to Customer Success -->
 						<!-- <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p> -->
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -992,7 +991,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h2>Intelligentes Routing für minimale Wartezeiten</h2>
 						<p class="bigtext">Um einen Kundenservice zu bieten, der möglichst effizient abläuft und zur Zufriedenheit der Kunden beiträgt, nutzt Check24 KfZ ein intelligentes Routing mit diversen Vorqualifizierungen. So werden unnötige Wartezeiten vermieden. Dazu gehört auch, dass Check24 Kfz je nach Versicherungsprodukt ein weitreichendes skillbasiertes Routing nutzt und sowohl die Kundenzufriedenheit steigert als auch die interne Effizienz. Dank der CallOne Lösung können Wartschleifen und Routings bei Check24 KfZ genauso individuell sein wie benötigt.</p>
-						<!-- TODO: Add link -->
+						<!-- TODO: Add link to Customer Success -->
 						<!-- <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p> -->
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -1075,7 +1074,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h2>Die Rundum-sorglos-Lösung einfach in eigene Systeme integrieren und loslegen</h2>
 						<p class="bigtext">Retourenaufträge für Händler werden bei SodaStream vollautomatisiert abgewickelt, denn eine maßgeschneiderte Lösung von CallOne bezieht die verschiedensten Unternehmensbedürfnisse ein. Hierbei nutzt SodaStream nicht nur eine intelligente und mehrstufige Händlerverifizierung, zusätzlich ist die Schnittstelle komplett ins eigene CRM integriert. Versandaufträge können automatisiert erstellt werden - das spart Zeit und steigert Effizienz.</p>
-						<!-- TODO: Add link -->
+						<!-- TODO: Add link to Customer Success -->
 						<!-- <p><a href="#todo" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p> -->
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
