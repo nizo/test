@@ -245,7 +245,7 @@ if (!isset($menuPosition)) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="submenu__row">
+                            <div class="submenu__row submenu__row--fill">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
                                     <a href="/case-study-check24" class="submenu__link">
                                         <div class="submenu__link-icon">
@@ -298,6 +298,7 @@ if (!isset($menuPosition)) {
                                 </div>
                             </div>
 
+                            <!-- TODO: Add link to Customer Success -->
                             <!-- <a href="#todo" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Customer Success</strong>
@@ -305,12 +306,12 @@ if (!isset($menuPosition)) {
                                 </div>
                             </a> -->
 
-                            <!-- <a href="/datenschutz" class="submenu__link">
+                            <a href="/dsgvo-telekommunikation" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Datenschutz</strong>
                                     <p>Wie wir Ausfallsicherheit und DSGVO-Kompatibilität garantieren</p>
                                 </div>
-                            </a> -->
+                            </a>
 
                             <a href="/ueber-uns" class="submenu__link">
                                 <div class="submenu__link-text">
@@ -398,7 +399,7 @@ if (!isset($menuPosition)) {
                                 </div>        
                             </div>
                             <!-- <div class="submenu__right">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis itaque velit illum adipisci ipsam! Soluta magni officia vero possimus nemo aliquid facilis voluptate voluptates deleniti atque, voluptatibus eos exercitationem vel!
+                                
                             </div> -->
                         </div>
                     </div>
@@ -441,7 +442,7 @@ if (!isset($menuPosition)) {
                                 </div>
                             </div>
                             <!-- <div class="submenu__right">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis itaque velit illum adipisci ipsam! Soluta magni officia vero possimus nemo aliquid facilis voluptate voluptates deleniti atque, voluptatibus eos exercitationem vel!
+                                
                             </div> -->
                         </div>
                     </div>

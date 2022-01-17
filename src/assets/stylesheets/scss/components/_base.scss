@@ -2,6 +2,15 @@ html {
     scroll-padding-top: var(--navigationHeightScrolled);
 }
 
+::-moz-selection {
+    color: #000;
+    background: $color-primary;
+}
+::selection {
+    color: #000;
+    background: rgba($color-primary, 0.35);
+}
+
 // Headlines
 h1 {
     font-family: $font-copy;
