@@ -30,7 +30,7 @@
 </div>
 
 <div class="section section--white-grey section--no-padding-top">
-    <div class="section__content section__content--wide">
+    <div class="section__content section__content--wide mobile-hidden">
         <p class="bigtext centered">CallOne Kunden jeder Größe haben ein Ziel: Überdurchschnittliche Kundenerlebnisse!</p>
         <p class="centered">
             <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" />
@@ -38,17 +38,18 @@
     </div>
 
     <div class="section__content section__content--wide">
-        <h1 class="centered">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h1>
+        <h1 class="centered mobile-left">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h1>
 
         <div class="step" data-step="1">
+            <div class="step__mobile-label"><span>Der Turbo für unsere Zusammenarbeit</span></div>
             <div class="step__label"><span>Schritt 1</span></div>
         </div>
 
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <img src="/assets/images/photos/onboarding-photo.png" alt="" />
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Der Turbo für unsere Zusammenarbeit!</h3>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Ihre Anforderungen werden von uns nicht nur zur Kenntnis, sondern auch ernstgenommen. Darum erhalten Sie von uns proaktiv Lösungsvorschläge.</li>
@@ -63,14 +64,14 @@
         </div>
 
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Wir machen Sie fit!</h3>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Wir wollen, dass Sie mit unseren Lösungen beste Ergebnisse erzielen - darum werden Sie umfänglich geschult. Egal, ob Agenten, Call Center Leitung, IT- oder BI-Abteilung.</li>
                     <li>Sie möchten persönliche Ansprechpartner*innen, um stets optimal beraten zu sein. Das ist auch uns wichtig und Ihnen stehen persönliche Berater*innen mit Premium-SLAs zur Seite.</li>
                 </ul>
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <img src="/assets/images/photos/optimization-photo.png" alt="" />
             </div>
         </div>
@@ -80,10 +81,10 @@
         </div>
 
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <img src="/assets/images/photos/support-photo.png" alt="" />
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Ihre Taskforce im laufenden Einsatz!</h3>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Für Ihre täglichen Herausforderungen können Sie auf unsere Expertise zurückgreifen: Wir unterstützen Sie proaktiv.</li>
@@ -98,7 +99,7 @@
 <div class="section section--dark-green-black">
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <div class="small-tabs" style="--linkColor:255,255,255;--bgColor:0,0,0">
                     <div class="small-tabs__tabs">
                         <div class="small-tabs__tab small-tab-1" data-tab="1">Technische Integration</div>
@@ -125,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <img src="/assets/images/photos/brian-face-circle.png" alt="" class="small-tab-image" />
             </div>
         </div>

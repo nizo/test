@@ -23,6 +23,10 @@
         border-radius: 50%;
     }
 
+    &__mobile-label {
+        display: none;
+    }
+
     &__label {
         display: flex;
         flex-direction: row;
