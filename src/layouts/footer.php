@@ -49,7 +49,7 @@
               <a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a><br />
               <a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a><br />
               <a href="/call-tracking" title="Call-Tracking">Call-Tracking</a><br />
-              <a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a>
+              <a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a><br />
               <a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a>
             </p>
           </div>
