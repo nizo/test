@@ -173,11 +173,11 @@ $faqs->faq_add (
             <div class="team__content">
                 <div class="team__member team__member--active" data-member="1">
                     <div class="team__member-left">
-                        <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
-                        <h6>
+                        <blockquote class="quote">„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
+                        <p>
                             <strong>Charlotta</strong><br />
                             Projektmanagerin
-                        </h6>
+                        </p>
 
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
@@ -198,11 +198,11 @@ $faqs->faq_add (
 
                 <div class="team__member" data-member="2">
                     <div class="team__member-left">
-                        <blockquote>„24/7 Verfügbarkeit unserer Systeme, dabei keine Überstunden und normale Arbeitszeiten. Neuste IT-Technologien wie Voice Recognition nutzen und sich kreative Lösungen für Kunden überlegen. IT - aber ohne Startup Feeling.”</blockquote>
-                        <h6>
+                        <blockquote class="quote">„24/7 Verfügbarkeit unserer Systeme, dabei keine Überstunden und normale Arbeitszeiten. Neuste IT-Technologien wie Voice Recognition nutzen und sich kreative Lösungen für Kunden überlegen. IT - aber ohne Startup Feeling.”</blockquote>
+                        <p>
                             <strong>Brian</strong><br />
                             IT & Technik
-                        </h6>
+                        </p>
 
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
@@ -223,11 +223,11 @@ $faqs->faq_add (
 
                 <div class="team__member" data-member="3">
                     <div class="team__member-left">
-                        <blockquote>„Das Schöne an CallOne ist der starke Zusammenhalt im Team. Innerhalb kürzester Zeit kann man viel bewegen und sich dabei selbst entfalten. Das schätze ich.”</blockquote>
-                        <h6>
+                        <blockquote class="quote">„Das Schöne an CallOne ist der starke Zusammenhalt im Team. Innerhalb kürzester Zeit kann man viel bewegen und sich dabei selbst entfalten. Das schätze ich.”</blockquote>
+                        <p>
                             <strong>Stefanie</strong><br />
                             Human Resources
-                        </h6>
+                        </p>
 
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>

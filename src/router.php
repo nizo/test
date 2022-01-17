@@ -317,7 +317,7 @@ $r->addRoute('GET', '/customer-success', function() {
   $description = '';
   $keywords = '';
   $background = '';
-  $menuPosition = 'loesungen';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/customer-success';
   require_once('./layouts/header.php');
   require_once('./views/de/customer-success.php');

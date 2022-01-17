@@ -4,6 +4,7 @@
 
 .small-tabs {
     --linkColor: 0, 0, 0;
+    --bgColor: 255, 255, 255;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +41,7 @@
     }
 
     &__tabs {
-        border: 2px solid #000;
+        border: 2px solid rgba(var(--linkColor), 1);
         border-radius: 10px;
         overflow: hidden;
         display: flex;
@@ -57,17 +58,17 @@
         letter-spacing: .1em;
         padding: 15px 30px;
         text-transform: uppercase;
-        color: #000;
+        color: rgba(var(--linkColor), 1);
         cursor: pointer;
         transition: all .3s ease;
 
         &+.small-tabs__tab {
-            border-left: 2px solid #000;
+            border-left: 2px solid rgba(var(--linkColor), 1);
         }
     }
     &__tab--active {
-        background-color: #000;
-        color: #fff;
+        background-color: rgba(var(--linkColor), 1);
+        color: rgba(var(--bgColor), 1);
     }
 
     &__content {
