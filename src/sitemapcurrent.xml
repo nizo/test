@@ -9,132 +9,102 @@
 
 <url>
   <loc>https://www.callone.de/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/ueber-uns</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/karriere-bei-callone</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/impressum</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/kontakt</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/voip-telefonanlage</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/callcenter-software</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/voip-telefonanlage</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/0800-lokal-nummern</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/call-tracking</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/callcenter-bot</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/softphone</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/callcenter-software-integrationen</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/telefonanlage-mit-warteschleife</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/statistiken</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/callcenter-software-apps</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/voip-api</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/softphone</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/0800-lokal-nummern</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/callcenter-bot</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/call-tracking</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/preiskalkulator</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/case-study-check24</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/case-study-flaconi</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/case-study-niceshops</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/case-study-apodiscounter</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/karriere/job-projektmanager-in-potsdam</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/dsgvo-telekommunikation</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/karriere/job-quereinsteiger-in-potsdam</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/ueber-uns</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/karriere/job-it-systemkaufmann-frau-potsdam</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/karriere-bei-callone</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/karriere/job-it-support-potsdam</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/karriere/job-fachinformatiker-in-potsdam</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/karriere</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/voip-api</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -143,1048 +113,1088 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/statistiken</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <loc>https://www.callone.de/blog/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/karriere</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/kontakt</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/impressum</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/datenschutz</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.callone.de/download</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/category/verwaltung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/rufnummern/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/callcenter-loesung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/routing/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/schnittstellen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/statistiken/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/weitere-produkte/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-kosten-die-cloud-callcenter-loesung-und-die-virtuelle-telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/wie-lange-ist-die-mindestvertragslaufzeit-bei-callone/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/ist-zur-nutzung-der-callcenter-software-eine-installation-noetig/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/wie-schnell-kann-die-callcenter-loesung-fuer-uns-bereitstehen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/ist-es-moeglich-die-callcenter-software-zu-testen-bevor-man-kunde-wird/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/warum-callone/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/koennen-wir-unsere-aktuellen-rufnummern-zu-callone-mitnehmen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/koennen-wir-neue-rufnummern-ueber-callone-bestellen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/ist-die-voip-gespraechsqualitaet-nicht-sehr-schlecht/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/kann-ich-die-callone-callcenter-software-mit-anderen-businessloesungen-systemen-oder-applikationen-verknuepfen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/welche-schnittstellen-und-anbindungsmoeglichkeiten-gibt-es/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/sind-unsere-daten-bei-ihnen-sicher/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/ist-die-einfuehrung-einer-callcenter-software-nicht-ein-enormer-aufwand-und-eine-grosse-umstellung-fuer-das-gesamte-unternehmen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/verwaltung/administration-der-software/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/verwaltung/support/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/verwaltung/ansagen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/rufnummern/allgemeine-fragen-rufnummern/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/rufnummern/verwaltung-rufnummern/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/rufnummern/schaltung-portierung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/rufnummern/auslandsrufnummern/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/rufnummern/servicerufnummern/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/allgemeine-fragen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/endgeraete/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/funktionen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/einrichtung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/voraussetzungen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/telefonanlage/technische-fragen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/callcenter-loesung/allgemeine-fragen-call-center-loesung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/callcenter-loesung/administration/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/callcenter-loesung/funktionen-callcenter-loesung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/routing/allgemeine-fragen-routing/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/routing/module/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/routing/plugins/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/schnittstellen/zendesk/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/schnittstellen/sonstiges/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/statistiken/allgemein/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/statistiken/acd-statistiken/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/statistiken/rufnummern-statistiken/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/statistiken/livecenter/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/sicherheit-datenschutz/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/weitere-produkte/webrtc/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/weitere-produkte/callback/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/weitere-produkte/konferenz/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/category/weitere-produkte/fax/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/preiskalkulator</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/aktuelles/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/know-how/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/corona-customer-care/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/contact-center-software-acd-telefonie-auf-hoechstem-niveau/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/externe-call-center-dienstleister-4-tipps-fuer-eine-erfolgreiche-zusammenarbeit/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/how-to-gespraechsaufzeichnung-und-telefon-coaching-fuer-kundenservice-und-sales/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/how-to-the-future-of-customer-support-sales-on-the-phone/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/call-tracking/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/tableau-telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/arbeitszeiterfassung-im-contact-center/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/professionelle-telefonansagen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/kundenservice-in-zeiten-von-personalknappheit/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/vorteile-voip-telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/callcenter-software-faq/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/page/2/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/page/3/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/page/4/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/allgemein/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/allgemein-de/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/cloud-acd/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/topartikel/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/callcenter-software-funktionen</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/zendesk-cti-ticketing</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/freshdesk-callcenter-software</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/cti-salesforce</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/schnittstellen-fuer-guten-kundenservice-auf-allen-kanaelen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.callone.de/voip-telefonanlagen-funktionen</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/hardware-telefone-in-kombination-mit-ihrer-cloud-telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/sales-solutions</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.callone.de/tableau-callcenter-connector</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/callcenter-software-funktionen</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/zendesk-cti-ticketing</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/freshdesk-callcenter-software</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/cti-salesforce</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/schnittstellen-fuer-guten-kundenservice-auf-allen-kanaelen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/sales-solutions</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/aktuelles/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/know-how/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/corona-customer-care/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/contact-center-software-acd-telefonie-auf-hoechstem-niveau/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/externe-call-center-dienstleister-4-tipps-fuer-eine-erfolgreiche-zusammenarbeit/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/how-to-gespraechsaufzeichnung-und-telefon-coaching-fuer-kundenservice-und-sales/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/how-to-the-future-of-customer-support-sales-on-the-phone/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/call-tracking/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/tableau-telefonanlage/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/arbeitszeiterfassung-im-contact-center/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/professionelle-telefonansagen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/kundenservice-in-zeiten-von-personalknappheit/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/vorteile-voip-telefonanlage/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/callcenter-software-faq/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/page/2/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/page/3/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/page/4/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/allgemein/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/allgemein-de/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/cloud-acd/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/topartikel/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/karriere/job-it-systemkaufmann-frau-potsdam</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/karriere/job-it-support-potsdam</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/karriere/job-fachinformatiker-in-potsdam</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/karriere/job-quereinsteiger-in-potsdam</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/karriere/job-projektmanager-in-potsdam</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/verwaltung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/rufnummern/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/callcenter-loesung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/routing/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/schnittstellen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/statistiken/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/weitere-produkte/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/was-kosten-die-cloud-callcenter-loesung-und-die-virtuelle-telefonanlage/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/wie-lange-ist-die-mindestvertragslaufzeit-bei-callone/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/ist-zur-nutzung-der-callcenter-software-eine-installation-noetig/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/wie-schnell-kann-die-callcenter-loesung-fuer-uns-bereitstehen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/ist-es-moeglich-die-callcenter-software-zu-testen-bevor-man-kunde-wird/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/warum-callone/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/koennen-wir-unsere-aktuellen-rufnummern-zu-callone-mitnehmen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/koennen-wir-neue-rufnummern-ueber-callone-bestellen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/ist-die-voip-gespraechsqualitaet-nicht-sehr-schlecht/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/kann-ich-die-callone-callcenter-software-mit-anderen-businessloesungen-systemen-oder-applikationen-verknuepfen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/welche-schnittstellen-und-anbindungsmoeglichkeiten-gibt-es/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/sind-unsere-daten-bei-ihnen-sicher/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/ist-die-einfuehrung-einer-callcenter-software-nicht-ein-enormer-aufwand-und-eine-grosse-umstellung-fuer-das-gesamte-unternehmen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/verwaltung/administration-der-software/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/verwaltung/support/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/verwaltung/ansagen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/rufnummern/allgemeine-fragen-rufnummern/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/rufnummern/verwaltung-rufnummern/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/rufnummern/schaltung-portierung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/rufnummern/auslandsrufnummern/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/rufnummern/servicerufnummern/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/allgemeine-fragen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/endgeraete/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/funktionen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/einrichtung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/voraussetzungen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/telefonanlage/technische-fragen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/callcenter-loesung/allgemeine-fragen-call-center-loesung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/callcenter-loesung/administration/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/callcenter-loesung/funktionen-callcenter-loesung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/routing/allgemeine-fragen-routing/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/routing/module/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/routing/plugins/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/schnittstellen/zendesk/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/schnittstellen/sonstiges/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/statistiken/allgemein/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/statistiken/acd-statistiken/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/statistiken/rufnummern-statistiken/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/statistiken/livecenter/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/sicherheit-datenschutz/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/weitere-produkte/webrtc/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/weitere-produkte/callback/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/weitere-produkte/konferenz/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/category/weitere-produkte/fax/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.callone.de/microsip</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/blog/click-to-dial-browser-extension-fuer-google-chrome-und-mozilla-firefox/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-passiert-waehrend-der-testphase-und-danach/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/unser-unternehmen-hat-verschiedene-standorte-kann-man-die-cloud-software-an-allen-standorten-gleichzeitig-verwenden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-sind-anruflisten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/wie-erhalte-ich-meine-monatlichen-abrechnungen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/wann-und-wie-erhalte-ich-zugangsdaten-zur-loesung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/wie-bekomme-ich-eine-festnetzrufnummer/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-sind-meine-vorteile-gegenueber-einer-herkoemmlichen-telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/ist-die-callcenter-loesung-multichannelfaehig/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/wie-koennen-wir-faxe-vor-unbefugten-zugriffen-schuetzen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-bedeutet-cloud-acd/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/nie-wieder-warten-erfuellen-sie-ihren-kunden-diesen-traum-mit-dem-automatisierten-rueckruf/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/einfach-revolutionaer-kundensupport-via-webrtc/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/das-contact-center-der-zukunft-10-kundenservice-trends-fuer-2019/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/ki-im-callcenter/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/callone-neuerungen-cti-integrationen-und-voip-gespraechsqualitaet/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/telefonie-mit-der-cti-integration-fuer-pipedrive/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/all-ip-umstellung-es-kommt-noch-etwas-auf-uns-zu/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/salesforce-computer-telephony-integration/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/das-urteil-zur-0180-rufnummer-ist-doch-alles-halb-so-wild/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/kuenstliche-intelligenz-und-sprachassistenten-ein-blick-auf-den-kundenservice-der-zukunft/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/aktuelles/page/2/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
   <loc>https://www.callone.de/blog/vergleich-anforderungen-die-sie-an-ihre-call-center-software-stellen-sollten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/category/know-how/page/2/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-genau-sind-skillgruppen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/die-wichtigsten-abkuerzungen-der-ip-telefonie/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/webrtc-entwicklung-telefonie-und-einsatz-im-contact-center/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/sicherheit-mit-voip/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/vergleich-6-top-features-unserer-callcenter-software/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/das-auswahlmenue-6-tipps-fuer-eine-ausgezeichnete-customer-experience/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/asterisk-ein-vergleich-mit-voip-telefonanlagen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/wir-kaempfen-fuer-guten-kundenservice/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/tipps-fuer-die-weihnachtszeit-im-kundenservice/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/automatisierte-antworten-mit-zendesk/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/voip-im-zusammenspiel-mit-apple/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/stoerungsfrei-arbeiten-mit-voip/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/routing-mit-der-callone-callcenter-software/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/blog/tipps-fuer-glueckliche-startup-kunden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/callone-und-zendesk-zwei-cloud-loesungen-eine-vision/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/voip-im-zusammenspiel-mit-apple/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/webrtc-entwicklung-telefonie-und-einsatz-im-contact-center/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/einfach-revolutionaer-kundensupport-via-webrtc/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/das-contact-center-der-zukunft-10-kundenservice-trends-fuer-2019/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/ki-im-callcenter/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/callone-neuerungen-cti-integrationen-und-voip-gespraechsqualitaet/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/telefonie-mit-der-cti-integration-fuer-pipedrive/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/click-to-dial-browser-extension-fuer-google-chrome-und-mozilla-firefox/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/all-ip-umstellung-es-kommt-noch-etwas-auf-uns-zu/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/salesforce-computer-telephony-integration/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/das-urteil-zur-0180-rufnummer-ist-doch-alles-halb-so-wild/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/kuenstliche-intelligenz-und-sprachassistenten-ein-blick-auf-den-kundenservice-der-zukunft/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/aktuelles/page/2/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/category/know-how/page/2/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/was-genau-sind-skillgruppen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/die-wichtigsten-abkuerzungen-der-ip-telefonie/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/sicherheit-mit-voip/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/hardware-telefone-in-kombination-mit-ihrer-cloud-telefonanlage/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/vergleich-6-top-features-unserer-callcenter-software/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/das-auswahlmenue-6-tipps-fuer-eine-ausgezeichnete-customer-experience/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/asterisk-ein-vergleich-mit-voip-telefonanlagen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/wir-kaempfen-fuer-guten-kundenservice/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/tipps-fuer-die-weihnachtszeit-im-kundenservice/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/nie-wieder-warten-erfuellen-sie-ihren-kunden-diesen-traum-mit-dem-automatisierten-rueckruf/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/automatisierte-antworten-mit-zendesk/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/stoerungsfrei-arbeiten-mit-voip/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/routing-mit-der-callone-callcenter-software/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/blog/tipps-fuer-glueckliche-startup-kunden/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/kundenservice-am-telefon-optimieren/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/kostenfreie-servicerufnummern-gesetzeskonform-und-kundenorientiert/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/zendesk/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/webrtc-browsertelefonie/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/automatic-call-distribution-acd/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/callcenter-loesung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/all-ip/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/category/allgemein/page/2/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/category/allgemein-de/page/2/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/sind-bedingungen-an-den-demo-account-geknuepft/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/was-passiert-waehrend-der-testphase-und-danach/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/kann-ich-mobil-auf-die-loesung-zugreifen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/unser-unternehmen-hat-verschiedene-standorte-kann-man-die-cloud-software-an-allen-standorten-gleichzeitig-verwenden/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/welche-fristen-zur-speicherung-und-loeschung-gibt-es/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/was-sind-anruflisten/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/wie-kann-ich-unsere-stammdaten-abaendern/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/wie-erhalte-ich-meine-monatlichen-abrechnungen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/setzen-sie-auch-individuelle-kundenwuensche-um/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/wann-und-wie-erhalte-ich-zugangsdaten-zur-loesung/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/koennen-wir-bereits-bestehende-festnetzrufnummern-zu-callone-mitnehmen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/wie-bekomme-ich-eine-festnetzrufnummer/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/ist-es-moeglich-die-virtuelle-telefonanlage-auch-mit-bestehenden-telefonanlagen-zu-kombinieren/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/was-sind-meine-vorteile-gegenueber-einer-herkoemmlichen-telefonanlage/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/was-ist-die-callconnect-api/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/ist-die-callcenter-loesung-multichannelfaehig/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/wie-koennen-wir-unsere-snom-endgeraete-vor-unbefugtem-zugriff-schuetzen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/wie-koennen-wir-faxe-vor-unbefugten-zugriffen-schuetzen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/kann-man-durch-die-callone-acd-kosten-sparen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://www.callone.de/faq/was-bedeutet-cloud-acd/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/category/aktuelles/page/3/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://www.callone.de/blog/category/know-how/page/3/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-sind-anwahlprinzipien-wie-z-b-last-agent-routing/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
+  <loc>https://www.callone.de/faq/sind-bedingungen-an-den-demo-account-geknuepft/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/kann-ich-mobil-auf-die-loesung-zugreifen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/welche-fristen-zur-speicherung-und-loeschung-gibt-es/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/wie-kann-ich-unsere-stammdaten-abaendern/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/setzen-sie-auch-individuelle-kundenwuensche-um/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/koennen-wir-bereits-bestehende-festnetzrufnummern-zu-callone-mitnehmen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/ist-es-moeglich-die-virtuelle-telefonanlage-auch-mit-bestehenden-telefonanlagen-zu-kombinieren/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/was-ist-die-callconnect-api/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/wie-koennen-wir-unsere-snom-endgeraete-vor-unbefugtem-zugriff-schuetzen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/kann-man-durch-die-callone-acd-kosten-sparen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/wie-stelle-ich-sicher-dass-die-anrufe-einem-passenden-callcenter-agenten-zugestellt-werden/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
   <loc>https://www.callone.de/faq/wie-sind-ihre-servicezeiten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/koennen-zusaetzliche-benutzer-angelegt-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-lange-haben-wir-zugriff-auf-dateien-mit-gespraechsaufzeichnungen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wir-benoetigen-hilfe-bei-der-administration-der-loesung-an-wen-koennen-wir-uns-wenden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-lange-dauert-es-eine-rufnummer-zu-portieren/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/kann-ich-mit-einer-virtuellen-telefonanlage-auch-klassische-festnetzanschluesse-erreichen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-ist-die-ivr-schnittstelle-und-wofuer-benoetigen-wir-diese/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/welche-verpflichtungen-gehen-wir-mit-der-nutzung-eines-demo-zugangs-ein-und-warum-brauchen-sie-dafuer-meine-daten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/welche-moeglichkeiten-bietet-die-callcenter-loesung-das-anrufaufkommen-zu-beeinflussen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/wie-stelle-ich-sicher-dass-die-anrufe-einem-passenden-callcenter-agenten-zugestellt-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.33</priority>
+  <loc>https://www.callone.de/faq/welche-optionen-gibt-es-in-der-warteschleife-kann-z-b-die-voraussichtliche-wartedauer-angesagt-werden/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/gibt-es-einen-kundendienst-der-uns-auch-vor-ort-betreuen-kann/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/kann-jeder-benutzer-alle-bereiche-der-loesung-einsehen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/koennen-im-telefonbuch-kontakte-gruppiert-und-z-b-nur-einzelnen-abteilungen-freigegeben-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/fuehren-sie-routingaenderungen-fuer-uns-durch/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-kostet-die-portierung-einer-rufnummer/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/telefonieren-die-mitarbeiter-untereinander-auch-standortuebergreifend-kostenfrei/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-ist-eine-api/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wo-befindet-sich-die-server-von-callone/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/koennen-mitarbeiter-am-heimarbeitsplatz-oder-von-unterwegs-auch-teil-der-loesung-sein/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/welche-optionen-gibt-es-in-der-warteschleife-kann-z-b-die-voraussichtliche-wartedauer-angesagt-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.26</priority>
+  <loc>https://www.callone.de/faq/welche-rufnummer-wird-bei-ausgehenden-gespraechen-ueber-die-agentenmaske-uebermittelt/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/zu-welchen-zeiten-haben-wir-zugriff-auf-die-weboberflaeche-der-loesung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wieviel-speicherplatz-steht-uns-fuer-ansagen-mailbox-aufnahmen-und-faxe-in-der-loesung-zur-verfuegung/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/gibt-es-eine-telefonbuch-funktion/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-lange-ist-die-mindestvertragslaufzeit/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/ist-die-erreichbarkeit-der-rufnummer-bei-einer-portierung-sichergestellt/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-ist-der-wartungsaufwand-bei-der-virtuellen-telefonanlage/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-ist-click-to-dial/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-sind-die-sicherheitsoptionen-bei-benutzerzugaengen-geregelt/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/sind-mit-der-callcenter-software-auch-outbound-gespraeche-moeglich/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/welche-rufnummer-wird-bei-ausgehenden-gespraechen-ueber-die-agentenmaske-uebermittelt/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.21</priority>
+  <loc>https://www.callone.de/faq/kann-man-einen-acd-agenten-direkt-anwaehlen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-kann-ich-einen-demo-zugang-in-einen-kunden-zugang-umwandeln/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wozu-dienen-die-verschiedenen-listen-wie-z-b-feiertagslisten-im-verwaltungsbereich/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-kann-ich-bei-einem-rufnummernblock-erkennen-welche-durchwahlen-ddis-noch-frei-sind/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/benoetigen-wir-zusaetzlich-noch-einen-klassischen-telefonanschluss/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/koennen-mit-callone-sms-verschickt-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-ist-das-telekommunikationsgesetz/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-sieht-die-agentenoberflaeche-aus/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/kann-man-einen-acd-agenten-direkt-anwaehlen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.17</priority>
+  <loc>https://www.callone.de/faq/besteht-die-moeglichkeit-sog-service-level-agreements-slas-zu-hinterlegen/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.13</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-sind-plattform-minuten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-mache-ich-wenn-ich-mein-passwort-fuer-den-login-zur-loesung-vergessen-habe/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/aus-welchen-laendern-koennen-wir-rufnummern-schalten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-ist-eine-nebenstelle/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/welche-funktionen-bietet-die-contact-center-software-von-callone-fuer-inbound-telefonie/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/besteht-die-moeglichkeit-sog-service-level-agreements-slas-zu-hinterlegen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.13</priority>
+  <loc>https://www.callone.de/faq/was-passiert-wenn-gerade-kein-agent-verfuegbar-ist/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.11</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-bedeutet-inbound-und-outbound-telefonie/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-bedeutet-die-statuseinstellung-intern-verfuegbar/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.11</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-passiert-wenn-gerade-kein-agent-verfuegbar-ist/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.11</priority>
-</url>
-<url>
-  <loc>https://www.callone.de/faq/was-ist-ein-diensteanbieter/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.09</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-funktioniert-ein-cc-agent/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.09</priority>
 </url>
 <url>
-  <loc>https://www.callone.de/faq/was-ist-ueberhaupt-telekommunikation/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
-  <priority>0.07</priority>
+  <loc>https://www.callone.de/faq/was-ist-ein-diensteanbieter/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.09</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/ist-es-moeglich-bei-nutzung-eines-softphones-die-statuseinstellungen-dort-mit-der-acd-zu-synchronisieren/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://www.callone.de/faq/was-ist-ueberhaupt-telekommunikation/</loc>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.07</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-passiert-wenn-die-maximale-anzahl-an-anrufern-in-der-warteschleife-erreicht-ist/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.05</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/kann-man-anrufern-einen-rueckruf-aus-der-warteschleife-anbieten/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.04</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/koennen-wahlwiederholer-bevorzugt-behandelt-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.04</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wozu-kann-die-agenten-id-verwendet-werden/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.03</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/koennen-wir-auswerten-warum-uns-kunden-angerufen-haben/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.02</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-bedeutet-round-robin/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.02</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/was-bedeutet-longest-idle/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.01</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-kann-ich-das-anrufaufkommen-in-der-warteschlange-ueberwachen/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.01</priority>
 </url>
 <url>
   <loc>https://www.callone.de/faq/wie-koennen-wir-agentenrechte-administrieren/</loc>
-  <lastmod>2021-11-22T15:28:30+00:00</lastmod>
+  <lastmod>2022-01-17T14:40:13+00:00</lastmod>
   <priority>0.01</priority>
 </url>
 

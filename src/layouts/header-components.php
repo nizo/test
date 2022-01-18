@@ -11,9 +11,9 @@
     <meta property="og:site_name" content="Callone"/>
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.callone.de/assets/images/logo/Logo.png" />
-    <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/Logo@2x.png">
-    <meta property="twitter:image" content="https://www.callone.de/assets/images/logo/Logo.png">	
+    <meta property="og:image" content="https://www.callone.de/assets/images/logo/og-image.png" />
+    <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/og-image.png">
+    <meta property="twitter:image" content="https://www.callone.de/assets/images/logo/og-image-twitter.png">
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
     <meta name="robots" content="index,follow" />
