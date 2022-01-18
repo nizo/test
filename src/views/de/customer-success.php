@@ -6,7 +6,7 @@
         <div class="hero__text">
             <h1>Machen Sie unser Team zu Ihrem Team!</h1>
             
-            <p class="bigtext">Profitieren Sie von schnellen Ergebnissen und einem reibungslosen Betrieb: Ihr*e Costumor Success Manager*in und Integration Engineer unterstützt Sie persönlich, engagiert und kompetent. Natürlich sind Ihre CallOne Ansprechpartner*innen im Onboarding ebenso für Sie da wie im Tagesgeschäft.</p>
+            <p class="bigtext">Profitieren Sie von schnellen Ergebnissen und einem reibungslosen Betrieb: Ihr Customer Success Manager und Integration Engineer unterstützt Sie persönlich, engagiert und kompetent. Natürlich sind Ihre CallOne Ansprechpartner im Onboarding ebenso für Sie da wie im Tagesgeschäft.</p>
 
             <p class="mobile-centered">
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Kontakt aufnehmen</a>
@@ -40,8 +40,7 @@
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h1>
 
-        <div class="step" data-step="1">
-            <div class="step__mobile-label"><span>Der Turbo für unsere Zusammenarbeit</span></div>
+        <div class="step" data-step="1" data-mobile-label="Der Turbo für unsere Zusammenarbeit">
             <div class="step__label"><span>Schritt 1</span></div>
         </div>
 
@@ -59,7 +58,7 @@
             </div>
         </div>
 
-        <div class="step" data-step="2">
+        <div class="step" data-step="2" data-mobile-label="Wir machen Sie fit!">
             <div class="step__label"><span>Schritt 2</span></div>
         </div>
 
@@ -68,7 +67,7 @@
                 <h3>Wir machen Sie fit!</h3>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Wir wollen, dass Sie mit unseren Lösungen beste Ergebnisse erzielen - darum werden Sie umfänglich geschult. Egal, ob Agenten, Call Center Leitung, IT- oder BI-Abteilung.</li>
-                    <li>Sie möchten persönliche Ansprechpartner*innen, um stets optimal beraten zu sein. Das ist auch uns wichtig und Ihnen stehen persönliche Berater*innen mit Premium-SLAs zur Seite.</li>
+                    <li>Sie möchten persönliche Ansprechpartner, um stets optimal beraten zu sein. Das ist auch uns wichtig und Ihnen stehen persönliche Berater mit Premium-SLAs zur Seite.</li>
                 </ul>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -76,19 +75,19 @@
             </div>
         </div>
 
-        <div class="step" data-step="3">
+        <div class="step" data-step="3" data-mobile-label="Ihre Taskforce im laufenden Einsatz!">
             <div class="step__label"><span>Schritt 3</span></div>
         </div>
 
         <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
                 <img src="/assets/images/photos/support-photo.png" alt="" />
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Ihre Taskforce im laufenden Einsatz!</h3>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Für Ihre täglichen Herausforderungen können Sie auf unsere Expertise zurückgreifen: Wir unterstützen Sie proaktiv.</li>
-                    <li>Unsere Projektmanager*innen koordinieren all Ihre Aufgaben zentral bei CallOne für Sie.</li>
+                    <li>Unsere Projektmanager koordinieren all Ihre Aufgaben zentral bei CallOne für Sie.</li>
                     <li>Sie werden nicht allein gelassen! Regelmäßig liefern wir Ihnen individuelle Workshops, in denen wir über weitere Optimierungsmöglichkeiten mit Ihnen besprechen.</li>
                 </ul>
             </div>

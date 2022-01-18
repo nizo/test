@@ -12,6 +12,7 @@
     &:before {
         content: attr(data-step);
         display: block;
+        flex: 0 0 50px;
         width: 50px;
         height: 50px;
         display: flex;
@@ -21,6 +22,12 @@
         border: 2px solid var(--color);
         color: var(--color);
         border-radius: 50%;
+    }
+
+    &:after {
+        font-size: 24px;
+        font-family: $font-headline;
+        line-height: 120%;
     }
 
     &__mobile-label {
@@ -51,6 +58,26 @@
             height: 2px;
             flex: 1;
             background-color: var(--color);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .step {
+        &[data-mobile-label] {
+            flex-direction: row;
+
+            &:before {
+                margin-right: var(--gutter-xs);
+            }
+
+            .step__label {
+                display: none;
+            }
+
+            &:after {
+                content: attr(data-mobile-label);
+            }
         }
     }
 }
