@@ -307,7 +307,7 @@ $r->addRoute('GET', '/dsgvo-telekommunikation', function() {
   $description = 'Gehen Sie mit Ihrer Cloud Telefonanlage auf Nummer sicher. CallOne hostet in Deutschland und bietet die vielleicht umfänglichsten Optionen beim Thema Datenschutz';
   $keywords = '';
   $background = '';
-  $menuPosition = 'loesungen';
+  $menuPosition = 'callone';
   $ogUrl = $GLOBALS['url'] . '/dsgvo-telekommunikation';
   require_once('./layouts/header.php');
   require_once('./views/de/data-protection.php');

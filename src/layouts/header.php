@@ -20,9 +20,9 @@
         <meta name="msapplication-TileImage" content="<?= $ogImage ?>">
         <meta property="twitter:image" content="<?= $ogImage ?>">
     <?php else: ?>
-        <meta property="og:image" content="https://www.callone.de/assets/images/logo/Logo.png" />
-        <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/Logo@2x.png">
-        <meta property="twitter:image" content="https://www.callone.de/assets/images/logo/Logo.png">	
+        <meta property="og:image" content="https://www.callone.de/assets/images/logo/og-image.png" />
+        <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/og-image.png">
+        <meta property="twitter:image" content="https://www.callone.de/assets/images/logo/og-image-twitter.png">	
     <?php endif; ?>	
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
