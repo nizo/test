@@ -313,8 +313,8 @@ $r->addRoute('GET', '/telefonanlage-mit-warteschleife', function() {
 });
 
 $r->addRoute('GET', '/customer-success', function() {
-  $title = '';
-  $description = '';
+  $title = 'Effiziente Unternehmenstelefonie mit CallOne';
+  $description = 'Top Service für Ihre Cloud Telefonanlage und Callcenter Software. CallOne bietet persönliche Beratung und Betreuung für Ihre Unternehmenstelefonie';
   $keywords = '';
   $background = '';
   $menuPosition = 'callone';

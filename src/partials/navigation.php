@@ -245,7 +245,7 @@ if (!isset($menuPosition)) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="submenu__row submenu__row--fill">
+                            <div class="submenu__row">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
                                     <a href="/case-study-check24" class="submenu__link">
                                         <div class="submenu__link-icon">
@@ -285,6 +285,19 @@ if (!isset($menuPosition)) {
                                         <div class="submenu__link-text">
                                             <strong>Apodiscounter</strong>
                                             <p>Intelligente Anrufsteuerung mit KI</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="submenu__row">
+                                <div class="submenu__column" style="--col-width:100%">
+                                    <a href="/customer-success" class="submenu__link centered">
+                                        <div class="submenu__link-text">
+                                            <strong>Customer Success</strong>
+                                            <p>
+                                                Machen Sie unser Team zu Ihrem Team!<br />
+                                                Profitieren Sie von schnellen Ergebnissen und einem reibungslosen Betrieb!
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
