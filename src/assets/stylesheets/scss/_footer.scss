@@ -96,7 +96,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       .footer-column {
-        width: percentage(1/5);
+        width: percentage(1/4);
         &+.footer-column {
           padding-left: $gutter-m;
           padding-bottom: $gutter-m;
@@ -128,17 +128,13 @@
       }
     }
     p {
-      a {
+      a:not(.btn) {
         color: #fff;
         border-bottom: 2px solid transparent;
         &:hover {
           border-color: #fff;
         }
       }
-    }
-    .button.primary {
-      border-color: #fff;
-      margin-bottom: 30px;
     }
   }
 }
