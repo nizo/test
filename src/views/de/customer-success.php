@@ -104,7 +104,7 @@
     <div class="section__content section__content--wide">
         <!-- Desktop Quotes -->
         <div class="co-grid mobile-hidden">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--6-lg co-grid__col--vcentered">
                 <div class="small-tabs" style="--linkColor:255,255,255;--bgColor:0,0,0">
                     <div class="small-tabs__tabs">
                         <div class="small-tabs__tab small-tab-1" data-tab="1">Technische Integration</div>
@@ -131,13 +131,13 @@
                     </div>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered">
                 <img src="/assets/images/photos/brian-face-circle.png" alt="" class="small-tab-image" />
             </div>
         </div>
 
         <!-- Mobile Quotes -->
-        <div class="tablist tablist--on-black desktop-hidden">
+        <div class="tablist tablist--on-black desktop-hidden" style="margin-top:0">
             <div class="tablist__links">
                 <div class="tablist__link" data-tab="1">Technische Integration</div>
                 <div class="tablist__link" data-tab="2">Projektmanagement</div>

@@ -311,14 +311,6 @@ if (!isset($menuPosition)) {
                                 </div>
                             </div>
 
-                            <!-- TODO: Add link to Customer Success -->
-                            <!-- <a href="#todo" class="submenu__link">
-                                <div class="submenu__link-text">
-                                    <strong>Customer Success</strong>
-                                    <p>Wie unsere Projekt Manager*innen Sie tiefgehend unterstützen</p>
-                                </div>
-                            </a> -->
-
                             <a href="/dsgvo-telekommunikation" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Datenschutz</strong>
