@@ -657,7 +657,6 @@ $r->addRoute('GET', '/kontakt', function() {
   require_once('./layouts/footer.php');
 });
 
-
 // FALLBACK 404
 $r->addRoute('GET', '/404', function() {
   $title = '404 - Die Seite konnte nicht gefunden werden!';
