@@ -1,7 +1,7 @@
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/customer-success-header.svg" alt="" />
+            <img src="/assets/images/illus/customer-success-header.png" alt="" />
         </div>
         <div class="hero__text">
             <h1>Machen Sie unser Team zu Ihrem Team!</h1>
@@ -15,28 +15,15 @@
             </p>
         </div>
     </header>
-
-    <div class="anchors mobile-hidden">
-        <div class="anchors__title">
-            <strong>Schnelleinstieg:</strong> Was interessiert dich?
-        </div>
-        <div class="anchors__links">
-            <a href="#entstehungsgeschichte">Entstehungsgeschichte</a>
-            <a href="#unternehmenskultur">Unternehmenskultur</a>
-            <a href="#umwelt">Umwelt</a>
-            <a href="#kunden">Kunden</a>
-            <a href="#karriere">Karriere</a>
-        </div>
-    </div>
 </div>
 
 <div class="section section--white-grey section--no-padding-top">
-    <div class="section__content section__content--wide mobile-hidden">
+    <!-- <div class="section__content section__content--wide mobile-hidden">
         <p class="bigtext centered">CallOne Kunden jeder Größe haben ein Ziel: Überdurchschnittliche Kundenerlebnisse!</p>
         <p class="centered">
             <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" />
         </p>
-    </div>
+    </div> -->
 
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h1>
@@ -120,9 +107,8 @@
                         </p>
                     </div>
                     <div class="small-tabs__content" data-tab="2">
-                        <!-- TODO: Add text -->
                         <blockquote class="quote">
-                            „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus, in netus purus dui. Nibh est phasellus et erat. Amet cum vulputate rutrum sit aliquet. Adipiscing nullam ut consequat dignissim odio rutrum lacus.”
+                            „Wir begleiten und beraten unsere Kunden von Anfang an persönlich. So entsteht eine echte Vertrauensbasis, auf der wir immer wieder neue Lösungen finden. Unser Team arbeitet strukturiert und zielführend, sodass wir die Kundenanliegen immer schnell beantworten können.”
                         </blockquote>
                         <p>
                             <strong>Charlotta</strong><br />
@@ -156,9 +142,8 @@
                 <img src="/assets/images/photos/brian-mobile-green-circle.png" alt="" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
             </div>
             <div class="tablist__content" data-tab="2">
-                <!-- TODO: Add text -->
                 <blockquote class="quote">
-                    „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus, in netus purus dui. Nibh est phasellus et erat. Amet cum vulputate rutrum sit aliquet. Adipiscing nullam ut consequat dignissim odio rutrum lacus.”
+                    „Wir begleiten und beraten unsere Kunden von Anfang an persönlich. So entsteht eine echte Vertrauensbasis, auf der wir immer wieder neue Lösungen finden. Unser Team arbeitet strukturiert und zielführend, sodass wir die Kundenanliegen immer schnell beantworten können.”
                 </blockquote>
                 <p>
                     <strong>Charlotta</strong><br />

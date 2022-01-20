@@ -246,7 +246,7 @@ if (!isset($menuPosition)) {
                                 </div>
                             </div>
                             <div class="submenu__row">
-                                <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
+                                <div class="submenu__column" style="--col-width:300px">
                                     <a href="/case-study-check24" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/check24.png" alt="" />
@@ -266,8 +266,7 @@ if (!isset($menuPosition)) {
                                             <p>Zusammenspiel von Telefonanlage & ACD-Lösung</p>
                                         </div>
                                     </a>
-                                </div>
-                                <div class="submenu__column" style="--col-width:300px">
+
                                     <a href="/case-study-niceshops" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/niceshops.png" alt="" />
@@ -277,7 +276,7 @@ if (!isset($menuPosition)) {
                                             <p>Callcenter-Software, VoIP mit Freshdesk-Anbindung</p>
                                         </div>
                                     </a>
-
+    
                                     <a href="/case-study-apodiscounter" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/apodiscounter.png" alt="" />
@@ -285,19 +284,6 @@ if (!isset($menuPosition)) {
                                         <div class="submenu__link-text">
                                             <strong>Apodiscounter</strong>
                                             <p>Intelligente Anrufsteuerung mit KI</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="submenu__row">
-                                <div class="submenu__column" style="--col-width:100%">
-                                    <a href="/customer-success" class="submenu__link centered">
-                                        <div class="submenu__link-text">
-                                            <strong>Customer Success</strong>
-                                            <p>
-                                                Machen Sie unser Team zu Ihrem Team!<br />
-                                                Profitieren Sie von schnellen Ergebnissen und einem reibungslosen Betrieb!
-                                            </p>
                                         </div>
                                     </a>
                                 </div>
@@ -310,6 +296,13 @@ if (!isset($menuPosition)) {
                                     <p>Was uns zu einem hervoragenden deutschen Telefonieanbieter macht</p>
                                 </div>
                             </div>
+
+                            <a href="/customer-success" class="submenu__link">
+                                <div class="submenu__link-text">
+                                    <strong>Customer Success</strong>
+                                    <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
+                                </div>
+                            </a>
 
                             <a href="/dsgvo-telekommunikation" class="submenu__link">
                                 <div class="submenu__link-text">

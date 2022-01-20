@@ -105,7 +105,10 @@ class Modal {
             // Pause all running videos in modal
             let videos = this.modal.querySelectorAll('video');
             videos.forEach(video => {
-                video.pause();
+                if (!video.paused)
+                    video.pause();
+                video.currentTime = 0;
+                console.log(video.paused);
             });
         });
     }

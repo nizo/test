@@ -138,16 +138,7 @@ function displayModal(modalName, titleContent, part) {
 		partToDisplay.style.display = "flex";
 	}
 
-	// Autoplay casestudy video
-	if (modalName === 'video-casestudy-check24') {
-		let videos = modal.querySelectorAll('video');
-		videos.forEach(video => {
-			video.play()
-		});
-	}
-
 	var x = setTimeout(function() { $('.inputFields').css('display', 'block'); }, 500);
-	
 	
 	// Close Modal
 	modal.addEventListener("click", function(event) { 

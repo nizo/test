@@ -1118,10 +1118,6 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="modal video-casestudy-check24">
-  <?php include('./partials/modal-video-check24.php'); ?>
-</div>
-
 <script>
     let telefonanlageSlides = document.querySelectorAll('.section--telefonanlage-slider');
     let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
