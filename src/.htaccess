@@ -23,7 +23,7 @@ RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 #  OG Image Generator
 # ----------------------------------------------------------------------
 
-RewriteRule ^images/og/([^/]*)/([^/]*)\.png$ /assets/images/og-image-generator.php?resolution=$1&name=$2 [L]
+RewriteRule ^images/og/([^/]*)/([^/]*)\.png$ /assets/images/og/og-image-generator.php?resolution=$1&text=$2 [L]
 
 # ----------------------------------------------------------------------
 # Gzip compression
