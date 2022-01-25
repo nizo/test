@@ -89,5 +89,8 @@ class GridSlider {
     }
 }
 
-const gridSliders = document.querySelectorAll('.grid-slider');
-gridSliders.forEach(gridSlider => new GridSlider(gridSlider));
+
+document.addEventListener('DOMContentLoaded', e => {
+    const gridSliders = document.querySelectorAll('.grid-slider');
+    gridSliders.forEach(gridSlider => new GridSlider(gridSlider));
+});
