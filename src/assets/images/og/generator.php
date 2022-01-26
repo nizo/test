@@ -1,4 +1,20 @@
 <?php
+// Read background files from pool directoy
+function get_backgrounds()
+{
+    $pool_directory = './background-pool';
+    $pool_tmp = scandir($pool_directory);
+    $pool = [];
+    foreach ($pool_tmp as $key => $filename)
+    {
+        if (!is_file($pool_directory.'/'.$filename))
+            continue;
+        $pathinfo = pathinfo($pool_directory.'/'.$filename);
+        $pool[] = $pathinfo['filename'];
+    }
+    return $pool;
+}
+
 // Default values
 define('DEFAULT_TEXT', 'CallOne');
 define('DEFAULT_IMG_WIDTH', 1200);
@@ -12,6 +28,7 @@ define('MIN_TEXT_LENGTH', 5);
 define('MAX_LINE_LENGTH', 20);
 define('FONT_FAMILY', '../../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.ttf');
 define('LOGO', './logo.png');
+define('BACKGROUNDS', get_backgrounds());
 
 // Check resolution parameter
 if ((empty($_GET['resolution'])) ||                      // If parameter is empty
@@ -41,6 +58,20 @@ else
     }
 }
 
+// Check background parameter
+if ((empty($_GET['background'])) ||                     // If parameter is empty
+    (!in_array($_GET['background'], BACKGROUNDS)))      // If parameter is not in array of available backgrounds
+{
+    // Use random background of available
+    $random_index = array_rand(BACKGROUNDS);
+    $background_file = BACKGROUNDS[$random_index];
+}
+else
+{
+    // Use passed background
+    $background_file = $_GET['background'];
+}
+
 // Check text parameter
 if ((empty($_GET['text'])) ||                       // If parameter is empty
     (strlen($_GET['text']) > MAX_TEXT_LENGTH) ||    // If parameter exceeds max length
@@ -53,7 +84,6 @@ else
 {
     // Parse and use actual parameter values
     $text_parameter = htmlspecialchars($_GET['text']);
-    // $text_parameter = wordwrap($text_parameter, MAX_LINE_LENGTH, "__");
     $lines_tmp = explode('__', $text_parameter);
     $final_text = [];
     foreach ($lines_tmp as $key => $value) {
@@ -66,7 +96,7 @@ else
 
 // Image creation
 $final_image = imagecreatetruecolor($final_width, $final_height);
-$random_background = imagecreatefrompng('./'.rand(1, 2).'.png');
+$random_background = imagecreatefrompng('./background-pool/'.$background_file.'.png');
 
 // Define colors
 $white = imagecolorallocate($final_image, 255, 255, 255);
@@ -120,11 +150,11 @@ imagesavealpha($final_image, true);
 imagecopyresized($final_image, $logo, $logo_offset_x, $logo_offset_y, 0, 0, $logo_width_new, $logo_height_new, $logo_width_current, $logo_height_current);
 
 // Add text on top of image
-$text_size = $final_width / 20;                                                 // Define font size depenging on image width
-$text_angle = 0;   
-$text_x = 16;                                                              // Text X position
-$text_y = round($logo_offset_y + $logo_height_new);              // Text Y position depending on logo size                                                // Text roation in degrees
-$line_offset = 15;
+$text_size = $final_width / 20;                        // Define font size depenging on image width
+$text_angle = 0;                                       // Text roation in degrees
+$text_x = 16;                                          // Text X position
+$text_y = round($logo_offset_y + $logo_height_new);    // Text Y position depending on logo size
+$line_offset = 15;                                     // Space between lines
 foreach ($final_text as $line) {
     $text_box = imagettfbbox($text_size, $text_angle, FONT_FAMILY, $line);    // Get text box values for calculation of position
     $text_offset = abs($text_box[5]);
@@ -138,79 +168,4 @@ imagepng($final_image);
 
 // Destroy image
 imagedestroy($final_image);
-
-
-/* OLD CODE BELOW */
-/*
-$name = 'CallOne';
-$width = 1200;
-$height = 630;
-
-if (isset($_GET['resolution']) && $_GET['resolution'] != 'x') {
-    $resolution = explode('x', $_GET['resolution']);
-    $width = $resolution[0];
-    $height = $resolution[1];
-}
-if (isset($_GET['text'])) {
-    $name = str_replace('__', "\n", $_GET['text']);
-    $name = str_replace('_', ' ', $name);
-    $name = ucwords(wordwrap($name, 20, "\n"));
-}
-
-// Essentials
-$font_light = '../fonts/apercu-light-pro-web/apercu-light-pro.ttf';
-$font_regular = '../fonts/apercu-regular-pro-web/apercu-regular-pro.ttf';
-$font_medium = '../fonts/apercu-medium-pro-web/apercu-medium-pro.ttf';
-$font_bold = '../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.ttf';
-$image = imagecreatefrompng('./og/bg-prepared.png');
-$font_size = 64;
-$angle = 0;
-
-// Crop image to wanted size
-$c_width = imagesx($image);
-$c_height = imagesY($image);
-$cropped = false;
-
-if ($c_width != $width || $c_height != $height) {
-    $c_ratio = $c_width / $c_height;
-    $n_ratio = $width / $height;
-
-    if ($c_ratio < $n_ratio) {
-        $ratio = $c_width / $width;
-        $n_width = $c_width;
-        $n_height = $height * $ratio;
-    } else {
-        $ratio = $c_height / $height;
-        $n_height = $c_height;
-        $n_width = $width * $ratio;
-    }
-
-    $image = imagecrop($image, [
-        'x' => 0,
-        'y' => 0, // Keep image aligned top
-        'width' => $n_width,
-        'height' => $n_height
-    ]);
-
-    $cropped = true;
-}
-
-// Colors
-$white = imagecolorallocate($image, 255, 255, 255);
-
-// Add text
-imagettftext($image, $font_size, $angle, 10, 140, $white, $font_bold, $name);
-
-// Scale down to wanted size
-if ($cropped) {
-    $image = imagescale($image, $width);
-}
-
-// Serve image
-header("Content-type:image/png");
-imagepng($image);
-
-// Destroy image
-imagedestroy($image);
-*/
 ?>
