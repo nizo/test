@@ -20,9 +20,9 @@
         <meta name="msapplication-TileImage" content="<?= $ogImage ?>">
         <meta property="twitter:image" content="<?= $ogImage ?>">
     <?php else: ?>
-        <meta property="og:image" content="https://beta.www.callone.de/images/og/1200x630/default/CallOne__CallCenter-Software.png" />
+        <meta property="og:image" content="https://beta.www.callone.de/images/og/1200x630/default/Cloud_Callcenter_Software_VoIP-__Telefonanlagen.png" />
         <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/og-image.png">
-        <meta property="twitter:image" content="https://beta.www.callone.de/images/og/1200x600/default/CallOne__CallCenter-Twitter.png">	
+        <meta property="twitter:image" content="https://beta.www.callone.de/images/og/1200x600/default/Cloud_Callcenter_Software_VoIP-__Telefonanlagen.png">	
     <?php endif; ?>	
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />

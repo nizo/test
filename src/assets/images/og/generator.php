@@ -58,6 +58,10 @@ else
     }
 }
 
+// Define square size for image creation, depending on biggest size
+define('SQUARE_SIZE', max($final_width, $final_height));
+define('CONTENT_OFFSET', (SQUARE_SIZE - min($final_height, $final_width)) / 2);
+
 // Check background parameter
 if ((empty($_GET['background'])) ||                     // If parameter is empty
     (!in_array($_GET['background'], BACKGROUNDS)))      // If parameter is not in array of available backgrounds
@@ -95,7 +99,7 @@ else
 }
 
 // Image creation
-$final_image = imagecreatetruecolor($final_width, $final_height);
+$final_image = imagecreatetruecolor(SQUARE_SIZE, SQUARE_SIZE);
 $random_background = imagecreatefrompng('./background-pool/'.$background_file.'.png');
 
 // Define colors
@@ -107,20 +111,20 @@ $black_semi_transparent = imagecolorallocatealpha($final_image, 0, 0, 0, 20);
 $background_width_current = imagesx($random_background);
 $background_height_current = imagesy($random_background);
 $background_ratio = $background_height_current / $background_width_current;
-$background_width_new = $final_width;
+$background_width_new = SQUARE_SIZE;
 $background_height_new = $background_width_new * $background_ratio;
 
 // If final height is not met yet, recalculate background size based on final height
-if ($background_height_new < $final_height)
+if ($background_height_new < SQUARE_SIZE)
 {
     $background_ratio = $background_width_current / $background_height_current;
-    $background_height_new = $final_height;
+    $background_height_new = SQUARE_SIZE;
     $background_width_new = $background_height_new * $background_ratio;
 }
 
 // Calculate background offset to always display center portion of background image
-$background_offset_x = abs(($final_width - $background_width_new) / 2);
-$background_offset_y = abs(($final_height - $background_height_new) / 2);
+$background_offset_x = abs((SQUARE_SIZE - $background_width_new) / 2);
+$background_offset_y = abs((SQUARE_SIZE - $background_height_new) / 2);
 
 // Scale background to fit new dimensions
 $random_background = imagescale($random_background, $background_width_new);
@@ -130,11 +134,12 @@ imagecopymerge($final_image, $random_background, 0, 0, $background_offset_x, $ba
 
 // Draw black rectangle
 $rectangle_points = [
-    0, 0,               // Top left corner
-    $final_width, 0,    // Top right corner
-    0, $final_height    // Bottom left corner
+    0, 0,
+    SQUARE_SIZE, 0,
+    SQUARE_SIZE, CONTENT_OFFSET,
+    0, CONTENT_OFFSET + min($final_height, $final_width)
 ];
-imagefilledpolygon($final_image, $rectangle_points, 3, $black_semi_transparent);
+imagefilledpolygon($final_image, $rectangle_points, 4, $black_semi_transparent);
 
 // Add logo on top of image
 $logo = imagecreatefrompng(LOGO);
@@ -144,17 +149,17 @@ $logo_ratio = $logo_height_current / $logo_width_current;
 $logo_width_new = $final_width / 4;
 $logo_height_new = $logo_width_new * $logo_ratio;
 $logo_offset_x = 20;
-$logo_offset_y = 20;
+$logo_offset_y = 20 + CONTENT_OFFSET;
 imagealphablending($final_image, true);
 imagesavealpha($final_image, true);
 imagecopyresized($final_image, $logo, $logo_offset_x, $logo_offset_y, 0, 0, $logo_width_new, $logo_height_new, $logo_width_current, $logo_height_current);
 
 // Add text on top of image
-$text_size = $final_width / 20;                        // Define font size depenging on image width
+$text_size = SQUARE_SIZE / 25;                        // Define font size depenging on image width
 $text_angle = 0;                                       // Text roation in degrees
 $text_x = 16;                                          // Text X position
 $text_y = round($logo_offset_y + $logo_height_new);    // Text Y position depending on logo size
-$line_offset = 15;                                     // Space between lines
+$line_offset = $text_size / 1.5;                                     // Space between lines
 foreach ($final_text as $line) {
     $text_box = imagettfbbox($text_size, $text_angle, FONT_FAMILY, $line);    // Get text box values for calculation of position
     $text_offset = abs($text_box[5]);
