@@ -219,7 +219,7 @@ $faqs->faq_add (
                     <div class="co-video__poster">
                         <img src="/assets/images/photos/check24-face-circle.png" alt="" />
                     </div>
-                    <a class="co-video__play openModal trackedElement" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
+                    <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
@@ -247,7 +247,7 @@ $faqs->faq_add (
                     <div class="co-video__poster">
                         <img src="/assets/images/photos/check24-face-circle@2x.png" alt="" />
                     </div>
-                    <a class="co-video__play openModal trackedElement" style="--size:20vw;" data-label="Button Video" data-category="Link" data-action="Show Video-Check24 Modal" data-modal="video-casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
+                    <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
             </div>
         </div>
@@ -479,8 +479,4 @@ $faqs->faq_add (
 		$faqs->html_get_code ();
 		?>
 	</div>
-</div>
-
-<div class="modal video-casestudy-check24">
-  <?php include('./partials/modal-video-check24.php'); ?>
 </div>

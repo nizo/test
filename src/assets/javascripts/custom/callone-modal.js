@@ -101,6 +101,15 @@ class Modal {
             if (this.modalName == 'fallback-modal') {
                 this.resetModal();
             }
+
+            // Pause all running videos in modal
+            let videos = this.modal.querySelectorAll('video');
+            videos.forEach(video => {
+                if (!video.paused)
+                    video.pause();
+                video.currentTime = 0;
+                console.log(video.paused);
+            });
         });
     }
 
