@@ -97,7 +97,7 @@ app =
       $(this).parent('.mobile-nav').removeClass 'open'  
 
     # SmoothScroll
-    $('a[href^="#"]').on 'click.smoothscroll', (e) ->
+    $('a[href^="#"]').on 'click', (e) ->
       e.preventDefault()
       target = @hash
       if target

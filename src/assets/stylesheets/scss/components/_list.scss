@@ -23,6 +23,14 @@
         }
     }
 
+    &--checkmarks-green {
+        li {
+            &:before {
+                background-image: url(../images/icons_svg/checkmark-green-icon.svg);
+            }
+        }
+    }
+
     &--checkmarks-top {
         li {
             &:before {

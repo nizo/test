@@ -117,3 +117,28 @@ $breakpoints: (
         }
     }
 }
+
+// Order XS
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    @for $i from 1 through 5 {
+        .co-grid__col--order-#{$i}-xs {
+            order: #{$i};
+        }
+    }
+}
+// Order SM
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    @for $i from 1 through 5 {
+        .co-grid__col--order-#{$i}-sm {
+            order: #{$i};
+        }
+    }
+}
+// Order MD
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+    @for $i from 1 through 5 {
+        .co-grid__col--order-#{$i}-md {
+            order: #{$i};
+        }
+    }
+}
