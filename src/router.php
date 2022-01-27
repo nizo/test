@@ -296,6 +296,7 @@ $r->addRoute('GET', '/callcenter-software', function() {
   $background = '';
   $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/callcenter-software';
+  $ogImageBackground = 'network';
   $ogImageText = 'Callcenter-Software, ACD, Kundenservice, Contact Center Software';
   require_once('./layouts/header.php');
   require_once('./views/de/callcenter-software.php');
@@ -436,7 +437,7 @@ $r->addRoute('GET', '/voip-telefonanlage', function() {
   $background = '';
   $menuPosition = 'loesungen';
   $ogUrl = $GLOBALS['url'] . '/voip-telefonanlage';
-  $ogImageText = 'VoIP-Telefonanlage, Cloud & virtuelle Telefonanlage';
+  $ogImageText = 'VoIP-Telefonanlage, Cloud und virtuelle Telefonanlage';
   require_once('./layouts/header.php');
   require_once('./views/de/voip-telefonanlage.php');
   require_once('./layouts/footer.php');
