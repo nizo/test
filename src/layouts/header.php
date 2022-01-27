@@ -14,16 +14,14 @@
     <meta property="og:type" content="website" />
     <?php if (isset($ogUrl)): ?>
         <meta property="og:url" content="<?= $ogUrl ?>" />
-    <?php endif; ?>	
-    <?php if (isset($ogImage)): ?>
-        <meta property="og:image" content="<?= $ogImage ?>">
-        <meta name="msapplication-TileImage" content="<?= $ogImage ?>">
-        <meta property="twitter:image" content="<?= $ogImage ?>">
-    <?php else: ?>
-        <meta property="og:image" content="https://www.callone.de/images/og/1200x630/default/Cloud_Callcenter_Software_VoIP-__Telefonanlagen.png" />
-        <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/og-image.png">
-        <meta property="twitter:image" content="https://www.callone.de/images/og/1200x600/default/Cloud_Callcenter_Software_VoIP-__Telefonanlagen.png">	
-    <?php endif; ?>	
+    <?php endif; ?>
+    <?php
+    $ogImageText = empty($ogImageText) ? 'Cloud_Callcenter_Software_VoIP-__Telefonanlagen' : prepareOgImageText($ogImageText);
+    $ogImageBackground = empty($ogImageBackground) ? 'default' : $ogImageBackground;
+    ?>
+    <meta property="og:image" content="https://www.callone.de/images/og/1200x630/<?= $ogImageBackground; ?>/<?= $ogImageText; ?>.png" />
+    <meta name="msapplication-TileImage" content="https://www.callone.de/assets/images/logo/og-image.png">
+    <meta property="twitter:image" content="https://www.callone.de/images/og/1200x600/<?= $ogImageBackground; ?>/<?= $ogImageText; ?>.png">	
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
     <meta name="robots" content="index,follow" />

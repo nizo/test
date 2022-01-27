@@ -17,8 +17,8 @@ function get_backgrounds()
 
 // Default values
 define('DEFAULT_TEXT', 'CallOne');
-define('DEFAULT_IMG_WIDTH', 1200);
-define('DEFAULT_IMG_HEIGHT', 630);
+define('DEFAULT_IMG_WIDTH', 1200);      // Important for aspect ratio calculation of text area (later stored in $final_width)
+define('DEFAULT_IMG_HEIGHT', 630);      // Important for aspect ratio calculation of text area (later stored in $final_height)
 define('MAX_IMG_WIDTH', 4096);          // 4k
 define('MAX_IMG_HEIGHT', 2150);         // 4k aspect ratio 40:21
 define('MIN_IMG_WIDTH', 150);
@@ -87,7 +87,7 @@ if ((empty($_GET['text'])) ||                       // If parameter is empty
 else
 {
     // Parse and use actual parameter values
-    $text_parameter = htmlspecialchars($_GET['text']);
+    $text_parameter = urldecode($_GET['text']);
     $lines_tmp = explode('__', $text_parameter);
     $final_text = [];
     foreach ($lines_tmp as $key => $value) {
