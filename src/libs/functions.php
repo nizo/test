@@ -1,4 +1,10 @@
 <?php
+function prepareOgImageText($text) {
+    $text = str_replace(' ', '_', $text);
+    $text = urlencode($text);
+    return $text;
+}
+
 // Get css/js hash
 function getCssHash() {
     $css_hash = "";
