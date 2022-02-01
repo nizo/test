@@ -2,7 +2,7 @@
 $jobs = jobs_load ();
 $jobs_benefits = jobs_benefits_load ();
 
-$job = job_find_by_url ($jobs->jobs_get(), JOB_URL);
+$job = job_find_by_url ($jobs->jobs_get(), PAGE->uri);
 if (empty ($job))
 	exit ();
 ?>
@@ -24,7 +24,7 @@ if (empty ($job))
   <?php // FIXME: ?>
   "description": "<p>Gestatten, CallOne: die Zukunft der Telekommunikation. Online, cloudbasiert, mit neuster Technologie. 
                      Wir helfen Unternehmen mit unseren Telefonlösungen zu Kundenservice und die gesamte Telefonie so anzubieten wie sie sein sollten: Richtig gut.</p>
-                  <p>Und Du?​ Du bist unser neues Ass im Ärmel.</p>
+                  <p>Und Du? Du bist unser neues Ass im Ärmel.</p>
                   <p>Mit jedem Schritt betreten wir Neuland und wir tun alles dafür, die besten am Markt zu sein. 
                      Warum? Weil Kundenservice Unternehmen ein Riesenpotenzial bietet, ihr Angebot auf den Menschen auszurichten: auf dich und mich. Das macht nicht nur die Unternehmen besser, ihre Arbeit effizienter und ihre Mitarbeiter glücklicher. 
                      Ihre Kunden bekommen damit bessere Produkte und besseren Service.</p>
