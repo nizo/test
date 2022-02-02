@@ -29,7 +29,12 @@
 </style>
 
 <?php
-$routes = Router::get_sorted('uri', 'asc');
+$routes_tmp = Router::get_sorted('uri', 'asc');
+$routes = []; // Build new routes array for correct count
+foreach ($routes_tmp as $route) {
+    if ($route->sitemap_include)
+        $routes[] = $route;
+}
 ?>
 
 <div class="section">
@@ -62,8 +67,6 @@ $routes = Router::get_sorted('uri', 'asc');
             'og_image_text'
         ];
         foreach ($routes as $key => $route) {
-            if (!$route->sitemap_include)
-                continue;
             echo "<tr>";
             foreach ($route as $key => $value) {
                 if (!in_array($key, $properties_to_display))
