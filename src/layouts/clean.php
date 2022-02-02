@@ -12,6 +12,10 @@
     <noscript>
     <link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css">	
     </noscript>
+
+    <script>
+        var jsFiles = [];
+    </script>
 </head>
 <body class="<?= $page->body_class ?>">
     <?php

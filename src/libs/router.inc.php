@@ -239,13 +239,6 @@ Router::add('/dsgvo-telekommunikation', 'data-protection.php', [
     'menu_position' => 'callone'
 ]);
 
-Router::add('/callcenter-loesung', 'callcenter-loesung.php', [
-    'title' => 'Callcenter Software, Kundenservice, Sales, WebRTC, CTI, VoIP, Cloud',
-    'meta_description' => 'Virtuelle Callcenter Software für Customer Service und Sales: Agenten- und Warteschleifen, Auswahlmenü (IVR), API, CTI, Dialer, kombinierbar mit ihrer TK-Anlage',
-    'og_image_text' => 'Callcenter Software, Kundenservice, Sales, WebRTC, CTI, VoIP, Cloud',
-    'body_class' => 'bg-preisanfrage'
-]);
-
 Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'title' => 'Freecall 0800, Ortsnetz, international, Wunschrufnummer Deutschland',
     'meta_description' => ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!',
