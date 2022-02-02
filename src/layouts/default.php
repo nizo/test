@@ -2,27 +2,38 @@
 <html lang="de">
 <head>   
     <meta charset="utf-8"/>
-    <title><?= PAGE->title ?></title>
-    <meta name="description" content="<?= PAGE->meta_description ?>" />
-    <meta name="keywords" content="<?= PAGE->meta_keywords ?>" />
+    <title><?= $page->title ?></title>
+    <meta name="description" content="<?= $page->meta_description ?>" />
+    <meta name="keywords" content="<?= $page->meta_keywords ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="google-site-verification" content="Sqndy6_j8hwq2O67oeDnHTdNmKPDaCRcC-g_K3FRYfE" />
 
-    <meta property="og:title" content="<?= PAGE->og_title ?>"/>
+    <meta property="og:title" content="<?= $page->og_title ?>"/>
     <meta property="og:site_name" content="Callone"/>
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="<?= DOMAIN.PAGE->uri ?>" />
+    <meta property="og:url" content="<?= DOMAIN.$page->uri ?>" />
 
-    <meta property="og:image" content="<?= DOMAIN.'/images/og/1200x630/'.PAGE->og_image_background.'/'.prepareOgImageText(PAGE->og_image_text).'.png' ?>" />
-    <meta property="twitter:image" content="<?= DOMAIN.'/images/og/1200x600/'.PAGE->og_image_background.'/'.prepareOgImageText(PAGE->og_image_text).'.png' ?>">	
-    <meta name="msapplication-TileImage" content="<?= DOMAIN ?>/assets/images/logo/og-image.png">
+    <meta property="og:image" content="<?= DOMAIN.'/images/og/1200x630/'.$page->og_image_background.'/'.prepareOgImageText($page->og_image_text).'.png' ?>" />
+    <meta property="twitter:image" content="<?= DOMAIN.'/images/og/1200x600/'.$page->og_image_background.'/'.prepareOgImageText($page->og_image_text).'.png' ?>">	
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= DOMAIN ?>/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= DOMAIN ?>/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= DOMAIN ?>/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="<?= DOMAIN ?>/assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="<?= DOMAIN ?>/assets/images/favicons/safari-pinned-tab.svg" color="#86ed18">
+    <link rel="shortcut icon" href="<?= DOMAIN ?>/assets/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="CallOne">
+    <meta name="application-name" content="CallOne">
+    <meta name="msapplication-TileColor" content="#86ed18">
+    <meta name="msapplication-TileImage" content="<?= DOMAIN ?>/assets/images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="<?= DOMAIN ?>/assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
     <meta name="robots" content="index,follow" />
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://googleads.g.doubleclick.net">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://www.google-analytics.com">
@@ -39,8 +50,8 @@
         <link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css">	
     </noscript>
 
-    <?php if (!empty(PAGE->canonical)): ?>
-        <link rel="canonical" href="<?= DOMAIN.PAGE->canonical ?>" />
+    <?php if (!empty($page->canonical)): ?>
+        <link rel="canonical" href="<?= DOMAIN.$page->canonical ?>" />
     <?php endif; ?>
 
     <?php 
@@ -63,7 +74,7 @@
         var jsFiles = [];
     </script>
 </head>
-<body class="<?= PAGE->body_class; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
+<body class="<?= $page->body_class; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
     <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
         <?php if (isLocalHost()) : ?>
             <!-- Google Tag Manager (noscript) Testsystem -->
@@ -81,7 +92,7 @@
     <?php
     require_once('./partials/navigation.php');
 
-    require_once(DIRECTORY_VIEWS.PAGE->view);
+    require_once(DIRECTORY_VIEWS.$page->view);
 
     require_once('./partials/footer.php');
     ?>

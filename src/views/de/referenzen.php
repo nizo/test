@@ -34,7 +34,10 @@
 <div class="wrapper">
   <div class="content wide">
     <div class="video">
-      <video src="/assets/videos/business.mp4" controls></video>
+        <video controls onclick="this.play()" preload="none" id="videoCheck24" poster="/assets/images/photos/poster-video-client-check24-550x309.jpg">
+            <source src="/assets/videos/Callone-Casestudy-Check24-720p.webm" type="video/webm">
+            <source src="/assets/videos/Callone-Casestudy-Check24-720p.mp4" type="video/mp4">
+        </video>
     </div>
   </div>
 

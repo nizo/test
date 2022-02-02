@@ -1,10 +1,17 @@
 <?php
+// Require libs
+require_once('./libs/functions.inc.php');
+require_once('./libs/faqs.inc.php');
+require_once('./libs/jobs.inc.php');
+require_once('./libs/products.inc.php');
+require_once('./libs/session.inc.php');
+
 // Default route/page data
 define('DEFAULT_LAYOUT', 'default.php');
 define('DEFAULT_TITLE', 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern');
 define('DEFAULT_META_TITLE', DEFAULT_TITLE);
 define('DEFAULT_META_DESCRIPTION', 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!');
-define('DEFAULT_META_KEYWORDS', 'Software,callone,callcenter,telefonanlage,voip,cloud,rufnummern,sales,kundenservice,Unternehmen,integration,api,schnittstellen,crm,telefonie,lösung,call,center');
+define('DEFAULT_META_KEYWORDS', 'Software, callone, callcenter, telefonanlage, voip, cloud, rufnummern, sales, kundenservice, Unternehmen, integration, api, schnittstellen, crm, telefonie, lösung, call, center');
 define('DEFAULT_OG_IMAGE_TEXT', 'Cloud Callcenter Software, VoIP-__Telefonanlagen');
 define('DEFAULT_OG_IMAGE_BACKGROUND', 'default');
 define('DEFAULT_OG_TITLE', DEFAULT_META_TITLE);
@@ -102,47 +109,50 @@ class Route {
 Router::add('/components', 'components.php', [
     'title' => 'Components',
     'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar'
+    'body_class' => 'components--scrollbar',
+    'sitemap_include' => false
 ]);
 
 Router::add('/routes', 'routes-list.php', [
     'title' => 'Routes List',
-    'layout' => 'clean.php'
+    'layout' => 'clean.php',
+    'sitemap_include' => false
 ]);
 
 Router::add('/icons', 'icons.php', [
     'title' => 'Icons',
     'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar'
+    'body_class' => 'components--scrollbar',
+    'sitemap_include' => false
 ]);
 
 Router::add('/screensize', 'screensize.php', [
     'title' => 'Scree Size',
     'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar'
+    'body_class' => 'components--scrollbar',
+    'sitemap_include' => false
 ]);
 
 Router::add('/statistics', 'statistics.php', [
     'title' => 'Statistics',
     'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar'
-]);
-
-Router::add('/testseite', 'testseite.php', [
-    'title' => 'Testseite CallOne'
+    'body_class' => 'components--scrollbar',
+    'sitemap_include' => false
 ]);
 
 // Page Routes
 Router::add('/', 'index.php', [
     'title' => 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern',
     'meta_description' => 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!',
-    'meta_keywords' => 'Software,callone,callcenter,telefonanlage,voip,cloud,rufnummern,sales,kundenservice,Unternehmen,integration,api,schnittstellen,crm,telefonie,lösung,call,center',
-    'og_image_text' => 'Cloud Callcenter Software, VoIP-Telefonanlagen'
+    'meta_keywords' => 'Software, callone, callcenter, telefonanlage, voip, cloud, rufnummern, sales, kundenservice, Unternehmen, integration, api, schnittstellen, crm, telefonie, lösung, call, center',
+    'og_image_text' => 'Cloud Callcenter Software, VoIP-Telefonanlagen',
+    'sitemap_priority' => '1.0'
 ]);
 
 Router::add('/event', 'event.php', [
     'title' => 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge',
-    'body_class' => 'bg-sales'
+    'body_class' => 'bg-sales',
+    'sitemap_include' => false
 ]);
 
 Router::add('/datenschutz', 'datenschutz.php', [
@@ -157,7 +167,8 @@ Router::add('/statistiken', 'statistiken.php', [
     'title' => 'Call Center Software Statistiken | KPI, SLA mit BI-Integration',
     'meta_description' => 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.',
     'og_image_text' => 'Call Center Software Statistiken, KPI, SLA, BI-Integration',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
 ]);
 
 Router::add('/impressum', 'impressum.php', [
@@ -195,7 +206,8 @@ Router::add('/callcenter-software', 'callcenter-software.php', [
     'meta_description' => 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!',
     'meta_keywords' => 'callcenter software, call center software, ACD, contact center software, helpdesk, computer telephony integration, cti, warteschleifenmanagement, callbackfuntion, kostenlos testen',
     'og_image_text' => 'Callcenter-Software, ACD, Kundenservice, Contact Center Software',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.9'
 ]);
 
 Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
@@ -208,14 +220,16 @@ Router::add('/telefonanlage-mit-warteschleife', 'warteschleifen-management.php',
     'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
     'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
     'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
 ]);
 
 Router::add('/customer-success', 'customer-success.php', [
     'title' => 'Effiziente Unternehmenstelefonie mit CallOne',
     'meta_description' => 'Top Service für Ihre Cloud Telefonanlage und Callcenter Software. CallOne bietet persönliche Beratung und Betreuung für Ihre Unternehmenstelefonie',
     'og_image_text' => 'Effiziente Unternehmens-__telefonie mit CallOne',
-    'menu_position' => 'callone'
+    'menu_position' => 'callone',
+    'sitemap_priority' => '0.7'
 ]);
 
 Router::add('/dsgvo-telekommunikation', 'data-protection.php', [
@@ -237,7 +251,8 @@ Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'meta_description' => ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!',
     'og_image_text' => 'Wunschrufnummer, Freecall 0800, international, Ortsnetz',
     'body_class' => 'bg-preisanfrage',
-    'menu_position' => 'produkte'
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.9'
 ]);
 
 Router::add('/cti-salesforce', 'cti/salesforce.php', [
@@ -250,7 +265,7 @@ Router::add('/cti-salesforce', 'cti/salesforce.php', [
 Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'title' => 'Tableau Callcenter Connector - Integrieren Sie Daten und Callcenter-KPI',
     'meta_description' => 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Telefoniedaten und Callcenter-KPIs in Ihre Tableau Dashboards und Datenanalysen',
-    'meta_keywords' => 'Integration,Tableau,Callcenter,KPI,Dashboard,Connector',
+    'meta_keywords' => 'Integration, Tableau, Callcenter, KPI, Dashboard, Connector',
     'body_class' => 'bg-karriere',
     'og_image_text' => 'Tableau Callcenter Connector'
 ]);
@@ -258,7 +273,7 @@ Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
 Router::add('/freshdesk-callcenter-software', 'cti/freshdesk.php', [
     'title' => 'Freshdesk in Verbindung mit Call Center Software & VoIP-Telefonanlage',
     'meta_description' => 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool',
-    'meta_keywords' => 'freshdesk,callcenter,voip,telefonanlage,ticketing,cti,integration,crm,tool',
+    'meta_keywords' => 'freshdesk, callcenter, voip, telefonanlage, ticketing, cti, integration, crm, tool',
     'body_class' => 'bg-karriere',
     'og_image_text' => 'Freshdesk in Verbindung mit Call Center Software'
 ]);
@@ -274,16 +289,18 @@ Router::add('/voip-telefonanlage', 'voip-telefonanlage.php', [
     'title' => 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage',
     'meta_description' => 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager',
     'og_image_text' => 'VoIP-Telefonanlage, Cloud und virtuelle Telefonanlage',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.9'
 ]);
 
 Router::add('/call-tracking', 'calltracking.php', [
     'title' => 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden',
     'meta_description' => ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.',
-    'meta_keywords' => 'call,tracking,browsing,individuelle,rufnummern,websession,kunden,hotline,kundendaten,anrufe,customer journey',
+    'meta_keywords' => 'call, tracking, browsing, individuelle, rufnummern, websession, kunden, hotline, kundendaten, anrufe, customer journey',
     'body_class' => 'bg-landingpages',
     'og_image_text' => 'Individuelle Rufnummern für Ihre Kunden',
-    'menu_position' => 'produkte'
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.8'
 ]);
 
 Router::add('/callcenter-bot', 'callcenter-bot.php', [
@@ -292,7 +309,8 @@ Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'meta_keywords' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'Callcenter Bot KI-Sprachgesteuerte Auswahlmenüs IVR',
-    'menu_position' => 'produkte'
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.9'
 ]);
 
 Router::add('/callcenter-software-funktionen', 'callcenter-software-funktionen.php', [
@@ -327,7 +345,8 @@ Router::add('/case-study-check24', 'case-study-check24.php', [
     'meta_description' => 'Callcenter Lösung beim Marktführer Check24. CallOne stellt umfassende VoIP-Telefonanlage und Callcenter Software mit offenen API für Kundenservice bereit',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'Check24 mit CallOne',
-    'menu_position' => 'callone'
+    'menu_position' => 'callone',
+    'sitemap_priority' => '0.7'
 ]);
 
 Router::add('/case-study-apodiscounter', 'case-study-apodiscounter.php', [
@@ -335,7 +354,8 @@ Router::add('/case-study-apodiscounter', 'case-study-apodiscounter.php', [
     'meta_description' => 'Automatierung und Effizienz im telefonischen Kundenservice. Mit kompletter ERP-Integration steuert die Onlineapotheke Apodicounter sein virtuelles Callcenter',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'apodiscounter mit CallOne',
-    'menu_position' => 'callone'
+    'menu_position' => 'callone',
+    'sitemap_priority' => '0.7'
 ]);
 
 Router::add('/case-study-flaconi', 'case-study-flaconi.php', [
@@ -343,7 +363,8 @@ Router::add('/case-study-flaconi', 'case-study-flaconi.php', [
     'meta_description' => 'Das Startup Flaconi setzt bei der VoIP-Telefonanlage komplett auf den Dienstleister CallOne. Callcenter Software, Rufnummern, SNOM-Telefone fürs Unternehmen',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'Flaconi mit CallOne',
-    'menu_position' => 'callone'
+    'menu_position' => 'callone',
+    'sitemap_priority' => '0.7'
 ]);
 
 Router::add('/case-study-niceshops', 'case-study-niceshops.php', [
@@ -352,7 +373,8 @@ Router::add('/case-study-niceshops', 'case-study-niceshops.php', [
     'meta_keywords' => 'niceshops, Telefonielösung, Callcenter-Lösung, E-Commerce, IP-Telefonie, Freshdesk-Integration, webRTC, Hotline',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'niceshops mit CallOne',
-    'menu_position' => 'callone'
+    'menu_position' => 'callone',
+    'sitemap_priority' => '0.7'
 ]);
 
 Router::add('/customer-service-solutions', 'solutions-customer-service.php', [
@@ -381,7 +403,8 @@ Router::add('/callcenter-software-integrationen', 'callcenter-software-integrati
     'meta_description' => 'Integrationen',
     'meta_keywords' => 'CRM, ERP, BI, API, Webhook, Rest-API, Zendesk, Salesforce, Pipedrive, Jira, Browser Extension, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'Integrieren Sie Anrufe in Ihre Businesstools',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
 ]);
 
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
@@ -389,7 +412,8 @@ Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
     'meta_description' => 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet',
     'meta_keywords' => 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
 ]);
 
 Router::add('/voip-api', 'voip-api.php', [
@@ -397,7 +421,8 @@ Router::add('/voip-api', 'voip-api.php', [
     'meta_description' => 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.',
     'meta_keywords' => 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon',
     'og_image_text' => 'Telefon Schnittstellen für alle Belange',
-    'menu_position' => 'loesungen'
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.6'
 ]);
 
 Router::add('/salesforce', 'salesforce.php', [
@@ -411,13 +436,15 @@ Router::add('/softphone', 'softphone.php', [
     'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
     'meta_keywords' => 'Microsoft TEAMS, VoIP, SIP Phone, Softphone, 1-Click, SBC, Sipgate, Placetel, Telekom, Cloud Telefonanlage, Telefonieren mit dem PC, PBX',
     'og_image_text' => 'VoIP Telefon im Browser integriert',
-    'menu_position' => 'produkte'
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.8'
 ]);
 
 Router::add('/omr', 'omr-goodie.php', [
     'title' => 'OMR Goodie',
     'meta_description' => 'OMR Goodie',
-    'og_image_text' => 'OMR Goodie'
+    'og_image_text' => 'OMR Goodie',
+    'sitemap_include' => false
 ]);
 
 Router::add('/kontakt', 'contact.php', [

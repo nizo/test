@@ -2,7 +2,7 @@
 $jobs = jobs_load ();
 $jobs_benefits = jobs_benefits_load ();
 
-$job = job_find_by_url ($jobs->jobs_get(), PAGE->uri);
+$job = job_find_by_url ($jobs->jobs_get(), $page->uri);
 if (empty ($job))
 	exit ();
 ?>

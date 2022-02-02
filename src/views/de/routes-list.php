@@ -1,39 +1,77 @@
 <style>
     table {
+        position: relative;
         min-width: 100%;
+        font-size: 14px;
     }
-    th, td {
-        padding: 2px 5px;
+    table thead th {
+        position: sticky;
+        top: 0;
+    }
+    table a {
+        color: blue;
+        white-space: nowrap;
+    }
+    table th, table td {
+        vertical-align: top;
+        padding: 10px;
     }
     th {
-        background-color: lime;
+        background-color: #86ed18;
         color: #000;
     }
-    tr:nth-of-type(odd) td {
+    table tr:nth-of-type(odd) td {
         background: #ccc;
     }
-    tr:nth-of-type(even) td {
+    table tr:nth-of-type(even) td {
         background: #eee;
     }
 </style>
 
+<?php
+$routes = Router::get_sorted('uri', 'asc');
+?>
+
+<div class="section">
+    <div class="section__content centered">
+        <h1>Number of Routes: <?= count($routes) ?></h1>
+    </div>
+</div>
+
 <table>
-    <tr>
-        <th>#</th>
-        <th>URI</th>
-        <th>Status</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>URI</th>
+            <th>Title</th>
+            <th>Meta-Title</th>
+            <th>Meta-Description</th>
+            <th>Meta-Keywords</th>
+            <th>OpenGraph Title</th>
+            <th>OpenGraph Image Text <a href="#" title="Zwei Unterstriche (__) erzwingen einen Umbruch">(?)</a></th>
+        </tr>
+    </thead>
     <tbody>
         <?php
-        $routes = Router::get_sorted('uri', 'asc');
+        $properties_to_display = [
+            'uri',
+            'title',
+            'meta_title',
+            'meta_description',
+            'meta_keywords',
+            'og_title',
+            'og_image_text'
+        ];
         foreach ($routes as $key => $route) {
+            
             echo "<tr>";
-            echo "<td>".($key + 1)."</td>";
-            echo "<td>";
             foreach ($route as $key => $value) {
-                echo "<strong>".$key.":</strong> ".$value."<br />";
+                if (!in_array($key, $properties_to_display))
+                    continue;
+                
+                echo "<td>";
+                echo $key === 'uri' ? '<a href="'.DOMAIN.$value.'" target="_blank">'.$value.'</a>' : $value;
+                echo "</td>";
             }
-            echo "</td>";
             echo "</tr>";
         }
         ?>

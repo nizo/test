@@ -26,6 +26,13 @@ RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 RewriteRule ^images/og/([^/]*)/([^/]*)/([^/]*)\.png$ /assets/images/og/generator.php?resolution=$1&background=$2&text=$3 [L]
 
 # ----------------------------------------------------------------------
+#  Sitemap
+# ----------------------------------------------------------------------
+
+RewriteRule ^sitemap-website.xml$ /sitemap-website.php [L]
+RewriteRule ^sitemap.xml$ /sitemap-index.php [L]
+
+# ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------
 
@@ -171,20 +178,20 @@ RewriteRule ^images/og/([^/]*)/([^/]*)/([^/]*)\.png$ /assets/images/og/generator
 
 
 # Zu schützende URLs definieren
-SetEnvIf Request_URI "/testseite" auth=1
+# SetEnvIf Request_URI "/testseite" auth=1
 
 # Passwortschutz aktivieren
-AuthType Basic
-AuthName "Bitte Benutzer und Passwort eingeben"
-AuthUserFile /is/htdocs/wp10427997_IW0LVLFMMM/de.callone.www/www-data/.htpasswd
+# AuthType Basic
+# AuthName "Bitte Benutzer und Passwort eingeben"
+# AuthUserFile /is/htdocs/wp10427997_IW0LVLFMMM/de.callone.www/www-data/.htpasswd
 
 # Direktive allow/deny festlegen
-Order Allow,Deny
-Satisfy any
-Allow from all
-Require user DonCallone
+# Order Allow,Deny
+# Satisfy any
+# Allow from all
+# Require user DonCallone
 # Passwortabfrage, wenn URL übereinstimmt
-Deny from env=auth
+# Deny from env=auth
 
 
 # ----------------------------------------------------------------------
@@ -280,7 +287,6 @@ Redirect 301 /testen /kontakt
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
-
 
 # PHP error log
 php_flag log_errors on
