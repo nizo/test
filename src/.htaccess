@@ -230,11 +230,11 @@ Redirect 301 /index.php/nummern-sms.html /0800-lokal-nummern
 Redirect 301 /index.php/callone/callone-stellt-sich-vor.html /ueber-uns
 Redirect 301 /index.php/impressum.html /impressum
 
-Redirect 301 /numbers.php /service-rufnummern.php
-Redirect 301 /voip.php /voip-telefonie.php
-Redirect 301 /browsercall.php /webrtc-browsertelefonie.php
-Redirect 301 /platforms.php /telefonanlage.php
-Redirect 301 /telefonanlage.php /virtuelle-telefonanlage.php
+Redirect 301 /numbers.php /0800-lokal-nummern
+Redirect 301 /voip.php /voip-telefonanlage
+Redirect 301 /browsercall.php /callcenter-software
+Redirect 301 /platforms.php /voip-telefonanlage
+Redirect 301 /telefonanlage.php /voip-telefonanlage
 
 # Redirects from current Callone Site
 
