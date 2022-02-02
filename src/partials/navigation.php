@@ -9,13 +9,10 @@ if (substr($uri, 0, 5) == '/blog') $isBlog = true;
 $jobs = jobs_load();
 $jobsCount = count($jobs->jobs_get());
 
-if (!isset($menuPosition)) {
-    $menuPosition = '';
-}
 /*
  * Menu Positions can be
  * loesungen, produkte, callone
- * Has to be set in router.php
+ * Has to be set in libs/router.inc.php
  */
 ?>
 
@@ -26,7 +23,7 @@ if (!isset($menuPosition)) {
         </a>
 
         <ul>
-            <li class="navigation__item<?= $menuPosition == 'loesungen' ? ' navigation__item--active' : '' ?>">
+            <li class="navigation__item<?= $page->menu_position == 'loesungen' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <a href="#">Lösungen</a>
                 </div>
@@ -122,7 +119,7 @@ if (!isset($menuPosition)) {
                     </div>
                 </div>
             </li>
-            <li class="navigation__item<?= $menuPosition == 'produkte' ? ' navigation__item--active' : '' ?>">
+            <li class="navigation__item<?= $page->menu_position == 'produkte' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <a href="#">Produkte</a>
                 </div>
@@ -229,7 +226,7 @@ if (!isset($menuPosition)) {
                     </div>
                 </div>
             </li>
-            <li class="navigation__item<?= $menuPosition == 'callone' ? ' navigation__item--active' : '' ?>">
+            <li class="navigation__item<?= $page->menu_position == 'callone' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <a href="#">Warum CallOne</a>
                 </div>
