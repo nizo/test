@@ -145,7 +145,7 @@ Router::add('/', 'index.php', [
     'title' => 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern',
     'meta_description' => 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!',
     'meta_keywords' => 'Software, callone, callcenter, telefonanlage, voip, cloud, rufnummern, sales, kundenservice, Unternehmen, integration, api, schnittstellen, crm, telefonie, lösung, call, center',
-    'og_image_text' => 'Cloud Callcenter Software, VoIP-Telefonanlagen',
+    'og_image_text' => 'Cloud Callcenter Software, VoIP-__Telefonanlagen',
     'sitemap_priority' => '1.0'
 ]);
 
