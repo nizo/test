@@ -1,6 +1,8 @@
 class Navigation {
     constructor() {
         this.navigation = document.querySelector('.navigation');
+        if (!this.navigation)
+            return;
         this.mobileButton = this.navigation.querySelector('.navigation__mobile-button');
         this.navItems = this.navigation.querySelectorAll('.navigation__item');
         this.submenuLinks = this.navigation.querySelectorAll('.submenu__link');

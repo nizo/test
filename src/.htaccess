@@ -26,6 +26,13 @@ RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 RewriteRule ^images/og/([^/]*)/([^/]*)/([^/]*)\.png$ /assets/images/og/generator.php?resolution=$1&background=$2&text=$3 [L]
 
 # ----------------------------------------------------------------------
+#  Sitemap
+# ----------------------------------------------------------------------
+
+RewriteRule ^sitemap-website.xml$ /sitemap-website.php [L]
+RewriteRule ^sitemap.xml$ /sitemap-index.php [L]
+
+# ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------
 
@@ -171,20 +178,20 @@ RewriteRule ^images/og/([^/]*)/([^/]*)/([^/]*)\.png$ /assets/images/og/generator
 
 
 # Zu schützende URLs definieren
-SetEnvIf Request_URI "/testseite" auth=1
+# SetEnvIf Request_URI "/testseite" auth=1
 
 # Passwortschutz aktivieren
-AuthType Basic
-AuthName "Bitte Benutzer und Passwort eingeben"
-AuthUserFile /is/htdocs/wp10427997_IW0LVLFMMM/de.callone.www/www-data/.htpasswd
+# AuthType Basic
+# AuthName "Bitte Benutzer und Passwort eingeben"
+# AuthUserFile /is/htdocs/wp10427997_IW0LVLFMMM/de.callone.www/www-data/.htpasswd
 
 # Direktive allow/deny festlegen
-Order Allow,Deny
-Satisfy any
-Allow from all
-Require user DonCallone
+# Order Allow,Deny
+# Satisfy any
+# Allow from all
+# Require user DonCallone
 # Passwortabfrage, wenn URL übereinstimmt
-Deny from env=auth
+# Deny from env=auth
 
 
 # ----------------------------------------------------------------------
@@ -223,18 +230,19 @@ Redirect 301 /index.php/nummern-sms.html /0800-lokal-nummern
 Redirect 301 /index.php/callone/callone-stellt-sich-vor.html /ueber-uns
 Redirect 301 /index.php/impressum.html /impressum
 
-Redirect 301 /numbers.php /service-rufnummern.php
-Redirect 301 /voip.php /voip-telefonie.php
-Redirect 301 /browsercall.php /webrtc-browsertelefonie.php
-Redirect 301 /platforms.php /telefonanlage.php
-Redirect 301 /telefonanlage.php /virtuelle-telefonanlage.php
+Redirect 301 /numbers.php /0800-lokal-nummern
+Redirect 301 /voip.php /voip-telefonanlage
+Redirect 301 /browsercall.php /callcenter-software
+Redirect 301 /platforms.php /voip-telefonanlage
+Redirect 301 /telefonanlage.php /voip-telefonanlage
 
 # Redirects from current Callone Site
 
 Redirect 301 /acd-faq /callcenter-software-funktionen
 Redirect 301 /acd-faq.php /callcenter-software-funktionen
 Redirect 301 /acd-features.php /callcenter-software-funktionen
-Redirect 301 /callback.php /preise
+Redirect 301 /agb.pdf /downloads/agb.pdf
+Redirect 301 /callback.php /callcenter-software
 Redirect 301 /callcenter-loesung /callcenter-software
 Redirect 301 /callcenter-software.php /callcenter-software
 Redirect 301 /callcenter-software-cloud-acd /callcenter-software
@@ -248,10 +256,18 @@ Redirect 301 /cloud-telefonanlage /voip-telefonanlage
 Redirect 301 /company.php /ueber-uns
 Redirect 301 /crm-callcenter /callcenter-software-integrationen
 Redirect 301 /cti-schnittstellen /callcenter-software-integrationen
+Redirect 301 /cti-zoho /callcenter-software-apps
 Redirect 301 /datenschutz.php /datenschutz
 Redirect 301 /disclaimer.php /impressum
+Redirect 301 /downloads/Mitarbeiter_Bestands-Kundenbetreuung.pdf /downloads/Organisationsprofi_%20Kundenberater_1st-Level-Support.pdf
+Redirect 301 /downloads/Mitarbeiter_Team_Assistenz_-_Schwerpunkt_Vertrieb.pdf /downloads/Team_Assistenz.pdf
+Redirect 301 /downloads/Mitarbeiter_Technischer_Support.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
+Redirect 301 /downloads/Mitarbeiter_Webdesigner.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
+Redirect 301 /faq.php /faq/
+Redirect 301 /jobs /karriere
 Redirect 301 /karriere.php /karriere
-Redirect 301 /pricing.php /preise
+Redirect 301 /preise /callcenter-software
+Redirect 301 /pricing.php /callcenter-software
 Redirect 301 /salesforce-open-cti.php /cti-salesforce
 Redirect 301 /salesforce.php /cti-salesforce
 Redirect 301 /schnittstellen.php /callcenter-software-integrationen
@@ -259,28 +275,17 @@ Redirect 301 /service-rufnummern.php /0800-lokal-nummern
 Redirect 301 /rufnummern-service /0800-lokal-nummern
 Redirect 301 /tel-features.php /voip-telefonanlagen-funktionen
 Redirect 301 /try.php /testen
+Redirect 301 /testen /kontakt
 Redirect 301 /virtuelle-telefonanlage.php /voip-telefonanlage
 Redirect 301 /voip-telefonie.php /voip-telefonanlage
-Redirect 301 /webrtc-browsertelefonie.php /preise
-Redirect 301 /webrtc-browsertelefonie.php. /preise
+Redirect 301 /webrtc-browsertelefonie.php /callcenter-software
+Redirect 301 /webrtc-browsertelefonie.php. /callcenter-software
 Redirect 301 /zendesk.php /zendesk-cti-ticketing
 Redirect 301 /zoho.php /callcenter-software-apps
-Redirect 301 /cti-zoho /callcenter-software-apps
-Redirect 301 /downloads/Mitarbeiter_Bestands-Kundenbetreuung.pdf /downloads/Organisationsprofi_%20Kundenberater_1st-Level-Support.pdf
-Redirect 301 /downloads/Mitarbeiter_Team_Assistenz_-_Schwerpunkt_Vertrieb.pdf /downloads/Team_Assistenz.pdf
-Redirect 301 /downloads/Mitarbeiter_Technischer_Support.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
-Redirect 301 /downloads/Mitarbeiter_Webdesigner.pdf /downloads/Mitarbeiter_Technischer_Produktmanager.pdf
-Redirect 301 /agb.pdf /downloads/agb.pdf
-Redirect 301 /faq.php /faq/
-Redirect 301 /preise /callcenter-software
-
-Redirect 301 /jobs /karriere
-Redirect 301 /testen /kontakt
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
-
 
 # PHP error log
 php_flag log_errors on
