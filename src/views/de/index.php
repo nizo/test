@@ -10,19 +10,19 @@
             
             <div class="co-grid co-grid--small-gutter centered subtext mobile-hidden">
                 <div class="co-grid__col co-grid__col--2-xs">
-                    <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="" width="50px" height="50px" />
+                    <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="" width="50" height="50" />
                     <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
                 </div>
                 <div class="co-grid__col co-grid__col--2-xs">
-                    <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="" width="50px" height="50px" />
+                    <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="" width="50" height="50" />
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
                 <div class="co-grid__col co-grid__col--2-xs">
-                    <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="" width="50px" height="50px" />
+                    <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="" width="50" height="50" />
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
                 <div class="co-grid__col co-grid__col--2-xs">
-                    <img src="/assets/images/icons_svg/usp-rating-icon-square.svg" alt="" width="50px" height="50px" />
+                    <img src="/assets/images/icons_svg/usp-rating-icon-square.svg" alt="" width="50" height="50" />
                     <p style="margin-top:10px">5 Sterne <br />bei Google</p>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--7-lg co-grid__col--vcentered">
-                <img src="/assets/images/illus/callone-platform-illustration.png" alt="" width="660px" height="406px" />
+                <img src="/assets/images/illus/callone-platform-illustration.png" alt="" width="660" height="406" />
             </div>
         </div>
 
@@ -89,13 +89,13 @@
                 <div class="small-tabs__tab" data-tab="3">Enterprise</div>
             </div>
             <div class="small-tabs__content centered" data-tab="1">
-                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812px" height="28px" />
+                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812" height="28" />
             </div>
             <div class="small-tabs__content centered" data-tab="2">
-                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" width="812px" height="28px" />
+                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" width="812" height="28" />
             </div>
             <div class="small-tabs__content centered" data-tab="3">
-                <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" width="675px" height="28px" />
+                <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" width="675" height="28" />
             </div>
         </div>
     </div>
@@ -104,21 +104,21 @@
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1" data-sticky-text="Unsere Telefonlösung">
-                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" class="mobile-hidden" width="70px" height="71px" />
+                    <img src="/assets/images/icons_svg/solution-package.svg" alt="" width="69" height="70" class="mobile-hidden" />
                     <strong>
                         Was bietet unsere <br />
                         Telefonlösung?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="2" data-sticky-text="Vorteile von CallOne">
-                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" class="mobile-hidden" width="70px" height="70px" />
+                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="" width="70" height="70" class="mobile-hidden" />
                     <strong>
                         Was sind die Vorteile <br />
                         von CallOne?
                     </strong>
                 </div>
                 <div class="tablist__link" data-tab="3" data-sticky-text="Mit CallOne telefonieren">
-                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" class="mobile-hidden" width="70px" height="72px" />
+                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="" width="68" height="70" class="mobile-hidden" />
                     <strong>
                         Wie kann ich mit <br />
                         CallOne telefonieren?
@@ -143,7 +143,7 @@
                                     <br />
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                                    <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" width="532px" height="351px" />
+                                    <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" width="532" height="351" />
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--4-xs co-grid__col--6-lg co-grid__col--vcentered">
-                                    <img src="/assets/images/illus/business-full-package.svg" alt="" width="194px" height="195px" />
+                                    <img src="/assets/images/illus/business-full-package.svg" alt="" width="194" height="195" />
                                 </div>
                                 <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
                                     <h4>Personalisiert statt standardisiert</h4>
@@ -163,7 +163,7 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--4-xs co-grid__col--6-lg co-grid__col--vcentered">
-                                    <img src="/assets/images/illus/personal-contacts.png" alt="" width="227px" height="171px" />
+                                    <img src="/assets/images/illus/personal-contacts.png" alt="" width="227" height="171" />
                                 </div>
                                 <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
                                     <h4>Immer persönlich betreut</h4>
@@ -664,7 +664,7 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70px" height="70px" />
+                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" height="70" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h3>
