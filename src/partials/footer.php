@@ -25,6 +25,7 @@
                     <a href="/callcenter-software" title="Callcenter Software">Callcenter Software</a><br />
                     <a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a><br />
                     <a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a><br />
+                    <a href="/telefonanlage-mit-warteschleife" title="Smarte Warteschleifen">Smarte Warteschleifen</a><br />
                     <a href="/call-tracking" title="Call-Tracking">Call-Tracking</a><br />
                     <a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a><br />
                     <a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a><br />
@@ -47,7 +48,7 @@
                     <a href="/case-study-flaconi" title="Case Study Flaconi">Flaconi</a><br />
                     <a href="/case-study-niceshops" title="Case Study niceshops">niceshops</a><br />
                     <a href="/case-study-apodiscounter" title="Case Study Apodiscounter">Apodiscounter</a><br />
-                    <!-- <a href="/customer-success" title="Customer Success">Customer Success</a> -->
+                    <a href="/customer-success" title="Customer Success">Customer Success</a>
                 </p>
             </div>
             <div class="footer-column">

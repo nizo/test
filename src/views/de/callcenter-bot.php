@@ -50,14 +50,14 @@ $faqs->faq_add (
       </div>
       <div class="grid centered">
         <div class="col-1">
-        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/relaxing.gif" data-srcset="/assets/images/illus/relaxing.gif" title="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" alt="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" class="lazy relaxingImage">
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/relaxing.gif" data-srcset="/assets/images/illus/relaxing.gif" title="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" alt="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" class="lazy relaxingImage" width="880" height="256">
 		</div>
       </div>
     </header>
   </div>
   <div class="chat-conversation">
-	<div><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_15.svg" data-srcset="/assets/images/icons_svg/big_15.svg" class="lazy" title="Kunde fragt" alt="Kunde fragt" /><span class="text">Ich möchte meinen Lieferstatus wissen.</span></div>
-	<div><span class="text">Ihr Pakt wird morgen geliefert.</span><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_14.svg" data-srcset="/assets/images/icons_svg/big_14.svg" class="lazy" title="Callcenter Bot Bender antwortet " alt="Callcenter Bot Bender antwortet" /></div>
+	<div><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_15.svg" data-srcset="/assets/images/icons_svg/big_15.svg" class="lazy" title="Kunde fragt" alt="Kunde fragt" width="60" height="60" /><span class="text">Ich möchte meinen Lieferstatus wissen.</span></div>
+	<div><span class="text">Ihr Pakt wird morgen geliefert.</span><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_14.svg" data-srcset="/assets/images/icons_svg/big_14.svg" class="lazy" title="Callcenter Bot Bender antwortet " alt="Callcenter Bot Bender antwortet" width="59" height="60" /></div>
   </div>
 </div>
 
@@ -69,7 +69,7 @@ $faqs->faq_add (
   <div class="content wide">
     <div class="grid">
       <div class="col-3">
-        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_38.svg" data-srcset="/assets/images/icons_svg/small_38.svg" alt="Auswahlmenüs - Sprachauswahl statt DTMF-Tasten" />
+        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_38.svg" data-srcset="/assets/images/icons_svg/small_38.svg" alt="Auswahlmenüs - Sprachauswahl statt DTMF-Tasten" width="70" height="78" />
         <h3 class="centered">Sprachgesteuertes IVR</h3>
         <p>Sprachdialoge statt starrer Menüs.</p>
         <ul class="list approved-list">
@@ -79,7 +79,7 @@ $faqs->faq_add (
         </ul>
       </div>
       <div class="col-3">
-        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_13.svg" data-srcset="/assets/images/icons_svg/big_13.svg" alt="Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten" />
+        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_13.svg" data-srcset="/assets/images/icons_svg/big_13.svg" alt="Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten" width="70" height="63" />
         <h3 class="centered">Informationsbots​</h3>
         <p>Anruferanfragen automatisiert beantworten.</p>
         <ul class="list approved-list">
@@ -90,7 +90,7 @@ $faqs->faq_add (
         </ul> 
       </div>
       <div class="col-3">
-        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_12.svg" data-srcset="/assets/images/icons_svg/big_12.svg" alt="Individual - Kundenindividuelle Anwendungen" />
+        <img class="icon lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_12.svg" data-srcset="/assets/images/icons_svg/big_12.svg" alt="Individual - Kundenindividuelle Anwendungen" width="70" height="55" />
         <h3 class="centered">Callcenter Bots</h3>
         <p>Leistungsstarke Schnittstellen für kundenindividuelle Anwendungen​.</p>
         <ul class="list approved-list">
@@ -113,7 +113,7 @@ $faqs->faq_add (
   <div class="content wide">
   	<div class="grid cross-grid auto">
         <div class="col-2">
-        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/CallOneRobot-invers-2.svg" data-srcset="/assets/images/illus/CallOneRobot-invers-2.svg" alt="So funktioniert unser Spachdialogsystem - Der Callcenter Bot" class="lazy" usemap="#robot" />
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/CallOneRobot-invers-2.svg" data-srcset="/assets/images/illus/CallOneRobot-invers-2.svg" alt="So funktioniert unser Spachdialogsystem - Der Callcenter Bot" class="lazy" usemap="#robot" width="540" height="917" />
         	<map name="robot">
             	<script>
                 	function showStep(e, step){
@@ -163,7 +163,7 @@ $faqs->faq_add (
         <div class="shadow-box padding">
           <div class="grid">
             <div class="col-2">
-              <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/voicebot-business.gif" data-srcset="/assets/images/illus/voicebot-business.gif" alt="Callcenter Bot - Nutzen für Unternehmen" class="img-75 lazy" />
+              <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/voicebot-business.gif" data-srcset="/assets/images/illus/voicebot-business.gif" alt="Callcenter Bot - Nutzen für Unternehmen" class="img-75 lazy" width="315" height="280" />
             </div>
             <div class="col-2">
               <h3 class="h2">Unternehmen</h3>
@@ -190,7 +190,7 @@ $faqs->faq_add (
               </ul>
             </div>
             <div class="col-2">
-              <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/voicebot-user.gif" data-srcset="/assets/images/illus/voicebot-user.gif" alt="Callcenter Bot - Nutzen für Anrufer" class="img-75 lazy" />
+              <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/voicebot-user.gif" data-srcset="/assets/images/illus/voicebot-user.gif" alt="Callcenter Bot - Nutzen für Anrufer" class="img-75 lazy" width="315" height="301" />
             </div>
           </div>    
         </div>
@@ -210,10 +210,10 @@ $faqs->faq_add (
     <div class="shadow-box padding">
     	<div class="grid">
     		<div class="col-2">
-    			<p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-google.svg" data-srcset="/assets/images/logo/partnerlogos/logo-google.svg" alt="t3n" class="partnerLogo small-33 gray-100 lazy"/></p>
+    			<p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-google.svg" data-srcset="/assets/images/logo/partnerlogos/logo-google.svg" alt="t3n" class="partnerLogo small-33 gray-100 lazy" width="118" height="40" /></p>
     		</div>
     		<div class="col-2">
-    			<p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-amazon.svg" data-srcset="/assets/images/logo/partnerlogos/logo-amazon.svg" alt="Gründerszene" class="partnerLogo small-33 gray-100 lazy" /></p>
+    			<p><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-amazon.svg" data-srcset="/assets/images/logo/partnerlogos/logo-amazon.svg" alt="Gründerszene" class="partnerLogo small-33 gray-100 lazy" width="133" height="40" /></p>
     		</div>
     	</div>
     </div>
@@ -228,7 +228,7 @@ $faqs->faq_add (
   	<div class="grid parallel">
         <div class="col-2">
         	<div class="image primary">
-        		<img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon">
+        		<img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon" width="69" height="50" />
         	</div>
         	<div class="text">
         		<h3 class="h2">Call-Tracking</h3>

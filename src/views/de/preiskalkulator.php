@@ -23,7 +23,7 @@
     			</div>
     			<div class="chatContent relative">
         			<div class="image thumbnail">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy"/>
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy" width="64" height="64" />
             		</div>
         			<div class="shadow-box">
             			<div class="grid segm">
@@ -35,21 +35,21 @@
             					<div class="chatBody">
             						<div class="checkboxen grid space-between margin-bottom-20">
                                     	<label class="customRadiobox col-3 flex space-between no-margin centered chat">
-                                    		<img class="lazy icon mobile-hidden" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/animation/kundenservice.svg" data-srcset="/assets/images/icons_svg/animation/kundenservice.svg" alt="Kundenservice — die CallOne Callcenter-Software" title="Kundenservice — die CallOne Callcenter-Software" />
+                                    		<img class="lazy icon mobile-hidden" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/animation/kundenservice.svg" data-srcset="/assets/images/icons_svg/animation/kundenservice.svg" alt="Kundenservice — die CallOne Callcenter-Software" title="Kundenservice — die CallOne Callcenter-Software" width="70" height="80" />
                                             <span class="boxTitle">Kundenservice</span>
                                             <input type="radio" name="interrest" value="Kundenservice">
                                             <span class="checkmark text">Inbound</span>
                                         </label>
                                     
                                     	<label class="customRadiobox col-3 flex space-between no-margin centered chat">
-                                            <img class="lazy icon mobile-hidden" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/animation/sales.svg" data-srcset="/assets/images/icons_svg/animation/sales.svg" alt="Sales — Outbound Dialer &amp; CRM / CTI" title="Sales — Outbound Dialer &amp; CRM" />
+                                            <img class="lazy icon mobile-hidden" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/animation/sales.svg" data-srcset="/assets/images/icons_svg/animation/sales.svg" alt="Sales — Outbound Dialer &amp; CRM / CTI" title="Sales — Outbound Dialer &amp; CRM" width="70" height="80" />
                                             <span class="boxTitle">Sales</span>
                                             <input type="radio" name="interrest" value="Sales">
                                             <span class="checkmark text">Outbound</span>
                                         </label>
                                     
                                     	<label class="customRadiobox col-3 flex space-between no-margin centered chat">
-                                    		<img class="lazy icon mobile-hidden" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/animation/business-telefonie.svg" data-srcset="/assets/images/icons_svg/animation/business-telefonie.svg" alt="VoIP-Telefonanlage für das gesamte Unternehmen" title="VoIP-Telefonanlage für das gesamte Unternehmen" />
+                                    		<img class="lazy icon mobile-hidden" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/animation/business-telefonie.svg" data-srcset="/assets/images/icons_svg/animation/business-telefonie.svg" alt="VoIP-Telefonanlage für das gesamte Unternehmen" title="VoIP-Telefonanlage für das gesamte Unternehmen" width="70" height="80" />
                                             <span class="boxTitle">Gesamtes Unternehmen</span>
                                             <input type="radio" name="interrest" value="all">
                                             <span class="checkmark text">Beides</span>
@@ -94,7 +94,7 @@
     			</div>
     			<div class="chatContent relative">
         			<div class="image thumbnail">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy"/>
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy" width="64" height="64" />
             		</div>
         			<div class="shadow-box">
             			<div class="grid segm">
@@ -169,7 +169,7 @@
     			</div>
     			<div class="chatContent relative">
         			<div class="image thumbnail">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy"/>
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy" width="64" height="64" />
             		</div>
         			<div class="shadow-box">
             			<div class="grid segm">
@@ -265,7 +265,7 @@
     			</div>
     			<div class="chatContent relative">
         			<div class="image thumbnail">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy"/>
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/profile-images/thumb-bendig.png" data-srcset="/assets/images/photos/profile-images/thumb-bendig.png" title="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" alt="Hi, ich bin Björn Bendig! Wie können wir dir helfen?" class="lazy" width="64" height="64" />
             		</div>
         			<div class="shadow-box">
             			<div class="grid segm">

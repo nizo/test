@@ -91,7 +91,7 @@ else
     $lines_tmp = explode('__', $text_parameter);
     $final_text = [];
     foreach ($lines_tmp as $key => $value) {
-        $value = ucwords(str_replace('_', ' ', $value));
+        $value = str_replace('_', ' ', $value);
         $value = wordwrap($value, MAX_LINE_LENGTH, '__');
         $value = explode('__', $value);
         $final_text = array_merge($final_text, $value);

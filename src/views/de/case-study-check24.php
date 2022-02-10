@@ -2,7 +2,7 @@
   <div class="content wide">
     <header class="main-header">
       <div class="media">
-        <img src="/assets/images/client-logos/check24_logo.svg" alt="Check24" />
+        <img src="/assets/images/client-logos/check24_logo.svg" alt="Check24" width="377" height="93" />
       </div>
       <div class="text">
         <h1>Beste Telefonanlage? Check!</h1>
@@ -59,7 +59,7 @@
         	<picture class="lazyPicture">
               <source srcset="/assets/images/photos/placeholder.webp" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.webp" type="image/webp">
               <source srcset="/assets/images/photos/placeholder.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" type="image/jpg">
-              <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-dr-rainer-klipp.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" alt="Check24 - Dr. Rainer Klipp" title="Check24 - Dr. Rainer Klipp" />          	      
+              <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-dr-rainer-klipp.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" alt="Check24 - Dr. Rainer Klipp" title="Check24 - Dr. Rainer Klipp" width="500" height="402" />
             </picture>
         </div>
         <div class="col-2">
@@ -82,7 +82,7 @@
     <div class="shadow-box">
       <div class="image-grid">
         <div class="image padding centered">
-          <img class="icon" src="/assets/images/icons_svg/big_03.svg" alt="Multichannel" />
+          <img class="icon" src="/assets/images/icons_svg/big_03.svg" alt="Multichannel" width="167" height="129" />
         </div>
         <div class="text">
           <h3 class="h2">Mehr Transparenz bei der Anrufauswertung</h3>
@@ -104,7 +104,7 @@
           <p class="primary">interne Systeme automatisiert mit neuen Daten füllen</p>
         </div>
         <div class="image padding centered">
-          <img src="/assets/images/icons_svg/big_04.svg" alt="Schnittstellen" />
+          <img src="/assets/images/icons_svg/big_04.svg" alt="Schnittstellen" width="167" height="132" />
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
     <div class="shadow-box">
       <div class="image-grid">
         <div class="image padding">
-          <img src="/assets/images/icons_svg/big_02.svg" alt="Erreichbarkeit" />
+          <img src="/assets/images/icons_svg/big_02.svg" alt="Erreichbarkeit" width="167" height="155" />
         </div>
         <div class="text">
           <h3 class="h2">Erreichbarkeit erhöhen &amp; Anrufe optimal verteilen</h3>
@@ -198,7 +198,7 @@
     <div class="shadow-box">
       <div class="image-grid">
         <div class="image padding centered">
-          <img class="icon" src="/assets/images/icons_svg/big_01.svg" alt="Multichannel" />
+          <img class="icon" src="/assets/images/icons_svg/big_01.svg" alt="Multichannel" width="167" height="151" />
         </div>
         <div class="text">
           <h3 class="h2">Optimale Anrufsteuerung</h3>
@@ -213,7 +213,7 @@
     <div class="shadow-box">
       <div class="image-grid">
         <div class="image padding centered">
-          <img class="icon" src="/assets/images/icons_svg/big_05.svg" alt="Multichannel" />
+          <img class="icon" src="/assets/images/icons_svg/big_05.svg" alt="Multichannel" width="167" height="171" />
         </div>
         <div class="text">
           <h3 class="h2">Intelligentes Warteschleifenmanagement</h3>
@@ -229,7 +229,7 @@
     <div class="shadow-box">
       <div class="image-grid">
         <div class="image padding">
-          <img src="/assets/images/icons_svg/small_07_2.svg" alt="Erreichbarkeit" />
+          <img src="/assets/images/icons_svg/small_07_2.svg" alt="Erreichbarkeit" width="167" height="124" />
         </div>
         <div class="text">
           <h3 class="h2">Nutzung von offenen APIs & fertigen Apps</h3>
