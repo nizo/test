@@ -35,11 +35,11 @@ $faqs->faq_add (
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
 		<div class="hero__image">
-			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" style="width:100%" />
+			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" width="465" height="404" style="width:100%" />
 		</div>
 		<div class="hero__text">
 			<div class="tag mobile-hidden">
-				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" /> CallOne Cloud ACD &copy;
+				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" width="13" height="14" /> CallOne Cloud ACD &copy;
 			</div>
 			<h1 class="mobile-hidden">Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
 			<h2 class="mobile-hidden">Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz|weniger Ausfälle|mehr Transparenz|bessere Planbarkeit" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">mehr Effizienz</span></h2>
@@ -95,7 +95,7 @@ $faqs->faq_add (
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" style="margin:0" class="mobile-hidden" />
+						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" width="158" height="88" style="margin:0" class="mobile-hidden" />
 						<h2 class="mobile-hidden">Callcenter Software und Telefonielösungen für Ihr <br />gesamtes Unternehmen</h2>
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
@@ -129,12 +129,12 @@ $faqs->faq_add (
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" style="margin:0" class="mobile-hidden" />
+						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" width="158" height="88" style="margin:0" class="mobile-hidden" />
 						<h2 class="mobile-hidden">Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
 						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/photos/integration-callcenter.png" alt="" />
+						<img src="/assets/images/photos/integration-callcenter.png" alt="" width="570" height="391" />
 					</div>
 				</div>
 			</div>
@@ -389,26 +389,13 @@ $faqs->faq_add (
 		<h1>Lust Ihr Einsparpotential direkt hier zu berechnen?</h1>
 		
 		<div class="content-box content-box--white">
-			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt=""></p>
+			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="" width="48" height="48" /></p>
 			<h2>Lassen Sie uns dazu zum Desktop-Browser wechseln!</h2>
 			<p>Wenn Sie uns Ihre ungefähre <strong>Anzahl an Anrufen pro Monat</strong> sowie die <strong>Menge Ihrer Agenten</strong> nennen, rechnen wir Ihnen gerne detailiert vor wir Ihnen durch Effizienzsteigerungen und Einsparpotenziale bares Geld schenken. Um Ihnen das vorzurechnen brauchen wir etwas mehr Platz als dieses Gerät bietet.</p>
 		</div>
 	</div>
 
 	<div class="section__content section__content--wide saving-calculation--desktop" style="margin-top:0">
-		<!-- <h1 class="centered">
-			Lust Ihr Einsparpotenzial <br />
-			direkt hier zu berechnen?
-		</h1>
-
-		<p class="centered">
-			Wir stehen für messbare Effizienzsteigerungen <br />
-			und heben Einsparpotentiale im großen Stil.
-		</p>
-
-		<br />
-		<br /> -->
-
 		<div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom saving-calculation__form-grid">
 			<div class="co-grid__col co-grid__col--12-xs">
 				<div class="content-box content-box--white">
@@ -425,7 +412,7 @@ $faqs->faq_add (
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" />
+								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" width="50" height="51" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off" />
@@ -438,11 +425,11 @@ $faqs->faq_add (
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" />
+								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" width="52" height="51" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off" />
-								<label>Hier eingeben, z.B. 25​</label>
+								<label>Hier eingeben, z.B. 25</label>
 							</div>
 							<div class="floating-form__description">
 								Anzahl Agent*innen
@@ -510,11 +497,11 @@ $faqs->faq_add (
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight nummer-anrufe">????</strong><br />
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt="" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="einspareffekt-anruf">?s</strong><br />
@@ -538,7 +525,7 @@ $faqs->faq_add (
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="stundenlohn">?€</strong><br />
@@ -551,7 +538,7 @@ $faqs->faq_add (
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="monate-im-jahr">?</strong><br />
@@ -616,11 +603,11 @@ $faqs->faq_add (
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt=""> <strong class="highlight nummer-anrufe">????</strong><br />
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt="" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="erreichbarkeitssteigerung">?%</strong><br />
@@ -641,7 +628,7 @@ $faqs->faq_add (
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="stundenlohn">?€</strong><br />
@@ -654,7 +641,7 @@ $faqs->faq_add (
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="monate-im-jahr">?</strong><br />
@@ -719,11 +706,11 @@ $faqs->faq_add (
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" width="40"> <strong class="highlight nummer-agenten">????</strong><br />
+										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" width="40" height="40" /> <strong class="highlight nummer-agenten">????</strong><br />
 										<em>Anzahl Agent*innen</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="effizienzgewinn">?%</strong><br />
@@ -744,7 +731,7 @@ $faqs->faq_add (
 										<em>Effizienzgewinn<br />Personal</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="personalkosten-jahr">?€</strong><br />
@@ -815,13 +802,13 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 				<div class="fader" data-speed="2500">
 					<div class="fader__item" data-title="Enterprise">
-						<img src="/assets/images/client-logos/Logos-enterprise.svg" alt="" />
+						<img src="/assets/images/client-logos/Logos-enterprise.svg" alt="" width="570" height="101" />
 					</div>
 					<div class="fader__item" data-title="Fast Growing">
-						<img src="/assets/images/client-logos/Logos-Fast-Growing.svg" alt="" />
+						<img src="/assets/images/client-logos/Logos-Fast-Growing.svg" alt="" width="570" height="117" />
 					</div>
 					<div class="fader__item" data-title="Mittelstand">
-						<img src="/assets/images/client-logos/Logos-mittelstand.svg" alt="" />
+						<img src="/assets/images/client-logos/Logos-mittelstand.svg" alt="" width="568" height="108" />
 					</div>
 					<div class="fader__item" data-title="Ihre Organisation">
 						<h4 class="centered">Unternehmen jeder Größe vertrauen auf CallOne</h4>
@@ -864,13 +851,13 @@ $faqs->faq_add (
 		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-left">
-					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="" width="48" /></p>
+					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="" width="48" height="48" /></p>
 					<h4>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h4>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
 				<div class="co-grid__col co-grid__col--6-md co-grid__col--hidden-md">
-					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" width="48" /></p>
+					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" width="48" height="48" /></p>
 					<h4>Senden Sie uns <br />eine Nachricht</h4>
 					<p>Kontaktformular nutzen</p>
 					<p><a href="#" class="btn btn--secondary btn--centered" data-openmodal="contact-sales">Kontakt aufnehmen</a></p>
@@ -912,7 +899,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" />
+								<img src="/assets/images/icons_svg/softphone-browser-white.svg" alt="" width="50" height="50" />
 							</div>
 							<h4 class="centered">Softphone im Browser/Desktop</h4>
 						</div>
@@ -920,7 +907,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/sip-telephone-white.svg" alt="" />
+								<img src="/assets/images/icons_svg/sip-telephone-white.svg" alt="" width="50" height="50" />
 							</div>
 							<h4 class="centered">SIP Tischtelefon</h4>
 						</div>
@@ -928,7 +915,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" />
+								<img src="/assets/images/icons_svg/voip-telefonanlage-white.svg" alt="" width="50" height="51" />
 							</div>
 							<h4 class="centered">Agentenmaske im Browser und viele weitere</h4>
 						</div>
@@ -940,7 +927,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/client-logos/beispiel-apps-1.svg" alt="" />
+								<img src="/assets/images/client-logos/beispiel-apps-1.svg" alt="" width="225" height="60" />
 							</div>
 							<h4 class="centered">Ticketing-Systeme</h4>
 						</div>
@@ -948,7 +935,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/client-logos/beispiel-apps-2.svg" alt="" />
+								<img src="/assets/images/client-logos/beispiel-apps-2.svg" alt="" width="268" height="59" />
 							</div>
 							<h4 class="centered">Business Intelligence-Tools</h4>
 						</div>
@@ -956,7 +943,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/menu-apis-white.svg" alt="" />
+								<img src="/assets/images/icons_svg/menu-apis-white.svg" alt="" width="50" height="50" />
 							</div>
 							<h4 class="centered">Eigene Systeme verbinden</h4>
 						</div>
@@ -968,7 +955,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/menu-callcenter-bot-white.svg" alt="" />
+								<img src="/assets/images/icons_svg/menu-callcenter-bot-white.svg" alt="" width="51" height="50" />
 							</div>
 							<h4 class="centered">Zukunftssichere <br />Technologie</h4>
 						</div>
@@ -976,7 +963,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/first-call-white.svg" alt="" />
+								<img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" height="70" />
 							</div>
 							<h4 class="centered">Expertenberatung</h4>
 						</div>
@@ -984,7 +971,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs">
 						<div class="co-video">
 							<div class="co-video__poster">
-								<img src="/assets/images/photos/video-preview-reduced.png" alt="" />
+								<img src="/assets/images/photos/video-preview-reduced.png" alt="" width="750" height="403" />
 							</div>
 							<a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 						</div>
@@ -996,7 +983,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
 							</div>
 							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
@@ -1004,7 +991,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
 							</div>
 							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
@@ -1012,7 +999,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
 							</div>
 							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
@@ -1059,7 +1046,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="1">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/agent-view-desktop.png" alt="" />
+								<img src="/assets/images/photos/agent-view-desktop.png" alt="" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Eine webbasierte Oberfläche speziell konzipiert für höchste Ansprüche Ihre Agenten im Kundenservice und Sales.</p>
@@ -1084,7 +1071,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="2">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/softphone-view.png" alt="" />
+								<img src="/assets/images/photos/softphone-view.png" alt="" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Für Unternehmen, die eine optimale Einbindung der Telefonie in Ihre Unternehmenssoftware wünschen.</p>
@@ -1109,7 +1096,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="3">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/microsoft-teams.png" alt="" />
+								<img src="/assets/images/photos/microsoft-teams.png" alt="" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
@@ -1134,7 +1121,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="4">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" />
+								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
@@ -1159,7 +1146,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="5">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/phone-client.png" alt="" />
+								<img src="/assets/images/photos/phone-client.png" alt="" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Ob für Notfälle oder dauerhaft. Die Einbindung von Mobilfunkgeräten ist auf vielfältige Weise mit CallOne möglich.</p>
@@ -1193,26 +1180,26 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--3-xs">
 						<div class="carddeck carddeck--no-indicators centered">
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" />
+								<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" width="156" height="94" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-zendesk.svg" alt="" />
+								<img src="/assets/images/client-logos/logo-zendesk.svg" alt="" width="156" height="29" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Pipedrive.svg" alt="" />
+								<img src="/assets/images/client-logos/Pipedrive.svg" alt="" width="156" height="156" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Freshdesk.svg" alt="" />
+								<img src="/assets/images/client-logos/Freshdesk.svg" alt="" width="200" height="200" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-salesforce.svg" alt="" />
+								<img src="/assets/images/client-logos/logo-salesforce.svg" alt="" width="217" height="150" />
 							</div>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered"></div>
 					<div class="co-grid__col co-grid__col--3-xs co-grid__col--vcentered">
 						<div class="content-box content-box--white centered">
-							<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="" style="display:inline-block" />
+							<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="" width="144" height="87" style="display:inline-block" />
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--1-xs"></div>
@@ -1241,7 +1228,7 @@ $faqs->faq_add (
 						<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs centered">
-						<img src="/assets/images/icons_png/overlap.png" alt="" />
+						<img src="/assets/images/icons_png/overlap.png" alt="" width="370" height="225" />
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs left">
 						<h4>Expertenberatung</h4>
@@ -1253,7 +1240,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--6-xs">
 						<div class="co-video">
 							<div class="co-video__poster">
-								<img src="/assets/images/photos/video-preview-reduced.png" alt="" />
+								<img src="/assets/images/photos/video-preview-reduced.png" alt="" width="570" height="306" />
 							</div>
 							<a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 						</div>
@@ -1276,7 +1263,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
 							</div>
 							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
@@ -1287,7 +1274,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
 							</div>
 							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
@@ -1298,7 +1285,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
 							</div>
 							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
@@ -1322,7 +1309,7 @@ $faqs->faq_add (
 
 			<div class="co-grid">
 				<div class="co-grid__col co-grid__col--4-xs">
-					<img src="/assets/images/icons_svg/first-call.svg" alt="" />
+					<img src="/assets/images/icons_svg/first-call.svg" alt="" width="70" height="71" />
 					<h4>
 						<span>Schritt 1</span><br />
 						Erstgespräch
@@ -1330,7 +1317,7 @@ $faqs->faq_add (
 					<p>Kein Verkaufsgespräch, sondern Austausch.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--4-xs">
-					<img src="/assets/images/icons_svg/presentation.svg" alt="" />
+					<img src="/assets/images/icons_svg/presentation.svg" alt="" width="70" height="71" />
 					<h4>
 						<span>Schritt 2</span><br />
 						Showcase
@@ -1338,7 +1325,7 @@ $faqs->faq_add (
 					<p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--4-xs">
-					<img src="/assets/images/icons_svg/team-dark.svg" alt="" />
+					<img src="/assets/images/icons_svg/team-dark.svg" alt="" width="70" height="71" />
 					<h4>
 						<span>Schritt 3</span><br />
 						Lösungsfindung
