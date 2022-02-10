@@ -52,7 +52,7 @@ $faqs->faq_add (
         </nav>
       </div>
       <div class="media centered">
-      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/calltracking.svg" data-srcset="/assets/images/illus/calltracking.svg" alt="Call-Tracking neu definiert" title="Call-Tracking neu definiert" class="lazy" />
+      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/calltracking.svg" data-srcset="/assets/images/illus/calltracking.svg" alt="Call-Tracking neu definiert" title="Call-Tracking neu definiert" class="lazy" width="560" height="386" />
       </div>
     </header>
   </div>
@@ -80,7 +80,7 @@ $faqs->faq_add (
   <div class="content wide">
   	<div class="grid cross-grid auto">
         <div class="col-2">
-        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" data-srcset="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" alt="Verknüpfen Anruf per individueller Rufnummer mit einem Websitenbesucher" class="lazy" />
+        	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" data-srcset="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" alt="Verknüpfen Anruf per individueller Rufnummer mit einem Websitenbesucher" class="lazy" width="540" height="338" />
         </div>
         <div class="col-2 cross">
         	<div class="shadow-box padding">
@@ -108,7 +108,7 @@ $faqs->faq_add (
             <div class="shadow-box animated bounceInLeft">
             	<div class="image-grid">
             		<div class="image padding">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_03.svg" data-srcset="/assets/images/icons_svg/big_03.svg" alt="Höhere Abschlussquoten" class="lazy auto">
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_03.svg" data-srcset="/assets/images/icons_svg/big_03.svg" alt="Höhere Abschlussquoten" class="lazy auto" width="187" height="144" />
             		</div>
             		<div class="text">
             			<h3 class="h2">Höhere Abschlussquoten im Sales</h3>
@@ -127,7 +127,7 @@ $faqs->faq_add (
             			<p>Mit Call-Tracking stehen dem Agenten hilfreiche Informationen des Anrufers direkt zur Verfügung. Warenkorbinhalte- und werte, Userinformationen und ausgefüllte Formulare sind direkt einsehbar. Nutzen Sie diese Informationen für schnelleren und effizienteren Kundenservice!</p>
             		</div>
             		<div class="image padding">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_05.svg" data-srcset="/assets/images/icons_svg/big_05.svg" alt="Mehr Effizienz im Service" class="lazy auto">
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_05.svg" data-srcset="/assets/images/icons_svg/big_05.svg" alt="Mehr Effizienz im Service" class="lazy auto" width="187" height="191" />
             		</div>
     			</div>
             </div>
@@ -138,7 +138,7 @@ $faqs->faq_add (
             <div class="shadow-box animated bounceInLeft">
             	<div class="image-grid">
                 	<div class="image padding">
-                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_10_2.svg" data-srcset="/assets/images/icons_svg/big_10_2.svg" alt="Höhere Kundenzufriedenheit" class="lazy auto">
+                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_10_2.svg" data-srcset="/assets/images/icons_svg/big_10_2.svg" alt="Höhere Kundenzufriedenheit" class="lazy auto" width="187" height="191" />
                 	</div>
                 	<div class="text">
                     	<h3 class="h2">Höhere Kundenzufriedenheit</h3>
@@ -157,7 +157,7 @@ $faqs->faq_add (
             			<p>Tracken Sie z.B., wo Ihre Kunden auf der Website einen telefonischen Kontakt suchen oder wann Sie aus Webformularen austeigen und den Support kontaktieren. Mit diesem Wissen optimieren Sie Ihr Online-Marketing und Ihre Website-Performance. </p> 
             		</div>
             		<div class="image padding">
-                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_02_2.svg" data-srcset="/assets/images/icons_svg/big_02_2.svg" alt="Effektives online Markteting" class="lazy auto">
+                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_02_2.svg" data-srcset="/assets/images/icons_svg/big_02_2.svg" alt="Effektives online Markteting" class="lazy auto" width="187" height="163" />
                 	</div>
             	</div>
             </div>
@@ -168,7 +168,7 @@ $faqs->faq_add (
 <div class="wrapper parallel-wrapper">
     <div class="wrapper breather parallel thirdcolor">
       <div class="content thin small h_text">
-      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/call-tracking-big.svg" data-srcset="/assets/images/icons_svg/call-tracking-big.svg" alt="Call-Tracking" class="icon lazy">
+      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/call-tracking-big.svg" data-srcset="/assets/images/icons_svg/call-tracking-big.svg" alt="Call-Tracking" class="icon lazy" width="640" height="239" />
         <h2 class="h1">Nutzen Sie die ganze Power von Call-Tracking in Kombination mit Co-Browsing</h2>
         <p>Ihre Agenten sehen, wo sich der Anrufer gerade auf der Website befindet und können auf Wunsch aktiv unterstützen, beispielsweise beim Ausfüllen von Formularen oder im Bestellprozess.</p>
     
@@ -183,7 +183,7 @@ $faqs->faq_add (
 	<div class="content wide right">
 		<div class="grid tile">   
             <div class="col-2">
-    	        <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/calltracking-demo1.png" data-srcset="/assets/images/photos/calltracking-demo1.png" alt="Call-Tracking Demo1" class="lazy">
+    	        <img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/calltracking-demo1.png" data-srcset="/assets/images/photos/calltracking-demo1.png" alt="Call-Tracking Demo1" class="lazy" width="427" height="355" />
     		</div>
     		<div class="col-2 centered">
                 <div class="disturber centered">
@@ -207,7 +207,7 @@ $faqs->faq_add (
   	<div class="grid parallel">
         <div class="col-2">
         	<div class="image primary">
-        		<img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon">
+        		<img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon" width="69" height="50" />
         	</div>
         	<div class="text">
         		<h3 class="h2">Text2Speech</h3>
