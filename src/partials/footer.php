@@ -10,10 +10,10 @@
                     <a href="mailto:kontakt@callone.de">kontakt@callone.de</a><br />
                     <br />
                     <a href="https://de.linkedin.com/company/callone-gmbh" rel="noreferrer" target="_blank">
-                        <img src="/assets/images/icons_svg/icon-linkedin-white.svg" alt="" />
+                        <img src="/assets/images/icons_svg/icon-linkedin-white.svg" alt="" width="24" height="24" />
                     </a>
                     <a href="https://de-de.facebook.com/CallOneGmbH/" rel="noreferrer" target="_blank">
-                        <img src="/assets/images/icons_svg/icon-facebook-white.svg" alt="" />
+                        <img src="/assets/images/icons_svg/icon-facebook-white.svg" alt="" width="24" height="24" />
                     </a><br />
                     <br />
                     <a href="#" class="btn btn--primary btn--full-width btn--small-padding centered" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN​" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN​</a>
