@@ -2,7 +2,7 @@
   <div class="content wide">
     <header class="main-header">
       <div class="media">
-        <img src="/assets/images/client-logos/logo-niceshops.jpg" alt="Niceshops" />
+        <img src="/assets/images/client-logos/logo-niceshops.jpg" alt="Niceshops" width="560" height="174" />
       </div>
       <div class="text">
         <h1>Nice to help you!</h1>
@@ -54,7 +54,7 @@
           <picture class="lazyPicture">
               <!-- ><source srcset="/assets/images/photos/placeholder.webp" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.webp" type="image/webp">-->
               <source srcset="/assets/images/photos/placeholder.jpg" data-srcset="/assets/images/photos/niceshops-florian-flock-sw.jpg" type="image/jpg">
-              <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/niceshops-florian-flock-sw.jpg" data-srcset="/assets/images/photos/niceshops-florian-flock-sw.jpg" alt="Niceshops - Florian Flock" title="Niceshops - Florian Flock" />                 
+              <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/niceshops-florian-flock-sw.jpg" data-srcset="/assets/images/photos/niceshops-florian-flock-sw.jpg" alt="Niceshops - Florian Flock" title="Niceshops - Florian Flock" width="500" height="430" />
             </picture>
         </div>
         <div class="col-2">
@@ -80,7 +80,7 @@
     <div class="shadow-box animated bounceInLeft" data-id="1">
       <div class="image-grid">
         <div class="image padding centered">
-          <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_03_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_03_animate.svg" alt="Multichannel" title="" />
+          <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_03_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_03_animate.svg" alt="Multichannel" title="" width="167" height="129" />
         </div>
         <div class="text">
           <h3 class="h2">Besseres Monitoring über Dashboards</h3>
@@ -106,7 +106,7 @@
           </ul>
         </div>
         <div class="image padding centered">
-          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_37_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_37_2_animate.svg" alt="Ticketing mit Freshdesk-Anbindung" title="Integration von Voice-Tickets in Freshdesk" />
+          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_37_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_37_2_animate.svg" alt="Ticketing mit Freshdesk-Anbindung" title="Integration von Voice-Tickets in Freshdesk" width="167" height="162" />
         </div>
       </div>
     </div>
@@ -114,7 +114,7 @@
     <div class="shadow-box animated bounceInLeft" data-id="3">
       <div class="image-grid">
         <div class="image padding">
-          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_02_animate.svg" alt="Optimierte Workflows" title="Mailbox -und Telefonbuchfunktion, Intelligente Anrufverteilung (ACD)"/>
+          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_02_animate.svg" alt="Optimierte Workflows" title="Mailbox -und Telefonbuchfunktion, Intelligente Anrufverteilung (ACD)" width="167" height="155" />
         </div>
         <div class="text">
           <h3 class="h2">Optimierte Workflows</h3>
@@ -140,7 +140,7 @@
           </ul>
         </div>
         <div class="image padding centered">
-          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_02_animate.svg" alt="Uptime und Skalierbarkeit" title="SLA, Alarming- und Monitoring-System" />
+          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_02_animate.svg" alt="Uptime und Skalierbarkeit" title="SLA, Alarming- und Monitoring-System" width="167" height="165" />
         </div>
       </div>
     </div>
@@ -161,21 +161,21 @@
           <p>In Workshops und Schulungen haben wir gemeinsam mit Niceshops eine Lösung erarbeitet, die auf verschiedenen CallOne Produkten aufbaut:</p>
           <div class="grid centered">
           	<div class="col-3">
-          		<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_25_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_25_animate.svg" class="icon icon-small lazy" title="" alt="" />
+          		<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_25_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_25_animate.svg" class="icon icon-small lazy" title="" alt="" width="70" height="65" />
           		<p>CallOne TEL<br><strong>VoIP Telefonanlage</strong></p>
           		<div class="button-set">
           			<a href="/voip-telefonanlage" class="break button secondary">Unsere VoIP-Telefonlösung</a>
           		</div>
           	</div>
             <div class="col-3">
-            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_11_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_11_animate.svg" class="icon icon-small lazy" />
+            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_11_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_11_animate.svg" class="icon icon-small lazy" width="70" height="65" />
             	<p>CallOne ACD<br><strong>Callcenter-Software</strong></p>
             	<div class="button-set">
           			<a href="/callcenter-loesung" class="break button secondary">Unsere Callcenter-Software</a>
           		</div>
             </div>
             <div class="col-3">
-            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_07_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_07_2_animate.svg" class="icon icon-small lazy" />
+            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_07_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_07_2_animate.svg" class="icon icon-small lazy" width="70" height="65" />
             	<p>CallOne Apps<br><strong>Freshdesk Integration</strong></p>
             	<div class="button-set">
           			<a href="/freshdesk-callcenter-software" class="break button secondary">Unsere Freshdesk-Integration</a>
@@ -200,7 +200,7 @@
 	<div class="shadow-box flex column space-between">
         <div class="image-grid">
             <div class="image padding centered">
-              <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_01_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_01_animate.svg" alt="Multichannel" />
+              <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_01_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_01_animate.svg" alt="Multichannel" width="167" height="151" />
             </div>
             <div class="text">
               <h3 class="h2 no-padding">Intelligente Anrufverteilung und optimale Erreichbarkeit</h3>
@@ -216,7 +216,7 @@
 	<div class="shadow-box flex column space-between">
     	 <div class="image-grid">
             <div class="image padding centered">
-            	<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/freshdesk_integration_animate.svg" data-srcset="/assets/images/icons_svg/animation/freshdesk_integration_animate.svg" alt="Tiefgreifende Freshdesk-Integration" title="Automatisches Erstellen von Voice-Tickets in Freshdesk" />
+            	<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/freshdesk_integration_animate.svg" data-srcset="/assets/images/icons_svg/animation/freshdesk_integration_animate.svg" alt="Tiefgreifende Freshdesk-Integration" title="Automatisches Erstellen von Voice-Tickets in Freshdesk" width="167" height="101" />
             </div>
             <div class="text">
                 <h3 class="h2 no-padding">Tiefgreifende Freshdesk-Integration</h3>
@@ -233,7 +233,7 @@
 	<div class="shadow-box flex column space-between">
         <div class="image-grid">
             <div class="image padding centered">
-        		<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg" data-srcset="/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg" alt="Einfache und skalierbare Telefonie" title="Browsertelefonie, Self-Service-Routing, Rufnummernübermittlung, Officetelefonie" />
+        		<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg" data-srcset="/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg" alt="Einfache und skalierbare Telefonie" title="Browsertelefonie, Self-Service-Routing, Rufnummernübermittlung, Officetelefonie" width="167" height="161" />
             </div>
             <div class="text">
         		<h3 class="h2 no-padding">Einfache und skalierbare Telefonie</h3>
@@ -287,7 +287,7 @@
                     <p>&starf;&starf;&starf;&starf;&starf;</p>
                     <hr class="trenner">
                     <p class="centered">
-                    	<img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/client-logos/logo-niceshops.jpg" data-srcset="/assets/images/client-logos/logo-niceshops.jpg" alt="Kundenmeinung von niceshops">        	
+                    	<img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/client-logos/logo-niceshops.jpg" data-srcset="/assets/images/client-logos/logo-niceshops.jpg" alt="Kundenmeinung von niceshops" width="150" height="47" />
                     	<span class="headline h4 padding-top-10">Stella Lucchesi Palli</span>
                     	<span class="primary-color">Teamleiterin Customer Care</span>
                     </p>                            
@@ -296,7 +296,7 @@
             </div>
             <div class="col-2 flex space-between row">
            		<div class="shadow-box">
-              		<img src="/assets/images/photos/niceshops-packet.jpg">
+              		<img src="/assets/images/photos/niceshops-packet.jpg" alt="" width="500" height="500" />
                 </div>
         	</div>
     	</div>
