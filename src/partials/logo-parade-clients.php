@@ -4,12 +4,12 @@
     	<?php if (!empty($paradeData)): ?>
     		<?= $paradeData ?>
     	<?php else: ?>
-          <div class="logo"><img src="/assets/images/client-logos/logo-vimcar.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-sixt.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-flaconi.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-check24.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-bett1.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-gastrohero.png" alt="" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-vimcar.png" alt="" width="137" height="119" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-sixt.png" alt="" width="137" height="119" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-flaconi.png" alt="" width="137" height="119" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-check24.png" alt="" width="137" height="119" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-bett1.png" alt="" width="137" height="119" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-gastrohero.png" alt="" width="137" height="119" /></div>
         <?php endif; ?>
     </div>
 	<?php if (!empty($showStars)): ?>
