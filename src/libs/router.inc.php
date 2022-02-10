@@ -181,14 +181,14 @@ Router::add('/impressum', 'impressum.php', [
 Router::add('/microsip', 'microsip.php', [
     'title' => 'MicroSIP vorkonfiguriert',
     'meta_description' => 'Um Dir den Konfigurationsaufwand zu ersparen, bieten wir einen direkt vorkonfigurierten SIP-Client an.',
-    'meta_keywords' => 'voip, microsip',
+    'meta_keywords' => 'sip, sip-client, microsip, cloud telefonanlage, api, microsip einrichten, callone, schnittstellen, telefonie, callcenter software, callcenter,voip, voip telefonanlage',
     'og_image_text' => 'MicroSIP vorkonfiguriert',
     'body_class' => 'full-bg background-transition'
 ]);
 
 Router::add('/download', 'downloads.php', [
     'title' => 'CallOne Downloads',
-    'meta_description' => 'Software und Dokumente zum herunterladen',
+    'meta_description' => 'Profitieren Sie von den cloudbasierten Telekommunikationslösungen von CallOne für Unternehmen. Meistern Sie digitale Herausforderungen.',
     'og_image_text' => 'CallOne Downloads'
 ]);
 
@@ -321,7 +321,7 @@ Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.p
 ]);
 
 Router::add('/referenzen', 'referenzen.php', [
-    'title' => 'Referenzen',
+    'title' => 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'CallOne Referenzen'
 ]);
@@ -393,7 +393,7 @@ Router::add('/it-helpdesk-solutions', 'solutions-helpdesk.php', [
 
 Router::add('/callcenter-software-integrationen', 'callcenter-software-integrationen.php', [
     'title' => 'Integrieren Sie Anrufe in Ihre Businesstools und steuern Sie Anrufe bequem mit in Ihre CRM, Ticketing oder BI-Tool',
-    'meta_description' => 'Integrationen',
+    'meta_description' => 'Verbinden Sie CRM, Analytics, Ihre Abrechnung und weitere Integrationen mit Ihrer Cloud Telefonanlage und Callcenter Software.',
     'meta_keywords' => 'CRM, ERP, BI, API, Webhook, Rest-API, Zendesk, Salesforce, Pipedrive, Jira, Browser Extension, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'Integrieren Sie Anrufe in Ihre Businesstools',
     'menu_position' => 'loesungen',
@@ -419,8 +419,8 @@ Router::add('/voip-api', 'voip-api.php', [
 ]);
 
 Router::add('/salesforce', 'salesforce.php', [
-    'title' => 'Salesforce',
-    'meta_description' => 'Salesforce',
+    'title' => 'Salesforce Integration | CallOne',
+    'meta_description' => 'Salesforce Integration für Ihre Callcenter Software. Die CallOne CTI App für Salesforce Lightning & Classis.',
     'og_image_text' => 'Salesforce'
 ]);
 
@@ -441,8 +441,8 @@ Router::add('/omr', 'omr-goodie.php', [
 ]);
 
 Router::add('/kontakt', 'contact.php', [
-    'title' => 'Kontakt',
-    'meta_description' => 'Kontakt',
+    'title' => 'CallOne kontaktieren – von modernen Telekommunikationslösungen profitieren',
+    'meta_description' => 'Ihr Kontakt für eine Cloud Telefonanlage, Callcenter Software oder passende Integrationen für Ihre Telekommunikationslösung.',
     'og_image_text' => 'CallOne Kontakt'
 ]);
 
