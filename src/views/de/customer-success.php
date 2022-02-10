@@ -1,7 +1,7 @@
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/customer-success-header.png" alt="" />
+            <img src="/assets/images/illus/customer-success-header.png" alt="" width="465" height="465" />
         </div>
         <div class="hero__text">
             <h1>Machen Sie unser Team zu Ihrem Team!</h1>
@@ -34,7 +34,7 @@
 
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/onboarding-photo.png" alt="" />
+                <img src="/assets/images/photos/onboarding-photo.png" alt="" width="570" height="357" />
             </div>
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Der Turbo für unsere Zusammenarbeit!</h3>
@@ -61,7 +61,7 @@
                 </ul>
             </div>
             <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/optimization-photo.png" alt="" />
+                <img src="/assets/images/photos/optimization-photo.png" alt="" width="570" height="357" />
             </div>
         </div>
 
@@ -73,7 +73,7 @@
 
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/support-photo.png" alt="" />
+                <img src="/assets/images/photos/support-photo.png" alt="" width="570" height="357" />
             </div>
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Ihre Taskforce im laufenden Einsatz!</h3>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered">
-                <img src="/assets/images/photos/brian-face-circle.png" alt="" class="small-tab-image" />
+                <img src="/assets/images/photos/brian-face-circle.png" alt="" width="470" height="558" class="small-tab-image" />
             </div>
         </div>
 
@@ -139,7 +139,7 @@
                 </p>
 
                 <br />
-                <img src="/assets/images/photos/brian-mobile-green-circle.png" alt="" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
+                <img src="/assets/images/photos/brian-mobile-green-circle.png" alt="" width="800" height="631" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
             </div>
             <div class="tablist__content" data-tab="2">
                 <blockquote class="quote">
@@ -151,7 +151,7 @@
                 </p>
 
                 <br />
-                <img src="/assets/images/photos/lotta-mobile-green-circle.png" alt="" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
+                <img src="/assets/images/photos/lotta-mobile-green-circle.png" alt="" width="800" height="631" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
             </div>
         </div>
     </div>
@@ -164,7 +164,7 @@
 
         <div class="grid-slider">
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/personal-communication-grey-bg.svg" alt="" class="grid-slider__image" />
+                <img src="/assets/images/illus/personal-communication-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Persönliche Beratung</h4>
                     <p class="bigtext mobile-hidden">Kein ewiges Warten, keine unbekannten Ansprechpersonen. Wir beraten Sie persönlich und mit Weitblick.</p>
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/connect-grey-bg.svg" alt="" class="grid-slider__image" />
+                <img src="/assets/images/illus/connect-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Keine Zeitverschwendung</h4>
                     <p class="bigtext mobile-hidden">Sie bekommen ein schnelles, zielführendes Onboarding, das genau auf Ihre Bedürfnisse zugeschnitten ist.</p>
@@ -180,7 +180,7 @@
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/uptime-grey-bg.svg" alt="" class="grid-slider__image" />
+                <img src="/assets/images/illus/uptime-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Effizienz & Performance</h4>
                     <p class="bigtext mobile-hidden">Nutzen Sie unsere umfangreichen Echtzeitstatistiken für mehr Effizienz und unschlagbare Performance.</p>
@@ -188,7 +188,7 @@
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/dsgvo-grey-bg.svg" alt="" class="grid-slider__image" />
+                <img src="/assets/images/illus/dsgvo-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Auf der sicheren Seite</h4>
                     <p class="bigtext mobile-hidden">All unsere Lösungen entsprechen natürlich dem deutschen Datenschutzstandard - damit Sie sich um die Sicherheit nicht sorgen müssen.</p>
@@ -205,7 +205,7 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered co-grid__col--order-2-xs">
                 <div class="co-video">
                     <div class="co-video__poster">
-                        <img src="/assets/images/photos/video-preview-reduced.png" alt="" />
+                        <img src="/assets/images/photos/video-preview-reduced.png" alt="" width="570" height="306" />
                     </div>
                     <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
@@ -234,7 +234,7 @@
 
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" />
+                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" height="70" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <p class="bigtext">
@@ -249,7 +249,7 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="" />
+                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="" width="502" height="543" />
             </div>
         </div>
     </div>
