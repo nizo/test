@@ -30,7 +30,7 @@ $product->structured_data_get_code ();
         </nav>
       </div>
       <div class="media">
-        <img src="/assets/images/icons_svg/big_11.svg" alt="CallOne Rufnummern Service" class="mobile-hidden" />
+        <img src="/assets/images/icons_svg/big_11.svg" alt="CallOne Rufnummern Service" width="560" height="294" class="mobile-hidden" />
       </div>
     </header>
   </div>
@@ -135,17 +135,17 @@ $product->structured_data_get_code ();
   <h2 class="h1 centered">Bringen Sie Ihre eigene Rufnummer mit</h2>
       <div class="grid">
         <div class="col-3">
-          <img src="/assets/images/icons_svg/big_09.svg" alt="Rufnummern portieren" class="icon">
+          <img src="/assets/images/icons_svg/big_09.svg" alt="Rufnummern portieren" width="70" height="61" class="icon">
           <h3>Nummer portieren</h3>
           <p>Wir <strong>portieren</strong> Ihre bereits vorhanden Rufnummern <strong>schnell</strong> und <strong>unkompliziert</strong> in unser Netz.</p>
         </div>
         <div class="col-3">
-          <img src="/assets/images/icons_svg/small_01.svg" alt="SIP Weiterleitung" class="icon">
+          <img src="/assets/images/icons_svg/small_01.svg" alt="SIP Weiterleitung" width="70" height="71" class="icon">
           <h3>SIP Weiterleitung</h3>
           <p>Leiten Sie Ihre <strong>bestehenden Rufnummern</strong> per SIP-Zuführung an uns weiter.</p>
         </div>
         <div class="col-3">
-          <img src="/assets/images/icons_svg/small_25.svg" alt="PSTN Weiterleitung" class="icon">
+          <img src="/assets/images/icons_svg/small_25.svg" alt="PSTN Weiterleitung" width="70" height="51" class="icon">
           <h3>PSTN Weiterleitung</h3>
           <p>Richten Sie <strong>ganz einfach</strong> selbst eine <strong>Weiterleitung</strong> ein und telefonieren Sie <strong>sofort</strong> los.</p>
         </div>
@@ -168,17 +168,17 @@ $product->structured_data_get_code ();
   <div class="content narrow centered">
       <div class="grid">
         <div class="col-3">
-    		<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile">
+    		<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile" width="97" height="98">
     		<h3>Qualitätsrouten</h3>
     		<p>Wenn es um Sprachqualität und Stabilität geht, ist das Netzwerk und die dahinterstehenden Partner entscheidend. Wir testen jede Route und haben über 15 Jahre Erfahrung.</p>
         </div>
         <div class="col-3">
-			<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile">
+			<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile" width="97" height="98">
 			<h3>Routing-Verwaltung</h3>
             <p>Manchmal können Anrufpeaks auftreten. Nutzen Sie unseren Routingbaukasten mit über 50 Routingmodulen und seien Sie auch in schwierigen Zeiten erreichbar.</p>
         </div>
         <div class="col-3">
-			<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile">
+			<img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile" width="97" height="98">
 			<h3>Überlastungs-Routen</h3>
             <p>Reduzieren Sie Wartezeiten und verbessern Sie die Anrufqualität bei hohem Anrufvolumen, indem Sie unsere leistungsstarke Plattform mit nahezu unbegrenzten Kapazitäten einschalten.</p>
         </div>
@@ -219,7 +219,7 @@ $product->structured_data_get_code ();
         </div>
         <div class="col-2">
         	<div class="image secondary-2">
-        		<img src="/assets/images/icons_svg/small_17_2.svg" alt="Routing" class="white icon">
+        		<img src="/assets/images/icons_svg/small_17_2.svg" alt="Routing" width="69" height="50" class="white icon">
         	</div>
         	<div class="text">
     			<h3>Routing</h3>
@@ -228,7 +228,7 @@ $product->structured_data_get_code ();
         </div>
         <div class="col-2">
         	<div class="image secondary-3">
-        		<img src="/assets/images/icons_svg/small_25.svg" alt="Absedererkennung" class="white icon">
+        		<img src="/assets/images/icons_svg/small_25.svg" alt="Absedererkennung" width="69" height="50" class="white icon">
         	</div>
         	<div class="text">
     			<h3>Absenderkennung</h3>
@@ -237,7 +237,7 @@ $product->structured_data_get_code ();
         </div>
         <div class="col-2">
         	<div class="image secondary-3">
-        		<img src="/assets/images/icons_svg/small_02_white.svg" alt="CDR-Daten" class="white icon">
+        		<img src="/assets/images/icons_svg/small_02_white.svg" alt="CDR-Daten" width="69" height="50" class="white icon">
         	</div>
         	<div class="text">
     			<h3>CDR-Daten</h3>
