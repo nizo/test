@@ -176,10 +176,10 @@
 
                 <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <p class="centered">
-                        <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" width="352px" height="232px" />
+                        <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="" width="532" height="351" />
                     </p>
                     <div class="tag">
-                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" width="13px" height="14px" /> App
+                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" width="13" height="14" /> App
                     </div>
                     <h3>Callcenter Software & VoIP-Telefonanlage</h3>
                     <p>Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
@@ -193,7 +193,7 @@
                     <h4 style="margin-top: 0;">Personalisiert statt standardisiert</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
-                        <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="" width="382px" height="136px" style="display:block;width:100%;" />
+                        <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="" width="750" height="268" style="display:block;width:100%;" />
                     </p>
                 </div>
 
@@ -202,7 +202,7 @@
                     <h4 style="margin-top: 0;">Immer persönlich betreut</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
-                        <img src="/assets/images/icons_png/personal-contacts-mobile@2x.png" alt="" width="382px" height="106px" style="display:block;width:100%;" />
+                        <img src="/assets/images/icons_png/personal-contacts-mobile@2x.png" width="750" height="208" alt="" style="display:block;width:100%;" />
                     </p>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" style="margin:0" />
+                                    <img src="/assets/images/icons_svg/technology-consulting.svg" alt="" width="199" height="108" style="margin:0" />
                                     <h3 style="margin-top:15px">
                                         Zukunftssichere Technologie <br />
                                         <span class="ff-copy fw400">trifft</span> Expertise
@@ -262,7 +262,7 @@
 
                 <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <p class="centered">
-                        <img src="/assets/images/illus/ROI-airdrop-illustration.svg" alt="" />
+                        <img src="/assets/images/illus/ROI-airdrop-illustration.svg" alt="" width="392" height="365" />
                     </p>
                     <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
                     <p>Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
@@ -276,7 +276,7 @@
                     <h4 style="margin-top: 0;">Zukunftssichere Technologie trifft Expertenberatung</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
-                        <img src="/assets/images/icons_svg/service-promise-mobile.svg" alt="" style="display:block;width:100%;" />
+                        <img src="/assets/images/icons_svg/service-promise-mobile.svg" alt="" width="750" height="233" style="display:block;width:100%;" />
                     </p>
                 </div>
             </div>
@@ -373,7 +373,7 @@
 
                 <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <p class="centered" style="margin-left:-15px;width:calc(100% + 30px);margin-top:-15px;margin-bottom:15px;">
-                        <img src="/assets/images/illus/client-diversity-illustration-mobile.svg" alt="" style="display:block;width:100%;" />
+                        <img src="/assets/images/illus/client-diversity-illustration-mobile.svg" alt="" width="750" height="582" style="display:block;width:100%;" />
                     </p>
                     <h3>Eine Plattform, unendlich viele Optionen</h3>
                     <p>Maximale Flexibilität, wie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
@@ -387,7 +387,7 @@
                     <h4 style="margin-top: 0;">Für jeden etwas dabei!</h4>
                     <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
                         <br />
-                        <img src="/assets/images/icons_svg/client-diversity-mobile.svg" alt="" style="display:block;width:100%;" />
+                        <img src="/assets/images/icons_svg/client-diversity-mobile.svg" alt="" width="750" height="270" style="display:block;width:100%;" />
                     </p>
                 </div>
             </div>
@@ -500,13 +500,13 @@
                                 <div class="number-card__number" style="--color:#FF7B1B;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
                                 </div>
-                                weniger Gesprächszeit für <br />Ihre Agent*innen​*
+                                weniger Gesprächszeit für <br />Ihre Agent*innen*
                             </div>
                             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#FF7B1B;">
                                     <span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
                                 </div>
-                                kürzere IVR-Menüs durch <br />Spracherkennung​*
+                                kürzere IVR-Menüs durch <br />Spracherkennung*
                             </div>
                         </div>
 
@@ -558,7 +558,7 @@
                                 <div class="number-card__number" style="--color:#DB00C5;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
                                 </div>
-                                Verkürzung <br />der Wartezeit​*
+                                Verkürzung <br />der Wartezeit*
                             </div>
                         </div>
 
@@ -610,7 +610,7 @@
                                 <div class="number-card__number" style="--color:#0088EA;">
                                     <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
                                 </div>
-                                gesteigerte <br />Teamleistung​*
+                                gesteigerte <br />Teamleistung*
                             </div>
                         </div>
 
