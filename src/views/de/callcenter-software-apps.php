@@ -58,7 +58,7 @@ $product->structured_data_get_code ();
         </div>
       </div>
       <div class="media centered">
-        <img src="/assets/images/illus/CRM-hero-illustration.svg" alt="" />
+        <img src="/assets/images/illus/CRM-hero-illustration.svg" alt="" width="553" height="446" />
       </div>
     </header>
   </div>
@@ -72,7 +72,7 @@ $product->structured_data_get_code ();
     <div class="grid">
       <div class="col-3 card card--shadow" style="--c:#007537">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Freshdesk-app-icon.svg" alt="Freshdesk" />
+          <img src="/assets/images/logo/productlogos/Freshdesk-app-icon.svg" alt="Freshdesk" width="82" height="82" />
         </div>
         <h3>Freshdesk</h3>
         <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</p>
@@ -84,7 +84,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#ffa800;">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Freshsales-app-icon.svg" alt="Freshsales" />
+          <img src="/assets/images/logo/productlogos/Freshsales-app-icon.svg" alt="Freshsales" width="82" height="82" />
         </div>
         <h3>Freshsales</h3>
         <p>Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</p>
@@ -95,7 +95,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#03363D">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Zendesk-app-icon.svg" alt="Zendesk" />
+          <img src="/assets/images/logo/productlogos/Zendesk-app-icon.svg" alt="Zendesk" width="82" height="82" />
         </div>
         <h3>Zendesk</h3>
         <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.</p>
@@ -108,7 +108,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#9a9a9a">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Pipedrive-app-icon.svg" alt="Pipedrive" />
+          <img src="/assets/images/logo/productlogos/Pipedrive-app-icon.svg" alt="Pipedrive" width="82" height="82" />
         </div>
         <h3>Pipedrive</h3>
         <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.</p>
@@ -120,7 +120,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#45535E">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Hubspot-app-icon.svg" alt="Hubspot" />
+          <img src="/assets/images/logo/productlogos/Hubspot-app-icon.svg" alt="Hubspot" width="82" height="82" />
         </div>
         <h3>Hubspot</h3>
         <p>Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</p>
@@ -131,7 +131,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#254856">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Salesforce-app-icon.svg" alt="Salesforce" />
+          <img src="/assets/images/logo/productlogos/Salesforce-app-icon.svg" alt="Salesforce" width="82" height="82" />
         </div>
         <h3>Salesforce</h3>
         <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</p>
@@ -143,7 +143,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg" class="partnerLogo gray-100" alt="Jira Service Desk" />
+          <img src="/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg" class="partnerLogo gray-100" alt="Jira Service Desk" width="230" height="80" />
         </div>
         <h3>Jira Service Desk</h3>
         <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</p>
@@ -161,7 +161,7 @@ $product->structured_data_get_code ();
     <div class="grid">
       <div class="col-3 card card--shadow" style="--c:#03363D" id="tableau">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Tableau-app-icon.svg" alt="Tableau" />
+          <img src="/assets/images/logo/productlogos/Tableau-app-icon.svg" alt="Tableau" width="82" height="82" />
         </div>
         <h3>Tableau</h3>
         <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von Tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</p>
@@ -173,7 +173,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#ffe678">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/PowerBI-app-icon.png" alt="Power BI" />
+          <img src="/assets/images/logo/productlogos/PowerBI-app-icon.png" alt="Power BI" width="82" height="82" />
         </div>
         <h3>Power BI</h3>
         <p>Erstellen Sie aufwendige Dashboards, die komplexe Prognosen zu Auslastung und Callvolumen zulassen. Erleben sie bessere Planbarkeit ihrer Agenten und eine optimale Auswertung.</p>
@@ -185,7 +185,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#6eb43f">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/QlikSense-app-icon.png" alt="Qlik Sense" />
+          <img src="/assets/images/logo/productlogos/QlikSense-app-icon.png" alt="Qlik Sense" width="82" height="82" />
         </div>
         <h3>Qlik Sense</h3>
         <p>Nutzen sie ausgefeilte AI-Funktionen und die assoziative Analyse-Engine um tiefe Einblicke in Telefoniedaten zu bekommen. Treffen sie bessere Entscheidungen durch datengesteuerte Echtzeitanalysen.</p>
@@ -197,7 +197,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#00319a">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/GoogleDataStudio-app-icon.png" alt="Google Data Studio" />
+          <img src="/assets/images/logo/productlogos/GoogleDataStudio-app-icon.png" alt="Google Data Studio" width="82" height="82" />
         </div>
         <h3>Google Data Studio</h3>
         <p>Werten sie Telefoniedaten standortübergreifend mit der cloudbasierten Google BI-Software aus. Integrieren sie nahtlos in bestehende Dashboards und Auswertungen, um eine vielschichtigere Optimierung zu ermöglichen.</p>
@@ -208,7 +208,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#00a26a">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/ExcelDataConnector-app-icon.png" alt="Excel Data Connector" />
+          <img src="/assets/images/logo/productlogos/ExcelDataConnector-app-icon.png" alt="Excel Data Connector" width="82" height="82" />
         </div>
         <h3>Excel Data Connector</h3>
         <p>Nutzen sie die Pivot-Funktionen von Excel um in gewohnter Umgebung umfangreiche Datenanalysen durchzuführen. Keine teure BI-Software notwendig, alle Rohdaten stehen genauso in Excel zur Verfügung.</p>
@@ -220,7 +220,7 @@ $product->structured_data_get_code ();
 
       <div class="col-3 card card--shadow" style="--c:#eaeaea">
         <div class="card__image">
-          <img src="/assets/images/logo/productlogos/Geckoboard-app-icon.svg"  class="partnerLogo gray-100" alt="Geckoboard" />
+          <img src="/assets/images/logo/productlogos/Geckoboard-app-icon.svg"  class="partnerLogo gray-100" alt="Geckoboard" width="230" height="80" />
         </div>
         <h3>Geckoboard</h3>
         <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</p>
@@ -240,7 +240,7 @@ $product->structured_data_get_code ();
     <div class="grid centered">
       <div class="col-3">
         <p>
-          <img src="/assets/images/logo/productlogos/chrome-logo.svg" alt="Google Chrome" />
+          <img src="/assets/images/logo/productlogos/chrome-logo.svg" alt="Google Chrome" width="191" height="50" />
         </p>
         <p>
           <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Chrome hinzufügen</a>
@@ -248,7 +248,7 @@ $product->structured_data_get_code ();
       </div>
       <div class="col-3">
         <p>
-          <img src="/assets/images/logo/productlogos/firefox-logo.svg" alt="Mozilla Firefox" />
+          <img src="/assets/images/logo/productlogos/firefox-logo.svg" alt="Mozilla Firefox" width="144" height="50" />
         </p>
         <p>
           <a href="https://addons.mozilla.org/de/firefox/addon/callone/" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Firefox hinzufügen</a>
@@ -256,7 +256,7 @@ $product->structured_data_get_code ();
       </div>
       <div class="col-3">
         <p>
-          <img src="/assets/images/logo/productlogos/edge-logo.svg" alt="Microsoft Edge" />
+          <img src="/assets/images/logo/productlogos/edge-logo.svg" alt="Microsoft Edge" width="147" height="50" />
         </p>
         <p>
           <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Edge hinzufügen</a>
@@ -276,21 +276,21 @@ $product->structured_data_get_code ();
     <div class="grid">
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
         </div>
         <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
         <p>Ärgern Sie sich nicht mit Self-Service herum. An Ihre Organisation angepasste Telefonie-Lösungen kann CallOne dank erfahrener Projektmanager &amp; Schnittstellenentwickler in kürzester Zeit live bringen.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="86" height="98" />
         </div>
         <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
         <p>Das Privacy Shield Abkommen zwischen USA und EU ist nun gekippt. Zum Glück sind Sie mit CallOne immer auf der sicheren Seite: Wir hosten unsere Telefonie-Lösung ausschließlich in Deutschland.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
         </div>
         <h3>Garantierte 99,999% Erreichbarkeit</h3>
         <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>
