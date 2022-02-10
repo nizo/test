@@ -114,8 +114,15 @@ function getLogoParade($logos, $showStars = null, $template = 'clients') {
                 $logo['alt'] = '';
         if(empty($logo['data']))
                 $logo['data'] = '';
+        $logoWidth = '';
+        $logoHeight = '';
+        if (file_exists('assets/images/client-logos/'.$logo['data'])) {
+            $logoSize = getimagesize('assets/images/client-logos/'.$logo['data']);
+            $logoWidth = $logoSize[0];
+            $logoHeight = $logoSize[1];
+        }
         
-        $paradeData.= '<div class="logo"><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/' . $logo['data'] . '" data-srcset="/assets/images/client-logos/' . $logo['data'] . '" alt="' . $logo['alt'] . '" title="' . $logo['alt'] . '" class="lazy '. $logo['cssClass'] .'"/></div>';
+        $paradeData.= '<div class="logo"><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/' . $logo['data'] . '" data-srcset="/assets/images/client-logos/' . $logo['data'] . '" alt="' . $logo['alt'] . '" title="' . $logo['alt'] . '" width="' . $logoWidth . '" height="' . $logoHeight . '" class="lazy '. $logo['cssClass'] .'"/></div>';
     }
     
     require('./partials/logo-parade-'.$template.'.php');

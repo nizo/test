@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="media centered">
-        <img src="/assets/images/illus/illu-businesstelefonie-header.svg" alt="" />
+        <img src="/assets/images/illus/illu-businesstelefonie-header.svg" alt="" width="541" height="567" />
       </div>
     </header>
   </div>
@@ -36,7 +36,7 @@
     <div class="icon-cards">
       <div class="icon-card">
         <div class="icon-card__icon">
-          <img src="/assets/images/icons_svg/automatization-gradient-icon.svg" alt="Automatisierung mit KI" />
+          <img src="/assets/images/icons_svg/automatization-gradient-icon.svg" alt="Automatisierung mit KI" width="50" height="50" />
         </div>
         <div class="icon-card__text">
           <h3>Automatisierung mit KI</h3>
@@ -46,7 +46,7 @@
       </div>
       <div class="icon-card">
         <div class="icon-card__icon">
-          <img src="/assets/images/icons_svg/omnichannel-gradient-icon.svg" alt="Omnichannel Kundensupport" />
+          <img src="/assets/images/icons_svg/omnichannel-gradient-icon.svg" alt="Omnichannel Kundensupport" width="50" height="52" />
         </div>
         <div class="icon-card__text">
           <h3>Omnichannel Kundensupport</h3>
@@ -56,7 +56,7 @@
       </div>
       <div class="icon-card">
         <div class="icon-card__icon">
-          <img src="/assets/images/icons_svg/sales-gradient-icon.svg" alt="Smarte Sales" />
+          <img src="/assets/images/icons_svg/sales-gradient-icon.svg" alt="Smarte Sales" width="50" height="28" />
         </div>
         <div class="icon-card__text">
           <h3>Smarte Sales</h3>
@@ -66,7 +66,7 @@
       </div>
       <div class="icon-card">
         <div class="icon-card__icon">
-          <img src="/assets/images/icons_svg/callcenter-gradient-icon.svg" alt="Dezentrales Callcenter" />
+          <img src="/assets/images/icons_svg/callcenter-gradient-icon.svg" alt="Dezentrales Callcenter" width="50" height="50" />
         </div>
         <div class="icon-card__text">
           <h3>Dezentrales Callcenter</h3>
@@ -78,7 +78,7 @@
 
     <div class="image-grid padding-top-80">
       <div class="image centered">
-        <img src="/assets/images/logo/productlogos/app-integration-group2.svg" alt="App Integrations" />
+        <img src="/assets/images/logo/productlogos/app-integration-group2.svg" alt="App Integrations" width="220" height="220" />
       </div>
       <div class="text">
         <h3>Ihre Tools, direkt am Start</h3>
@@ -283,7 +283,7 @@
         <div class="customer-slider__slide">
           <div class="image-grid">
             <div class="image centered">
-              <img src="/assets/images/photos/use-case-niceshops.png" alt="">
+              <img src="/assets/images/photos/use-case-niceshops.png" alt="" width="260" height="377" />
             </div>
             <div class="text">
               <h4>Use Case</h4>
@@ -316,21 +316,21 @@
     <div class="grid">
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
         </div>
         <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
         <p>Ärgern Sie sich nicht mit Self-Service herum. An Ihre Organisation angepasste Telefonie-Lösungen kann CallOne dank erfahrener Projektmanager &amp; Schnittstellenentwickler in kürzester Zeit live bringen.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="86" height="98" />
         </div>
         <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
         <p>Das Privacy Shield Abkommen zwischen USA und EU ist nun gekippt. Zum Glück sind Sie mit CallOne immer auf der sicheren Seite: Wir hosten unsere Telefonie-Lösung ausschließlich in Deutschland.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
         </div>
         <h3>Garantierte 99,999% Erreichbarkeit</h3>
         <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>
