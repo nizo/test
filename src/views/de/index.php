@@ -500,13 +500,13 @@
                                 <div class="number-card__number" style="--color:#FF7B1B;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
                                 </div>
-                                weniger Gesprächszeit für <br />Ihre Agent*innen​*
+                                weniger Gesprächszeit für <br />Ihre Agent*innen*
                             </div>
                             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md number-card">
                                 <div class="number-card__number" style="--color:#FF7B1B;">
                                     <span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
                                 </div>
-                                kürzere IVR-Menüs durch <br />Spracherkennung​*
+                                kürzere IVR-Menüs durch <br />Spracherkennung*
                             </div>
                         </div>
 
@@ -558,7 +558,7 @@
                                 <div class="number-card__number" style="--color:#DB00C5;">
                                     <span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
                                 </div>
-                                Verkürzung <br />der Wartezeit​*
+                                Verkürzung <br />der Wartezeit*
                             </div>
                         </div>
 
@@ -610,7 +610,7 @@
                                 <div class="number-card__number" style="--color:#0088EA;">
                                     <span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
                                 </div>
-                                gesteigerte <br />Teamleistung​*
+                                gesteigerte <br />Teamleistung*
                             </div>
                         </div>
 
