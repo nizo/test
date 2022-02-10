@@ -40,16 +40,16 @@ $faqs->faq_add (
         </div>
       </div>
       <div class="media centered mobile-hidden">
-        <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="" />
+        <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="" width="560" height="428" />
       </div>
     </header>
 
     <p class="centered desktop-hidden margin-top-40">
-      <img src="/assets/images/icons_svg/softphone-browser-circle.svg" alt="" />
+      <img src="/assets/images/icons_svg/softphone-browser-circle.svg" alt="" width="194" height="215" />
     </p>
 
     <p class="centered desktop-hidden margin-top-40">
-      <img src="/assets/images/screens/Intro-Softphone-mobil.png" alt="" />
+      <img src="/assets/images/screens/Intro-Softphone-mobil.png" alt="" width="720" height="931" />
     </p>
 
     <p class="centered mobile-hidden"><strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?</p>
@@ -66,7 +66,7 @@ $faqs->faq_add (
 <div class="wrapper lightgrey-white no-margin-top mobile-hidden" id="funktionen">
   <div class="content wide">
     <h1 class="headline__icon">
-      <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" />
+      <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" width="136" height="136" />
       <div>
         <span class="icon-callone">App</span>
         <span class="headline__text">Softphone</span>
@@ -143,21 +143,21 @@ $faqs->faq_add (
     <div class="compare">
       <div class="compare__header">
         <div class="compare__logo">
-          <img src="/assets/images/softphone/comparison-softphone.svg" alt="" />
+          <img src="/assets/images/softphone/comparison-softphone.svg" alt="" width="200" height="51" />
         </div>
         <div class="compare__switch">
           <input type="checkbox" id="compare-switch-1" value="1" checked />
           <label for="compare-switch-1"></label>
         </div>
         <div class="compare__logo">
-          <img src="/assets/images/softphone/comparison-ms-teams.svg" alt="" />
+          <img src="/assets/images/softphone/comparison-ms-teams.svg" alt="" width="214" height="50" />
         </div>
       </div>
       <div class="compare__content" data-compare="on">
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Lizenzkosten</h3>
@@ -165,7 +165,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Inklusivleistung im Rahmen der CallOne Telefonanlage.
@@ -175,7 +175,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Integrationsaufwand</h3>
@@ -183,17 +183,17 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
-              Einfache Installation und Nutzung innerhalb von wenigen Minuten durch den Admin oder User selbst​.
+              Einfache Installation und Nutzung innerhalb von wenigen Minuten durch den Admin oder User selbst.
             </div>
           </div>
         </div>
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Datenschutzkonformität</h3>
@@ -201,7 +201,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Deutsches Unternehmen, das Ihre Daten sicher und DS-GVO konform hostet.
@@ -211,7 +211,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Flexibilität</h3>
@@ -219,7 +219,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Spezialanbieter für Unternehmenstelefonie mit persönlichem Ansprechpartner und Support.
@@ -229,7 +229,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-support.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-support.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Support</h3>
@@ -237,7 +237,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Ein Ansprechpartner für all Ihre Belange. Softphone und Telefonie aus einer Hand.
@@ -250,7 +250,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Lizenzkosten</h3>
@@ -258,7 +258,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Zusatzkosten oder entsprechender Vertrag notwendig.
@@ -268,7 +268,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Integrationsaufwand</h3>
@@ -276,7 +276,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Einrichtung teilweise nur mit bestimmten Adminrechten. Powershell und zusätzliche Schritte notwendig.
@@ -286,7 +286,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Datenschutzkonformität</h3>
@@ -294,7 +294,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               US-Unternehmen, das nicht mehr auf Grundlage des Privacy Shield Daten von EU-Bürgern verarbeiten darf.
@@ -304,7 +304,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Flexibilität</h3>
@@ -312,7 +312,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Breites Portfolio, allerdings nicht spezialisiert auf Businesstelekommunikation.
@@ -322,7 +322,7 @@ $faqs->faq_add (
         <div class="compare__box">
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/icon-support.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-support.svg" alt="" width="40" height="40" />
             </div>
             <div class="compare__text">
               <h3>Support</h3>
@@ -330,7 +330,7 @@ $faqs->faq_add (
           </div>
           <div class="compare__info">
             <div class="compare__icon">
-              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" />
+              <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="" width="30" height="30" />
             </div>
             <div class="compare__text">
               Standard ist Selfservice mit Ticket oder Betreuung durch einen zusätzlichen IT-Systempartner.
@@ -365,11 +365,11 @@ $faqs->faq_add (
 
       <div class="pricetoggle__buttons">
         <div class="pricetoggle__button" data-pricebox="1">
-          <img src="/assets/images/icons_svg/eigener-provider.svg" alt="" />
+          <img src="/assets/images/icons_svg/eigener-provider.svg" alt="" width="70" height="70" />
           <h3>Eigenen Provider verbinden</h3>
         </div>
         <div class="pricetoggle__button" data-pricebox="2">
-          <img src="/assets/images/icons_svg/callone-telefonanlage.svg" alt="" />
+          <img src="/assets/images/icons_svg/callone-telefonanlage.svg" alt="" width="70" height="70" />
           <h3>Softphone mit VoIP-Telefonanlage</h3>
         </div>
       </div>
@@ -379,7 +379,7 @@ $faqs->faq_add (
           <h2>Ruckzuck verbinden und aus dem Browser lostelefonieren</h2>
           <p>Das Softphone mit den Grundfunktionen für Telefonie und Click-to-Dial können Sie stets kostenfrei nutzen. Zukünftige Features für noch angenehmere Business-Telefonie können Sie für einen Aufpreis dazubuchen.</p>
 
-          <img src="/assets/images/softphone/SIP-visualization.svg" alt="" />
+          <img src="/assets/images/softphone/SIP-visualization.svg" alt="" width="299" height="124" />
 
           <div class="pricetoggle__whitebox">
             <div class="grid flex vcenter">
@@ -409,15 +409,15 @@ $faqs->faq_add (
 
           <div class="grid centered">
             <div class="col-3">
-              <img src="/assets/images/icons_svg/icon-spezialist.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-spezialist.svg" alt="" width="56" height="62" />
               <p class="secondary">Spezialist für<br />Business Telefonie</p>
             </div>
             <div class="col-3">
-              <img src="/assets/images/icons_svg/icon-ansprechpartner.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-ansprechpartner.svg" alt="" width="57" height="61" />
               <p class="secondary">Persönlicher<br />Ansprechpartner</p>
             </div>
             <div class="col-3">
-              <img src="/assets/images/icons_svg/icon-datenschutz.svg" alt="" />
+              <img src="/assets/images/icons_svg/icon-datenschutz.svg" alt="" width="51" height="61" />
               <p class="secondary">Deutscher<br />Datenschutz-Standard</p>
             </div>
           </div>
@@ -430,7 +430,7 @@ $faqs->faq_add (
                 <div class="usercalc__box">
                   <div class="usercalc__header">
                     <div class="usercalc__icon">
-                      <img src="/assets/images/icons_svg/voip-telefonanlage.svg" alt="" />
+                      <img src="/assets/images/icons_svg/voip-telefonanlage.svg" alt="" width="50" height="51" />
                     </div>
                     <div class="usercalc__title">
                       <strong>Telefonanlage</strong><br />
@@ -470,7 +470,7 @@ $faqs->faq_add (
                 <label class="usercalc__box" for="callcenter-software">
                   <div class="usercalc__header">
                     <div class="usercalc__icon">
-                      <img src="/assets/images/icons_svg/callcenter-software.svg" alt="" />
+                      <img src="/assets/images/icons_svg/callcenter-software.svg" alt="" width="50" height="51" />
                     </div>
                     <div class="usercalc__title">
                       <strong>Callcenter-Software</strong><br />
@@ -615,7 +615,7 @@ $faqs->faq_add (
     <div class="installation">
       <div class="installation__header">
         <div class="installation__logo">
-          <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="" width="136" height="136" />
         </div>
         <div class="installation__title">
           <span class="headline-tag">App</span><br />
@@ -633,15 +633,15 @@ $faqs->faq_add (
 
         <div class="installation__grid">
           <div class="installation__col">
-            <img src="/assets/images/icons_svg/icon-download-extension.svg" alt="" />
+            <img src="/assets/images/icons_svg/icon-download-extension.svg" alt="" width="50" height="36" />
             1. Browser App<br />herunterladen
           </div>
           <div class="installation__col">
-            <img src="/assets/images/icons_svg/icon-authorization.svg" alt="" />
+            <img src="/assets/images/icons_svg/icon-authorization.svg" alt="" width="50" height="50" />
             2. Zugangsdaten<br />eintragen
           </div>
           <div class="installation__col">
-            <img src="/assets/images/icons_svg/icon-softphone-use.svg" alt="" />
+            <img src="/assets/images/icons_svg/icon-softphone-use.svg" alt="" width="58" height="42" />
             3. Los<br />telefonieren
           </div>
         </div>
@@ -650,15 +650,15 @@ $faqs->faq_add (
 
         <div class="installation__browsers">
           <a href="#" class="installation__browser" data-browser="chrome">
-            <div><img src="/assets/images/icons_png/google-chrome.png" alt="" /></div>
+            <div><img src="/assets/images/icons_png/google-chrome.png" alt="" width="40" height="40" /></div>
             Google<br />Chrome
           </a>
           <a href="#" class="installation__browser" data-browser="firefox">
-            <div><img src="/assets/images/icons_png/mozilla-firefox.png" alt="" /></div>
+            <div><img src="/assets/images/icons_png/mozilla-firefox.png" alt="" width="40" height="39" /></div>
             Mozilla<br />Firefox
           </a>
           <a href="#" class="installation__browser" data-browser="edge">
-            <div><img src="/assets/images/icons_svg/edge-logo.svg" alt="" /></div>
+            <div><img src="/assets/images/icons_svg/edge-logo.svg" alt="" width="40" height="39" /></div>
             Microsoft<br />Edge
           </a>
         </div>
