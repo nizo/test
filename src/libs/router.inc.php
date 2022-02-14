@@ -33,6 +33,10 @@ class Router {
     }
 
     public static function get_by_uri($uri) {
+        // Remove query string if present
+        $uri_parts = explode('?', $uri);
+        $uri = $uri_parts[0];
+
         foreach (self::$routes as $route) {
             // Check if passed URI exists as route
             if ($route->uri == $uri)
