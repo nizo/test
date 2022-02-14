@@ -1,0 +1,88 @@
+.plans+*, *+.plans {
+    margin-top: var(--gutter-l);
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 0 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: var(--gutter-m);
+    margin-right: var(--gutter-m);
+
+    h4 {
+        border-bottom: 2px solid rgba(#000, .1);
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: var(--gutter-xs);
+        &+p {
+            margin-top: 0;
+        }
+    }
+
+    ul {
+        margin-top: auto;
+        margin-bottom: var(--gutter-xs);
+        list-style: none;
+
+        li {
+            position: relative;
+            font-size: 20px;
+            padding-left: calc(1em + var(--gutter-xs));
+            opacity: 0.05;
+
+            &+li {
+                margin-top: var(--gutter-xs);
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: .25em;
+                display: block;
+                width: 1em;
+                height: 1em;
+                background-image: url(../images/icons_svg/icon-cancel-round.svg);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            &.plan__feature {
+                opacity: 1;
+                font-weight: 500;
+
+                &:before {
+                    background-image: url(../images/icons_svg/list-element.svg);
+                }
+            }
+        }
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &__bottom {
+        border-top: 2px solid rgba(#000, .1);
+        padding-top: var(--gutter-xs);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: calc(210px + var(--gutter-xs));
+    }
+}

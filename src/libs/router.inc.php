@@ -380,6 +380,9 @@ Router::add('/microsip', 'microsip.php', [
     'og_image_text' => 'MicroSIP vorkonfiguriert',
     'body_class' => 'full-bg background-transition'
 ]);
+Router::add('/ms-teams', 'ms-teams.php', [
+    'title' => 'Microsoft Teams'
+]);
 Router::add('/omr', 'omr-goodie.php', [
     'title' => 'OMR Goodie',
     'meta_description' => 'OMR Goodie',
