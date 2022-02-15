@@ -18,8 +18,70 @@
     background-color: #fff;
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: var(--gutter-m);
     margin-right: var(--gutter-m);
+    overflow: hidden;
+
+    &__top {
+        position: relative;
+        padding: var(--gutter-xs);
+        border-bottom: 2px solid rgba(#000, .25);
+        font-weight: 500;
+        text-align: center;
+        font-size: $font-size-xxl;
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: var(--gutter-xs);
+        height: 281px;
+        background-color: $color-primary;
+        padding: var(--gutter-xs);
+        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    &__features {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: var(--gutter-xs);
+    }
+
+    &__ribbon {
+        position: absolute;
+        inset: 0 0 auto auto; /* top and right equal to 0 */
+        transform-origin: 0 0; /* OR top left */
+        transform: translate(29.3%) rotate(45deg);
+        background: $color-primary;
+        box-shadow: 0 0 0 999px $color-primary;
+        clip-path: inset(0 -100%);
+        font-size: 14px;
+        font-family: $font-headline;
+        font-weight: 500;
+        padding: var(--gutter-micro);
+    }
+
+    &__price {
+        text-align: center;
+        line-height: 1.1;
+        color: rgba(#000, .5);
+        
+        span {
+            color: #000;
+            font-size: 60px;
+            font-family: $font-headline;
+        }
+    }
+    
+    .subtext {
+        opacity: .5;
+    }
+
+    .btn--secondary:hover {
+        background-color: #fff;
+    }
 
     h4 {
         border-bottom: 2px solid rgba(#000, .1);
@@ -42,7 +104,7 @@
             position: relative;
             font-size: 20px;
             padding-left: calc(1em + var(--gutter-xs));
-            opacity: 0.05;
+            opacity: 0.20;
 
             &+li {
                 margin-top: var(--gutter-xs);
@@ -76,13 +138,50 @@
     &:last-child {
         margin-right: 0;
     }
+}
 
-    &__bottom {
-        border-top: 2px solid rgba(#000, .1);
-        padding-top: var(--gutter-xs);
-        display: flex;
+@media screen and (max-width: 1100px) {
+    .plan {
+        font-size: 16px;
+
+        &__top {
+            font-size: $font-size-l;
+        }
+
+        &__price {
+            span {
+                font-size: 40px;
+            }
+        }
+
+        ul {
+            li {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .plans {
         flex-direction: column;
-        justify-content: flex-end;
-        height: calc(210px + var(--gutter-xs));
+    }
+
+    .plan {
+        flex: 1;
+
+        &__price {
+            span {
+                font-size: 50px;
+            }
+        }
+
+        &__bottom {
+            height: auto;
+        }
+
+        &+.plan {
+            margin-top: var(--gutter-m);
+        }
     }
 }

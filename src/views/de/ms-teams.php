@@ -10,12 +10,12 @@ $faqs->faq_add (
 );
 ?>
 
-<div class="section">
+<div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__text">
             <h1>Auf die Plätze, fertig, Teams Telefonie</h1>
             <p class="bigtext">Integrieren Sie auch Ihre Business-Telefonie direkt in Microsoft Teams. Nutzen Sie MS Teams Telefonie einfach als VoIP-Telefonanlage mit leistungsstarken Features für Ihr Contact Center. Ohne extra Hardware.</p>
-            <p class="bigtext">Ab <span class="bigtext__price">99€</span>/Monat</p>
+            <p class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</p>
 
             <p class="mobile-centered">
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Erstgespräch vereinbaren</a>
@@ -23,22 +23,29 @@ $faqs->faq_add (
             </p>
         </div>
         <div class="hero__image">
-            TODO: Add header image
+            <img src="/assets/images/illus/header-ms-teams.png" alt="" width="465" height="400"/>
         </div>
     </header>
 
-    <div class="section__content section__content--wide">
-        <p>TODO: Add client logos</p>
+    <div class="section__content section__content--wide mobile-hidden">
+        <br />
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" width="812" height="28" />
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812" height="28" />
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="section section--mobile-divider">
+<div class="section section--no-padding-top">
     <div class="anchors mobile-hidden">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
         <div class="anchors__links">
-            <!-- TODO: Add anchors to content -->
             <a href="#funktionen">Funktionen</a>
             <a href="#vorteile">Vorteile</a>
             <a href="#preise">Preise</a>
@@ -46,13 +53,13 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide" id="vorteile">
-        <h1 class="centered">
+        <h1 class="centered mobile-left">
             MS Teams Telefonie:<br />
             Ihre Vorteile der smarten Telefonie-Integration
         </h1>
 
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
                         <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="51" height="50" />
@@ -81,17 +88,16 @@ $faqs->faq_add (
                     </div>
                 </div>
 
-
+                <p class="mobile-centered">
+                    <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Jetzt Erstgespräch buchen</a>
+                    <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Jetzt Erstgespräch buchen</a>
+                </p>
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                TODO: Image
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
+                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="" width="570" height="570" />
             </div>
         </div>
 
-        <p class="mobile-centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Jetzt Erstgespräch buchen</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Jetzt Erstgespräch buchen</a>
-        </p>
     </div>
 </div>
 
@@ -214,80 +220,110 @@ $faqs->faq_add (
 
 <div class="section section--light-green">
     <div class="section__content section__content--wide">
+        <!-- TODO: Add correct quote -->
         <div class="co-grid">
-            <div class="co-grid__col--5-xs co-grid__col--vcentered">
-                TODO: Image
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--5-md co-grid__col--vcentered">
+                <img src="/assets/images/photos/brian-face-circle.png" alt="" width="470" height="558" />
             </div>
-            <div class="co-grid__col--7-xs co-grid__col--vcentered">
-                <p>TODO: Logo</p>
-                <p>TODO: Quote</p>
-                <p>TODO: Author</p>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--7-md co-grid__col--vcentered">
+                <p>
+                    <img src="/assets/images/client-logos/logo-lbs.svg" alt="" width="173" height="66" />
+                </p>
+                <blockquote class="quote">
+                    „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor, tempus quis volutpat quis ornare. Nullam donec egestas bibendum integer. Tristique molestie etiam nibh nulla in. Nunc nibh hac scelerisque ut.“
+                </blockquote>
+                <p>
+                    <strong>Felicia Telma</strong><br />
+                    Projektmanagerin
+                </p>
                 <p>
                     <a href="#" class="btn btn--primary mobile-hidden">Beratungsgespräch vereinbaren</a>
-                    <a href="#" class="btn btn--primary btn--full-width desktop-hidden">Beratungsgespräch vereinbaren</a>
                 </p>
             </div>
         </div>
+
+        <p class="desktop-hidden">
+            <a href="#" class="btn btn--primary btn--centered">Beratungsgespräch vereinbaren</a>
+        </p>
     </div>
 </div>
 
-<div class="section section--light-green-white" id="preise">
+<div class="section section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered">Starten Sie die Teams-Telefonie, die zu Ihrem Unternehmen passt.</h1>
-        <p class="centered bigtext">Wir sind Spezialisten für moderne Telekommunikationslösungen. Ihre Business-Telefonie integrieren wir problemlos in Microsoft Teams und bieten auf Wunsch eine vollumfassende Telefonielösung. Was brauchen Sie?</p>
+        <h1 class="centered mobile-left">Starten Sie die Teams-Telefonie, die zu Ihrem Unternehmen passt.</h1>
+        <p class="centered bigtext mobile-left">Wir sind Spezialisten für moderne Telekommunikationslösungen. Ihre Business-Telefonie integrieren wir problemlos in Microsoft Teams und bieten auf Wunsch eine vollumfassende Telefonielösung. Was brauchen Sie?</p>
 
-        <div class="plans">
+        <div class="plans" id="funktionen">
             <div class="plan">
-                <h4>Teams only</h4>
-                <p>Integrieren Sie Ihre Telefonie in Ihr bestehendes Microsoft Teams.</p>
-                <ul>
-                    <li class="plan__feature">Microsoft Teams Telefonie</li>
-                    <li>Integration weiterer Endgeräte</li>
-                    <li>Callcenter Software</li>
-                    <li>Schnittstelen zu Ihren Tools</li>
-                    <li>I2x Integration</li>
-                    <li>Was ihr Telefonie-Herz sonst begehrt</li>
-                </ul>
-                <div class="plan__bottom">
-                    <p class="bigtext"><span class="bigtext__price">99€</span> / Monat*</p>
+                <div class="plan__top">Teams only</div>
+                <div class="plan__features">
+                    <p>Integrieren Sie Ihre Telefonie in Ihr bestehendes Microsoft Teams.</p>
+                    <ul>
+                        <li class="plan__feature">Microsoft Teams Telefonie</li>
+                        <li>Integration weiterer Endgeräte</li>
+                        <li>Callcenter Software</li>
+                        <li>Schnittstelen zu Ihren Tools</li>
+                        <li>I2x Integration</li>
+                        <li>Was ihr Telefonie-Herz sonst begehrt</li>
+                    </ul>
+                </div>
+                <div class="plan__bottom" id="preise">
+                    <p class="plan__price">
+                        <span>99€</span><br />
+                        im Monat*
+                    </p>
+                    <p><a href="#" class="btn btn--secondary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
                     <p class="subtext">*Preis bezieht sich auf 10 User. Jeder weitere User kostet 7,90 € / Monat</p>
-                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot erhalten</a>
                 </div>
             </div>
             <div class="plan">
-                <h4>Hybride Lösung</h4>
-                <p>Integrieren Sie Ihre Telefonie in Ihr bestehendes Microsoft Teams. Binden Sie außerdem zusätzliche Endgeräte in die Telefonielösung ein.</p>
-                <ul>
-                    <li class="plan__feature">Microsoft Teams Telefonie</li>
-                    <li class="plan__feature">Integration weiterer Endgeräte</li>
-                    <li>Callcenter Software</li>
-                    <li>Schnittstelen zu Ihren Tools</li>
-                    <li>I2x Integration</li>
-                    <li>Was ihr Telefonie-Herz sonst begehrt</li>
-                </ul>
+                <div class="plan__top">Hybride Lösung</div>
+                <div class="plan__features">
+                    <p>Integrieren Sie Ihre Telefonie in Ihr bestehendes Microsoft Teams. Binden Sie außerdem zusätzliche Endgeräte in die Telefonielösung ein.</p>
+                    <ul>
+                        <li class="plan__feature">Microsoft Teams Telefonie</li>
+                        <li class="plan__feature">Integration weiterer Endgeräte</li>
+                        <li>Callcenter Software</li>
+                        <li>Schnittstelen zu Ihren Tools</li>
+                        <li>I2x Integration</li>
+                        <li>Was ihr Telefonie-Herz sonst begehrt</li>
+                    </ul>
+                </div>
                 <div class="plan__bottom">
-                    <p class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</p>
+                    <p class="plan__price">
+                        ab <span>99€</span><br />
+                        im Monat
+                    </p>
+                    <p><a href="#" class="btn btn--secondary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
                     <p class="subtext">&nbsp;<br />&nbsp;</p>
-                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot erhalten</a>
                 </div>
             </div>
             <div class="plan">
-                <h4>Customized</h4>
-                <p>
-                    Bekommen Sie genau die Lösung, die Ihre Unternehmenstelefonie benötigt!<br />
-                    Teams als Cloud-Telefonanlage in Kombination mit vielen weiteren Assets.
-                </p>
-                <ul>
-                    <li class="plan__feature">Microsoft Teams Telefonie</li>
-                    <li class="plan__feature">Integration weiterer Endgeräte</li>
-                    <li class="plan__feature">Callcenter Software</li>
-                    <li class="plan__feature">Schnittstelen zu Ihren Tools</li>
-                    <li class="plan__feature">I2x Integration</li>
-                    <li class="plan__feature">Was ihr Telefonie-Herz sonst begehrt</li>
-                </ul>
+                <div class="plan__top">
+                    Customized
+                    <div class="plan__ribbon">Beliebt</div>
+                </div>
+                <div class="plan__features">
+                    <p>
+                        Bekommen Sie genau die Lösung, die Ihre Unternehmenstelefonie benötigt!<br />
+                        Teams als Cloud-Telefonanlage in Kombination mit vielen weiteren Assets.
+                    </p>
+                    <ul>
+                        <li class="plan__feature">Microsoft Teams Telefonie</li>
+                        <li class="plan__feature">Integration weiterer Endgeräte</li>
+                        <li class="plan__feature">Callcenter Software</li>
+                        <li class="plan__feature">Schnittstelen zu Ihren Tools</li>
+                        <li class="plan__feature">I2x Integration</li>
+                        <li class="plan__feature">Was ihr Telefonie-Herz sonst begehrt</li>
+                    </ul>
+                </div>
                 <div class="plan__bottom">
-                    <p class="bigtext">Kostenfrei mit der CallOne Callcenter Software oder CallOne VoIP-Telefonanlage</p>
-                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt individuelles Angebot erhalten</a>
+                    <p class="plan__price">
+                        <span>Angebot</span><br />
+                        jetzt sichern
+                    </p>
+                    <p><a href="#" class="btn btn--secondary btn--full-width centered" data-openmodal="contact-sales">Individuelles <br />Angebot erhalten</a></p>
+                    <p class="subtext">*Kostenfrei mit der CallOne Callcenter Software oder CallOne VoIP-Telefonanlage</p>
                 </div>
             </div>
         </div>
@@ -296,13 +332,40 @@ $faqs->faq_add (
 
 <div class="section section--black">
     <div class="section__content">
-        <h1 class="centered">Was brauchen Sie, um loszulegen?</h1>
-
+        <h1 class="centered mobile-left">Was brauchen Sie, um loszulegen?</h1>
+        
 		<?php
 		$faqs->structured_data_get_code ();
 		$faqs->html_get_code('toggle-box--on-black');
 		?>
 	</div>
+</div>
+
+<div class="section section--black">
+    <div class="section__content section__content--narrow">
+        <h1 class="centered mobile-left">Wir helfen Ihnen gerne weiter.</h1>
+
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--vcentered">
+                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" height="70" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                        <p>
+                            <a href="tel:+493092033500" class="inline-link bigtext">+49 (0) 30 - 920 33 500</a><br />
+                            Rufen Sie uns gerne an. Wir beraten Sie sehr gerne.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm co-grid__col--vcentered">
+                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="" width="237" height="256" />
+            </div>
+        </div>
+
+        <a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Direkt Erstgespräch buchen</a>
+    </div>
 </div>
 
 <script>

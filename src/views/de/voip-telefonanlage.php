@@ -71,7 +71,7 @@ $faqs->faq_add (
                 <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="" width="675" height="28" />
             </div>
             <div class="small-tabs__content centered" data-tab="2">
-                    <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" width="812" height="28" />
+                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" width="812" height="28" />
             </div>
             <div class="small-tabs__content centered" data-tab="3">
                 <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812" height="28" />
