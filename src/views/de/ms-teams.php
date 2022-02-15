@@ -243,7 +243,7 @@ $faqs->faq_add (
         </div>
 
         <p class="desktop-hidden">
-            <a href="#" class="btn btn--primary btn--centered">Beratungsgespräch vereinbaren</a>
+            <a href="#" class="btn btn--primary btn--centered centered">Beratungsgespräch vereinbaren</a>
         </p>
     </div>
 </div>
@@ -272,7 +272,7 @@ $faqs->faq_add (
                         <span>99€</span><br />
                         im Monat*
                     </p>
-                    <p><a href="#" class="btn btn--secondary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
+                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
                     <p class="subtext">*Preis bezieht sich auf 10 User. Jeder weitere User kostet 7,90 € / Monat</p>
                 </div>
             </div>
@@ -294,7 +294,7 @@ $faqs->faq_add (
                         ab <span>99€</span><br />
                         im Monat
                     </p>
-                    <p><a href="#" class="btn btn--secondary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
+                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
                     <p class="subtext">&nbsp;<br />&nbsp;</p>
                 </div>
             </div>
@@ -312,17 +312,17 @@ $faqs->faq_add (
                         <li class="plan__feature">Microsoft Teams Telefonie</li>
                         <li class="plan__feature">Integration weiterer Endgeräte</li>
                         <li class="plan__feature">Callcenter Software</li>
-                        <li class="plan__feature">Schnittstelen zu Ihren Tools</li>
+                        <li class="plan__feature">Schnittstellen zu Ihren Tools</li>
                         <li class="plan__feature">I2x Integration</li>
                         <li class="plan__feature">Was ihr Telefonie-Herz sonst begehrt</li>
                     </ul>
                 </div>
                 <div class="plan__bottom">
                     <p class="plan__price">
-                        <span>Angebot</span><br />
+                        <span>0€*</span><br />
                         jetzt sichern
                     </p>
-                    <p><a href="#" class="btn btn--secondary btn--full-width centered" data-openmodal="contact-sales">Individuelles <br />Angebot erhalten</a></p>
+                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Individuelles <br />Angebot erhalten</a></p>
                     <p class="subtext">*Kostenfrei mit der CallOne Callcenter Software oder CallOne VoIP-Telefonanlage</p>
                 </div>
             </div>
@@ -364,7 +364,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Direkt Erstgespräch buchen</a>
+        <a href="#" class="btn btn--primary btn--centered centered" data-openmodal="contact-sales">Direkt Erstgespräch buchen</a>
     </div>
 </div>
 
