@@ -1,4 +1,48 @@
-<svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="0.120728" width="26" height="26" rx="4" fill="#86ed18"/>
-<path d="M4 12.1207L11 19.1207L22 7.12073" stroke="white" stroke-width="2"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="26"
+   height="27"
+   viewBox="0 0 26 27"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="checkbox-checked-green.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="30.814815"
+     inkscape:cx="12.996995"
+     inkscape:cy="13.516226"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <rect
+     y="0.120728"
+     width="26"
+     height="26"
+     rx="4"
+     fill="#86ed18"
+     id="rect2" />
+  <path
+     d="M4 12.1207L11 19.1207L22 7.12073"
+     stroke="white"
+     stroke-width="2"
+     id="path4"
+     style="stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round" />
 </svg>

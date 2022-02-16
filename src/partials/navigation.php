@@ -141,13 +141,23 @@ $jobsCount = count($jobs->jobs_get());
                             
                             <div class="submenu__row submenu__row--fill">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
-                                    <a href="/0800-lokal-nummern" class="submenu__link">
+                                <a href="/0800-lokal-nummern" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-numbers.png" alt="" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Rufnummern</strong>
                                             <p>Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich & weltweit</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/ms-teams" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-teams.png" alt="" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Microsoft Teams</strong>
+                                            <p>Die smarte Telefonie für Ihr Unternehmen</p>
                                         </div>
                                     </a>
 

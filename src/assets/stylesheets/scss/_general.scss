@@ -759,6 +759,10 @@ img {
 @media screen and (max-width: 800px) {
 	.mobile-hidden{
 		display: none !important;
+
+		&+* {
+			margin-top: 0 !important;
+		}
 	}
 	.desktop-hidden{
 		display: block !important;

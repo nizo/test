@@ -6,7 +6,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto 60px auto;
+    margin: 0 auto;
 
     &__text {
         width: 100%;
@@ -63,7 +63,6 @@
 @media screen and (max-width: 1000px) {
     .hero {
         flex-direction: column;
-        margin-bottom: 0;
 
         &__text {
             order: 2;

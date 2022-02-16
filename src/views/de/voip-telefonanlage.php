@@ -179,8 +179,7 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams gefällig? Kein Problem!</p>
 
-					<!-- TODO: Add link to MS Teams -->
-                    <p><a href="#" style="visibility:hidden" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
+                    <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
         </div>
@@ -233,8 +232,7 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams.</p>
 
-					<!-- TODO: Add link to MS Teams -->
-                    <p><a href="#" style="visibility:hidden" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
+                    <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
         </div>
@@ -377,7 +375,7 @@ $faqs->faq_add (
 								<img src="/assets/images/photos/microsoft-teams.png" alt="" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Teams Telefonie mit CallOne bedeutet nahtlose Integration.</p>
+								<p class="bigtext"><a href="/ms-teams" class="inline-link">Teams Telefonie</a> mit CallOne bedeutet nahtlose Integration.</p>
 								<br />
 								<ul class="list list--checkmarks list--on-black">
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
@@ -605,8 +603,8 @@ $faqs->faq_add (
 						<p class="bigtext desktop-hidden">Unser Team betreut und berät Sie persönlich zu allem rundum Ihre Cloud Telefonanlage von CallOne.</p>
 
                         <p class="mobile-centered">
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered mobile-hidden">Wie wir Sie zum erfolg führen</a>
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir Sie zum erfolg führen</a>
+                            <a href="/customer-success" class="btn btn--secondary btn--centered mobile-hidden">Wie wir Sie zum erfolg führen</a>
+                            <a href="/customer-success" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir Sie zum erfolg führen</a>
                         </p>
                     </div>
                 </div>
@@ -874,9 +872,8 @@ $faqs->faq_add (
 									<h4>Teams Telefonie</h4>
 									<p>Integration ins kundeneigenes MS Teams als Hauptclient für die Telefonie.</p>
 								</div>
-								<!-- TODO: Add Link to MS Teams -->
-								<!-- <br /> -->
-								<!-- <p><a href="#todo" class="btn btn--border-black">Mehr erfahren</a></p> -->
+								<br />
+								<p><a href="/ms-teams" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 						</div>
 					</div>

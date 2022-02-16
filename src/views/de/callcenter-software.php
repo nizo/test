@@ -55,7 +55,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--white-grey-white section--same-padding mobile-hidden">
+<div class="section section--white-grey-white mobile-hidden">
 	<div class="anchors">
 		<div class="anchors__title">
 			<strong>Schnelleinstieg:</strong> Was interessiert dich?

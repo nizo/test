@@ -1,12 +1,9 @@
 .section {
     --color-text: #000;
     width: 100%;
-    padding: 100px 25px 60px 25px;
+    padding: 60px 25px;
     
     // Modifiers
-    &--same-padding {
-        padding: 60px 25px;
-    }
     &--no-padding-top {
         padding-top: 0 !important;
     }
@@ -306,7 +303,7 @@
         padding-bottom: 0 !important;
         background-repeat: no-repeat;
         background-position: calc(50% + 475px) center, calc(50% + 485px) center, center;
-        background-size: auto, 731px, auto;
+        background-size: auto, 620px, auto;
 
         .index-card {
             border-bottom-left-radius: 0;

@@ -13,60 +13,48 @@ $faqs->faq_add (
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__text">
-            <h1>Auf die Plätze, fertig, Teams Telefonie</h1>
-            <p class="bigtext">Integrieren Sie auch Ihre Business-Telefonie direkt in Microsoft Teams. Nutzen Sie MS Teams Telefonie einfach als VoIP-Telefonanlage mit leistungsstarken Features für Ihr Contact Center. Ohne extra Hardware.</p>
-            <p class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</p>
+            <h1>Auf die Plätze, fertig, <u>Teams</u> Telefonie</h1>
+            <h2>Integrieren Sie auch Ihre Business-Telefonie direkt in Microsoft Teams. Nutzen Sie MS Teams Telefonie einfach als VoIP-Telefonanlage mit leistungsstarken Features für Ihr Contact Center. Ohne extra Hardware.</h2>
+            <h2 class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</h2>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Erstgespräch vereinbaren</a>
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Erstgespräch vereinbaren</a>
+                <a href="#preise" class="btn btn--primary mobile-hidden">Gleich zu unseren Preisen</a>
+                <a href="#preise" class="btn btn--primary btn--full-width desktop-hidden">Gleich zu unseren Preisen</a>
             </p>
         </div>
         <div class="hero__image">
             <img src="/assets/images/illus/header-ms-teams.png" alt="" width="465" height="400"/>
         </div>
     </header>
-
-    <div class="section__content section__content--wide mobile-hidden">
-        <br />
-        <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="" width="812" height="28" />
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812" height="28" />
-            </div>
-        </div>
-    </div>
 </div>
 
 <div class="section section--no-padding-top">
-    <div class="anchors mobile-hidden">
-        <div class="anchors__title">
-            <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
-        </div>
-        <div class="anchors__links">
-            <a href="#funktionen">Funktionen</a>
-            <a href="#vorteile">Vorteile</a>
-            <a href="#preise">Preise</a>
-        </div>
+    <div class="section__content section__content--wide mobile-hidden">
+        <p class="bigtext centered">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, ipsa.<br />
+            <br />
+            <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812" height="28" />
+        </p>
     </div>
 
-    <div class="section__content section__content--wide" id="vorteile">
+    <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">
             MS Teams Telefonie:<br />
             Ihre Vorteile der smarten Telefonie-Integration
         </h1>
 
         <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
+                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="" width="570" height="570" />
+            </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="51" height="50" />
+                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="" width="50" height="50" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
-                        <h4>Ein Tool für alle Anrufe</h4>
-                        <p>Telefonieren Sie direkt aus Microsoft Teams in alle Netze. Mit der Teams Telefonie laufen alle Anrufe über Ihre Büronummer - bei bester Qualität.</p>
+                        <h4>Höchste Flexibilität Dank Teams-Telefonie</h4>
+                        <p>Ob Desktop, Tablet oder Smartphone: in Microsoft Teams haben Sie immer alle Funktionen parat. Unabhängig vom Betriebssystem sind Sie zuverlässig erreichbar.</p>
                     </div>
                 </div>
                 <div class="co-grid">
@@ -80,21 +68,13 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="" width="50" height="50" />
+                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="51" height="50" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
-                        <h4>Höchste Flexibilität Dank Teams-Telefonie</h4>
-                        <p>Ob Desktop, Tablet oder Smartphone: in Microsoft Teams haben Sie immer alle Funktionen parat. Unabhängig vom Betriebssystem sind Sie zuverlässig erreichbar.</p>
+                        <h4>Ein Tool für alle Anrufe</h4>
+                        <p>Telefonieren Sie direkt aus Microsoft Teams in alle Netze. Mit der Teams Telefonie laufen alle Anrufe über Ihre Büronummer - bei bester Qualität.</p>
                     </div>
                 </div>
-
-                <p class="mobile-centered">
-                    <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Jetzt Erstgespräch buchen</a>
-                    <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Jetzt Erstgespräch buchen</a>
-                </p>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
-                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="" width="570" height="570" />
             </div>
         </div>
 
@@ -218,42 +198,12 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--light-green">
-    <div class="section__content section__content--wide">
-        <!-- TODO: Add correct quote -->
-        <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--5-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/brian-face-circle.png" alt="" width="470" height="558" />
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--7-md co-grid__col--vcentered">
-                <p>
-                    <img src="/assets/images/client-logos/logo-lbs.svg" alt="" width="173" height="66" />
-                </p>
-                <blockquote class="quote">
-                    „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor, tempus quis volutpat quis ornare. Nullam donec egestas bibendum integer. Tristique molestie etiam nibh nulla in. Nunc nibh hac scelerisque ut.“
-                </blockquote>
-                <p>
-                    <strong>Felicia Telma</strong><br />
-                    Projektmanagerin
-                </p>
-                <p>
-                    <a href="#" class="btn btn--primary mobile-hidden">Beratungsgespräch vereinbaren</a>
-                </p>
-            </div>
-        </div>
-
-        <p class="desktop-hidden">
-            <a href="#" class="btn btn--primary btn--centered centered">Beratungsgespräch vereinbaren</a>
-        </p>
-    </div>
-</div>
-
 <div class="section section--light-green-white">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Starten Sie die Teams-Telefonie, die zu Ihrem Unternehmen passt.</h1>
         <p class="centered bigtext mobile-left">Wir sind Spezialisten für moderne Telekommunikationslösungen. Ihre Business-Telefonie integrieren wir problemlos in Microsoft Teams und bieten auf Wunsch eine vollumfassende Telefonielösung. Was brauchen Sie?</p>
 
-        <div class="plans" id="funktionen">
+        <div class="plans" id="preise">
             <div class="plan">
                 <div class="plan__top">Teams only</div>
                 <div class="plan__features">
@@ -267,7 +217,7 @@ $faqs->faq_add (
                         <li>Was ihr Telefonie-Herz sonst begehrt</li>
                     </ul>
                 </div>
-                <div class="plan__bottom" id="preise">
+                <div class="plan__bottom">
                     <p class="plan__price">
                         <span>99€</span><br />
                         im Monat*
