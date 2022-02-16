@@ -1,5 +1,8 @@
 <?php
+// Images root folder
 $images_folder = 'assets/images/';
+
+// Directories to scan (sub-directories included) + Readable name for display
 $directories = [
     'backgrounds_png' => 'Backgrounds PNG',
     'backgrounds_svg' => 'Backgrounds SVG',
@@ -9,8 +12,11 @@ $directories = [
     'screens' => 'Screen Illustrationen',
     'softphone' => 'Softphone Page',
 ];
-$allowed_extensions = ['jpg', 'svg', 'png', 'jpeg'];
 
+// Only these file extensionsa re going to be displayed
+$allowed_extensions = ['jpg', 'svg', 'png', 'jpeg', 'gif'];
+
+// Get files recursively from given path
 function get_files_recursively($dir, &$results = array()) {
     $files = scandir($dir);
 
@@ -113,6 +119,7 @@ function get_files_recursively($dir, &$results = array()) {
         <ul>
             <li><a href="/pics">Alle Bilder anzeigen</a></li>
             <?php
+            // List available directories
             foreach ($directories as $key => $value) {
                 echo '<li><a href="/pics?id='.$key.'">'.$value.'</a></li>';
             }
@@ -122,6 +129,7 @@ function get_files_recursively($dir, &$results = array()) {
 
     <div class="pics__right">
         <?php
+        // Check if a specific directory ID is requested and adjust $directories variable accordingly
         $requested_id = htmlspecialchars($_GET['id']);
         if (array_key_exists($requested_id, $directories)) {
             $directories = [
@@ -145,6 +153,7 @@ function get_files_recursively($dir, &$results = array()) {
 </div>
 
 <script>
+    // Change image preview size when slider is moved
     let size_slider = document.querySelector('input#size');
     let pics = document.querySelector('.pics');
     size_slider.addEventListener('input', e => {
