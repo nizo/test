@@ -428,30 +428,36 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
 /* ********************* **
 ** ** DEBUGGING PAGES ** **
 ** ********************* */
-Router::add('/components', 'components.php', [
+Router::add('/components', 'tools/components.php', [
     'title' => 'Components',
     'layout' => 'clean.php',
     'body_class' => 'components--scrollbar',
     'sitemap_include' => false
 ]);
-Router::add('/routes', 'routes-list.php', [
+Router::add('/routes', 'tools/routes-list.php', [
     'title' => 'Routes List',
     'layout' => 'clean.php',
     'sitemap_include' => false
 ]);
-Router::add('/icons', 'icons.php', [
+Router::add('/icons', 'tools/icons.php', [
     'title' => 'Icons',
     'layout' => 'clean.php',
     'body_class' => 'components--scrollbar',
     'sitemap_include' => false
 ]);
-Router::add('/screensize', 'screensize.php', [
+Router::add('/pics', 'tools/pics.php', [
+    'title' => 'Pics',
+    'layout' => 'clean.php',
+    'body_class' => 'components--scrollbar',
+    'sitemap_include' => false
+]);
+Router::add('/screensize', 'tools/screensize.php', [
     'title' => 'Scree Size',
     'layout' => 'clean.php',
     'body_class' => 'components--scrollbar',
     'sitemap_include' => false
 ]);
-Router::add('/statistics', 'statistics.php', [
+Router::add('/statistics', 'tools/statistics.php', [
     'title' => 'Statistics',
     'layout' => 'clean.php',
     'body_class' => 'components--scrollbar',
