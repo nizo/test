@@ -445,16 +445,9 @@ Router::add('/routes', 'tools/routes-list.php', [
     'layout' => 'clean.php',
     'sitemap_include' => false
 ]);
-Router::add('/icons', 'tools/icons.php', [
-    'title' => 'Icons',
+Router::add('/tools/assets', 'tools/assets.php', [
+    'title' => 'CallOne Assets',
     'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
-    'sitemap_include' => false
-]);
-Router::add('/pics', 'tools/pics.php', [
-    'title' => 'Pics',
-    'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
     'sitemap_include' => false
 ]);
 Router::add('/screensize', 'tools/screensize.php', [
