@@ -153,11 +153,44 @@ function get_files_recursively($dir, &$results = array()) {
         margin: .5em;
         background-color: #fff;
     }
+    .asset::before, .asset::after {
+        position: absolute;
+        line-height: 1;
+        padding: .25em;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 100%;
+    }
+    .asset[data-size]::before {
+        content: attr(data-size);
+        top: 0;
+        right: 0;
+    }
+    .asset::after {
+        content: attr(title);
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
     .asset img {
         height: 100%;
     }
     .asset video {
         height: 100%;
+    }
+    .asset__play {
+        padding: 0 1em;
+    }
+    .asset__play::before {
+        content: "";
+        display: block;
+        border-left: calc(var(--size) / 4) solid #86ed18;
+        border-top: calc(var(--size) / 4) solid transparent;
+        border-bottom: calc(var(--size) / 4) solid transparent;
     }
 </style>
 
@@ -173,7 +206,6 @@ function get_files_recursively($dir, &$results = array()) {
         </div>
 
         <ul>
-            <li><a href="/tools/assets">Alles anzeigen</a></li>
             <?php
             // List available directories
             foreach ($directories as $key => $value) {
@@ -187,14 +219,11 @@ function get_files_recursively($dir, &$results = array()) {
     <div class="assets__right">
         <?php
         // Check if a specific directory ID is requested and adjust $directories variable accordingly
-        $requested_id = $_GET['id'];
+        $requested_id = isset($_GET['id']) ? $_GET['id'] : null;
         $show_videos = false;
         
         // Prepopulate files with all images/videos
-        $files = array_merge(
-            get_files_recursively($folder_images),
-            get_files_recursively($folder_videos)
-        );
+        $files = [];
 
         if (array_key_exists($requested_id, $directories)) {
             // Overwrite files variable with requested image subfolder
@@ -206,15 +235,17 @@ function get_files_recursively($dir, &$results = array()) {
 
         foreach ($files as $file) {
             $pathinfo = pathinfo($file);
+            $file_name = $pathinfo['basename'];
             $file_extension = $pathinfo['extension'];
+            $size = getimagesize($file);
 
             // Skip if not a file or not an allowed file extension
             if (is_dir($file) || !in_array($file_extension, $allowed_extensions))
                 continue;
 
-            echo '<a href="'.$file.'" class="asset" target="_blank" title="'.$file.'">';
+            echo '<a href="/'.$file.'" class="asset" target="_blank" title="'.$file_name.'"'.($size ? ' data-size="'.$size[0].'×'.$size[1].'"' : '').'>';
             if (in_array($file_extension, $video_extensions)) {
-                echo '<video src="/'.$file.'" controls></video>';
+                echo '<span class="asset__play"></span>';
             } else {
                 echo '<img src="/'.$file.'" alt="" />';
             }
