@@ -197,19 +197,21 @@ function get_files_recursively($dir, &$results = array()) {
         );
 
         if (array_key_exists($requested_id, $directories)) {
+            // Overwrite files variable with requested image subfolder
             $files = get_files_recursively($folder_images.$requested_id);
         } else if ($requested_id == 'videos') {
+            // Overwrite files variable with video folder
             $files = get_files_recursively($folder_videos);
         }
 
         foreach ($files as $file) {
             $pathinfo = pathinfo($file);
-            $file_directory = $pathinfo['dirname'];
-            $file_name = $pathinfo['basename'];
             $file_extension = $pathinfo['extension'];
 
+            // Skip if not a file or not an allowed file extension
             if (is_dir($file) || !in_array($file_extension, $allowed_extensions))
                 continue;
+
             echo '<a href="'.$file.'" class="asset" target="_blank" title="'.$file.'">';
             if (in_array($file_extension, $video_extensions)) {
                 echo '<video src="/'.$file.'" controls></video>';
