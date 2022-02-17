@@ -14,12 +14,14 @@ $faqs->faq_add (
     <header class="hero">
         <div class="hero__text">
             <h1>Auf die Plätze, fertig, <u>Teams</u> Telefonie</h1>
-            <h2>Integrieren Sie auch Ihre Business-Telefonie direkt in Microsoft Teams. Nutzen Sie MS Teams Telefonie einfach als VoIP-Telefonanlage mit leistungsstarken Features für Ihr Contact Center. Ohne extra Hardware.</h2>
+            <h2>
+                Integrieren Sie Ihre Business-Telefonie direkt in Microsoft Teams. Nutzen Sie MS Teams Telefonie <br />einfach als VoIP-Telefonanlage <br />
+                <span class="typing-text" data-texts="mit leistungsstarken Features|samt Turbo-Baukasten für Ihre Unternehmenstelefonie|ohne extra Hardware" data-colors="#FF002E|#FF7B1B|#DB00C5">mit leistungsstarken Features</span></h2>
             <h2 class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</h2>
 
             <p class="mobile-centered">
-                <a href="#preise" class="btn btn--primary mobile-hidden">Gleich zu unseren Preisen</a>
-                <a href="#preise" class="btn btn--primary btn--full-width desktop-hidden">Gleich zu unseren Preisen</a>
+                <a href="#preise" class="btn btn--primary mobile-hidden">Direkt zu unseren Preisen</a>
+                <a href="#preise" class="btn btn--primary btn--full-width desktop-hidden">Direkt zu unseren Preisen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -31,16 +33,19 @@ $faqs->faq_add (
 <div class="section section--no-padding-top">
     <div class="section__content section__content--wide mobile-hidden">
         <p class="bigtext centered">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, ipsa.<br />
+            Für Unternehmen jeder Größe bieten wir die richtige Telefonie-Lösung. Auch für Ihres.<br />
             <br />
-            <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="" width="812" height="28" />
+            <img src="/assets/images/client-logos/Teams-Kombi.svg" alt="" width="812" height="28" />
+            <br />
         </p>
     </div>
+</div>
 
+<div class="section">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">
             MS Teams Telefonie:<br />
-            Ihre Vorteile der smarten Telefonie-Integration
+            Unternehmenstelefonie war noch nie so einfach!
         </h1>
 
         <div class="co-grid">
@@ -53,7 +58,7 @@ $faqs->faq_add (
                         <img src="/assets/images/icons_svg/msteams-icon.svg" alt="" width="50" height="50" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
-                        <h4>Höchste Flexibilität Dank Teams-Telefonie</h4>
+                        <h4>Maximale Flexibilität Dank Teams-Telefonie</h4>
                         <p>Ob Desktop, Tablet oder Smartphone: in Microsoft Teams haben Sie immer alle Funktionen parat. Unabhängig vom Betriebssystem sind Sie zuverlässig erreichbar.</p>
                     </div>
                 </div>
@@ -71,7 +76,7 @@ $faqs->faq_add (
                         <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="51" height="50" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
-                        <h4>Ein Tool für alle Anrufe</h4>
+                        <h4>Extra Hardware? Unnötig!</h4>
                         <p>Telefonieren Sie direkt aus Microsoft Teams in alle Netze. Mit der Teams Telefonie laufen alle Anrufe über Ihre Büronummer - bei bester Qualität.</p>
                     </div>
                 </div>
@@ -105,9 +110,9 @@ $faqs->faq_add (
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
                     <div class="index-card__content index-card__content--active">
-                        <h3 class="centered">Cloud Telefonanlage mit Wow-Effekt</h3>
+                        <h3 class="centered">Der Wow-Effekt für <br />Ihre Cloud Telefonanlage</h3>
                         
-                        <p class="centered bigtext">Ihre VoIP-Telefonanlage und Call Center Software integrieren wir perfekt in Microsoft Teams.</p>
+                        <p class="centered bigtext">Ihre VoIP-Telefonanlage und Call Center Software integrieren wir perfekt in Microsoft Teams. Zusätzlich die CallOne Vorteile nutzen und genau so telefonieren wie Sie es brauchen.</p>
 
                         <p class="mobile-centered">
                             <a href="/voip-telefonanlage" class="btn btn--primary btn--centered mobile-hidden">Zur Cloud Telefonanlage</a>
@@ -139,14 +144,14 @@ $faqs->faq_add (
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#464775"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Für Zahlen-Fans</h6>
+                            <h6 class="index-card__title">Für Fakten-Fans</h6>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
                     <div class="index-card__content index-card__content--active">
-                        <h3 class="centered">Mehr Transparenz, weniger Kosten</h3>
+                        <h3 class="centered">Volle Transparenz & <br />fast unbegrenzte Möglichkeiten</h3>
                         
-                        <p class="centered bigtext">Sie bekommen von uns das vielleicht umfangreichste Reporting rund um Ihre Telefonie. Mit unseren Auswertungen heben Sie endlich wahre ROI-Schätze.</p>
+                        <p class="centered bigtext">Sie bekommen von CallOne den Turbo-Baukasten für Ihre Business-Telefonie. Plus das wahrscheinlich umfangreichste Telefonie-Reporting. Behalten Sie den Überblick und heben Sie Ihre ROI-Schätze!</p>
 
                         <p class="mobile-centered">
                             <a href="/statistiken" class="btn btn--primary btn--centered mobile-hidden">Mehr über unsere Statistiken</a>
@@ -178,14 +183,14 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#464775"></div>
                             </div>
-                            <h6 class="index-card__title">Für Know-how-Liebende</h6>
+                            <h6 class="index-card__title">Für IT-Träumer</h6>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
                     <div class="index-card__content index-card__content--active">
-                        <h3 class="centered">Know-how ist unser Daily Business</h3>
+                        <h3 class="centered">Endlich Seelenfrieden <br />in Ihrer IT</h3>
                         
-                        <p class="centered bigtext">Sie werden persönlich durch unsere Spezialist*innen beraten. Wir bieten das vielleicht breiteste Angebot an Telefoniemodulen, die Sie in Microsoft Teams integrieren können.</p>
+                        <p class="centered bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie.</p>
 
                         <p class="mobile-centered">
                             <a href="/customer-success" class="btn btn--primary btn--centered mobile-hidden">Wie wir arbeiten</a>
