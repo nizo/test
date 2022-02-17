@@ -416,7 +416,7 @@
           <div class="col-3">
             <span class="sl sl-return sl-size-xl"></span>
             <h3>Callback</h3>
-            <p>Rufen Sie doch einfach mal Ihre Kunden an! Mit dem CallOne Callback können Sie spielend einfach einen Rückrufbutton auf Ihrer Website implementieren. Kunden können dort Ihre Rufnummer eintragen und Rückrufe werden automatisch über die Plattform ausgelöst. Sie können entscheiden, ob Sie Ihren Anrufer eine Auswahl verschiedener Rückruftermine zur Auswahl geben oder den Rückruf sofort auslösen. Die Auswahl eines Anliegens per Drop-Down-Menü, Eingabe einer Kundennummer oder das Einspielen von Informationen während des Telefonats sind ebenfalls möglich. Mehr Informationen zum Callback finden Sie <a href="#">hier</a>.</p>
+            <p>Rufen Sie doch einfach mal Ihre Kunden an! Mit dem CallOne Callback können Sie spielend einfach einen Rückrufbutton auf Ihrer Website implementieren. Kunden können dort Ihre Rufnummer eintragen und Rückrufe werden automatisch über die Plattform ausgelöst. Sie können entscheiden, ob Sie Ihren Anrufer eine Auswahl verschiedener Rückruftermine zur Auswahl geben oder den Rückruf sofort auslösen. Die Auswahl eines Anliegens per Drop-Down-Menü, Eingabe einer Kundennummer oder das Einspielen von Informationen während des Telefonats sind ebenfalls möglich.</p>
           </div>
           <div class="col-3">
             <span class="sl sl-recorder sl-size-xl"></span>
