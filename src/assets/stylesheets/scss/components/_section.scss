@@ -10,6 +10,9 @@
     &--no-padding-bottom {
         padding-bottom: 0 !important;
     }
+    &--big-padding {
+        padding: var(--gutter-xxl) 25px;
+    }
     &--overflow-protection {
         overflow-y: visible;
         overflow-x: hidden;
@@ -302,7 +305,7 @@
         display: none;
         padding-bottom: 0 !important;
         background-repeat: no-repeat;
-        background-position: calc(50% + 475px) center, calc(50% + 485px) center, center;
+        background-position: calc(50% - 475px) center, calc(50% - 485px) center, center;
         background-size: auto, 620px, auto;
 
         .index-card {

@@ -265,12 +265,16 @@ p {
 	&.footnote {
 		font-size: $font-size-xxs;
 	}
-	&+p {
+	&+p, &+ul, &+ol {
 		margin-top: $gutter-l;
 		@media screen and (max-width: 670px) {
 			margin-top: $gutter-s;
 		}
 	}
+}
+
+ol {
+	padding-left: 2em;
 }
 
 hr {

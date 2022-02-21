@@ -4,6 +4,7 @@
     font-weight: normal;
     // border-bottom: 2px solid $color-primary;
     margin-top: 0;
+    display: inline;
 
     &:before {
         content: " "; // Space to keep size of element when textContent is empty during animation

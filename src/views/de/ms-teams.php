@@ -1,12 +1,16 @@
 <?php
 $faqs = new faqs ();
 $faqs->faq_add (
-	'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, odio?',
-	'<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa explicabo, in quae aliquid odio facilis alias eaque voluptatum aspernatur quisquam earum nihil sint, maiores eos debitis! Quisquam, reprehenderit ex?</p>'
+	'Wie funktioniert Microsoft Teams?',
+	'<p>Die Teams Telefonie läuft bei Teams only über das Programm Microsoft Teams. Über die App kann also jeder PC, Laptop, jedes Handy und andere mobile Endgeräte in Ihre Telefonie eingebunden werden. Um mit Teams zu telefonieren, brauchen Sie eine stabile Internetleitung. Im Prinzip funktioniert die Teams Telefonie dann wie mit einem <a href="https://www.callone.de/blog/5-beste-softphones-fuer-cloud-telefonanlagen/">Softphone</a>.</p><p>Über die Funktion des Direct Routing können Sie Microsoft Teams in Kombination mit der CallOne Cloud Telefonanlage nutzen. So kann Ihre gesamte Unternehmenstelefonie in Microsoft Teams abgebildet werden.</p>'
 );
 $faqs->faq_add (
-	'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, odio?',
-	'<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa explicabo, in quae aliquid odio facilis alias eaque voluptatum aspernatur quisquam earum nihil sint, maiores eos debitis! Quisquam, reprehenderit ex?</p>'
+	'Was bedeutet Direct Routing?',
+	'<p>Microsoft Teams Direct Routing (auch direktes Routing) ist eine Funktion innerhalb von Microsoft, die es ermöglicht, Microsoft Teams in die CallOne Callcenter Lösung zu integrieren. So können die Funktionen der Teams-Telefonie ebenso genutzt werden wie die umfangreichen Möglichkeiten der CallOne Cloud Telefonanlage. Das Direct Routing ist so effizient, dass Sie keine lokale Telefonanlage mehr benötigen. Auch ein eigener SBC ist nicht mehr nötig, da wir Ihnen diesen als Anbieter Ihrer Cloud Telefonanlage zur Verfügung stellen. Dieser SBC von CallOne dient als Direct Routing SIP-Trunk und verbindet so Microsoft Teams direkt mit Ihrer Call One Cloud-Telefonanlage.</p>'
+);
+$faqs->faq_add (
+	'Welche Voraussetzungen sind für Teams Telefonie nötig?',
+	'<p>Im Prinzip ist der Umstieg von einer stationären Telefonanlage auf Microsoft Teams Telefonie unkomplizierter als man vermuten könnte. Die Direct Routing Funktion von MS Teams ermöglicht das direkte Trunking mit einem Telefonnetzbetreiber.</p><p>Folgende <strong>drei Voraussetzungen</strong> müssen Sie für die Teams-Telefonie als Lösung für Ihre Unternehmenstelefonie erfüllen:</p><ol><li>Die entsprechenden Microsoft oder Office 365 Lizenzen samt eventueller Add-On Lizenzbündel für die Direct Routing Funktion</li><li>Einen zuverlässigen und redundanten Session Border Controller (SBC) als Gateway zwischen MS Teams und dem öffentlichen Telefonnetz</li><li>Einen kompetenten Anbieter von Cloud Telefonanlagen, der zu den Ansprüchen und Bedürfnissen Ihres Unternehmens passt und einen Trunk anbietet, der für das Direct Routing von Microsoft Teams ausgelegt ist.</li></ol>'
 );
 ?>
 
@@ -20,8 +24,8 @@ $faqs->faq_add (
             <h2 class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</h2>
 
             <p class="mobile-centered">
-                <a href="#preise" class="btn btn--primary mobile-hidden">Direkt zu unseren Preisen</a>
-                <a href="#preise" class="btn btn--primary btn--full-width desktop-hidden">Direkt zu unseren Preisen</a>
+                <a href="#preise" class="btn btn--primary mobile-hidden">Direkt zu den Preisen</a>
+                <a href="#preise" class="btn btn--primary btn--full-width desktop-hidden">Direkt zu den Preisen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -30,7 +34,7 @@ $faqs->faq_add (
     </header>
 </div>
 
-<div class="section section--no-padding-top">
+<div class="section">
     <div class="section__content section__content--wide mobile-hidden">
         <p class="bigtext centered">
             Für Unternehmen jeder Größe bieten wir die richtige Telefonie-Lösung. Auch für Ihres.<br />
@@ -41,7 +45,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section">
+<div class="section section--big-padding">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">
             MS Teams Telefonie:<br />
@@ -82,18 +86,62 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="section__content section__content--wide">
+        <h1 class="centered mobile-left">
+            Lorem ipsum dolor sit amet<br />
+            consectetur adipisicing elit
+        </h1>
+
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--vcentered">
+                        <img src="/assets/images/icons_png/job_02@2x.png" alt="" width="50" height="50" style="width:50px !important" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill">
+                        <h4>Telefonie war nie einfacher</h4>
+                        <p>Mit einem Klick Telefonate starten: Ihre gesamte Unternehmenstelefonie ist in der der Teams-Oberfläche möglich. Einfach das Headset aufsetzen und los geht&rsquo;s.</p>
+                    </div>
+                </div>
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--vcentered">
+                        <img src="/assets/images/icons_png/small_36.png" alt="" width="50" height="46" style="width:50px !important" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill">
+                        <h4>Optimale Erreichbarkeit auf allen Endgeräten</h4>
+                        <p>Binden Sie Ihre Endgeräte in die Teams Telefonie ein! Machen Sie mit Microsoft Teams Ihren PC genauso zum Unternehmenstelefon wie Ihr Laptop oder Smartphone. Sie können Teams wie ein Softphone nutzen. So sind sie optimal erreichbar.</p>
+                    </div>
+                </div>
+                <div class="co-grid">
+                    <div class="co-grid__col co-grid__col--vcentered">
+                        <img src="/assets/images/icons_svg/small_25.svg" alt="" width="50" height="37" style="width:50px !important" />
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill">
+                        <h4>Höchste Flexibilität</h4>
+                        <p>Sie sind auf allen Endgeräten mit der Office-Rufnummer erreichbar. Teams Telefonie ist also Ihre Lösung für ortsunabhängige Kommunikation. Übrigens haben Sie alle <a href="#todo" class="inline-link">Telefoniefunktionen</a> von Teams zur Verfügung, sodass Sie auch unterwegs und im Homeoffice das Maximale aus Ihrer Telefonie herausholen können.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
+                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="" width="570" height="570" />
+            </div>
+        </div>
+
+        <p><a href="#preise" class="btn btn--primary btn--centered">Zu unseren Preisen</a></p>
     </div>
 </div>
 
-<div class="section section--teams-slider section--teams-slider-1 section--teams-slider-active">
+<div class="section section--big-padding section--teams-slider section--teams-slider-1 section--teams-slider-active">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
+            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
                 <h1>
-                    Noch mehr Wow!<br />
-                    Teams-Telefonie als Integration in Ihrer CallOne Cloud Telefonanlage.
+                    Noch mehr Wow:<br />
+                    Teams-Integration in der CallOne Cloud Telefonanlage
                 </h1>
 
                 <div class="index-card">
@@ -114,9 +162,8 @@ $faqs->faq_add (
                         
                         <p class="centered bigtext">Ihre VoIP-Telefonanlage und Call Center Software integrieren wir perfekt in Microsoft Teams. Zusätzlich die CallOne Vorteile nutzen und genau so telefonieren wie Sie es brauchen.</p>
 
-                        <p class="mobile-centered">
-                            <a href="/voip-telefonanlage" class="btn btn--primary btn--centered mobile-hidden">Zur Cloud Telefonanlage</a>
-                            <a href="/voip-telefonanlage" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Zur Cloud Telefonanlage</a>
+                        <p>
+                            <a href="/voip-telefonanlage" class="btn btn--primary btn--centered">Zur Cloud Telefonanlage</a>
                         </p>
                     </div>
                 </div>
@@ -125,14 +172,15 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--teams-slider section--teams-slider-2">
+<div class="section section--big-padding section--teams-slider section--teams-slider-2">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
+            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
                 <h1>
-                    Noch mehr Wow!<br />
-                    Teams-Telefonie als Integration in Ihrer CallOne Cloud Telefonanlage.
+                    Noch mehr Wow:<br />
+                    Teams-Integration in der CallOne Cloud Telefonanlage
                 </h1>
 
                 <div class="index-card">
@@ -153,9 +201,8 @@ $faqs->faq_add (
                         
                         <p class="centered bigtext">Sie bekommen von CallOne den Turbo-Baukasten für Ihre Business-Telefonie. Plus das wahrscheinlich umfangreichste Telefonie-Reporting. Behalten Sie den Überblick und heben Sie Ihre ROI-Schätze!</p>
 
-                        <p class="mobile-centered">
-                            <a href="/statistiken" class="btn btn--primary btn--centered mobile-hidden">Mehr über unsere Statistiken</a>
-                            <a href="/statistiken" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr über unsere Statistiken</a>
+                        <p>
+                            <a href="/statistiken" class="btn btn--primary btn--centered">Mehr über unsere Statistiken</a>
                         </p>
                     </div>
                 </div>
@@ -164,14 +211,15 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--teams-slider section--teams-slider-3">
+<div class="section section--big-padding section--teams-slider section--teams-slider-3">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
+            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
                 <h1>
-                    Noch mehr Wow!<br />
-                    Teams-Telefonie als Integration in Ihrer CallOne Cloud Telefonanlage.
+                    Noch mehr Wow:<br />
+                    Teams-Integration in der CallOne Cloud Telefonanlage
                 </h1>
 
                 <div class="index-card">
@@ -190,11 +238,10 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active">
                         <h3 class="centered">Endlich Seelenfrieden <br />in Ihrer IT</h3>
                         
-                        <p class="centered bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie.</p>
+                        <p class="centered bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie. Endgeräte können flexibel eingebunden werden. Die Tems-Telefonie ist genau so skalierbar wie du sie brauchst.</p>
 
-                        <p class="mobile-centered">
-                            <a href="/customer-success" class="btn btn--primary btn--centered mobile-hidden">Wie wir arbeiten</a>
-                            <a href="/customer-success" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Wie wir arbeiten</a>
+                        <p>
+                            <a href="/customer-success" class="btn btn--primary btn--centered">Wie wir arbeiten</a>
                         </p>
                     </div>
                 </div>
@@ -203,7 +250,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--light-green-white">
+<div class="section section--big-padding section--light-green-white">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Starten Sie die Teams-Telefonie, die zu Ihrem Unternehmen passt.</h1>
         <p class="centered bigtext mobile-left">Wir sind Spezialisten für moderne Telekommunikationslösungen. Ihre Business-Telefonie integrieren wir problemlos in Microsoft Teams und bieten auf Wunsch eine vollumfassende Telefonielösung. Was brauchen Sie?</p>
@@ -285,7 +332,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--black">
+<div class="section section--big-padding section--black">
     <div class="section__content">
         <h1 class="centered mobile-left">Was brauchen Sie, um loszulegen?</h1>
         
@@ -296,7 +343,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--black">
+<div class="section section--big-padding section--black">
     <div class="section__content section__content--narrow">
         <h1 class="centered mobile-left">Wir helfen Ihnen gerne weiter.</h1>
 
