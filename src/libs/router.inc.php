@@ -43,9 +43,7 @@ class Router {
                 return $route; // Return page instance
         }
 
-        // Return status 404 and 404 route if no route could be found
-        header('HTTP/1.0 404 Not Found');
-        return self::get_by_uri('/404');
+        return false;
     }
 
     public static function get_routes() {

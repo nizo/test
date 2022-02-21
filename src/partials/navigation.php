@@ -449,7 +449,7 @@ $jobsCount = count($jobs->jobs_get());
 
         <div class="navigation__right">
             <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
-            <a href="https://box.callone.de" target="_blank" rel="noreferrer">Login</a>
+            <a href="https://box.callone.de" target="_blank" rel="nofollow noreferrer">Login</a>
         </div>
 
         <div class="navigation__mobile-button">
