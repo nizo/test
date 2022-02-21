@@ -33,9 +33,18 @@ class Router {
     }
 
     public static function get_by_uri($uri) {
+        $redirect_header = '404 Not Found';
+        $redirect_route = '/404';
+
         // Remove query string if present
         $uri_parts = explode('?', $uri);
         $uri = $uri_parts[0];
+
+        // Karriere Check (Redirect unavailable Jobs to /karriere and not /404)
+        if (substr($uri, 0, 9) === '/karriere') {
+            $redirect_header = '302 Found';
+            $redirect_404_route = '/karriere';
+        }
 
         foreach (self::$routes as $route) {
             // Check if passed URI exists as route
@@ -43,9 +52,9 @@ class Router {
                 return $route; // Return page instance
         }
 
-        // Return status 404 and 404 route if no route could be found
-        header('HTTP/1.0 404 Not Found');
-        return self::get_by_uri('/404');
+        // Return defined header and redirect if route not found
+        header('HTTP/1.1 '.$redirect_header);
+        return self::get_by_uri($redirect_404_route);
     }
 
     public static function get_routes() {
