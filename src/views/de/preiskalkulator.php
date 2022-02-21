@@ -9,7 +9,7 @@
 		<form class="segm_ctr chat form flex">
 			<div class="bg-height"></div>
 
-    		<div class="step step1 animated fadeInLeft fadeOutLeft" style="position: absolute; top: 40px;" data-step="1">
+    		<div class="step step--active step1 animated fadeInLeft fadeOutLeft" data-step="1">
     			<div class="chatHeaderNav grid mobile-hidden">
     				<div class="col-2"></div>
     				<div class="col-2 right statusbar mobile-hidden">
@@ -77,7 +77,7 @@
         		</div>
     		</div>
 
-    		<div class="step step2 animated fadeInLeft fadeOutLeft goAway" style="position: absolute; top: 40px" data-step="2">
+    		<div class="step step2 animated fadeInLeft fadeOutLeft goAway" data-step="2">
     			<div class="chatHeaderNav grid mobile-hidden">
     				<div class="col-2">
         				<div class="button-set relative no-margin mobile-hidden">
@@ -153,7 +153,7 @@
         		</div>
     		</div>
 
-    		<div class="step step3 animated fadeInLeft fadeOutLeft goAway" style="position: absolute; top: 40px" data-step="3">
+    		<div class="step step3 animated fadeInLeft fadeOutLeft goAway" data-step="3">
     			<div class="chatHeaderNav grid mobile-hidden">
     				<div class="col-2">
         				<div class="button-set relative no-margin mobile-hidden">
@@ -254,7 +254,7 @@
         		</div>
     		</div>
     		
-    		<div class="step result animated fadeInLeft fadeOutLeft goAway" style="position: absolute; top: 40px" data-step="4">
+    		<div class="step result animated fadeInLeft fadeOutLeft goAway" data-step="4">
     			<div class="chatHeaderNav grid mobile-hidden">
     				<div class="col-2">
         				<div class="button-set relative no-margin">
