@@ -198,16 +198,13 @@ eventListener('click', '.nextStep', (e) => {
 				timeSpans.forEach(span => span.innerHTML = '1 Personentag');
 			}
 			document.body.classList.add('grey');
-
-			// setTimeout(function(){
-			// 	let bgHeight = document.querySelectorAll('.bg-height');
-			// 	bgHeight.forEach(b => b.style.height = nextStepEl.offsetHeight + 2250);
-			// 	nextStepEl.style.display = 'initial';
-			// 	nextStepEl.classList.remove('goAway');
-			// 	nextStepEl.classList.add('go');
-			// }, 750);
-			nextStepEl.classList.remove('goAway');
-			nextStepEl.classList.add('go');
+			thisStepEl.classList.remove('step--active');
+			nextStepEl.classList.add('step--active');
+			setTimeout(function(){
+				scrollToOffset(0);
+				nextStepEl.classList.remove('goAway');
+				nextStepEl.classList.add('go');
+			}, 750);
 			window._mfq.push(["Preiskalkulator-"+nextStep, "/preiskalkulator?step="+nextStep]);
 			window.dataLayer = window.dataLayer || [];
 			window.dataLayer.push({
@@ -221,15 +218,13 @@ eventListener('click', '.nextStep', (e) => {
 			if (thisStep == '.result') {
 				document.body.classList.remove('grey');
 			}
-			// setTimeout(function(){
-			// 	let bgHeight = document.querySelectorAll('.bg-height');
-			// 	bgHeight.forEach(b => b.style.height = nextStepEl.offsetHeight + 350);
-			// 	nextStepEl.style.display = 'initial';
-			// 	nextStepEl.classList.remove('goAway');
-			// 	nextStepEl.classList.add('go');
-			// }, 750);
-			nextStepEl.classList.remove('goAway');
-			nextStepEl.classList.add('go');
+			thisStepEl.classList.remove('step--active');
+			nextStepEl.classList.add('step--active');
+			setTimeout(function(){
+				scrollToOffset(0);
+				nextStepEl.classList.remove('goAway');
+				nextStepEl.classList.add('go');
+			}, 750);
 			
 			/* Mouseflow Tracking */
 			window._mfq.push(["Preiskalkulator-"+nextStep, "/preiskalkulator?step="+nextStep]);
@@ -267,6 +262,4 @@ eventListener('click', '.nextStep', (e) => {
 		}		
 		setCookie('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
 	}
-
-	document.querySelector('.bg-height').style.height = nextStepEl.offsetHeight + 100 + 'px';
 });
