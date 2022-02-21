@@ -12,7 +12,8 @@
 
     &:after {
         content: "";
-        position: absolute;
+        // position: absolute;
+        display: inline-block;
         bottom: .2em;
         right: calc(-.5em - 2px);
         width: .5em;
