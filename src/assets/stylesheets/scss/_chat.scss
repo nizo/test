@@ -144,8 +144,8 @@
 	&.chat {
 		.bg-height {
 			height: 100%;
-			display: block;
-			min-height: 850px
+			display: none;
+			min-height: 1050px
 		}
 
 		.chatHeaderNav {
@@ -253,15 +253,21 @@
 
 		.step {
 			position: absolute;
-			top: $gutter-l;
+			// top: $gutter-l;
 			width: auto;
 			width: calc(100% - 80px);
-			right: $gutter-l;
+			// right: $gutter-l;
 			display: none;
+			padding-bottom: 40px;
 
 			&.step1 {
 				display: block;
 			}
+		}
+
+		.step--active {
+			position: relative !important;
+			display: block;
 		}
 
 		.form {

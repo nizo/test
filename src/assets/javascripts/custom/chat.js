@@ -194,10 +194,12 @@ $('.nextStep').on('click', function () {
 				$('.time > span').html('1 Personentag');
 			}
 			$('body').addClass('grey');
+			$(thisStep).removeClass('step--active');
+			$(nextStep).addClass('step--active');
 			setTimeout(function(){
-				$('.bg-height').css('height', $(nextStep).outerHeight() + 2250); 
+				// $('.bg-height').css('height', $(nextStep).outerHeight() + 2250); 
 				scrollTo(nextStep, 0);
-				$(nextStep).css('display', 'initial');
+				// $(nextStep).css('display', 'initial');
 				$(nextStep).removeClass('goAway');
 				$(nextStep).addClass('go');
 			}, 750);
@@ -214,10 +216,12 @@ $('.nextStep').on('click', function () {
 			if (thisStep == '.result') {
 				$('body').removeClass('grey');
 			}
+			$(thisStep).removeClass('step--active');
+			$(nextStep).addClass('step--active');
 			setTimeout(function(){
-				$('.bg-height').css('height', $(nextStep).outerHeight() + 350);
+				// $('.bg-height').css('height', $(nextStep).outerHeight() + 350);
 				scrollTo(nextStep, 0);
-				$(nextStep).css('display', 'initial');
+				// $(nextStep).css('display', 'initial');
 				$(nextStep).removeClass('goAway');
 				$(nextStep).addClass('go');
 			}, 750);
