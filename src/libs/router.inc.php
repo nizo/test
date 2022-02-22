@@ -43,7 +43,7 @@ class Router {
                 return $route; // Return page instance
         }
 
-        return false;
+        return null;
     }
 
     public static function get_routes() {
