@@ -11,8 +11,8 @@ if (!$page) {
     // Check if requested URI is an unavailable /karriere sublink
     // and redirect to /karriere
     if (substr($_SERVER['REQUEST_URI'], 0, 9) === '/karriere') {
-        header('Location: /karriere');
-        die();
+        header('Location: /karriere', true, 302); // 302 Redirect
+        exit(0);
     }
     
     // Otherwise show error 404

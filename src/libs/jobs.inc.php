@@ -296,7 +296,7 @@ function jobs_load ()
 
 	$jobs = new jobs ();
 
-	/*$job = new job ('Projekte & Support', 'Customer Success Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
+	$job = new job ('Projekte & Support', 'Customer Success Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-customer-success-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -322,7 +322,7 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-projektmanager');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs->job_add ($job);*/
+	$jobs->job_add ($job);
 
 	$job = new job ('Projekte & Support', 'Projektmanager*in', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
 	$job->location_set ('Potsdam');
