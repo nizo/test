@@ -1,0 +1,33 @@
+.readmore {
+    display: inline;
+
+    &__button {
+        display: none;
+        color: currentColor;
+        border-bottom: 2px solid $color-primary;
+        white-space: nowrap;
+        font-weight: 500;
+
+        &:hover {
+            border-color: #000;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .readmore {
+        display: none;
+
+        &--show {
+            display: inline;
+        }
+
+        &__button {
+            display: inline;
+        }
+
+        &__button--hide {
+            display: none;
+        }
+    }
+}
