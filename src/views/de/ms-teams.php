@@ -26,6 +26,8 @@ $faqs->faq_add (
 );
 ?>
 
+<!-- TODO: Add OG Image Text -->
+
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__text">
@@ -36,8 +38,7 @@ $faqs->faq_add (
             <h2 class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</h2>
 
             <p class="mobile-centered">
-                <a href="#preise" class="btn btn--primary mobile-hidden">Direkt zu den Preisen</a>
-                <a href="#preise" class="btn btn--primary btn--full-width desktop-hidden">Direkt zu den Preisen</a>
+                <a href="#preise" class="btn btn--primary">Direkt zu den Preisen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -47,7 +48,7 @@ $faqs->faq_add (
 </div>
 
 <div class="section">
-    <div class="section__content section__content--wide mobile-hidden">
+    <div class="section__content section__content--wide">
         <p class="bigtext centered">
             Für Unternehmen jeder Größe bieten wir die richtige Telefonie-Lösung. Auch für Ihres.<br />
             <br />
@@ -71,7 +72,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="" width="50" height="50" />
+                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="" width="80" height="80" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Maximale Flexibilität Dank Teams-Telefonie</h4>
@@ -80,7 +81,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="" width="50" height="50" />
+                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="" width="80" height="80" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie wie Sie sie brauchen</h4>
@@ -89,7 +90,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="51" height="50" />
+                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="80" height="78" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Extra Hardware? Unnötig!</h4>
@@ -101,6 +102,7 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide">
+        <!-- TODO: Add headline -->
         <h1 class="centered mobile-left">
             Lorem ipsum dolor sit amet<br />
             consectetur adipisicing elit
@@ -110,7 +112,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_png/job_02@2x.png" alt="" width="50" height="50" style="width:50px !important" />
+                        <img src="/assets/images/icons_png/job_02@2x.png" alt="" width="80" height="80" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie war nie einfacher</h4>
@@ -119,7 +121,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_png/small_36.png" alt="" width="50" height="46" style="width:50px !important" />
+                        <img src="/assets/images/icons_png/small_36@2x.png" alt="" width="80" height="74" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Optimale Erreichbarkeit auf allen Endgeräten</h4>
@@ -128,7 +130,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_25.svg" alt="" width="50" height="37" style="width:50px !important" />
+                        <img src="/assets/images/icons_svg/small_25.svg" alt="" width="80" height="58" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Höchste Flexibilität</h4>
@@ -137,7 +139,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
-                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="" width="570" height="570" />
+                <img src="/assets/images/illus/ms-teams-funktionen.png" alt="" width="570" height="570" />
             </div>
         </div>
 

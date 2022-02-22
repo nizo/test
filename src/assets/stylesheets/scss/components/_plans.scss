@@ -146,6 +146,10 @@
             font-size: $font-size-l;
         }
 
+        &__bottom {
+            justify-content: flex-start;
+        }
+
         &__price {
             span {
                 font-size: 40px;
