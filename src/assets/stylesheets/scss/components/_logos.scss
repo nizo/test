@@ -1,0 +1,16 @@
+.logos {
+    --height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        display: block;
+        margin: var(--gutter-s);
+        width: auto;
+        height: 100%;
+        max-height: var(--height);
+    }
+}

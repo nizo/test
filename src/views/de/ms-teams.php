@@ -48,11 +48,15 @@ $faqs->faq_add (
 <div class="section">
     <div class="section__content section__content--wide">
         <p class="bigtext centered">
-            Für Unternehmen jeder Größe bieten wir die richtige Telefonie-Lösung. Auch für Ihres.<br />
-            <br />
-            <img src="/assets/images/client-logos/Teams-Kombi.svg" alt="" width="812" height="28" />
-            <br />
+            Für Unternehmen jeder Größe bieten wir die richtige Telefonie-Lösung. Auch für Ihres.
         </p>
+        <div class="logos" style="--height:30px">
+            <img src="/assets/images/client-logos/logo-amorelie.svg" alt="" width="245" height="30">
+            <img src="/assets/images/client-logos/bett.svg" alt="" width="62" height="30">
+            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="" width="" height="30">
+            <img src="/assets/images/client-logos/logo-snipes.svg" alt="" width="85" height="30">
+            <img src="/assets/images/client-logos/logo-igus.svg" alt="" width="58" height="30">
+        </div>
     </div>
 </div>
 
