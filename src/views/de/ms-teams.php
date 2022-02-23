@@ -324,16 +324,15 @@ $faqs->faq_add (
                 </div>
                 <div class="plan__features">
                     <p>
-                        Rufnummern weltweit<br>
-                        Callcenter Software
+                        Bekommen Sie genau die Lösung, die Ihre Unternehmenstelefonie benötigt! Teams als Cloud-Telefonanlage in Kombination mit vielen weiteren Assets.
                     </p>
                     <ul>
+                        <li class="plan__feature">Rufnummern weltweit</li>
+                        <li class="plan__feature">Callcenter Software</li>
                         <li class="plan__feature">Schnittstellen zu ihrem Tool</li>
                         <li class="plan__feature">TAPI Treiber</li>
                         <li class="plan__feature">Fertige Apps für Ticketing, CRM, BI</li>
                         <li class="plan__feature">KI-basierte Telefonlösungen</li>
-                        <li style="visibility:hidden">&nbsp;</li>
-                        <li style="visibility:hidden">&nbsp;</li>
                     </ul>
                 </div>
                 <div class="plan__bottom">
