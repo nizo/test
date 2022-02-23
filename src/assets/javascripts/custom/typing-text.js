@@ -15,10 +15,26 @@ class Typing {
         this.speed = parseInt(this.element.dataset.speed) || 50;
         this.keepTime = 2000;
 
+        if (this.element.classList.contains('typing-text--block'))
+            this.setElementHeight();
+
         this.element.textContent = '';
         this.element.style.color = this.colors[this.currentText];
 
         this.write();
+    }
+
+    setElementHeight() {
+        let size = 0;
+        this.texts.forEach(text => {
+            this.element.textContent = text;
+            if (this.element.offsetHeight > size)
+                size = this.element.offsetHeight;
+        });
+        this.element.textContent = '';
+        setTimeout(() => {
+            this.element.style.height = size + 'px';
+        }, 30);
     }
 
     write() {

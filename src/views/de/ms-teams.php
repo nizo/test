@@ -26,15 +26,13 @@ $faqs->faq_add (
 );
 ?>
 
-<!-- TODO: Add OG Image Text -->
-
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__text">
             <h1>Auf die Plätze, fertig, <u>Teams</u> Telefonie</h1>
             <h2>
                 Telefonie in Microsoft Teams mit <br />
-                <span class="typing-text" data-texts="Rundum-Sorglos-Garantie für Ihre IT|inkludierten Funktionen, die sie nicht mehr missen möchten|der Gewissheit auf der sicheren Seite zu sein" data-colors="#FF002E|#FF7B1B|#DB00C5" data-links="||/dsgvo-telekommunikation">Rundum-Sorglos-Garantie für Ihre IT</span></h2>
+                <span class="typing-text typing-text--block" data-texts="Rundum-Sorglos-Garantie für Ihre IT|inkludierten Funktionen, die sie nicht mehr missen möchten|der Gewissheit auf der sicheren Seite zu sein" data-colors="#FF002E|#FF7B1B|#DB00C5" data-links="||/dsgvo-telekommunikation">Rundum-Sorglos-Garantie für Ihre IT</span></h2>
             <h2 class="bigtext">ab <span class="bigtext__price">7,90 €</span> / User & Monat</h2>
 
             <p class="mobile-centered">
@@ -102,10 +100,9 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide">
-        <!-- TODO: Add headline -->
         <h1 class="centered mobile-left">
-            Lorem ipsum dolor sit amet<br />
-            consectetur adipisicing elit
+            Die smarte Businesstelefonie:<br>
+            Ihre Vorteile mit Teams-Telefonie
         </h1>
 
         <div class="co-grid">
@@ -134,7 +131,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Höchste Flexibilität</h4>
-                        <p>Sie sind auf allen Endgeräten mit der Office-Rufnummer erreichbar. Teams Telefonie ist also Ihre Lösung für ortsunabhängige Kommunikation. Übrigens haben Sie alle <a href="#todo" class="inline-link">Telefoniefunktionen</a> von Teams zur Verfügung, sodass Sie auch unterwegs und im Homeoffice das Maximale aus Ihrer Telefonie herausholen können.</p>
+                        <p>Sie sind auf allen Endgeräten mit der Office-Rufnummer erreichbar. Teams Telefonie ist also Ihre Lösung für ortsunabhängige Kommunikation. Übrigens haben Sie alle Telefoniefunktionen von Teams zur Verfügung, sodass Sie auch unterwegs und im Homeoffice das Maximale aus Ihrer Telefonie herausholen können.</p>
                     </div>
                 </div>
             </div>
@@ -351,10 +348,10 @@ $faqs->faq_add (
 <div class="section section--white-light-green">
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--vcentered">
                 <img src="/assets/images/client-logos/logo-lbs-green-circle.png" alt="" width="470" height="470">
             </div>
-            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
                 <div class="quote">
                     „Teams Telefonie, Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten“
                 </div>
