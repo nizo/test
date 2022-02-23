@@ -33,9 +33,9 @@ $faqs->faq_add (
         <div class="hero__text">
             <h1>Auf die Plätze, fertig, <u>Teams</u> Telefonie</h1>
             <h2>
-                Integrieren Sie Ihre Business-Telefonie direkt in Microsoft Teams. Nutzen Sie MS Teams Telefonie <br />einfach als VoIP-Telefonanlage <br />
-                <span class="typing-text" data-texts="mit leistungsstarken Features|samt Turbo-Baukasten für Ihre Unternehmenstelefonie|ohne extra Hardware" data-colors="#FF002E|#FF7B1B|#DB00C5">mit leistungsstarken Features</span></h2>
-            <h2 class="bigtext">Ab <span class="bigtext__price">99€</span> / Monat</h2>
+                Telefonie in Microsoft Teams mit <br />
+                <span class="typing-text" data-texts="Rundum-Sorglos-Garantie für Ihre IT|inkludierten Funktionen, die sie nicht mehr missen möchten|der Gewissheit auf der sicheren Seite zu sein" data-colors="#FF002E|#FF7B1B|#DB00C5" data-links="||/dsgvo-telekommunikation">Rundum-Sorglos-Garantie für Ihre IT</span></h2>
+            <h2 class="bigtext">ab <span class="bigtext__price">7,90 €</span> / User & Monat</h2>
 
             <p class="mobile-centered">
                 <a href="#preise" class="btn btn--primary">Direkt zu den Preisen</a>
@@ -273,7 +273,7 @@ $faqs->faq_add (
             <div class="plan">
                 <div class="plan__top">Teams only</div>
                 <div class="plan__features">
-                    <p>Integrieren Sie Ihre Telefonie in Ihr bestehendes Microsoft Teams.</p>
+                    <p>Kein Geschnörkel. Sie haben sich entschieden ausschließlich über Teams zu telefonieren? Dann ist dies das richtige Paket für Sie.</p>
                     <ul>
                         <li class="plan__feature">Microsoft Teams Telefonie</li>
                         <li>Integration weiterer Endgeräte</li>
@@ -285,17 +285,20 @@ $faqs->faq_add (
                 </div>
                 <div class="plan__bottom">
                     <p class="plan__price">
-                        <span>99€</span><br />
-                        im Monat*
+                        <span>7,90 €</span><br>
+                        pro User/Monat*
                     </p>
-                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
-                    <p class="subtext">*Preis bezieht sich auf 10 User. Jeder weitere User kostet 7,90 € / Monat</p>
+                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kostenlos<br>testen</a></p>
+                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>Mindestanzahl an Usern 10.</p>
                 </div>
             </div>
             <div class="plan">
-                <div class="plan__top">Hybride Lösung</div>
+                <div class="plan__top">
+                    Teams & VoIP
+                    <div class="plan__ribbon">Beliebt</div>
+                </div>
                 <div class="plan__features">
-                    <p>Integrieren Sie Ihre Telefonie in Ihr bestehendes Microsoft Teams. Binden Sie außerdem zusätzliche Endgeräte in die Telefonielösung ein.</p>
+                    <p>Teams in Kombination alternativen Soft- und Hardwaretelefonen gewünscht? Kombinieren sie Teams und VoIP-Clients flexibel für jeden User passend.</p>
                     <ul>
                         <li class="plan__feature">Microsoft Teams Telefonie</li>
                         <li class="plan__feature">Integration weiterer Endgeräte</li>
@@ -307,40 +310,58 @@ $faqs->faq_add (
                 </div>
                 <div class="plan__bottom">
                     <p class="plan__price">
-                        ab <span>99€</span><br />
-                        im Monat
+                        <span>9,90 €</span><br>
+                        pro User/Monat*
                     </p>
-                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Jetzt Angebot <br />erhalten</a></p>
-                    <p class="subtext">&nbsp;<br />&nbsp;</p>
+                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Angebot<br>holen</a></p>
+                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>Mindestanzahl an Usern 10.</p>
                 </div>
             </div>
             <div class="plan">
                 <div class="plan__top">
-                    Customized
-                    <div class="plan__ribbon">Beliebt</div>
+                    Erweiterungen
                 </div>
                 <div class="plan__features">
                     <p>
-                        Bekommen Sie genau die Lösung, die Ihre Unternehmenstelefonie benötigt!<br />
-                        Teams als Cloud-Telefonanlage in Kombination mit vielen weiteren Assets.
+                        Rufnummern weltweit<br>
+                        Callcenter Software
                     </p>
                     <ul>
-                        <li class="plan__feature">Microsoft Teams Telefonie</li>
-                        <li class="plan__feature">Integration weiterer Endgeräte</li>
-                        <li class="plan__feature">Callcenter Software</li>
-                        <li class="plan__feature">Schnittstellen zu Ihren Tools</li>
-                        <li class="plan__feature">I2x Integration</li>
-                        <li class="plan__feature">Was ihr Telefonie-Herz sonst begehrt</li>
+                        <li class="plan__feature">Schnittstellen zu ihrem Tool</li>
+                        <li class="plan__feature">TAPI Treiber</li>
+                        <li class="plan__feature">Fertige Apps für Ticketing, CRM, BI</li>
+                        <li class="plan__feature">KI-basierte Telefonlösungen</li>
+                        <li style="visibility:hidden">&nbsp;</li>
+                        <li style="visibility:hidden">&nbsp;</li>
                     </ul>
                 </div>
                 <div class="plan__bottom">
-                    <p class="plan__price">
+                    <p class="plan__price" style="visibility:hidden">
                         <span>0€*</span><br />
                         jetzt sichern
                     </p>
-                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Individuelles <br />Angebot erhalten</a></p>
-                    <p class="subtext">*Kostenfrei mit der CallOne Callcenter Software oder CallOne VoIP-Telefonanlage</p>
+                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kontakt<br>aufnehmen</a></p>
+                    <p class="subtext">&nbsp;<br>&nbsp;</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--white-light-green">
+    <div class="section__content section__content--wide">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                <img src="/assets/images/client-logos/logo-lbs-green-circle.png" alt="" width="470" height="470">
+            </div>
+            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                <div class="quote">
+                    „Teams Telefonie, Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten“
+                </div>
+                <p>
+                    <strong>Simon Schöne</strong><br>
+                    IT-Spezialist
+                </p>
             </div>
         </div>
     </div>

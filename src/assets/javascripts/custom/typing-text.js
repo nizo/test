@@ -5,7 +5,11 @@ class Typing {
         this.colors = Array(this.texts.length);
         this.colors.fill('currentColor');
         if (this.element.dataset.colors)
-            this.colors = this.element.dataset.colors.split('|');
+        this.colors = this.element.dataset.colors.split('|');
+        this.links = Array(this.texts.length);
+        this.links.fill(null);
+        if (this.element.dataset.links)
+        this.links = this.element.dataset.links.split('|');
         this.currentText = 0;
         this.textIndex = 0;
         this.speed = parseInt(this.element.dataset.speed) || 50;
@@ -19,6 +23,7 @@ class Typing {
 
     write() {
         let text = this.texts[this.currentText];
+        let link = this.links[this.currentText];
         let numChars = text.length;
 
         if (this.textIndex < numChars) {
@@ -26,6 +31,8 @@ class Typing {
             this.textIndex++;
             setTimeout(this.write.bind(this), this.speed);
         } else {
+            if (link)
+                this.element.innerHTML = '<a href="' + link + '">' + this.element.textContent + '</a>';
             setTimeout(this.backspace.bind(this), this.keepTime);
         }
     }
@@ -48,5 +55,7 @@ class Typing {
     }
 }
 
-const texts = document.querySelectorAll('.typing-text');
-texts.forEach(text => new Typing(text));
+document.addEventListener('DOMContentLoaded', e => {
+    const texts = document.querySelectorAll('.typing-text');
+    texts.forEach(text => new Typing(text));
+});
