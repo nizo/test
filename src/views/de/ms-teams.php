@@ -35,7 +35,7 @@ $faqs->faq_add (
                 <span class="typing-text typing-text--block" data-texts="Rundum-Sorglos-Garantie für Ihre IT|inkludierten Funktionen, die sie nicht mehr missen möchten|der Gewissheit auf der sicheren Seite zu sein" data-colors="#FF002E|#FF7B1B|#DB00C5" data-links="||/dsgvo-telekommunikation">Rundum-Sorglos-Garantie für Ihre IT</span></h2>
             <h2 class="bigtext">ab <span class="bigtext__price">7,90 €</span> / User & Monat</h2>
 
-            <p class="mobile-centered">
+            <p class="mobile-center">
                 <a href="#preise" class="btn btn--primary">Direkt zu den Preisen</a>
             </p>
         </div>
@@ -334,7 +334,7 @@ $faqs->faq_add (
                         <li class="plan__feature">Callcenter Software</li>
                         <li class="plan__feature">Schnittstellen zu Ihrem Tool</li>
                         <li class="plan__feature">TAPI Treiber</li>
-                        <li class="plan__feature">Fertige Apps für Ticketing, CRM, BI</li>
+                        <li class="plan__feature">Apps für Ticketing, CRM, BI</li>
                         <li class="plan__feature">KI-basierte Telefonlösungen</li>
                     </ul>
                 </div>
@@ -359,7 +359,7 @@ $faqs->faq_add (
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
                 <div class="quote">
-                    „Teams Telefonie, Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten.“
+                    „Teams Telefonie mit Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten.“
                 </div>
                 <p>
                     <strong>Simon Schöne</strong><br>
