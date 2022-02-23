@@ -1,3 +1,4 @@
+// Read More Inline Text
 .readmore {
     display: inline;
 
@@ -27,6 +28,15 @@
         }
 
         &__button--hide {
+            display: none;
+        }
+    }
+}
+
+// Read More List Items
+.readmore-list {
+    li {
+        &:nth-child(n+4) {
             display: none;
         }
     }

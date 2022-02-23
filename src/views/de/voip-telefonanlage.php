@@ -190,100 +190,6 @@ $faqs->faq_add (
 
 		<br class="mobile-hidden" />
 
-		<!-- Mobile Tabs -->
-		<div class="tablist tablist--on-black tablist--no-sticky desktop-hidden">
-			<div class="tablist__links">
-				<div class="tablist__link" data-tab="1">
-					<strong>Clients</strong>
-				</div>
-				<div class="tablist__link" data-tab="2">
-					<strong>Integrationen</strong>
-				</div>
-				<div class="tablist__link" data-tab="3">
-					<strong>Reporting</strong>
-				</div>
-				<div class="tablist__link" data-tab="4">
-					<strong>Sicherheit</strong>
-				</div>
-			</div>
-
-			<div class="tablist__content tablist__content--active" data-tab="1">
-				<p class="bigtext">Verschiedene Telefonieoptionen nutzen</p>
-
-				<br />
-
-				<ul class="list list--checkmarks list--on-black">
-					<li>Agentenmaske direkt im Browser</li>
-					<li>Softphone im Browser</li>
-					<li>Teams Telefonie - Das Beste aus beiden Lösungen</li>
-					<li>SIP Tischtelefon oder DECT-Telefon einfach in einer Oberfläche verwalten</li>
-					<li>Mobilfunkgeräte auf vielfältige Weise einbinden</li>
-				</ul>
-			</div>
-			<div class="tablist__content" data-tab="2">
-				<p class="bigtext">CallOne Cloud Telefonanlage mit Lieblings-Apps verbinden</p>
-
-				<br />
-
-				<ul class="list list--checkmarks list--on-black">
-					<li>
-						Fertige Konnektoren zu Ihren Lieblings-Apps<br >
-						<span class="subtext">Verbinden Sie Ihre unsere VoIP-Telefonanlage mit Ihren gängigen Ticketing-, CRM-, BI- oder ERP-Tools auf Knopfdruck.</span>
-					</li>
-					<li>
-						Ihre Systeme flexibel angebunden<br />
-						<span class="subtext">Zünden Sie jetzt den Effizienzturbo! Wir liefern Ihnen alles was Sie benötigen, um sich optimal anzubinden und loszulegen.</span>
-					</li>
-				</ul>
-			</div>
-			<div class="tablist__content" data-tab="3">
-				<p class="bigtext">Datenbasiert statt Bauchgefühl - Auf Basis der vielleicht umfangreichsten Echtzeitstatistiken zielführende Entscheidung treffen.</p>
-
-				<br />
-
-				<ul class="list list--checkmarks list--on-black">
-					<li>Tabellen, Grafiken, Schnittstellen</li>
-					<li>Datenexport in Ihrem Lieblingsformat</li>
-					<li>Reports genau wie Sie sie brauchen</li>
-				</ul>
-			</div>
-			<div class="tablist__content" data-tab="4">
-				<p class="bigtext">99,999% Erreichbarkeit mit der CallOne Cloud Telefonanlage</p>
-
-				<div class="co-grid cards">
-					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-						<div class="cards__card--dark-top">
-							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
-							</div>
-							<h4 class="centered">Bereitstellung in wenigen Tagen - kein nerviges Warten, kein unnötiger Self-Service</h4>
-						</div>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-						<div class="cards__card--dark-top">
-							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
-							</div>
-							<h4 class="centered">Deutscher Datenschutz-Standard</h4>
-						</div>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-						<div class="cards__card--dark-top">
-							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
-							</div>
-							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<p class="desktop-hidden">
-			<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
-		</p>
-
-		<!-- Desktop Tabs -->
 		<div class="tablist tablist--on-black" style="margin-top:0">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link" data-tab="1">
@@ -321,10 +227,13 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Teams Telefonie mit CallOne bedeutet nahtlose Integration.</p>
 								<br />
-								<ul class="list list--checkmarks list--on-black">
+								<ul class="list list--checkmarks list--on-black readmore-list" style="--show-items:3">
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
 									<li>Erweiterbar um Call Center Software</li>
 									<li>Einfache Benutzerverwaltung</li>
+									<li>Hidden 1</li>
+									<li>Hidden 2</li>
+									<li>Hidden 3</li>
 								</ul>
 							</div>
 						</div>
@@ -397,10 +306,10 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="2">
-				<h3 class="centered">Verbinden Sie die CallOne Cloud Telefonanlage mit Ihren Lieblings-Apps. Nutzen Sie eine für Ihr Unternehmen maßgeschneiderte Lösung!</h3>
+				<h3 class="centered mobile-left">Verbinden Sie die CallOne Cloud Telefonanlage mit Ihren Lieblings-Apps. Nutzen Sie eine für Ihr Unternehmen maßgeschneiderte Lösung!</h3>
 				<br />
 
-				<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
+				<div class="co-grid mobile-hidden" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
 					<div class="co-grid__col co-grid__col--1-xs"></div>
 					<div class="co-grid__col co-grid__col--3-xs">
 						<div class="carddeck carddeck--no-indicators centered">
@@ -429,29 +338,31 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--1-xs"></div>
 				</div>
-
-				<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto">
-					<div class="co-grid__col co-grid__col--5-xs right">
+				
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--1-xs"></div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md right mobile-left">
 						<h3>Fertige Konnektoren zu Ihren Lieblings-Apps</h3>
 						<p>Verbinden Sie Ihre unsere VoIP-Telefonanlage mit Ihren gängigen Ticketing-, CRM-, BI- oder ERP-Tools auf Knopfdruck.</p>
 					</div>
-					<div class="co-grid__col co-grid__col--2-xs"></div>
-					<div class="co-grid__col co-grid__col--5-xs left">
+					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--2-md"></div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md left">
 						<h3>Ihre Systeme flexibel angebunden</h3>
 						<p>Zünden Sie jetzt den Effizienzturbo! Wir liefern Ihnen alles was Sie benötigen, um sich optimal anzubinden und loszulegen.</p>
 					</div>
+					<div class="co-grid__col co-grid__col--1-xs"></div>
 				</div>
 			</div>
 
 			<div class="tablist__content" data-tab="3">
-				<h3 class="centered">Optimierungspotentiale erkennen und datenbasierte Entscheidungen treffen. Dafür ist die CallOne Lösung genau richtig.</h3>
+				<h3 class="centered mobile-left">Optimierungspotentiale erkennen und datenbasierte Entscheidungen treffen. Dafür ist die CallOne Lösung genau richtig.</h3>
 				<br />
 
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
 						<img src="/assets/images/illus/dashboards-mockup.svg" alt="" width="470" height="440" />
 					</div>
-					<div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 						<ul class="list list--checkmarks list--on-black">
 							<li>
 								Tabellen, Grafiken, Schnittstellen<br />
@@ -471,11 +382,11 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="4">
-				<h3 class="centered">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999% Erreichbarkeit!</h3>
+				<h3 class="centered mobile-left">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999% Erreichbarkeit!</h3>
 				<br />
 
 				<div class="co-grid cards">
-					<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
@@ -486,7 +397,7 @@ $faqs->faq_add (
 							<p>Kein nerviges Warten, kein nerviger Self-Service. Sie werden von einem CallOne Experten persönlich beraten und in kürzester Zeit ist alles, was Sie brauchen, eingerichtet. Und natürlich auch direkt live.</p>
 						</div>
 					</div>
-					<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
@@ -497,7 +408,7 @@ $faqs->faq_add (
 							<p>Um das Privacy Shield Abkommen müssen Sie sich keine Gedanken mehr machen! Unsere Telefonie-Lösungen hosten wir ausschließlich in Deutschland.</p>
 						</div>
 					</div>
-					<div class="co-grid__col co-grid__col--4-xs cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
 								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
@@ -515,6 +426,10 @@ $faqs->faq_add (
 				</p>
 			</div>
 		</div>
+
+		<p>
+			<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+		</p>
 	</div>
 </div>
 
@@ -523,7 +438,7 @@ $faqs->faq_add (
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h1>Guter Service? Das fängt bei uns an.</h1>
-                <p class="bigtext mobile-hidden">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
+                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
 
@@ -543,12 +458,10 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active centered">
                         <h3>Immer individuell & persönlich</h3>
                         
-                        <p class="bigtext mobile-hidden">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
-						<p class="bigtext desktop-hidden">Unser Team betreut und berät Sie persönlich zu allem rundum Ihre Cloud Telefonanlage von CallOne.</p>
+                        <p class="bigtext">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
 
-                        <p class="mobile-centered">
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered mobile-hidden">Wie wir Sie zum erfolg führen</a>
-                            <a href="/ueber-uns" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Wie wir Sie zum erfolg führen</a>
+                        <p>
+                            <a href="/ueber-uns" class="btn btn--secondary btn--centered">Wie wir Sie zum erfolg führen</a>
                         </p>
                     </div>
                 </div>
@@ -562,7 +475,7 @@ $faqs->faq_add (
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
 				<h1>Guter Service? Das fängt bei uns an.</h1>
-                <p class="bigtext mobile-hidden">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
+                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
 
@@ -597,9 +510,8 @@ $faqs->faq_add (
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="/statistiken" class="btn btn--secondary btn--centered mobile-hidden">Weitere Statistiken</a>
-                            <a href="/statistiken" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Weitere Statistiken</a>
+                        <p>
+                            <a href="/statistiken" class="btn btn--secondary btn--centered">Weitere Statistiken</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -615,7 +527,7 @@ $faqs->faq_add (
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
 				<h1>Guter Service? Das fängt bei uns an.</h1>
-                <p class="bigtext mobile-hidden">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
+                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
 
@@ -635,12 +547,10 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active centered">
                         <h3>Nachhaltig Kosten sparen - noch besser als eine Flatrate</h3>
                         
-                        <p class="bigtext mobile-hidden">Wir verkürzen und verbessern Ihre Telefonate durch Schnittstellen, Automatisierungen und umfangreiche Statistiken. So wird ihre Businesstelefonie schnell, smart und effizient - und spart nachweislich Kosten!</p>
-						<p class="desktop-hidden">Schnell, smart und effizient - Mit der Cloud Telefonanlage von CallOne können Sie nachweislich sparen!</p>
+                        <p class="bigtext">Wir verkürzen und verbessern Ihre Telefonate durch Schnittstellen, Automatisierungen und umfangreiche Statistiken. So wird ihre Businesstelefonie schnell, smart und effizient - und spart nachweislich Kosten!</p>
 
-                        <p class="mobile-centered">
-                            <a href="/callcenter-software#mehrwertrechner" class="btn btn--secondary btn--centered mobile-hidden">Jetzt ROI berechnen</a>
-                            <a href="/callcenter-software#mehrwertrechner" class="btn btn--secondary btn--centered btn--full-width desktop-hidden">Jetzt ROI berechnen</a>
+                        <p>
+                            <a href="/callcenter-software#mehrwertrechner" class="btn btn--secondary btn--centered">Jetzt ROI berechnen</a>
                         </p>
                     </div>
                 </div>
@@ -1113,8 +1023,12 @@ $faqs->faq_add (
     function updateSlide() {
         telefonanlageSlides.forEach(telefonanlageSlide => {
             telefonanlageSlide.classList.remove('section--telefonanlage-slider-active');
-            if (telefonanlageSlide.classList.contains('section--telefonanlage-slider-'+currentSlide))
+            if (telefonanlageSlide.classList.contains('section--telefonanlage-slider-'+currentSlide)) {
                 telefonanlageSlide.classList.add('section--telefonanlage-slider-active');
+				setTimeout(e => {
+					scrollTo(telefonanlageSlide);
+				}, 30);
+			}
         });
     }
 </script>
