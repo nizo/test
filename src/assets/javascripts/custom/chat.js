@@ -17,8 +17,6 @@ $('.conversation .interrest .customRadiobox').on('click', function() {
 			if($(box).parent().hasClass('checked')) {
 				tmp = $(box).val();
 				return false;
-			} else {
-				// kein radio-feld checked
 			}
 		});
 		
@@ -37,9 +35,7 @@ $('.conversation .interrest .customRadiobox').on('click', function() {
 
 $('.conversation.chat .customRadiobox').on('click', function() {
 	var fields = $(nextStep).find('input:radio');
-	if (fields.is(':checked')) {
-		// nothing
-	} else { 
+	if (!fields.is(':checked')) {
 		if ( !err.status ) {
 			$(nextStep).find('.progress-bar').addClass('start');
 			var val = 'valueProgress'+nextStep.substr(1, nextStep.length-1);
@@ -54,9 +50,7 @@ $('.conversation.chat .customRadiobox').on('click', function() {
 
 $('.conversation.chat .customCheckbox').on('click', function() {
 	var fields = $(nextStep).find('.customCheckbox');
-	if (fields.hasClass('checked')) {
-		// nothing
-	} else { 
+	if (!fields.hasClass('checked')) {
 		if ( !err.status ) {
 			$(nextStep).find('.progress-bar').addClass('start');
 			var val = 'valueProgress'+nextStep.substr(1, nextStep.length-1);
@@ -84,10 +78,7 @@ $('.nextStep').on('click', function () {
 	var radioFields = $(thisStep).find('input:radio');
 	var checkboxFields = $(thisStep).find('input:checkbox');
 	
-	if ($(this).hasClass('return')) {
-		
-	} else {
-		
+	if (!$(this).hasClass('return')) {
 		if (radioFields.length > 0) {
 			// Mind. ein radio-feld checked
 			$.each( radioFields, function( k, box ) {			
@@ -112,8 +103,6 @@ $('.nextStep').on('click', function () {
 					err.errMSG = 'Bitte treffen Sie eine Auswahl!';
 				}
 			});
-		} else {
-			// nothing
 		}
 		
 		if (checkboxFields.length > 0) {
@@ -141,8 +130,6 @@ $('.nextStep').on('click', function () {
 					err.errMSG = 'Bitte treffen Sie mind. eine Auswahl!';
 				}			
 			});
-		} else {
-			// nothing
 		}
 		
 		$.each( reqFields, function( k, v ) {
@@ -166,13 +153,6 @@ $('.nextStep').on('click', function () {
 		$(thisStep).find('.errorMSG').fadeIn('fast');
 	} else {
 		$(thisStep).find('.errorMSG').hide();
-			
-		/*
-		$('.'+thisStep).removeClass('go');
-		$('.'+thisStep).addClass('goAway');
-		$('.'+nextStep).removeClass('goAway');
-		$('.'+nextStep).addClass('go');
-		$('.'+nextStep).addClass('animated');*/
 		
 		$(thisStep).addClass('goAway');
 		if (nextStep == '.result') {
@@ -197,9 +177,7 @@ $('.nextStep').on('click', function () {
 			$(thisStep).removeClass('step--active');
 			$(nextStep).addClass('step--active');
 			setTimeout(function(){
-				// $('.bg-height').css('height', $(nextStep).outerHeight() + 2250); 
 				scrollTo(nextStep, 0);
-				// $(nextStep).css('display', 'initial');
 				$(nextStep).removeClass('goAway');
 				$(nextStep).addClass('go');
 			}, 750);
@@ -219,9 +197,7 @@ $('.nextStep').on('click', function () {
 			$(thisStep).removeClass('step--active');
 			$(nextStep).addClass('step--active');
 			setTimeout(function(){
-				// $('.bg-height').css('height', $(nextStep).outerHeight() + 350);
 				scrollTo(nextStep, 0);
-				// $(nextStep).css('display', 'initial');
 				$(nextStep).removeClass('goAway');
 				$(nextStep).addClass('go');
 			}, 750);
