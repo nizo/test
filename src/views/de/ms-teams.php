@@ -126,7 +126,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Optimale Erreichbarkeit auf allen Endgeräten</h4>
-                        <p>Binden Sie Ihre Endgeräte in die Teams Telefonie ein! Machen Sie mit Microsoft Teams Ihren PC genauso zum Unternehmenstelefon wie Ihr Laptop oder Smartphone. Sie können Teams wie ein Softphone nutzen. So sind sie optimal erreichbar.</p>
+                        <p>Binden Sie Ihre Endgeräte in die Teams Telefonie ein! Machen Sie mit Microsoft Teams Ihren PC genauso zum Unternehmenstelefon wie Ihr Laptop oder Smartphone. Sie können Teams wie ein Softphone nutzen. So sind Sie optimal erreichbar.</p>
                     </div>
                 </div>
                 <div class="co-grid">
@@ -253,7 +253,7 @@ $faqs->faq_add (
                     <div class="index-card__content index-card__content--active">
                         <h3 class="centered">Endlich Seelenfrieden <br />in Ihrer IT</h3>
                         
-                        <p class="centered bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie. Endgeräte können flexibel eingebunden werden. Die Tems-Telefonie ist genau so skalierbar wie du sie brauchst.</p>
+                        <p class="centered bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie. Endgeräte können flexibel eingebunden werden. Die Teams-Telefonie ist genau so skalierbar wie Sie sie brauchen.</p>
 
                         <p>
                             <a href="/customer-success" class="btn btn--primary btn--centered">Wie wir arbeiten</a>
@@ -267,7 +267,10 @@ $faqs->faq_add (
 
 <div class="section section--big-padding section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Starten Sie die Teams-Telefonie, die zu Ihrem Unternehmen passt.</h1>
+        <h1 class="centered mobile-left">
+            Starten Sie die Teams-Telefonie,<br />
+            die zu Ihrem Unternehmen passt.
+        </h1>
         <p class="centered bigtext mobile-left">Wir sind Spezialisten für moderne Telekommunikationslösungen. Ihre Business-Telefonie integrieren wir problemlos in Microsoft Teams und bieten auf Wunsch eine vollumfassende Telefonielösung. Was brauchen Sie?</p>
 
         <div class="plans" id="preise">
@@ -279,9 +282,9 @@ $faqs->faq_add (
                         <li class="plan__feature">Microsoft Teams Telefonie</li>
                         <li>Integration weiterer Endgeräte</li>
                         <li>Callcenter Software</li>
-                        <li>Schnittstelen zu Ihren Tools</li>
+                        <li>Schnittstellen zu Ihren Tools</li>
                         <li>I2x Integration</li>
-                        <li>Was ihr Telefonie-Herz sonst begehrt</li>
+                        <li>Was Ihr Telefonie-Herz sonst begehrt</li>
                     </ul>
                 </div>
                 <div class="plan__bottom">
@@ -290,7 +293,7 @@ $faqs->faq_add (
                         pro User/Monat*
                     </p>
                     <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kostenlos<br>testen</a></p>
-                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>Mindestanzahl an Usern 10.</p>
+                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>&nbsp;&nbsp;Mindestanzahl an Usern 10.</p>
                 </div>
             </div>
             <div class="plan">
@@ -299,14 +302,14 @@ $faqs->faq_add (
                     <div class="plan__ribbon">Beliebt</div>
                 </div>
                 <div class="plan__features">
-                    <p>Teams in Kombination alternativen Soft- und Hardwaretelefonen gewünscht? Kombinieren sie Teams und VoIP-Clients flexibel für jeden User passend.</p>
+                    <p>Teams in Kombination mit alternativen Soft- und Hardwaretelefonen gewünscht? Kombinieren Sie Teams und VoIP-Clients flexibel für jeden User passend.</p>
                     <ul>
                         <li class="plan__feature">Microsoft Teams Telefonie</li>
                         <li class="plan__feature">Integration weiterer Endgeräte</li>
                         <li>Callcenter Software</li>
-                        <li>Schnittstelen zu Ihren Tools</li>
+                        <li>Schnittstellen zu Ihren Tools</li>
                         <li>I2x Integration</li>
-                        <li>Was ihr Telefonie-Herz sonst begehrt</li>
+                        <li>Was Ihr Telefonie-Herz sonst begehrt</li>
                     </ul>
                 </div>
                 <div class="plan__bottom">
@@ -315,7 +318,7 @@ $faqs->faq_add (
                         pro User/Monat*
                     </p>
                     <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Angebot<br>holen</a></p>
-                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>Mindestanzahl an Usern 10.</p>
+                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>&nbsp;&nbsp;Mindestanzahl an Usern 10.</p>
                 </div>
             </div>
             <div class="plan">
@@ -329,7 +332,7 @@ $faqs->faq_add (
                     <ul>
                         <li class="plan__feature">Rufnummern weltweit</li>
                         <li class="plan__feature">Callcenter Software</li>
-                        <li class="plan__feature">Schnittstellen zu ihrem Tool</li>
+                        <li class="plan__feature">Schnittstellen zu Ihrem Tool</li>
                         <li class="plan__feature">TAPI Treiber</li>
                         <li class="plan__feature">Fertige Apps für Ticketing, CRM, BI</li>
                         <li class="plan__feature">KI-basierte Telefonlösungen</li>
@@ -356,7 +359,7 @@ $faqs->faq_add (
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
                 <div class="quote">
-                    „Teams Telefonie, Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten“
+                    „Teams Telefonie, Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten.“
                 </div>
                 <p>
                     <strong>Simon Schöne</strong><br>
