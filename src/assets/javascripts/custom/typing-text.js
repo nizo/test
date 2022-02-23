@@ -5,23 +5,25 @@ class Typing {
         this.colors = Array(this.texts.length);
         this.colors.fill('currentColor');
         if (this.element.dataset.colors)
-        this.colors = this.element.dataset.colors.split('|');
+            this.colors = this.element.dataset.colors.split('|');
         this.links = Array(this.texts.length);
         this.links.fill(null);
         if (this.element.dataset.links)
-        this.links = this.element.dataset.links.split('|');
+            this.links = this.element.dataset.links.split('|');
         this.currentText = 0;
         this.textIndex = 0;
         this.speed = parseInt(this.element.dataset.speed) || 50;
         this.keepTime = 2000;
 
-        if (this.element.classList.contains('typing-text--block'))
+        if (this.element.classList.contains('typing-text--block')) {
             this.setElementHeight();
+            window.addEventListener('resize', this.setElementHeight.bind(this));
+        }
 
         this.element.textContent = '';
         this.element.style.color = this.colors[this.currentText];
 
-        this.write();
+        this.interval = this.write();
     }
 
     setElementHeight() {
@@ -32,6 +34,11 @@ class Typing {
                 size = this.element.offsetHeight;
         });
         this.element.textContent = '';
+        this.currentText = 0;
+        this.textIndex = 0;
+        this.element.style.color = this.colors[this.currentText];
+        if (this.interval)
+            clearTimeout(this.interval);
         setTimeout(() => {
             this.element.style.height = size + 'px';
         }, 30);
@@ -45,11 +52,11 @@ class Typing {
         if (this.textIndex < numChars) {
             this.element.textContent += text.charAt(this.textIndex);
             this.textIndex++;
-            setTimeout(this.write.bind(this), this.speed);
+            return setTimeout(this.write.bind(this), this.speed);
         } else {
             if (link)
                 this.element.innerHTML = '<a href="' + link + '">' + this.element.textContent + '</a>';
-            setTimeout(this.backspace.bind(this), this.keepTime);
+            return setTimeout(this.backspace.bind(this), this.keepTime);
         }
     }
 
