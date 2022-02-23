@@ -283,7 +283,7 @@ $faqs->faq_add (
                         <li>Integration weiterer Endgeräte</li>
                         <li>Callcenter Software</li>
                         <li>Schnittstellen zu Ihren Tools</li>
-                        <li>I2x Integration</li>
+                        <li>Echtzeit-Sprachanalyse</li>
                         <li>Was Ihr Telefonie-Herz sonst begehrt</li>
                     </ul>
                 </div>
@@ -308,7 +308,7 @@ $faqs->faq_add (
                         <li class="plan__feature">Integration weiterer Endgeräte</li>
                         <li>Callcenter Software</li>
                         <li>Schnittstellen zu Ihren Tools</li>
-                        <li>I2x Integration</li>
+                        <li>Echtzeit-Sprachanalyse</li>
                         <li>Was Ihr Telefonie-Herz sonst begehrt</li>
                     </ul>
                 </div>
