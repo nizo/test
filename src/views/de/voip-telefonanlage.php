@@ -227,7 +227,7 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Teams Telefonie mit CallOne bedeutet nahtlose Integration.</p>
 								<br />
-								<ul class="list list--checkmarks list--on-black readmore-list" style="--show-items:3">
+								<ul class="list list--checkmarks list--on-black readmore-list--3">
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
 									<li>Erweiterbar um Call Center Software</li>
 									<li>Einfache Benutzerverwaltung</li>
@@ -309,7 +309,7 @@ $faqs->faq_add (
 				<h3 class="centered mobile-left">Verbinden Sie die CallOne Cloud Telefonanlage mit Ihren Lieblings-Apps. Nutzen Sie eine für Ihr Unternehmen maßgeschneiderte Lösung!</h3>
 				<br />
 
-				<div class="co-grid mobile-hidden" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
+				<div class="co-grid mobile-hidden" style="background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
 					<div class="co-grid__col co-grid__col--1-xs"></div>
 					<div class="co-grid__col co-grid__col--3-xs">
 						<div class="carddeck carddeck--no-indicators centered">

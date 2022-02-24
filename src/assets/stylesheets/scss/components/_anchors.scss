@@ -60,12 +60,17 @@
     .anchors {
         &__title {
             margin-bottom: var(--gutter-xs);
+
+            strong {
+                display: block;
+            }
         }
 
         &__links {
             a {
                 padding: calc(var(--gutter-xs) / 2) var(--gutter-xs);
                 margin: calc(var(--gutter-xs) / 2);
+                font-size: 16px;
             }
         }
     }

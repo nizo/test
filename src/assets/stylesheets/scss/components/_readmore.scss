@@ -1,3 +1,5 @@
+$readmoreBreakpoint: 768px;
+
 // Read More Inline Text
 .readmore {
     display: inline;
@@ -15,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $readmoreBreakpoint) {
     .readmore {
         display: none;
 
@@ -34,10 +36,43 @@
 }
 
 // Read More List Items
-.readmore-list {
+$maxListItems: 10;
+[class*='readmore-list--'].readmore-list--show {
     li {
-        &:nth-child(n+4) {
-            display: none;
+        display: list-item !important;
+
+        &.readmore-list__button {
+            display: none !important;
         }
+    }
+
+}
+
+.readmore-list__button {
+    display: none;
+
+    a {
+        color: currentColor;
+        border-bottom: 2px solid $color-primary;
+        white-space: nowrap;
+        font-weight: 500;
+    
+        &:hover {
+            border-color: #000;
+        }
+    }
+}
+
+@media screen and (max-width: $readmoreBreakpoint) {
+    @for $i from 1 through $maxListItems {
+        .readmore-list--#{$i} {
+            li:nth-child(n+#{$i + 1}):not(:last-child) {
+                display: none;
+            }
+        }
+    }
+
+    .readmore-list__button {
+        display: list-item;
     }
 }
