@@ -60,7 +60,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--big-padding">
+<div class="section section--white-grey section--big-padding section--no-padding-bottom">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">
             MS Teams Telefonie:<br />
@@ -102,7 +102,31 @@ $faqs->faq_add (
             </div>
         </div>
     </div>
+</div>
 
+<div class="section" style="background:linear-gradient(#f0f0f0 50%, #fff 50%)">
+    <div class="section__content section__content--wide">
+        <div class="breather-box" style="--c-bg:#464775;--c-text:#fff">
+            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--vcentered">
+                    <img src="/assets/images/client-logos/logo-lbs-immobilien-white.svg" alt="" width="255" height="107">
+                </div>
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
+                    <h4>LBS Immobilien über die CallOne Lösung:</h4>
+                    <div class="quote" style="--fontSize:18px">
+                        „Unsere gesamte Unternehmenstelefonie findet nun in Microsoft Teams statt. Alles ist perfekt in unsere Telefonanlage integriert: Online-Meetings, Verfügbarkeiten, Chats, Telefonie. Unsere internen und externen Anrufe führen wir per Klick in der Teams-Telefonie.“
+                    </div>
+                    <!-- <p>
+                        <strong>Simon Schöne</strong><br>
+                        IT-Spezialist
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--no-padding-top">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">
             Die smarte Businesstelefonie:<br>
@@ -113,7 +137,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_png/job_02@2x.png" alt="" width="80" height="80" style="width:80px !important" />
+                        <img src="/assets/images/icons_png/headphone-circle-green-black.png" alt="" width="80" height="80" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie war nie einfacher</h4>
@@ -154,10 +178,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
-                <h1>
-                    Noch mehr Wow:<br />
-                    Teams-Integration in der CallOne Cloud Telefonanlage
-                </h1>
+                <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -193,10 +214,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
-                <h1>
-                    Noch mehr Wow:<br />
-                    Teams-Integration in der CallOne Cloud Telefonanlage
-                </h1>
+                <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -232,10 +250,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
-                <h1>
-                    Noch mehr Wow:<br />
-                    Teams-Integration in der CallOne Cloud Telefonanlage
-                </h1>
+                <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -268,103 +283,56 @@ $faqs->faq_add (
 <div class="section section--big-padding section--light-green-white">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">
-            Starten Sie die Teams-Telefonie,<br />
-            die zu Ihrem Unternehmen passt.
+            Alles was Sie benötigen für erstklassige Teams Telefonie
         </h1>
-        <p class="centered bigtext mobile-left">Wir sind Spezialisten für moderne Telekommunikationslösungen. Ihre Business-Telefonie integrieren wir problemlos in Microsoft Teams und bieten auf Wunsch eine vollumfassende Telefonielösung. Was brauchen Sie?</p>
 
         <div class="plans" id="preise">
-            <div class="plan">
-                <div class="plan__top">Teams only</div>
-                <div class="plan__features">
-                    <p>Kein Geschnörkel. Sie haben sich entschieden ausschließlich über Teams zu telefonieren? Dann ist dies das richtige Paket für Sie.</p>
-                    <ul>
-                        <li class="plan__feature">Microsoft Teams Telefonie</li>
-                        <li>Integration weiterer Endgeräte</li>
-                        <li>Callcenter Software</li>
-                        <li>Schnittstellen zu Ihren Tools</li>
-                        <li>Echtzeit-Sprachanalyse</li>
-                        <li>Was Ihr Telefonie-Herz sonst begehrt</li>
-                    </ul>
+            <div class="plan" data-legend="Mindestnutzung ab 10 Nebenstellen">
+                <div class="plan__head">
+                    <div class="plan__subtitle">Teams Telefonie mit Profifunktionen</div>
+                    <div class="plan__title">Teams pur</div>
+                    <div class="plan__price">
+                        <strong>7,90 €</strong>
+                        <span>monatlich pro Nebenstelle*</span>
+                    </div>
                 </div>
-                <div class="plan__bottom">
-                    <p class="plan__price">
-                        <span>7,90 €</span><br>
-                        pro User/Monat*
-                    </p>
-                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kostenlos<br>testen</a></p>
-                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>&nbsp;&nbsp;Mindestanzahl an Usern 10.</p>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="plan__top">
-                    Teams & VoIP
-                    <div class="plan__ribbon">Beliebt</div>
-                </div>
-                <div class="plan__features">
-                    <p>Teams in Kombination mit alternativen Soft- und Hardwaretelefonen gewünscht? Kombinieren Sie Teams und VoIP-Clients flexibel für jeden User passend.</p>
-                    <ul>
-                        <li class="plan__feature">Microsoft Teams Telefonie</li>
-                        <li class="plan__feature">Integration weiterer Endgeräte</li>
-                        <li>Callcenter Software</li>
-                        <li>Schnittstellen zu Ihren Tools</li>
-                        <li>Echtzeit-Sprachanalyse</li>
-                        <li>Was Ihr Telefonie-Herz sonst begehrt</li>
-                    </ul>
-                </div>
-                <div class="plan__bottom">
-                    <p class="plan__price">
-                        <span>9,90 €</span><br>
-                        pro User/Monat*
-                    </p>
-                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Angebot<br>holen</a></p>
-                    <p class="subtext">*Einmalige Einrichtung 99,00 €.<br>&nbsp;&nbsp;Mindestanzahl an Usern 10.</p>
-                </div>
-            </div>
-            <div class="plan">
-                <div class="plan__top">
-                    Erweiterungen
-                </div>
-                <div class="plan__features">
-                    <p>
-                        Bekommen Sie genau die Lösung, die Ihre Unternehmenstelefonie benötigt! Teams als Cloud-Telefonanlage in Kombination mit vielen weiteren Assets.
-                    </p>
-                    <ul>
-                        <li class="plan__feature">Rufnummern weltweit</li>
-                        <li class="plan__feature">Callcenter Software</li>
-                        <li class="plan__feature">Schnittstellen zu Ihrem Tool</li>
-                        <li class="plan__feature">TAPI Treiber</li>
-                        <li class="plan__feature">Apps für Ticketing, CRM, BI</li>
-                        <li class="plan__feature">KI-basierte Telefonlösungen</li>
-                    </ul>
-                </div>
-                <div class="plan__bottom">
-                    <p class="plan__price" style="visibility:hidden">
-                        <span>0€*</span><br />
-                        jetzt sichern
-                    </p>
-                    <p><a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kontakt<br>aufnehmen</a></p>
-                    <p class="subtext">&nbsp;<br>&nbsp;</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                <div class="plan__content">
+                    <h3>Teams Telefonie</h3>
 
-<div class="section section--white-light-green">
-    <div class="section__content section__content--wide">
-        <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--vcentered">
-                <img src="/assets/images/client-logos/logo-lbs-green-circle.png" alt="" width="470" height="470">
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
-                <div class="quote">
-                    „Teams Telefonie mit Callcenter Software mit umfangreichem statistischen Auswertungen sind Tools, die wir heute nicht mehr missen möchten.“
+                    <ul>
+                        <li>Rasante Bereitstellung</li>
+                        <li>Kostengünstige Telefonate ab 1 ct/Min. führen</li>
+                        <li>kostenfreie Portierung</li>
+                        <li>umfänglichste Erweiterungsoptionen</li>
+                    </ul>
                 </div>
-                <p>
-                    <strong>Simon Schöne</strong><br>
-                    IT-Spezialist
-                </p>
+                <div class="plan__foot">
+                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kostenlos testen</a>
+                </div>
+            </div>
+            <div class="plan plan--highlight" data-legend="Mindestnutzung ab 10 Nebenstellen">
+                <div class="plan__head">
+                    <div class="plan__ribbon">Beliebt</div>
+                    <div class="plan__subtitle">Teams Telefonie flexibel erweitert</div>
+                    <div class="plan__title">Teams hybrid</div>
+                    <div class="plan__price">
+                        <strong>12,90 €</strong>
+                        <span>monatlich pro Nebenstelle*</span>
+                    </div>
+                </div>
+                <div class="plan__content">
+                    <h3>Teams kombiniert mit IP-Telefonie</h3>
+
+                    <ul>
+                        <li>Erweiterung um Telefonie SIP-fähiger Endgeräte</li>
+                        <li>Pakete je User flexibel kombinierbar</li>
+                        <li>monatlich kündbar</li>
+                        <li>kinderleichte Administration</li>
+                    </ul>
+                </div>
+                <div class="plan__foot">
+                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Angebot holen</a>
+                </div>
             </div>
         </div>
     </div>
