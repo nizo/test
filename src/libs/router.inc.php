@@ -448,12 +448,6 @@ Router::add('/screensize', 'tools/screensize.php', [
     'body_class' => 'components--scrollbar',
     'sitemap_include' => false
 ]);
-Router::add('/statistics', 'tools/statistics.php', [
-    'title' => 'Statistics',
-    'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
-    'sitemap_include' => false
-]);
 
 /* *************** **
 ** ** ERROR 404 ** **
