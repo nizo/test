@@ -8,15 +8,15 @@ function prepareOgImageText($text) {
 // Get css/js hash
 function getCssHash() {
     $css_hash = "";
-    if (file_exists($_SERVER['DOCUMENT_ROOT'].'/libs/css_hash.cfg')) {
-        $css_hash = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/libs/css_hash.cfg');
+    if (file_exists(__DIR__.'/css_hash.cfg')) {
+        $css_hash = file_get_contents(__DIR__.'/css_hash.cfg');
     }
     return $css_hash;
 }
 function getJsHash() {
     $js_hash = "";
-    if (file_exists($_SERVER['DOCUMENT_ROOT'].'/libs/js_hash.cfg')) {
-        $js_hash = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/libs/js_hash.cfg');
+    if (file_exists(__DIR__.'/js_hash.cfg')) {
+        $js_hash = file_get_contents(__DIR__.'/js_hash.cfg');
     }
     return $js_hash;
 }
