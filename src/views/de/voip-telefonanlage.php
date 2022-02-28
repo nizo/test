@@ -231,9 +231,6 @@ $faqs->faq_add (
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
 									<li>Erweiterbar um Call Center Software</li>
 									<li>Einfache Benutzerverwaltung</li>
-									<li>Hidden 1</li>
-									<li>Hidden 2</li>
-									<li>Hidden 3</li>
 								</ul>
 							</div>
 						</div>
