@@ -189,10 +189,10 @@ $faqs->faq_add (
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
-                    <div class="index-card__content index-card__content--active">
-                        <h3 class="centered">Der Wow-Effekt für <br />Ihre Cloud Telefonanlage</h3>
+                    <div class="index-card__content index-card__content--active centered">
+                        <h3>Der Wow-Effekt für <br />Ihre Cloud Telefonanlage</h3>
                         
-                        <p class="centered bigtext">Ihre VoIP-Telefonanlage und Call Center Software integrieren wir perfekt in Microsoft Teams. Zusätzlich die CallOne Vorteile nutzen und genau so telefonieren wie Sie es brauchen.</p>
+                        <p class="bigtext">Ihre VoIP-Telefonanlage und Call Center Software integrieren wir perfekt in Microsoft Teams. Zusätzlich die CallOne Vorteile nutzen und genau so telefonieren wie Sie es brauchen.</p>
 
                         <p>
                             <a href="/voip-telefonanlage" class="btn btn--primary btn--centered">Zur Cloud Telefonanlage</a>
@@ -225,10 +225,10 @@ $faqs->faq_add (
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
-                    <div class="index-card__content index-card__content--active">
-                        <h3 class="centered">Volle Transparenz & <br />fast unbegrenzte Möglichkeiten</h3>
+                    <div class="index-card__content index-card__content--active centered">
+                        <h3>Volle Transparenz & <br />fast unbegrenzte Möglichkeiten</h3>
                         
-                        <p class="centered bigtext">Sie bekommen von CallOne den Turbo-Baukasten für Ihre Business-Telefonie. Plus das wahrscheinlich umfangreichste Telefonie-Reporting. Behalten Sie den Überblick und heben Sie Ihre ROI-Schätze!</p>
+                        <p class="bigtext">Sie bekommen von CallOne den Turbo-Baukasten für Ihre Business-Telefonie. Plus das wahrscheinlich umfangreichste Telefonie-Reporting. Behalten Sie den Überblick und heben Sie Ihre ROI-Schätze!</p>
 
                         <p>
                             <a href="/statistiken" class="btn btn--primary btn--centered">Mehr über unsere Statistiken</a>
@@ -261,10 +261,10 @@ $faqs->faq_add (
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
-                    <div class="index-card__content index-card__content--active">
-                        <h3 class="centered">Endlich Seelenfrieden <br />in Ihrer IT</h3>
+                    <div class="index-card__content index-card__content--active centered">
+                        <h3>Endlich Seelenfrieden <br />in Ihrer IT</h3>
                         
-                        <p class="centered bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie. Endgeräte können flexibel eingebunden werden. Die Teams-Telefonie ist genau so skalierbar wie Sie sie brauchen.</p>
+                        <p class="bigtext">Einfache Integration und maximale Flexibilität von Teams Telefonie in Ihre Business-Telefonie. Endgeräte können flexibel eingebunden werden. Die Teams-Telefonie ist genau so skalierbar wie Sie sie brauchen.</p>
 
                         <p>
                             <a href="/customer-success" class="btn btn--primary btn--centered">Wie wir arbeiten</a>
