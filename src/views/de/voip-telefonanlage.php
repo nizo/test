@@ -208,7 +208,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="1">
 				<h3 class="centered mobile-left">Die Flexibilität, die Sie brauchen! <br />Mit der CallOne Cloud Telefonanlage einfach telefonieren wie und wo Sie möchten. </h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="small-tabs small-tabs--clear small-tabs--on-black">
 					<div class="small-tabs__tabs">
@@ -304,7 +304,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="2">
 				<h3 class="centered mobile-left">Verbinden Sie die CallOne Cloud Telefonanlage mit Ihren Lieblings-Apps. Nutzen Sie eine für Ihr Unternehmen maßgeschneiderte Lösung!</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="co-grid mobile-hidden" style="background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
 					<div class="co-grid__col co-grid__col--1-xs"></div>
@@ -335,8 +335,10 @@ $faqs->faq_add (
 					</div>
 					<div class="co-grid__col co-grid__col--1-xs"></div>
 				</div>
+
+				<br class="mobile-hidden" />
 				
-				<div class="co-grid">
+				<div class="co-grid co-grid--no-margin-top">
 					<div class="co-grid__col co-grid__col--1-xs"></div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md right mobile-left">
 						<h3>Fertige Konnektoren zu Ihren Lieblings-Apps</h3>
@@ -353,7 +355,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="3">
 				<h3 class="centered mobile-left">Optimierungspotentiale erkennen und datenbasierte Entscheidungen treffen. Dafür ist die CallOne Lösung genau richtig.</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
@@ -380,7 +382,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="4">
 				<h3 class="centered mobile-left">Erreichbarkeit ist ein Schlüsselfaktor Ihrer Unternehmenstelefonie. <br />Darum bieten wir Ihnen mit der CallOne Cloud Telefonanlage 99,999% Erreichbarkeit!</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="co-grid cards">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
