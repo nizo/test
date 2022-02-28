@@ -288,6 +288,7 @@ $faqs->faq_add (
 
         <div class="plans" id="preise">
             <div class="plan" data-legend="Mindestnutzung ab 10 Nebenstellen">
+                <div class="plan__bubble"></div>
                 <div class="plan__head">
                     <div class="plan__subtitle">Teams Telefonie mit Profifunktionen</div>
                     <div class="plan__title">Teams pur</div>
@@ -311,6 +312,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="plan plan--highlight" data-legend="Mindestnutzung ab 10 Nebenstellen">
+                <div class="plan__bubble"></div>
                 <div class="plan__head">
                     <div class="plan__ribbon">Beliebt</div>
                     <div class="plan__subtitle">Teams Telefonie flexibel erweitert</div>
