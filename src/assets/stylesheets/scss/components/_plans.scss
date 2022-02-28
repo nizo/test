@@ -17,9 +17,6 @@
     justify-content: flex-start;
     flex: 1 0 0;
     background-color: #fff;
-    // background-image: radial-gradient(circle, rgba($color-primary, 0.1) 50%, #fff 50%);
-    // background-size: 200%;
-    // background-position: 10% 70%;
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin-right: var(--gutter-m);
@@ -77,6 +74,11 @@
 
         @media screen and (max-width: 840px) {
             font-size: 16px;
+            transform: translate(0, calc(-50% - 2px));
+            box-shadow: none;
+            border-radius: 10px;
+            padding: var(--gutter-micro) var(--gutter-xs);
+            right: var(--gutter-xs);
         }
     }
 
@@ -85,6 +87,10 @@
         overflow: hidden;
         padding: var(--gutter-m);
         border-bottom: 2px solid rgba(#000, .1);
+
+        @media screen and (max-width: 840px) {
+            overflow: visible;
+        }
     }
 
     &__subtitle {
