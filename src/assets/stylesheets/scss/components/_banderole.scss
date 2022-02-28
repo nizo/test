@@ -1,0 +1,52 @@
+:root {
+    --banderoleHeight: 32px;
+}
+
+.banderole {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--banderoleHeight);
+    background-color: #478700;
+    background-color: #4caf50;
+    background-image: linear-gradient(-30deg, $color-primary, darken($color-primary, 20%), $color-primary);
+    // background-color: $color-primary;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1;
+
+    a {
+        display: inline-block;
+        border: 2px solid #fff;
+        color: currentColor;
+        padding: .1em .5em;
+        border-radius: 300px;
+        margin: 0 var(--gutter-xs);
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            text-shadow: none;
+        }
+    }
+    
+    &~.navigation {
+        top: var(--banderoleHeight);
+    
+    }
+    &~.navigation--scrolled~.navigation__shadow {
+        top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight));
+    }
+}
+
+.banderole-spacer {
+    display: none;
+    width: 100%;
+    height: var(--banderoleHeight);
+}
