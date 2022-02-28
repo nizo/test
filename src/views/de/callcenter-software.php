@@ -780,8 +780,9 @@ $faqs->faq_add (
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Das glauben Sie uns nicht?</h1>
 		
-		<p class="centered mobile-left" style="font-size:28px">Dann schauen Sie sich jetzt an, was unsere Kunden schon</p>
-		<h3 class="centered mobile-left">mit der CallOne Callcenter-Software erreichen konnten.</h3>
+		<p class="centered bigtext mobile-left">
+			Dann schauen Sie sich jetzt an, was unsere Kunden schon mit der CallOne Callcenter-Software erreichen konnten.
+		</p>
 	</div>	
 
 	<div class="section__content section__content--wide">
@@ -837,13 +838,13 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
-				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md mobile-left">
+				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="" width="48" height="48" /></p>
 					<h4>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h4>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
-				<div class="co-grid__col co-grid__col--6-md co-grid__col--hidden-md">
+				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" width="48" height="48" /></p>
 					<h4>Senden Sie uns <br />eine Nachricht</h4>
 					<p>Kontaktformular nutzen</p>
@@ -881,7 +882,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="1">
 				<h3 class="centered mobile-left">Flexibel heißt bei CallOne: <br />Telefonieren wie und wo sie möchten!</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="small-tabs small-tabs--clear small-tabs--on-black">
 					<div class="small-tabs__tabs">
@@ -1021,7 +1022,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="2">
 				<h3 class="centered">Telefonie mit Lieblings-Apps verbinden</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="co-grid" style="width:80%;margin-left:auto;margin-right:auto;background-image:url(/assets/images/backgrounds_png/background-layer-reduced.png);background-size:contain;background-position:center;background-repeat:no-repeat;">
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--1-md"></div>
@@ -1053,7 +1054,9 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--1-md"></div>
 				</div>
 
-				<div class="co-grid">
+				<br class="mobile-hidden" />
+
+				<div class="co-grid co-grid--no-margin-top">
 					<div class="co-grid__col co-grid__col--1-xs"></div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md right mobile-left">
 						<h3>Fertige Konnektoren zu Ihren Lieblings-Apps</h3>
@@ -1070,7 +1073,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="3">
 				<h3 class="centered mobile-left">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md right mobile-left">
@@ -1085,8 +1088,10 @@ $faqs->faq_add (
 						<p>Bei uns arbeiten Projektmanager*innen und Kunden Hand in Hand – tagtäglich! Sie erhalten einen zentralen Ansprechpartner. Dies schafft nicht nur unglaubliche Geschwindigkeit im Projekt sondern auch messbare Erfolge in Ihrem ROI.</p>
 					</div>
 				</div>
+
+				<br class="mobile-hidden" />
 				
-				<div class="co-grid">
+				<div class="co-grid co-grid--no-margin-top">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="co-video">
 							<div class="co-video__poster">
@@ -1107,7 +1112,7 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="4">
 				<h3 class="centered">Datenschutz und Ausfallsicherheit</h3>
-				<br />
+				<br class="mobile-hidden" />
 
 				<div class="co-grid cards">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
