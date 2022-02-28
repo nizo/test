@@ -227,7 +227,7 @@ $faqs->faq_add (
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Teams Telefonie mit CallOne bedeutet nahtlose Integration.</p>
 								<br />
-								<ul class="list list--checkmarks list--on-black readmore-list--3">
+								<ul class="list list--checkmarks list--on-black">
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
 									<li>Erweiterbar um Call Center Software</li>
 									<li>Einfache Benutzerverwaltung</li>
