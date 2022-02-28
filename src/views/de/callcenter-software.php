@@ -151,16 +151,16 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" data-sticky-text="Erreichbarkeit">
+				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" style="--bg: 219, 0, 197;" data-sticky-text="Erreichbarkeit">
 					<strong>Beste Erreichbarkeit</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="2" data-sticky-text="Effizienz">
+				<div class="tablist__link tablist__link--smaller" data-tab="2" style="--bg: 255, 123, 27;" data-sticky-text="Effizienz">
 					<strong>Mehr Effizienz</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="3" data-sticky-text="Bearbeitung">
+				<div class="tablist__link tablist__link--smaller" data-tab="3" style="--bg: 255, 0, 46;" data-sticky-text="Bearbeitung">
 					<strong>Schnellere Bearbeitung</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="4" data-sticky-text="Transparenz">
+				<div class="tablist__link tablist__link--smaller" data-tab="4" style="--bg: 0, 136, 234;" data-sticky-text="Transparenz">
 					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>

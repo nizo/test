@@ -122,7 +122,8 @@
         padding: 15px;
     }
     &__link--active {
-        background-color: rgba($color-primary, .2);
+        --bg: #{$color-primary-rgb};
+        background-color: rgba(var(--bg), .2);
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom: 4px solid #000;

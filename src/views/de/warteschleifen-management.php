@@ -60,11 +60,11 @@
 
         <div class="tablist" id="features">
             <div class="tablist__links">
-                <div class="tablist__link" data-tab="1">
+                <div class="tablist__link" data-tab="1" style="--bg: 219, 0, 197;">
                     <img src="/assets/images/icons_svg/callback-icon.svg" alt="" width="70" height="70" />
                     <strong>Warteschleifenmodule</strong>
                 </div>
-                <div class="tablist__link" data-tab="2">
+                <div class="tablist__link" data-tab="2" style="--bg: 219, 0, 197;">
                     <img src="/assets/images/icons_svg/routing-icon.svg" alt="" width="70" height="70" />
                     <strong>Routingfunktionen</strong>
                 </div>
