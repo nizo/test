@@ -19,7 +19,7 @@ $jobsCount = count($jobs->jobs_get());
 <nav class="navigation">
     <div class="navigation__links">
         <a href="/" class="navigation__logo<?= isChristmas() ? ' navigation__logo--christmas' : '' ?>" title="Zur Startseite von CallOne">
-            <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/images/logo/Logo-Christmas-Equal.svg'); ?>
+            <?php require_once(__DIR__.'/../assets/images/logo/Logo-Christmas-Equal.svg'); ?>
         </a>
 
         <ul>
