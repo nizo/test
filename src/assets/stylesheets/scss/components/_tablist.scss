@@ -73,6 +73,10 @@
                 }
             }
         }
+
+        .tablist__link--active {
+            border-radius: 0;
+        }
     }
 
     &__link {
@@ -118,6 +122,9 @@
         padding: 15px;
     }
     &__link--active {
+        background-color: rgba($color-primary, .2);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         border-bottom: 4px solid #000;
         padding-bottom: 15px;
         opacity: 1;
