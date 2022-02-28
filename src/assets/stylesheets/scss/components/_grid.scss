@@ -145,7 +145,7 @@ $breakpoints: (
 
 @media screen and (max-width: 768px) {
     .co-grid__col {
-        > img {
+        > img:not(.co-grid__image--full-width) {
             max-width: 50%;
             margin-left: auto;
             margin-right: auto;
