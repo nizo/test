@@ -22,7 +22,6 @@
     <?php getLogoParade([   
                           ['data' => 'logo-bett1-2.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-check24-2.png', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'logo-sixt-2.png', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-snipes-2.png', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-sodastream-2.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo small']
     ], null, 'startpage'); ?>
