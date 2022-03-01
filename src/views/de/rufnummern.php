@@ -30,7 +30,7 @@ $product->structured_data_get_code ();
         </nav>
       </div>
       <div class="media">
-        <img src="/assets/images/icons_svg/big_11.svg" alt="CallOne Rufnummern Service" width="560" height="294" class="mobile-hidden" />
+        <img src="/assets/images/icons_svg/big_11.svg" alt="Weltweil und lokal virtuell Rufnummern für die Cloud Telefonanlage schalten" width="560" height="294" class="mobile-hidden" />
       </div>
     </header>
   </div>

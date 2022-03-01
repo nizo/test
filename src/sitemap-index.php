@@ -12,11 +12,11 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
       <lastmod><?= date("Y-m-d") ?></lastmod>
    </sitemap>
    <sitemap>
-      <loc>https://www.callone.de/blog/sitemap.xml</loc>
+      <loc>https://www.callone.de/blog/post-sitemap.xml</loc>
       <lastmod><?= date("Y-m-d") ?></lastmod>
    </sitemap>
    <sitemap>
-      <loc>https://www.callone.de/faq/sitemap.xml</loc>
+      <loc>https://www.callone.de/faq/post-sitemap.xml</loc>
       <lastmod><?= date("Y-m-d") ?></lastmod>
    </sitemap>
 </sitemapindex>
