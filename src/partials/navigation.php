@@ -34,7 +34,7 @@ $jobsCount = count($jobs->jobs_get());
                             <div class="submenu__column submenu__column--border-right" style="--col-width:360px;">
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/callone-plattform.png" alt="" />
+                                        <img src="/assets/images/navigation/callone-plattform.png" alt="Telekommunikationslösungen von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>CallOne Plattform</strong>
@@ -44,7 +44,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                 <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-callcenter-software.png" alt="" />
+                                        <img src="/assets/images/navigation/menu-callcenter-software.png" alt="Cloud Telefonanlage von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>Cloud Telefonanlage</strong>
@@ -54,7 +54,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                 <a href="/callcenter-software" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/callcenter-software-icon.png" alt="" />
+                                        <img src="/assets/images/navigation/callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>Callcenter-Software<span class="submenu__link-tag">Beliebt</span></strong>
@@ -64,7 +64,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                 <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-apis.png" alt="" />
+                                        <img src="/assets/images/navigation/menu-apis.png" alt="CRM Integration und Schnittstellenanbindung an CallOne mit APIs" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>Kommunikations-APIs</strong>
@@ -106,7 +106,7 @@ $jobsCount = count($jobs->jobs_get());
                         </div>
                         <div class="submenu__right submenu__right--align-bottom">
                             <div class="submenu__ad">
-                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="" /></a>
+                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="CallOne Softphone für VoIP Telefonie" /></a>
                             </div>
 
                             <a href="/softphone" class="submenu__link submenu__link--3-lines">
@@ -130,7 +130,7 @@ $jobsCount = count($jobs->jobs_get());
                             <div class="submenu__row">
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/callone-produkte.png" alt="" />
+                                        <img src="/assets/images/navigation/callone-produkte.png" alt="Businesstelefonie auf dem nächsten Level mit Produkten von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>CallOne Produkte</strong>
@@ -143,7 +143,7 @@ $jobsCount = count($jobs->jobs_get());
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
                                 <a href="/0800-lokal-nummern" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-numbers.png" alt="" />
+                                            <img src="/assets/images/navigation/menu-numbers.png" alt="lokale, nationale und internationale Rufnummern schalten" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Rufnummern</strong>
@@ -163,7 +163,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                     <a href="/callcenter-bot" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-callcenter-bot.png" alt="" />
+                                            <img src="/assets/images/navigation/menu-callcenter-bot.png" alt="Sprachgesteuerte KI Systeme mit dem CallOne Callcenter Bot" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Callcenter-Bot</strong>
@@ -174,7 +174,7 @@ $jobsCount = count($jobs->jobs_get());
                                 <div class="submenu__column" style="--col-width:330px;">
                                     <a href="/softphone" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-softphone.png" alt="" />
+                                            <img src="/assets/images/navigation/menu-softphone.png" alt="VoIP Telefonie mit dem CallOne Softphone" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>VoIP-Softphone</strong>
@@ -184,7 +184,7 @@ $jobsCount = count($jobs->jobs_get());
                                     
                                     <a href="/call-tracking" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="" />
+                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Call-Tracking</strong>
@@ -194,7 +194,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                     <!-- <a href="#todo" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="" />
+                                            <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Virtueller Assistent</strong>
@@ -256,7 +256,7 @@ $jobsCount = count($jobs->jobs_get());
                                 <div class="submenu__column" style="--col-width:300px">
                                     <a href="/case-study-check24" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/check24.png" alt="" />
+                                            <img src="/assets/images/navigation/check24.png" alt="Check24 Kundenzufriedenheit CallOne" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Check24</strong>
@@ -266,7 +266,7 @@ $jobsCount = count($jobs->jobs_get());
         
                                     <a href="/case-study-flaconi" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/flaconi.png" alt="" />
+                                            <img src="/assets/images/navigation/flaconi.png" alt="Flaconi Kundenzufriedenheit CallOne" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Flaconi</strong>
@@ -276,7 +276,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                     <a href="/case-study-niceshops" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/niceshops.png" alt="" />
+                                            <img src="/assets/images/navigation/niceshops.png" alt="Niceshops Kundenzufriedenheit CallOne" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>niceshops</strong>
@@ -286,7 +286,7 @@ $jobsCount = count($jobs->jobs_get());
     
                                     <a href="/case-study-apodiscounter" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/apodiscounter.png" alt="" />
+                                            <img src="/assets/images/navigation/apodiscounter.png" alt="Apodiscounter Kundenzufriedenheit CallOne" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Apodiscounter</strong>
