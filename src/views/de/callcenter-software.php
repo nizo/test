@@ -528,7 +528,7 @@ $faqs->faq_add (
 						</div>
 
 						<div class="saving-calculation__content saving-calculation__content--blurred">
-							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.</p>
+							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.<br /><br /></p>
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
@@ -721,7 +721,7 @@ $faqs->faq_add (
 						</div>
 
 						<div class="saving-calculation__content saving-calculation__content--blurred">
-							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.</p>
+							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.<br /><br /></p>
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
