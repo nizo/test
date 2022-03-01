@@ -11,10 +11,10 @@
     left: 0;
     width: 100%;
     height: var(--banderoleHeight);
-    background-color: #478700;
-    background-color: #4caf50;
-    background-image: linear-gradient(-30deg, $color-primary, darken($color-primary, 20%), $color-primary);
-    // background-color: $color-primary;
+    background-size: 200% 200%;
+    background-image: repeating-linear-gradient(-45deg, $color-primary, darken($color-primary, 20%), $color-primary);
+    background-position: 0% 50%;
+    animation: background 7s infinite linear;
     text-shadow: 0 0 10px #000;
     padding: 0 var(--gutter-xs);
     color: #fff;
@@ -61,6 +61,15 @@
     }
     &~.navigation--scrolled {
         top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
+        padding-top: var(--navigationOffsetScrolled);
+
+        .navigation__item {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .navigation__submenu {
+            padding-top: 14px;
+        }
     }
     &~.navigation--scrolled~.navigation__shadow {
         top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
@@ -74,6 +83,12 @@
     display: none;
     width: 100%;
     height: var(--banderoleHeight);
+}
+
+@keyframes background {
+    to {
+        background-position: 200% 50%;
+    }
 }
 
 @media screen and (max-width: 950px), screen and (max-height: 570px) {
