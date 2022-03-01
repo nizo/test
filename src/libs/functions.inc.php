@@ -170,6 +170,36 @@ function isChristmas() {
     return (date('n') == 12);
 }
 
+function isCrawler ($user_agent)
+{
+    $user_agent = strtolower ($user_agent);
+
+    $crawler_user_agents = [];
+    $crawler_user_agents[] = 'bingbot';
+    $crawler_user_agents[] = 'bingpreview';
+    $crawler_user_agents[] = 'chrome-lighthouse';
+    $crawler_user_agents[] = 'compatible; optimizer';   // sistrix
+    $crawler_user_agents[] = 'duckduckbot';
+    $crawler_user_agents[] = 'googlebot';
+    $crawler_user_agents[] = 'adsbot-google';
+    $crawler_user_agents[] = 'hubspot crawler';
+    $crawler_user_agents[] = 'infotigerbot';
+    $crawler_user_agents[] = 'jugendschutzprogramm-crawler';
+    $crawler_user_agents[] = 'metajobbot';
+    $crawler_user_agents[] = 'neevabot';
+    $crawler_user_agents[] = 'opensiteexplorer';
+    $crawler_user_agents[] = 'semrushbot';
+    $crawler_user_agents[] = 'sistrix optimize';
+    $crawler_user_agents[] = 'yandexbot';
+
+    foreach ($crawler_user_agents as $crawler_user_agent)
+    {   if (strpos ($user_agent, $crawler_user_agent) !== false)
+            return true;
+    }
+
+    return false;
+}
+
 /* Simple decode function (bitweise) */
 function decode($encoded) {
     $decoded = "";
