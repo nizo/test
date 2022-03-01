@@ -26,14 +26,11 @@ window.onscroll = function() {
 };	
 **/
 
-if(checkCookie('cookiebanner-accepted') === false) {
-	console.log("cookie banner anzeigen");
+if(checkCookie('cookiebanner-accepted') === false)
 	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-}
 
 $('.cookieSubmit').on('click', function(event) {
 	event.preventDefault();
-	console.log("cookie richtlinien akzeptiert");
 	var checkCode = 100;
 	if ($(this).hasClass('full')) {
 		checkCode = 111;
@@ -46,7 +43,6 @@ $('.cookieSubmit').on('click', function(event) {
 		}
 	}
 	if (checkCode > 100) {
-		console.log('loadTracking');
 		loadLazyTracking(checkCode > 101? true : false);
 	}
 	if(checkCode < 110) {
@@ -71,7 +67,6 @@ $('.cookieSubmit').on('click', function(event) {
 });
 $('.cookieDeny').on('click', function(event) {
 	event.preventDefault();
-	console.log("cookie richtlinien widersprochen");
 	setCookie('cookiebanner-accepted', 100, 365);
 	/* Set Cookie für Role selection */
 	if (!checkCookie('co_role'))
@@ -92,12 +87,10 @@ $('.cookieDeny').on('click', function(event) {
 	});
 });
 $('.cookieConf').on('click', function() {
-	console.log("cookie config");
 	hideModal('cookiebanner', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
 });
 $('.cookieBanner').on('click', function() {
-	console.log("cookie start");
 	hideModal('cookiebanner-config', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner'); }, 1000);
 });

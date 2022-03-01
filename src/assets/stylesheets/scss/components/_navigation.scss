@@ -165,26 +165,19 @@ $navMinHeight: 570px;
         margin-right: var(--gutter-m);
         width: auto;
         height: 100%;
-        // height: calc(var(--navigationHeight) - 10px);
 
-        svg {
+        object {
             position: relative;
             left: -20px;
             display: block;
             width: auto;
             height: 100%;
-        }
-
-        .logo-hat, .logo-snow {
-            display: none;
+            pointer-events: none;
         }
     }
     &__logo--christmas {
-        svg {
+        object {
             left: 0;
-        }
-        .logo-hat, .logo-snow {
-            display: initial;
         }
     }
 
