@@ -35,11 +35,11 @@ $faqs->faq_add (
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
 		<div class="hero__image">
-			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="" width="465" height="404" style="width:100%" />
+			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="Die CallOne Kundenservice Software als Illustration" width="465" height="404" style="width:100%" />
 		</div>
 		<div class="hero__text">
 			<div class="tag">
-				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="" width="13" height="14" /> CallOne Cloud ACD &copy;
+				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> CallOne Cloud ACD &copy;
 			</div>
 			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
 			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz|weniger Ausfälle|mehr Transparenz|bessere Planbarkeit" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">mehr Effizienz</span></h2>
@@ -87,8 +87,8 @@ $faqs->faq_add (
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid co-grid--no-margin-top">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="" width="158" height="88" style="margin:0" class="mobile-hidden" />
-						<h2>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen</h2>
+						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
+						<p>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
@@ -121,12 +121,12 @@ $faqs->faq_add (
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="" width="158" height="88" style="margin:0" class="mobile-hidden" />
+						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
 						<h2>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
 						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<img src="/assets/images/photos/integration-callcenter.png" alt="" width="570" height="391" />
+						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
 					</div>
 				</div>
 			</div>
@@ -790,13 +790,13 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 				<div class="fader" data-speed="2500">
 					<div class="fader__item" data-title="Enterprise">
-						<img src="/assets/images/client-logos/Logos-enterprise.svg" alt="" width="570" height="101" />
+						<img src="/assets/images/client-logos/Logos-enterprise.svg" alt="Enterprise Kunden von CallOne mit Contact Center Software" width="570" height="101" />
 					</div>
 					<div class="fader__item" data-title="Fast Growing">
-						<img src="/assets/images/client-logos/Logos-Fast-Growing.svg" alt="" width="570" height="117" />
+						<img src="/assets/images/client-logos/Logos-Fast-Growing.svg" alt="Fast Growing Kunden von CallOne mit Contact Center Software" width="570" height="117" />
 					</div>
 					<div class="fader__item" data-title="Mittelstand">
-						<img src="/assets/images/client-logos/Logos-mittelstand.svg" alt="" width="568" height="108" />
+						<img src="/assets/images/client-logos/Logos-mittelstand.svg" alt="CallOne Kunden aus dem Mittelstand mit Contact Center Software" width="568" height="108" />
 					</div>
 					<div class="fader__item" data-title="Ihre Organisation">
 						<h4 class="centered">Unternehmen jeder Größe vertrauen auf CallOne</h4>
@@ -895,7 +895,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="1">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/agent-view-desktop.png" alt="" width="470" height="396" />
+								<img src="/assets/images/photos/agent-view-desktop.png" alt="Mit dem Browser Telefon der VoIP-Telefonanlage von CallOne über den Browser telefonieren" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Eine webbasierte Oberfläche speziell konzipiert für höchste Ansprüche Ihre Agenten im Kundenservice und Sales.</p>
@@ -920,7 +920,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="2">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/softphone-view.png" alt="" width="470" height="396" />
+								<img src="/assets/images/photos/softphone-view.png" alt="CallOne Softphone ist als Alternative zur Teams-Telefonie im Browser integriert" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Für Unternehmen, die eine optimale Einbindung der Telefonie in Ihre Unternehmenssoftware wünschen.</p>
@@ -945,7 +945,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="3">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/microsoft-teams.png" alt="" width="470" height="396" />
+								<img src="/assets/images/photos/microsoft-teams.png" alt="Integrieren Sie Microsoft Teams Telefonie in Ihre Cloud Telefonanlage mit Contact Center Modul" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Call Center Software in Kombination mit Microsoft Teams? Nutzen Sie das beste aus beiden Lösungen in Kombination.</p>
@@ -970,7 +970,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="4">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="" width="470" height="396" />
+								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="SIP Tischtelefon als Endgerät der CallOne Cloud Telefonanlage mit Call Center Software" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Binden Sie flexibel jedes gängige SIP-Tischtelefon oder DECT-Telefon ein und nutzen sie die Möglichkeit der bequemen Verwaltung in einer Oberfläche.</p>
@@ -995,7 +995,7 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="5">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/phone-client.png" alt="" width="470" height="396" />
+								<img src="/assets/images/photos/phone-client.png" alt="Ihre Mobilfunkgeräte in CallOne Cloud Telefonanlage einbinden und mit Contact Center Foftware nutzen" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Ob für Notfälle oder dauerhaft. Die Einbindung von Mobilfunkgeräten ist auf vielfältige Weise mit CallOne möglich.</p>
@@ -1029,26 +1029,26 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--3-md">
 						<div class="carddeck carddeck--no-indicators centered">
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="" width="156" height="94" />
+								<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="Hubspot Anbindung an CallOne Call Center Software" width="156" height="94" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-zendesk.svg" alt="" width="156" height="29" />
+								<img src="/assets/images/client-logos/logo-zendesk.svg" alt="Zendesk Anbindung an CallOne Call Center Software" width="156" height="29" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Pipedrive.svg" alt="" width="156" height="156" />
+								<img src="/assets/images/client-logos/Pipedrive.svg" alt="Pipedrive Anbindung an CallOne Call Center Software" width="156" height="156" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Freshdesk.svg" alt="" width="200" height="200" />
+								<img src="/assets/images/client-logos/Freshdesk.svg" alt="Freshdesk Anbindung an CallOne Call Center Software" width="200" height="200" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-salesforce.svg" alt="" width="217" height="150" />
+								<img src="/assets/images/client-logos/logo-salesforce.svg" alt="Salesforce Anbdinung für CallOne Call Center Software" width="217" height="150" />
 							</div>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm co-grid__col--vcentered"></div>
 					<div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm co-grid__col--3-md co-grid__col--vcentered">
 						<div class="content-box content-box--white centered">
-							<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="" width="144" height="87" style="display:inline-block" />
+							<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="Gängige Tools und Integrationen mit APIs ans CallOne Contact Center anbinden" width="144" height="87" style="display:inline-block" />
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--1-md"></div>
@@ -1164,7 +1164,7 @@ $faqs->faq_add (
 
 			<div class="co-grid mobile-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-					<img src="/assets/images/icons_svg/first-call.svg" alt="" width="70" height="71" />
+					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
 					<h4>
 						<span>Schritt 1</span><br />
 						Erstgespräch
@@ -1172,7 +1172,7 @@ $faqs->faq_add (
 					<p>Kein Verkaufsgespräch, sondern Austausch.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-					<img src="/assets/images/icons_svg/presentation.svg" alt="" width="70" height="71" />
+					<img src="/assets/images/icons_svg/presentation.svg" alt="Sie bekommen ein Showcase unserer Call Center Software Lösung auf Ihre Anforderungen angepasst" width="70" height="71" />
 					<h4>
 						<span>Schritt 2</span><br />
 						Showcase
@@ -1180,7 +1180,7 @@ $faqs->faq_add (
 					<p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-					<img src="/assets/images/icons_svg/team-dark.svg" alt="" width="70" height="71" />
+					<img src="/assets/images/icons_svg/team-dark.svg" alt="Wir passen unsere Call Center Software zu einer individuellen Lösung für Ihre Businesstelefonie an." width="70" height="71" />
 					<h4>
 						<span>Schritt 3</span><br />
 						Lösungsfindung
