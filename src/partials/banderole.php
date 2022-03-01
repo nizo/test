@@ -1,5 +1,5 @@
 <div class="banderole">
-    Lorem ipsum dolor sit amet consectetur. <a href="#">Click me</a>
+    <div class="banderole__text">CallOne Convention 2022</div><a href="#">Mehr erfahren</a>
 </div>
 
 <div class="banderole-spacer"></div>

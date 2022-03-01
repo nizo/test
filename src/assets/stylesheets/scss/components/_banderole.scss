@@ -1,10 +1,12 @@
 :root {
     --banderoleHeight: 32px;
+    --navigationOffset: 20px;
+    --navigationOffsetScrolled: 15px;
 }
 
 .banderole {
     position: fixed;
-    z-index: 101;
+    z-index: 102;
     top: 0;
     left: 0;
     width: 100%;
@@ -14,12 +16,25 @@
     background-image: linear-gradient(-30deg, $color-primary, darken($color-primary, 20%), $color-primary);
     // background-color: $color-primary;
     text-shadow: 0 0 10px #000;
+    padding: 0 var(--gutter-xs);
     color: #fff;
+    font-weight: 500;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     line-height: 1;
+    white-space: nowrap;
+
+    >*+* {
+        margin-left: var(--gutter-xs);
+    }
+
+    &__text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
     a {
         display: inline-block;
@@ -27,7 +42,6 @@
         color: currentColor;
         padding: .1em .5em;
         border-radius: 300px;
-        margin: 0 var(--gutter-xs);
 
         &:hover {
             background-color: #fff;
@@ -37,11 +51,16 @@
     }
     
     &~.navigation {
-        top: var(--banderoleHeight);
-    
+        top: calc(var(--banderoleHeight) - var(--navigationOffset));
+    }
+    &~.navigation--scrolled {
+        top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
     }
     &~.navigation--scrolled~.navigation__shadow {
-        top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight));
+        top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+    }
+    &~* .tablist__links--sticky {
+        top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
     }
 }
 
@@ -49,4 +68,12 @@
     display: none;
     width: 100%;
     height: var(--banderoleHeight);
+}
+
+@media screen and (max-width: 950px), screen and (max-height: 570px) {
+    .banderole {
+        &~.navigation {
+            top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
+        }
+    }
 }
