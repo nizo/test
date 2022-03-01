@@ -50,3 +50,20 @@
         background-image: linear-gradient(0deg, #FFFFFF 10.06%, #DCEBD8 125.84%);
     }
 }
+
+@media screen and (max-width: 900px) {
+    .cta-contact {
+        padding: var(--gutter-m);
+
+        .co-grid__col {
+            img {
+                display: inline-block;
+                margin-bottom: 0;
+
+                &+h4 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
