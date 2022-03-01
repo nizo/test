@@ -33,6 +33,12 @@ RewriteRule ^sitemap-website.xml$ /sitemap-website.php [L]
 RewriteRule ^sitemap.xml$ /sitemap-index.php [L]
 
 # ----------------------------------------------------------------------
+#  favicon.ico
+# ----------------------------------------------------------------------
+
+RewriteRule ^/favicon.ico$ /assets/images/favicons/favicon.ico [L]
+
+# ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------
 
