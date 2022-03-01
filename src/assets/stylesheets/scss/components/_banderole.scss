@@ -40,8 +40,14 @@
         display: inline-block;
         border: 2px solid #fff;
         color: currentColor;
-        padding: .1em .5em;
+        padding: 3px 10px;
         border-radius: 300px;
+
+        &:before {
+            content: 'Mehr';
+            font-size: 16px;
+            display: none;
+        }
 
         &:hover {
             background-color: #fff;
@@ -72,6 +78,15 @@
 
 @media screen and (max-width: 950px), screen and (max-height: 570px) {
     .banderole {
+
+        a {
+            font-size: 0;
+
+            &:before {
+                display: inline-block;
+            }
+        }
+
         &~.navigation {
             top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
         }
