@@ -17,7 +17,7 @@ $faqs->faq_add (
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
 		<div class="hero__image">
-			<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="" width="465" height="430" style="width:100%" />
+			<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="Die umfangreichen Echtzeitstatistiken der CallOne Callcenter Software haben viele Vorteile für Ihren ROI" width="465" height="430" style="width:100%" />
 		</div>
 		<div class="hero__text">
 			<h1 class="mobile-hidden">
@@ -52,21 +52,21 @@ $faqs->faq_add (
 
         <div class="grid-slider">
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/performance-analysis-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
+                <img src="/assets/images/illus/performance-analysis-grey-bg.svg" alt="Erreichbarkeit, Annahmedauer, Abschlussquoten und vieles mehr sind auslesbare Daten aus den Statistiken der CallOne Callcenter Software" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Top-Performer</h4>
                     <p class="bigtext">Annahmedauer, Abschlussquoten, Erreichbarkeit und vieles mehr zeigen Ihnen ihre Top-Performer.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/availability-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
+                <img src="/assets/images/illus/availability-grey-bg.svg" alt="Mit den Echtzeitstatistiken die hohe Erreichbarkeit durch die Call Center Software auslesen" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Erreichbarkeit</h4>
                     <p class="bigtext">Eine der wichtigsten Kennzahlen im Kundenservice. Wir liefern hier umfangreiche Zusatzinformationen.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/call-reasons-grey-bg.svg" alt="" width="230" height="127" class="grid-slider__image" />
+                <img src="/assets/images/illus/call-reasons-grey-bg.svg" alt="Anrufgründe als ein zentraler Datensatz der Statistiken der CallOne Contact Center Software" width="230" height="127" class="grid-slider__image" />
                 <div class="grid-slider__content">
                     <h4>Anrufgründe</h4>
                     <p class="bigtext">Grundlage für jede  datengestützte Analyse. Wir liefern diese Daten, sie optimieren zielgerichtet.</p>
@@ -74,7 +74,7 @@ $faqs->faq_add (
             </div>
             <div class="grid-slider__item">
                 <a href="/tableau-callcenter-connector" class="grid-slider__image">
-                    <img src="/assets/images/illus/plus-grey-bg.svg" alt="" width="230" height="127" />
+                    <img src="/assets/images/illus/plus-grey-bg.svg" alt="CallOne Contact Center Software mit Datenexporten für eigene Auswertungen nach eigenen KPIs" width="230" height="127" />
                 </a>
                 <div class="grid-slider__content">
                     <h4>Ihr KPI nicht dabei?</h4>
@@ -105,7 +105,7 @@ $faqs->faq_add (
             <div class="tablist__content tablist__content--active" data-tab="1">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                        <img src="/assets/images/illus/dashboards-mockup.svg" alt="" width="570" height="533" />
+                        <img src="/assets/images/illus/dashboards-mockup.svg" alt="Transparenz und Datensammlung in Ihrer CallOne Call Center Software" width="570" height="533" />
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Alles im Blick</h3>
@@ -141,7 +141,7 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                        <img src="/assets/images/illus/statistics-mockup.svg" alt="" width="570" height="533" />
+                        <img src="/assets/images/illus/statistics-mockup.svg" alt="Entwicklungen erkennen und vorhersehen ist mit den Statistiken der CallOne Contact Center Software möglich" width="570" height="533" />
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Entwicklungen erkennen</h3>
@@ -177,7 +177,7 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                        <img src="/assets/images/illus/analysis-mockup.svg" alt="" width="570" height="533" />
+                        <img src="/assets/images/illus/analysis-mockup.svg" alt="Kundeninteraktionen können sie mit der CallOne Contact Center Software neben zahlreichen Daten auslesen und analysieren" width="570" height="533" />
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Kundeninteraktionen auswerten</h3>
@@ -219,14 +219,14 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md mobile-hidden">
                 <div class="co-video">
                     <div class="co-video__poster">
-                        <img src="/assets/images/photos/check24-face-circle.png" alt="" width="470" height="546" />
+                        <img src="/assets/images/photos/check24-face-circle.png" alt="Check24 nutzt Statistiken der CallOne Callcenter Software für Verbesserungen in Effizienz und Kostenmanagement" width="470" height="546" />
                     </div>
                     <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                 <p>
-                    <img src="/assets/images/client-logos/check24_logo.svg" alt="" width="185" height="46" style="max-width: 185px !important;" />
+                    <img src="/assets/images/client-logos/check24_logo.svg" alt="Check24 Kundnezufriedenheit CallOne" width="185" height="46" style="max-width: 185px !important;" />
                 </p>
 
                 <blockquote class="quote">
@@ -247,7 +247,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs desktop-hidden">
                 <div class="co-video" style="width:calc(100% + 50px);margin-left:-25px;margin-bottom:-65px;aspect-ratio:375/277">
                     <div class="co-video__poster">
-                        <img src="/assets/images/photos/check24-face-circle@2x.png" alt="" width="800" height="591" />
+                        <img src="/assets/images/photos/check24-face-circle@2x.png" alt="Check24 nutzt Statistiken der CallOne Callcenter Software für Verbesserungen in Effizienz und Kostenmanagement" width="800" height="591" />
                     </div>
                     <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
@@ -269,7 +269,7 @@ $faqs->faq_add (
                 <div class="cards__card--dark-top">
                     <h6>Beispiel-Apps</h6>
                     <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/client-logos/freshdesk-hubspot-white.png" alt="" width="449" height="57" />
+                        <img src="/assets/images/client-logos/freshdesk-hubspot-white.png" alt="CRM Anbindung Freshdesk Hubspot bei CallOne" width="449" height="57" />
                     </div>
                     <h4>Ticketing-Systeme</h4>
                 </div>
@@ -278,7 +278,7 @@ $faqs->faq_add (
                 <div class="cards__card--dark-top">
                     <h6>Besipiel-Apps</h6>
                     <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/client-logos/bi-logo-group-white@2x.png" alt="" width="543" height="53" />
+                        <img src="/assets/images/client-logos/bi-logo-group-white@2x.png" alt="Business Integration Tools für CallOne Callcenter Software" width="543" height="53" />
                     </div>
                     <h4>Business Intelligence-Tools</h4>
                 </div>
@@ -286,7 +286,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
                 <div class="cards__card--dark-top">
                     <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/icons_svg/integrations-icon-group.svg" alt="" width="272" height="51" />
+                        <img src="/assets/images/icons_svg/integrations-icon-group.svg" alt="Eigene Systeme über APIs verbinden" width="272" height="51" />
                     </div>
                     <h4>Eigene Systeme verbinden</h4>
                 </div>
@@ -321,15 +321,15 @@ $faqs->faq_add (
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>API</h6>
-                                <p><img src="/assets/images/icons_svg/api-icon-group.svg" alt="" width="210" height="70" /></p>
+                                <p><img src="/assets/images/icons_svg/api-icon-group.svg" alt="Umfassende Rest- und Push-API Schnittstellen" width="210" height="70" /></p>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs">
                                 <h6>Konnektoren</h6>
-                                <p><img src="/assets/images/icons_svg/csv-icon.svg" alt="" width="70" height="70" /></p>
+                                <p><img src="/assets/images/icons_svg/csv-icon.svg" alt="Umfassende Schnittstellen und Konnektoren der Callcenter Software" width="70" height="70" /></p>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs">
                                 <h6>Skripte</h6>
-                                <p><img src="/assets/images/icons_svg/script-icon.svg" alt="" width="70" height="70" /></p>
+                                <p><img src="/assets/images/icons_svg/script-icon.svg" alt="Skripte für Entwickler mit der Callcenter Software von CallOne" width="70" height="70" /></p>
                             </div>
                         </div>
                     </div>
@@ -351,7 +351,7 @@ $faqs->faq_add (
                     
                     <div class="co-grid mobile-hidden">
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" width="354" height="98" />
+                            <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="deutscher Datenschutzstandard mit der CallOne Callcenter Software" width="354" height="98" />
                         </div>
                         <div class="co-grid__col co-grid__col--vcentered">
                             <a href="/dsgvo-telekommunikation" class="btn btn--border-white">Mehr erfahren</a>
@@ -359,7 +359,7 @@ $faqs->faq_add (
                     </div>
                     
                     <p class="desktop-hidden">
-                        <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="" width="354" height="98" />
+                        <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="deutscher Datenschutzstandard mit der CallOne Callcenter Software" width="354" height="98" />
                     </p>
                     <p class="desktop-hidden">
                         <a href="/dsgvo-telekommunikation" class="btn btn--border-white btn--full-width centered">Mehr erfahren</a>
