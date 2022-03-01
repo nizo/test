@@ -65,12 +65,12 @@
 
     &__grid {
         position: relative;
-        background-image: url(../images/icons_svg/box-top.svg);
+        background-image: url(../images/icons_svg/box-bottom.svg);
         background-size: 100%;
-        background-position: center top;
+        background-position: center bottom;
         background-repeat: no-repeat;
-        margin-top: 25px;
-        padding-top: 51px;
+        margin-bottom: 25px;
+        padding-bottom: 75px;
     }
 
     &__col {
@@ -110,6 +110,44 @@
         100% {
             left: 100%;
             width: 0%;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .floating-form__row {
+            width: auto;
+        }
+
+        .floating-form__field {
+            border-color: #fff;
+
+            input {
+                background-color: transparent;
+                color: #fff;
+
+                &:focus, &:not(:placeholder-shown) {
+                    &~label {
+                        transform: translateY(calc(-100% - 18px));
+                    }
+                }
+            }
+            label {
+                background-color: transparent;
+                color: #fff;
+            }
+        }
+
+        .floating-form__error {
+            background-color: $color-red;
+            color: #000;
+        }
+        .floating-form__hint {
+            background-color: $color-blue;
+            color: #000;
         }
     }
 
@@ -282,11 +320,11 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate3d(-50%, -25%, 0);
+        transform: translate3d(-50%, -50%, 0);
         width: 100%;
         padding: 50px 30px;
         max-width: 770px;
-        background: rgba(#000, .5);
+        background: rgba(#000, .66);
         border: 2px solid #FFFFFF;
         border-radius: 10px;
         z-index: 80;
