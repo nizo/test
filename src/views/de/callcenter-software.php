@@ -81,20 +81,24 @@ $faqs->faq_add (
 		<div class="tablist">
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
-					<strong>Fullservice</strong>
-					CallOne liefert Ihnen das <br />
-					Komplettpaket für Ihr Unternehmen
+					<strong>
+						Fullservice<br />
+						<span class="subtext">CallOne liefert Ihnen das <br />
+						Komplettpaket für Ihr Unternehmen</span>
+					</strong>
 				</div>
 				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
-					<strong>Integriert</strong>
-					CallOne Callcenter Software verbunden <br />
-					mit Ihrer eigener Telefonanlage
+					<strong>
+						Integriert<br />
+						<span class="subtext">CallOne Callcenter Software verbunden <br />
+						mit Ihrer eigener Telefonanlage</span>
+					</strong>
 				</div>
 			</div>
 			
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" class="mobile-hidden" />
 						<h2 class="mobile-hidden">Callcenter Software und Telefonielösungen für Ihr <br />gesamtes Unternehmen</h2>
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
@@ -128,12 +132,12 @@ $faqs->faq_add (
 
 			<div class="tablist__content" data-tab="2">
 				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" class="mobile-hidden" />
 						<h2 class="mobile-hidden">Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
 						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
 					</div>
 				</div>

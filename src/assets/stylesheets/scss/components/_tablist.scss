@@ -118,6 +118,15 @@
                 letter-spacing: 0.1em;
                 text-transform: uppercase;
                 opacity: .5;
+
+                &.subtext {
+                    font-family: $font-copy;
+                    text-transform: none;
+                    font-size: 14px;
+                    line-height: 1.4;
+                    opacity: 1;
+                    letter-spacing: normal;
+                }
             }
         }
     }
