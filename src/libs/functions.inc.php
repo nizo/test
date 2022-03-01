@@ -193,7 +193,7 @@ function isCrawler ($user_agent)
     $crawler_user_agents[] = 'yandexbot';
 
     foreach ($crawler_user_agents as $crawler_user_agent)
-    {   if (str_contains ($user_agent, $crawler_user_agent))
+    {   if (strpos ($user_agent, $crawler_user_agent) !== false)
             return true;
     }
 
