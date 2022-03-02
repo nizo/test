@@ -90,6 +90,7 @@
     <?php endif; ?>
 
     <?php
+    require_once('./partials/banderole.php');
     require_once('./partials/navigation.php');
 
     require_once(DIRECTORY_VIEWS.$page->view);
@@ -102,7 +103,7 @@
     	<a class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
     </div>
     
-    <?php if (!isCrawler ($_SERVER['HTTP_USER_AGENT'])): ?>
+    <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
         <div class="modal cookiebanner">
             <?php include('./partials/modal-cookiebanner.php'); ?>
         </div>

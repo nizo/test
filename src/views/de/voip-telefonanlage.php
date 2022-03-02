@@ -388,7 +388,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
+								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" width="148" height="46" />
 							</div>
 							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
@@ -399,7 +399,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
+								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="79" height="90" />
 							</div>
 							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
@@ -410,7 +410,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
+								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="110" height="60" />
 							</div>
 							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>

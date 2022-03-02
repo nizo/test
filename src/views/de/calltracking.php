@@ -52,7 +52,7 @@ $faqs->faq_add (
         </nav>
       </div>
       <div class="media centered">
-      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/calltracking.svg" data-srcset="/assets/images/illus/calltracking.svg" alt="Call-Tracking neu definiert" title="Call-Tracking neu definiert" class="lazy" width="560" height="386" />
+      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/calltracking.svg" data-srcset="/assets/images/illus/calltracking.svg" alt="CallOne bietet umfangreiches Call-Tracking für effizienten Kundenservice und Sales" title="Call-Tracking neu definiert" class="lazy" width="560" height="386" />
       </div>
     </header>
   </div>
@@ -108,7 +108,7 @@ $faqs->faq_add (
             <div class="shadow-box animated bounceInLeft">
             	<div class="image-grid">
             		<div class="image padding">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_03.svg" data-srcset="/assets/images/icons_svg/big_03.svg" alt="Höhere Abschlussquoten" class="lazy auto" width="187" height="144" />
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_03.svg" data-srcset="/assets/images/icons_svg/big_03.svg" alt="Vorteile von Call-Tracking im Sales" class="lazy auto" width="187" height="144" />
             		</div>
             		<div class="text">
             			<h3 class="h2">Höhere Abschlussquoten im Sales</h3>
@@ -127,7 +127,7 @@ $faqs->faq_add (
             			<p>Mit Call-Tracking stehen dem Agenten hilfreiche Informationen des Anrufers direkt zur Verfügung. Warenkorbinhalte- und werte, Userinformationen und ausgefüllte Formulare sind direkt einsehbar. Nutzen Sie diese Informationen für schnelleren und effizienteren Kundenservice!</p>
             		</div>
             		<div class="image padding">
-            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_05.svg" data-srcset="/assets/images/icons_svg/big_05.svg" alt="Mehr Effizienz im Service" class="lazy auto" width="187" height="191" />
+            			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_05.svg" data-srcset="/assets/images/icons_svg/big_05.svg" alt="Vorteile von Call-Tracking im Kundenservice" class="lazy auto" width="187" height="191" />
             		</div>
     			</div>
             </div>
@@ -138,7 +138,7 @@ $faqs->faq_add (
             <div class="shadow-box animated bounceInLeft">
             	<div class="image-grid">
                 	<div class="image padding">
-                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_10_2.svg" data-srcset="/assets/images/icons_svg/big_10_2.svg" alt="Höhere Kundenzufriedenheit" class="lazy auto" width="187" height="191" />
+                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_10_2.svg" data-srcset="/assets/images/icons_svg/big_10_2.svg" alt="Vorteile von Call-Tracking bei Kundenzufriedenheit" class="lazy auto" width="187" height="191" />
                 	</div>
                 	<div class="text">
                     	<h3 class="h2">Höhere Kundenzufriedenheit</h3>
@@ -157,7 +157,7 @@ $faqs->faq_add (
             			<p>Tracken Sie z.B., wo Ihre Kunden auf der Website einen telefonischen Kontakt suchen oder wann Sie aus Webformularen austeigen und den Support kontaktieren. Mit diesem Wissen optimieren Sie Ihr Online-Marketing und Ihre Website-Performance. </p> 
             		</div>
             		<div class="image padding">
-                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_02_2.svg" data-srcset="/assets/images/icons_svg/big_02_2.svg" alt="Effektives online Markteting" class="lazy auto" width="187" height="163" />
+                		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_02_2.svg" data-srcset="/assets/images/icons_svg/big_02_2.svg" alt="Vorteile von Call-Tracking im Online Marketing" class="lazy auto" width="187" height="163" />
                 	</div>
             	</div>
             </div>
@@ -168,7 +168,7 @@ $faqs->faq_add (
 <div class="wrapper parallel-wrapper">
     <div class="wrapper breather parallel thirdcolor">
       <div class="content thin small h_text">
-      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/call-tracking-big.svg" data-srcset="/assets/images/icons_svg/call-tracking-big.svg" alt="Call-Tracking" class="icon lazy" width="640" height="239" />
+      	<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/call-tracking-big.svg" data-srcset="/assets/images/icons_svg/call-tracking-big.svg" alt="Call-Tracking in Demo von CallOne testen" class="icon lazy" width="640" height="239" />
         <h2 class="h1">Nutzen Sie die ganze Power von Call-Tracking in Kombination mit Co-Browsing</h2>
         <p>Ihre Agenten sehen, wo sich der Anrufer gerade auf der Website befindet und können auf Wunsch aktiv unterstützen, beispielsweise beim Ausfüllen von Formularen oder im Bestellprozess.</p>
     
