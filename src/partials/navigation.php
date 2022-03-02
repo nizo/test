@@ -25,7 +25,7 @@ $jobsCount = count($jobs->jobs_get());
         }
         ?>
         <a href="/" class="navigation__logo<?= isChristmas() ? ' navigation__logo--christmas' : '' ?>" title="Zur Startseite von CallOne">
-            <object data="/assets/images/logo/<?= $logo ?>" type="image/svg+xml"></object>
+            <object data="/assets/images/logo/<?= $logo ?>" type="image/svg+xml" alt="CallOne - Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern"></object>
         </a>
 
         <ul>
