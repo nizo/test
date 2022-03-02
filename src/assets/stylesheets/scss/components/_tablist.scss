@@ -8,6 +8,7 @@
 
     &__links {
         --fullBg: transparent;
+        --fullBgSticky: #fff;
 
         position: relative;
         margin-bottom: -2px;
@@ -36,7 +37,8 @@
         transform: translateX(-50%);
         box-shadow: 0 10px 10px rgba(#000, .2);
         top: var(--navigationHeightScrolled); // Navigation Height
-        background-color: #fff;
+        background-color: var(--fullBgSticky);
+        color: #000;
         overflow: hidden;
         opacity: 1 !important;
         transition: opacity .3s ease;
@@ -88,7 +90,7 @@
     &__link {
         --bg: rgba(#{$color-primary-rgb}, .2);
         --stickyBg: var(--bg);
-        
+
         border: 2px solid transparent;
         border-bottom-color: #e5e5e5;
         padding: 15px 100px 17px 100px;
@@ -259,11 +261,15 @@
     }
 
     &--on-black {
+        .tablist__links {
+            --fullBg: rgba(134, 237, 24, 0.2);
+            border-radius: 10px 10px 0 0;
+        }
         .tablist__links--sticky {
-            background-color: #000;
+            border-radius: 0 0 10px 10px;
         }
         .tablist__link, .tablist__link--active {
-            border-color: #fff;
+            border: none;
         }
         .tablist__arrow {
             filter: invert(1);
@@ -277,7 +283,8 @@
             flex-wrap: wrap;
             position: relative;
             padding: 0 46px;
-            border-bottom: 2px solid rgba(#000, .2);
+            border-bottom: 2px solid #e5e5e5;
+            background-color: transparent;
         }
         &__links--sticky {
             position: relative;
@@ -298,12 +305,14 @@
                 padding: 15px 30px 17px 30px;
                 font-size: initial;
                 white-space: initial;
-                flex-direction: column;
+                // flex-direction: column;
+                background-color: transparent;
     
                 img {
-                    display: block;
-                    width: initial;
-                    margin-right: auto;
+                    // display: block;
+                    width: 48px;
+                    height: auto;
+                    // margin-right: auto;
                 }
                 strong {
                     font-size: 20px;
@@ -320,7 +329,8 @@
             padding-left: 0;
             padding-right: 0;
             display: none;
-            border-bottom: 0;
+            border: 0;
+            background-color: transparent;
             strong {
                 font-size: 20px;
             }

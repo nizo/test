@@ -78,57 +78,62 @@ $faqs->faq_add (
       <span>Telefonieren Sie über den PC und nutzen Sie kostenlos unser Softphone mit Funktionen, die Sie lieben werden</span>
     </h2>
 
-    <div class="tabset">
-      <div class="tabset__links">
-        <div class="tabset__link" data-tab="1">
-          <span>Softphone</span>
-          VoIP-Telefon im Browser
+    <div class="tablist">
+      <div class="tablist__links">
+        <div class="tablist__link" data-tab="1">
+          <strong>
+            Softphone<br />
+            <span>VoIP-Telefon im Browser</span>
+          </strong>
         </div>
-        <div class="tabset__link" data-tab="2">
-          <span>Click-to-Dial</span>
-          Wählen mit einem Klick
+        <div class="tablist__link" data-tab="2">
+          <strong>
+            Click-to-Dial<br />
+            <span>Wählen mit einem Klick</span>
+          </strong>
         </div>
-        <div class="tabset__link" data-tab="3">
-          <span>Bring your own Provider</span>
-          Funktioniert mit Ihrer VoIP-Telefonanlage
+        <div class="tablist__link" data-tab="3">
+          <strong>
+            Bring your own Provider<br />
+            <span>Funktioniert mit Ihrer VoIP-Telefonanlage</span>
+          </strong>
         </div>
       </div>
-      <div class="tabset__tabs">
-        <div class="tabset__tab" data-tab="1">
-          <div class="tabset__video">
-            <video>
-              <source src="/assets/videos/softphone-webm/Softphone.webm" type="video/webm" />
-              <source src="/assets/videos/softphone-mp4/Softphone.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
-          <div class="button-set centered">
-            <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
-          </div>
+
+      <div class="tablist__content" data-tab="1">
+        <div class="video" style="max-width:75%;padding-bottom:calc(75%/16*9);margin-left:auto;margin-right:auto;">
+          <video autoplay muted loop>
+            <source src="/assets/videos/softphone-webm/Softphone.webm" type="video/webm" />
+            <source src="/assets/videos/softphone-mp4/Softphone.mp4" type="video/mp4" />
+          </video>
         </div>
-        <div class="tabset__tab" data-tab="2">
-          <div class="tabset__video">
-            <video>
-              <source src="/assets/videos/softphone-webm/Click-to-Dial.webm" type="video/webm" />
-              <source src="/assets/videos/softphone-mp4/Click-to-Dial.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <p class="centered">Rufnummern werden im Browser erkannt und anwählbar mit nur einem Klick. Das Softphone verfügt über eine 1-Click-Funktion mit intelligenter Rufnummernerkennung.</p>
-          <div class="button-set centered">
-            <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
-          </div>
+        <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
+        <div class="button-set centered">
+          <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
         </div>
-        <div class="tabset__tab" data-tab="3">
-          <div class="tabset__video">
-            <video>
-              <source src="/assets/videos/softphone-webm/Own-Provider.webm" type="video/webm" />
-              <source src="/assets/videos/softphone-mp4/Own-Provider.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <p class="centered">Flexibilität heißt bei CallOne: Sie können unsere Telefonanlage nutzen, müssen aber nicht! Wir bieten für zahlreiche VoIP-Anbieter eine nahtlose Integration in unser Softphone.</p>
-          <div class="button-set centered">
-            <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
-          </div>
+      </div>
+      <div class="tablist__content" data-tab="2">
+        <div class="video" style="max-width:75%;padding-bottom:calc(75%/16*9);margin-left:auto;margin-right:auto;">
+          <video autoplay muted loop>
+            <source src="/assets/videos/softphone-webm/Click-to-Dial.webm" type="video/webm" />
+            <source src="/assets/videos/softphone-mp4/Click-to-Dial.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <p class="centered">Rufnummern werden im Browser erkannt und anwählbar mit nur einem Klick. Das Softphone verfügt über eine 1-Click-Funktion mit intelligenter Rufnummernerkennung.</p>
+        <div class="button-set centered">
+          <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
+        </div>
+      </div>
+      <div class="tablist__content" data-tab="3">
+        <div class="video" style="max-width:75%;padding-bottom:calc(75%/16*9);margin-left:auto;margin-right:auto;">
+          <video autoplay muted loop>
+            <source src="/assets/videos/softphone-webm/Own-Provider.webm" type="video/webm" />
+            <source src="/assets/videos/softphone-mp4/Own-Provider.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <p class="centered">Flexibilität heißt bei CallOne: Sie können unsere Telefonanlage nutzen, müssen aber nicht! Wir bieten für zahlreiche VoIP-Anbieter eine nahtlose Integration in unser Softphone.</p>
+        <div class="button-set centered">
+          <a class="button tertiary rounded" href="#installation" target="_blank">Kostenfrei installieren</a>
         </div>
       </div>
     </div>

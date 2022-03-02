@@ -75,6 +75,11 @@
     &__items {
         position: relative;
         order: 2;
+
+        &+.fader__header {
+            margin-bottom: 0;
+            margin-top: var(--gutter-m);
+        }
     }
 
     &__item {
