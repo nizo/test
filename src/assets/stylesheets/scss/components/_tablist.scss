@@ -291,7 +291,7 @@
             position: relative;
             padding: 0 46px;
             border-bottom: 2px solid #e5e5e5;
-            background-color: transparent;
+            background: transparent;
         }
         &__links--sticky {
             position: relative;
@@ -305,7 +305,7 @@
             overflow: initial;
             box-shadow: none;
             top: auto;
-            background-color: initial;
+            background: initial;
             
             .tablist__link {
                 flex: initial;
@@ -313,7 +313,7 @@
                 font-size: initial;
                 white-space: initial;
                 // flex-direction: column;
-                background-color: transparent;
+                background: transparent;
     
                 img {
                     // display: block;
@@ -345,7 +345,8 @@
             padding-right: 0;
             display: none;
             border: 0;
-            background-color: transparent;
+            background: transparent;
+
             strong {
                 font-size: 20px;
             }
@@ -361,7 +362,7 @@
         }
         &--on-black {
             .tablist__links--sticky {
-                background-color: unset;
+                background: unset;
                 .tablist__link {
                     font-size: 14px;
                 }
