@@ -320,6 +320,14 @@
                 span {
                     display: block;
                 }
+                &[data-sticky-text] {
+                    strong {
+                        display: block;
+                    }
+                    &:after {
+                        display: none;
+                    }
+                }
             }
         }
         &__sticky-placeholder {
