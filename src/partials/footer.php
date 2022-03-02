@@ -64,7 +64,7 @@
                     <a href="https://www.callone.de/faq" target="_blank">FAQs</a><br />
                     <a href="/kontakt">Kontakt</a><br />
                     <a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a><br />
-                    <?php if (!isCrawler ($_SERVER['HTTP_USER_AGENT'])): ?>
+                    <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
                         <a class="openModal trackedElement" data-label="Cookie-Einstellungen Footer" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner">Cookie-Einstellungen</a>
                     <?php endif; ?>
                 </p>
