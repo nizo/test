@@ -377,7 +377,7 @@ $faqs->faq_add (
 		<h1>Lust Ihr Einsparpotential direkt hier zu berechnen?</h1>
 		
 		<div class="content-box content-box--white">
-			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="" width="48" height="48" /></p>
+			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="Open Desktop Browser für Mehrwertrechner Callcenter Software" width="48" height="48" /></p>
 			<h2>Lassen Sie uns dazu zum Desktop-Browser wechseln!</h2>
 			<p>Wenn Sie uns Ihre ungefähre <strong>Anzahl an Anrufen pro Monat</strong> sowie die <strong>Menge Ihrer Agenten</strong> nennen, rechnen wir Ihnen gerne detailiert vor wir Ihnen durch Effizienzsteigerungen und Einsparpotenziale bares Geld schenken. Um Ihnen das vorzurechnen brauchen wir etwas mehr Platz als dieses Gerät bietet.</p>
 		</div>
@@ -400,7 +400,7 @@ $faqs->faq_add (
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="" width="50" height="51" />
+								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="Anrufe pro Monat Mehrwertrechner Callcenter Software" width="50" height="51" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off" />
@@ -413,7 +413,7 @@ $faqs->faq_add (
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="" width="52" height="51" />
+								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice Callcenter Software" width="52" height="51" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off" />
@@ -485,11 +485,11 @@ $faqs->faq_add (
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt="" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt="Monatliche Anrufe Callcenter Software" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Anzahl der Anrufe Callcenter Software" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="einspareffekt-anruf">?s</strong><br />
@@ -513,7 +513,7 @@ $faqs->faq_add (
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Anzahl der Anrufe Callcenter Software" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="stundenlohn">?€</strong><br />
@@ -526,7 +526,7 @@ $faqs->faq_add (
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Anzahl" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="monate-im-jahr">?</strong><br />
@@ -591,11 +591,11 @@ $faqs->faq_add (
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt="" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
+										<img src="/assets/images/icons_svg/calls-per-month-small.svg" alt="Anrufe pro Monat Callcenter Software" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Anzahl Erreichbarkeit" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="erreichbarkeitssteigerung">?%</strong><br />
@@ -616,7 +616,7 @@ $faqs->faq_add (
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Stundenlohn Anzahl" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="stundenlohn">?€</strong><br />
@@ -629,7 +629,7 @@ $faqs->faq_add (
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Mehrwerte Callcenter Software" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="monate-im-jahr">?</strong><br />
@@ -694,11 +694,11 @@ $faqs->faq_add (
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" width="40" height="40" /> <strong class="highlight nummer-agenten">????</strong><br />
+										<img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="Kundenservice Callcenter Software" width="40" height="40" /> <strong class="highlight nummer-agenten">????</strong><br />
 										<em>Anzahl Agent*innen</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Mehrwerte Callcenter Software Personal" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="effizienzgewinn">?%</strong><br />
@@ -719,7 +719,7 @@ $faqs->faq_add (
 										<em>Effizienzgewinn<br />Personal</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times.svg" alt="" width="24" height="24" />
+										<img src="/assets/images/icons_svg/x-times.svg" alt="Mehrwertrechner Callcenter Software" width="24" height="24" />
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="personalkosten-jahr">?€</strong><br />
@@ -1095,7 +1095,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<div class="co-video">
 							<div class="co-video__poster">
-								<img src="/assets/images/photos/video-preview-reduced.png" alt="" width="570" height="306" />
+								<img src="/assets/images/photos/video-preview-reduced.png" alt="Videovoschau Kundenstimme Check24 Callcenter Software" width="570" height="306" />
 							</div>
 							<a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
 						</div>
@@ -1118,7 +1118,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
+								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" width="148" height="46" />
 							</div>
 							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
@@ -1129,7 +1129,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
+								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="79" height="90" />
 							</div>
 							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
@@ -1140,7 +1140,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
+								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="110" height="60" />
 							</div>
 							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
