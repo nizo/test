@@ -7,6 +7,8 @@
     height: auto;
 
     &__links {
+        --fullBg: transparent;
+
         position: relative;
         margin-bottom: -2px;
         display: flex;
@@ -14,6 +16,7 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: stretch;
+        background-color: var(--fullBg);
     }
     &__links--full-width {
         .tablist__link {
@@ -40,7 +43,7 @@
 
         .tablist__link {
             flex: initial !important;
-            padding: var(--gutter-s) var(--gutter-m);
+            padding: var(--gutter-xs) var(--gutter-s);
             font-size: 0;
             white-space: nowrap;
             flex-direction: row;
@@ -78,10 +81,14 @@
 
         .tablist__link--active {
             border-radius: 0;
+            background-color: var(--stickyBg);
         }
     }
 
     &__link {
+        --bg: rgba(#{$color-primary-rgb}, .2);
+        --stickyBg: var(--bg);
+        
         border: 2px solid transparent;
         border-bottom-color: #e5e5e5;
         padding: 15px 100px 17px 100px;
@@ -134,7 +141,6 @@
         padding: 15px;
     }
     &__link--active {
-        --bg: rgba(#{$color-primary-rgb}, .2);
         background-color: var(--bg);
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
