@@ -60,11 +60,11 @@
 
         <div class="tablist" id="features">
             <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);">
+                <div class="tablist__link" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);--stickyBg: linear-gradient(#fff, rgba(219, 0, 197, 0.2));">
                     <img src="/assets/images/icons_svg/callback-icon.svg" alt="Warteschleifenmodule in Kundenservice Software der Cloud Telefonanlage mit Rückrufoptionen" width="70" height="70" />
                     <strong>Warteschleifenmodule</strong>
                 </div>
-                <div class="tablist__link" data-tab="2" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);">
+                <div class="tablist__link" data-tab="2" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);--stickyBg: linear-gradient(#fff, rgba(219, 0, 197, 0.2));">
                     <img src="/assets/images/icons_svg/routing-icon.svg" alt="Verschiedene Routingoptionen im Warteschleifenmanagement Ihrer Cloud Telefonanlage" width="70" height="70" />
                     <strong>Routingfunktionen</strong>
                 </div>

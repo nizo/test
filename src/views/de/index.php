@@ -105,21 +105,21 @@
     <div class="section__content section__content--wide" id="gruende">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" data-tab="1" data-sticky-text="Unsere Telefonlösung" style="--bg:#fff;--stickyBg:rgba(134,237,24,0.2);">
+                <div class="tablist__link" data-tab="1" data-sticky-text="Unsere Telefonlösung" style="--bg:#fff;">
                     <img src="/assets/images/icons_svg/solution-package.svg" alt="CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage" width="69" height="70" class="mobile-hidden" />
                     <strong>
                         Was bietet unsere <br />
                         Telefonlösung?
                     </strong>
                 </div>
-                <div class="tablist__link" data-tab="2" data-sticky-text="Vorteile von CallOne" style="--bg:#fff;--stickyBg:rgba(134,237,24,0.2);">
+                <div class="tablist__link" data-tab="2" data-sticky-text="Vorteile von CallOne" style="--bg:#fff;">
                     <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="Welche Vorteile bietet die CallOne Callcenter Software" width="70" height="70" class="mobile-hidden" />
                     <strong>
                         Was sind die Vorteile <br />
                         von CallOne?
                     </strong>
                 </div>
-                <div class="tablist__link" data-tab="3" data-sticky-text="Mit CallOne telefonieren" style="--bg:#fff;--stickyBg:rgba(134,237,24,0.2);">
+                <div class="tablist__link" data-tab="3" data-sticky-text="Mit CallOne telefonieren" style="--bg:#fff;">
                     <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="Wie telefoniere ich mit der CallOne Call Center Software" width="68" height="70" class="mobile-hidden" />
                     <strong>
                         Wie kann ich mit <br />
