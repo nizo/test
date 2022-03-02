@@ -4,42 +4,37 @@
             <h4>Call Center Software ist unsere Expertise.</h4>
             <h1>
                 Unsere Leidenschaft ist <br class="mobile-hidden" />
-                <span class="desktop-hidden">das optimale Kundenerlebnis</span>
-                <span class="typing-text mobile-hidden" data-speed="35" data-texts="das optimale Kundenerlebnis|Ihren ROI zu maximieren|maximale Sicherheit Ihrer Telefonie|persönliche Betreuung" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">das optimale Kundenerlebnis</span>
+                <span class="typing-text" data-speed="35" data-texts="das optimale Kundenerlebnis|Ihren ROI zu maximieren|maximale Sicherheit Ihrer Telefonie|persönliche Betreuung" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">das optimale Kundenerlebnis</span>
             </h1>
             
-            <div class="co-grid co-grid--small-gutter centered subtext mobile-hidden">
-                <div class="co-grid__col co-grid__col--2-xs">
+            <div class="co-grid co-grid--small-gutter centered subtext">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
                     <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="50" height="50" />
                     <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
                 </div>
-                <div class="co-grid__col co-grid__col--2-xs">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
                     <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="Call Center Software wird schnell bereitgestellt" width="50" height="50" />
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
-                <div class="co-grid__col co-grid__col--2-xs">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
                     <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="Call Center Software ist sehr gut erreichbar" width="50" height="50" />
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
-                <div class="co-grid__col co-grid__col--2-xs">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
                     <img src="/assets/images/icons_svg/usp-rating-icon-square.svg" alt="Call Center Software mit sehr guter Bewertung" width="50" height="50" />
                     <p style="margin-top:10px">5 Sterne <br />bei Google</p>
                 </div>
             </div>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Jetzt loslegen</a>
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Jetzt loslegen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Jetzt loslegen</a>
             </p>
         </div>
-        <!-- <div class="hero__image">
-            
-        </div> -->
     </header>
 </div>
 
 <div class="section section--light-green-white-2 section--no-padding-bottom section--mobile-divider">
-    <div class="anchors mobile-hidden">
+    <div class="anchors">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
@@ -51,16 +46,18 @@
         </div>
     </div>
 
-    <br class="mobile-hidden" />
-    <br class="mobile-hidden" />
+    <br />
+    <br />
 
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
                 <h1>Die CallOne Plattform</h1>
-                <p class="bigtext mobile-hidden">CallOne liefert cloudbasierte Telekommunikationslösungen, mit denen Sie alle Bereiche Ihrer Unternehmenstelefonie effizient und intuitiv steuern können. Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, die speziell für die Anforderungen im Kundenservice oder Sales geeignet ist. Vielzählige <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertige <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> integrieren Ihre bestehenden Businesslösungen, um das beste Kundenerlebnis zu schaffen.</p>
-                <p class="desktop-hidden">CallOne liefert eine neue Klasse cloudbasierter Telekommunikations&shy;lösungen. Eine Plattform mit der Sie alle Bereiche Ihrer Unternehmenstelefonie intuitiv und effizient steuern können.</p>
-                <p class="mobile-hidden">
+                <p class="bigtext">
+                    CallOne liefert cloudbasierte Telekommunikationslösungen, mit denen Sie alle Bereiche Ihrer Unternehmenstelefonie effizient und intuitiv steuern können. <span class="readmore">Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, die speziell für die Anforderungen im Kundenservice oder Sales geeignet ist. Vielzählige <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertige <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> integrieren Ihre bestehenden Businesslösungen, um das beste Kundenerlebnis zu schaffen.</span>
+                </p>
+
+                <p class="mobile-centered">
                     <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                 </p>
             </div>
@@ -68,15 +65,9 @@
                 <img src="/assets/images/illus/callone-platform-illustration.png" alt="CallCenter Software von CallOne für optimale Businesstelefonie" width="660" height="406" />
             </div>
         </div>
-
-        <p class="desktop-hidden">
-            <a href="/callcenter-software" class="btn btn--primary btn--full-width centered">Mehr erfahren</a>
-            <br />
-            <br />
-        </p>
     </div>
     
-    <div class="section__content section__content--wide mobile-hidden" id="referenzen">
+    <div class="section__content section__content--wide" id="referenzen">
         <p class="centered bigtext">
             <span class="fw500">CallOne Kunden jeder Größe haben ein Ziel:</span> <br />
             Überdurchschnittliche Kundenerlebnisse!
