@@ -382,67 +382,8 @@ $faqs->faq_add (
 			<p>Wenn Sie uns Ihre ungefähre <strong>Anzahl an Anrufen pro Monat</strong> sowie die <strong>Menge Ihrer Agenten</strong> nennen, rechnen wir Ihnen gerne detailiert vor wir Ihnen durch Effizienzsteigerungen und Einsparpotenziale bares Geld schenken. Um Ihnen das vorzurechnen brauchen wir etwas mehr Platz als dieses Gerät bietet.</p>
 		</div>
 	</div>
-
-	<div class="section__content section__content--wide saving-calculation--desktop" style="margin-top:0">
-		<div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom saving-calculation__form-grid">
-			<div class="co-grid__col co-grid__col--12-xs">
-				<div class="content-box content-box--white">
-					<h4>Ihr persönliches Einsparpotential errechnen</h4>
-					<p>Mit nur zwei Werten errechnen wir ihr Einsparpotential  basierend auf realistischen Annahmen und unseren Erfahrungswerten.</p>
-
-					<form action="#" method="post" class="floating-form saving-calculation__form">
-						<div class="floating-form__error">
-							<p>Fehler, bitte versuchen Sie es erneut.</p>
-						</div>
-						<div class="floating-form__hint">
-							<p>Bitte geben Sie Ihre persönlichen Kennzahlen ein um die mögliche Einsparung zu berechnen.</p>
-						</div>
-
-						<div class="floating-form__row">
-							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="Anrufe pro Monat Mehrwertrechner Callcenter Software" width="50" height="51" />
-							</div>
-							<div class="floating-form__field floating-form__field--short">
-								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off" />
-								<label>Hier eingeben, z.B. 10.000</label>
-							</div>
-							<div class="floating-form__description">
-								Anrufzahl je Monat
-							</div>
-						</div>
-
-						<div class="floating-form__row">
-							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice Callcenter Software" width="52" height="51" />
-							</div>
-							<div class="floating-form__field floating-form__field--short">
-								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off" />
-								<label>Hier eingeben, z.B. 25</label>
-							</div>
-							<div class="floating-form__description">
-								Anzahl Agent*innen
-							</div>
-						</div>
-
-						<button class="floating-form__submit btn btn--full-width" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
-					</form>
-				</div>
-			</div>
-			<div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered saving-calculation__infos" style="display: none; border-left: 2px solid #fff; padding-left: 30px;">
-				<h3 class="icon-attention">Grundlage der Kalkulation</h3>
-				<p>Die folgende ROI-Aufstellung verwendet Annahmen basierend auf Durschnittswerten bei folgenden Variablen:</p>
-				<p>
-					<strong>Durchschnittliche Gesprächsdauer:</strong> 3,5 min<br />
-					<strong>Erreichbarkeit:</strong> 75%<br />
-					<strong>Kosten je Arbeitnehmer:</strong> 50.000€ p.a. (30€/h) *<br />
-					<strong>Agentenauslastung:</strong> 60%
-				</p>
-				<p><small>*Bruttoarbeitslohn: Kosten je Arbeitnehmer laut statistischem Bundesamt</small></p>
-			</div>
-		</div>
-	</div>
 	
-	<div class="section__content section__content--wide saving-calculation--desktop" id="mehrwertrechner-result">
+	<div class="section__content section__content--wide section__content--no-gutter-top saving-calculation--desktop" id="mehrwertrechner-result">
 		<div class="saving-calculation">
 			<div class="atomic-loader atomic-loader--hidden">
 				<div class="atomic-loader__circle"></div>
@@ -453,24 +394,52 @@ $faqs->faq_add (
 					<div class="atomic-loader__dot"></div>
 				</div>
 			</div>
-
-			<h3>
-				Jährliche Ersparnis bis zu:<br />
-				<span>_ _ _ . _ _ _ €</span>
-			</h3>
-
-			<h4>Aufschlüsselung des Einsparpotenzials</h4>
 			
 			<div class="saving-calculation__grid">
 				<div class="saving-calculation__overlay">
 					<h3>
 						Jetzt persönliches Einsparpotential berechnen
 					</h3>
-					<p>Wir berechnen Ihr individuelles Einsparpotential im Kundenservice. Mit nur zwei eingegebenen Werten erhalten Sie Ihr Ergebnis.</p>
-					<p><a href="#mehrwertrechner" class="btn btn--primary btn--centered saving-calculation__overlay-button">Jetzt Werte eintragen</a></p>
+					
+					<form action="#" method="post" class="floating-form saving-calculation__form">
+						<div class="floating-form__error">
+							<p>Fehler, bitte versuchen Sie es erneut.</p>
+						</div>
+						<div class="floating-form__hint">
+							<p>Bitte geben Sie Ihre persönlichen Kennzahlen ein um die mögliche Einsparung zu berechnen.</p>
+						</div>
+
+						<div class="floating-form__row">
+							<div class="floating-form__icon">
+								<img src="/assets/images/icons_svg/calls-per-month-big-white.svg" alt="Anrufe pro Monat Mehrwertrechner Callcenter Software" width="50" height="51" />
+							</div>
+							<div class="floating-form__field floating-form__field--short">
+								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off">
+								<label>Hier eingeben, z.B. 10.000</label>
+							</div>
+							<div class="floating-form__description">
+								Anrufzahl je Monat
+							</div>
+						</div>
+
+						<div class="floating-form__row">
+							<div class="floating-form__icon">
+								<img src="/assets/images/icons_svg/menu-customer-service-white.svg" alt="Kundenservice Callcenter Software" width="52" height="51" />
+							</div>
+							<div class="floating-form__field floating-form__field--short">
+								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off">
+								<label>Hier eingeben, z.B. 25</label>
+							</div>
+							<div class="floating-form__description">
+								Anzahl Agent*innen
+							</div>
+						</div>
+
+						<button class="floating-form__submit btn btn--primary" type="submit" style="margin-bottom:0;">Jetzt berechnen</button>
+					</form>
 				</div>
 
-				<div class="co-grid" style="--gutter:10px">
+				<div class="co-grid co-grid--no-margin-top" style="--gutter:10px">
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--anrufdauer">
 						<div class="saving-calculation__col-loader"></div>
 
@@ -547,7 +516,7 @@ $faqs->faq_add (
 						</div>
 
 						<div class="saving-calculation__content saving-calculation__content--blurred">
-							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.</p>
+							<p>Durch intelligente Anrufvorqualifizierung schaffen wir es nachweislich, die durchschnittliche Dauer eines Anrufes um bis zu 30 Sekunden zu reduzieren, bzw. gänzlich automatisiert zu bearbeiten.<br /><br /></p>
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
@@ -740,7 +709,7 @@ $faqs->faq_add (
 						</div>
 
 						<div class="saving-calculation__content saving-calculation__content--blurred">
-							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.</p>
+							<p>Steigern Sie die Leistung mit Echtzeit-Einblicken und motivieren Sie Ihre Mitarbeiter sich neue Grenzen zu setzen. CallOne liefert alle Daten für eine optimierte Personalplanung- und Auswertung.<br /><br /></p>
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
@@ -772,6 +741,13 @@ $faqs->faq_add (
 					</div>
 				</div>
 			</div>
+
+			<h3>
+				Jährliche Ersparnis bis zu:<br />
+				<span>_ _ _ . _ _ _ €</span>
+			</h3>
+
+			<h4>Aufschlüsselung des Einsparpotenzials</h4>
 		</div>
 	</div>
 </div>
