@@ -29,7 +29,7 @@
         </nav>
       </div>
       <div class="media centered">
-        <img src="/assets/images/illus/illu-it.svg" alt="Cloud ACD Funktionen" class="flip" />
+        <img src="/assets/images/illus/illu-it.svg" alt="Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software" class="flip" />
       </div>
     </header>
   </div>
@@ -43,7 +43,7 @@
           <p class="white">Die Callcenter Software bietet Ihnen viele Vorteile – egal ob Sie VoIP nutzen, eine vollumfängliche ACD brauchen oder nur die Basics benötigen, diese Features sind auf jeden Fall dabei.</p>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_34.svg" alt="Allgemeine Funktionen" class="white headlineIcon" />       
+        	<img src="/assets/images/icons_svg/small_34.svg" alt="Allgemeine Funktionen der Callcenter Software, ob VoIP Telefonanlage oder Kundenservice Software" class="white headlineIcon" />       
         </div>
       </div>    
   </div>
@@ -108,7 +108,7 @@
           <p class="white">Individualiseren Sie Ihre Warteschleife – mit professionellen Ansagen und transparenten Konfigurationen.</p>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_23.svg" alt="Ansagen- und Warteschleifen-Funktionen" class="white headlineIcon" />       
+        	<img src="/assets/images/icons_svg/small_23.svg" alt="Warteschleife und Ansagen als Funktionen der Callcenter Software" class="white headlineIcon" />       
         </div>
       </div>    
   </div>
@@ -149,7 +149,7 @@
           <p class="white">Bleiben Sie in Verbindung – mit Ihrer Website, Ihrem CRM-System oder anderen Business Lösungen. Mit CallOne wird alles zu einem System.</p>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_07_2.svg" alt="Schnittstellen" class="white headlineIcon" />
+        	<img src="/assets/images/icons_svg/small_07_2.svg" alt="Schnittstellen und API Funktionen der Call Center Software" class="white headlineIcon" />
         </div>
       </div>    
   </div>
@@ -205,7 +205,7 @@
           <p class="white">Werten Sie aus – bleiben Sie mit zwei umfangreichen Statistikbereichen immer im Bilde. Ob Agenten, Skillgruppen oder Anrufe allgemein – Sie verlieren nie den Überblick.</p>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_18.svg" alt="Statistiken" class="white headlineIcon" />
+        	<img src="/assets/images/icons_svg/small_18.svg" alt="Statistiken als wesentliche Funktion der Call Center Software" class="white headlineIcon" />
         </div>
       </div>    
   </div>
@@ -253,7 +253,7 @@
           <p class="white">Verwalten Sie Ihre Rufnummern sinnvoll. Entscheiden Sie sich für smarte Routingoptionen und zeichnen Sie Gespräche problemlos auf – alles auch ohne ACD.</p>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_11.svg" alt="Anrufsteuerung" class="white headlineIcon" />
+        	<img src="/assets/images/icons_svg/small_11.svg" alt="Anrufsteuerung und Rufnummernverwaltung als Funktion der Call Center Software" class="white headlineIcon" />
         </div>
       </div>    
   </div>
@@ -324,7 +324,7 @@
           <p class="white">Verteilen Sie Ihre Anrufe intelligent auf Agenten und Fähigkeitsgruppen – Ihr Kunden wurden nie besser betreut.</p>
         </div>
         <div class="col-2 padding">
-        	<img src="/assets/images/icons_svg/small_17_2.svg" alt="Anrufverteilung" class="white headlineIcon" />
+        	<img src="/assets/images/icons_svg/small_17_2.svg" alt="Intelligente Anrufverteilung als Funktion Ihrer Callcenter Software" class="white headlineIcon" />
         </div>
       </div>    
   </div>

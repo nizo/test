@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1232"
+   height="53"
+   viewBox="0 0 1232 53"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="box-bottom.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.9163961"
+     inkscape:cx="616"
+     inkscape:cy="26.735164"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <path
+     d="M 1231,0.80605584 V 26.806056 c 0,7.732 -6.27,14 -14,14 H 639.96 c -3.606,0 -7.145,0.9749 -10.242,2.8215 l -13.718,8.1785 -10.155,-7.26573 c -3.395,-2.42857 -7.464,-3.73427 -11.638,-3.73427 H 15 c -7.73199,0 -14,-6.268 -14,-14 V 0.80605584"
+     stroke="url(#paint0_linear)"
+     stroke-width="2"
+     id="path2"
+     style="stroke:url(#paint0_linear)" />
+  <defs
+     id="defs9">
+    <linearGradient
+       id="paint0_linear"
+       x1="616"
+       y1="2"
+       x2="616"
+       y2="59"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,0,53.806056)">
+      <stop
+         stop-color="#C4C4C4"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#C4C4C4"
+         stop-opacity="0.12"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+</svg>

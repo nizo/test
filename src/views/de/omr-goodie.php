@@ -95,7 +95,6 @@ $faqs->faq_add (
     <?php getLogoParade([   
                           ['data' => 'bett-white.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'check24-logo.svg', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'sixt-logo.svg', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo invert small'],
                           ['data' => 'snipes2-logo.svg', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo invert small'],
                           ['data' => 'logo-sodastream.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo invert small']
     ], null, 'startpage'); ?>

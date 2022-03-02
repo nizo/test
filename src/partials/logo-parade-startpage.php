@@ -7,7 +7,6 @@
     		<?= $paradeData ?>
     	<?php else: ?>
           <div class="logo"><img src="/assets/images/client-logos/logo-vimcar.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-sixt.png" alt="" /></div>
           <div class="logo"><img src="/assets/images/client-logos/logo-flaconi.png" alt="" /></div>
           <div class="logo"><img src="/assets/images/client-logos/logo-check24.png" alt="" /></div>
           <div class="logo"><img src="/assets/images/client-logos/logo-bett1.png" alt="" /></div>

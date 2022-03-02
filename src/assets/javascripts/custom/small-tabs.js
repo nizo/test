@@ -4,6 +4,9 @@ class SmallTab {
         this.tabLinks = this.element.querySelectorAll('.small-tabs__tab');
         this.tabContents = this.element.querySelectorAll('.small-tabs__content');
         this.countTabs = this.tabLinks.length;
+        this.currentTab = 0;
+        this.automationInterval = null;
+        this.speed = this.element.getAttribute('data-speed') || 1500; // Automation speed
 
         this.setTabHeight();
         setTimeout(((e) => {
@@ -12,12 +15,30 @@ class SmallTab {
         window.addEventListener('resize', this.setTabHeight.bind(this));
         
         // Set first to active
-        this.tabLinks[0].classList.add('small-tabs__tab--active');
-        this.tabContents[0].classList.add('small-tabs__content--active');
+        this.tabLinks[this.currentTab].classList.add('small-tabs__tab--active');
+        this.tabContents[this.currentTab].classList.add('small-tabs__content--active');
 
         this.tabLinks.forEach(tabLink => {
             tabLink.addEventListener('click', this.switchTab.bind(this));
         });
+
+        // Automated if small-tags--automated class is present
+        if (this.element.classList.contains('small-tabs--automated'))
+            this.automate();
+    }
+
+    automate() {
+        this.automationInterval = setInterval(this.nextTab.bind(this), this.speed);
+    }
+
+    nextTab() {
+        this.currentTab++;
+        if (this.currentTab >= this.countTabs)
+            this.currentTab = 0;
+        this.tabLinks.forEach(link => link.classList.remove('small-tabs__tab--active'));
+        this.tabContents.forEach(content => content.classList.remove('small-tabs__content--active'));
+        this.tabLinks[this.currentTab].classList.add('small-tabs__tab--active');
+        this.tabContents[this.currentTab].classList.add('small-tabs__content--active');
     }
 
     setTabHeight() {
@@ -38,6 +59,8 @@ class SmallTab {
     }
 
     switchTab(e) {
+        clearInterval(this.automationInterval); // Stop automation
+        
         let tab = e.currentTarget.dataset.tab;
 
         this.tabLinks.forEach(tabLink => {
