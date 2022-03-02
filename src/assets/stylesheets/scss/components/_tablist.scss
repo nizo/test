@@ -17,7 +17,10 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: stretch;
-        background-color: var(--fullBg);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow: hidden;
+        // background-color: var(--fullBg);
     }
     &__links--full-width {
         .tablist__link {
@@ -51,6 +54,7 @@
             flex-direction: row;
             align-items: center;
             border: 0;
+            background: unset;
 
             img {
                 display: inline-block;
@@ -83,15 +87,16 @@
 
         .tablist__link--active {
             border-radius: 0;
-            background-color: var(--stickyBg);
+            background: var(--stickyBg);
         }
     }
 
     &__link {
-        --bg: rgba(#{$color-primary-rgb}, .2);
+        --bg: linear-gradient(rgba(#{$color-primary-rgb}, .2), transparent);
         --stickyBg: var(--bg);
 
         border: 2px solid transparent;
+        background: var(--fullBg);
         border-bottom-color: #e5e5e5;
         padding: 15px 100px 17px 100px;
         text-align: center;
@@ -143,11 +148,12 @@
         padding: 15px;
     }
     &__link--active {
-        background-color: var(--bg);
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        background: var(--bg);
         border-color: #e5e5e5;
         border-bottom-color: transparent;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: 0;
         padding-bottom: 15px;
         opacity: 1;
     }
@@ -200,6 +206,7 @@
         >*:first-child {
             border-top-left-radius: 0;
             border-top-right-radius: 0;
+            border-top: 0;
 
             &:not(.paper) {
                 padding-top: var(--gutter-l);

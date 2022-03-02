@@ -123,7 +123,7 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="2">
-				<div class="co-grid">
+				<div class="co-grid co-grid--no-margin-top">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
 						<h2>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
@@ -147,16 +147,16 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" style="--bg: rgba(219, 0, 197, 0.2);" data-sticky-text="Erreichbarkeit">
+				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), transparent);" data-sticky-text="Erreichbarkeit">
 					<strong>Beste Erreichbarkeit</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="2" style="--bg: rgba(255, 123, 27, 0.2);" data-sticky-text="Effizienz">
+				<div class="tablist__link tablist__link--smaller" data-tab="2" style="--bg: linear-gradient(rgba(255, 123, 27, 0.2), transparent);" data-sticky-text="Effizienz">
 					<strong>Mehr Effizienz</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="3" style="--bg: rgba(255, 0, 46, 0.2);" data-sticky-text="Bearbeitung">
+				<div class="tablist__link tablist__link--smaller" data-tab="3" style="--bg: linear-gradient(rgba(255, 0, 46, 0.2), transparent);" data-sticky-text="Bearbeitung">
 					<strong>Schnellere Bearbeitung</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="4" style="--bg: rgba(0, 136, 234, 0.2);" data-sticky-text="Transparenz">
+				<div class="tablist__link tablist__link--smaller" data-tab="4" style="--bg: linear-gradient(rgba(0, 136, 234, 0.2), transparent);" data-sticky-text="Transparenz">
 					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
