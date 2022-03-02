@@ -102,13 +102,14 @@
     	<a class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
     </div>
     
-    <div class="modal cookiebanner">
-      <?php include('./partials/modal-cookiebanner.php'); ?>
-    </div>
-    
-    <div class="modal cookiebanner-config">
-      <?php include('./partials/modal-cookiebanner-config.php'); ?>
-    </div>
+    <?php if (!isCrawler ($_SERVER['HTTP_USER_AGENT'])): ?>
+        <div class="modal cookiebanner">
+            <?php include('./partials/modal-cookiebanner.php'); ?>
+        </div>
+        <div class="modal cookiebanner-config">
+            <?php include('./partials/modal-cookiebanner-config.php'); ?>
+        </div>
+    <?php endif; ?>
     
     <div class="modal contact">
       <?php include('./partials/modal-contact.php'); ?>

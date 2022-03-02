@@ -109,7 +109,6 @@
                 	    ['data' => 'logo-check24.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small'],
                 	    ['data' => 'logo-flaconi.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small'],
                 	    ['data' => 'logo-gastrohero.png', 'alt' => 'test', 'cssClass' => 'partnerLogo gray small'],
-                	    ['data' => 'logo-sixt.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small'],
                         ['data' => 'logo-vimcar.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small']
 ]); ?>
 
