@@ -59,7 +59,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <p class="centered bigtext">Cloud-Telefonanlagen angepasst für Unternehmen jeder Größe - auch Ihres!</p>
 
-        <div class="small-tabs small-tabs--clear">
+        <div class="small-tabs small-tabs--clear small-tabs--automated">
             <div class="small-tabs__tabs">
                 <div class="small-tabs__tab" data-tab="1">Enterprise</div>
                 <div class="small-tabs__tab" data-tab="2">Mittelstand</div>

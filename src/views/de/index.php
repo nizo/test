@@ -82,7 +82,7 @@
             Überdurchschnittliche Kundenerlebnisse!
         </p>
 
-        <div class="small-tabs">
+        <div class="small-tabs small-tabs--automated">
             <div class="small-tabs__tabs">
                 <div class="small-tabs__tab" data-tab="1">Fast-Growing</div>
                 <div class="small-tabs__tab" data-tab="2">Mittelstand</div>
