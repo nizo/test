@@ -363,6 +363,13 @@
                 border-color: rgba(#fff, .2);
             }
         }
+        &__content {
+            >*:first-child {
+                &:not(.paper) {
+                    padding-top: var(--gutter-s);
+                }
+            }
+        }
         &__content--border-bottom {
             border: 0;
         }
