@@ -412,7 +412,8 @@ function loadLazyTracking(reload){
 	  var gtm = "";
 	  var ua = "";
 	  
-	  if (location.hostname === 'localhost:3000') {
+	  if ((location.hostname.includes('localhost')) ||
+	      (location.hostname.includes('beta.www.callone.de'))) {
 			gtm = "GTM-MZN2XV4";
 			ua = "UA-20501538-3";
 		} else {
