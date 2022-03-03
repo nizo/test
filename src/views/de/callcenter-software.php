@@ -819,13 +819,13 @@ $faqs->faq_add (
 		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="" width="48" height="48" /></p>
+					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="Erstgespräch zur Call Center Software vereinbaren" width="48" height="48" /></p>
 					<h4>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h4>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" width="48" height="48" /></p>
+					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Eine Nachricht für Erstgespräch schreiben" width="48" height="48" /></p>
 					<h4>Senden Sie uns <br />eine Nachricht</h4>
 					<p>Kontaktformular nutzen</p>
 					<p><a href="#" class="btn btn--secondary btn--centered" data-openmodal="contact-sales">Kontakt aufnehmen</a></p>
@@ -1061,7 +1061,7 @@ $faqs->faq_add (
 						<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--4-md centered">
-						<img src="/assets/images/icons_png/overlap.png" alt="" width="370" height="225" />
+						<img src="/assets/images/icons_png/overlap.png" alt="CallOne Callcenter Software" width="370" height="225" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md left">
 						<h4>Expertenberatung</h4>
