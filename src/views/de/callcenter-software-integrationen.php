@@ -329,7 +329,7 @@
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
+          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="110" height="60" />
         </div>
         <h3>Garantierte 99,999% Erreichbarkeit</h3>
         <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>

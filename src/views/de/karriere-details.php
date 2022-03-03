@@ -116,7 +116,7 @@ if (empty ($job))
 <div class="section">
     <div class="section__content section__content--narrow">
         <p class="centered">
-            <img src="<?= $job->icon_get(); ?>" alt="" />
+            <img src="<?= $job->icon_get(); ?>" alt="Stellen bei CallOne" />
         </p>
 
         <h1 class="centered">
@@ -141,15 +141,15 @@ if (empty ($job))
 
 <div class="job-details">
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_35.svg" alt="" />
+        <img src="/assets/images/icons_svg/small_35.svg" alt="Arbeitsstelle" />
         <?= $job->location_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_32.svg" alt="" />
+        <img src="/assets/images/icons_svg/small_32.svg" alt="Arbeitszeit" />
         <?= $job->job_worktime_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_31.svg" alt="" />
+        <img src="/assets/images/icons_svg/small_31.svg" alt="Arbeitsbeginn" />
         <?= $job->job_start_end_get(); ?>
     </div>
 </div>
@@ -230,7 +230,7 @@ if (empty ($job))
             <?php
             foreach ($jobs_benefits as $benefit) {
                 echo '<div class="card centered co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">';
-                echo '<img src="'.$benefit->icon_get().'" alt="" />';
+                echo '<img src="'.$benefit->icon_get().'" alt="Vorteile bei CallOne Arbeiten" />';
                 echo '<h3>'.$benefit->title_get().'</h3>';
                 echo '<p>'.$benefit->text_get().'</p>';
                 echo '</div>';
@@ -246,7 +246,7 @@ if (empty ($job))
                     if ($key == 0)
                         $extraClass = ' step-slider__step--active';
                     echo '<div class="step-slider__step step-slider__step--no-number'.$extraClass.'">';
-                    echo '<img src="'.$benefit->icon_get().'" alt="" data-alt-image="'.$benefit->alt_icon_get().'" />';
+                    echo '<img src="'.$benefit->icon_get().'" alt="Vorteile Arbeiten bei CallOne" data-alt-image="'.$benefit->alt_icon_get().'" />';
                     echo '<h3>'.$benefit->title_get().'</h3>';
                     echo '<p>'.$benefit->text_get().'</p>';
                     echo '</div>';

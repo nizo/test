@@ -6,11 +6,11 @@
     	<?php if (!empty($paradeData)): ?>
     		<?= $paradeData ?>
     	<?php else: ?>
-          <div class="logo"><img src="/assets/images/client-logos/logo-vimcar.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-flaconi.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-check24.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-bett1.png" alt="" /></div>
-          <div class="logo"><img src="/assets/images/client-logos/logo-gastrohero.png" alt="" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-vimcar.png" alt="vimcar" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-flaconi.png" alt="flaconi" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-check24.png" alt="check24" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-bett1.png" alt="bett1" /></div>
+          <div class="logo"><img src="/assets/images/client-logos/logo-gastrohero.png" alt="gastrohero" /></div>
         <?php endif; ?>
     </div>
 	<?php if (!empty($showStars)): ?>

@@ -249,7 +249,7 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="" width="502" height="543" />
+                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="Terminvereinbarung" width="502" height="543" />
             </div>
         </div>
     </div>
