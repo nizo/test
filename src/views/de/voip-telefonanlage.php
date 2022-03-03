@@ -667,7 +667,7 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="" style="--w:150px" alt="LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
+							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="63" style="--w:150px" alt="LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
