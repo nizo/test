@@ -8,7 +8,7 @@
 # ----------------------------------------------------------------------
 
 <IfModule mod_rewrite.c>
-  RewriteCond %{SERVER_PORT} !^443$ [OR]
+  RewriteCond %{SERVER_PORT} !^443$
   RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
