@@ -39,6 +39,15 @@
         <!--End Google Tag Manager-->
     <?php endif; ?>
     
+    <!-- Mouseflow Add Tag for Banderole -->
+    <script>
+        let banderoleCta = document.querySelector('#banderole-cta');
+        if (banderoleCta) {
+            banderoleCta.addEventListener('click', (e) => {
+                window._mfq.push(['tag', 'Banderole Clicked']);
+            });
+        }
+    </script>
     
 	<!--Facebook Tracking Pixel-->
  	<script>(function() {
