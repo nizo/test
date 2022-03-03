@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="media centered">
-        <img src="/assets/images/illus/api-hero-illustration.svg" alt="" />
+        <img src="/assets/images/illus/api-hero-illustration.svg" alt="VoIP API Callcenter Software" />
       </div>
     </header>
   </div>
@@ -105,21 +105,21 @@
     <div class="grid">
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" />
         </div>
         <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
         <p>Ärgern Sie sich nicht mit Self-Service herum. An Ihre Organisation angepasste Telefonie-Lösungen kann CallOne dank erfahrener Projektmanager &amp; Schnittstellenentwickler in kürzester Zeit live bringen.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" />
         </div>
         <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
         <p>Das Privacy Shield Abkommen zwischen USA und EU ist nun gekippt. Zum Glück sind Sie mit CallOne immer auf der sicheren Seite: Wir hosten unsere Telefonie-Lösung ausschließlich in Deutschland.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" />
+          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" />
         </div>
         <h3>Garantierte 99,999% Erreichbarkeit</h3>
         <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>

@@ -1,7 +1,7 @@
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/about-us-header-illustration.svg" alt="" />
+            <img src="/assets/images/illus/about-us-header-illustration.svg" alt="Wir sind CallOne " />
         </div>
         <div class="hero__text">
             <h1>
@@ -36,10 +36,10 @@
                 
                 <div class="collage desktop-hidden">
                     <div class="collage__big">
-                        <img src="/assets/images/photos/collage-background-1.png" alt="" />
+                        <img src="/assets/images/photos/collage-background-1.png" alt="CallOne Team für Telekommunikationslösungen" />
                     </div>
                     <div class="collage__small">
-                        <img src="/assets/images/photos/collage-foreground-1.png" alt="" />
+                        <img src="/assets/images/photos/collage-foreground-1.png" alt="Björn Bendig Geschäftsführer CallOne" />
                     </div>
                     <div class="collage__text">
                         <strong>Björn Bendig</strong><br />
@@ -79,10 +79,10 @@
             <div class="co-grid__col co-grid__col--6-md co-grid__col--hidden-md co-grid__col--vend">
                 <div class="collage">
                     <div class="collage__big">
-                        <img src="/assets/images/photos/collage-background-1.png" alt="" />
+                        <img src="/assets/images/photos/collage-background-1.png" alt="CallOne Team für Telekommunikationslösungen" />
                     </div>
                     <div class="collage__small">
-                        <img src="/assets/images/photos/collage-foreground-1.png" alt="" />
+                        <img src="/assets/images/photos/collage-foreground-1.png" alt="Björn bendig Geschäftsführer CallOne" />
                     </div>
                     <div class="collage__text bigtext">
                         <strong>Björn Bendig</strong><br />
@@ -97,7 +97,7 @@
         <h1 class="desktop-hidden">Was wir anders machen</h1>
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/culture-photo.png" alt="" />
+                <img src="/assets/images/photos/culture-photo.png" alt="Telekommunikationsanbiete für mehr Effizienz und hohen ROI" />
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__6-md co-grid__col--vcentered">
                 <h1 class="mobile-hidden">Was wir anders machen</h1>
@@ -110,17 +110,17 @@
 
         <div class="co-grid mobile-hidden">
             <div class="co-grid__col co-grid__col--4-xs">
-                <p><img src="/assets/images/icons_svg/results-icon.svg" alt="" /></p>
+                <p><img src="/assets/images/icons_svg/results-icon.svg" alt="Messbare Ergebnisse Kundenservice und Sales Software" /></p>
                 <h3>Messbare<br />Ergebnisse</h3>
                 <p class="bigtext">Kunden kommen zu CallOne wenn Sie richtig sparen wollen. Wir unterstützen mit einer leistungsstarken Plattform und zielführender Beratung mit dem Ziel Ihren ROI zu maximieren.</p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
-                <p><img src="/assets/images/icons_svg/partnership-icon.svg" alt="" /></p>
-                <h3>Persönliche<br />Projektmanager*innen</h3>
+                <p><img src="/assets/images/icons_svg/partnership-icon.svg" alt="Persönliche Ansprechpartner für Unternehmenstelefonie" /></p>
+                <h3>Persönliche<br />Projektmanagerinnen</h3>
                 <p class="bigtext">Jeder Kunde erhält seine persönliche Ansprechperson, geschult und darauf fokussiert Sie von Anbeginn und dauerhaft bei Ihren Themen rund um unsere Telefonlösung zu unterstützen.</p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs">
-                <p><img src="/assets/images/icons_svg/reliability-icon.svg" alt="" /></p>
+                <p><img src="/assets/images/icons_svg/reliability-icon.svg" alt="Zuverlässige Technologie Kundenservice Software und Cloud Telefonanlage" /></p>
                 <h3>Zuverlässige<br />Technologie</h3>
                 <p class="bigtext">Bei uns gibt es kein „wenn und aber“, wenn es um Zuverlässigkeit und Stabilität geht. Unsere Systeme sind zertifiziert und auf Hochlast ausgelegt, um operative Exzellenz zu gewährleisten.</p>
             </div>
@@ -130,21 +130,21 @@
             <div class="fader">
                 <div class="fader__item">
                     <div class="content-box content-box--white">
-                        <p><img src="/assets/images/icons_svg/results-icon.svg" alt="" /></p>
+                        <p><img src="/assets/images/icons_svg/results-icon.svg" alt="Messbare Ergebnisse Kundenservice und Sales Software" /></p>
                         <h3>Messbare<br />Ergebnisse</h3>
                         <p class="bigtext">Kunden kommen zu CallOne wenn Sie richtig sparen wollen. Wir unterstützen mit einer leistungsstarken Plattform und zielführender Beratung mit dem Ziel Ihren ROI zu maximieren.</p>
                     </div>
                 </div>
                 <div class="fader__item">
                     <div class="content-box content-box--white">
-                        <p><img src="/assets/images/icons_svg/partnership-icon.svg" alt="" /></p>
+                        <p><img src="/assets/images/icons_svg/partnership-icon.svg" alt="Persönliche Ansprechpartner für Unternehmenstelefonie" /></p>
                         <h3>Persönliche<br />Projekt Manager*innen</h3>
                         <p class="bigtext">Jeder Kunde erhält seine persönliche Ansprechpartnerin, geschult und darauf fokussiert Sie von Anbeginn und dauerhaft bei Ihren Themen rund um unsere Telefonlösung zu unterstützen.</p>
                     </div>
                 </div>
                 <div class="fader__item">
                     <div class="content-box content-box--white">
-                        <p><img src="/assets/images/icons_svg/reliability-icon.svg" alt="" /></p>
+                        <p><img src="/assets/images/icons_svg/reliability-icon.svg" alt="Zuverlässige Technologie Kundenservice Software und Cloud Telefonanlage" /></p>
                         <h3>Zuverlässige<br />Technologie</h3>
                         <p class="bigtext">Bei uns gibt es kein „wenn und aber“ wenn es um Zuverlässigkeit und Stabilität geht. Unsere Systeme sind zertifiziert und auf Hochlast ausgelegt, um operative Exzellenz zu gewährleisten.</p>
                     </div>
@@ -161,31 +161,31 @@
 
         <div class="co-grid centered">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p><img src="/assets/images/illus/planting-trees-illustration.svg" alt=""></p>
+                <p><img src="/assets/images/illus/planting-trees-illustration.svg" alt="CallOne Baumpflanzaktion für Neukunden"></p>
                 <h3>CallOne Baumpflanzaktion</h3>
                 <p class="bigtext">1.000 Bäume bis Ende 2022 sind unser Ziel. Für jeden neu gewonnen Kunden verpflichten wir uns zusätzliche Bäume zu pflanzen und unserer unternehmerischen Verantwortung gerecht zu werden.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p><img src="/assets/images/illus/green-energy-illustration.svg" alt=""></p>
+                <p><img src="/assets/images/illus/green-energy-illustration.svg" alt="Ökostrom und grünes Webhosting"></p>
                 <h3>100% Ökostrom</h3>
                 <p class="bigtext">Wir haben uns für grünes Webhosting entschieden, denn allein in Deutschland verschlingen Rechenzentren zwei Prozent allen Stroms.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p><img src="/assets/images/illus/ebikes-illustration.svg" alt=""></p>
+                <p><img src="/assets/images/illus/ebikes-illustration.svg" alt="Elektromobilität"></p>
                 <h3>Elektrisch mobil</h3>
                 <p class="bigtext">Mobil sein und das Klima schützen? Wir bei CallOne setzen gänzlich auf Elektromobilität. eBike statt Auto, Bahn statt Flugzeug, damit weniger schädigende Klimagase in die Atmosphäre gelangen.</p>
             </div>
         </div>
     </div>
 
-    <img src="/assets/images/backgrounds_svg/plant-planet-illustration.svg" alt="" style="display:block;margin:30px auto 0 auto;" />
+    <img src="/assets/images/backgrounds_svg/plant-planet-illustration.svg" alt="Umweltschutz in Telekommunikationslösungen" style="display:block;margin:30px auto 0 auto;" />
 </div>
 
 <div class="section section--black" id="kunden">
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--hidden-sm co-grid__col--7-md co-grid__col--vcentered mobile-hidden">
-                <p class="centered"><img src="/assets/images/photos/customer-experiences.png" alt="" /></p>
+                <p class="centered"><img src="/assets/images/photos/customer-experiences.png" alt="Kundenstimmen Telekommunikationslösung von CallOne" /></p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                 <h1>Wir schaffen bessere Kundenerlebnisse. Gemeinsam.</h1>
@@ -198,7 +198,7 @@
                 <p class="centered desktop-hidden">
                     <br />
                     <br />
-                    <img src="/assets/images/photos/customer-experiences.png" alt="" />
+                    <img src="/assets/images/photos/customer-experiences.png" alt="Kundengeschichten von CallOne" />
                 </p>
             </div>
         </div>
@@ -219,13 +219,13 @@
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/amorelie-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/amorelie-carddeck-black.png" alt="Amoreilie Kunde CallOne" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/bett1-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/bett1-carddeck-black.png" alt="Bett1 Kunde CallOne" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/flaconi-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/flaconi-carddeck-black.png" alt="Flaconi Kunde CallOne" />
                             </div>
                         </div>
                     </div>
@@ -249,13 +249,13 @@
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/snipes-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/snipes-carddeck-black.png" alt="Sniped Kunde CallOne" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/bunzl-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/bunzl-carddeck-black.png" alt="Bunzl Kunde CallOne" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/der-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/der-carddeck-black.png" alt="der Kunde CallOne" />
                             </div>
                         </div>
                     </div>
@@ -279,13 +279,13 @@
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/check24-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/check24-carddeck-black.png" alt="Check24" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/helios-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/helios-carddeck-black.png" alt="Helios" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/sodastream-carddeck-black.png" alt="" />
+                                <img src="/assets/images/client-logos/carddeck/sodastream-carddeck-black.png" alt="Sodastream" />
                             </div>
                         </div>
                     </div>
@@ -326,7 +326,7 @@ $jobsCount = count($jobs->jobs_get());
                 <br />
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vend">
-                <img src="/assets/images/photos/work-foreground.png" alt="" />
+                <img src="/assets/images/photos/work-foreground.png" alt="CallOne Businesstelefonie aus der Cloud und persönliche Ansprechpartner" />
             </div>
         </div>
     </div>

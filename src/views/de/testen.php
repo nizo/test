@@ -13,7 +13,7 @@
 
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/f-touristic.svg" alt="" /></p>
+        <p><img src="/assets/images/client-logos/f-touristic.svg" alt="Effizientere Prozesse in Service Kundenstimme CallOne" /></p>
         <p>„Durch die Verknüpfung mit unseren Subsystemen haben wir unsere Prozesse im Kundendialog effizienter gestalten können und bieten unseren Kunden einen besseren Service.“</p>
         <p class="bold">
           Kenneth Roberts<br />
@@ -24,7 +24,7 @@
     <!-- 
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/bett.svg" alt="" /></p>
+        <p><img src="/assets/images/client-logos/bett.svg" alt="Bett1 Kundenstimme CallOne" /></p>
         <p>„Durch die Verknüpfung von CallOne mit dem Lieferstatus unserer Versanddienstleister, konnten wir  unser Anrufaufkommen bei den Agenten im Support um 40 % reduzieren.“</p>
         <p class="bold">
           Jens Pakleppa<br />
@@ -35,7 +35,7 @@
         
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/vimcar.svg" alt="" /></p>
+        <p><img src="/assets/images/client-logos/vimcar.svg" alt="Callcenter Lösung für Sales und Service Kundenstimme" /></p>
         <p>„CallOne zu integrieren war die absolut richtige Entscheidung. Die Callcenter- Lösung hat es geschafft unseren Kundendienst auf ein ganz neues Level zu heben und Prozesse stark zu vereinfach. Das CallOne-Team macht einen super Job in der Beratung und Betreuung.“</p>
         <p class="bold">
           Felix Schmidt<br />
@@ -47,7 +47,7 @@
     
     <div class="shadow-box">
       <blockquote>
-        <p><img src="/assets/images/client-logos/logo-marley-spoon.svg" alt="" /></p>
+        <p><img src="/assets/images/client-logos/logo-marley-spoon.svg" alt="Kundenorientierung Kundenservice Software" /></p>
         <p>„Die CallOne GmbH ist ein sehr professionell arbeitender Partner, der sich durch seine hohe Kundenorientierung und Flexibilität von anderen Anbietern am Markt deutlich abhebt.“</p>
         <p class="bold">
           Roman Georgi<br />
