@@ -567,7 +567,7 @@ $faqs->faq_add (
 				<div class="tablist__link" data-tab="1" data-sticky-text="GastroHero">
 					<strong>Call Center Software mit VoIP-Telefonanlage</strong>
 				</div>
-				<div class="tablist__link" data-tab="2" data-sticky-text="LBS">
+				<div class="tablist__link" data-tab="2" data-sticky-text="LBS Immobilien">
 					<strong>Hybride <br />Teams Telefonie</strong>
 				</div>
 				<div class="tablist__link" data-tab="3" data-sticky-text="Check24 KFZ">
@@ -667,7 +667,7 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/carddeck/lbs-carddeck-black.png" width="150" height="80" style="--w:150px" alt="LBS ist zufriedener Kunde von CallOne" />
+							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="" style="--w:150px" alt="LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -740,8 +740,8 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h2>Eine App, volle Integration - Teams Telefonie für Kundenservice und Office-Telefonie</h2>
 						<p class="bigtext">
-							LBS setzt auf die Lieblings-App in Kombination mit der CallOne Lösung, um nicht nur die interne Kommunikation über Microsoft Teams abzuwickeln. 
-							<span class="readmore">Die Kombination aus Kundenservice-Callcenter-Betrieb und Office-Telefonie ist fast unschlagbar. Microsoft Teams als Integration der CallOne Rundum-sorglos-Lösung bietet genau die Funktionen, die LBS für Costumer Service und interne Kommunikation benötigt.</span>
+							LBS Immobilien GmbH NordWest setzt auf die Lieblings-App in Kombination mit der CallOne Lösung, um nicht nur die interne Kommunikation über Microsoft Teams abzuwickeln. 
+							<span class="readmore">Die Kombination aus Kundenservice-Callcenter-Betrieb und Office-Telefonie ist fast unschlagbar. Microsoft Teams als Integration der CallOne Rundum-sorglos-Lösung bietet genau die Funktionen, die LBS Immobilien GmbH NordWest für Costumer Service und interne Kommunikation benötigt.</span>
 						</p>
 						<p><a href="/customer-success" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>
