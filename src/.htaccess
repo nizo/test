@@ -4,13 +4,21 @@
 
 
 # ----------------------------------------------------------------------
-# Rewrite non-www to www and https
+# Rewrite to https
 # ----------------------------------------------------------------------
 
 <IfModule mod_rewrite.c>
   RewriteCond %{SERVER_PORT} !^443$ [OR]
-  RewriteCond %{HTTP_HOST} !^www\.
-  RewriteRule (.*) https://www.callone.de/$1 [R=301,L]
+  RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Rewrite non-www to www
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_HOST} !www\.
+  RewriteRule (.*) https://www.%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
 # ----------------------------------------------------------------------
