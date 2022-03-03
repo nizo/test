@@ -35,7 +35,7 @@ $faqs->faq_add (
       </div>
       <div class="media centered">
         <a href="https://omr.com/de/podcast/">
-          <img src="/assets/images/photos/philipp-scaled-up2@3x.png" alt="" style="display:block;" />
+          <img src="/assets/images/photos/philipp-scaled-up2@3x.png" alt="OMR" style="display:block;" />
         </a>
       </div>
     </header>
@@ -49,7 +49,7 @@ $faqs->faq_add (
       <input type="hidden" name="type" value="2">
       <input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
 
-      <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="" />
+      <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="CallOne und OMR" />
       <h2>Angebot für OMR-Fans</h2>
       <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
 
@@ -95,7 +95,6 @@ $faqs->faq_add (
     <?php getLogoParade([   
                           ['data' => 'bett-white.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'check24-logo.svg', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'sixt-logo.svg', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo invert small'],
                           ['data' => 'snipes2-logo.svg', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo invert small'],
                           ['data' => 'logo-sodastream.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo invert small']
     ], null, 'startpage'); ?>
@@ -168,7 +167,7 @@ $faqs->faq_add (
   <div class="content wide">
     <div class="omr-badge">
       <div class="omr-badge__icon">
-        <img src="/assets/images/icons_svg/podcast-goodie.svg" alt="" />
+        <img src="/assets/images/icons_svg/podcast-goodie.svg" alt="Podcast Goodie" />
       </div>
       <div class="omr-badge__text">
         <strong>Sie hören den OMR Podcast?</strong><br />
@@ -182,7 +181,7 @@ $faqs->faq_add (
     <div class="grid centered">
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="" />
+          <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="Kundenservice CallOne" />
         </div>
         <h3>Kundenservice</h3>
         <p>Das „Mach-meine-Kunden-glücklich-Paket“ steuert Anrufe intelligent, optimiert Ihre Erreichbarkeit und macht Ihr Callcenter viel effizienter.</p>
@@ -193,7 +192,7 @@ $faqs->faq_add (
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Sales-White.svg" alt="" />
+          <img src="/assets/images/icons_svg/Sales-White.svg" alt="Sales CallOne" />
         </div>
         <h3>Sales</h3>
         <p>Mehr Durchblick bringt mehr Leads und qualitativ bessere Abschlüsse. Sie verbinden CallOne mit den besten Vertriebstools, einfach per Knopfdruck.</p>
@@ -203,7 +202,7 @@ $faqs->faq_add (
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Helpdesk-White.svg" alt="" />
+          <img src="/assets/images/icons_svg/Helpdesk-White.svg" alt="Helpdesk Anbindung" />
         </div>
         <h3>IT-Helpdesk</h3>
         <p>Organisierter und produktiver werden, Geschäftsprozesse optimieren. Mit CallOnes IT-Helpdesk lösen Sie Anfragen kompetent und transparent.</p>

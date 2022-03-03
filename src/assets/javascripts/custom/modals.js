@@ -20,9 +20,7 @@ if (!params.has('no-banner') && checkCookie('cookiebanner-accepted') === false) 
 
 eventListener('click', '.cookieSubmit', (e) => {
 	e.preventDefault();
-	console.log('Cookie Richtlinien akzeptiert.');
 	let button = e.target.closest('.cookieSubmit');
-
 	var checkCode = 100;
 	if (button.classList.contains('full')) {
 		checkCode = 111;
@@ -33,25 +31,7 @@ eventListener('click', '.cookieSubmit', (e) => {
 			checkCode += 1;
 	}
 	if (checkCode > 100) {
-		console.log('loadTracking');
-		loadLazyTracking(checkCode > 101 ? true : false);
-	}
-	if (checkCode < 110) {
-		let postData = new FormData();
-		postData.set('optInActive', '1');
-		fetch('/libs/count.php', {
-			method: 'POST',
-			body: postData
-		})
-		.then(response => {
-			return response.json();
-		})
-		.then(data => {
-			console.log(data);
-		})
-		.catch(response => {
-			console.error (JSON.stringify (error));
-		});
+		loadLazyTracking();
 	}
 	setCookie('cookiebanner-accepted', checkCode, 365);
 	/* Set Cookie für Role selection */
@@ -64,7 +44,6 @@ eventListener('click', '.cookieSubmit', (e) => {
 
 eventListener('click', '.cookieDeny', (e) => {
 	e.preventDefault();
-	console.log('Cookie Richtlinien widersprochen.');
 	setCookie('cookiebanner-accepted', 100, 365);
 	/* Set Cookie für Role selection */
 	if (!checkCookie('co_role'))
@@ -73,30 +52,14 @@ eventListener('click', '.cookieDeny', (e) => {
 	hideModal('cookiebanner', 'slideDown');
 	hideModal('cookiebanner-config', 'slideDown');
 	deleteAllCookies();
-	let postData = new FormData();
-	postData.set('optInActive', '1');
-	fetch('/libs/count.php', {
-		method: 'POST',
-		body: postData
-	})
-	.then(response => {
-		return response.json();
-	})
-	.then(data => {
-		console.log(data);
-	})
-	.catch(response => {
-		console.error (JSON.stringify (error));
-	});
 });
 
 eventListener('click', '.cookieConf', (e) => {
-	console.log('Cookie Config.');
 	hideModal('cookiebanner', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
 });
+
 eventListener('click', '.cookieBanner', (e) => {
-	console.log("Cookie Start.");
 	hideModal('cookiebanner-config', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner'); }, 1000);
 });

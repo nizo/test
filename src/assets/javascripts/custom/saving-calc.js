@@ -60,7 +60,6 @@ class Mehrwertrechner {
         this.formHintText = this.formHint.querySelector('p');
 
         this.overlay = this.element.querySelector('.saving-calculation__overlay');
-        this.overlayButton = this.overlay.querySelector('.saving-calculation__overlay-button');
         
         this.inputs = {
             calls: this.form.querySelector('[name="calls"]'),
@@ -75,12 +74,6 @@ class Mehrwertrechner {
             this.inputs.agents.value = this.inputs.agents.value.replace(/\D/, '');
             this.form.querySelector('.floating-form__submit').disabled = false;
         });
-
-        // Focus first form input when overlay button is clicked
-        this.overlayButton.addEventListener('click', e => {
-            this.inputs.calls.focus();
-        });
-
         
         // this.setDefaultFormValues();
         // this.calculate();
@@ -226,11 +219,11 @@ class Mehrwertrechner {
         this.detailToggles.forEach(toggle => toggle.style.display = 'block');
 
         // Adjust form grid
-        let grid = this.element.querySelector('.saving-calculation__form-grid');
-        let columns = grid.querySelectorAll('.co-grid__col');
-        columns[0].classList.remove('co-grid__col--12-xs');
-        columns[0].classList.remove('co-grid__col--6-xs');
-        columns[1].style.display = 'flex';
+        // let grid = this.element.querySelector('.saving-calculation__form-grid');
+        // let columns = grid.querySelectorAll('.co-grid__col');
+        // columns[0].classList.remove('co-grid__col--12-xs');
+        // columns[0].classList.remove('co-grid__col--6-xs');
+        // columns[1].style.display = 'flex';
 
         // Calculate numbers
         this.calculate();

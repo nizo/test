@@ -23,7 +23,7 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
                     <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="4">
-                        <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
+                        <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Sales kontaktieren" />
                         <h3>Senden Sie uns eine Nachricht</h3>
                         <p>Kontaktformular nutzen</p>
                     </label>
@@ -31,7 +31,7 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
                     <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="5">
-                        <img src="/assets/images/icons_svg/callback-black.svg" alt="" />
+                        <img src="/assets/images/icons_svg/callback-black.svg" alt="Sales kontaktieren und Termin buchen" />
                         <h3>Buchen Sie direkt einen Termin</h3>
                         <p>Telefon- oder Videocall vereinbaren</p>
                     </label>
@@ -45,8 +45,8 @@ $uniqueID = uniqid();
         <p>Wir freuen uns über Ihr Interesse, doch leider finden wir heute noch nicht zusammen. Da sich die Ansprüche nach Firmengröße stark unterscheiden, wissen wir, dass unsere Lösung ihr Potenzial erst ab 10 Teammitgliedern voll entfalten. Dennoch möchten wir Ihnen gern helfen, einen passenden Partner zu finden. Hierzu haben wir eine Handvoll echt guter Empfehlungen für Sie bereitgestellt.</p>
         <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="card-link">
             <span class="card-link__icons">
-                <img src="/assets/images/logo/logo-icon-green.svg" alt="" />
-                <img src="/assets/images/icons_svg/recommendations.svg" alt="" />
+                <img src="/assets/images/logo/logo-icon-green.svg" alt="CallOne Telekommunikationslösungen" />
+                <img src="/assets/images/icons_svg/recommendations.svg" alt="Unsere Empfehlungen" />
             </span>
             <h2 class="card-link__title">Anbieter für Flatrate-Businesstelefonie</h2>
             <span class="card-link__subtitle">Unsere Empfehlungsliste</span>
@@ -132,10 +132,10 @@ $uniqueID = uniqid();
 
             <div class="sales-contact-form__details">
                 <div>
-                    <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="" /> <strong>Anruf:</strong> <a href="tel:+493092033500">+49 (0) 30 - 920 33 500</a></p>
+                    <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" /> <strong>Anruf:</strong> <a href="tel:+493092033500">+49 (0) 30 - 920 33 500</a></p>
                 </div>
                 <div>
-                    <p><img src="/assets/images/icons_svg/mail-indicator.svg" alt="" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de">info@callone.de</a></p>
+                    <p><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de">info@callone.de</a></p>
                 </div>
             </div>
         </div>

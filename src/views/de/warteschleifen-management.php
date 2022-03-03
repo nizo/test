@@ -59,12 +59,12 @@
         </h1>
 
         <div class="tablist" id="features">
-            <div class="tablist__links">
-                <div class="tablist__link" data-tab="1">
+            <div class="tablist__links tablist__links--full-width">
+                <div class="tablist__link" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);--stickyBg: linear-gradient(#fff, rgba(219, 0, 197, 0.2));">
                     <img src="/assets/images/icons_svg/callback-icon.svg" alt="Warteschleifenmodule in Kundenservice Software der Cloud Telefonanlage mit Rückrufoptionen" width="70" height="70" />
                     <strong>Warteschleifenmodule</strong>
                 </div>
-                <div class="tablist__link" data-tab="2">
+                <div class="tablist__link" data-tab="2" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);--stickyBg: linear-gradient(#fff, rgba(219, 0, 197, 0.2));">
                     <img src="/assets/images/icons_svg/routing-icon.svg" alt="Verschiedene Routingoptionen im Warteschleifenmanagement Ihrer Cloud Telefonanlage" width="70" height="70" />
                     <strong>Routingfunktionen</strong>
                 </div>
@@ -100,15 +100,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Optimal zur <br />Anrufpeak-Glättung
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Höhere Kundenakzeptanz <br />gegenüber Warteschleife erhöhen
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Flexibel <br />anpassbar
                                 </div>
                             </div>
@@ -145,15 +145,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Steigerung des <br />Servicelevels (SLA)
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Reduzierung <br />der Verbindungsdauer
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Gesteigerte CX
                                 </div>
                             </div>
@@ -190,15 +190,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Layout auf <br />Ihr CI anpassbar
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Kürzere Verbindungsdauern <br />durch Qualifizierung auf Webseite
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Weltweit einsetzbar
                                 </div>
                             </div>
@@ -235,15 +235,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Optimal für Bearbeitung <br />von Anrufpeaks
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Bessere CX gegenüber <br />klassischer Warteschleife
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Kürzere <br />Verbindungszeiten
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow centered">
                             <h4>Rückruf aus <br />der Warteschleife</h4>
-                            <img src="/assets/images/illus/calendar-illustration.svg" alt="" width="472" height="386" />
+                            <img src="/assets/images/illus/calendar-illustration.svg" alt="Warteschleife Kundenservice Software" width="472" height="386" />
                         </div>
                     </div>
                     <div class="fader__item">
@@ -310,15 +310,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Kürzere Wartedauern
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Höhere SLA
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Mehr Kund*innen-<br />zufriedenheit
                                 </div>
                             </div>
@@ -354,15 +354,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Optimierte Hotline-Erreichbarkeit <br />durch Steuermöglichkeit mittels Webseite
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Bessere Verteilung <br />auf Kontaktkanäle
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Bessere CX
                                 </div>
                             </div>
@@ -399,15 +399,15 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Bessere <br />Customer Experience
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Kürzere <br />Wartedauern
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="" width="84" height="84" style="display:inline" /><br />
+                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
                                     Entspanntere Gespräche <br />für Ihre Agent*innen
                                 </div>
                             </div>

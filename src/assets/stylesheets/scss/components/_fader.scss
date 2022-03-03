@@ -23,6 +23,8 @@
     &--header-below {
         .fader__header {
             order: 2;
+            margin-bottom: 0;
+            margin-top: var(--gutter-m);
         }
         .fader__items {
             order: 1;
@@ -104,16 +106,16 @@
 
 @media screen and (max-width: 1000px) {
     .fader {
-        &__header {
-            margin-bottom: 0;
-            margin-top: var(--gutter-m);
-        }
         &__title {
             text-align: left;
         }
         &__indicators {
             left: auto;
             right: 0;
+        }
+        &__header {
+            margin-bottom: 0;
+            margin-top: var(--gutter-m);
         }
         // &--indicators-centered {
         //     .fader__indicators {

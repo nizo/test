@@ -91,13 +91,13 @@ $faqs->faq_add (
 
         <div class="tablist">
             <div class="tablist__links">
-                <div class="tablist__link tablist__link--active" data-tab="1">
+                <div class="tablist__link tablist__link--active" data-tab="1" style="--bg:linear-gradient(#ecf9ff, transparent);--stickyBg:linear-gradient(transparent, #ecf9ff);">
                     <strong>Dashboards</strong>
                 </div>
-                <div class="tablist__link" data-tab="2">
+                <div class="tablist__link" data-tab="2" style="--bg:linear-gradient(#ecf9ff, transparent);--stickyBg:linear-gradient(transparent, #ecf9ff);">
                     <strong>Statistiken</strong>
                 </div>
-                <div class="tablist__link" data-tab="3">
+                <div class="tablist__link" data-tab="3" style="--bg:linear-gradient(#ecf9ff, transparent);--stickyBg:linear-gradient(transparent, #ecf9ff);">
                     <strong>Analyse</strong>
                 </div>
             </div>

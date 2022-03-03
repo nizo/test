@@ -22,7 +22,6 @@
     <?php getLogoParade([   
                           ['data' => 'logo-bett1-2.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-check24-2.png', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'logo-sixt-2.png', 'alt' => 'Kunde Sixt', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-snipes-2.png', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo small'],
                           ['data' => 'logo-sodastream-2.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo small']
     ], null, 'startpage'); ?>
@@ -330,7 +329,7 @@
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
+          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="110" height="60" />
         </div>
         <h3>Garantierte 99,999% Erreichbarkeit</h3>
         <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>
