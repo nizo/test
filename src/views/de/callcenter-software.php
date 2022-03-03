@@ -73,20 +73,24 @@ $faqs->faq_add (
 		<div class="tablist">
 			<div class="tablist__links">
 				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
-					<strong>Fullservice</strong>
-					CallOne liefert Ihnen das <br />
-					Komplettpaket für Ihr Unternehmen
+					<strong>
+						Fullservice<br />
+						<span class="subtext">CallOne liefert Ihnen das <br />
+						Komplettpaket für Ihr Unternehmen</span>
+					</strong>
 				</div>
 				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
-					<strong>Integriert</strong>
-					CallOne Callcenter Software verbunden <br />
-					mit Ihrer eigener Telefonanlage
+					<strong>
+						Integriert<br />
+						<span class="subtext">CallOne Callcenter Software verbunden <br />
+						mit Ihrer eigener Telefonanlage</span>
+					</strong>
 				</div>
 			</div>
 			
 			<div class="tablist__content tablist__content--active" data-tab="1">
 				<div class="co-grid co-grid--no-margin-top">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
 						<p>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
@@ -119,13 +123,13 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="2">
-				<div class="co-grid">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+				<div class="co-grid co-grid--no-margin-top">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
 						<h2>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
 						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
 					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
 					</div>
 				</div>
@@ -143,16 +147,16 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" data-sticky-text="Erreichbarkeit">
+				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(219, 0, 197, 0.2));" data-sticky-text="Erreichbarkeit">
 					<strong>Beste Erreichbarkeit</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="2" data-sticky-text="Effizienz">
+				<div class="tablist__link tablist__link--smaller" data-tab="2" style="--bg: linear-gradient(rgba(255, 123, 27, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 123, 27, 0.2));" data-sticky-text="Effizienz">
 					<strong>Mehr Effizienz</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="3" data-sticky-text="Bearbeitung">
+				<div class="tablist__link tablist__link--smaller" data-tab="3" style="--bg: linear-gradient(rgba(255, 0, 46, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 0, 46, 0.2));" data-sticky-text="Bearbeitung">
 					<strong>Schnellere Bearbeitung</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="4" data-sticky-text="Transparenz">
+				<div class="tablist__link tablist__link--smaller" data-tab="4" style="--bg: linear-gradient(rgba(0, 136, 234, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(0, 136, 234, 0.2));" data-sticky-text="Transparenz">
 					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
@@ -815,13 +819,13 @@ $faqs->faq_add (
 		<div class="content-box content-box--wide content-box--shadow content-box--white">
 			<div class="co-grid co-grid--center-line centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="" width="48" height="48" /></p>
+					<p><img src="/assets/images/icons_svg/callback-black.svg" alt="Erstgespräch zur Call Center Software vereinbaren" width="48" height="48" /></p>
 					<h4>Buchen Sie ein unverbindliches <br />15 Minuten Erstgespräch</h4>
 					<p>Telefon- oder Videocall vereinbaren</p>
 					<p><a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Termin vereinbaren</a></p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" width="48" height="48" /></p>
+					<p><img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Eine Nachricht für Erstgespräch schreiben" width="48" height="48" /></p>
 					<h4>Senden Sie uns <br />eine Nachricht</h4>
 					<p>Kontaktformular nutzen</p>
 					<p><a href="#" class="btn btn--secondary btn--centered" data-openmodal="contact-sales">Kontakt aufnehmen</a></p>
@@ -1057,7 +1061,7 @@ $faqs->faq_add (
 						<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--4-md centered">
-						<img src="/assets/images/icons_png/overlap.png" alt="" width="370" height="225" />
+						<img src="/assets/images/icons_png/overlap.png" alt="CallOne Callcenter Software" width="370" height="225" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md left">
 						<h4>Expertenberatung</h4>
