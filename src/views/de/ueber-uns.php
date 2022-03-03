@@ -219,7 +219,7 @@
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/amorelie-carddeck-black.png" alt="Amoreilie Kunde CallOne" />
+                                <img src="/assets/images/client-logos/carddeck/amorelie-carddeck-black.png" alt="Amorelie Kunde CallOne" />
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
                                 <img src="/assets/images/client-logos/carddeck/bett1-carddeck-black.png" alt="Bett1 Kunde CallOne" />
