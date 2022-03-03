@@ -408,37 +408,63 @@ $('.menuheader').on("click", function() {
 });
 
 
-function loadLazyTracking(reload){
-	  var gtm = "";
-	  var ua = "";
-	  
-	  if ((location.hostname.includes('localhost')) ||
-	      (location.hostname.includes('beta.www.callone.de'))) {
-			gtm = "GTM-MZN2XV4";
-			ua = "UA-20501538-3";
-		} else {
-			gtm = "GTM-N5K7C35";
-			ua = "UA-20501538-2";
-	  }
-	  
-	  
-	  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		  })(window,document,'script','dataLayer',gtm);
-	  console.log(reload);
-	  if(reload) {
-		  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-		  ga('create', ua, 'auto');
-		  ga('set', 'anonymizeIp', true);
-		  ga('send', 'pageview');
-		  var gascript = document.createElement("script");
-		  gascript.async = true;
-		  gascript.src = "https://www.google-analytics.com/analytics.js";
-		  document.getElementsByTagName("head")[0].appendChild(gascript, document.getElementsByTagName("head")[0]);
-	  }
-	  
+function loadLazyTracking(){
+	var gtm = '';
+	
+	if ((location.hostname.includes('localhost')) ||
+		(location.hostname.includes('beta.www.'))) {
+		gtm = 'GTM-MZN2XV4';
+	} else {
+		gtm = 'GTM-N5K7C35';
+	}
+	
+	// Google Tag Manager
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer',gtm);
+
+	// MouseFlow
+	if (!location.hostname.includes('localhost')) {
+		var mouseflowCrossDomainSupport = false;
+		window._mfq = window._mfq || [];
+		(function() {
+			var mf = document.createElement("script");
+			mf.type = "text/javascript"; mf.defer = true;
+			mf.src = "//cdn.mouseflow.com/projects/a81cdc73-8001-422e-9d46-c67c4f092c90.js";
+			document.getElementsByTagName("head")[0].appendChild(mf);
+		})();
+		// MouseFlow Banderole Tag
+		document.addEventListener('DOMContentLoaded', (e) => {
+			let banderoleCta = document.querySelector('#banderole-cta');
+			if (banderoleCta) {
+				banderoleCta.addEventListener('click', (e) => {
+					window._mfq.push(['tag', 'Banderole Clicked']);
+				});
+			}
+		});
+		// Mouseflow Beta Tag
+		if (location.hostname.includes('beta.www.'))
+			window._mfq.push(['tag', 'beta']);
+	}
+	
+	// Facebook Tracking Pixel
+	(function() {
+	var _fbq = window._fbq || (window._fbq = []);
+	if (!_fbq.loaded) {
+		var fbds = document.createElement('script');
+		fbds.async = true;
+		fbds.src = '//connect.facebook.net/en_US/fbds.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(fbds, s);
+		_fbq.loaded = true;
+	}
+	_fbq.push(['addPixelId', '327131857475263']);
+	})();
+	window._fbq = window._fbq || [];
+	//window._fbq.push(['addPixelId', '327131857475263']);
+	window._fbq.push(['track', 'PixelInitialized', {}]);
 }
 
 // Observer to track if elements become visible

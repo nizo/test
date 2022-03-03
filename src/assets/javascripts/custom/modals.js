@@ -43,19 +43,7 @@ $('.cookieSubmit').on('click', function(event) {
 		}
 	}
 	if (checkCode > 100) {
-		loadLazyTracking(checkCode > 101? true : false);
-	}
-	if(checkCode < 110) {
-		$.ajax({ 
-			url: '/libs/count.php',
-	        data: {
-	        	optInActive: '1'
-	        },
-	        type: 'POST',
-	        success: function(output) {
-	        	//nothing
-	        }
-		});
+		loadLazyTracking();
 	}
 	setCookie('cookiebanner-accepted', checkCode, 365);
 	/* Set Cookie für Role selection */
@@ -75,16 +63,6 @@ $('.cookieDeny').on('click', function(event) {
 	hideModal('cookiebanner', 'slideDown');
 	hideModal('cookiebanner-config', 'slideDown');
 	deleteAllCookies();
-	$.ajax({ 
-		url: '/libs/count.php',
-        data: {
-        	optInActive: '1'
-        },
-        type: 'POST',
-        success: function(output) {
-        	//nothing
-        }
-	});
 });
 $('.cookieConf').on('click', function() {
 	hideModal('cookiebanner', 'slideToggle');

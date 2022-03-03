@@ -54,10 +54,6 @@
         <link rel="canonical" href="<?= DOMAIN.$page->canonical ?>" />
     <?php endif; ?>
 
-    <?php 
-    require_once('./partials/tracking.php');
-    ?>
-
     <script type="application/ld+json">
     {
         "@context" : "http://schema.org",
@@ -75,7 +71,7 @@
     </script>
 </head>
 <body class="<?= $page->body_class; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
-    <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
+    <?php /*if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
         <?php if (isLocalHost()) : ?>
             <!-- Google Tag Manager (noscript) Testsystem -->
             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZN2XV4"
@@ -87,7 +83,7 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- End Google Tag Manager (noscript) -->
         <?php endif; ?>
-    <?php endif; ?>
+    <?php endif;*/ ?>
 
     <?php
     require_once('./partials/banderole.php');
@@ -128,6 +124,10 @@
     
     <?php
     loadJS(null);
+
+    if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1)) {
+        echo '<script>loadLazyTracking();</script>';
+    }
     ?>
     
     </body>
