@@ -50,7 +50,7 @@
         <p><img src="/assets/images/client-logos/logo-marley-spoon.svg" alt="" /></p>
         <p>„Die CallOne GmbH ist ein sehr professionell arbeitender Partner, der sich durch seine hohe Kundenorientierung und Flexibilität von anderen Anbietern am Markt deutlich abhebt.“</p>
         <p class="bold">
-          Roman Georgi.<br />
+          Roman Georgi<br />
           Head of Customer Communications
         </p>
       </blockquote>
