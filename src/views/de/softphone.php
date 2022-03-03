@@ -475,7 +475,7 @@ $faqs->faq_add (
                 <label class="usercalc__box" for="callcenter-software">
                   <div class="usercalc__header">
                     <div class="usercalc__icon">
-                      <img src="/assets/images/icons_svg/callcenter-software.svg" alt="" width="50" height="51" />
+                      <img src="/assets/images/icons_svg/callcenter-software.svg" alt="Call Center Software<" width="50" height="51" />
                     </div>
                     <div class="usercalc__title">
                       <strong>Callcenter-Software</strong><br />

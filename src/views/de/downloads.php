@@ -7,7 +7,7 @@
 				<p class="primary">Deutschland im Jahr <?=date('Y');?>... Die Digitalisierung schreitet voran wie nie zuvor. CallOne liefert Unternehmen cloudbasierte Telekommunikationslösungen, mit denen sie gegenüber den Herausforderungen einer sich schnell ändernden digitalen Welt optimal gerüstet sind.</p>
 			</div>
 			<div class="media centered">
-				<img src="/assets/images/illus/illu-businesstelefonie-header.svg" alt="" />
+				<img src="/assets/images/illus/illu-businesstelefonie-header.svg" alt="Businesstelefonie aus der Cloud" />
 			</div>
 		</header>
 	</div>
