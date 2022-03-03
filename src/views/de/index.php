@@ -118,20 +118,20 @@
             </div>
 
             <div class="tablist__content" data-tab="1">
-                <div class="paper mobile-hidden">
+                <div class="paper">
                     <div class="paper__row">
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg">
                                     <br />
-                                    <br />
-                                    <h3>Callcenter Software & <br />VoIP-Telefonanlage</h3>
+                                    <br class="mobile-hidden" />
+                                    <h3>Callcenter Software & <br class="mobile-hidden" />VoIP-Telefonanlage</h3>
                                     <p class="bigtext">Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
-                                    <p>
+                                    <p class="mobile-centered">
                                         <a href="/callcenter-software" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
-                                    <br />
-                                    <br />
+                                    <br class="mobile-hidden" />
+                                    <br class="mobile-hidden" />
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
                                     <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="Benutzeroberfläche der CallOne Call Center Software und VoiP Telefonanlage" width="532" height="351" />
@@ -164,58 +164,26 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <p class="centered">
-                        <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="Benutzeroberfläche der CallOne Call Center Software und VoiP Telefonanlage" width="532" height="351" />
-                    </p>
-                    <div class="tag">
-                        <img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CalOne Telekommunikationslösungen" width="13" height="14" /> App
-                    </div>
-                    <h3>Callcenter Software & VoIP-Telefonanlage</h3>
-                    <p>Eine cloudbasierte Plattform für moderne Unternehmenstelefonie, speziell angepasst auf Ihre individuellen Anforderungen.</p>
-                    <p class="centered">
-                        <a href="/callcenter-software" class="btn btn--primary btn--full-width">Mehr erfahren</a>
-                    </p>
-                </div>
-
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <h6>Fullservice</h6>
-                    <h4 style="margin-top: 0;">Personalisiert statt standardisiert</h4>
-                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
-                        <br />
-                        <img src="/assets/images/icons_svg/business-full-package-mobile.svg" alt="cloudbasierte Plattform von CallOne für individuelle Callcenter Software und Cloud Telefonanlage" width="750" height="268" style="display:block;width:100%;" />
-                    </p>
-                </div>
-
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <h6>Projektmanagement</h6>
-                    <h4 style="margin-top: 0;">Immer persönlich betreut</h4>
-                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
-                        <br />
-                        <img src="/assets/images/icons_png/personal-contacts-mobile@2x.png" width="750" height="208" alt="persönliche Beratung zur Call Center Software bei CallOne" style="display:block;width:100%;" />
-                    </p>
-                </div>
             </div>
 
             <div class="tablist__content" data-tab="2">
-                <div class="paper mobile-hidden">
+                <div class="paper">
                     <div class="paper__row" style="background-image: url(/assets/images/illus/ROI-airdrop-illustration.svg);
                                                     background-repeat: no-repeat;
                                                     background-position: 82% bottom;
                                                     background-size: 35%;">
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                                <div class="co-grid__col co-grid__col--6-xs">
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                                     <br />
-                                    <br />
+                                    <br class="mobile-hidden" />
                                     <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
-                                    <p class="bigtext">Wir steigern nachweislich Ihren ROI, <br />indem wir gemeinsam an den großen <br />Stellschrauben im Kundenservice drehen.</p>
-                                    <p>
+                                    <p class="bigtext">Wir steigern nachweislich Ihren ROI, <br class="mobile-hidden" />indem wir gemeinsam an den großen <br class="mobile-hidden" />Stellschrauben im Kundenservice drehen.</p>
+                                    <p class="mobile-centered">
                                         <a href="/callcenter-software#mehrwertrechner" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
-                                    <br />
-                                    <br />
+                                    <br class="mobile-hidden" />
+                                    <br class="mobile-hidden" />
                                 </div>
                             </div>
                         </div>
@@ -250,46 +218,26 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <p class="centered">
-                        <img src="/assets/images/illus/ROI-airdrop-illustration.svg" alt="ROI mit der Callcenter Software von CallOne erhöhen" width="392" height="365" />
-                    </p>
-                    <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
-                    <p>Wir steigern nachweislich Ihren ROI, indem wir gemeinsam an den großen Stellschrauben im Kundenservice drehen.</p>
-                    <p class="centered">
-                        <a href="/callcenter-software#mehrwertrechner" class="btn btn--primary btn--full-width">Mehr erfahren</a>
-                    </p>
-                </div>
-
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <h6>Unser Service-versprechen</h6>
-                    <h4 style="margin-top: 0;">Zukunftssichere Technologie trifft Expertenberatung</h4>
-                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
-                        <br />
-                        <img src="/assets/images/icons_svg/service-promise-mobile.svg" alt="Das Serviceversprechen von CallOne beinhaltet zukunftssichere Technologie und fachline Expertise" width="750" height="233" style="display:block;width:100%;" />
-                    </p>
-                </div>
             </div>
 
             <div class="tablist__content" data-tab="3">
-                <div class="paper mobile-hidden">
+                <div class="paper">
                     <div class="paper__row" style="background-image: url(/assets/images/illus/client-diversity-illustration.svg);
                                                     background-repeat: no-repeat;
                                                     background-position: right bottom;
                                                     background-size: 50%;">
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                                <div class="co-grid__col co-grid__col--6-xs">
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                                     <br />
-                                    <br />
-                                    <h3>Eine Plattform, <br />unendliche Optionen</h3>
-                                    <p class="bigtext">Maximale Flexibilität, wie und wo <br />Sie mit uns telefonieren. Ob Hardware, <br />Browser oder mobil.</p>
-                                    <p>
+                                    <br class="mobile-hidden" />
+                                    <h3>Eine Plattform, <br class="mobile-hidden" />unendliche Optionen</h3>
+                                    <p class="bigtext">Maximale Flexibilität, wie und wo <br class="mobile-hidden" />Sie mit uns telefonieren. Ob Hardware, <br class="mobile-hidden" />Browser oder mobil.</p>
+                                    <p class="mobile-centered">
                                         <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
-                                    <br />
-                                    <br />
+                                    <br class="mobile-hidden" />
+                                    <br class="mobile-hidden" />
                                 </div>
                             </div>
                         </div>
@@ -298,58 +246,8 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-                                    <?php require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
-                                    <script>
-                                        let svg = document.querySelector('.clients-circle-callcenter-software');
-                                        let circles = svg.querySelectorAll('.circle');
-                                        let circleIcons = svg.querySelectorAll('.circle-icon');
-                                        let svgTexts = svg.querySelectorAll('.text');
-                                        let currentCircle = 0;
-                                        let countCircles = circles.length;
-                                        let circleInterval = null;
-
-                                        document.addEventListener('DOMContentLoaded', () => {
-                                            respondToVisibility(document.querySelector('.clients-circle-callcenter-software'), visible => {
-                                                currentCircle = 0;
-                                                clearInterval(circleInterval);
-
-                                                circles.forEach(circle => {
-                                                    circle.setAttribute('stroke', 'black');
-                                                    circle.setAttribute('stroke-width', '2');
-                                                    circle.setAttribute('stroke-opacity', '0.1');
-                                                });
-                                                circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
-                                                svgTexts.forEach(text => text.setAttribute('opacity', '0'));
-                                                circles[currentCircle].setAttribute('stroke', '#86ed18');
-                                                circles[currentCircle].setAttribute('stroke-width', '4');
-                                                circles[currentCircle].setAttribute('stroke-opacity', '1');
-                                                circleIcons[currentCircle].setAttribute('opacity', '1');
-                                                svgTexts[currentCircle].setAttribute('opacity', '1');
-
-                                                circleInterval = setInterval(animateCircles, 2000);
-                                            });
-                                        });
-
-                                        circleInterval = setInterval(animateCircles, 2000);
-
-                                        function animateCircles() {
-                                            circles.forEach(circle => {
-                                                circle.setAttribute('stroke', 'black');
-                                                circle.setAttribute('stroke-width', '2');
-                                                circle.setAttribute('stroke-opacity', '0.1');
-                                            });
-                                            circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
-                                            svgTexts.forEach(text => text.setAttribute('opacity', '0'));
-                                            currentCircle++;
-                                            if (currentCircle >= countCircles)
-                                                currentCircle = 0;
-                                            circles[currentCircle].setAttribute('stroke', '#86ed18');
-                                            circles[currentCircle].setAttribute('stroke-width', '4');
-                                            circles[currentCircle].setAttribute('stroke-opacity', '1');
-                                            circleIcons[currentCircle].setAttribute('opacity', '1');
-                                            svgTexts[currentCircle].setAttribute('opacity', '1');
-                                        };
-                                    </script>
+                                    <?php //require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
+                                    <object data="/assets/images/illus/clients-circle-callcenter-software.svg" type="image/svg+xml"></object>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
                                     <div class="left-border">
@@ -362,7 +260,7 @@
                     </div>
                 </div>
 
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
+                <!-- <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
                     <p class="centered" style="margin-left:-15px;width:calc(100% + 30px);margin-top:-15px;margin-bottom:15px;">
                         <img src="/assets/images/illus/client-diversity-illustration-mobile.svg" alt="Mit der CallOne Call Center Software ist Telefonieren im Browser, mit Hardware oder mobil möglich" width="750" height="582" style="display:block;width:100%;" />
                     </p>
@@ -380,7 +278,7 @@
                         <br />
                         <img src="/assets/images/icons_svg/client-diversity-mobile.svg" alt="Mit der CallOne Call Center Software ist Telefonieren im Browser, mit Hardware oder mobil möglich" width="750" height="270" style="display:block;width:100%;" />
                     </p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

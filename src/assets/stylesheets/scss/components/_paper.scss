@@ -42,6 +42,7 @@
     .paper:not(.paper--gradient) {
         .paper__row {
             flex-direction: column;
+            background: none !important;
         }
 
         .paper__item {

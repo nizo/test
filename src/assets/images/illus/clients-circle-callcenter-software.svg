@@ -82,5 +82,57 @@
 <stop offset="0" stop-color="#AAEA39"/>
 <stop offset="1" stop-color="#86EC16"/>
 </linearGradient>
+<style type="text/css">@import url('/assets/stylesheets/application.min.css');</style>
 </defs>
+<script>
+let svg = document.querySelector('.clients-circle-callcenter-software');
+let circles = svg.querySelectorAll('.circle');
+let circleIcons = svg.querySelectorAll('.circle-icon');
+let svgTexts = svg.querySelectorAll('.text');
+let currentCircle = 0;
+let countCircles = circles.length;
+let circleInterval = null;
+
+document.addEventListener('DOMContentLoaded', () => {
+    respondToVisibility(document.querySelector('.clients-circle-callcenter-software'), visible => {
+        currentCircle = 0;
+        clearInterval(circleInterval);
+
+        circles.forEach(circle => {
+            circle.setAttribute('stroke', 'black');
+            circle.setAttribute('stroke-width', '2');
+            circle.setAttribute('stroke-opacity', '0.1');
+        });
+        circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+        svgTexts.forEach(text => text.setAttribute('opacity', '0'));
+        circles[currentCircle].setAttribute('stroke', '#86ed18');
+        circles[currentCircle].setAttribute('stroke-width', '4');
+        circles[currentCircle].setAttribute('stroke-opacity', '1');
+        circleIcons[currentCircle].setAttribute('opacity', '1');
+        svgTexts[currentCircle].setAttribute('opacity', '1');
+
+        circleInterval = setInterval(animateCircles, 2000);
+    });
+});
+
+circleInterval = setInterval(animateCircles, 2000);
+
+function animateCircles() {
+    circles.forEach(circle => {
+        circle.setAttribute('stroke', 'black');
+        circle.setAttribute('stroke-width', '2');
+        circle.setAttribute('stroke-opacity', '0.1');
+    });
+    circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+    svgTexts.forEach(text => text.setAttribute('opacity', '0'));
+    currentCircle++;
+    if (currentCircle >= countCircles)
+        currentCircle = 0;
+    circles[currentCircle].setAttribute('stroke', '#86ed18');
+    circles[currentCircle].setAttribute('stroke-width', '4');
+    circles[currentCircle].setAttribute('stroke-opacity', '1');
+    circleIcons[currentCircle].setAttribute('opacity', '1');
+    svgTexts[currentCircle].setAttribute('opacity', '1');
+};
+</script>
 </svg>
