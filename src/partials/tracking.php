@@ -13,6 +13,19 @@
         })();
         </script>
         <!--End Mouseflow-->
+
+        <!-- Mouseflow Add Tag for Banderole -->
+        <script>
+        document.addEventListener('DOMContentLoaded', (e) => {
+            let banderoleCta = document.querySelector('#banderole-cta');
+            if (banderoleCta) {
+                banderoleCta.addEventListener('click', (e) => {
+                    window._mfq.push(['tag', 'Banderole Clicked']);
+                });
+            }
+        });
+        </script>
+        <!-- End Mouseflow Add Tag for Banderole -->
     <?php endif; ?>
 
     <?php  if (isLocalHost()) : ?>	
@@ -38,20 +51,6 @@
         })(window,document,'script','dataLayer','GTM-N5K7C35');</script>
         <!--End Google Tag Manager-->
     <?php endif; ?>
-    
-    <!-- Mouseflow Add Tag for Banderole -->
-    <script>
-        document.addEventListener('DOMContentLoaded', (e) => {
-            let banderoleCta = document.querySelector('#banderole-cta');
-            if (banderoleCta) {
-                banderoleCta.addEventListener('click', (e) => {
-                    console.log('Banderole CTA Clicked.');
-                    window._mfq.push(['tag', 'Banderole Clicked']);
-                    console.log('Mouseflow Tag Added');
-                });
-            }
-        });
-    </script>
     
 	<!--Facebook Tracking Pixel-->
  	<script>(function() {
