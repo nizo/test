@@ -246,7 +246,6 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-                                    <?php //require_once('assets/images/illus/clients-circle-callcenter-software.svg'); ?>
                                     <object data="/assets/images/illus/clients-circle-callcenter-software.svg" type="image/svg+xml"></object>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
@@ -259,32 +258,12 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <p class="centered" style="margin-left:-15px;width:calc(100% + 30px);margin-top:-15px;margin-bottom:15px;">
-                        <img src="/assets/images/illus/client-diversity-illustration-mobile.svg" alt="Mit der CallOne Call Center Software ist Telefonieren im Browser, mit Hardware oder mobil möglich" width="750" height="582" style="display:block;width:100%;" />
-                    </p>
-                    <h3>Eine Plattform, unendlich viele Optionen</h3>
-                    <p>Maximale Flexibilität, wie und wo Sie mit uns telefonieren. Ob Hardware, Browser oder mobil.</p>
-                    <p class="centered">
-                        <a href="/callcenter-software#not-convinced-yet" class="btn btn--primary btn--full-width">Mehr erfahren</a>
-                    </p>
-                </div>
-
-                <div class="content-box content-box--white content-box--full-width content-box--shadow content-box--small-padding desktop-hidden">
-                    <h6>Clients</h6>
-                    <h4 style="margin-top: 0;">Für jeden etwas dabei!</h4>
-                    <p style="margin-left:-15px;width:calc(100% + 30px);margin-bottom:-15px;">
-                        <br />
-                        <img src="/assets/images/icons_svg/client-diversity-mobile.svg" alt="Mit der CallOne Call Center Software ist Telefonieren im Browser, mit Hardware oder mobil möglich" width="750" height="270" style="display:block;width:100%;" />
-                    </p>
-                </div> -->
             </div>
         </div>
     </div>
 </div>
 
-<div class="section tablet-hidden">
+<div class="section">
     <div class="section__content section__content--wide">
         <div class="paper paper--gradient">
             <div class="paper__row" style="background-image: url(/assets/images/illus/brochure-CCS-checklist.png);
@@ -292,15 +271,15 @@
                                             background-size: auto 100%;
                                             background-position: 6% center;">
                 <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                    <div class="co-grid__col co-grid__col--5-xs"></div>
-                    <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
-                        <br /><br />
+                    <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--5-sm"></div>
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
+                        <br class="mobile-hidden" /><br class="mobile-hidden" />
                         <h3>Holen Sie alles aus Ihrem Kundenservice heraus!</h3>
                         <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
-                        <p>
+                        <p class="mobile-centered">
                             <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
                         </p>
-                        <br /><br />
+                        <br class="mobile-hidden" /><br class="mobile-hidden" />
                     </div>
                 </div>
             </div>
@@ -347,9 +326,8 @@
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="/voip-api" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="/voip-api" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p>
+                            <a href="/voip-api" class="btn btn--primary btn--centered">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -399,9 +377,8 @@
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="/callcenter-bot" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="/callcenter-bot" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p>
+                            <a href="/callcenter-bot" class="btn btn--primary btn--centered">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -451,9 +428,8 @@
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p>
+                            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary btn--centered">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
@@ -503,9 +479,8 @@
                             </div>
                         </div>
 
-                        <p class="mobile-centered">
-                            <a href="/statistiken" class="btn btn--primary btn--centered mobile-hidden">Mehr erfahren</a>
-                            <a href="/statistiken" class="btn btn--primary btn--centered btn--full-width desktop-hidden">Mehr erfahren</a>
+                        <p>
+                            <a href="/statistiken" class="btn btn--primary btn--centered">Mehr erfahren</a>
                         </p>
 
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>

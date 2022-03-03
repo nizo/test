@@ -39,10 +39,14 @@
 }
 
 @media screen and (max-width: 1170px) {
+    .paper {
+        .paper__row {
+            background: none !important;
+        }
+    }
     .paper:not(.paper--gradient) {
         .paper__row {
             flex-direction: column;
-            background: none !important;
         }
 
         .paper__item {
