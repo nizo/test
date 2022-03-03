@@ -41,14 +41,16 @@
     
     <!-- Mouseflow Add Tag for Banderole -->
     <script>
-        let banderoleCta = document.querySelector('#banderole-cta');
-        if (banderoleCta) {
-            banderoleCta.addEventListener('click', (e) => {
-                console.log('Banderole CTA Clicked.');
-                window._mfq.push(['tag', 'Banderole Clicked']);
-                console.log('Mouseflow Tag Added');
-            });
-        }
+        document.addEventListener('DOMContentLoaded', (e) => {
+            let banderoleCta = document.querySelector('#banderole-cta');
+            if (banderoleCta) {
+                banderoleCta.addEventListener('click', (e) => {
+                    console.log('Banderole CTA Clicked.');
+                    window._mfq.push(['tag', 'Banderole Clicked']);
+                    console.log('Mouseflow Tag Added');
+                });
+            }
+        });
     </script>
     
 	<!--Facebook Tracking Pixel-->
