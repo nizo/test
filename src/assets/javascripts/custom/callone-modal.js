@@ -108,7 +108,6 @@ class Modal {
                 if (!video.paused)
                     video.pause();
                 video.currentTime = 0;
-                console.log(video.paused);
             });
         });
     }
