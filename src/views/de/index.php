@@ -495,9 +495,8 @@
 
 <div class="section section--black-grey section--wave-animation" id="kosten">
     <div class="section__content section__content--narrow">
-        <h1 class="centered mobile-left">Kundenorientierte Unternehmen <br />vertrauen auf CallOne</h1>
-        <p class="centered mobile-hidden">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
-        <h5 class="desktop-hidden">Denn unsere Kunden erhalten Ergebnisse:</h5>
+        <h1 class="centered mobile-left">Kundenorientierte Unternehmen <br class="mobile-hidden" />vertrauen auf CallOne</h1>
+        <p class="centered mobile-left">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
     </div>
     <div class="section__content section__content--wide">
         <div class="co-grid">
@@ -540,8 +539,7 @@
                     </div>
                 </div>
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
-                    <a href="#" class="btn btn--primary btn--full-width desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch buchen</a>
                 </p>
             </div>
         </div>
