@@ -3,8 +3,8 @@
         <div class="hero__text">
             <h4>Call Center Software ist unsere Expertise.</h4>
             <h1>
-                Unsere Leidenschaft ist <br class="mobile-hidden" />
-                <span class="typing-text" data-speed="35" data-texts="das optimale Kundenerlebnis|Ihren ROI zu maximieren|maximale Sicherheit Ihrer Telefonie|persönliche Betreuung" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">das optimale Kundenerlebnis</span>
+                Unsere Leidenschaft ist 
+                <span class="typing-text typing-text--block" data-speed="35" data-texts="das optimale Kundenerlebnis|Ihren ROI zu maximieren|maximale Sicherheit Ihrer Telefonie|persönliche Betreuung" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">das optimale Kundenerlebnis</span>
             </h1>
             
             <div class="co-grid co-grid--small-gutter centered subtext">
