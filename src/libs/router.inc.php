@@ -186,6 +186,10 @@ Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
+Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
+    'title' => 'i2x Callcenter Sprachanalyse',
+    'menu_position' => 'produkte'
+]);
 Router::add('/softphone', 'softphone.php', [
     'title' => 'VoIP Telefon im Browser integriert | CallOne Softphone',
     'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',

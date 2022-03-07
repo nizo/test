@@ -1,19 +1,21 @@
 .quote {
+    --fontSize: 34px;
+
     font-family: $font-copy;
     font-style: normal;
     font-weight: normal;
-    font-size: 34px;
+    font-size: var(--fontSize);
     line-height: 1.5;
     padding: 0;
     text-align: left;
-    margin-bottom: 30px;
-
+    
     &:before, &:after {
         display: none;
     }
-
+    
     &+p {
-        font-size: 20px;
+        margin-top: 30px;
+        font-size: calc(var(--fontSize) / 2);
         strong {
             font-family: $font-headline;
             font-weight: normal;
@@ -23,6 +25,6 @@
 
 @media screen and (max-width: 800px) {
     .quote {
-        font-size: 28px;
+        --fontSize: var(var(--fontSize) / 1.5);
     }
 }

@@ -188,6 +188,19 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                     </a>
 
+                                    <a href="/callcenter-sprachanalyse" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                                i2x
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
+                                            <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
+                                        </div>
+                                    </a>
+
                                     <!-- <a href="#todo" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />

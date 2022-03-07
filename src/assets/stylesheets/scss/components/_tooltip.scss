@@ -1,21 +1,22 @@
 .tooltip {
     position: relative;
-    width: 28px;
-    height: 28px;
+    top: -0.1em;
+    width: 1.5em;
+    height: 1.5em;
     display: inline-block;
     border-radius: 50%;
-    background-color: rgba($color-primary, .2);
+    background-color: rgba($color-primary, .3);
     vertical-align: middle;
     cursor: help;
     flex-shrink: 0;
     flex-grow: 0;
     
     &--light {
-        background-color: rgba(#fff, .2);
+        background-color: rgba(#fff, .3);
     }
 
     &--dark {
-        background-color: rgba(#000, .2);
+        background-color: rgba(#000, .3);
     }
 
     &:before {
