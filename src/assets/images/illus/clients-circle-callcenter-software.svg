@@ -94,25 +94,23 @@ let countCircles = circles.length;
 let circleInterval = null;
 
 document.addEventListener('DOMContentLoaded', () => {
-    respondToVisibility(document.querySelector('.clients-circle-callcenter-software'), visible => {
-        currentCircle = 0;
-        clearInterval(circleInterval);
+    currentCircle = 0;
+    clearInterval(circleInterval);
 
-        circles.forEach(circle => {
-            circle.setAttribute('stroke', 'black');
-            circle.setAttribute('stroke-width', '2');
-            circle.setAttribute('stroke-opacity', '0.1');
-        });
-        circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
-        svgTexts.forEach(text => text.setAttribute('opacity', '0'));
-        circles[currentCircle].setAttribute('stroke', '#86ed18');
-        circles[currentCircle].setAttribute('stroke-width', '4');
-        circles[currentCircle].setAttribute('stroke-opacity', '1');
-        circleIcons[currentCircle].setAttribute('opacity', '1');
-        svgTexts[currentCircle].setAttribute('opacity', '1');
-
-        circleInterval = setInterval(animateCircles, 2000);
+    circles.forEach(circle => {
+        circle.setAttribute('stroke', 'black');
+        circle.setAttribute('stroke-width', '2');
+        circle.setAttribute('stroke-opacity', '0.1');
     });
+    circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+    svgTexts.forEach(text => text.setAttribute('opacity', '0'));
+    circles[currentCircle].setAttribute('stroke', '#86ed18');
+    circles[currentCircle].setAttribute('stroke-width', '4');
+    circles[currentCircle].setAttribute('stroke-opacity', '1');
+    circleIcons[currentCircle].setAttribute('opacity', '1');
+    svgTexts[currentCircle].setAttribute('opacity', '1');
+
+    circleInterval = setInterval(animateCircles, 2000);
 });
 
 circleInterval = setInterval(animateCircles, 2000);
