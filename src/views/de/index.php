@@ -270,16 +270,18 @@
                                             background-repeat: no-repeat;
                                             background-size: auto 100%;
                                             background-position: 6% center;">
-                <div class="paper__item co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                    <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--5-sm"></div>
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
-                        <br class="mobile-hidden" /><br class="mobile-hidden" />
-                        <h3>Holen Sie alles aus Ihrem Kundenservice heraus!</h3>
-                        <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
-                        <p class="mobile-centered">
-                            <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
-                        </p>
-                        <br class="mobile-hidden" /><br class="mobile-hidden" />
+                <div class="paper__item">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--5-sm"></div>
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
+                            <br class="mobile-hidden" /><br class="mobile-hidden" />
+                            <h3>Holen Sie alles aus Ihrem Kundenservice heraus!</h3>
+                            <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
+                            <p class="mobile-centered">
+                                <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
+                            </p>
+                            <br class="mobile-hidden" /><br class="mobile-hidden" />
+                        </div>
                     </div>
                 </div>
             </div>
