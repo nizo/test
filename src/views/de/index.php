@@ -272,8 +272,8 @@
                                             background-position: 6% center;">
                 <div class="paper__item">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--5-sm"></div>
-                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--vcentered">
+                        <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--6-sm co-grid__col--5-md"></div>
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--7-md co-grid__col--vcentered">
                             <br class="mobile-hidden" /><br class="mobile-hidden" />
                             <h3>Holen Sie alles aus Ihrem Kundenservice heraus!</h3>
                             <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
