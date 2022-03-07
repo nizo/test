@@ -567,7 +567,7 @@ $faqs->faq_add (
 				<div class="tablist__link" data-tab="1" data-sticky-text="GastroHero">
 					<strong>Call Center Software mit VoIP-Telefonanlage</strong>
 				</div>
-				<div class="tablist__link" data-tab="2" data-sticky-text="LBS Immobilien">
+				<div class="tablist__link" data-tab="2" data-sticky-text="Die LBS Immobilien GmbH NordWest">
 					<strong>Hybride <br />Teams Telefonie</strong>
 				</div>
 				<div class="tablist__link" data-tab="3" data-sticky-text="Check24 KFZ">
@@ -667,7 +667,7 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="63" style="--w:150px" alt="LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
+							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="63" style="--w:150px" alt="Die LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
