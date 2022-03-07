@@ -5,7 +5,7 @@
         <div class="contactsales__steps">
             <div class="contactsales__steps-header">
                 <div class="contactsales__steps-person">
-                    <img src="/assets/images/photos/bjoern.svg" alt="" />
+                    <img src="/assets/images/photos/bjoern.svg" alt="Geschäftsführer CallOne Björn Bendig" />
                     <div>
                         <strong>Björn Bendig</strong><br />
                         Geschäftsführer von CallOne
@@ -33,12 +33,12 @@
                 <h2>Wie möchten Sie mit uns in Kontakt treten?</h2>
                 <div class="contactsales__options">
                     <div class="contactsales__option" data-option="1">
-                        <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="" />
+                        <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Nachricht für Erstgespräch schreiben" />
                         <h3>Vertrieb kontaktieren</h3>
                         <p>Über Kontaktformular</p>
                     </div>
                     <div class="contactsales__option contactsales__option--active" data-option="2">
-                        <img src="/assets/images/icons_svg/callback-black.svg" alt="" />
+                        <img src="/assets/images/icons_svg/callback-black.svg" alt="Erstgespräch für Callcenter Software oder Cloud Telefonanlage buchen" />
                         <h3>15 min Telefonbesprechung</h3>
                         <p>Über Calendly Terminbuchung</p>
                     </div>
@@ -133,7 +133,7 @@
                 <p>Unsere Lösungen sind aktuell zu umfassend und zu teuer für Unternehmen unter 10 Mitarbeitenden. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen.</p>
                 <p>Einige Empfehlungen sehr guter Anbieter für kleine Unternehmen finden Sie hier:</p>
                 <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="contactsales__linkcard">
-                    <img src="//placehold.it/180x120/FFFFFF/212121" alt="" />
+                    <img src="//placehold.it/180x120/FFFFFF/212121" alt="Callcenter Software Anbieter vergleichen" />
                     <div>
                         <p><strong>Blogartikel</strong></p>
                         <p>Anbieter für Flatrate-Businesstelefonie</p>
@@ -154,7 +154,7 @@
                         <li>Stimmen Pilotprojekte ab</li>
                     </ul>
 
-                    <img src="/assets/images/icons_svg/sent-out-white.svg" alt="" />
+                    <img src="/assets/images/icons_svg/sent-out-white.svg" alt="Jetzt Erstgespräch vereinbaren" />
                 </div>
             </div>
         </div>

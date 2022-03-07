@@ -46,7 +46,7 @@ $faqs->faq_add (
             </div>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/Karriere560.gif" alt="" />
+            <img src="/assets/images/illus/Karriere560.gif" alt="Karriere und Jobs bei CallOne" />
         </div>
         <!-- <div class="hero__image animation animation-bg lazyBackground karriere">
             <div id="lottie" class="job"></div>
@@ -86,12 +86,12 @@ $faqs->faq_add (
     <div class="section__content section__content--wide section__content--gutter-top">
         <div class="co-grid centered">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="" />
+                <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="Kundenservice verbessern" />
                 <h2>Wir alle wissen es: <br />Kundenhotlines sind die Hölle</h2>
                 <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser &ndash; mit Software von CallOne.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="" />
+                <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="Guter Kundenservice" />
                 <h2>Kundenservice <br />mit WOW-Effekt</h2>
                 <p class="mobile-hidden">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
             </div>
@@ -115,7 +115,7 @@ $faqs->faq_add (
             <?php
             foreach ($jobs_benefits as $benefit) {
                 echo '<div class="cards__card cards__card--3 centered">';
-                echo '<img src="'.$benefit->icon_get().'" alt="" />';
+                echo '<img src="'.$benefit->icon_get().'" alt="Benefits und Vorteile Arbeiten bei CallOne" />';
                 echo '<h3>'.$benefit->title_get().'</h3>';
                 echo '<p>'.$benefit->text_get().'</p>';
                 echo '</div>';
@@ -131,7 +131,7 @@ $faqs->faq_add (
                     if ($key == 0)
                         $extraClass = ' step-slider__step--active';
                     echo '<div class="step-slider__step step-slider__step--no-number'.$extraClass.'">';
-                    echo '<img src="'.$benefit->icon_get().'" alt="" data-alt-image="'.$benefit->alt_icon_get().'" />';
+                    echo '<img src="'.$benefit->icon_get().'" alt="toller Job bei CallOne" data-alt-image="'.$benefit->alt_icon_get().'" />';
                     echo '<h3>'.$benefit->title_get().'</h3>';
                     echo '<p>'.$benefit->text_get().'</p>';
                     echo '</div>';
@@ -260,12 +260,16 @@ $faqs->faq_add (
         <div class="tablist">
             <div class="tablist__links">
                 <div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Office">
-                    <strong>Office</strong>
-                    <span class="icon-location">Potsdam</span>
+                    <strong>
+                        Office<br />
+                        <span class="icon-location">Potsdam</span>
+                    </strong>
                 </div>
                 <div class="tablist__link" data-tab="2" data-sticky-text="Remote">
-                    <strong>Remote</strong>
-                    <span class="icon-home">Lieblingsort</span>
+                    <strong>
+                        Remote<br />
+                        <span class="icon-home">Lieblingsort</span>
+                    </strong>
                 </div>
             </div>
 
@@ -276,7 +280,7 @@ $faqs->faq_add (
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
                 </p>
 
-                <p><img src="/assets/images/photos/location-office.png" alt="" /></p>
+                <p><img src="/assets/images/photos/location-office.png" alt="Arbeiten in Potsdam" /></p>
             </div>
 
             <div class="tablist__content" data-tab="2">
@@ -285,7 +289,7 @@ $faqs->faq_add (
                 <p>
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
                 </p>
-                <p><img src="/assets/images/photos/location-homeoffice.png" alt="" /></p>
+                <p><img src="/assets/images/photos/location-homeoffice.png" alt="Arbeiten im Homeoffice" /></p>
             </div>
         </div>
     </div>
@@ -299,22 +303,22 @@ $faqs->faq_add (
         <div class="step-slider step-slider--on-black">
             <div class="step-slider__steps">
                 <div class="step-slider__step step-slider__step--no-number step-slider__step--active">
-                    <p><img src="/assets/images/icons_svg/first-call-white.svg" data-alt-image="/assets/images/icons_svg/first-call-black.svg" alt="" /></p>
+                    <p><img src="/assets/images/icons_svg/first-call-white.svg" data-alt-image="/assets/images/icons_svg/first-call-black.svg" alt="Erstes Telefoninterview bei Bewerbung" /></p>
                     <h2>Erster Call</h2>
                     <p>In einem kurzen Telefoninterview besprechen wir ein paar Eckpunkte unserer Zusammenarbeit.</p>
                 </div>
                 <div class="step-slider__step step-slider__step--no-number">
-                    <p><img src="/assets/images/icons_svg/meeting-white.svg" data-alt-image="/assets/images/icons_svg/meeting-black.svg" alt="" /></p>
+                    <p><img src="/assets/images/icons_svg/meeting-white.svg" data-alt-image="/assets/images/icons_svg/meeting-black.svg" alt="Teammitglieder kennenlernen bei Bewerbung" /></p>
                     <h2>Kennenlernen</h2>
                     <p>Lerne zwei Mitglieder unseres Teams kennen und wir zeigen uns gegenseitig, was wir draufhaben.</p>
                 </div>
                 <div class="step-slider__step step-slider__step--no-number">
-                    <p><img src="/assets/images/icons_svg/team-white.svg" data-alt-image="/assets/images/icons_svg/team-black.svg" alt="" /></p>
+                    <p><img src="/assets/images/icons_svg/team-white.svg" data-alt-image="/assets/images/icons_svg/team-black.svg" alt="Team treffen und Arbeit kennenlernen bei Bewerbung" /></p>
                     <h2>Triff das Team</h2>
                     <p>Jetzt wird’s spannend. Du lernst deine engsten Kolleg*innen kennen.</p>
                 </div>
                 <div class="step-slider__step step-slider__step--no-number">
-                    <p><img src="/assets/images/icons_svg/workplace-white.svg" data-alt-image="/assets/images/icons_svg/workplace-black.svg" alt="" /></p>
+                    <p><img src="/assets/images/icons_svg/workplace-white.svg" data-alt-image="/assets/images/icons_svg/workplace-black.svg" alt="Bei CallOne arbeiten" /></p>
                     <h2>Dein Start bei uns</h2>
                     <p>Vertrag ist unterschrieben? Los geht’s. Wir nehmen uns Zeit für dich und arbeiten dich umfassend ein.</p>
                 </div>
@@ -343,7 +347,7 @@ $faqs->faq_add (
 
             <div class="person">
                 <div class="person__avatar">
-                    <img src="/assets/images/photos/stefanie-bending-round-sm.png" alt="" />
+                    <img src="/assets/images/photos/stefanie-bending-round-sm.png" alt="Stefanie Bendig Personalabteilung CallOne" />
                 </div>
                 <div class="person__details">
                     <h4>Stefanie Bendig</h4>

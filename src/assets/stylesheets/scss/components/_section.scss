@@ -384,7 +384,7 @@
                 margin-top: 20px;
             }
         }
-        &+.section__content {
+        &+.section__content:not(.section__content--no-gutter-top) {
             margin-top: var(--gutter-xl);
         }
     }

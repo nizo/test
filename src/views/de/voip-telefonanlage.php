@@ -59,7 +59,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <p class="centered bigtext">Cloud-Telefonanlagen angepasst für Unternehmen jeder Größe - auch Ihres!</p>
 
-        <div class="small-tabs small-tabs--clear">
+        <div class="small-tabs small-tabs--clear small-tabs--automated">
             <div class="small-tabs__tabs">
                 <div class="small-tabs__tab" data-tab="1">Enterprise</div>
                 <div class="small-tabs__tab" data-tab="2">Mittelstand</div>
@@ -388,7 +388,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="" width="148" height="46" />
+								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" width="148" height="46" />
 							</div>
 							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
@@ -399,7 +399,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="" width="79" height="90" />
+								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="79" height="90" />
 							</div>
 							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
@@ -410,7 +410,7 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="" width="110" height="60" />
+								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="110" height="60" />
 							</div>
 							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
@@ -567,7 +567,7 @@ $faqs->faq_add (
 				<div class="tablist__link" data-tab="1" data-sticky-text="GastroHero">
 					<strong>Call Center Software mit VoIP-Telefonanlage</strong>
 				</div>
-				<div class="tablist__link" data-tab="2" data-sticky-text="LBS">
+				<div class="tablist__link" data-tab="2" data-sticky-text="Die LBS Immobilien GmbH NordWest">
 					<strong>Hybride <br />Teams Telefonie</strong>
 				</div>
 				<div class="tablist__link" data-tab="3" data-sticky-text="Check24 KFZ">
@@ -667,7 +667,7 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/carddeck/lbs-carddeck-black.png" width="150" height="80" style="--w:150px" alt="LBS ist zufriedener Kunde von CallOne" />
+							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="63" style="--w:150px" alt="Die LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -740,8 +740,8 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<h2>Eine App, volle Integration - Teams Telefonie für Kundenservice und Office-Telefonie</h2>
 						<p class="bigtext">
-							LBS setzt auf die Lieblings-App in Kombination mit der CallOne Lösung, um nicht nur die interne Kommunikation über Microsoft Teams abzuwickeln. 
-							<span class="readmore">Die Kombination aus Kundenservice-Callcenter-Betrieb und Office-Telefonie ist fast unschlagbar. Microsoft Teams als Integration der CallOne Rundum-sorglos-Lösung bietet genau die Funktionen, die LBS für Costumer Service und interne Kommunikation benötigt.</span>
+							Die LBS Immobilien GmbH NordWest setzt auf die Lieblings-App in Kombination mit der CallOne Lösung, um nicht nur die interne Kommunikation über Microsoft Teams abzuwickeln. 
+							<span class="readmore">Die Kombination aus Kundenservice-Callcenter-Betrieb und Office-Telefonie ist fast unschlagbar. Microsoft Teams als Integration der CallOne Rundum-sorglos-Lösung bietet genau die Funktionen, die die LBS Immobilien GmbH NordWest für Costumer Service und interne Kommunikation benötigt.</span>
 						</p>
 						<p><a href="/customer-success" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>

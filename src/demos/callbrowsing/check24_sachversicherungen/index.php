@@ -1271,23 +1271,23 @@ var CHECK24_HOST = 'www.check24.de';
                         Unter anderem umfassen die Stiftung Warentest Kriterien:
                         </p><ul>
                             <li>
-                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="">
+                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="check24">
                                 Deckungssumme mind. &nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;Mio.&nbsp;€
                             </li>
                             <li>
-                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="">
+                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="check24">
                                 Mietsachschäden mind. &nbsp;&nbsp;&nbsp;&nbsp;0,3&nbsp;Mio.&nbsp;€
                             </li>
                             <li>
-                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="">
+                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="check24">
                                 Auslandsaufenthalte in Europa &nbsp;&nbsp;&nbsp;&nbsp;mind. 36 Monate
                             </li>
                             <li>
-                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="">
+                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="check24">
                                 Schäden durch Internet- &nbsp;&nbsp;&nbsp;&nbsp;nutzung mind. 50.000&nbsp;€
                             </li>
                             <li>
-                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="">
+                                <img class="c24-icon-list--icon--small" src="Privathaftpflicht%20Vergleich%20-%20G%C3%BCnstige%20private%20Haftpflicht%20|%20CHECK24_files/C_Plus_Green.svg" alt="check24">
                                 Häusliche Abwässer mind. &nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;Mio.&nbsp;€
                             </li>
                         </ul>

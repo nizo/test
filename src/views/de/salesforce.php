@@ -30,9 +30,9 @@ $faqs->faq_add (
       <div class="media centered">
         <div class="crm-header-image">
           <a href="#" class="crm-tool-logo">
-            <img src="/assets/images/crm-logos/salesforce-app.png" alt="" />
+            <img src="/assets/images/crm-logos/salesforce-app.png" alt="Salesforce Anbindung Telefonie" />
           </a>
-          <img src="/assets/images/screens/Hero-Image-Salesforce.png" alt="" />
+          <img src="/assets/images/screens/Hero-Image-Salesforce.png" alt="Salesforce Anbindung Telefonanlage" />
         </div>
       </div>
     </header>
@@ -58,42 +58,42 @@ $faqs->faq_add (
     <div class="grid centered">
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/icon-telephone-browser.svg" alt="" />
+          <img src="/assets/images/icons_svg/icon-telephone-browser.svg" alt="Softphone mit Click to Dial" />
         </div>
         <h4>VoIP Softphone mit Click-to Dial</h4>
         <p>für Turboanwahl Ihrer Leads mit unserer Browser Extension für Chrome</p>
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/icon-phone-dialpad.svg" alt="" />
+          <img src="/assets/images/icons_svg/icon-phone-dialpad.svg" alt="Rufnummern on demand" />
         </div>
         <h4>Rufnummern on demand</h4>
         <p>CallOne schaltet, die Rufnummer die sie benötigen, gleichgültig ob aus Ihrem Vorwahlbereich oder dem Ausland</p>
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/icon-security.svg" alt="" />
+          <img src="/assets/images/icons_svg/icon-security.svg" alt="Datenschutz DSGVO konforme Telefonie" />
         </div>
         <h4>DSGVO-Konformität</h4>
         <p>Ihre Daten sind bei uns geschützt, denn unsere Server stehen in Deutschland und unsere Gespräche werden verschlüsselt</p>
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/icon-voice-quality.svg" alt="" />
+          <img src="/assets/images/icons_svg/icon-voice-quality.svg" alt="hohe Sprachqualität bei Ihrer Unternehmenstelefonie" />
         </div>
         <h4>Glasklare Gesprächsqualität</h4>
         <p>Wir verwenden ausschließlich Businessrouten und überlassen hier nix dem Zufall, denn Qualität ist für uns das Wichtigste</p>
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/icon-speed.svg" alt="" />
+          <img src="/assets/images/icons_svg/icon-speed.svg" alt="Schnelle Bereitstellung und Integration von Salesforce in Telefonie" />
         </div>
         <h4>Sofort startklar</h4>
         <p>Unsere CTI-App lässt sich nahtlos aus dem Salesforce AppExchange in Ihre Sales- oder Servicecloud integrieren.</p>
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/icon-business-telephony.svg" alt="" />
+          <img src="/assets/images/icons_svg/icon-business-telephony.svg" alt="Businesstelefonie für das ganze Unternehmen" />
         </div>
         <h4>Für das gesamte Unternehmen</h4>
         <p>CallOne liefert Business-Telefonie für das gesamte Unternehmen und unterstützt insbesondere Deine Kollegen aus dem Kundenservice</p>
@@ -104,7 +104,7 @@ $faqs->faq_add (
 
 <div class="wrapper lightgrey-2 lightgrey-2--padding no-margin-top">
   <div class="content narrow">
-    <img src="/assets/images/screens/Salesforce-Abgleich.png" alt="" />
+    <img src="/assets/images/screens/Salesforce-Abgleich.png" alt="Kundendaten mit Salesforce abgleichen" />
 
     <h2>Abgleich aller eingehenden Anrufe mit Ihren Salesforce-Kundendaten</h2>
     <p>Alle eingehenden Anrufe werden mit Ihren Salesforce-Leads, -Kontakten und – Accounts gematcht, im Account automatisch angezeigt und als Aktivität in Salesforce gespeichert.</p>
@@ -121,7 +121,7 @@ $faqs->faq_add (
     <div class="grid seperator-line centered">
       <div class="col-2 card card--transparent card--border-right">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Salesforce-CallOne-Integration.svg" alt="">
+          <img src="/assets/images/icons_svg/Salesforce-CallOne-Integration.svg" alt="Salesforce Integration bei CallOne">
         </div>
         <h3>Salesforce Integration</h3>
         <p>Erfassen Sie automatisiert alle In- und Outbound-Gespräche in Salesforce mit Zuordnung zum passenden Kundendatensatz. Zusätzlich unterstützt die App das Setzen des ACD-Agentenstatus und ein einfaches Auslösen von Anrufen per Klick.</p>
@@ -129,7 +129,7 @@ $faqs->faq_add (
       </div>
       <div class="col-2 card card--transparent card--border-left">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/softphone-branding-lit.svg" alt="">
+          <img src="/assets/images/icons_svg/softphone-branding-lit.svg" alt="CallOne Softphone für Cloud Telefonanlage">
         </div>
         <h3 class="tag-above">
           <span class="tag icon-callone">App</span>

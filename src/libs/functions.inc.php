@@ -130,9 +130,8 @@ function getLogoParade($logos, $showStars = null, $template = 'clients') {
 }
 
 function isLocalHost(){
-    if ($_SERVER['HTTP_HOST'] == '//localhost:3000' ||   $_SERVER['HTTP_HOST'] == '127.0.0.1:8000')
+    if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false)
         return true;
-    
     return false;
 }
 
