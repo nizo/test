@@ -112,7 +112,7 @@ $faqs->faq_add (
                     <img src="/assets/images/client-logos/logo-lbs-immobilien-white.svg" alt="" width="255" height="107">
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
-                    <h4>LBS Immobilien GmbH NordWest über die CallOne Lösung:</h4>
+                    <h4>Die LBS Immobilien GmbH NordWest über die CallOne Lösung:</h4>
                     <div class="quote" style="--fontSize:18px">
                         „Unsere gesamte Unternehmenstelefonie findet nun in Microsoft Teams statt. Alles ist perfekt in unsere Telefonanlage integriert: Online-Meetings, Verfügbarkeiten, Chats, Telefonie. Unsere internen und externen Anrufe führen wir per Klick in der Teams-Telefonie.“
                     </div>
