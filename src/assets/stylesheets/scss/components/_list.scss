@@ -1,6 +1,10 @@
 .list {
     --fs: inherit;
 
+    @media screen and (max-width: 768px) {
+        --fs: inherit !important;
+    }
+
     &--checkmarks, &--checkmarks-top {
         list-style: none;
         li {
