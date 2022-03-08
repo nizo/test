@@ -6,7 +6,7 @@
   
     <p>
       <strong>CallOne GmbH</strong><br />
-      Charlottenstr. 107 <br />
+      Posthofstr. 5 <br />
       14467 Potsdam
     </p>
 
