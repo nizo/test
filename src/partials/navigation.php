@@ -194,7 +194,7 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>
-                                                i2x
+                                                i2x Sprachanalyse
                                                 <span class="submenu__link-tag">NEU</span>
                                             </strong>
                                             <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
