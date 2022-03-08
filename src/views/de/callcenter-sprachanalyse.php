@@ -22,10 +22,10 @@
 
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <img src="/assets/images/illus/i2x-client.png" alt="" width="570" height="570" />
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
                     <li>Schlagwörter (so genannte Sagen & Nicht Sagen <span class="tooltip tooltip--dark"><span>Sagen sind Wörter und Phrasen, die im aktuellen Gespräch positiv bewertet sind. Nicht Sagen sind Wörter und Phrasen, die vom Agenten vermieden werden sollten.</span></span>) werden in Echtzeit übermittelt</li>
                     <li>Echtzeitanalyse zu Tonalität und Satzlänge wird ausgespielt</li>
@@ -44,14 +44,14 @@
 
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
                 <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
                     <li>Optimale Gesprächsführung durch Echtzeitcoaching im i2x Client</li>
                     <li>Flexible Gesprächsleitfäden für höhere Abschlussquoten</li>
                     <li>Hohe Transparenz und Planbarkeit Dank umfangreicher Statistiken</li>
                 </ul>
             </div>
-            <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <img src="/assets/images/illus/i2x-results.png" alt="" width="570" height="570" />
             </div>
         </div>
@@ -94,10 +94,10 @@
 
             <div class="tablist__content" data-tab="1">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                         <img src="/assets/images/illus/i2x-agenten.png" alt="" width="470" height="470" />
                     </div>
-                    <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <p class="bigtext">Kürzere Fallbearbeitungszeiten bei höherer Kundenzufriedenheit und Abschlussquote.</p>
 
                         <br />
@@ -113,10 +113,10 @@
 
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                         <img src="/assets/images/illus/i2x-manager.png" alt="" width="470" height="470" />
                     </div>
-                    <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <p class="bigtext">Umfangreicher Überblick für datenbasierte Entscheidungen und Erhöhung Ihres ROI.</p>
 
                         <br />
@@ -132,10 +132,10 @@
 
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                         <img src="/assets/images/illus/i2x-callcenter-leiter.png" alt="" width="470" height="470" />
                     </div>
-                    <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <p class="bigtext">Die Entwicklung der Mitarbeiter effektiver beeinflussen sowie Performance steuern und objektiv bewerten.</p>
 
                         <br />

@@ -190,7 +190,7 @@ $jobsCount = count($jobs->jobs_get());
 
                                     <a href="/callcenter-sprachanalyse" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                            <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>
