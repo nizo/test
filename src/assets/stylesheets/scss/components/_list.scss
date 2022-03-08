@@ -1,12 +1,17 @@
 .list {
+    --fs: inherit;
+
     &--checkmarks, &--checkmarks-top {
         list-style: none;
         li {
             position: relative;
             padding-left: 2em;
+            font-size: var(--fs);
+
             &+li {
                 margin-top: 15px;
             }
+            
             &:before {
                 content: "";
                 position: absolute;
