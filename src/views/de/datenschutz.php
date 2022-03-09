@@ -1,5 +1,5 @@
-<div class="wrapper">
-  <div class="content narrow">
+<div class="section">
+  <div class="section__content section__content--narrow">
     <h1>Datenschutzhinweise<br/>der CallOne GmbH</h1>
     <h2>Stand 18.08.2021</h2>
 
@@ -42,7 +42,7 @@
       </ul>
     </p>
     <p>
-      Sie können Ihre Browser-Einstellung entsprechend Ihren Wünschen konfigurieren und z. B. die Annahme von Third-Party-Cookies oder allen Cookies ablehnen. Informationen über die Verwaltung und Löschung von Cookies sowie eine entsprechende Anleitung hierzu für die gängigen Browser sind zudem unter <a href="http://www.meine-cookies.org">www.meine-cookies.org</a> abrufbar. Wir weisen Sie jedoch darauf hin, dass Sie dann eventuell nicht alle Funktionen dieser Website nutzen können.
+      Sie können Ihre Browser-Einstellung entsprechend Ihren Wünschen konfigurieren und z. B. die Annahme von Third-Party-Cookies oder allen Cookies ablehnen. Informationen über die Verwaltung und Löschung von Cookies sowie eine entsprechende Anleitung hierzu für die gängigen Browser sind zudem unter <a href="http://www.meine-cookies.org" class="inline-link">www.meine-cookies.org</a> abrufbar. Wir weisen Sie jedoch darauf hin, dass Sie dann eventuell nicht alle Funktionen dieser Website nutzen können.
     </p>
     <p>
       3) Diese gespeicherten Informationen werden getrennt von eventuell weiter bei uns angegeben Daten gespeichert. Insbesondere werden die Daten der Cookies nicht mit Ihren weiteren Daten, sofern solche übermittelt werden, verknüpft.
@@ -92,13 +92,13 @@
     </p>
     <p>
       (4) Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plug-in herunterladen und installieren:
-      <a href="http://tools.google.com/dlpage/gaoptout?hl=de">tools.google.com/dlpage/gaoptout</a>.
+      <a href="http://tools.google.com/dlpage/gaoptout?hl=de" class="inline-link">tools.google.com/dlpage/gaoptout</a>.
     </p>
     <p>
       (5) Diese Website verwendet Google Analytics mit der Erweiterung „_anonymizeIp()“. Dadurch werden IP-Adressen gekürzt weiterverarbeitet, eine direkte Personenbeziehbarkeit kann damit ausgeschlossen werden.
     </p>
     <p>
-      (6) Die Nutzung von Google Analytics erfolgt in Übereinstimmung mit den Voraussetzungen, auf die sich die deutschen Datenschutzbehörden mit Google verständigten. Informationen des Drittanbieters: Google Dublin, Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland, Fax: +353 (1) 436 1001. Nutzerbedingungen: <a href="http://www.google.com/analytics/terms/de.html">www.google.com/analytics/terms/de.html</a>, Übersicht zum Datenschutz: <a href="http://www.google.com/intl/de/analytics/learn/privacy.html">www.google.com/intl/de/analytics/learn/privacy.html</a>, sowie die Datenschutzerklärung: <a href="http://www.google.de/intl/de/policies/privacy">www.google.de/intl/de/policies/privacy</a>.
+      (6) Die Nutzung von Google Analytics erfolgt in Übereinstimmung mit den Voraussetzungen, auf die sich die deutschen Datenschutzbehörden mit Google verständigten. Informationen des Drittanbieters: Google Dublin, Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland, Fax: +353 (1) 436 1001. Nutzerbedingungen: <a href="http://www.google.com/analytics/terms/de.html" class="inline-link">www.google.com/analytics/terms/de.html</a>, Übersicht zum Datenschutz: <a href="http://www.google.com/intl/de/analytics/learn/privacy.html" class="inline-link">www.google.com/intl/de/analytics/learn/privacy.html</a>, sowie die Datenschutzerklärung: <a href="http://www.google.de/intl/de/policies/privacy" class="inline-link">www.google.de/intl/de/policies/privacy</a>.
     </p>
 
     <h2>6. Mouseflow</h2>
@@ -124,7 +124,7 @@
     </p>
     <p>
       <strong class="headline">(6) Widerruf der Einwilligung</strong> <br>
-      Wenn Sie eine Aufzeichnung nicht wünschen, können Sie eine Aufzeichnung auf allen Webseiten, die Mouseflow einsetzen, global für Ihren gerade verwendeten Browser unter folgendem Link deaktivieren: <a class="openModal trackedElement" data-label="Cookie-Einstellungen Datenschutzseite" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner" title="Mouseflow-/Marketing-Einstellungen ändern">Cookie-Einstellungen</a>.<br>
+      Wenn Sie eine Aufzeichnung nicht wünschen, können Sie eine Aufzeichnung auf allen Webseiten, die Mouseflow einsetzen, global für Ihren gerade verwendeten Browser unter folgendem Link deaktivieren: <a class="openModal trackedElement inline-link" data-label="Cookie-Einstellungen Datenschutzseite" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner" title="Mouseflow-/Marketing-Einstellungen ändern">Cookie-Einstellungen</a>.<br>
       Dabei wird ein Modal geöffnet. Dort können Sie unter individuelle Einstellungen den Bereich Marketing deaktivieren. Dabei wird ein Opt-out-Cookie(cookiebanner-accepted) auf Ihrem Gerät installiert. Damit wird die Erfassung durch Mouseflow für diese Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.
     </p>
     <p>
@@ -158,7 +158,7 @@
     </p>
     <p>
       (5) Adressen der jeweiligen Anbieter und URL mit deren Datenschutzhinweisen:<br/>
-      Google Inc., 1600 Amphitheater Parkway, Mountainview, California 94043, USA; <a href="https://www.google.com/policies/privacy/partners/?hl=de">www.google.com/policies/privacy/partners/</a>.
+      Google Inc., 1600 Amphitheater Parkway, Mountainview, California 94043, USA; <a href="https://www.google.com/policies/privacy/partners/?hl=de" class="inline-link">www.google.com/policies/privacy/partners/</a>.
     </p>
 
     <h2>9. Unterauftragnehmer und Empfänger personenbezogener Daten</h2>
@@ -227,7 +227,7 @@
     </p>
     <p><b>C. Ausübung des Widerspruchsrechts</b></p>
     <p>
-      Das Widerspruchsrecht kann formlos ausgeübt werden, etwa per Post an CallOne GmbH, Dorfstraße 60, 15806 Zossen oder per E-Mail an <script id="mail_to-q11z0dcu">eval(decodeURIComponent('%76%61%72%20%73%63%72%69%70%74%20%3d%20%64%6f%63%75%6d%65%6e%74%2e%67%65%74%45%6c%65%6d%65%6e%74%42%79%49%64%28%27%6d%61%69%6c%5f%74%6f%2d%71%31%31%7a%30%64%63%75%27%29%3b%76%61%72%20%61%20%3d%20%64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%45%6c%65%6d%65%6e%74%28%27%61%27%29%3b%61%2e%73%65%74%41%74%74%72%69%62%75%74%65%28%27%68%72%65%66%27%2c%20%27%6d%61%69%6c%74%6f%3a%6b%6f%6e%74%61%6b%74%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%29%3b%61%2e%61%70%70%65%6e%64%43%68%69%6c%64%28%64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%54%65%78%74%4e%6f%64%65%28%27%6b%6f%6e%74%61%6b%74%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%29%29%3b%73%63%72%69%70%74%2e%70%61%72%65%6e%74%4e%6f%64%65%2e%69%6e%73%65%72%74%42%65%66%6f%72%65%28%61%2c%73%63%72%69%70%74%29%3b'))</script>.
+      Das Widerspruchsrecht kann formlos ausgeübt werden, etwa per Post an CallOne GmbH, Dorfstraße 60, 15806 Zossen oder per E-Mail an <a href="mailto:kontakt@callone.de" class="inline-link">kontakt@callone.de</a>.
     </p>
 
 
@@ -239,7 +239,7 @@
       CallOne GmbH<br/>
       Dorfstraße 60<br/>
       15806 Zossen<br/>
-      E-Mail: <script id="mail_to-lgqv9hfv">eval(decodeURIComponent('%76%61%72%20%73%63%72%69%70%74%20%3d%20%64%6f%63%75%6d%65%6e%74%2e%67%65%74%45%6c%65%6d%65%6e%74%42%79%49%64%28%27%6d%61%69%6c%5f%74%6f%2d%6c%67%71%76%39%68%66%76%27%29%3b%76%61%72%20%61%20%3d%20%64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%45%6c%65%6d%65%6e%74%28%27%61%27%29%3b%61%2e%73%65%74%41%74%74%72%69%62%75%74%65%28%27%68%72%65%66%27%2c%20%27%6d%61%69%6c%74%6f%3a%6b%6f%6e%74%61%6b%74%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%29%3b%61%2e%61%70%70%65%6e%64%43%68%69%6c%64%28%64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%54%65%78%74%4e%6f%64%65%28%27%6b%6f%6e%74%61%6b%74%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%29%29%3b%73%63%72%69%70%74%2e%70%61%72%65%6e%74%4e%6f%64%65%2e%69%6e%73%65%72%74%42%65%66%6f%72%65%28%61%2c%73%63%72%69%70%74%29%3b'))</script>
+      E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link">kontakt@callone.de</a>
     </p>
     <p>
       Alle Auskunfts-, Berichtigungs- und Löschungsersuchen, Widersprüche oder Widerrufe einer Einwilligung, die Geltendmachung des Rechts auf Einschränkung der Verarbeitung oder des Rechts auf Datenübertragbarkeit sowie Kommentare oder Fragen des Nutzers in Bezug auf Datenschutz sind an diese Adresse zu richten.
@@ -247,7 +247,7 @@
 
     <h2>17. Datenschutzbeauftragter</h2>
     <p>
-      Unser Datenschutzbeauftragter ist Rechtsanwalt Stephan Schmidt. Sie erreichen ihn unter <script id="mail_to-cc0efhtu">eval(decodeURIComponent('%76%61%72%20%73%63%72%69%70%74%20%3d%20%64%6f%63%75%6d%65%6e%74%2e%67%65%74%45%6c%65%6d%65%6e%74%42%79%49%64%28%27%6d%61%69%6c%5f%74%6f%2d%63%63%30%65%66%68%74%75%27%29%3b%76%61%72%20%61%20%3d%20%64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%45%6c%65%6d%65%6e%74%28%27%61%27%29%3b%61%2e%73%65%74%41%74%74%72%69%62%75%74%65%28%27%68%72%65%66%27%2c%20%27%6d%61%69%6c%74%6f%3a%64%61%74%65%6e%73%63%68%75%74%7a%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%29%3b%61%2e%61%70%70%65%6e%64%43%68%69%6c%64%28%64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%54%65%78%74%4e%6f%64%65%28%27%64%61%74%65%6e%73%63%68%75%74%7a%40%63%61%6c%6c%6f%6e%65%2e%64%65%27%29%29%3b%73%63%72%69%70%74%2e%70%61%72%65%6e%74%4e%6f%64%65%2e%69%6e%73%65%72%74%42%65%66%6f%72%65%28%61%2c%73%63%72%69%70%74%29%3b'))</script> oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.
+      Unser Datenschutzbeauftragter ist Rechtsanwalt Stephan Schmidt. Sie erreichen ihn unter <a href="mailto:datenschutz@callone.de" class="inline-link">datenschutz@callone.de</a> oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.
     </p>
 
     <h2>18. Datenschutzaufsichtsbehörde und Beschwerderecht</h2>
@@ -260,9 +260,9 @@
       14532 Kleinmachnow
     </p>
     <p>
-      Telefon: <a href="tel:+49332033560">+49 (0) 33203 356 - 0</a><br/>
-      Telefax: <a href="tel:+493320335649">+49 (0) 33203 356 - 49</a><br/>
-      E-Mail: <a href="mailto: Poststelle@LDA.Brandenburg.de">Poststelle@LDA.Brandenburg.de</a>
+      Telefon: <a href="tel:+49332033560" class="inline-link">+49 (0) 33203 356 - 0</a><br/>
+      Telefax: <a href="tel:+493320335649" class="inline-link">+49 (0) 33203 356 - 49</a><br/>
+      E-Mail: <a href="mailto: Poststelle@LDA.Brandenburg.de" class="inline-link">Poststelle@LDA.Brandenburg.de</a>
     </p>
 
     <h2>19. Aktualisierung dieser Datenschutzhinweise</h2>

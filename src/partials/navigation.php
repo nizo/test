@@ -187,16 +187,6 @@ $jobsCount = count($jobs->jobs_get());
                                             <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
-
-                                    <!-- <a href="#todo" class="submenu__link">
-                                        <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>Virtueller Assistent</strong>
-                                            <p>Managen Sie Ihr Telefonaufkommen mit einem Serviceboard</p>
-                                        </div>
-                                    </a> -->
                                 </div>
                             </div>
                         </div>

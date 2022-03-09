@@ -1,5 +1,5 @@
-<div class="wrapper">
-  <div class="content wide">
+<div class="section">
+  <div class="section__content section__content--wide">
     <header class="main-header">
       <div class="text no-padding">
         <h1>CallOne Zendesk Integration</h1>
@@ -85,11 +85,11 @@
   </div>
 </div>
 
-<div class="wrapper breather">
-  <div class="content wide centered">
-  	<h2 class="white">Probieren Sie es einfach, kostenlos und unverbindlich aus</h2>
-	<div class="button-set centered">
-		<a href="#" class="button primary" data-openmodal="contact-sales">Jetzt testen</a>
-	</div>    
+<div class="section section--black">
+  <div class="section__content section__content--wide centered">
+  	<h2>Probieren Sie es einfach, kostenlos und unverbindlich aus</h2>
+    <div class="button-set centered">
+      <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Jetzt testen</a>
+    </div>    
   </div>
 </div>
