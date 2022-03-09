@@ -38,6 +38,14 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .paper {
+        .paper__row {
+            background: none !important;
+        }
+    }
+}
+
 @media screen and (max-width: 1170px) {
     .paper:not(.paper--gradient) {
         .paper__row {
