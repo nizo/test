@@ -23,8 +23,8 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .quote {
-        --fontSize: var(var(--fontSize) / 1.5);
+        --fontSize: 18px !important;
     }
 }
