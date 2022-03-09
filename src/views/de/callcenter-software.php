@@ -1136,7 +1136,9 @@ $faqs->faq_add (
 			</div>
 		</div>
 	</div>
+</div>
 	
+<div class="section section--black section--no-padding-top">
 	<div class="section__content section__content--wide">
 		<div class="cta-contact">
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>

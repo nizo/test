@@ -81,13 +81,13 @@
     <div class="section__content section__content--wide">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" data-tab="1" style="--bg:linear-gradient(#3B81FB33, transparent);--stickyBg:linear-gradient(transparent, #3B81FB33);">
+                <div class="tablist__link" data-tab="1" style="--bg:linear-gradient(#3B81FB33, #3B81FB00);--stickyBg:linear-gradient(#3B81FB00, #3B81FB33);">
                     <strong>Agenten</strong>
                 </div>
-                <div class="tablist__link" data-tab="2" style="--bg:linear-gradient(#3B81FB33, transparent);--stickyBg:linear-gradient(transparent, #3B81FB33);">
+                <div class="tablist__link" data-tab="2" style="--bg:linear-gradient(#3B81FB33, #3B81FB00);--stickyBg:linear-gradient(#3B81FB00, #3B81FB33);">
                     <strong>Manager</strong>
                 </div>
-                <div class="tablist__link" data-tab="3" style="--bg:linear-gradient(#3B81FB33, transparent);--stickyBg:linear-gradient(transparent, #3B81FB33);">
+                <div class="tablist__link" data-tab="3" style="--bg:linear-gradient(#3B81FB33, #3B81FB00);--stickyBg:linear-gradient(#3B81FB00, #3B81FB33);">
                     <strong>Callcenter-Leiter</strong>
                 </div>
             </div>
