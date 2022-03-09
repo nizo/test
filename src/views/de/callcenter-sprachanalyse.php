@@ -44,14 +44,14 @@
 
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-sm co-grid__col--vcentered">
                 <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
                     <li>Optimale Gesprächsführung durch Echtzeitcoaching im i2x Client</li>
                     <li>Flexible Gesprächsleitfäden für höhere Abschlussquoten</li>
                     <li>Hohe Transparenz und Planbarkeit Dank umfangreicher Statistiken</li>
                 </ul>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-sm co-grid__col--vcentered">
                 <img src="/assets/images/illus/i2x-results.png" alt="Kundenservice optimieren mit Sprachanalyse und Coaching in Kundenservice Software" width="570" height="570" />
             </div>
         </div>
@@ -158,7 +158,7 @@
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
 			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
 
-			<div class="co-grid mobile-centered">
+			<div class="co-grid tablet-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
 					<h4>

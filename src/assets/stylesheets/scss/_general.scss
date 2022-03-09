@@ -756,6 +756,12 @@ img {
 	}
 }
 
+@media screen and (max-width: 960px) {
+	.tablet-centered {
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	.mobile-hidden{
 		display: none !important;
