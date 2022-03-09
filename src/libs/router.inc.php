@@ -187,8 +187,12 @@ Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'sitemap_priority' => '0.9'
 ]);
 Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
-    'title' => 'i2x Callcenter Sprachanalyse',
-    'menu_position' => 'produkte'
+    'title' => 'Callcenter Software mit Analyse und Coaching in Sales & Kundenservice',
+    'meta_description' => 'Verbessern Sie Ihren Sales & Service mit dem i2x Client. Sprachanalyse und Coaching in Echtzeit als Integration in der CallOne Callcenter Software.',
+    'meta_keywords' => 'callcenter software, kundenservice software, analyse, sprachanalyse, telefonie, integration, kundenservice coaching',
+    'og_image_text' => 'Echtzeitsprachanalyse für besseren Sales und Service',
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.9'
 ]);
 Router::add('/softphone', 'softphone.php', [
     'title' => 'VoIP Telefon im Browser integriert | CallOne Softphone',

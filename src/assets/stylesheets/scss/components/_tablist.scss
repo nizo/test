@@ -5,6 +5,7 @@
 .tablist {
     position: relative;
     height: auto;
+    transition: min-height 5s ease;
 
     &__links {
         position: relative;
