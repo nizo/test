@@ -86,7 +86,6 @@
     <?php endif;*/ ?>
 
     <?php
-    require_once('./partials/banderole.php');
     require_once('./partials/navigation.php');
 
     require_once(DIRECTORY_VIEWS.$page->view);

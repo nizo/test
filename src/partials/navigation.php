@@ -14,6 +14,9 @@ $jobsCount = count($jobs->jobs_get());
  * loesungen, produkte, callone
  * Has to be set in libs/router.inc.php
  */
+
+ // Banderole
+require_once('banderole.php');
 ?>
 
 <nav class="navigation">
