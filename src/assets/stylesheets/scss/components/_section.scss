@@ -1,12 +1,9 @@
 .section {
     --color-text: #000;
     width: 100%;
-    padding: 60px 25px;
+    padding: 30px 25px;
     
     // Modifiers
-    &--same-padding {
-        padding: 60px 25px;
-    }
     &--no-padding-top {
         padding-top: 0 !important;
     }

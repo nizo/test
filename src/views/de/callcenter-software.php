@@ -50,7 +50,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--white-grey-white section--same-padding">
+<div class="section section--white-grey-white">
 	<div class="anchors">
 		<div class="anchors__title">
 			<strong>Schnelleinstieg:</strong> Was interessiert dich?
@@ -63,82 +63,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--no-padding-top">
-	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
-		<p class="centered mobile-left">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
-	</div>
-
-	<div class="section__content section__content--wide">
-		<div class="tablist">
-			<div class="tablist__links">
-				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
-					<strong>
-						Fullservice<br />
-						<span class="subtext">CallOne liefert Ihnen das <br />
-						Komplettpaket für Ihr Unternehmen</span>
-					</strong>
-				</div>
-				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
-					<strong>
-						Integriert<br />
-						<span class="subtext">CallOne Callcenter Software verbunden <br />
-						mit Ihrer eigener Telefonanlage</span>
-					</strong>
-				</div>
-			</div>
-			
-			<div class="tablist__content tablist__content--active" data-tab="1">
-				<div class="co-grid co-grid--no-margin-top">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
-						<h2>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen</h2>
-						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
-						<div class="carddeck carddeck--right" data-speed="2500" style="max-width:430px;margin-left:auto;margin-right:auto;">
-							<div class="carddeck__card">
-								<h5><span class="icon-schnittstellen" style="font-size:28px;"></span>Schnittstellen</h5>
-								<br />
-								<p class="subtext">Apps und API's für die Anbindung an Ihre BI, für Ticketing und CRM.</p>
-							</div>
-							<div class="carddeck__card">
-								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
-								<br />
-								<p class="subtext">Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich.</p>
-							</div>
-							<div class="carddeck__card">
-								<h5><span class="icon-voip-telefonanlage" style="font-size:28px;"></span>VoIP-Telefonanlage</h5>
-								<br />
-								<p class="subtext">Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit.</p>
-							</div>
-							<div class="carddeck__card">
-								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
-								<br />
-								<p class="subtext">Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="tablist__content" data-tab="2">
-				<div class="co-grid co-grid--no-margin-top">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
-						<h2>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
-						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="section section--grey-white" id="features">
+<div class="section" id="features">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
 		<p class="centered mobile-left">Das Rundum-Paket angepasst auf Ihre individuellen Bedürfnisse</p>
@@ -373,6 +298,98 @@ $faqs->faq_add (
 		<p>
 			<a href="/callcenter-software-funktionen" class="btn btn--border-black btn--centered btn--arrow-right">Weitere Funktionen</a>
 		</p>
+	</div>
+</div>
+
+<div class="section section--light-grey">
+	<div class="section__content section__content--narrow">
+		<h1 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
+		<p class="centered mobile-left">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+	</div>
+
+	<div class="section__content section__content--wide">
+		<div class="tablist">
+			<div class="tablist__links">
+				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
+					<strong>
+						Fullservice<br />
+						<span class="subtext">CallOne liefert Ihnen das <br />
+						Komplettpaket für Ihr Unternehmen</span>
+					</strong>
+				</div>
+				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
+					<strong>
+						Integriert<br />
+						<span class="subtext">CallOne Callcenter Software verbunden <br />
+						mit Ihrer eigener Telefonanlage</span>
+					</strong>
+				</div>
+			</div>
+			
+			<div class="tablist__content tablist__content--active" data-tab="1">
+				<div class="co-grid co-grid--no-margin-top">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
+						<h3>Callcenter Software und Telefonielösungen für Ihr gesamtes Unternehmen</h3>
+						<p class="bigtext">Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
+						<div class="carddeck carddeck--right" data-speed="2500" style="max-width:430px;margin-left:auto;margin-right:auto;">
+							<div class="carddeck__card">
+								<h5><span class="icon-schnittstellen" style="font-size:28px;"></span>Schnittstellen</h5>
+								<br />
+								<p class="subtext">
+									Apps und API's für die Anbindung an Ihre BI, für Ticketing und CRM.<br />
+									<br />
+									<a href="/callcenter-software-integrationen" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+							<div class="carddeck__card">
+								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
+								<br />
+								<p class="subtext">
+									Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich.<br />
+									<br />
+									<a href="/0800-lokal-nummern" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+							<div class="carddeck__card">
+								<h5><span class="icon-voip-telefonanlage" style="font-size:28px;"></span>VoIP-Telefonanlage</h5>
+								<br />
+								<p class="subtext">
+									Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit.<br />
+									<br />
+									<a href="/voip-telefonanlage" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+							<div class="carddeck__card">
+								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
+								<br />
+								<p class="subtext">
+									Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.<!-- <br />
+									<br />
+									<a href="/ms-teams" class="inline-link">Mehr erfahren &rarr;</a> -->
+									<!-- TODO: Add link MS Teams -->
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tablist__content" data-tab="2">
+				<div class="co-grid co-grid--no-margin-top">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
+						<h3>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h3>
+						<p class="bigtext">Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
