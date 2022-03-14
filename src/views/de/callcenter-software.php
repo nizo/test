@@ -92,7 +92,7 @@ $faqs->faq_add (
 				<div class="co-grid co-grid--no-margin-top">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
-						<p>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen
+						<h2>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen</h2>
 						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
