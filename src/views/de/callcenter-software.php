@@ -50,7 +50,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--white-grey-white">
+<div class="section">
 	<div class="anchors">
 		<div class="anchors__title">
 			<strong>Schnelleinstieg:</strong> Was interessiert dich?
@@ -63,7 +63,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section" id="features">
+<div class="section section--purple-white" id="features">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
 		<p class="centered mobile-left">Das Rundum-Paket angepasst auf Ihre individuellen Bedürfnisse</p>
@@ -72,16 +72,16 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(219, 0, 197, 0.2));" data-sticky-text="Erreichbarkeit">
+				<div class="tablist__link tablist__link--smaller tablist__link--active color-tab" data-color="purple" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(219, 0, 197, 0.2));" data-sticky-text="Erreichbarkeit">
 					<strong>Beste Erreichbarkeit</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="2" style="--bg: linear-gradient(rgba(255, 123, 27, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 123, 27, 0.2));" data-sticky-text="Effizienz">
+				<div class="tablist__link tablist__link--smaller color-tab" data-color="orange" data-tab="2" style="--bg: linear-gradient(rgba(255, 123, 27, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 123, 27, 0.2));" data-sticky-text="Effizienz">
 					<strong>Mehr Effizienz</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="3" style="--bg: linear-gradient(rgba(255, 0, 46, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 0, 46, 0.2));" data-sticky-text="Bearbeitung">
+				<div class="tablist__link tablist__link--smaller color-tab" data-color="red" data-tab="3" style="--bg: linear-gradient(rgba(255, 0, 46, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 0, 46, 0.2));" data-sticky-text="Bearbeitung">
 					<strong>Schnellere Bearbeitung</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="4" style="--bg: linear-gradient(rgba(0, 136, 234, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(0, 136, 234, 0.2));" data-sticky-text="Transparenz">
+				<div class="tablist__link tablist__link--smaller color-tab" data-color="blue" data-tab="4" style="--bg: linear-gradient(rgba(0, 136, 234, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(0, 136, 234, 0.2));" data-sticky-text="Transparenz">
 					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
@@ -93,25 +93,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
 								</div>
 								bessere <br />Erreichbarkeit*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
 								</div>
 								Verkürzung <br />der Wartezeit*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								geringere <br />Abbruchquote*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
 								</div>
@@ -143,25 +143,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
 								</div>
 								weniger Gesprächszeit für Ihre Agent*innen*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="94">94%</span>
 								</div>
 								Kundenzufriedenheit dank schnellerer Fallbearbeitung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
@@ -193,25 +193,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								weniger Kosten pro Kontakt durch gesteigerte FCR*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
 								</div>
 								kürzere Gespräche (AHT) durch Vorqualifizierung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
 								</div>
 								Erkennung des Anruferanliegens*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 								</div>
@@ -243,25 +243,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								mehr Effizienz in der Personalplanung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 								</div>
 								schnellere Reaktion dank Echtzeit-Benachrichtigung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span>
 								</div>
 								Zeitersparnis täglich mittels Autoreporting*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span>
 								</div>
@@ -301,7 +301,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--light-grey">
+<div class="section section--grey-white">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
 		<p class="centered mobile-left">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
@@ -1199,3 +1199,14 @@ $faqs->faq_add (
 		?>
 	</div>
 </div>
+
+<script>
+	let colorTabsSection = document.querySelector('#features');
+	let colorTabs = document.querySelectorAll('.color-tab');
+	colorTabs.forEach(colorTab => {
+		colorTab.addEventListener('click', e => {
+			colorTabsSection.classList.remove('section--purple-white', 'section--orange-white', 'section--red-white', 'section--blue-white');
+			colorTabsSection.classList.add('section--' + colorTab.getAttribute('data-color') + '-white');
+		});
+	});
+</script>
