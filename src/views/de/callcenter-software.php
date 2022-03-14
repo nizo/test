@@ -66,7 +66,6 @@ $faqs->faq_add (
 <div class="section section--purple-white" id="features">
 	<div class="section__content section__content--narrow">
 		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
-		<p class="centered mobile-left">Das Rundum-Paket angepasst auf Ihre individuellen Bedürfnisse</p>
 	</div>
 
 	<div class="section__content section__content--wide section__content--border-bottom">
