@@ -58,25 +58,6 @@
     </div>
 </div>
 
-<div class="section" style="background:linear-gradient(#fff 50%, #f0f0f0 50%);">
-    <div class="section__content section__content--wide">
-        <div class="breather-box" style="--c-bg:#D8E6FE;--c-text:#000;">
-            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--vcentered">
-                    <img src="/assets/images/client-logos/logo-check24-black.svg" alt="Check24 ist Kunde bei CallOne" width="255" height="61" />
-                </div>
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
-                    <h4>Check24 Kredite:</h4>
-                    <!-- TODO: Add quote -->
-                    <div class="quote" style="--fontSize:24px">
-                        „Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dolore nostrum ut nobis ipsa? Possimus cum illum explicabo porro distinctio tenetur eveniet. Adipisci aspernatur earum iusto, odit nisi quia perspiciatis.“
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="section section--grey-white">
     <div class="section__content section__content--wide">
         <div class="tablist">
