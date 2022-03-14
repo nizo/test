@@ -5,7 +5,7 @@ $banderole_link = 'https://next.edudip.com/de/webinar/insides-vom-marktfuhrer-sa
 if ($show_until > time()) {
     ?>
     <div class="banderole">
-        <div class="banderole__text">Booster für Ihren Kundenservice. Kostenfreies Webinar.</div><a href="<?= $banderole_link; ?>" target="_blank" rel="nofollow" id="banderole-cta" class="trackedElement" data-label="Banderole CTA" data-action="Banderole CTA Clicked" data-category="Banderole">JETZT TEILNEHMEN</a>
+        <div class="banderole__text">Echtzeit-Sprachanalyse am Telefon. Kostenfreies Webinar.</div><a href="<?= $banderole_link; ?>" target="_blank" rel="nofollow" id="banderole-cta" class="trackedElement" data-label="Banderole CTA" data-action="Banderole CTA Clicked" data-category="Banderole">JETZT TEILNEHMEN</a>
     </div>
 
     <div class="banderole-spacer"></div>
