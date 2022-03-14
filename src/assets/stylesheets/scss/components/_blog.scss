@@ -1,0 +1,148 @@
+.entry {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+    &__image {
+        display: block;
+        margin-bottom: 1rem;
+
+        img {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+            aspect-ratio: 16/9;
+            border-radius: 10px;
+        }
+    }
+
+    &__image--teaser {
+        img {
+            aspect-ratio: unset;
+        }
+    }
+
+    &__title {
+        a {
+            color: #000;
+            border-bottom: 2px solid #86ed18;
+        }
+    }
+
+    &__content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        > * {
+            margin-bottom: 1rem;
+
+            &:last-child {
+                margin-bottom: 0;
+                margin-top: auto;
+            }
+        }
+    }
+
+    &__copy {
+        * {
+            font-size: 20px;
+        }
+
+        > * + * {
+            margin-top: 1em;
+        }
+
+        ul, ol {
+            margin-left: 1em;
+        }
+
+        a {
+            font-family: 'PxGroteskBold', sans-serif;
+            color: #000;
+            border-bottom: 2px solid #86ed18;
+
+            &:hover {
+                color: #86ed18;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+#toc_container {
+	display: block;
+	width: 100%;
+	margin: 30px auto;
+
+    .toc_title {
+        font-family: $font-headline;
+        font-size: 20px;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+#post-navigation {
+    margin-top: var(--gutter-xl);
+    display: flex;
+    justify-content: center;
+    
+    .post-navigation-inside {
+        display: flex;
+        justify-content: center;
+
+        * + * {
+            margin-left: var(--gutter-xs);
+        }
+    }
+
+    a, .current, .dots {
+        @extend .btn;
+    }
+
+    .current, .dots {
+        @extend .btn--border-black;
+        cursor: default !important;
+        pointer-events: none;
+    }
+    
+    a {
+        @extend .btn--secondary;
+    }
+}
+
+#footer {
+    a:not(.btn) {
+        color: rgba(#fff, 0.5);
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    #footer-inside {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 25px 0 25px;
+
+        .widget {
+            width: calc(33% - 25px);
+
+            h3 {
+                font-family: "Px Grotesk",sans-serif;
+                font-size: 24px;
+                margin-bottom: 0.5em;
+            }
+        }
+    }
+}
