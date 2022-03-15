@@ -25,7 +25,10 @@
     &__title {
         a {
             color: #000;
-            border-bottom: 2px solid #86ed18;
+
+            &:hover {
+                color: $color-primary;
+            }
         }
     }
 
@@ -58,7 +61,7 @@
         }
 
         a {
-            font-family: 'PxGroteskBold', sans-serif;
+            font-family: $font-headline;
             color: #000;
             border-bottom: 2px solid #86ed18;
 
@@ -70,15 +73,69 @@
     }
 }
 
-
 #toc_container {
+    position: sticky;
 	display: block;
+    top: var(--navigationHeightScrolled);
+    background-color: #fff;
+    z-index: 99;
 	width: 100%;
 	margin: 30px auto;
+    box-shadow: 0 4px 18px rgba(#000, .25);
+    border-radius: 10px;
+    padding: var(--gutter-xs) var(--gutter-s);
 
     .toc_title {
         font-family: $font-headline;
         font-size: 20px;
+        line-height: 1;
+        
+        cursor: pointer;
+
+        &:after {
+            content: "↓";
+            margin-left: var(--gutter-xs);
+        }
+    }
+    
+    .toc_list {
+        display: none;
+        margin-top: var(--gutter-s);
+        max-height: calc(100vh - (var(--navigationHeightScrolled) * 2) - 48px);
+        overflow-y: auto;
+
+        --scrollbarBG: transparent;
+        --thumbBG: #86ed18;
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        &::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG) ;
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
+        }
+    }
+
+    &.toc_container--stuck {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    &.toc_container--open {
+        .toc_title {
+            &:after {
+                content: "↑";
+            }
+        }
+
+        .toc_list {
+            display: block;
+        }
     }
 
     a:hover {

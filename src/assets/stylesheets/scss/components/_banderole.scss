@@ -74,8 +74,12 @@
     &~.navigation--scrolled~.navigation__shadow {
         top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
     }
-    &~* .tablist__links--sticky {
+    &~* .tablist__links--sticky, &~* #toc_container {
         top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+
+        .toc_list {
+            max-height: calc(100vh - ((var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled)) * 2) - 48px);
+        }
     }
 }
 

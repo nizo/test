@@ -58,7 +58,7 @@
     {
         "@context" : "http://schema.org",
         "@type" : "Organization",
-        "name" : "CallOne",
+        "name" : "Callone - Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern",
         "url" : "https://www.callone.de",
         "sameAs" : [
             "https://de.linkedin.com/company/callone-gmbh",
