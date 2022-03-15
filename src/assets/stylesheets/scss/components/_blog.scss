@@ -93,8 +93,16 @@
         cursor: pointer;
 
         &:after {
-            content: "↓";
-            margin-left: var(--gutter-xs);
+            content: "";
+            display: inline-block;
+            margin-left: var(--gutter-micro);
+            width: 10px;
+            height: 10px;
+            background-image: url(../images/icons_svg/arrow-down-black.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            opacity: .2;
         }
     }
     
@@ -129,12 +137,18 @@
     &.toc_container--open {
         .toc_title {
             &:after {
-                content: "↑";
+                background-image: url(../images/icons_svg/arrow-up-black.svg);
             }
         }
 
         .toc_list {
             display: block;
+            padding-left: 1em;
+            margin-left: 0;
+
+            a {
+                border-bottom: 0;
+            }
         }
     }
 
