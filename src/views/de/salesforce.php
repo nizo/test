@@ -125,7 +125,7 @@ $faqs->faq_add (
         </div>
         <h3>Salesforce Integration</h3>
         <p>Erfassen Sie automatisiert alle In- und Outbound-Gespräche in Salesforce mit Zuordnung zum passenden Kundendatensatz. Zusätzlich unterstützt die App das Setzen des ACD-Agentenstatus und ein einfaches Auslösen von Anrufen per Klick.</p>
-        <p><a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" class="button secondary black rounded button--inline mobileWrap">Pipedrive Marketplace</a></p>
+        <p><a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" class="button secondary black rounded button--inline mobileWrap">Salesforce Appexchange</a></p>
       </div>
       <div class="col-2 card card--transparent card--border-left">
         <div class="card__image">

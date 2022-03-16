@@ -4,9 +4,6 @@
     padding: 60px 25px;
     
     // Modifiers
-    &--same-padding {
-        padding: 60px 25px;
-    }
     &--no-padding-top {
         padding-top: 0 !important;
     }
@@ -50,6 +47,19 @@
     }
 
     // Backgrounds
+    &--purple-white {
+        background-image: linear-gradient(rgba(219, 0, 197, 0.05), #fff);
+    }
+    &--orange-white {
+        background-image: linear-gradient(rgba(255, 123, 27, 0.05), #fff);
+    }
+    &--red-white {
+        background-image: linear-gradient(rgba(255, 0, 46, 0.05), #fff);
+    }
+    &--blue-white {
+        background-image: linear-gradient(rgba(0, 136, 234, 0.05), #fff);
+    }
+
     &--light-grey {
         background: #f2f2f2;
     }

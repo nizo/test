@@ -4,7 +4,7 @@
             <div class="footer-column">
                 <h4>CallOne GmbH</h4>
                 <p>
-                    Charlottenstr. 107<br />
+                    Posthofstr. 5<br />
                     14467 Potsdam<br />
                     <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
                     <a href="mailto:kontakt@callone.de">kontakt@callone.de</a><br />
@@ -88,7 +88,7 @@
         <div class="company">
             <h4>CallOne GmbH</h4>
             <p>
-                Charlottenstr. 107<br />
+                Posthofstr. 5<br />
                 14467 Potsdam
             </p>
             <p>

@@ -1,5 +1,5 @@
-<div class="wrapper">
-  <div class="content wide">
+<div class="section">
+  <div class="section__content section__content--wide">
     <header class="main-header">
       <div class="text no-padding">
         <h1>Computer Telephony Integration for Salesforce</h1>
@@ -63,8 +63,8 @@
   </div>
 </div>
 
-<div class="wrapper">
-  <div class="content wide">
+<div class="section">
+  <div class="section__content section__content--wide">
   <h2 class="h1 centered">Your benefits with the Salesforce CTI</h2>
     <div class="shadow-box padding">
       <div class="grid">
@@ -112,15 +112,15 @@
                         ['data' => 'logo-vimcar.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small']
 ]); ?>
 
-<div class="wrapper">
-  <div class="content wide">
-  <h2 class="h1 centered">CallOne cloud call center software</h2>
+<div class="section">
+  <div class="section__content section__content--wide">
+    <h2 class="h1 centered">CallOne cloud call center software</h2>
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
         	<p>Have you ever been thrilled about customer service? We are! For the past 10 years, we have been proviing our customers with everything they need for brilliant support and a efficient sales telephony.</p>
-			<p>Tricky and elaborate requirements are our area of expertise. We know exactly what you‘re talking about and bring the knowledge of our project managers, developers and telecommunications experts into the mix.</p>
-			<p>High-quality phone systems combined with personal consulting will make you and your customers as excited about telephony as we are.</p>
+          <p>Tricky and elaborate requirements are our area of expertise. We know exactly what you‘re talking about and bring the knowledge of our project managers, developers and telecommunications experts into the mix.</p>
+          <p>High-quality phone systems combined with personal consulting will make you and your customers as excited about telephony as we are.</p>
         </div>
         <div class="col-2">
           <ul class="list approved-list">
@@ -143,11 +143,11 @@
   </div>
 </div>
 
-<div class="wrapper breather">
-  <div class="content wide centered">
-  	<h2 class="white">Probieren Sie es einfach, kostenlos und unverbindlich aus</h2>
-	<div class="button-set centered">
-		<a href="#" class="button primary" data-openmodal="contact-sales">Jetzt testen</a>
-	</div>    
+<div class="section section--black">
+  <div class="section__content section__content--wide centered">
+  	<h2>Probieren Sie es einfach, kostenlos und unverbindlich aus</h2>
+	  <div class="button-set centered">
+		  <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Jetzt testen</a>
+	  </div>    
   </div>
 </div>

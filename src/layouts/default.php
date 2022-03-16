@@ -2,7 +2,7 @@
 <html lang="de">
 <head>   
     <meta charset="utf-8"/>
-    <title><?= $page->title ?></title>
+    <title><?= $page->title ?> | <?= DEFAULT_SITENAME ?></title>
     <meta name="description" content="<?= $page->meta_description ?>" />
     <meta name="keywords" content="<?= $page->meta_keywords ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -86,7 +86,6 @@
     <?php endif;*/ ?>
 
     <?php
-    require_once('./partials/banderole.php');
     require_once('./partials/navigation.php');
 
     require_once(DIRECTORY_VIEWS.$page->view);

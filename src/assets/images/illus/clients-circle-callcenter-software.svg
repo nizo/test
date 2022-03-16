@@ -1,4 +1,4 @@
-<svg width="753" height="259" viewBox="0 0 753 259" fill="none" xmlns="http://www.w3.org/2000/svg" class="clients-circle-callcenter-software">
+<svg width="100%" viewBox="0 0 753 259" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg" class="clients-circle-callcenter-software">
 <circle opacity="0.33" cx="376.5" cy="420.5" r="374.5" stroke="url(#paint0_linear)" stroke-width="4"/>
 <circle cx="141" cy="127" r="42" fill="white"/>
 <circle cx="141" cy="127" r="42" fill="white" stroke="#86ed18" stroke-width="4" class="circle circle-1" style="transition:opacity 0.3s ease"/>
@@ -82,5 +82,55 @@
 <stop offset="0" stop-color="#AAEA39"/>
 <stop offset="1" stop-color="#86EC16"/>
 </linearGradient>
+<style type="text/css">@import url('/assets/stylesheets/application.min.css');</style>
 </defs>
+<script>
+let svg = document.querySelector('.clients-circle-callcenter-software');
+let circles = svg.querySelectorAll('.circle');
+let circleIcons = svg.querySelectorAll('.circle-icon');
+let svgTexts = svg.querySelectorAll('.text');
+let currentCircle = 0;
+let countCircles = circles.length;
+let circleInterval = null;
+
+document.addEventListener('DOMContentLoaded', () => {
+    currentCircle = 0;
+    clearInterval(circleInterval);
+
+    circles.forEach(circle => {
+        circle.setAttribute('stroke', 'black');
+        circle.setAttribute('stroke-width', '2');
+        circle.setAttribute('stroke-opacity', '0.1');
+    });
+    circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+    svgTexts.forEach(text => text.setAttribute('opacity', '0'));
+    circles[currentCircle].setAttribute('stroke', '#86ed18');
+    circles[currentCircle].setAttribute('stroke-width', '4');
+    circles[currentCircle].setAttribute('stroke-opacity', '1');
+    circleIcons[currentCircle].setAttribute('opacity', '1');
+    svgTexts[currentCircle].setAttribute('opacity', '1');
+
+    circleInterval = setInterval(animateCircles, 2000);
+});
+
+circleInterval = setInterval(animateCircles, 2000);
+
+function animateCircles() {
+    circles.forEach(circle => {
+        circle.setAttribute('stroke', 'black');
+        circle.setAttribute('stroke-width', '2');
+        circle.setAttribute('stroke-opacity', '0.1');
+    });
+    circleIcons.forEach(circleIcon => circleIcon.setAttribute('opacity', '0.5'));
+    svgTexts.forEach(text => text.setAttribute('opacity', '0'));
+    currentCircle++;
+    if (currentCircle >= countCircles)
+        currentCircle = 0;
+    circles[currentCircle].setAttribute('stroke', '#86ed18');
+    circles[currentCircle].setAttribute('stroke-width', '4');
+    circles[currentCircle].setAttribute('stroke-opacity', '1');
+    circleIcons[currentCircle].setAttribute('opacity', '1');
+    svgTexts[currentCircle].setAttribute('opacity', '1');
+};
+</script>
 </svg>

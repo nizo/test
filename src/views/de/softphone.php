@@ -79,23 +79,23 @@ $faqs->faq_add (
     </h2>
 
     <div class="tablist">
-      <div class="tablist__links">
+      <div class="tablist__links tablist__links--full-width">
         <div class="tablist__link" data-tab="1">
           <strong>
             Softphone<br />
-            <span>VoIP-Telefon im Browser</span>
+            <span class="subtext">VoIP-Telefon im Browser</span>
           </strong>
         </div>
         <div class="tablist__link" data-tab="2">
           <strong>
             Click-to-Dial<br />
-            <span>Wählen mit einem Klick</span>
+            <span class="subtext">Wählen mit einem Klick</span>
           </strong>
         </div>
         <div class="tablist__link" data-tab="3">
           <strong>
             Bring your own Provider<br />
-            <span>Funktioniert mit Ihrer VoIP-Telefonanlage</span>
+            <span class="subtext">Funktioniert mit Ihrer VoIP-Telefonanlage</span>
           </strong>
         </div>
       </div>

@@ -624,12 +624,16 @@
         <div class="tablist tablist--on-black mobile-hidden">
             <div class="tablist__links">
                 <div class="tablist__link" data-tab="1">
-                    <strong>Private Cloud</strong>
-                    Ihre Cloud, auf unserem High-Security Server
+                    <strong>
+                        Private Cloud
+                        <span class="subtext">Ihre Cloud, auf unserem High-Security Server</span>
+                    </strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <strong>Interner Datenschutz</strong>
-                    Pseudo-Anonymisierung als Zusatzoption
+                    <strong>
+                        Interner Datenschutz
+                        <span class="subtext">Pseudo-Anonymisierung als Zusatzoption</span>
+                    </strong>
                 </div>
             </div>
 

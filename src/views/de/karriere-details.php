@@ -85,7 +85,7 @@ if (empty ($job))
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-		"streetAddress": "Charlottenstr. 107",
+		"streetAddress": "Posthofstr. 5",
 		"addressLocality": "Potsdam",
 		"addressRegion": "DE",
 		"postalCode": "14467",

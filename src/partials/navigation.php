@@ -14,6 +14,9 @@ $jobsCount = count($jobs->jobs_get());
  * loesungen, produkte, callone
  * Has to be set in libs/router.inc.php
  */
+
+ // Banderole
+require_once('banderole.php');
 ?>
 
 <nav class="navigation">
@@ -187,7 +190,7 @@ $jobsCount = count($jobs->jobs_get());
                                             <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
-
+                                    
                                     <a href="/callcenter-sprachanalyse" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
@@ -200,7 +203,7 @@ $jobsCount = count($jobs->jobs_get());
                                             <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
                                         </div>
                                     </a>
-
+                                    
                                     <!-- <a href="#todo" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />
@@ -435,13 +438,13 @@ $jobsCount = count($jobs->jobs_get());
                                         <a href="/blog/" title="Startseite CallOne Blog  - Alles zu den Themen Callcenter-Software und VoIP-Telefonie" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Alle Artikel</strong>
-                                                <p>Übersicht aller Artikel und Beiträge</p>
+                                                <p>Übersicht aller<br />Artikel und Beiträge</p>
                                             </div>
                                         </a>
                                         <a href="/blog/category/aktuelles/" title="Aktuelle Artikel und Beiträge" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Aktuelles</strong>
-                                                <p>Die aktuellen Artikel und Beiträge</p>
+                                                <p>Die aktuellen<br />Artikel und Beiträge</p>
                                             </div>
                                         </a>
                                     </div>
@@ -449,7 +452,7 @@ $jobsCount = count($jobs->jobs_get());
                                         <a href="/blog/category/know-how/" title="Know-how - Wissen zum Thema Telefonie" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Know-how</strong>
-                                                <p>Wissen zum Thema Telefonie</p>
+                                                <p>Wissen zum<br />Thema Telefonie</p>
                                             </div>
                                         </a>
                                     </div>
