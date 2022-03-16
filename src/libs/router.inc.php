@@ -159,7 +159,7 @@ Router::add('/statistiken', 'statistiken.php', [
     'sitemap_priority' => '0.8'
 ]);
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
-    'title' => 'CRM und Ticketing kombiniert mit dem Telefon | CallOne ',
+    'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
     'meta_description' => 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet',
     'meta_keywords' => 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
@@ -188,7 +188,7 @@ Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'sitemap_priority' => '0.9'
 ]);
 Router::add('/softphone', 'softphone.php', [
-    'title' => 'VoIP Telefon im Browser integriert | CallOne Softphone',
+    'title' => 'Softphone: VoIP Telefon im Browser integriert',
     'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
     'meta_keywords' => 'Microsoft TEAMS, VoIP, SIP Phone, Softphone, 1-Click, SBC, Sipgate, Placetel, Telekom, Cloud Telefonanlage, Telefonieren mit dem PC, PBX',
     'og_image_text' => 'VoIP Telefon im Browser integriert',
@@ -326,7 +326,7 @@ Router::add('/cti-salesforce', 'cti/salesforce.php', [
     'body_class' => 'bg-karriere'
 ]);
 Router::add('/customer-service-solutions', 'solutions-customer-service.php', [
-    'title' => 'Callcenter Software ACD | CallOne',
+    'title' => 'Callcenter Software ACD',
     'meta_description' => 'Cloud Callcenter-Plattform, angepasst auf Ihre Bedürfnisse, verknüpft mit CRM und Helpdesk',
     'meta_keywords' => 'Kundenservice, Helpdesk, Inbound, ACD, Callcenter Software, Cloud, ACD, Contact Center, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'Callcenter Software ACD'
@@ -362,7 +362,7 @@ Router::add('/impressum', 'impressum.php', [
     'body_class' => 'bg-landingpages'
 ]);
 Router::add('/it-helpdesk-solutions', 'solutions-helpdesk.php', [
-    'title' => 'Integriertes Telefon für IT Helpdesk Software | CallOne',
+    'title' => 'Integriertes Telefon für IT Helpdesk Software',
     'meta_description' => 'Telefonlösung für Ihren IT-Helpdesk und Servicedesk zur effizienten Bearbeitung von Tickets',
     'meta_keywords' => 'Kundenservice, Helpdesk, IT, Support, Inbound, Outbound, CRM, ACD, Callcenter Software, Cloud, Tickets, Servicedesk, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'Integriertes Telefon für IT Helpdesk Software'
@@ -386,13 +386,13 @@ Router::add('/omr', 'omr-goodie.php', [
     'sitemap_include' => false
 ]);
 Router::add('/sales-solutions', 'solutions-sales.php', [
-    'title' => 'Outbound Callcenter Software | CallOne',
+    'title' => 'Outbound Callcenter Software',
     'meta_description' => 'Outbound Sales am Telefon mit der Callcenter Software von CallOne und Ihrem Businesslösung verbunden',
     'meta_keywords' => 'Predictive Dialing, Outdial, Telefonlösung, Speed dial, Predictive Dialer, eingehend, Callcenter-Software, Voip, gehosteter Dialer, virtuelles Callcenter, Web-Dialer, Online-Dialer, Cloud-Dialer, Cloud-Dialer-System, Power-Dialer, Telemarketing-Software, Telemarketing-Dialing, Auto-Dialing-Software, Kundenanrufsoftware',
     'og_image_text' => 'Outbound Callcenter Software'
 ]);
 Router::add('/salesforce', 'salesforce.php', [
-    'title' => 'Salesforce Integration | CallOne',
+    'title' => 'Salesforce Integration',
     'meta_description' => 'Salesforce Integration für Ihre Callcenter Software. Die CallOne CTI App für Salesforce Lightning & Classis.',
     'og_image_text' => 'Salesforce'
 ]);
@@ -404,7 +404,7 @@ Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'og_image_text' => 'Tableau Callcenter Connector'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
-    'title' => 'Telefon Schnittstellen für alle Belange | CallOne',
+    'title' => 'Telefon Schnittstellen für alle Belange',
     'meta_description' => 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.',
     'meta_keywords' => 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon',
     'og_image_text' => 'Telefon Schnittstellen für alle Belange',
