@@ -190,6 +190,29 @@ require_once('banderole.php');
                                             <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
+                                    
+                                    <a href="/callcenter-sprachanalyse" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                                i2x Sprachanalyse
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
+                                            <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <!-- <a href="#todo" class="submenu__link">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Virtueller Assistent</strong>
+                                            <p>Managen Sie Ihr Telefonaufkommen mit einem Serviceboard</p>
+                                        </div>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>

@@ -1152,13 +1152,15 @@ $faqs->faq_add (
 			</div>
 		</div>
 	</div>
+</div>
 	
+<div class="section section--black section--no-padding-top">
 	<div class="section__content section__content--wide">
 		<div class="cta-contact">
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
 			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
 
-			<div class="co-grid mobile-centered">
+			<div class="co-grid tablet-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
 					<h4>
