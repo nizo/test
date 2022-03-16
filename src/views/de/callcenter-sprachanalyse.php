@@ -1,23 +1,23 @@
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
         <div class="hero__text">
-            <h1>Echtzeit Sprachanalyse für Kundenservice und Salesabteilungen</h1>
-			<h2>Das KI-gestützte Powertool für die perfekte Gesprächsführung am Telefon</h2>
+            <h1>Echtzeit Sprachanalyse für Kundenservice und Vertrieb</h1>
+            <h2>Der KI-gestützte Sprachassistent für die perfekte Echtzeitanalyse zur Tonalität und dem Gesprächsanteil</h2>
 
 			<p class="mobile-centered">
                 <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch vereinbaren</a>
 			</p>
 		</div>
         <div class="hero__image">
-            <img src="/assets/images/illus/i2x-header.png" alt="Sprachanalyse Kundenservice und Sales mit Callcenter Software" width="465" height="465" style="width:100%" />
+            <img src="/assets/images/illus/i2x-header.png" alt="Sprachanalyse Kundenservice und Vertrieb mit Callcenter Software" width="465" height="465" style="width:100%" />
         </div>
 	</div>
 </div>
 
 <div class="section section--no-padding-top">
     <div class="section__content section__content--narrow centered mobile-left">
-        <h1>Der i2x-Agenten-Client: Das Echtzeit-Dashboard für Ihre Agenten.</h1>
-        <p class="bigtext">Der i2x Client fungiert als <span class="fw500">Echtzeitcoach für die Gespräche in Sales und Service</span>. Agenten bekommen direkt <span class="fw500">in den Telefonaten</span> einen <span class="fw500">flexiblen Gesprächsleitfaden</span>.</p>
+        <h1>Der i2x Assistent: Das Echtzeit-Dashboard für Ihre Kundenberater.</h1>
+        <p class="bigtext">Der i2x Assistent fungiert als <span class="fw500">Echtzeitcoach für die Gespräche in Vertrieb und Service</span>. Kundenberater bekommen direkt <span class="fw500">in den Telefonaten</span> einen <span class="fw500">flexiblen Gesprächsleitfaden</span>.</p>
     </div>
 
     <div class="section__content section__content--wide">
@@ -27,7 +27,7 @@
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
-                    <li>Schlagwörter (so genannte Sagen & Nicht Sagen <span class="tooltip tooltip--dark" style="--fs:.7em"><span>Sagen sind Wörter und Phrasen, die im aktuellen Gespräch positiv bewertet sind. Nicht Sagen sind Wörter und Phrasen, die vom Agenten vermieden werden sollten.</span></span>) werden in Echtzeit übermittelt</li>
+                    <li>Themen (so genannte Sagen & Nicht Sagen <span class="tooltip tooltip--dark" style="--fs:.7em"><span>Sagen sind Wörter und Phrasen, die im aktuellen Gespräch positiv bewertet sind. Nicht Sagen sind Wörter und Phrasen, die vom Kundenberater vermieden werden sollten.</span></span>) werden in Echtzeit übermittelt</li>
                     <li>Echtzeitanalyse zu Tonalität und Satzlänge wird ausgespielt</li>
                     <li>Auswertung der optimalen Sprechgeschwindigkeit steht zur Verfügung</li>
                 </ul>
@@ -38,15 +38,15 @@
 
 <div class="section">
     <div class="section__content section__content--narrow centered mobile-left">
-        <h1>Bessere Ergebnisse in Sales & Service - mit interaktivem Gesprächsleitfaden</h1>
-        <p class="bigtext">Holen Sie mit i2x das Maximale aus Telefongesprächen in Sales und Service heraus und erhöhen Sie Ihren ROI.</p>
+        <h1>Bessere Ergebnisse in Vertrieb & Service - mit interaktivem Gesprächsleitfaden</h1>
+        <p class="bigtext">Holen Sie mit i2x das Maximale aus Telefongesprächen in Vertrieb und Service heraus und erhöhen Sie Ihren ROI.</p>
     </div>
 
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-sm co-grid__col--vcentered">
                 <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
-                    <li>Optimale Gesprächsführung durch Echtzeitcoaching im i2x Client</li>
+                    <li>Optimale Gesprächsführung durch Echtzeitcoaching im i2x Assistent</li>
                     <li>Flexible Gesprächsleitfäden für höhere Abschlussquoten</li>
                     <li>Hohe Transparenz und Planbarkeit Dank umfangreicher Statistiken</li>
                 </ul>
@@ -63,7 +63,7 @@
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1" style="--bg:linear-gradient(#3B81FB33, #3B81FB00);--stickyBg:linear-gradient(#3B81FB00, #3B81FB33);">
-                    <strong>Agenten</strong>
+                    <strong>Kundenberater</strong>
                 </div>
                 <div class="tablist__link" data-tab="2" style="--bg:linear-gradient(#3B81FB33, #3B81FB00);--stickyBg:linear-gradient(#3B81FB00, #3B81FB33);">
                     <strong>Manager</strong>
@@ -76,7 +76,7 @@
             <div class="tablist__content" data-tab="1">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                        <img src="/assets/images/illus/i2x-agenten.png" alt="Kundenservice Sprachanalyse und Coaching für Agenten" width="470" height="470" />
+                        <img src="/assets/images/illus/i2x-agenten.png" alt="Kundenservice Sprachanalyse und Coaching für Kundenberater" width="470" height="470" />
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <h3>Kürzere Fallbearbeitungszeiten bei höherer Kundenzufriedenheit und Abschlussquote.</h3>
@@ -95,7 +95,7 @@
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                        <img src="/assets/images/illus/i2x-manager.png" alt="ROI erhöhen mit Sprachanalyse und Coaching für Sales" width="470" height="470" />
+                        <img src="/assets/images/illus/i2x-manager.png" alt="ROI erhöhen mit Sprachanalyse und Coaching für Vertrieb" width="470" height="470" />
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <h3>Umfangreicher Überblick für datenbasierte Entscheidungen und Erhöhung Ihres ROI.</h3>
