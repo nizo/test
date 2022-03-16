@@ -7,6 +7,7 @@ require_once('./libs/products.inc.php');
 require_once('./libs/session.inc.php');
 
 // Default route/page data
+define('DEFAULT_SITENAME', 'CallOne');
 define('DEFAULT_LAYOUT', 'default.php');
 define('DEFAULT_TITLE', 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern');
 define('DEFAULT_META_TITLE', DEFAULT_TITLE);

@@ -2,7 +2,7 @@
 <html lang="de">
 <head>   
     <meta charset="utf-8"/>
-    <title><?= $page->title ?></title>
+    <title><?= $page->title ?> | <?= DEFAULT_SITENAME ?></title>
     <meta name="description" content="<?= $page->meta_description ?>" />
     <meta name="keywords" content="<?= $page->meta_keywords ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -58,7 +58,7 @@
     {
         "@context" : "http://schema.org",
         "@type" : "Organization",
-        "name" : "Callone - Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern",
+        "name" : "CallOne",
         "url" : "https://www.callone.de",
         "sameAs" : [
             "https://de.linkedin.com/company/callone-gmbh",
