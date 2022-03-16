@@ -51,20 +51,19 @@
     }
 
     &__copy {
-        * {
-            font-size: 20px;
-        }
-
         > * + * {
             margin-top: 1em;
         }
 
-        > ul, > ol {
+        p {
+            font-size: 20px;
+        }
+
+        ul, ol {
             box-shadow: 0 4px 18px rgba(#000, .25);
             padding: var(--gutter-m);
             padding-left: calc(1em + var(--gutter-m));
             border-radius: 10px;
-            background-image: linear-gradient(#fff, #edf2e2);
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
@@ -97,7 +96,6 @@
     box-shadow: 0 4px 18px rgba(#000, .25);
     border-radius: 10px;
     padding: var(--gutter-xs) var(--gutter-s);
-    background-image: linear-gradient(#fff, #edf2e2);
 
     .toc_title {
         font-family: $font-headline;
@@ -118,6 +116,29 @@
             background-position: center;
             background-size: contain;
             opacity: .2;
+        }
+    }
+
+    ul {
+        box-shadow: unset;
+        max-width: unset;
+        padding: 0;
+        list-style: none;
+        counter-reset: list;
+        
+        ul {
+            padding-left: 1em;
+        }
+        
+        li {
+            counter-increment: list;
+            font-size: 16px !important;
+
+            &:before {
+                content: counters(list, '.') '. ';
+                font-family: $font-headline;
+                font-weight: bold;
+            }
         }
     }
     
@@ -154,13 +175,6 @@
             &:after {
                 background-image: url(../images/icons_svg/arrow-up-black.svg);
             }
-        }
-
-        ul {
-            box-shadow: unset;
-            padding: unset;
-            padding-left: 1em;
-            background-image: unset;
         }
         
         .toc_list {
@@ -214,6 +228,12 @@
  * Share Buttons / Shariff Plugin
  */
 .shariff {
+    ul {
+        box-shadow: unset;
+        padding: unset;
+        max-width: unset;
+    }
+
     li {
         border-radius: 100px;
     }
