@@ -1,3 +1,6 @@
+/*
+ * Blog Post / Entry
+ */
 .entry {
 	display: flex;
 	flex-direction: column;
@@ -56,8 +59,15 @@
             margin-top: 1em;
         }
 
-        ul, ol {
-            margin-left: 1em;
+        > ul, > ol {
+            box-shadow: 0 4px 18px rgba(#000, .25);
+            padding: var(--gutter-m);
+            padding-left: calc(1em + var(--gutter-m));
+            border-radius: 10px;
+            background-image: linear-gradient(#fff, #edf2e2);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         a {
@@ -73,6 +83,9 @@
     }
 }
 
+/*
+ * Inahltsverzeichnis / TOC
+ */
 #toc_container {
     position: sticky;
 	display: block;
@@ -84,11 +97,13 @@
     box-shadow: 0 4px 18px rgba(#000, .25);
     border-radius: 10px;
     padding: var(--gutter-xs) var(--gutter-s);
+    background-image: linear-gradient(#fff, #edf2e2);
 
     .toc_title {
         font-family: $font-headline;
         font-size: 20px;
         line-height: 1;
+        font-weight: bold;
         
         cursor: pointer;
 
@@ -141,9 +156,15 @@
             }
         }
 
+        ul {
+            box-shadow: unset;
+            padding: unset;
+            padding-left: 1em;
+            background-image: unset;
+        }
+        
         .toc_list {
             display: block;
-            padding-left: 1em;
             margin-left: 0;
 
             a {
@@ -157,6 +178,9 @@
     }
 }
 
+/*
+ * Pagination
+ */
 #post-navigation {
     margin-top: var(--gutter-xl);
     display: flex;
@@ -186,6 +210,18 @@
     }
 }
 
+/*
+ * Share Buttons / Shariff Plugin
+ */
+.shariff {
+    li {
+        border-radius: 100px;
+    }
+}
+
+/*
+ * Footer
+ */
 #footer {
     a:not(.btn) {
         color: rgba(#fff, 0.5);
