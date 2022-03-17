@@ -4,6 +4,9 @@
     padding: 60px 25px;
     
     // Modifiers
+    &--small-padding {
+        padding: 30px 25px;
+    }
     &--no-padding-top {
         padding-top: 0 !important;
     }
