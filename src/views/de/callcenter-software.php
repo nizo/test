@@ -34,18 +34,18 @@ $faqs->faq_add (
 
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
-		<div class="hero__image">
-			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="Die CallOne Kundenservice Software als Illustration" width="465" height="404" style="width:100%" />
-		</div>
 		<div class="hero__text">
 			<div class="tag">
 				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> CallOne Cloud ACD &copy;
 			</div>
-			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
-			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz|weniger Ausfälle|mehr Transparenz|bessere Planbarkeit" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">mehr Effizienz</span></h2>
+			<h1>Ihr Kundenservice, <br class="mobile-hidden" />unsere Callcenter Software</h1>
+			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="für bessere Verbindungen|mit intuitiver Bedienbarkeit|passgenau auf Ihre Anforderungen" data-colors="#FF7B1B|#0088EA|#64cb06">für bessere Verbindungen</span></h2>
 			<p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Demo vereinbaren</a>
 			</p>
+		</div>
+		<div class="hero__image">
+			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="Die CallOne Kundenservice Software als Illustration" width="465" height="404" style="width:100%" />
 		</div>
 	</div>
 </div>
