@@ -39,7 +39,7 @@ $faqs->faq_add (
 				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> CallOne Cloud ACD &copy;
 			</div>
 			<h1>Ihr Kundenservice, <br class="mobile-hidden" />unsere Callcenter Software</h1>
-			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="für bessere Verbindungen|mit intuitiver Bedienbarkeit|passgenau auf Ihre Anforderungen" data-colors="#FF7B1B|#0088EA|#64cb06">für bessere Verbindungen</span></h2>
+			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem <span class="typing-text" data-texts="für bessere Verbindungen|mit intuitiver Bedienbarkeit|passgenau auf Ihre Anforderungen" data-colors="#FF7B1B|#0088EA|#64cb06">für bessere Verbindungen</span></h2>
 			<p class="mobile-centered">
 				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Demo vereinbaren</a>
 			</p>
