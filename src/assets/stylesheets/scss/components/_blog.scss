@@ -114,6 +114,10 @@
     border-radius: 10px;
     padding: var(--gutter-xs) var(--gutter-s);
 
+    @media screen and (max-width: 768px) {
+        padding: var(--gutter-micro) var(--gutter-xs);
+    }
+
     .toc_title {
         font-family: $font-headline;
         font-size: 20px;
@@ -180,6 +184,10 @@
             border-radius: 6px;
             border: 3px solid var(--scrollbarBG);
         }
+
+        a {
+            font-family: $font-copy;
+        }
     }
 
     &.toc_container--stuck {
@@ -245,6 +253,9 @@
  * Share Buttons / Shariff Plugin
  */
 .shariff {
+    display: flex !important;
+    justify-content: center;
+
     ul {
         box-shadow: unset;
         padding: unset;
