@@ -165,7 +165,7 @@ require_once('banderole.php');
                                             <img src="/assets/images/navigation/menu-teams.png" alt="" />
                                         </div>
                                         <div class="submenu__link-text">
-                                            <strong>Microsoft Teams</strong>
+                                            <strong>Microsoft Teams<span class="submenu__link-tag">Beliebt</span></strong>
                                             <p>Die smarte Telefonie für Ihr Unternehmen</p>
                                         </div>
                                     </a>
