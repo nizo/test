@@ -1,0 +1,54 @@
+/*
+ * Styles for callone.de/faq
+ */
+
+ /*
+  * FAQ Search
+  */
+.faq-search {
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 0 4px 18px rgba(#000, .25);
+
+    &__query {
+        padding: 0 var(--gutter-m);
+        flex: 1;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        font-family: $font-copy;
+        font-size: inherit;
+    }
+
+    button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+/*
+ * FAQ List
+ */
+.faq-list {
+    list-style: none;
+
+    li {
+        padding: var(--gutter-xs) 0;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-image: url(../images/icons_svg/arrow-right-black.svg);
+            opacity: .2;
+        }
+
+        &+li {
+            border-top: 2px solid #e5e5e5;
+        }
+    }
+
+    &__q {
+        font-family: $font-headline;
+    }
+}

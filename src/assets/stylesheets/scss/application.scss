@@ -33,6 +33,12 @@
 @import '_references';
 
 /*
+ * Other instances
+ */
+@import 'components/blog';
+@import 'components/faq';
+
+/*
 * Components
 */
 @import 'components/grid';
@@ -40,6 +46,7 @@
 @import 'components/alertbox';
 @import 'components/anchors';
 @import 'components/atomic-loader';
+@import 'components/banderole';
 @import 'components/base';
 @import 'components/breather-box';
 @import 'components/buttons';
@@ -70,6 +77,7 @@
 @import 'components/quote';
 @import 'components/radio-select';
 @import 'components/range';
+@import 'components/readmore';
 @import 'components/saving-calculation';
 @import 'components/scroller';
 @import 'components/section';

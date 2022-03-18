@@ -1,5 +1,5 @@
 .btn {
-	display: table;
+	display: inline-table;
 	text-transform: uppercase;
 	border-radius: 100px;
 	padding: var(--gutter-xs) var(--gutter-m);
@@ -136,6 +136,7 @@
 	}
 	
 	&--centered {
+		display: table;
 		margin-left: auto;
 		margin-right: auto;
 	}

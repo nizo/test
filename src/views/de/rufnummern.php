@@ -6,8 +6,8 @@ $product->reviews_load ();
 $product->structured_data_get_code ();
 ?>
 
-<div class="wrapper sitenav-background">
-  <div class="content wide">
+<div class="section section--white-grey">
+  <div class="section__content section__content--wide">
     <header class="main-header">
       <div class="text no-padding">
         <h1>Virtuelle Rufnummern weltweit schalten</h1>
@@ -36,8 +36,8 @@ $product->structured_data_get_code ();
   </div>
 </div>
 
-<div class="wrapper" id="konnektoren">
-  <div class="content wide centered">
+<div class="section" id="konnektoren">
+  <div class="section__content section__content--narrow centered">
     <strong class="uppercase">Eigene Servicerufnummer weltweit schalten</strong>
     <h2 class="h1">Lokale Rufnummern aus Ihrem Vorwahlbereich, 0800-Rufnummern, Rufnummern weltweit.</h2>
     <p>Erhalten Sie sofortigen Zugriff auf lokale, nationale, mobile und gebührenfreie Telefonnummern in über 120 Ländern und allen Vorwahlbereichen Deutschlands.</p>

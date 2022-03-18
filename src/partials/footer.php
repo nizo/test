@@ -4,7 +4,7 @@
             <div class="footer-column">
                 <h4>CallOne GmbH</h4>
                 <p>
-                    Charlottenstr. 107<br />
+                    Posthofstr. 5<br />
                     14467 Potsdam<br />
                     <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
                     <a href="mailto:kontakt@callone.de">kontakt@callone.de</a><br />
@@ -64,7 +64,7 @@
                     <a href="https://www.callone.de/faq" target="_blank">FAQs</a><br />
                     <a href="/kontakt">Kontakt</a><br />
                     <a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a><br />
-                    <?php if (!isCrawler ($_SERVER['HTTP_USER_AGENT'])): ?>
+                    <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
                         <a class="openModal trackedElement" data-label="Cookie-Einstellungen Footer" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner">Cookie-Einstellungen</a>
                     <?php endif; ?>
                 </p>
@@ -88,7 +88,7 @@
         <div class="company">
             <h4>CallOne GmbH</h4>
             <p>
-                Charlottenstr. 107<br />
+                Posthofstr. 5<br />
                 14467 Potsdam
             </p>
             <p>

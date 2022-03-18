@@ -12,6 +12,7 @@
 .icon-attention,
 .icon-callone-white {
     white-space: nowrap;
+
     &:before {
         content: '';
         display: inline-block;
@@ -22,6 +23,14 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    @media screen and (max-width: 768px) {
+        white-space: normal;
+
+        &:before {
+            display: none;
+        }
     }
 }
 

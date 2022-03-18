@@ -4,6 +4,9 @@
     padding: 60px 25px;
     
     // Modifiers
+    &--small-padding {
+        padding: 30px 25px;
+    }
     &--no-padding-top {
         padding-top: 0 !important;
     }
@@ -50,6 +53,19 @@
     }
 
     // Backgrounds
+    &--purple-white {
+        background-image: linear-gradient(rgba(219, 0, 197, 0.05), #fff);
+    }
+    &--orange-white {
+        background-image: linear-gradient(rgba(255, 123, 27, 0.05), #fff);
+    }
+    &--red-white {
+        background-image: linear-gradient(rgba(255, 0, 46, 0.05), #fff);
+    }
+    &--blue-white {
+        background-image: linear-gradient(rgba(0, 136, 234, 0.05), #fff);
+    }
+
     &--light-grey {
         background: #f2f2f2;
     }
@@ -439,7 +455,7 @@
                 margin-top: 20px;
             }
         }
-        &+.section__content {
+        &+.section__content:not(.section__content--no-gutter-top) {
             margin-top: var(--gutter-xl);
         }
     }

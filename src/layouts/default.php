@@ -2,7 +2,7 @@
 <html lang="de">
 <head>   
     <meta charset="utf-8"/>
-    <title><?= $page->title ?></title>
+    <title><?= $page->title ?> | <?= DEFAULT_SITENAME ?></title>
     <meta name="description" content="<?= $page->meta_description ?>" />
     <meta name="keywords" content="<?= $page->meta_keywords ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -54,10 +54,6 @@
         <link rel="canonical" href="<?= DOMAIN.$page->canonical ?>" />
     <?php endif; ?>
 
-    <?php 
-    require_once('./partials/tracking.php');
-    ?>
-
     <script type="application/ld+json">
     {
         "@context" : "http://schema.org",
@@ -75,7 +71,7 @@
     </script>
 </head>
 <body class="<?= $page->body_class; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
-    <?php if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
+    <?php /*if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
         <?php if (isLocalHost()) : ?>
             <!-- Google Tag Manager (noscript) Testsystem -->
             <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZN2XV4"
@@ -87,7 +83,7 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- End Google Tag Manager (noscript) -->
         <?php endif; ?>
-    <?php endif; ?>
+    <?php endif;*/ ?>
 
     <?php
     require_once('./partials/navigation.php');
@@ -102,7 +98,7 @@
     	<a class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
     </div>
     
-    <?php if (!isCrawler ($_SERVER['HTTP_USER_AGENT'])): ?>
+    <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
         <div class="modal cookiebanner">
             <?php include('./partials/modal-cookiebanner.php'); ?>
         </div>
@@ -127,6 +123,10 @@
     
     <?php
     loadJS(null);
+
+    if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1)) {
+        echo '<script>loadLazyTracking();</script>';
+    }
     ?>
     
     </body>

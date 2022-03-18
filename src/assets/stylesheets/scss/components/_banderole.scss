@@ -1,0 +1,129 @@
+:root {
+    --banderoleHeight: 32px;
+    --navigationOffset: 20px;
+    --navigationOffsetScrolled: 15px;
+}
+
+.banderole {
+    position: fixed;
+    z-index: 102;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--banderoleHeight);
+    background-size: 200% 200%;
+    background-image: repeating-linear-gradient(-45deg, $color-primary, darken($color-primary, 20%), $color-primary);
+    background-position: 0% 50%;
+    animation: background 10s infinite linear;
+    padding: 0 var(--gutter-micro);
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    white-space: nowrap;
+
+    >*+* {
+        margin-left: var(--gutter-xs);
+    }
+
+    &__text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: underline;
+        color: currentColor;
+        padding: 3px 10px;
+        border-radius: 300px;
+
+        &:before {
+            content: 'Mehr';
+            font-size: 16px;
+            display: none;
+        }
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            text-shadow: none;
+        }
+    }
+    
+    &~.navigation {
+        top: calc(var(--banderoleHeight) - var(--navigationOffset));
+    }
+    &~.navigation-spacer {
+        height: calc(var(--banderoleHeight) - var(--navigationOffset) + var(--navigationHeight));
+        @media screen and (max-width: 950px),
+                screen and (max-height: 570px) {
+            height: calc(var(--banderoleHeight) - var(--navigationOffset) + var(--navigationHeightScrolled));
+        }
+    }
+    &~.navigation--scrolled {
+        top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
+        padding-top: var(--navigationOffsetScrolled);
+
+        .navigation__item {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .navigation__submenu {
+            padding-top: 14px;
+        }
+    }
+    &~.navigation--scrolled~.navigation__shadow {
+        top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+    }
+    &~.navigation--scrolled~.navigation-spacer {
+        height: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+    }
+    &~* .tablist__links--sticky, &~* #toc_container {
+        top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+
+        .toc_list {
+            max-height: calc(100vh - ((var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled)) * 2) - 48px);
+        }
+    }
+}
+
+.banderole-spacer {
+    display: none;
+    width: 100%;
+    height: var(--banderoleHeight);
+}
+
+@keyframes background {
+    to {
+        background-position: 200% 50%;
+    }
+}
+
+@media screen and (max-width: 950px), screen and (max-height: 570px) {
+    .banderole {
+        a {
+            font-size: 0;
+
+            &:before {
+                display: inline-block;
+            }
+        }
+
+        &~.navigation {
+            top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
+        }
+        &~.navigation--mobile-open {
+            .navigation__links {
+                ul {
+                    top: calc(var(--banderoleHeight) + var(--navigationHeightScrolled) - var(--navigationOffsetScrolled) - 2px);
+                }
+            }
+        }
+    }
+}

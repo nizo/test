@@ -115,6 +115,7 @@ $breakpoints: (
                 order: #{$i};
             }
         }
+        
     }
 }
 
@@ -143,8 +144,8 @@ $breakpoints: (
     }
 }
 
-@media screen and (max-width: 768px) {
-    .co-grid__col {
+@media screen and (max-width: 850px) {
+    [class*='co-grid__col--12-'] {
         > img:not(.co-grid__image--full-width) {
             max-width: 50%;
             margin-left: auto;

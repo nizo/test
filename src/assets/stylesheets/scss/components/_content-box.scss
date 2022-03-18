@@ -95,6 +95,10 @@
     }
 }
 
+.co-grid .content-box {
+    height: 100%;
+}
+
 *+.content-box {
     margin-top: var(--gutter-xl);
 }

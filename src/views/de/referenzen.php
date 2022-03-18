@@ -2,7 +2,7 @@
   <div class="content wide">
     <header class="main-header">
       <div class="media">
-        <img src="/assets/images/client-logos/check24_logo.svg" alt="" />
+        <img src="/assets/images/client-logos/check24_logo.svg" alt="Check24 Kundenstimme CallOne" />
       </div>
       <div class="text">
         <h1>Dufte Anrufsteuerung, frei skalierbar</h1>
@@ -55,7 +55,7 @@
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
-          <img src="/assets/images/photos/callcenter.svg" alt="" />
+          <img src="/assets/images/photos/callcenter.svg" alt="Callcenter Software für Businesstelefonie" />
         </div>
         <div class="col-2">
           <p>„Von einer Lösung für den telefonischen Support unserer Sachversicherungsprodukte haben wir uns vor allem bessere Transparenz, optimale Vorausplanbarkeit und eine Integration der Lösung in unsere bereits genutzten Businesssysteme erhofft. Genau das haben wir bei CallOne gefunden.“</p>

@@ -17,6 +17,7 @@
         .small-tabs__tab {
             color: rgba(var(--linkColor), .5);
             padding: 0;
+            margin: calc(var(--gutter-xs) / 2) var(--gutter-xs);
             // margin-bottom: var(--gutter-s);
             border-bottom: 2px solid transparent;
 
@@ -77,5 +78,21 @@
     }
     &__content--active {
         display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .small-tabs {
+        &__tabs {
+            flex-direction: column;
+        }
+
+        &__tab {
+            text-align: center;
+
+            &+.small-tabs__tab {
+                border-left: 0;
+            }
+        }
     }
 }
