@@ -131,6 +131,11 @@ img {
 // Text Modifications
 .bigtext {
     font-size: 20px;
+
+    &__price {
+        font-size: 2.5em;
+        font-family: $font-headline;
+    }
     @media screen and (max-width: 800px) {
         font-size: 16px;
     }

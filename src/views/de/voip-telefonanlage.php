@@ -69,7 +69,7 @@ $faqs->faq_add (
                 <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="CallCenter Software für Enterprise Unternehmen" width="675" height="28" />
             </div>
             <div class="small-tabs__content centered" data-tab="2">
-                    <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="CallCenter Software für Unternehmen aus dem Mittelstand" width="812" height="28" />
+                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="CallCenter Software für Unternehmen aus dem Mittelstand" width="812" height="28" />
             </div>
             <div class="small-tabs__content centered" data-tab="3">
                 <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="CallCenter Software für fastgrowing Unternehmen" width="812" height="28" />
@@ -176,8 +176,59 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams gefällig? Kein Problem!</p>
 
-					<!-- TODO: Add link to MS Teams -->
-                    <p><a href="#" style="visibility:hidden" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
+                    <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
+                </div>
+            </div>
+        </div>
+		    <div class="fader fader--indicators-centered fader--header-below desktop-hidden" data-speed="4000">
+            <div class="fader__item">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Die CallCenter Software von CallOne" width="50" height="50" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
+                            <h4 style="margin-bottom:0">Callcenter Software</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
+
+                    <p><a href="/callcenter-software" class="btn btn--border-bottom btn--arrow-right-small">Bessere Businesstelefonie</a></p>
+                </div>
+            </div>
+            <div class="fader__item">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/menu-app-api.svg" alt="APIs für individuelle Telefonielösungen mit der CallOne Cloud Telefonanlage" width="51" height="50" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Kommunikations-APIs</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Features Ihrer Telefonanlage als einfache Integration in Ihr CRM.</p>
+
+                    <p><a href="/callcenter-software-integrationen" class="btn btn--border-bottom btn--arrow-right-small">Schneller Kunden bearbeiten</a></p>
+                </div>
+            </div>
+            <div class="fader__item">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/msteams-icon.svg" alt="MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage" width="50" height="50" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
+                            <h4 style="margin-bottom:0">Teams-Telefonie</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams.</p>
+
+                    <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
         </div>
@@ -225,7 +276,7 @@ $faqs->faq_add (
 								<img src="/assets/images/photos/microsoft-teams.png" alt="Integrieren Sie Microsoft Teams Telefonie in Ihre Cloud Telefonanlage" width="470" height="396" />
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-								<p class="bigtext">Teams Telefonie mit CallOne bedeutet nahtlose Integration.</p>
+								<p class="bigtext"><a href="/ms-teams" class="inline-link">Teams Telefonie</a> mit CallOne bedeutet nahtlose Integration.</p>
 								<br />
 								<ul class="list list--checkmarks list--on-black">
 									<li>Telefonate ins öffentliche Telefonnetz führen</li>
@@ -458,8 +509,6 @@ $faqs->faq_add (
                         <h3>Immer individuell & persönlich</h3>
                         
                         <p class="bigtext">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
-
-                        <p>
                             <a href="/ueber-uns" class="btn btn--secondary btn--centered">Wie wir Sie zum erfolg führen</a>
                         </p>
                     </div>
@@ -728,9 +777,8 @@ $faqs->faq_add (
 									<h4>Teams Telefonie</h4>
 									<p>Integration ins kundeneigenes MS Teams als Hauptclient für die Telefonie.</p>
 								</div>
-								<!-- TODO: Add Link to MS Teams -->
-								<!-- <br /> -->
-								<!-- <p><a href="#todo" class="btn btn--border-black">Mehr erfahren</a></p> -->
+								<br />
+								<p><a href="/ms-teams" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 						</div>
 					</div>

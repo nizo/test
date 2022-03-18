@@ -178,6 +178,13 @@ Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
+Router::add('/ms-teams', 'ms-teams.php', [
+    'title' => 'Teams Telefonie: Die smarte Telefonie für Ihr Unternehmen',
+    'meta_description' => 'Integrieren Sie Ihre Business-Telefonie in Microsoft Teams. Als Teams only oder in Kombination mit der CallOne Callcenter Software auf Ihre Ansprüche abgestimmt!',
+    'menu_position' => 'produkte',
+    'og_image_text' => 'Ihre Unternehmens-__telefonie in Microsoft-Teams',
+    'sitemap_priority' => '0.9'
+]);
 Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
     'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',

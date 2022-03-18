@@ -13,6 +13,9 @@
     &--no-padding-bottom {
         padding-bottom: 0 !important;
     }
+    &--big-padding {
+        padding: var(--gutter-xxl) 25px;
+    }
     &--overflow-protection {
         overflow-y: visible;
         overflow-x: hidden;
@@ -230,7 +233,7 @@
 
         &~.section {
             position: relative;
-            z-index: 99;
+            z-index: 97;
         }
     }
     &--home-slider-1 {
@@ -291,7 +294,7 @@
 
         &~.section {
             position: relative;
-            z-index: 99;
+            z-index: 97;
         }
     }
     &--telefonanlage-slider-1 {
@@ -310,6 +313,61 @@
         background-image: url(../images/backgrounds_png/flatrate-image.png), url(../images/backgrounds_svg/bg-fullcircle-green.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
         @media screen and (max-width: 960px) {
             background-image: url(../images/backgrounds_svg/bg-fullcircle-green.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+        }
+    }
+
+    // MS Teams Slider
+    &--teams-slider {
+        display: none;
+        padding-bottom: 0 !important;
+        background-repeat: no-repeat;
+        background-position: calc(50% - 475px) center, calc(50% - 485px) center, center;
+        background-size: auto, 620px, auto;
+
+        .index-card {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            height: 424px;
+        }
+
+        @media screen and (max-width: 960px) {
+            background-repeat: no-repeat;
+            background-position: center 150px, center;
+            background-size: 731px, auto;
+
+            .index-card {
+                margin-left: -25px;
+                width: calc(100% + 50px);
+                height: auto;
+            }
+        }
+    }
+    &--teams-slider-active {
+        position: relative;
+        z-index: 0;
+        display: block;
+
+        &~.section {
+            position: relative;
+            z-index: 97;
+        }
+    }
+    &--teams-slider-1 {
+        background-image: url(../images/illus/ms-teams-slider-1.png), url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+        }
+    }
+    &--teams-slider-2 {
+        background-image: url(../images/illus/ms-teams-slider-2.png), url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+        }
+    }
+    &--teams-slider-3 {
+        background-image: url(../images/illus/ms-teams-slider-3.png), url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
+        @media screen and (max-width: 960px) {
+            background-image: url(../images/backgrounds_svg/bg-fullcircle-blue.svg), linear-gradient(180deg, #F0F0F0 0%, #FFFFFF 100%);
         }
     }
 
