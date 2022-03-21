@@ -367,10 +367,9 @@ $faqs->faq_add (
 								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
 								<br />
 								<p class="subtext">
-									Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.<!-- <br />
+									Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.<br />
 									<br />
-									<a href="/ms-teams" class="inline-link">Mehr erfahren &rarr;</a> -->
-									<!-- TODO: Add link MS Teams -->
+									<a href="/ms-teams" class="inline-link">Mehr erfahren &rarr;</a>
 								</p>
 							</div>
 						</div>
