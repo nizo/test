@@ -11,6 +11,14 @@ html {
     background: rgba($color-primary, 0.35);
 }
 
+hr.divider {
+    width: 33%;
+    border: 0;
+    height: 2px;
+    background-color: rgba(#000, .2);
+    margin: var(--gutter-l) auto;
+}
+
 // Headlines
 h1 {
     font-family: $font-copy;
@@ -77,6 +85,9 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    a {
+        color: currentColor;
+    }
     u {
         text-decoration: none;
         border-bottom: 4px solid $color-primary;

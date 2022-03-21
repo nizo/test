@@ -28,19 +28,59 @@
 /*
  * FAQ List
  */
+*+.faq-list, .faq-list+* {
+    margin-top: var(--gutter-l);
+}
 .faq-list {
     list-style: none;
+    counter-reset: list-items;
+    box-shadow: 0 4px 18px rgba(#000, .25);
+    border-radius: 10px;
+    padding: var(--gutter-xs);
 
-    li {
-        padding: var(--gutter-xs) 0;
+    li:not(.faq-list__headline) {
+        position: relative;
+        counter-increment: list-items;
+
+        a {
+            display: block;
+            padding: var(--gutter-xs) 9px var(--gutter-xs) 4ch;
+            color: #000;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        &:before {
+            content: counter(list-items) '. ';
+            position: absolute;
+            width: 3ch;
+            text-align: right;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            font-family: $font-headline;
+            font-weight: bold;
+        }
 
         &:after {
             content: "";
+            position: absolute;
+            right: 0;
+            top: calc(50% - 7px);
             display: block;
-            width: 10px;
-            height: 10px;
+            width: 9px;
+            height: 14px;
             background-image: url(../images/icons_svg/arrow-right-black.svg);
             opacity: .2;
+            transition: all .3s ease;
+        }
+
+        &:hover {
+            &:after {
+                opacity: 1;
+            }
         }
 
         &+li {
@@ -48,7 +88,9 @@
         }
     }
 
-    &__q {
+    &__headline {
+        font-weight: bold;
         font-family: $font-headline;
+        font-size: 20px;
     }
 }
