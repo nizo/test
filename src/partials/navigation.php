@@ -162,7 +162,7 @@ require_once('banderole.php');
 
                                     <a href="/ms-teams" class="submenu__link">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-teams.png" alt="" />
+                                            <img src="/assets/images/navigation/menu-teams.png" alt="Teams Telefonie als Cloud Telefonanlage" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Microsoft Teams<span class="submenu__link-tag">Beliebt</span></strong>

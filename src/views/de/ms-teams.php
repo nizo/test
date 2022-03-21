@@ -40,7 +40,7 @@ $faqs->faq_add (
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/header-ms-teams.png" alt="" width="465" height="400"/>
+            <img src="/assets/images/illus/header-ms-teams.png" alt="Teams Telefonie für Ihre Unternehmenstelefonie" width="465" height="400"/>
         </div>
     </header>
 </div>
@@ -51,11 +51,11 @@ $faqs->faq_add (
             Für Unternehmen jeder Größe bieten wir die richtige Telefonie-Lösung. Auch für Ihres.
         </p>
         <div class="logos" style="--height:30px">
-            <img src="/assets/images/client-logos/logo-amorelie.svg" alt="" width="245" height="30">
-            <img src="/assets/images/client-logos/bett.svg" alt="" width="62" height="30">
-            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="" width="" height="30">
-            <img src="/assets/images/client-logos/logo-snipes.svg" alt="" width="85" height="30">
-            <img src="/assets/images/client-logos/logo-igus.svg" alt="" width="58" height="30">
+            <img src="/assets/images/client-logos/logo-amorelie.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Amorelie" width="245" height="30">
+            <img src="/assets/images/client-logos/bett.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Bett1" width="62" height="30">
+            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Seereisedienst" width="" height="30">
+            <img src="/assets/images/client-logos/logo-snipes.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Snipes" width="85" height="30">
+            <img src="/assets/images/client-logos/logo-igus.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Igus" width="58" height="30">
         </div>
     </div>
 </div>
@@ -69,12 +69,12 @@ $faqs->faq_add (
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
-                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="" width="570" height="570" />
+                <img src="/assets/images/illus/ms-teams-vorteile.png" alt="Vorteile mit Microsoft Teams für Unternehmenstelefonie" width="570" height="570" />
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="Businesstelefonie und VoIP Telefonie mit Microsoft Teams" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Maximale Flexibilität Dank Teams-Telefonie</h4>
@@ -83,7 +83,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="VoIP Telefonie mit Microsoft Teams für Unternehmenstelefonie" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie wie Sie sie brauchen</h4>
@@ -92,7 +92,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="" width="80" height="78" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="Microsoft Teams als Cloud Telefonanlage" width="80" height="78" class="co-grid__image--full-width style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Extra Hardware? Unnötig!</h4>
@@ -109,7 +109,7 @@ $faqs->faq_add (
         <div class="breather-box" style="--c-bg:#464775;--c-text:#fff">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--vcentered">
-                    <img src="/assets/images/client-logos/logo-lbs-immobilien-white.svg" alt="" width="255" height="107">
+                    <img src="/assets/images/client-logos/logo-lbs-immobilien-white.svg" alt="LBS Immobilien GmbH NordWest nutzt MS Teams Telefonie für das gesamte Unternehmen" width="255" height="107">
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
                     <h4>Die LBS Immobilien GmbH NordWest über die CallOne Lösung:</h4>
@@ -133,7 +133,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_png/headphone-circle-green-black.png" alt="" width="80" height="80" class="co-grid__image--full-width" style="width:80px !important" />
+                        <img src="/assets/images/icons_png/headphone-circle-green-black.png" alt="Einfach mit Microsoft Teams übers Internet telefonieren" width="80" height="80" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie war nie einfacher</h4>
@@ -142,7 +142,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_png/small_36@2x.png" alt="" width="80" height="74" class="co-grid__image--full-width" style="width:80px !important" />
+                        <img src="/assets/images/icons_png/small_36@2x.png" alt="Mit MS Teams Telefonie optimal erreichbar" width="80" height="74" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Optimale Erreichbarkeit auf allen Endgeräten</h4>
@@ -151,7 +151,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_25.svg" alt="" width="80" height="58" class="co-grid__image--full-width" style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/small_25.svg" alt="Cloud Telefonanlage mit Microsoft Teams für Unternehmenstelefonie" width="80" height="58" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Höchste Flexibilität</h4>
@@ -160,7 +160,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
-                <img src="/assets/images/illus/ms-teams-funktionen.png" alt="" width="570" height="570" />
+                <img src="/assets/images/illus/ms-teams-funktionen.png" alt="Funktionen von Teams Telefonie" width="570" height="570" />
             </div>
         </div>
 
@@ -355,7 +355,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="" width="70" height="70" class="co-grid__image--full-width" />
+                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="Erstgespräch für Teams Telefonie in Ihrem Unternehmen" width="70" height="70" class="co-grid__image--full-width" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <p>
@@ -366,7 +366,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm co-grid__col--vcentered">
-                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="" width="237" height="256" />
+                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="Erstgespräch buchen und MS Teams Telefonie als Unternehmenstelefonie nutzen" width="237" height="256" />
             </div>
         </div>
 
