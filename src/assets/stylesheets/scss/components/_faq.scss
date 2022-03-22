@@ -9,6 +9,9 @@
     display: flex;
     border-radius: 100px;
     box-shadow: 0 4px 18px rgba(#000, .25);
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 
     &__query {
         padding: 0 var(--gutter-m);
@@ -22,6 +25,8 @@
     button {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        border-left: 2px solid rgba(#000, 0.1);
+        background-color: #fff;
     }
 }
 
@@ -32,59 +37,54 @@
     margin-top: var(--gutter-l);
 }
 .faq-list {
+    position: relative;
     list-style: none;
-    counter-reset: list-items;
     box-shadow: 0 4px 18px rgba(#000, .25);
     border-radius: 10px;
-    padding: var(--gutter-xs);
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
 
-    li:not(.faq-list__headline) {
+    li {
         position: relative;
-        counter-increment: list-items;
+        padding: var(--gutter-xs);
+        z-index: 1;
 
-        a {
-            display: block;
-            padding: var(--gutter-xs) 9px var(--gutter-xs) 4ch;
-            color: #000;
+        &:nth-child(odd) {
+            background-color: #fafafa;
+        }
+
+        &:not(.faq-list__headline) {
+            position: relative;
+            padding-right: calc(var(--gutter-xs) + 9px);
+
+            a {
+                display: block;
+                color: #000;
+
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: var(--gutter-xs);
+                top: calc(50% - 7px);
+                display: block;
+                width: 9px;
+                height: 14px;
+                background-image: url(../images/icons_svg/arrow-right-black.svg);
+                opacity: .2;
+                transition: all .3s ease;
+            }
 
             &:hover {
-                color: $color-primary;
+                &:after {
+                    opacity: 1;
+                }
             }
-        }
-
-        &:before {
-            content: counter(list-items) '. ';
-            position: absolute;
-            width: 3ch;
-            text-align: right;
-            top: 50%;
-            transform: translateY(-50%);
-            left: 0;
-            font-family: $font-headline;
-            font-weight: bold;
-        }
-
-        &:after {
-            content: "";
-            position: absolute;
-            right: 0;
-            top: calc(50% - 7px);
-            display: block;
-            width: 9px;
-            height: 14px;
-            background-image: url(../images/icons_svg/arrow-right-black.svg);
-            opacity: .2;
-            transition: all .3s ease;
-        }
-
-        &:hover {
-            &:after {
-                opacity: 1;
-            }
-        }
-
-        &+li {
-            border-top: 2px solid #e5e5e5;
         }
     }
 
@@ -92,5 +92,26 @@
         font-weight: bold;
         font-family: $font-headline;
         font-size: 20px;
+        // border-bottom: 2px solid rgba(#000, .2);
+        background-color: rgba($color-primary, .2) !important;
+
+        a {
+            color: inherit;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+/*
+ * FAQ Content
+ */
+.faq-content {
+    a {
+        &:not(.btn) {
+            @extend .inline-link;
+        }
     }
 }
