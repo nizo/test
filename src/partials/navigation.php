@@ -436,10 +436,11 @@ require_once('banderole.php');
                 // Display Blog Menu
                 ?>
                 <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
-                    <div class="navigation__link navigation__link--arrow">
+                    <div class="navigation__link">
                         <a href="/blog">Blog</a>
                     </div>
 
+                    <?php /*
                     <div class="navigation__submenu submenu">
                         <div class="submenu__inner">
                             <div class="submenu__left">
@@ -473,6 +474,7 @@ require_once('banderole.php');
                             </div> -->
                         </div>
                     </div>
+                    */ ?>
                 </li>
                 <?php
             }

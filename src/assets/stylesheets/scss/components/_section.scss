@@ -479,7 +479,10 @@
 
 @media screen and (max-width: 1000px) {
     .section {
-        padding: 50px 25px;
+
+        &:not(.section--small-padding) {
+            padding: 50px 25px;
+        }
 
         &--mobile-divider {
             padding-bottom: 50px !important;

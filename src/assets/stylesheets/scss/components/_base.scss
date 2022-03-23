@@ -1,5 +1,5 @@
 html {
-    scroll-padding-top: var(--navigationHeightScrolled);
+    scroll-padding-top: calc(var(--navigationHeightScrolled) + 100px);
 }
 
 ::-moz-selection {
