@@ -370,7 +370,28 @@ require_once('banderole.php');
                     <div class="navigation__submenu submenu">
                         <div class="submenu__inner">
                             <div class="submenu__left">
-                                <div class="submenu__row">
+                                <?php
+                                $categories = get_categories(array(
+                                    'parent' => 0
+                                ));
+                                $columns = array_chunk($categories, ceil(count($categories) / 3));
+                                
+                                echo '<div class="submenu__row">';
+                                foreach($columns as $key => $column) {
+                                    echo '<div class="submenu__column'.($key < (count($column) - 1) ? ' submenu__column--border-right' : '').'" style="--col-width:300px">';
+                                    foreach($column as $category) {
+                                        echo '<a href="'.get_category_link($category).'" title="'.$category->description.'" class="submenu__link">';
+                                        echo '  <div class="submenu__link-text">';
+                                        echo '    <strong>'.$category->name.'</strong>';
+                                        echo '    <p>'.substr($category->description, 0, 60).'&hellip;</p>';
+                                        echo '  </div>';
+                                        echo '</a>';
+                                    }
+                                    echo '</div>';
+                                }
+                                echo '</div>';
+                                ?>
+                                <!-- <div class="submenu__row">
                                     <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
                                         <a href="/faq/category/verwaltung/" title="Verwaltung - Administration der Software" class="submenu__link">
                                             <div class="submenu__link-text">
@@ -423,7 +444,7 @@ require_once('banderole.php');
                                             </div>
                                         </a>
                                     </div>
-                                </div>        
+                                </div> -->       
                             </div>
                             <!-- <div class="submenu__right">
                                 
