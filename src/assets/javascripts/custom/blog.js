@@ -1,23 +1,25 @@
-let toc = document.querySelector('#toc_container');
+document.addEventListener('DOMContentLoaded', e => {
+    let blogToc = document.querySelector('#toc_container');
 
-if (toc) {
-    window.addEventListener('scroll', e => {
-        if (parseInt(window.getComputedStyle(toc).top) == (toc.offsetTop - window.scrollY)) {
-            toc.classList.add('toc_container--stuck');
-        } else {
-            toc.classList.remove('toc_container--stuck');
-        }
-    });
-
-    let tocTitle = toc.querySelector('.toc_title');
-    tocTitle.addEventListener('click', e => {
-        toc.classList.toggle('toc_container--open');
-    });
-
-    let tocLinks = toc.querySelectorAll('.toc_list a');
-    tocLinks.forEach(tocLink => {
-        tocLink.addEventListener('click', e => {
-            toc.classList.toggle('toc_container--open');
+    if (blogToc) {
+        window.addEventListener('scroll', e => {
+            if (parseInt(window.getComputedStyle(blogToc).top) == (blogToc.offsetTop - window.scrollY)) {
+                blogToc.classList.add('toc_container--stuck');
+            } else {
+                blogToc.classList.remove('toc_container--stuck');
+            }
         });
-    });
-}
+
+        let blogTocTitle = blogToc.querySelector('.toc_title');
+        blogTocTitle.addEventListener('click', e => {
+            blogToc.classList.toggle('toc_container--open');
+        });
+
+        let blogTocLinks = blogToc.querySelectorAll('.toc_list a');
+        blogTocLinks.forEach(blogTocLink => {
+            blogTocLink.addEventListener('click', e => {
+                blogToc.classList.toggle('toc_container--open');
+            });
+        });
+    }
+});
