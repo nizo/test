@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', e => {
 
     if (blogToc) {
         window.addEventListener('scroll', e => {
-            if (parseInt(window.getComputedStyle(blogToc).top) == (blogToc.offsetTop - window.scrollY)) {
+            if (parseInt(window.getComputedStyle(blogToc).top) <= (blogToc.offsetTop - window.scrollY)) {
                 blogToc.classList.add('toc_container--stuck');
             } else {
                 blogToc.classList.remove('toc_container--stuck');
