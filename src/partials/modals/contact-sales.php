@@ -199,7 +199,6 @@ $uniqueID = uniqid();
             } else {
                 formFields.append('path[]', 'Unbekannt');
             }
-            formFields.set('employees', document.getElementById('workers<?= $uniqueID; ?>').value);
             formFields.set('issue', form.querySelector('select[name="issue"]').value);
             formFields.set('name', form.querySelector('input[name="name"]').value);
             formFields.set('position', form.querySelector('select[name="position"]').value);
