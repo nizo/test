@@ -445,7 +445,7 @@ $faqs->faq_add (
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/menu-customer-service-white.svg" alt="Kundenservice Callcenter Software" width="52" height="51" />
+								<img src="/assets/images/icons_svg/menu-customer-service-white.svg" alt="Kundenservice Callcenter Software" width="50" height="49" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off">

@@ -5,7 +5,7 @@ class Mehrwertrechner {
             defaultCalls: 10000,
             defaultAgents: 25,
             minCalls: 100,
-            minAgents: 10,
+            minAgents: 5,
             einspareffektAnruf: 30, // Sekunden
             stundenlohn: 30, // Euro
             monateImJahr: 12,
@@ -103,12 +103,12 @@ class Mehrwertrechner {
         }
         if (calls < this.values.minCalls) {
             this.formError.classList.add('floating-form__error--active');
-            this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 100 Anrufe eingetragen werden.';
+            this.formErrorText.textContent = 'Für die Berechnung müssen mindestens '+this.values.minCalls+' Anrufe eingetragen werden.';
             return false;
         }
         if (agents < this.values.minAgents) {
             this.formError.classList.add('floating-form__error--active');
-            this.formErrorText.textContent = 'Für die Berechnung müssen mindestens 10 Agenten eingetragen werden.';
+            this.formErrorText.textContent = 'Für die Berechnung müssen mindestens '+this.values.minAgents+' Agenten eingetragen werden.';
             return false;
         }
 

@@ -436,6 +436,17 @@ a.submenu__link {
 /*
  * Responsive Styles
  */
+@media screen and (max-width: 1080px) {
+    .navigation {
+        &__right {
+            a {
+                &.navigation__phonenumber {
+                    display: none;
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: #{$navMinWidth}),
        screen and (max-height: #{$navMinHeight}) {
     .navigation {
