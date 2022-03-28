@@ -419,7 +419,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit');
 	$job->icon_set ($icons['administration']);
-	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->agenda_filename_set ('agenda-student');
 	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
 	$jobs->job_add ($job);
 
