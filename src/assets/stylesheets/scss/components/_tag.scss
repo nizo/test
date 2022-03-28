@@ -26,6 +26,10 @@
     width: auto !important;
     white-space: nowrap;
 
+    &--inline {
+        display: inline-table;
+    }
+
     img {
         height: 14px;
         display: inline-block;
