@@ -400,6 +400,29 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
+	$job = new job ('Office', 'Studentische Aushilfe, Content Marketing', 'Du unterstützt uns bei der Recherche, der Erstellung und dem Publishing von Content und lernst viele Online Marketing Insights.');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-marketing-student-in-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du bist nicht nur Aushilfe, sondern wirst Teil unseres Teams. Und du findest für unseren Content die ein oder andere pfiffige Formulierung und catchy Headlines.');
+	$job->text_description_long_set ('Du bringst eine große Leidenschaft für Sprache und Content-Formen wie Blog und FAQ mit. Eine große Portion Selbstständigkeit hilft auf jeden Fall. Den Rest bringen wir dir bei!');
+	$job->text_description_long_set ('Als Teil unseres Marketing-Teams unterstützt du uns bei der Recherche relevanter Keywords sowie beim Erstellen von verschiedenen Content-Formaten wie Blogbeiträge und FAQ. Unser Content Management System lernst du ebenfalls sehr gut kennen.');
+	$job->text_description_long_set ('Du lernst neben SEO auch Content Marketing Strategien und kannst diese bald selbstständig umsetzen. Natürlich bekommst du eine Einarbeitung und immer Hilfe, wenn du sie benötigst.');
+	$job->text_tasks_set ('Recherche relevanter Themen​');
+	$job->text_tasks_set ('Erstellung von Blogbeiträgen & FAQ​');
+	$job->text_tasks_set ('Publishing der Beiträge');
+	$job->text_tasks_set ('Erstellung einfacher Grafiken');
+	$job->text_tasks_set ('Gemeinsame, stetige Optimierung unseres Content Marketing​');
+	$job->text_requirements_set ('Leidenschaft für pfiffige Texte mit Qualität');
+	$job->text_requirements_set ('Teamfähigkeit, Zuverlässigkeit, Strukturiertheit und Eigeninitiative gehören zu deiner Persönlichkeit');
+	$job->text_requirements_set ('Sehr gutes Deutsch in Wort & Schrift');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit');
+	$job->icon_set ($icons['administration']);
+	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->statement_set (new job_statement ('/assets/images/photos/Magdalena_Lueders.png', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
+	$jobs->job_add ($job);
+
 	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-it-systemkaufmann-frau-'.$job->location_get());
