@@ -27,7 +27,7 @@
             </div>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Jetzt loslegen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Sales kontaktieren</a>
             </p>
         </div>
     </header>
@@ -39,7 +39,7 @@
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
         <div class="anchors__links">
-            <a href="#gruende">Gründe für den Start</a>
+            <a href="#gruende">Vorteile</a>
             <a href="#pakete1" class="anchor-packages">Lösungspakete</a>
             <a href="#referenzen">Referenzen</a>
             <a href="#kosten">Kosten für Neukunden</a>
@@ -98,24 +98,15 @@
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1" data-sticky-text="Unsere Telefonlösung" style="--bg:#fff;">
                     <img src="/assets/images/icons_svg/solution-package.svg" alt="CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage" width="69" height="70" class="mobile-hidden" />
-                    <strong>
-                        Was bietet unsere <br />
-                        Telefonlösung?
-                    </strong>
+                    <strong>Plattform</strong>
                 </div>
                 <div class="tablist__link" data-tab="2" data-sticky-text="Vorteile von CallOne" style="--bg:#fff;">
                     <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="Welche Vorteile bietet die CallOne Callcenter Software" width="70" height="70" class="mobile-hidden" />
-                    <strong>
-                        Was sind die Vorteile <br />
-                        von CallOne?
-                    </strong>
+                    <strong>Vorteile</strong>
                 </div>
                 <div class="tablist__link" data-tab="3" data-sticky-text="Mit CallOne telefonieren" style="--bg:#fff;">
                     <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="Wie telefoniere ich mit der CallOne Call Center Software" width="68" height="70" class="mobile-hidden" />
-                    <strong>
-                        Wie kann ich mit <br />
-                        CallOne telefonieren?
-                    </strong>
+                    <strong>Clients</strong>
                 </div>
             </div>
 
