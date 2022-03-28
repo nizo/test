@@ -8,23 +8,15 @@
                     Tasse Kaffee oder Tee
                 </div>
                 <div class="agenda__item agenda__item--blue agenda__item--exchange">
-                    Operative Abstimmung mit Marketing-Team
-                </div>
-            </div>
-
-            </div>
-        </div>
-
-        <div class="agenda__row">
-            <div class="agenda__col">
-                <div class="agenda__item agenda__item--blue agenda__item--customer-support">
                     Austausch und Ideen-Besprechung mit Team
                 </div>
-                
+                <div class="agenda__item agenda__item--red agenda__item--computer">
+                    Eigenständiges Recherchieren, Texten und Publishen
+                </div>
             </div>
             <div class="agenda__col">
-                <div class="agenda__item agenda__item--red agenda__item--computer">
-                    Recherche, Texten, Publishen
+                <div class="agenda__item agenda__item--blue agenda__item--exchange">
+                    Operative Abstimmung mit Marketing-Team
                 </div>
             </div>
         </div>
