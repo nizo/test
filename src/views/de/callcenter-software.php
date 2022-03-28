@@ -1069,20 +1069,20 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="3">
-				<h3 class="centered mobile-left">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung</h3>
+				<h3 class="centered mobile-left">Wenn Sie Entscheidungen endlich<br />datenbasiert treffen wollen...</h3>
 				<br class="mobile-hidden" />
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md right mobile-left">
-						<h4>Technologie „Made in Germany“</h4>
-						<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
+						<h4>... bekommen Sie passende Dashboards</h4>
+						<p>Als Teamleiter oder Supervisor wünschen Sie sich KPIs auf einen Blick überwachen und steuern zu können? Nutzen Sie unsere webbasierten Echtzeit-Statistiken unserer Callcenter Software für den idealen Überblick über Erreichbarkeiten, Arbeitszeiten und Ihre KPIs.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--4-md centered">
 						<img src="/assets/images/icons_png/overlap.png" alt="CallOne Callcenter Software" width="370" height="225" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md left">
-						<h4>Expertenberatung</h4>
-						<p>Bei uns arbeiten Projektmanager*innen und Kunden Hand in Hand – tagtäglich! Sie erhalten einen zentralen Ansprechpartner. Dies schafft nicht nur unglaubliche Geschwindigkeit im Projekt sondern auch messbare Erfolge in Ihrem ROI.</p>
+						<h4>... bekommen Sie umfangreiche Statistiken</h4>
+						<p>Sie wollen zu Gunsten Ihres Sales und Service Prozesse optimieren? Dann nutzen Sie die Konversationsanalyse und das KI-basierte Coaching in Echtzeit, das Teil unserer Callcenter Software ist. Effizienz und Kundenzufriedenheit bekommen so einen Boost.</p>
 					</div>
 				</div>
 
@@ -1098,7 +1098,7 @@ $faqs->faq_add (
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<blockquote class="quote">„Über richtig guten Kundenservice”</blockquote>
+						<blockquote class="quote">„Über richtig guten Kundenservice auf Basis idealer Daten”</blockquote>
 						<p>
 							<strong>Dr. Rainer Klipp</strong><br />
 							Geschäftsführer von Check24 Versicherungen
