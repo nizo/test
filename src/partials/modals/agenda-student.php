@@ -1,4 +1,4 @@
-<div class="callone-modal callone-modal--no-padding" data-modal="agenda-projektmanager" data-title="Tagesagenda" data-subtitle="Projektmanager*in">
+<div class="callone-modal callone-modal--no-padding" data-modal="agenda-student" data-title="Tagesagenda" data-subtitle="Studentische Aushilfe Marketing">
     <div class="agenda">
         <div class="agenda__title">Dein Zeitslot</div>
 
