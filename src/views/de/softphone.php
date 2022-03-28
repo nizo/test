@@ -41,7 +41,7 @@ $faqs->faq_add (
 			</p>
 		</div>
         <div class="hero__image">
-            <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="Mit CallOne Softphone als Browser Extension direkt aus dem Browser telefonieren" width="560" height="428" sytle="width:100%" />
+            <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="Mit CallOne Softphone als Browser Extension direkt aus dem Browser telefonieren" width="560" height="428" style="width:100%" />
         </div>
 	</div>
 </div>
@@ -64,10 +64,10 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <h2 class="headline__icon">
             <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="Callcenter Software mit Softphone App" width="136" height="136" />
-            <div>
+            <span>
                 <span class="icon-callone">App</span>
                 <span class="headline__text">Softphone</span>
-            </div>
+            </span>
         </h2>
 
         <h1 class="centered mobile-left">Entfesseln Sie Ihre Telefonie!</h1>
@@ -456,16 +456,16 @@ $faqs->faq_add (
 
                             <input type="checkbox" id="callcenter-software" />
                             <label class="usercalc__box" for="callcenter-software">
-                                <div class="usercalc__header">
-                                    <div class="usercalc__icon">
+                                <span class="usercalc__header">
+                                    <span class="usercalc__icon">
                                         <img src="/assets/images/icons_svg/callcenter-software.svg" alt="Call Center Software" width="50" height="51" />
-                                    </div>
-                                    <div class="usercalc__title">
+                                    </span>
+                                    <span class="usercalc__title">
                                         <strong>Callcenter-Software</strong><br />
                                         Für Sales und Service
-                                    </div>
-                                    <div class="usercalc__checkbox"></div>
-                                </div>
+                                    </span>
+                                    <span class="usercalc__checkbox"></span>
+                                </span>
                             </label>
 
                             <p class="centered">

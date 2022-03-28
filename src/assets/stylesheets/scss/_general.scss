@@ -64,10 +64,8 @@ h1, h2, h3, h4,
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	img {
-		
-	}
-	> div {
+
+	> span {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
