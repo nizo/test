@@ -415,13 +415,16 @@ $(document).ready ->
   #
   fallbackBrowser = 'chrome'
   currentBrowser = fallbackBrowser
-  if navigator.userAgent.indexOf("Edg") != -1 || navigator.userAgent.indexOf("Edge") != -1
+  userAgent = '';
+  navigator.userAgentData.brands.forEach (brand) =>
+    userAgent += brand.brand + ' '
+  if userAgent.indexOf("Edg") != -1 || userAgent.indexOf("Edge") != -1
     currentBrowser= 'edge'
-  else if navigator.userAgent.indexOf("Chrome") != -1
+  else if userAgent.indexOf("Chrome") != -1
     currentBrowser = 'chrome'
-  else if navigator.userAgent.indexOf("Firefox") != -1
+  else if userAgent.indexOf("Firefox") != -1
     currentBrowser = 'firefox'
-  else if (navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )
+  else if (userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )
     currentBrowser = 'edge'
   else
     currentBrowser = fallbackBrowser
