@@ -300,11 +300,11 @@ $faqs->faq_add (
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>Business Intelligence</h6>
-                                <p><img src="/assets/images/client-logos/bi-logo-group@2x.png" alt="" width="407" height="40" style="max-width: 407px" /></p>
+                                <p><img src="/assets/images/client-logos/bi-logo-group@2x.png" alt="Business Intelligence Tools mit Callcenter Software verbinden" width="407" height="40" style="max-width: 407px" /></p>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>Customer Relationship Management</h6>
-                                <p><img src="/assets/images/client-logos/crm-logo-group.svg" alt="" width="311" height="90" /></p>
+                                <p><img src="/assets/images/client-logos/crm-logo-group.svg" alt="Business Intelligence Tools mit Callcenter Software verbinden" width="311" height="90" /></p>
                             </div>
                         </div>
                     </div>
@@ -393,7 +393,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="Support Alarm" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>SLA-Alarmierung</h3>
@@ -404,7 +404,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/notification-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/notification-icon.svg" alt="Benachrichtigung" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Multi-KPI Warnungen</h3>
@@ -420,7 +420,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/results-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/results-icon.svg" alt="Ergebnisse" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Berichtsautomatisierung</h3>
@@ -431,7 +431,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/rating-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/rating-icon.svg" alt="Bewertung" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Kundenbewertungen</h3>
@@ -447,7 +447,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--6-xs">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/benchmark-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/benchmark-icon.svg" alt="Benchmark" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Benchmark-Daten</h3>
@@ -458,7 +458,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--6-xs">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/diagrams-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/diagrams-icon.svg" alt="Dashboard nutzen Call Center Software" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Geckoboard & Co.</h3>
