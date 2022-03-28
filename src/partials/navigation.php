@@ -372,8 +372,11 @@ require_once('banderole.php');
                             <div class="submenu__left">
                                 <?php
                                 $categories = get_categories(array(
-                                    'parent' => 0
+                                    'parent' => 0,
+                                    'orderby' => 'name',
+                                    'order' => 'ASC'
                                 ));
+
                                 $columns = array_chunk($categories, ceil(count($categories) / 3));
                                 
                                 echo '<div class="submenu__row">';
@@ -390,61 +393,7 @@ require_once('banderole.php');
                                     echo '</div>';
                                 }
                                 echo '</div>';
-                                ?>
-                                <!-- <div class="submenu__row">
-                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
-                                        <a href="/faq/category/verwaltung/" title="Verwaltung - Administration der Software" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Verwaltung</strong>
-                                                <p>Administration der Software</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/rufnummern/" title="Rufnummern - Verwaltung, Schaltung und Portierung" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Rufnummern</strong>
-                                                <p>Verwaltung, Schaltung und Portierung</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/telefonanlage/" title="Telefonanlage - Voraussetzungen, Einrichtung & Funktionen" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Telefonanlage</strong>
-                                                <p>Voraussetzungen, Einrichtung & Funktionen</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/callcenter-loesung/" title="Callcenter-Lösung - Funktionen und Administration" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Callcenter-Lösung</strong>
-                                                <p>Funktionen und Administration</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="submenu__column" style="--col-width:300px">
-                                        <a href="/faq/category/routing/" title="Routing - Informationen zu Releases und Updates" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Routing</strong>
-                                                <p>Anrufe, Auswahl- und IVR-Menüs, Modulen und Plugins</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/schnittstellen/" title="Schnittstellen - Systemintegration von Schnittstellen & APIs" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Schnittstellen</strong>
-                                                <p>Systemintegration von Schnittstellen & APIs</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/statistiken/" title="Statistiken - Anruf- und Agenten-Statistiken" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Statistiken</strong>
-                                                <p>Anruf- und Agenten-Statistiken</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/weitere-produkte/" title="Weitere Produkte - Fragen zu neusten Features und Tools" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Weitere Produkte</strong>
-                                                <p>Fragen zu neusten Features und Tools</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div> -->       
+                                ?>    
                             </div>
                             <!-- <div class="submenu__right">
                                 

@@ -139,7 +139,7 @@ if (empty ($job))
     </div>
 </div>
 
-<div class="job-details">
+<div class="job-details" style="--top-color:#fff;--bottom-color:#f2f2f2">
     <div class="job-details__item">
         <img src="/assets/images/icons_svg/small_35.svg" alt="Arbeitsstelle" />
         <?= $job->location_get(); ?>
