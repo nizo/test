@@ -403,7 +403,7 @@
         width: 100%;
         color: var(--color-text);
         max-width: 960px;
-        > h1 {
+        > h1, h2 {
             font-family: $font-copy;
             font-weight: normal;
             font-size: 38px;
@@ -439,9 +439,6 @@
             @media screen and (max-width: 900px) {
                 font-size: 28px;
             }
-        }
-        > h2 {
-            margin-top: var(--gutter-xl);
         }
         >h1, >h2, >h3 {
             &+p.centered {
