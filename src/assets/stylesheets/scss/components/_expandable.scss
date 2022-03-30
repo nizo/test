@@ -74,3 +74,15 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .expandable {
+        &__extra {
+            flex-direction: column;
+        }
+        
+        &__extra-left, &__extra-right {
+            flex: 0 0 100%;
+        }
+    }
+}
