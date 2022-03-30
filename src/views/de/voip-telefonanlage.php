@@ -94,7 +94,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide" id="funktionen">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                <h1>VoIP-Telefonanlage maß&shy;geschneidert auf Ihre Bedürfnisse</h1>
+                <h2>VoIP-Telefonanlage maß&shy;geschneidert auf Ihre Bedürfnisse</h2>
                 <p class="bigtext">Sie erhalten bei uns die vielleicht am einfachsten bedienbare virtuelle Telefonanlage für Ihr Unternehmen. Unsere Funktionen werden Sie nicht mehr missen wollen. Versprochen!</p>
 
                 <p class="btn-set">
@@ -119,7 +119,7 @@ $faqs->faq_add (
 
 <div class="section section--white-grey-green-half-circle section--no-padding-top" id="erweiterbarkeit">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Wo andere Anbieter aufhören, fangen wir erst an.</h1>
+        <h2 class="centered mobile-left">Wo andere Anbieter aufhören, fangen wir erst an.</h2>
         <p class="centered mobile-left bigtext">
 			VoIP-Telefonanlagen gibt es viele, doch wir haben uns auf die Fahne geschrieben, Full-Service Anbieter für alle Bereiche Ihrer Telefonie zu sein.<br />
             <br />
@@ -237,7 +237,7 @@ $faqs->faq_add (
 
 <div class="section section--dark-green-black" id="vorteile">
 	<div class="section__content section__content--wide" id="not-convinced-yet">
-		<h1 class="centered mobile-left">Eine Plattform, unzählige Möglichkeiten</h1>
+		<h2 class="centered mobile-left">Eine Plattform, unzählige Möglichkeiten</h2>
 
 		<br class="mobile-hidden" />
 
@@ -487,7 +487,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h1>Guter Service? Das fängt bei uns an.</h1>
+                <h2>Guter Service? Das fängt bei uns an.</h2>
                 <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
@@ -522,7 +522,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-				<h1>Guter Service? Das fängt bei uns an.</h1>
+				<h2>Guter Service? Das fängt bei uns an.</h2>
                 <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
@@ -574,7 +574,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-				<h1>Guter Service? Das fängt bei uns an.</h1>
+				<h2>Guter Service? Das fängt bei uns an.</h2>
                 <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
 
                 <br /><br />
@@ -609,7 +609,7 @@ $faqs->faq_add (
 		
 <div class="section section--light-green" id="geschichten">
 	<div class="section__content section__content--wide">
-		<h1 class="centered mobile-left">Machen Sie es wie unsere Kunden: <br class="mobile-hidden" />Entscheiden Sie sich für eine passgenaue Telefonanlage!</h1>
+		<h2 class="centered mobile-left">Machen Sie es wie unsere Kunden: <br class="mobile-hidden" />Entscheiden Sie sich für eine passgenaue Telefonanlage!</h2>
 		
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
@@ -683,7 +683,7 @@ $faqs->faq_add (
 				
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<h2>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h2>
+						<h3>Fullservice Telefonie mit Fokus auf Sales und Kundenservice</h3>
 						<p class="bigtext">
 							Stressfrei und effizient kommunizieren - GastroHero zeigt, wie es mit der CallOne Cloud Telefonanlage geht. 
 							<span class="readmore">Um dem schnellen Wachstum des eigenen Unternehmens gerecht zu werden, macht sich GastroHero die passgenaue Lösung von CallOne zu Nutzen. So kann sowohl Sales als auch Kundenservice so effizient und zuverlässig wie möglich gestaltet werden.</span>
@@ -691,7 +691,7 @@ $faqs->faq_add (
 						<p><a href="/customer-success" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<div class="content-box content-box--white content-box--shadow">
+						<div class="content-box content-box--white content-box--shadow content-box--nofill">
 							<h4 class="no-gutter-bottom">Branche</h4>
 							<p class="bigtext">Fachhandel für Gastronomiebedarf</p>
 							<br />
@@ -786,7 +786,7 @@ $faqs->faq_add (
 				
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<h2>Eine App, volle Integration - Teams Telefonie für Kundenservice und Office-Telefonie</h2>
+						<h3>Eine App, volle Integration - Teams Telefonie für Kundenservice und Office-Telefonie</h3>
 						<p class="bigtext">
 							Die LBS Immobilien GmbH NordWest setzt auf die Lieblings-App in Kombination mit der CallOne Lösung, um nicht nur die interne Kommunikation über Microsoft Teams abzuwickeln. 
 							<span class="readmore">Die Kombination aus Kundenservice-Callcenter-Betrieb und Office-Telefonie ist fast unschlagbar. Microsoft Teams als Integration der CallOne Rundum-sorglos-Lösung bietet genau die Funktionen, die die LBS Immobilien GmbH NordWest für Costumer Service und interne Kommunikation benötigt.</span>
@@ -794,7 +794,7 @@ $faqs->faq_add (
 						<p><a href="/customer-success" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<div class="content-box content-box--white content-box--shadow">
+						<div class="content-box content-box--white content-box--shadow content-box--nofill">
 							<h4 class="no-gutter-bottom">Branche</h4>
 							<p class="bigtext">Immobilien</p>
 							<br />
@@ -889,7 +889,7 @@ $faqs->faq_add (
 				
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<h2>Intelligentes Routing für minimale Wartezeiten</h2>
+						<h3>Intelligentes Routing für minimale Wartezeiten</h3>
 						<p class="bigtext">
 							Um einen Kundenservice zu bieten, der möglichst effizient abläuft und zur Zufriedenheit der Kunden beiträgt, nutzt Check24 KfZ ein intelligentes Routing mit diversen Vorqualifizierungen. 
 							<span class="readmore">So werden unnötige Wartezeiten vermieden. Dazu gehört auch, dass Check24 Kfz je nach Versicherungsprodukt ein weitreichendes skillbasiertes Routing nutzt und sowohl die Kundenzufriedenheit steigert als auch die interne Effizienz. Dank der CallOne Lösung können Wartschleifen und Routings bei Check24 KfZ genauso individuell sein wie benötigt.</span>
@@ -897,7 +897,7 @@ $faqs->faq_add (
 						<p><a href="/customer-success" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<div class="content-box content-box--white content-box--shadow">
+						<div class="content-box content-box--white content-box--shadow content-box--nofill">
 							<h4 class="no-gutter-bottom">Branche</h4>
 							<p class="bigtext">KFZ-Versicherungen</p>
 							<br />
@@ -974,7 +974,7 @@ $faqs->faq_add (
 				
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<h2>Die Rundum-sorglos-Lösung einfach in eigene Systeme integrieren und loslegen</h2>
+						<h3>Die Rundum-sorglos-Lösung einfach in eigene Systeme integrieren und loslegen</h3>
 						<p class="bigtext">
 							Retourenaufträge für Händler werden bei SodaStream vollautomatisiert abgewickelt, denn eine maßgeschneiderte Lösung von CallOne bezieht die verschiedensten Unternehmensbedürfnisse ein. 
 							<span class="readmore">Hierbei nutzt SodaStream nicht nur eine intelligente und mehrstufige Händlerverifizierung, zusätzlich ist die Schnittstelle komplett ins eigene CRM integriert. Versandaufträge können automatisiert erstellt werden - das spart Zeit und steigert Effizienz.</span>
@@ -982,7 +982,7 @@ $faqs->faq_add (
 						<p><a href="/customer-success" class="btn btn--border-bottom btn--arrow-right-small">Customer Success bei CallOne</a></p>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<div class="content-box content-box--white content-box--shadow">
+						<div class="content-box content-box--white content-box--shadow content-box--nofill">
 							<h4 class="no-gutter-bottom">Branche</h4>
 							<p class="bigtext">Haushalts-Sprudlersysteme</p>
 							<br />

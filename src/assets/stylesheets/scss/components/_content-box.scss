@@ -95,7 +95,7 @@
     }
 }
 
-.co-grid .content-box {
+.co-grid .content-box:not(.content-box--nofill) {
     height: 100%;
 }
 

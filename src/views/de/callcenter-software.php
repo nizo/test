@@ -67,7 +67,7 @@ $faqs->faq_add (
 
 <div class="section section--purple-white" id="features">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
+		<h2 class="centered mobile-left">Über 200 Features - <br class="mobile-hidden" />aber die Magie steckt im Detail</h2>
 	</div>
 
 	<div class="section__content section__content--wide section__content--border-bottom">
@@ -304,7 +304,7 @@ $faqs->faq_add (
 
 <div class="section section--grey-white">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
+		<h2 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h2>
 		<p class="centered mobile-left">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
 	</div>
 
@@ -395,7 +395,7 @@ $faqs->faq_add (
 
 <div class="section section--black" id="mehrwertrechner">
 	<div class="section__content section__content--narrow saving-calculation--mobile">
-		<h1>Lust Ihr Einsparpotential direkt hier zu berechnen?</h1>
+		<h2>Lust Ihr Einsparpotential direkt hier zu berechnen?</h2>
 		
 		<div class="content-box content-box--white">
 			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="Open Desktop Browser für Mehrwertrechner Callcenter Software" width="48" height="48" /></p>
@@ -775,7 +775,7 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white" id="referenzen">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Das glauben Sie uns nicht?</h1>
+		<h2 class="centered mobile-left">Das glauben Sie uns nicht?</h2>
 		
 		<p class="centered bigtext mobile-left">
 			Dann schauen Sie sich jetzt an, was unsere Kunden schon mit der CallOne Callcenter-Software erreichen konnten.
@@ -827,7 +827,7 @@ $faqs->faq_add (
 	<div class="mobile-hidden" style="height: 100px;"></div>
 
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Das hat Sie neugierig gemacht?</h1>
+		<h2 class="centered mobile-left">Das hat Sie neugierig gemacht?</h2>
 		
 		<p class="centered mobile-left">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. <span class="readmore">Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</span></p>
 	</div>
@@ -854,7 +854,7 @@ $faqs->faq_add (
 
 <div class="section section--dark-green-black">
 	<div class="section__content" id="not-convinced-yet">
-		<h1 class="centered mobile-left">Noch nicht überzeugt?</h1>
+		<h2 class="centered mobile-left">Noch nicht überzeugt?</h2>
 
 		<p class="centered mobile-left">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.</p>
 	</div>
