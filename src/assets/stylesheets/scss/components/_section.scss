@@ -208,7 +208,7 @@
         padding-bottom: 0 !important;
         background-repeat: no-repeat;
         background-position: calc(50% + 475px) center, calc(50% + 585px) center, center;
-        background-size: auto, 731px, auto;
+        background-size: auto, 700px, auto;
 
         .index-card {
             border-bottom-left-radius: 0;
@@ -218,7 +218,7 @@
         @media screen and (max-width: 960px) {
             background-repeat: no-repeat;
             background-position: center 150px, center;
-            background-size: 731px, auto;
+            background-size: 700px, auto;
 
             .index-card {
                 margin-left: -25px;
