@@ -32,7 +32,7 @@ h1, h2 {
 
 h2 {
     // font-size: 38px;
-    // margin-bottom: var(--gutter-s);
+    margin-bottom: var(--gutter-s);
 
     @media screen and (max-width: 800px) {
         font-size: 28px;

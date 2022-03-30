@@ -66,10 +66,12 @@ $product->structured_data_get_code ();
 <div class="section">
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left" style="margin-top:0">
-            <span>Integrationen für CRM/Ticketing</span><br>
+            Integrationen für CRM/Ticketing
+        </h2>
+        <p class="bigtext centered mobile-left">
             Alle dürfen mitspielen. <br class="mobile-hidden">
             Auch Ihre Lieblings-Businesslösung.
-        </h2>
+        </p>
 
         <div class="grid">
             <div class="col-3 card card--shadow" style="--c:#007537">
@@ -155,10 +157,12 @@ $product->structured_data_get_code ();
 
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left">
-            <span>Apps für Reports, Wallboards, Statistiken</span><br>
-            Richtig Spaß macht:<br />
-            Ungenutzte Potenziale entdecken
+            Apps für Reports, Wallboards, Statistiken
         </h2>
+        <p class="bigtext centered mobile-left">
+            Richtig Spaß macht: <br class="mobile-hidden" />
+            Ungenutzte Potenziale entdecken
+        </p>
 
         <div class="grid">
             <div class="col-3 card card--shadow" style="--c:#03363D" id="tableau">
@@ -231,9 +235,11 @@ $product->structured_data_get_code ();
     </div>
 
     <div class="section__content section__content--narrow">
-        <h2 class="centered mobile-left">
-            <span>Browser-Erweiterung</span><br>
+        <h4 class="centered mobile-left">
             Direkt aus dem Browser anrufen
+        </h4>
+        <h2 class="centered mobile-left" style="margin-top:0">
+            Browser-Erweiterung
         </h2>
 
         <p class="centered mobile-left"> Die <a href="/softphone" class="inline-link">CallOne Browser-Erweiterung</a> integriert sich perfekt in Ihre Outbound-Prozesse: Für effizientere Outbound-Calls aus allen browserbasierten Tools. Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen!</p>
@@ -272,7 +278,7 @@ $product->structured_data_get_code ();
 <div class="section section--black">
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left" style="margin-top:0">
-            Schnelle und professionelle<br />
+            Schnelle und professionelle<br class="mobile-hidden" />
             Implementierung mit <span class="color-green">100% Datenschutz</span>
         </h2>
 
@@ -303,7 +309,7 @@ $product->structured_data_get_code ();
                         <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="92" height="50" style="height:50px" />
                     </p>
                     <br>
-                    <h3>Garantierte 99,999% Erreichbarkeit</h3>
+                    <h3>Garantierte <br class="mobile-hidden" />99,999% <br class="mobile-hidden" />Erreichbarkeit</h3>
                     <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>
                 </div>
             </div>
