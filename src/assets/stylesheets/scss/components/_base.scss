@@ -20,7 +20,7 @@ hr.divider {
 }
 
 // Headlines
-h1 {
+h1, h2 {
     font-family: $font-copy;
     font-size: 38px;
     font-weight: 400;
@@ -31,8 +31,8 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
-    margin-bottom: var(--gutter-s);
+    // font-size: 38px;
+    // margin-bottom: var(--gutter-s);
 
     @media screen and (max-width: 800px) {
         font-size: 28px;

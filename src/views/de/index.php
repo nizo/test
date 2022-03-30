@@ -52,7 +52,7 @@
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--5-lg co-grid__col--vcentered">
-                <h1>Die CallOne Plattform</h1>
+                <h2>Die CallOne Plattform</h2>
                 <p class="bigtext">
                     CallOne liefert cloudbasierte Telekommunikationslösungen, mit denen Sie alle Bereiche Ihrer Unternehmenstelefonie effizient und intuitiv steuern können. <span class="readmore">Herzstück ist unsere <a href="/callcenter-software" class="inline-link">Callcenter Software</a>, die speziell für die Anforderungen im Kundenservice oder Sales geeignet ist. Vielzählige <a href="/voip-api" class="inline-link">Schnittstellen</a> und fertige <a href="/callcenter-software-apps" class="inline-link">Konnektoren</a> integrieren Ihre bestehenden Businesslösungen, um das beste Kundenerlebnis zu schaffen.</span>
                 </p>
@@ -287,7 +287,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
+                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -338,7 +338,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
+                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -389,7 +389,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
+                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -440,7 +440,7 @@
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h1>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h1>
+                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
 
                 <div class="index-card">
                     <div class="index-card__top">
@@ -488,7 +488,7 @@
 
 <div class="section section--black-grey section--wave-animation" id="kosten">
     <div class="section__content section__content--narrow">
-        <h1 class="centered mobile-left">Kundenorientierte Unternehmen <br class="mobile-hidden" />vertrauen auf CallOne</h1>
+        <h2 class="centered mobile-left">Kundenorientierte Unternehmen <br class="mobile-hidden" />vertrauen auf CallOne</h2>
         <p class="centered mobile-left">Kunden kommen zu CallOne wenn sie richtig Geld sparen wollen! Wir sind fokussiert auf Ihren Return-on-Investment. Gemeinsam drehen wir an den großen Kosten- und Einsparpotenzialen.</p>
     </div>
     <div class="section__content section__content--wide">
