@@ -9,7 +9,7 @@ if (empty ($job))
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "JobPosting",
   "hiringOrganization": {
     "@type": "Organization",
