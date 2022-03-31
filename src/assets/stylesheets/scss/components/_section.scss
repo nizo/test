@@ -379,7 +379,7 @@
             content: "";
             position: absolute;
             z-index: -1;
-            bottom: -40px;
+            bottom: -75px;
             left: 47.5%;
             width: 100%;
             height: 588px;
@@ -388,11 +388,9 @@
             background-repeat: no-repeat;
             background-position: center bottom;
         }
-        @media screen and (max-width: 1220px) {
-            // padding-bottom: var(--gutter-l) !important;
+        @media screen and (max-width: 960px) {
             &:after {
-                left: 50%;
-                transform: translate3d(-50%, 200px, 0);
+                display: none;
             }
         }
     }
