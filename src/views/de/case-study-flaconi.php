@@ -68,12 +68,12 @@
 <div class="wrapper">
   <div class="content narrow">
     <h2>Über Flaconi</h2>
-    <p><a href="http://www.flaconi.de">Flaconi</a> bietet seit Juli 2011 in seinem Online-Shop Flaconi.de eine umfangreiche Auswahl an Marken-Parfums, Pflegeprodukten und Make-up. Neben einem perfekten Kundenservice, einem hochwertigen Design und einer intuitiven Bedienung machen auch vielseitige Produktinformationen den Einkauf im Internet zu einem emotionalen, einzigartigen Erlebnis.</p>
+    <p><a href="https://www.flaconi.de">Flaconi</a> bietet seit Juli 2011 in seinem Online-Shop Flaconi.de eine umfangreiche Auswahl an Marken-Parfums, Pflegeprodukten und Make-up. Neben einem perfekten Kundenservice, einem hochwertigen Design und einer intuitiven Bedienung machen auch vielseitige Produktinformationen den Einkauf im Internet zu einem emotionalen, einzigartigen Erlebnis.</p>
     <p>Das Sortiment erstreckt sich von aktuellen Neuerscheinungen bis zu langjährigen Klassikern: das wöchentlich wachsende Markenangebot umfasst bereits über 15.000 Produkte, u.a. von Hugo Boss, Bvlgari, Calvin Klein, Chanel, Davidoff, Diesel, Dior, Dolce & Gabbana, Escada, Giorgio Armani, Gucci, Jean Paul Gaultier, Jil Sander, Joop!, Kanebo, Lacoste, Lancôme, Marc Jacobs, Paco Rabanne, Wolfgang Joop, Yves Saint Laurent.</p>
 
     <p>Bei Flaconi ist der Versand ab 29€ kostenfrei. 2-3 Proben liegen jeder Bestellung bei. Die Zustellung erfolgt bereits nach 1–2 Tagen.</p>
     
-    <p>Aktuelle Presseinformationen und Bildmaterial finden Sie online im <a href="http://www.flaconi.de/presse">Flaconi Presseservice</a>. Folgen Sie Flaconi auf <a href="http://www.facebook.com/flaconi.de">Facebook</a>, <a href="http://gplus.to/Flaconi">Google+</a> und im <a href="http://magazin.flaconi.de/">Magazin</a>.</p>
+    <p>Aktuelle Presseinformationen und Bildmaterial finden Sie online im <a href="https://www.flaconi.de/presse">Flaconi Presseservice</a>. Folgen Sie Flaconi auf <a href="https://www.facebook.com/flaconi.de">Facebook</a>, <a href="https://gplus.to/Flaconi">Google+</a> und im <a href="https://magazin.flaconi.de/">Magazin</a>.</p>
   </div>
 </div>
 
