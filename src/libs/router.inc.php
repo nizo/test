@@ -255,7 +255,7 @@ Router::add('/ueber-uns', 'ueber-uns.php', [
 ** ** CASESTUDIES ** **
 ** ***************** */
 Router::add('/referenzen', 'referenzen.php', [
-    'title' => 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern',
+    'title' => 'Bereits zufriedene Kunden mit einer CallOne-Lösung',
     'body_class' => 'bg-casestudy',
     'og_image_text' => 'CallOne Referenzen'
 ]);
