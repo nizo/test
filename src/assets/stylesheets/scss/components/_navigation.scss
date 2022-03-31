@@ -420,8 +420,17 @@ $navMinHeight: 570px;
     }
 }
 a.submenu__link {
+    // &.submenu__link--active {
+    //     background-image: linear-gradient(0deg, #EDF2E2, #fff, #EDF2E2);
+    //     background-color: rgba(#000, .025);
+    //     strong {
+    //         border-bottom: 2px solid $color-primary;
+    //     }
+    // }
+
     &:hover {
         background-color: rgba(#000, .05);
+        background-image: unset;
         .submenu__link-text {
             strong {
                 // color: #427709;

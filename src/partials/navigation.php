@@ -51,7 +51,7 @@ require_once('banderole.php');
                                     </div>
                                 </div>
 
-                                <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines">
+                                <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/voip-telefonanlage') ?>">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/menu-callcenter-software.png" alt="Cloud Telefonanlage von CallOne" />
                                     </div>
@@ -61,7 +61,7 @@ require_once('banderole.php');
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software') ?>">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
                                     </div>
@@ -71,7 +71,7 @@ require_once('banderole.php');
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/menu-apis.png" alt="CRM Integration und Schnittstellenanbindung an CallOne mit APIs" />
                                     </div>
@@ -91,21 +91,21 @@ require_once('banderole.php');
                                     </div>
                                 </div>
 
-                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines">
+                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
                                     <div class="submenu__link-text">
                                         <strong>Smarte Warteschleifen</strong>
                                         <p>Bessere Erreichbarkeit mit Rückrufoptionen</p>
                                     </div>
                                 </a>
 
-                                <a href="/statistiken" class="submenu__link submenu__link--3-lines">
+                                <a href="/statistiken" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/statistiken') ?>">
                                     <div class="submenu__link-text">
                                         <strong>Echtzeit-Analysen</strong>
                                         <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software-apps') ?>">
                                     <div class="submenu__link-text">
                                         <strong>Passgenaue Einbindung</strong>
                                         <p>Teams-Telefonie, CRM- und BI-Apps, Schnittstellen</p>
@@ -150,7 +150,7 @@ require_once('banderole.php');
                             
                             <div class="submenu__row submenu__row--fill">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
-                                <a href="/0800-lokal-nummern" class="submenu__link">
+                                <a href="/0800-lokal-nummern" class="submenu__link<?= getPageActiveClass('/0800-lokal-nummern') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-numbers.png" alt="lokale, nationale und internationale Rufnummern schalten" />
                                         </div>
@@ -160,7 +160,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/ms-teams" class="submenu__link">
+                                    <a href="/ms-teams" class="submenu__link<?= getPageActiveClass('/ms-teams') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-teams.png" alt="Teams Telefonie als Cloud Telefonanlage" />
                                         </div>
@@ -170,7 +170,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/callcenter-bot" class="submenu__link">
+                                    <a href="/callcenter-bot" class="submenu__link<?= getPageActiveClass('/callcenter-bot') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-callcenter-bot.png" alt="Sprachgesteuerte KI Systeme mit dem CallOne Callcenter Bot" />
                                         </div>
@@ -181,7 +181,7 @@ require_once('banderole.php');
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/softphone" class="submenu__link">
+                                    <a href="/softphone" class="submenu__link<?= getPageActiveClass('/softphone') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-softphone.png" alt="VoIP Telefonie mit dem CallOne Softphone" />
                                         </div>
@@ -191,7 +191,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
                                     
-                                    <a href="/call-tracking" class="submenu__link">
+                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
                                         </div>
@@ -201,7 +201,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
                                     
-                                    <a href="/callcenter-sprachanalyse" class="submenu__link">
+                                    <a href="/callcenter-sprachanalyse" class="submenu__link<?= getPageActiveClass('/callcenter-sprachanalyse') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
                                         </div>
@@ -248,7 +248,7 @@ require_once('banderole.php');
                                 </div>
                             </a>
 
-                            <a href="/preiskalkulator" class="submenu__link">
+                            <a href="/preiskalkulator" class="submenu__link<?= getPageActiveClass('/preiskalkulator') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Preiskonfigurator</strong>
                                     <p>Finden Sie heraus, wieviel Sie Ihr CallOne-Paket ungefähr kostet</p>
@@ -276,7 +276,7 @@ require_once('banderole.php');
                             </div>
                             <div class="submenu__row">
                                 <div class="submenu__column" style="--col-width:300px">
-                                    <a href="/case-study-check24" class="submenu__link">
+                                    <a href="/case-study-check24" class="submenu__link<?= getPageActiveClass('/case-study-check24') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/check24.png" alt="Check24 Kundenzufriedenheit CallOne" />
                                         </div>
@@ -286,7 +286,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
         
-                                    <a href="/case-study-flaconi" class="submenu__link">
+                                    <a href="/case-study-flaconi" class="submenu__link<?= getPageActiveClass('/case-study-flaconi') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/flaconi.png" alt="Flaconi Kundenzufriedenheit CallOne" />
                                         </div>
@@ -296,7 +296,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/case-study-niceshops" class="submenu__link">
+                                    <a href="/case-study-niceshops" class="submenu__link<?= getPageActiveClass('/case-study-niceshops') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/niceshops.png" alt="Niceshops Kundenzufriedenheit CallOne" />
                                         </div>
@@ -306,7 +306,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
     
-                                    <a href="/case-study-apodiscounter" class="submenu__link">
+                                    <a href="/case-study-apodiscounter" class="submenu__link<?= getPageActiveClass('/case-study-apodiscounter') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/apodiscounter.png" alt="Apodiscounter Kundenzufriedenheit CallOne" />
                                         </div>
@@ -326,28 +326,28 @@ require_once('banderole.php');
                                 </div>
                             </div>
 
-                            <a href="/customer-success" class="submenu__link">
+                            <a href="/customer-success" class="submenu__link<?= getPageActiveClass('/customer-success') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Customer Success</strong>
                                     <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
                                 </div>
                             </a>
 
-                            <a href="/dsgvo-telekommunikation" class="submenu__link">
+                            <a href="/dsgvo-telekommunikation" class="submenu__link<?= getPageActiveClass('/dsgvo-telekommunikation') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Datenschutz</strong>
                                     <p>Wie wir Ausfallsicherheit und DSGVO-Kompatibilität garantieren</p>
                                 </div>
                             </a>
 
-                            <a href="/ueber-uns" class="submenu__link">
+                            <a href="/ueber-uns" class="submenu__link<?= getPageActiveClass('/ueber-uns') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Über uns</strong>
                                     <p>Wer wir sind, unsere Geschichte und Unternehmenskultur</p>
                                 </div>
                             </a>
 
-                            <a href="/karriere-bei-callone" class="submenu__link">
+                            <a href="/karriere-bei-callone" class="submenu__link<?= getPageActiveClass('/karriere-bei-callone') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Karriere<?php if ($jobsCount > 0) { ?><span class="submenu__link-tag"><?= $jobsCount; ?> Jobs</span><?php } ?></strong>
                                     <p>Wir suchen Talente, die die CallOne Erfolgsgeschichte weiterschreiben</p>

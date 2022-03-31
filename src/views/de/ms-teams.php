@@ -168,7 +168,7 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--big-padding section--teams-slider section--teams-slider-1 section--teams-slider-active">
+<div class="section section--big-padding section--teams-slider section--teams-slider-1">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
@@ -176,7 +176,7 @@ $faqs->faq_add (
                 <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
                 <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
 
-                <div class="index-card">
+                <div class="index-card index-card-1">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -199,20 +199,8 @@ $faqs->faq_add (
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--big-padding section--teams-slider section--teams-slider-2">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
-                <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
-
-                <div class="index-card">
+                <div class="index-card index-card-2">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -235,20 +223,8 @@ $faqs->faq_add (
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--big-padding section--teams-slider section--teams-slider-3">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
-                <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
-
-                <div class="index-card">
+                <div class="index-card index-card-3">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -375,13 +351,14 @@ $faqs->faq_add (
 </div>
 
 <script>
-    let slides = document.querySelectorAll('.section--teams-slider');
+    let slidesSection = document.querySelector('.section--teams-slider');
+    let indexCards = slidesSection.querySelectorAll('.index-card');
     let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
     let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
     let currentSlide = 1;
     let slidesInterval = null;
     window.addEventListener('scroll', e => {
-        let offsetTop = slides[0].getBoundingClientRect().top;
+        let offsetTop = slidesSection.getBoundingClientRect().top;
         if (!slidesInterval && offsetTop < window.innerHeight * 0.7) {
             slidesInterval = setInterval(nextSlide, 3000);
         }
@@ -404,21 +381,18 @@ $faqs->faq_add (
 
     function nextSlide() {
         currentSlide++;
-        if (currentSlide > slides.length)
+        if (currentSlide > indexCards.length)
             currentSlide = 1;
         updateSlide();
     }
     function prevSlide() {
         currentSlide--;
         if (currentSlide < 1)
-            currentSlide = slides.length;
+            currentSlide = indexCards.length;
         updateSlide();
     }
     function updateSlide() {
-        slides.forEach(slide => {
-            slide.classList.remove('section--teams-slider-active');
-            if (slide.classList.contains('section--teams-slider-'+currentSlide))
-                slide.classList.add('section--teams-slider-active');
-        });
+        slidesSection.classList.remove('section--teams-slider-1', 'section--teams-slider-2', 'section--teams-slider-3');
+        slidesSection.classList.add('section--teams-slider-'+currentSlide);
     }
 </script>

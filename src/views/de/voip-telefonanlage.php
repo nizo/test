@@ -483,7 +483,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--telefonanlage-slider section--telefonanlage-slider-1 section--telefonanlage-slider-active">
+<div class="section section--telefonanlage-slider section--telefonanlage-slider-1">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
@@ -492,7 +492,7 @@ $faqs->faq_add (
 
                 <br /><br />
 
-                <div class="index-card">
+                <div class="index-card index-card-1">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -513,21 +513,8 @@ $faqs->faq_add (
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--telefonanlage-slider section--telefonanlage-slider-2">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-				<h2>Guter Service? Das fängt bei uns an.</h2>
-                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
-
-                <br /><br />
-
-                <div class="index-card">
+				<div class="index-card index-card-2">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -565,21 +552,8 @@ $faqs->faq_add (
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--telefonanlage-slider section--telefonanlage-slider-3">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-				<h2>Guter Service? Das fängt bei uns an.</h2>
-                <p class="bigtext">Ihr Erfolg in der Businesstelefonie steht für uns an oberster Stelle. Als Infrastrukturanbieter legen wir Wert darauf, Ihren Anforderungen zu 100 % gerecht zu werden.</p>
-
-                <br /><br />
-
-                <div class="index-card">
+				<div class="index-card index-card-3">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -606,7 +580,7 @@ $faqs->faq_add (
         </div>
     </div>
 </div>		
-		
+
 <div class="section section--light-green" id="geschichten">
 	<div class="section__content section__content--wide">
 		<h2 class="centered mobile-left">Machen Sie es wie unsere Kunden: <br class="mobile-hidden" />Entscheiden Sie sich für eine passgenaue Telefonanlage!</h2>
@@ -1026,7 +1000,8 @@ $faqs->faq_add (
 </div>
 
 <script>
-    let telefonanlageSlides = document.querySelectorAll('.section--telefonanlage-slider');
+    let telefonanlageSlidesSection = document.querySelector('.section--telefonanlage-slider');
+	let indexCards = telefonanlageSlidesSection.querySelectorAll('.index-card');
     let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
     let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
     let currentSlide = 1;
@@ -1034,7 +1009,7 @@ $faqs->faq_add (
 
 	// Automatically cycle through slides
     // window.addEventListener('scroll', e => {
-    //     let offsetTop = telefonanlageSlides[0].getBoundingClientRect().top;
+    //     let offsetTop = telefonanlageSlidesSection.getBoundingClientRect().top;
     //     if (!telefonanlageSlidesInterval && offsetTop < window.innerHeight * 0.7) {
     //         telefonanlageSlidesInterval = setInterval(nextSlide, 5000);
     //     }
@@ -1057,25 +1032,21 @@ $faqs->faq_add (
 
     function nextSlide() {
         currentSlide++;
-        if (currentSlide > telefonanlageSlides.length)
+        if (currentSlide > indexCards.length)
             currentSlide = 1;
         updateSlide();
     }
     function prevSlide() {
         currentSlide--;
         if (currentSlide < 1)
-            currentSlide = telefonanlageSlides.length;
+            currentSlide = indexCards.length;
         updateSlide();
     }
     function updateSlide() {
-        telefonanlageSlides.forEach(telefonanlageSlide => {
-            telefonanlageSlide.classList.remove('section--telefonanlage-slider-active');
-            if (telefonanlageSlide.classList.contains('section--telefonanlage-slider-'+currentSlide)) {
-                telefonanlageSlide.classList.add('section--telefonanlage-slider-active');
-				setTimeout(e => {
-					scrollTo(telefonanlageSlide);
-				}, 30);
-			}
-        });
+		telefonanlageSlidesSection.classList.remove('section--telefonanlage-slider-1', 'section--telefonanlage-slider-2', 'section--telefonanlage-slider-3');
+        telefonanlageSlidesSection.classList.add('section--telefonanlage-slider-'+currentSlide);
+		setTimeout(e => {
+			scrollTo(telefonanlageSlidesSection);
+		}, 30);
     }
 </script>

@@ -40,7 +40,7 @@
         </div>
         <div class="anchors__links">
             <a href="#gruende">Vorteile</a>
-            <a href="#pakete1" class="anchor-packages">Lösungspakete</a>
+            <a href="#pakete">Lösungspakete</a>
             <a href="#referenzen">Referenzen</a>
             <a href="#kosten">Kosten für Neukunden</a>
         </div>
@@ -282,14 +282,14 @@
     </div>
 </div>
 
-<div class="section section--home-slider section--home-slider-1 section--home-slider-active" id="pakete1">
+<div class="section section--home-slider section--home-slider-1" id="pakete">
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <h4>Callcenter Software Anbieter gibt es viele...</h4>
                 <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
 
-                <div class="index-card">
+                <div class="index-card index-card-1">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -328,19 +328,8 @@
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--home-slider section--home-slider-2" id="pakete2">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
-
-                <div class="index-card">
+                <div class="index-card index-card-2">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -379,19 +368,8 @@
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--home-slider section--home-slider-3" id="pakete3">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
-
-                <div class="index-card">
+                <div class="index-card index-card-3">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -430,19 +408,8 @@
                         <p class="subtext centered">*erreichte Referenzwerte unserer Kunden</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="section section--home-slider section--home-slider-4" id="pakete4">
-    <div class="section__content section__content--wide">
-        <div class="co-grid co-grid--no-margin-bottom">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Callcenter Software Anbieter gibt es viele...</h4>
-                <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
-
-                <div class="index-card">
+                <div class="index-card index-card-4">
                     <div class="index-card__top">
                         <div class="index-card__arrow index-card__arrow--left"></div>
                         <div class="index-card__header">
@@ -540,14 +507,14 @@
 </div>
 
 <script>
-    let homeSlides = document.querySelectorAll('.section--home-slider');
+    let homeSlidesSection = document.querySelector('.section--home-slider');
+    let indexCards = homeSlidesSection.querySelectorAll('.index-card');
     let nextSlideButtons = document.querySelectorAll('.index-card__arrow--right');
     let prevSlideButtons = document.querySelectorAll('.index-card__arrow--left');
-    let anchorButton = document.querySelector('.anchor-packages');
     let currentSlide = 1;
     let homeSlidesInterval = null;
     window.addEventListener('scroll', e => {
-        let offsetTop = homeSlides[0].getBoundingClientRect().top;
+        let offsetTop = homeSlidesSection.getBoundingClientRect().top;
         if (!homeSlidesInterval && offsetTop < window.innerHeight * 0.7) {
             homeSlidesInterval = setInterval(nextSlide, 3000);
         }
@@ -570,22 +537,18 @@
 
     function nextSlide() {
         currentSlide++;
-        if (currentSlide > homeSlides.length)
+        if (currentSlide > indexCards.length)
             currentSlide = 1;
         updateSlide();
     }
     function prevSlide() {
         currentSlide--;
         if (currentSlide < 1)
-            currentSlide = homeSlides.length;
+            currentSlide = indexCards.length;
         updateSlide();
     }
     function updateSlide() {
-        anchorButton.setAttribute('href', '#pakete' + currentSlide);
-        homeSlides.forEach(homeSlide => {
-            homeSlide.classList.remove('section--home-slider-active');
-            if (homeSlide.classList.contains('section--home-slider-'+currentSlide))
-                homeSlide.classList.add('section--home-slider-active');
-        });
+        homeSlidesSection.classList.remove('section--home-slider-1', 'section--home-slider-2', 'section--home-slider-3', 'section--home-slider-4');
+        homeSlidesSection.classList.add('section--home-slider-'+currentSlide);
     }
 </script>
