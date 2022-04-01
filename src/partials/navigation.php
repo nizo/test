@@ -53,17 +53,17 @@ require_once('banderole.php');
 
                                 <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/voip-telefonanlage') ?>">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-callcenter-software.png" alt="Cloud Telefonanlage von CallOne" />
+                                        <img src="/assets/images/navigation/menu-cloud-voip-telefonanlage.png" alt="Cloud Telefonanlage von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
-                                        <strong>Cloud Telefonanlage</strong>
-                                        <p>Egal ob im Büro oder Homeoffice. Perfekte Erreichbarkeit für Ihre Kolleg*innen</p>
+                                        <strong>Telefonanlage in der Cloud</strong>
+                                        <p>Egal ob im Büro oder Homeoffice. Gehostet in der deutschen Cloud.</p>
                                     </div>
                                 </a>
 
                                 <a href="/callcenter-software" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software') ?>">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
+                                        <img src="/assets/images/navigation/menu-callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>Callcenter-Software<span class="submenu__link-tag">Beliebt</span></strong>
@@ -115,13 +115,13 @@ require_once('banderole.php');
                         </div>
                         <div class="submenu__right submenu__right--align-bottom">
                             <div class="submenu__ad">
-                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="CallOne Softphone für VoIP Telefonie" /></a>
+                                <a href="/ms-teams"><img src="/assets/images/navigation/teams-ad.svg" alt="Teams Telefonie als Cloud Telefonanlage" /></a>
                             </div>
 
-                            <a href="/softphone" class="submenu__link submenu__link--3-lines">
+                            <a href="/ms-teams" class="submenu__link submenu__link--3-lines">
                                 <div class="submenu__link-text">
-                                    <strong>Softphone<span class="submenu__link-tag">Kostenlos</span></strong>
-                                    <p>Telefonieren Sie in Ihrem Lieblingsbrowser mit unser Browser Extension</p>
+                                    <strong>Microsoft Teams</strong>
+                                    <p>Integrieren Sie Ihre CallOne-Telefonanlage in Microsoft-Teams. Smarte Businesstelefonie war noch nie so einfach.</p>
                                 </div>
                             </a>
                         </div>
