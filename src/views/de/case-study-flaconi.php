@@ -73,7 +73,7 @@
 
     <p>Bei Flaconi ist der Versand ab 29€ kostenfrei. 2-3 Proben liegen jeder Bestellung bei. Die Zustellung erfolgt bereits nach 1–2 Tagen.</p>
     
-    <p>Aktuelle Presseinformationen und Bildmaterial finden Sie online im <a href="https://www.flaconi.de/presse">Flaconi Presseservice</a>. Folgen Sie Flaconi auf <a href="https://www.facebook.com/flaconi.de">Facebook</a>, <a href="https://gplus.to/Flaconi">Google+</a> und im <a href="https://magazin.flaconi.de/">Magazin</a>.</p>
+    <p>Aktuelle Presseinformationen und Bildmaterial finden Sie online im <a href="https://www.flaconi.de/presse/uebersicht/">Flaconi Presseservice</a>. Folgen Sie Flaconi auf <a href="https://www.facebook.com/flaconi.de">Facebook</a> und im <a href="https://www.flaconi.de/magazin/">Magazin</a>.</p>
   </div>
 </div>
 
