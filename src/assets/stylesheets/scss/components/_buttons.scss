@@ -235,6 +235,11 @@
 	&--centered {
 		justify-content: center;
 	}
+
+	&--spread {
+		justify-content: space-between;
+	}
+
 	.btn {
 		margin-left: var(--gutter-xs);
 		margin-right: var(--gutter-xs);

@@ -59,6 +59,13 @@
     &~.navigation {
         top: calc(var(--banderoleHeight) - var(--navigationOffset));
     }
+    &~.navigation-spacer {
+        height: calc(var(--banderoleHeight) - var(--navigationOffset) + var(--navigationHeight));
+        @media screen and (max-width: 950px),
+                screen and (max-height: 570px) {
+            height: calc(var(--banderoleHeight) - var(--navigationOffset) + var(--navigationHeightScrolled));
+        }
+    }
     &~.navigation--scrolled {
         top: calc(var(--banderoleHeight) - var(--navigationOffsetScrolled));
         padding-top: var(--navigationOffsetScrolled);
@@ -74,8 +81,15 @@
     &~.navigation--scrolled~.navigation__shadow {
         top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
     }
-    &~* .tablist__links--sticky {
+    &~.navigation--scrolled~.navigation-spacer {
+        height: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+    }
+    &~* .tablist__links--sticky, &~* #toc_container {
         top: calc(var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled));
+
+        .toc_list {
+            max-height: calc(100vh - ((var(--navigationHeightScrolled) + var(--banderoleHeight) - var(--navigationOffsetScrolled)) * 2) - 48px);
+        }
     }
 }
 

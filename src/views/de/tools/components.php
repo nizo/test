@@ -604,9 +604,22 @@
                 <li><code>.fade-box--on-black</code>: Version for dark backgrounds</li>
             </ul>
         </div>
-        <div class="components__preview">
+        <style>
+            .fade-box-component {
+                background-image: linear-gradient(#000, #000);
+                background-repeat: no-repeat;
+                background-size: 100% 50%;
+                background-position: center bottom;
+            }
+        </style>
+        <div class="components__preview fade-box-component">
             <div>
                 <div class="fade-box">
+                    <h2 class="centered">Ansprechpartnerin</h2>
+                    <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
+                </div>
+
+                <div class="fade-box fade-box--on-black">
                     <h2 class="centered">Ansprechpartnerin</h2>
                     <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
                 </div>
@@ -1473,7 +1486,7 @@
     }
     
     let components = document.querySelectorAll('.components__item');
-    let toc = document.querySelector('.components__toc');
+    let componentsToc = document.querySelector('.components__toc');
     let tocButton = document.querySelector('.components__toc-button');
     let tocList = document.createElement('ul');
     components.forEach(c => {
@@ -1530,8 +1543,8 @@
             });
         });
     });
-    toc.appendChild(tocList);
+    componentsToc.appendChild(tocList);
     tocButton.addEventListener('click', e => {
-        toc.classList.toggle('components__toc--open');
+        componentsToc.classList.toggle('components__toc--open');
     });
 </script>

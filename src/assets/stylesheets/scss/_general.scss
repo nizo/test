@@ -57,7 +57,6 @@ h1, h2, h3, h4,
 .h1, .h2, .h3, .h4 {
 	font-family: $font-headline;
 	line-height: 1.2;
-	font-weight: normal;
 }
 .headline__icon {
 	display: flex;
@@ -65,10 +64,8 @@ h1, h2, h3, h4,
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	img {
-		
-	}
-	> div {
+
+	> span {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -140,14 +137,6 @@ h2, .h2 {
 	@media screen and (max-width: 670px) {
 		font-size: $font-size-l;
 		margin-bottom: $gutter-m;
-	}
-}
-h2 {
-	span {
-		font-family: $font-headline;
-		font-size: 28px;
-		display: inline-block;
-		margin-top: 12px;
 	}
 }
 
@@ -756,9 +745,19 @@ img {
 	}
 }
 
+@media screen and (max-width: 960px) {
+	.tablet-centered {
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	.mobile-hidden{
 		display: none !important;
+
+		&+* {
+			margin-top: 0 !important;
+		}
 	}
 	.desktop-hidden{
 		display: block !important;
@@ -1987,8 +1986,8 @@ blockquote {
 		}
 		ul {
 			margin-bottom: 20px;
+			margin-left: 1em;
 			li {
-				padding-left: 40px !important;
 				&:before {
 					width: 32px !important;
 					height: 32px !important;
@@ -2502,6 +2501,49 @@ blockquote {
 			display: table !important;
 		}
 	}
+
+	@media screen and (max-width: 1000px) {
+		&__content {
+			padding: 20px;
+		}
+		&__grid {
+			flex-direction: column;
+		}
+		&__col {
+			&+.installation__col {
+				margin-top: 20px;
+			}
+		}
+	}
+	@media screen and (max-width: 768px) {
+		&__browsers {
+			flex-direction: column;
+		}
+		&__browser {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			margin: 0 10px;
+			text-align: left;
+	
+			br {
+				display: none;
+			}
+	
+			div {
+				width: 48px;
+				height: 48px;
+				margin: 0 20px 0 0;
+			}
+	
+			&+.installation__browser {
+				margin-top: 10px;
+			}
+		}
+	}
 }
 
 .browsers {
@@ -2509,9 +2551,7 @@ blockquote {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	margin-bottom: 45px;
-	@media screen and (max-width: 800px) {
-		display: none;
-	}
+
 	&__browser {
 		width: 70px;
 		height: 70px;

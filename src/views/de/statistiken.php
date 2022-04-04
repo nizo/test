@@ -20,22 +20,21 @@ $faqs->faq_add (
 			<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="Die umfangreichen Echtzeitstatistiken der CallOne Callcenter Software haben viele Vorteile für Ihren ROI" width="465" height="430" style="width:100%" />
 		</div>
 		<div class="hero__text">
-			<h1 class="mobile-hidden">
+			<h1>
                 Unsere Echtzeitstatistiken<br />
-                <span class="typing-text" data-speed="35" data-texts="geben Ihnen Planungssicherheit|steigern Ihren Umsatz|motivieren Ihre Mitarbeiter|zeigen Optimierungspotentiale" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">geben Ihnen Planungssicherheit</span>
+                <span class="typing-text typing-text--block" data-speed="35" data-texts="geben Ihnen Planungssicherheit|steigern Ihren Umsatz|motivieren Ihre Mitarbeiter|zeigen Optimierungspotentiale" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">geben Ihnen Planungssicherheit</span>
             </h1>
-            <h1 class="desktop-hidden">Unsere Echtzeit&shy;statistiken geben Ihnen Planungs&shy;sicherheit</h1>
 			<h2>CallOne liefert mit seiner Callcenter Software die vielleicht umfänglichste Datengrundlage für die optimale Steuerung, Planung und Optimierung Ihres Kundenservices.</h2>
-			<p>
-				<a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
-				<a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Sales kontaktieren</a>
+
+			<p class="mobile-centered">
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>
 		</div>
 	</div>
 </div>
 
 <div class="section section--no-padding-top section--white-blue">
-    <div class="anchors mobile-hidden">
+    <div class="anchors">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
         </div>
@@ -48,7 +47,7 @@ $faqs->faq_add (
 
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
-        <p class="centered mobile-hidden">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
+        <p class="bigtext centered mobile-left">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
 
         <div class="grid-slider">
             <div class="grid-slider__item">
@@ -111,7 +110,7 @@ $faqs->faq_add (
                         <h3>Alles im Blick</h3>
                         <p class="bigtext">Dashboards sind das ideale Steuerelement für Ihre Teamleiter und Supervisoren. CallOne liefert hier die richtigen Instrumente, um 	Ihre KPIs 	optimal zu überwachen und steuern zu können – webbasiert, in Echtzeit und optional als Live-Schnittstelle.</p>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-11" checked>
 							<label for="faq-11">Arbeitszeiterfassung & Forecasting</label>
 							<div class="toggle-box__content">
@@ -119,7 +118,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-12">
 							<label for="faq-12">Sofortige Benachrichtigung</label>
 							<div class="toggle-box__content">
@@ -127,7 +126,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-13">
 							<label for="faq-13">Sparen Sie kostbare Zeit</label>
 							<div class="toggle-box__content">
@@ -147,7 +146,7 @@ $faqs->faq_add (
                         <h3>Entwicklungen erkennen</h3>
                         <p class="bigtext">CallOne liefert die vielleicht umfänglichste Auswahl an Echtzeitstatistiken in einer webbasierten Oberfläche für unerreichte Transparenz und Planbarkeit. Werten Sie Ihre Rufnummern, KPI wie Erreichbarkeiten, SLA, Skillgruppen, Agenten in über 50 Statistiken aus.</p>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-21" checked>
 							<label for="faq-21">Tabellen, Grafiken, Schnittstellen</label>
 							<div class="toggle-box__content">
@@ -155,7 +154,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-22">
 							<label for="faq-22">Datenexport in ihrem Lieblingsformat</label>
 							<div class="toggle-box__content">
@@ -163,7 +162,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-23">
 							<label for="faq-23">Reports wie Sie sie benötigen</label>
 							<div class="toggle-box__content">
@@ -183,7 +182,7 @@ $faqs->faq_add (
                         <h3>Kundeninteraktionen auswerten</h3>
                         <p class="bigtext">Neben Zahlen können wir bei CallOne auch das gesprochene Wort auswerten. Mit Sprachtranskription in Echtzeit sog. Voice-to-Text Funktion wandeln wir Sprache in lesbaren Text um. Sie können dies auf vielfältige Art nutzbar für sich machen.</p>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-31" checked>
 							<label for="faq-31">Konversationsanalyse und Coaching in Echtzeit</label>
 							<div class="toggle-box__content">
@@ -191,7 +190,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-32">
 							<label for="faq-32">Spracherkennung einfach integriert</label>
 							<div class="toggle-box__content">
@@ -199,7 +198,7 @@ $faqs->faq_add (
 							</div>
 						</div>
 
-                        <div class="toggle-box toggle-box--transparent toggle-box--checklist mobile-hidden">
+                        <div class="toggle-box toggle-box--transparent toggle-box--checklist">
 							<input type="checkbox" id="faq-33">
 							<label for="faq-33">Prozesse mittels Anruftagging optimieren</label>
 							<div class="toggle-box__content">
@@ -237,9 +236,8 @@ $faqs->faq_add (
                     Geschäftsführer CHECK24 Vergleichsportal für Kfz-Versicherungen GmbH
                 </p>
 
-                <p>
-                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Beratungsgespräch vereinbaren</a>
-                    <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Beratungsgespräch<br />vereinbaren</a>
+                <p class="mobile-centered">
+                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Beratungsgespräch vereinbaren</a>
                     <br class="desktop-hidden" />
                     <br class="desktop-hidden" />
                 </p>
@@ -260,11 +258,11 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Reibungsloser Zugriff auf Ihre Daten</h1>
         <h4 class="centered mobile-left">
-        Verbinden Sie CallOne mit Ihren <br />
-        BI-, Lead- oder Ticketingtools
+            Verbinden Sie CallOne mit Ihren <br />
+            BI-, Lead- oder Ticketingtools
         </h4>
 
-        <div class="co-grid cards desktop-hidden centered">
+        <!-- <div class="co-grid cards desktop-hidden centered">
             <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
                 <div class="cards__card--dark-top">
                     <h6>Beispiel-Apps</h6>
@@ -291,20 +289,20 @@ $faqs->faq_add (
                     <h4>Eigene Systeme verbinden</h4>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="co-grid mobile-hidden">
+        <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="split-card">
                     <div class="split-card__top centered">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>Business Intelligence</h6>
-                                <p><img src="/assets/images/client-logos/bi-logo-group@2x.png" alt="" width="407" height="40" style="max-width: 407px" /></p>
+                                <p><img src="/assets/images/client-logos/bi-logo-group@2x.png" alt="Business Intelligence Tools mit Callcenter Software verbinden" width="407" height="40" /></p>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>Customer Relationship Management</h6>
-                                <p><img src="/assets/images/client-logos/crm-logo-group.svg" alt="" width="311" height="90" /></p>
+                                <p><img src="/assets/images/client-logos/crm-logo-group.svg" alt="Business Intelligence Tools mit Callcenter Software verbinden" width="311" height="90" /></p>
                             </div>
                         </div>
                     </div>
@@ -349,7 +347,7 @@ $faqs->faq_add (
                     <h3>Datensicherheit</h3>
                     <p class="bigtext">Die Integrität und Sicherheit der Daten unserer Kunden hat höchste Priorität. Ihre Daten lagern deshalb auf Servern in ISO-zertifizierten Hochsicherheits&shy;rechenzentren in Deutschland.</p>
                     
-                    <div class="co-grid mobile-hidden">
+                    <div class="co-grid">
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="deutscher Datenschutzstandard mit der CallOne Callcenter Software" width="354" height="98" />
                         </div>
@@ -357,13 +355,6 @@ $faqs->faq_add (
                             <a href="/dsgvo-telekommunikation" class="btn btn--border-white">Mehr erfahren</a>
                         </div>
                     </div>
-                    
-                    <p class="desktop-hidden">
-                        <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="deutscher Datenschutzstandard mit der CallOne Callcenter Software" width="354" height="98" />
-                    </p>
-                    <p class="desktop-hidden">
-                        <a href="/dsgvo-telekommunikation" class="btn btn--border-white btn--full-width centered">Mehr erfahren</a>
-                    </p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--2-md"></div>
@@ -371,9 +362,9 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--light-green-white mobile-hidden">
+<div class="section section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered">Weitere Funktionen</h1>
+        <h1 class="centered mobile-left">Weitere Funktionen</h1>
 
         <div class="tablist">
             <div class="tablist__links">
@@ -393,7 +384,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="Support Alarm" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>SLA-Alarmierung</h3>
@@ -404,7 +395,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/notification-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/notification-icon.svg" alt="Benachrichtigung" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Multi-KPI Warnungen</h3>
@@ -420,7 +411,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/results-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/results-icon.svg" alt="Ergebnisse" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Berichtsautomatisierung</h3>
@@ -431,7 +422,7 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/rating-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/rating-icon.svg" alt="Bewertung" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Kundenbewertungen</h3>
@@ -444,10 +435,10 @@ $faqs->faq_add (
 
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--6-xs">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/benchmark-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/benchmark-icon.svg" alt="Benchmark" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Benchmark-Daten</h3>
@@ -455,10 +446,10 @@ $faqs->faq_add (
                             </div>
                         </div>
                     </div>
-                    <div class="co-grid__col co-grid__col--6-xs">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/diagrams-icon.svg" alt="" width="70" height="70" />
+                                <img src="/assets/images/icons_svg/diagrams-icon.svg" alt="Dashboard nutzen Call Center Software" width="70" height="70" />
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Geckoboard & Co.</h3>
@@ -472,9 +463,9 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section mobile-hidden">
+<div class="section">
     <div class="section__content">
-        <h1 class="centered">Fragen und Antworten</h1>
+        <h1 class="centered mobile-left">Fragen und Antworten</h1>
 
 		<?php
 		$faqs->structured_data_get_code ();

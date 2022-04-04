@@ -1,5 +1,5 @@
 html {
-    scroll-padding-top: var(--navigationHeightScrolled);
+    scroll-padding-top: calc(var(--navigationHeightScrolled) + 100px);
 }
 
 ::-moz-selection {
@@ -11,8 +11,16 @@ html {
     background: rgba($color-primary, 0.35);
 }
 
+hr.divider {
+    width: 33%;
+    border: 0;
+    height: 2px;
+    background-color: rgba(#000, .2);
+    margin: var(--gutter-l) auto;
+}
+
 // Headlines
-h1 {
+h1, h2 {
     font-family: $font-copy;
     font-size: 38px;
     font-weight: 400;
@@ -23,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
+    // font-size: 38px;
     margin-bottom: var(--gutter-s);
 
     @media screen and (max-width: 800px) {
@@ -34,7 +42,6 @@ h2 {
 h3 {
     font-family: $font-headline;
     font-size: 28px;
-    font-weight: normal;
 
     @media screen and (max-width: 800px) {
         font-size: 24px;
@@ -44,7 +51,6 @@ h3 {
 h4 {
     font-family: $font-headline;
     font-size: 24px;
-    font-weight: normal;
     margin-bottom: .5em;
 
     @media screen and (max-width: 800px) {
@@ -79,6 +85,9 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    a {
+        color: currentColor;
+    }
     u {
         text-decoration: none;
         border-bottom: 4px solid $color-primary;
@@ -88,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-size: 18px;
     @media screen and (max-width: 800px) {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -133,8 +142,13 @@ img {
 // Text Modifications
 .bigtext {
     font-size: 20px;
+
+    &__price {
+        font-size: 2.5em;
+        font-family: $font-headline;
+    }
     @media screen and (max-width: 800px) {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 .subtext {

@@ -9,7 +9,7 @@ if (empty ($job))
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "JobPosting",
   "hiringOrganization": {
     "@type": "Organization",
@@ -85,7 +85,7 @@ if (empty ($job))
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-		"streetAddress": "Charlottenstr. 107",
+		"streetAddress": "Posthofstr. 5",
 		"addressLocality": "Potsdam",
 		"addressRegion": "DE",
 		"postalCode": "14467",
@@ -139,7 +139,7 @@ if (empty ($job))
     </div>
 </div>
 
-<div class="job-details">
+<div class="job-details" style="--top-color:#fff;--bottom-color:#f2f2f2">
     <div class="job-details__item">
         <img src="/assets/images/icons_svg/small_35.svg" alt="Arbeitsstelle" />
         <?= $job->location_get(); ?>

@@ -8,9 +8,8 @@
 
             <h2>Schnellerer Service, bessere Ergebnisse und eine solide Markenerfahrung durch unübertroffenes Warteschleifenmanagement</h2>
 
-            <p>
-                <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
-                <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
+            <p class="mobile-centered">
+                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
             </p>
         </div>
     </header>
@@ -35,7 +34,7 @@
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
                                 <div class="number-card__number" style="--color:#db00c5">40%</div>
                                 <p>der Kund*innen bevorzugen das Telefonieren, wenn es um die Klärung komplizierter Sachverhalte geht.</p>
-                                <p>Quelle: <a href="https://about.americanexpress.com/press-release/wellactually-americans-say-customer-service-better-ever/" target="_blank" class="inline-link">American Express</a></p>
+                                <p>Quelle: <a href="https://about.americanexpress.com/" target="_blank" class="inline-link">American Express</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
@@ -53,7 +52,7 @@
             </div>
         </div>
 
-        <h1 class="centered mobile-hidden">
+        <h1 class="centered mobile-left">
             Für jeden die richtige Lösung – die CallOne <br class="mobile-hidden" />
             Warteschleifen- und Routingfunktionen im Überblick
         </h1>
@@ -71,14 +70,14 @@
             </div>
 
             <div class="tablist__content" data-tab="1">
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Rückruf aus der Warteschleife</h3>
-                                <p class="bigtext">Die CallOne ACD bietet dem Anrufenden innerhalb der Warteschleife einen optimalen Zeitpunkt für einen terminierten Rückruf. Mit Bestätigung wird dieser vollständig automatisiert zum gewünschten Zeitpunkt gestartet und Agent*in und Anrufender miteinander verbunden.</p>
+                                <p class="bigtext">Die CallOne ACD bietet dem Anrufenden innerhalb der Warteschleife einen optimalen Zeitpunkt für einen terminierten Rückruf. <span class="readmore">Mit Bestätigung wird dieser vollständig automatisiert zum gewünschten Zeitpunkt gestartet und Agent*in und Anrufender miteinander verbunden.</span></p>
                             </div>
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/calendar-illustration.svg" alt="Cloud Telefonanlage mit Option auf Rückruf aus der Warteschleife zum gewünschten Zeitpunkt" width="431" height="352" />
                             </div>
                         </div>
@@ -116,13 +115,13 @@
                     </div>
                 </div>
 
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/queue-pendulum-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlage mit virtueller Warteschleife und Berechnung der Wartezeit" width="431" height="352" />
                             </div>
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Virtuelle Warteschleife</h3>
                                 <p class="bigtext">Der Anrufende erhält das Angebot virtuell zu warten. Dabei berechnet das System den optimalen Rückrufzeitpunkt anhand tatsächlicher Wartedauern oder es reiht die Anrufer*in virtuell in die Warteschleife ein mit anschließender Verbindung mit einer Agent*in.</p>
                             </div>
@@ -161,14 +160,14 @@
                     </div>
                 </div>
 
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Rückruf von Webseite</h3>
                                 <p class="bigtext">Echtzeitrückruffunktion integriert in Ihre Webseite. Auswahloptionen für Themen und Trackingmöglichkeit aller relevanten Webseiteninhalte mit Übermittlung zur Agent*in bei Gesprächsannahme.</p>
                             </div>
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/callback-website-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert " width="431" height="352" />
                             </div>
                         </div>
@@ -206,13 +205,13 @@
                     </div>
                 </div>
 
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/automated-callback-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert " width="431" height="352" />
                             </div>
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Terminierter Rückruf</h3>
                                 <p class="bigtext">Rückrufentgegennahme durch Agent*innen, die einen automatisierten Rückruf im CallOne System einstellen. Slots können hierbei flexibel angeboten und begrenzt werden.</p>
                             </div>
@@ -225,7 +224,7 @@
                             <h4 class="centered">Was ist es?</h4>
 
                             <ul class="list list--checkmarks-top bigtext">
-                                <li>Wir nennen es den „menschlichen Anrufbeantworter“. Kund*innen rufen Sie an und auf unserer Weboberfläche stellen Sie in Abstimmung mit dem Anrufenden einen Rückruftermin ein. Den Rest erledigen wir und rufen zum gewählten Zeitpunkt Anrufer*in und Ihren Kundenservice zurück</li>
+                                <li>Wir nennen es den „menschlichen Anrufbeantworter“. <span class="readmore">Kund*innen rufen Sie an und auf unserer Weboberfläche stellen Sie in Abstimmung mit dem Anrufenden einen Rückruftermin ein. Den Rest erledigen wir und rufen zum gewählten Zeitpunkt Anrufer*in und Ihren Kundenservice zurück</span></li>
                                 <li>Kapazitätslimits je Slot können frei gewählt werden</li>
                                 <li>Nutzbar für mehrere Hotlines gleichzeitig</li>
                             </ul>
@@ -250,45 +249,17 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Mobile Content for this tab -->
-                <div class="fader fader--indicators-centered desktop-hidden">
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Rückruf aus <br />der Warteschleife</h4>
-                            <img src="/assets/images/illus/calendar-illustration.svg" alt="Warteschleife Kundenservice Software" width="472" height="386" />
-                        </div>
-                    </div>
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Virtuelle <br />Warteschleife</h4>
-                            <img src="/assets/images/illus/queue-pendulum-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlage mit virtueller Warteschleife und Berechnung der Wartezeit" width="472" height="386" />
-                        </div>
-                    </div>
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Rückruf <br />von Webseite</h4>
-                            <img src="/assets/images/illus/callback-website-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert " width="472" height="386" />
-                        </div>
-                    </div>
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Terminierter <br />Rückruf</h4>
-                            <img src="/assets/images/illus/automated-callback-illustration.svg" alt="Kundenservice Software in Cloud Telefonanlage mit terminiertem Rückruf aus der Warteschlange" width="472" height="386" />
-                        </div>
-                    </div>
-                </div>
             </div>
             
             <div class="tablist__content" data-tab="2">
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Routing nach voraussichtlicher Wartedauer</h3>
                                 <p class="bigtext">Warum den Anrufenden erst warten lassen? Wir berechnen die voraussichtliche Wartedauer all ihrer eintreffenden Anrufe und können sofort eine individuelle Aktion anbieten.</p>
                             </div>
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/routing-waitingtime-illustration.svg" alt="Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen" width="431" height="352" />
                             </div>
                         </div>
@@ -326,13 +297,13 @@
                     </div>
                 </div>
 
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/waitingtime-website-illustration.svg" alt="Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen" width="431" height="352" />
                             </div>
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Wartedauer auf Website anzeigen</h3>
                                 <p class="bigtext">Zeigen Sie wie gut Ihr Service ist und kombinieren Sie Ihre Webseite mit dem Echtzeit-SLA ihres Kundenservice. Wenn es mal voll wird in der Hotline, nutzen Sie das Tool um auf alternative Kanäle zu verweisen.</p>
                             </div>
@@ -370,14 +341,14 @@
                     </div>
                 </div>
 
-                <div class="expandable mobile-hidden">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Wartedauer- und Positionsansage</h3>
                                 <p class="bigtext">Wartedaueransagen kennen Sie sicher aus eigener Erfahrung. Wir bei CallOne gehen hier einen Schritt weiter: Mit individueller Stimmauswahl und der Flexibilität wann und wem Sie eine Ansage einspielen möchten.</p>
                             </div>
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                            <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                                 <img src="/assets/images/illus/waitingtime-announcement-illustration.svg" alt="In der Warteschleife Ihrer VoIP-Telefonanlage können Sie die Wartedauer und Position ansagen lassen" width="431" height="352" />
                             </div>
                         </div>
@@ -414,37 +385,15 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Mobile Content for this tab -->
-                <div class="fader fader--indicators-centered desktop-hidden">
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Routing nach <br />voraussichtlicher Wartedauer</h4>
-                            <img src="/assets/images/illus/routing-waitingtime-illustration.svg" alt="Cloud Telefonanlage mit Routing je nach Wartedauer" width="472" height="386" />
-                        </div>
-                    </div>
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Wartedauer auf <br />Website anzeigen</h4>
-                            <img src="/assets/images/illus/waitingtime-website-illustration.svg" alt="Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen" width="472" height="386" />
-                        </div>
-                    </div>
-                    <div class="fader__item">
-                        <div class="content-box content-box--white content-box--shadow centered">
-                            <h4>Wartedauer- <br />und Positionsansage</h4>
-                            <img src="/assets/images/illus/waitingtime-announcement-illustration.svg" alt="In der Warteschleife Ihrer VoIP-Telefonanlage können Sie die Wartedauer und Position ansagen lassen" width="472" height="386" />
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
         <p class="bigtext centered mobile-left">
             Wollen Sie mehr zu unseren Funktionen hinsichtlich <br />
-            Warteschleifen, Rückrufen und Routing erfahren?<br />
-            <br />
-            <a href="#" class="btn btn--primary btn--centered mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
-            <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+            Warteschleifen, Rückrufen und Routing erfahren?
+        </p>
+        <p class="centered">
+            <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch buchen</a>
         </p>
     </div>
 </div>
@@ -466,8 +415,7 @@
                     </div>
                 </div>
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
-                    <a href="#" class="btn btn--primary btn--full-width desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch buchen</a>
                 </p>
             </div>
         </div>

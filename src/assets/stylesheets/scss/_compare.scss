@@ -103,3 +103,24 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .compare {
+    &__box {
+      min-width: calc(50% - 20px);
+      flex: 0 1 calc(50% - 20px);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .compare {
+    &__content {
+      flex-direction: column;
+    }
+    &__box {
+      min-width: 100%;
+      flex: 0 1 100%;
+    }
+  }
+}

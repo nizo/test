@@ -14,6 +14,9 @@ $jobsCount = count($jobs->jobs_get());
  * loesungen, produkte, callone
  * Has to be set in libs/router.inc.php
  */
+
+ // Banderole
+require_once('banderole.php');
 ?>
 
 <nav class="navigation">
@@ -48,19 +51,19 @@ $jobsCount = count($jobs->jobs_get());
                                     </div>
                                 </div>
 
-                                <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines">
+                                <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/voip-telefonanlage') ?>">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-callcenter-software.png" alt="Cloud Telefonanlage von CallOne" />
+                                        <img src="/assets/images/navigation/menu-cloud-voip-telefonanlage.png" alt="Cloud Telefonanlage von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
-                                        <strong>Cloud Telefonanlage</strong>
-                                        <p>Egal ob im Büro oder Homeoffice. Perfekte Erreichbarkeit für Ihre Kolleg*innen</p>
+                                        <strong>Telefonanlage in der Cloud</strong>
+                                        <p>Egal ob im Büro oder Homeoffice. Gehostet in der deutschen Cloud.</p>
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software') ?>">
                                     <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
+                                        <img src="/assets/images/navigation/menu-callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>Callcenter-Software<span class="submenu__link-tag">Beliebt</span></strong>
@@ -68,7 +71,7 @@ $jobsCount = count($jobs->jobs_get());
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
                                     <div class="submenu__link-icon">
                                         <img src="/assets/images/navigation/menu-apis.png" alt="CRM Integration und Schnittstellenanbindung an CallOne mit APIs" />
                                     </div>
@@ -88,21 +91,21 @@ $jobsCount = count($jobs->jobs_get());
                                     </div>
                                 </div>
 
-                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines">
+                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
                                     <div class="submenu__link-text">
                                         <strong>Smarte Warteschleifen</strong>
                                         <p>Bessere Erreichbarkeit mit Rückrufoptionen</p>
                                     </div>
                                 </a>
 
-                                <a href="/statistiken" class="submenu__link submenu__link--3-lines">
+                                <a href="/statistiken" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/statistiken') ?>">
                                     <div class="submenu__link-text">
                                         <strong>Echtzeit-Analysen</strong>
                                         <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
                                     </div>
                                 </a>
 
-                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines">
+                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software-apps') ?>">
                                     <div class="submenu__link-text">
                                         <strong>Passgenaue Einbindung</strong>
                                         <p>Teams-Telefonie, CRM- und BI-Apps, Schnittstellen</p>
@@ -112,13 +115,13 @@ $jobsCount = count($jobs->jobs_get());
                         </div>
                         <div class="submenu__right submenu__right--align-bottom">
                             <div class="submenu__ad">
-                                <a href="/softphone"><img src="/assets/images/navigation/softphone-ad.png" alt="CallOne Softphone für VoIP Telefonie" /></a>
+                                <a href="/ms-teams"><img src="/assets/images/navigation/teams-ad.svg" alt="Teams Telefonie als Cloud Telefonanlage" width="270" height="270" /></a>
                             </div>
 
-                            <a href="/softphone" class="submenu__link submenu__link--3-lines">
+                            <a href="/ms-teams" class="submenu__link submenu__link--3-lines">
                                 <div class="submenu__link-text">
-                                    <strong>Softphone<span class="submenu__link-tag">Kostenlos</span></strong>
-                                    <p>Telefonieren Sie in Ihrem Lieblingsbrowser mit unser Browser Extension</p>
+                                    <strong>Microsoft Teams</strong>
+                                    <p>Integrieren Sie Ihre CallOne-Telefonanlage in Microsoft-Teams. Businesstelefonie war nie einfacher.</p>
                                 </div>
                             </a>
                         </div>
@@ -147,7 +150,7 @@ $jobsCount = count($jobs->jobs_get());
                             
                             <div class="submenu__row submenu__row--fill">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
-                                    <a href="/0800-lokal-nummern" class="submenu__link">
+                                <a href="/0800-lokal-nummern" class="submenu__link<?= getPageActiveClass('/0800-lokal-nummern') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-numbers.png" alt="lokale, nationale und internationale Rufnummern schalten" />
                                         </div>
@@ -157,7 +160,17 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                     </a>
 
-                                    <a href="/callcenter-bot" class="submenu__link">
+                                    <a href="/ms-teams" class="submenu__link<?= getPageActiveClass('/ms-teams') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-teams.png" alt="Teams Telefonie als Cloud Telefonanlage" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Microsoft Teams<span class="submenu__link-tag">Beliebt</span></strong>
+                                            <p>Die smarte Telefonie für Ihr Unternehmen</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/callcenter-bot" class="submenu__link<?= getPageActiveClass('/callcenter-bot') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-callcenter-bot.png" alt="Sprachgesteuerte KI Systeme mit dem CallOne Callcenter Bot" />
                                         </div>
@@ -168,7 +181,7 @@ $jobsCount = count($jobs->jobs_get());
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/softphone" class="submenu__link">
+                                    <a href="/softphone" class="submenu__link<?= getPageActiveClass('/softphone') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-softphone.png" alt="VoIP Telefonie mit dem CallOne Softphone" />
                                         </div>
@@ -178,7 +191,7 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                     </a>
                                     
-                                    <a href="/call-tracking" class="submenu__link">
+                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
                                         </div>
@@ -187,7 +200,20 @@ $jobsCount = count($jobs->jobs_get());
                                             <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
-
+                                    
+                                    <a href="/callcenter-sprachanalyse" class="submenu__link<?= getPageActiveClass('/callcenter-sprachanalyse') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                                i2x Sprachanalyse
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
+                                            <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
+                                        </div>
+                                    </a>
+                                    
                                     <!-- <a href="#todo" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />
@@ -222,7 +248,7 @@ $jobsCount = count($jobs->jobs_get());
                                 </div>
                             </a>
 
-                            <a href="/preiskalkulator" class="submenu__link">
+                            <a href="/preiskalkulator" class="submenu__link<?= getPageActiveClass('/preiskalkulator') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Preiskonfigurator</strong>
                                     <p>Finden Sie heraus, wieviel Sie Ihr CallOne-Paket ungefähr kostet</p>
@@ -250,7 +276,7 @@ $jobsCount = count($jobs->jobs_get());
                             </div>
                             <div class="submenu__row">
                                 <div class="submenu__column" style="--col-width:300px">
-                                    <a href="/case-study-check24" class="submenu__link">
+                                    <a href="/case-study-check24" class="submenu__link<?= getPageActiveClass('/case-study-check24') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/check24.png" alt="Check24 Kundenzufriedenheit CallOne" />
                                         </div>
@@ -260,7 +286,7 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                     </a>
         
-                                    <a href="/case-study-flaconi" class="submenu__link">
+                                    <a href="/case-study-flaconi" class="submenu__link<?= getPageActiveClass('/case-study-flaconi') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/flaconi.png" alt="Flaconi Kundenzufriedenheit CallOne" />
                                         </div>
@@ -270,7 +296,7 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                     </a>
 
-                                    <a href="/case-study-niceshops" class="submenu__link">
+                                    <a href="/case-study-niceshops" class="submenu__link<?= getPageActiveClass('/case-study-niceshops') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/niceshops.png" alt="Niceshops Kundenzufriedenheit CallOne" />
                                         </div>
@@ -280,7 +306,7 @@ $jobsCount = count($jobs->jobs_get());
                                         </div>
                                     </a>
     
-                                    <a href="/case-study-apodiscounter" class="submenu__link">
+                                    <a href="/case-study-apodiscounter" class="submenu__link<?= getPageActiveClass('/case-study-apodiscounter') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/apodiscounter.png" alt="Apodiscounter Kundenzufriedenheit CallOne" />
                                         </div>
@@ -300,28 +326,28 @@ $jobsCount = count($jobs->jobs_get());
                                 </div>
                             </div>
 
-                            <a href="/customer-success" class="submenu__link">
+                            <a href="/customer-success" class="submenu__link<?= getPageActiveClass('/customer-success') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Customer Success</strong>
                                     <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
                                 </div>
                             </a>
 
-                            <a href="/dsgvo-telekommunikation" class="submenu__link">
+                            <a href="/dsgvo-telekommunikation" class="submenu__link<?= getPageActiveClass('/dsgvo-telekommunikation') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Datenschutz</strong>
                                     <p>Wie wir Ausfallsicherheit und DSGVO-Kompatibilität garantieren</p>
                                 </div>
                             </a>
 
-                            <a href="/ueber-uns" class="submenu__link">
+                            <a href="/ueber-uns" class="submenu__link<?= getPageActiveClass('/ueber-uns') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Über uns</strong>
                                     <p>Wer wir sind, unsere Geschichte und Unternehmenskultur</p>
                                 </div>
                             </a>
 
-                            <a href="/karriere-bei-callone" class="submenu__link">
+                            <a href="/karriere-bei-callone" class="submenu__link<?= getPageActiveClass('/karriere-bei-callone') ?>">
                                 <div class="submenu__link-text">
                                     <strong>Karriere<?php if ($jobsCount > 0) { ?><span class="submenu__link-tag"><?= $jobsCount; ?> Jobs</span><?php } ?></strong>
                                     <p>Wir suchen Talente, die die CallOne Erfolgsgeschichte weiterschreiben</p>
@@ -344,60 +370,30 @@ $jobsCount = count($jobs->jobs_get());
                     <div class="navigation__submenu submenu">
                         <div class="submenu__inner">
                             <div class="submenu__left">
-                                <div class="submenu__row">
-                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
-                                        <a href="/faq/category/verwaltung/" title="Verwaltung - Administration der Software" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Verwaltung</strong>
-                                                <p>Administration der Software</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/rufnummern/" title="Rufnummern - Verwaltung, Schaltung und Portierung" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Rufnummern</strong>
-                                                <p>Verwaltung, Schaltung und Portierung</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/telefonanlage/" title="Telefonanlage - Voraussetzungen, Einrichtung & Funktionen" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Telefonanlage</strong>
-                                                <p>Voraussetzungen, Einrichtung & Funktionen</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/callcenter-loesung/" title="Callcenter-Lösung - Funktionen und Administration" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Callcenter-Lösung</strong>
-                                                <p>Funktionen und Administration</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="submenu__column" style="--col-width:300px">
-                                        <a href="/faq/category/routing/" title="Routing - Informationen zu Releases und Updates" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Routing</strong>
-                                                <p>Anrufe, Auswahl- und IVR-Menüs, Modulen und Plugins</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/schnittstellen/" title="Schnittstellen - Systemintegration von Schnittstellen & APIs" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Schnittstellen</strong>
-                                                <p>Systemintegration von Schnittstellen & APIs</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/statistiken/" title="Statistiken - Anruf- und Agenten-Statistiken" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Statistiken</strong>
-                                                <p>Anruf- und Agenten-Statistiken</p>
-                                            </div>
-                                        </a>
-                                        <a href="/faq/category/weitere-produkte/" title="Weitere Produkte - Fragen zu neusten Features und Tools" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Weitere Produkte</strong>
-                                                <p>Fragen zu neusten Features und Tools</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>        
+                                <?php
+                                $categories = get_categories(array(
+                                    'parent' => 0,
+                                    'orderby' => 'name',
+                                    'order' => 'ASC'
+                                ));
+
+                                $columns = array_chunk($categories, ceil(count($categories) / 3));
+                                
+                                echo '<div class="submenu__row">';
+                                foreach($columns as $key => $column) {
+                                    echo '<div class="submenu__column'.($key < (count($column) - 1) ? ' submenu__column--border-right' : '').'" style="--col-width:300px">';
+                                    foreach($column as $category) {
+                                        echo '<a href="'.get_category_link($category).'" title="'.$category->description.'" class="submenu__link">';
+                                        echo '  <div class="submenu__link-text">';
+                                        echo '    <strong>'.$category->name.'</strong>';
+                                        echo '    <p>'.substr($category->description, 0, 60).'&hellip;</p>';
+                                        echo '  </div>';
+                                        echo '</a>';
+                                    }
+                                    echo '</div>';
+                                }
+                                echo '</div>';
+                                ?>    
                             </div>
                             <!-- <div class="submenu__right">
                                 
@@ -410,10 +406,11 @@ $jobsCount = count($jobs->jobs_get());
                 // Display Blog Menu
                 ?>
                 <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
-                    <div class="navigation__link navigation__link--arrow">
+                    <div class="navigation__link">
                         <a href="/blog">Blog</a>
                     </div>
 
+                    <?php /*
                     <div class="navigation__submenu submenu">
                         <div class="submenu__inner">
                             <div class="submenu__left">
@@ -422,13 +419,13 @@ $jobsCount = count($jobs->jobs_get());
                                         <a href="/blog/" title="Startseite CallOne Blog  - Alles zu den Themen Callcenter-Software und VoIP-Telefonie" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Alle Artikel</strong>
-                                                <p>Übersicht aller Artikel und Beiträge</p>
+                                                <p>Übersicht aller<br />Artikel und Beiträge</p>
                                             </div>
                                         </a>
                                         <a href="/blog/category/aktuelles/" title="Aktuelle Artikel und Beiträge" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Aktuelles</strong>
-                                                <p>Die aktuellen Artikel und Beiträge</p>
+                                                <p>Die aktuellen<br />Artikel und Beiträge</p>
                                             </div>
                                         </a>
                                     </div>
@@ -436,7 +433,7 @@ $jobsCount = count($jobs->jobs_get());
                                         <a href="/blog/category/know-how/" title="Know-how - Wissen zum Thema Telefonie" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Know-how</strong>
-                                                <p>Wissen zum Thema Telefonie</p>
+                                                <p>Wissen zum<br />Thema Telefonie</p>
                                             </div>
                                         </a>
                                     </div>
@@ -447,6 +444,7 @@ $jobsCount = count($jobs->jobs_get());
                             </div> -->
                         </div>
                     </div>
+                    */ ?>
                 </li>
                 <?php
             }
@@ -454,6 +452,7 @@ $jobsCount = count($jobs->jobs_get());
         </ul>
 
         <div class="navigation__right">
+            <a href="tel:+493092033500" class="navigation__phonenumber">+49(0)30-92033500</a>
             <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
             <a href="https://box.callone.de" target="_blank" rel="nofollow noreferrer">Login</a>
         </div>

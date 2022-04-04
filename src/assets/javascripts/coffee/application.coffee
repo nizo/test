@@ -292,45 +292,6 @@ document.addEventListener 'DOMContentLoaded', ->
     , false
 
   #
-  # Softphone Pricebox
-  #
-  currentPriceBox = 1
-  if document.querySelectorAll('.pricetoggle__button').length > 0
-    document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__button--active'
-    document.querySelector('.pricetoggle__stickybutton[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__stickybutton--active'
-    contentBoxes = document.querySelectorAll('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]')
-    contentBoxes.forEach (content) ->
-      content.classList.add 'pricetoggle__content--active'
-    priceboxButtons = document.querySelectorAll('.pricetoggle__button')
-    priceboxButtons.forEach (btn) ->
-      btn.addEventListener 'click', (e) ->
-        document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.remove 'pricetoggle__button--active'
-        document.querySelector('.pricetoggle__stickybutton[data-pricebox="'+currentPriceBox+'"]').classList.remove 'pricetoggle__stickybutton--active'
-        contentBoxes = document.querySelectorAll('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]')
-        contentBoxes.forEach (content) ->
-          content.classList.remove 'pricetoggle__content--active'
-        currentPriceBox = btn.dataset.pricebox
-        document.querySelector('.pricetoggle__button[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__button--active'
-        document.querySelector('.pricetoggle__stickybutton[data-pricebox="'+currentPriceBox+'"]').classList.add 'pricetoggle__stickybutton--active'
-        contentBoxes = document.querySelectorAll('.pricetoggle__content[data-pricebox="'+currentPriceBox+'"]')
-        contentBoxes.forEach (content) ->
-          content.classList.add 'pricetoggle__content--active'
-      , false
-    fixedButtons = document.querySelectorAll('.pricetoggle__stickybutton')
-    fixedButtons.forEach (btn) ->
-      btn.addEventListener 'click', (e) ->
-        document.querySelector('.pricetoggle__button[data-pricebox="'+btn.dataset.pricebox+'"]').click()
-    # Sticky bar
-    window.addEventListener 'scroll', (e) ->
-      toggleButtons = document.querySelector('.pricetoggle__buttons')
-      priceSection = document.getElementById('preise')
-      stickybar = document.querySelector('.pricetoggle__sticky')
-      if toggleButtons.offsetTop - window.scrollY < 0 && window.scrollY < priceSection.offsetHeight + priceSection.offsetTop - (window.innerHeight / 2)
-        stickybar.classList.add 'pricetoggle__sticky--active'
-      else
-        stickybar.classList.remove 'pricetoggle__sticky--active'
-
-  #
   # Softphone usercalc
   #
   minValue = 25
@@ -398,13 +359,14 @@ document.addEventListener 'DOMContentLoaded', ->
   #
   fallbackBrowser = 'chrome'
   currentBrowser = fallbackBrowser
-  if navigator.userAgent.indexOf("Edg") != -1 || navigator.userAgent.indexOf("Edge") != -1
+  userAgent = navigator.userAgent
+  if userAgent.indexOf("Edg") != -1 || userAgent.indexOf("Edge") != -1
     currentBrowser= 'edge'
-  else if navigator.userAgent.indexOf("Chrome") != -1
+  else if userAgent.indexOf("Chrome") != -1
     currentBrowser = 'chrome'
-  else if navigator.userAgent.indexOf("Firefox") != -1
+  else if userAgent.indexOf("Firefox") != -1
     currentBrowser = 'firefox'
-  else if (navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )
+  else if (userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )
     currentBrowser = 'edge'
   else
     currentBrowser = fallbackBrowser

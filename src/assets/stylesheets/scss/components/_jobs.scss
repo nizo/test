@@ -54,15 +54,17 @@
 }
 
 .job-details {
+    --top-color: #fff;
+    --bottom-color: #f2f2f2;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    // margin-bottom: -80px;
-    height: 80px;
     overflow: visible;
     z-index: 90;
     position: relative;
+    background-image: linear-gradient(var(--top-color) 50%, var(--bottom-color) 50%);
 
     &__item {
         background: #FFFFFF;

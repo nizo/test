@@ -1,3 +1,6 @@
+.video+*, *+.video {
+	margin-top: var(--gutter-m);
+}
 
 .wrapper {
 	&.teaser {

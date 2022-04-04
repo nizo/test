@@ -7,6 +7,7 @@ require_once('./libs/products.inc.php');
 require_once('./libs/session.inc.php');
 
 // Default route/page data
+define('DEFAULT_SITENAME', 'CallOne');
 define('DEFAULT_LAYOUT', 'default.php');
 define('DEFAULT_TITLE', 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern');
 define('DEFAULT_META_TITLE', DEFAULT_TITLE);
@@ -158,7 +159,7 @@ Router::add('/statistiken', 'statistiken.php', [
     'sitemap_priority' => '0.8'
 ]);
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
-    'title' => 'CRM und Ticketing kombiniert mit dem Telefon | CallOne ',
+    'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
     'meta_description' => 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet',
     'meta_keywords' => 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
@@ -177,6 +178,13 @@ Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
+Router::add('/ms-teams', 'ms-teams.php', [
+    'title' => 'Teams Telefonie: Die smarte Telefonie für Ihr Unternehmen',
+    'meta_description' => 'Integrieren Sie Ihre Business-Telefonie in Microsoft Teams. Als Teams only oder in Kombination mit der CallOne Callcenter Software auf Ihre Ansprüche abgestimmt!',
+    'menu_position' => 'produkte',
+    'og_image_text' => 'Ihre Unternehmens-__telefonie in Microsoft-Teams',
+    'sitemap_priority' => '0.9'
+]);
 Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
     'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
@@ -186,8 +194,16 @@ Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
+Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
+    'title' => 'Callcenter Software mit Analyse und Coaching in Sales & Kundenservice',
+    'meta_description' => 'Verbessern Sie Ihren Sales & Service mit dem i2x Client. Sprachanalyse und Coaching in Echtzeit als Integration in der CallOne Callcenter Software.',
+    'meta_keywords' => 'callcenter software, kundenservice software, analyse, sprachanalyse, telefonie, integration, kundenservice coaching',
+    'og_image_text' => 'Echtzeitsprachanalyse für besseren Sales und Service',
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.9'
+]);
 Router::add('/softphone', 'softphone.php', [
-    'title' => 'VoIP Telefon im Browser integriert | CallOne Softphone',
+    'title' => 'Softphone: VoIP Telefon im Browser integriert',
     'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
     'meta_keywords' => 'Microsoft TEAMS, VoIP, SIP Phone, Softphone, 1-Click, SBC, Sipgate, Placetel, Telekom, Cloud Telefonanlage, Telefonieren mit dem PC, PBX',
     'og_image_text' => 'VoIP Telefon im Browser integriert',
@@ -238,11 +254,6 @@ Router::add('/ueber-uns', 'ueber-uns.php', [
 /* ***************** **
 ** ** CASESTUDIES ** **
 ** ***************** */
-Router::add('/referenzen', 'referenzen.php', [
-    'title' => 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern',
-    'body_class' => 'bg-casestudy',
-    'og_image_text' => 'CallOne Referenzen'
-]);
 Router::add('/case-study-check24', 'case-study-check24.php', [
     'title' => 'Callcenter Software und Tableau-Integration - Kundenservice bei Check24',
     'meta_description' => 'Callcenter Lösung beim Marktführer Check24. CallOne stellt umfassende VoIP-Telefonanlage und Callcenter Software mit offenen API für Kundenservice bereit',
@@ -325,7 +336,7 @@ Router::add('/cti-salesforce', 'cti/salesforce.php', [
     'body_class' => 'bg-karriere'
 ]);
 Router::add('/customer-service-solutions', 'solutions-customer-service.php', [
-    'title' => 'Callcenter Software ACD | CallOne',
+    'title' => 'Callcenter Software ACD',
     'meta_description' => 'Cloud Callcenter-Plattform, angepasst auf Ihre Bedürfnisse, verknüpft mit CRM und Helpdesk',
     'meta_keywords' => 'Kundenservice, Helpdesk, Inbound, ACD, Callcenter Software, Cloud, ACD, Contact Center, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'Callcenter Software ACD'
@@ -334,7 +345,6 @@ Router::add('/datenschutz', 'datenschutz.php', [
     'title' => 'CallOne Datenschutz - DSGVO, Cloud EU',
     'meta_description' => 'CallOne bietet VoIP-Telefonanlagen und Callcenter Lösungen aus der deutschen Cloud. Datenschutz hat für uns oberste Priorität. ✔  DSGVO-konform  ✔',
     'og_image_text' => 'CallOne Datenschutz, DSGVO, Cloud EU',
-    'body_class' => 'bg-landingpages',
     'menu_position' => 'callone'
 ]);
 Router::add('/download', 'downloads.php', [
@@ -361,7 +371,7 @@ Router::add('/impressum', 'impressum.php', [
     'body_class' => 'bg-landingpages'
 ]);
 Router::add('/it-helpdesk-solutions', 'solutions-helpdesk.php', [
-    'title' => 'Integriertes Telefon für IT Helpdesk Software | CallOne',
+    'title' => 'Integriertes Telefon für IT Helpdesk Software',
     'meta_description' => 'Telefonlösung für Ihren IT-Helpdesk und Servicedesk zur effizienten Bearbeitung von Tickets',
     'meta_keywords' => 'Kundenservice, Helpdesk, IT, Support, Inbound, Outbound, CRM, ACD, Callcenter Software, Cloud, Tickets, Servicedesk, Cloud PBX, IP-Telefonie, Cloud-Telefonanlage',
     'og_image_text' => 'Integriertes Telefon für IT Helpdesk Software'
@@ -385,13 +395,13 @@ Router::add('/omr', 'omr-goodie.php', [
     'sitemap_include' => false
 ]);
 Router::add('/sales-solutions', 'solutions-sales.php', [
-    'title' => 'Outbound Callcenter Software | CallOne',
+    'title' => 'Outbound Callcenter Software',
     'meta_description' => 'Outbound Sales am Telefon mit der Callcenter Software von CallOne und Ihrem Businesslösung verbunden',
     'meta_keywords' => 'Predictive Dialing, Outdial, Telefonlösung, Speed dial, Predictive Dialer, eingehend, Callcenter-Software, Voip, gehosteter Dialer, virtuelles Callcenter, Web-Dialer, Online-Dialer, Cloud-Dialer, Cloud-Dialer-System, Power-Dialer, Telemarketing-Software, Telemarketing-Dialing, Auto-Dialing-Software, Kundenanrufsoftware',
     'og_image_text' => 'Outbound Callcenter Software'
 ]);
 Router::add('/salesforce', 'salesforce.php', [
-    'title' => 'Salesforce Integration | CallOne',
+    'title' => 'Salesforce Integration',
     'meta_description' => 'Salesforce Integration für Ihre Callcenter Software. Die CallOne CTI App für Salesforce Lightning & Classis.',
     'og_image_text' => 'Salesforce'
 ]);
@@ -403,7 +413,7 @@ Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'og_image_text' => 'Tableau Callcenter Connector'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
-    'title' => 'Telefon Schnittstellen für alle Belange | CallOne',
+    'title' => 'Telefon Schnittstellen für alle Belange',
     'meta_description' => 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.',
     'meta_keywords' => 'CTI, Apps, Integration, Voice, Zendesk, Salesforce, Jira, Pipedrive, Browser Extension, CRM, ERP, BI, API, Webhook, Rest-API, Chrome, ACD, Dialer, Callcenter Software, Telefon',
     'og_image_text' => 'Telefon Schnittstellen für alle Belange',

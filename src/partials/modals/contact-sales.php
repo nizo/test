@@ -5,24 +5,12 @@ $uniqueID = uniqid();
 ?>
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step" data-step-id="1" data-next-step="3" data-step-indicator="1/3">
-        <div class="worker-select">
-            <h2>Wie viele Mitarbeiter werden telefonieren?</h2>
-            
-            <input type="range" min="1" max="100" step="5" value="1" data-snap="true" data-callone-range="" data-output="#workers<?= $uniqueID; ?>" data-width="480" />
-            
-            <div class="workers">
-                <input type="text" name="workers" id="workers<?= $uniqueID; ?>" /> Mitarbeiter<span> oder mehr…</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="callone-modal__step" data-step-id="2" data-next-step="4" data-prev-step="1" data-step-indicator="2/3">
+    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2">
         <div class="worker-evaluation">
             <div class="radio-select">
                 <div class="radio-select__item">
                     <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
-                    <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="4">
+                    <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="2">
                         <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Sales kontaktieren" />
                         <h3>Senden Sie uns eine Nachricht</h3>
                         <p>Kontaktformular nutzen</p>
@@ -30,7 +18,7 @@ $uniqueID = uniqid();
                 </div>
                 <div class="radio-select__item">
                     <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
-                    <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="5">
+                    <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="3">
                         <img src="/assets/images/icons_svg/callback-black.svg" alt="Sales kontaktieren und Termin buchen" />
                         <h3>Buchen Sie direkt einen Termin</h3>
                         <p>Telefon- oder Videocall vereinbaren</p>
@@ -40,20 +28,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="3" data-prev-step="1" data-no-footer="true" data-steptitle="Vielen Dank für Ihre Anfrage">
-        <h2 style="margin-bottom:20px">Schauen Sie doch hier mal nach...</h2>
-        <p>Wir freuen uns über Ihr Interesse, doch leider finden wir heute noch nicht zusammen. Da sich die Ansprüche nach Firmengröße stark unterscheiden, wissen wir, dass unsere Lösung ihr Potenzial erst ab 10 Teammitgliedern voll entfalten. Dennoch möchten wir Ihnen gern helfen, einen passenden Partner zu finden. Hierzu haben wir eine Handvoll echt guter Empfehlungen für Sie bereitgestellt.</p>
-        <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="card-link">
-            <span class="card-link__icons">
-                <img src="/assets/images/logo/logo-icon-green.svg" alt="CallOne Telekommunikationslösungen" />
-                <img src="/assets/images/icons_svg/recommendations.svg" alt="Unsere Empfehlungen" />
-            </span>
-            <h2 class="card-link__title">Anbieter für Flatrate-Businesstelefonie</h2>
-            <span class="card-link__subtitle">Unsere Empfehlungsliste</span>
-        </a>
-    </div>
-
-    <div class="callone-modal__step" data-step-id="4" data-prev-step="2" data-next-step="6" data-next-button-text="Kontaktformular absenden" data-step-indicator="3/3" data-canceltext="Abbrechen">
+    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
             <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen.</p>
@@ -125,7 +100,6 @@ $uniqueID = uniqid();
                 <div class="floating-form__loader"></div>
 
                 <input type="submit" id="sales-contact-form" hidden />
-                <!-- <button type="submit" class="floating-form__submit btn btn--primary btn--full-width btn--arrow-right callone-modal__submit">Kontaktformular absenden</button> -->
             </form>
 
             <p class="centered">oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
@@ -141,7 +115,7 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="5" data-no-footer="true" data-step-noscroll="true" data-prev-step="2" data-step-indicator="3/3" data-steptitle="Termin wählen">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-steptitle="Termin wählen">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min" style="min-width:320px;height:1200px;"></div>
@@ -150,7 +124,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="6" data-prev-step="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen">
+    <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen">
         <h2 class="centered">Super, wir sind kontaktiert!</h2>
         <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
 
@@ -225,7 +199,6 @@ $uniqueID = uniqid();
             } else {
                 formFields.append('path[]', 'Unbekannt');
             }
-            formFields.set('employees', document.getElementById('workers<?= $uniqueID; ?>').value);
             formFields.set('issue', form.querySelector('select[name="issue"]').value);
             formFields.set('name', form.querySelector('input[name="name"]').value);
             formFields.set('position', form.querySelector('select[name="position"]').value);
@@ -296,53 +269,6 @@ $uniqueID = uniqid();
         const selectBoxes = document.querySelectorAll('[data-callone-select]');
         selectBoxes.forEach(s => {
             new Select(s);
-        });
-
-        // Range Slider
-        let rangeSliders = thisModal.querySelectorAll('[data-callone-range]');
-        rangeSliders.forEach(rangeSlider => {
-            new Range(rangeSlider);
-            
-            rangeSlider.addEventListener('change', e => {
-                let currentValue = e.target.value;
-                let barrier = 10;
-                let workers = thisModal.querySelector('.workers');
-                let workersExtra = thisModal.querySelector('.workers span');
-                let buttonNext = thisModal.querySelector('.worker-select .callone-modal__nextstep');
-                
-                // Check if max number is selected and display additional text
-                if (currentValue == e.target.max) {
-                    workersExtra.style.display = 'inline';
-                } else {
-                    workersExtra.style.display = 'none';
-                }
-                
-                // Check if barrier is reached
-                let step1 = thisModal.querySelector('.callone-modal__step[data-step-id="1"]');
-                if (currentValue < barrier) {
-                    step1.dataset.nextStep = 3;
-                    workers.classList.remove('workers--valid');
-                } else {
-                    step1.dataset.nextStep = 2;
-                    workers.classList.add('workers--valid');
-                }
-            });
-        });
-        
-        // Toggle Form or Calendar, depending on what has been selected on the previous step
-        let workerEvaluationNext = thisModal.querySelector('.callone-modal__step[data-step-id="2"]');
-        let topicSelectors = document.getElementsByName('topic<?= $uniqueID; ?>');
-        topicSelectors.forEach(t => {
-            t.addEventListener('click', e => {
-                if (t.checked) {
-                    if (t.value == 'form') {
-                        workerEvaluationNext.dataset.nextStep = 4;
-                    } else if (t.value == 'calendar') {
-                        workerEvaluationNext.dataset.nextStep = 5;
-                    }
-                    return;
-                }
-            });
         });
     </script>
 </div>

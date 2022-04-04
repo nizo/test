@@ -34,23 +34,25 @@ $faqs->faq_add (
 
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
-		<div class="hero__image">
-			<img src="/assets/images/illus/CCS-header-illustration.svg" alt="Die CallOne Kundenservice Software als Illustration" width="465" height="404" style="width:100%" />
-		</div>
 		<div class="hero__text">
 			<div class="tag">
 				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> CallOne Cloud ACD &copy;
 			</div>
-			<h1>Die erste Contact Center Software mit der Sie Ihren Return-on-Investment (ROI) maximieren werden</h1>
-			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem für <span class="typing-text" data-texts="mehr Effizienz|weniger Ausfälle|mehr Transparenz|bessere Planbarkeit" data-colors="#FF002E|#FF7B1B|#DB00C5|#0088EA">mehr Effizienz</span></h2>
+			<h1>Ihr Kundenservice, <br class="mobile-hidden" />unsere Callcenter Software</h1>
+			<h2>Ein intuitiv bedienbares cloudbasiertes <br />Telefonsystem <span class="typing-text" data-texts="für bessere Verbindungen|mit intuitiver Bedienbarkeit|passgenau auf Ihre Anforderungen" data-colors="#FF7B1B|#0088EA|#64cb06">für bessere Verbindungen</span></h2>
 			<p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Demo vereinbaren</a>
 			</p>
+		</div>
+		<div class="hero__image">
+			<div id="lottie" class="kundenservice" style="height:unset;width:unset;position:unset;"></div>
+			<script>jsFiles.push("/assets/animations/svg/kundenservice.js");</script>
+			<!-- <img src="/assets/images/illus/CCS-header-illustration.svg" alt="Die CallOne Kundenservice Software als Illustration" width="465" height="404" style="width:100%" /> -->
 		</div>
 	</div>
 </div>
 
-<div class="section section--white-grey-white section--same-padding">
+<div class="section">
 	<div class="anchors">
 		<div class="anchors__title">
 			<strong>Schnelleinstieg:</strong> Was interessiert dich?
@@ -63,100 +65,24 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--no-padding-top">
+<div class="section section--purple-white" id="features">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h1>
-		<p class="centered mobile-left">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
-	</div>
-
-	<div class="section__content section__content--wide">
-		<div class="tablist">
-			<div class="tablist__links">
-				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
-					<strong>
-						Fullservice<br />
-						<span class="subtext">CallOne liefert Ihnen das <br />
-						Komplettpaket für Ihr Unternehmen</span>
-					</strong>
-				</div>
-				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
-					<strong>
-						Integriert<br />
-						<span class="subtext">CallOne Callcenter Software verbunden <br />
-						mit Ihrer eigener Telefonanlage</span>
-					</strong>
-				</div>
-			</div>
-			
-			<div class="tablist__content tablist__content--active" data-tab="1">
-				<div class="co-grid co-grid--no-margin-top">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
-						<p>Callcenter Software und Telefonielösungen für Ihr <br class="mobile-hidden" />gesamtes Unternehmen
-						<p>Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
-						<div class="carddeck carddeck--right" data-speed="2500" style="max-width:430px;margin-left:auto;margin-right:auto;">
-							<div class="carddeck__card">
-								<h5><span class="icon-schnittstellen" style="font-size:28px;"></span>Schnittstellen</h5>
-								<br />
-								<p class="subtext">Apps und API's für die Anbindung an Ihre BI, für Ticketing und CRM.</p>
-							</div>
-							<div class="carddeck__card">
-								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
-								<br />
-								<p class="subtext">Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich.</p>
-							</div>
-							<div class="carddeck__card">
-								<h5><span class="icon-voip-telefonanlage" style="font-size:28px;"></span>VoIP-Telefonanlage</h5>
-								<br />
-								<p class="subtext">Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit.</p>
-							</div>
-							<div class="carddeck__card">
-								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
-								<br />
-								<p class="subtext">Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="tablist__content" data-tab="2">
-				<div class="co-grid co-grid--no-margin-top">
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
-						<h2>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h2>
-						<p>Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
-					</div>
-					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="section section--grey-white" id="features">
-	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Über 200 Features - <br />aber die Magie steckt im Detail</h1>
-		<p class="centered mobile-left">Das Rundum-Paket angepasst auf Ihre individuellen Bedürfnisse</p>
+		<h2 class="centered mobile-left">Über 200 Features - <br class="mobile-hidden" />aber die Magie steckt im Detail</h2>
 	</div>
 
 	<div class="section__content section__content--wide section__content--border-bottom">
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
-				<div class="tablist__link tablist__link--smaller tablist__link--active" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(219, 0, 197, 0.2));" data-sticky-text="Erreichbarkeit">
+				<div class="tablist__link tablist__link--smaller tablist__link--active color-tab" data-color="purple" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(219, 0, 197, 0.2));" data-sticky-text="Erreichbarkeit">
 					<strong>Beste Erreichbarkeit</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="2" style="--bg: linear-gradient(rgba(255, 123, 27, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 123, 27, 0.2));" data-sticky-text="Effizienz">
+				<div class="tablist__link tablist__link--smaller color-tab" data-color="orange" data-tab="2" style="--bg: linear-gradient(rgba(255, 123, 27, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 123, 27, 0.2));" data-sticky-text="Effizienz">
 					<strong>Mehr Effizienz</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="3" style="--bg: linear-gradient(rgba(255, 0, 46, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 0, 46, 0.2));" data-sticky-text="Bearbeitung">
+				<div class="tablist__link tablist__link--smaller color-tab" data-color="red" data-tab="3" style="--bg: linear-gradient(rgba(255, 0, 46, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(255, 0, 46, 0.2));" data-sticky-text="Bearbeitung">
 					<strong>Schnellere Bearbeitung</strong>
 				</div>
-				<div class="tablist__link tablist__link--smaller" data-tab="4" style="--bg: linear-gradient(rgba(0, 136, 234, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(0, 136, 234, 0.2));" data-sticky-text="Transparenz">
+				<div class="tablist__link tablist__link--smaller color-tab" data-color="blue" data-tab="4" style="--bg: linear-gradient(rgba(0, 136, 234, 0.2), transparent);--stickyBg: linear-gradient(transparent, rgba(0, 136, 234, 0.2));" data-sticky-text="Transparenz">
 					<strong>Mehr Transparenz</strong>
 				</div>
 			</div>
@@ -168,25 +94,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
 								</div>
 								bessere <br />Erreichbarkeit*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
 								</div>
 								Verkürzung <br />der Wartezeit*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								geringere <br />Abbruchquote*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #DB00C5;">
 									1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
 								</div>
@@ -218,25 +144,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="15">15%</span>
 								</div>
 								weniger Gesprächszeit für Ihre Agent*innen*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="4">4x</span>
 								</div>
 								kürzere IVR-Menüs durch Spracherkennung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="94">94%</span>
 								</div>
 								Kundenzufriedenheit dank schnellerer Fallbearbeitung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #FF7B1B;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
@@ -268,25 +194,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								weniger Kosten pro Kontakt durch gesteigerte FCR*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="10" data-end="5">5</span>-<span class="counting-number" data-start="30" data-end="15" data-suffix="s">15s</span>
 								</div>
 								kürzere Gespräche (AHT) durch Vorqualifizierung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-start="0" data-end="50">50</span>-<span class="counting-number" data-start="20" data-end="70" data-suffix="%">70%</span>
 								</div>
 								Erkennung des Anruferanliegens*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 								</div>
@@ -318,25 +244,25 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 						<div class="co-grid">
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 								</div>
 								mehr Effizienz in der Personalplanung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="x" data-start="0" data-end="3">3x</span>
 								</div>
 								schnellere Reaktion dank Echtzeit-Benachrichtigung*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="min" data-start="0" data-end="60">60min</span>
 								</div>
 								Zeitersparnis täglich mittels Autoreporting*
 							</div>
-							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card">
+							<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm number-card number-card--shadow">
 								<div class="number-card__number" style="--color: #0088EA;">
 									<span class="counting-number" data-suffix="%" data-start="0" data-end="20">20%</span>
 								</div>
@@ -376,9 +302,100 @@ $faqs->faq_add (
 	</div>
 </div>
 
+<div class="section section--grey-white">
+	<div class="section__content section__content--narrow">
+		<h2 class="centered mobile-left">Eine Call Center Software, angepasst an Ihre ganz eigenen Bedürfnisse</h2>
+		<p class="centered mobile-left">CallOne können Sie als Full-Service Telefoniepartner im gesamten Unternehmen einsetzen oder gezielt im Kundenservice mit Ihren bestehenden Businesslösungen.</p>
+	</div>
+
+	<div class="section__content section__content--wide">
+		<div class="tablist">
+			<div class="tablist__links">
+				<div class="tablist__link tablist__link--active" data-tab="1" data-sticky-text="Fullservice">
+					<strong>
+						Fullservice<br />
+						<span class="subtext">CallOne liefert Ihnen das <br />
+						Komplettpaket für Ihr Unternehmen</span>
+					</strong>
+				</div>
+				<div class="tablist__link" data-tab="2" data-sticky-text="Integriert">
+					<strong>
+						Integriert<br />
+						<span class="subtext">CallOne Callcenter Software verbunden <br />
+						mit Ihrer eigener Telefonanlage</span>
+					</strong>
+				</div>
+			</div>
+			
+			<div class="tablist__content tablist__content--active" data-tab="1">
+				<div class="co-grid co-grid--no-margin-top">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<img src="/assets/images/icons_svg/callone-fullservice.svg" alt="CallOne bietet eine Fullservice Telefonielösung mit Kundenservice Software" width="158" height="88" style="margin:0" />
+						<h3>Callcenter Software und Telefonielösungen für Ihr gesamtes Unternehmen</h3>
+						<p class="bigtext">Eine Plattform alles drin. Wenn Sie mögen statten wir Ihr Unternehmen mit einer kompletten VoIP-Telefonanlage aus und passen sie optimal auf Ihre Bedürfnisse an.</p>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md" style="background-image:url(/assets/images/backgrounds_png/whole-company.png);background-size:285px;background-repeat:no-repeat;background-position:center top;padding-top:180px">
+						<div class="carddeck carddeck--right" data-speed="2500" style="max-width:430px;margin-left:auto;margin-right:auto;">
+							<div class="carddeck__card">
+								<h5><span class="icon-schnittstellen" style="font-size:28px;"></span>Schnittstellen</h5>
+								<br />
+								<p class="subtext">
+									Apps und API's für die Anbindung an Ihre BI, für Ticketing und CRM.<br />
+									<br />
+									<a href="/callcenter-software-integrationen" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+							<div class="carddeck__card">
+								<h5><span class="icon-rufnummern" style="font-size:28px;"></span>Rufnummern</h5>
+								<br />
+								<p class="subtext">
+									Rufnummern schalten, portieren und weiterleiten. Weltweit und natürlich in Ihrem Vorwahlbereich.<br />
+									<br />
+									<a href="/0800-lokal-nummern" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+							<div class="carddeck__card">
+								<h5><span class="icon-voip-telefonanlage" style="font-size:28px;"></span>VoIP-Telefonanlage</h5>
+								<br />
+								<p class="subtext">
+									Natürlich in einer Oberfläche mit Ihrer Call Center Software aus der Cloud mit 99,999% Erreichbarkeit.<br />
+									<br />
+									<a href="/voip-telefonanlage" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+							<div class="carddeck__card">
+								<h5><span class="icon-phone-ms-teams" style="font-size:28px;"></span>Microsoft Teams</h5>
+								<br />
+								<p class="subtext">
+									Die Telefonie der Callcenter Software direkt in Microsoft Teams integriert.<br />
+									<br />
+									<a href="/ms-teams" class="inline-link">Mehr erfahren &rarr;</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tablist__content" data-tab="2">
+				<div class="co-grid co-grid--no-margin-top">
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<img src="/assets/images/icons_svg/callone-own-telephony.svg" alt="CallOne Call Center Software und Telefonielösung für die gesamte Businesstelefonie" width="158" height="88" style="margin:0" />
+						<h3>Ihre Telefonanlage in Kombination mit der Callcenter Software von CallOne</h3>
+						<p class="bigtext">Bleiben Sie flexibel! Unsere Callcenter Software ist modular und funktioniert auch mit Ihrer bestehenden Telefonanlage und Ihren bestehenden Businesslösungen. Wir bieten hier eine Vielzahl von Schnittstellen und Anbindungen, damit alles reibungslos ineinandergreift.</p>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<img src="/assets/images/photos/integration-callcenter.png" alt="CallCenter Software von CallOne in Unternehmenstelefonie integrieren" width="570" height="391" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="section section--black" id="mehrwertrechner">
 	<div class="section__content section__content--narrow saving-calculation--mobile">
-		<h1>Lust Ihr Einsparpotential direkt hier zu berechnen?</h1>
+		<h2>Lust Ihr Einsparpotential direkt hier zu berechnen?</h2>
 		
 		<div class="content-box content-box--white">
 			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="Open Desktop Browser für Mehrwertrechner Callcenter Software" width="48" height="48" /></p>
@@ -428,7 +445,7 @@ $faqs->faq_add (
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/menu-customer-service-white.svg" alt="Kundenservice Callcenter Software" width="52" height="51" />
+								<img src="/assets/images/icons_svg/menu-customer-service-white.svg" alt="Kundenservice Callcenter Software" width="50" height="49" />
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off">
@@ -758,7 +775,7 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white" id="referenzen">
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Das glauben Sie uns nicht?</h1>
+		<h2 class="centered mobile-left">Das glauben Sie uns nicht?</h2>
 		
 		<p class="centered bigtext mobile-left">
 			Dann schauen Sie sich jetzt an, was unsere Kunden schon mit der CallOne Callcenter-Software erreichen konnten.
@@ -810,7 +827,7 @@ $faqs->faq_add (
 	<div class="mobile-hidden" style="height: 100px;"></div>
 
 	<div class="section__content section__content--narrow">
-		<h1 class="centered mobile-left">Das hat Sie neugierig gemacht?</h1>
+		<h2 class="centered mobile-left">Das hat Sie neugierig gemacht?</h2>
 		
 		<p class="centered mobile-left">Melden Sie sich jetzt für ein unverbindliches Erstgespräch. <span class="readmore">Wir erklären Ihnen, wie die CallOne Callcenter-Software funktioniert und rechnen auch gern für Sie im Detail Ihre Einsparungen und Ihren Effizienzgewinn aus.</span></p>
 	</div>
@@ -837,7 +854,7 @@ $faqs->faq_add (
 
 <div class="section section--dark-green-black">
 	<div class="section__content" id="not-convinced-yet">
-		<h1 class="centered mobile-left">Noch nicht überzeugt?</h1>
+		<h2 class="centered mobile-left">Noch nicht überzeugt?</h2>
 
 		<p class="centered mobile-left">Dann werfen Sie doch noch einen Blick auf wichtige Themen rund um unsere Call Center Software, die das Paket für unsere Kunden abrunden.</p>
 	</div>
@@ -1052,20 +1069,20 @@ $faqs->faq_add (
 			</div>
 
 			<div class="tablist__content" data-tab="3">
-				<h3 class="centered mobile-left">Die perfekte Kombination aus <br />Technologie und persönlicher Beratung</h3>
+				<h3 class="centered mobile-left">Wenn Sie Entscheidungen endlich<br />datenbasiert treffen wollen...</h3>
 				<br class="mobile-hidden" />
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md right mobile-left">
-						<h4>Technologie „Made in Germany“</h4>
-						<p>Die CallOne Callcenter Software verspricht höchste Zuverlässigkeit und stetige Weiterentwicklung. Wir verhelfen zu Höchstleistungen verbessern steig unsere Technologie für die optimale Customer Experience.</p>
+						<h4>... bekommen Sie passende Dashboards</h4>
+						<p>Als Teamleiter oder Supervisor wünschen Sie sich KPIs auf einen Blick überwachen und steuern zu können? Nutzen Sie unsere webbasierten Echtzeit-Statistiken unserer Callcenter Software für den idealen Überblick über Erreichbarkeiten, Arbeitszeiten und Ihre KPIs.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--hidden-md co-grid__col--4-md centered">
 						<img src="/assets/images/icons_png/overlap.png" alt="CallOne Callcenter Software" width="370" height="225" />
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md left">
-						<h4>Expertenberatung</h4>
-						<p>Bei uns arbeiten Projektmanager*innen und Kunden Hand in Hand – tagtäglich! Sie erhalten einen zentralen Ansprechpartner. Dies schafft nicht nur unglaubliche Geschwindigkeit im Projekt sondern auch messbare Erfolge in Ihrem ROI.</p>
+						<h4>... bekommen Sie umfangreiche Statistiken</h4>
+						<p>Sie wollen zu Gunsten Ihres Sales und Service Prozesse optimieren? Dann nutzen Sie die Konversationsanalyse und das KI-basierte Coaching in Echtzeit, das Teil unserer Callcenter Software ist. Effizienz und Kundenzufriedenheit bekommen so einen Boost.</p>
 					</div>
 				</div>
 
@@ -1081,7 +1098,7 @@ $faqs->faq_add (
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-						<blockquote class="quote">„Über richtig guten Kundenservice”</blockquote>
+						<blockquote class="quote">„Über richtig guten Kundenservice auf Basis idealer Daten”</blockquote>
 						<p>
 							<strong>Dr. Rainer Klipp</strong><br />
 							Geschäftsführer von Check24 Versicherungen
@@ -1136,13 +1153,15 @@ $faqs->faq_add (
 			</div>
 		</div>
 	</div>
+</div>
 	
+<div class="section section--black section--no-padding-top">
 	<div class="section__content section__content--wide">
 		<div class="cta-contact">
 			<h2 class="centered">Lassen Sie uns miteinander reden!</h2>
 			<p class="centered">Ob unsere Lösungen zu Ihren Anforderungen passen, finden wir schnell in einem ersten ehrlichen und umfänglichen Austausch heraus.</p>
 
-			<div class="co-grid mobile-centered">
+			<div class="co-grid tablet-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
 					<h4>
@@ -1182,3 +1201,14 @@ $faqs->faq_add (
 		?>
 	</div>
 </div>
+
+<script>
+	let colorTabsSection = document.querySelector('#features');
+	let colorTabs = document.querySelectorAll('.color-tab');
+	colorTabs.forEach(colorTab => {
+		colorTab.addEventListener('click', e => {
+			colorTabsSection.classList.remove('section--purple-white', 'section--orange-white', 'section--red-white', 'section--blue-white');
+			colorTabsSection.classList.add('section--' + colorTab.getAttribute('data-color') + '-white');
+		});
+	});
+</script>

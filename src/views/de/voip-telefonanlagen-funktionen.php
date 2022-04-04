@@ -1,5 +1,5 @@
-<div class="wrapper">
-  <div class="content wide">
+<div class="section">
+  <div class="section__content section__content--wide">
     <header class="main-header">
       <div class="text no-padding">
         <h1>CallOne VoIP Telefonanlagen Funktionen</h1>

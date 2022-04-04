@@ -32,8 +32,8 @@ $faqs->faq_add (
 );
 ?>
 
-<div class="wrapper " style="overflow: hidden;">
-  <div class="content narrow">
+<div class="section" style="overflow:hidden">
+  <div class="section__content section__content--narrow">
     <header class="main-header">
       <div class="grid centered">
           <div class="col-1">

@@ -31,6 +31,12 @@
 @import '_references';
 
 /*
+ * Other instances
+ */
+@import 'components/blog';
+@import 'components/faq';
+
+/*
 * Components
 */
 @import 'components/grid';
@@ -40,6 +46,7 @@
 @import 'components/atomic-loader';
 @import 'components/banderole';
 @import 'components/base';
+@import 'components/breather-box';
 @import 'components/buttons';
 @import 'components/calendar';
 @import 'components/card-link';
@@ -58,11 +65,13 @@
 @import 'components/index-card';
 @import 'components/jobs';
 @import 'components/list';
+@import 'components/logos';
 @import 'components/modal';
 @import 'components/navigation';
 @import 'components/number-card';
 @import 'components/paper';
 @import 'components/person';
+@import 'components/plans';
 @import 'components/quote';
 @import 'components/radio-select';
 @import 'components/range';

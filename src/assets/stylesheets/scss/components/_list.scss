@@ -1,12 +1,25 @@
+*.list, .list+* {
+    margin-top: var(--gutter-l);
+}
+
 .list {
+    --fs: inherit;
+
+    @media screen and (max-width: 768px) {
+        --fs: inherit !important;
+    }
+
     &--checkmarks, &--checkmarks-top {
         list-style: none;
         li {
             position: relative;
             padding-left: 2em;
+            font-size: var(--fs);
+
             &+li {
                 margin-top: 15px;
             }
+            
             &:before {
                 content: "";
                 position: absolute;

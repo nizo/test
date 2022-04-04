@@ -1,0 +1,126 @@
+/*
+ * Styles for callone.de/faq
+ */
+
+ /*
+  * FAQ Search
+  */
+.faq-search {
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 0 4px 18px rgba(#000, .25);
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__query {
+        padding: 0 var(--gutter-m);
+        flex: 1;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        font-family: $font-copy;
+        font-size: inherit;
+    }
+
+    button {
+        width: auto !important;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 2px solid rgba(#000, 0.1);
+        background-color: #fff;
+    }
+
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+/*
+ * FAQ List
+ */
+*+.faq-list, .faq-list+* {
+    margin-top: var(--gutter-l);
+}
+.faq-list {
+    position: relative;
+    list-style: none;
+    box-shadow: 0 4px 18px rgba(#000, .25);
+    border-radius: 10px;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+
+    li {
+        position: relative;
+        padding: var(--gutter-xs);
+        z-index: 1;
+
+        &:nth-child(odd) {
+            background-color: #fafafa;
+        }
+
+        &:not(.faq-list__headline) {
+            position: relative;
+            padding-right: calc(var(--gutter-xs) + 9px);
+
+            a {
+                display: block;
+                color: #000;
+
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: var(--gutter-xs);
+                top: calc(50% - 7px);
+                display: block;
+                width: 9px;
+                height: 14px;
+                background-image: url(../images/icons_svg/arrow-right-black.svg);
+                opacity: .2;
+                transition: all .3s ease;
+            }
+
+            &:hover {
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    &__headline {
+        font-weight: bold;
+        font-family: $font-headline;
+        font-size: 20px;
+        // border-bottom: 2px solid rgba(#000, .2);
+        background-color: rgba($color-primary, .2) !important;
+
+        a {
+            color: inherit;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+/*
+ * FAQ Content
+ */
+.faq-content {
+    a {
+        &:not(.btn) {
+            @extend .inline-link;
+        }
+    }
+
+    *:not(h1, h2, h3, h4, h5, h6) + h1, h2, h3, h4, h5, h6 {
+        margin-top: 1em;
+    }
+}

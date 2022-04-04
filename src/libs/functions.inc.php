@@ -21,6 +21,15 @@ function getJsHash() {
     return $js_hash;
 }
 
+
+// Check if passes page is current page
+function getPageActiveClass($uri) {
+    global $page;
+    
+    if ($uri == $page->uri)
+        return ' submenu__link--active';
+}
+
 /* Load CSS-Files from directory */
 function loadCSS($dir, $js=false) {
     $css_hash = getCssHash();

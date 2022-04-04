@@ -4,7 +4,7 @@
             <div class="footer-column">
                 <h4>CallOne GmbH</h4>
                 <p>
-                    Charlottenstr. 107<br />
+                    Posthofstr. 5<br />
                     14467 Potsdam<br />
                     <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
                     <a href="mailto:kontakt@callone.de">kontakt@callone.de</a><br />
@@ -54,14 +54,14 @@
             <div class="footer-column">
                 <h4>Unternehmen</h4>
                 <p>
-                    <a href="https://www.callone.de/blog/" target="_blank">Blog</a><br />
+                    <a href="https://www.callone.de/blog/">Blog</a><br />
                     <a href="/karriere">Karriere</a><br>
                     <a href="/ueber-uns">Über uns</a>
                 </p>
                 <br />
                 <h4>Support</h4>
                 <p>
-                    <a href="https://www.callone.de/faq" target="_blank">FAQs</a><br />
+                    <a href="https://www.callone.de/faq">FAQs</a><br />
                     <a href="/kontakt">Kontakt</a><br />
                     <a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a><br />
                     <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
@@ -88,7 +88,7 @@
         <div class="company">
             <h4>CallOne GmbH</h4>
             <p>
-                Charlottenstr. 107<br />
+                Posthofstr. 5<br />
                 14467 Potsdam
             </p>
             <p>
@@ -134,7 +134,7 @@
             <li>
                 <span>Unternehmen</span>
                 <ul>
-                    <li><a href="https://www.callone.de/blog/" target="_blank">Blog</a></li>
+                    <li><a href="https://www.callone.de/blog/">Blog</a></li>
                     <li><a href="/karriere">Karriere</a></li>
                     <li><a href="/ueber-uns">Über uns</a></li>
                 </ul>
@@ -149,7 +149,7 @@
             <li>
                 <span>Support</span>
                 <ul>
-                    <li><a href="https://www.callone.de/faq" target="_blank">FAQs</a></li>
+                    <li><a href="https://www.callone.de/faq">FAQs</a></li>
                     <li><a href="/kontakt">Kontakt</a></li>
                     <li><a href="https://status.callone.de" rel="noreferrer">Systemstatus</a></li>
                 </ul>
