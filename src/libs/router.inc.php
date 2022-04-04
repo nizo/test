@@ -345,7 +345,6 @@ Router::add('/datenschutz', 'datenschutz.php', [
     'title' => 'CallOne Datenschutz - DSGVO, Cloud EU',
     'meta_description' => 'CallOne bietet VoIP-Telefonanlagen und Callcenter Lösungen aus der deutschen Cloud. Datenschutz hat für uns oberste Priorität. ✔  DSGVO-konform  ✔',
     'og_image_text' => 'CallOne Datenschutz, DSGVO, Cloud EU',
-    'body_class' => 'bg-landingpages',
     'menu_position' => 'callone'
 ]);
 Router::add('/download', 'downloads.php', [

@@ -1,3 +1,7 @@
+*.list, .list+* {
+    margin-top: var(--gutter-l);
+}
+
 .list {
     --fs: inherit;
 
