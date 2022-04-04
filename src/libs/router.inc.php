@@ -144,7 +144,7 @@ Router::add('/callcenter-software-integrationen', 'callcenter-software-integrati
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.8'
 ]);
-Router::add('/telefonanlage-mit-warteschleife', 'warteschleifen-management.php', [
+Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife.php', [
     'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
     'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
     'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
@@ -238,7 +238,7 @@ Router::add('/customer-success', 'customer-success.php', [
     'menu_position' => 'callone',
     'sitemap_priority' => '0.7'
 ]);
-Router::add('/dsgvo-telekommunikation', 'data-protection.php', [
+Router::add('/dsgvo-telekommunikation', 'dsgvo-telekommunikation.php', [
     'title' => 'Datenschutz in der Telekommunikation mit CallOne',
     'meta_description' => 'Gehen Sie mit Ihrer Cloud Telefonanlage auf Nummer sicher. CallOne hostet in Deutschland und bietet die vielleicht umfänglichsten Optionen beim Thema Datenschutz',
     'og_image_text' => 'Datenschutz in der Telekommunikation mit CallOne',

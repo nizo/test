@@ -16,7 +16,7 @@
 
 <div class="section section--no-padding-top">
     <div class="section__content section__content--narrow centered mobile-left">
-        <h1>Der i2x Assistent: Das Echtzeit-Dashboard für Ihre Kundenberater.</h1>
+        <h2>Der i2x Assistent: Das Echtzeit-Dashboard für Ihre Kundenberater.</h2>
         <p class="bigtext">Der i2x Assistent fungiert als <span class="fw500">Echtzeitcoach für die Gespräche in Vertrieb und Service</span>. Kundenberater bekommen direkt <span class="fw500">in den Telefonaten</span> einen <span class="fw500">flexiblen Gesprächsleitfaden</span>.</p>
     </div>
 
@@ -38,7 +38,7 @@
 
 <div class="section">
     <div class="section__content section__content--narrow centered mobile-left">
-        <h1>Bessere Ergebnisse in Vertrieb & Service - mit interaktivem Gesprächsleitfaden</h1>
+        <h2>Bessere Ergebnisse in Vertrieb & Service - mit interaktivem Gesprächsleitfaden</h2>
         <p class="bigtext">Holen Sie mit i2x das Maximale aus Telefongesprächen in Vertrieb und Service heraus und erhöhen Sie Ihren ROI.</p>
     </div>
 

@@ -46,7 +46,7 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
+        <h2 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h2>
         <p class="bigtext centered mobile-left">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
 
         <div class="grid-slider">
@@ -86,7 +86,7 @@ $faqs->faq_add (
 
 <div class="section" id="features">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Callcenter Management leicht gemacht</h1>
+        <h2 class="centered mobile-left">Callcenter Management leicht gemacht</h2>
 
         <div class="tablist">
             <div class="tablist__links">
@@ -256,7 +256,7 @@ $faqs->faq_add (
 
 <div class="section section--black">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Reibungsloser Zugriff auf Ihre Daten</h1>
+        <h2 class="centered mobile-left">Reibungsloser Zugriff auf Ihre Daten</h2>
         <h4 class="centered mobile-left">
             Verbinden Sie CallOne mit Ihren <br />
             BI-, Lead- oder Ticketingtools
@@ -335,7 +335,7 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Weitere Funktionen</h1>
+        <h2 class="centered mobile-left">Weitere Funktionen</h2>
 
         <div class="tablist">
             <div class="tablist__links">
@@ -436,7 +436,7 @@ $faqs->faq_add (
 
 <div class="section">
     <div class="section__content">
-        <h1 class="centered mobile-left">Fragen und Antworten</h1>
+        <h2 class="centered mobile-left">Fragen und Antworten</h2>
 
 		<?php
 		$faqs->structured_data_get_code ();
