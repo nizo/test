@@ -115,13 +115,13 @@ require_once('banderole.php');
                         </div>
                         <div class="submenu__right submenu__right--align-bottom">
                             <div class="submenu__ad">
-                                <a href="/ms-teams"><img src="/assets/images/navigation/teams-ad.svg" alt="Teams Telefonie als Cloud Telefonanlage" /></a>
+                                <a href="/ms-teams"><img src="/assets/images/navigation/teams-ad.svg" alt="Teams Telefonie als Cloud Telefonanlage" width="270" height="270" /></a>
                             </div>
 
                             <a href="/ms-teams" class="submenu__link submenu__link--3-lines">
                                 <div class="submenu__link-text">
                                     <strong>Microsoft Teams</strong>
-                                    <p>Integrieren Sie Ihre CallOne-Telefonanlage in Microsoft-Teams. Smarte Businesstelefonie war noch nie so einfach.</p>
+                                    <p>Integrieren Sie Ihre CallOne-Telefonanlage in Microsoft-Teams. Businesstelefonie war nie einfacher.</p>
                                 </div>
                             </a>
                         </div>
