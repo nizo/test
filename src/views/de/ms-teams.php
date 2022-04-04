@@ -53,7 +53,7 @@ $faqs->faq_add (
         <div class="logos" style="--height:30px">
             <img src="/assets/images/client-logos/logo-amorelie.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Amorelie" width="245" height="30">
             <img src="/assets/images/client-logos/bett.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Bett1" width="62" height="30">
-            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Seereisedienst" width="" height="30">
+            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Seereisedienst" width="166" height="30">
             <img src="/assets/images/client-logos/logo-snipes.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Snipes" width="85" height="30">
             <img src="/assets/images/client-logos/logo-igus.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Igus" width="58" height="30">
         </div>
@@ -74,7 +74,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="Businesstelefonie und VoIP Telefonie mit Microsoft Teams" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="Businesstelefonie und VoIP Telefonie mit Microsoft Teams" width="80" height="80" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Maximale Flexibilität Dank Teams-Telefonie</h4>
@@ -83,7 +83,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="VoIP Telefonie mit Microsoft Teams für Unternehmenstelefonie" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="VoIP Telefonie mit Microsoft Teams für Unternehmenstelefonie" width="80" height="80" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie wie Sie sie brauchen</h4>
@@ -92,7 +92,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="Microsoft Teams als Cloud Telefonanlage" width="80" height="78" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="Microsoft Teams als Cloud Telefonanlage" width="80" height="78" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Extra Hardware? Unnötig!</h4>

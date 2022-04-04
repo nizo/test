@@ -18,13 +18,6 @@
 </div>
 
 <div class="section section--white-grey section--no-padding-top">
-    <!-- <div class="section__content section__content--wide mobile-hidden">
-        <p class="bigtext centered">CallOne Kunden jeder Größe haben ein Ziel: Überdurchschnittliche Kundenerlebnisse!</p>
-        <p class="centered">
-            <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="Businesstelefonie für Enterprise Unternehmen" />
-        </p>
-    </div> -->
-
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h1>
 

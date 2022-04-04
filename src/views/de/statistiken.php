@@ -262,35 +262,6 @@ $faqs->faq_add (
             BI-, Lead- oder Ticketingtools
         </h4>
 
-        <!-- <div class="co-grid cards desktop-hidden centered">
-            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-                <div class="cards__card--dark-top">
-                    <h6>Beispiel-Apps</h6>
-                    <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/client-logos/freshdesk-hubspot-white.png" alt="CRM Anbindung Freshdesk Hubspot bei CallOne" width="449" height="57" />
-                    </div>
-                    <h4>Ticketing-Systeme</h4>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-                <div class="cards__card--dark-top">
-                    <h6>Besipiel-Apps</h6>
-                    <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/client-logos/bi-logo-group-white@2x.png" alt="Business Integration Tools für CallOne Callcenter Software" width="543" height="53" />
-                    </div>
-                    <h4>Business Intelligence-Tools</h4>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-                <div class="cards__card--dark-top">
-                    <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/icons_svg/integrations-icon-group.svg" alt="Eigene Systeme über APIs verbinden" width="272" height="51" />
-                    </div>
-                    <h4>Eigene Systeme verbinden</h4>
-                </div>
-            </div>
-        </div> -->
-
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="split-card">
