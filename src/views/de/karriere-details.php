@@ -224,7 +224,7 @@ if (empty ($job))
     </div>
 
     <div class="section__content section__content--wide">
-        <h1 class="centered">Das haben wir dir zu bieten:</h1>
+        <h2 class="centered mobile-left">Das haben wir dir zu bieten:</h2>
 
         <div class="co-grid mobile-hidden">
             <?php
@@ -262,7 +262,7 @@ if (empty ($job))
     </div>
 
     <div class="section__content section__content--wide">
-        <h1 class="centered">Du hast nichts zu verlieren:</h1>
+        <h2 class="centered mobile-left">Du hast nichts zu verlieren:</h2>
 
         <a href="#" class="btn btn--centered btn--application" data-openmodal="application" data-modaldata="<?= base64_encode('{"job": "'.$job->title_get().'"}'); ?>">
             <strong>Jetzt bewerben</strong><br />
