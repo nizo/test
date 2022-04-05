@@ -174,7 +174,6 @@ Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'title' => 'Freecall 0800, Ortsnetz, international, Wunschrufnummer Deutschland',
     'meta_description' => ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!',
     'og_image_text' => 'Wunschrufnummer, Freecall 0800, international, Ortsnetz',
-    'body_class' => 'bg-preisanfrage',
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
