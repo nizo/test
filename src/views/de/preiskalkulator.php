@@ -2,10 +2,15 @@
 	window._mfq = window._mfq || [];
 </script>
 
+<div class="section section--no-padding-bottom">
+	<div class="section__content">
+		<h1 class="centered mobile-left">Preiskalkulator</h1>
+	</div>
+</div>
+
 <!-- chat-segm -->	
 <div class="wrapper conversation chat overflow-hidden animatedParent animateOnce">
 	<div class="content overflow-hidden-mobile relative narrow">
-		
 		<form class="segm_ctr chat form flex">
 			<div class="bg-height"></div>
 

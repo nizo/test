@@ -828,6 +828,7 @@ img {
 	}
 	&.no-overflow {
 		overflow: hidden;
+		max-width: 100%;
 	}
 	&.no-margin-top {
 		margin-top: 0;

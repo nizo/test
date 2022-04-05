@@ -173,7 +173,7 @@ function addEvent(obj, evt, fn) {
 
 (function() {
 	
-	var conversation = [ ["Ich möchte meinen Lieferstatus wissen.", "Ihr Pakt wird morgen geliefert​."], ["Ich möchte einen Termin buchen​.", "Der nächste freie Termin wäre morgen um 11:00 Uhr."], ["Ich möchte die Ware zurücksenden.", "Den Link zum Rücksendeticket haben wir Ihnen soeben per SMS zugeschickt​."] ];
+	var conversation = [["Ich möchte meinen Lieferstatus wissen.", "Ihr Pakt wird morgen geliefert."], ["Ich möchte einen Termin buchen​.", "Der nächste freie Termin wäre morgen um 11:00 Uhr."], ["Ich möchte die Ware zurücksenden.", "Den Link zum Rücksendeticket haben wir Ihnen soeben per SMS zugeschickt."] ];
 	var counter = 0;
 	var movedOver = false;
 	var direction = "";

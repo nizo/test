@@ -181,7 +181,6 @@ Router::add('/ms-teams', 'ms-teams.php', [
 Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
     'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'body_class' => 'bg-casestudy',
     'og_image_text' => 'Callcenter Bot KI-Sprachgesteuerte Auswahlmenüs IVR',
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
