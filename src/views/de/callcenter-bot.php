@@ -59,7 +59,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <p class="centered"><img src="/assets/images/icons_svg/small_38.svg" alt="Auswahlmenüs - Sprachauswahl statt DTMF-Tasten" width="45" height="50" style="height:50px" /></p>
                 <h3 class="centered">Sprachgesteuertes IVR</h3>
-                <p class="centered">Sprachdialoge statt starrer Menüs.</p>
+                <p class="centered">Sprachdialoge statt <br />starrer Menüs.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Erkennung menschlicher Sprache</li>
                     <li>Intelligente Spracherlebnisse</li>
@@ -69,7 +69,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <p class="centered"><img src="/assets/images/icons_svg/big_13.svg" alt="Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten" width="56" height="50" style="height:50px" /></p>
                 <h3 class="centered">Informationsbots</h3>
-                <p class="centered">Anruferanfragen automatisiert beantworten.</p>
+                <p class="centered">Anruferanfragen <br />automatisiert beantworten.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Sprachbasierte FAQ</li>
                     <li>Vorqualifizierung von Anruferanliegen</li>
@@ -217,11 +217,11 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon" width="69" height="50" style="filter:saturate(0) grayscale(100%) brightness(1000%);height:50px" />
+                        <img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon" width="64" height="61" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>Call-Tracking</h3>
+                            <h3>Call-<br />Tracking</h3>
                             <p>Rückgabe von relevanten Informationen auf Basis der Website-Daten.</p>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>Callcenter-Software</h3>
+                            <h3>Callcenter-<br />Software</h3>
                             <p>Steuerung von Anrufen mit Hilfe von Spracheingaben.</p>
                         </div>
                     </div>
@@ -247,7 +247,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>VoIP-Telefonanlage</h3>
+                            <h3>VoIP-<br />Telefonanlage</h3>
                             <p>Live-Chat mit Website-Besuchern und Versenden von Dokumenten.</p>
                         </div>
                     </div>
@@ -260,7 +260,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>Zusammenspiel mit eigener Anlage</h3>
+                            <h3>Zusammenspiel<br />mit eigener Anlage</h3>
                             <p>Routing auf Basis von Webseiteneingaben oder Warenkorbinhalten.</p>
                         </div>
                     </div>
@@ -273,7 +273,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>CTI-Integration mit Ihrem CRM</h3>
+                            <h3>CTI-Integration<br />mit Ihrem CRM</h3>
                             <p>Anreicherung von Websitedaten mit Informationen aus Ihren (CRM-)Systemen.</p>
                         </div>
                     </div>
@@ -286,7 +286,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>Co-Browsing</h3>
+                            <h3>Co-<br />Browsing</h3>
                             <p>Starten einer Co-Browsing Session nach Kontaktaufnahme durch den Nutzer.</p>
                         </div>
                     </div>
