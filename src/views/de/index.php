@@ -286,7 +286,7 @@
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Callcenter Software Anbieter gibt es viele...</h4>
+                <div class="subtitle">Callcenter Software Anbieter gibt es viele...</div>
                 <h2>Kaum einer bietet Ihnen einen nachweislichen Return-on-Investment.</h2>
 
                 <div class="index-card index-card-1">
