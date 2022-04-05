@@ -53,7 +53,7 @@ $faqs->faq_add (
         <div class="logos" style="--height:30px">
             <img src="/assets/images/client-logos/logo-amorelie.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Amorelie" width="245" height="30">
             <img src="/assets/images/client-logos/bett.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Bett1" width="62" height="30">
-            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Seereisedienst" width="" height="30">
+            <img src="/assets/images/client-logos/logo-seereisedienst.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Seereisedienst" width="166" height="30">
             <img src="/assets/images/client-logos/logo-snipes.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Snipes" width="85" height="30">
             <img src="/assets/images/client-logos/logo-igus.svg" alt="CallOne bietet Microsoft Teams Telefonie für Kunden wie Igus" width="58" height="30">
         </div>
@@ -62,10 +62,10 @@ $faqs->faq_add (
 
 <div class="section section--white-grey section--big-padding section--no-padding-bottom">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">
+        <h2 class="centered mobile-left">
             MS Teams Telefonie:<br />
             Unternehmenstelefonie war noch nie so einfach!
-        </h1>
+        </h2>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm co-grid__col--6-md co-grid__col--vcentered centered">
@@ -74,7 +74,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="Businesstelefonie und VoIP Telefonie mit Microsoft Teams" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/msteams-icon.svg" alt="Businesstelefonie und VoIP Telefonie mit Microsoft Teams" width="80" height="80" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Maximale Flexibilität Dank Teams-Telefonie</h4>
@@ -83,7 +83,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="VoIP Telefonie mit Microsoft Teams für Unternehmenstelefonie" width="80" height="80" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="VoIP Telefonie mit Microsoft Teams für Unternehmenstelefonie" width="80" height="80" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Telefonie wie Sie sie brauchen</h4>
@@ -92,7 +92,7 @@ $faqs->faq_add (
                 </div>
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="Microsoft Teams als Cloud Telefonanlage" width="80" height="78" class="co-grid__image--full-width style="width:80px !important" />
+                        <img src="/assets/images/icons_svg/menu-app-api.svg" alt="Microsoft Teams als Cloud Telefonanlage" width="80" height="78" class="co-grid__image--full-width" style="width:80px !important" />
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Extra Hardware? Unnötig!</h4>
@@ -124,10 +124,10 @@ $faqs->faq_add (
 
 <div class="section section--no-padding-top">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">
+        <h2 class="centered mobile-left">
             Die smarte Businesstelefonie:<br>
             Ihre Vorteile mit Teams-Telefonie
-        </h1>
+        </h2>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
@@ -173,8 +173,8 @@ $faqs->faq_add (
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--5-md"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                <h4>Für alle, die mehr von Ihrer Telefonanlage erwarten.</h4>
-                <h1>Teams-Integration in der CallOne Cloud Telefonanlage</h1>
+                <div class="subtitle">Für alle, die mehr von Ihrer Telefonanlage erwarten.</div>
+                <h2>Teams-Integration in der CallOne Cloud Telefonanlage</h2>
 
                 <div class="index-card index-card-1">
                     <div class="index-card__top">
@@ -254,9 +254,9 @@ $faqs->faq_add (
 
 <div class="section section--big-padding section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">
+        <h2 class="centered mobile-left">
             Alles was Sie benötigen für erstklassige Teams Telefonie
-        </h1>
+        </h2>
 
         <div class="plans" id="preise">
             <div class="plan" data-legend="Mindestnutzung ab 10 Nebenstellen">
@@ -314,7 +314,7 @@ $faqs->faq_add (
 
 <div class="section section--big-padding section--black">
     <div class="section__content">
-        <h1 class="centered mobile-left">Was brauchen Sie, um loszulegen?</h1>
+        <h2 class="centered mobile-left">Was brauchen Sie, um loszulegen?</h2>
         
 		<?php
 		$faqs->structured_data_get_code ();
@@ -325,7 +325,7 @@ $faqs->faq_add (
 
 <div class="section section--big-padding section--black">
     <div class="section__content section__content--narrow">
-        <h1 class="centered mobile-left">Wir helfen Ihnen gerne weiter.</h1>
+        <h2 class="centered mobile-left">Wir helfen Ihnen gerne weiter.</h2>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">

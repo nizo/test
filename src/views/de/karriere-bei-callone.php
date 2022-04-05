@@ -48,13 +48,9 @@ $faqs->faq_add (
         <div class="hero__image">
             <img src="/assets/images/illus/Karriere560.gif" alt="Karriere und Jobs bei CallOne" />
         </div>
-        <!-- <div class="hero__image animation animation-bg lazyBackground karriere">
-            <div id="lottie" class="job"></div>
-            <script>jsFiles.push("/assets/animations/svg/karriere.js");</script>
-        </div> -->
     </header>
 
-    <div class="anchors mobile-hidden">
+    <div class="anchors">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
         </div>
@@ -70,9 +66,9 @@ $faqs->faq_add (
 
 <div class="section section--light-grey-green" id="unsere-arbeit">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Das ist CallOne</h1>
+        <h2 class="centered mobile-left">Das ist CallOne</h2>
 
-        <p class="centered">
+        <p class="centered mobile-left">
             Wir sind ein wertschätzendes Team, das Business-Kommunikation neu denkt - mit hochqualitativen Lösungen und Sinn dahinter. Du gestaltest aktiv deinen Beitrag dazu, mit allem, was du am besten kannst.<br />
             <br />
             Über deinen neuen Job wirst du dich jeden Tag freuen. Denn hier kannst du dein Potenzial entfalten, Dinge entwickeln, die es noch gar nicht gibt und einen positiven Unterschied im Leben vieler Menschen machen.​
@@ -84,16 +80,16 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide section__content--gutter-top">
-        <div class="co-grid centered">
+        <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="Kundenservice verbessern" />
-                <h2>Wir alle wissen es: <br />Kundenhotlines sind die Hölle</h2>
-                <p class="mobile-hidden">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser &ndash; mit Software von CallOne.</p>
+                <p class="centered"><img src="/assets/images/illus/costumer-support-negative-illustration.svg" alt="Kundenservice verbessern" /></p>
+                <h2 class="centered mobile-left">Wir alle wissen es: <br />Kundenhotlines sind die Hölle</h2>
+                <p class="centered mobile-left">Kein Mensch, der den Support anrufen muss, liebt es. Lange Warteschleifen, Inkompetenz, Unfreundlichkeit, Zeitverschwendung, nichts als Ärger, Problem nicht gelöst. Das geht besser &ndash; mit Software von CallOne.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="Guter Kundenservice" />
-                <h2>Kundenservice <br />mit WOW-Effekt</h2>
-                <p class="mobile-hidden">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
+                <p class="centered"><img src="/assets/images/illus/costumer-support-positive-illustration.svg" alt="Guter Kundenservice" /></p>
+                <h2 class="centered mobile-left">Kundenservice <br />mit WOW-Effekt</h2>
+                <p class="centered mobile-left">Mit Technologien aus der Zukunft geben wir Kunden wesentlich bessere, zielführende Supporterlebnisse. Jeder Anruf wird kürzer, angenehmer und lösungsorientierter. Und man legt mit einem Lächeln auf.</p>
             </div>
         </div>
     </div>
@@ -101,9 +97,9 @@ $faqs->faq_add (
 
 <div class="section section--overflow-protection" id="vorteile">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Deinen Traumjob gestaltest du selbst</h1>
+        <h2 class="centered mobile-left">Deinen Traumjob gestaltest du selbst</h2>
 
-        <p class="centered">Hier kommt dein Job mit Sinn, Substanz und Wochenende. Als mittelständisches Potsdamer IT-Unternehmen mit Anti-Bullshit-Philosophie sind wir etabliert, zukunftsorientiert, unabhängig und krisensicher. Nicht Hype, sondern Happiness zählt. Du entscheidest, was du dafür brauchst.</p>
+        <p class="centered mobile-left">Hier kommt dein Job mit Sinn, Substanz und Wochenende. Als mittelständisches Potsdamer IT-Unternehmen mit Anti-Bullshit-Philosophie sind wir etabliert, zukunftsorientiert, unabhängig und krisensicher. Nicht Hype, sondern Happiness zählt. Du entscheidest, was du dafür brauchst.</p>
 
         <p>
             <a href="/karriere" class="btn btn--primary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
@@ -149,9 +145,9 @@ $faqs->faq_add (
 
 <div class="section section--dark-green-black" id="menschen">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Ein Team, das hinter dir steht</h1>
+        <h2 class="centered mobile-left">Ein Team, das hinter dir steht</h2>
 
-        <p class="centered">Mit Humor, Persönlichkeit, verschiedensten Hintergründen, Fähigkeiten und Interessen arbeiten wir stark zusammen.</p>
+        <p class="centered mobile-left">Mit Humor, Persönlichkeit, verschiedensten Hintergründen, Fähigkeiten und Interessen arbeiten wir stark zusammen.</p>
     </div>
 
     <div class="section__content section__content--wide section__content--gutter-top">
@@ -252,10 +248,10 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white-homeoffice" id="arbeitsplatz">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">
+        <h2 class="centered mobile-left">
             Potsdam-City oder <br />
             von zuhause – wie du magst
-        </h1>
+        </h2>
 
         <div class="tablist">
             <div class="tablist__links">
@@ -274,8 +270,8 @@ $faqs->faq_add (
             </div>
 
             <div class="tablist__content tablist__content--active" data-tab="1">
-                <h2 class="centered">Dort arbeiten, <br />wo es schön ist</h2>
-                <p class="centered">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
+                <h2 class="centered mobile-left">Dort arbeiten, <br />wo es schön ist</h2>
+                <p class="centered mobile-left">Wir lieben Potsdam und unser Büro ist direkt in der Innenstadt. Kurze Wege, gute Erreichbarkeit, ein leckeres Mittagessen, mal kurz ans Wasser oder zwischendurch einen kleinen Einkauf erledigen? Alles vor der Haustür.</p>
                 <p>
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
                 </p>
@@ -284,8 +280,8 @@ $faqs->faq_add (
             </div>
 
             <div class="tablist__content" data-tab="2">
-                <h2 class="centered">Dort arbeiten, <br />wo du dich am wohlsten fühlst</h2>
-                <p class="centered">Wir schätzen den persönlichen Kontakt mit dir im Büro, <br />sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind.</p>
+                <h2 class="centered mobile-left">Dort arbeiten, <br />wo du dich am wohlsten fühlst</h2>
+                <p class="centered mobile-left">Wir schätzen den persönlichen Kontakt mit dir im Büro, <br />sind aber auch Profis in virtueller Zusammenarbeit. Was zählt, ist gutes Teamwork und dass unsere Kund*innen zufrieden sind.</p>
                 <p>
                     <a href="/karriere" class="btn btn--secondary btn--centered btn--notification" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Offene Stellen</a>
                 </p>
@@ -297,8 +293,8 @@ $faqs->faq_add (
 
 <div class="section section--black section--overflow-protection" id="bewerbung">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Dein Weg zu uns</h1>
-        <p class="centered">Egal, auf welchem Wege unser erster Kontakt mit dir zustande kommt, wir mögen Transparenz und klare Kommunikation:</p>
+        <h2 class="centered mobile-left">Dein Weg zu uns</h2>
+        <p class="centered mobile-left">Egal, auf welchem Wege unser erster Kontakt mit dir zustande kommt, wir mögen Transparenz und klare Kommunikation:</p>
 
         <div class="step-slider step-slider--on-black">
             <div class="step-slider__steps">
@@ -333,7 +329,7 @@ $faqs->faq_add (
                     Erster Call
                 </div>
                 <div class="step-slider__hint-center">
-                    <strong>Hinweis:</strong> Bewege den Schieberegler über den Zeitstrahl​
+                    <strong>Hinweis:</strong> Bewege den Schieberegler über den Zeitstrahl
                 </div>
                 <div class="step-slider__hint-right">
                     Dein Start bei uns
@@ -341,9 +337,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <div class="fade-box fade-box--on-black mobile-hidden">
-            <h2 class="centered">Ansprechpartnerin</h2>
-            <p class="centered">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
+        <div class="fade-box fade-box--on-black">
+            <h2 class="centered mobile-left">Ansprechpartnerin</h2>
+            <p class="centered mobile-left">Falls du Fragen zum Stand deiner Bewerbung hast oder auch schon im Vorfeld zu den offenen Stellen, dann melde dich gern direkt bei Stefanie.</p>
 
             <div class="person">
                 <div class="person__avatar">
@@ -360,11 +356,11 @@ $faqs->faq_add (
             </p>
 
             <div class="co-grid centered">
-                <div class="co-grid__col co-grid__col--6-lg">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <h4>E-Mail</h4>
                     <a href="mailto:jobs@callone.de">jobs@callone.de</a>
                 </div>
-                <div class="co-grid__col co-grid__col--6-lg">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <h4>Anruf</h4>
                     <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>
                 </div>
@@ -375,7 +371,7 @@ $faqs->faq_add (
 
 <div class="section section--black">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Fragen und Antworten</h1>
+        <h2 class="centered mobile-left">Fragen und Antworten</h2>
 
         <?php
         $faqs->structured_data_get_code ();

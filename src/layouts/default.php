@@ -4,7 +4,6 @@
     <meta charset="utf-8"/>
     <title><?= $page->title ?> | <?= DEFAULT_SITENAME ?></title>
     <meta name="description" content="<?= $page->meta_description ?>" />
-    <meta name="keywords" content="<?= $page->meta_keywords ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="google-site-verification" content="Sqndy6_j8hwq2O67oeDnHTdNmKPDaCRcC-g_K3FRYfE" />
 

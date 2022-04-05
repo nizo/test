@@ -46,7 +46,7 @@ $faqs->faq_add (
     </div>
 
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h1>
+        <h2 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h2>
         <p class="bigtext centered mobile-left">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>
 
         <div class="grid-slider">
@@ -86,7 +86,7 @@ $faqs->faq_add (
 
 <div class="section" id="features">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Callcenter Management leicht gemacht</h1>
+        <h2 class="centered mobile-left">Callcenter Management leicht gemacht</h2>
 
         <div class="tablist">
             <div class="tablist__links">
@@ -256,40 +256,11 @@ $faqs->faq_add (
 
 <div class="section section--black">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Reibungsloser Zugriff auf Ihre Daten</h1>
+        <h2 class="centered mobile-left">Reibungsloser Zugriff auf Ihre Daten</h2>
         <h4 class="centered mobile-left">
             Verbinden Sie CallOne mit Ihren <br />
             BI-, Lead- oder Ticketingtools
         </h4>
-
-        <!-- <div class="co-grid cards desktop-hidden centered">
-            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-                <div class="cards__card--dark-top">
-                    <h6>Beispiel-Apps</h6>
-                    <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/client-logos/freshdesk-hubspot-white.png" alt="CRM Anbindung Freshdesk Hubspot bei CallOne" width="449" height="57" />
-                    </div>
-                    <h4>Ticketing-Systeme</h4>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-                <div class="cards__card--dark-top">
-                    <h6>Besipiel-Apps</h6>
-                    <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/client-logos/bi-logo-group-white@2x.png" alt="Business Integration Tools für CallOne Callcenter Software" width="543" height="53" />
-                    </div>
-                    <h4>Business Intelligence-Tools</h4>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs cards__card cards__card--transparent cards__card--no-padding">
-                <div class="cards__card--dark-top">
-                    <div class="cards__card-image" style="margin-top:0">
-                        <img src="/assets/images/icons_svg/integrations-icon-group.svg" alt="Eigene Systeme über APIs verbinden" width="272" height="51" />
-                    </div>
-                    <h4>Eigene Systeme verbinden</h4>
-                </div>
-            </div>
-        </div> -->
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
@@ -364,7 +335,7 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Weitere Funktionen</h1>
+        <h2 class="centered mobile-left">Weitere Funktionen</h2>
 
         <div class="tablist">
             <div class="tablist__links">
@@ -465,7 +436,7 @@ $faqs->faq_add (
 
 <div class="section">
     <div class="section__content">
-        <h1 class="centered mobile-left">Fragen und Antworten</h1>
+        <h2 class="centered mobile-left">Fragen und Antworten</h2>
 
 		<?php
 		$faqs->structured_data_get_code ();

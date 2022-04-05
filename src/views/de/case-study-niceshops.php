@@ -16,19 +16,19 @@
   <div class="content centered narrow">
     <div class="grid">
       <div class="col-4">
-      	<span class="sl topIcon">&#xE2E7;</span>
+      	<span class="sl sl-api topIcon"></span>
         <p>Telefonie für <strong>über 40 Online-Shops</strong></p>
       </div>
       <div class="col-4">
-      <span class="sl topIcon">&#xE0E7;</span>
+      <span class="sl sl-connection2 topIcon"></span>
         <p><strong>VoIP-Telefonanlage für >150 Mitarbeiter</strong></p>
       </div>
       <div class="col-4">
-      	<span class="sl topIcon">&#xE287;</span>
+      	<span class="sl sl-scale topIcon"></span>
         <p><strong>Freshdesk Helpdesk Integration</strong></p>
       </div>
       <div class="col-4">
-      <span class="sl topIcon">&#xE08D;</span>
+        <span class="sl sl-call topIcon"></span>
         <p><strong>Callcenter-Software</strong> mit Browsertelefonie</p>
       </div>
     </div>
@@ -168,14 +168,14 @@
           		</div>
           	</div>
             <div class="col-3">
-            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_11_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_11_animate.svg" class="icon icon-small lazy" width="70" height="65" />
+            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_11_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_11_animate.svg" class="icon icon-small lazy" width="70" height="65" alt="Callcenter-Software von CallOne" />
             	<p>CallOne ACD<br><strong>Callcenter-Software</strong></p>
             	<div class="button-set">
           			<a href="/callcenter-loesung" class="break button secondary">Unsere Callcenter-Software</a>
           		</div>
             </div>
             <div class="col-3">
-            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_07_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_07_2_animate.svg" class="icon icon-small lazy" width="70" height="65" />
+            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_07_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_07_2_animate.svg" class="icon icon-small lazy" width="70" height="65" alt="Freshdesk Integration von CallOne" />
             	<p>CallOne Apps<br><strong>Freshdesk Integration</strong></p>
             	<div class="button-set">
           			<a href="/freshdesk-callcenter-software" class="break button secondary">Unsere Freshdesk-Integration</a>
@@ -252,7 +252,7 @@
 <div class="wrapper half-background">
   <div class="content narrow overflow-hidden">
     <h2 class="h1 centered white">Fazit: <br>individuelle E-Commerce Telefonlösung</h2>
-    <h3 class="h2 centered no-padding white">Flexible Settings, bessere Erreichbarkeit und geringe Wartedauer</h2>
+    <h3 class="h2 centered no-padding white">Flexible Settings, bessere Erreichbarkeit und geringe Wartedauer</h3>
   </div>
   <div class="content wide margin-top-40" data-sequence="500">
     <div class="shadow-box">

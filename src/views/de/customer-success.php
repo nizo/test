@@ -18,15 +18,8 @@
 </div>
 
 <div class="section section--white-grey section--no-padding-top">
-    <!-- <div class="section__content section__content--wide mobile-hidden">
-        <p class="bigtext centered">CallOne Kunden jeder Größe haben ein Ziel: Überdurchschnittliche Kundenerlebnisse!</p>
-        <p class="centered">
-            <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="Businesstelefonie für Enterprise Unternehmen" />
-        </p>
-    </div> -->
-
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h1>
+        <h2 class="centered mobile-left">Wie wir Ihnen zu Erfolg verhelfen&hellip;</h2>
 
         <div class="step" data-step="1" data-mobile-label="Onboarding: Der Turbo für unsere Zusammenarbeit!">
             <div class="step__label"><span>Schritt 1</span></div>
@@ -159,8 +152,7 @@
 
 <div class="section section--light-green-white">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-hidden">Wie wir Ihnen helfen, Ihre Ziele zu erreichen:</h1>
-        <h1 class="desktop-hidden">Mit CallOne Ihre Ziele erreichen&hellip;</h1>
+        <h2 class="centered mobile-left">Wie wir Ihnen helfen, Ihre Ziele zu erreichen:</h2>
 
         <div class="grid-slider">
             <div class="grid-slider__item">
@@ -229,8 +221,8 @@
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                <h3>Keine Scheu – wir beißen nicht...</h3>
-                <h1>Jetzt 15 Minuten Call vereinbaren um Ihre Anforderungen zu besprechen.</h1>
+                <div class="subtitle">Keine Scheu – wir beißen nicht...</div>
+                <h2>Jetzt 15 Minuten Call vereinbaren um Ihre Anforderungen zu besprechen.</h2>
 
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">

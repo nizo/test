@@ -70,7 +70,7 @@ $faqs->faq_add (
             </span>
         </h2>
 
-        <h1 class="centered mobile-left">Entfesseln Sie Ihre Telefonie!</h1>
+        <h2 class="centered mobile-left">Entfesseln Sie Ihre Telefonie!</h2>
         <p class="bigtext centered mobile-left">Telefonieren Sie über den PC und nutzen Sie kostenlos unser Softphone mit Funktionen, die Sie lieben werden</p>
 
         <div class="tablist">
@@ -137,7 +137,7 @@ $faqs->faq_add (
 
 <div class="section section--light-grey" id="vergleich">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Direkter Produktvergleich</h1>
+        <h2 class="centered mobile-left">Direkter Produktvergleich</h2>
         <p class="bigtext centered mobile-left">Welche Vorteile bietet das CallOne Softphone gegenüber einem vergleichbaren Lösungsansatz mit Microsoft Teams? Probieren Sie es jetzt mit der Schaltertaste aus!</p>
 
         <div class="compare">
@@ -346,7 +346,7 @@ $faqs->faq_add (
 
 <div class="section section--black" id="preise">
     <div class="section__content section__content--narrow">
-        <h1 class="centered mobile-left">Preise</h1>
+        <h2 class="centered mobile-left">Preise</h2>
         <p class="centered mobile-left">Das CallOne Softphone ist die perfekte Erweiterung für Ihre Businesstelefonie. Es funktioniert sowohl mit Ihrem existierenden VoIP-Carrier als auch mit der CallOne Telefonie-Welt. Wie möchten Sie das Softphone nutzen?</p>
 
         <div class="tablist tablist--on-black">
@@ -553,8 +553,8 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="installation__content">
-                <h3>Schritte für Installation</h3>
-                <h1>In zwei Minuten eingerichtet</h1>
+                <div class="subtitle">Schritte für Installation</div>
+                <h2>In zwei Minuten eingerichtet</h2>
 
                 <div class="installation__grid">
                     <div class="installation__col">
@@ -571,7 +571,7 @@ $faqs->faq_add (
                     </div>
                 </div>
 
-                <h2>Wählen Sie den Browser zur Installation</h2>
+                <h3>Wählen Sie den Browser zur Installation</h3>
 
                 <div class="installation__browsers">
                     <a href="#" class="installation__browser" data-browser="chrome">
@@ -606,7 +606,7 @@ $faqs->faq_add (
 
 <div class="section">
     <div class="section__content section__content--narrow">
-        <h1 class="centered mobile-left">Fragen und Antworten</h1>
+        <h2 class="centered mobile-left">Fragen und Antworten</h2>
 
         <?php
         $faqs->structured_data_get_code ();

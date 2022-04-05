@@ -50,16 +50,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="co-grid__col co-grid__col--5-xs">
-                    
-                </div> -->
             </div>
         </div>
 
-        <h1 class="centered mobile-hidden">
+        <h2 class="centered mobile-hidden">
             100% Erreichbarkeit schaffen nicht mal wir.<br class="mobile-hidden" />
             Aber 99,999%!
-        </h1>
+        </h2>
 
         <p class="bigtext centered mobile-hidden">
             Unangenehm, aber unumgänglich: 5 Minuten pro Jahr gibt es irgendein technisches Problem. Unser Job ist, dass es nicht zu Ihrem Problem wird – mit optimaler Infrastruktur und detailgenauer Planung.
@@ -577,11 +574,11 @@
             <br />
         </p>
 
-        <h1 class="centered mobile-left">
+        <h2 class="centered mobile-left">
             Die Rechtsabteilung hat wegen <br />
             Ihres Datenschutzes angerufen. <br />
             Sie schicken Liebesgrüße.
-        </h1>
+        </h2>
 
         <p class="bigtext centered mobile-left">
             Es gibt kaum etwas Undurchsichtigeres als Gesetze. Und kaum etwas ist teurer und ärgerlicher, als sie zu verletzen. Deshalb ist Datenschutz in allen CallOne Produkten eingebaut. Komplett sorglos und rechtssicher, garantiert.

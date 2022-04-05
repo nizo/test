@@ -509,6 +509,7 @@ $faqs->faq_add (
                         <h3>Immer individuell & persönlich</h3>
                         
                         <p class="bigtext">Statt anonymen Sachbearbeitern erhalten Sie persönliche Betreuung und das von Anfang an. Wir stellen Ihnen Projektmanager zur Verfügung, die Sie bei der Umsetzung Ihrer individuellen Anforderungen unterstützen.</p>
+						<p>
                             <a href="/ueber-uns" class="btn btn--secondary btn--centered">Wie wir Sie zum erfolg führen</a>
                         </p>
                     </div>

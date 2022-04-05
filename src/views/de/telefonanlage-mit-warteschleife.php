@@ -46,16 +46,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="co-grid__col co-grid__col--5-xs">
-                    
-                </div> -->
             </div>
         </div>
 
-        <h1 class="centered mobile-left">
+        <h2 class="centered mobile-left">
             Für jeden die richtige Lösung – die CallOne <br class="mobile-hidden" />
             Warteschleifen- und Routingfunktionen im Überblick
-        </h1>
+        </h2>
 
         <div class="tablist" id="features">
             <div class="tablist__links tablist__links--full-width">

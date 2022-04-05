@@ -50,7 +50,6 @@ foreach ($routes_tmp as $route) {
             <th>Title</th>
             <th>Meta-Title</th>
             <th>Meta-Description</th>
-            <th>Meta-Keywords</th>
             <th>OpenGraph Title</th>
             <th>OpenGraph Image Text <a href="#" title="Zwei Unterstriche (__) erzwingen einen Umbruch">(?)</a></th>
         </tr>
@@ -62,7 +61,6 @@ foreach ($routes_tmp as $route) {
             'title',
             'meta_title',
             'meta_description',
-            'meta_keywords',
             'og_title',
             'og_image_text'
         ];

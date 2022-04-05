@@ -4,7 +4,7 @@
         <h2>Setzen Sie sich mit uns in Verbindung und lassen Sie uns wissen, wie wir helfen können. Wir melden uns so schnell wie möglich!</h2>
     </div>
     <div class="contactpage__content">
-        <h1>Wie können wir Ihnen helfen?</h1>
+        <h2>Wie können wir Ihnen helfen?</h2>
 
         <a href="#" class="contactoption contactoption--highlight" data-openmodal="contact-sales">
             <div class="contactoption__header">

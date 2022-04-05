@@ -129,10 +129,10 @@ $faqs->faq_add (
                       });
                 	}
             	</script>
-        		<area class="blue" onmouseover="showStep(event, 1)" onclick="showStep(event, 1)" shape="rect" coords="0,70,80,145" href="#">
-        		<area class="blue" onmouseover="showStep(event, 2)" onclick="showStep(event, 2)" shape="rect" coords="460,260,540,340" href="#">
-        		<area class="blue" onmouseover="showStep(event, 3)" onclick="showStep(event, 3)" shape="rect" coords="10,320,80,400" href="#">
-        		<area class="blue" onmouseover="showStep(event, 4)" onclick="showStep(event, 4)" shape="rect" coords="460,605,540,680" href="#">        		
+        		<area class="blue" onmouseover="showStep(event, 1)" onclick="showStep(event, 1)" shape="rect" coords="0,70,80,145" href="#" alt="Callcenter Bot 1">
+        		<area class="blue" onmouseover="showStep(event, 2)" onclick="showStep(event, 2)" shape="rect" coords="460,260,540,340" href="#" alt="Callcenter Bot 2">
+        		<area class="blue" onmouseover="showStep(event, 3)" onclick="showStep(event, 3)" shape="rect" coords="10,320,80,400" href="#" alt="Callcenter Bot 3">
+        		<area class="blue" onmouseover="showStep(event, 4)" onclick="showStep(event, 4)" shape="rect" coords="460,605,540,680" href="#" alt="Callcenter Bot 4">
             </map>
         </div>
         <div class="col-2 cross">
