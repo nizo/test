@@ -155,7 +155,7 @@ Router::add('/statistiken', 'statistiken.php', [
 ]);
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
     'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
-    'meta_description' => 'Telefon integriert in Ihre CRM- und Ticketinglösung auf Knopfdruck freigeschaltet',
+    'meta_description' => 'Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.',
     'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.8'
