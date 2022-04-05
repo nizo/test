@@ -1,4 +1,4 @@
-$(function ()
+document.addEventListener("DOMContentLoaded", function()
 {
 	/* https://stackoverflow.com/questions/4545311/download-a-file-by-jquery-ajax */
 	function base64ToBlob (base64, mimetype, slicesize)
@@ -27,63 +27,66 @@ $(function ()
 	}
 
 	// download prepared package
-	$('#formMicroSipSubmit').on('click',function(e)
+	eventListener('click', '#formMicroSipSubmit', (e) => 
 	{
 		e.preventDefault();
 
-		if ((!$('#formMicroSipUsername').val().trim().length) ||
-			(!$('#formMicroSipPassword').val().trim().length))
-		{	$('#formMicroSipHint').html ('Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.');
+		let sipuser = document.querySelector('#formMicroSipUsername');
+		let sippass = document.querySelector('#formMicroSipPassword');
+		let siphint = document.querySelector('#formMicroSipHint');
+		let sipsubmit = document.querySelector('#formMicroSipSubmit');
+
+		if ((!sipuser.value.trim().length) ||
+			(!sippass.value.trim().length))
+		{	siphint.innerHTML = 'Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.';
 			return;
 		}
 
-		$('#formMicroSipSubmit').hide ();
-		$('#formMicroSipHint').html ('Bitte warten, Download wird generiert...');
+		sipsubmit.style.display = 'none';
+		siphint.innerHTML = 'Bitte warten, Download wird generiert...';
 
-		$.ajax
-		({
-			url: 'https://connect.callone.io/backend/microsip/ajax.php',
-			cache: false,
-			type: 'POST',
-			data:
+		let postUrl = 'https://connect.callone.io/backend/microsip/ajax.php';
+		let postData = new FormData();
+		postData.set('mode', 'download');
+		postData.set('username', sipuser.value.trim());
+		postData.set('password', sippass.value.trim());
+		fetch(postUrl, {
+			method: 'POST',
+			cache: 'no-cache',
+			body: postData
+		})
+		.then(response => {
+			return response.json();
+		})
+		.then(data => {
+			if (data['filename'])
 			{
-				mode: 'download',
-				username: $('#formMicroSipUsername').val().trim(),
-				password: $('#formMicroSipPassword').val().trim()
-			},
-			dataType: 'json',
-			error: function (error)
-			{
-				console.error (JSON.stringify (error));
-				$('#formMicroSipHint').html ('Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.');
-				$('#formMicroSipSubmit').show ();
-			},
-			success: function (jsonData)
-			{
-				if (jsonData['filename'])
+				var a = document.createElement ('a');
+				if (window.URL && window.Blob && ('download' in a) && window.atob)
 				{
-					var a = document.createElement ('a');
-					if (window.URL && window.Blob && ('download' in a) && window.atob)
-					{
-						// Do it the HTML5 compliant way
-						var blob = base64ToBlob (jsonData['content'], jsonData['mimetype']);
-						var url = window.URL.createObjectURL(blob);
-						a.href = url;
-						a.download = jsonData['filename'];
-						a.style.display = 'none';
-						document.body.appendChild(a);
-						a.click();
-						window.URL.revokeObjectURL(url);
-						document.body.removeChild(a);
-					}
+					// Do it the HTML5 compliant way
+					var blob = base64ToBlob (data['content'], data['mimetype']);
+					var url = window.URL.createObjectURL(blob);
+					a.href = url;
+					a.download = data['filename'];
+					a.style.display = 'none';
+					document.body.appendChild(a);
+					a.click();
+					window.URL.revokeObjectURL(url);
+					document.body.removeChild(a);
+				}
 
-					$('#formMicroSipHint').html ('Vielen Dank für die Nutzung von CallOne.');
-				}
-				else
-				{	$('#formMicroSipHint').html ('Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.');
-					$('#formMicroSipSubmit').show ();
-				}
+				siphint.innerHTML = 'Vielen Dank für die Nutzung von CallOne.';
 			}
+			else
+			{	siphint.innerHTML = 'Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.';
+				sipsubmit.style.display = 'block';
+			}
+		})
+		.catch(response => {
+			console.error (JSON.stringify (error));
+			siphint.innerHTML = 'Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.';
+			sipsubmit.style.display = 'block';
 		});
 	});
 });

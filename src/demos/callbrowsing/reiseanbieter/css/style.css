@@ -436,11 +436,11 @@ h1, .wrapper h1 {
 					color: #fff;
 				}
 				
-				.buehne .suche .choice #datepicker {
+				/* .buehne .suche .choice #datepicker {
 					position: relative;
 				    left: -15px;
 				    top: -29px;
-				}
+				} */
 				
 			.buehne .bg-click {
 				display: none;

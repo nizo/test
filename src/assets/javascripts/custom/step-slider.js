@@ -42,7 +42,7 @@ class stepSlider {
             this.swiping = true;
             let touch = e.touches[0] || e.changedTouches[0];
             this.lastSwipePos = touch.clientX;
-        }).bind(this));
+        }).bind(this), {passive: true});
         window.addEventListener('touchmove', this.swipe.bind(this), {passive: true});
     }
 

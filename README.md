@@ -45,11 +45,10 @@ Before [starting the local development server](#how-to-start-the-local-developme
     - `src/partials/*` - Here you can find several additional files including forms and other partials that are included in other files
 2. SASS/SCSS/CSS files / stylesheets
     - `src/assets/stylesheets/scss/*` - This folder contains every SCSS file, files are roughly named after the block/objects they style
-    - `src/assets/stylesheets/libs/*` - Stylesheets of other libraries can be found here
 3. JS/COFFEE files / javascripts
     - `src/assets/javascripts/coffee/application.coffee` - Main coffeescript file that handles basic functionality
     - `src/assets/javascripts/custom/*` - Custom javascripts that handle several functionallities throughout the page eg: callback, chat, lazyload, etc
-    - `src/assets/javascripts/libs/*` - This folder contains other javascript libraries like jquery
+    - `src/assets/javascripts/libs/*` - This folder contains other javascript libraries
 4. Images, Videos & Animations
     - `src/assets/images/*` - For images
     - `src/assets/videos/*` - For videos
@@ -61,6 +60,11 @@ Before [starting the local development server](#how-to-start-the-local-developme
 
 - `src/assets/stylesheets/application-[timestamp].min.css`
 - `src/assets/javascripts/application-[timestamp].min.js`
+
+### Testing
+
+- Cookiebanner can be skipped with `?no-banner` as URL parameter
+- [Screenscize page](https://callone.de/screensize) shows you current screen resolution
 
 ### Deploying the page
 

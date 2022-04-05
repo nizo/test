@@ -72,7 +72,7 @@
 								</label>
 							</div>
 						</div>
-						<a class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
+						<a href="#" class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
 						<div class="content">
 							<div class="cookie">
 								<div class="head">Name</div><div class="desc">Google Analytics</div>
@@ -124,7 +124,7 @@
 								</label>
 							</div>
 						</div>
-						<a class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
+						<a href="#" class="title" title="Cookie-Informationen anzeigen">Cookie-Informationen anzeigen</a>
 						<div class="content">
 							<div class="cookie">
 								<div class="head">Name</div><div class="desc">Cookie Support</div>

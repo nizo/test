@@ -1,46 +1,34 @@
 // Get the modalButtons
-var buttons = document.getElementsByClassName('openModal');
+var buttons = document.querySelectorAll('.openModal');
 
 //Set the EventListeners
-for(var i = 0; i < buttons.length; i++)
-{
-	buttons[i].addEventListener("click", function() { 
-		var modal = $(this).attr('data-modal');
-		var title = null;
-		title = $(this).attr('data-title');
-		// Part - Selektor für einen bestimmten Part eines Modal zum anzeigen
-		var part = $(this).attr('data-modal-part');
+buttons.forEach(button => {
+	button.addEventListener('click', e => {
+		let modal = button.getAttribute('data-modal');
+		let title = button.getAttribute('data-title') || null;
+		let part = button.getAttribute('data-modal-part') || null;
 		displayModal(modal, title != undefined? title : null, part != undefined? part : null);
 	});
-}
- /** Old Cookiebanner
-if(!checkCookie('cookiebanner-accepted')) {
-	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-	setCookie('cookiebanner-accepted', 1, 90);
-}
-	
-window.onscroll = function() {
-	if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-		hideModal('cookiebanner', 'fadeOut');
-	}
-};	
-**/
+});
 
-if(checkCookie('cookiebanner-accepted') === false)
+let urlQuery = window.location.search;
+let params = new URLSearchParams(urlQuery);
+if (!params.has('no-banner') && checkCookie('cookiebanner-accepted') === false) {
+	// Show cookiebanner after 1000 second if no yet accepted and URL does not include "?no-banner"
 	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
+}
 
-$('.cookieSubmit').on('click', function(event) {
-	event.preventDefault();
+eventListener('click', '.cookieSubmit', (e) => {
+	e.preventDefault();
+	let button = e.target.closest('.cookieSubmit');
 	var checkCode = 100;
-	if ($(this).hasClass('full')) {
+	if (button.classList.contains('full')) {
 		checkCode = 111;
 	} else {
-		if ($('#CookieConf input#marketing').parent().hasClass('checked')) {
+		if (document.querySelector('#CookieConf input#marketing').parentNode.classList.contains('checked'))
 			checkCode += 10;
-		}
-		if ($('#CookieConf input#extern').parent().hasClass('checked')) {
+		if (document.querySelector('#CookieConf input#extern').parentNode.classList.contains('checked'))
 			checkCode += 1;
-		}
 	}
 	if (checkCode > 100) {
 		loadLazyTracking();
@@ -49,30 +37,32 @@ $('.cookieSubmit').on('click', function(event) {
 	/* Set Cookie für Role selection */
 	if (!checkCookie('co_role'))
 		setCookie('co_role', '001', 365); //000 default value (it-leiter)
-
+	
 	hideModal('cookiebanner', 'slideDown');
 	hideModal('cookiebanner-config', 'slideDown');
 });
-$('.cookieDeny').on('click', function(event) {
-	event.preventDefault();
+
+eventListener('click', '.cookieDeny', (e) => {
+	e.preventDefault();
 	setCookie('cookiebanner-accepted', 100, 365);
 	/* Set Cookie für Role selection */
 	if (!checkCookie('co_role'))
 		setCookie('co_role', '001', 365); //000 default value (it-leiter)
-
+	
 	hideModal('cookiebanner', 'slideDown');
 	hideModal('cookiebanner-config', 'slideDown');
 	deleteAllCookies();
 });
-$('.cookieConf').on('click', function() {
+
+eventListener('click', '.cookieConf', (e) => {
 	hideModal('cookiebanner', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
 });
-$('.cookieBanner').on('click', function() {
+
+eventListener('click', '.cookieBanner', (e) => {
 	hideModal('cookiebanner-config', 'slideToggle');
 	setTimeout(function() { displayModal('cookiebanner'); }, 1000);
 });
-
 
 window.onload = function() {
 	var paramModal = urlHasParam("om", null);
@@ -82,7 +72,7 @@ window.onload = function() {
 
 //ShowModal
 function displayModal(modalName, titleContent, part) {
-	var modal = document.getElementsByClassName(modalName)[0];
+	var modal = document.querySelector('.modal.'+modalName);
 	var closeButtons = document.getElementsByClassName('close');
 	
 	if (modal == null)
@@ -91,7 +81,7 @@ function displayModal(modalName, titleContent, part) {
 	modal.style.display = "block";
 	
 	if(modalName === 'priceCalc') {
-		$('.formSuccess').hide();
+		document.querySelector('.formSuccess').style.display = 'none';
 				
 		//console.log(modalName);
 		var title = modal.getElementsByClassName('title-'+part)[0];
@@ -109,18 +99,21 @@ function displayModal(modalName, titleContent, part) {
 		partToDisplay.style.display = "flex";
 	}
 
-	var x = setTimeout(function() { $('.inputFields').css('display', 'block'); }, 500);
+	var x = setTimeout(function() {
+		let fields = document.querySelectorAll('.inputFields');
+		fields.forEach(field => field.style.display = 'block');
+	}, 500);
 	
 	// Close Modal
 	modal.addEventListener("click", function(event) { 
 		if (event.target == modal) {
-		    $(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 		}
 	});
 	
 	for(var i = 0; i < closeButtons.length; i++) {
 		closeButtons[i].addEventListener("click", function() { 
-			$(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 		});
 	}
 }
@@ -129,13 +122,13 @@ function hideModal(modalName, type) {
 	var modal = document.getElementsByClassName(modalName)[0];
 	switch(type) {
 		case 'fadeOut':
-			$(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 			break;
 		case 'slideToggle':
-			$(modal).slideToggle('slow');
+			slideToggle(modal, 700);
 			break;
 		default:
-			$(modal).fadeOut('fast');
+			fadeOut(modal, 300);
 			break;
 	}
 }

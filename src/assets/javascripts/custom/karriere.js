@@ -1,4 +1,5 @@
-$(document).on('click', '.benefit-box', function (e) {
+eventListener('click', '.benefit-box', (e) => {
     e.preventDefault();
-    $(".benefit-description", this).slideToggle();
+    let descriptions = document.querySelectorAll('.benefit-description');
+    descriptions.forEach(desc => slideToggle(desc, 300));
 });

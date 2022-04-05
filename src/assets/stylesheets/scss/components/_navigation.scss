@@ -112,7 +112,7 @@ $navMinHeight: 570px;
         align-items: center;
 
         a {
-            color: rgba(#000, .5);
+            color: rgba(#000, .6);
             font-weight: 700;
             font-size: 16px;
             white-space: nowrap;
@@ -191,7 +191,7 @@ $navMinHeight: 570px;
         a {
             --fw: 500;
             display: block;
-            color: rgba(#000, .5);
+            color: rgba(#000, .6);
             text-transform: uppercase;
             font-weight: var(--fw);
             letter-spacing: 0.1em;
@@ -362,7 +362,7 @@ $navMinHeight: 570px;
         }
         p {
             font-size: 14px;
-            color: rgba(#000, .5);
+            color: rgba(#000, .6);
             line-height: 1.4;
             transition: none;
         }

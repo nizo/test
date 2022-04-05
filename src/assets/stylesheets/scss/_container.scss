@@ -116,6 +116,9 @@
 		margin: 0;
 		padding-left: $gutter-l + 30 + 18;
 		padding-bottom: $gutter-m - 2;
+		&.open {
+			display: block;
+		}
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -141,6 +144,9 @@
 			&:before {
 				content: "\e271";
 			}
+		}
+		.content {
+			display: block;
 		}
 	}
 	

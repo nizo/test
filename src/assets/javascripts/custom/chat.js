@@ -1,96 +1,116 @@
 // show and hide ChatConversation Elements
-var user = {};
-var nextStep = '.step1';
-var thisStep = '.step0';
+let user = {};
+let nextStep = '.step1';
+let thisStep = '.step0';
 
-var err = {
+let err = {
 	status: false,
 	step: null,
 	errMSG: 'Es trat ein Fehler auf! Bitte probieren SIe es zu einem späteren Zeitpunkt noch einmal.'
-};	
+};
 
-$('.conversation .interrest .customRadiobox').on('click', function() {
-	var tmp = '';
-	if( user ) {
-		var radioFields = $(this).parent().find('input:radio');
-		$.each( radioFields, function( k, box ) {			
-			if($(box).parent().hasClass('checked')) {
-				tmp = $(box).val();
-				return false;
-			}
-		});
-		
-		if ( tmp ) {
-			// get user informations
-			if ( checkCookie('co_pud') ) {
-				user = JSON.parse(decodeURIComponent(decode(getCookie('co_pud'))));
-			}
-			// set user informations
-			user.interrest = tmp;
-			// set cookie
-			setCookie('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
+eventListener('click', '.conversation .interrest .customRadiobox', (e) => {
+	let tmp = '';
+	if (!user)
+		return;
+	let radioBox = e.target.closest('.customRadiobox');
+	let radioFields = radioBox.parentNode.querySelectorAll('input[type="radio"]');
+	radioFields.forEach(box => {
+		if (box.parentNode.classList.contains('checked')) {
+			tmp = box.value;
+			return false;
 		}
+	});
+
+	if (tmp) {
+		// get user informations
+		if ( checkCookie('co_pud') ) {
+			user = JSON.parse(decodeURIComponent(decode(getCookie('co_pud'))));
+		}
+		// set user informations
+		user.interrest = tmp;
+		// set cookie
+		setCookie('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
 	}
 });
 
-$('.conversation.chat .customRadiobox').on('click', function() {
-	var fields = $(nextStep).find('input:radio');
-	if (!fields.is(':checked')) {
-		if ( !err.status ) {
-			$(nextStep).find('.progress-bar').addClass('start');
-			var val = 'valueProgress'+nextStep.substr(1, nextStep.length-1);
-			animateValue(val, $('#'+val).attr('data-from'), $('#'+val).attr('data-to'), 450);
-		} else {
-			$(thisStep).find('.progress-bar').addClass('start');
-			var val = 'valueProgress'+thisStep.substr(1, thisStep.length-1);
-			animateValue(val, $('#'+val).attr('data-from'), $('#'+val).attr('data-to'), 450);
-		}
+eventListener('click', '.conversation.chat .customRadiobox', (e) => {
+	let next = document.querySelector(nextStep);
+	let current = document.querySelector(thisStep);
+	let fields = next.querySelectorAll('input[type="radio"]');
+	let isChecked = false;
+	fields.forEach(field => {
+		if (field.checked)
+			isChecked = true;
+	});
+	if (!isChecked)
+		return;
+	let progressId;
+	if (!err.status) {
+		next.querySelector('.progress-bar').classList.add('start');
+		progressId = 'valueProgress'+nextStep.substr(1, nextStep.length-1);
+	} else {
+		current.querySelector('.progress-bar').classList.add('start');
+		progressId = 'valueProgress'+thisStep.substr(1, thisStep.length-1);
 	}
+	let from = document.querySelector('#' + progressId).getAttribute('data-from');
+	let to = document.querySelector('#' + progressId).getAttribute('data-to');
+	animateValue(progressId, from, to, 450);
 });
 
-$('.conversation.chat .customCheckbox').on('click', function() {
-	var fields = $(nextStep).find('.customCheckbox');
-	if (!fields.hasClass('checked')) {
-		if ( !err.status ) {
-			$(nextStep).find('.progress-bar').addClass('start');
-			var val = 'valueProgress'+nextStep.substr(1, nextStep.length-1);
-			animateValue(val, $('#'+val).attr('data-from'), $('#'+val).attr('data-to'), 450);
-		} else {
-			$(thisStep).find('.progress-bar').addClass('start');
-			var val = 'valueProgress'+thisStep.substr(1, thisStep.length-1);
-			animateValue(val, $('#'+val).attr('data-from'), $('#'+val).attr('data-to'), 450);
-		}
+eventListener('click', '.conversation.chat .customCheckbox', (e) => {
+	var next = document.querySelector(nextStep);
+	var fields = next.querySelectorAll('.customCheckbox');
+	var isChecked = false;
+	fields.forEach(field => {
+		if (field.classList.contains('checked'))
+			isChecked = true;
+	});
+	if (!isChecked)
+		return;
+	if (!err.status) {
+		next.querySelector('.progress-bar').classList.add('start');
+		progressId = 'valueProgress'+nextStep.substr(1, nextStep.length-1);
+	} else {
+		current.querySelector('.progress-bar').classList.add('start');
+		progressId = 'valueProgress'+thisStep.substr(1, thisStep.length-1);
 	}
+	let from = document.querySelector('#' + progressId).getAttribute('data-from');
+	let to = document.querySelector('#' + progressId).getAttribute('data-to');
+	animateValue(progressId, from, to, 450);
 });
 
+eventListener('click', '.nextStep', (e) => {
+	let button = e.target.closest('.nextStep');
+	nextStep = '.' + button.getAttribute('data-show-step');
+	thisStep = '.' + button.getAttribute('data-hide-step');
+	let nextStepEl = document.querySelector(nextStep);
+	let thisStepEl = document.querySelector(thisStep);
 
-$('.nextStep').on('click', function () {
-	nextStep = '.' + $(this).attr('data-show-step');
-	thisStep = '.' + $(this).attr('data-hide-step');
-	
 	err = {
 		status: false,
 		step: null,
 		errMSG: 'Es trat ein Fehler auf! Bitte probieren Sie es zu einem späteren Zeitpunkt noch einmal.'
-	};	
+	};
+
+	let inputs = Array.from(thisStepEl.querySelectorAll('input, textarea, select'));
+	let reqFields = inputs.filter(input => input.matches('[required]') && (input.offsetWidth > 0 || input.offsetHeight > 0));
+	let radioFields = thisStepEl.querySelectorAll('input[type="radio"]');
+	let checkboxFields = thisStepEl.querySelectorAll('input[type="checkbox"]');
 	
-	var reqFields = $(thisStep).find('input,textarea,select').filter('[required]:visible');
-	var radioFields = $(thisStep).find('input:radio');
-	var checkboxFields = $(thisStep).find('input:checkbox');
-	
-	if (!$(this).hasClass('return')) {
+	if (!thisStepEl.classList.contains('return')) {
 		if (radioFields.length > 0) {
 			// Mind. ein radio-feld checked
-			$.each( radioFields, function( k, box ) {			
-				if($(box).parent().hasClass('checked')) {
+			radioFields.forEach(box => {
+				if (box.parentNode.classList.contains('checked')) {
 					err = false;
 					err.step = null;
-					switch ($(box).attr('name')) {
+					switch (box.getAttribute('name')) {
 						case 'interrest':
-							user.interrest = $(box).val();
+							user.interrest = box.value;
 							break;
 						case 'connections':
-							user.connection = $(box).val();
+							user.connection = box.value;
 							break;
 						default:
 							break;
@@ -104,21 +124,21 @@ $('.nextStep').on('click', function () {
 				}
 			});
 		}
-		
+
 		if (checkboxFields.length > 0) {
 			// Mind. ein checkbox-feld checked
-			var resetFunctions = 0;
-			$.each( checkboxFields, function( k, box ) {			
-				if($(box).parent().hasClass('checked')) {
+			let resetFunctions = 0;
+			checkboxFields.forEach(box => {
+				if(box.parentNode.classList.contains('checked')) {
 					err = false;
 					err.step = null;
-					switch ($(box).attr('data-name')) {
+					switch (box.getAttribute('data-name')) {
 						case 'functions':
 							if (resetFunctions === 0) {
 								user.functions = '';
 								resetFunctions = 1;
 							}
-							user.functions += $(box).val() + ';';
+							user.functions += box.value + ';';
 							break;
 						default:
 							break;
@@ -132,10 +152,10 @@ $('.nextStep').on('click', function () {
 			});
 		}
 		
-		$.each( reqFields, function( k, v ) {
-			$(v).css('border-color', 'inherit');
-			if($(v).val() === '' && !$(v).hasClass('iE')) {
-				$(v).css('border-color', 'red');
+		reqFields.forEach(field => {
+			field.style.borderColor = 'inherit';
+			if(field.value === '' && !field.classList.contains('iE')) {
+				field.style.borderColor = 'red';
 				err.status = true;
 				err.step = thisStep;
 			} else { 
@@ -145,41 +165,45 @@ $('.nextStep').on('click', function () {
 				}
 			}
 		});
-	}	
+	}
 
 	if ( err.status ) {
 		//fehler geht nicht weiter
-		$(thisStep).find('.errorMSG').html(err.errMSG);
-		$(thisStep).find('.errorMSG').fadeIn('fast');
+		thisStepEl.querySelector('.errorMSG').innerHTML = err.errMSG;
+		fadeIn(thisStepEl.querySelector('.errorMSG'), 300);
 	} else {
-		$(thisStep).find('.errorMSG').hide();
+		thisStepEl.querySelector('.errorMSG').style.display = 'none';
 		
-		$(thisStep).addClass('goAway');
+		thisStepEl.classList.add('goAway');
+		thisStepEl.classList.remove('go');
 		if (nextStep == '.result') {
 			var functionElements = user.functions.split(';');
 			var functionElementList = '';
-			$('.projectElements').children('li').removeClass('show');
+			let projectChildren = document.querySelectorAll('.projectElements li');
+			projectChildren.forEach(child => child.classList.remove('show'));
 			/* Prüfe alle Funktionen */
-			$.each( functionElements, function( f, element ) {
+			functionElements.forEach(element => {
 				if (element !== '') {
-					$('.'+element).addClass('show');
+					let elWithClass = document.querySelectorAll('.' + element);
+					elWithClass.forEach(e => e.classList.add('show'));
 				}
 			});
 			/* Einrichtungszeit */
+			let timeSpans = document.querySelectorAll('.time > span');
 			if (user.connection < 10) {
-				$('.time > span').html('Einige Stunden');
+				timeSpans.forEach(span => span.innerHTML = 'Einige Stunden');
 			} else if (user.connection > 250) {
-				$('.time > span').html('1-2 Personentage');
+				timeSpans.forEach(span => span.innerHTML = '1-2 Personentage');
 			} else {
-				$('.time > span').html('1 Personentag');
+				timeSpans.forEach(span => span.innerHTML = '1 Personentag');
 			}
-			$('body').addClass('grey');
-			$(thisStep).removeClass('step--active');
-			$(nextStep).addClass('step--active');
+			document.body.classList.add('grey');
+			thisStepEl.classList.remove('step--active');
+			nextStepEl.classList.add('step--active');
 			setTimeout(function(){
-				scrollTo(nextStep, 0);
-				$(nextStep).removeClass('goAway');
-				$(nextStep).addClass('go');
+				scrollToOffset(0);
+				nextStepEl.classList.remove('goAway');
+				nextStepEl.classList.add('go');
 			}, 750);
 			window._mfq.push(["Preiskalkulator-"+nextStep, "/preiskalkulator?step="+nextStep]);
 			window.dataLayer = window.dataLayer || [];
@@ -192,14 +216,14 @@ $('.nextStep').on('click', function () {
     		});	
 		} else {
 			if (thisStep == '.result') {
-				$('body').removeClass('grey');
+				document.body.classList.remove('grey');
 			}
-			$(thisStep).removeClass('step--active');
-			$(nextStep).addClass('step--active');
+			thisStepEl.classList.remove('step--active');
+			nextStepEl.classList.add('step--active');
 			setTimeout(function(){
-				scrollTo(nextStep, 0);
-				$(nextStep).removeClass('goAway');
-				$(nextStep).addClass('go');
+				scrollToOffset(0);
+				nextStepEl.classList.remove('goAway');
+				nextStepEl.classList.add('go');
 			}, 750);
 			
 			/* Mouseflow Tracking */
@@ -238,5 +262,4 @@ $('.nextStep').on('click', function () {
 		}		
 		setCookie('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
 	}
-	
 });

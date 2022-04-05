@@ -30,7 +30,7 @@
 	l.src='https://surfly.com/surfly.js';y.parentNode.insertBefore(l,y);})
 	(window,document,'script','Surfly');
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="/demos/callbrowsing/functions.js"></script>
 
 	<script>

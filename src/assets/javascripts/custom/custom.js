@@ -1,7 +1,8 @@
 // Set CSSClass when trackElement by GTM is allready clicked
-$('.trackedElement').on('click', function() {
-	$(this).addClass('clicked');
-})
+eventListener('click', '.trackedElement', e => {
+	let link = e.target.closest('.trackedElement');
+	link.classList.toggle('clicked');
+});
 
 // Setzt einen Cookie
 function setCookie(cname, cvalue, exdays) {
@@ -108,45 +109,39 @@ function animateValue(id, start, end, duration) {
     run();
 }
 
-function scrollTo(anker, speed) {
-    $('html, body').animate({
-        scrollTop: $(anker).offset().top
-    }, speed);
-    return false;
-}
-
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function() {
 	let numbersLoaded = false;
-	$(".form .showDiv").click(function(){
+	eventListener('click', '.form .showDiv', () => {
 		if (numbersLoaded)
 			return;
-		$(".form-1 .selection .spinner").fadeIn();
-	    $.post("https://connect.callone.io/backend/phonenumbers.php",
-	    {
-	      type: 0
-	    },
-	    function(data,status){
-    		if (status == 'success') {
-    			$(".form-1 .selection .spinner").fadeOut('fast');
-	    		var output = "";
-	    		//console.log(data.phonenumbers);
-	    		//console.log(data.phonenumbers.length);
-	    		$(".form-1 .selection").html(function() {
-	    			for(var i = 0; i < data.phonenumbers.length; i++) {
-	    				output += '<label for="'+ i +'" class="customCheckbox"><input name="checkboxNumbers" type="checkbox" id="'+ i +'" value="'+ data.phonenumbers[i]['number'] +'" /><span class="checkmark"></span>';		
-						output += data.phonenumbers[i]['number'];
-	    				output += '</label>';
-	    			}
-	    			return output;
-	    		});
-				numbersLoaded = true;
-    		} else {
-    			$(".form-1 .selection").html(function() {
-    				output = '<div class="error">Es ist ein Fehler beim laden der Rufnummern aufgetreten! Bitte versuchen Sie es später noch einmal.</div>';
-    				return output;
-    			});
-    		}
-	    });
+		let spinner = document.querySelector('.form-1 .selection .spinner')
+		let phonenumbersBox = document.querySelector('.form-1 .selection');
+		fadeIn(spinner, 300);
+		let postUrl = 'https://connect.callone.io/backend/phonenumbers.php';
+		var postData = new FormData();
+		postData.set('type', 0);
+		fetch(postUrl, {
+			method: 'POST',
+			body: postData
+		})
+		.then(response => {
+			return response.json();
+		})
+		.then(data => {
+			fadeOut(spinner, 300);
+			let numbers = '';
+			data.phonenumbers.forEach((number, i) => {
+				numbers += '<label for="'+ i +'" class="customCheckbox"><input name="checkboxNumbers" type="checkbox" id="'+ i +'" value="'+ number.number +'" /><span class="checkmark"></span>';		
+				numbers += number.number;
+				numbers += '</label>';
+			});
+			phonenumbersBox.innerHTML = numbers;
+			numbersLoaded = true;
+		})
+		.catch(response => {
+			phonenumbersBox.innerHTML = '<div class="error">Es ist ein Fehler beim laden der Rufnummern aufgetreten! Bitte versuchen Sie es später noch einmal.</div>';
+			console.error(response);
+		});
     });
 });
 
@@ -184,8 +179,8 @@ function addEvent(obj, evt, fn) {
 		var el2 = document.querySelector(".chat-conversation div:nth-child(2)");
 
 		if(counter % 2 === 0) {
-			$('.chat-conversation > div:nth-child(1) > .text').text(conversation[counter/2][0]);
-			$('.chat-conversation > div:nth-child(2) > .text').text(conversation[counter/2][1]);
+			document.querySelector('.chat-conversation > div:nth-child(1) > .text').textContent = conversation[counter/2][0];
+			document.querySelector('.chat-conversation > div:nth-child(2) > .text').textContent = conversation[counter/2][1];
 		}
 		
   		el.classList.remove("do-the-slide");
@@ -248,124 +243,126 @@ function merge_array(array1, array2, unique) {
 
 
 /* Sidebar menue */
-$('.sidebar-grid .menu a').on('click', function(e) {
+eventListener('click', '.sidebar-grid .menu a', e => {
 	e.preventDefault();
 	e.stopPropagation();
-	var tab = $(this).attr('data-link');
-	$('.sidebar-grid .menu li').removeClass('active');
-	$(this).parent().addClass('active');
-	$('.sidebar-grid .elements > div').fadeOut();
-	$('.sidebar-grid .elements > div:nth-child('+tab+')').fadeIn();
+	let link = e.target.closest('a');
+	let tab = link.getAttribute('data-link');
+	let listItems = document.querySelectorAll('.sidebar-grid .menu li');
+	listItems.forEach(listItem => {
+		listItem.classList.remove('active');
+	});
+	link.closest('li').classList.add('active');
+	document.querySelectorAll('.sidebar-grid .elements > div').forEach(div => fadeOut(div, 300, () => {
+		fadeIn(document.querySelector('.sidebar-grid .elements > div:nth-child(' + tab + ')'), 300);
+	}));
 });
 
 /* Sidebar menue */
-$('.modal .sideMenu li').on('click', function(e) {
+eventListener('click', '.modal .sideMenu li', e => {
 	e.preventDefault();
 	e.stopPropagation();
-	var tab = $(this).attr('data-link');
-	if ($(this).hasClass('linkTo')) {
+	let listItem = e.target.closest('li');
+	let tab = listItem.getAttribute('data-link');
+
+	if (listItem.classList.contains('linkTo')) {
 		e.preventDefault();
-		var linkTo = $(this).children('a').attr('href');
-		if(window.localStorage) {
-			jQuery.each( wlist, function( i, val ) {
+		let linkTo = listItem.querySelector('a').getAttribute('href');
+		if (window.localStorage) {
+			wlist = JSON.parse(window.localStorage.getItem('wishlist'));
+			wlist.forEach(val => {
 				linkTo += '%20-%20' + val.replace("&","und") + '%0D%0A';
 				console.log(linkTo);
 			});
 		} else {
-			linkTo += 'Keine Wunschthemen gefunden.%0D%0A';	
+			linkTo += 'Keine Wunschthemen gefunden.%0D%0A';
 		}
-		$(this).children('a').attr('href', linkTo);
+		listItem.querySelector('a').setAttribute('href', linkTo);
 		window.location.href = linkTo;
-		console.log('wlist:' + wlist);
+		console.log('wlist:' + wlist)
 	} else {
 		e.preventDefault();
 		e.stopPropagation();
 	}
-	$(this).parent().children().removeClass('active');
-	$(this).addClass('active');
-	$('.modalBox').hide();
-	$('.modalBox.'+tab).fadeIn();
+	Array.from(listItem.parentNode.children).forEach(child => child.classList.remove('active'));
+	listItem.classList.add('active');
+	let modalBoxes = document.querySelectorAll('.modalBox');
+	modalBoxes.forEach(modalBox => modalBox.style.display = 'none');
+	fadeIn(document.querySelector('.modalBox.'+tab), 300);
 });
 
 /* Calculation Modal */
-$('.ccs button.p2').on('click', function(e) {
+eventListener('click', '.css button.p2', e => {
 	e.preventDefault();
-	$('.ccs .page1').toggle();
-	$('.ccs a.p1').attr('data-target', 'css');
-	$('.ccs .page2').toggle();
+	toggleDisplay(document.querySelector('.css .page1'));
+	document.querySelector('.css a.p1').setAttribute('data-target', 'css');
+	toggleDisplay(document.querySelector('.css .page2'));
 });
-$('.voip button.p2').on('click', function(e) {
+eventListener('click', '.voip button.p2', e => {
 	e.preventDefault();
-	$('.voip .page1').toggle();
-	$('.voip a.p1').attr('data-target', 'voip');
-	$('.voip .page2').toggle();
+	toggleDisplay(document.querySelector('.voip .page1'));
+	document.querySelector('.voip a.p1').setAttribute('data-target', 'voip');
+	toggleDisplay(document.querySelector('.voip .page2'));
 });
-
-$('.ccs a.p1').on('click', function(e) {
+eventListener('click', '.css a.p1', e => {
 	e.preventDefault();
-	$('.ccs .page1').toggle();	
-	$('.ccs .page2').toggle();
+	toggleDisplay(document.querySelector('.css .page1'));
+	toggleDisplay(document.querySelector('.css .page2'));
 });
-
-$('.voip a.p1').on('click', function(e) {
+eventListener('click', '.voip a.p1', e => {
 	e.preventDefault();
-	$('.voip .page1').toggle();	
-	$('.voip .page2').toggle();
+	toggleDisplay(document.querySelector('.voip .page1'));
+	toggleDisplay(document.querySelector('.voip .page2'));
 });
 
-$('.customCheckbox').on('click', function() {
-	var check = $(this).children('input[type="checkbox"]');
-		
-	//console.log(check);
-	if (check.prop('checked')) {
-		check.removeAttr('checked');
-		check.parent().removeClass('checked');
-		//console.log('remove attr');
+eventListener('click', '.customCheckbox', e => {
+	let checkbox = e.target.closest('.customCheckbox');
+	let check = checkbox.querySelector('input[type="checkbox"]');
+
+	if (check.checked) {
+		check.checked = false;
+		checkbox.classList.remove('checked');
 	} else {
-		check.attr('checked', 'checked');
-		check.parent().addClass('checked');
-		//console.log('add attr')
+		check.checked = true;
+		checkbox.classList.add('checked');
 	}
 });
 
-$('.customRadiobox').on('click', function() {
-	var check = $(this).children('input[type="radio"]');
+eventListener('click', '.customRadiobox', e => {
+	let radiobox = e.target.closest('.customRadiobox');
+	let check = radiobox.querySelector('input[type="radio"]');
+	let allRadioboxes = radiobox.closest('.checkboxen').querySelectorAll('.customRadiobox');
+	let allRadios = radiobox.closest('.checkboxen').querySelectorAll('.customRadiobox input');
+	allRadioboxes.forEach(radio => radio.classList.remove('checked'));
+	allRadios.forEach(radio => radio.checked = false);
+	radiobox.classList.add('checked');
+	check.checked = true;
 
-	$(this).closest('.checkboxen').find('.customRadiobox input').removeAttr('checked', 'checked');	
-	$(this).parent().children('.customRadiobox').removeClass('checked');
-	check.attr('checked', 'checked');
-	check.parent().addClass('checked');
-	
-	var radioValue1 = $(this).children("input[name='participation']:checked").val();
-	var radioValue2 = $(this).children("input[name='participation_partner']:checked").val();
-	if(radioValue1 === 'nein'){
-		$("input.participant_name").attr('disabled', 'disabled');
-	}
-	if(radioValue1 === 'ja') {
-		$("input.participant_name").removeAttr('disabled');
-	}
-	if(radioValue2 === 'nein') {
-		$("input.partner_name").attr('disabled', 'disabled');
-	}
-	if(radioValue2 === 'ja') {
-		$("input.partner_name").removeAttr('disabled');
-	}
+	let radioValue1 = radiobox.querySelector('input[name="participation"]:checked');
+	if (radioValue1 && radioValue1.value === 'nein')
+		document.querySelector('input.participant_name').disabled = true;
+	if (radioValue1 && radioValue1.value === 'ja')
+		document.querySelector('input.participant_name').disabled = false;
+	let radioValue2 = radiobox.querySelector('input[name="participation_partner"]:checked');
+	if (radioValue2 && radioValue2.value === 'nein')
+		document.querySelector('input.partner_name').disabled = true;
+	if (radioValue2 && radioValue2.value === 'ja')
+		document.querySelector('input.partner_name').disabled = false;
 });
 
-$('.optionField').on('click', function() {
-	var check = $(this).find('input');
-	//console.log(check);
-	if (check.prop('checked')) {
-		check.removeAttr('checked');
-		check.parent().removeClass('checked');
-		//console.log('remove attr');
+eventListener('click', '.optionField', e => {
+	let optionField = e.target.closest('.optionField');
+	let label = optionField.querySelector('label');
+	let check = optionField.querySelector('input');
+
+	if (check.checked) {
+		check.checked = false;
+		label.classList.remove('checked');
 	} else {
-		check.attr('checked', 'checked');
-		check.parent().addClass('checked');
-		//console.log('add attr')
+		check.checked = true;
+		label.classList.add('checked');
 	}
 });
-
 
 if (checkCookie('wishlist')) {
 	if (window.localStorage) {
@@ -377,34 +374,47 @@ if (checkCookie('wishlist')) {
 		if (wlist != null) {
 			listLength = wlist.length; 
 			if (listLength > 0) {
-				var note2 = $( ".modal.wishlist .wish-list" );
+				let note2 = document.querySelector('.modal.wishlist .wish-list');
 				
 				/*check if buttons to activate*/
-				if (document.contains($('.elements .button-bottom')[0])) {
+				if (document.contains(document.querySelectorAll('.elements .button-bottom')[0])) {
 					console.log('yes is contains it');
-					jQuery.each( wlist, function( i, val ) {
-						var note = $( ".elements .button-bottom > [data-info^='" + val + "']" );
-						note.addClass("added");
-						note.children().html( note.attr('data-add') );
-						note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+					wlist.forEach((val, i) => {
+						let note = document.querySelector('.elements .button-bottom > [data-info^="' + val + '"]');
+						note.classList.add("added");
+						note.children.forEach(child => {
+							child.innerHTML = note.getAttribute('data-add');
+						});
+						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
 					});
 				} else {
-					jQuery.each( wlist, function( i, val ) {
-						note2.append('<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+					wlist.forEach((val, i) => {
+						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
 					});
 				}
 				
 				/*display wishlist button and number of produkts*/
-				$('#wishlist .numberOfElements').html(listLength);
-				$('#wishlist').slideDown();
+				document.querySelector('#wishlist .numberOfElements').innerHTML = listLength;
+				slideDown(document.querySelector('#wishlist'), 300);
 			}
 		}
 	}
 }
 
-$('.menuheader').on("click", function() {
-	$(this).siblings().toggle();
-	$(this).toggleClass('open');
+eventListener('click', '.menuheader', (e) => {
+	let link = e.target.closest('.menuheader');
+	link.classList.toggle('open');
+	let siblings = getAllSiblings(link);
+	siblings.forEach(sibling => {
+		if (sibling == link)
+			return;
+		let display = window.getComputedStyle(sibling).getPropertyValue('display');
+		if (display === 'none') {
+			sibling.style.display = 'block';
+		} else {
+			sibling.style.display = 'none';
+		}
+	});
 });
 
 

@@ -193,7 +193,8 @@ class Mehrwertrechner {
         
         // Scroll to result
         let result = document.getElementById('mehrwertrechner-result');
-        $("html, body").animate({ scrollTop: $(result).offset().top - 150 }, 300);
+        let offset = result.offsetTop - 150;
+        scrollToOffset(offset);
 
         // Show loader
         this.loader.classList.remove('atomic-loader--hidden');

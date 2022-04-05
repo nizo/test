@@ -91,8 +91,6 @@ document.addEventListener("DOMContentLoaded", function() {
   	} 
   	 	
 	for ( i = 0; i < jsFiles.length; i++ ) {
-		if (jsFiles[i] !== '/assets/javascripts/libs/swiper.min.js' && window.screen.width <= width)
-			continue;
 		var element = document.createElement("script");
 	    element.src = jsFiles[i];
 	    document.body.appendChild(element);
