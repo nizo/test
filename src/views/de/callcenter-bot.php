@@ -113,7 +113,6 @@ $faqs->faq_add (
                         map.style.backgroundColor = '#86ed18';
                     }
                     </script>
-                    <style>.blue{outline: 1px solid red;}</style>
                     <area class="blue" onmouseover="showStep(event, 1)" onclick="showStep(event, 1)" shape="rect" coords="7,77,79,153" href="#" alt="Callcenter Bot 1">
                     <area class="blue" onmouseover="showStep(event, 2)" onclick="showStep(event, 2)" shape="rect" coords="489,280,564,356" href="#" alt="Callcenter Bot 2">
                     <area class="blue" onmouseover="showStep(event, 3)" onclick="showStep(event, 3)" shape="rect" coords="9,342,86,418" href="#" alt="Callcenter Bot 3">
