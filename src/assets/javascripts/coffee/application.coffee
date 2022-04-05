@@ -215,34 +215,6 @@ document.addEventListener 'DOMContentLoaded', ->
   app.init()
 
   #
-  # Use Case Slider
-  #
-  usecaseSliders = document.querySelectorAll('.customer-slider')
-  usecaseSliders.forEach (slider) ->
-    currentSlide = 1
-    slidesCount = slider.querySelectorAll('.customer-slider__slide').length
-    btnLeft = slider.querySelector('.customer-slider__arrow--left')
-    btnRight = slider.querySelector('.customer-slider__arrow--right')
-    slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
-
-
-    btnLeft.addEventListener 'click', (e) ->
-      slider.querySelectorAll('.customer-slider__slide').forEach (slide) ->
-        slide.classList.remove('customer-slider__slide--active')
-      currentSlide--
-      if currentSlide == 0
-        currentSlide = slidesCount
-      slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
-
-    btnRight.addEventListener 'click', (e) ->
-      slider.querySelectorAll('.customer-slider__slide').forEach (slide) ->
-        slide.classList.remove('customer-slider__slide--active')
-      currentSlide++
-      if currentSlide > slidesCount
-        currentSlide = 1
-      slider.querySelector('.customer-slider__slide:nth-child('+currentSlide+')').classList.add('customer-slider__slide--active')
-
-  #
   # Softphone Tabs
   #
   isInViewport = (element) ->
