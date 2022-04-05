@@ -23,6 +23,7 @@ $slider_width: 1000px; // 1800
         background-color: #fff;
         box-shadow: 0 0 20px rgba(#000, 0.25);
         padding: $gutter-xl $gutter-l;
+        border-radius: 10px;
       }
       &.active {
         opacity: 1;

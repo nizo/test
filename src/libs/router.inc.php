@@ -202,7 +202,6 @@ Router::add('/softphone', 'softphone.php', [
 Router::add('/call-tracking', 'calltracking.php', [
     'title' => 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden',
     'meta_description' => ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.',
-    'body_class' => 'bg-landingpages',
     'og_image_text' => 'Individuelle Rufnummern für Ihre Kunden',
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
