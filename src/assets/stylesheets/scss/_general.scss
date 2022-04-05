@@ -992,42 +992,10 @@ img {
 			padding-bottom: 80px;
 			.customers {
 				padding-bottom: 80px;
-				.swiper-pagination {
-					.swiper-pagination-bullet {
-						background-color: #fff;
-						opacity: .65;
-						&.swiper-pagination-bullet-active {
-							background-color: $color-primary;
-							opacity: 1; 
-						}
-						&:hover {
-							opacity: 1;
-						}
-					}
-				}
 			}
 			> h2:first-of-type {
 				&.black {
 					color: #000;
-				}
-			}
-		}
-		&.grey {
-			.content {
-				.customers {
-					.swiper-pagination {
-						.swiper-pagination-bullet {
-							background-color: $color-secondary-1;
-							opacity: .65;
-							&.swiper-pagination-bullet-active {
-								background-color: $color-primary;
-								opacity: 1; 
-							}
-							&:hover {
-								opacity: 1;
-							}
-						}
-					}
 				}
 			}
 		}
@@ -1193,53 +1161,6 @@ img {
 			}
 		}
 	}
-	&.parallax {
-		overflow: hidden;
-		display: block;
-		position: relative;
-		//background-image: url('/assets/images/photos/blue-bg.jpg');
-		margin-top: -100px;
-		margin-bottom: -100px;
-		z-index: 1;
-		background-size: cover;
-		background-color: #2DE9CD;
-		background-attachment: fixed;
-		background-position: center center;
-		&.demo1 {
-			background-color: #2DE9CD;
-			background-image: url('/assets/images/photos/callcenter-agent-smiling.jpeg');
-			background-attachment: fixed;
-		}
-		&.callcenter-agent {
-			background-color: #000000;
-			background-image: url('/assets/images/photos/callcenter-agent-smiling.jpeg');
-		}
-		.inside {
-			//background-image: url('/assets/images/photos/calltracking-header-image.png');
-			//background-image: url('/assets/images/photos/callcenter-agent-smiling.jpeg') 
-			background-attachment: fixed;
-			-webkit-transform: translate3d(0,0,0);
-			display: block;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-repeat: no-repeat;
-			background-position: top center;
-			background-size: cover;
-		}
-		.content {
-			&:first-child {
-				padding-top: $gutter-xxl;
-			}
-			&:last-child {
-				padding-bottom: $gutter-xxl - $gutter-m;
-			}
-			.shadow-box {
-				background-color: rgba(255,255,255,0.85);
-			}
-		}
-	}
 	&.background, &.breather {
 		background-color: #000;
 		&.thirdcolor {
@@ -1326,11 +1247,6 @@ img {
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 $gutter-l;
-		&.animatedParent {
-			overflow: hidden;
-			padding-top: $gutter-m;
-			padding-bottom: $gutter-m;
-		}
 		&:last-child {
 			margin-bottom: $gutter-m;
 		}
@@ -1622,10 +1538,6 @@ img {
 		}
 	}
 	&+.wrapper {
-		&.parallax {
-			margin-top: -100px;
-			margin-bottom: -220px;
-		}
 		&.logoparade-startpage {
 			&:first-of-type {
 				margin-top: inherit;

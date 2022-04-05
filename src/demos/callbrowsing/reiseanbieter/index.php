@@ -23,17 +23,11 @@
         	(window,document,'script','Surfly');
     	</script>
 		
-		<script src="/assets/javascripts/libs/jquery-3.4.1.min.js"></script>
-		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 		<script src="/demos/callbrowsing/functions.js"></script>
-		<script>
-			function scrollToTop() { $("html, body").animate({ scrollTop: $('iframe').offset().top}, 1); }
-		</script>
 		
 		<script>
-    	$(function ()
-    	{
+    	document.addEventListener("DOMContentLoaded", function()
+		{
             var timestamp_start = Math.floor (Date.now() / 1000);
             var session_rootnumber = null;
             var session_ddi = null;
@@ -45,24 +39,31 @@
     			
                 text = 'Willkommen bei Ihrem Reiseanbieter.  Vielen Dank für Ihren Anruf. ';
     
-                if ($('input[name="destination"]').is(':checked'))
-                	text += 'Ihr Urlaubsziel ' + $("input[name='destination']:checked").val() + '. ';
-                if ($('input[name="airport"]').is(':checked'))
-                	text += 'Sie starten und landen vom Flughafen ' + $("input[name='airport']:checked").val() + '. ';
-                if ($('#datepicker').val().length > 0)
-                	text += 'Ihr Abreisetermin ist der ' + $('#datepicker').val() + '. ';
-                if ($('input[name="duration"]').is(':checked')) {
-                    if($("input[name='duration']:checked").val() === 'beliebig')
-                    	text += ' Die Dauer Ihres Aufenthaltes ist ' + $("input[name='duration']:checked").val() + '. ';
+				let destination = document.querySelector('input[name="destination"]');
+				let airport = document.querySelector('input[name="airport"]');
+				let datepicker = document.querySelector('#datepicker');
+				let duration = document.querySelector('input[name="duration"]');
+
+                if (destination.checked)
+                	text += 'Ihr Urlaubsziel ' + destination.value + '. ';
+                if (airport.checked)
+                	text += 'Sie starten und landen vom Flughafen ' + airport.value + '. ';
+                if (datepicker.value.length > 0)
+                	text += 'Ihr Abreisetermin ist der ' + datepicker.value + '. ';
+                if (duration.checked) {
+                    if(duration.value === 'beliebig')
+                    	text += ' Die Dauer Ihres Aufenthaltes ist ' + duration.value + '. ';
                     else
-                		text += ' Ihr Aufenthalt soll ' + $("input[name='duration']:checked").val() + '  betragen. ';
+                		text += ' Ihr Aufenthalt soll ' + duration.value + '  betragen. ';
                 }
 
-                text += 'Anzahl der Personen sind ' + $('select#adults').children("option:selected").val() + ' und ';
-                if($('select#children').children("option:selected").val() === '0 Kinder')
+				let selectedAdults = document.querySelector('select#adults').value;
+				let selectedChildren = document.querySelector('select#children').value;
+                text += 'Anzahl der Personen sind ' + selectedAdults + ' und ';
+                if (selectedChildren === '0 Kinder')
                 	text += 'keine Kinder. ';
                 else
-                	text += $('select#children').children("option:selected").val() + '. ';
+                	text += selectedChildren + '. ';
                 
     			text += 'Sie sind schon seit ';
     			duration = Math.floor (Date.now() / 1000) - timestamp_start;
@@ -92,104 +93,83 @@
                 session_rootnumber = rootnumber;
                 session_ddi = ddi;
     
-                $('.callbrowsing_personal_phonenumber').html (' '+rootnumber+' - '+ddi);
+				let callbrowsing_personal_phonenumbers = document.querySelectorAll('.callbrowsing_personal_phonenumber');
+                callbrowsing_personal_phonenumbers.forEach(phonenumbers => {
+					phonenumbers.innerHTML = ' '+rootnumber+' - '+ddi;
+				});
+
+				let status = document.querySelector('#callbrowsing_status');
+				let statusTextBig = document.querySelector('#callbrowsing_status_text_big');
+				let statusTextSmall = document.querySelector('#callbrowsing_status_text_small');
+				let webviewSharingText = document.querySelector('#callbrowsing_webview_sharing_text');
+				let webviewSharing = document.querySelector('#callbrowsing_webview_sharing');
     
     			switch (callstatus)
     			{
     				case 0:
                         // callbrowsing status
-                        $("#callbrowsing_status").css ('visibility', 'visible');
-    					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+                        status.style.visibility = 'visible';
+    					status.style.animationPlayState = 'paused';
     
-    					$('#callbrowsing_status_text_big').text ('Rufen Sie uns an!');
-    					$('#callbrowsing_status_text_small').text('Wir finden Ihren Traumurlaub.');
+    					statusTextBig.textContent = 'Rufen Sie uns an!';
+    					statusTextSmall.textContent = 'Wir finden Ihren Traumurlaub.';
     
                         // callbrowsing webview sharing
-    					$('#callbrowsing_webview_sharing_text').text ('Webseite freigeben');
+    					webviewSharingText.textContent = 'Webseite freigeben';
     
-                        $("#callbrowsing_webview_sharing").css ('visibility', 'hidden');
-                        $('#callbrowsing_webview_sharing').css ('animation-play-state', 'paused');
+                        webviewSharing.style.visibility = 'hidden';
+                        webviewSharing.style.animationPlayState = 'paused';
     					break;
     				
     				case 1:
                         // callbrowsing status
-                        $("#callbrowsing_status").css ('visibility', 'visible');
+                        status.style.visibility = 'visible';
     
-    					$('#callbrowsing_status_text_big').text ('Danke!');
-    					$('#callbrowsing_status_text_small').text (caller);
+    					statusTextBig.textContent = 'Danke!';
+    					statusTextSmall.textContent = caller;
     
-    					$('#callbrowsing_status').css ('animation','animation_content_zoom 1s infinite');
+    					status.style.animation = 'animation_content_zoom 1s infinite';
     					break;
     				
     				case 2:
                         // callbrowsing status
-                        $("#callbrowsing_status").css ('visibility', 'visible');
+                        status.style.visibility = 'visible';
     
-    					$('#callbrowsing_status_text_big').text ('Danke!');
-    					$('#callbrowsing_status_text_small').text (caller);
+    					statusTextBig.textContent = 'Danke!';
+    					statusTextSmall.textContent = caller;
     
-    					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+    					status.style.animationPlayState = 'paused';
     
                         // callbrowsing webview sharing
-    					$('#callbrowsing_webview_sharing_text').text ('Webseite freigeben');
+    					webviewSharingText.textContent = 'Webseite freigeben';
     
-    					$('#callbrowsing_webview_sharing').css ('animation','animation_content_blend_in 1s');
-                        $("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+    					webviewSharing.style.animation = 'animation_content_blend_in 1s';
+                        webviewSharing.style.visibility = 'visible';
                         break;
                         
                     case 3:
                         // callbrowsing status
-                        $("#callbrowsing_status").css ('visibility', 'visible');
+                        status.style.visibility = 'visible';
     
-    					$('#callbrowsing_status_text_big').text ('Danke!');
-    					$('#callbrowsing_status_text_small').text (caller);
+    					statusTextBig.textContent = 'Danke!';
+    					statusTextSmall.textContent = caller;
     
-    					$('#callbrowsing_status').css ('animation-play-state', 'paused');
+    					status.style.animationPlayState = 'paused';
     
                         // callbrowsing webview sharing
-    					$('#callbrowsing_webview_sharing_text').text ('Webseite geteilt');
+    					webviewSharingText.textContent = 'Webseite geteilt';
     
-                        $('#callbrowsing_webview_sharing').css ('animation','animation_content_zoom 1s infinite');
-                        $("#callbrowsing_webview_sharing").css ('visibility', 'visible');
+                        webviewSharing.style.animation = 'animation_content_zoom 1s infinite';
+                        webviewSharing.style.visibility = 'visible';
     					break;
     			}
     		}
     
     		
-    		$('#callbrowsing_webview_sharing').click (function()
-    		{	callbrowsing_webview_sharing_start ();
-            });
+			document.querySelector('#callbrowsing_webview_sharing').addEventListener('click', e => {
+				callbrowsing_webview_sharing_start ();
+			});
     
-    		/**
-            $('#callbackButton').click (function()
-            {
-                $.ajax
-    		    ({
-                    url: "https://connect.callone.io/backend/callback.php",
-                    cache: false,
-                    type: "POST",
-                    data:
-                    {
-                        type: 0,
-                        aid: 'callone_cfcd208495d565ef66e7dff9f98764da',
-                        callback_key: 'dbc5e205033aa4f230073490394205b4',
-                        phonenumber: $('#callbackNumber').val().trim(),
-                        ddi: session_ddi,
-                        data: session_rootnumber
-                    },
-                    dataType: "json",
-                    error: function (error)
-                    {	console.log (JSON.stringify (error));
-                    },
-                    success: function (jsonData)
-                    {
-                        if (jsonData['success'])
-                            $('#callbackNumber').val('');
-                    }
-                });
-            });
-    
-    		**/
     		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'reiseanbieter', callbrowsing_text_create, callbrowsing_url_create, callbrowsing_status);
     		
         });
@@ -285,7 +265,7 @@
 						<div class="input target">
 							<label class="date open" for="datepicker">Anreise</label>
 							<div class="choice">
-								<input type="text" id="datepicker">
+								<input type="date" id="datepicker">
 							</div>
 						</div>
 						<div class="input target">
@@ -364,49 +344,23 @@
 		</div>
 
 		<script>
-		
-		    $( "#datepicker" ).datepicker({
-		    	prevText: '&#x3c;zurück', prevStatus: '',
-		        prevJumpText: '&#x3c;&#x3c;', prevJumpStatus: '',
-		        nextText: 'Vor&#x3e;', nextStatus: '',
-		        nextJumpText: '&#x3e;&#x3e;', nextJumpStatus: '',
-		        currentText: 'heute', currentStatus: '',
-		        todayText: 'heute', todayStatus: '',
-		        clearText: '-', clearStatus: '',
-		        closeText: 'schließen', closeStatus: '',
-		        monthNames: ['Januar','Februar','März','April','Mai','Juni',
-		        'Juli','August','September','Oktober','November','Dezember'],
-		        monthNamesShort: ['Jan','Feb','Mär','Apr','Mai','Jun',
-		        'Jul','Aug','Sep','Okt','Nov','Dez'],
-		        dayNames: ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'],
-		        dayNamesShort: ['So','Mo','Di','Mi','Do','Fr','Sa'],
-		        dayNamesMin: ['So','Mo','Di','Mi','Do','Fr','Sa'],
-		    	dateFormat: 'd MM yy'
-			});
-		  
-		      $('.datepicker').on('click', function() {
-		    	  
-		    	  $( "#datepicker" ).datepicker('show');
-		    	  
-		    	  
-		      });
-		      
-		   
-
-
 			var inputField = document.getElementsByClassName('open');
 			var y = 0;
     		
-    		$('.bg-click').click(function() {
-    			$('.choice').removeClass('show');
-    			$('.bg-click').hide('show');
-            });
+			let bgProtection = document.querySelector('.bg-click');
+			let choices = document.querySelectorAll('.choice');
+			let starStoerer = document.querySelector('.starStoerer')
+
+			bgProtection.addEventListener('click', e => {
+				choices.forEach(choice => choice.classList.remove('show'));
+				bgProtection.style.display = 'none';
+			});
     		
-    		var showMenu = function() {
-    		  var ele = $(this).next('.choice');
-    		  ele.toggleClass('show');
-    		  $('.bg-click').show();
-    		  event.stopPropagation();
+    		var showMenu = function(e) {
+				let ele = e.target.parentNode.querySelector('.choice');
+				ele.classList.toggle('show');
+				bgProtection.style.display = 'block';
+				e.stopPropagation();
     		};
 
     		var showAnimation = function() {
@@ -414,55 +368,60 @@
         		console.log('change');
         		if(y > 4) {
         			console.log('yey');
-            		$('.starStoerer').addClass('zoominoutanimation');
+            		starStoerer.classList.add('zoominoutanimation');
             	}
       		};
 
-      		$('.open').change(function() {
-      			y++;
-        		console.log('change');
-        		if(y > 4) {
-        			console.log('yey');
-            		$('.starStoerer').addClass('zoominoutanimation');
-            	}
-          	});
+			let open = document.querySelector('.open');
+			open.addEventListener('change', e => {
+				y++;
+				console.log('change');
+				if (y > 4)
+					starStoerer.classList.add('zoominoutanimation');
+			});
     
     		for (var i = 0; i < inputField.length; i++) {
     			inputField[i].addEventListener('click', showMenu, false);
     		}
 
-    		$('.choice label').on('click', function() {
-        		var destination = $(this).text();
-        		var field = $(this).closest('.target');
-        		field.children('label').text(destination);
-        		$(this).parent('input').attr('checked');
-        		$('.choice').removeClass('show');
-    			$('.bg-click').hide('show');
-    			showAnimation();
-        	});
+			let choiceLabels = document.querySelectorAll('.choice label');
+			choiceLabels.forEach(label => {
+				label.addEventListener('click', e => {
+					let destination = label.textContent;
+					let field = label.closest('.target');
+					let topLabel = field.querySelector('label');
+					topLabel.textContent = destination;
+					label.parentNode.querySelector('input').checked = true;
+					choices.forEach(choice => choice.classList.remove('show'));
+					bgProtection.style.display = 'none';
+					showAnimation();
+				});
+			});
 
-    		$('.submit_persons').on('click', function() {
-    			event.preventDefault();
-        		var adults = $('#adults').val();
-        		var children = $('#children').val();
-        		var field = $(this).closest('.target');
-        		field.children('label').text(adults + ' + ' + children);
-        		$('.choice').removeClass('show');
-    			$('.bg-click').hide('show');
-    			showAnimation();
-        	});
-    		
+			let submitPersons = document.querySelectorAll('.submit_persons');
+			submitPersons.forEach(submitPerson => {
+				submitPerson.addEventListener('click', e => {
+					e.preventDefault();
+					let adults = document.querySelector('#adults').value;
+					let children = document.querySelector('#children').value;
+					let field = e.target.closest('.target');
+					let topLabel = field.querySelector('label');
+					topLabel.textContent = adults + ' + ' + children;
+					choices.forEach(choice => choice.classList.remove('show'));
+					bgProtection.style.display = 'none';
+					showAnimation();
+				});
+			});
 
-    		$('#datepicker').change(function() {
-    			var destination = $('#datepicker').val();
-    			console.log(destination);
-        		var field = $(this).closest('.target');
-        		field.children('label').text(destination);
-        		$('.choice').removeClass('show');
-    			$('.bg-click').hide('show');
-    			showAnimation();
-            });
-        	
+			let datepicker = document.querySelector('#datepicker');
+			datepicker.addEventListener('change', e => {
+				let destination = datepicker.value;
+				let field = e.target.closest('.target');
+				let label = field.querySelector('label').textContent = destination;
+				choices.forEach(choice => choice.classList.remove('show'));
+				bgProtection.style.display = 'none';
+				showAnimation();
+			});        	
 		</script>
 	</body>
 </html>

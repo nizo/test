@@ -271,7 +271,7 @@
                             <h3>Holen Sie alles aus Ihrem Kundenservice heraus!</h3>
                             <p class="bigtext">Unser hilfreiches Handbuch mit Anforderungen, die Sie an Ihre  Callcenter Software stellen sollten.</p>
                             <p class="mobile-centered">
-                                <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank">Jetzt herunterladen</a>
+                                <a href="https://www.callone.de/blog/wp-content/uploads/2020/03/callcenter-software-anforderungskatalog.pdf" class="btn btn--primary" target="_blank" rel="noreferrer">Jetzt herunterladen</a>
                             </p>
                             <br class="mobile-hidden" /><br class="mobile-hidden" />
                         </div>

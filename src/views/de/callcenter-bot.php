@@ -107,11 +107,10 @@ $faqs->faq_add (
                         e = e || window.event;
                         e.preventDefault();
 
-                        $(document).ready(function() {
-                            console.log($('[data-map]'));
-                            $('[data-map]').css('background-color','');
-                            $('[data-map="'+ step +'"]').css('background-color','#86ed18');
-                        });
+                        let maps = Array.from(document.querySelectorAll('[data-map]'));
+                        maps.forEach(map => map.style.backgroundColor = '');
+                        let map = maps.find(map => parseInt(map.getAttribute('data-map')) == step);
+                        map.style.backgroundColor = '#86ed18';
                     }
                     </script>
                     <style>.blue{outline: 1px solid red;}</style>

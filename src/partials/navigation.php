@@ -454,7 +454,7 @@ require_once('banderole.php');
         <div class="navigation__right">
             <a href="tel:+493092033500" class="navigation__phonenumber">+49(0)30-92033500</a>
             <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
-            <a href="https://box.callone.de" target="_blank" rel="nofollow">Login</a>
+            <a href="https://box.callone.de" target="_blank" rel="nofollow noreferrer">Login</a>
         </div>
 
         <div class="navigation__mobile-button">

@@ -23,10 +23,10 @@ else
 ?>
 
 
-<div class="wrapper quarter-background-resversed animatedParent animateOnce overflow-hidden padding-top-20">
+<div class="wrapper quarter-background-resversed overflow-hidden padding-top-20">
 	<div class="content wide">
 		<div class="content thin">
-			<div class="shadow-box padding animated fadeInDown">
+			<div class="shadow-box padding">
 				<form action="#" class="form js-form" id="">
 					<?php if(!empty($mlang) && $mlang === 'en') : ?>
         				<h3 class="h1 centered no-padding-top">Confirmation of your personal invitation to the CallOne Lounge</h3>

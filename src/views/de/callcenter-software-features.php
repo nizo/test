@@ -10,7 +10,7 @@
     		<div class="menu menu-mobile-dropdown">
     			<ul>
     				<li class="menuheader"><span class="desktop-hidden">Auswahl Funktionen & Features</span></li>
-    				<li class="active"><a href="" title="Funktionen" class="sl sl-functions sl-before mobile relative animatedClick" data-link="1">Funktionen</a></li>
+    				<li class="active"><a href="" title="Funktionen" class="sl sl-functions sl-before mobile relative" data-link="1">Funktionen</a></li>
     				<li><a title="Features" class="sl sl-feature sl-before mobile relative" data-link="2">Features</a></li>
     				<li><a title="Applikationen" class="sl sl-app sl-before mobile relative" data-link="3">Applikationen</a></li>
     				<li><a title="Schnittstellen" class="sl sl-api sl-before mobile relative" data-link="4">Schnittstellen</a></li>

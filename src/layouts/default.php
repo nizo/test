@@ -106,20 +106,15 @@
         </div>
     <?php endif; ?>
     
-    <div class="modal contact">
-      <?php include('./partials/modal-contact.php'); ?>
-    </div>
-    
     <div class="modal wishlist">
     	<?php include('./partials/modal-wishlist.php'); ?>
     </div>
-     
-	<div class="modal shortApplication">
-      <?php include('./partials/modal-10-second-application.php'); ?>
-    </div>  
 
-    <script src="/assets/javascripts/libs/jquery-3.4.1.min.js"></script>
+    <div class="modal callback">
+    	<?php include('./partials/modal-callback.php'); ?>
+    </div>
     
+    <script src="/assets/javascripts/libs/utilities.js"></script>
     <?php
     loadJS(null);
 

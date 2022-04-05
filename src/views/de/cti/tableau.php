@@ -22,7 +22,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
   'Kann ich die Callcenter-Software und den Tableau Connector testen?',
-  '<p>Ja, ein Test und eine Demo ist möglich und von unserer Seite auch gewünscht. <a class="openModal" data-modal="contact" title="Treten Sie ins Kontakt">Bitte kontaktieren sie unsere Experten für eine Websession</a></p><p>Darüber hinaus bietet CallOne eine Vielzahl fertiger Apps für beliebte Tools wie Pipedrive, Salesforce, Zendesk, uvm. sowie Integrationen mit BI-Tools wie tableau und Geckoboard.</p>'
+  '<p>Ja, ein Test und eine Demo ist möglich und von unserer Seite auch gewünscht. <a href="/kontakt" title="Treten Sie ins Kontakt">Bitte kontaktieren sie unsere Experten für eine Websession</a></p><p>Darüber hinaus bietet CallOne eine Vielzahl fertiger Apps für beliebte Tools wie Pipedrive, Salesforce, Zendesk, uvm. sowie Integrationen mit BI-Tools wie tableau und Geckoboard.</p>'
 );
 ?>
 

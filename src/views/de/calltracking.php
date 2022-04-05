@@ -100,12 +100,12 @@ $faqs->faq_add (
   </div>
 </div>
 <div class="wrapper" id="mehrwerte">
-    <div class="content wide centered animatedParent animateOnce">
-        <h2 class="h1 animated fadeInDownShort" >Ihre Mehrwerte: Mehr Conversions, vollständige BI-Daten und besserer Kundenservice</h2>
+    <div class="content wide centered">
+        <h2 class="h1" >Ihre Mehrwerte: Mehr Conversions, vollständige BI-Daten und besserer Kundenservice</h2>
     </div>
-    <div class="content wide left no-margin-top animatedParent animateOnce">
+    <div class="content wide left no-margin-top">
     	<div class="content narrow">
-            <div class="shadow-box animated bounceInLeft">
+            <div class="shadow-box">
             	<div class="image-grid">
             		<div class="image padding">
             			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_03.svg" data-srcset="/assets/images/icons_svg/big_03.svg" alt="Vorteile von Call-Tracking im Sales" class="lazy auto" width="187" height="144" />
@@ -118,9 +118,9 @@ $faqs->faq_add (
             </div>
     	</div>
     </div>
-    <div class="content wide right no-margin-top animatedParent animateOnce">
+    <div class="content wide right no-margin-top">
     	<div class="content narrow">
-            <div class="shadow-box animated bounceInRight">
+            <div class="shadow-box">
             	<div class="image-grid">
             		<div class="text">
                     	<h3 class="h2">Mehr Effizienz im Service</h3>
@@ -133,9 +133,9 @@ $faqs->faq_add (
             </div>
     	</div>
     </div>
-    <div class="content wide left no-margin-top animatedParent animateOnce">
+    <div class="content wide left no-margin-top">
     	<div class="content narrow">
-            <div class="shadow-box animated bounceInLeft">
+            <div class="shadow-box">
             	<div class="image-grid">
                 	<div class="image padding">
                 		<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/big_10_2.svg" data-srcset="/assets/images/icons_svg/big_10_2.svg" alt="Vorteile von Call-Tracking bei Kundenzufriedenheit" class="lazy auto" width="187" height="191" />
@@ -148,9 +148,9 @@ $faqs->faq_add (
             </div>
     	</div>
     </div>
-    <div class="content wide right no-margin-top animatedParent animateOnce">
+    <div class="content wide right no-margin-top">
     	<div class="content narrow">
-            <div class="shadow-box animated bounceInRight">
+            <div class="shadow-box">
             	<div class="image-grid">
                 	<div class="text">
                     	<h3 class="h2">Effektiveres Online Marketing</h3>

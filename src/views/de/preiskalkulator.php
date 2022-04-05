@@ -9,7 +9,7 @@
 </div>
 
 <!-- chat-segm -->	
-<div class="wrapper conversation chat overflow-hidden animatedParent animateOnce">
+<div class="wrapper conversation chat overflow-hidden">
 	<div class="content overflow-hidden-mobile relative narrow">
 		<form class="segm_ctr chat form flex">
 			<div class="bg-height"></div>
