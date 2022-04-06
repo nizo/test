@@ -378,11 +378,10 @@ if (checkCookie('wishlist')) {
 				
 				/*check if buttons to activate*/
 				if (document.contains(document.querySelectorAll('.elements .button-bottom')[0])) {
-					console.log('yes is contains it');
 					wlist.forEach((val, i) => {
 						let note = document.querySelector('.elements .button-bottom > [data-info^="' + val + '"]');
 						note.classList.add("added");
-						note.children.forEach(child => {
+						Array.from(note.children).forEach(child => {
 							child.innerHTML = note.getAttribute('data-add');
 						});
 						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
