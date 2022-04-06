@@ -139,6 +139,7 @@ var sendForm = function(form) {
 
 	switch (type) {
 	case '1':
+		var formData = new FormData();
 		if(form.classList.contains('form-1')) {
 			console.log('Rufnummern');
 			let selectedNumbers = new Array();
@@ -150,27 +151,23 @@ var sendForm = function(form) {
 				});
 			}
 			
-			data = {
-				'type':	type, 
-				'register_phonenumbers': selectedNumbers,
-				'email': formData.get('email'),
-				'name': formData.get('name'),
-				'company': formData.get('company')
-			}
+			formData.set('type', type);
+			formData.set('register_phonenumbers', selectedNumbers);
+			formData.set('email', formData.get('email'));
+			formData.set('name', formData.get('name'));
+			formData.set('company', formData.get('company'));
 				
 			action = '0800 Rufnummern Reservierung';
-			label = data['company'];
+			label = formData.get('company');
 		} else {
-			data = {
-				'type':	type, 
-				'path': JSON.parse(formData.get('path')),
-				'issue': formData.get('issue'),
-				'name': formData.get('name'),
-				'email': formData.get('email') 
-			}
+			formData.set('type', type);
+			formData.set('path', JSON.parse(formData.get('path')));
+			formData.set('issue', formData.get('issue'));
+			formData.set('name', formData.get('name'));
+			formData.set('email', formData.get('email'));
 			
 			action = 'Einfaches Kontaktforumlar';
-			label = data['email'];
+			label = formData.get('email');
 		}
 		break;
 	case '2':
@@ -249,7 +246,7 @@ var sendForm = function(form) {
 	fetch(postUrl, {
 		method: 'POST',
 		cache: 'no-cache',
-		body: data
+		body: formData
 	})
 	.then(response => {
 		return response.json();
