@@ -128,7 +128,7 @@ if (uploadButton != null  && realInput != null) {
 
 var sendForm = function(form) {
 		
-	var formData = new FormData(form);
+	var globalFormData = new FormData(form);
 
 	var type = form.querySelector('[name="type"]').value;
 	var data = null;
@@ -153,18 +153,18 @@ var sendForm = function(form) {
 			
 			formData.set('type', type);
 			formData.set('register_phonenumbers', selectedNumbers);
-			formData.set('email', formData.get('email'));
-			formData.set('name', formData.get('name'));
-			formData.set('company', formData.get('company'));
+			formData.set('email', globalFormData.get('email'));
+			formData.set('name', globalFormData.get('name'));
+			formData.set('company', globalFormData.get('company'));
 				
 			action = '0800 Rufnummern Reservierung';
 			label = formData.get('company');
 		} else {
 			formData.set('type', type);
-			formData.set('path', JSON.parse(formData.get('path')));
-			formData.set('issue', formData.get('issue'));
-			formData.set('name', formData.get('name'));
-			formData.set('email', formData.get('email'));
+			formData.set('path', JSON.parse(globalFormData.get('path')));
+			formData.set('issue', globalFormData.get('issue'));
+			formData.set('name', globalFormData.get('name'));
+			formData.set('email', globalFormData.get('email'));
 			
 			action = 'Einfaches Kontaktforumlar';
 			label = formData.get('email');
@@ -185,7 +185,7 @@ var sendForm = function(form) {
 		var employees, functions = '';
 		var func = [];
 		if (form.classList.contains('calcForm')) {
-			employees = formData.get('employees');
+			employees = globalFormData.get('employees');
 			form.querySelectorAll('input[name="functions"]:checked').forEach(input => {
 				func.push(input.value);
 			});					
@@ -208,19 +208,19 @@ var sendForm = function(form) {
 		
 		var formData = new FormData();
 		formData.set('type', type);
-		formData.set('path', JSON.parse(formData.get('path')));
+		formData.set('path', JSON.parse(globalFormData.get('path')));
 		formData.set('employees', employees);
 		formData.set('issue', issue);
-		formData.set('name', formData.get('name'));
+		formData.set('name', globalFormData.get('name'));
 		formData.set('position', position);
-		formData.set('company', formData.get('company'));
-		formData.set('phonenumber', formData.get('phonenumber'));
-		formData.set('email', formData.get('email'));
-		formData.set('agents', formData.get('agents'));
-		formData.set('business',  formData.get('business'));
+		formData.set('company', globalFormData.get('company'));
+		formData.set('phonenumber', globalFormData.get('phonenumber'));
+		formData.set('email', globalFormData.get('email'));
+		formData.set('agents', globalFormData.get('agents'));
+		formData.set('business',  globalFormData.get('business'));
 		formData.set('functions', func);
 		
-		if (formData.has('newsletter')) {
+		if (globalFormData.has('newsletter')) {
 			let newsletter = form.querySelector('[name="newsletter"]');
 			formData.set('newsletter', newsletter.checked ? true : false);
 		}
