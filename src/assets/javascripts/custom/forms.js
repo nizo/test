@@ -30,7 +30,7 @@ eventListener('click', '.button-bottom > button', e => {
 			console.log(wishlist);
 			wishlist.push(dataInfo);
 		}
-		button.children.forEach(child => child.innerHTML = button.getAttribute('data-add'));
+		Array.from(button.children).forEach(child => child.innerHTML = button.getAttribute('data-add'));
 		button.parentNode.insertAdjacentHTML('beforeend', '<div class="arrow-box shortModal" style="display: none;"><strong>'+dataInfo+'</strong>Zur Wunschliste hinzugefügt</div>');
 		var arrowBox = next(button, '.arrow-box');
 		setTimeout(e => {
