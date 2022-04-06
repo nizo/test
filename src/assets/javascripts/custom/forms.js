@@ -182,50 +182,24 @@ var sendForm = function(form) {
 		}
 		
 		// CalcForm
-		var employees, functions = '';
 		var func = [];
-		if (form.classList.contains('calcForm')) {
-			employees = globalFormData.get('employees');
-			form.querySelectorAll('input[name="functions"]:checked').forEach(input => {
-				func.push(input.value);
-			});					
-		} else {
-			let employeesEl = form.querySelector('#employees');
-			if (employeesEl)
-				employees = employeesEl.textContent;
-		}
 		
 		if (form.classList.contains('wishlistContactForm')) {
 			if (window.localStorage) {			
 				func = JSON.parse(window.localStorage.getItem('wishlist'));
 			}
 		}
-
-		let positionEl = form.querySelector('#position');
-		let position = '';
-		if (positionEl)
-			position = positionEl.textContent;
 		
 		var formData = new FormData();
 		formData.set('type', type);
 		formData.set('path', JSON.parse(globalFormData.get('path')));
-		formData.set('employees', employees);
 		formData.set('issue', issue);
 		formData.set('name', globalFormData.get('name'));
-		formData.set('position', position);
 		formData.set('company', globalFormData.get('company'));
 		formData.set('phonenumber', globalFormData.get('phonenumber'));
 		formData.set('email', globalFormData.get('email'));
-		formData.set('agents', globalFormData.get('agents'));
-		formData.set('business',  globalFormData.get('business'));
 		formData.set('functions', func);
 		
-		if (globalFormData.has('newsletter')) {
-			let newsletter = form.querySelector('[name="newsletter"]');
-			formData.set('newsletter', newsletter.checked ? true : false);
-		}
-						
-		form.classList.contains('calcForm') ? action = 'Preis Modal' : action = 'Kontaktformular';
 		form.classList.contains('wishlistContactForm') ? action = 'Wunschthemen' : action = 'Kontaktformular';
 		
 		label = formData.get('company');
