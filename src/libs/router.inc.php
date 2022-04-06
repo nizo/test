@@ -305,6 +305,7 @@ foreach ($jobs->jobs_get() as $job) {
 ** ****************** */
 Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
     'title' => 'Callcenter Software Features',
+    'body_class' => 'bg-kundenservice',
     'og_image_text' => 'CallOne Callcenter Software Features'
 ]);
 Router::add('/callcenter-software-funktionen', 'callcenter-software-funktionen.php', [
