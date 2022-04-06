@@ -14,7 +14,7 @@
 
 <div class="wrapper">
   <div class="content wide centered">
-    <h2 class="h1">Voice Tickets</h1>
+    <h2 class="h1">Voice Tickets</h2>
     <p>Integrieren Sie Voice Tickets in Zendesk für effizienteren Kundenservice.</p>
   </div>
 </div>
@@ -63,7 +63,7 @@
   </div>
 </div>
 
-<div class="wrapper" id="anbindungen">
+<div class="wrapper" id="statistiken">
   <div class="content wide">
   <h2 class="h1 centered">Statistiken</h2>
   <h3 class="centered">Controlling nur noch an einer Stelle</h3>
@@ -72,10 +72,10 @@
         <div class="text">
             <h3>Gruppenfunktionen</h3>
             <p>Unterteilen Sie z.B. Ihre Hotline-Rufnummern in verschiedene Gruppen, um Anrufe bestmöglich in Zendeskauswerten zu können.</p>
-    		<h3>Übergabe individueller Parameter</h3>
-    		<p>Auf Wunsch übergeben wir Ihnen über die Schnittstelle auch individuelle Parameter wie Eingaben in IVR-Menüs, die Sie z.B. in Zendesk-Feldern oder Tickets anzeigen lassen können.</p>
-    		<h3>Integration von Statistiken</h3>
-    		<p>Integrieren Sie alle ACD- und Rufnummernstatistiken ganz einfach in Zendesk, um den Überblick über alle telefonischen Kontakte mit Ihren Kunden zu haben.</p>
+            <h3>Übergabe individueller Parameter</h3>
+            <p>Auf Wunsch übergeben wir Ihnen über die Schnittstelle auch individuelle Parameter wie Eingaben in IVR-Menüs, die Sie z.B. in Zendesk-Feldern oder Tickets anzeigen lassen können.</p>
+            <h3>Integration von Statistiken</h3>
+            <p>Integrieren Sie alle ACD- und Rufnummernstatistiken ganz einfach in Zendesk, um den Überblick über alle telefonischen Kontakte mit Ihren Kunden zu haben.</p>
         </div>
         <div class="image centered">
           <img src="/assets/images/photos/zendesk-acd-stats.png" alt="Zendesk ACD Statistiken">
