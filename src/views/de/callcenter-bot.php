@@ -56,9 +56,9 @@ $faqs->faq_add (
         <h2 class="centered mobile-left">Verwendungsmöglichkeiten für den Callcenter-Bot <br>Das sprachgesteuerte KI-Sprachdialogsystem</h2>
 
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p class="centered"><img src="/assets/images/icons_svg/small_38.svg" alt="Auswahlmenüs - Sprachauswahl statt DTMF-Tasten" width="45" height="50" style="height:50px" /></p>
-                <h3 class="centered">Sprachgesteuertes IVR</h3>
+                <h3 class="centered">Sprach&shy;gesteuertes IVR</h3>
                 <p class="centered">Sprachdialoge statt <br />starrer Menüs.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Erkennung menschlicher Sprache</li>
@@ -66,9 +66,9 @@ $faqs->faq_add (
                     <li>Anlernbar, beliebig skalierbar, mehrsprachig</li>
                 </ul>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p class="centered"><img src="/assets/images/icons_svg/big_13.svg" alt="Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten" width="56" height="50" style="height:50px" /></p>
-                <h3 class="centered">Informationsbots</h3>
+                <h3 class="centered">Informations&shy;bots</h3>
                 <p class="centered">Anruferanfragen <br />automatisiert beantworten.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
                     <li>Sprachbasierte FAQ</li>
@@ -77,7 +77,7 @@ $faqs->faq_add (
                     <li>Automatisierte Informationsübermittlung</li>
                 </ul> 
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p class="centered"><img src="/assets/images/icons_svg/big_12.svg" alt="Individual - Kundenindividuelle Anwendungen" width="63" height="50" style="height:50px" /></p>
                 <h3 class="centered">Callcenter Bots</h3>
                 <p class="centered">Leistungsstarke Schnittstellen für kundenindividuelle Anwendungen.</p>
@@ -99,44 +99,33 @@ $faqs->faq_add (
 <div class="section section--black" id="calltracking">
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--6-hidden co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/illus/CallOneRobot-invers-2.svg" alt="So funktioniert unser Spachdialogsystem - Der Callcenter Bot" usemap="#robot" width="570" height="968" />
-                <map name="robot">
-                    <script>
-                    function showStep(e, step){
-                        e = e || window.event;
-                        e.preventDefault();
-
-                        let maps = Array.from(document.querySelectorAll('[data-map]'));
-                        maps.forEach(map => map.style.backgroundColor = '');
-                        let map = maps.find(map => parseInt(map.getAttribute('data-map')) == step);
-                        map.style.backgroundColor = '#86ed18';
-                    }
-                    </script>
-                    <area class="blue" onmouseover="showStep(event, 1)" onclick="showStep(event, 1)" shape="rect" coords="7,77,79,153" href="#" alt="Callcenter Bot 1">
-                    <area class="blue" onmouseover="showStep(event, 2)" onclick="showStep(event, 2)" shape="rect" coords="489,280,564,356" href="#" alt="Callcenter Bot 2">
-                    <area class="blue" onmouseover="showStep(event, 3)" onclick="showStep(event, 3)" shape="rect" coords="9,342,86,418" href="#" alt="Callcenter Bot 3">
-                    <area class="blue" onmouseover="showStep(event, 4)" onclick="showStep(event, 4)" shape="rect" coords="492,639,569,715" href="#" alt="Callcenter Bot 4">
-                </map>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-2-xs co-grid__col--vcentered">
+                <img src="/assets/images/illus/CallOneRobot-invers-2.svg" alt="So funktioniert unser Spachdialogsystem - Der Callcenter Bot" width="570" height="968" />
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <h3 class="centered">Wie funktioniert unser Callcenter Bot?</h3>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--order-1-xs co-grid__col--vcentered">
+                <h2 class="centered mobile-left">Wie funktioniert unser Callcenter Bot?</h2>
 
-                <div class="content-box content-box--white content-box--nofill" data-map="1">
-                    <div class="subtitle">1. Sprachportal nimmt Anruf entgegen</div>
-                    <p>Das CallOne Sprachdialogsystem erkennt das gesprochene Wort des Anrufers. Diese auch als Voice-to-Text (VTT) oder Automatic-Speech-Recognition (ASR) bezeichnete Technologie ermöglicht es, in Echtzeit aus Sprache Text zu erstellen.</p>
-                </div>
-                <div class="content-box content-box--white content-box--nofill" data-map="2">
-                    <div class="subtitle">2. Das Anliegen mittels vortrainierter KI identifizieren</div>
-                    <p>Schlüsselwörter und semantische Zusammenhänge werden erkannt.</p>
-                </div>
-                <div class="content-box content-box--white content-box--nofill" data-map="3">
-                    <div class="subtitle">3. Sprachdialog mit Ihrem Anrufer</div>
-                    <p>mittels Sprachsynthese (Text-to-Speech)</p>
-                </div>
-                <div class="content-box content-box--white content-box--nofill" data-map="4">
-                    <div class="subtitle">4. Vorqualifizierung oder Lösung des Anruferanliegens</div>
-                    <p>Ist das Anliegen des Anrufers definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</p>
+                <div class="carddeck carddeck--right carddeck--on-black" data-speed="3000">
+                    <div class="carddeck__card">
+                        <h5><span class="icon-number-1" style="font-size:28px;"></span>Sprachportal nimmt Anruf entgegen</h5>
+                        <br />
+                        <p>Das CallOne Sprachdialogsystem erkennt das gesprochene Wort des Anrufers. Diese auch als Voice-to-Text (VTT) oder Automatic-Speech-Recognition (ASR) bezeichnete Technologie ermöglicht es, in Echtzeit aus Sprache Text zu erstellen.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h5><span class="icon-number-2" style="font-size:28px;"></span>Das Anliegen mittels vortrainierter KI identifizieren</h5>
+                        <br />
+                        <p>Schlüsselwörter und semantische Zusammenhänge werden erkannt.</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h5><span class="icon-number-3" style="font-size:28px;"></span>Sprachdialog mit Ihrem Anrufer</h5>
+                        <br />
+                        <p>mittels Sprachsynthese (Text-to-Speech)</p>
+                    </div>
+                    <div class="carddeck__card">
+                        <h5><span class="icon-number-4" style="font-size:28px;"></span>Vorqualifizierung oder Lösung des Anruferanliegens</h5>
+                        <br />
+                        <p>Ist das Anliegen des Anrufers definiert erfolgt die Weiterleitung auf die hinterlegte Routing-Logik (unterschiedliche Ziele, Skills, Warteschleifen).</p>
+                    </div>
                 </div>
 
                 <p class="centered">
@@ -312,8 +301,3 @@ $faqs->faq_add (
         </p>  
     </div>
 </div>
-
-<?php
-// Contact form has been replaced by sales contact modal
-// include('partials/contact-form.php');
-?>
