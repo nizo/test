@@ -59,7 +59,7 @@ eventListener('click', '.button-bottom > button', e => {
 		var note2 = document.querySelector('.modal.wishlist .wish-list');
 		note2.innerHTML = '';
 		wishlist.forEach(val => {
-			note2.parentNode.insertAdjacentHTML('beforeend', '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
+			note2.innerHTML += '<li>'+val+'</li>';
 		});
 		setCookie('wishlist', '1', 90);
 		slideDown(document.querySelector('#wishlist'), 300);
@@ -183,10 +183,12 @@ var sendForm = function(form) {
 	case '2':
 		var issue = '';
 		let issueEl = form.querySelector('#issue');
-		if (issueEl.classList.contains('select-selected')) {
-			issue =  issueEl.textContent;
-		} else {
-			issue = form.querySelector('[name="issue"]').value;
+		if (issueEl) {
+			if (issueEl.classList.contains('select-selected')) {
+				issue =  issueEl.textContent;
+			} else {
+				issue = form.querySelector('[name="issue"]').value;
+			}
 		}
 		
 		// CalcForm
@@ -198,7 +200,9 @@ var sendForm = function(form) {
 				func.push(input.value);
 			});					
 		} else {
-			employees = document.querySelector('#employees').textContent;
+			let employeesEl = form.querySelector('#employees');
+			if (employeesEl)
+				employees = employeesEl.textContent;
 		}
 		
 		if (form.classList.contains('wishlistContactForm')) {
@@ -206,6 +210,11 @@ var sendForm = function(form) {
 				func = JSON.parse(window.localStorage.getItem('wishlist'));
 			}
 		}
+
+		let positionEl = form.querySelector('#position');
+		let position = '';
+		if (positionEl)
+			position = positionEl.textContent;
 		
 		data = {
 			'type':	type, 
@@ -213,7 +222,7 @@ var sendForm = function(form) {
 			'employees': employees,
 			'issue': issue,
 			'name': formData.get('name'),
-			'position': document.querySelector('#position').textContent,
+			'position': position,
 			'company': formData.get('company'),
 			'phonenumber': formData.get('phonenumber'),
 			'email': formData.get('email'),

@@ -77,27 +77,8 @@ function displayModal(modalName, titleContent, part) {
 	
 	if (modal == null)
 		return;
-	//console.log(modalName);
-	modal.style.display = "block";
 	
-	if(modalName === 'priceCalc') {
-		document.querySelector('.formSuccess').style.display = 'none';
-				
-		//console.log(modalName);
-		var title = modal.getElementsByClassName('title-'+part)[0];
-		var partToDisplay = modal.getElementsByClassName(part)[0]; 
-		var defaultTitle = modal.getElementsByClassName('defaultTitle')[0];
-			
-		// Alle Parts zurücksetzen
-		var parts = modal.getElementsByClassName('part');
-		for(var i = 0; i < parts.length; i++)
-		{
-			parts[i].style.display = 'none';
-		}
-
-		// Speziellen Part anzeigen
-		partToDisplay.style.display = "flex";
-	}
+	modal.style.display = "block";
 
 	var x = setTimeout(function() {
 		let fields = document.querySelectorAll('.inputFields');

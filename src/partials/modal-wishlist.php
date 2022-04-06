@@ -31,6 +31,7 @@
                           		<p></p>
                           		<input type="hidden" name="type" value="2">
         			 			<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
+								
         			 			<div class="group">
                                   <input type="text" name="name" class="name" value="" placeholder="Ihr Name" required>
                                 </div>

@@ -137,11 +137,13 @@ function fadeOut(el, time, callback) {
             (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
         } else {
             el.style.display = 'none';
+            el.style.opacity = 1;
+
             if (callback)
                 callback();
         }
     };
-  
+
     tick();
 }
 
