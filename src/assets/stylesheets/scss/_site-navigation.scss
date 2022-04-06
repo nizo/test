@@ -9,6 +9,7 @@
      box-shadow: 0 0 5px rgba(#000, 0.25);
      background-color: #fff;
      li {
+       position: relative;
        display: block;
        margin-top: 5px;
        line-height: $gutter-l;

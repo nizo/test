@@ -34,9 +34,6 @@ $faqs->faq_add (
       				<a href="#beispiel" class="arrow">Beispiel</a>
       			</li>
       			<li>
-      				<a href="#nutzen" class="arrow">Nutzen</a>
-      			</li>
-      			<li>
       				<a href="#funktionen" class="arrow">Funktionen</a>
       			</li>
       			<li>

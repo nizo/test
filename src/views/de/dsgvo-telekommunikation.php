@@ -594,7 +594,7 @@
 
                     <br />
 
-                    <div class="carddeck carddeck--right">
+                    <div class="carddeck carddeck--right carddeck--on-black">
                         <div class="carddeck__card">
                             <p class="bigtext">
                                 <img src="/assets/images/icons_svg/vpn-icon.svg" alt="VPN Cloud Telefonanlage" style="vertical-align:middle" /> VPN

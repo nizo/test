@@ -67,7 +67,7 @@ $faqs->faq_add (
       <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Experten kontaktieren" data-category="Link" data-action="opens sales modal">Experten kontaktieren</a>
     </div>
     <br>
-    <h2 class="h2 centered">Kunden, die erfolgreich unseren Tableau-Connector nutzen:​</h2>
+    <h2 class="h2 centered">Kunden, die erfolgreich unseren Tableau-Connector nutzen:</h2>
     	
     <div class="shadow-box padding marginTop">
     	<div class="grid">
@@ -82,6 +82,7 @@ $faqs->faq_add (
     		</div>
     	</div>
     </div>
+    <br /><br />
   </div>
 </div>
 

@@ -278,7 +278,7 @@
 </div>
 
 <div class="wrapper quarter-background-resversed margin-top-40">
-  <div class="content wide overflow-hidden">  
+  <div class="content wide">  
 		<div class="grid overlap left">
     		<div class="col-2 flex space-between row">
     			<div class="shadow-box box-illu-1 lazyBackground centered">

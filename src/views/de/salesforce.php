@@ -24,7 +24,7 @@ $faqs->faq_add (
         </h1>
         <p class="primary">Die CallOne CTI App für Salesforce Lightning & Classic ermöglicht Ihrem Vertriebsteam einen optimierten Workflow mit gesteigerter Effizienz und Produktivität.</p>
         <div class="button-set">
-          <a class="button tertiary rounded button--wider" href="#installation" target="_blank">Jetzt ausprobieren</a>
+          <a class="button tertiary rounded button--wider" href="#installation">Jetzt ausprobieren</a>
         </div>
       </div>
       <div class="media centered">
@@ -109,7 +109,7 @@ $faqs->faq_add (
     <h2>Abgleich aller eingehenden Anrufe mit Ihren Salesforce-Kundendaten</h2>
     <p>Alle eingehenden Anrufe werden mit Ihren Salesforce-Leads, -Kontakten und – Accounts gematcht, im Account automatisch angezeigt und als Aktivität in Salesforce gespeichert.</p>
     <div class="button-set centered">
-      <a href="#" class="button tertiary rounded">Direkt testen</a>
+      <a href="#installation" class="button tertiary rounded">Direkt testen</a>
     </div>
   </div>
 </div>

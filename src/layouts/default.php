@@ -93,8 +93,8 @@
     ?>
     
     <div id="wishlist" style="">
-    	<span class="numberOfElements"></span>
-    	<a class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
+        <span class="numberOfElements"></span>
+        <a class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
     </div>
     
     <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
@@ -107,11 +107,11 @@
     <?php endif; ?>
     
     <div class="modal wishlist">
-    	<?php include('./partials/modal-wishlist.php'); ?>
+        <?php include('./partials/modal-wishlist.php'); ?>
     </div>
 
     <div class="modal callback">
-    	<?php include('./partials/modal-callback.php'); ?>
+        <?php include('./partials/modal-callback.php'); ?>
     </div>
     
     <script src="/assets/javascripts/libs/utilities.js"></script>
