@@ -86,16 +86,6 @@ app =
     eventListener 'click', '.btn-mobile-nav', (e) ->
       e.preventDefault()
       document.querySelector('.mobile-nav').classList.toggle('open')
-
-    # SmoothScroll
-    eventListener 'click', 'a[href^="#"]', (e) ->
-      e.preventDefault()
-      anchor = e.target.hash
-      if anchor
-        target = document.querySelector(anchor)
-        window.scrollToOffset(target.offsetTop - 60, =>
-          window.location.hash = anchor
-        )
       
     # ToggleCallNumbers
     eventListener 'click', '.showDiv', (e) ->
