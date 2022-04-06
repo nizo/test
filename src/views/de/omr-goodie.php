@@ -55,11 +55,10 @@ $faqs->faq_add (
     <p class="centered">Unternehmen denen Telefonberatung am Herzen liegt, vertrauen auf <strong>CallOne Lösungen</strong></p>
 
     <div class="logos">
-      <img src="/assets/images/client-logos/logo-vimcar.png" alt="vimcar" />
-      <img src="/assets/images/client-logos/logo-flaconi.png" alt="flaconi" />
-      <img src="/assets/images/client-logos/logo-check24.png" alt="check24" />
-      <img src="/assets/images/client-logos/logo-bett1.png" alt="bett1" />
-      <img src="/assets/images/client-logos/logo-gastrohero.png" alt="gastrohero" />
+    	<img src="/assets/images/client-logos/bett-white.png" alt="Kunde Bett1.de" title="Kunde Bett1.de" width="140" height="28" />
+      <img src="/assets/images/client-logos/check24-logo.svg" alt="Kunde Check24" title="Kunde Check24" width="140" height="28" />
+      <img src="/assets/images/client-logos/snipes2-logo.svg" alt="Unser Kunde Snipes" title="Unser Kunde Snipes" width="99" height="28" />
+      <img src="/assets/images/client-logos/logo-sodastream.svg" alt="Unser Kunde SodaStream" title="Unser Kunde SodaStream" width="194" height="24" />
     </div>
   </div>
 </div>
