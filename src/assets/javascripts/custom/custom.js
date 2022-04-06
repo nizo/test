@@ -384,11 +384,11 @@ if (checkCookie('wishlist')) {
 						Array.from(note.children).forEach(child => {
 							child.innerHTML = note.getAttribute('data-add');
 						});
-						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
+						note2.innerHTML += '<li>'+val+'</li>';
 					});
 				} else {
 					wlist.forEach((val, i) => {
-						note2.innerHTML += '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>';
+						note2.innerHTML += '<li>'+val+'</li>';
 					});
 				}
 				
