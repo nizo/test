@@ -1,7 +1,17 @@
+*+.carddeck, .carddeck+* {
+    margin-top: var(--gutter-l);
+}
+
 .carddeck {
     --color: #{$color-primary};
     position: relative;
     padding-right: 23px;
+
+    &--on-black {
+        .carddeck__indicator:not(.carddeck__indicator--active) {
+            background-color: rgba(#fff, .25);
+        }
+    }
 
     &__indicators {
         position: absolute;
@@ -18,7 +28,7 @@
         width: 6px;
         height: auto;
         flex: 1;
-        background-color: #c4c4c4;
+        background-color: rgba(#000, .25);
         &+.carddeck__indicator {
             margin-top: 8px;
         }

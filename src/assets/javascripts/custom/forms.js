@@ -27,10 +27,9 @@ eventListener('click', '.button-bottom > button', e => {
 	let dataInfo = button.getAttribute('data-info');
 	if (button.classList.contains('added')) {
 		if (dataInfo) {
-			console.log(wishlist);
 			wishlist.push(dataInfo);
 		}
-		button.children.forEach(child => child.innerHTML = button.getAttribute('data-add'));
+		Array.from(button.children).forEach(child => child.innerHTML = button.getAttribute('data-add'));
 		button.parentNode.insertAdjacentHTML('beforeend', '<div class="arrow-box shortModal" style="display: none;"><strong>'+dataInfo+'</strong>Zur Wunschliste hinzugefügt</div>');
 		var arrowBox = next(button, '.arrow-box');
 		setTimeout(e => {
@@ -49,13 +48,12 @@ eventListener('click', '.button-bottom > button', e => {
 		if(dataInfo) {
 			wishlist.splice(wishlist.indexOf(dataInfo),1);
 		}
-		button.children.forEach(child => child.innerHTML = button.getAttribute('data-base'));
+		Array.from(button.children).forEach(child => child.innerHTML = button.getAttribute('data-base'));
 		document.querySelector('#wishlist .numberOfElements').innerHTML = wishlist.length;
 	}
 	
 	var wlist = [];
 	if((typeof wishlist != "undefined" || wishlist != null) && (wishlist.length > 0)) {
-		console.log('wishlist: ' + wishlist);
 		window.localStorage.setItem('wishlist', JSON.stringify(wishlist));
 		document.querySelector('#wishlist .numberOfElements').innerHTML = wishlist.length;
 		var note2 = document.querySelector('.modal.wishlist .wish-list');
@@ -64,7 +62,7 @@ eventListener('click', '.button-bottom > button', e => {
 			note2.parentNode.insertAdjacentHTML('beforeend', '<li>'+val+'<span class="sl sl-close sl-before relative"></span></li>');
 		});
 		setCookie('wishlist', '1', 90);
-		slideDown(document.querySelector('wishlist'), 300);
+		slideDown(document.querySelector('#wishlist'), 300);
 	} else {
 		window.localStorage.removeItem('wishlist');
 		document.cookie = "cookiename='wishlist' ; expires = Thu, 01 Jan 1970 00:00:00 GMT";

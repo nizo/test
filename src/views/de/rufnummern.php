@@ -25,10 +25,10 @@ $product->structured_data_get_code ();
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
         </div>
         <div class="anchors__links">
-            <a href="#national-international" class="arrow">National & International</a>
-            <a href="#portieren-schalten" class="arrow">Portieren & schalten</a>
-            <a href="#qualitaet" class="arrow">Kapazität & Qualität</a>
-            <a href="#features" class="arrow">Rufnummern-Features</a>
+            <a href="#national-international">National & International</a>
+            <a href="#portieren-schalten">Portieren & schalten</a>
+            <a href="#qualitaet">Kapazität & Qualität</a>
+            <a href="#features">Rufnummern-Features</a>
         </div>
     </div>
 </div>
@@ -216,7 +216,7 @@ $product->structured_data_get_code ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_17_2.svg" alt="Routing" width="69" height="50" style="filter:saturate(0) grayscale(100%) brightness(1000%);height:50px">
+                        <img src="/assets/images/icons_svg/small_17_2.svg" alt="Routing" width="64" height="52" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important">
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
@@ -229,7 +229,7 @@ $product->structured_data_get_code ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_25.svg" alt="Absedererkennung" width="69" height="50" style="filter:saturate(0) grayscale(100%) brightness(1000%);height:50px">
+                        <img src="/assets/images/icons_svg/small_25.svg" alt="Absedererkennung" width="64" height="47" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important">
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
@@ -242,7 +242,7 @@ $product->structured_data_get_code ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_02_white.svg" alt="CDR-Daten" width="69" height="50" style="filter:saturate(0) grayscale(100%) brightness(1000%);height:50px">
+                        <img src="/assets/images/icons_svg/small_02_white.svg" alt="CDR-Daten" width="64" height="63" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important">
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">

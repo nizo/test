@@ -181,7 +181,6 @@ Router::add('/ms-teams', 'ms-teams.php', [
 Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
     'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'body_class' => 'bg-casestudy',
     'og_image_text' => 'Callcenter Bot KI-Sprachgesteuerte Auswahlmenüs IVR',
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
@@ -203,7 +202,6 @@ Router::add('/softphone', 'softphone.php', [
 Router::add('/call-tracking', 'calltracking.php', [
     'title' => 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden',
     'meta_description' => ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.',
-    'body_class' => 'bg-landingpages',
     'og_image_text' => 'Individuelle Rufnummern für Ihre Kunden',
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
