@@ -138,13 +138,6 @@ var sendForm = function(form) {
 		return;
 
 	switch (type) {
-	case '0':
-		data = {
-			'type':	type, 
-			'path': JSON.parse(formData.get('path')),
-			'email': formData.get('email')
-		}
-		break;
 	case '1':
 		if(form.classList.contains('form-1')) {
 			console.log('Rufnummern');
@@ -216,64 +209,29 @@ var sendForm = function(form) {
 		if (positionEl)
 			position = positionEl.textContent;
 		
-		data = {
-			'type':	type, 
-			'path': JSON.parse(formData.get('path')),
-			'employees': employees,
-			'issue': issue,
-			'name': formData.get('name'),
-			'position': position,
-			'company': formData.get('company'),
-			'phonenumber': formData.get('phonenumber'),
-			'email': formData.get('email'),
-			'agents': formData.get('agents'),
-			'business':  formData.get('business'),
-			'functions': func
-		} 
+		var formData = new FormData();
+		formData.set('type', type);
+		formData.set('path', JSON.parse(formData.get('path')));
+		formData.set('employees', employees);
+		formData.set('issue', issue);
+		formData.set('name', formData.get('name'));
+		formData.set('position', position);
+		formData.set('company', formData.get('company'));
+		formData.set('phonenumber', formData.get('phonenumber'));
+		formData.set('email', formData.get('email'));
+		formData.set('agents', formData.get('agents'));
+		formData.set('business',  formData.get('business'));
+		formData.set('functions', func);
 		
 		if (formData.has('newsletter')) {
 			let newsletter = form.querySelector('[name="newsletter"]');
-			data.newsletter = newsletter.checked ? true : false;
+			formData.set('newsletter', newsletter.checked ? true : false);
 		}
 						
 		form.classList.contains('calcForm') ? action = 'Preis Modal' : action = 'Kontaktformular';
 		form.classList.contains('wishlistContactForm') ? action = 'Wunschthemen' : action = 'Kontaktformular';
 		
-		label = data['company'];
-		break;
-	case '3':
-		formData.set('type', type);
-		formData.set('path', JSON.parse(form.querySelector('[name="path"]').value));
-		formData.set('issue', form.querySelector('[name="issue"]').value);
-		formData.set('name', form.querySelector('[name="name"]').value);
-		formData.set('phonenumber', form.querySelector('[name="phonenumber"]').value);
-		formData.set('email', form.querySelector('[name="email"]').value);
-		formData.set('text', form.querySelector('[name="text"]').value);
-		formData.set('file', document.getElementById('realFile').files[0]);
-		break;
-	case '4':
-		formData.set('type', type);
-		formData.set('path', JSON.parse(form.querySelector('[name="path"]').value));
-		formData.set('issue', form.querySelector('[name="issue"]').value);
-		formData.set('name', form.querySelector('[name="name"]').value);
-		formData.set('url', form.querySelector('[name="url"]').value);
-		break;
-	case '5':			
-		formData.set('type', type);
-		formData.set('email', form.querySelector('[name="email"]').value);
-		formData.set('position', form.querySelector('[name="position"]').value);
-		break;
-	case '6':
-		formData.set('type', type);
-		formData.set('issue', form.querySelector('[name="issue"]').value);
-		formData.set('participant_email', form.querySelector('[name="participant_email"]').value);
-		formData.set('participant_name', form.querySelector('[name="participant_name"]').value);
-		formData.set('participation', form.querySelector('[name="participation"]:checked').value == 'ja' ? true : false);
-		if (form.querySelector('[name="participation_partner"]:checked').value == 'ja')
-			formData.set('partner_name', form.querySelector('[name="partner_name"]').value);
-		else
-			formData.set('partner_name', ' ');
-		
+		label = formData.get('company');
 		break;
 	default:
 		return;
@@ -287,82 +245,47 @@ var sendForm = function(form) {
 	if (submit)
 		submit.disabled = true;
 	
-	if (type == '1' || type == '2') {
-		let postUrl = form.classList.contains('form-1') ? 'https://connect.callone.io/backend/phonenumbers.php' : 'https://connect.callone.io/backend/contact.php';
-		fetch(postUrl, {
-			method: 'POST',
-			cache: 'no-cache',
-			body: data
-		})
-		.then(response => {
-			return response.json();
-		})
-		.then(data => {
-			if (response.error) {
-				console.log(response.error);
-				form.querySelector('[name='+response.error+']').classList.add('error');
-				form.querySelector('.submit').disabled = false;
-			} else {
-				form.style.display = 'none';
-				fadeIn(next(form, '.formSuccess'), 300);
-				
-				// Conversion Pixel
-				dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'})
-				
-				// Conversion Lead with data
-				if (type != 3 && type != 4) {
-					//console.log('Lead pushed');
-					dataLayer.push({
-						'_event': 'Lead',
-						'event' : 'Lead',
-						'eventCategory' : 'Lead',
-						'eventAction' : action,
-						'eventLabel' : label
-					});	
-				}	  
-				
-				// Facebook Tracking Pixel
-				window._fbq = window._fbq || [];
-				window._fbq.push(['track', '6018846817861', {'value':'0.00','currency':'EUR'}]);	
-			}
-		})
-		.catch(response => {
-			console.error (JSON.stringify (response));
+	let postUrl = form.classList.contains('form-1') ? 'https://connect.callone.io/backend/phonenumbers.php' : 'https://connect.callone.io/backend/contact.php';
+	fetch(postUrl, {
+		method: 'POST',
+		cache: 'no-cache',
+		body: data
+	})
+	.then(response => {
+		return response.json();
+	})
+	.then(data => {
+		if (response.error) {
+			console.log(response.error);
+			form.querySelector('[name='+response.error+']').classList.add('error');
+			form.querySelector('.submit').disabled = false;
+		} else {
 			form.style.display = 'none';
-			fadeIn(next(form, '.formFail'), 300);
-		}); 
-	} else {
-		let postUrl = 'https://connect.callone.io/backend/contact.php';
-		fetch(postUrl, {
-			method: 'POST',
-			cache: 'no-cache',
-			body: formData
-		})
-		.then(response => {
-			return response.json();
-		})
-		.then(data => {
-			if (data.error) {
-				console.log(data.error);
-				form.querySelector('#'+data.error).classList.add('error');
-				form.querySelector('.submit').disabled = false;
-			} else {
-				form.style.display = 'none';
-				if (form.querySelector('[name="participation"]:checked').value == 'nein') {
-					document.querySelector('.animation-3::after').style.bottom = '6px';
-					document.querySelector('.animation-4::after').style.bottom = '6px';
-					fadeIn(form.parentNode.querySelector('.formSuccess.absage'), 300);
-				} else if (form.querySelector('[name="participation"]:checked').value == 'ja') {
-					document.querySelector('.animation-3::after').style.bottom = '6px';
-					document.querySelector('.animation-4::after').style.bottom = '6px';
-					fadeIn(next(form, '.formSuccess.zusage'), 300);
-				} else {
-					fadeIn(next(form, '.formSuccess'), 300);
-				}
-			}  
-		})
-		.catch(response => {
-			console.error (JSON.stringify (response));
-		});
-	}
+			fadeIn(next(form, '.formSuccess'), 300);
+			
+			// Conversion Pixel
+			dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'})
+			
+			// Conversion Lead with data
+			if (type != 3 && type != 4) {
+				//console.log('Lead pushed');
+				dataLayer.push({
+					'_event': 'Lead',
+					'event' : 'Lead',
+					'eventCategory' : 'Lead',
+					'eventAction' : action,
+					'eventLabel' : label
+				});	
+			}	  
+			
+			// Facebook Tracking Pixel
+			window._fbq = window._fbq || [];
+			window._fbq.push(['track', '6018846817861', {'value':'0.00','currency':'EUR'}]);	
+		}
+	})
+	.catch(response => {
+		console.error (JSON.stringify (response));
+		form.style.display = 'none';
+		fadeIn(next(form, '.formFail'), 300);
+	});
 };

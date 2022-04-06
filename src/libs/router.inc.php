@@ -336,11 +336,6 @@ Router::add('/download', 'downloads.php', [
     'meta_description' => 'Profitieren Sie von den cloudbasierten Telekommunikationslösungen von CallOne für Unternehmen. Meistern Sie digitale Herausforderungen.',
     'og_image_text' => 'CallOne Downloads'
 ]);
-Router::add('/event', 'event.php', [
-    'title' => 'Bestätigung Ihrer persönlichen Einladung zur CallOne Lounge',
-    'body_class' => 'bg-sales',
-    'sitemap_include' => false
-]);
 Router::add('/freshdesk-callcenter-software', 'cti/freshdesk.php', [
     'title' => 'Freshdesk in Verbindung mit Call Center Software & VoIP-Telefonanlage',
     'meta_description' => 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool',

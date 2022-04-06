@@ -15,8 +15,11 @@
     				<li><a title="Applikationen" class="sl sl-app sl-before mobile relative" data-link="3">Applikationen</a></li>
     				<li><a title="Schnittstellen" class="sl sl-api sl-before mobile relative" data-link="4">Schnittstellen</a></li>
     				<li><a title="Preise" class="sl sl-pricing sl-before mobile relative" data-link="5">Preise</a></li>
-    				<li><a title="Angebot anfordern" class="sl sl-consultation sl-before mobile relative" data-link="6">Angebot anfordern</a></li>
     			</ul>
+
+				<p class="centered">
+					<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Angebot einholen</a>
+				</p>
     		</div>
     		<div class="elements">			     
                 <div class="" id="funktionen" style="display: block;">
@@ -400,80 +403,6 @@
             		</div>
             		<p>Sie können mit der CallOne Cloud ACD© loslegen und Ihre eigene angepasste Lösung entwickeln oder sich für unser Businesstelefonie-Komplettpaket entscheiden.</p>
             		<p>&nbsp;</p>
-            	</div>
-            	<div id="angebot_anfordern">
-                    <div class="tabs tabs2 shadow-box">
-                      <nav class="tab-nav">
-                        <ul>
-                          <li><a data-tab="tab_1_1">Kontakt per Formular</a></li>
-                          <li><a data-tab="tab_1_2">Kontakt per Rückruf</a></li>
-                          <!--  <li><a data-tab="tab_1_3" class="calendly-badge-widget">Termin vereinbaren</a></li> -->
-                        </ul>
-                      </nav>
-                
-                      <div class="tab" id="tab_1_1">
-                        <div class="padding">
-                           <p class="h2 centered">Jetzt Kontakt aufnehmen und Ihr persönliches Angebot erhalten!</p>
-                           <form action="#" class="form js-form wishlistContactForm">
-                			 	<input type="hidden" name="type" value="2">
-                			 	<input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
-                			 	
-                			 	<div class="group">
-                              		<input type="text" name="name" class="name" value="" placeholder="Ihr Name" required>
-                            	</div>
-                                
-                                <div class="group">
-                                	<input type="text" name="company" value="" placeholder="Firma" required>
-                                </div>
-                                
-                                <div class="group">
-                              		<input type="tel" name="phonenumber" placeholder="Telefonnummer" value="">
-                                </div>
-                                
-                                <div class="group">
-                              		<input type="email" name="email" placeholder="E-Mail" value="" required>
-                                </div>
-                                
-                                <div class="button-set centered">
-                                    <button class="button primary submit">Angebot einholen</button>
-                                </div>
-                            </form>
-                        </div>
-                      </div>
-                  
-                      <div class="tab" id="tab_1_2">
-                      	<div class="padding centered">
-                          	<form action="#" class="form js-form">
-                          		<input type="hidden" name="type" value="0">
-                				<span class="h2">Rückruf vereinbaren</span>
-                          		<p></p>
-                          		<input type="text" name="phonenumber" placeholder="Bitte hier Ihre Rufnummer eingeben" />
-                             	<div class="button-set centered">
-                                  <button class="button primary submit no-margin">Rückruf anfordern</button>
-                                </div>
-                            	<ul class="list approved-list centered">
-                            		<li>Verbindung erfolgt sofort & automatisiert ohne Verzögerung</li>
-                            		<li>Auswahlmenü führt direkt zum richtigen Ansprechpartner</li>
-                            		<li>Keine Servicerufnummernkosten</li>
-                            	</ul>
-                            </form>
-                            <div class="formSuccess">
-                            	<div class="content narrow centered">
-                        			<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callback.png" data-srcset="/assets/images/photos/callback.png" alt="Jetzt hier zurückrufen lassen" title="Jetzt hier zurückrufen lassen" />
-                              		<h3 class="h1">Vielen Dank für Ihre Anfrage</h3>
-                              		<p>Sie werden in Kürze von uns zurückgerufen.</p>
-                          		</div>
-                            </div>
-                      	</div>
-                      </div>
-                
-                      <!-- <div class="tab" id="tab_1_3">
-                        <div class="padding">              
-                        </div>
-                      </div> -->
-                  </div>
-                  <p class="centered">Alternativ können Sie uns auch gerne jetzt telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a> 
-                  oder per E-Mail unter <a target="_blank" href="mailto:kontakt@callone.de?subject=Kontakt%20zur%20Beratung%20nach%20Wunsch&amp;body=Hallo,%0D%0AGerne%20beraten%20wir%20Sie.%0D%0AGeben%20Sie%20uns%20bitte%20Ihren%20Namen,%20Firmennamen%20und%20optional%20Ihre%20Telefonnummer%20an.%0D%0AWir%20melden%20uns%20dann%20bei%20Ihnen.%0D%0A%0D%0AAnbei%20Ihre%20Wunschthemen:%0D%0A%0D%0A">kontakt@callone.de</a></p>
             	</div>
     		</div>
     	</div>

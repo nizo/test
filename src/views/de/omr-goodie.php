@@ -42,62 +42,25 @@ $faqs->faq_add (
   </div>
 </div>
 
-<div class="wrapper background no-margin-top padding-bottom-80">
-  <div class="content wide">
-    <form action="#" class="form omr-form js-form">
-      <a id="offer"></a>
-      <input type="hidden" name="type" value="2">
-      <input type="hidden" name="path" value='<?= json_encode($_SESSION['userRoute']) ?>'>
+<div class="section section--black">
+  <div class="section__content section__content--narrow centered">
+    <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="CallOne und OMR" />
+    <h2>Angebot für OMR-Fans</h2>
+    <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
 
-      <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="CallOne und OMR" />
-      <h2>Angebot für OMR-Fans</h2>
-      <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
-
-      <input type="text" name="name" id="name" placeholder="Name" />
-      <input type="text" name="company" id="company" placeholder="Firma" />
-
-      <div class="customSelect">
-        <div class="group">
-            <div id="position" class="select-selected"></div>
-            <label for="position" class="">Ich bin Ansprechpartner von</label>
-            <label for="position" class="mobile">Abteilung</label> 
-        </div>
-        <div class="select-items select-hide">
-          <div class="item">IT</div>
-          <div class="item">Kundenservice</div>
-          <div class="item">Sales</div>
-          <div class="item">Geschäftsführung</div>
-          <div class="item">Sonstiges</div>
-        </div>
-      </div>
-      
-      <input type="email" name="email" id="email" placeholder="Geschäfts-E-Mail" />
-      <input type="text" ame="phonenumber" id="phonenumber" placeholder="Geschäfts-Rufnummer" />
-
-      <button type="submit" class="button tertiary rounded submit">Kostenlose Demo buchen</button>
-    </form>
-
-    <div class="formSuccess">
-      <h3>Vielen Dank für Ihre Anfrage!</h3>
-      <p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
-      <p>Sie erhalten demnächst eine E-Mail zur Bestätigung Ihrer Anfrage bei uns. Dort finden Sie auch nochmal alle weiteren Kontaktinformationen.</p>
-      <p>Wir sind für Sie da.<br><strong>Ihr CallOne-Team</strong></p>
-    </div>
-    <div class="formFail">
-      <h3>Ihre Anfrage konnte nicht gesendet werden!</h3>
-      <p>Es ist leider ein Fehler beim übertragen der Daten aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
-      <p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
-      <p><strong>Ihr CallOne-Team</strong></p>
-    </div>
+    <p class="centered">
+      <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Kostenlose Demo buchen</a>
+    </p>
 
     <p class="centered">Unternehmen denen Telefonberatung am Herzen liegt, vertrauen auf <strong>CallOne Lösungen</strong></p>
 
-    <?php getLogoParade([   
-                          ['data' => 'bett-white.png', 'alt' => 'Kunde Bett1.de', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'check24-logo.svg', 'alt' => 'Kunde Check24', 'cssClass' => 'partnerLogo small'],
-                          ['data' => 'snipes2-logo.svg', 'alt' => 'Unser Kunde Snipes', 'cssClass' => 'partnerLogo invert small'],
-                          ['data' => 'logo-sodastream.svg', 'alt' => 'Unser Kunde SodaStream', 'cssClass' => 'partnerLogo invert small']
-    ], null, 'startpage'); ?>
+    <div class="logos">
+      <img src="/assets/images/client-logos/logo-vimcar.png" alt="vimcar" />
+      <img src="/assets/images/client-logos/logo-flaconi.png" alt="flaconi" />
+      <img src="/assets/images/client-logos/logo-check24.png" alt="check24" />
+      <img src="/assets/images/client-logos/logo-bett1.png" alt="bett1" />
+      <img src="/assets/images/client-logos/logo-gastrohero.png" alt="gastrohero" />
+    </div>
   </div>
 </div>
 

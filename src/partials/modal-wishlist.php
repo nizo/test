@@ -11,10 +11,6 @@
 					<div class="sl sl-document1 sl-before relative topIcon sl-size-m mobile"></div>
 					<span>Formular</span>
 				</li>
-				<li class="flex" data-link="callbackForm">
-					<div class="sl sl-call-in sl-before relative topIcon sl-size-m mobile"></div>
-					<span>Rückruf</span>
-				</li>
 				<li class="flex linkTo" data-link="emailContact">
 					<a target="_blank" href="mailto:kontakt@callone.de?subject=Kontakt%20zur%20Beratung%20nach%20Wunsch&amp;body=Hallo,%0D%0AGerne%20beraten%20wir%20Sie.%0D%0AGeben%20Sie%20uns%20bitte%20Ihren%20Namen,%20Firmennamen%20und%20optional%20Ihre%20Telefonnummer%20an.%0D%0AWir%20melden%20uns%20dann%20bei%20Ihnen.%0D%0A%0D%0AAnbei%20Ihre%20Wunschthemen:%0D%0A%0D%0A" style="color:#000">
     					<div class="sl sl-mail sl-before relative topIcon sl-size-m mobile"></div>
@@ -59,30 +55,6 @@
                             	<p>Es ist leider ein Fehler beim übertragen der Daten aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
                 				<p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
                 				<p>Ihr CallOne-Team</p>
-                            </div>
-                        </div>
-                        <div class="modalBox callbackForm hidden padding">
-                            <form action="#" class="form callback js-form">
-                          		<input type="hidden" name="type" value="0">
-                				<span class="h2">Rückruf vereinbaren</span>
-                          		<p></p>
-                          		<input type="text" name="phonenumber" placeholder="Bitte hier Ihre Rufnummer eingeben" />
-                             	<div class="button-set">
-                                  <button class="button primary submit no-margin">Rückruf anfordern</button>
-                                </div>
-                            	<ul class="list approved-list">
-                            		<li>Verbindung erfolgt sofort & automatisiert ohne Verzögerung</li>
-                            		<li>Auswahlmenü führt direkt zum richtigen Ansprechpartner</li>
-                            		<li>Weltweit einsetzbar</li>
-                            		<li>Keine Servicerufnummernkosten</li>
-                            	</ul>
-                            </form>
-                            <div class="formSuccess">
-                            	<div class="content narrow centered">
-                        			<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/callback.png" data-srcset="/assets/images/photos/callback.png" alt="Jetzt hier zurückrufen lassen">
-                              		<strong class="h1">Vielen Dank für Ihre Anfrage</strong>
-                              		<p>Sie werden in Kürze von uns zurückgerufen.</p>
-                          		</div>
                             </div>
                         </div>
                         <div class="modalBox emailContact hidden padding">
