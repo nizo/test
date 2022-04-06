@@ -252,7 +252,6 @@ var sendForm = function(form) {
 		return response.json();
 	})
 	.then(response => {
-		console.log(response);
 		if (response.error) {
 			console.log(response.error);
 			form.querySelector('[name='+response.error+']').classList.add('error');
