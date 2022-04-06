@@ -61,7 +61,7 @@ $faqs->faq_add (
           <input type="checkbox" id="helpdesk-1" />
           <label for="helpdesk-1">Fertige Anbindungen</label>
           <div class="toggle-box__content">
-            Ob <a href="https://freshdesk.com/de/" title="Freshdesk" target="_blank" rel="noreferrer noopener">Freshdesk, </a><a href="https://www.atlassian.com/de/software/jira" title="Jira" target="_blank" rel="noreferrer noopener">Jira</a> oder <a href="https://www.zendesk.de/" title="Zendesk" target="_blank" rel="noreferrer noopener">Zendesk</a>, nutzen Sie unsere No-Code Applikationen für ein schnelles Zusammenführen von Anrufen und Tickets.
+            Ob <a href="https://freshdesk.com/de/" title="Freshdesk" target="_blank" rel="noreferrer noopener" class="inline-link">Freshdesk, </a><a href="https://www.atlassian.com/de/software/jira" title="Jira" target="_blank" rel="noreferrer noopener" class="inline-link">Jira</a> oder <a href="https://www.zendesk.de/" title="Zendesk" target="_blank" rel="noreferrer noopener" class="inline-link">Zendesk</a>, nutzen Sie unsere No-Code Applikationen für ein schnelles Zusammenführen von Anrufen und Tickets.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">

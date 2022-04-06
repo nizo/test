@@ -62,21 +62,21 @@ $faqs->faq_add (
           <input type="checkbox" id="integrations-1" />
           <label for="integrations-1">Apps</label>
           <div class="toggle-box__content">
-            Sie nutzen weiterhin die <a href="/cti-schnittstellen" title="Apps">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
+            Sie nutzen weiterhin die <a href="/cti-schnittstellen" title="Apps" class="inline-link">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="integrations-2" />
           <label for="integrations-2">Schnittstellen</label>
           <div class="toggle-box__content">
-            Nutzen Sie fertige Konnektoren zu <a href="https://www.salesforce.com/de/" title="Salesforce Webseite" target="_blank" rel="noreferrer noopener">Salesforce</a>, <a href="https://www.pipedrive.com/de" title="Pipedrive Webseite" target="_blank" rel="noreferrer noopener">Pipedrive</a> etc. oder binden Sie Ihre hauseigenen Lösungen an.
+            Nutzen Sie fertige Konnektoren zu <a href="https://www.salesforce.com/de/" title="Salesforce Webseite" target="_blank" rel="noreferrer noopener" class="inline-link">Salesforce</a>, <a href="https://www.pipedrive.com/de" title="Pipedrive Webseite" target="_blank" rel="noreferrer noopener" class="inline-link">Pipedrive</a> etc. oder binden Sie Ihre hauseigenen Lösungen an.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
           <input type="checkbox" id="integrations-3" />
           <label for="integrations-3">Integrationen</label>
           <div class="toggle-box__content">
-            Mit einem Klick den richtigen Partner in der Leitung: Browser Extensions für <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" title="Chrome Extension" target="_blank" rel="noreferrer noopener">Chrome</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" title="Edge Extension" target="_blank" rel="noreferrer noopener">Edge</a> und <a href="https://addons.mozilla.org/de/firefox/addon/callone/" title="Firefox Extension" target="_blank" rel="noreferrer noopener">Firefox</a> machen Ihren Job übersichtlicher und bequemer.
+            Mit einem Klick den richtigen Partner in der Leitung: Browser Extensions für <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" title="Chrome Extension" target="_blank" rel="noreferrer noopener" class="inline-link">Chrome</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" title="Edge Extension" target="_blank" rel="noreferrer noopener" class="inline-link">Edge</a> und <a href="https://addons.mozilla.org/de/firefox/addon/callone/" title="Firefox Extension" target="_blank" rel="noreferrer noopener" class="inline-link">Firefox</a> machen Ihren Job übersichtlicher und bequemer.
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ $faqs->faq_add (
           <input type="checkbox" id="reporting-2" />
           <label for="reporting-2">BI-Tools für interaktive Analysen</label>
           <div class="toggle-box__content">
-            Unsere Statistiken reichen ihnen nicht? Nutzen Sie doch einfach das BI-Tool Ihrer Wahl oder unseren fertigen Konnektor zu <a href="/tableau-callcenter-connector" title="Tableau Konnektor" target="_blank" rel="noreferrer noopener">Tableau</a>, um die für Sie passgenauen Auswertungen zu erhalten.
+            Unsere Statistiken reichen ihnen nicht? Nutzen Sie doch einfach das BI-Tool Ihrer Wahl oder unseren fertigen Konnektor zu <a href="/tableau-callcenter-connector" title="Tableau Konnektor" target="_blank" rel="noreferrer noopener" class="inline-link">Tableau</a>, um die für Sie passgenauen Auswertungen zu erhalten.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">
