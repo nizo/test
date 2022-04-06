@@ -3,7 +3,7 @@ require_once('./libs/router.inc.php');
 
 header('Content-type: text/xml');
 
-echo "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>";
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'.PHP_EOL;
 foreach (Router::get_sorted('sitemap_priority', 'desc') as $route) {
     // Exclude route from sitemap if specified in route data
     if (!$route->sitemap_include)
@@ -16,12 +16,12 @@ foreach (Router::get_sorted('sitemap_priority', 'desc') as $route) {
     $lastmod = date('Y-m-d', $lastmod);
 
     // Display sitemap url details
-    echo "<url>";
-    echo "    <loc>".DOMAIN.$route->uri."</loc>";
-    echo "    <lastmod>".$lastmod."</lastmod>";
-    echo "    <changefreq>".$route->sitemap_change_frequency."</changefreq>";
-    echo "    <priority>".$route->sitemap_priority."</priority>";
-    echo "</url>";
+    echo '<url>'.PHP_EOL;
+    echo '    <loc>'.DOMAIN.$route->uri.'</loc>'.PHP_EOL;
+    echo '    <lastmod>'.$lastmod.'</lastmod>'.PHP_EOL;
+    echo '    <changefreq>'.$route->sitemap_change_frequency.'</changefreq>'.PHP_EOL;
+    echo '    <priority>'.$route->sitemap_priority.'</priority>'.PHP_EOL;
+    echo '</url>'.PHP_EOL;
 }
-echo "</urlset>";
+echo '</urlset>';
 ?>
