@@ -9,9 +9,6 @@
     // LazyLoading CSS Files
     loadCSS(null,true);
     ?>
-    <noscript>
-    <link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css">	
-    </noscript>
 
     <script>
         var jsFiles = [];

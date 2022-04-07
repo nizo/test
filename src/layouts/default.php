@@ -45,9 +45,6 @@
     // LazyLoading CSS Files
     loadCSS(null,true);
     ?>
-    <noscript>
-        <link rel="stylesheet" href="/assets/stylesheets/animations.min.css" type="text/css">	
-    </noscript>
 
     <?php if (!empty($page->canonical)): ?>
         <link rel="canonical" href="<?= DOMAIN.$page->canonical ?>" />
