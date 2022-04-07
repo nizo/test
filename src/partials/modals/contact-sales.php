@@ -219,6 +219,8 @@ $uniqueID = uniqid();
                     const response = JSON.parse(this.responseText);
                     if (response.success) {
                         // Success
+                        window._mfq = window._mfq || [];
+                        window._mfq.push(['tag', 'Sales Contacted']);
                         cb();
                     } else {
                         console.error(response);
