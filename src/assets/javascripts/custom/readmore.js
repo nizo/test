@@ -8,8 +8,7 @@ class Readmore {
     
     createButton() {
         // Create button
-        let button = document.createElement('a');
-        button.href = '#';
+        let button = document.createElement('span');
         button.classList.add('readmore__button');
         button.textContent = this.label + '…';
         
