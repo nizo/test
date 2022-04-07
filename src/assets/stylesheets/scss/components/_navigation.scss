@@ -86,7 +86,7 @@ $navMinHeight: 570px;
                     display: flex;
                 }
                 .navigation__link {
-                    a {
+                    a, span {
                         color: #000;
                         border-color: $color-primary;
                     }
@@ -95,14 +95,14 @@ $navMinHeight: 570px;
                         display: block;
                     }
                 }
-                .navigation__link--arrow a:after {
+                .navigation__link--arrow a:after, .navigation__link--arrow span:after {
                     background-image: url(../images/icons_svg/arrow-up-black.svg);
                 }
             }
         }
     }
     &__item--active {
-        .navigation__link a {
+        .navigation__link a, .navigation__link span {
             color: #000;
         }
     }
@@ -111,7 +111,8 @@ $navMinHeight: 570px;
         display: flex;
         align-items: center;
 
-        a {
+        a, span {
+            cursor: pointer;
             color: rgba(#000, .6);
             font-weight: 700;
             font-size: 16px;
@@ -127,7 +128,7 @@ $navMinHeight: 570px;
         }
     }
     &__link--arrow {
-        a {
+        a, span {
             &:after {
                 content: "";
                 display: inline-block;
@@ -485,7 +486,7 @@ a.submenu__link {
             }
 
             .navigation__link {
-                a {
+                a, span {
                     color: #000;
                     border-color: $color-primary;
                 }
@@ -523,12 +524,12 @@ a.submenu__link {
             .navigation__link {
                 text-align: center;
 
-                a {
+                a, span {
                     font-size: 14px;
                     letter-spacing: initial;
                 }
             }
-            .navigation__link--arrow a:after {
+            .navigation__link--arrow a:after, .navigation__link--arrow span:after {
                 display: none;
             }
 

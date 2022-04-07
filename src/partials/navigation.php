@@ -34,7 +34,7 @@ require_once('banderole.php');
         <ul>
             <li class="navigation__item<?= $page->menu_position == 'loesungen' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="#">Lösungen</a>
+                    <span>Lösungen</span>
                 </div>
 
                 <div class="navigation__submenu submenu">
@@ -130,7 +130,7 @@ require_once('banderole.php');
             </li>
             <li class="navigation__item<?= $page->menu_position == 'produkte' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="#">Produkte</a>
+                    <span>Produkte</span>
                 </div>
 
                 <div class="navigation__submenu submenu">
@@ -260,7 +260,7 @@ require_once('banderole.php');
             </li>
             <li class="navigation__item<?= $page->menu_position == 'callone' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
-                    <a href="#">Warum CallOne</a>
+                    <span>Warum CallOne</span>
                 </div>
 
                 <div class="navigation__submenu submenu">
