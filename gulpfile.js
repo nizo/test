@@ -4,6 +4,7 @@ const gulp         = require('gulp'),
       php          = require('gulp-connect-php'),
       clean        = require('gulp-clean'),
       coffee       = require('gulp-coffee'),
+      jslint       = require('gulp-jslint'),
       merge2       = require('merge2'),
       gutil        = require('gulp-util'),
       uglify       = require('gulp-uglify-es').default,
@@ -69,6 +70,8 @@ function compileScripts() {
   var js2 = gulp.src(paths.customJS+'*.js').pipe(sort());
 
   return merge2([coffee2go, js2])
+    // .pipe(jslint())
+    // .pipe(jslint.reporter('default'))
     .pipe(uglify().on('error', function(e){
         console.log(e);
     }))
