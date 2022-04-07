@@ -375,26 +375,27 @@ if (checkCookie('wishlist')) {
 			listLength = wlist.length; 
 			if (listLength > 0) {
 				let note2 = document.querySelector('.modal.wishlist .wish-list');
-				
-				/*check if buttons to activate*/
-				if (document.contains(document.querySelectorAll('.elements .button-bottom')[0])) {
-					wlist.forEach((val, i) => {
-						let note = document.querySelector('.elements .button-bottom > [data-info^="' + val + '"]');
-						note.classList.add("added");
-						Array.from(note.children).forEach(child => {
-							child.innerHTML = note.getAttribute('data-add');
+				if (note2) {				
+					/*check if buttons to activate*/
+					if (document.contains(document.querySelectorAll('.elements .button-bottom')[0])) {
+						wlist.forEach((val, i) => {
+							let note = document.querySelector('.elements .button-bottom > [data-info^="' + val + '"]');
+							note.classList.add("added");
+							Array.from(note.children).forEach(child => {
+								child.innerHTML = note.getAttribute('data-add');
+							});
+							note2.innerHTML += '<li>'+val+'</li>';
 						});
-						note2.innerHTML += '<li>'+val+'</li>';
-					});
-				} else {
-					wlist.forEach((val, i) => {
-						note2.innerHTML += '<li>'+val+'</li>';
-					});
+					} else {
+						wlist.forEach((val, i) => {
+							note2.innerHTML += '<li>'+val+'</li>';
+						});
+					}
+					
+					/*display wishlist button and number of produkts*/
+					document.querySelector('#wishlist .numberOfElements').innerHTML = listLength;
+					slideDown(document.querySelector('#wishlist'), 300);
 				}
-				
-				/*display wishlist button and number of produkts*/
-				document.querySelector('#wishlist .numberOfElements').innerHTML = listLength;
-				slideDown(document.querySelector('#wishlist'), 300);
 			}
 		}
 	}
