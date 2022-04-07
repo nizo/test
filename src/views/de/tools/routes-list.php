@@ -43,7 +43,7 @@ foreach ($routes_tmp as $route) {
 
         <div class="btn-set btn-set--centered">
             <a href="#" class="btn btn--border-black copy-routes">Copy All Routes</a>
-            <a href="https://www.bulkseotools.com/bulk-w3c-validator.php" class="btn btn--border-black" target="_blank">Bluck W3C Check</a>
+            <a href="https://www.bulkseotools.com/bulk-w3c-validator.php" class="btn btn--border-black" target="_blank">Bulk W3C Check</a>
         </div>
     </div>
 </div>
