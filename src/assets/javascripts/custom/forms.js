@@ -145,13 +145,12 @@ var sendForm = function(form) {
 			let n = checkedBoxes.length;
 			if (n > 0){
 				checkedBoxes.forEach(box => {
-					selectedNumbers.push(box.value);
+					// selectedNumbers.push(box.value);
+					formData.set('register_phonenumbers[]', box.value);
 				});
 			}
-			console.log(selectedNumbers);
 			
 			formData.set('type', type);
-			formData.set('register_phonenumbers', selectedNumbers);
 			formData.set('email', globalFormData.get('email'));
 			formData.set('name', globalFormData.get('name'));
 			formData.set('company', globalFormData.get('company'));
