@@ -433,9 +433,6 @@ a.submenu__link {
         background-color: rgba(#000, .05);
         background-image: unset;
         .submenu__link-text {
-            strong {
-                // color: #427709;
-            }
             p {
                 color: #000;
             }
@@ -458,7 +455,7 @@ a.submenu__link {
     }
 }
 @media screen and (max-width: #{$navMinWidth}),
-       screen and (max-height: #{$navMinHeight}) {
+        screen and (max-height: #{$navMinHeight}) {
     .navigation {
         height: var(--navigationHeightScrolled);
 
