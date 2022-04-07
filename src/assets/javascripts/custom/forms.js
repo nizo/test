@@ -138,10 +138,8 @@ var sendForm = function(form) {
 		return;
 
 	switch (type) {
-	case '1':
-		var formData = new FormData();
-		if(form.classList.contains('form-1')) {
-			console.log('Rufnummern');
+		case '1':
+			var formData = new FormData();
 			let selectedNumbers = new Array();
 			let checkedBoxes = document.querySelectorAll('.customCheckbox input[name="checkboxNumbers"]:checked');
 			let n = checkedBoxes.length;
@@ -150,6 +148,7 @@ var sendForm = function(form) {
 					selectedNumbers.push(box.value);
 				});
 			}
+			console.log(selectedNumbers);
 			
 			formData.set('type', type);
 			formData.set('register_phonenumbers', selectedNumbers);
@@ -159,54 +158,44 @@ var sendForm = function(form) {
 				
 			action = '0800 Rufnummern Reservierung';
 			label = formData.get('company');
-		} else {
+			break;
+		case '2':
+			var issue = '';
+			let issueEl = form.querySelector('#issue');
+			if (issueEl) {
+				if (issueEl.classList.contains('select-selected')) {
+					issue =  issueEl.textContent;
+				} else {
+					issue = form.querySelector('[name="issue"]').value;
+				}
+			}
+			
+			// CalcForm
+			var func = [];
+			
+			if (form.classList.contains('wishlistContactForm')) {
+				if (window.localStorage) {			
+					func = JSON.parse(window.localStorage.getItem('wishlist'));
+				}
+			}
+			
+			var formData = new FormData();
 			formData.set('type', type);
 			formData.set('path', JSON.parse(globalFormData.get('path')));
-			formData.set('issue', globalFormData.get('issue'));
+			formData.set('issue', issue);
 			formData.set('name', globalFormData.get('name'));
+			formData.set('company', globalFormData.get('company'));
+			formData.set('phonenumber', globalFormData.get('phonenumber'));
 			formData.set('email', globalFormData.get('email'));
+			formData.set('functions', func);
 			
-			action = 'Einfaches Kontaktforumlar';
-			label = formData.get('email');
-		}
-		break;
-	case '2':
-		var issue = '';
-		let issueEl = form.querySelector('#issue');
-		if (issueEl) {
-			if (issueEl.classList.contains('select-selected')) {
-				issue =  issueEl.textContent;
-			} else {
-				issue = form.querySelector('[name="issue"]').value;
-			}
-		}
-		
-		// CalcForm
-		var func = [];
-		
-		if (form.classList.contains('wishlistContactForm')) {
-			if (window.localStorage) {			
-				func = JSON.parse(window.localStorage.getItem('wishlist'));
-			}
-		}
-		
-		var formData = new FormData();
-		formData.set('type', type);
-		formData.set('path', JSON.parse(globalFormData.get('path')));
-		formData.set('issue', issue);
-		formData.set('name', globalFormData.get('name'));
-		formData.set('company', globalFormData.get('company'));
-		formData.set('phonenumber', globalFormData.get('phonenumber'));
-		formData.set('email', globalFormData.get('email'));
-		formData.set('functions', func);
-		
-		form.classList.contains('wishlistContactForm') ? action = 'Wunschthemen' : action = 'Kontaktformular';
-		
-		label = formData.get('company');
-		break;
-	default:
-		return;
-		break;
+			form.classList.contains('wishlistContactForm') ? action = 'Wunschthemen' : action = 'Kontaktformular';
+			
+			label = formData.get('company');
+			break;
+		default:
+			return;
+			break;
 	}
 
 	let error = form.querySelector('.error');

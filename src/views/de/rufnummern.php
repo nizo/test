@@ -72,7 +72,7 @@ $product->structured_data_get_code ();
                     <div class="formFail">
                         <h3>Ihre Anfrage konnte nicht gesendet werden!</h3>
                         <p>Es ist leider ein Fehler beim übertragen der Rufnummern aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
-                        <p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
+                        <p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne." class="inline-link">+49 (0) 30-920 33 500</a></p>
                         <p><strong>Ihr CallOne-Team</strong></p>
                     </div>
                 </div>
