@@ -40,6 +40,11 @@ foreach ($routes_tmp as $route) {
 <div class="section">
     <div class="section__content centered">
         <h1>Number of Routes: <?= count($routes) ?></h1>
+
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--border-black copy-routes">Copy All Routes</a>
+            <a href="https://www.bulkseotools.com/bulk-w3c-validator.php" class="btn btn--border-black" target="_blank">Bluck W3C Check</a>
+        </div>
     </div>
 </div>
 
@@ -71,7 +76,7 @@ foreach ($routes_tmp as $route) {
                     continue;
                 
                 echo "<td>";
-                echo $key === 'uri' ? '<a href="'.DOMAIN.$value.'" target="_blank">'.$value.'</a>' : $value;
+                echo $key === 'uri' ? '<a href="'.DOMAIN.$value.'" target="_blank" class="route">'.$value.'</a>' : $value;
                 echo "</td>";
             }
             echo "</tr>";
@@ -79,3 +84,22 @@ foreach ($routes_tmp as $route) {
         ?>
     </tbody>
 </table>
+
+<script>
+    let copyButton = document.querySelector('.copy-routes');
+    let routes = Array.from(document.querySelectorAll('.route'));
+    let routesList = '';
+    routes.forEach(route => routesList += 'https://www.callone.de' + route.textContent + '\n');
+
+    copyButton.addEventListener('click', e => {
+        if (!navigator || !navigator.clipboard)
+            return;
+        navigator.clipboard.writeText(routesList);
+        let button = e.currentTarget;
+        let originalText = button.textContent;
+        button.textContent = 'Routes Copied!';
+        setTimeout(() => {
+            button.textContent = originalText;
+        }, 1000);
+    });
+</script>
