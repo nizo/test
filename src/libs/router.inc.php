@@ -278,7 +278,7 @@ Router::add('/case-study-niceshops', 'case-study-niceshops.php', [
 ** ************** */
 Router::add('/karriere', 'karriere.php', [
     'title' => 'CallOne Karriere - Alle offenen Stellen',
-    'meta_description' => 'Karriere bei CallOne heißt: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich auf unsere offenen Stellen.',
+    'meta_description' => 'Offene Stellen bei CallOne: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur.',
     'og_image_text' => 'CallOne Karriere Alle offenen Stellen',
     'menu_position' => 'callone'
 ]);
