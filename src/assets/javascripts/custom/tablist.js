@@ -18,6 +18,7 @@ class Tablist {
         this.tabLinks.forEach(l => l.addEventListener('click', this.switchTab.bind(this)));
 
         this.navbarHeight = 60;
+        this.isSticky = false;
         this.stickyStart = this.tabLinksWrapper.getBoundingClientRect().top + window.scrollY - this.navbarHeight;
         this.stickyEnd = this.stickyStart + this.tablist.offsetHeight;
         this.originalHeight = this.tablist.offsetHeight;
@@ -42,9 +43,11 @@ class Tablist {
         let scrollPos = window.scrollY;
         if (this.stickyStart && this.stickyEnd && scrollPos >= this.stickyStart && scrollPos <= this.stickyEnd) {
             this.spawnPlaceholder();
+            this.isSticky = true;
             this.tabLinksWrapper.classList.add('tablist__links--sticky');
         } else {
             this.despawnPlaceholder();
+            this.isSticky = false;
             this.tabLinksWrapper.classList.remove('tablist__links--sticky');
         }
     }
@@ -99,6 +102,8 @@ class Tablist {
     }
 
     scrollToTabs() {
+        if (!this.isSticky)
+            return;
         let offset = this.tablist.getBoundingClientRect().y + window.scrollY - 61;
         scrollToOffset(offset);
     }
