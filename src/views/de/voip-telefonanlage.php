@@ -584,7 +584,7 @@ $faqs->faq_add (
 
 <div class="section section--light-green" id="geschichten">
 	<div class="section__content section__content--wide">
-		<h2 class="centered mobile-left">Machen Sie es wie unsere Kunden: <br class="mobile-hidden" />Entscheiden Sie sich für eine passgenaue Telefonanlage!</h2>
+		<h2 class="centered mobile-left">Machen Sie es wie unsere Kunden: <br class="mobile-hidden" />Entscheiden Sie sich für ein passgenaues Setup!</h2>
 		
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
