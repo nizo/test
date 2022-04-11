@@ -7,7 +7,7 @@ const gulp         = require('gulp'),
       jslint       = require('gulp-jslint'),
       merge2       = require('merge2'),
       gutil        = require('gulp-util'),
-      uglify       = require('gulp-uglify-es').default,
+      terser       = require('gulp-terser'),
       concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
@@ -16,7 +16,7 @@ const gulp         = require('gulp'),
       sort         = require('gulp-sort'),
       browserSync  = require('browser-sync').create();
 
-const { series, parallel } = require('gulp');
+const { series, parallel, dest } = require('gulp');
 
 var paths = {
   source: './src/',
@@ -72,8 +72,10 @@ function compileScripts() {
   return merge2([coffee2go, js2])
     // .pipe(jslint())
     // .pipe(jslint.reporter('default'))
-    .pipe(uglify().on('error', function(e){
-        console.log(e);
+    .pipe(terser({
+      format: {
+        comments: false
+      }
     }))
     .pipe(concat('application.min.js'))
     .pipe(gulp.dest(paths.javascripts));

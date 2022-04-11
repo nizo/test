@@ -112,7 +112,7 @@ var slideToggle = (target, duration = 500) => {
 function fadeIn(el, time, display = 'block') {
     el.style.opacity = 0;
     el.style.display = display;
-  
+
     var last = +new Date();
     var tick = function() {
         el.style.opacity = +el.style.opacity + (new Date() - last) / time;
@@ -122,7 +122,7 @@ function fadeIn(el, time, display = 'block') {
             (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
         }
     };
-  
+
     tick();
 }
 function fadeOut(el, time, callback) {
