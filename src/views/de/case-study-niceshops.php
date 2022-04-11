@@ -171,7 +171,7 @@
             	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_11_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_11_animate.svg" class="icon icon-small lazy" width="70" height="65" alt="Callcenter-Software von CallOne" />
             	<p>CallOne ACD<br><strong>Callcenter-Software</strong></p>
             	<div class="button-set">
-          			<a href="/callcenter-loesung" class="break button secondary">Unsere Callcenter-Software</a>
+          			<a href="/callcenter-software" class="break button secondary">Unsere Callcenter-Software</a>
           		</div>
             </div>
             <div class="col-3">
