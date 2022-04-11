@@ -1038,7 +1038,7 @@ $faqs->faq_add (
 								<img src="/assets/images/client-logos/Freshdesk.svg" alt="Freshdesk Anbindung an CallOne Call Center Software" width="200" height="200" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-salesforce.svg" alt="Salesforce Anbdinung für CallOne Call Center Software" width="217" height="150" />
+								<img src="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce Anbdinung für CallOne Call Center Software" width="217" height="150" />
 							</div>
 						</div>
 					</div>

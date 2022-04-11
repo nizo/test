@@ -374,7 +374,7 @@ $faqs->faq_add (
 								<img src="/assets/images/client-logos/Freshdesk.svg" alt="Freshdesk als Anbindung in der CallOne VoIP Telefonanlage" width="200" height="200" />
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-salesforce.svg" alt="Salesforce als Anbindung in der CallOne VoIP Telefonanlage" width="217" height="150" />
+								<img src="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce als Anbindung in der CallOne VoIP Telefonanlage" width="217" height="150" />
 							</div>
 						</div>
 					</div>
