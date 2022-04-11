@@ -105,7 +105,7 @@ $product->structured_data_get_code ();
                 <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                 <p class="btn-set btn-set--spread">
                     <a href="/zendesk-cti-ticketing" class="btn btn--primary btn--small-padding">Infos</a>
-                    <a href="https://www.zendesk.com/apps/support/cloud-acd/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                    <a href="https://www.zendesk.com/marketplace/apps/support/75986/cloud-acd/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
                 </p>
             </div>
 
@@ -116,7 +116,7 @@ $product->structured_data_get_code ();
                 <h3>Pipedrive</h3>
                 <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                 <p class="btn-set">
-                    <a href="https://marketplace.pipedrive.com/app/call-one/38e77507e5562334" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                    <a href="https://www.pipedrive.com/en/marketplace/app/call-one/38e77507e5562334" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
                 </p>
             </div>
 

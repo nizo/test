@@ -34,7 +34,7 @@
                             <div class="number-card number-card--no-padding number-card--no-bg number-card--align-left">
                                 <div class="number-card__number" style="--color:#db00c5">40%</div>
                                 <p>der Kund*innen bevorzugen das Telefonieren, wenn es um die Klärung komplizierter Sachverhalte geht.</p>
-                                <p>Quelle: <a href="https://about.americanexpress.com/" target="_blank" class="inline-link">American Express</a></p>
+                                <p>Quelle: <a href="https://about.americanexpress.com/home/default.aspx" target="_blank" class="inline-link">American Express</a></p>
                             </div>
                         </div>
                         <div class="carddeck__card">
