@@ -80,7 +80,7 @@ $faqs->faq_add (
   	</div>
     <h2 class="h1">Erfahren Sie mehr über unseren Freshdesk Callcenter Connector</h2>
     <div class="button-set">
-      <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration" target="_blank" class="button primary trackedElement" data-label="Button - Freshworks Marketplace" data-category="Link" data-action="linked to Freshworks Marketplace" title="Zum Freshworks Marketplace - Call Center Connector for Voice Ticket Integration" >Freshworks Marketplace</a>
+      <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button primary trackedElement" data-label="Button - Freshworks Marketplace" data-category="Link" data-action="linked to Freshworks Marketplace" title="Zum Freshworks Marketplace - Call Center Connector for Voice Ticket Integration" >Freshworks Marketplace</a>
     </div>
   </div>
 </div>
