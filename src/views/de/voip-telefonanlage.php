@@ -589,16 +589,16 @@ $faqs->faq_add (
 		<div class="tablist">
 			<div class="tablist__links tablist__links--full-width">
 				<div class="tablist__link" data-tab="1" data-sticky-text="GastroHero">
-					<strong>Call Center Software mit VoIP-Telefonanlage</strong>
+					<strong>Callcenter-Software</strong>
 				</div>
 				<div class="tablist__link" data-tab="2" data-sticky-text="Die LBS Immobilien GmbH NordWest">
-					<strong>Hybride <br />Teams Telefonie</strong>
+					<strong>Teams Telefonie</strong>
 				</div>
 				<div class="tablist__link" data-tab="3" data-sticky-text="Check24 KFZ">
-					<strong>Warteschleifen-<br />management</strong>
+					<strong>Warteschleifen</strong>
 				</div>
 				<div class="tablist__link" data-tab="4" data-sticky-text="SodaStream">
-					<strong>Schnittstellen-<br />integration</strong>
+					<strong>Schnittstellen</strong>
 				</div>
 			</div>
 
@@ -620,9 +620,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud Telefonanlage</h4>
+									<h4>Telefonanlage in der Cloud</h4>
 									<p>Cloud Telefonanlage mit umfangreichem Auswahlmenüs.</p>
 								</div>
+								<br />
+								<p><a href="/voip-telefonanlage#funktionen" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
@@ -706,9 +708,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud Telefonanlage</h4>
+									<h4>Telefonanlage in der Cloud</h4>
 									<p>Cloud Telefonanlage in Kombination mit Teams Telefonie.</p>
 								</div>
+								<br />
+								<p><a href="/voip-telefonanlage#funktionen" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
@@ -809,9 +813,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud Telefonanlage</h4>
+									<h4>Telefonanlage in der Cloud</h4>
 									<p>Unsere Telefonanlage in perfekter Kombination mit unserer Call Center Software.</p>
 								</div>
+								<br />
+								<p><a href="/voip-telefonanlage#funktionen" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
@@ -925,9 +931,11 @@ $faqs->faq_add (
 								</p>
 								<br />
 								<div class="left-border">
-									<h4>Cloud Telefonanlage</h4>
+									<h4>Telefonanlage in der Cloud</h4>
 									<p>Flexibler standortübergreifender Einsatz mit unterschiedlichen Clients.</p>
 								</div>
+								<br />
+								<p><a href="/voip-telefonanlage#funktionen" class="btn btn--border-black">Mehr erfahren</a></p>
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
