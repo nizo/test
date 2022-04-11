@@ -27,7 +27,7 @@
                     <a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a><br />
                     <a href="/telefonanlage-mit-warteschleife" title="Smarte Warteschleifen">Smarte Warteschleifen</a><br />
                     <a href="/call-tracking" title="Call-Tracking">Call-Tracking</a><br />
-                    <a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a><br />
+                    <a href="/callcenter-bot" title="Callcenter-Bot">Callcenter-Bot</a><br />
                     <a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a><br />
                     <a href="/statistiken" title="Echtzeit-Analysen">Statistiken</a><br />
                     <a href="/dsgvo-telekommunikation" title="DSGVO-Kompatibilität">DSGVO-Kompatibilität</a><br />
@@ -115,7 +115,7 @@
                     <li><a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a></li>
                     <li><a href="/0800-lokal-nummern" title="Rufnummern Service">Rufnummern Service</a></li>
                     <li><a href="/call-tracking" title="Call-Tracking">Call-Tracking</a></li>
-                    <li><a href="/cti-schnittstellen" title="Callcenter-Bot">Callcenter-Bot</a></li>
+                    <li><a href="/callcenter-bot" title="Callcenter-Bot">Callcenter-Bot</a></li>
                     <li><a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a></li>
                     <li><a href="/statistiken" title="Echtzeit-Analysen">Statistiken</a></li>
                     <li><a href="/dsgvo-telekommunikation" title="DSGVO-Kompatibilität">DSGVO-Kompatibilität</a></li>

@@ -62,7 +62,7 @@ $faqs->faq_add (
           <input type="checkbox" id="integrations-1" />
           <label for="integrations-1">Apps</label>
           <div class="toggle-box__content">
-            Sie nutzen weiterhin die <a href="/cti-schnittstellen" title="Apps" class="inline-link">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
+            Sie nutzen weiterhin die <a href="/callcenter-software-integrationen" title="Apps" class="inline-link">Apps</a>, die für Sie funktionieren, nur eben eingebettet in Ihre Telefonie-Umgebung.
           </div>
         </div>
         <div class="toggle-box toggle-box--checklist">

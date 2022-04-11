@@ -288,7 +288,7 @@
                 	</div>
                 	<p>&nbsp;</p>
             		<div class="button-set centered">
-                    	<a href="/cti-schnittstellen" class="button secondary trackedElement" target="_blank" data-label="Button Header - APPS & API" data-category="Link" data-action="linked to /cti-schnittstellen" title="APPS und API">APPS & API</a>
+                    	<a href="/callcenter-software-integrationen" class="button secondary trackedElement" target="_blank" data-label="Button Header - APPS & API" data-category="Link" data-action="linked to /callcenter-software-integrationen" title="APPS und API">APPS & API</a>
                     </div>
             	</div>
             	<div class="" id="schnittstellen">
