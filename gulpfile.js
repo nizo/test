@@ -4,7 +4,8 @@ const gulp         = require('gulp'),
       php          = require('gulp-connect-php'),
       clean        = require('gulp-clean'),
       coffee       = require('gulp-coffee'),
-      jslint       = require('gulp-jslint'),
+      jshint       = require('gulp-jshint'),
+      stylish      = require('jshint-stylish'),
       merge2       = require('merge2'),
       gutil        = require('gulp-util'),
       terser       = require('gulp-terser'),
@@ -64,6 +65,13 @@ function cleanScripts() {
     .pipe(clean());
 }
 
+// Check Javascripts
+function lintScripts() {
+  return gulp.src(paths.javascripts + '/**/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter(stylish));
+}
+
 // Compile Coffee into JS
 function compileScripts() {
   var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(sort()).pipe(coffee({bare: true}).on('error', gutil.log));
@@ -107,8 +115,9 @@ function server() {
     });
   });
   gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle, checksumStyle));
-  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, compileScripts, checksumScripts));
-  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, compileScripts, checksumScripts));
+  gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
+  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
+  gulp.watch(paths.libs + '**/*.js', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);
@@ -117,4 +126,4 @@ function server() {
 }
 
 // exports.watch = watch;
-exports.default = series(cleanStyle, compileStyle, checksumStyle, cleanScripts, compileScripts, checksumScripts, server);
+exports.default = series(cleanStyle, compileStyle, checksumStyle, cleanScripts, lintScripts, compileScripts, checksumScripts, server);

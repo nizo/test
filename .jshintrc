@@ -1,0 +1,19 @@
+{
+    "esversion": 6,
+    "undef": false,
+    "browser": true,
+    "node": true,
+    "globals": {
+        "eventListener": true,
+        "scrollToOffset": true,
+        "slideUp": true,
+        "slideDown": true,
+        "slideToggle": true,
+        "fadeOut": true,
+        "fadeIn": true,
+        "respondToVisibility": true,
+        "getAllSiblings": true,
+        "toggleDisplay": true,
+        "next": true
+    }
+}
