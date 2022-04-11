@@ -1,7 +1,8 @@
 <?php
 // session configuration
 session_set_cookie_params([
-	'samesite' => 'None'
+	'Secure' => 1,
+	'SameSite' => 'Lax'
 ]);
 
 // init
