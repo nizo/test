@@ -407,7 +407,7 @@ require_once('banderole.php');
                 ?>
                 <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
                     <div class="navigation__link">
-                        <a href="/blog">Blog</a>
+                        <a href="/blog/">Blog</a>
                     </div>
 
                     <?php /*
