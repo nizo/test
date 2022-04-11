@@ -16,7 +16,7 @@
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
         </div>
         <div class="anchors__links">
-            <a href="#geschichte">Entstehungsgeschichte</a>
+            <a href="#fakten">Zahlen, Daten, Fakten</a>
             <a href="#kultur">Unternehmenskultur</a>
             <a href="#umwelt">Umwelt</a>
             <a href="#kunden">Kunden</a>
@@ -26,7 +26,7 @@
 </div>
 
 <div class="section section--no-padding-top section--white-grey">
-    <div class="section__content section__content--wide" id="geschichte">
+    <div class="section__content section__content--wide" id="fakten">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <h2>Wir realisieren erfolgreiche Telekommunikations&shy;lösungen.</h2>
