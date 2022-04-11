@@ -118,9 +118,7 @@ if (uploadButton != null  && realInput != null) {
 	
 	realInput.addEventListener('change', function() {
 		const name = realInput.value.split(/\\|\//).pop();
-		const truncated = name.length > 20 
-		? name.substr(name.length - 20) 
-		: name;
+		const truncated = name.length > 20 ? name.substr(name.length - 20) : name;
 		
 		fileInfo.innerHTML = truncated;
 	});
@@ -129,6 +127,7 @@ if (uploadButton != null  && realInput != null) {
 var sendForm = function(form) {
 		
 	var globalFormData = new FormData(form);
+	var formData = new FormData();
 
 	var type = form.querySelector('[name="type"]').value;
 	var data = null;
@@ -139,8 +138,7 @@ var sendForm = function(form) {
 
 	switch (type) {
 		case '1':
-			var formData = new FormData();
-			let selectedNumbers = new Array();
+			let selectedNumbers = [];
 			let checkedBoxes = document.querySelectorAll('.customCheckbox input[name="checkboxNumbers"]:checked');
 			let n = checkedBoxes.length;
 			if (n > 0){
@@ -178,7 +176,6 @@ var sendForm = function(form) {
 				}
 			}
 			
-			var formData = new FormData();
 			formData.set('type', type);
 			formData.set('path', JSON.parse(globalFormData.get('path')));
 			formData.set('issue', issue);
@@ -188,12 +185,9 @@ var sendForm = function(form) {
 			formData.set('email', globalFormData.get('email'));
 			formData.set('functions', func);
 			
-			form.classList.contains('wishlistContactForm') ? action = 'Wunschthemen' : action = 'Kontaktformular';
+			action = form.classList.contains('wishlistContactForm') ? 'Wunschthemen' : 'Kontaktformular';
 			
 			label = formData.get('company');
-			break;
-		default:
-			return;
 			break;
 	}
 
@@ -223,7 +217,7 @@ var sendForm = function(form) {
 			fadeIn(next(form, '.formSuccess'), 300);
 			
 			// Conversion Pixel
-			dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'})
+			dataLayer.push({'_event': 'formSubmit', 'event': 'formSubmit'});
 			
 			// Conversion Lead with data
 			if (type != 3 && type != 4) {

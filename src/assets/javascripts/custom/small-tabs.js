@@ -10,7 +10,7 @@ class SmallTab {
 
         this.setTabHeight();
         setTimeout(((e) => {
-            this.setTabHeight()
+            this.setTabHeight();
         }).bind(this), 100);
         window.addEventListener('resize', this.setTabHeight.bind(this));
         

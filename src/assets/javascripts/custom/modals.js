@@ -68,7 +68,7 @@ window.onload = function() {
 	var paramModal = urlHasParam("om", null);
 	if(paramModal != null)
 		displayModal(paramModal);
-}
+};
 
 //ShowModal
 function displayModal(modalName, titleContent, part) {
@@ -78,7 +78,7 @@ function displayModal(modalName, titleContent, part) {
 	if (modal == null)
 		return;
 	
-	modal.style.display = "block";
+	modal.style.display = 'block';
 
 	var x = setTimeout(function() {
 		let fields = document.querySelectorAll('.inputFields');
@@ -86,17 +86,17 @@ function displayModal(modalName, titleContent, part) {
 	}, 500);
 	
 	// Close Modal
-	modal.addEventListener("click", function(event) { 
+	modal.addEventListener('click', function(event) { 
 		if (event.target == modal) {
 			fadeOut(modal, 300);
 		}
 	});
 	
-	for(var i = 0; i < closeButtons.length; i++) {
-		closeButtons[i].addEventListener("click", function() { 
+	Array.from(closeButtons).forEach(closeButton => {
+		closeButton.addEventListener('click', e => {
 			fadeOut(modal, 300);
 		});
-	}
+	});
 }
 
 function hideModal(modalName, type) {

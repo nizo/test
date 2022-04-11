@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function lazyLoadingCss(filename) {
     var l = document.createElement('link');
     l.rel = 'stylesheet';
-    l.href = filename
+    l.href = filename;
     var h = document.getElementsByTagName('head')[0];
     h.parentNode.insertBefore(l, h);
 }

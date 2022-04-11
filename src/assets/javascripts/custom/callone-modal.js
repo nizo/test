@@ -71,7 +71,7 @@ class Modal {
         this.modal = document.querySelector('[data-modal="' + this.modalName + '"]');
         if (this.modal) {
             // Modal already exists in DOM
-            this.openModal()
+            this.openModal();
         } else {
             // Modal does not exist in DOM yet, load from file
             if (this.fileLoading)
@@ -368,7 +368,7 @@ class Modal {
             ]);
         }
         if (this.activeStep.getAttribute('data-steptitle')) {
-            this.modalSteptitle.textContent = this.activeStep.getAttribute('data-steptitle')
+            this.modalSteptitle.textContent = this.activeStep.getAttribute('data-steptitle');
         } else {
             this.modalSteptitle.textContent = 'Schritt ' + (this.activeStep.getAttribute('data-step-indicator') || this.activeStep.getAttribute('data-step-id'));
         }
@@ -438,7 +438,7 @@ class Modal {
             calendly.style.height = newHeight;
         }
 
-        window.onresize = this.setCalendlyHeight.bind(this)
+        window.onresize = this.setCalendlyHeight.bind(this);
     }
 
     handleNextButtons() {

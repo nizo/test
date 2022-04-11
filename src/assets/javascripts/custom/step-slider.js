@@ -172,7 +172,7 @@ class stepSlider {
         let mouse = {
             x: e.pageX,
             y: e.pageY
-        }
+        };
 
         if (e.type == 'touchmove') {
             var touchEvent = (typeof e.originalEvent === 'undefined') ? e : e.originalEvent;

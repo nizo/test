@@ -59,16 +59,16 @@ document.addEventListener("DOMContentLoaded", function()
 			return response.json();
 		})
 		.then(data => {
-			if (data['filename'])
+			if (data.filename)
 			{
 				var a = document.createElement ('a');
 				if (window.URL && window.Blob && ('download' in a) && window.atob)
 				{
 					// Do it the HTML5 compliant way
-					var blob = base64ToBlob (data['content'], data['mimetype']);
+					var blob = base64ToBlob (data.content, data.mimetype);
 					var url = window.URL.createObjectURL(blob);
 					a.href = url;
-					a.download = data['filename'];
+					a.download = data.filename;
 					a.style.display = 'none';
 					document.body.appendChild(a);
 					a.click();

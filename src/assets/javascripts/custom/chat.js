@@ -238,13 +238,13 @@ eventListener('click', '.nextStep', (e) => {
 			
 			switch (tracking) {
 				case 'step1':
-					tracking = 'Segment'
+					tracking = 'Segment';
 					break;
 				case 'step2':
-					tracking = 'Anschlüsse'
+					tracking = 'Anschlüsse';
 					break;
 				case 'step3':
-					tracking = 'Funktionen'
+					tracking = 'Funktionen';
 					break;
 				default:
 					break;

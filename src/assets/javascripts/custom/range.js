@@ -130,9 +130,9 @@ class Range {
         if (this.slider.dataset.snap && this.slider.dataset.snap === "true")
             progress = progress - (progress % this.step); // Snap into steps
         if (progress < 0)
-            progress = 0
+            progress = 0;
         if (progress > 100)
-            progress = 100
+            progress = 100;
         this.thumb.style.left = progress + '%';
         this.active.style.width = progress + '%';
         let newVal = Math.floor(((parseInt(this.slider.max) - parseInt(this.slider.min)) * (progress / 100)) + parseInt(this.slider.min));

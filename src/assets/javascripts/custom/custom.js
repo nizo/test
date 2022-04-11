@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	eventListener('click', '.form .showDiv', () => {
 		if (numbersLoaded)
 			return;
-		let spinner = document.querySelector('.form-1 .selection .spinner')
+		let spinner = document.querySelector('.form-1 .selection .spinner');
 		let phonenumbersBox = document.querySelector('.form-1 .selection');
 		fadeIn(spinner, 300);
 		let postUrl = 'https://connect.callone.io/backend/phonenumbers.php';
@@ -175,7 +175,7 @@ function addEvent(obj, evt, fn) {
 	var time = "1000";
 	
     function chatConversationSimulation() {
-    	var el = document.querySelector(".chat-conversation div:nth-child(1)");
+		var el = document.querySelector(".chat-conversation div:nth-child(1)");
 		var el2 = document.querySelector(".chat-conversation div:nth-child(2)");
 
 		if(counter % 2 === 0) {
@@ -183,43 +183,43 @@ function addEvent(obj, evt, fn) {
 			document.querySelector('.chat-conversation > div:nth-child(2) > .text').textContent = conversation[counter/2][1];
 		}
 		
-  		el.classList.remove("do-the-slide");
-  		el2.classList.remove("do-the-slide2");
-  		el.offsetWidth = el.offsetWidth;
-  		el2.offsetWidth = el2.offsetWidth;
+		el.classList.remove("do-the-slide");
+		el2.classList.remove("do-the-slide2");
+		el.offsetWidth = el.offsetWidth;
+		el2.offsetWidth = el2.offsetWidth;
 
-  		if(direction === "toRight") {
-  			direction = "toLeft";
-  			el.style.animationDirection = "reverse";
-  			el2.style.animationDirection = "reverse";
-  			el2.style.animationDelay = "inherit";
-  		} else {
-  			direction = "toRight";
-  			el.style.animationDirection = "";
-  			el2.style.animationDirection = "";
-  			el2.style.animationDelay = "1s";
-  		}
+		if(direction === "toRight") {
+			direction = "toLeft";
+			el.style.animationDirection = "reverse";
+			el2.style.animationDirection = "reverse";
+			el2.style.animationDelay = "inherit";
+		} else {
+			direction = "toRight";
+			el.style.animationDirection = "";
+			el2.style.animationDirection = "";
+			el2.style.animationDelay = "1s";
+		}
 
-  		el.classList.add("do-the-slide");	
-  		el2.classList.add("do-the-slide2");	
+		el.classList.add("do-the-slide");	
+		el2.classList.add("do-the-slide2");	
 		
 		if (counter === 5) {
-	        counter = 0; 
-	    } else {
-	        counter++; 
-	    }	
+			counter = 0; 
+		} else {
+			counter++; 
+		}	
     }
- 
-    if (window.location.pathname == '/callcenter-bot') {
-	    function timeout() {
-	        setTimeout(function () {
-	            chatConversationSimulation();
-	            timeout();
-	        }, time);       
-	        time === 5000? time = 1000 : time = 5000;
-	    };
-	    timeout();
-    }
+
+	function timeout() {
+		setTimeout(function () {
+			chatConversationSimulation();
+			timeout();
+		}, time);
+		time = time === 5000 ? 1000 : 5000;
+	}
+
+    if (window.location.pathname == '/callcenter-bot')
+		timeout();
 })();
 
 function arrayUnique(array) {
@@ -235,10 +235,10 @@ function arrayUnique(array) {
 }
 
 function merge_array(array1, array2, unique) {  
-  if (!unique) {
-	  return array1.concat(array2);
-  }
-  return arrayUnique(array1.concat(array2));
+	if (!unique) {
+		return array1.concat(array2);
+	}
+	return arrayUnique(array1.concat(array2));
 }
 
 
@@ -279,7 +279,6 @@ eventListener('click', '.modal .sideMenu li', e => {
 		}
 		listItem.querySelector('a').setAttribute('href', linkTo);
 		window.location.href = linkTo;
-		console.log('wlist:' + wlist)
 	} else {
 		e.preventDefault();
 		e.stopPropagation();

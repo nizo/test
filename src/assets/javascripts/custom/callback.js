@@ -48,7 +48,7 @@ var sendCallback = function(form) {
 					'event' : 'Lead',
 					'eventCategory' : 'Lead',
 					'eventAction' : 'Callback Modal',
-					'eventLabel': data['phonenumber']
+					'eventLabel': data.phonenumber
 				});	
 			}
 		}

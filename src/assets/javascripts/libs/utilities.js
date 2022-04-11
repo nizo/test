@@ -25,18 +25,18 @@ function scrollToOffset(offset, callback = null) {
     const fixedOffset = parseFloat(offset).toFixed();
     const onScroll = function () {
         if (window.scrollY.toFixed() === fixedOffset) {
-            window.removeEventListener('scroll', onScroll)
+            window.removeEventListener('scroll', onScroll);
             if (callback)
-                callback()
+                callback();
         }
-    }
+    };
 
-    window.addEventListener('scroll', onScroll)
-    onScroll()
+    window.addEventListener('scroll', onScroll);
+    onScroll();
     window.scrollTo({
         top: offset,
         behavior: 'smooth'
-    })
+    });
 }
 
 /*
@@ -47,7 +47,6 @@ let slideUp = (target, duration=500) => {
     target.style.transitionDuration = duration + 'ms';
     target.style.boxSizing = 'border-box';
     target.style.height = target.offsetHeight + 'px';
-    target.offsetHeight;
     target.style.overflow = 'hidden';
     target.style.height = 0;
     target.style.paddingTop = 0;
@@ -65,7 +64,7 @@ let slideUp = (target, duration=500) => {
         target.style.removeProperty('transition-duration');
         target.style.removeProperty('transition-property');
     }, duration);
-}
+};
 
 let slideDown = (target, duration=500) => {
     target.style.removeProperty('display');
@@ -82,7 +81,6 @@ let slideDown = (target, duration=500) => {
     target.style.paddingBottom = 0;
     target.style.marginTop = 0;
     target.style.marginBottom = 0;
-    target.offsetHeight;
     target.style.boxSizing = 'border-box';
     target.style.transitionProperty = "height, margin, padding";
     target.style.transitionDuration = duration + 'ms';
@@ -97,14 +95,15 @@ let slideDown = (target, duration=500) => {
         target.style.removeProperty('transition-duration');
         target.style.removeProperty('transition-property');
     }, duration);
-}
+};
+
 var slideToggle = (target, duration = 500) => {
     if (window.getComputedStyle(target).display === 'none') {
         return slideDown(target, duration);
     } else {
         return slideUp(target, duration);
     }
-}
+};
 
 /*
  * Fading Animations
@@ -119,7 +118,11 @@ function fadeIn(el, time, display = 'block') {
         last = +new Date();
     
         if (+el.style.opacity < 1) {
-            (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+            if (window.requestAnimationFrame) {
+                window.requestAnimationFrame(tick);
+            } else {
+                setTimeout(tick, 16);
+            }
         }
     };
 
@@ -134,7 +137,11 @@ function fadeOut(el, time, callback) {
         last = +new Date();
     
         if (+el.style.opacity > 0) {
-            (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+            if (window.requestAnimationFrame) {
+                window.requestAnimationFrame(tick);
+            } else {
+                setTimeout(tick, 16);
+            }
         } else {
             el.style.display = 'none';
             el.style.opacity = 1;
@@ -173,7 +180,7 @@ function getAllSiblings(elem, filter) {
     do {
         if (elem.nodeType === 3) continue; // text node
         if (!filter || filter(elem)) sibs.push(elem);
-    } while (elem = elem.nextSibling)
+    } while (elem == elem.nextSibling);
     return sibs;
 }
 
@@ -203,6 +210,6 @@ function next(elem, selector) {
 	// If not, jump to the next sibling and continue the loop
 	while (sibling) {
 		if (sibling.matches(selector)) return sibling;
-		sibling = sibling.nextElementSibling
+		sibling = sibling.nextElementSibling;
 	}
 }

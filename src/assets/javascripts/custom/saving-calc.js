@@ -93,8 +93,8 @@ class Mehrwertrechner {
         this.formError.classList.remove('floating-form__error--active');
         this.formHint.classList.remove('floating-form__hint--active');
         
-        let calls = parseInt(this.inputs['calls'].value);
-        let agents = parseInt(this.inputs['agents'].value);
+        let calls = parseInt(this.inputs.calls.value);
+        let agents = parseInt(this.inputs.agents.value);
 
         if (isNaN(calls) || isNaN(agents)) {
             this.formHint.classList.add('floating-form__hint--active');
@@ -112,8 +112,8 @@ class Mehrwertrechner {
             return false;
         }
 
-        this.inputs['calls'].value = calls;
-        this.inputs['agents'].value = agents;
+        this.inputs.calls.value = calls;
+        this.inputs.agents.value = agents;
 
         return true;
     }
