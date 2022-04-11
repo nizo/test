@@ -61,7 +61,7 @@
                 <br />
                 <h4>Support</h4>
                 <p>
-                    <a href="https://www.callone.de/faq">FAQs</a><br />
+                    <a href="https://www.callone.de/faq/">FAQs</a><br />
                     <a href="/kontakt">Kontakt</a><br />
                     <a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a><br />
                     <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
@@ -149,7 +149,7 @@
             <li>
                 <span>Support</span>
                 <ul>
-                    <li><a href="https://www.callone.de/faq">FAQs</a></li>
+                    <li><a href="https://www.callone.de/faq/">FAQs</a></li>
                     <li><a href="/kontakt">Kontakt</a></li>
                     <li><a href="https://status.callone.de" rel="noreferrer">Systemstatus</a></li>
                 </ul>
