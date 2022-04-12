@@ -201,6 +201,7 @@ class Mehrwertrechner {
 
         // Adjust headlines
         this.h3.style.display = 'none';
+        this.h4.style.display = 'block';
         this.h4.textContent = 'Berechne Kostensenkungspotential...';
 
         // Show loading animations in columns
@@ -228,6 +229,10 @@ class Mehrwertrechner {
         // Calculate numbers
         this.calculate();
 
+        // Remove Fade Effect From Columns
+        let columns = savingCalculation.querySelectorAll('.saving-calculation__col');
+        columns.forEach(col => col.classList.remove('saving-calculation__col--faded'));
+
         // Show everything, hide loaders
         setTimeout(() => {
             // Hide loader
@@ -235,7 +240,8 @@ class Mehrwertrechner {
 
             // Adjust headlines
             this.h3.style.display = 'block';
-            this.h4.textContent = 'Aufschlüsselung des Einsparpotenzials';
+            this.h4.textContent = '';
+            this.h4.style.display = 'none';
 
             // Remove loading animations from columns
             savingCalculation.classList.remove('saving-calculation--loading');
