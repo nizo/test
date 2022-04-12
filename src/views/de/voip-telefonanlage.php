@@ -180,7 +180,7 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
-		    <div class="fader fader--indicators-centered fader--header-below desktop-hidden" data-speed="4000">
+		<div class="fader fader--indicators-centered fader--header-below desktop-hidden" data-speed="4000">
             <div class="fader__item">
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
