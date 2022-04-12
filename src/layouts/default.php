@@ -107,13 +107,8 @@
         <?php include('./partials/modal-wishlist.php'); ?>
     </div>
     
-    <script src="/assets/javascripts/libs/utilities.js"></script>
     <?php
     loadJS(null);
-
-    if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1)) {
-        echo '<script>loadLazyTracking();</script>';
-    }
     ?>
     
     </body>

@@ -19,7 +19,6 @@
     require_once(DIRECTORY_VIEWS.$page->view);
     ?>
 
-    <script src="/assets/javascripts/libs/utilities.js"></script>
     <?php
     loadJS(null);
     ?>
