@@ -206,11 +206,10 @@ Router::add('/call-tracking', 'calltracking.php', [
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
 ]);
-Router::add('/preiskalkulator', 'preiskalkulator.php', [
-    'title' => 'Jetzt Preis Ihrer Callcenter-Lösung, VoIP-Telefonie-Lösung berechnen',
-    'meta_description' => 'Berechnen Sie den Preis Ihrer VoIP-Telefonanlage und Callcenter-Lösung passend zu Ihren Anforderungen. CallOne cloudbasierte Telefonanlagen für Sales und Service',
-    'body_class' => 'full-bg background-transition',
-    'og_image_text' => 'Jetzt Preis Ihrer Callcenter-Lösung berechnen',
+Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
+    'title' => 'Callcenter Einsparpotential',
+    'meta_description' => '',
+    'og_image_text' => 'Jetzt Ihr mögliches Einsparpotential berechnen',
     'menu_position' => 'produkte'
 ]);
 
