@@ -104,6 +104,7 @@ $navMinHeight: 570px;
     &__item--active {
         .navigation__link a, .navigation__link span {
             color: #000;
+            border-bottom-color: $color-primary;
         }
     }
 
@@ -475,6 +476,14 @@ a.submenu__link {
 
         &__mobile-button {
             display: flex;
+        }
+        
+        &__item--active {
+            .navigation__link {
+                a, span {
+                    border-bottom-color: transparent;
+                }
+            }
         }
 
         &__item--open {
