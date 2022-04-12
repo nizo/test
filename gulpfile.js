@@ -3,16 +3,12 @@ const gulp         = require('gulp'),
       rename       = require('gulp-rename'),
       php          = require('gulp-connect-php'),
       clean        = require('gulp-clean'),
-      coffee       = require('gulp-coffee'),
       jshint       = require('gulp-jshint'),
       stylish      = require('jshint-stylish'),
-      merge2       = require('merge2'),
-      gutil        = require('gulp-util'),
       terser       = require('gulp-terser'),
       concat       = require('gulp-concat'),
       autoprefixer = require('gulp-autoprefixer'),
       cleanCSS     = require('gulp-clean-css'),
-      fs           = require('fs'),
       fileChecksum = require('gulp-file-checksum'),
       sort         = require('gulp-sort'),
       browserSync  = require('browser-sync').create();
@@ -23,7 +19,6 @@ var paths = {
   source: './src/',
   scss: './src/assets/stylesheets/scss/',
   stylesheets: './src/assets/stylesheets/',
-  coffee: './src/assets/javascripts/coffee/',
   customJS: './src/assets/javascripts/custom/',
   libs: './src/assets/javascripts/libs/',
   javascripts: './src/assets/javascripts/'
@@ -67,19 +62,16 @@ function cleanScripts() {
 
 // Check Javascripts
 function lintScripts() {
-  return gulp.src(paths.javascripts + '/**/*.js')
+  return gulp.src(paths.javascripts + '**/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter(stylish));
 }
 
 // Compile Coffee into JS
 function compileScripts() {
-  var coffee2go = gulp.src(paths.coffee+'*.coffee').pipe(sort()).pipe(coffee({bare: true}).on('error', gutil.log));
-  var js2 = gulp.src(paths.customJS+'*.js').pipe(sort());
-
-  return merge2([coffee2go, js2])
-    // .pipe(jslint())
-    // .pipe(jslint.reporter('default'))
+  // return gulp.src(paths.javascripts + '**/*.js')
+  return gulp.src([paths.libs + 'utilities.js', paths.customJS + '**/*.js'])
+    // .pipe(sort())
     .pipe(terser({
       format: {
         comments: false
@@ -116,8 +108,8 @@ function server() {
   });
   gulp.watch(paths.scss + '**/*.scss', series(cleanStyle, compileStyle, checksumStyle));
   gulp.watch(paths.coffee + '**/*.coffee', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
-  gulp.watch(paths.customJS + '**/*.js', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
-  gulp.watch(paths.libs + '**/*.js', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
+  gulp.watch([paths.javascripts + '**/*.js', '!' + paths.javascripts + 'application.min.js'], series(cleanScripts, lintScripts, compileScripts, checksumScripts));
+  // gulp.watch(paths.libs + '**/*.js', series(cleanScripts, lintScripts, compileScripts, checksumScripts));
   // Auto reload doesn't currently work (only refreshes once, browsersync disconnecs afterwards)
   // gulp.watch('./src/layouts/*.php').on('change', reload);
   // gulp.watch('./src/partials/*.php').on('change', reload);

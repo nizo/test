@@ -1,6 +1,6 @@
 {
     "esversion": 6,
-    "undef": false,
+    "undef": true,
     "browser": true,
     "node": true,
     "globals": {
@@ -14,6 +14,20 @@
         "respondToVisibility": true,
         "getAllSiblings": true,
         "toggleDisplay": true,
-        "next": true
+        "next": true,
+        "sendCallback": true,
+        "sendForm": true,
+        "isInViewport": true,
+        "urlHasParam": true,
+        "setCookie": true,
+        "getCookie": true,
+        "checkCookie": true,
+        "deleteAllCookies": true,
+        "dataLayer": true,
+        "decode": true,
+        "encode": true,
+        "animateValue": true,
+        "nextSibling": true,
+        "loadLazyTracking": true
     }
 }

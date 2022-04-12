@@ -85,12 +85,13 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   
   /*** LazyLoading Javascript ***/
+  let jsFiles = [];
   function lazyLoadingJS(width) {	
   	if ( jsFiles.length < 0 ) {
   		return;
   	} 
   	 	
-	for ( i = 0; i < jsFiles.length; i++ ) {
+	for (let i = 0; i < jsFiles.length; i++ ) {
 		var element = document.createElement("script");
 	    element.src = jsFiles[i];
 	    document.body.appendChild(element);

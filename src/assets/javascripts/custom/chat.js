@@ -60,6 +60,7 @@ eventListener('click', '.conversation.chat .customRadiobox', (e) => {
 
 eventListener('click', '.conversation.chat .customCheckbox', (e) => {
 	var next = document.querySelector(nextStep);
+	let current = document.querySelector(thisStep);
 	var fields = next.querySelectorAll('.customCheckbox');
 	var isChecked = false;
 	fields.forEach(field => {
@@ -68,6 +69,7 @@ eventListener('click', '.conversation.chat .customCheckbox', (e) => {
 	});
 	if (!isChecked)
 		return;
+	let progressId;
 	if (!err.status) {
 		next.querySelector('.progress-bar').classList.add('start');
 		progressId = 'valueProgress'+nextStep.substr(1, nextStep.length-1);

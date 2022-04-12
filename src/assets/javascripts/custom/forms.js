@@ -36,7 +36,7 @@ eventListener('click', '.button-bottom > button', e => {
 			fadeIn(arrowBox, 300);
 		}, 450);
 		
-		timeoutID = window.setTimeout(function() {
+		let timeoutID = window.setTimeout(function() {
 			var arrowBox = document.querySelectorAll('.button-bottom .arrow-box');
 			setTimeout(e => {
 				arrowBox.forEach(box => {
