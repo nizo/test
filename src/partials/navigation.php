@@ -157,7 +157,7 @@ require_once('banderole.php');
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>CallOne Plattform Lösungen</strong>
-                                        <p>Eine Plattform, unendliche Möglichkeiten</p>
+                                        <p>Eine Plattform, fertige Erweiterungen - unendliche Möglichkeiten</p>
                                     </div>
                                 </div>
                             </div>
