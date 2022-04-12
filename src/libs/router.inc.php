@@ -116,54 +116,22 @@ Router::add('/', 'index.php', [
 ]);
 
 /* ******************* **
-** ** MENU LÖSUNGEN ** **
+** ** MENU PRODUKTE ** **
 ** ******************* */
 Router::add('/voip-telefonanlage', 'voip-telefonanlage.php', [
     'title' => 'VoIP-Telefonanlage – Cloud Telefonanlage, virtuelle Telefonanlage',
     'meta_description' => 'Intuitiv bedienbare VoIP-Telefonanlage mit Festnetz, Fax und Callcenter-Software aus der Cloud. Geprüfte Gesprächsqualität. Eigener Customer Success Manager',
     'og_image_text' => 'VoIP-Telefonanlage, Cloud und virtuelle Telefonanlage',
-    'menu_position' => 'loesungen',
+    'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
 Router::add('/callcenter-software', 'callcenter-software.php', [
     'title' => 'Callcenter-Software, ACD, Kundenservice, Contact Center Software, Helpdesk',
     'meta_description' => 'Callcenter-Software mit Computer Telephony Integration (CTI), professionellem Warteschleifenmanagement, Callbackfunktion. Jetzt testen!',
     'og_image_text' => 'Callcenter-Software, ACD, Kundenservice, Contact Center Software',
-    'menu_position' => 'loesungen',
+    'menu_position' => 'produkte',
     'sitemap_priority' => '0.9'
 ]);
-Router::add('/callcenter-software-integrationen', 'callcenter-software-integrationen.php', [
-    'title' => 'Integrieren Sie Anrufe in Ihre Businesstools und steuern Sie Anrufe bequem mit in Ihre CRM, Ticketing oder BI-Tool',
-    'meta_description' => 'Verbinden Sie CRM, Analytics, Ihre Abrechnung und weitere Integrationen mit Ihrer Cloud Telefonanlage und Callcenter Software.',
-    'og_image_text' => 'Integrieren Sie Anrufe in Ihre Businesstools',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.8'
-]);
-Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife.php', [
-    'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
-    'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
-    'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.8'
-]);
-Router::add('/statistiken', 'statistiken.php', [
-    'title' => 'Call Center Software Statistiken | KPI, SLA mit BI-Integration',
-    'meta_description' => 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.',
-    'og_image_text' => 'Call Center Software Statistiken, KPI, SLA, BI-Integration',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.8'
-]);
-Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
-    'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
-    'meta_description' => 'Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.',
-    'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.8'
-]);
-
-/* ******************* **
-** ** MENU PRODUKTE ** **
-** ******************* */
 Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'title' => 'Freecall 0800, Ortsnetz, international, Wunschrufnummer Deutschland',
     'meta_description' => ' ☎ 0800 Wunschnummer bestellen ☎ Internationale Rufnummern. Lokale, Ortsnetzrufnummern und Rufnummernblöcke im gesamten Bundesgebiet. Noch heute schalten!',
@@ -178,20 +146,6 @@ Router::add('/ms-teams', 'ms-teams.php', [
     'og_image_text' => 'Ihre Unternehmens-__telefonie in Microsoft-Teams',
     'sitemap_priority' => '0.9'
 ]);
-Router::add('/callcenter-bot', 'callcenter-bot.php', [
-    'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
-    'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'og_image_text' => 'Callcenter Bot KI-Sprachgesteuerte Auswahlmenüs IVR',
-    'menu_position' => 'produkte',
-    'sitemap_priority' => '0.9'
-]);
-Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
-    'title' => 'Callcenter Software mit Analyse und Coaching in Sales & Kundenservice',
-    'meta_description' => 'Verbessern Sie Ihren Sales & Service mit dem i2x Client. Sprachanalyse und Coaching in Echtzeit als Integration in der CallOne Callcenter Software.',
-    'og_image_text' => 'Echtzeitsprachanalyse für besseren Sales und Service',
-    'menu_position' => 'produkte',
-    'sitemap_priority' => '0.9'
-]);
 Router::add('/softphone', 'softphone.php', [
     'title' => 'Softphone: VoIP Telefon im Browser integriert',
     'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
@@ -199,22 +153,62 @@ Router::add('/softphone', 'softphone.php', [
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
 ]);
+
+/* ******************* **
+** ** MENU LÖSUNGEN ** **
+** ******************* */
 Router::add('/call-tracking', 'calltracking.php', [
     'title' => 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden',
     'meta_description' => ' Nutzen Sie Call-Tracking, um Anrufe auf Ihrer Hotline einer aktiven Websession zuzuordnen und mit Kundendaten anzureichern.',
     'og_image_text' => 'Individuelle Rufnummern für Ihre Kunden',
-    'menu_position' => 'produkte',
+    'menu_position' => 'loesungen',
     'sitemap_priority' => '0.8'
 ]);
-Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
-    'title' => 'Callcenter Einsparpotential',
-    'meta_description' => '',
-    'og_image_text' => 'Jetzt Ihr mögliches Einsparpotential berechnen',
-    'menu_position' => 'produkte'
+Router::add('/callcenter-bot', 'callcenter-bot.php', [
+    'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
+    'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
+    'og_image_text' => 'Callcenter Bot KI-Sprachgesteuerte Auswahlmenüs IVR',
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.9'
+]);
+Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
+    'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
+    'meta_description' => 'Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.',
+    'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
+]);
+Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
+    'title' => 'Callcenter Software mit Analyse und Coaching in Sales & Kundenservice',
+    'meta_description' => 'Verbessern Sie Ihren Sales & Service mit dem i2x Client. Sprachanalyse und Coaching in Echtzeit als Integration in der CallOne Callcenter Software.',
+    'og_image_text' => 'Echtzeitsprachanalyse für besseren Sales und Service',
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.9'
+]);
+Router::add('/statistiken', 'statistiken.php', [
+    'title' => 'Call Center Software Statistiken | KPI, SLA mit BI-Integration',
+    'meta_description' => 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.',
+    'og_image_text' => 'Call Center Software Statistiken, KPI, SLA, BI-Integration',
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
+]);
+Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife.php', [
+    'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
+    'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
+    'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.8'
+]);
+Router::add('/voip-api', 'voip-api.php', [
+    'title' => 'Telefon Schnittstellen für alle Belange',
+    'meta_description' => 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.',
+    'og_image_text' => 'Telefon Schnittstellen für alle Belange',
+    'menu_position' => 'loesungen',
+    'sitemap_priority' => '0.6'
 ]);
 
 /* ************************ **
-** ** MENU WARUM CALLONE ** **
+** ** MENU CALLONE ** **
 ** ************************ */
 Router::add('/customer-success', 'customer-success.php', [
     'title' => 'Effiziente Unternehmenstelefonie mit CallOne',
@@ -302,6 +296,11 @@ foreach ($jobs->jobs_get() as $job) {
 /* ****************** **
 ** ** OTHERS (A-Z) ** **
 ** ****************** */
+Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
+    'title' => 'Callcenter Einsparpotential',
+    'meta_description' => '',
+    'og_image_text' => 'Jetzt Ihr mögliches Einsparpotential berechnen',
+]);
 Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
     'title' => 'Callcenter Software Features',
     'body_class' => 'bg-kundenservice',
@@ -312,6 +311,12 @@ Router::add('/callcenter-software-funktionen', 'callcenter-software-funktionen.p
     'meta_description' => 'Die vielleicht umfangreichste Auswahl an Funktionen im Bereich virtueller Telefonanlagen. Vergleichen Sie unser Angebot und sprechen Sie mit uns. Jetzt anrufen!',
     'body_class' => 'bg-preisanfrage',
     'og_image_text' => 'Die vielleicht umfangreichste Auswahl an Funktionen'
+]);
+Router::add('/callcenter-software-integrationen', 'callcenter-software-integrationen.php', [
+    'title' => 'Integrieren Sie Anrufe in Ihre Businesstools und steuern Sie Anrufe bequem mit in Ihre CRM, Ticketing oder BI-Tool',
+    'meta_description' => 'Verbinden Sie CRM, Analytics, Ihre Abrechnung und weitere Integrationen mit Ihrer Cloud Telefonanlage und Callcenter Software.',
+    'og_image_text' => 'Integrieren Sie Anrufe in Ihre Businesstools',
+    'sitemap_priority' => '0.8'
 ]);
 Router::add('/cti-salesforce', 'cti/salesforce.php', [
     'title' => 'CallOne Salesforce Integration',
@@ -328,7 +333,6 @@ Router::add('/datenschutz', 'datenschutz.php', [
     'title' => 'CallOne Datenschutz - DSGVO, Cloud EU',
     'meta_description' => 'CallOne bietet VoIP-Telefonanlagen und Callcenter Lösungen aus der deutschen Cloud. Datenschutz hat für uns oberste Priorität. ✔  DSGVO-konform  ✔',
     'og_image_text' => 'CallOne Datenschutz, DSGVO, Cloud EU',
-    'menu_position' => 'callone'
 ]);
 Router::add('/download', 'downloads.php', [
     'title' => 'CallOne Downloads',
@@ -384,13 +388,6 @@ Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'meta_description' => 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Telefoniedaten und Callcenter-KPIs in Ihre Tableau Dashboards und Datenanalysen',
     'body_class' => 'bg-karriere',
     'og_image_text' => 'Tableau Callcenter Connector'
-]);
-Router::add('/voip-api', 'voip-api.php', [
-    'title' => 'Telefon Schnittstellen für alle Belange',
-    'meta_description' => 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.',
-    'og_image_text' => 'Telefon Schnittstellen für alle Belange',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.6'
 ]);
 Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.php', [
     'title' => 'Features, Funktionen, Vergleich VoIP-Telefonanlage '.date('Y'),
