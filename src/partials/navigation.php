@@ -32,102 +32,6 @@ require_once('banderole.php');
         </a>
 
         <ul>
-            <li class="navigation__item<?= $page->menu_position == 'loesungen' ? ' navigation__item--active' : '' ?>">
-                <div class="navigation__link navigation__link--arrow">
-                    <span>Lösungen</span>
-                </div>
-
-                <div class="navigation__submenu submenu">
-                    <div class="submenu__inner">
-                        <div class="submenu__left submenu__row">
-                            <div class="submenu__column submenu__column--border-right" style="--col-width:360px;">
-                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/callone-plattform.png" alt="Telekommunikationslösungen von CallOne" />
-                                    </div>
-                                    <div class="submenu__link-text">
-                                        <strong>CallOne Plattform</strong>
-                                        <p>Unsere Kern-Telefonieprodukte die tief ineinander verzahnt sind</p>
-                                    </div>
-                                </div>
-
-                                <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/voip-telefonanlage') ?>">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-cloud-voip-telefonanlage.png" alt="Cloud Telefonanlage von CallOne" />
-                                    </div>
-                                    <div class="submenu__link-text">
-                                        <strong>Telefonanlage in der Cloud</strong>
-                                        <p>Egal ob im Büro oder Homeoffice. Gehostet in der deutschen Cloud.</p>
-                                    </div>
-                                </a>
-
-                                <a href="/callcenter-software" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software') ?>">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
-                                    </div>
-                                    <div class="submenu__link-text">
-                                        <strong>Callcenter-Software<span class="submenu__link-tag">Beliebt</span></strong>
-                                        <p>Cloud Voice Lösung optimal für den Einsatz im Kundenservice und Inside-Sales</p>
-                                    </div>
-                                </a>
-
-                                <a href="/callcenter-software-integrationen" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
-                                    <div class="submenu__link-icon">
-                                        <img src="/assets/images/navigation/menu-apis.png" alt="CRM Integration und Schnittstellenanbindung an CallOne mit APIs" />
-                                    </div>
-                                    <div class="submenu__link-text">
-                                        <strong>Kommunikations-APIs</strong>
-                                        <p>Von CRM-Integration bis individueller Schnittstellen&shy;anbindung liefern wir passende Anbindungen</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="submenu__column" style="--col-width:270px;">
-                                <div class="submenu__mobile-divider"></div>
-
-                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
-                                    <div class="submenu__link-text">
-                                        <strong>Geschäftsergebnisse</strong>
-                                        <p>Wir schaffen überdurchschnittliche Kundenerlebnisse</p>
-                                    </div>
-                                </div>
-
-                                <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
-                                    <div class="submenu__link-text">
-                                        <strong>Smarte Warteschleifen</strong>
-                                        <p>Bessere Erreichbarkeit mit Rückrufoptionen</p>
-                                    </div>
-                                </a>
-
-                                <a href="/statistiken" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/statistiken') ?>">
-                                    <div class="submenu__link-text">
-                                        <strong>Echtzeit-Analysen</strong>
-                                        <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
-                                    </div>
-                                </a>
-
-                                <a href="/callcenter-software-apps" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software-apps') ?>">
-                                    <div class="submenu__link-text">
-                                        <strong>Passgenaue Einbindung</strong>
-                                        <p>Teams-Telefonie, CRM- und BI-Apps, Schnittstellen</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="submenu__right submenu__right--align-bottom">
-                            <div class="submenu__ad">
-                                <a href="/ms-teams"><img src="/assets/images/navigation/teams-ad.svg" alt="Teams Telefonie als Cloud Telefonanlage" width="270" height="270" /></a>
-                            </div>
-
-                            <a href="/ms-teams" class="submenu__link submenu__link--3-lines">
-                                <div class="submenu__link-text">
-                                    <strong>Microsoft Teams</strong>
-                                    <p>Integrieren Sie Ihre CallOne-Telefonanlage in Microsoft-Teams. Businesstelefonie war nie einfacher.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </li>
             <li class="navigation__item<?= $page->menu_position == 'produkte' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
                     <span>Produkte</span>
@@ -143,14 +47,34 @@ require_once('banderole.php');
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>CallOne Produkte</strong>
-                                        <p>Bringen Sie Ihre Businesstelefonie <br />auf’s nächste Level</p>
+                                        <p>Bringen Sie Ihre Businesstelefonie auf das nächste Level</p>
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="submenu__row submenu__row--fill">
                                 <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
-                                <a href="/0800-lokal-nummern" class="submenu__link<?= getPageActiveClass('/0800-lokal-nummern') ?>">
+                                    <a href="/voip-telefonanlage" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/voip-telefonanlage') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-cloud-voip-telefonanlage.png" alt="Cloud Telefonanlage von CallOne" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Telefonanlage in der Cloud</strong>
+                                            <p>Egal ob im Büro oder Homeoffice. Gehostet in der deutschen Cloud.</p>
+                                        </div>
+                                    </a>
+    
+                                    <a href="/callcenter-software" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/callcenter-software') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-callcenter-software-icon.png" alt="Callcenter Software von CallOne" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Callcenter-Software<span class="submenu__link-tag">Beliebt</span></strong>
+                                            <p>Cloud Voice Lösung optimal für den Einsatz im Kundenservice und Inside-Sales</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/0800-lokal-nummern" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/0800-lokal-nummern') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-numbers.png" alt="lokale, nationale und internationale Rufnummern schalten" />
                                         </div>
@@ -159,8 +83,9 @@ require_once('banderole.php');
                                             <p>Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich & weltweit</p>
                                         </div>
                                     </a>
-
-                                    <a href="/ms-teams" class="submenu__link<?= getPageActiveClass('/ms-teams') ?>">
+                                </div>
+                                <div class="submenu__column" style="--col-width:330px;">
+                                    <a href="/ms-teams" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/ms-teams') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-teams.png" alt="Teams Telefonie als Cloud Telefonanlage" />
                                         </div>
@@ -169,51 +94,7 @@ require_once('banderole.php');
                                             <p>Die smarte Telefonie für Ihr Unternehmen</p>
                                         </div>
                                     </a>
-
-                                    <a href="/callcenter-bot" class="submenu__link<?= getPageActiveClass('/callcenter-bot') ?>">
-                                        <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-callcenter-bot.png" alt="Sprachgesteuerte KI Systeme mit dem CallOne Callcenter Bot" />
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>Callcenter-Bot</strong>
-                                            <p>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/softphone" class="submenu__link<?= getPageActiveClass('/softphone') ?>">
-                                        <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-softphone.png" alt="VoIP Telefonie mit dem CallOne Softphone" />
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>VoIP-Softphone</strong>
-                                            <p>Softphone integriert in Ihren Lieblingsbrowser</p>
-                                        </div>
-                                    </a>
-                                    
-                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
-                                        <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>Call-Tracking</strong>
-                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
-                                        </div>
-                                    </a>
-                                    
-                                    <a href="/callcenter-sprachanalyse" class="submenu__link<?= getPageActiveClass('/callcenter-sprachanalyse') ?>">
-                                        <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>
-                                                i2x Sprachanalyse
-                                                <span class="submenu__link-tag">NEU</span>
-                                            </strong>
-                                            <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
-                                        </div>
-                                    </a>
-                                    
+                                                                        
                                     <!-- <a href="#todo" class="submenu__link">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="virtueller Assistent IT Helpdesk für Serviceboard" />
@@ -223,6 +104,16 @@ require_once('banderole.php');
                                             <p>Managen Sie Ihr Telefonaufkommen mit einem Serviceboard</p>
                                         </div>
                                     </a> -->
+
+                                    <a href="/softphone" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/softphone') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-softphone.png" alt="VoIP Telefonie mit dem CallOne Softphone" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>VoIP-Softphone</strong>
+                                            <p>Softphone integriert in Ihren Lieblingsbrowser</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -244,14 +135,121 @@ require_once('banderole.php');
                             <a href="/callcenter-software#mehrwertrechner" class="submenu__link">
                                 <div class="submenu__link-text">
                                     <strong>Entscheidungshilfe</strong>
-                                    <p>Berechnen Sie Ihre Einsparpotenzial mit CalllOne Callcenter Software</p>
+                                    <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="navigation__item<?= $page->menu_position == 'loesungen' ? ' navigation__item--active' : '' ?>">
+                <div class="navigation__link navigation__link--arrow">
+                    <span>Lösungen</span>
+                </div>
+
+                <div class="navigation__submenu submenu">
+                    <div class="submenu__inner">
+                        <div class="submenu__left">
+                            <div class="submenu__row">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
+                                    <div class="submenu__link-icon">
+                                        <img src="/assets/images/navigation/callone-plattform.png" alt="Telekommunikationslösungen von CallOne" />
+                                    </div>
+                                    <div class="submenu__link-text">
+                                        <strong>CallOne Plattform Lösungen</strong>
+                                        <p>Eine Plattform, unendliche Möglichkeiten</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="submenu__row submenu__row--fill">
+                                <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
+                                    <a href="/callcenter-software-apps" class="submenu__link<?= getPageActiveClass('/callcenter-software-apps') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-apis.png" alt="CRM Integration und Schnittstellenanbindung an CallOne mit APIs" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Anbindungen und Apps</strong>
+                                            <p>CRM und Ticketing, BI und Reporting</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/callcenter-sprachanalyse" class="submenu__link<?= getPageActiveClass('/callcenter-sprachanalyse') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-i2x.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                                Sprachanalyse
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
+                                            <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/callcenter-bot" class="submenu__link<?= getPageActiveClass('/callcenter-bot') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-callcenter-bot.png" alt="Sprachgesteuerte KI Systeme mit dem CallOne Callcenter Bot" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Callcenter-Bot</strong>
+                                            <p>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                        <div class="submenu__link-icon">
+                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Call-Tracking</strong>
+                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="submenu__column" style="--col-width:330px;">
+                                    <a href="/telefonanlage-mit-warteschleife" class="submenu__link<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Warteschleifen in Smart</strong>
+                                            <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/statistiken" class="submenu__link<?= getPageActiveClass('/statistiken') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Statistiken und Echtzeitanalysen</strong>
+                                            <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/voip-api" class="submenu__link<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Schnittstellen für jede Anforderung</strong>
+                                            <p>API first, von Entwicklern - für Entwicklern</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submenu__right">
+                            <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
+                                <div class="submenu__link-text">
+                                    <strong>Unser Serviceangebot</strong>
+                                    <p>Mit persönlichen Ansprechpartnern erklären wir unsere Lösungen</p>
+                                </div>
+                            </div>
+
+                            <a href="#" class="submenu__link" data-openmodal="contact-sales">
+                                <div class="submenu__link-text">
+                                    <strong>Produktdemo<span class="submenu__link-tag">Live</span></strong>
+                                    <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
                                 </div>
                             </a>
 
-                            <a href="/preiskalkulator" class="submenu__link<?= getPageActiveClass('/preiskalkulator') ?>">
+                            <a href="/callcenter-software#mehrwertrechner" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Preiskonfigurator</strong>
-                                    <p>Finden Sie heraus, wieviel Sie Ihr CallOne-Paket ungefähr kostet</p>
+                                    <strong>Entscheidungshilfe</strong>
+                                    <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
                                 </div>
                             </a>
                         </div>
@@ -260,7 +258,7 @@ require_once('banderole.php');
             </li>
             <li class="navigation__item<?= $page->menu_position == 'callone' ? ' navigation__item--active' : '' ?>">
                 <div class="navigation__link navigation__link--arrow">
-                    <span>Warum CallOne</span>
+                    <span>Unternehmen</span>
                 </div>
 
                 <div class="navigation__submenu submenu">
@@ -275,14 +273,14 @@ require_once('banderole.php');
                                 </div>
                             </div>
                             <div class="submenu__row">
-                                <div class="submenu__column" style="--col-width:300px">
+                                <div class="submenu__column" style="--col-width:350px">
                                     <a href="/case-study-check24" class="submenu__link<?= getPageActiveClass('/case-study-check24') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/check24.png" alt="Check24 Kundenzufriedenheit CallOne" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Check24</strong>
-                                            <p>Umfangreiche Integration über APIs & Webhooks</p>
+                                            <p>Umfangreiche BI-Statistiken und Sprachanalyse</p>
                                         </div>
                                     </a>
         
@@ -292,7 +290,7 @@ require_once('banderole.php');
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Flaconi</strong>
-                                            <p>Zusammenspiel von Telefonanlage & ACD-Lösung</p>
+                                            <p>Zusammenspiel von Telefonanlage und ACD-Lösung</p>
                                         </div>
                                     </a>
 
@@ -302,7 +300,7 @@ require_once('banderole.php');
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>niceshops</strong>
-                                            <p>Callcenter-Software, VoIP mit Freshdesk-Anbindung</p>
+                                            <p>Callcenter-Software mit CRM Freshdesk-Anbindung</p>
                                         </div>
                                     </a>
     
@@ -312,7 +310,7 @@ require_once('banderole.php');
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Apodiscounter</strong>
-                                            <p>Intelligente Anrufsteuerung mit KI</p>
+                                            <p>Intelligente Anrufsteuerung mit KI und Callback</p>
                                         </div>
                                     </a>
                                 </div>
@@ -321,7 +319,7 @@ require_once('banderole.php');
                         <div class="submenu__right" style="--width:270px">
                             <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
-                                    <strong>Warum CallOne?</strong>
+                                    <strong>CallOne GmbH</strong>
                                     <p>Was uns zu einem hervoragenden deutschen Telefonieanbieter macht</p>
                                 </div>
                             </div>
