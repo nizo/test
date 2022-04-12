@@ -274,6 +274,7 @@ Redirect 301 /faq.php /faq/
 Redirect 301 /jobs /karriere
 Redirect 301 /karriere.php /karriere
 Redirect 301 /preise /callcenter-software
+Redirect 301 /preiskalkulator /callcenter-einsparpotential
 Redirect 301 /pricing.php /callcenter-software
 Redirect 301 /referenzen /customer-success
 Redirect 301 /salesforce-open-cti.php /cti-salesforce
