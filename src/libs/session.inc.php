@@ -2,7 +2,7 @@
 // session configuration
 session_set_cookie_params([
 	'Secure' => 1,
-	'SameSite' => 'Lax'
+	'SameSite' => 'None'
 ]);
 
 // init
