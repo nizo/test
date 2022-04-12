@@ -56,7 +56,7 @@ function deleteAllCookies() {
 /* simple encode function (bitweise) */
 function encode(str) {
 	var encoded = "";
-	for (i=0; i<str.length;i++) {
+	for (let i=0; i<str.length;i++) {
 		var a = str.charCodeAt(i);
 		var b = a ^ 6;
 		encoded = encoded+String.fromCharCode(b);
@@ -67,7 +67,7 @@ function encode(str) {
 /* simple decode function (bitweise) */
 function decode(str) {
 	var decoded = "";
-	for (i=0; i<str.length;i++) {
+	for (let i=0; i<str.length;i++) {
 		var b = str.charCodeAt(i);
 		var a = b ^ 6;
 		decoded = decoded+String.fromCharCode(a);

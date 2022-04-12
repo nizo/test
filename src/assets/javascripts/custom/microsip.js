@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function()
 				sipsubmit.style.display = 'block';
 			}
 		})
-		.catch(response => {
+		.catch(error => {
 			console.error (JSON.stringify (error));
 			siphint.innerHTML = 'Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.';
 			sipsubmit.style.display = 'block';
