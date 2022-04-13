@@ -273,7 +273,7 @@
           </div>
           <div class="col-3">
             <span class="sl sl-recorder sl-size-xl"></span>
-            <h3>Gesprächsaufzeichnung</h3>
+            <h3>Gesprächs&shy;aufzeichnung</h3>
             <p>Um den optimalen Servicelevel zu halten halten und regelmäßig auf Fehler überprüfen zu können, können Gespräche jederzeit aufgezeichnet werden. Gespräche können auf Anrufer- und Agentenseite aufgezeichnet werden – sowohl manuell als auch voll automatisch.</p>
           </div>
           <div class="col-3">
