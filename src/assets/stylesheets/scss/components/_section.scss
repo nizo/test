@@ -67,6 +67,8 @@
     }
     &--white-blue-white {
         background-image: linear-gradient(#fff, rgba(0, 136, 234, 0.05), #fff);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     &--light-grey {
