@@ -335,7 +335,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <p>
-                            <a href="tel:+493092033500" class="inline-link bigtext">+49 (0) 30 - 920 33 500</a><br />
+                            <a href="tel:+493092033500" class="inline-link bigtext">030 920 33 500</a><br />
                             Rufen Sie uns gerne an. Wir beraten Sie sehr gerne.
                         </p>
                     </div>

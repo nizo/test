@@ -106,7 +106,7 @@ $uniqueID = uniqid();
 
             <div class="sales-contact-form__details">
                 <div>
-                    <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" /> <strong>Anruf:</strong> <a href="tel:+493092033500">+49 (0) 30 - 920 33 500</a></p>
+                    <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" /> <strong>Anruf:</strong> <a href="tel:+493092033500">030 920 33 500</a></p>
                 </div>
                 <div>
                     <p><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de">info@callone.de</a></p>

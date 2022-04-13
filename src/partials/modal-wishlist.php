@@ -46,21 +46,21 @@
                             </form>
                             <div class="formSuccess">
                             	<strong class="h3">Vielen Dank für Ihre Anfrage!</strong>
-                            	<p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500">+49 (0) 30-920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
+                            	<p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500">030 920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
             					<p>Sie erhalten demnächst eine E-Mail zur Bestätigung Ihrer Anfrage bei uns. Dort finden Sie auch nochmal alle weiteren Kontaktinformationen.</p>
             					<p>Wir sind für Sie da.<br>Ihr CallOne-Team</p>
                             </div>
                             <div class="formFail">
                             	<strong class="h3">Ihre Anfrage konnte nicht gesendet werden!</strong>
                             	<p>Es ist leider ein Fehler beim übertragen der Daten aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
-                				<p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
+                				<p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">030 920 33 500</a></p>
                 				<p>Ihr CallOne-Team</p>
                             </div>
                         </div>
                         <div class="modalBox emailContact hidden padding">
                         	<span class="h2">Kontakt per E-Mail</span>
                         	<p>Es öffnet sich nun ihr E-mail Client. Dort werden Ihre Wunschthemen eingefügt. Zum kontakt aufbauen einfach die E-Mail absenden und wir melden uns zeitnah bei Ihnen für eine Beratung zurück.</p>
-                        	<p>Alternativ können Sie uns auch gerne jetzt telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">+49 (0) 30-920 33 500</a></p>
+                        	<p>Alternativ können Sie uns auch gerne jetzt telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne.">030 920 33 500</a></p>
                 			<p>Ihr CallOne-Team</p>
                         </div>
     				</div>
@@ -70,7 +70,7 @@
                     		<ul class="list approved-list wish-list">
                     		</ul>
                 			<strong class="h3 headline">Sie möchten sofort Kontakt?</strong>
-                    		<p>Dann kontaktieren Sie uns jetzt telefonisch unter <br><a href="tel:+493092033500">+49 (0) 30-920 33 500</a></p>
+                    		<p>Dann kontaktieren Sie uns jetzt telefonisch unter <br><a href="tel:+493092033500">030 920 33 500</a></p>
                         </div>
             		</div>
             	</div>

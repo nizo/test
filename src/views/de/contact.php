@@ -88,7 +88,7 @@
     <div class="contactpage__footer">
         <div>
             <h3>Anruf</h3>
-            <p><a href="tel:+493092033500">+49 (0) 30 - 920 33 500</a></p>
+            <p><a href="tel:+493092033500">030 920 33 500</a></p>
         </div>
         <div>
             <h3>E-Mail</h3>
