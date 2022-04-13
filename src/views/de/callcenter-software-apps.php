@@ -64,9 +64,22 @@ $product->structured_data_get_code ();
 </div>
 
 <div class="section">
+	<div class="anchors">
+		<div class="anchors__title">
+			<strong>Schnelleinstieg:</strong> Was interessiert dich?
+		</div>
+		<div class="anchors__links">
+			<a href="#crm_ticketing">CRM und Ticketing</a>
+			<a href="#data_analysis">Reporting und Statistiken</a>
+			<a href="#browser_addon">Browser-Erweiterung</a>
+		</div>
+	</div>
+</div>
+
+<div class="section" id="crm_ticketing">
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left" style="margin-top:0">
-            Integrationen für CRM/Ticketing
+            Integrationen für CRM und Ticketing
         </h2>
         <p class="bigtext centered mobile-left">
             Alle dürfen mitspielen. <br class="mobile-hidden">
@@ -154,7 +167,9 @@ $product->structured_data_get_code ();
             </div>
         </div>
     </div>
+</div>
 
+<div class="section" id="data_analysis">
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left">
             Apps für Reports, Wallboards, Statistiken
@@ -233,11 +248,10 @@ $product->structured_data_get_code ();
             </div>
         </div>
     </div>
+</div>
 
+<div class="section" id="browser_addon">
     <div class="section__content section__content--narrow">
-        <h4 class="centered mobile-left">
-            Direkt aus dem Browser anrufen
-        </h4>
         <h2 class="centered mobile-left" style="margin-top:0">
             Browser-Erweiterung
         </h2>

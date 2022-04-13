@@ -157,7 +157,7 @@ require_once('banderole.php');
                                     </div>
                                     <div class="submenu__link-text">
                                         <strong>CallOne Plattform Lösungen</strong>
-                                        <p>Eine Plattform, unendliche Möglichkeiten</p>
+                                        <p>Eine Plattform, fertige Erweiterungen - unendliche Möglichkeiten</p>
                                     </div>
                                 </div>
                             </div>
@@ -225,7 +225,7 @@ require_once('banderole.php');
                                     <a href="/voip-api" class="submenu__link<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
                                         <div class="submenu__link-text">
                                             <strong>Schnittstellen für jede Anforderung</strong>
-                                            <p>API first, von Entwicklern - für Entwicklern</p>
+                                            <p>API first, von Entwicklern - für Entwickler</p>
                                         </div>
                                     </a>
                                 </div>
