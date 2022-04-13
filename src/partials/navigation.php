@@ -210,7 +210,7 @@ require_once('banderole.php');
                                 <div class="submenu__column" style="--col-width:330px;">
                                     <a href="/telefonanlage-mit-warteschleife" class="submenu__link<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
                                         <div class="submenu__link-text">
-                                            <strong>Warteschleifen in Smart</strong>
+                                            <strong>Warteschleifen</strong>
                                             <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
                                         </div>
                                     </a>
