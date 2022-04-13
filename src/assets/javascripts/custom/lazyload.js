@@ -85,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   
   /*** LazyLoading Javascript ***/
-  let jsFiles = [];
   function lazyLoadingJS(width) {	
   	if ( jsFiles.length < 0 ) {
   		return;
