@@ -27,7 +27,7 @@
             </div>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Sales kontaktieren</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Beratungsgespräch</a>
             </p>
         </div>
     </header>
