@@ -29,6 +29,9 @@ require_once('banderole.php');
         ?>
         <a href="/" class="navigation__logo<?= isChristmas() ? ' navigation__logo--christmas' : '' ?>" title="Zur Startseite von CallOne">
             <object data="/assets/images/logo/<?= $logo ?>" type="image/svg+xml"></object>
+            <?php if ($page->shorttitle): ?>
+                <div class="navigation__title"><?= $page->shorttitle; ?></div>
+            <?php endif; ?>
         </a>
 
         <ul>
@@ -450,9 +453,9 @@ require_once('banderole.php');
         </ul>
 
         <div class="navigation__right">
-            <a href="tel:+493092033500" class="navigation__phonenumber">+49(0)30-92033500</a>
+            <a href="tel:+493092033500" class="navigation__phonenumber"><span>+49(0)30-92033500</span></a>
             <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
-            <a href="https://box.callone.de" target="_blank" rel="nofollow noreferrer">Login</a>
+            <a href="https://box.callone.de" class="navigation__login" target="_blank" rel="nofollow noreferrer">Login</a>
         </div>
 
         <div class="navigation__mobile-button">

@@ -45,6 +45,10 @@ $navMinHeight: 570px;
             top: var(--navigationHeightScrolled);
         }
 
+        .navigation__logo object {
+            width: 117px;
+        }
+
         .navigation__submenu {
             padding-top: 21px;
         }
@@ -167,14 +171,20 @@ $navMinHeight: 570px;
         margin-right: var(--gutter-m);
         width: auto;
         height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
 
         object {
             position: relative;
             left: -20px;
+            margin-right: -20px;
             display: block;
-            width: auto;
+            width: 167px;
             height: 100%;
             pointer-events: none;
+            transition: all .3s ease;
         }
     }
     &__logo--christmas {
@@ -183,12 +193,21 @@ $navMinHeight: 570px;
         }
     }
 
+    &__title {
+        font-size: 14px;
+        color: rgba(#000, .5);
+        padding-top: 6px;
+        letter-spacing: -0.05em;
+        margin-left: var(--gutter-xs);
+    }
+
     &__right {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         right: 25px;
         display: flex;
+        align-items: center;
         
         a {
             --fw: 500;
@@ -202,6 +221,19 @@ $navMinHeight: 570px;
 
             &+a {
                 margin-left: var(--gutter-s);
+            }
+
+            &.navigation__phonenumber {
+                &:before {
+                    content: "";
+                    display: none;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url(../images/icons_svg/telephony-indicator.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
             }
 
             &:hover {
@@ -444,15 +476,41 @@ a.submenu__link {
 /*
  * Responsive Styles
  */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
     .navigation {
+        &__links {
+            ul {
+                margin-left: auto;
+            }
+        }
+
         &__right {
+            position: relative;
+            top: unset;
+            right: unset;
+            transform: unset;
+
             a {
                 &.navigation__phonenumber {
+                    &:before {
+                        display: block;
+                    }
+
+                    span {
+                        display: none;
+                    }
+                }
+                &.navigation__login {
                     display: none;
                 }
             }
         }
+    }
+
+    .submenu {
+        left: unset;
+        right: 0;
+        transform: translateY(100%);
     }
 }
 @media screen and (max-width: #{$navMinWidth}),
@@ -497,6 +555,21 @@ a.submenu__link {
                     border-color: $color-primary;
                 }
             }
+        }
+
+        &__logo {
+            left: 0;
+            
+            object {
+                width: 117px;
+                left: unset;
+                margin-right: unset;
+            }
+        }
+
+        &__title {
+            margin-left: var(--gutter-micro);
+            padding-top: 5px;
         }
 
         &--mobile-open {
