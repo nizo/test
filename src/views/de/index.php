@@ -173,7 +173,7 @@
                                     <h3>Unsere Telefonanlage verdient für Sie Geld und reduziert Ihre Kosten</h3>
                                     <p class="bigtext">Wir steigern nachweislich Ihren ROI, <br class="mobile-hidden" />indem wir gemeinsam an den großen <br class="mobile-hidden" />Stellschrauben im Kundenservice drehen.</p>
                                     <p class="mobile-centered">
-                                        <a href="/callcenter-software#mehrwertrechner" class="btn btn--primary">Mehr erfahren</a>
+                                        <a href="/callcenter-einsparpotential" class="btn btn--primary">Mehr erfahren</a>
                                     </p>
                                     <br class="mobile-hidden" />
                                     <br class="mobile-hidden" />

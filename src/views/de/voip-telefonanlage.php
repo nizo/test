@@ -573,7 +573,7 @@ $faqs->faq_add (
                         <p class="bigtext">Wir verkürzen und verbessern Ihre Telefonate durch Schnittstellen, Automatisierungen und umfangreiche Statistiken. So wird ihre Businesstelefonie schnell, smart und effizient - und spart nachweislich Kosten!</p>
 
                         <p>
-                            <a href="/callcenter-software#mehrwertrechner" class="btn btn--secondary btn--centered">Jetzt ROI berechnen</a>
+                            <a href="/callcenter-einsparpotential" class="btn btn--secondary btn--centered">Jetzt ROI berechnen</a>
                         </p>
                     </div>
                 </div>
