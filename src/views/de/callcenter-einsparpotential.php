@@ -1,22 +1,22 @@
 <div class="section section--mobile-divider">
     <div class="hero">
         <div class="hero__text">
-            <h1>Ihr mögliches <u>Einsparpotential</u> <br class="mobile-hidden" />mit CallOne-Lösungen</h1>
-            <p class="bigtext">Sie fragen sich was Sie mit der CallOne-Lösung sparen können? Rechnen Sie es direkt hier aus und fangen Sie noch heute an zu sparen!</p>
+            <h1>Jetzt Ihr <u>Einsparpotential</u> <br class="mobile-hidden" />durch CallOne-Lösungen entdecken!</h1>
+            <p class="bigtext">Sie fragen sich, was Sie mit der CallOne-Lösung sparen können? Berechnen Sie gleich hier Ihr Potential. Fangen Sie noch heute an zu sparen!</p>
 
             <p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Beratungsgespräch sichern</a>
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/zeit-und-kosten.svg" alt="" width="465" height="420" />
+            <img src="/assets/images/illus/zeit-und-kosten.svg" alt="Im Kundenservice mit Cloud ACD sparen" width="465" height="420" />
         </div>
     </div>
 </div>
 
 <div class="section section--white-blue-white" id="mehrwertrechner">
 	<div class="section__content section__content--narrow saving-calculation--mobile">
-		<h2>Lust Ihr Einsparpotential direkt hier zu berechnen?</h2>
+		<h2>Lust, Ihr Einsparpotential direkt hier zu berechnen?</h2>
 		
 		<div class="content-box content-box--white content-box--shadow">
 			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="Open Desktop Browser für Mehrwertrechner Callcenter Software" width="48" height="48" /></p>
@@ -413,7 +413,7 @@
 <div class="section">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Maximale Ersparnis bei maximaler Leistung</h1>
-        <p class="centered mobile-left bigtext"><!-- TODO: Text -->Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut cum veritatis sit odio architecto voluptatem, rem placeat corrupti libero modi beatae quas id a, sequi saepe voluptatum amet corporis consequuntur.</p>
+        <p class="centered mobile-left bigtext">Effizienz ist Trumpf. Darum beinhalten unsere Lösungen genau die Funktionen und Add-Ons, die Sie brauchen. So steigern Sie die Effizienz Ihrer Unternehmenstelefonie, erhöhen die Zufriedenheit Ihrer Kunden und sparen Ihrem Unternehmen bares Geld.</p>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
