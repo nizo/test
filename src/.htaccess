@@ -70,12 +70,13 @@ RewriteRule ^favicon.ico$ /assets/images/favicons/favicon.ico [L]
     AddOutputFilterByType DEFLATE application/json    
     AddOutputFilterByType DEFLATE text/javascript
     AddOutputFilterByType DEFLATE text/xml
+    AddType image/svg+xml .svg
     AddOutputFilterByType DEFLATE image/svg+xml
     AddOutputFilterByType DEFLATE image/x-icon
     AddOutputFilterByType DEFLATE font/opentype
-  	AddOutputFilterByType DEFLATE font/otf
-  	AddOutputFilterByType DEFLATE font/ttf
-  	AddOutputFilterByType DEFLATE font/woff
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE font/woff
     AddOutputFilter DEFLATE .shtml
 
     # https://httpd.apache.org/docs/current/mod/mod_mime.html#addencoding
