@@ -336,7 +336,7 @@ require_once('banderole.php');
 
                             <a href="/dsgvo-telekommunikation" class="submenu__link<?= getPageActiveClass('/dsgvo-telekommunikation') ?>">
                                 <div class="submenu__link-text">
-                                    <strong>Datenschutz</strong>
+                                    <strong>Datenschutz und Sicherheit</strong>
                                     <p>Wie wir Ausfallsicherheit und DSGVO-Kompatibilität garantieren</p>
                                 </div>
                             </a>

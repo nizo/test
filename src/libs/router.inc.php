@@ -144,7 +144,7 @@ Router::add('/0800-lokal-nummern', 'rufnummern.php', [
     'sitemap_priority' => '0.9'
 ]);
 Router::add('/ms-teams', 'ms-teams.php', [
-    'shorttitle' => 'MS-Teams',
+    'shorttitle' => 'Microsoft Teams',
     'title' => 'Teams Telefonie: Die smarte Telefonie für Ihr Unternehmen',
     'meta_description' => 'Integrieren Sie Ihre Business-Telefonie in Microsoft Teams. Als Teams only oder in Kombination mit der CallOne Callcenter Software auf Ihre Ansprüche abgestimmt!',
     'menu_position' => 'produkte',
@@ -180,7 +180,7 @@ Router::add('/callcenter-bot', 'callcenter-bot.php', [
     'sitemap_priority' => '0.9'
 ]);
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
-    'shorttitle' => 'Callcenter Software Apps',
+    'shorttitle' => 'Anbindungen und Apps',
     'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
     'meta_description' => 'Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.',
     'og_image_text' => 'CRM und Ticketing kombiniert mit dem Telefon',
@@ -188,7 +188,7 @@ Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
     'sitemap_priority' => '0.8'
 ]);
 Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
-    'shorttitle' => 'Callcenter Sprachanalyse',
+    'shorttitle' => 'Sprachanalyse',
     'title' => 'Callcenter Software mit Analyse und Coaching in Sales & Kundenservice',
     'meta_description' => 'Verbessern Sie Ihren Sales & Service mit dem i2x Client. Sprachanalyse und Coaching in Echtzeit als Integration in der CallOne Callcenter Software.',
     'og_image_text' => 'Echtzeitsprachanalyse für besseren Sales und Service',
@@ -212,7 +212,7 @@ Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife
     'sitemap_priority' => '0.8'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
-    'shorttitle' => 'VoIP API',
+    'shorttitle' => 'Schnittstellen',
     'title' => 'Telefon Schnittstellen für alle Belange',
     'meta_description' => 'Schaffen Sie Anbindungen zu Ihrem CRM, BI oder ERP-System und nutzen Sie die Vorteile von Big Data.',
     'og_image_text' => 'Telefon Schnittstellen für alle Belange',
@@ -232,7 +232,7 @@ Router::add('/customer-success', 'customer-success.php', [
     'sitemap_priority' => '0.7'
 ]);
 Router::add('/dsgvo-telekommunikation', 'dsgvo-telekommunikation.php', [
-    'shorttitle' => 'DSGVO Telekommunikation',
+    'shorttitle' => 'Datenschutz und Sicherheit',
     'title' => 'Datenschutz in der Telekommunikation mit CallOne',
     'meta_description' => 'Gehen Sie mit Ihrer Cloud Telefonanlage auf Nummer sicher. CallOne hostet in Deutschland und bietet die vielleicht umfänglichsten Optionen beim Thema Datenschutz',
     'og_image_text' => 'Datenschutz in der Telekommunikation mit CallOne',
@@ -290,7 +290,7 @@ Router::add('/case-study-niceshops', 'case-study-niceshops.php', [
 ** ** KARRIERE ** **
 ** ************** */
 Router::add('/karriere', 'karriere.php', [
-    'shorttitle' => 'Karriere',
+    'shorttitle' => 'Offene Stellen',
     'title' => 'CallOne Karriere - Alle offenen Stellen',
     'meta_description' => 'Offene Stellen bei CallOne: Langfristigkeit, gute Bezahlung, keine Überstunden und Struktur. Bewirb Dich jetzt!',
     'og_image_text' => 'CallOne Karriere Alle offenen Stellen',
@@ -308,7 +308,7 @@ foreach ($jobs->jobs_get() as $job) {
     if (empty($job->url_get()))
         continue;
     Router::add($job->url_get(), 'karriere-details.php', [
-        'shorttitle' => 'Karriere',
+        'shorttitle' => $job->category_get().' Karriere',
         'title' => 'CallOne Karriere - '.$job->title_get(),
         'meta_description' => $job->title_get().': '.$job->description_get(),
         'og_image_text' => $job->title_get().'__CallOne Karriere',
@@ -430,7 +430,7 @@ Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'og_image_text' => 'Tableau Callcenter Connector'
 ]);
 Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.php', [
-    'shorttitle' => 'VoIP Funktionen',
+    'shorttitle' => 'Telefonanlage Funktionen',
     'title' => 'Features, Funktionen, Vergleich VoIP-Telefonanlage '.date('Y'),
     'meta_description' => 'Alle Funktionen im Überblick, vergleichen Sie und unsere Customer Success Manager helfen Ihnen bei der Auswahl ihres perfekten Settings. Rufen Sie uns an!',
     'body_class' => 'bg-preisanfrage',
