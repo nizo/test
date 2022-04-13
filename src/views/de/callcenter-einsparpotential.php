@@ -446,7 +446,7 @@
 
                     <p style="margin-top:var(--gutter-xs)">Schnellerer Service, bessere Ergebnisse und eine solide Markenerfahrung durch bestes Warteschleifenmanagement.</p>
 
-                    <p><a href="/telefonanlage-mit-warteschleife" class="btn btn--border-bottom btn--arrow-right-small">Besseres Warteschleifenmanagement</a></p>
+                    <p><a href="/telefonanlage-mit-warteschleife" class="btn btn--border-bottom btn--arrow-right-small">Bessere Warteschleifen</a></p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
