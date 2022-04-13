@@ -137,7 +137,7 @@ require_once('banderole.php');
 
                             <a href="/callcenter-einsparpotential" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Jetzt Sparen</span></strong>
+                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Berechnen</span></strong>
                                     <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
                                 </div>
                             </a>
@@ -251,7 +251,7 @@ require_once('banderole.php');
 
                             <a href="/callcenter-einsparpotential" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Jetzt Sparen</span></strong>
+                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Berechnen</span></strong>
                                     <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
                                 </div>
                             </a>
