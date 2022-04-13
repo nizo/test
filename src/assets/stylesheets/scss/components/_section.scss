@@ -65,6 +65,9 @@
     &--blue-white {
         background-image: linear-gradient(rgba(0, 136, 234, 0.05), #fff);
     }
+    &--white-blue-white {
+        background-image: linear-gradient(#fff, rgba(0, 136, 234, 0.05), #fff);
+    }
 
     &--light-grey {
         background: #f2f2f2;
