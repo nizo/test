@@ -6,7 +6,7 @@
                 <p>
                     Posthofstr. 5<br />
                     14467 Potsdam<br />
-                    <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
+                    <a href="tel:+493092033500">030 920 33 500</a><br />
                     <a href="mailto:kontakt@callone.de">kontakt@callone.de</a><br />
                     <br />
                     <a href="https://de.linkedin.com/company/callone-gmbh" rel="noreferrer" target="_blank">
@@ -92,7 +92,7 @@
                 14467 Potsdam
             </p>
             <p>
-                <a href="tel:+493092033500">+49 (0) 30-920 33 500</a><br />
+                <a href="tel:+493092033500">030 920 33 500</a><br />
                 <a href="mailto:kontakt@callone.de">kontakt@callone.de</a>
             </p>
             <div class="button-set centered">

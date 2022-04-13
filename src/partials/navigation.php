@@ -450,7 +450,7 @@ require_once('banderole.php');
         </ul>
 
         <div class="navigation__right">
-            <a href="tel:+493092033500" class="navigation__phonenumber">+49(0)30-92033500</a>
+            <a href="tel:+493092033500" class="navigation__phonenumber">030 920 33 500</a>
             <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
             <a href="https://box.callone.de" target="_blank" rel="nofollow noreferrer">Login</a>
         </div>

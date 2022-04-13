@@ -243,7 +243,7 @@ $faqs->faq_add (
 		<div class="col-3">
 			<span class="sl sl-border-chat sl-size-xl topIcon white desktop-hidden"></span>
 			<strong class="h3"><span class="light">Telefonische</span> Beratung</strong>
-			<p>Sie interessieren sich für unsere Produkte oder haben noch offene Fragen? Gerne Helfen wir Ihnen weiter - <a href="tel:+493092033500" title="Gerne helfen wir Ihnen weiter">+49 (0) 30-920 33 500</a></p>
+			<p>Sie interessieren sich für unsere Produkte oder haben noch offene Fragen? Gerne Helfen wir Ihnen weiter - <a href="tel:+493092033500" title="Gerne helfen wir Ihnen weiter">030 920 33 500</a></p>
 		</div>
 		<div class="col-3 cross centerContent mobile-hidden">
 			<div class="shadow-box autoWidth gradient-sw">
