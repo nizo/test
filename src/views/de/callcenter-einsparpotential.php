@@ -1,11 +1,11 @@
 <div class="section section--mobile-divider">
     <div class="hero">
         <div class="hero__text">
-            <h1>Ihr mögliches <br class="mobile-hidden" />Einsparpotential mit <u>CallOne</u></h1>
+            <h1>Ihr mögliches <u>Einsparpotential</u> <br class="mobile-hidden" />mit CallOne-Lösungen</h1>
             <p class="bigtext">Sie fragen sich was Sie mit der CallOne-Lösung sparen können? Rechnen Sie es direkt hier aus und fangen Sie noch heute an zu sparen!</p>
 
             <p class="mobile-centered">
-                <a href="#mehrwertrechner" class="btn btn--primary">Zum ROI-Rechner</a>
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
             </p>
         </div>
         <div class="hero__image">
@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="section section--blue-white" id="mehrwertrechner">
+<div class="section section--white-blue-white" id="mehrwertrechner">
 	<div class="section__content section__content--narrow saving-calculation--mobile">
 		<h2>Lust Ihr Einsparpotential direkt hier zu berechnen?</h2>
 		
@@ -168,24 +168,28 @@
 									</span>
 								</li>
 								<li>
-									<a href="/callcenter-bot" class="inline-link">Automatisierung</a>
+									Automatisierung
 									<span class="tooltip tooltip--dark">
 										<span>Nicht alle Anliegen müssen von Agenten bearbeitet werden. Wir liefern die Schnittstellen und technischen Optionen für Selfservice am Telefon.</span>
 									</span>
 								</li>
 								<li>
-                                    <a href="/callcenter-software-apps" class="inline-link">CRM-Anbindung</a>
+                                    CRM-Anbindung
 									<span class="tooltip tooltip--dark">
 										<span>Ihr CRM liefert die Informationen des Kunden. Wir liefern die passenden Schnittstellen, um es anzubinden.</span>
 									</span>
 								</li>
 								<li>
-                                <a href="/callcenter-sprachanalyse" class="inline-link">KI-Integration</a>
+									KI-Integration
 									<span class="tooltip tooltip--dark">
 										<span>Spracherkennung, Sprachausgabe, offene Schnittstellen bilden die Grundlage bei CallOne mittels KI Sachverhalte intelligent zu automatisieren.</span>
 									</span>
 								</li>
 							</ul>
+
+							<p>
+								<a href="/callcenter-software-integrationen" class="btn btn--border-bottom btn--arrow-right-small">Automatisierung im Kundenservice</a>
+							</p>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--faded saving-calculation__col--agentenauslastung">
@@ -265,7 +269,7 @@
 							<p><strong>Unsere Tools dafür:</strong></p>
 							<ul>
 								<li>
-                                    <a href="/telefonanlage-mit-warteschleife" class="inline-link">Virtuelle Warteschleifen</a>
+                                    Virtuelle Warteschleifen
 									<span class="tooltip tooltip--dark">
 										<span>Anrufer warten virtuell und werden auf spätere Zeitpunkte verteilt in denen Ihre Agenten besser erreichbar sind.</span>
 									</span>
@@ -289,6 +293,10 @@
 									</span>
 								</li>
 							</ul>
+
+							<p>
+								<a href="/telefonanlage-mit-warteschleife" class="btn btn--border-bottom btn--arrow-right-small">Smarte Warteschleifenfunktionen</a>
+							</p>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs saving-calculation__col saving-calculation__col--faded saving-calculation__col--personalplanung">
@@ -379,6 +387,10 @@
 									</span>
 								</li>
 							</ul>
+
+							<p>
+								<a href="/tableau-callcenter-connector" class="btn btn--border-bottom btn--arrow-right-small">Prozessoptimierung</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -391,13 +403,17 @@
 
             <h4></h4>
 		</div>
+
+		<p class="centered">
+			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+		</p>
 	</div>
 </div>
 
 <div class="section">
     <div class="section__content section__content--wide">
         <h1 class="centered mobile-left">Maximale Ersparnis bei maximaler Leistung</h1>
-        <p class="centered mobile-left bigtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut cum veritatis sit odio architecto voluptatem, rem placeat corrupti libero modi beatae quas id a, sequi saepe voluptatum amet corporis consequuntur.</p>
+        <p class="centered mobile-left bigtext"><!-- TODO: Text -->Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut cum veritatis sit odio architecto voluptatem, rem placeat corrupti libero modi beatae quas id a, sequi saepe voluptatum amet corporis consequuntur.</p>
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">

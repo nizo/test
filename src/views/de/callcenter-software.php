@@ -59,7 +59,7 @@ $faqs->faq_add (
 		</div>
 		<div class="anchors__links">
 			<a href="#features">Features</a>
-			<a href="#mehrwertrechner">Mehrwertrechner</a>
+			<a href="/callcenter-einsparpotential">Mehrwertrechner</a>
 			<a href="#referenzen">Referenzen</a>
 		</div>
 	</div>

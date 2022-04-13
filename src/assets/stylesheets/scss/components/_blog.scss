@@ -101,10 +101,11 @@
             }
         }
 
-        video {
+        video, .fitvid iframe {
             aspect-ratio: 16/9;
             display: block;
             max-width: 100%;
+            height: auto;
             margin-left: auto;
             margin-right: auto;
         }

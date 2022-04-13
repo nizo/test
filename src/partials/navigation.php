@@ -127,14 +127,14 @@ require_once('banderole.php');
 
                             <a href="#" class="submenu__link" data-openmodal="contact-sales">
                                 <div class="submenu__link-text">
-                                    <strong>Produktdemo<span class="submenu__link-tag">Live</span></strong>
+                                    <strong>Produktdemo</strong>
                                     <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
                                 </div>
                             </a>
 
-                            <a href="/callcenter-software#mehrwertrechner" class="submenu__link">
+                            <a href="/callcenter-einsparpotential" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Entscheidungshilfe</strong>
+                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Jetzt Sparen</span></strong>
                                     <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
                                 </div>
                             </a>
@@ -241,14 +241,14 @@ require_once('banderole.php');
 
                             <a href="#" class="submenu__link" data-openmodal="contact-sales">
                                 <div class="submenu__link-text">
-                                    <strong>Produktdemo<span class="submenu__link-tag">Live</span></strong>
+                                    <strong>Produktdemo</strong>
                                     <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
                                 </div>
                             </a>
 
-                            <a href="/callcenter-software#mehrwertrechner" class="submenu__link">
+                            <a href="/callcenter-einsparpotential" class="submenu__link">
                                 <div class="submenu__link-text">
-                                    <strong>Entscheidungshilfe</strong>
+                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Jetzt Sparen</span></strong>
                                     <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
                                 </div>
                             </a>
