@@ -31,9 +31,7 @@ $faqs->faq_add (
 			</p>
 		</div>
 	</div>
-</div>
 
-<div class="section section--no-padding-top section--white-blue">
     <div class="anchors">
         <div class="anchors__title">
             <strong>Schnelleinstieg:</strong> Was interessiert dich?
@@ -44,7 +42,9 @@ $faqs->faq_add (
             <a href="#referenzen">Referenzen</a>
         </div>
     </div>
+</div>
 
+<div class="section section--white-blue">
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left">Datenbasierte Entscheidungen statt Bauchgefühl</h2>
         <p class="bigtext centered mobile-left">Ihre Fachabteilungen erhalten die Zahlen, die sie benötigen egal ob als Tabelle, Grafik oder BI-Konnektor zu ihrem Lieblingssystem.</p>

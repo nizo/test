@@ -1,18 +1,16 @@
-<div class="wrapper lightgrey">
-  <div class="content wide no-gutter-bottom">
-    <header class="main-header">
-      <div class="text">
-        <h1>Volle Flexibilität mit Telefon-Schnittstellen</h1>
-        <p class="primary">Kommunikation muss für Sie ohne Stress funktionieren. Passen Sie CallOne einfach mit unseren offenen Schnittstellen nach Ihren Anforderungen an.</p>
-        <div class="button-set">
-          <a class="button tertiary rounded" href="https://connect.callone.io/api/rest/" target="_blank">Unsere Dokumentation <span class="button__icon arrow icon-jump-forward"></span></a>
+<div class="section section--light-grey">
+    <div class="hero">
+        <div class="hero__texttext">
+            <h1>Volle Flexibilität mit Telefon-Schnittstellen</h1>
+            <p class="bigtext">Kommunikation muss für Sie ohne Stress funktionieren. Passen Sie CallOne einfach mit unseren offenen Schnittstellen nach Ihren Anforderungen an.</p>
+            <p class="mobile-centered">
+                <a class="button tertiary rounded" href="https://connect.callone.io/api/rest/" target="_blank">Unsere Dokumentation <span class="button__icon arrow icon-jump-forward"></span></a>
+            </p>
         </div>
-      </div>
-      <div class="media centered">
-        <img src="/assets/images/illus/api-hero-illustration.svg" alt="VoIP API Callcenter Software" />
-      </div>
-    </header>
-  </div>
+        <div class="hero__image">
+            <img src="/assets/images/illus/api-hero-illustration.svg" alt="VoIP API Callcenter Software" width="" height="" />
+        </div>
+    </div>
 </div>
 
 <div class="wrapper no-margin-top white-lightgreen">
