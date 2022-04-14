@@ -27,7 +27,7 @@
             </div>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Beratungsgespräch</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Zum Beratungsgespräch</a>
             </p>
         </div>
     </header>
@@ -36,7 +36,7 @@
 <div class="section section--light-green-white-2 section--no-padding-bottom section--mobile-divider">
     <div class="anchors">
         <div class="anchors__title">
-            <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
+            <strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
         </div>
         <div class="anchors__links">
             <a href="#gruende">Vorteile</a>
