@@ -21,6 +21,24 @@ function getJsHash() {
     return $js_hash;
 }
 
+// Declare variable to store additional JS files, defined in view/content files
+$additional_js_files = [];
+function addAdditionalScript($file) {
+    global $additional_js_files;
+    $additional_js_files[] = $file;
+}
+function loadAdditionalScripts() {
+    global $additional_js_files;
+    if (count($additional_js_files) == 0)
+        return null;
+
+    $output = '';
+    foreach ($additional_js_files as $file) {
+        $output .= '<script src="'.$file.'"></script>';
+    }
+    echo $output;
+}
+
 
 // Check if passes page is current page
 function getPageActiveClass($uri) {
@@ -81,32 +99,6 @@ function loadCSS($dir, $js=false) {
         </script>";
     if($js && !preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]))
         echo $css;
-}
-
-/* Load JS-Files from directory */
-function loadJS($dir) {
-    $js_hash = getJsHash();
-
-    if (!isset($dir)) {
-        $dir = getcwd();
-        $dir = $dir . "/assets/javascripts";
-    }
-    $jsFiles = scandir ($dir);
-    foreach ($jsFiles as $jsFile) {
-        if ( is_dir($dir.$jsFile) ) {
-            //echo $jsFile;
-            continue;
-        }
-        if ( $jsFile === '.' || $jsFile === '..' || $jsFile === '.gitignore' ) {
-            continue;
-        }
-        
-        preg_match ( '/.*(min\.js)$/', $jsFile, $addJSFile );
-        if ( empty($addJSFile) ) {
-            break;
-        }
-        echo '<script src="/assets/javascripts/' . $addJSFile[0] . '?build='.$js_hash.'"></script>';            
-    }
 }
 
 function getLogoParade($logos, $showStars = null, $template = 'clients') {

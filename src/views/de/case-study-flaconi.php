@@ -3,7 +3,7 @@
     <header class="main-header">
       <div class="media animation">
         <div id="lottie" class="business"></div>
-        <script>jsFiles.push("/assets/animations/svg/business.js");</script>
+        <?php $additional_js_files[] = '/assets/animations/svg/business.js' ?>
       </div>
       <div class="text">
       	<img src="/assets/images/client-logos/logo-flaconi-2.svg" alt="Dufte Anrufsteuerung - Flaconi.de" class="logo" width="240" height="71" />

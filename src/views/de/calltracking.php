@@ -60,7 +60,7 @@ $faqs->faq_add (
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered co-grid__col--order-2-xs">
 				<div id="lottie" class="calltracking"></div>
-				<script>jsFiles.push("/assets/animations/svg/calltracking.js");</script>
+				<?php $additional_js_files[] = '/assets/animations/svg/calltracking.js' ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered co-grid__col--order-1-xs">
 				<h2>Was kann Call-Tracking?</h2>

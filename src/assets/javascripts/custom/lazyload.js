@@ -83,27 +83,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 200);
     }
   };
-  
-  /*** LazyLoading Javascript ***/
-  function lazyLoadingJS(width) {	
-  	if ( jsFiles.length < 0 ) {
-  		return;
-  	} 
-  	 	
-	for (let i = 0; i < jsFiles.length; i++ ) {
-		var element = document.createElement("script");
-	    element.src = jsFiles[i];
-	    document.body.appendChild(element);
-	}
-  }
-
-	if (window.addEventListener)
-	    window.addEventListener("load", lazyLoadingJS(1024), false);
-	//  less than or equal IE 8
-	else if (window.attachEvent)
-	    window.attachEvent("onload", lazyLoadingJS(1024));
-	// all Browser
-	else window.onload = lazyLoadingJS;
 	
   document.addEventListener("scroll", lazyLoad);
   document.addEventListener("click", lazyLoad);
