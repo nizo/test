@@ -319,8 +319,8 @@ foreach ($jobs->jobs_get() as $job) {
 ** ****************** */
 Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
     'shorttitle' => 'Einsparpotential',
-    'title' => 'Callcenter Einsparpotential',
-    'meta_description' => '',
+    'title' => 'Callcenter Software Einsparpotential berechnen',
+    'meta_description' => 'Bares Geld mit Callcenter Software und VoIP Telefonanlage sparen. Berechnen Sie hier Ihr Einsparpotential!',
     'og_image_text' => 'Jetzt Ihr mögliches Einsparpotential berechnen',
 ]);
 Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
