@@ -39,66 +39,12 @@ function loadAdditionalScripts() {
     echo $output;
 }
 
-
 // Check if passes page is current page
 function getPageActiveClass($uri) {
     global $page;
     
     if ($uri == $page->uri)
         return ' submenu__link--active';
-}
-
-/* Load CSS-Files from directory */
-function loadCSS($dir, $js=false) {
-    $css_hash = getCssHash();
-
-    if (!isset($dir)) {
-        $dir = getcwd();
-        $dir = $dir . "/assets/stylesheets";
-        //echo $dir;
-    }
-    $cssFiles = scandir ($dir);
-    //print_r($cssFiles);
-    $css = "<script>
-            function lazyLoadingCss(filename,opt) {
-                var l = document.createElement('link');
-                l.rel = 'stylesheet';
-                l.href = filename
-                var h = document.getElementsByTagName('head')[0];
-                h.parentNode.insertBefore(l, h);
-            }
-            function cb() {";
-            
-    foreach ($cssFiles as $cssFile) {
-        if($cssFile === '.' || $cssFile === '..' || $cssFile === 'scss' || $cssFile === '.gitignore' || $cssFile === 'libs') {
-            continue;
-        }
-                    
-        preg_match ( '/.*(min\.css)$/', $cssFile, $addCssFile );
-        if ( empty($addCssFile) ) {
-            continue;
-        }
-        
-        if ($js && !preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) && !preg_match('/application.*$/', $addCssFile[0])) { 
-                $css .= "lazyLoadingCss('/assets/stylesheets/".$addCssFile[0]."');";
-        } else {
-            if ( preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]) ) {
-                echo '<!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" media="screen" /><![endif]-->';
-            } else {
-                echo '<link rel="stylesheet" href="/assets/stylesheets/' . $addCssFile[0] . '?build='.$css_hash.'" type="text/css" media="screen" />';
-            }
-        }
-    }
-    $css .= "}
-        var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) {
-            raf(cb);
-        } else {
-            window.addEventListener('load', cb);
-        }
-        </script>";
-    if($js && !preg_match('/.*(ie-fix)+.*$/', $addCssFile[0]))
-        echo $css;
 }
 
 function getLogoParade($logos, $showStars = null, $template = 'clients') {

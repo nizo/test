@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title><?= $page->title ?></title>
 
-    <?php
-    // LazyLoading CSS Files
-    loadCSS(null,true);
-    ?>
+    <link rel="stylesheet" href="/assets/stylesheets/application.min.css?build=<?= getCssHash() ?>" />
 </head>
 <body class="<?= $page->body_class ?>">
     <?php
