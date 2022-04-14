@@ -29,6 +29,16 @@
 </style>
 
 <?php
+$properties_to_display =
+[
+    'uri'               => 'URI',
+    'menu_position'     => 'Menu',
+    'title'             => 'Title',
+    'meta_description'  => 'Meta-Description',
+    'og_title'          => 'OpenGraph Title',
+    'og_image_text'     => 'OpenGraph Image Text <a href="#" title="Zwei Unterstriche (__) erzwingen einen Umbruch">(?)</a>'
+];
+
 $routes_tmp = Router::get_sorted('uri', 'asc');
 $routes = []; // Build new routes array for correct count
 foreach ($routes_tmp as $route) {
@@ -51,33 +61,28 @@ foreach ($routes_tmp as $route) {
 <table>
     <thead>
         <tr>
-            <th>URI</th>
-            <th>Title</th>
-            <th>Meta-Title</th>
-            <th>Meta-Description</th>
-            <th>OpenGraph Title</th>
-            <th>OpenGraph Image Text <a href="#" title="Zwei Unterstriche (__) erzwingen einen Umbruch">(?)</a></th>
+            <?php
+            foreach ($properties_to_display as $title)
+                echo '<th>'.$title.'</th>';
+            ?>
         </tr>
     </thead>
     <tbody>
         <?php
-        $properties_to_display = [
-            'uri',
-            'title',
-            'meta_title',
-            'meta_description',
-            'og_title',
-            'og_image_text'
-        ];
-        foreach ($routes as $key => $route) {
+        foreach ($routes as $route)
+        {
             echo "<tr>";
-            foreach ($route as $key => $value) {
-                if (!in_array($key, $properties_to_display))
-                    continue;
-                
-                echo "<td>";
-                echo $key === 'uri' ? '<a href="'.DOMAIN.$value.'" target="_blank" class="route">'.$value.'</a>' : $value;
-                echo "</td>";
+            foreach ($properties_to_display as $property => $title)
+            {
+                if (!empty ($route->$property))
+                {
+                    echo "<td>";
+                    if ($key === 'uri')
+                            echo '<a href="'.DOMAIN.$route->$property.'" target="_blank" class="route">'.$route->$property.'</a>';
+                    else    echo $route->$property;
+                    echo "</td>";  
+                }
+                else echo '<td></td>';
             }
             echo "</tr>";
         }

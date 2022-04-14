@@ -10,11 +10,10 @@ require_once('./libs/session.inc.php');
 define('DEFAULT_SITENAME', 'CallOne');
 define('DEFAULT_LAYOUT', 'default.php');
 define('DEFAULT_TITLE', 'Cloud Callcenter Software, VoIP-Telefonanlagen, weltweite Rufnummern');
-define('DEFAULT_META_TITLE', DEFAULT_TITLE);
 define('DEFAULT_META_DESCRIPTION', 'VoIP-Telefonanlage und Callcenter Software &quot;all-in-one&quot; mit CTI-Integration aus der deutschen Cloud. Keine Hardware oder Softphones notwendig. Jetzt testen!');
 define('DEFAULT_OG_IMAGE_TEXT', 'Cloud Callcenter Software, VoIP-__Telefonanlagen');
 define('DEFAULT_OG_IMAGE_BACKGROUND', 'default');
-define('DEFAULT_OG_TITLE', DEFAULT_META_TITLE);
+define('DEFAULT_OG_TITLE', DEFAULT_TITLE);
 define('DEFAULT_SITEMAP_INCLUDE', true);
 define('DEFAULT_SITEMAP_PRIORITY', '0.5');
 define('DEFAULT_SITEMAP_CHANGE_FREQUENCY', 'weekly');
@@ -72,7 +71,6 @@ class Route {
     public $menu_position;
 
     // Meta relevant data
-    public $meta_title = DEFAULT_META_TITLE;
     public $meta_description = DEFAULT_META_DESCRIPTION;
     public $canonical;
 
@@ -321,8 +319,8 @@ foreach ($jobs->jobs_get() as $job) {
 ** ****************** */
 Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
     'shorttitle' => 'Einsparpotential',
-    'title' => 'Callcenter Einsparpotential',
-    'meta_description' => '',
+    'title' => 'Callcenter Software Einsparpotential berechnen',
+    'meta_description' => 'Bares Geld mit Callcenter Software und VoIP Telefonanlage sparen. Berechnen Sie hier Ihr Einsparpotential!',
     'og_image_text' => 'Jetzt Ihr mögliches Einsparpotential berechnen',
 ]);
 Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
