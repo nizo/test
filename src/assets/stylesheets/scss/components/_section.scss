@@ -441,10 +441,15 @@
         width: 100%;
         color: var(--color-text);
         max-width: 960px;
+        > h1 {
+            font-size: 50px;
+        }
+        > h2 {
+            font-size: 38px;
+        }
         > h1, h2 {
             font-family: $font-copy;
-            font-weight: normal;
-            font-size: 38px;
+            font-weight: 700;
             line-height: 1.25;
             margin-bottom: var(--gutter-s);
             &+p:not(.bigtext) {
