@@ -355,14 +355,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let fallbackBrowser = 'chrome';
     let currentBrowser = fallbackBrowser;
     let userAgent = navigator.userAgent;
+    console.log(document.documentMode);
     if (userAgent.indexOf("Edg") !== -1 || userAgent.indexOf("Edge") !== -1) {
         currentBrowser = 'edge';
     } else if (userAgent.indexOf("Chrome") !== -1) {
         currentBrowser = 'chrome';
     } else if (userAgent.indexOf("Firefox") !== -1) {
         currentBrowser = 'firefox';
-    } else if ((userAgent.indexOf("MSIE") !== -1) || (!!document.documentMode === true)) {
-        currentBrowser = 'edge';
     } else {
         currentBrowser = fallbackBrowser;
     }
