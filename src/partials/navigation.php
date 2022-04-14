@@ -21,14 +21,8 @@ require_once('banderole.php');
 
 <nav class="navigation">
     <div class="navigation__links">
-        <?php
-        $logo = 'Logo-Equal.svg';
-        if (isChristmas()) {
-            $logo = 'Logo-Christmas-Equal.svg';
-        }
-        ?>
-        <a href="/" class="navigation__logo<?= isChristmas() ? ' navigation__logo--christmas' : '' ?>" title="Zur Startseite von CallOne">
-            <object data="/assets/images/logo/<?= $logo ?>" type="image/svg+xml"></object>
+        <a href="/" class="navigation__logo" title="Zur Startseite von CallOne">
+            <img src="/assets/images/logo/Logo-Equal.svg" alt="CallOne Logo" />
             <?php if ($page->shorttitle): ?>
                 <div class="navigation__title"><?= $page->shorttitle; ?></div>
             <?php endif; ?>
