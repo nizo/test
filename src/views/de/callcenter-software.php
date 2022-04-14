@@ -54,7 +54,7 @@ $faqs->faq_add (
 <div class="section">
 	<div class="anchors">
 		<div class="anchors__title">
-			<strong>Schnelleinstieg:</strong> Was interessiert dich?
+			<strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
 		</div>
 		<div class="anchors__links">
 			<a href="#features">Features</a>
