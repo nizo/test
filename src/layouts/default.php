@@ -41,10 +41,7 @@
     <link rel="preconnect" href="https://www.google.com">
     <link rel="preconnect" href="https://www.googleadservices.com">
 
-    <?php
-    // LazyLoading CSS Files
-    loadCSS(null,true);
-    ?>
+    <link rel="stylesheet" href="/assets/stylesheets/application.min.css?build=<?= getCssHash() ?>" />
 
     <?php if (!empty($page->canonical)): ?>
         <link rel="canonical" href="<?= DOMAIN.$page->canonical ?>" />
