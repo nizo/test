@@ -8,7 +8,7 @@
 			</div>
 			<div class="media animation animation-bg lazyBackground karriere">
 				<div id="lottie" class="job"></div>
-				<script>jsFiles.push("/assets/animations/svg/karriere.js");</script>
+				<?php $additional_js_files[] = '/assets/animations/svg/karriere.js' ?>
 			</div>
 		</header>
 	</div>

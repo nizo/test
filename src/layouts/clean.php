@@ -9,19 +9,13 @@
     // LazyLoading CSS Files
     loadCSS(null,true);
     ?>
-
-    <script>
-        var jsFiles = [];
-    </script>
 </head>
 <body class="<?= $page->body_class ?>">
     <?php
     require_once(DIRECTORY_VIEWS.$page->view);
     ?>
 
-    <?php
-    loadJS(null);
-    ?>
-
+    <script src="/assets/javascripts/application.min.js?build=<?= getJsHash() ?>"></script>
+    <?php loadAdditionalScripts(); ?>
 </body>
 </html>

@@ -46,8 +46,7 @@ $faqs->faq_add (
 		</div>
 		<div class="hero__image">
 			<div id="lottie" class="kundenservice" style="height:unset;width:unset;position:unset;"></div>
-			<script>jsFiles.push("/assets/animations/svg/kundenservice.js");</script>
-			<!-- <img src="/assets/images/illus/CCS-header-illustration.svg" alt="Die CallOne Kundenservice Software als Illustration" width="465" height="404" style="width:100%" /> -->
+			<?php $additional_js_files[] = '/assets/animations/svg/kundenservice.js' ?>
 		</div>
 	</div>
 </div>

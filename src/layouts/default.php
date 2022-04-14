@@ -62,9 +62,6 @@
         ]
     }
     </script>
-    <script>
-        var jsFiles = [];
-    </script>
 </head>
 <body class="<?= $page->body_class; ?> <?php $uriPath = str_replace('/', ' ', $_SERVER['REQUEST_URI']);  if($uriPath === ' ') { echo ' startseite '; } else { echo $uriPath; } ?> lazyBackground">
     <?php /*if (isset($_COOKIE['cookiebanner-accepted']) && ($_COOKIE['cookiebanner-accepted'] > 100 || $_COOKIE['cookiebanner-accepted'] == 1) ): ?>
@@ -107,9 +104,7 @@
         <?php include('./partials/modal-wishlist.php'); ?>
     </div>
     
-    <?php
-    loadJS(null);
-    ?>
-    
-    </body>
+    <script src="/assets/javascripts/application.min.js?build=<?= getJsHash() ?>"></script>
+    <?php loadAdditionalScripts(); ?>
+</body>
 </html>
