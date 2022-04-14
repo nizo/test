@@ -1,4 +1,6 @@
 <?php
+require('../../src/libs/router.inc.php');
+$routes = Router::get_routes();
 $time_start = microtime(true); 
 
 class structure
@@ -139,7 +141,7 @@ class link
 
 class Parser
 {
-    private $excludeLinks = ['#', 'tel:', 'mailto:', '\"', '/blog', '/faq'];
+    private $excludeLinks = ['#', 'tel:', 'mailto:', '\"', '/blog', '/faq', '/tools'];
 	private $excludeClasses = ['navigation', 'navbar', 'main-footer', 'modal'];
     private $doc;
     private $url;
@@ -209,7 +211,7 @@ class Parser
                     continue;
 				
 				// Remove leading DOMAIN and trailing anchor if present
-                $url = $this->remove_anchor(str_replace(DOMAIN, '', $a->value));
+                $url = $this->remove_anchor(str_replace(DOMAIN_NAME, '', $a->value));
 
                 $skip = false;
 				// Skip if URL starts with something in the exclude array
@@ -224,7 +226,7 @@ class Parser
 
 				// Skip if URL starts with http but not our DOMAIN
                 if ((substr($url, 0, strlen('http')) === 'http') && 
-                    (substr($url, 0, strlen(DOMAIN)) !== DOMAIN))
+                    (substr($url, 0, strlen(DOMAIN_NAME)) !== DOMAIN_NAME))
                     $skip = true;
 				
 				// Skip if file has file extension
@@ -267,11 +269,11 @@ function walk_links ($structure, $current_item, $space)
 	if (substr ($current_item->id_get (), 0, 1) === '/')
 	{
 		$type = 'URL';
-		$parser = new Parser (DOMAIN.$current_item->id_get ());
+		$parser = new Parser (DOMAIN_NAME.$current_item->id_get ());
 		$current_item->name_set ($parser->get_page_title ());
 	} else { // Else treat at DOM element
 		$type = 'DOM Element';
-		$parser = new Parser (DOMAIN.'/', $current_item->id_get ());
+		$parser = new Parser (DOMAIN_NAME.'/', $current_item->id_get ());
 		$current_item->name_set (strtoupper ($current_item->id_get ()));
 	}
 	if (strlen($space) == 0)
@@ -430,7 +432,7 @@ echo "\e[90m***************************\e[39m".PHP_EOL;
 echo PHP_EOL;
 
 // Define global settings/variables
-define ('DOMAIN', 'https://www.callone.de');
+define ('DOMAIN_NAME', 'https://www.callone.de');
 $highlight_ids = [(object) [
 	'id' => '/',
 	'color' => '#e74c3c'
@@ -441,7 +443,7 @@ $highlight_ids = [(object) [
 	'id' => '/voip-telefonanlage',
 	'color' => '#1abc9c'
 ], (object) [
-	'id' => 'navbar',
+	'id' => 'navigation',
 	'color' => '#9b59b6'
 ], (object) [
 	'id' => 'main-footer',
@@ -450,7 +452,7 @@ $highlight_ids = [(object) [
 $structure = new structure ();
 
 // Add navbar as node
-$navbar = $structure->item_add ('navbar', null);
+$navbar = $structure->item_add ('navigation', null);
 walk_links ($structure, $navbar, '');
 
 // Add main-footer as node
@@ -458,8 +460,19 @@ $footer = $structure->item_add ('main-footer', null);
 walk_links ($structure, $footer, '');
 
 // Walk through content links
+foreach ($routes as $route) {
+	if ($route->uri == '/')
+		continue;
+	$structure->item_add($route->uri, null);
+}
 $current_item = $structure->item_add ('/', null);
 walk_links ($structure, $current_item, '');
+
+foreach ($structure->items_get() as $item) {
+	if (!$item->done_get()) {
+		walk_links($structure, $item, null);
+	}
+}
 
 // Build graph
 $graph = [];

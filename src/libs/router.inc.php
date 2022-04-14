@@ -445,13 +445,13 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
 /* ********************* **
 ** ** DEBUGGING PAGES ** **
 ** ********************* */
-Router::add('/components', 'tools/components.php', [
+Router::add('/tools/components', 'tools/components.php', [
     'title' => 'Components',
     'layout' => 'clean.php',
     'body_class' => 'components--scrollbar',
     'sitemap_include' => false
 ]);
-Router::add('/routes', 'tools/routes-list.php', [
+Router::add('/tools/routes', 'tools/routes-list.php', [
     'title' => 'Routes List',
     'layout' => 'clean.php',
     'sitemap_include' => false
@@ -461,8 +461,8 @@ Router::add('/tools/assets', 'tools/assets.php', [
     'layout' => 'clean.php',
     'sitemap_include' => false
 ]);
-Router::add('/screensize', 'tools/screensize.php', [
-    'title' => 'Scree Size',
+Router::add('/tools/screensize', 'tools/screensize.php', [
+    'title' => 'Screen Size',
     'layout' => 'clean.php',
     'body_class' => 'components--scrollbar',
     'sitemap_include' => false
