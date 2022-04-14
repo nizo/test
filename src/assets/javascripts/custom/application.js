@@ -355,7 +355,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let fallbackBrowser = 'chrome';
     let currentBrowser = fallbackBrowser;
     let userAgent = navigator.userAgent;
-    console.log(document.documentMode);
     if (userAgent.indexOf("Edg") !== -1 || userAgent.indexOf("Edge") !== -1) {
         currentBrowser = 'edge';
     } else if (userAgent.indexOf("Chrome") !== -1) {

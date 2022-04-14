@@ -1,10 +1,10 @@
 <?php
 // Require libs
-require_once('./libs/functions.inc.php');
-require_once('./libs/faqs.inc.php');
-require_once('./libs/jobs.inc.php');
-require_once('./libs/products.inc.php');
-require_once('./libs/session.inc.php');
+require_once(dirname(__FILE__).'/functions.inc.php');
+require_once(dirname(__FILE__).'/faqs.inc.php');
+require_once(dirname(__FILE__).'/jobs.inc.php');
+require_once(dirname(__FILE__).'/products.inc.php');
+require_once(dirname(__FILE__).'/session.inc.php');
 
 // Default route/page data
 define('DEFAULT_SITENAME', 'CallOne');
@@ -19,7 +19,7 @@ define('DEFAULT_SITEMAP_PRIORITY', '0.5');
 define('DEFAULT_SITEMAP_CHANGE_FREQUENCY', 'weekly');
 
 // Global site data
-define('DOMAIN', 'https://'.$_SERVER['HTTP_HOST']);
+define('DOMAIN', 'https://'.@$_SERVER['HTTP_HOST']);
 define('DIRECTORY_VIEWS', './views/de/');
 define('DIRECTORY_LAYOUTS', './layouts/');
 
