@@ -48,7 +48,7 @@ class Mehrwertrechner {
         
         this.loader = this.element.querySelector('.atomic-loader');
         this.h3 = this.element.querySelector('.saving-calculation > h3');
-        this.h4 = this.element.querySelector('.saving-calculation > h4');
+        this.loadingText = this.element.querySelector('.saving-calculation__loading-text');
         this.detailToggles = this.element.querySelectorAll('.saving-calculation__toggle');
         this.detailToggles.forEach(toggle => toggle.style.display = 'none');
         
@@ -201,8 +201,8 @@ class Mehrwertrechner {
 
         // Adjust headlines
         this.h3.style.display = 'none';
-        this.h4.style.display = 'block';
-        this.h4.textContent = 'Berechne Kostensenkungspotential...';
+        this.loadingText.style.display = 'block';
+        this.loadingText.textContent = 'Berechne Kostensenkungspotential...';
 
         // Show loading animations in columns
         let savingCalculation = this.element.querySelector('.saving-calculation');
@@ -240,8 +240,8 @@ class Mehrwertrechner {
 
             // Adjust headlines
             this.h3.style.display = 'block';
-            this.h4.textContent = '';
-            this.h4.style.display = 'none';
+            this.loadingText.textContent = '';
+            this.loadingText.style.display = 'none';
 
             // Remove loading animations from columns
             savingCalculation.classList.remove('saving-calculation--loading');

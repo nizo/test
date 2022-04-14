@@ -401,7 +401,7 @@
 				<span>_ _ _ . _ _ _ €</span>
 			</h3>
 
-            <h4></h4>
+            <span class="saving-calculation__loading-text"></span>
 		</div>
 
 		<p class="centered">
