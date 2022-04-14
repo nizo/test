@@ -26,7 +26,7 @@ define('MIN_IMG_HEIGHT', 79);           // Aspect ratio 40:21
 define('MAX_TEXT_LENGTH', 150);
 define('MIN_TEXT_LENGTH', 5);
 define('MAX_LINE_LENGTH', 20);
-define('FONT_FAMILY', '../../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.ttf');
+define('FONT_FAMILY', '../../fonts/Px-Grotesk-Bold/Px-Grotesk-Bold.woff');
 define('LOGO', './logo.png');
 define('BACKGROUNDS', get_backgrounds());
 
