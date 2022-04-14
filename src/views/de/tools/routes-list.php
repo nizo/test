@@ -77,7 +77,7 @@ foreach ($routes_tmp as $route) {
                 if (!empty ($route->$property))
                 {
                     echo "<td>";
-                    if ($key === 'uri')
+                    if ($property == 'uri')
                             echo '<a href="'.DOMAIN.$route->$property.'" target="_blank" class="route">'.$route->$property.'</a>';
                     else    echo $route->$property;
                     echo "</td>";  
