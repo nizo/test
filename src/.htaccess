@@ -2,6 +2,13 @@
   RewriteEngine On
 </IfModule>
 
+# ----------------------------------------------------------------------
+# Security Settings
+# ----------------------------------------------------------------------
+Header always set X-Frame-Options "deny"
+<If "%{REQUEST_SCHEME} == 'https'">
+    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+</If>
 
 # ----------------------------------------------------------------------
 # Rewrite to https
