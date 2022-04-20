@@ -57,7 +57,7 @@ $product->structured_data_get_code ();
 <div class="section">
 	<div class="section__content">
 		<h2 class="centered mobile-left">Die Callcenter Software für die höchsten Ansprüche an Sales & Service</h2>
-		<p class="centered mobile-left bigtext">Sie wünschen sich eine VoIP-Lösung, die speziell Kundenservice und Sales konzipiert wurde. Mit der CallOne Callcenter Software bekommen Agenten, Manager und Administratoren genau das, was sie brauchen.</p>
+		<p class="centered mobile-left bigtext">Sie wünschen sich eine VoIP-Lösung, die speziell für Kundenservice und Sales konzipiert wurde. Mit der CallOne Callcenter Software bekommen Agenten, Manager und Administratoren genau das, was sie brauchen.</p>
 	</div>	
 
 	<div class="section__content section__content--wide">
@@ -95,7 +95,7 @@ $product->structured_data_get_code ();
 				<ul class="list list--checkmarks list--checkmarks-green bigtext">
 					<li>Schneller Überblick über die Qualität des Service-Levels</li>
 					<li>Zielgerichtete Steuerung und objektive Bewertung von Agenten</li>
-					<li>datenbasierte Optimierungen durch Überblick über wichtige KPIs</li>
+					<li>Datenbasierte Optimierungen durch Überblick über wichtige KPIs</li>
 				</ul>
 			</div>
 		</div>
@@ -290,8 +290,8 @@ $product->structured_data_get_code ();
 
 <div class="section" id="integration">
 	<div class="section__content section__content--narrow">
-		<h2 class="centered mobile-left">Perfekt angepasst auf Ihre Anforderungen mit unzähligen Add-Ons</h2>
-		<p class="centered mobile-left bigtext">Sie möchten Ihre Telefonie in bereits vorhandene Business-Systeme integrieren? Sie brauchen Anbindungen an Ihre BI-Tools und wollen in Ihrem Sales und Service aus den Vollen schöpfen? Los geht's.</p>
+		<h2 class="centered mobile-left">Perfekt angepasst an Ihre Anforderungen mit unzähligen Add-Ons</h2>
+		<p class="centered mobile-left bigtext">Sie möchten Ihre Telefonie in bereits vorhandene Business-Systeme integrieren? Sie brauchen Anbindungen an Ihre BI-Tools und wollen in Ihrem Sales und Service richtig durchstarten? Los geht's.</p>
 	</div>
 
 	<div class="section__content section__content--wide">
@@ -308,7 +308,7 @@ $product->structured_data_get_code ();
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 				<img src="/assets/images/icons_svg/robot-head.svg" alt="Echtzeit-Coaching" width="99" height="100" />
 				<h3>Echtzeit-Coaching</h3>
-				<p class="bigtext">Interaktive live Gesprächsleitfäden für richtig guten Kundenservice.</p>
+				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
 				<p>
 					<a href="/callcenter-sprachanalyse" class="btn btn--primary">Mehr erfahren</a>
 				</p>
