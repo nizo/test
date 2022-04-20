@@ -118,7 +118,7 @@ require_once('banderole.php');
                             <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
                                     <strong>Unser Serviceangebot</strong>
-                                    <p>Mit persönlichen Ansprechpartnern erklären wir unsere Lösungen</p>
+                                    <p>Persönliche Ansprechpartner und exellenter Support</p>
                                 </div>
                             </div>
 
@@ -133,6 +133,13 @@ require_once('banderole.php');
                                 <div class="submenu__link-text">
                                     <strong>Einsparpotenzial<span class="submenu__link-tag">Berechnen</span></strong>
                                     <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
+                                </div>
+                            </a>
+
+                            <a href="/customer-success" class="submenu__link<?= getPageActiveClass('/customer-success') ?>">
+                                <div class="submenu__link-text">
+                                    <strong>Persönliche Projektbetreuung</strong>
+                                    <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
                                 </div>
                             </a>
                         </div>
@@ -232,7 +239,7 @@ require_once('banderole.php');
                             <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
                                     <strong>Unser Serviceangebot</strong>
-                                    <p>Mit persönlichen Ansprechpartnern erklären wir unsere Lösungen</p>
+                                    <p>Persönliche Ansprechpartner und exellenter Support</p>
                                 </div>
                             </div>
 
@@ -247,6 +254,13 @@ require_once('banderole.php');
                                 <div class="submenu__link-text">
                                     <strong>Einsparpotenzial<span class="submenu__link-tag">Berechnen</span></strong>
                                     <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
+                                </div>
+                            </a>
+
+                            <a href="/customer-success" class="submenu__link<?= getPageActiveClass('/customer-success') ?>">
+                                <div class="submenu__link-text">
+                                    <strong>Persönliche Projektbetreuung</strong>
+                                    <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
                                 </div>
                             </a>
                         </div>
@@ -320,13 +334,6 @@ require_once('banderole.php');
                                     <p>Was uns zu einem hervoragenden deutschen Telefonieanbieter macht</p>
                                 </div>
                             </div>
-
-                            <a href="/customer-success" class="submenu__link<?= getPageActiveClass('/customer-success') ?>">
-                                <div class="submenu__link-text">
-                                    <strong>Customer Success</strong>
-                                    <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
-                                </div>
-                            </a>
 
                             <a href="/dsgvo-telekommunikation" class="submenu__link<?= getPageActiveClass('/dsgvo-telekommunikation') ?>">
                                 <div class="submenu__link-text">

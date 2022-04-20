@@ -88,7 +88,7 @@
                 <h2>Was wir anders machen</h2>
                 <p class="bigtext">Telekommunikationsanbieter gibt es viele am Markt. Wir bei CallOne glauben, dass cloudbasierte Telekommunikation und persönliche Expertenbetreuung der Grund für den Erfolg unserer Kunden sind. Wir liefern eine intuitiv bedienbare Plattform und passen sie optimal auf individuelle Bedürfnisse an. Damit schaffen wir einen nachweislichen ROI und tragen maßgeblich zum Erfolg unserer Kunden bei.</p>
                 <p>
-                    <a href="/case-study-check24" class="btn btn--secondary">Mehr erfahren</a>
+                    <a href="/customer-success" class="btn btn--secondary">Über unsere persönliche Betreuung</a>
                 </p>
             </div>
         </div>
