@@ -118,7 +118,7 @@ require_once('banderole.php');
                             <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
                                     <strong>Unser Serviceangebot</strong>
-                                    <p>Persönliche Ansprechpartner und exellenter Support</p>
+                                    <p>Persönliche Ansprechpartner und exzellenter Support</p>
                                 </div>
                             </div>
 
@@ -239,7 +239,7 @@ require_once('banderole.php');
                             <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                 <div class="submenu__link-text">
                                     <strong>Unser Serviceangebot</strong>
-                                    <p>Persönliche Ansprechpartner und exellenter Support</p>
+                                    <p>Persönliche Ansprechpartner und exzellenter Support</p>
                                 </div>
                             </div>
 
