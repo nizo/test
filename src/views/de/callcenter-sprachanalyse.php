@@ -26,7 +26,7 @@
                 <img src="/assets/images/illus/i2x-client.png" alt="Sprachanalyse Kundenservice Software Coaching" width="570" height="570" />
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
+                <ul class="list list--checkmarks list--checkmarks-green" style="--fs:26px">
                     <li>Themen (so genannte Sagen & Nicht Sagen <span class="tooltip tooltip--dark" style="--fs:.7em"><span>Sagen sind Wörter und Phrasen, die im aktuellen Gespräch positiv bewertet sind. Nicht Sagen sind Wörter und Phrasen, die vom Kundenberater vermieden werden sollten.</span></span>) werden in Echtzeit übermittelt</li>
                     <li>Echtzeitanalyse zu Tonalität und Satzlänge wird ausgespielt</li>
                     <li>Auswertung der optimalen Sprechgeschwindigkeit steht zur Verfügung</li>
@@ -45,7 +45,7 @@
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-sm co-grid__col--vcentered">
-                <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
+                <ul class="list list--checkmarks list--checkmarks-green" style="--fs:26px">
                     <li>Optimale Gesprächsführung durch Echtzeitcoaching im i2x Assistent</li>
                     <li>Flexible Gesprächsleitfäden für höhere Abschlussquoten</li>
                     <li>Hohe Transparenz und Planbarkeit Dank umfangreicher Statistiken</li>
@@ -83,7 +83,7 @@
 
                         <br />
 
-                        <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
+                        <ul class="list list--checkmarks list--checkmarks-green" style="--fs:26px">
                             <li>Zielgerichtete Gespräche durch Echtzeitcoaching</li>
                             <li>Flexibler Gesprächsleitfaden bringt bessere Abschlussquoten</li>
                             <li>Objekte Bewertbarkeit durch umfangreiche Analysen und Reportings</li>
@@ -102,7 +102,7 @@
 
                         <br />
 
-                        <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
+                        <ul class="list list--checkmarks list--checkmarks-green" style="--fs:26px">
                             <li>Umfangreiches Reporting für Erhöhung des ROI nutzen</li>
                             <li>Datenbasiert neue Strategien und automatisierte A/B-Tests finden</li>
                             <li>Performantere Ergebnisse der Mitarbeiter durch schnelleres Onboarding</li>
@@ -121,7 +121,7 @@
 
                         <br />
 
-                        <ul class="list list--checkmarks-top list--checkmarks-green" style="--fs:26px">
+                        <ul class="list list--checkmarks list--checkmarks-green" style="--fs:26px">
                             <li>Schnelleres Onboarding der Mitarbeiter und höhere Mitarbeiterbindung</li>
                             <li>Wichtige KPIs wie Konvertierungsrate und Kundenzufriedenheit werden objektiv bewertbar</li>
                             <li>optimale Bewertung und Steuerung der Mitarbeiter durch objektive Analysen und Reportings</li>
