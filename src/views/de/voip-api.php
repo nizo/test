@@ -8,7 +8,7 @@
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/api-hero-illustration.svg" alt="VoIP API Callcenter Software" width="" height="" />
+            <img src="/assets/images/illus/api-hero-illustration.svg" alt="VoIP API Callcenter Software" width="465" height="491" />
         </div>
     </div>
 </div>
