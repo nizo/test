@@ -11,20 +11,12 @@
 	}
 }
 
-
 html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-smooth: always;
 }
 
-// @-moz-document url-prefix() {
-//   body {
-//     font-weight: lighter !important;
-//   }
-// }
-		
-		
 html, body {
 	min-height: 100%;
 	font-family: $font-copy;
@@ -161,35 +153,6 @@ h4, .h4 {
 .h5 {
 	font-size: $font-size-m - 1;
 }
-.topHeadline {
-	text-transform: uppercase;
-	font-size: 90%;
-}
-.section-title-small {
-	letter-spacing: 2px;
-}
-.fullHeadline-1 {
-	padding: 10px 40px;
-	background-color: #000;
-	color: #fff;
-	display: inline-block;
-}
-.fullHeadline-2 {
-	padding: 10px 40px;
-	background-color: #86ed18;
-	display: inline-block;
-}
-@media screen and (max-width: 555px) {
-	.fullHeadline-1 {
-		font-size: 16px;
-		margin-top: 40px;
-		padding: 10px 10px;
-	}
-	.fullHeadline-2 {
-		padding: 10px 10px;
-		font-size: 20px;
-	}
-}
 
 .lazy {
 	visibility: "hidden";
@@ -251,9 +214,6 @@ p {
 	&.secondary {
 		font-size: $font-size-xs;
 	}
-	&.footnote {
-		font-size: $font-size-xxs;
-	}
 	&+p {
 		margin-top: var(--gutter-m);
 		@media screen and (max-width: 670px) {
@@ -265,17 +225,6 @@ p {
 hr {
 	border-bottom: 2px solid $color-secondary-1;
 	margin: $gutter-l 0;
-}
-hr.bracket-spacer {
-	position: relative;
-	border: 0;
-	margin: 0;
-	background-image: url(../images/icons_svg/box-top.svg);
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-	width: 100%;
-    height: 51px;
 }
 
 .light {
@@ -306,26 +255,10 @@ hr.bracket-spacer {
 .subtext {
 	font-size: 14px;
 }
-.set-high {
-	font-size: 75%;
-	vertical-align: super;
-}
-.rotate-180 {
-	-webkit-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
 .star {
 	color: #e7711b;
 	font-size: $font-size-xl;
 	vertical-align: middle;
-}
-.textBG {
-	line-height: 48px;
-	background-color: #000;
-	color: #fff;
-	display: inline-block;
-	padding: 0 20px 5px;
-	margin: 2px 0 3px;
 }
 .noOverflow {
 	overflow: hidden;
@@ -344,19 +277,6 @@ hr.bracket-spacer {
 	font-size: 200px;
 	vertical-align: top;
 	line-height: 60%;
-}
-.marker-green {
-	padding: 5px 10px;
-	font-size: 18px;
-	vertical-align: middle;
-	line-height: initial;
-	top: -2px;
-	position: relative;
-	background-color: #86ed18;
-	font-weight: 600;
-	margin: 10px 0;
-	display: inline-block;
-	font-family: $font-headline;
 }
 .headline {
 	display: block;
@@ -388,9 +308,6 @@ hr.bracket-spacer {
 .margin-bottom-40 {
 	margin-bottom: 40px !important;
 }
-.no-padding-bottom {
-	padding-bottom: 0 !important;
-}
 .padding-top-10 {
 	padding-top: 10px !important;
 }
@@ -412,29 +329,6 @@ hr.bracket-spacer {
 .padding-bottom-80 {
 	padding-bottom: 80px !important;
 }
-.padding-left-right-40 {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-.height-146 {
-	width: auto !important;
-	max-height: 146px !important;
-}
-.agentboardImage {
-	// position: absolute;
-	// left: 30%;
-	// right: 30%;
-	// width: 40%;
-	// bottom: 26%;
-	// margin: 0 auto;
-	position: absolute;
-	left: 30.5%;
-	/* right: 101%; */
-	width: 36.5%;
-	bottom: 40.8%;
-	margin: 0 auto;
-	height: 48.9%;
-}
 .overflow-hidden {
 	overflow: hidden;
 }
@@ -453,31 +347,6 @@ hr.bracket-spacer {
 	.no-margin-top-mobile {
 		margin-top: 0 !important;
 	}
-	.agentboardImage {
-		// width: 100%;
-		// left: 0;
-		// right: initial;
-		left: 15.9%;
-		width: 68.5%;
-		bottom: 38.2%;
-		height: 45.9%;
-	}
-}
-
-.break-word {
-	word-break: break-word;
-}
-
-.icon-casestudy {
-	width: 32px;
-	height: 32px;
-	margin-right: 15px;
-	display: inline-block;
-	background-image: url(../images/icons_svg/casestudy-icon.svg);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	vertical-align: middle;
 }
 
 .omr-badge, .icon-card {
@@ -1920,7 +1789,7 @@ blockquote {
 			p {
 				font-family: $font-copy;
 				font-weight: 400;
-				line-height: auto;
+				line-height: normal;
 			}
 		}
 	}
@@ -2577,69 +2446,6 @@ blockquote {
 	}
 	.browsers__browser + .browsers__browser {
 		margin-left: 25px;
-	}
-}
-
-.google-rating {
-	font-family: $font-copy;
-	font-size: 18px;
-	line-height: 1.5;
-	text-align: center;
-	margin: 25px auto;
-	a {
-		color: #000;
-		border-bottom: 2px solid $color-primary;
-		&:hover {
-			border-color: #000;
-		}
-	}
-}
-
-// Worder Select in Contact Sales Modal
-.worker-select {
-	h2 {
-		text-align: center;
-	}
-	
-	.callone-range {
-		margin: 80px auto 30px auto;
-	}
-	
-	.workers {
-		font-family: $font-copy;
-		font-size: 20px;
-		line-height: 20px;
-		text-align: center;
-		margin: 0 auto 90px auto;
-		input {
-			width: 90px;
-			height: 50px;
-			border: 2px solid #E5E5E5;
-			border-radius: 5px;
-			font-family: $font-headline;
-			font-weight: normal;
-			font-size: 28px;
-			line-height: 33px;
-			display: flex;
-			align-items: center;
-			text-align: center;
-			display: inline-block;
-			margin-right: 15px;
-		}
-		span {
-			display: none;
-		}
-		&--valid {
-			input {
-				border-color: $color-primary;
-				background-color: rgba($color-primary, 0.1);
-			}
-		}
-	}
-	
-	.btn {
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 

@@ -398,9 +398,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     let scrollers = document.querySelectorAll('.scroller');
-    let x = 0;
     scrollers.forEach(scroller => {
-        scroller = scrollers[x];
         scroller.style.height = scroller.dataset.height + 'px';
         let scrollerWindowHeight = scroller.dataset.height;
         let scrollerBelt = scroller.querySelector('.scroller-belt');
@@ -480,8 +478,6 @@ document.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('resize', e => {
             handleResize();
         });
-
-        x++;
     });
 
     // Load Tracking Code depending on cookie

@@ -126,15 +126,15 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	&.gradient {
   		&.grey {
   			background: linear-gradient(#f9f9f9,#ffffff);
-  			background-color: none;	
+  			background-color: transparent;	
   		}
   		&.darkgrey {
 	  		background: linear-gradient(#e2e2e2,#ffffff);
-	  		background-color: none;
+	  		background-color: transparent;
   		}
   		&.dark {
 	  		background: linear-gradient(#697271,#474843);
-	  		background-color: none;
+	  		background-color: transparent;
 	  		color: #fff;
 	  		a {
 	  			color: #fff !important;
@@ -142,7 +142,7 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   		}
   		&.yellow {
   			background: linear-gradient(#ffffff,#F2FDC2);
-	  		background-color: none;
+	  		background-color: transparent;
   		}
   	}
   	&.grey {
