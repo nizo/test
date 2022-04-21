@@ -378,7 +378,7 @@ $product->structured_data_get_code ();
 	<div class="section__content section__content--narrow centered mobile-left">
 		<h2>Sind Sie bereit, Ihren Kundenservice zu verbessern?</h2>
 		<p class="bigtext">Buchen Sie ein unverbindliches 15 Minuten Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
-		<p>
+		<p class="mobile-centered">
 			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Termin vereinbaren</a>
 		</p>
 	</div>
