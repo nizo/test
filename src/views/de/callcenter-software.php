@@ -26,7 +26,7 @@ $product->structured_data_get_code ();
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img src="/assets/images/client-logos/deutsche-cloud-no-text.svg" alt="Deutsche Cloud" width="50" height="50" />
+                    <img src="/assets/images/client-logos/icon-german-cloud.svg" alt="Deutsche Cloud" width="50" height="50" />
                     <p style="margin-top:10px">Deutsche<br />Cloud</p>
                 </div>
             </div>
@@ -123,11 +123,11 @@ $product->structured_data_get_code ();
 	</div>
 </div>
 
-<div class="section section--colored" style="--bg:#464775;--color:#fff">
+<div class="section section--colored" style="--bg:#edf2e2;">
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-				<img src="/assets/images/client-logos/logo-check24-white.svg" alt="Unser Kunde Check24" width="370" height="89" />
+				<img src="/assets/images/client-logos/logo-check24-black.svg" alt="Unser Kunde Check24" width="370" height="89" />
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
 				<div class="quote" style="--fontSize:24px">
@@ -139,7 +139,7 @@ $product->structured_data_get_code ();
 				</p>
 
 				<p class="mobile-centered">
-					<a href="/case-study-check24" class="btn btn--border-white">Case Study lesen</a>
+					<a href="/case-study-check24" class="btn btn--border-black">Case Study lesen</a>
 				</p>
 			</div>
 		</div>
@@ -165,7 +165,7 @@ $product->structured_data_get_code ();
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Ihre Warteschleife ist schon voll? Verkürzen Sie die Wartezeit Ihrer Kunden mit praktischen Rückruf-Optionen.</p>
+                    <p style="margin-top:var(--gutter-xs)">Ihre Warteschleife ist schon voll? Verkürzen Sie die Wartezeit Ihrer Kunden mit praktischen Rückruf-Optionen.<br class="mobile-hidden" /><br class="mobile-hidden" /></p>
 
                     <p><a href="/telefonanlage-mit-warteschleife#features" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
                 </div>
@@ -197,7 +197,7 @@ $product->structured_data_get_code ();
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Integrieren Sie eigene Hardware, CRM-Systeme, Google Adwords und mehr in Ihre CallOne Lösung.</p>
+                    <p style="margin-top:var(--gutter-xs)">Integrieren Sie eigene Hardware, CRM-Systeme, Google Adwords und mehr in Ihre CallOne Lösung.<br class="mobile-hidden" /><br class="mobile-hidden" /></p>
 
                     <p><a href="/voip-api" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
                 </div>
@@ -222,7 +222,7 @@ $product->structured_data_get_code ();
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/big_07_2.svg" alt="Funktion: Routing-Optionen" width="51" height="70" style="height:70px" class="co-grid__image--full-width" />
+                            <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="Funktion: Routing-Optionen" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Routing-Optionen</h4>
@@ -302,23 +302,24 @@ $product->structured_data_get_code ();
 				<p class="bigtext">E-Mail, Chat und Messaging nahtlos in Ihre Systeme integrieren.</p>
 				<p>
 					<!-- TODO: Add link to sematell page -->
-					<a href="#" class="btn btn--primary" style="visibility:hidden">Mehr erfahren</a>
+					<a href="#" class="btn btn--primary" style="display:none">Mehr erfahren</a>
+					<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Kontakt aufnehmen</a>
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/robot-head.svg" alt="Echtzeit-Coaching" width="99" height="100" />
+				<img src="/assets/images/icons_svg/icon-echtzeit-coaching.svg" alt="Echtzeit-Coaching" width="100" height="100" style="max-height:100px" />
 				<h3>Echtzeit-Coaching</h3>
 				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
 				<p>
-					<a href="/callcenter-sprachanalyse" class="btn btn--primary">Mehr erfahren</a>
+					<a href="/callcenter-sprachanalyse" class="btn btn--primary">Sprachanalyse im Detail</a>
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 				<img src="/assets/images/icons_svg/msteams-icon.svg" alt="Microsoft Teams" width="100" height="100" />
 				<h3>Teams-Telefonie</h3>
-				<p class="bigtext">Einfach im Teams-Client telefonieren und MS Teams als Telefonanlage nutzen.</p>
+				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
 				<p>
-					<a href="/ms-teams" class="btn btn--primary">Mehr erfahren</a>
+					<a href="/ms-teams" class="btn btn--primary">Mit Teams telefonieren</a>
 				</p>
 			</div>
 		</div>
@@ -327,49 +328,49 @@ $product->structured_data_get_code ();
 
 <div class="section">
 	<div class="section__content section__content--wide">
-		<h2 class="centered mobile-left">Ziele erreichen. ROI maximieren.</h2>
+		<h2 class="centered mobile-left">Ziele erreichen. ROI maximieren. Kosten senken.</h2>
 
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:rgb(219, 0, 197)">
+					<div class="number-card__number" style="--color:#86ed18">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
 					</div>
 					bessere<br />
-					Erreichbarkeit*
+					Erreichbarkeit
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:rgba(255, 123, 27)">
+					<div class="number-card__number" style="--color:#86ed18">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 					</div>
 					weniger Kosten pro Kontakt<br />
-					durch gesteigerte FCR*
+					durch gesteigerte FCR
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number">
+					<div class="number-card__number" style="--color:#86ed18">
 						1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
 					</div>
 					gesteigerte<br />
-					Agentenauslastung*
+					Agentenauslastung
 				</div>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:rgba(0, 136, 234)">
+					<div class="number-card__number" style="--color:#86ed18">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 					</div>
 					mehr Effizienz in der<br />
-					Personalplanung*
+					Personalplanung
 				</div>
 			</div>
 		</div>
 
 		<p class="centered">
-			<a href="/callcenter-einsparpotential" class="btn btn--primary">Ihren ROI berechnen</a>
+			<a href="/callcenter-einsparpotential" class="btn btn--primary">Ihr Einsparpotential berechnen</a>
 		</p>
 	</div>
 </div>
