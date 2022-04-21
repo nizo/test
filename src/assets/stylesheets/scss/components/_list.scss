@@ -48,8 +48,8 @@
             &:before {
                 width: 2em;
                 top: calc(50% - 1em);
-                height: auto;
-                aspect-ratio: 43/46;
+                height: calc(2em / 43 * 46);
+                // aspect-ratio: 43/46;
                 background-image: url(../images/icons_svg/icon-checkmark-green.svg);
             }
         }
