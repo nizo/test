@@ -67,7 +67,7 @@
             </div>
 
             <div class="tablist__content tablist__content--active" data-tab="1">
-                <div class="expandable" id="rueckruf">
+                <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">

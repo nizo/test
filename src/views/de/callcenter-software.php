@@ -167,7 +167,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Ihre Warteschleife ist schon voll? Verkürzen Sie die Wartezeit Ihrer Kunden mit praktischen Rückruf-Optionen.</p>
 
-                    <p><a href="/telefonanlage-mit-warteschleife#rueckruf" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                    <p><a href="/telefonanlage-mit-warteschleife#features" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
                 </div>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
