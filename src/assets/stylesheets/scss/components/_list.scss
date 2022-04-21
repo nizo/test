@@ -38,8 +38,19 @@
 
     &--checkmarks-green {
         li {
+            padding-left: calc(2em + var(--gutter-xs));
+            font-size: 20px;
+
+            &+li {
+                margin-top: var(--gutter-m);
+            }
+
             &:before {
-                background-image: url(../images/icons_svg/checkmark-green-icon.svg);
+                width: 2em;
+                top: calc(50% - 1em);
+                height: calc(2em / 43 * 46);
+                // aspect-ratio: 43/46;
+                background-image: url(../images/icons_svg/icon-checkmark-green.svg);
             }
         }
     }
