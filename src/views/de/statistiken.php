@@ -10,7 +10,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
 	'Was kosten Statistiken und Auswertungen bei CallOne?',
-	'<p>CallOne bietet für seine VoIP-Telefonanlage und Callcenter Software die meisten Statistiken inkludiert als Teil seiner Lösung. FÜr Kunden, die spezielle Anforderungen an Ihr Reporting haben stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
+	'<p>CallOne bietet für seine VoIP-Telefonanlage und Callcenter Software die meisten Statistiken inkludiert als Teil seiner Lösung. Für Kunden, die spezielle Anforderungen an Ihr Reporting haben stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
 );
 ?>
 

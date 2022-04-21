@@ -32,7 +32,7 @@ $faqs->faq_add (
 	<div class="hero">
 		<div class="hero__text">
 			<h1>Call-Tracking neu definiert</h1>
-			<p class="bigtext">Eindeutiges Identifizieren und Verbinden von Websession und eingehendem Anruf auf Ihrer Hotline pepaart mit Multichannel-Funktionen wie Co-Browsing und Chat.</p>
+			<p class="bigtext">Eindeutiges Identifizieren und Verbinden von Websession und eingehendem Anruf auf Ihrer Hotline gepaart mit Multichannel-Funktionen wie Co-Browsing und Chat.</p>
 			<p class="mobile-centered">
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Sales kontaktieren</a>
             </p>
