@@ -333,7 +333,7 @@ $product->structured_data_get_code ();
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#86ed18">
+					<div class="number-card__number" style="--color:#4caf50">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="10">10%</span>
 					</div>
 					bessere<br />
@@ -342,7 +342,7 @@ $product->structured_data_get_code ();
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#86ed18">
+					<div class="number-card__number" style="--color:#4caf50">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 					</div>
 					weniger Kosten pro Kontakt<br />
@@ -351,7 +351,7 @@ $product->structured_data_get_code ();
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#86ed18">
+					<div class="number-card__number" style="--color:#4caf50">
 						1,<span class="counting-number" data-suffix="x" data-start="0" data-end="5">5x</span>
 					</div>
 					gesteigerte<br />
@@ -360,7 +360,7 @@ $product->structured_data_get_code ();
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-lg">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#86ed18">
+					<div class="number-card__number" style="--color:#4caf50">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 					</div>
 					mehr Effizienz in der<br />
