@@ -41,7 +41,7 @@ $slider_width: 1000px; // 1800
     transform: translate3d(-50%, 0, 0);
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     .btn-slider-nav {
       position: relative;
       width: 33px;

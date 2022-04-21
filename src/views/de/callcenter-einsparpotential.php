@@ -412,7 +412,7 @@
 
 <div class="section">
     <div class="section__content section__content--wide">
-        <h1 class="centered mobile-left">Maximale Ersparnis bei maximaler Leistung</h1>
+        <h2 class="centered mobile-left">Maximale Ersparnis bei maximaler Leistung</h2>
         <p class="centered mobile-left bigtext">Effizienz ist Trumpf. Darum beinhalten unsere Lösungen genau die Funktionen und Add-Ons, die Sie brauchen. So steigern Sie die Effizienz Ihrer Unternehmenstelefonie, erhöhen die Zufriedenheit Ihrer Kunden und sparen Ihrem Unternehmen bares Geld.</p>
 
         <div class="co-grid">
