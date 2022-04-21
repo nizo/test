@@ -398,7 +398,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     let scrollers = document.querySelectorAll('.scroller');
-    scrollers.forEach(scroller => {
+    scrollers.forEach((s, x) => {
+        let scroller = scrollers[x];
         scroller.style.height = scroller.dataset.height + 'px';
         let scrollerWindowHeight = scroller.dataset.height;
         let scrollerBelt = scroller.querySelector('.scroller-belt');
@@ -434,7 +435,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         let scroll = () => {
-            let currentTop;
             if (!animationPaused) {
                 let animationStep = animationSpeed / 24;
                 if (scrollerReversed) {
