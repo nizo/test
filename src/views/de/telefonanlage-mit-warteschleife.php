@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="tablist__content" data-tab="1">
+            <div class="tablist__content tablist__content--active" data-tab="1">
                 <div class="expandable">
                     <div class="expandable__main">
                         <div class="co-grid">

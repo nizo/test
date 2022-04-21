@@ -7,6 +7,17 @@
     justify-content: center;
     align-items: center;
 
+    &--fade {
+        img {
+            opacity: .66;
+            transition: opacity .3s ease;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
     img {
         display: block;
         margin: var(--gutter-s);
