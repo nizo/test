@@ -75,7 +75,7 @@ $product->structured_data_get_code ();
 				</ul>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-				<img src="/assets/images/illus/ccs-agenten.png" alt="Modern und browserbasiert: Die Agentenmaske" width="570" height="400" />
+				<img src="/assets/images/illus/ccs-agenten.png" alt="Modern und browserbasiert: Die Agentenmaske" width="570" height="400" class="co-grid__image--full-width" />
 			</div>
 		</div>
 
@@ -84,7 +84,7 @@ $product->structured_data_get_code ();
 
 		<div class="co-grid" id="teamleiter">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-				<img src="/assets/images/illus/ccs-teamleiter.png" alt="Boost für Service & Sales: Mit Statistiken" width="570" height="400" />
+				<img src="/assets/images/illus/ccs-teamleiter.png" alt="Boost für Service & Sales: Mit Statistiken" width="570" height="400" class="co-grid__image--full-width" />
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="tag">
@@ -117,7 +117,7 @@ $product->structured_data_get_code ();
 				</ul>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-				<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="Datenbasierte Effizienz: Mit Dashboards & Analysen" width="569" height="526" />
+				<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="Datenbasierte Effizienz: Mit Dashboards & Analysen" width="569" height="526" class="co-grid__image--full-width" />
 			</div>
 		</div>
 	</div>
