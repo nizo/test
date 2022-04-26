@@ -430,7 +430,6 @@ Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.p
     'shorttitle' => 'Telefonanlage Funktionen',
     'title' => 'Features, Funktionen, Vergleich VoIP-Telefonanlage '.date('Y'),
     'meta_description' => 'Alle Funktionen im Überblick, vergleichen Sie und unsere Customer Success Manager helfen Ihnen bei der Auswahl ihres perfekten Settings. Rufen Sie uns an!',
-    'body_class' => 'bg-preisanfrage',
     'og_image_text' => 'VoIP-Telefonanlage Funktionen im Vergleich '.date('Y')
 ]);
 Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
