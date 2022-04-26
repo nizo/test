@@ -4,8 +4,8 @@
             <h1>CallOne Cloud ACD Funktionen</h1>
             <p>Alle Funktionen der Cloud ACD im Überblick von der Agenten-Administration bis zur Warteschleifen-Konfiguration.</p>
         </div>
-        <div class="media centered">
-            <img src="/assets/images/illus/illu-it.svg" alt="Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software" />
+        <div class="hero__image">
+            <img src="/assets/images/illus/hero-cs-funktionen.png" alt="Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software" />
         </div>
     </div>
 
@@ -124,10 +124,6 @@
                 </div>
             </div>
         </div>
-
-        <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Beratungstermin vereinbaren</a>
-        </p>
     </div>
 </div>
 
@@ -192,10 +188,6 @@
                 </div>
             </div>
         </div>
-
-        <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Beratungstermin vereinbaren</a>
-        </p>
     </div>
 </div>
 
@@ -299,10 +291,6 @@
                 </div>
             </div>
         </div>
-
-        <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Beratungstermin vereinbaren</a>
-        </p>
     </div>
 </div>
 
@@ -380,10 +368,6 @@
                 </div>
             </div>
         </div>
-
-        <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Beratungstermin vereinbaren</a>
-        </p>
     </div>
 </div>
 
@@ -526,10 +510,6 @@
                 </div>
             </div>
         </div>
-
-        <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Beratungstermin vereinbaren</a>
-        </p>
     </div>
 </div>
 
@@ -633,9 +613,71 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Kostenlos testen" data-category="Link" data-action="opens sales modal">Beratungstermin vereinbaren</a>
+<div class="section section--white-grey-green-half-circle">
+    <div class="section__content section__content--wide">
+        <h2 class="centered mobile-left">Wo andere Anbieter aufhören, fangen wir erst an.</h2>
+        <p class="centered mobile-left bigtext">
+			VoIP-Telefonanlagen gibt es viele, doch wir haben uns auf die Fahne geschrieben, Full-Service Anbieter für alle Bereiche Ihrer Telefonie zu sein.<br />
+            <br />
+            <br />
         </p>
+
+        <h3 class="centered mobile-left">Unsere Add-Ons und Zusatzmodule</h3>
+
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Die CallCenter Software von CallOne" width="50" height="50" class="co-grid__image--full-width" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
+                            <h4 style="margin-bottom:0">VoIP Telefonanlage</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Unsere absolute Expertise! Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
+
+                    <p><a href="/voip-telefonanlage" class="btn btn--border-bottom btn--arrow-right-small">Bessere Businesstelefonie</a></p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/menu-app-api.svg" alt="APIs für individuelle Telefonielösungen mit der CallOne Cloud Telefonanlage" width="51" height="50" class="co-grid__image--full-width" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Kommu&shy;nikations-APIs</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Innovative Features für Ihre Telefonanlage und individuelle Lösungen, die in Ihr CRM integriert sind - für noch mehr Effizienz.</p>
+
+                    <p><a href="/callcenter-software-integrationen" class="btn btn--border-bottom btn--arrow-right-small">Schneller Kunden bearbeiten</a></p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <img src="/assets/images/icons_svg/msteams-icon.svg" alt="MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage" width="50" height="50" class="co-grid__image--full-width" />
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
+                            <h4 style="margin-bottom:0">Teams-Telefonie</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Nahtlose Einbindung und einfache Nutzung von Microsoft Teams gefällig? Kein Problem!</p>
+
+                    <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
