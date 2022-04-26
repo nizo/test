@@ -620,7 +620,7 @@
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left">Wo andere Anbieter aufhören, fangen wir erst an.</h2>
         <p class="centered mobile-left bigtext">
-			VoIP-Telefonanlagen gibt es viele, doch wir haben uns auf die Fahne geschrieben, Full-Service Anbieter für alle Bereiche Ihrer Telefonie zu sein.<br />
+			Callcenter Software Angebote gibt es viele, doch wir haben uns auf die Fahne geschrieben, Full-Service Anbieter für alle Bereiche Ihrer Telefonie zu sein.<br />
             <br />
             <br />
         </p>
