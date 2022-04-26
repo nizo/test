@@ -42,7 +42,7 @@
                             <h4>Standort-Unabhängigkeit</h4>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Mit CallOne TEL nehmen Sie Ihre Telefonate dort an wo Sie gerade sind: Unterwegs per VoIP-App auf dem Smartphone, im Büro am stationären IP-Telefon oder am Softphone im Home Office — Sie sind flexibel!</p>
+                    <p style="margin-top:var(--gutter-xs)">Mit CallOne TEL nehmen Sie Ihre Telefonate dort an wo Sie gerade sind: Unterwegs per VoIP-App auf dem Smartphone, im Büro am stationären IP-Telefon oder am Softphone im Home-Office — Sie sind flexibel!</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -52,10 +52,10 @@
                             <span class="sl sl-house"></span>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Home Office</h4>
+                            <h4>Home-Office</h4>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Nutzen Sie die Vorteile einer virtuellen Telefonanlage auch im HomeOffice. Sie sind unter der gleichen Rufnummer und ohne Weiterleitungen erreichbar wie im Büro, sogar wenn Sie in einem ganz anderen Land sind.</p>
+                    <p style="margin-top:var(--gutter-xs)">Nutzen Sie die Vorteile einer virtuellen Telefonanlage auch im Home-Office. Sie sind unter der gleichen Rufnummer und ohne Weiterleitungen erreichbar wie im Büro, sogar wenn Sie in einem ganz anderen Land sind.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -235,7 +235,7 @@
                             <h4>Handbücher</h4>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Wenn Sie Fragen haben helfen wir Ihnen natürlich gerne persönlich weiter. Sie können aber auch einen Blick in unsere umfangreichen Handbücher werfen, die wir Ihnen gerne zusenden, oder sich in unseren <a href="#">FAQ</a> informieren.</p>
+                    <p style="margin-top:var(--gutter-xs)">Wenn Sie Fragen haben helfen wir Ihnen natürlich gerne persönlich weiter. Sie können aber auch einen Blick in unsere umfangreichen Handbücher werfen, die wir Ihnen gerne zusenden, oder sich in unseren <a href="/faq" target="_blank" class="inline-link">FAQ</a> informieren.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
