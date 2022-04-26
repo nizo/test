@@ -32,6 +32,64 @@
 
     <div class="section__content section__content--wide">
         <div class="co-grid">
+        <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="expandable">
+                    <div class="expandable__main">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-settings"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Konfiguration in Echtzeit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="checkbox" id="expandable1">
+                    <label for="expandable1"></label>
+                    <div class="expandable__extra">
+                        Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="expandable">
+                    <div class="expandable__main">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-settings"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Konfiguration in Echtzeit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="checkbox" id="expandable2">
+                    <label for="expandable2"></label>
+                    <div class="expandable__extra">
+                        Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="expandable">
+                    <div class="expandable__main">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-settings"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h3>Konfiguration in Echtzeit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="checkbox" id="expandable3">
+                    <label for="expandable3"></label>
+                    <div class="expandable__extra">
+                        Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.
+                    </div>
+                </div>
+            </div>
+
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
