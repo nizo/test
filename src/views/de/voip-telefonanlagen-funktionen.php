@@ -133,7 +133,7 @@ $faqs->faq_add (
                                 <span class="sl sl-cut"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Schnittstellen/APIs</h3>
+                                <h3>Schnittstellen / APIs</h3>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ $faqs->faq_add (
                                 <span class="sl sl-award"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Gesprächsqualität</h3>
+                                <h3>Gesprächs&shy;qualität</h3>
                             </div>
                         </div>
                     </div>
@@ -772,7 +772,7 @@ $faqs->faq_add (
                                 <span class="sl sl-call-add"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Telefonische Rountingänderung</h3>
+                                <h3>Telefonische Routing&shy;änderung</h3>
                             </div>
                         </div>
                     </div>
@@ -915,7 +915,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-block2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Besetztlampenfeld / Präsenz-Anzeige</h3>
+                                <h3>Besetzt&shy;lampenfeld / Präsenz-Anzeige</h3>
                             </div>
                         </div>
                     </div>
