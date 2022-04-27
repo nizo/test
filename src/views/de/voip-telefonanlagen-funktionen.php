@@ -196,7 +196,7 @@ $faqs->faq_add (
                                 <span class="sl sl-crown"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Premium-Terminierungsrouten</h3>
+                                <h3>Premium-Terminierungs&shy;routen</h3>
                             </div>
                         </div>
                     </div>
@@ -276,7 +276,7 @@ $faqs->faq_add (
                                 <span class="sl sl-contacts"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Benutzermanagement</h3>
+                                <h3>Benutzer&shy;management</h3>
                             </div>
                         </div>
                     </div>
@@ -894,7 +894,7 @@ $faqs->faq_add (
                                 <span class="sl sl-mobile-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Autoprovisionierung</h3>
+                                <h3>Auto&shy;provisionierung</h3>
                             </div>
                         </div>
                     </div>
