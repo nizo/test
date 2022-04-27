@@ -210,6 +210,12 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
+        </div>
     </div>
 </div>    
 
@@ -389,6 +395,12 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
+        </div>
     </div>
 </div>
 
@@ -546,6 +558,12 @@ $faqs->faq_add (
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
         </div>
     </div>
 </div>
@@ -810,6 +828,12 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
+        </div>
     </div>
 </div>
 
@@ -1030,6 +1054,12 @@ $faqs->faq_add (
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
         </div>
     </div>
 </div>
@@ -1273,6 +1303,12 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
+        </div>
     </div>
 </div>
 
@@ -1368,6 +1404,12 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
+        </div>
     </div>
 </div>
 
@@ -1433,6 +1475,12 @@ $faqs->faq_add (
                     <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams verbinden</a></p>
                 </div>
             </div>
+        </div>
+
+        <!-- TODO: Add links -->
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary">Primary Action</a>
+            <a href="#" class="btn btn--secondary">Secondary Action</a>
         </div>
     </div>
 </div>
