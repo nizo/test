@@ -1,3 +1,12 @@
+<?php
+// TODO: Add faqs
+$faqs = new faqs ();
+$faqs->faq_add (
+    'Lorem Ipsum Dolor Sit Amet?',
+    '<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur ex consequuntur sapiente et voluptatibus ad laudantium unde nobis id asperiores culpa, mollitia omnis possimus aspernatur rem minus nisi rerum illum.</p>'
+);
+?>
+
 <div class="section section--mobile-divider">
     <div class="hero">
         <div class="hero__text">
@@ -40,7 +49,7 @@
                                 <span class="sl sl-globe"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Standort-Unabhängigkeit</h4>
+                                <h3>Standort-Unabhängigkeit</h3>
                             </div>
                         </div>
                     </div>
@@ -61,7 +70,7 @@
                                 <span class="sl sl-house"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Home-Office</h4>
+                                <h3>Home-Office</h3>
                             </div>
                         </div>
                     </div>
@@ -82,7 +91,7 @@
                                 <span class="sl sl-hand-coin"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Kostenfrei intern telefonieren</h4>
+                                <h3>Kostenfrei intern telefonieren</h3>
                             </div>
                         </div>
                     </div>
@@ -103,7 +112,7 @@
                                 <span class="sl sl-globe2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Weltweit einsetzbar</h4>
+                                <h3>Weltweit einsetzbar</h3>
                             </div>
                         </div>
                     </div>
@@ -124,7 +133,7 @@
                                 <span class="sl sl-cut"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Schnittstellen/APIs</h4>
+                                <h3>Schnittstellen/APIs</h3>
                             </div>
                         </div>
                     </div>
@@ -145,7 +154,7 @@
                                 <span class="sl sl-award"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Gesprächsqualität</h4>
+                                <h3>Gesprächsqualität</h3>
                             </div>
                         </div>
                     </div>
@@ -166,7 +175,7 @@
                                 <span class="sl sl-remote"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Zentrale Steuerung über Web-Frontend</h4>
+                                <h3>Zentrale Steuerung über Web-Frontend</h3>
                             </div>
                         </div>
                     </div>
@@ -187,7 +196,7 @@
                                 <span class="sl sl-crown"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Premium-Terminierungsrouten</h4>
+                                <h3>Premium-Terminierungsrouten</h3>
                             </div>
                         </div>
                     </div>
@@ -219,7 +228,7 @@
                                 <span class="sl sl-bubble"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Ansagen-Management</h4>
+                                <h3>Ansagen-Management</h3>
                             </div>
                         </div>
                     </div>
@@ -240,7 +249,7 @@
                                 <span class="sl sl-bubble-comment"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Text2Speech</h4>
+                                <h3>Text2Speech</h3>
                             </div>
                         </div>
                     </div>
@@ -261,7 +270,7 @@
                                 <span class="sl sl-contacts"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Benutzermanagement</h4>
+                                <h3>Benutzermanagement</h3>
                             </div>
                         </div>
                     </div>
@@ -282,7 +291,7 @@
                                 <span class="sl sl-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Mitarbeiter-Verwaltung</h4>
+                                <h3>Mitarbeiter-Verwaltung</h3>
                             </div>
                         </div>
                     </div>
@@ -303,7 +312,7 @@
                                 <span class="sl sl-call"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Rufnummern-Übermittlung</h4>
+                                <h3>Rufnummern-Übermittlung</h3>
                             </div>
                         </div>
                     </div>
@@ -324,7 +333,7 @@
                                 <span class="sl sl-receipt"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Abrechnungen</h4>
+                                <h3>Abrechnungen</h3>
                             </div>
                         </div>
                     </div>
@@ -345,7 +354,7 @@
                                 <span class="sl sl-book"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Handbücher</h4>
+                                <h3>Handbücher</h3>
                             </div>
                         </div>
                     </div>
@@ -366,7 +375,7 @@
                                 <span class="sl sl-receipt2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Kostenstellen</h4>
+                                <h3>Kostenstellen</h3>
                             </div>
                         </div>
                     </div>
@@ -398,7 +407,7 @@
                                 <span class="sl sl-database-network"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Serverstandort Deutschland</h4>
+                                <h3>Serverstandort Deutschland</h3>
                             </div>
                         </div>
                     </div>
@@ -419,7 +428,7 @@
                                 <span class="sl sl-lock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>VPN</h4>
+                                <h3>VPN</h3>
                             </div>
                         </div>
                     </div>
@@ -440,7 +449,7 @@
                                 <span class="sl sl-lock2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>TLS</h4>
+                                <h3>TLS</h3>
                             </div>
                         </div>
                     </div>
@@ -461,7 +470,7 @@
                                 <span class="sl sl-lock3"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>SRTP</h4>
+                                <h3>SRTP</h3>
                             </div>
                         </div>
                     </div>
@@ -482,7 +491,7 @@
                                 <span class="sl sl-call-block"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Black- & Whitelisten</h4>
+                                <h3>Black- & Whitelisten</h3>
                             </div>
                         </div>
                     </div>
@@ -503,7 +512,7 @@
                                 <span class="sl sl-ambulance"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Notfall-Management</h4>
+                                <h3>Notfall-Management</h3>
                             </div>
                         </div>
                     </div>
@@ -524,7 +533,7 @@
                                 <span class="sl sl-wallet"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Registrierung beschränkbar</h4>
+                                <h3>Registrierung beschränkbar</h3>
                             </div>
                         </div>
                     </div>
@@ -556,7 +565,7 @@
                                 <span class="sl sl-phone2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Rufnummern (0800, Service, lokal)</h4>
+                                <h3>Rufnummern (0800, Service, lokal)</h3>
                             </div>
                         </div>
                     </div>
@@ -577,7 +586,7 @@
                                 <span class="sl sl-hourglass"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Warteschleife</h4>
+                                <h3>Warteschleife</h3>
                             </div>
                         </div>
                     </div>
@@ -598,7 +607,7 @@
                                 <span class="sl sl-call-in"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Rückruf-Option</h4>
+                                <h3>Rückruf-Option</h3>
                             </div>
                         </div>
                     </div>
@@ -619,7 +628,7 @@
                                 <span class="sl sl-connection2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Gruppenanruf</h4>
+                                <h3>Gruppenanruf</h3>
                             </div>
                         </div>
                     </div>
@@ -640,7 +649,7 @@
                                 <span class="sl sl-call-out"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Rufumleitung</h4>
+                                <h3>Rufumleitung</h3>
                             </div>
                         </div>
                     </div>
@@ -661,7 +670,7 @@
                                 <span class="sl sl-soda"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Überlaufroutings</h4>
+                                <h3>Überlaufroutings</h3>
                             </div>
                         </div>
                     </div>
@@ -682,7 +691,7 @@
                                 <span class="sl sl-phone3"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>IVR-Menüs</h4>
+                                <h3>IVR-Menüs</h3>
                             </div>
                         </div>
                     </div>
@@ -703,7 +712,7 @@
                                 <span class="sl sl-scale-all"></span>    
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Ursprungsrouting</h4>
+                                <h3>Ursprungsrouting</h3>
                             </div>
                         </div>
                     </div>
@@ -724,7 +733,7 @@
                                 <span class="sl sl-bubble-ask"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Kundenbefragung</h4>
+                                <h3>Kundenbefragung</h3>
                             </div>
                         </div>
                     </div>
@@ -745,7 +754,7 @@
                                 <span class="sl sl-call-add"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Telefonische Rountingänderung</h4>
+                                <h3>Telefonische Rountingänderung</h3>
                             </div>
                         </div>
                     </div>
@@ -766,7 +775,7 @@
                                 <span class="sl sl-mailbox"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Telefonische Mailboxabfrage</h4>
+                                <h3>Telefonische Mailboxabfrage</h3>
                             </div>
                         </div>
                     </div>
@@ -787,7 +796,7 @@
                                 <span class="sl sl-infinity"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Unlimitierte zeitgleiche Anrufe</h4>
+                                <h3>Unlimitierte zeitgleiche Anrufe</h3>
                             </div>
                         </div>
                     </div>
@@ -819,7 +828,7 @@
                                 <span class="sl sl-fax"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Stationäre Endgeräte</h4>
+                                <h3>Stationäre Endgeräte</h3>
                             </div>
                         </div>
                     </div>
@@ -840,7 +849,7 @@
                                 <span class="sl sl-phone4"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Softphones</h4>
+                                <h3>Softphones</h3>
                             </div>
                         </div>
                     </div>
@@ -861,7 +870,7 @@
                                 <span class="sl sl-mobile-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Autoprovisionierung</h4>
+                                <h3>Autoprovisionierung</h3>
                             </div>
                         </div>
                     </div>
@@ -882,7 +891,7 @@
                                 <span class="sl sl-bubble-block2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Besetztlampenfeld / Präsenz-Anzeige</h4>
+                                <h3>Besetztlampenfeld / Präsenz-Anzeige</h3>
                             </div>
                         </div>
                     </div>
@@ -903,7 +912,7 @@
                                 <span class="sl sl-bubble-star"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Pick-Up</h4>
+                                <h3>Pick-Up</h3>
                             </div>
                         </div>
                     </div>
@@ -924,7 +933,7 @@
                                 <span class="sl sl-sofa"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Freie Sitzplatzwahl</h4>
+                                <h3>Freie Sitzplatzwahl</h3>
                             </div>
                         </div>
                     </div>
@@ -945,7 +954,7 @@
                                 <span class="sl sl-kindle"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Display-Anzeige</h4>
+                                <h3>Display-Anzeige</h3>
                             </div>
                         </div>
                     </div>
@@ -966,7 +975,7 @@
                                 <span class="sl sl-transfer"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Steuercodes</h4>
+                                <h3>Steuercodes</h3>
                             </div>
                         </div>
                     </div>
@@ -987,7 +996,7 @@
                                 <span class="sl sl-chat3"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Weiterleiten, Durchstellen und Makeln</h4>
+                                <h3>Weiterleiten, Durchstellen und Makeln</h3>
                             </div>
                         </div>
                     </div>
@@ -1008,7 +1017,7 @@
                                 <span class="sl sl-hourglass2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Hold-Funktion</h4>
+                                <h3>Hold-Funktion</h3>
                             </div>
                         </div>
                     </div>
@@ -1040,7 +1049,7 @@
                                 <span class="sl sl-fax"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Fax2Mail und Mail2Fax</h4>
+                                <h3>Fax2Mail und Mail2Fax</h3>
                             </div>
                         </div>
                     </div>
@@ -1061,7 +1070,7 @@
                                 <span class="sl sl-inbox"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Online Mailbox</h4>
+                                <h3>Online Mailbox</h3>
                             </div>
                         </div>
                     </div>
@@ -1082,7 +1091,7 @@
                                 <span class="sl sl-connection"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Telefon-Konferenz</h4>
+                                <h3>Telefon-Konferenz</h3>
                             </div>
                         </div>
                     </div>
@@ -1103,7 +1112,7 @@
                                 <span class="sl sl-return"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Callback</h4>
+                                <h3>Callback</h3>
                             </div>
                         </div>
                     </div>
@@ -1124,7 +1133,7 @@
                                 <span class="sl sl-recorder"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Gesprächs-Aufzeichnung</h4>
+                                <h3>Gesprächs-Aufzeichnung</h3>
                             </div>
                         </div>
                     </div>
@@ -1145,7 +1154,7 @@
                                 <span class="sl sl-phone4"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>SIP-Trunk</h4>
+                                <h3>SIP-Trunk</h3>
                             </div>
                         </div>
                     </div>
@@ -1166,7 +1175,7 @@
                                 <span class="sl sl-bubble-conversation"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Silent Coaching</h4>
+                                <h3>Silent Coaching</h3>
                             </div>
                         </div>
                     </div>
@@ -1187,7 +1196,7 @@
                                 <span class="sl sl-contacts2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Telefonbuch</h4>
+                                <h3>Telefonbuch</h3>
                             </div>
                         </div>
                     </div>
@@ -1208,7 +1217,7 @@
                                 <span class="sl sl-letter"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>SMS</h4>
+                                <h3>SMS</h3>
                             </div>
                         </div>
                     </div>
@@ -1229,7 +1238,7 @@
                                 <span class="sl sl-profile-serviceman"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>ACD Integration</h4>
+                                <h3>ACD Integration</h3>
                             </div>
                         </div>
                     </div>
@@ -1250,7 +1259,7 @@
                                 <span class="sl sl-shopping"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Öffnungszeiten und Feiertage</h4>
+                                <h3>Öffnungszeiten und Feiertage</h3>
                             </div>
                         </div>
                     </div>
@@ -1282,7 +1291,7 @@
                                 <span class="sl sl-chart2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Umfangreiche Statistiken</h4>
+                                <h3>Umfangreiche Statistiken</h3>
                             </div>
                         </div>
                     </div>
@@ -1303,7 +1312,7 @@
                                 <span class="sl sl-chart-up"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Statistik-Export</h4>
+                                <h3>Statistik-Export</h3>
                             </div>
                         </div>
                     </div>
@@ -1324,7 +1333,7 @@
                                 <span class="sl sl-check"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Integration Statistiken in CRM</h4>
+                                <h3>Integration Statistiken in CRM</h3>
                             </div>
                         </div>
                     </div>
@@ -1345,7 +1354,7 @@
                                 <span class="sl sl-chart-board"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>LiveMonitor</h4>
+                                <h3>LiveMonitor</h3>
                             </div>
                         </div>
                     </div>
@@ -1428,4 +1437,13 @@
     </div>
 </div>
 
-<!-- TODO: Add faq -->
+<div class="section section--black">
+	<div class="section__content">
+        <h2 class="centered mobile-left">Häufige Fragen</h2>
+
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code ('toggle-box--on-black');
+		?>
+	</div>
+</div>

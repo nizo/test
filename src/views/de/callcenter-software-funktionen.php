@@ -1,3 +1,12 @@
+<?php
+// TODO: Add faqs
+$faqs = new faqs ();
+$faqs->faq_add (
+    'Lorem Ipsum Dolor Sit Amet?',
+    '<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur ex consequuntur sapiente et voluptatibus ad laudantium unde nobis id asperiores culpa, mollitia omnis possimus aspernatur rem minus nisi rerum illum.</p>'
+);
+?>
+
 <div class="section section--mobile-divider">
     <div class="hero">
         <div class="hero__text">
@@ -61,7 +70,7 @@
                                 <span class="sl sl-pin"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Alles an <br />einem Ort</h4>
+                                <h3>Alles an <br />einem Ort</h3>
                             </div>
                         </div>
                     </div>
@@ -82,7 +91,7 @@
                                 <span class="sl sl-lock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Sicherheit & Datenschutz</h4>
+                                <h3>Sicherheit & Datenschutz</h3>
                             </div>
                         </div>
                     </div>
@@ -103,7 +112,7 @@
                                 <span class="sl sl-magic-wand"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Eigenständige Konfiguration</h4>
+                                <h3>Eigenständige Konfiguration</h3>
                             </div>
                         </div>
                     </div>
@@ -124,7 +133,7 @@
                                 <span class="sl sl-spread"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Einfache <br />Erweiterbarkeit</h4>
+                                <h3>Einfache <br />Erweiterbarkeit</h3>
                             </div>
                         </div>
                     </div>
@@ -145,7 +154,7 @@
                                 <span class="sl sl-cloud"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>2 GB <br />Cloud Speicher</h4>
+                                <h3>2 GB <br />Cloud Speicher</h3>
                             </div>
                         </div>
                     </div>
@@ -166,7 +175,7 @@
                                 <span class="sl sl-bubble-smiley"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>IP & <br />PSTN</h4>
+                                <h3>IP & <br />PSTN</h3>
                             </div>
                         </div>
                     </div>
@@ -205,7 +214,7 @@
                                 <span class="sl sl-bubble"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Musik und Ansagen hochladen</h4>
+                                <h3>Musik und Ansagen hochladen</h3>
                             </div>
                         </div>
                     </div>
@@ -226,7 +235,7 @@
                                 <span class="sl sl-adjustment"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Warteschleifen-Konfiguration</h4>
+                                <h3>Warteschleifen-Konfiguration</h3>
                             </div>
                         </div>
                     </div>
@@ -247,7 +256,7 @@
                                 <span class="sl sl-hourglass"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Warteschleifen-Ansagen</h4>
+                                <h3>Warteschleifen-Ansagen</h3>
                             </div>
                         </div>
                     </div>
@@ -268,7 +277,7 @@
                                 <span class="sl sl-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Text to Speech</h4>
+                                <h3>Text to Speech</h3>
                             </div>
                         </div>
                     </div>
@@ -307,7 +316,7 @@
                                 <span class="sl sl-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Einbindung eigener Hardware</h4>
+                                <h3>Einbindung eigener Hardware</h3>
                             </div>
                         </div>
                     </div>
@@ -328,7 +337,7 @@
                                 <span class="sl sl-cut"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Webhooks & API</h4>
+                                <h3>Webhooks & API</h3>
                             </div>
                         </div>
                     </div>
@@ -349,7 +358,7 @@
                                 <span class="sl sl-mail"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Zendesk</h4>
+                                <h3>Zendesk</h3>
                             </div>
                         </div>
                     </div>
@@ -370,7 +379,7 @@
                                 <span class="sl sl-scale"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>CRM Integration</h4>
+                                <h3>CRM Integration</h3>
                             </div>
                         </div>
                     </div>
@@ -391,7 +400,7 @@
                                 <span class="sl sl-screen"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Browser-Anruf (Click2Call)</h4>
+                                <h3>Browser-Anruf (Click2Call)</h3>
                             </div>
                         </div>
                     </div>
@@ -412,7 +421,7 @@
                                 <span class="sl sl-clock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>CallBack Button</h4>
+                                <h3>CallBack Button</h3>
                             </div>
                         </div>
                     </div>
@@ -433,7 +442,7 @@
                                 <span class="sl sl-wallet"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Google Adwords</h4>
+                                <h3>Google Adwords</h3>
                             </div>
                         </div>
                     </div>
@@ -472,7 +481,7 @@
                                 <span class="sl sl-pie-chart"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Rufnummern-Statistiken</h4>
+                                <h3>Rufnummern-Statistiken</h3>
                             </div>
                         </div>
                     </div>
@@ -493,7 +502,7 @@
                                 <span class="sl sl-connection"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>ACD-Statistiken</h4>
+                                <h3>ACD-Statistiken</h3>
                             </div>
                         </div>
                     </div>
@@ -514,7 +523,7 @@
                                 <span class="sl sl-clock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Echtzeit-Monitoring</h4>
+                                <h3>Echtzeit-Monitoring</h3>
                             </div>
                         </div>
                     </div>
@@ -535,7 +544,7 @@
                                 <span class="sl sl-target"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Analyse von Kennzahlen</h4>
+                                <h3>Analyse von Kennzahlen</h3>
                             </div>
                         </div>
                     </div>
@@ -556,7 +565,7 @@
                                 <span class="sl sl-clipboard"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Mitarbeiter-Performance</h4>
+                                <h3>Mitarbeiter-Performance</h3>
                             </div>
                         </div>
                     </div>
@@ -595,7 +604,7 @@
                                 <span class="sl sl-call-out"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Weiterleitungen</h4>
+                                <h3>Weiterleitungen</h3>
                             </div>
                         </div>
                     </div>
@@ -616,7 +625,7 @@
                                 <span class="sl sl-arrow-move-up"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>IVR-Auswahlmenüs</h4>
+                                <h3>IVR-Auswahlmenüs</h3>
                             </div>
                         </div>
                     </div>
@@ -637,7 +646,7 @@
                                 <span class="sl sl-recorder"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Gesprächs&shy;aufzeichnung</h4>
+                                <h3>Gesprächs&shy;aufzeichnung</h3>
                             </div>
                         </div>
                     </div>
@@ -658,7 +667,7 @@
                                 <span class="sl sl-fax"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Fax2Mail & Mail2Fax</h4>
+                                <h3>Fax2Mail & Mail2Fax</h3>
                             </div>
                         </div>
                     </div>
@@ -679,7 +688,7 @@
                                 <span class="sl sl-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Wahlwiederholer</h4>
+                                <h3>Wahlwiederholer</h3>
                             </div>
                         </div>
                     </div>
@@ -700,7 +709,7 @@
                                 <span class="sl sl-clock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Öffnungszeiten administrieren</h4>
+                                <h3>Öffnungszeiten administrieren</h3>
                             </div>
                         </div>
                     </div>
@@ -721,7 +730,7 @@
                                 <span class="sl sl-bubble-chat"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Mailbox</h4>
+                                <h3>Mailbox</h3>
                             </div>
                         </div>
                     </div>
@@ -742,7 +751,7 @@
                                 <span class="sl sl-call"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Notfallrouting</h4>
+                                <h3>Notfallrouting</h3>
                             </div>
                         </div>
                     </div>
@@ -763,7 +772,7 @@
                                 <span class="sl sl-bubble-smiley"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Kundenbefragung</h4>
+                                <h3>Kundenbefragung</h3>
                             </div>
                         </div>
                     </div>
@@ -784,7 +793,7 @@
                                 <span class="sl sl-clock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Konferenzsystem</h4>
+                                <h3>Konferenzsystem</h3>
                             </div>
                         </div>
                     </div>
@@ -823,7 +832,7 @@
                                 <span class="sl sl-link"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Individuelle ACD Konfiguration</h4>
+                                <h3>Individuelle ACD Konfiguration</h3>
                             </div>
                         </div>
                     </div>
@@ -844,7 +853,7 @@
                                 <span class="sl sl-connection"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Skillgruppen</h4>
+                                <h3>Skillgruppen</h3>
                             </div>
                         </div>
                     </div>
@@ -865,7 +874,7 @@
                                 <span class="sl sl-screen"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Online-Agentenmaske</h4>
+                                <h3>Online-Agentenmaske</h3>
                             </div>
                         </div>
                     </div>
@@ -886,7 +895,7 @@
                                 <span class="sl sl-profile-serviceman"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Agenten-Administration</h4>
+                                <h3>Agenten-Administration</h3>
                             </div>
                         </div>
                     </div>
@@ -907,7 +916,7 @@
                                 <span class="sl sl-piggy-bank"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Abrechnung</h4>
+                                <h3>Abrechnung</h3>
                             </div>
                         </div>
                     </div>
@@ -928,7 +937,7 @@
                                 <span class="sl sl-bubble-smiley"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Display-Anzeigen & Whispering</h4>
+                                <h3>Display-Anzeigen & Whispering</h3>
                             </div>
                         </div>
                     </div>
@@ -949,7 +958,7 @@
                                 <span class="sl sl-scale"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h4>Umfangreiche Routingoptionen</h4>
+                                <h3>Umfangreiche Routingoptionen</h3>
                             </div>
                         </div>
                     </div>
@@ -1044,4 +1053,13 @@
     </div>
 </div>
 
-<!-- TODO: Add faq -->
+<div class="section section--black">
+	<div class="section__content">
+        <h2 class="centered mobile-left">Häufige Fragen</h2>
+
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code ('toggle-box--on-black');
+		?>
+	</div>
+</div>
