@@ -32,9 +32,9 @@
 
     <div class="section__content section__content--wide">
         <div class="co-grid">
-        <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="expandable">
-                    <div class="expandable__main">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
                                 <span class="sl sl-settings"></span>
@@ -47,138 +47,139 @@
                     <input type="checkbox" id="expandable1">
                     <label for="expandable1"></label>
                     <div class="expandable__extra">
-                        Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.
+                        <div class="expandable__extra-full">
+                            <p>Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.</p>
+                            <p>
+                                <a href="#" class="btn btn--border-bottom btn--arrow-right-small">Weitere Infos</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="expandable">
-                    <div class="expandable__main">
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <span class="sl sl-settings"></span>
+                                <span class="sl sl-pin"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Konfiguration in Echtzeit</h3>
+                                <h4>Alles an <br />einem Ort</h4>
                             </div>
                         </div>
                     </div>
                     <input type="checkbox" id="expandable2">
                     <label for="expandable2"></label>
                     <div class="expandable__extra">
-                        Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.
+                        <div class="expandable__extra-full">
+                            <p>Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen und finden Ihre gesamte Telefonielösung so an einem zentralen Ort. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten. So werden verschiedene Standorte nicht mehr zum Problem.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="expandable">
-                    <div class="expandable__main">
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <span class="sl sl-settings"></span>
+                                <span class="sl sl-lock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Konfiguration in Echtzeit</h3>
+                                <h4>Sicherheit & Datenschutz</h4>
                             </div>
                         </div>
                     </div>
                     <input type="checkbox" id="expandable3">
                     <label for="expandable3"></label>
                     <div class="expandable__extra">
-                        Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.
+                        <div class="expandable__extra-full">
+                            <p>Sie können beruhigt einschlafen – Ihre Daten sind bei uns in guten Händen. Unsere unabhängigen und ausfallsicheren Server stehen in Deutschland und entsprechen modernsten Sicherheitsstandards sowie strengsten Datenschutzvorschriften. (Made in Germany)</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-settings"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Konfiguration in Echtzeit</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-magic-wand"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>Eigenständige Konfiguration</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.</p>
+                    <input type="checkbox" id="expandable4">
+                    <label for="expandable4"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Sie möchten Einstellungen und Änderungen selbst durchführen? Nicht für jede kleinste Feinjustierung bei Ihrem Dienstleister anklopfen müssen? Bei CallOne liegt diese Entscheidung bei Ihnen. Konfigurieren Sie sämtliche Aspekte Ihrer Callcenter Lösung eigenständig oder lassen Sie Einstellungen von unseren Mitarbeitern vornehmen – Sie haben die Wahl!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-pin"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Alles an einem Ort</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-spread"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>Einfache <br />Erweiterbarkeit</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen und finden Ihre gesamte Telefonielösung so an einem zentralen Ort. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten. So werden verschiedene Standorte nicht mehr zum Problem.</p>
+                    <input type="checkbox" id="expandable5">
+                    <label for="expandable5"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Die Callcenter Lösung wächst mit Ihnen mit. Starten Sie am Anfang doch einfach mit einer Basic Version der ACD, um große Investitionen erstmal in Werbung und Produkte zu tätigen und erweitern Sie Ihre Lösung mit der Zeit. Immer angepasst an die aktuelle Situation in Ihrem Unternehmen. Sie haben z.B. durch eine Werbekampagne nur vorübergehend ein sehr hohes Anruferaufkommen? Kein Problem: Die ACD Lösung kann auch für kürzere Zeiträume angepasst und im Anschluss daran wieder in den Ursprungszustand zurückversetzt werden.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-lock"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Sicherheit & Datenschutz</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-cloud"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>2 GB <br />Cloud Speicher</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Sie können beruhigt einschlafen – Ihre Daten sind bei uns in guten Händen. Unsere unabhängigen und ausfallsicheren Server stehen in Deutschland und entsprechen modernsten Sicherheitsstandards sowie strengsten Datenschutzvorschriften. (Made in Germany)</p>
+                    <input type="checkbox" id="expandable6">
+                    <label for="expandable6"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Die Lösung bietet Ihnen standartmäßig einen 2 GB Cloud-Speicher für Dateien wie Ansagen, Gesprächsaufzeichnungen, Faxe oder Abrechnungen. Dieser Speicher ist jederzeit flexibel erweiterbar.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-magic-wand"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Eigenständige Konfiguration</h4>
-                        </div>
-                    </div>
-                    <p style="margin-top:var(--gutter-xs)">Sie möchten Einstellungen und Änderungen selbst durchführen? Nicht für jede kleinste Feinjustierung bei Ihrem Dienstleister anklopfen müssen? Bei CallOne liegt diese Entscheidung bei Ihnen. Konfigurieren Sie sämtliche Aspekte Ihrer Callcenter Lösung eigenständig oder lassen Sie Einstellungen von unseren Mitarbeitern vornehmen – Sie haben die Wahl!</p>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-spread"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Erweiterbarkeit</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-bubble-smiley"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>IP & <br />PSTN</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Die Callcenter Lösung wächst mit Ihnen mit. Starten Sie am Anfang doch einfach mit einer Basic Version der ACD, um große Investitionen erstmal in Werbung und Produkte zu tätigen und erweitern Sie Ihre Lösung mit der Zeit. Immer angepasst an die aktuelle Situation in Ihrem Unternehmen. Sie haben z.B. durch eine Werbekampagne nur vorübergehend ein sehr hohes Anruferaufkommen? Kein Problem: Die ACD Lösung kann auch für kürzere Zeiträume angepasst und im Anschluss daran wieder in den Ursprungszustand zurückversetzt werden.</p>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-cloud"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>2 GB Cloud Speicher</h4>
+                    <input type="checkbox" id="expandable6">
+                    <label for="expandable6"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Führen Sie Ihre Anrufe mit moderner VoIP-Technologie über das Internet zu oder greifen Sie zurück auf klassische Festnetztelefonie.</p>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Die Lösung bietet Ihnen standartmäßig einen 2 GB Cloud-Speicher für Dateien wie Ansagen, Gesprächsaufzeichnungen, Faxe oder Abrechnungen. Dieser Speicher ist jederzeit flexibel erweiterbar.</p>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-bubble-smiley"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>IP & PSTN</h4>
-                        </div>
-                    </div>
-                    <p style="margin-top:var(--gutter-xs)">Führen Sie Ihre Anrufe mit moderner VoIP-Technologie über das Internet zu oder greifen Sie zurück auf klassische Festnetztelefonie.</p>
                 </div>
             </div>
         </div>
@@ -194,55 +195,87 @@
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-bubble"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Musik und Ansagen hochladen</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-bubble"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>Musik und Ansagen hochladen</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Vorhandene Begrüßungs- oder Warteansagen lassen sich ganz einfach im mp3 oder wav-Format hochladen und werden automatisch ins richtige Format umgewandelt. Gleiches gilt für Wartemusik – ziehen Sie die Datei per Drag & Drop auf die Weboberfläche und schon wird sie hochgeladen und ist in allen Bereichen der Lösung verfügbar. Sie haben noch keine Ansagen? Kein Problem: Wir lassen sie ganz nach Ihren Wünschen professionell einsprechen.</p>
+                    <input type="checkbox" id="expandable7">
+                    <label for="expandable7"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Vorhandene Begrüßungs- oder Warteansagen lassen sich ganz einfach im mp3 oder wav-Format hochladen und werden automatisch ins richtige Format umgewandelt. Gleiches gilt für Wartemusik – ziehen Sie die Datei per Drag & Drop auf die Weboberfläche und schon wird sie hochgeladen und ist in allen Bereichen der Lösung verfügbar. Sie haben noch keine Ansagen? Kein Problem: Wir lassen sie ganz nach Ihren Wünschen professionell einsprechen.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-adjustment"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Warteschleifen-Konfiguration</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-adjustment"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>Warteschleifen-Konfiguration</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen und finden Ihre gesamte Telefonielösung so an einem zentralen Ort. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten. So werden verschiedene Standorte nicht mehr zum Problem.</p>
+                    <input type="checkbox" id="expandable8">
+                    <label for="expandable8"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen und finden Ihre gesamte Telefonielösung so an einem zentralen Ort. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten. So werden verschiedene Standorte nicht mehr zum Problem.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-hourglass"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Warteschleifen-Ansagen</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-hourglass"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>Warteschleifen-Ansagen</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Begeistern Sie Ihre Kunden mit professionellen und individuellen Warteräumen. Wenn es zu Wartezeiten kommt, stellen Sie damit sicher, dass Ihre Kunden sich trotzdem willkommen fühlen. Variieren Sie die Wartemusik je nach Warteraum oder spielen Sie Musik nach dem Zufallsprinzip ab. Sagen Sie Ihren Kunden ganz transparent die Wartedauer an mit der sie zu rechnen haben oder informieren Sie sie über ihre aktuelle Warteposition.</p>
+                    <input type="checkbox" id="expandable9">
+                    <label for="expandable9"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Begeistern Sie Ihre Kunden mit professionellen und individuellen Warteräumen. Wenn es zu Wartezeiten kommt, stellen Sie damit sicher, dass Ihre Kunden sich trotzdem willkommen fühlen. Variieren Sie die Wartemusik je nach Warteraum oder spielen Sie Musik nach dem Zufallsprinzip ab. Sagen Sie Ihren Kunden ganz transparent die Wartedauer an mit der sie zu rechnen haben oder informieren Sie sie über ihre aktuelle Warteposition.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <span class="sl sl-phone"></span>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4>Text to Speech</h4>
+                <div class="expandable expandable--no-border expandable--shadow">
+                    <div class="expandable__main expandable__main--small-padding">
+                        <div class="co-grid">
+                            <div class="co-grid__col co-grid__col--vcentered">
+                                <span class="sl sl-phone"></span>
+                            </div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                                <h4>Text to Speech</h4>
+                            </div>
                         </div>
                     </div>
-                    <p style="margin-top:var(--gutter-xs)">Es geht noch einfacher: Schreiben Sie uns doch einfach den gewünschten Text auf und wir generieren die Ansagen binnen weniger Minuten automatisch für Sie. Oder Sie geben den Text einfach selbst ein und erstellen spontan und ohne Aufwand eigenständig Ihre Ansagen. Sie haben dabei die Wahl zwischen einer männlichen oder einer weiblichen Stimme und verschiedenen Sprachen.</p>
+                    <input type="checkbox" id="expandable10">
+                    <label for="expandable10"></label>
+                    <div class="expandable__extra">
+                        <div class="expandable__extra-full">
+                            <p>Es geht noch einfacher: Schreiben Sie uns doch einfach den gewünschten Text auf und wir generieren die Ansagen binnen weniger Minuten automatisch für Sie. Oder Sie geben den Text einfach selbst ein und erstellen spontan und ohne Aufwand eigenständig Ihre Ansagen. Sie haben dabei die Wahl zwischen einer männlichen oder einer weiblichen Stimme und verschiedenen Sprachen.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

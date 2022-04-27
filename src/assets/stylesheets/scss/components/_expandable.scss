@@ -7,15 +7,36 @@
     border: 2px solid #e5e5e5;
     background-color: #fff;
 
+    &--shadow {
+        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    &--no-border {
+        border: 0;
+    }
+
     &__main {
         padding: 0 var(--gutter-l);
         padding-bottom: 50px;
+    }
+
+    &__main--small-padding {
+        padding-left: var(--gutter-s);
+        padding-right: var(--gutter-s);
     }
 
     &__extra {
         display: none;
         background-color: #f0f0f0;
         border-top: 2px solid #e5e5e5;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        overflow: hidden;
+    }
+
+    &__extra-full {
+        background-color: #fff;
+        padding: var(--gutter-s);
     }
 
     &__extra-left, &__extra-right {

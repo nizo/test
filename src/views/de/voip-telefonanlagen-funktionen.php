@@ -5,7 +5,7 @@
             <p>Alle Funktionen rund um das Thema VoIP Telefonanlage im Überblick. Von Ansagen-Management bis zur Warteschleife.</p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/hero-cs-funktionen.png" alt="Cloud ACD Funktionen" />
+            <img src="/assets/images/illus/hero-voip-funktionen.png" alt="Cloud ACD Funktionen" />
         </div>
     </div>
 
