@@ -293,7 +293,7 @@ $faqs->faq_add (
         </div>
 
         <!-- TODO: Add links -->
-        <div class="btn btn--centered">
+        <div class="btn-set btn-set--centered">
             <a href="#" class="btn btn--primary">Primary Action</a>
             <a href="#" class="btn btn--secondary">Secondary Action</a>
         </div>
