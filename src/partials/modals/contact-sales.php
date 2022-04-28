@@ -26,6 +26,19 @@ $uniqueID = uniqid();
                 </div>
             </div>
         </div>
+
+        
+        <div class="co-grid co-grid--no-margin-bottom centered">
+            <div class="co-grid__col co-grid__col--12-xs">
+                <p>oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+                <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" width="16" height="21" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a></p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+                <p><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" width="16" height="11" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a></p>
+            </div>
+        </div>
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen">
@@ -101,17 +114,6 @@ $uniqueID = uniqid();
 
                 <input type="submit" id="sales-contact-form" hidden />
             </form>
-
-            <p class="centered">oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
-
-            <div class="sales-contact-form__details">
-                <div>
-                    <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" /> <strong>Anruf:</strong> <a href="tel:+493092033500">030 920 33 500</a></p>
-                </div>
-                <div>
-                    <p><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de">info@callone.de</a></p>
-                </div>
-            </div>
         </div>
     </div>
     
