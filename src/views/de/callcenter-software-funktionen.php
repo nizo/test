@@ -70,7 +70,7 @@ $faqs->faq_add (
                                 <span class="sl sl-pin"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Standortunabhängige <br />Telefonie</h3>
+                                <h3>Telefonie <br />immer & überall</h3>
                             </div>
                         </div>
                     </div>
