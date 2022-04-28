@@ -70,7 +70,7 @@ $faqs->faq_add (
                                 <span class="sl sl-pin"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Standortunabhängige <br />Unternehmenstelefonie</h3>
+                                <h3>Standortunabhängige <br />Telefonie</h3>
                             </div>
                         </div>
                     </div>
@@ -190,8 +190,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
-        <div class="btn-set btn-set--centered">
+                <div class="btn-set btn-set--centered">
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
             <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
@@ -292,10 +291,10 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
+        
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -337,7 +336,7 @@ $faqs->faq_add (
                                 <span class="sl sl-cut"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Webhooks & API</h3>
+                                <h3>Webhooks <br />& API</h3>
                             </div>
                         </div>
                     </div>
@@ -358,7 +357,7 @@ $faqs->faq_add (
                                 <span class="sl sl-mail"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Zendesk</h3>
+                                <h3>Zendesk <br />Integration</h3>
                             </div>
                         </div>
                     </div>
@@ -366,7 +365,7 @@ $faqs->faq_add (
                     <label for="expandable13"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Die Callcenter Software bietet eine standardmäßige Schnittstelle zur Ticketing-Lösung von Zendesk. Mit Hilfe dieser Schnittstelle, werden Anrufe ganz einfach als Voice-Tickets in die Zendesk-Oberfläche integriert und erscheinen somit übersichtlich zusammen mit allen anderen Kontaktkanälen Ihres Kundenservice.</p>
+                            <p>Die Cloud ACD bietet eine standardmäßige Schnittstelle zur Ticketing-Lösung von Zendesk. Mit Hilfe dieser Schnittstelle werden Anrufe ganz einfach als Voice-Tickets in die Zendesk-Oberfläche integriert und erscheinen somit übersichtlich in Ihrer Oberfläche.</p>
                         </div>
                     </div>
                 </div>
@@ -379,7 +378,7 @@ $faqs->faq_add (
                                 <span class="sl sl-scale"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>CRM Integration</h3>
+                                <h3>CRM <br />Integration</h3>
                             </div>
                         </div>
                     </div>
@@ -421,7 +420,7 @@ $faqs->faq_add (
                                 <span class="sl sl-clock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>CallBack Button</h3>
+                                <h3>CallBack <br />Button</h3>
                             </div>
                         </div>
                     </div>
@@ -429,7 +428,7 @@ $faqs->faq_add (
                     <label for="expandable16"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Ihre Warteschleife ist schon voll? Sie möchten Ihrem Kunden die Möglichkeit geben zu einem von ihm gewünschten Zeitpunkt mit Ihnen zu sprechen? Integrieren Sie einfach einen Rückruf-Button auf Ihrer Website. Ihr Kunde gibt an wann ein passender Rückrufzeitpunkt für ihn wäre und Sie können Ihn zurückrufen – manuell oder vollautomatisch von der Software ausgelöst.</p>
+                            <p>Ihre Warteschleife ist schon voll? Sie möchten Ihrem Kunden die Möglichkeit geben zu einem von ihm gewünschten Zeitpunkt mit Ihnen zu sprechen? Integrieren Sie einfach einen Rückruf-Button auf Ihrer Website. Der Rückruf findet im für den Kunden passenden Zeitraum manuell oder vollautomatisch ausgelöst statt.</p>
                         </div>
                     </div>
                 </div>
@@ -442,7 +441,7 @@ $faqs->faq_add (
                                 <span class="sl sl-wallet"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Google Adwords</h3>
+                                <h3>Google <br />Adwords</h3>
                             </div>
                         </div>
                     </div>
@@ -457,10 +456,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -468,7 +466,7 @@ $faqs->faq_add (
 <div class="section" id="Statistiken">
     <div class="section__content section__content--narrow centered mobile-left">
         <h2>Statistiken</h2>
-        <p class="bigtext">Werten Sie aus – bleiben Sie mit zwei umfangreichen Statistikbereichen immer im Bilde. Ob Agenten, Skillgruppen oder Anrufe allgemein – Sie verlieren nie den Überblick.</p>
+        <p class="bigtext">Werten Sie aus – bleiben Sie mit unseren umfangreichen Echtzeit-Statistiken immer im Bilde. Ob Agenten, Skillgruppen oder Anrufe allgemein – Sie verlieren nie den Überblick.</p>
     </div>
 
     <div class="section__content section__content--wide">
@@ -502,7 +500,7 @@ $faqs->faq_add (
                                 <span class="sl sl-connection"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>ACD-Statistiken</h3>
+                                <h3>ACD- <br />Statistiken</h3>
                             </div>
                         </div>
                     </div>
@@ -580,10 +578,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
-        <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+                <div class="btn-set btn-set--centered">
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -604,7 +601,7 @@ $faqs->faq_add (
                                 <span class="sl sl-call-out"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Weiterleitungen</h3>
+                                <h3>Individuelle <br />Weiterleitungen</h3>
                             </div>
                         </div>
                     </div>
@@ -625,7 +622,7 @@ $faqs->faq_add (
                                 <span class="sl sl-arrow-move-up"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>IVR-Auswahlmenüs</h3>
+                                <h3>IVR- <br />Auswahlmenüs</h3>
                             </div>
                         </div>
                     </div>
@@ -688,7 +685,7 @@ $faqs->faq_add (
                                 <span class="sl sl-phone"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Wahlwiederholer</h3>
+                                <h3>Wahlwiederholer <br />priorisieren</h3>
                             </div>
                         </div>
                     </div>
@@ -730,7 +727,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-chat"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Mailbox</h3>
+                                <h3>Mailbox <br />individualisieren</h3>
                             </div>
                         </div>
                     </div>
@@ -751,7 +748,7 @@ $faqs->faq_add (
                                 <span class="sl sl-call"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Notfallrouting</h3>
+                                <h3>Notfallrouting <br />einrichten</h3>
                             </div>
                         </div>
                     </div>
@@ -772,7 +769,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-smiley"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Kundenbefragung</h3>
+                                <h3>Kundenbefragung <br />automatisieren</h3>
                             </div>
                         </div>
                     </div>
@@ -793,7 +790,7 @@ $faqs->faq_add (
                                 <span class="sl sl-clock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Konferenzsystem</h3>
+                                <h3>Intuitives <br />Konferenzsystem</h3>
                             </div>
                         </div>
                     </div>
@@ -808,10 +805,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
-        <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+               <div class="btn-set btn-set--centered">
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -819,7 +815,7 @@ $faqs->faq_add (
 <div class="section" id="Anrufverteilung">
     <div class="section__content section__content--narrow centered mobile-left">
         <h2>Anrufverteilung</h2>
-        <p class="bigtext">Verteilen Sie Ihre Anrufe intelligent auf Agenten und Fähigkeitsgruppen – Ihr Kunden wurden nie besser betreut.</p>
+        <p class="bigtext">Verteilen Sie Ihre Anrufe intelligent auf Agenten und Fähigkeitsgruppen – Ihr Kunden wurden nie besser betreut, Ihr telefonischer Support war nie effizienter.</p>
     </div>
 
     <div class="section__content section__content--wide">
@@ -853,7 +849,7 @@ $faqs->faq_add (
                                 <span class="sl sl-connection"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Skillgruppen</h3>
+                                <h3>Skillgruppen <br />anlegen</h3>
                             </div>
                         </div>
                     </div>
@@ -916,7 +912,7 @@ $faqs->faq_add (
                                 <span class="sl sl-piggy-bank"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Abrechnung</h3>
+                                <h3>vollautomatische <br />Abrechnung</h3>
                             </div>
                         </div>
                     </div>
@@ -973,10 +969,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
-        <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+               <div class="btn-set btn-set--centered">
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -1045,11 +1040,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
-        <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
-        </div>
+                <div class="btn-set btn-set--centered">
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Kontakt aufnehmen</a>
+                </div>
     </div>
 </div>
 
