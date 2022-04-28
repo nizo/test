@@ -12,9 +12,12 @@ $faqs->faq_add (
         <div class="hero__text">
             <h1>CallOne VoIP Telefonanlagen Funktionen</h1>
             <p>Alle Funktionen rund um das Thema VoIP Telefonanlage im Überblick. Von Ansagen-Management bis zur Warteschleife.</p>
+            <p class="mobile-centered">
+                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Funktionen jetzt testen</a>
+            </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/hero-voip-funktionen.png" alt="Cloud ACD Funktionen" />
+            <img src="/assets/images/illus/hero-voip-funktionen.png" alt="Cloud ACD Funktionen" width="465" height="465" />
         </div>
     </div>
 
@@ -211,10 +214,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>    
@@ -396,10 +398,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -560,10 +561,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -829,10 +829,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -1056,10 +1055,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -1304,10 +1302,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -1405,10 +1402,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
@@ -1477,10 +1473,8 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Kontakt aufnehmen</a>
         </div>
     </div>
 </div>

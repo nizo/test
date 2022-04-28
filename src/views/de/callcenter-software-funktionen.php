@@ -12,9 +12,12 @@ $faqs->faq_add (
         <div class="hero__text">
             <h1>CallOne Cloud ACD Funktionen</h1>
             <p>Alle Funktionen der Cloud ACD im Überblick. Von der Agenten-Administration bis zur Warteschleifen-Konfiguration.</p>
+            <p class="mobile-centered">
+                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Funktionen jetzt testen</a>
+            </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/hero-cs-funktionen.png" alt="Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software" />
+            <img src="/assets/images/illus/hero-cs-funktionen.png" alt="Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software" width="465" height="465" />
         </div>
     </div>
 
@@ -190,7 +193,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-                <div class="btn-set btn-set--centered">
+        <div class="btn-set btn-set--centered">
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
             <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
@@ -578,7 +581,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-                <div class="btn-set btn-set--centered">
+        <div class="btn-set btn-set--centered">
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
             <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
@@ -805,7 +808,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-               <div class="btn-set btn-set--centered">
+        <div class="btn-set btn-set--centered">
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
             <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
@@ -969,7 +972,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-               <div class="btn-set btn-set--centered">
+        <div class="btn-set btn-set--centered">
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
             <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
@@ -1040,9 +1043,9 @@ $faqs->faq_add (
             </div>
         </div>
 
-                <div class="btn-set btn-set--centered">
+        <div class="btn-set btn-set--centered">
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Kontakt aufnehmen</a>
-                </div>
+        </div>
     </div>
 </div>
 
