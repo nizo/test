@@ -203,7 +203,7 @@
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                    <img src="/assets/images/icons_svg/small_07_2.svg" alt="Erreichbarkeit" width="167" height="124" />
+                    <img src="/assets/images/icons_svg/small_07_2.svg" alt="Erreichbarkeit" width="167" height="124" style="max-width:167px" />
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
                     <h3>Nutzung von offenen APIs & fertigen Apps</h3>
