@@ -192,8 +192,8 @@ $faqs->faq_add (
 
         <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="www.callone.de/kontakt" class="btn btn--primary">Kostenloses Erstgespräch vereinbaren</a>
-            <a href="www.callone.de/kontakt" class="btn btn--secondary">Kostenlose Demo anfragen</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
         </div>
     </div>
 </div>
