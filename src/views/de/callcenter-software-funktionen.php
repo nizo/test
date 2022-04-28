@@ -11,7 +11,7 @@ $faqs->faq_add (
     <div class="hero">
         <div class="hero__text">
             <h1>CallOne Cloud ACD Funktionen</h1>
-            <p>Alle Funktionen der Cloud ACD im Überblick von der Agenten-Administration bis zur Warteschleifen-Konfiguration.</p>
+            <p>Alle Funktionen der Cloud ACD im Überblick. Von der Agenten-Administration bis zur Warteschleifen-Konfiguration.</p>
         </div>
         <div class="hero__image">
             <img src="/assets/images/illus/hero-cs-funktionen.png" alt="Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software" />
@@ -36,7 +36,7 @@ $faqs->faq_add (
 <div class="section section--light-green" id="Features">
     <div class="section__content section__content--narrow centered mobile-left">
         <h2>Allgemeine Features</h2>
-        <p class="bigtext">Die Callcenter Software bietet Ihnen viele Vorteile – egal ob Sie VoIP nutzen, eine vollumfängliche ACD brauchen oder nur die Basics benötigen, diese Features sind auf jeden Fall dabei.</p>
+        <p class="bigtext">Die Callcenter Software bietet Ihnen viele Vorteile – egal ob Sie VoIP nutzen, eine vollumfängliche Cloud ACD brauchen oder nur die Basics benötigen. Diese Features sind auf jeden Fall dabei.</p>
     </div>
 
     <div class="section__content section__content--wide">
@@ -49,7 +49,7 @@ $faqs->faq_add (
                                 <span class="sl sl-settings"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Konfiguration in Echtzeit</h3>
+                                <h3>Änderungen schnell <br />sichtbar machen</h3>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ $faqs->faq_add (
                     <label for="expandable1"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind in Echtzeit sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst über die intuitive Weboberfläche mit einfach zu bedienenden Tools und nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.</p>
+                            <p>Alle Änderungen, die Sie in der Callcenter Software vornehmen, sind sofort geschaltet und verfügbar. Konfigurieren Sie die Lösung einfach selbst im Self-Service der intuitiven Weboberfläche. Nehmen Sie gewünschte Änderungen sofort selbst vor. Ob Nebenstellen, Ansagen oder Warteschleifen – alles kann innerhalb weniger Minuten geändert und per Mausklick aktiv geschaltet werden.</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ $faqs->faq_add (
                                 <span class="sl sl-pin"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Alles an <br />einem Ort</h3>
+                                <h3>Standortunabhängige <br />Unternehmenstelefonie</h3>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ $faqs->faq_add (
                     <label for="expandable2"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen und finden Ihre gesamte Telefonielösung so an einem zentralen Ort. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten. So werden verschiedene Standorte nicht mehr zum Problem.</p>
+                            <p>Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten und auf die Telefonielösung zugreifen.</p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ $faqs->faq_add (
                     <label for="expandable3"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Sie können beruhigt einschlafen – Ihre Daten sind bei uns in guten Händen. Unsere unabhängigen und ausfallsicheren Server stehen in Deutschland und entsprechen modernsten Sicherheitsstandards sowie strengsten Datenschutzvorschriften. (Made in Germany)</p>
+                            <p>Sie können beruhigt schlafen – Ihre Daten sind bei uns in guten Händen. Unsere unabhängigen und ausfallsicheren Server stehen in Deutschland und entsprechen modernsten Sicherheitsstandards sowie strengsten Datenschutzvorschriften. (Made in Germany)</p>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ $faqs->faq_add (
                     <label for="expandable5"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Die Callcenter Lösung wächst mit Ihnen mit. Starten Sie am Anfang doch einfach mit einer Basic Version der ACD, um große Investitionen erstmal in Werbung und Produkte zu tätigen und erweitern Sie Ihre Lösung mit der Zeit. Immer angepasst an die aktuelle Situation in Ihrem Unternehmen. Sie haben z.B. durch eine Werbekampagne nur vorübergehend ein sehr hohes Anruferaufkommen? Kein Problem: Die ACD Lösung kann auch für kürzere Zeiträume angepasst und im Anschluss daran wieder in den Ursprungszustand zurückversetzt werden.</p>
+                            <p>Die Callcenter Lösung wächst mit Ihnen mit. Starten Sie am Anfang doch einfach mit einer Basic Version der Cloud ACD, um große Investitionen erstmal in Werbung und Produkte zu tätigen und erweitern Sie Ihre Lösung mit der Zeit. Immer angepasst an die aktuelle Situation in Ihrem Unternehmen. Sie haben z.B. durch eine Werbekampagne nur vorübergehend ein sehr hohes Anruferaufkommen? Kein Problem: Die ACD Lösung kann auch für kürzere Zeiträume angepasst und im Anschluss daran wieder in den Ursprungszustand zurückversetzt werden.</p>
                         </div>
                     </div>
                 </div>
@@ -192,8 +192,8 @@ $faqs->faq_add (
 
         <!-- TODO: Add links -->
         <div class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary">Primary Action</a>
-            <a href="#" class="btn btn--secondary">Secondary Action</a>
+            <a href="www.callone.de/kontakt" class="btn btn--primary">Kostenloses Erstgespräch vereinbaren</a>
+            <a href="www.callone.de/kontakt" class="btn btn--secondary">Kostenlose Demo anfragen</a>
         </div>
     </div>
 </div>
