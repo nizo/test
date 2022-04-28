@@ -85,7 +85,7 @@
     
     <div id="wishlist" style="">
         <span class="numberOfElements"></span>
-        <a class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
+        <a href="#" class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
     </div>
     
     <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
