@@ -508,6 +508,13 @@ require_once('banderole.php');
                                         <p>Überprüfung der Seitengeschwindigkeit</p>
                                     </div>
                                 </a>
+                                
+                                <a href="https://search.google.com/test/rich-results?url=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" target="_blank" class="submenu__link">
+                                    <div class="submenu__link-text">
+                                        <strong>Google Structured Data</strong>
+                                        <p>Überprüfung der strukturierten Daten</p>
+                                    </div>
+                                </a>
 
                                 <a href="https://validator.w3.org/nu/?doc=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" target="_blank" class="submenu__link">
                                     <div class="submenu__link-text">
