@@ -470,11 +470,25 @@ require_once('banderole.php');
                                                 <p>Illustrationen und Bilder</p>
                                             </div>
                                         </a>
-            
+
                                         <a href="/tools/routes" target="_blank" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Routen</strong>
                                                 <p>Webseiten</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="/tools/components" target="_blank" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Components</strong>
+                                                <p>HTML Komponenten</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="/tools/screensize" target="_blank" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Auflösung</strong>
+                                                <p>Zeigt die aktuelle Auflösung an</p>
                                             </div>
                                         </a>
                                     </div>
