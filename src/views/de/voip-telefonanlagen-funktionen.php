@@ -2,8 +2,24 @@
 // TODO: Add faqs
 $faqs = new faqs ();
 $faqs->faq_add (
-    'Lorem Ipsum Dolor Sit Amet?',
-    '<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur ex consequuntur sapiente et voluptatibus ad laudantium unde nobis id asperiores culpa, mollitia omnis possimus aspernatur rem minus nisi rerum illum.</p>'
+    'Wie ist die Gesprächsqualität bei VoIP-Telefonie?',
+    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/>Blog</a> und <a href="https://www.callone.de/voip-telefonanlage">hier</a>.</p>'
+);
+$faqs->faq_add (
+	'Kann ich mit einer virtuellen Telefonanlage auch klassische Festnetzanschlüsse erreichen?',
+	'<p>Selbstverständlich. Die Umstellung auf VoIP bringt keinerlei Einschränkungen in der Erreichbarkeit mit sich. Sie können klassische Festnetzanschlüsse ebenso problemlos erreichen wie andere VoIP-Anschlüsse oder Mobiltelefone.</p>'
+);
+$faqs->faq_add (
+	'Kann auch bei Anrufen von Mobiltelefonen unsere Servicerufnummer übermittelt werden?',
+	'<p>Sofern Sie Nutzer der CallOne Cloud ACD sind ist dies problemlos möglich indem Sie beim Agenten eine Mobilfunknummer als Ziel hinterlegen und einen Outbound-Anruf aus einer Skillgruppe starten, in der die Servicerufnummer als zu übermittelnde Rufnummer eingetragen ist.</p>'
+);
+$faqs->faq_add (
+	'Kann die zu übermittelnde Rufnummer bei Anrufen mit CallOne TEL frei gewählt werden?',
+	'<p>Nein. Ein Endpunkt kann auf beliebig vielen Endgeräten registriert werden. Dies ermöglicht Ihnen höchste Flexibilität, auch von unterwegs.</p>'
+);
+$faqs->faq_add (
+	'Wie richten wir einen Endpunkt auf einem Softphone oder IP-Telefon ein?',
+	'<p>Bei Geräten, die über CallOne autprovisionierbar sind, passiert dies automatisch mit der Festlegung der Identität. Bei anderen Geräten oder Sotphones müssen Benutzername, Passwort und Domain einmalig im Telefon hinterlegt werden.</p>'
 );
 ?>
 
@@ -73,7 +89,7 @@ $faqs->faq_add (
                                 <span class="sl sl-house"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Home-Office</h3>
+                                <h3>Rufnummer im<br />Home-Office</h3>
                             </div>
                         </div>
                     </div>
@@ -157,7 +173,7 @@ $faqs->faq_add (
                                 <span class="sl sl-award"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Gesprächs&shy;qualität</h3>
+                                <h3>Gesprächs&shy;qualität<br />mit VoIP</h3>
                             </div>
                         </div>
                     </div>
@@ -199,7 +215,7 @@ $faqs->faq_add (
                                 <span class="sl sl-crown"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Premium-Terminierungs&shy;routen</h3>
+                                <h3>Premium-<br />Routen</h3>
                             </div>
                         </div>
                     </div>
@@ -215,9 +231,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/voip-api" class="btn btn--primary">Mehr über APIs</a>
+                </div>
     </div>
 </div>    
 
@@ -257,7 +272,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-comment"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Text2Speech</h3>
+                                <h3>Text2Speech<br />Funktion</h3>
                             </div>
                         </div>
                     </div>
@@ -341,7 +356,7 @@ $faqs->faq_add (
                                 <span class="sl sl-receipt"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Abrechnungen</h3>
+                                <h3>Zentrale <br />Abrechnungen</h3>
                             </div>
                         </div>
                     </div>
@@ -362,7 +377,7 @@ $faqs->faq_add (
                                 <span class="sl sl-book"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Handbücher</h3>
+                                <h3>CallOne <br />Handbücher</h3>
                             </div>
                         </div>
                     </div>
@@ -383,7 +398,7 @@ $faqs->faq_add (
                                 <span class="sl sl-receipt2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Kostenstellen</h3>
+                                <h3>Kostenstellen<br /> anlegen</h3>
                             </div>
                         </div>
                     </div>
@@ -441,7 +456,7 @@ $faqs->faq_add (
                                 <span class="sl sl-lock"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>VPN</h3>
+                                <h3>VPN <br />Tunnel</h3>
                             </div>
                         </div>
                     </div>
@@ -462,7 +477,7 @@ $faqs->faq_add (
                                 <span class="sl sl-lock2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>TLS</h3>
+                                <h3>TLS <br />Protokoll</h3>
                             </div>
                         </div>
                     </div>
@@ -483,7 +498,7 @@ $faqs->faq_add (
                                 <span class="sl sl-lock3"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>SRTP</h3>
+                                <h3>SRTP <br />Sicherheit</h3>
                             </div>
                         </div>
                     </div>
@@ -562,9 +577,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/dsgvo-telekommunikation" class="btn btn--primary">Datenschutz <br />& Sicherheit</a>
+                    </div>
     </div>
 </div>
 
@@ -604,7 +618,7 @@ $faqs->faq_add (
                                 <span class="sl sl-hourglass"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Warteschleife</h3>
+                                <h3>Smarte <br />Warteschleifen</h3>
                             </div>
                         </div>
                     </div>
@@ -625,7 +639,7 @@ $faqs->faq_add (
                                 <span class="sl sl-call-in"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Rückruf-Option</h3>
+                                <h3>Rückruf-<br />Optionen</h3>
                             </div>
                         </div>
                     </div>
@@ -646,7 +660,7 @@ $faqs->faq_add (
                                 <span class="sl sl-connection2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Gruppenanruf</h3>
+                                <h3>VoIP-<br />Gruppenanruf</h3>
                             </div>
                         </div>
                     </div>
@@ -667,7 +681,7 @@ $faqs->faq_add (
                                 <span class="sl sl-call-out"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Rufumleitung</h3>
+                                <h3>Rufumleitung <br />& Routings</h3>
                             </div>
                         </div>
                     </div>
@@ -688,7 +702,7 @@ $faqs->faq_add (
                                 <span class="sl sl-soda"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Überlaufroutings</h3>
+                                <h3>Überlaufroutings nach Wartedauer</h3>
                             </div>
                         </div>
                     </div>
@@ -709,7 +723,7 @@ $faqs->faq_add (
                                 <span class="sl sl-phone3"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>IVR-Menüs</h3>
+                                <h3>IVR-<br />Auswahlmenüs</h3>
                             </div>
                         </div>
                     </div>
@@ -730,7 +744,7 @@ $faqs->faq_add (
                                 <span class="sl sl-scale-all"></span>    
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Ursprungsrouting</h3>
+                                <h3>Ursprungsrouting<br />Modul</h3>
                             </div>
                         </div>
                     </div>
@@ -751,7 +765,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-ask"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Kundenbefragung</h3>
+                                <h3>Automatisierte <br />Kundenbefragung</h3>
                             </div>
                         </div>
                     </div>
@@ -830,8 +844,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
+            <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary">Warteschleifen <br />& Routings</a>
+            <a href="https://www.callone.de/0800-lokal-nummern" class="btn btn--secondary">Rufnummern</a>
         </div>
     </div>
 </div>
@@ -872,7 +886,7 @@ $faqs->faq_add (
                                 <span class="sl sl-phone4"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Softphones</h3>
+                                <h3>VoIP<br />Softphones</h3>
                             </div>
                         </div>
                     </div>
@@ -935,7 +949,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-star"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Pick-Up</h3>
+                                <h3>Pick-Up mit<br />Snom-Geräten</h3>
                             </div>
                         </div>
                     </div>
@@ -956,7 +970,7 @@ $faqs->faq_add (
                                 <span class="sl sl-sofa"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Freie Sitzplatzwahl</h3>
+                                <h3>Freie <br />Sitzplatzwahl</h3>
                             </div>
                         </div>
                     </div>
@@ -977,7 +991,7 @@ $faqs->faq_add (
                                 <span class="sl sl-kindle"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Display-Anzeige</h3>
+                                <h3>Display-<br />Anzeige</h3>
                             </div>
                         </div>
                     </div>
@@ -998,7 +1012,7 @@ $faqs->faq_add (
                                 <span class="sl sl-transfer"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Steuercodes</h3>
+                                <h3>Steuercodes <br />hinterlegen</h3>
                             </div>
                         </div>
                     </div>
@@ -1019,7 +1033,7 @@ $faqs->faq_add (
                                 <span class="sl sl-chat3"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Weiterleiten, Durchstellen und Makeln</h3>
+                                <h3>Durchstellen und Makeln</h3>
                             </div>
                         </div>
                     </div>
@@ -1040,7 +1054,7 @@ $faqs->faq_add (
                                 <span class="sl sl-hourglass2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Hold-Funktion</h3>
+                                <h3>Hold-<br />Funktion</h3>
                             </div>
                         </div>
                     </div>
@@ -1056,9 +1070,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/softphone" class="btn btn--primary">CallOne Softphone</a>
+                   </div>
     </div>
 </div>
 
@@ -1098,7 +1111,7 @@ $faqs->faq_add (
                                 <span class="sl sl-inbox"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Online Mailbox</h3>
+                                <h3>Online <br />Mailbox</h3>
                             </div>
                         </div>
                     </div>
@@ -1119,7 +1132,7 @@ $faqs->faq_add (
                                 <span class="sl sl-connection"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Telefon-Konferenz</h3>
+                                <h3>Telefon-<br />Konferenz</h3>
                             </div>
                         </div>
                     </div>
@@ -1140,7 +1153,7 @@ $faqs->faq_add (
                                 <span class="sl sl-return"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Callback</h3>
+                                <h3>Callback <br />Funktion</h3>
                             </div>
                         </div>
                     </div>
@@ -1182,7 +1195,7 @@ $faqs->faq_add (
                                 <span class="sl sl-phone4"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>SIP-Trunk</h3>
+                                <h3>SIP-<br />Trunk</h3>
                             </div>
                         </div>
                     </div>
@@ -1203,7 +1216,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-conversation"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Silent Coaching</h3>
+                                <h3>Silent <br />Coaching</h3>
                             </div>
                         </div>
                     </div>
@@ -1224,7 +1237,7 @@ $faqs->faq_add (
                                 <span class="sl sl-contacts2"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Telefonbuch</h3>
+                                <h3>Telefonbuch in CallOne TEL</h3>
                             </div>
                         </div>
                     </div>
@@ -1245,7 +1258,7 @@ $faqs->faq_add (
                                 <span class="sl sl-letter"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>SMS</h3>
+                                <h3>SMS mit <br />API</h3>
                             </div>
                         </div>
                     </div>
@@ -1266,7 +1279,7 @@ $faqs->faq_add (
                                 <span class="sl sl-profile-serviceman"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>ACD Integration</h3>
+                                <h3>ACD <br />Integration</h3>
                             </div>
                         </div>
                     </div>
@@ -1303,9 +1316,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/telefonanlage-mit-warteschleife#features" class="btn btn--primary">Callback<br />Optionen</a>
+                    </div>
     </div>
 </div>
 
@@ -1345,7 +1357,7 @@ $faqs->faq_add (
                                 <span class="sl sl-chart-up"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Statistik-Export</h3>
+                                <h3>Statistik-<br />Export</h3>
                             </div>
                         </div>
                     </div>
@@ -1387,7 +1399,7 @@ $faqs->faq_add (
                                 <span class="sl sl-chart-board"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>LiveMonitor</h3>
+                                <h3>Live-<br />Monitor</h3>
                             </div>
                         </div>
                     </div>
@@ -1403,9 +1415,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/statistiken" class="btn btn--primary">Mehr über Statistiken</a>
+                    </div>
     </div>
 </div>
 
