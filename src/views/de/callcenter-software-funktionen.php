@@ -172,7 +172,7 @@ $faqs->faq_add (
                                 <span class="sl sl-cloud"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>2 GB <br />Cloud Speicher</h3>
+                                <h3>2 GB Cloud <br />Speicher</h3>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ $faqs->faq_add (
                                 <span class="sl sl-bubble-smiley"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>IP & <br />PSTN</h3>
+                                <h3>IP & PSTN</h3>
                             </div>
                         </div>
                     </div>
@@ -925,7 +925,7 @@ $faqs->faq_add (
                                 <span class="sl sl-piggy-bank"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>vollautomatische <br />Abrechnung</h3>
+                                <h3>Vollautomatische <br />Abrechnung</h3>
                             </div>
                         </div>
                     </div>

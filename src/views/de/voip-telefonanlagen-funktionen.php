@@ -151,7 +151,7 @@ $faqs->faq_add (
                                 <span class="sl sl-cut"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Schnittstellen / APIs</h3>
+                                <h3>Schnittstellen <br />& APIs</h3>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ $faqs->faq_add (
                                 <span class="sl sl-remote"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Zentrale Steuerung über Web-Frontend</h3>
+                                <h3>Zentrale Steuerung im Web-Frontend</h3>
                             </div>
                         </div>
                     </div>
