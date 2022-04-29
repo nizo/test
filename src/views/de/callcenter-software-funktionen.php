@@ -2,27 +2,27 @@
 
 $faqs = new faqs ();
 $faqs->faq_add (
-    'Wie ist die Gesprächsqualität bei VoIP-Telefonie?',
-    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/>Blog</a> und <a href="https://www.callone.de/voip-telefonanlage">hier</a>.</p>'
+    'Welche Funktionen bietet die Callcenter Software für Inboundtelefonie?',
+    '<p>CallOne bietet eine Call Center Software für ausgewachsene Unternehmen, die Ihre Service- und Salestelefonie weitreichend verbessern möchten. Zum Gesamtpaket gehören individuelle Routings, detaillierte Statistiken, Anbindungen an Drittsysteme und vieles mehr. Bei CallOne erhalten Sie stets eine/n persönliche/n AnsprechpartnerIn für Ihr Projekt und haben die Möglichkeit die Lösung umfangreich zu testen.</p>'
 );
 $faqs->faq_add (
-	'Kann ich mit einer virtuellen Telefonanlage auch klassische Festnetzanschlüsse erreichen?',
-	'<p>Selbstverständlich. Die Umstellung auf VoIP bringt keinerlei Einschränkungen in der Erreichbarkeit mit sich. Sie können klassische Festnetzanschlüsse ebenso problemlos erreichen wie andere VoIP-Anschlüsse oder Mobiltelefone.</p>'
+	'Welche Möglichkeiten bietet die Callcenter-Lösung das Anrufaufkommen zu beeinflussen?',
+	'<p>Mit der ACD können wir das Anrufaufkommen natürlich nicht direkt beeinflussen, aber sie bietet intelligente Funktionen um Ihre Anrufverteilung optimal zu gestalten, unabhängig von der Anzahl der eingehenden Anrufe. Optionen wie ursprungsabhängige Routings, intelligente Vorqualifizierung mittels IVR und Rückruf aus der Warteschleife sind hier nur einige Ihrer Möglichkeiten.</p>'
 
 );
 $faqs->faq_add (
-	'Kann auch bei Anrufen von Mobiltelefonen unsere Servicerufnummer übermittelt werden?',
-	'<p>Sofern Sie Nutzer der CallOne Cloud ACD sind ist dies problemlos möglich indem Sie beim Agenten eine Mobilfunknummer als Ziel hinterlegen und einen Outbound-Anruf aus einer Skillgruppe starten, in der die Servicerufnummer als zu übermittelnde Rufnummer eingetragen ist.</p>'
+	'Sind mit der Callcenter-Software auch Outbound-Gespräche möglich?',
+	'<p>Ja, mit der Lösung können auch weltweite Gespräche nach außen geführt werden. Diese lassen sich sogar über verschiedene Schnittstellen automatisch auslösen. Power-Dialer und Predictive-Dialer Funktionalitäten sind allerdings nicht gegeben.</p>'
 
 );
 $faqs->faq_add (
-	'Kann die zu übermittelnde Rufnummer bei Anrufen mit CallOne TEL frei gewählt werden?',
-	'<p>Nein. Ein Endpunkt kann auf beliebig vielen Endgeräten registriert werden. Dies ermöglicht Ihnen höchste Flexibilität, auch von unterwegs.</p>'
+	'Wie sieht die Agentenoberfläche aus?',
+	'<p>Die Agentenoberfläche der Callcenter-Software ist grafisch ansprechend, intuitiv bedienbar und über jeden Browser aufrufbar, ohne dass eine zusätzliche Software installiert werden muss. <a href="#" data-openmodal="contact-sales">Kontaktieren Sie uns</a> gerne für eine Live Demo.</p>'
 
 );
 $faqs->faq_add (
-	'Wie richten wir einen Endpunkt auf einem Softphone oder IP-Telefon ein?',
-	'<p>Bei Geräten, die über CallOne autprovisionierbar sind, passiert dies automatisch mit der Festlegung der Identität. Bei anderen Geräten oder Sotphones müssen Benutzername, Passwort und Domain einmalig im Telefon hinterlegt werden.</p>'
+	'Was genau sind Skillgruppen?',
+	'<p>Oft werden Skillgruppen auch als Fähigkeitsgruppen bezeichnet. Je nach Anforderungen können verschiedene Skillgruppen nach Sprachen, Themen oder Produkten angelegt werden.</p>'
 ?>
 
 <div class="section section--mobile-divider">
