@@ -360,10 +360,7 @@ require_once('banderole.php');
                 </div>
             </li>
 
-            <?php
-            if ($isFaq) {
-                // Display FAQ Menu
-                ?>
+            <?php if ($isFaq): ?>
                 <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
                     <div class="navigation__link navigation__link--arrow">
                         <a href="/faq">FAQ</a>
@@ -403,10 +400,9 @@ require_once('banderole.php');
                         </div>
                     </div>
                 </li>
-                <?php
-            } elseif ($isBlog) {
-                // Display Blog Menu
-                ?>
+            <?php endif; ?>
+            
+            <?php if ($isBlog): ?>
                 <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
                     <div class="navigation__link">
                         <a href="/blog/">Blog</a>
@@ -448,9 +444,68 @@ require_once('banderole.php');
                     </div>
                     */ ?>
                 </li>
-                <?php
-            }
-            ?>
+            <?php endif; ?>
+
+            <?php if (!stristr ($_SERVER['HTTP_HOST'], 'beta.www.')): ?>
+                <li class="navigation__item<?= $page->menu_position == 'devtools' ? ' navigation__item--active' : '' ?>">
+                    <div class="navigation__link navigation__link--arrow">
+                        <span>DEV</span>
+                    </div>
+
+                    <div class="navigation__submenu submenu">
+                        <div class="submenu__inner">
+                            <div class="submenu__left">
+                                <div class="submenu__row">
+                                    <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
+                                        <div class="submenu__link-text">
+                                            <strong>Entwicklungstools</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu__row">
+                                    <div class="submenu__column" style="--col-width:350px">
+                                        <a href="/tools/assets" target="_blank" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Assets</strong>
+                                                <p>Illustrationen und Bilder</p>
+                                            </div>
+                                        </a>
+            
+                                        <a href="/tools/routes" target="_blank" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Routen</strong>
+                                                <p>Webseiten</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="submenu__right" style="--width:270px">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
+                                    <div class="submenu__link-text">
+                                        <strong>Checks</strong>
+                                        <p>Tools zum prüfen der aktuell angezeigten Webseite</p>
+                                    </div>
+                                </div>
+
+                                <a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" class="submenu__link">
+                                    <div class="submenu__link-text">
+                                        <strong>Google Pagespeed</strong>
+                                        <p>Überprüfung der Seitengeschwindigkeit</p>
+                                    </div>
+                                </a>
+
+                                <a href="https://validator.w3.org/nu/?doc=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" class="submenu__link">
+                                    <div class="submenu__link-text">
+                                        <strong>W3C-Validierung</strong>
+                                        <p>HTML-Validierung</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            <?php endif; ?>
         </ul>
 
         <div class="navigation__right">
