@@ -142,26 +142,26 @@
 			<div class="co-grid tablet-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
-					<h4>
+					<h3>
 						<span>Schritt 1</span><br />
 						Erstgespräch
-					</h4>
+					</h3>
 					<p>Kein Verkaufsgespräch, sondern Austausch.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/presentation.svg" alt="Sie bekommen ein Showcase unserer Call Center Software Lösung auf Ihre Anforderungen angepasst" width="70" height="71" />
-					<h4>
+					<h3>
 						<span>Schritt 2</span><br />
 						Showcase
-					</h4>
+                    </h3>
 					<p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/team-dark.svg" alt="Wir passen unsere Call Center Software zu einer individuellen Lösung für Ihre Businesstelefonie an." width="70" height="71" />
-					<h4>
+					<h3>
 						<span>Schritt 3</span><br />
 						Lösungsfindung
-					</h4>
+					</h3>
 					<p>Wir passen individuelles Lösungsangebot auf Sie zu.</p>
 				</div>
 			</div>
