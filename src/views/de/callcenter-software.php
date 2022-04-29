@@ -32,6 +32,7 @@ $faqs->faq_add (
 );
 ?>
 
+
 <div class="section section--light-green-white section--mobile-divider">
 	<div class="hero">
 		<div class="hero__text">
