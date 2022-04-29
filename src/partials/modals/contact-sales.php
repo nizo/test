@@ -11,17 +11,17 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
                     <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="2">
-                        <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Sales kontaktieren" />
-                        <h3>Senden Sie uns eine Nachricht</h3>
-                        <p>Kontaktformular nutzen</p>
+                        <img src="/assets/images/icons_svg/sent-out-black.svg" alt="Sales kontaktieren" style="margin-bottom:0;max-width:48px;" />
+                        <h3>Nachricht senden</h3>
+                        <p>Nutzen Sie ganz bequem <br />unser Kontaktformular</p>
                     </label>
                 </div>
                 <div class="radio-select__item">
                     <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
                     <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="3">
-                        <img src="/assets/images/icons_svg/callback-black.svg" alt="Sales kontaktieren und Termin buchen" />
-                        <h3>Buchen Sie direkt einen Termin</h3>
-                        <p>Telefon- oder Videocall vereinbaren</p>
+                        <img src="/assets/images/icons_svg/presentation.svg" alt="Sales kontaktieren und Termin buchen" style="margin-bottom:0;max-width:48px;" />
+                        <h3>Call vereinbaren</h3>
+                        <p>Telefon- oder Videocall <br />ganz einfach festlegen</p>
                     </label>
                 </div>
             </div>
@@ -41,7 +41,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen">
+    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
             <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen.</p>
@@ -117,7 +117,7 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-steptitle="Termin wählen">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-steptitle="Termin wählen" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min" style="min-width:320px;height:1200px;"></div>
@@ -126,7 +126,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen">
+    <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen" data-mouseflow-tag="Abgeschlossen">
         <h2 class="centered">Super, wir sind kontaktiert!</h2>
         <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
 
