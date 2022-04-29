@@ -7,7 +7,7 @@
         <div class="hero__image">
             <br />
             <br />
-            <img src="/assets/images/client-logos/logo-check24-black.svg" alt="Check24 ist Kunde bei CallOne" width="465" height="112" />
+            <img src="/assets/images/client-logos/logo-check24-color.svg" alt="Check24 ist Kunde bei CallOne" width="465" height="112" />
             <br />
             <br />
         </div>
