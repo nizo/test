@@ -14,21 +14,19 @@ $faqs->faq_add (
 $faqs->faq_add (
 	'Was ist ein Contact Center?',
 	'<p>Das Contact Center ist eine Abteilung im Unternehmen, die sich um die gesamte Kundenkommunikation kümmert. Dabei kann es sich um eingehende oder ausgehende Kommunikation handeln. Meist übernimmt das Contact Center die Kommunikation über verschiedene Kanäle hinweg (Omnichannel). Angebundene Kanäle sind beispielsweise Anrufe, E-Mails, Chat-Anfragen, SMS, Faxe oder auch Briefpost. Gerade in den letzten Jahren sind in den meisten Unternehmen vielfältige Kontaktmöglichkeiten für Kunden dazu gekommen, die einen Zusammenschluss aller Kanäle in einem zentralen Kundenkontakt immer sinnvoller werden lassen. Eigentlich ist ein Call Center im Gegensatz zu einem Contact Center auf den Bereich Telefonie spezialisiert. Mittlerweile werden die beiden Begriffe allerdings mehr oder weniger synonym verwendet und beinhalten meist beide auch Multichannel-Kontakt. Ziel sollte generell immer eine einheitliche Customer Experience sein. Viele Contact Center werden über Cloud-Lösungen abgebildet (<a href="https://www.callone.de/faq/was-ist-cloud-computing/">hier</a> finden Sie mehr Informationen zum Thema Cloud). Mit einer entsprechenden Call oder Contact Center Software haben Unternehmen damit die Möglichkeit alle Kontaktkanäle mit intelligenten Lösungen zu bearbeiten und wichtige KPIs im Auge zu behalten. Zudem bieten die passenden Software-Lösung umfassende Möglichkeiten eingehende Kundenkommunikation zu steuern und Mitarbeitende an diversen Standorten optimal in den Service zu integrieren.</p>'
-
 );
 $faqs->faq_add (
 	'Kann man durch die CallOne Callcenter Software Kosten sparen?',
 	'<p>Ja. Durch die intelligente Anrufverteilung der Cloud ACD bzw. Callcenter Software sorgen Sie für eine effiziente Arbeitsweise in Ihrem Callcenter und können damit die Callbearbeitungszeiten erheblich senken. Durch die daraus resultierende bessere Auslastung Ihres Callcenters, senken Sie automatisch Ihre Kosten.</p>'
-
 );
 $faqs->faq_add (
 	'Können Mitarbeiter am Heimarbeitsplatz oder von unterwegs auch Teil der Lösung sein?',
 	'<p>Ja, per VoIP oder über jede Art von Rufnummer (Festnetz oder Mobil) können Ihre Mitarbeiter problemlos in die Callcenter-Software eingebunden werden. Die Lösung ist somit von Ihren Agenten standortunabhängig weltweit nutzbar.</p>'
-
 );
 $faqs->faq_add (
 	'Wie können Agenten verschiedenen Skillgruppen zugeordnet werden?',
 	'<p>Agenten können auf zwei verschiedenen Wegen Skillgruppen zugeordnet werden: Wenn ein Agent neu angelegt wird und bereits eine Vielzahl von Skillgruppen vorhanden ist, kann der Agent über die Agenteneinstellungen den verfügbaren Skillgruppen zugeordnet werden. Wenn eine Skillgruppe neu angelegt wurde, macht es Sinn nicht jeden Agenten einzeln auszuwählen und zuzuordnen, sondern die Einstellungen in der Skillgruppe direkt über „Agentenzugehörigkeit bearbeiten“ vorzunehmen.</p>'
+);
 ?>
 
 

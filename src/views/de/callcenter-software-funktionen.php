@@ -8,21 +8,19 @@ $faqs->faq_add (
 $faqs->faq_add (
 	'Welche Möglichkeiten bietet die Callcenter-Lösung das Anrufaufkommen zu beeinflussen?',
 	'<p>Mit der ACD können wir das Anrufaufkommen natürlich nicht direkt beeinflussen, aber sie bietet intelligente Funktionen um Ihre Anrufverteilung optimal zu gestalten, unabhängig von der Anzahl der eingehenden Anrufe. Optionen wie ursprungsabhängige Routings, intelligente Vorqualifizierung mittels IVR und Rückruf aus der Warteschleife sind hier nur einige Ihrer Möglichkeiten.</p>'
-
 );
 $faqs->faq_add (
 	'Sind mit der Callcenter-Software auch Outbound-Gespräche möglich?',
 	'<p>Ja, mit der Lösung können auch weltweite Gespräche nach außen geführt werden. Diese lassen sich sogar über verschiedene Schnittstellen automatisch auslösen. Power-Dialer und Predictive-Dialer Funktionalitäten sind allerdings nicht gegeben.</p>'
-
 );
 $faqs->faq_add (
 	'Wie sieht die Agentenoberfläche aus?',
 	'<p>Die Agentenoberfläche der Callcenter-Software ist grafisch ansprechend, intuitiv bedienbar und über jeden Browser aufrufbar, ohne dass eine zusätzliche Software installiert werden muss. <a href="#" data-openmodal="contact-sales">Kontaktieren Sie uns</a> gerne für eine Live Demo.</p>'
-
 );
 $faqs->faq_add (
 	'Was genau sind Skillgruppen?',
 	'<p>Oft werden Skillgruppen auch als Fähigkeitsgruppen bezeichnet. Je nach Anforderungen können verschiedene Skillgruppen nach Sprachen, Themen oder Produkten angelegt werden.</p>'
+);
 ?>
 
 <div class="section section--mobile-divider">
