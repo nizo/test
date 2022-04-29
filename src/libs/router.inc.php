@@ -332,7 +332,6 @@ Router::add('/callcenter-software-funktionen', 'callcenter-software-funktionen.p
     'shorttitle' => 'Callcenter Software Funktionen',
     'title' => 'Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API',
     'meta_description' => 'Die vielleicht umfangreichste Auswahl an Funktionen im Bereich virtueller Telefonanlagen. Vergleichen Sie unser Angebot und sprechen Sie mit uns. Jetzt anrufen!',
-    'body_class' => 'bg-preisanfrage',
     'og_image_text' => 'Die vielleicht umfangreichste Auswahl an Funktionen'
 ]);
 Router::add('/callcenter-software-integrationen', 'callcenter-software-integrationen.php', [
@@ -430,7 +429,6 @@ Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.p
     'shorttitle' => 'Telefonanlage Funktionen',
     'title' => 'Features, Funktionen, Vergleich VoIP-Telefonanlage '.date('Y'),
     'meta_description' => 'Alle Funktionen im Überblick, vergleichen Sie und unsere Customer Success Manager helfen Ihnen bei der Auswahl ihres perfekten Settings. Rufen Sie uns an!',
-    'body_class' => 'bg-preisanfrage',
     'og_image_text' => 'VoIP-Telefonanlage Funktionen im Vergleich '.date('Y')
 ]);
 Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [

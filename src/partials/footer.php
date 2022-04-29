@@ -2,7 +2,7 @@
     <div class="footer-content desktop">
         <div class="footer-grid">
             <div class="footer-column">
-                <h4>CallOne GmbH</h4>
+                <div class="footer__headline">CallOne GmbH</div>
                 <p>
                     Posthofstr. 5<br />
                     14467 Potsdam<br />
@@ -20,7 +20,7 @@
                 </p>
             </div>
             <div class="footer-column">
-                <h4>Produkte</h4>
+                <div class="footer__headline">Produkte</div>
                 <p>
                     <a href="/callcenter-software" title="Callcenter Software">Callcenter Software</a><br />
                     <a href="/voip-telefonanlage" title="VoIP-Telefonanlage">VoIP-Telefonanlage</a><br />
@@ -35,14 +35,14 @@
                 </p>
             </div>
             <div class="footer-column">
-                <h4>Integrationen</h4>
+                <div class="footer__headline">Integrationen</div>
                 <p>
                     <a href="/callcenter-software-integrationen">Überblick</a><br />
                     <a href="/callcenter-software-apps">Applikationen</a><br />
                     <a href="/voip-api">Schnittstellen</a>
                 </p>
                 <br />
-                <h4>Referenzen</h4>
+                <div class="footer__headline">Referenzen</div>
                 <p>
                     <a href="/case-study-check24" title="Case Study Check24">Check24</a><br />
                     <a href="/case-study-flaconi" title="Case Study Flaconi">Flaconi</a><br />
@@ -52,14 +52,14 @@
                 </p>
             </div>
             <div class="footer-column">
-                <h4>Unternehmen</h4>
+                <div class="footer__headline">Unternehmen</div>
                 <p>
                     <a href="https://www.callone.de/blog/">Blog</a><br />
                     <a href="/karriere">Karriere</a><br>
                     <a href="/ueber-uns">Über uns</a>
                 </p>
                 <br />
-                <h4>Support</h4>
+                <div class="footer__headline">Support</div>
                 <p>
                     <a href="https://www.callone.de/faq/">FAQs</a><br />
                     <a href="/kontakt">Kontakt</a><br />
@@ -86,7 +86,7 @@
 
     <div class="footer-content mobile">
         <div class="company">
-            <h4>CallOne GmbH</h4>
+            <div class="footer__headline">CallOne GmbH</div>
             <p>
                 Posthofstr. 5<br />
                 14467 Potsdam

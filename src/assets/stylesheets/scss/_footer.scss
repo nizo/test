@@ -103,8 +103,9 @@
         }
       }
     }
-    h4 {
-      //border-bottom: 2px solid rgba(#fff, 0.25);
+    .footer__headline {
+      font-family: $font-headline;
+      font-size: 24px;
       padding-bottom: $gutter-s;
     }
     .footer-note {
@@ -192,7 +193,9 @@
           }
         }
       }
-      h4 {
+      .footer__headline {
+        font-family: $font-headline;
+        font-size: 24px;
         margin-bottom: $gutter-m;
       }
       .footer-note {

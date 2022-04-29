@@ -32,6 +32,7 @@ $faqs->faq_add (
 );
 ?>
 
+
 <div class="section section--light-green-white section--mobile-divider">
 	<div class="hero">
 		<div class="hero__text">
@@ -39,19 +40,19 @@ $faqs->faq_add (
 			<p>Zufriedene Kunden und produktivere Agenten!</p>
 
 			<div class="co-grid co-grid--small-gutter centered subtext">
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="50" height="50" />
                     <p style="margin-top:10px">DSGVO<br />konform</p>
                 </div>
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="Call Center Software wird schnell bereitgestellt" width="50" height="50" />
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="Call Center Software ist sehr gut erreichbar" width="50" height="50" />
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/client-logos/icon-german-cloud.svg" alt="Deutsche Cloud" width="50" height="50" />
                     <p style="margin-top:10px">Deutsche<br />Cloud</p>
                 </div>

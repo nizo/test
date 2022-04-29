@@ -1,3 +1,27 @@
+<?php
+$faqs = new faqs ();
+$faqs->faq_add (
+    'Ist Gesprächsaufzeichnung datenschutzkonform?',
+    '<p>Selbstverständlich entspricht unsere Callcenter Lösung den Ansprüchen des deutschen Datenschutzes. Das trifft auch auf unsere Partner-Anbindung zur Gesprächsaufzeichnung zu. Wenn Sie sich näher über die Rechtslage in Sachen Gesprächsaufzeichnung informieren möchten, können Sie <a href="https://www.callone.de/blog/how-to-gespraechsaufzeichnung-und-telefon-coaching-fuer-kundenservice-und-sales-in-2022/">hier</a> unser Interview mit Rechtsanwalt Stephan Schmidt lesen.</p>'
+);
+$faqs->faq_add (
+	'Wie funktionieren die Gesprächsleitfäden der Callcenter Software Lösung?',
+	'<p>Im Laufe des Gesprächs zeigt der Assistenz dem Agenten Wörter und Phrasen an, die gesagt werden können. Ebenso gibt es Wörter und Phrasen, die im Gespräch vermieden werden sollten. Hält sich der Agent an diese interaktiven Vorschläge, fühlt der Kunde sich gut beraten. Außerdem gibt der Assistent Hinweise, wann ein Up-Sell wahrscheinlich ist. So können also auch die Verkäufe steigen ohne dass es beim Kunden einen schalen Beigeschmack hinterlässt.</p>'
+);
+$faqs->faq_add (
+	'Wie können die Statistiken der Sprachanalyse genutzt werden?',
+	'<p>Die CallOne Callcenter Software bietet Ihnen ein umfangreiches Reporting sowie Live-Dashboards. Aus diesen Echtzeit-Daten können Sie Strategien für die Schulung Ihrer Mitarbeiter ableiten sowie automatisierte A/B-Tests finden. Außerdem behalten Sie die Performance Ihrer Mitarbeiter sowie Ihren SLA ebenso im Blick wie Ihre wichtigsten KPIs.</p>'
+);
+$faqs->faq_add (
+	'Was ist eine Callcenter Software?',
+	'<p>Die CallOne Callcenter Software ist eine Cloud ACD. Die Abkürzung steht für Automatic Call Distribution und damit für die intelligente Anrufverteilung in Ihrem Callcenter. Mit Hilfe einer umfangreichen Agentenverwaltung, Warteschleifenmanagement, smarten Statistiktools und Echtzeit-Callcenter-Monitoring, können Sie Ihre Unternehmensressourcen effizient nutzen und optimale Erreichbarkeit in Ihrem Callcenter sicherstellen. Die CallOne ACD ist eine Cloud-Lösung. Sie müssen also keine teure Hardware oder ACD-Erweiterung für die Telefonanlage kaufen, sondern können die Cloud ACD einfach online nutzen. Somit bietet Ihnen die Lösung alle Vorteile einer Callcenter-Software ohne den zusätzlichen IT-Aufwand einer stationären Telefonanlage. Erfahren Sie <a href="https://www.callone.de/callcenter-software">hier</a> mehr über die CallOne Callcenter Software.</p>'
+);
+$faqs->faq_add (
+	'Wie kann ich mit Gesprächsanalyse Kosten sparen?',
+	'<p>Die Gesprächsanalyse von i2x bietet Ihren Agenten interaktive Gesprächsleitfäden. Diese beinhalten zum Beispiel Hinweise darauf, wann ein Kunde wahrscheinlich für ein Up-Sell bereit ist. Ihre Abschlussrate erhöht sich also. Gleichzeitig sparen Sie Schulungskosten und wertvolle Zeit Ihrer Mitarbeiter, da unsere Callcenter Software samt Gesprächsanalyse die Effizienz enorm erhöht. Außerdem bieten wir die vielleicht erste Callcenter Software, mit der Sie Ihren ROI erhöhen können. Berechnen Sie <a href="https://www.callone.de/callcenter-einsparpotential">gleich hier</a> Ihr Einsparpotenzial!</p>'
+);
+?>
+
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
         <div class="hero__text">
@@ -142,26 +166,26 @@
 			<div class="co-grid tablet-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
-					<h4>
+					<h3>
 						<span>Schritt 1</span><br />
 						Erstgespräch
-					</h4>
+					</h3>
 					<p>Kein Verkaufsgespräch, sondern Austausch.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/presentation.svg" alt="Sie bekommen ein Showcase unserer Call Center Software Lösung auf Ihre Anforderungen angepasst" width="70" height="71" />
-					<h4>
+					<h3>
 						<span>Schritt 2</span><br />
 						Showcase
-					</h4>
+                    </h3>
 					<p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
 					<img src="/assets/images/icons_svg/team-dark.svg" alt="Wir passen unsere Call Center Software zu einer individuellen Lösung für Ihre Businesstelefonie an." width="70" height="71" />
-					<h4>
+					<h3>
 						<span>Schritt 3</span><br />
 						Lösungsfindung
-					</h4>
+					</h3>
 					<p>Wir passen individuelles Lösungsangebot auf Sie zu.</p>
 				</div>
 			</div>
@@ -170,5 +194,12 @@
 				<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
 			</p>
 		</div>
+	</div>
+
+    <div class="section__content">
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code('toggle-box--on-black');
+		?>
 	</div>
 </div>

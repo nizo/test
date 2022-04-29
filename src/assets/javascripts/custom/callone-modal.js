@@ -520,6 +520,13 @@ class Modal {
 
         // Adjust modal footer content
         this.populateModalFooter();
+
+        // Set Mouseflow Tag
+        if (this.activeStep.getAttribute('data-mouseflow-tag')) {
+            let tag = this.activeStep.getAttribute('data-mouseflow-tag');
+            window._mfq = window._mfq || [];
+            window._mfq.push(['tag', tag + ' @ ' + this.modalName + ' Modal']);
+        }
     }
 
     submitStep(e) {
