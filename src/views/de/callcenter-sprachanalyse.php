@@ -1,5 +1,4 @@
 <?php
-
 $faqs = new faqs ();
 $faqs->faq_add (
     'Ist Gesprächsaufzeichnung datenschutzkonform?',
@@ -15,9 +14,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
 	'Was ist eine Callcenter Software?',
-	'<p>Die CallOne Callcenter Software ist eine Cloud ACD. Die Abkürzung steht für Automatic Call Distribution und damit für die intelligente Anrufverteilung in Ihrem Callcenter. Mit Hilfe einer umfangreichen Agentenverwaltung, Warteschleifenmanagement, smarten Statistiktools und Echtzeit-Callcenter-Monitoring, können Sie Ihre Unternehmensressourcen effizient nutzen und optimale Erreichbarkeit in Ihrem Callcenter sicherstellen.
-    Die CallOne ACD ist eine Cloud-Lösung. Sie müssen also keine teure Hardware oder ACD-Erweiterung für die Telefonanlage kaufen, sondern können die Cloud ACD einfach online nutzen. Somit bietet Ihnen die Lösung alle Vorteile einer Callcenter-Software ohne den zusätzlichen IT-Aufwand einer stationären Telefonanlage. Erfahren Sie < href="https://www.callone.de/callcenter-software>hier</a> mehr über die CallOne Callcenter Software.
-    </p>'
+	'<p>Die CallOne Callcenter Software ist eine Cloud ACD. Die Abkürzung steht für Automatic Call Distribution und damit für die intelligente Anrufverteilung in Ihrem Callcenter. Mit Hilfe einer umfangreichen Agentenverwaltung, Warteschleifenmanagement, smarten Statistiktools und Echtzeit-Callcenter-Monitoring, können Sie Ihre Unternehmensressourcen effizient nutzen und optimale Erreichbarkeit in Ihrem Callcenter sicherstellen. Die CallOne ACD ist eine Cloud-Lösung. Sie müssen also keine teure Hardware oder ACD-Erweiterung für die Telefonanlage kaufen, sondern können die Cloud ACD einfach online nutzen. Somit bietet Ihnen die Lösung alle Vorteile einer Callcenter-Software ohne den zusätzlichen IT-Aufwand einer stationären Telefonanlage. Erfahren Sie <a href="https://www.callone.de/callcenter-software">hier</a> mehr über die CallOne Callcenter Software.</p>'
 );
 $faqs->faq_add (
 	'Wie kann ich mit Gesprächsanalyse Kosten sparen?',
@@ -197,5 +194,12 @@ $faqs->faq_add (
 				<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
 			</p>
 		</div>
+	</div>
+
+    <div class="section__content">
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code('toggle-box--on-black');
+		?>
 	</div>
 </div>
