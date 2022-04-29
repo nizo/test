@@ -1,10 +1,28 @@
 <?php
-// TODO: Add faqs
+
 $faqs = new faqs ();
 $faqs->faq_add (
-    'Lorem Ipsum Dolor Sit Amet?',
-    '<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur ex consequuntur sapiente et voluptatibus ad laudantium unde nobis id asperiores culpa, mollitia omnis possimus aspernatur rem minus nisi rerum illum.</p>'
+    'Wie ist die Gesprächsqualität bei VoIP-Telefonie?',
+    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/>Blog</a> und <a href="https://www.callone.de/voip-telefonanlage">hier</a>.</p>'
 );
+$faqs->faq_add (
+	'Kann ich mit einer virtuellen Telefonanlage auch klassische Festnetzanschlüsse erreichen?',
+	'<p>Selbstverständlich. Die Umstellung auf VoIP bringt keinerlei Einschränkungen in der Erreichbarkeit mit sich. Sie können klassische Festnetzanschlüsse ebenso problemlos erreichen wie andere VoIP-Anschlüsse oder Mobiltelefone.</p>'
+
+);
+$faqs->faq_add (
+	'Kann auch bei Anrufen von Mobiltelefonen unsere Servicerufnummer übermittelt werden?',
+	'<p>Sofern Sie Nutzer der CallOne Cloud ACD sind ist dies problemlos möglich indem Sie beim Agenten eine Mobilfunknummer als Ziel hinterlegen und einen Outbound-Anruf aus einer Skillgruppe starten, in der die Servicerufnummer als zu übermittelnde Rufnummer eingetragen ist.</p>'
+
+);
+$faqs->faq_add (
+	'Kann die zu übermittelnde Rufnummer bei Anrufen mit CallOne TEL frei gewählt werden?',
+	'<p>Nein. Ein Endpunkt kann auf beliebig vielen Endgeräten registriert werden. Dies ermöglicht Ihnen höchste Flexibilität, auch von unterwegs.</p>'
+
+);
+$faqs->faq_add (
+	'Wie richten wir einen Endpunkt auf einem Softphone oder IP-Telefon ein?',
+	'<p>Bei Geräten, die über CallOne autprovisionierbar sind, passiert dies automatisch mit der Festlegung der Identität. Bei anderen Geräten oder Sotphones müssen Benutzername, Passwort und Domain einmalig im Telefon hinterlegt werden.</p>'
 ?>
 
 <div class="section section--mobile-divider">
@@ -194,8 +212,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
+            <a href="https://www.callone.de/dsgvo-telekommunikation" class="btn btn--primary">Mehr über Sicherheit erfahren</a>
         </div>
     </div>
 </div>
@@ -296,9 +313,8 @@ $faqs->faq_add (
 
         
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary">Mehr über Warteschleifen</a>
+                </div>
     </div>
 </div>
 
@@ -460,9 +476,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/callcenter-software-apps" class="btn btn--primary">Anbindungen & Apps</a>
+                   </div>
     </div>
 </div>
 
@@ -582,9 +597,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/statistiken" data-openmodal="contact-sales" class="btn btn--primary">Mehr zu Statistiken</a>
+                    </div>
     </div>
 </div>
 
@@ -809,9 +823,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
-        </div>
+            <a href="https://www.callone.de/callcenter-bot" class="btn btn--primary">Mehr zum Callcenter Bot</a>
+                 </div>
     </div>
 </div>
 
@@ -973,8 +986,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
+            <a href="https://www.callone.de/telefonanlage-mit-warteschleife#features" class="btn btn--primary">Mehr zu Routingoptionen</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Kontakt aufnehmen</a>
         </div>
     </div>
 </div>
