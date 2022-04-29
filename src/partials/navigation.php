@@ -502,14 +502,14 @@ require_once('banderole.php');
                                     </div>
                                 </div>
 
-                                <a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" class="submenu__link">
+                                <a href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" target="_blank" class="submenu__link">
                                     <div class="submenu__link-text">
                                         <strong>Google Pagespeed</strong>
                                         <p>Überprüfung der Seitengeschwindigkeit</p>
                                     </div>
                                 </a>
 
-                                <a href="https://validator.w3.org/nu/?doc=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" class="submenu__link">
+                                <a href="https://validator.w3.org/nu/?doc=https://<?=$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" target="_blank" class="submenu__link">
                                     <div class="submenu__link-text">
                                         <strong>W3C-Validierung</strong>
                                         <p>HTML-Validierung</p>
