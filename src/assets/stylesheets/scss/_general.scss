@@ -2453,6 +2453,16 @@ blockquote {
 	&--not-enough {
 		text-align: center;
 	}
+
+	.radio-select {
+		&__item {
+			label {
+				h3 {
+					font-size: 36px;
+				}
+			}
+		}
+	}
 }
 
 .sales-contact-form {
@@ -2468,43 +2478,6 @@ blockquote {
 		font-family: $font-copy;
 		font-size: 20px;
 		line-height: 1.5;
-	}
-	
-	&__details {
-		display: flex;
-		margin-top: 20px;
-		> div {
-			flex: 1;
-		}
-		p {
-			text-align: center;
-		}
-		a {
-			color: #000;
-			transition: all 0.3s ease;
-			border-bottom: 2px solid #c4c4c4;
-			&:hover {
-				border-color: #86EC16;
-			}
-		}
-		img {
-			vertical-align: middle;
-			width: 16px;
-			display: inline-block;
-			margin-right: 10px;
-		}
-	}
-}
-@media screen and (max-width: 700px) {
-	.sales-contact-form {
-		&__details {
-			flex-direction: column;
-			> div {
-				&+div {
-					margin-top: 20px;
-				}
-			}
-		}
 	}
 }
 

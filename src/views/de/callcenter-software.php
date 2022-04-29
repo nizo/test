@@ -4,28 +4,31 @@ $product->image_set ('https://www.callone.de/assets/images/photos/agentenmaske-h
 $product->reviews_load ();
 
 $product->structured_data_get_code ();
+
 $faqs = new faqs ();
 $faqs->faq_add (
-    'Was bedeutet Cloud ACD?',
-    '<p>Die Abkürzung ACD steht für Automatic Call Distribution und damit für die intelligente Anrufverteilung in Ihrem Callcenter. Mit Hilfe einer umfangreichen Agentenverwaltung, Warteschleifenmanagement, smarten Statistiktools und Echtzeit-Callcenter-Monitoring, können Sie Ihre Unternehmensressourcen effizient nutzen und optimale Erreichbarkeit in Ihrem Callcenter sicherstellen.
-
-	Die CallOne ACD ist eine Cloud-Lösung. Sie müssen also keine teure Hardware oder ACD-Erweiterung für die Telefonanlage kaufen, sondern können die Cloud ACD einfach online nutzen. Somit bietet Ihnen die Lösung alle Vorteile einer Callcenter-Software ohne den zusätzlichen IT-Aufwand einer stationären Telefonanlage. Mehr Informationen zur CallOne Cloud ACD finden Sie <a href="https://www.callone.de/callcenter-software">hier</a>.</p>'
+	'Wie schnell kann die Callcenter-Lösung für uns bereitstehen?',
+	'<p>Sehr schnell! Es kommt ein wenig darauf an, was Ihre Anforderungen sind. Individuelle Schnittstellenanbindungen dauern in der Regel immer ein wenig länger, doch grundsätzlich stehen unsere Callcenter Software Ihnen direkt und auch sehr kurzfristig zur Verfügung. Flexible Anpassungen auf Ihre Bedürfnisse sind dabie jederzeit möglich. Außerdem sind sowohl Callcenter-Software als auch die IP-Telefonanlage extrem intuitiv und Sie können natürlich selbst eingreifen und nach Wunsch abändern.</p>'
 );
 $faqs->faq_add (
-	'Was ist ein Contact Center?',
-	'<p>Das Contact Center ist eine Abteilung im Unternehmen, die sich um die gesamte Kundenkommunikation kümmert. Dabei kann es sich um eingehende oder ausgehende Kommunikation handeln. Meist übernimmt das Contact Center die Kommunikation über verschiedene Kanäle hinweg (Omnichannel). Angebundene Kanäle sind beispielsweise Anrufe, E-Mails, Chat-Anfragen, SMS, Faxe oder auch Briefpost. Gerade in den letzten Jahren sind in den meisten Unternehmen vielfältige Kontaktmöglichkeiten für Kunden dazu gekommen, die einen Zusammenschluss aller Kanäle in einem zentralen Kundenkontakt immer sinnvoller werden lassen. Eigentlich ist ein Call Center im Gegensatz zu einem Contact Center auf den Bereich Telefonie spezialisiert. Mittlerweile werden die beiden Begriffe allerdings mehr oder weniger synonym verwendet und beinhalten meist beide auch Multichannel-Kontakt. Ziel sollte generell immer eine einheitliche Customer Experience sein. Viele Contact Center werden über Cloud-Lösungen abgebildet (<a href="https://www.callone.de/faq/was-ist-cloud-computing/">hier</a> finden Sie mehr Informationen zum Thema Cloud). Mit einer entsprechenden Call oder Contact Center Software haben Unternehmen damit die Möglichkeit alle Kontaktkanäle mit intelligenten Lösungen zu bearbeiten und wichtige KPIs im Auge zu behalten. Zudem bieten die passenden Software-Lösung umfassende Möglichkeiten eingehende Kundenkommunikation zu steuern und Mitarbeitende an diversen Standorten optimal in den Service zu integrieren.</p>'
+	'Warum CallOne?',
+	'<p>Wir sind Spezialisten, wenn es um individuelle Business-Lösungen rund um das Thema Kundenservice geht. Bei uns bekommen Sie nicht nur die technische Lösung, sondern auch das Know-How für Alles was sonst noch dazu gehört. Aus unserer täglichen Auseinandersetzungen mit den für Business-Telefonie und telefonischen Kundenservice relevanten Themen, bieten wir eine State of the Art Contact Center Lösung mit virtueller Telefonanlage, passen diese optimal auf Ihre individuellen Anforderungen an und verknüpfen sie mit Ihren anderen Systemen.</p><p>Bei uns finden Sie keine anonymen Support-Mitarbeiter, sondern mündige Ansprechpartner, die Ihnen tagtäglich mit Rat und Tat zur Seite stehen. Wir betreuen Sie und entwickeln Ihre Lösung stetig gemeinsam mit Ihnen weiter.</p>'
 );
 $faqs->faq_add (
-	'Kann man durch die CallOne Callcenter Software Kosten sparen?',
-	'<p>Ja. Durch die intelligente Anrufverteilung der Cloud ACD bzw. Callcenter Software sorgen Sie für eine effiziente Arbeitsweise in Ihrem Callcenter und können damit die Callbearbeitungszeiten erheblich senken. Durch die daraus resultierende bessere Auslastung Ihres Callcenters, senken Sie automatisch Ihre Kosten.</p>'
+	'Kann ich die CallOne Callcenter-Software mit anderen Businesslösungen, Systemen oder Applikationen verknüpfen?',
+	'<p>Ja. Die Callcenter-Lösung verfügt über eine Vielzahl von Echtzeit-Schnittstellen, die sich ideal dafür eignen bestehende Businesslösungen (BI, CRM, ERP oder Ticketing-Lösungen) anzubinden und in Echtzeit Daten mit diesen Systemen auszutauschen. Gerade hier liegt die Stärke von CallOne: Wir passen unsere Telefonie-Lösung optimal in Ihre bestehende IT-Infrastruktur ein.</p>'
 );
 $faqs->faq_add (
-	'Können Mitarbeiter am Heimarbeitsplatz oder von unterwegs auch Teil der Lösung sein?',
-	'<p>Ja, per VoIP oder über jede Art von Rufnummer (Festnetz oder Mobil) können Ihre Mitarbeiter problemlos in die Callcenter-Software eingebunden werden. Die Lösung ist somit von Ihren Agenten standortunabhängig weltweit nutzbar.</p>'
+	'Welche Schnittstellen und Anbindungsmöglichkeiten gibt es?',
+	'<p>Es besteht eine Vielzahl von Standard-Schnittstellen für die verschiedensten Anforderungen. Mehr Informationen finden Sie <a href="/callcenter-software-integrationen" title="Mehr Infos zu Schnittstellen">hier</a>. Sprechen Sie uns hierzu gerne mit Ihren konkreten Anforderungen an. Unsere Telefonanlage und Callcenter-Lösung verfügt über eine Vielzahl von Telefon-APIs zur optimalen Anbindung Ihrer eigenen Businesslösungen. Neben Echtzeit-APIs, die Ihnen alle Call-Events live pushen, stehen weitere APIs speziell für das Abrufen von anrufspezifischen Informationen bereit. Für eine Vielzahl von CRM- und Ticketing-Lösungen stehen Standard-Konnektoren zur Verfügung, die es Ihnen ermöglichen Ihre bestehenden Lösungen auf einfachste Weise zu koppeln. Aktuell bieten wir hier Konnektoren für die Anbindung von <a href="/zendesk-cti-ticketing" title="Zendesk Integration">Zendesk</a>, <a href="/freshdesk-callcenter-software" title="Freshdesk Integration">Freshdesk CRM</a>, <a href="/cti-salesforce" title="Salesforce Integration">Salesforce</a> und weiteren Businessanwendungen an. Sprechen Sie uns an, wenn Sie spezielle Anforderungen und Wünsche dazu haben Ihre Lösung anzubinden.</p>'
 );
 $faqs->faq_add (
-	'Wie können Agenten verschiedenen Skillgruppen zugeordnet werden?',
-	'<p>Agenten können auf zwei verschiedenen Wegen Skillgruppen zugeordnet werden: Wenn ein Agent neu angelegt wird und bereits eine Vielzahl von Skillgruppen vorhanden ist, kann der Agent über die Agenteneinstellungen den verfügbaren Skillgruppen zugeordnet werden. Wenn eine Skillgruppe neu angelegt wurde, macht es Sinn nicht jeden Agenten einzeln auszuwählen und zuzuordnen, sondern die Einstellungen in der Skillgruppe direkt über „Agentenzugehörigkeit bearbeiten“ vorzunehmen.</p>'
+	'Kann man durch die CallOne ACD Kosten sparen?',
+	'<p>Ja. Durch die intelligente Anrufverteilung der ACD sorgen Sie für eine effiziente Arbeitsweise in Ihrem Callcenter und können damit die Callbearbeitungszeiten erheblich senken. Durch die daraus resultierende bessere Auslastung Ihres Callcenters, senken Sie automatisch Ihre Kosten.</p>'
+);
+$faqs->faq_add (
+	'Welche Möglichkeiten bietet die Callcenter-Lösung das Anrufaufkommen zu beeinflussen?',
+	'<p>Mit der ACD können wir das Anrufaufkommen natürlich nicht direkt beeinflussen, aber sie bietet intelligente Funktionen um Ihre Anrufverteilung optimal zu gestalten, unabhängig von der Anzahl der eingehenden Anrufe. Optionen wie ursprungsabhängige Routings, intelligente Vorqualifizierung mittels IVR und Rückruf aus der Warteschleife sind hier nur einige Ihrer Möglichkeiten. Werfen Sie gerne einmal einen Blick auf die <a href="/callcenter-software-funktionen" title="Callcenter-Software Funktionen & Features">Features</a> der CallOne Cloud ACD.</p>'
 );
 ?>
 
@@ -37,19 +40,19 @@ $faqs->faq_add (
 			<p>Zufriedene Kunden und produktivere Agenten!</p>
 
 			<div class="co-grid co-grid--small-gutter centered subtext">
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="50" height="50" />
                     <p style="margin-top:10px">DSGVO<br />konform</p>
                 </div>
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="Call Center Software wird schnell bereitgestellt" width="50" height="50" />
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="Call Center Software ist sehr gut erreichbar" width="50" height="50" />
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
-                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
+                <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
                     <img src="/assets/images/client-logos/icon-german-cloud.svg" alt="Deutsche Cloud" width="50" height="50" />
                     <p style="margin-top:10px">Deutsche<br />Cloud</p>
                 </div>
@@ -406,5 +409,12 @@ $faqs->faq_add (
 		<p class="mobile-centered">
 			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Termin vereinbaren</a>
 		</p>
+	</div>
+
+	<div class="section__content">
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code('toggle-box--on-black');
+		?>
 	</div>
 </div>
