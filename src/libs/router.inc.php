@@ -251,7 +251,6 @@ Router::add('/case-study-check24', 'case-study-check24.php', [
     'shorttitle' => 'Check24',
     'title' => 'Callcenter Software und Tableau-Integration - Kundenservice bei Check24',
     'meta_description' => 'Callcenter Lösung beim Marktführer Check24. CallOne stellt umfassende VoIP-Telefonanlage und Callcenter Software mit offenen API für Kundenservice bereit',
-    'body_class' => 'bg-casestudy',
     'og_image_text' => 'Check24 mit CallOne',
     'menu_position' => 'callone',
     'sitemap_priority' => '0.7'
