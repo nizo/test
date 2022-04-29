@@ -172,7 +172,7 @@ $faqs->faq_add (
                                 <span class="sl sl-cloud"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>2 GB Cloud <br />Speicher</h3>
+                                <h3>Kostenfreier Cloud <br />Speicher</h3>
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@ $faqs->faq_add (
                     <label for="expandable6"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Die Lösung bietet Ihnen standartmäßig einen 2 GB Cloud-Speicher für Dateien wie Ansagen, Gesprächsaufzeichnungen, Faxe oder Abrechnungen. Dieser Speicher ist jederzeit flexibel erweiterbar.</p>
+                            <p>Die Lösung bietet Ihnen standartmäßig einen kostenfreien Cloud-Speicher für Dateien wie Ansagen, Gesprächsaufzeichnungen, Faxe oder Abrechnungen. Dieser Speicher ist jederzeit flexibel erweiterbar.</p>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/dsgvo-telekommunikation" class="btn btn--primary">Mehr über Sicherheit erfahren</a>
+            <a href="/dsgvo-telekommunikation" class="btn btn--primary">Datenschutz und Ausfallsicherheit bei CallOne</a>
         </div>
     </div>
 </div>
@@ -259,7 +259,7 @@ $faqs->faq_add (
                     <label for="expandable8"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Die Callcenter Software ist vollkommen standortunabhängig. Sie können jederzeit von überall auf der Welt auf die Oberfläche der Lösung zugreifen und finden Ihre gesamte Telefonielösung so an einem zentralen Ort. Auch Ihre Mitarbeiter können überall auf der Welt arbeiten. So werden verschiedene Standorte nicht mehr zum Problem.</p>
+                            <p>Warteschleifen können umfassend administriert werden. Neben der Ansage einer Warteposition gibt es auch automatisierte Rückrufe aus der Warteschleife. Ein besonderes Feature ist die virtuelle Warteschleife.</p>
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@ $faqs->faq_add (
 
         
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary">Mehr über Warteschleifen</a>
+            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary">Bessere Erreichbarkeit durch Warteschleifen</a>
         </div>
     </div>
 </div>
@@ -361,27 +361,6 @@ $faqs->faq_add (
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
                             <p>Binden Sie die verschiedensten Programme, Lösungen und Business-Systeme einfach in Ihre Callcenter Lösung mit ein. Wir verfügen über eine offene Schnittstelle, die mit CRM-Systemen, Ticketing Lösungen oder anderen Subsystemen problemlos verbindbar ist.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="expandable expandable--no-border expandable--shadow">
-                    <div class="expandable__main expandable__main--small-padding">
-                        <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--vcentered">
-                                <span class="sl sl-mail"></span>
-                            </div>
-                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Zendesk <br />Integration</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <input type="checkbox" id="expandable13">
-                    <label for="expandable13"></label>
-                    <div class="expandable__extra">
-                        <div class="expandable__extra-full">
-                            <p>Die Cloud ACD bietet eine standardmäßige Schnittstelle zur Ticketing-Lösung von Zendesk. Mit Hilfe dieser Schnittstelle werden Anrufe ganz einfach als Voice-Tickets in die Zendesk-Oberfläche integriert und erscheinen somit übersichtlich in Ihrer Oberfläche.</p>
                         </div>
                     </div>
                 </div>
@@ -473,7 +452,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/callcenter-software-apps" class="btn btn--primary">Anbindungen & Apps</a>
+            <a href="/callcenter-software-apps" class="btn btn--primary">Anbindungen & Apps</a>
         </div>
     </div>
 </div>
@@ -594,7 +573,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/statistiken" data-openmodal="contact-sales" class="btn btn--primary">Mehr zu Statistiken</a>
+            <a href="/statistiken" class="btn btn--primary">Statistiken und Echtzeitanalysen</a>
         </div>
     </div>
 </div>
@@ -636,7 +615,7 @@ $faqs->faq_add (
                                 <span class="sl sl-arrow-move-up"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>IVR- <br />Auswahlmenüs</h3>
+                                <h3>IVR Auswahl-<br />menüs</h3>
                             </div>
                         </div>
                     </div>
@@ -820,7 +799,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/callcenter-bot" class="btn btn--primary">Mehr zum Callcenter Bot</a>
+            <a href="/voip-api" class="btn btn--primary">Anrufsteuerung mit Schnittstellen</a>
+            <a href="/callcenter-bot" class="btn btn--primary">Abfangen von Peaks mit Callcenter Bots</a>
         </div>
     </div>
 </div>
@@ -883,7 +863,7 @@ $faqs->faq_add (
                                 <span class="sl sl-screen"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>Online-Agentenmaske</h3>
+                                <h3>Agentenmaske im Browser</h3>
                             </div>
                         </div>
                     </div>
@@ -983,8 +963,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/telefonanlage-mit-warteschleife#features" class="btn btn--primary">Mehr zu Routingoptionen</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Kontakt aufnehmen</a>
+            <a href="/telefonanlage-mit-warteschleife#features" class="btn btn--primary">Anrufverteilung durch Peakglättung</a>
         </div>
     </div>
 </div>

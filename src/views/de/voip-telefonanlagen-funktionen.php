@@ -2,7 +2,7 @@
 $faqs = new faqs ();
 $faqs->faq_add (
     'Wie ist die Gesprächsqualität bei VoIP-Telefonie?',
-    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/">Blog</a> und <a href="https://www.callone.de/voip-telefonanlage">hier</a>.</p>'
+    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/">Blog</a> und <a href="/voip-telefonanlage">hier</a>.</p>'
 );
 $faqs->faq_add (
 	'Kann ich mit einer virtuellen Telefonanlage auch klassische Festnetzanschlüsse erreichen?',
@@ -41,7 +41,7 @@ $faqs->faq_add (
 			<strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
 		</div>
 		<div class="anchors__links">
-            <a href="#Features">Funktionen</a>
+            <a href="#Features">Features</a>
             <a href="#Administration">Administration</a>
             <a href="#Sicherheit">Sicherheit</a>
             <a href="#Anrufsteuerung">Anrufsteuerung</a>
@@ -230,7 +230,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/voip-api" class="btn btn--primary">Mehr über APIs</a>
+            <a href="/voip-api" class="btn btn--primary">Automatisierung mit Schnittstellen</a>
         </div>
     </div>
 </div>    
@@ -413,8 +413,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Erstgespräch</a>
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary">Demo</a>
+            <a href="/0800-lokal-nummern" class="btn btn--primary">Lokale Vorwahlen und weltweite Rufnummern</a>
         </div>
     </div>
 </div>
@@ -576,7 +575,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/dsgvo-telekommunikation" class="btn btn--primary centered">Datenschutz <br />& Sicherheit</a>
+            <a href="/dsgvo-telekommunikation" class="btn btn--primary">Datenschutz und Ausfallsicherheit bei CallOne</a>
         </div>
     </div>
 </div>
@@ -843,8 +842,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary centered">Warteschleifen <br />& Routings</a>
-            <a href="https://www.callone.de/0800-lokal-nummern" class="btn btn--secondary">Rufnummern</a>
+            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary">Bessere Erreichbarkeit durch Warteschleifen</a>
         </div>
     </div>
 </div>
@@ -1069,7 +1067,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/softphone" class="btn btn--primary">CallOne Softphone</a>
+            <a href="/ms-teams" class="btn btn--primary">Smarte Telefonie mit Microsoft Teams</a>
+            <a href="/softphone" class="btn btn--primary">CallOne Softphone</a>
         </div>
     </div>
 </div>
@@ -1254,27 +1253,6 @@ $faqs->faq_add (
                     <div class="expandable__main expandable__main--small-padding">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <span class="sl sl-letter"></span>
-                            </div>
-                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                                <h3>SMS mit <br />API</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <input type="checkbox" id="expandable53">
-                    <label for="expandable53"></label>
-                    <div class="expandable__extra">
-                        <div class="expandable__extra-full">
-                            <p>Über unsere SMS API können Sie SMS über Premiumrouten und mit eigener Absenderkennung versenden.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="expandable expandable--no-border expandable--shadow">
-                    <div class="expandable__main expandable__main--small-padding">
-                        <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--vcentered">
                                 <span class="sl sl-profile-serviceman"></span>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
@@ -1315,7 +1293,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/telefonanlage-mit-warteschleife#features" class="btn btn--primary centered">Callback<br />Optionen</a>
+            <a href="/telefonanlage-mit-warteschleife#features" class="btn btn--primary centered">Rückruf aus der Warteschleife</a>
         </div>
     </div>
 </div>
@@ -1414,8 +1392,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/statistiken" class="btn btn--primary">Mehr über Statistiken</a>
-                    </div>
+            <a href="/statistiken" class="btn btn--primary">Statistiken und Echtzeitanalysen</a>
+        </div>
     </div>
 </div>
 
