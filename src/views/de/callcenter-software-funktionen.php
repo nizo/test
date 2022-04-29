@@ -1,5 +1,4 @@
 <?php
-
 $faqs = new faqs ();
 $faqs->faq_add (
     'Welche Funktionen bietet die Callcenter Software für Inboundtelefonie?',
@@ -312,7 +311,7 @@ $faqs->faq_add (
         
         <div class="btn-set btn-set--centered">
             <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary">Mehr über Warteschleifen</a>
-                </div>
+        </div>
     </div>
 </div>
 
@@ -475,7 +474,7 @@ $faqs->faq_add (
 
         <div class="btn-set btn-set--centered">
             <a href="https://www.callone.de/callcenter-software-apps" class="btn btn--primary">Anbindungen & Apps</a>
-                   </div>
+        </div>
     </div>
 </div>
 
@@ -596,7 +595,7 @@ $faqs->faq_add (
 
         <div class="btn-set btn-set--centered">
             <a href="https://www.callone.de/statistiken" data-openmodal="contact-sales" class="btn btn--primary">Mehr zu Statistiken</a>
-                    </div>
+        </div>
     </div>
 </div>
 
@@ -822,7 +821,7 @@ $faqs->faq_add (
 
         <div class="btn-set btn-set--centered">
             <a href="https://www.callone.de/callcenter-bot" class="btn btn--primary">Mehr zum Callcenter Bot</a>
-                 </div>
+        </div>
     </div>
 </div>
 

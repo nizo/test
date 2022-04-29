@@ -1,9 +1,8 @@
 <?php
-// TODO: Add faqs
 $faqs = new faqs ();
 $faqs->faq_add (
     'Wie ist die Gesprächsqualität bei VoIP-Telefonie?',
-    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/>Blog</a> und <a href="https://www.callone.de/voip-telefonanlage">hier</a>.</p>'
+    '<p>Voice over IP heißt über das Internet zu telefonieren. Bei uns erhalten Sie das Beste aus beiden Welten: VoIP-Telefonie mit höherer Gesprächsqualität als im klassischen PSTN-Netz. Bei der Telefonie über das Internet sind Sie bei uns natürlich trotzdem über mehrere unterschiedliche Provider ans öffentliche Telefonnetz angebunden. Sie sind optimal mit Ihren Rufnummern erreichbar und können qualitativ hochwertigste Gespräche führen. Besonders achten wir darauf ausschließlich qualitativ hochwertige Businessrouten bei der Terminierung unserer Gespräche zu verwenden. Wir weisen für jedes Gespräch transparent die Gesprächsqualität aus und unterstützen die neuesten Standards der HD-Telefonie. Bei Bedarf können Sie mit unseren Endpunkten auch Video-Telefonie betreiben. Weitere Informationen dazu finden Sie in unserem <a href="https://www.callone.de/blog/checkliste-stoerungsfrei-arbeiten-mit-voip/">Blog</a> und <a href="https://www.callone.de/voip-telefonanlage">hier</a>.</p>'
 );
 $faqs->faq_add (
 	'Kann ich mit einer virtuellen Telefonanlage auch klassische Festnetzanschlüsse erreichen?',
@@ -232,7 +231,7 @@ $faqs->faq_add (
 
         <div class="btn-set btn-set--centered">
             <a href="https://www.callone.de/voip-api" class="btn btn--primary">Mehr über APIs</a>
-                </div>
+        </div>
     </div>
 </div>    
 
@@ -577,8 +576,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/dsgvo-telekommunikation" class="btn btn--primary">Datenschutz <br />& Sicherheit</a>
-                    </div>
+            <a href="https://www.callone.de/dsgvo-telekommunikation" class="btn btn--primary centered">Datenschutz <br />& Sicherheit</a>
+        </div>
     </div>
 </div>
 
@@ -844,7 +843,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary">Warteschleifen <br />& Routings</a>
+            <a href="https://www.callone.de/telefonanlage-mit-warteschleife" class="btn btn--primary centered">Warteschleifen <br />& Routings</a>
             <a href="https://www.callone.de/0800-lokal-nummern" class="btn btn--secondary">Rufnummern</a>
         </div>
     </div>
@@ -1071,7 +1070,7 @@ $faqs->faq_add (
 
         <div class="btn-set btn-set--centered">
             <a href="https://www.callone.de/softphone" class="btn btn--primary">CallOne Softphone</a>
-                   </div>
+        </div>
     </div>
 </div>
 
@@ -1316,8 +1315,8 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="https://www.callone.de/telefonanlage-mit-warteschleife#features" class="btn btn--primary">Callback<br />Optionen</a>
-                    </div>
+            <a href="https://www.callone.de/telefonanlage-mit-warteschleife#features" class="btn btn--primary centered">Callback<br />Optionen</a>
+        </div>
     </div>
 </div>
 
