@@ -1,0 +1,241 @@
+<?php
+// TODO: Add FAQs
+$faqs = new faqs ();
+$faqs->faq_add (
+	'Wie wo was wann wieso?',
+	'<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quam laudantium voluptatum asperiores eligendi optio laboriosam fuga minima quibusdam doloribus velit dolores aliquid ea quaerat quidem, odit explicabo nesciunt voluptas.</p>'
+);
+?>
+
+<div class="section section--colored-gradient section--mobile-divider" style="--bg1:rgb(240, 90, 34, 0.05);--bg2:rgb(240, 90, 34, 0);">
+	<div class="hero">
+		<div class="hero__text">
+			<h1>E-Mail, Chat und Telefonie in einer Oberfläche.</h1>
+			<p class="bigtext">Echte Omnichannel-CX mit deutscher KI: Die intelligente Kundenservice-Lösung vereint Ihre Kontaktkanäle auf einer Oberfläche.</p>
+
+			<p class="mobile-centered">
+				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+			</p>
+		</div>
+		<div class="hero__image">
+			<img src="//via.placeholder.com/465" alt="CallOne Callcenter Software" width="465" height="465" />
+		</div>
+	</div>
+
+	<div class="anchors">
+		<div class="anchors__title">
+			<strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
+		</div>
+		<div class="anchors__links">
+			<a href="#kanaele">Kanäle</a>
+			<a href="#bot-ki">Bot & KI</a>
+			<a href="#integrationen">Integrationen</a>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="section__content">
+		<h2 class="centered mobile-left">KI made in Germany. Für die besten Kundenerlebnisse.</h2>
+		<p class="centered mobile-left bigtext">Alles auf einen Blick. Mit unserer Omnichannel Kundenservice Software erhalten und verwalten Sie die Flut der Anfragen problemlos. Alles für Sales und Kundenservice ist in einer Oberfläche!</p>
+	</div>	
+
+	<div class="section__content section__content--wide" id="kanaele">
+		<div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+                <img src="//via.placeholder.com/570x400" alt="Alle Kanäle in einer Oberfläche" width="570" height="400" class="co-grid__image--full-width" />
+            </div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+				<div class="tag">
+					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Agenten
+				</div>
+				<h2>Alle Kanäle <br class="mobile-hidden" />in einer Oberfläche.</h2>
+
+				<ul class="list list--checkmarks list--checkmarks-green bigtext">
+					<li>Kanalunabhängige Plattform für den besten Überblick über alle Anfragen</li>
+					<li>Voice, E-Mail, Messenger, Chat und soziale Medien direkt in einer Oberfläche</li>
+					<li>einfache, intuitive Bedienung der Plattform,  sofortige Zuordnung der Kundendaten</li>
+				</ul>
+			</div>
+		</div>
+
+		<br />
+		<br />
+
+		<div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
+                <div class="tag">
+					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Teamleiter
+				</div>
+				<h2>Agenten dort einsetzen, <br class="mobile-hidden" />wo sie gebraucht werden</h2>
+
+				<ul class="list list--checkmarks list--checkmarks-green bigtext">
+                    <li>Anfragen aus Voice, E-Mail, Messenger und Chat werden übersichtlich gebündelt und mit Daten aus dem CRM zusammengeführt</li>
+					<li>Kundenanfragen direkt dem passenden Agenten zuordnen und wichtige Zeit für die kniffeligen Anfragen sparen</li>
+					<li>Service-Levels immer schnell im Blick haben und optimale Reportings in Echtzeit bekommen</li>
+				</ul>
+			</div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
+                <img src="//via.placeholder.com/570x400" alt="Agenten dort einsetzen, wo sie gebraucht werden" width="570" height="400" class="co-grid__image--full-width" />
+            </div>
+		</div>
+
+		<br />
+		<br />
+
+		<div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+                <img src="//via.placeholder.com/570x400" alt="Den Daten Taten folgen lassen: Dank Dashboards & Statistiken" width="570" height="400" class="co-grid__image--full-width" />
+            </div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+				<div class="tag">
+					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Administratoren
+				</div>
+				<h2>Den Daten Taten folgen lassen: <br class="mobile-hidden" />Dank Dashboards & Statistiken</h2>
+
+				<ul class="list list--checkmarks list--checkmarks-green bigtext">
+					<li>Passende Statistiken und Live Dashboards für den besten Daten-Überblick</li>
+					<li>Alle Unternehmenssysteme nahtlos verbinden und Daten zusammenführen</li>
+					<li>Entwicklungen erkennen und steuern, um Kosten zu senken und Effizienz zu stärken</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section section--black">
+	<div class="section__content section__content--wide">
+		<p class="centered">Eine Auswahl unserer Kunden:</p>
+
+		<div class="logos logos--fade" style="--height:30px">
+			<img src="/assets/images/client-logos/logo-snipes-white.svg" alt="Unser Kunde snipes" width="85" height="30" />
+			<img src="/assets/images/client-logos/logo-bett1-white.svg" alt="Unser Kunde bett1" width="62" height="30" />
+			<img src="/assets/images/client-logos/logo-flaconi-white.svg" alt="Unser Kunde flaconi" width="118" height="30" />
+			<img src="/assets/images/client-logos/logo-gastro-hero-white.svg" alt="Unser Kunde GastroHero" width="132" height="30" />
+			<img src="/assets/images/client-logos/logo-vimcar-white.svg" alt="Unser Kunde Vimcar" width="152" height="30" />
+		</div>
+		<div class="logos logos--fade" style="--height:30px">
+			<img src="/assets/images/client-logos/logo-igus-white.svg" alt="Unser Kunde IGUS" width="58" height="30" />
+			<img src="/assets/images/client-logos/logo-seereisedienst-white.svg" alt="Unser Kunde Seereisedienst" width="166" height="30" />
+			<img src="/assets/images/client-logos/logo-check24-white.svg" alt="Unser Kunde Check24" width="125" height="30" />
+			<img src="/assets/images/client-logos/logo-helios-white.svg" alt="Unser Kunde Helios" width="128" height="30" />
+			<img src="/assets/images/client-logos/logo-sodastream.svg" alt="Unser Kunde SodaStream" width="194" height="30" />
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="section__content">
+		<h2 class="centered mobile-left">Der Chatbot, der wie ein Agent wirkt. <br class="mobile-hidden" />Und Agenten den Rücken frei hält.</h2>
+		<p class="centered mobile-left bigtext">Wer kennt sie nicht, die immer wiederkehrenden Kundenanfragen, die stets die gleiche Antwort erhalten können? Die übernimmt der Sematell Bot vollautomatisiert. So haben Ihre Agenten Zeit für die kniffeligen Anfragen.</p>
+	</div>	
+
+	<div class="section__content section__content--wide">
+		<div class="co-grid" id="bot-ki">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
+				<h2>Agenten sind Ihre Batmans. <br class="mobile-hidden" />Die KI ist Ihr Robin.</h2>
+
+				<p class="bigtext">Wo benötigen Sie Ihre Agenten am meisten? Bei den kniffeligen Kundenanfragen. Die KI-basierte Kundenservice Software hält ihnen genau dafür den Rücken frei. Denn die preisgekrönte KI des Frauenhofer Instituts ist gepaart mit 20 Jahren Erfahrung. Sie kann Anfragen vollautomatisiert beantworten und Ihren Agenten in 70 Sprachen Antwortvorschläge geben. <br />Damit die leichten Dinge auch schnell erledigt sind.</p>
+
+                <p class="mobile-centered">
+                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+                </p>
+			</div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
+                <img src="//via.placeholder.com/570x400" alt="Agenten sind Ihre Batmans. Die KI ist Ihr Robin" width="570" height="400" class="co-grid__image--full-width" />
+            </div>
+		</div>
+
+		<br />
+		<br />
+
+		<div class="co-grid" id="integrationen">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+                <img src="//via.placeholder.com/570x400" alt="Kennen Sie Ihre Kunden beim Namen - Auf allen Kanälen" width="570" height="400" class="co-grid__image--full-width" />
+            </div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+				<h2>Kennen Sie Ihre Kunden beim Namen. Auf allen Kanälen.</h2>
+
+				<p class="bigtext">Anfragen für Ihren Kundenservice kommen auf den verschiedensten Kommunikationskanälen an. Mit den CRM- und ERP-Schnittstellen von ReplyOne können Sie sich sicher sein, dass Ihre Kundendaten optimal integriert sind. So bekommen Ihre Kunden und Ihre Agenten die beste CX geboten. Denn Kundenzufriedenheit in Verbindung mit Agenteneffizienz ist der Schlüssel zum Gewinn.</p>
+
+                <p class="mobile-centered">
+                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+                </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section section--colored" style="--bg:#edf2e2;">
+	<div class="section__content section__content--wide">
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+				<img src="/assets/images/client-logos/logo-seereisedienst-notext.svg" alt="Unser Kunde Seereisedienst" width="370" height="370" class="co-grid__image--full-width" />
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+				<div class="quote" style="--fontSize:24px">
+					&ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. Zunächst haben uns die vergleichsweise hohen Kosten abgeschreckt, allerdings ist CallOne das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
+				</div>
+				<p>
+                    <strong>SEEREISEDIENST</strong><br />
+                    Elbflorenz Reisedienst GmbH und Co. KG
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="section__content section__content--narrow">
+        <!-- TODO: Texte -->
+		<h2 class="centered mobile-left">Lorem Ipsum Dolor</h2>
+		<p class="centered mobile-left bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odio repellat quibusdam accusantium distinctio, quos quidem voluptate magni numquam laudantium harum reprehenderit esse nesciunt minus iure saepe, cumque exercitationem ea?</p>
+	</div>
+
+	<div class="section__content section__content--wide">
+        <!-- TODO: Add correct links/boxes -->
+		<div class="co-grid centered">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+				<img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Callcenter Software" width="100" height="100" style="max-height:100px" />
+				<h3>Callcenter Software</h3>
+				<p class="bigtext">Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
+				<p>
+					<a href="#" class="btn btn--primary">Besser telefonieren</a>
+				</p>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+				<img src="/assets/images/icons_svg/icon-echtzeit-coaching.svg" alt="Echtzeit-Coaching" width="100" height="100" style="max-height:100px" />
+				<h3>Echtzeit-Coaching</h3>
+				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
+				<p>
+					<a href="/callcenter-sprachanalyse" class="btn btn--primary">Sprachanalyse im Detail</a>
+				</p>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+				<img src="/assets/images/icons_svg/msteams-icon.svg" alt="Microsoft Teams" width="100" height="100" />
+				<h3>Teams-Telefonie</h3>
+				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
+				<p>
+					<a href="/ms-teams" class="btn btn--primary">Mit Teams telefonieren</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section section--black section--black-corner">
+	<div class="section__content section__content--narrow centered mobile-left">
+		<h2>Sind Sie bereit, Ihren Kundenservice zu verbessern?</h2>
+		<p class="bigtext">Buchen Sie ein unverbindliches 15 Minuten Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
+		<p class="mobile-centered">
+			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Termin vereinbaren</a>
+		</p>
+	</div>
+
+	<div class="section__content">
+		<?php
+		$faqs->structured_data_get_code ();
+		$faqs->html_get_code('toggle-box--on-black');
+		?>
+	</div>
+</div>

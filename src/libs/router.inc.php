@@ -399,6 +399,11 @@ Router::add('/microsip', 'microsip.php', [
     'og_image_text' => 'MicroSIP vorkonfiguriert',
     'body_class' => 'full-bg background-transition'
 ]);
+Router::add('/omnichannel-callcenter', 'omnichannel-callcenter.php', [
+    'shorttitle' => 'Omnichannel',
+    'title' => 'Omnichannel Callcenter',
+    'og_image_text' => 'Omnichannel Callcenter'
+]);
 Router::add('/omr', 'omr-goodie.php', [
     'shorttitle' => 'OMR Podcast',
     'title' => 'OMR Goodie',
