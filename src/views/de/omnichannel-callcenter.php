@@ -1,5 +1,4 @@
 <?php
-// TODO: Add FAQs
 $faqs = new faqs ();
 $faqs->faq_add (
 	'Was ist eine Callcenter Software?',
@@ -212,8 +211,8 @@ $faqs->faq_add (
 <div class="section">
 	<div class="section__content section__content--narrow">
         <!-- TODO: Texte -->
-		<h2 class="centered mobile-left">Lorem Ipsum Dolor</h2>
-		<p class="centered mobile-left bigtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odio repellat quibusdam accusantium distinctio, quos quidem voluptate magni numquam laudantium harum reprehenderit esse nesciunt minus iure saepe, cumque exercitationem ea?</p>
+		<h2 class="centered mobile-left">Die Omnichannel Plattform für Ihren besten Kundenservice</h2>
+		<p class="centered mobile-left bigtext">Erweitern Sie Ihre Omnichannel Callcenter Software um die Funktionen und Lösungen, die Ihren Kundenservice zu Ihrem besten Kundenservice machen. Integrieren Sie unsere Omnichannel Plattform und ACD Lösung nahtlos in Ihre bestehenden Systeme.</p>
 	</div>
 
 	<div class="section__content section__content--wide">
