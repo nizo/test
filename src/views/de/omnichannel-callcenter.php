@@ -41,7 +41,7 @@ $faqs->faq_add (
 			</p>
 		</div>
 		<div class="hero__image">
-			<img src="//via.placeholder.com/465" alt="CallOne Callcenter Software" width="465" height="465" />
+			<img src="/assets/images/illus/hero-sematell.png" alt="CallOne Omnichannel Callcenter" width="465" height="360" />
 		</div>
 	</div>
 
@@ -66,7 +66,7 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide" id="kanaele">
 		<div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="//via.placeholder.com/570x400" alt="Alle Kanäle in einer Oberfläche" width="570" height="400" class="co-grid__image--full-width" />
+                <img src="/assets/images/illus/sematell-agenten.png" alt="Alle Kanäle in einer Oberfläche" width="570" height="400" class="co-grid__image--full-width" />
             </div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="tag">
@@ -99,7 +99,7 @@ $faqs->faq_add (
 				</ul>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-                <img src="//via.placeholder.com/570x400" alt="Agenten dort einsetzen, wo sie gebraucht werden" width="570" height="400" class="co-grid__image--full-width" />
+                <img src="/assets/images/illus/sematell-teamleiter.png" alt="Agenten dort einsetzen, wo sie gebraucht werden" width="570" height="400" class="co-grid__image--full-width" />
             </div>
 		</div>
 
@@ -108,7 +108,7 @@ $faqs->faq_add (
 
 		<div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="//via.placeholder.com/570x400" alt="Den Daten Taten folgen lassen: Dank Dashboards & Statistiken" width="570" height="400" class="co-grid__image--full-width" />
+                <img src="/assets/images/illus/sematell-administratoren.png" alt="Den Daten Taten folgen lassen: Dank Dashboards & Statistiken" width="570" height="400" class="co-grid__image--full-width" />
             </div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="tag">
@@ -165,7 +165,7 @@ $faqs->faq_add (
                 </p>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-                <img src="//via.placeholder.com/570x400" alt="Agenten sind Ihre Batmans. Die KI ist Ihr Robin" width="570" height="400" class="co-grid__image--full-width" />
+                <img src="/assets/images/illus/sematell-ki-kundenservice.png" alt="Agenten sind Ihre Batmans. Die KI ist Ihr Robin" width="570" height="400" class="co-grid__image--full-width" />
             </div>
 		</div>
 
@@ -174,7 +174,7 @@ $faqs->faq_add (
 
 		<div class="co-grid" id="integrationen">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="//via.placeholder.com/570x400" alt="Kennen Sie Ihre Kunden beim Namen - Auf allen Kanälen" width="570" height="400" class="co-grid__image--full-width" />
+                <img src="/assets/images/illus/sematell-kanaele.png" alt="Kennen Sie Ihre Kunden beim Namen - Auf allen Kanälen" width="570" height="400" class="co-grid__image--full-width" />
             </div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<h2>Kennen Sie Ihre Kunden beim Namen. Auf allen Kanälen.</h2>
@@ -184,6 +184,42 @@ $faqs->faq_add (
                 <p class="mobile-centered">
                     <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
                 </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="section__content section__content--narrow">
+		<h2 class="centered mobile-left">Die Omnichannel Plattform für Ihren besten Kundenservice</h2>
+		<p class="centered mobile-left bigtext">Erweitern Sie Ihre Omnichannel Callcenter Software um die Funktionen und Lösungen, die Ihren Kundenservice zu Ihrem besten Kundenservice machen. Integrieren Sie unsere Omnichannel Plattform und ACD Lösung nahtlos in Ihre bestehenden Systeme.</p>
+	</div>
+
+	<div class="section__content section__content--wide">
+		<div class="co-grid centered">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+				<img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Callcenter Software" width="100" height="100" style="max-height:100px" />
+				<h3>Callcenter Software</h3>
+				<p class="bigtext">Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
+				<p>
+					<a href="/callcenter-software" class="btn btn--primary">Besser telefonieren</a>
+				</p>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+				<img src="/assets/images/icons_svg/icon-echtzeit-coaching.svg" alt="Echtzeit-Coaching" width="100" height="100" style="max-height:100px" />
+				<h3>Echtzeit-Coaching</h3>
+				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
+				<p>
+					<a href="/callcenter-sprachanalyse" class="btn btn--primary">Sprachanalyse im Detail</a>
+				</p>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
+				<img src="/assets/images/icons_svg/msteams-icon.svg" alt="Microsoft Teams" width="100" height="100" />
+				<h3>Teams-Telefonie</h3>
+				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
+				<p>
+					<a href="/ms-teams" class="btn btn--primary">Mit Teams telefonieren</a>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -202,44 +238,6 @@ $faqs->faq_add (
 				<p>
                     <strong>SEEREISEDIENST</strong><br />
                     Elbflorenz Reisedienst GmbH und Co. KG
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="section">
-	<div class="section__content section__content--narrow">
-        <!-- TODO: Texte -->
-		<h2 class="centered mobile-left">Die Omnichannel Plattform für Ihren besten Kundenservice</h2>
-		<p class="centered mobile-left bigtext">Erweitern Sie Ihre Omnichannel Callcenter Software um die Funktionen und Lösungen, die Ihren Kundenservice zu Ihrem besten Kundenservice machen. Integrieren Sie unsere Omnichannel Plattform und ACD Lösung nahtlos in Ihre bestehenden Systeme.</p>
-	</div>
-
-	<div class="section__content section__content--wide">
-        <!-- TODO: Add correct links/boxes -->
-		<div class="co-grid centered">
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Callcenter Software" width="100" height="100" style="max-height:100px" />
-				<h3>Callcenter Software</h3>
-				<p class="bigtext">Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
-				<p>
-					<a href="#" class="btn btn--primary">Besser telefonieren</a>
-				</p>
-			</div>
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/icon-echtzeit-coaching.svg" alt="Echtzeit-Coaching" width="100" height="100" style="max-height:100px" />
-				<h3>Echtzeit-Coaching</h3>
-				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
-				<p>
-					<a href="/callcenter-sprachanalyse" class="btn btn--primary">Sprachanalyse im Detail</a>
-				</p>
-			</div>
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/msteams-icon.svg" alt="Microsoft Teams" width="100" height="100" />
-				<h3>Teams-Telefonie</h3>
-				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
-				<p>
-					<a href="/ms-teams" class="btn btn--primary">Mit Teams telefonieren</a>
 				</p>
 			</div>
 		</div>
