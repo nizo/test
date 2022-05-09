@@ -5,33 +5,31 @@ $uniqueID = uniqid();
 ?>
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2">
+    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true">
         <div class="worker-evaluation">
             <div class="radio-select">
-                <div class="radio-select__item">
-                    <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
-                    <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="2">
-                        <img src="/assets/images/icons_svg/sent-out-black.svg" alt="Sales kontaktieren" style="margin-bottom:0;max-width:48px;" />
-                        <h3>Nachricht senden</h3>
-                        <p>Nutzen Sie ganz bequem <br />unser Kontaktformular</p>
-                    </label>
+                <div class="radio-select__item callone-modal__nextstep" data-next-step="2">
+                    <div>
+                        <div class="radio-select__title">
+                            <img src="/assets/images/icons_svg/sent-out-black.svg" alt="Sales kontaktieren" width="48" height="48" style="margin-bottom:0;max-width:48px;" />
+                            <h3>Nachricht senden</h3>
+                        </div>
+                        <p>Nutzen Sie ganz bequem unser Kontaktformular</p>
+                    </div>
                 </div>
-                <div class="radio-select__item">
-                    <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
-                    <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="3">
-                        <img src="/assets/images/icons_svg/presentation.svg" alt="Sales kontaktieren und Termin buchen" style="margin-bottom:0;max-width:48px;" />
-                        <h3>Call vereinbaren</h3>
-                        <p>Telefon- oder Videocall <br />ganz einfach festlegen</p>
-                    </label>
+                <div class="radio-select__item callone-modal__nextstep" data-next-step="3">
+                    <div>
+                        <div class="radio-select__title">
+                            <img src="/assets/images/icons_svg/presentation.svg" alt="Sales kontaktieren und Termin buchen" width="48" height="49" style="margin-bottom:0;max-width:48px;" />
+                            <h3>Call vereinbaren</h3>
+                        </div>
+                        <p>Telefon- oder Videocall ganz einfach festlegen</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        
         <div class="co-grid co-grid--no-margin-bottom centered">
-            <div class="co-grid__col co-grid__col--12-xs">
-                <p>oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
-            </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                 <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" width="16" height="21" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a></p>
             </div>

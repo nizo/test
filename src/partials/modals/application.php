@@ -10,21 +10,23 @@ $uniqueID = uniqid();
         <h2 class="centered">Wie möchtest du dich auf diesen Job bewerben?</h2>
 
         <div class="radio-select">
-            <div class="radio-select__item">
-                <input type="radio" id="type1" name="type" value="quick" checked="checked" />
-                <label for="type1" class="callone-modal__nextstep" data-next-step="2">
-                    <img src="/assets/images/icons_svg/application-fast.svg" alt="schnellbewerbung" />
-                    <h3>Schnellbewerbung</h3>
+            <div class="radio-select__item callone-modal__nextstep" data-next-step="2">
+                <div>
+                    <div class="radio-select__title">
+                        <img src="/assets/images/icons_svg/application-fast.svg" alt="schnellbewerbung" width="48" height="48" style="width:48px" />
+                        <h3>Schnellbewerbung</h3>
+                    </div>
                     <p>via LinkedIn/Xing/Portfolio-Link</p>
-                </label>
+                </div>
             </div>
-            <div class="radio-select__item">
-                <input type="radio" id="type2" name="type" value="normal" />
-                <label for="type2" class="callone-modal__nextstep" data-next-step="4">
-                    <img src="/assets/images/icons_svg/application-normal.svg" alt="normale bewerbung" />
-                    <h3>Klassische Bewerbung</h3>
+            <div class="radio-select__item callone-modal__nextstep" data-next-step="4">
+                <div>
+                    <div class="radio-select__title">
+                        <img src="/assets/images/icons_svg/application-normal.svg" alt="normale bewerbung" width="48" height="48" style="width:48px" />
+                        <h3>Klassische Bewerbung</h3>
+                    </div>
                     <p>Bewerbungsdateien hochladen</p>
-                </label>
+                </div>
             </div>
         </div>
     </div>
