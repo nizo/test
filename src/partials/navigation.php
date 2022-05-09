@@ -203,7 +203,7 @@ require_once('banderole.php');
 
                                     <a href="/omnichannel-callcenter" class="submenu__link<?= getPageActiveClass('/omnichannel-callcenter') ?>">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-it-helpdesk.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                            <img src="/assets/images/navigation/menu-multi-channel.png" alt="Echte Omnichannel-CX mit deutscher KI" />
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>Multi-Channel</strong>
