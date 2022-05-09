@@ -193,7 +193,7 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-				<img src="/assets/images/client-logos/logo-seereisedienst-notext.svg" alt="Unser Kunde Seereisedienst" width="370" height="370" class="co-grid__image--full-width" />
+				<img src="/assets/images/client-logos/logo-seereisedienst-notext.svg" alt="Unser Kunde Seereisedienst" width="370" height="370" class="co-grid__image--full-width" style="max-width:370px" />
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
 				<div class="quote" style="--fontSize:24px">
