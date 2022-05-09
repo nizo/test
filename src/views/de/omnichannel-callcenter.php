@@ -123,6 +123,10 @@ $faqs->faq_add (
 				</ul>
 			</div>
 		</div>
+
+		<div class="btn-set btn-set--centered">
+			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+		</div>
 	</div>
 </div>
 
@@ -159,10 +163,6 @@ $faqs->faq_add (
 				<h2>Agenten sind Ihre Batmans. <br class="mobile-hidden" />Die KI ist Ihr Robin.</h2>
 
 				<p class="bigtext">Wo benötigen Sie Ihre Agenten am meisten? Bei den kniffeligen Kundenanfragen. Die KI-basierte Kundenservice Software hält ihnen genau dafür den Rücken frei. Denn die preisgekrönte KI des Frauenhofer Instituts ist gepaart mit 20 Jahren Erfahrung. Sie kann Anfragen vollautomatisiert beantworten und Ihren Agenten in 70 Sprachen Antwortvorschläge geben. <br />Damit die leichten Dinge auch schnell erledigt sind.</p>
-
-                <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
-                </p>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <img src="/assets/images/illus/sematell-ki-kundenservice.png" alt="Agenten sind Ihre Batmans. Die KI ist Ihr Robin" width="570" height="400" class="co-grid__image--full-width" />
@@ -180,10 +180,29 @@ $faqs->faq_add (
 				<h2>Kennen Sie Ihre Kunden beim Namen. Auf allen Kanälen.</h2>
 
 				<p class="bigtext">Anfragen für Ihren Kundenservice kommen auf den verschiedensten Kommunikationskanälen an. Mit den CRM- und ERP-Schnittstellen von ReplyOne können Sie sich sicher sein, dass Ihre Kundendaten optimal integriert sind. So bekommen Ihre Kunden und Ihre Agenten die beste CX geboten. Denn Kundenzufriedenheit in Verbindung mit Agenteneffizienz ist der Schlüssel zum Gewinn.</p>
+			</div>
+		</div>
 
-                <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
-                </p>
+		<div class="btn-set btn-set--centered">
+			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+		</div>
+	</div>
+</div>
+
+<div class="section section--colored" style="--bg:#edf2e2;">
+	<div class="section__content section__content--wide">
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+				<img src="/assets/images/client-logos/logo-seereisedienst-notext.svg" alt="Unser Kunde Seereisedienst" width="370" height="370" class="co-grid__image--full-width" />
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+				<div class="quote" style="--fontSize:24px">
+					&ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. Zunächst haben uns die vergleichsweise hohen Kosten abgeschreckt, allerdings ist CallOne das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
+				</div>
+				<p>
+                    <strong>SEEREISEDIENST</strong><br />
+                    Elbflorenz Reisedienst GmbH und Co. KG
+				</p>
 			</div>
 		</div>
 	</div>
@@ -219,25 +238,6 @@ $faqs->faq_add (
 				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
 				<p>
 					<a href="/ms-teams" class="btn btn--primary">Mit Teams telefonieren</a>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="section section--colored" style="--bg:#edf2e2;">
-	<div class="section__content section__content--wide">
-		<div class="co-grid">
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-				<img src="/assets/images/client-logos/logo-seereisedienst-notext.svg" alt="Unser Kunde Seereisedienst" width="370" height="370" class="co-grid__image--full-width" />
-			</div>
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-				<div class="quote" style="--fontSize:24px">
-					&ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. Zunächst haben uns die vergleichsweise hohen Kosten abgeschreckt, allerdings ist CallOne das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
-				</div>
-				<p>
-                    <strong>SEEREISEDIENST</strong><br />
-                    Elbflorenz Reisedienst GmbH und Co. KG
 				</p>
 			</div>
 		</div>
