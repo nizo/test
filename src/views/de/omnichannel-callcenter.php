@@ -60,7 +60,7 @@ $faqs->faq_add (
 <div class="section">
 	<div class="section__content">
 		<h2 class="centered mobile-left">KI made in Germany. Für die besten Kundenerlebnisse.</h2>
-		<p class="centered mobile-left bigtext">Alles auf einen Blick. Mit unserer Omnichannel Kundenservice Software erhalten und verwalten Sie die Flut der Anfragen problemlos. Alles für Sales und Kundenservice ist in einer Oberfläche!</p>
+		<p class="centered mobile-left bigtext">Alles auf einen Blick. Mit unserer Omnichannel Kundenservice Software erhalten und verwalten Sie die Flut der Anfragen problemlos. Informationen aus CRM und anderen Anbindungen für Sales und Kundenservice ist in einer Oberfläche!</p>
 	</div>	
 
 	<div class="section__content section__content--wide" id="kanaele">
