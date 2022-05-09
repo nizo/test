@@ -124,7 +124,7 @@ $faqs->faq_add (
 			</div>
 		</div>
 
-		<div class="btn-set btn-set--centered">
+		<div class="btn-set btn-set--centered centered">
 			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
 		</div>
 	</div>
@@ -183,7 +183,7 @@ $faqs->faq_add (
 			</div>
 		</div>
 
-		<div class="btn-set btn-set--centered">
+		<div class="btn-set btn-set--centered centered">
 			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
 		</div>
 	</div>
