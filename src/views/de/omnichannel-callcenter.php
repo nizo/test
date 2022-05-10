@@ -41,7 +41,7 @@ $faqs->faq_add (
 			</p>
 		</div>
 		<div class="hero__image">
-			<img src="/assets/images/illus/hero-sematell.png" alt="CallOne Omnichannel Callcenter" width="465" height="360" />
+			<img srcset="/assets/images/illus/hero-sematell@2x.png 2x" src="/assets/images/illus/hero-sematell.png" alt="CallOne Omnichannel Callcenter" width="465" height="360" />
 		</div>
 	</div>
 
