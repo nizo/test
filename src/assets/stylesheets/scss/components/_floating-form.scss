@@ -89,6 +89,9 @@
             }
         }
     }
+    &__field--highlight {
+        border-color: $color-primary;
+    }
     &__field--short {
         width: 100%;
         max-width: 180px;
@@ -109,6 +112,44 @@
             top: 18px;
             left: 15px;
             max-width: calc(100% - 30px);
+        }
+    }
+    &__field--small {
+        input {
+            padding: var(--gutter-micro) var(--gutter-xs);
+            font-size: 16px;
+            &:focus, &:not(:placeholder-shown) {
+                &~label {
+                    left: calc(var(--gutter-xs) - 5px);
+                    max-width: calc(100% - (var(--gutter-xs) * 2));
+                    transform: translateY(calc(-50% - 10px));
+                }
+            }
+        }
+        label {
+            font-size: 12px;
+            top: 10px;
+            left: var(--gutter-xs);
+            max-width: calc(100% - (var(--gutter-xs * 2)));
+        }
+    }
+    &__select--small {
+        .callone-select {
+            &--open {
+                .callone-select__label {
+                    transform: translateY(calc(-50% - 10px));
+                    left: calc(var(--gutter-xs) - 5px);
+                }
+            }
+            &__label {
+                font-size: 12px;
+                top: 10px;
+                left: var(--gutter-xs);
+            }
+            &__selected {
+                padding: var(--gutter-micro) var(--gutter-xs);
+                font-size: 16px;
+            }
         }
     }
 

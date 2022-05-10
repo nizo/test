@@ -4,6 +4,7 @@
     "browser": true,
     "node": true,
     "globals": {
+        "AbortController": true,
         "eventListener": true,
         "scrollToOffset": true,
         "slideUp": true,

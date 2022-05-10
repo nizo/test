@@ -42,7 +42,6 @@ $uniqueID = uniqid();
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
         <div class="sales-contact-form">
             <h2>Fast geschafft!</h2>
-            <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen.</p>
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit">
                 <div class="floating-form__error">
@@ -52,23 +51,40 @@ $uniqueID = uniqid();
 
                 <div class="floating-form__row">
                     <div class="floating-form__col">
-                        <div class="floating-form__field">
+                        <div class="floating-form__field floating-form__field--highlight">
                             <input type="text" name="name" placeholder=" " required="required" />
                             <label>Ihr Name *</label>
                         </div>
                     </div>
                     <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <input type="text" name="company" placeholder=" " required="required" />
-                            <label>Firmenname *</label>
+                        <div class="floating-form__field floating-form__field--highlight">
+                            <input type="email" name="email" placeholder=" " required="required" />
+                            <label>Geschäftliche E-Mail *</label>
                         </div>
                     </div>
                 </div>
                 <div class="floating-form__row">
+                    <div class="floating-form__col subtext centered" style="opacity:.5">Teilen Sie uns gerne noch weitere Informationen mit oder nehmen Sie direkt Kontakt auf.</div>
+                </div>
+                <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
                     <div class="floating-form__col">
-                        <div class="floating-form__select">
-                            <select name="position" data-callone-select="" required="required">
-                                <option value="">Sie sind Ansprechpartner für *</option>
+                        <div class="floating-form__field floating-form__field--small">
+                            <input type="text" name="phonenumber" placeholder=" " />
+                            <label>Geschäftliche Telefonnummer</label>
+                        </div>
+                    </div>
+                    <div class="floating-form__col">
+                        <div class="floating-form__field floating-form__field--small">
+                            <input type="text" name="company" placeholder=" " />
+                            <label>Firmenname</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
+                    <div class="floating-form__col">
+                        <div class="floating-form__select floating-form__select--small">
+                            <select name="position" data-callone-select="">
+                                <option value="">Sie sind Ansprechpartner für</option>
                                 <option value="IT">IT</option>
                                 <option value="Kundenservice">Kundenservice</option>
                                 <option value="Sales">Sales</option>
@@ -78,9 +94,9 @@ $uniqueID = uniqid();
                         </div>
                     </div>
                     <div class="floating-form__col">
-                        <div class="floating-form__select">
-                            <select name="issue" data-callone-select="" required="required">
-                                <option value="">Herausforderung Ihrer Firma *</option>
+                        <div class="floating-form__select floating-form__select--small">
+                            <select name="issue" data-callone-select="">
+                                <option value="">Herausforderung Ihrer Firma</option>
                                 <option value="Wachstum &amp; Skalierung">Wachstum &amp; Skalierung</option>
                                 <option value="Integration der Telefone in andere Systeme">Integration der Telefone in andere Systeme</option>
                                 <option value="Kundensupport verbessern">Kundensupport verbessern</option>
@@ -90,20 +106,6 @@ $uniqueID = uniqid();
                                 <option value="Business Intelligence">Business Intelligence</option>
                                 <option value="Sonstiges">Sonstiges</option>
                             </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="floating-form__row">
-                    <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <input type="text" name="phonenumber" placeholder=" " required="required" />
-                            <label>Geschäftliche Telefonnummer *</label>
-                        </div>
-                    </div>
-                    <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <input type="email" name="email" placeholder=" " required="required" />
-                            <label>Geschäftliche E-Mail *</label>
                         </div>
                     </div>
                 </div>
