@@ -197,7 +197,7 @@ $faqs->faq_add (
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
 				<div class="quote" style="--fontSize:24px">
-					&ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. Zunächst haben uns die vergleichsweise hohen Kosten abgeschreckt, allerdings ist CallOne das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
+					&ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. CallOne bietet das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
 				</div>
 				<p>
                     <strong>SEEREISEDIENST</strong><br />
