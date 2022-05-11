@@ -62,7 +62,12 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--7-lg co-grid__col--vcentered">
-                <img loading="lazy" src="/assets/images/illus/callone-platform-illustration.png" alt="CallCenter Software von CallOne für optimale Businesstelefonie" width="660" height="406" />
+                <picture>
+                    <source srcset="/assets/images/illus/callone-platform-illustration.webp" type="image/webp" />
+                    <source srcset="/assets/images/illus/callone-platform-illustration.png" type="image/png" />
+                    <img loading="lazy" src="/assets/images/illus/callone-platform-illustration.png" />
+                </picture>
+                <!-- <img loading="lazy" src="/assets/images/illus/callone-platform-illustration.png" alt="CallCenter Software von CallOne für optimale Businesstelefonie" width="660" height="406" /> -->
             </div>
         </div>
     </div>
