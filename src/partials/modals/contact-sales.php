@@ -8,19 +8,19 @@ $uniqueID = uniqid();
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true">
         <div class="worker-evaluation">
             <div class="radio-select">
-                <div class="radio-select__item callone-modal__nextstep" data-next-step="2">
+                <div class="radio-select__item callone-modal__nextstep" data-next-step="2" style="--width:270px">
                     <div>
                         <div class="radio-select__title">
-                            <img src="/assets/images/icons_svg/sent-out-black.svg" alt="Sales kontaktieren" width="48" height="48" style="margin-bottom:0;max-width:48px;" />
+                            <img src="/assets/images/icons_svg/icon-postbox.svg" alt="Sales kontaktieren" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
                             <h3>Nachricht senden</h3>
                         </div>
                         <p>Nutzen Sie ganz bequem unser Kontaktformular</p>
                     </div>
                 </div>
-                <div class="radio-select__item callone-modal__nextstep" data-next-step="3">
+                <div class="radio-select__item callone-modal__nextstep" data-next-step="3" style="--width:270px">
                     <div>
                         <div class="radio-select__title">
-                            <img src="/assets/images/icons_svg/presentation.svg" alt="Sales kontaktieren und Termin buchen" width="48" height="49" style="margin-bottom:0;max-width:48px;" />
+                            <img src="/assets/images/icons_svg/icon-calendar.svg" alt="Sales kontaktieren und Termin buchen" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
                             <h3>Call vereinbaren</h3>
                         </div>
                         <p>Telefon- oder Videocall ganz einfach festlegen</p>

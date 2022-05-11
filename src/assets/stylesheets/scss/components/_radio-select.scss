@@ -6,6 +6,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: stretch;
+    justify-content: center;
     margin: 0 -15px;
 
     &+* {
@@ -13,8 +14,10 @@
     }
 
     &__item {
+        --width: 100%;
+
         display: flex;
-        flex: 1;
+        flex: 0 0 var(--width);
         margin: 0 15px;
         > label, > div {
             display: block;
@@ -73,8 +76,8 @@
 
         h2, h3, .radio-select__headline {
             flex: 1;
-            padding-left: var(--gutter-m);
-            margin-bottom: 0;
+            padding-left: var(--gutter-m) !important;
+            margin-bottom: 0 !important;
         }
 
         img {

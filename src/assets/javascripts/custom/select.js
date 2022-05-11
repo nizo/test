@@ -61,28 +61,25 @@ class Select {
             this.wrapper.classList.toggle('callone-select--open');
             this.setOptionsPosition();
             
-            let controller = new AbortController();
+            // Close when scrollable parent is scrolled
             let scrolledParent = this.getScrolledParent(this.select);
-            if (this.wrapper.classList.contains('callone-select--open')) {
-                scrolledParent.addEventListener('scroll', ((e) => {
-                    this.setOptionsPosition();
-                }).bind(this), {
-                    signal: controller.signal
-                });
-            } else {
-                controller.abort();
-            }
+            scrolledParent.addEventListener('scroll', ((e) => {
+                this.wrapper.classList.remove('callone-select--open');
+            }).bind(this), {
+                once: true
+            });
         }).bind(this));
 
+        // Close when window is resized
         window.onresize = ((e) => {
-            console.log('resize'); // TODO: Fix needed
-            this.setOptionsPosition();
+            this.wrapper.classList.remove('callone-select--open');
         }).bind(this);
     }
 
     setOptionsPosition() {
-        let scrolledParent = this.getScrolledParent(this.wrapper);
-        let top = this.wrapper.offsetTop - scrolledParent.scrollTop + this.wrapper.offsetHeight;
+        let scrolledParent = this.getScrolledParent(this.select);
+        let scrollOffset = scrolledParent.tagName.toLowerCase() == 'html' ? 0 : scrolledParent.scrollTop;
+        let top = this.wrapper.offsetTop - scrollOffset + this.wrapper.offsetHeight;
         let left = this.wrapper.offsetLeft;
         let width = this.wrapper.offsetWidth;
 
