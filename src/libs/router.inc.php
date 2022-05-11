@@ -399,7 +399,7 @@ Router::add('/microsip', 'microsip.php', [
     'og_image_text' => 'MicroSIP vorkonfiguriert',
     'body_class' => 'full-bg background-transition'
 ]);
-Router::add('/omnichannel-callcenter', 'omnichannel-callcenter.php', [
+Router::add('/omnichannel-customer-support-software', 'omnichannel-customer-support-software.php', [
     'shorttitle' => 'Omnichannel',
     'title' => 'Omnichannel Callcenter Lösung für Kundenservice',
     'meta_description' => 'Auf allen Kontaktkanälen die richtigen Kundendaten parat haben und effizient bearbeiten. Mit unserer Omnichannel Callcenter Lösung für Kundenservice und Sales.',

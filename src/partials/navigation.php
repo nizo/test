@@ -201,7 +201,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/omnichannel-callcenter" class="submenu__link<?= getPageActiveClass('/omnichannel-callcenter') ?>">
+                                    <a href="/omnichannel-customer-support-software" class="submenu__link<?= getPageActiveClass('/omnichannel-customer-support-software') ?>">
                                         <div class="submenu__link-icon">
                                             <img src="/assets/images/navigation/menu-multi-channel.png" alt="Echte Omnichannel-CX mit deutscher KI" />
                                         </div>

@@ -328,7 +328,7 @@ $faqs->faq_add (
 				<h3>Multi-Channel</h3>
 				<p class="bigtext">E-Mail, Chat und Messaging nahtlos in Ihre Systeme integrieren.</p>
 				<p>
-					<a href="/omnichannel-callcenter" class="btn btn--primary">Mehr erfahren</a>
+					<a href="/omnichannel-customer-support-software" class="btn btn--primary">Mehr erfahren</a>
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
