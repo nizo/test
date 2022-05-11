@@ -21,7 +21,7 @@ $uniqueID = uniqid();
                     <div>
                         <div class="radio-select__title">
                             <img src="/assets/images/icons_svg/icon-calendar.svg" alt="Sales kontaktieren und Termin buchen" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
-                            <h3>Call vereinbaren</h3>
+                            <h3>Termin ausmachen</h3>
                         </div>
                         <p>Telefon- oder Videocall ganz einfach festlegen</p>
                     </div>
@@ -64,19 +64,19 @@ $uniqueID = uniqid();
                     </div>
                 </div>
                 <div class="floating-form__row">
-                    <div class="floating-form__col subtext centered" style="opacity:.5">Teilen Sie uns gerne noch weitere Informationen mit oder nehmen Sie direkt Kontakt auf.</div>
+                    <div class="floating-form__col subtext centered" style="opacity:.5">Optional können Sie uns gerne noch weitere Informationen mitteilen</div>
                 </div>
                 <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
                     <div class="floating-form__col">
                         <div class="floating-form__field floating-form__field--small">
-                            <input type="text" name="phonenumber" placeholder=" " />
-                            <label>Geschäftliche Telefonnummer</label>
+                            <input type="text" name="company" placeholder=" " />
+                            <label>Firmenname</label>
                         </div>
                     </div>
                     <div class="floating-form__col">
                         <div class="floating-form__field floating-form__field--small">
-                            <input type="text" name="company" placeholder=" " />
-                            <label>Firmenname</label>
+                            <input type="text" name="phonenumber" placeholder=" " />
+                            <label>Geschäftliche Telefonnummer</label>
                         </div>
                     </div>
                 </div>
