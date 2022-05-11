@@ -59,7 +59,7 @@ $faqs->faq_add (
 
 <div class="section">
 	<div class="section__content">
-		<h2 class="centered mobile-left">KI made in Germany. Für die besten Kundenerlebnisse.</h2>
+		<h2 class="centered mobile-left">KI made in Germany. Omnichannel Plattform für die besten Kundenerlebnisse.</h2>
 		<p class="centered mobile-left bigtext">Alles auf einen Blick. Mit unserer Omnichannel Kundenservice Software erhalten und verwalten Sie die Flut der Anfragen problemlos. Informationen aus CRM und anderen Anbindungen für Sales und Kundenservice ist in einer Oberfläche!</p>
 	</div>	
 
@@ -153,7 +153,7 @@ $faqs->faq_add (
 
 <div class="section">
 	<div class="section__content">
-		<h2 class="centered mobile-left">Der Chatbot, der wie ein Agent wirkt. <br class="mobile-hidden" />Und Agenten den Rücken frei hält.</h2>
+		<h2 class="centered mobile-left">Der Chatbot, der Omnichannel wie ein Agent wirkt. <br class="mobile-hidden" />Und Agenten den Rücken frei hält.</h2>
 		<p class="centered mobile-left bigtext">Wer kennt sie nicht, die immer wiederkehrenden Kundenanfragen, die stets die gleiche Antwort erhalten können? Die übernimmt der Sematell Bot vollautomatisiert. So haben Ihre Agenten Zeit für die kniffeligen Anfragen.</p>
 	</div>	
 
@@ -162,7 +162,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
 				<h2>Agenten sind Ihre Batmans. <br class="mobile-hidden" />Die KI ist Ihr Robin.</h2>
 
-				<p class="bigtext">Wo benötigen Sie Ihre Agenten am meisten? Bei den kniffeligen Kundenanfragen. Die KI-basierte Kundenservice Software hält ihnen genau dafür den Rücken frei. Denn die preisgekrönte KI des Frauenhofer Instituts ist gepaart mit 20 Jahren Erfahrung. Sie kann Anfragen vollautomatisiert beantworten und Ihren Agenten in 70 Sprachen Antwortvorschläge geben. <br />Damit die leichten Dinge auch schnell erledigt sind.</p>
+				<p class="bigtext">Wo benötigen Sie Ihre Agenten am meisten? Bei den kniffeligen Kundenanfragen. Die KI-basierte Kundenservice Software hält ihnen genau dafür den Rücken frei. Denn die preisgekrönte KI des Frauenhofer Instituts ist gepaart mit 20 Jahren Erfahrung. Sie kann Anfragen vollautomatisiert beantworten und Ihren Agenten in 70 Sprachen Antwortvorschläge geben. Als Omnichannel Plattform.<br />Damit die leichten Dinge auch schnell erledigt sind.</p>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <img src="/assets/images/illus/sematell-ki-kundenservice.png" alt="Agenten sind Ihre Batmans. Die KI ist Ihr Robin" width="570" height="400" class="co-grid__image--full-width" />
