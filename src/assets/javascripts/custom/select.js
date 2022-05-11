@@ -82,7 +82,14 @@ class Select {
         let top = this.wrapper.offsetTop - scrollOffset + this.wrapper.offsetHeight;
         let left = this.wrapper.offsetLeft;
         let width = this.wrapper.offsetWidth;
-
+        
+        let bottomOfOptions = top + this.selectOptions.offsetHeight;
+        let viewportHeight = window.innerHeight;
+        if (bottomOfOptions > viewportHeight) {
+            // Position above select
+            top -= this.wrapper.offsetHeight + this.selectOptions.offsetHeight;
+        }
+        
         this.selectOptions.style.top = top - 2 + 'px';
         this.selectOptions.style.left = left + 'px';
         this.selectOptions.style.width = width + 'px';
