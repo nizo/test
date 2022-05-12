@@ -9,19 +9,35 @@
             
             <div class="co-grid co-grid--small-gutter centered subtext">
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img loading="lazy" src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-germany-icon-square.svg',
+                        'Call Center Software mit hohem deutschen Datenschutzstandard',
+                        50, 50
+                    ); ?>
                     <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img loading="lazy" src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="Call Center Software wird schnell bereitgestellt" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-speed-icon-square.svg',
+                        'Call Center Software wird schnell bereitgestellt',
+                        50, 50
+                    ); ?>
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img loading="lazy" src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="Call Center Software ist sehr gut erreichbar" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-availability-icon-square.svg',
+                        'Call Center Software ist sehr gut erreichbar',
+                        50, 50
+                    ); ?>
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img loading="lazy" src="/assets/images/icons_svg/usp-rating-icon-square.svg" alt="Call Center Software mit sehr guter Bewertung" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-rating-icon-square.svg',
+                        'Call Center Software mit sehr guter Bewertung',
+                        50, 50
+                    ); ?>
                     <p style="margin-top:10px">5 Sterne <br />bei Google</p>
                 </div>
             </div>
@@ -62,12 +78,11 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--7-lg co-grid__col--vcentered">
-                <picture>
-                    <source srcset="/assets/images/illus/callone-platform-illustration.webp" type="image/webp" />
-                    <source srcset="/assets/images/illus/callone-platform-illustration.png" type="image/png" />
-                    <img loading="lazy" src="/assets/images/illus/callone-platform-illustration.png" />
-                </picture>
-                <!-- <img loading="lazy" src="/assets/images/illus/callone-platform-illustration.png" alt="CallCenter Software von CallOne für optimale Businesstelefonie" width="660" height="406" /> -->
+                <?= pictureTag(
+                    '/assets/images/illus/callone-platform-illustration.png', 
+                    'CallCenter Software von CallOne für optimale Businesstelefonie', 
+                    660, 406
+                ); ?>
             </div>
         </div>
     </div>
@@ -85,13 +100,25 @@
                 <div class="small-tabs__tab" data-tab="3">Enterprise</div>
             </div>
             <div class="small-tabs__content centered" data-tab="1">
-                <img loading="lazy" src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="CallCenter Software für fastgrowing Unternehmen" width="812" height="28" />
+                <?= pictureTag(
+                    '/assets/images/client-logos/FastGrowing-Kombi.svg', 
+                    'CallCenter Software für fastgrowing Unternehmen', 
+                    812, 28
+                ); ?>
             </div>
             <div class="small-tabs__content centered" data-tab="2">
-                <img loading="lazy" src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="CallCenter Software für Unternehmen aus dem Mittelstand" width="812" height="28" />
+                <?= pictureTag(
+                    '/assets/images/client-logos/Mittelstand-Kombi.svg', 
+                    'CallCenter Software für Unternehmen aus dem Mittelstand', 
+                    812, 28
+                ); ?>
             </div>
             <div class="small-tabs__content centered" data-tab="3">
-                <img loading="lazy" src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="CallCenter Software für Enterprise Unternehmen" width="675" height="28" />
+                <?= pictureTag(
+                    '/assets/images/client-logos/Enterprise-Kombi.svg', 
+                    'CallCenter Software für Enterprise Unternehmen', 
+                    675, 28
+                ); ?>
             </div>
         </div>
 

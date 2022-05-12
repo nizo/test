@@ -5,6 +5,54 @@ function prepareOgImageText($text) {
     return $text;
 }
 
+// Insert picture element with multiple sources and fallback (fallback, retina and webp)
+function pictureTag($path, $alt, $width, $height, $classes = []) {
+    // Add extra classes
+    if (count($classes) > 0) {
+        $classes = ' class="'.implode(' ', $classes).'"';
+    } else {
+        $classes = '';
+    }
+
+    // Get file information
+    $file = pathinfo($path);
+    $filename = $file['dirname'].'/'.$file['filename'];
+    $root = $_SERVER['DOCUMENT_ROOT'];
+
+    // Build <picture> template
+    $template = '<picture'.$classes.'>';
+
+    // Set WEBP sources if available
+    $webp = $filename.'.webp';
+    if (file_exists($root.$webp)) {
+        $webp2x = $filename.'@2x.webp';
+        $webp3x = $filename.'@3x.webp';
+        $extraSourcesWebp = '';
+        if (file_exists($root.$webp3x))
+            $extraSourcesWebp .= $webp3x.' 3x, ';
+        if (file_exists($root.$webp2x))
+            $extraSourcesWebp .= $webp2x.' 2x, ';
+
+        $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp" />';
+    }
+
+    // Set original sources if available
+    $original2x = $filename.'@2x.'.$file['extension'];
+    $original3x = $filename.'@3x.'.$file['extension'];
+    $extraSourcesOriginal = '';
+    if (file_exists($root.$original3x))
+        $extraSourcesOriginal .= $original3x.' 3x, ';
+    if (file_exists($root.$original2x))
+        $extraSourcesOriginal .= $original2x.' 2x, ';
+    $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />';
+
+    // Fallback image
+    $template .= '  <img src="'.$path.'" loading="lazy" alt="'.$alt.'" width="'.$width.'" height="'.$height.'" />';
+    $template .= '</picture>';
+
+    return $template;
+}
+
 // Get css/js hash
 function getCssHash() {
     $css_hash = "";
