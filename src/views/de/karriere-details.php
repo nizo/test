@@ -215,11 +215,17 @@ if (empty ($job))
                 <p>Du möchtest mehr über deinen Arbeitsplatz und das Team erfahren?</p>
                 <p><a href="/karriere-bei-callone" class="btn btn--secondary btn--centered">Karriere bei Callone</a></p>
             </div>
-            <div class="split-box__divider" data-text="oder"></div>
-            <div class="split-box__item">
-                <p>Du möchtest mehr über deinen Tagesablauf in diesem Job erfahren?</p>
-                <p><a href="#" class="btn btn--border-black btn--centered" data-openmodal="<?= $job->agenda_filename_get(); ?>">Deine Tagesagenda</a></p>
-            </div>
+            <?php 
+            if ($job->agenda_filename_get()):
+                ?>
+                <div class="split-box__divider" data-text="oder"></div>
+                <div class="split-box__item">
+                    <p>Du möchtest mehr über deinen Tagesablauf in diesem Job erfahren?</p>
+                    <p><a href="#" class="btn btn--border-black btn--centered" data-openmodal="<?= $job->agenda_filename_get(); ?>">Deine Tagesagenda</a></p>
+                </div>
+                <?php
+            endif;
+            ?>
         </div>
     </div>
 
