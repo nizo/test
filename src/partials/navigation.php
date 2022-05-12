@@ -201,13 +201,13 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                    <a href="/omnichannel-customer-support-software" class="submenu__link<?= getPageActiveClass('/omnichannel-customer-support-software') ?>">
                                         <div class="submenu__link-icon">
-                                            <img src="/assets/images/navigation/menu-calltracking.png" alt="Call Tracking mit den CallOne Lösungen für Sales und Service" />
+                                            <img src="/assets/images/navigation/menu-multi-channel.png" alt="Echte Omnichannel-CX mit deutscher KI" />
                                         </div>
                                         <div class="submenu__link-text">
-                                            <strong>Call-Tracking</strong>
-                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
+                                            <strong>Multi-Channel</strong>
+                                            <p>Echte Omnichannel-CX mit deutscher KI</p>
                                         </div>
                                     </a>
                                 </div>
@@ -223,6 +223,13 @@ require_once('banderole.php');
                                         <div class="submenu__link-text">
                                             <strong>Statistiken und Echtzeitanalysen</strong>
                                             <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Call-Tracking</strong>
+                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
 

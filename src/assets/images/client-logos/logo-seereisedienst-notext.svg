@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="800"
+   version="1.1"
+   id="svg53"
+   sodipodi:docname="logo-seereisedienst-notext.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview55"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.74749397"
+     inkscape:cx="92.977339"
+     inkscape:cy="337.79537"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg53" />
+  <defs
+     id="defs26">
+    <path
+       d="m 36.649,4.24 c -0.088,2.8 -3.35,4.695 -9.434,7.124 L 0.014,23.099 43.299,41.912 c 0.578,-0.531 0.932,-1.349 1.026,-2.17 l 0.054,-0.408 V 7.21 A 4.47,4.47 0 0 0 41.688,3.108 L 34.649,0.051 c 1.052,0.566 2.073,1.828 2,4.19"
+       id="a" />
+    <linearGradient
+       x1="-0.54792631"
+       y1="21.591293"
+       x2="41.355747"
+       y2="21.591293"
+       id="b"
+       gradientTransform="scale(1.0294741,0.97136971)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFE051"
+         offset="0%"
+         id="stop3" />
+      <stop
+         stop-color="#F7AB31"
+         offset="88.58%"
+         id="stop5" />
+      <stop
+         stop-color="#F49E2D"
+         offset="100%"
+         id="stop7" />
+    </linearGradient>
+    <path
+       d="m 64.164,25.541 0.105,0.046 -0.105,-0.046 M 0.262,4.588 v 28.347 a 4.471,4.471 0 0 0 2.69,4.101 l 26.577,11.554 27.2,-11.736 c 6.085,-2.428 9.347,-4.323 9.435,-7.123 0.073,-2.36 -0.947,-3.623 -2,-4.189 L 6.518,0.487 A 4.463,4.463 0 0 0 4.732,0.112 c -2.357,0 -4.47,1.9 -4.47,4.476"
+       id="d" />
+    <linearGradient
+       x1="51.102634"
+       y1="37.288982"
+       x2="12.939807"
+       y2="22.223042"
+       id="e"
+       gradientTransform="scale(1.1659747,0.85765153)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#2358A1"
+         offset="0%"
+         id="stop11" />
+      <stop
+         stop-color="#3BBCDD"
+         offset="99.75%"
+         id="stop13" />
+      <stop
+         stop-color="#3BBCDD"
+         offset="100%"
+         id="stop15" />
+    </linearGradient>
+    <path
+       d="M 29.53,0.29 2.97,11.688 a 4.472,4.472 0 0 0 -2.709,4.11 v 27.847 c 0,3.212 3.284,5.376 6.235,4.11 L 72.115,19.6 c 0.253,-0.135 0.488,-0.302 0.698,-0.495 V 19.104 L 29.528,0.292 29.548,0.282 29.53,0.291 Z"
+       id="g" />
+    <radialGradient
+       cx="32.076324"
+       cy="1.9585843"
+       fx="32.076324"
+       fy="1.9585843"
+       r="73.099083"
+       gradientTransform="scale(1.2314839,0.81202851)"
+       id="h"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#DCF0FB"
+         offset="0%"
+         id="stop19" />
+      <stop
+         stop-color="#8DCAEB"
+         offset="45.01%"
+         id="stop21" />
+      <stop
+         stop-color="#1AA2C6"
+         offset="100%"
+         id="stop23" />
+    </radialGradient>
+  </defs>
+  <rect
+     style="fill:#21385c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+     id="rect1005"
+     width="100%"
+     height="100%"
+     x="0"
+     y="0"
+     ry="50" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g51"
+     transform="matrix(6.48,0,0,6.48,-2818.2661,85.959484)">
+    <g
+       transform="translate(489.083,25.688)"
+       id="g33">
+      <mask
+         id="c"
+         fill="#ffffff">
+        <use
+           xlink:href="#a"
+           id="use28"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </mask>
+      <path
+         fill="url(#b)"
+         fill-rule="nonzero"
+         mask="url(#c)"
+         d="M 0.014,0.051 H 44.379 V 41.912 H 0.014 Z"
+         id="path31"
+         style="fill:url(#b)" />
+    </g>
+    <g
+       transform="translate(459.569,0.198)"
+       id="g40">
+      <mask
+         id="f"
+         fill="#ffffff">
+        <use
+           xlink:href="#d"
+           id="use35"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </mask>
+      <path
+         fill="url(#e)"
+         fill-rule="nonzero"
+         mask="url(#f)"
+         d="M 56.51,71.98 -16.926,41.44 9.99,-23.28 83.425,7.26 Z"
+         id="path38"
+         style="fill:url(#e)" />
+    </g>
+    <g
+       transform="translate(459.569,48.494)"
+       id="g47">
+      <mask
+         id="i"
+         fill="#ffffff">
+        <use
+           xlink:href="#g"
+           id="use42"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </mask>
+      <path
+         fill="url(#h)"
+         fill-rule="nonzero"
+         mask="url(#i)"
+         d="M 76.09,48.8 0.59,53.897 -3.016,0.504 72.484,-4.594 Z"
+         id="path45"
+         style="fill:url(#h)" />
+    </g>
+  </g>
+</svg>

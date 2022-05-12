@@ -77,6 +77,11 @@
         background: var(--bg);
     }
 
+    &--colored-gradient {
+        --color-text: black;
+        background-image: linear-gradient(var(--bg1), var(--bg2));
+    }
+
     &--light-grey {
         background: #f2f2f2;
     }
