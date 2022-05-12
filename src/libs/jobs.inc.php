@@ -517,6 +517,29 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
 
+	$job = new job ('IT & Technik', 'UX / UI Designer*in - onsite & remote', 'UX & UI Webdesign sind dein tägliches Handwerk? Du gehst darin auf, Websites und Features genau angepasst auf die Nutzer zu designen? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam & teilw. remote');
+	$job->url_set ('/karriere/job-webdesigner-in-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
+	$job->text_intro_set ('UX / UI Design und Webdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
+	$job->text_description_long_set ('Als UX / UI Designer*in führst du unsere Kunden zielgerichtet durch unsere Webpräsenzen. Du erstellst passende Illustrationen und Animationen für die Weiterentwicklung unserer Websites. Du durchdenkst und konzipierst Mockups für unsere Websites und unsere Benutzeroberfläche. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
+	$job->text_tasks_set ('Planung, Entwicklung und technische Umsetzung von statischen, dynamischen und mobilen Webseiten der CallOne');
+	$job->text_tasks_set ('Design webbasierter Benutzeroberflächen für unsere Kunden');
+	$job->text_tasks_set ('Kreative Ideen für die Weiterentwicklung von Webseiten und/oder Produkten sowie der Benutzeroberflächen');
+	$job->text_tasks_set ('Erstellen von lebendigen, bildhaften Stories auf Basis grober Briefings');
+	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in UX-Design, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
+	$job->text_requirements_set ('Gute Kenntnisse in HTML5 und CSS3 (SASS), JS');
+	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
+	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
+	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Design Research und Ableiten nötiger Design-Anpassungen');
+	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['developer']);
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$jobs->job_add ($job);
+
 	/*$job = new job ('Vertrieb', '(Senior) Marketing und PR-Manager*in', 'Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause?');
 	$job->location_set ('Remote');
 	$job->url_set ('/karriere/job-marketing-manager-in-'.$job->location_get());
