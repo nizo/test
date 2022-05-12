@@ -206,7 +206,10 @@ require_once('banderole.php');
                                             <img src="/assets/images/navigation/menu-multi-channel.png" alt="Echte Omnichannel-CX mit deutscher KI" />
                                         </div>
                                         <div class="submenu__link-text">
-                                            <strong>Multi-Channel</strong>
+                                            <strong>
+                                                Multi-Channel
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
                                             <p>Echte Omnichannel-CX mit deutscher KI</p>
                                         </div>
                                     </a>
