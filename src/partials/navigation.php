@@ -207,7 +207,7 @@ require_once('banderole.php');
                                         </div>
                                         <div class="submenu__link-text">
                                             <strong>
-                                                Multi-Channel
+                                                Omnichannel
                                                 <span class="submenu__link-tag">NEU</span>
                                             </strong>
                                             <p>Echte Omnichannel-CX mit deutscher KI</p>
