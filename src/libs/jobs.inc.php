@@ -435,7 +435,6 @@ function jobs_load ()
 	$job->text_tasks_set ('Kreative Ideen für die Weiterentwicklung von Webseiten und/oder Produkten sowie der Benutzeroberflächen');
 	$job->text_tasks_set ('Erstellen von lebendigen, bildhaften Stories auf Basis grober Briefings');
 	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in UX-Design, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
-	$job->text_requirements_set ('Gute Kenntnisse in HTML5 und CSS3 (SASS), JS');
 	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
 	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
 	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Design Research und Ableiten nötiger Design-Anpassungen');
@@ -458,7 +457,6 @@ function jobs_load ()
 	$job->text_tasks_set ('Kreative Ideen für die Weiterentwicklung von Webseiten und/oder Produkten sowie der Benutzeroberflächen');
 	$job->text_tasks_set ('Erstellen von lebendigen, bildhaften Stories auf Basis grober Briefings');
 	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in Web-Design, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
-	$job->text_requirements_set ('Gute Kenntnisse in HTML5 und CSS3 (SASS), JS');
 	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
 	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
 	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Design Research und Ableiten nötiger Design-Anpassungen');
