@@ -97,6 +97,8 @@ else
         $final_text = array_merge($final_text, $value);
     }
 }
+print_r($final_text);
+die();
 
 // Image creation
 $final_image = imagecreatetruecolor(SQUARE_SIZE, SQUARE_SIZE);
