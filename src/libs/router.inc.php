@@ -306,8 +306,9 @@ foreach ($jobs->jobs_get() as $job) {
         continue;
     Router::add($job->url_get(), 'karriere-details.php', [
         'shorttitle' => $job->category_get().' Karriere',
-        'title' => 'CallOne Karriere - '.$job->title_get(),
+        'title' => $job->title_get().' - Karriere',
         'meta_description' => $job->title_get().': '.$job->description_get(),
+        'og_title' => $job->title_get().' - CallOne Karriere',
         'og_image_text' => $job->title_get().'__CallOne Karriere',
         'menu_position' => 'callone'
     ]);
