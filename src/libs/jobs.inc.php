@@ -424,10 +424,9 @@ function jobs_load ()
 	$jobs->job_add ($job); */
 
 	$job = new job ('IT & Technik', 'UX / UI Designer*in - onsite & remote', 'UX & UI Webdesign sind dein tägliches Handwerk? Du gehst darin auf, Websites und Features genau angepasst auf die Nutzer zu designen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-ux-ui-designer-in-'.$job->location_get());
+	$job->location_set ('Potsdam / Remote');
+	$job->url_set ('/karriere/job-ux-ui-designer-in-potsdam-oder-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
 	$job->text_intro_set ('UX / UI Design und Webdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
 	$job->text_description_long_set ('Als UX / UI Designer*in führst du unsere Kunden zielgerichtet durch unsere Webpräsenzen. Du erstellst passende Illustrationen und Animationen für die Weiterentwicklung unserer Websites. Du durchdenkst und konzipierst Mockups für unsere Websites und unsere Benutzeroberfläche. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
 	$job->text_tasks_set ('Planung, Entwicklung und technische Umsetzung von statischen, dynamischen und mobilen Webseiten der CallOne');
@@ -446,10 +445,9 @@ function jobs_load ()
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'Webdesigner*in - onsite & remote', 'Du liebst es, aus Mockups lebendige Websites, Illustrationen und Grafiken entstehen zu lassen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('Potsdam');
-	$job->url_set ('/karriere/job-ux-webdesigner-in-'.$job->location_get());
+	$job->location_set ('Potsdam / Remote');
+	$job->url_set ('/karriere/job-ux-webdesigner-in-potsdam-oder-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Wir haben es uns zum Ziel gesetzt, Kundenservice richtig gut zu machen. Dafür brauchen wir dich!');
 	$job->text_intro_set ('Du liebst es, aus Mockups und Briefings lebendige Bildwelten entstehen zu lassen? Dann bist du bei uns genau richtig!​​');
 	$job->text_description_long_set ('Als Webdesigner*in stellst du unsere Produktwelt sowie unsere DNA kreativ und zielgerichtet auf unseren Webpräsenzen dar. Du erstellst passende Illustrationen und Animationen für die Weiterentwicklung unserer Websites. Du erstellst lebendige Bild-Stories mit Emotion auf Basis einen Briefings oder Mockups. Außerdem bringst du eine gute Portion Neugier und Kreativität mit. Wenn du dich gerne mit neuen Ideen einbringst und als Teil eines Teams arbeitest, bist du bei uns genau richtig.');
 	$job->text_tasks_set ('Planung, Entwicklung und technische Umsetzung von statischen, dynamischen und mobilen Webseiten der CallOne');
