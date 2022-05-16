@@ -436,7 +436,7 @@ function jobs_load ()
 	$job->text_tasks_set ('Erstellen von lebendigen, bildhaften Stories auf Basis grober Briefings');
 	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in UX-Design, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
 	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
-	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
+	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma, Photoshop, Illustrator');
 	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Design Research und Ableiten nötiger Design-Anpassungen');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
@@ -458,7 +458,7 @@ function jobs_load ()
 	$job->text_tasks_set ('Erstellen von lebendigen, bildhaften Stories auf Basis grober Briefings');
 	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in Web-Design, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
 	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
-	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma');
+	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma, Photoshop, Illustrator');
 	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Design Research und Ableiten nötiger Design-Anpassungen');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
