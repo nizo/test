@@ -90,13 +90,11 @@ foreach ($routes_tmp as $route) {
     </tbody>
 </table>
 
-<?php print_r($_SERVER) ?>
-
 <script>
     let copyButton = document.querySelector('.copy-routes');
     let routes = Array.from(document.querySelectorAll('.route'));
     let routesList = '';
-    routes.forEach(route => routesList += 'https://www.callone.de' + route.textContent + '\n');
+    routes.forEach(route => routesList += 'https://<?= $_SERVER['HTTP_HOST'] ?>' + route.textContent + '\n');
 
     copyButton.addEventListener('click', e => {
         if (!navigator || !navigator.clipboard)
