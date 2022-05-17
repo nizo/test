@@ -46,7 +46,7 @@ function pictureTag($path, $alt, $width = '', $height = '', $attributes = [], $l
     $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
 
     // Fallback image
-    $template .= '  <img src="'.$path.'"'.($lazyloading ? ' loading="lazy"' : '').' alt="'.$alt.'" width="'.$width.'" height="'.$height.'"'.$extraAttributes.' />'.PHP_EOL;
+    $template .= '  <img src="'.$path.'"'.($lazyloading ? ' loading="lazy"' : '').' alt="'.$alt.'" title="'.$alt.'" width="'.$width.'" height="'.$height.'"'.$extraAttributes.' />'.PHP_EOL;
     $template .= '</picture>'.PHP_EOL;
 
     return $template;
