@@ -1,4 +1,4 @@
-<div class="section section--index-header">
+<div class="section">
     <header class="hero">
         <div class="hero__text">
             <h4>Call Center Software ist unsere Expertise.</h4>
@@ -45,6 +45,13 @@
             <p class="mobile-centered">
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Zum Beratungsgespräch</a>
             </p>
+        </div>
+        <div class="hero__image">
+            <?= pictureTag(
+                '/assets/images/illus/startpage-header-lotta-jamie-illustration-colored-gradient.png',
+                'Call Center Software ist unsere Expertise',
+                465, 451
+            ); ?>
         </div>
     </header>
 </div>
