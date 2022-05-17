@@ -130,7 +130,7 @@
         <div class="image padding">
           <?= pictureTag(
             '/assets/images/icons_svg/animation/big_02_animate.svg',
-            'Optimierte WorkflowsOptimierte Workflows für Outbound Unternehmenstelefonie, Nachbearbeitung u.v.m. mit Callcenter Software" title="Mailbox -und Telefonbuchfunktion, Intelligente Anrufverteilung (ACD)',
+            'Optimierte Workflows für Outbound Unternehmenstelefonie, Nachbearbeitung u.v.m. mit Callcenter Software',
             167, 155
           ); ?>
         </div>
