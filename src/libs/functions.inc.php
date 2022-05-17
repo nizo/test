@@ -20,7 +20,7 @@ function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
     $root = $_SERVER['DOCUMENT_ROOT'];
 
     // Build <picture> template
-    $template = '<picture'.$classes.'>';
+    $template = '<picture'.$classes.'>'.PHP_EOL;
 
     // Set WEBP sources if available
     $webp = $filename.'.webp';
@@ -33,7 +33,7 @@ function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
         if (file_exists($root.$webp2x))
             $extraSourcesWebp .= $webp2x.' 2x, ';
 
-        $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp" />';
+        $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp" />'.PHP_EOL;
     }
 
     // Set original sources if available
@@ -44,11 +44,11 @@ function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
         $extraSourcesOriginal .= $original3x.' 3x, ';
     if (file_exists($root.$original2x))
         $extraSourcesOriginal .= $original2x.' 2x, ';
-    $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />';
+    $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
 
     // Fallback image
-    $template .= '  <img src="'.$path.'" loading="lazy" alt="'.$alt.'" width="'.$width.'" height="'.$height.'" />';
-    $template .= '</picture>';
+    $template .= '  <img src="'.$path.'" loading="lazy" alt="'.$alt.'" width="'.$width.'" height="'.$height.'" />'.PHP_EOL;
+    $template .= '</picture>'.PHP_EOL;
 
     return $template;
 }
