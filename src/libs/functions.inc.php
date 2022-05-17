@@ -6,7 +6,7 @@ function prepareOgImageText($text) {
 }
 
 // Insert picture element with multiple sources and fallback (fallback, retina and webp)
-function pictureTag($path, $alt, $width = '', $height = '', $attributes = [], $lazyloading = true) {
+function pictureTag($path, $alt, $width = null, $height = null, $attributes = [], $lazyloading = true) {
     // Add extra attributes
     $extraAttributes = ' ';
     foreach ($attributes as $attribute => $value) {
