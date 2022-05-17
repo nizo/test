@@ -6,7 +6,13 @@
         <?php $additional_js_files[] = '/assets/animations/svg/business.js' ?>
       </div>
       <div class="text">
-      	<img src="/assets/images/client-logos/apo-discounter.svg" alt="Neues Callcenter Konzept - Apodiscounter" class="logo" width="240" height="48" />
+        <?= pictureTag(
+          '/assets/images/client-logos/apo-discounter.svg',
+          'Neues Callcenter Konzept - Apodiscounter',
+          240, 48, [
+            'class' => 'logo'
+          ]
+        ); ?>
         <h1>Probat für Wachstum: ein neues Callcenter-Konzept</h1>
         <p class="primary">CallOne und apo-discounter.de</p>
       </div>
@@ -85,7 +91,13 @@
   <div class="content wide">
     <div class="grid">
       <div class="col-3">
-        <img src="/assets/images/icons_svg/small_18.svg" alt="Multichannel" class="icon" width="70" height="67" />
+        <?= pictureTag(
+          '/assets/images/icons_svg/small_18.svg',
+          'Multichannel',
+          70, 67, [
+            'class' => 'icon'
+          ]
+        ); ?>
         <h3>Warteschleifenmanagement</h3>
           <ul>
             <li>Last-Agent-Routing</li>
@@ -95,7 +107,13 @@
           </ul>
       </div>
       <div class="col-3">
-        <img src="/assets/images/icons_svg/small_07_2.svg" alt="administrationslos" class="icon" width="70" height="52" />
+        <?= pictureTag(
+          '/assets/images/icons_svg/small_07_2.svg',
+          'administrationslos',
+          70, 52, [
+            'class' => 'icon'
+          ]
+        ); ?>
         <h3>Anrufsteuerung</h3>
         <ul>
           <li>0800 VIP-Rufnummern</li>
@@ -106,7 +124,13 @@
         </ul>
       </div>
       <div class="col-3">
-        <img src="/assets/images/icons_svg/small_19.svg" alt="Erreichbarkeit" class="icon" width="70" height="70" />
+        <?= pictureTag(
+          '/assets/images/icons_svg/small_19.svg',
+          'Erreichbarkeit',
+          70, 70, [
+            'class' => 'icon'
+          ]
+        ); ?>
         <h3>Mehr Features</h3>
         <ul>
           <li>Optionale Gesprächsaufzeichnung</li>
