@@ -561,6 +561,30 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
 
+	$job = new job ('Vertrieb', '(Senior) Sales Manager*in', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-sales-manager-in-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen u.ä. fühlst du dich pudelwohl? Zugleich liebst du die Nähe zum Kunden und hast Interesse daran, deine Abschlüsse auch als Projekt zu begleiten? Dann suchen wir genau dich!');
+	$job->text_description_long_set ('Als (Senior) Sales Manager*in bei CallOne kümmerst du dich um unseren Lösungsvertrieb und scheust auch nicht davor zurück, das ein oder andere Erstgespräch zu führen. Ein wichtiger Bestandteil deiner Arbeit ist es, uns auf Messen u.ä. Veranstaltungen mit Herzblut zu repräsentieren und wichtige Kontakte zu knüpfen.');
+	$job->text_tasks_set ('Lösungsvertrieb mit der Bereitschaft, das ein oder andere Erstgespräch zu führen');
+	$job->text_tasks_set ('Repräsentation von CallOne auf Messen, wichtige Kontakte rundum offline Events knüpfen und pflegen (Vielleicht bringst du sogar schon ein Netzwerk rundum Messebau etc. mit?)');
+	$job->text_tasks_set ('Durchführen von Produktdemos (online) als Aushängeschild für CallOne');
+	$job->text_tasks_set ('Durchführung von Sales-/Marketingmaßnahmen auf verschiedenen online und offline Kanälen');
+	$job->text_tasks_set ('Betreuung von Kunden vom Lead bis zum Bestandskunden sowie Weiterentwicklung des Sales-Prozesses');
+	$job->text_tasks_set ('Betreuung der abgeschlossenen Kunden in Zusammenarbeit mit unseren Projektmanager*innen');
+	$job->text_requirements_set ('Erfahrung im online und offline Sales – idealerweise im Bereich B2B');
+	$job->text_requirements_set ('Erfahrung auf Messen u.ä. Events - idealerweise mit Netzwerk rundum Messebau u. Co.');
+	$job->text_requirements_set ('Ein hohes Maß an Eigeninitiative und Hands-on-Mentalität');
+	$job->text_requirements_set ('Sehr gutes Kommunikations- und Organisationsvermögen sowie Teamgeist');
+	$job->text_requirements_set ('Ausgeprägte Lösungsorientierung und die Fähigkeit, Projekte sowie Events zu strukturieren und organisieren');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['care']);
+	$job->statement_set (new job_statement ('/assets/images/photos/bendig-sw.png', 'Björn Bendig', 'CEO', 'Bei CallOne arbeiten wir mit einem starken Team-Gefühl. Verkaufsprozesse und Abschlussquoten werden durch starken Zusammenhalt und einen tollen Team-Spirit ergänzt.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
+	$jobs->job_add ($job);
+	
 	/*$job = new job ('Vertrieb', '(Senior) Marketing und PR-Manager*in', 'Du bist eine Allrounder*in für digitale B2B-Marketingkanäle und das SEO/SEA Umfeld ist dein Zuhause?');
 	$job->location_set ('Remote');
 	$job->url_set ('/karriere/job-marketing-manager-in-'.$job->location_get());
