@@ -6,12 +6,11 @@ function prepareOgImageText($text) {
 }
 
 // Insert picture element with multiple sources and fallback (fallback, retina and webp)
-function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
-    // Add extra classes
-    if (count($classes) > 0) {
-        $classes = ' class="'.implode(' ', $classes).'"';
-    } else {
-        $classes = '';
+function pictureTag($path, $alt, $width = '', $height = '', $attributes = [], $lazyloading = true) {
+    // Add extra attributes
+    $extraAttributes = ' ';
+    foreach ($attributes as $attribute => $value) {
+        $extraAttributes .= $attribute.'="'.$value.'" ';
     }
 
     // Get file information
@@ -20,7 +19,7 @@ function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
     $root = $_SERVER['DOCUMENT_ROOT'];
 
     // Build <picture> template
-    $template = '<picture'.$classes.'>'.PHP_EOL;
+    $template = '<picture>'.PHP_EOL;
 
     // Set WEBP sources if available
     $webp = $filename.'.webp';
@@ -47,7 +46,7 @@ function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
     $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
 
     // Fallback image
-    $template .= '  <img src="'.$path.'" loading="lazy" alt="'.$alt.'" width="'.$width.'" height="'.$height.'" />'.PHP_EOL;
+    $template .= '  <img src="'.$path.'"'.($lazyloading ? ' loading="lazy"' : '').' alt="'.$alt.'" width="'.$width.'" height="'.$height.'"'.$extraAttributes.' />'.PHP_EOL;
     $template .= '</picture>'.PHP_EOL;
 
     return $template;

@@ -42,11 +42,32 @@ $faqs->faq_add (
             </p>
         </div>
         <div class="hero__image">
-            <div class="chat-conversation mobile-hidden">
-                <div><img src="/assets/images/icons_svg/big_15.svg" title="Kunde fragt" alt="Kunde fragt" width="60" height="60" /><span class="text">Ich möchte meinen Lieferstatus wissen.</span></div>
-                <div><span class="text">Ihr Pakt wird morgen geliefert.</span><img src="/assets/images/icons_svg/big_14.svg" title="Callcenter Bot Bender antwortet " alt="Callcenter Bot Bender antwortet" width="59" height="60" /></div>
+            <div class="chat-conversation mobile-hidden" style="margin-bottom:var(--gutter-xs)">
+                <div>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_15.svg',
+                        'Kunde fragt',
+                        60, 60,
+                        [], false
+                    ); ?>
+                    <span class="text">Ich möchte meinen Lieferstatus wissen.</span>
+                </div>
+                <div>
+                    <span class="text">Ihr Pakt wird morgen geliefert.</span>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_14.svg',
+                        'Callcenter Bot Bender antwortet',
+                        59, 60,
+                        [], false
+                    ); ?>
+                </div>
             </div>
-            <img src="/assets/images/illus/relaxing.gif" title="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" alt="Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs" width="880" height="256" style="margin-top:var(--gutter-xs)" />
+
+            <?= pictureTag(
+                '/assets/images/illus/relaxing.gif',
+                'Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs',
+                800, 256
+            ); ?>
         </div>
     </div>
 </div>
@@ -57,7 +78,14 @@ $faqs->faq_add (
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="centered"><img src="/assets/images/icons_svg/small_38.svg" alt="Auswahlmenüs - Sprachauswahl statt DTMF-Tasten" width="45" height="50" style="height:50px" /></p>
+                <p class="centered">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_38.svg',
+                        'Auswahlmenüs - Sprachauswahl statt DTMF-Tasten',
+                        45, 50,
+                        ['style' => 'height:50px']
+                    ); ?>
+                </p>
                 <h3 class="centered">Sprach&shy;gesteuertes IVR</h3>
                 <p class="centered">Sprachdialoge statt <br />starrer Menüs.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
@@ -67,7 +95,14 @@ $faqs->faq_add (
                 </ul>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="centered"><img src="/assets/images/icons_svg/big_13.svg" alt="Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten" width="56" height="50" style="height:50px" /></p>
+                <p class="centered">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_13.svg',
+                        'Self-Service / FAQ - Anliegen aufnehmen und vollautomatisiert bearbeiten',
+                        56, 50,
+                        ['style' => 'height:50px']
+                    ); ?>
+                </p>
                 <h3 class="centered">Informations&shy;bots</h3>
                 <p class="centered">Anruferanfragen <br />automatisiert beantworten.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
@@ -78,7 +113,14 @@ $faqs->faq_add (
                 </ul> 
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="centered"><img src="/assets/images/icons_svg/big_12.svg" alt="Individual - Kundenindividuelle Anwendungen" width="63" height="50" style="height:50px" /></p>
+                <p class="centered">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_12.svg',
+                        'Individual - Kundenindividuelle Anwendungen',
+                        63, 50,
+                        ['style' => 'height:50px']
+                    ); ?>
+                </p>
                 <h3 class="centered">Callcenter Bots</h3>
                 <p class="centered">Leistungsstarke Schnittstellen für kundenindividuelle Anwendungen.</p>
                 <ul class="list list--checkmarks list--checkmarks-green">
@@ -100,7 +142,11 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-2-xs co-grid__col--vcentered">
-                <img src="/assets/images/illus/CallOneRobot-invers-2.svg" alt="So funktioniert unser Spachdialogsystem - Der Callcenter Bot" width="570" height="968" />
+                <?= pictureTag(
+                    '/assets/images/illus/CallOneRobot-invers-2.svg',
+                    'So funktioniert unser Spachdialogsystem - Der Callcenter Bot',
+                    570, 968
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <h2 class="centered mobile-left">Wie funktioniert unser Callcenter Bot?</h2>
@@ -144,7 +190,11 @@ $faqs->faq_add (
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--vcentered">
-                    <img src="/assets/images/illus/voicebot-business.gif" alt="Callcenter Bot - Nutzen für Unternehmen" width="315" height="280" />
+                    <?= pictureTag(
+                        '/assets/images/illus/voicebot-business.gif',
+                        'Callcenter Bot - Nutzen für Unternehmen',
+                        315, 280
+                    ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                     <h3>Unternehmen</h3>
@@ -168,7 +218,12 @@ $faqs->faq_add (
                     </ul>
                 </div>
                 <div class="co-grid__col co-grid__col--vcentered co-grid__col--order-1-xs">
-                    <img src="/assets/images/illus/voicebot-user.gif" alt="Callcenter Bot - Nutzen für Anrufer" width="315" height="301" style="width:315px!important" />
+                    <?= pictureTag(
+                        '/assets/images/illus/voicebot-user.gif',
+                        'Callcenter Bot - Nutzen für Anrufer',
+                        315, 301,
+                        ['style' => 'width:315px!important']
+                    ); ?>
                 </div>
             </div>    
         </div>
@@ -186,10 +241,24 @@ $faqs->faq_add (
         <div class="content-box content-box--white content-box--full-width">
             <div class="co-grid centered">
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                    <p><img src="/assets/images/logo/partnerlogos/logo-google.svg" alt="Supported by Google" width="118" height="40" style="height:40px" /></p>
+                    <p>
+                        <?= pictureTag(
+                            '/assets/images/logo/partnerlogos/logo-google.svg',
+                            'Supported by Google',
+                            118, 40,
+                            ['style' => 'height:40px']
+                        ); ?>
+                    </p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                    <p><img src="/assets/images/logo/partnerlogos/logo-amazon.svg" alt="Supported by Amazon" width="133" height="40" style="height:40px" /></p>
+                    <p>
+                        <?= pictureTag(
+                            '/assets/images/logo/partnerlogos/logo-amazon.svg',
+                            'Supported by Amazon',
+                            133, 40,
+                            ['style' => 'height:40px']
+                        ); ?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -206,7 +275,12 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon" width="64" height="61" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_18.svg',
+                            'Alles über eine Webseite steuerbar',
+                            64, 64,
+                            ['style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important', 'class' => 'white icon']
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">

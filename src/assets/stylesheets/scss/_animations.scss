@@ -25,9 +25,14 @@
         font-size: $font-size-m;
 
         img {
+			display: block;
 			width: 48px;
-			margin-right: var(--gutter-xs);
         }
+
+		span {
+			display: block;
+			flex: 1;
+		}
     }
     > div:nth-child(1) {
 		background-color: #86ed18;
