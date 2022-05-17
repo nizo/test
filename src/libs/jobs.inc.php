@@ -578,7 +578,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Ausgeprägte Lösungsorientierung und die Fähigkeit, Projekte sowie Events zu strukturieren und organisieren');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
-	$job->icon_set ($icons['care']);
+	$job->icon_set ($icons['screen']);
 	$job->statement_set (new job_statement ('/assets/images/photos/bendig-sw.png', 'Björn Bendig', 'CEO', 'Bei CallOne arbeiten wir mit einem starken Team-Gefühl. Verkaufsprozesse und Abschlussquoten werden durch starken Zusammenhalt und einen tollen Team-Spirit ergänzt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
