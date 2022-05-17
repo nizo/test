@@ -6,7 +6,7 @@ function prepareOgImageText($text) {
 }
 
 // Insert picture element with multiple sources and fallback (fallback, retina and webp)
-function pictureTag($path, $alt, $width, $height, $classes = []) {
+function pictureTag($path, $alt, $width = '', $height = '', $classes = []) {
     // Add extra classes
     if (count($classes) > 0) {
         $classes = ' class="'.implode(' ', $classes).'"';
