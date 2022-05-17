@@ -215,7 +215,13 @@
             		<div class="grid tile column flex">
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-salesforce.svg" data-srcset="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce Integration" title="Salesforce Integration" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/logo-salesforce.svg',
+									'Salesforce Integration',
+									65, 45, [
+										'style' => 'height:45px'
+									]
+								); ?>
             					<h3 class="h5 centered no-margin-top">Salesforce</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">
@@ -227,7 +233,13 @@
             			</div>
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-zendesk.svg" data-srcset="/assets/images/logo/partnerlogos/logo-zendesk.svg" alt="Zendesk Integration" title="Zendesk Integration" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/logo-zendesk.svg',
+									'Zendesk Integration',
+									242, 45, [
+										'style' => 'height:45px'
+									]
+								); ?>
             					<h3 class="h5 centered no-margin-top">Zendesk</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">
@@ -239,7 +251,13 @@
             			</div>
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-freshdesk.svg" data-srcset="/assets/images/logo/partnerlogos/logo-freshdesk.svg" alt="Freshdesk Integration" title="Freshdesk Integration" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/logo-freshdesk.svg',
+									'Freshdesk Integration',
+									151, 45, [
+										'style' => 'height:45px'
+									]
+								); ?>
             					<h3 class="h5 centered no-margin-top">Freshdesk</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">
@@ -251,7 +269,13 @@
             			</div>
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-hubspot.svg" data-srcset="/assets/images/logo/partnerlogos/logo-hubspot.svg" alt="Hubspot Integration" title="Hubspot Integration" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/logo-hubspot.svg',
+									'Hubspot Integration',
+									155, 45, [
+										'style' => 'height:45px'
+									]
+								); ?>
             					<h3 class="h5 centered no-margin-top">Hubspot</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">
@@ -263,7 +287,13 @@
             			</div>
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo sw" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/logo-pipedrive.svg" data-srcset="/assets/images/logo/partnerlogos/logo-pipedrive.svg" alt="Pipedrive Integration" title="Pipedrive Integration" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/logo-pipedrive.svg',
+									'Pipedrive Integration',
+									155, 45, [
+										'style' => 'height:45px'
+									]
+								); ?>
             					<h3 class="h5 centered no-margin-top">Pipedrive</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">
@@ -275,7 +305,13 @@
             			</div>
             			<div class="col-2 flex space-between row">
             				<div class="shadow-box padding-tiles ">
-            					<img class="lazy icon icon-small partnerLogo" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/logo/partnerlogos/browser-extensions.png" data-srcset="/assets/images/logo/partnerlogos/browser-extensions.png" alt="Browser Extension Chrome, Firefox. Edge" title="Browser Extension Chrome, Firefox. Edge" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/browser-extensions.png',
+									'Browser Extension Chrome, Firefox, Edge',
+									268, 45, [
+										'style' => 'height:45px'
+									]
+								); ?>
             					<h3 class="h5 centered no-margin-top">Browser Extensions</h3>
             					<p class="text-small"></p>
                     			<div class="button-bottom">
