@@ -90,6 +90,8 @@ foreach ($routes_tmp as $route) {
     </tbody>
 </table>
 
+<?php print_r($_SERVER) ?>
+
 <script>
     let copyButton = document.querySelector('.copy-routes');
     let routes = Array.from(document.querySelectorAll('.route'));
