@@ -149,7 +149,7 @@ $faqs->faq_add (
                     echo pictureTag(
                         $benefit->icon_get(),
                         'toller Job bei CallOne',
-                        'auto', 'auto', [
+                        null, null, [
                             'data-alt-image' => $benefit->alt_icon_get()
                         ]
                     );
