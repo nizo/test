@@ -129,7 +129,8 @@ $faqs->faq_add (
                 echo '<div class="cards__card cards__card--3 centered">';
                 echo pictureTag(
                     $benefit->icon_get(),
-                    'Benefits und Vorteile Arbeiten bei CallOne'
+                    'Benefits und Vorteile Arbeiten bei CallOne',
+                    70, 70
                 );
                 echo '<h3>'.$benefit->title_get().'</h3>';
                 echo '<p>'.$benefit->text_get().'</p>';

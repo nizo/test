@@ -116,7 +116,10 @@ if (empty ($job))
 <div class="section">
     <div class="section__content section__content--narrow">
         <p class="centered">
-            <img src="<?= $job->icon_get(); ?>" alt="Stellen bei CallOne" />
+            <?= pictureTag(
+                $job->icon_get(),
+                'Stellen bei CallOne'
+            ); ?>
         </p>
 
         <h1 class="centered">
@@ -141,15 +144,27 @@ if (empty ($job))
 
 <div class="job-details" style="--top-color:#fff;--bottom-color:#f2f2f2">
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_35.svg" alt="Arbeitsstelle" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_35.svg',
+            'Arbeitsstelle',
+            35, 48
+        ); ?>
         <?= $job->location_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_32.svg" alt="Arbeitszeit" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_32.svg',
+            'Arbeitszeit',
+            50, 48
+        ); ?>
         <?= $job->job_worktime_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_31.svg" alt="Arbeitsbeginn" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_31.svg',
+            'Arbeitsbeginn',
+            56, 48
+        ); ?>
         <?= $job->job_start_end_get(); ?>
     </div>
 </div>
@@ -174,7 +189,11 @@ if (empty ($job))
                     <div class="job-quote">
                         <blockquote><?= $statement->text_get(); ?></blockquote>
                         <div class="job-quote__author">
-                            <img src="/assets/images/photos/placeholder.gif" data-src="<?= $statement->image_get(); ?>" data-srcset="<?= $statement->image_get(); ?>" class="lazy" alt="Statement" />
+                            <?= pictureTag(
+                                $statement->image_get(),
+                                'Statement',
+                                70, 70
+                            ); ?>
                             <div>
                                 <strong><?= $statement->name_get() ?></strong><br />
                                 <?= $statement->position_get() ?><br />
@@ -230,7 +249,11 @@ if (empty ($job))
             <?php
             foreach ($jobs_benefits as $benefit) {
                 echo '<div class="card centered co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">';
-                echo '<img src="'.$benefit->icon_get().'" alt="Vorteile bei CallOne Arbeiten" />';
+                echo pictureTag(
+                    $benefit->icon_get(),
+                    'Vorteile bei CallOne Arbeiten',
+                    70, 70
+                );
                 echo '<h3>'.$benefit->title_get().'</h3>';
                 echo '<p>'.$benefit->text_get().'</p>';
                 echo '</div>';
@@ -246,7 +269,13 @@ if (empty ($job))
                     if ($key == 0)
                         $extraClass = ' step-slider__step--active';
                     echo '<div class="step-slider__step step-slider__step--no-number'.$extraClass.'">';
-                    echo '<img src="'.$benefit->icon_get().'" alt="Vorteile Arbeiten bei CallOne" data-alt-image="'.$benefit->alt_icon_get().'" />';
+                    echo pictureTag(
+                        $benefit->icon_get(),
+                        'Vorteile bei CallOne Arbeiten',
+                        70, 70, [
+                            'data-alt-image' => $benefit->alt_icon_get()
+                        ]
+                    );
                     echo '<h3>'.$benefit->title_get().'</h3>';
                     echo '<p>'.$benefit->text_get().'</p>';
                     echo '</div>';
