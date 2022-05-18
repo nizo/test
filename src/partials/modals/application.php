@@ -1,5 +1,6 @@
 <?php
 require_once('../../libs/session.inc.php');
+require_once('../../libs/functions.inc.php');
 
 $uniqueID = uniqid();
 ?>
@@ -13,7 +14,11 @@ $uniqueID = uniqid();
             <div class="radio-select__item">
                 <input type="radio" id="type1" name="type" value="quick" checked="checked" />
                 <label for="type1" class="callone-modal__nextstep" data-next-step="2">
-                    <img src="/assets/images/icons_svg/application-fast.svg" alt="schnellbewerbung" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/application-fast.svg',
+                        'Schnellbewerbung',
+                        70, 70
+                    ); ?>
                     <h3>Schnellbewerbung</h3>
                     <p>via LinkedIn/Xing/Portfolio-Link</p>
                 </label>
@@ -21,7 +26,11 @@ $uniqueID = uniqid();
             <div class="radio-select__item">
                 <input type="radio" id="type2" name="type" value="normal" />
                 <label for="type2" class="callone-modal__nextstep" data-next-step="4">
-                    <img src="/assets/images/icons_svg/application-normal.svg" alt="normale bewerbung" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/application-normal.svg',
+                        'Klassische Bewerbung',
+                        70, 70
+                    ); ?>
                     <h3>Klassische Bewerbung</h3>
                     <p>Bewerbungsdateien hochladen</p>
                 </label>
@@ -71,7 +80,13 @@ $uniqueID = uniqid();
         <h2 class="centered">Super, du hast dich beworben!</h2>
         <p class="centered">Vielen Dank! Deine Bewerbung hat uns erreicht und wir melden uns direkt bei dir, wenn wir dein professionelles Profil (LinkedIn/Xing/Portfolio) gesichtet haben und wissen, zu welchem Job es passen könnte.</p>
         <p class="centered">
-            <img src="/assets/images/illus/customer-service-hero-illustration.svg" alt="Vielen Dank für deine Bewerbung" style="max-width: 50%;" />
+            <?= pictureTag(
+                '/assets/images/illus/customer-service-hero-illustration.svg',
+                'Vielen Dank für deine Bewerbung',
+                382, 294, [
+                    'style' => 'max-width: 50%;'
+                ]
+            ); ?>
         </p>
     </div>
 
