@@ -47,8 +47,7 @@ $faqs->faq_add (
                     <?= pictureTag(
                         '/assets/images/icons_svg/big_15.svg',
                         'Kunde fragt',
-                        60, 60,
-                        [], false
+                        60, 60, [], false
                     ); ?>
                     <span class="text">Ich möchte meinen Lieferstatus wissen.</span>
                 </div>
@@ -57,8 +56,7 @@ $faqs->faq_add (
                     <?= pictureTag(
                         '/assets/images/icons_svg/big_14.svg',
                         'Callcenter Bot Bender antwortet',
-                        59, 60,
-                        [], false
+                        59, 60, [], false
                     ); ?>
                 </div>
             </div>
@@ -66,7 +64,7 @@ $faqs->faq_add (
             <?= pictureTag(
                 '/assets/images/illus/relaxing.gif',
                 'Verbessern von Kundenzufriedenheit durch sprachbasierte Auswahlmenüs',
-                800, 256
+                800, 256, [], false
             ); ?>
         </div>
     </div>
@@ -278,8 +276,10 @@ $faqs->faq_add (
                         <?= pictureTag(
                             '/assets/images/icons_svg/small_18.svg',
                             'Alles über eine Webseite steuerbar',
-                            64, 64,
-                            ['style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important', 'class' => 'white icon']
+                            64, 64, [
+                                'style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important',
+                                'class' => 'white icon'
+                            ]
                         ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">

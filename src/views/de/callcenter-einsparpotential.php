@@ -12,7 +12,7 @@
 			<?= pictureTag(
 				'/assets/images/illus/zeit-und-kosten.svg',
 				'Im Kundenservice mit Cloud ACD sparen',
-				465, 420
+				465, 420, [], false
 			); ?>
         </div>
     </div>

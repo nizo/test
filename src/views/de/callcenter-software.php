@@ -44,7 +44,7 @@ $faqs->faq_add (
 					<?= pictureTag(
 						'/assets/images/icons_svg/usp-germany-icon-square.svg',
 						'Call Center Software mit hohem deutschen Datenschutzstandard',
-						50, 50
+						50, 50, [], false
 					); ?>
                     <p style="margin-top:10px">DSGVO<br />konform</p>
                 </div>
@@ -52,7 +52,7 @@ $faqs->faq_add (
 					<?= pictureTag(
 						'/assets/images/icons_svg/usp-speed-icon-square.svg',
 						'Call Center Software wird schnell bereitgestellt',
-						50, 50
+						50, 50, [], false
 					); ?>
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
@@ -60,7 +60,7 @@ $faqs->faq_add (
 					<?= pictureTag(
 						'/assets/images/icons_svg/usp-availability-icon-square.svg',
 						'Call Center Software ist sehr gut erreichbar',
-						50, 50
+						50, 50, [], false
 					); ?>
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
@@ -68,7 +68,7 @@ $faqs->faq_add (
 					<?= pictureTag(
 						'/assets/images/client-logos/icon-german-cloud.svg',
 						'Deutsche Cloud',
-						50, 50
+						50, 50, [], false
 					); ?>
                     <p style="margin-top:10px">Deutsche<br />Cloud</p>
                 </div>
@@ -82,7 +82,7 @@ $faqs->faq_add (
 			<?= pictureTag(
 				'/assets/images/illus/hero-ccs.png',
 				'CallOne Callcenter Software',
-				465, 465
+				465, 465, [], false
 			); ?>
 		</div>
 	</div>

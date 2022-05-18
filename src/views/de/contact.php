@@ -12,7 +12,7 @@
                     <?= pictureTag(
                         '/assets/images/icons_svg/contact-sales-black.svg',
                         'Wie können wir Ihnen helfen?',
-                        70, 70
+                        70, 70, [], false
                     ); ?>
                 </div>
                 <div class="contactoption__text">
@@ -23,7 +23,7 @@
                     <?= pictureTag(
                         '/assets/images/icons_svg/forward-arrow-icon.svg',
                         'Weiter zur Kontaktaufnahme für Businesstelefonie-Lösungen',
-                        33, 33
+                        33, 33, [], false
                     ); ?>
                 </div>
             </div>

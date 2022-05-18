@@ -49,7 +49,7 @@ $faqs->faq_add (
             <?= pictureTag(
                 '/assets/images/illus/Karriere560.gif',
                 'Karriere und Jobs bei CallOne',
-                465, 421
+                465, 421, [], false
             ); ?>
         </div>
     </header>

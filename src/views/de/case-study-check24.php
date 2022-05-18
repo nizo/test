@@ -10,7 +10,7 @@
             <?= pictureTag(
                 '/assets/images/client-logos/logo-check24-color.svg',
                 'Check24 ist Kunde bei CallOne',
-                465, 112
+                465, 112, [], false
             ); ?>
             <br />
             <br />

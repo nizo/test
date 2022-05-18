@@ -35,7 +35,7 @@ $faqs->faq_add (
             <?= pictureTag(
                 '/assets/images/illus/hero-cs-funktionen.png',
                 'Cloud ACD Funktionen und zahlreiche Funktionen der Callcenter Software',
-                465, 465
+                465, 465, [], false
             ); ?>
         </div>
     </div>

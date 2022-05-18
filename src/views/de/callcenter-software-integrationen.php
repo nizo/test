@@ -14,7 +14,7 @@
                 'Viele Integrationen der CallOne Call Center Software und Kundenservice Software für Ihre Businesstelefonie',
                 541, 567, [
                     'style' => 'width:100%'
-                ]
+                ], false
             ); ?>
         </div>
     </div>

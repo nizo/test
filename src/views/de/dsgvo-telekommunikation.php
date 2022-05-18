@@ -4,7 +4,7 @@
             <?= pictureTag(
                 '/assets/images/illus/data-protection-header-illustration.svg',
                 'Unternehmenstelefonie mit hohem Datenschutzstandard',
-                465, 436
+                465, 436, [], false
             ); ?>
         </div>
         <div class="hero__text">

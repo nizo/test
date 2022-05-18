@@ -38,7 +38,7 @@ $faqs->faq_add (
                 'Sprachanalyse Kundenservice und Vertrieb mit Callcenter Software',
                 465, 465, [
                     'style' => 'width:100%'
-                ]
+                ], false
             ); ?>
         </div>
 	</div>

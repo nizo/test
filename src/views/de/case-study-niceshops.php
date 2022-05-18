@@ -5,7 +5,7 @@
         <?= pictureTag(
           '/assets/images/client-logos/logo-niceshops.jpg',
           'Unternehmenstelefonie mit CallOne Callcenter Software und Cloud Telefonanlage bei Niceshops',
-          540, 174
+          540, 174, [], false
         ); ?>
       </div>
       <div class="text">

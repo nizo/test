@@ -19,7 +19,7 @@ $product->structured_data_get_code ();
             <?= pictureTag(
                 '/assets/images/icons_svg/big_11.svg',
                 'Weltweil und lokal virtuell Rufnummern für die Cloud Telefonanlage schalten',
-                560, 294
+                560, 294, [], false
             ); ?>
         </div>
     </div>

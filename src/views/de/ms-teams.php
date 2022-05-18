@@ -44,7 +44,7 @@ $faqs->faq_add (
             <?= pictureTag(
                 '/assets/images/illus/header-ms-teams.png',
                 'Teams Telefonie für Ihre Unternehmenstelefonie',
-                465, 400
+                465, 400, [], false
             ); ?>
         </div>
     </header>

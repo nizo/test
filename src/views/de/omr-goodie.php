@@ -40,7 +40,7 @@ $faqs->faq_add (
               'OMR',
               560, 705, [
                 'style' => 'display:block'
-              ]
+              ], false
           ); ?>
         </a>
       </div>

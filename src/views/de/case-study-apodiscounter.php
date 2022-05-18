@@ -11,7 +11,7 @@
           'Neues Callcenter Konzept - Apodiscounter',
           240, 48, [
             'class' => 'logo'
-          ]
+          ], false
         ); ?>
         <h1>Probat für Wachstum: ein neues Callcenter-Konzept</h1>
         <p class="primary">CallOne und apo-discounter.de</p>

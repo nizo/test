@@ -4,7 +4,7 @@
             <?= pictureTag(
                 '/assets/images/illus/customer-success-header.png',
                 'CallOne Projektmanagerinnen finden die Lösung für Ihr Problem mit Call Center Software und Cloud Telefonanlage',
-                465, 465
+                465, 465, [], false
             ); ?>
         </div>
         <div class="hero__text">

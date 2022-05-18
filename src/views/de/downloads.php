@@ -12,7 +12,7 @@
 					'Businesstelefonie aus der Cloud',
 					541, 567, [
 						'style' => 'width:100%'
-					]
+					], false
 				); ?>
 			</div>
 		</header>

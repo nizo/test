@@ -63,7 +63,7 @@ $product->structured_data_get_code ();
                 'Callcenter Software mit CTI-Anbindungen',
                 553, 446, [
                     'style' => 'width:100%'
-                ]
+                ], false
             ); ?>
         </div>
     </div>

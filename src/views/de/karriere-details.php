@@ -118,7 +118,8 @@ if (empty ($job))
         <p class="centered">
             <?= pictureTag(
                 $job->icon_get(),
-                'Stellen bei CallOne'
+                'Stellen bei CallOne',
+                null, null, [], false
             ); ?>
         </p>
 

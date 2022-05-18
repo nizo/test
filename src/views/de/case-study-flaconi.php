@@ -11,7 +11,7 @@
           'Dufte Anrufsteuerung - Flaconi.de',
           240, 71, [
               'class' => 'logo'
-          ]
+          ], false
         ); ?>
         <h1>Dufte Anrufsteuerung, frei skalierbar</h1>
         <p class="primary">Flaconi.de ist einer der größten Onlineversandhändler Deutschlands für Parfum, Pflege und Make-up. Als Premium Online-Shop wird höchster Wert auf ein exzellentes Einkaufserlebnis und erstklassigen Service gelegt.</p>

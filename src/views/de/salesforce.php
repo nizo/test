@@ -33,13 +33,13 @@ $faqs->faq_add (
             <?= pictureTag(
               '/assets/images/crm-logos/salesforce-app.png',
               'Salesforce Anbindung Telefonie',
-              70, 70
+              70, 70, [], false
             ); ?>
           </a>
           <?= pictureTag(
             '/assets/images/screens/Hero-Image-Salesforce.png',
             'Salesforce Anbindung Telefonanlage',
-            535, 360
+            535, 360, [], false
           ); ?>
         </div>
       </div>

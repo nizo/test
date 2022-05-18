@@ -41,7 +41,7 @@ $faqs->faq_add (
 			<?= pictureTag(
 				'/assets/images/illus/calltracking.svg',
 				'CallOne bietet umfangreiches Call-Tracking für effizienten Kundenservice und Sales',
-				560, 386
+				560, 386, [], false
 			); ?>
 		</div>
 	</div>
