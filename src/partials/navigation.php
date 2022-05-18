@@ -23,10 +23,10 @@ require_once('banderole.php');
     <div class="navigation__links">
         <a href="/" class="navigation__logo" title="Zur Startseite von CallOne">
             <img src="/assets/images/logo/Logo-Equal.svg" alt="CallOne Logo" />
-            <?php if ($page->shorttitle): ?>
-                <div class="navigation__title"><?= $page->shorttitle; ?></div>
-            <?php endif; ?>
         </a>
+        <?php if ($page->shorttitle): ?>
+            <div class="navigation__title"><?= $page->shorttitle; ?></div>
+        <?php endif; ?>
 
         <ul>
             <li class="navigation__item<?= $page->menu_position == 'produkte' ? ' navigation__item--active' : '' ?>">
