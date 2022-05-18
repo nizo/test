@@ -17,7 +17,13 @@ $faqs->faq_add (
 <div class="section section--no-padding-bottom section--mobile-divider">
 	<div class="hero">
 		<div class="hero__image">
-			<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="Die umfangreichen Echtzeitstatistiken der CallOne Callcenter Software haben viele Vorteile für Ihren ROI" width="465" height="430" style="width:100%" />
+            <?= pictureTag(
+                '/assets/images/illus/statistics-header-illustration-optimized.svg',
+                'Die umfangreichen Echtzeitstatistiken der CallOne Callcenter Software haben viele Vorteile für Ihren ROI',
+                465, 430, [
+                    'style' => 'width:100%'
+                ], false
+            ); ?>
 		</div>
 		<div class="hero__text">
 			<h1>
@@ -51,21 +57,39 @@ $faqs->faq_add (
 
         <div class="grid-slider">
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/performance-analysis-grey-bg.svg" alt="Erreichbarkeit, Annahmedauer, Abschlussquoten und vieles mehr sind auslesbare Daten aus den Statistiken der CallOne Callcenter Software" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/performance-analysis-grey-bg.svg',
+                    'Erreichbarkeit, Annahmedauer, Abschlussquoten und vieles mehr sind auslesbare Daten aus den Statistiken der CallOne Callcenter Software',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Top-Performer</h4>
                     <p class="bigtext">Annahmedauer, Abschlussquoten, Erreichbarkeit und vieles mehr zeigen Ihnen ihre Top-Performer.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/availability-grey-bg.svg" alt="Mit den Echtzeitstatistiken die hohe Erreichbarkeit durch die Call Center Software auslesen" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/availability-grey-bg.svg',
+                    'Mit den Echtzeitstatistiken die hohe Erreichbarkeit durch die Call Center Software auslesen',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Erreichbarkeit</h4>
                     <p class="bigtext">Eine der wichtigsten Kennzahlen im Kundenservice. Wir liefern hier umfangreiche Zusatzinformationen.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/call-reasons-grey-bg.svg" alt="Anrufgründe als ein zentraler Datensatz der Statistiken der CallOne Contact Center Software" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/call-reasons-grey-bg.svg',
+                    'Anrufgründe als ein zentraler Datensatz der Statistiken der CallOne Contact Center Software',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Anrufgründe</h4>
                     <p class="bigtext">Grundlage für jede  datengestützte Analyse. Wir liefern diese Daten, sie optimieren zielgerichtet.</p>
@@ -73,7 +97,11 @@ $faqs->faq_add (
             </div>
             <div class="grid-slider__item">
                 <a href="/tableau-callcenter-connector" class="grid-slider__image">
-                    <img src="/assets/images/illus/plus-grey-bg.svg" alt="CallOne Contact Center Software mit Datenexporten für eigene Auswertungen nach eigenen KPIs" width="230" height="127" />
+                    <?= pictureTag(
+                        '/assets/images/illus/plus-grey-bg.svg',
+                        'CallOne Contact Center Software mit Datenexporten für eigene Auswertungen nach eigenen KPIs',
+                        230, 127
+                    ); ?>
                 </a>
                 <div class="grid-slider__content">
                     <h4>Ihr KPI nicht dabei?</h4>
@@ -104,7 +132,11 @@ $faqs->faq_add (
             <div class="tablist__content tablist__content--active" data-tab="1">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                        <img src="/assets/images/illus/dashboards-mockup.svg" alt="Transparenz und Datensammlung in Ihrer CallOne Call Center Software" width="570" height="533" />
+                        <?= pictureTag(
+                            '/assets/images/illus/dashboards-mockup.svg',
+                            'Transparenz und Datensammlung in Ihrer CallOne Call Center Software',
+                            570, 533
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Alles im Blick</h3>
@@ -140,7 +172,11 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                        <img src="/assets/images/illus/statistics-mockup.svg" alt="Entwicklungen erkennen und vorhersehen ist mit den Statistiken der CallOne Contact Center Software möglich" width="570" height="533" />
+                        <?= pictureTag(
+                            '/assets/images/illus/statistics-mockup.svg',
+                            'Entwicklungen erkennen und vorhersehen ist mit den Statistiken der CallOne Contact Center Software möglich',
+                            570, 533
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Entwicklungen erkennen</h3>
@@ -176,7 +212,11 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                        <img src="/assets/images/illus/analysis-mockup.svg" alt="Kundeninteraktionen können sie mit der CallOne Contact Center Software neben zahlreichen Daten auslesen und analysieren" width="570" height="533" />
+                        <?= pictureTag(
+                            '/assets/images/illus/analysis-mockup.svg',
+                            'Kundeninteraktionen können sie mit der CallOne Contact Center Software neben zahlreichen Daten auslesen und analysieren',
+                            570, 533
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--6-lg co-grid__col--vcentered">
                         <h3>Kundeninteraktionen auswerten</h3>
@@ -218,14 +258,24 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md mobile-hidden">
                 <div class="co-video">
                     <div class="co-video__poster">
-                        <img src="/assets/images/photos/check24-face-circle.png" alt="Check24 nutzt Statistiken der CallOne Callcenter Software für Verbesserungen in Effizienz und Kostenmanagement" width="470" height="546" />
+                        <?= pictureTag(
+                            '/assets/images/photos/check24-face-circle.png',
+                            'Check24 nutzt Statistiken der CallOne Callcenter Software für Verbesserungen in Effizienz und Kostenmanagement',
+                            470, 546
+                        ); ?>
                     </div>
                     <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                 <p>
-                    <img src="/assets/images/client-logos/check24_logo.svg" alt="Check24 Kundnezufriedenheit CallOne" width="185" height="46" style="max-width: 185px !important;" />
+                    <?= pictureTag(
+                        '/assets/images/client-logos/check24_logo.svg',
+                        'Check24 Kundnezufriedenheit CallOne',
+                        185, 46, [
+                            'style' => 'max-width: 185px !important;'
+                        ]
+                    ); ?>
                 </p>
 
                 <blockquote class="quote">
@@ -245,7 +295,11 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs desktop-hidden">
                 <div class="co-video" style="width:calc(100% + 50px);margin-left:-25px;margin-bottom:-65px;aspect-ratio:375/277">
                     <div class="co-video__poster">
-                        <img src="/assets/images/photos/check24-face-circle@2x.png" alt="Check24 nutzt Statistiken der CallOne Callcenter Software für Verbesserungen in Effizienz und Kostenmanagement" width="800" height="591" />
+                        <?= pictureTag(
+                            '/assets/images/photos/check24-face-circle-mobile.png',
+                            'Check24 nutzt Statistiken der CallOne Callcenter Software für Verbesserungen in Effizienz und Kostenmanagement',
+                            800, 591
+                        ); ?>
                     </div>
                     <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
@@ -269,11 +323,23 @@ $faqs->faq_add (
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>Business Intelligence</h6>
-                                <p><img src="/assets/images/client-logos/bi-logo-group@2x.png" alt="Business Intelligence Tools mit Callcenter Software verbinden" width="407" height="40" /></p>
+                                <p>
+                                    <?= pictureTag(
+                                        '/assets/images/client-logos/bi-logo-group.png',
+                                        'Business Intelligence Tools mit Callcenter Software verbinden',
+                                        407, 40
+                                    ); ?>
+                                </p>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>Customer Relationship Management</h6>
-                                <p><img src="/assets/images/client-logos/crm-logo-group.svg" alt="Business Intelligence Tools mit Callcenter Software verbinden" width="311" height="90" /></p>
+                                <p>
+                                    <?= pictureTag(
+                                        '/assets/images/client-logos/crm-logo-group.svg',
+                                        'Business Intelligence Tools mit Callcenter Software verbinden',
+                                        311, 90
+                                    ); ?>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -290,15 +356,33 @@ $faqs->faq_add (
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs">
                                 <h6>API</h6>
-                                <p><img src="/assets/images/icons_svg/api-icon-group.svg" alt="Umfassende Rest- und Push-API Schnittstellen" width="210" height="70" /></p>
+                                <p>
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/api-icon-group.svg',
+                                        'Umfassende Rest- und Push-API Schnittstellen',
+                                        210, 70
+                                    ); ?>
+                                </p>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs">
                                 <h6>Konnektoren</h6>
-                                <p><img src="/assets/images/icons_svg/csv-icon.svg" alt="Umfassende Schnittstellen und Konnektoren der Callcenter Software" width="70" height="70" /></p>
+                                <p>
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/csv-icon.svg',
+                                        'Umfassende Schnittstellen und Konnektoren der Callcenter Software',
+                                        70, 70
+                                    ); ?>
+                                </p>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs">
                                 <h6>Skripte</h6>
-                                <p><img src="/assets/images/icons_svg/script-icon.svg" alt="Skripte für Entwickler mit der Callcenter Software von CallOne" width="70" height="70" /></p>
+                                <p>
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/script-icon.svg',
+                                        'Skripte für Entwickler mit der Callcenter Software von CallOne',
+                                        70, 70
+                                    ); ?>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -320,7 +404,11 @@ $faqs->faq_add (
                     
                     <div class="co-grid">
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/dsvgo-datenschutz-group.svg" alt="deutscher Datenschutzstandard mit der CallOne Callcenter Software" width="354" height="98" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/dsvgo-datenschutz-group.svg',
+                                'deutscher Datenschutzstandard mit der CallOne Callcenter Software',
+                                354, 98
+                            ); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--vcentered">
                             <a href="/dsgvo-telekommunikation" class="btn btn--border-white">Mehr erfahren</a>
@@ -355,7 +443,11 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/support-alarm-icon.svg" alt="Support Alarm" width="70" height="70" />
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/support-alarm-icon.svg',
+                                    'Support Alarm',
+                                    70, 70
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>SLA-Alarmierung</h3>
@@ -366,7 +458,11 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/notification-icon.svg" alt="Benachrichtigung" width="70" height="70" />
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/notification-icon.svg',
+                                    'Benachrichtigung',
+                                    70, 70
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Multi-KPI Warnungen</h3>
@@ -382,7 +478,11 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/results-icon.svg" alt="Ergebnisse" width="70" height="70" />
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/results-icon.svg',
+                                    'Ergebnisse',
+                                    70, 70
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Berichtsautomatisierung</h3>
@@ -393,7 +493,11 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/rating-icon.svg" alt="Bewertung" width="70" height="70" />
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/rating-icon.svg',
+                                    'Bewertung',
+                                    70, 70
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Kundenbewertungen</h3>
@@ -409,7 +513,11 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/benchmark-icon.svg" alt="Benchmark" width="70" height="70" />
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/benchmark-icon.svg',
+                                    'Benchmark',
+                                    70, 70
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Benchmark-Daten</h3>
@@ -420,7 +528,11 @@ $faqs->faq_add (
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--vcentered">
-                                <img src="/assets/images/icons_svg/diagrams-icon.svg" alt="Dashboard nutzen Call Center Software" width="70" height="70" />
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/diagrams-icon.svg',
+                                    'Dashboard nutzen Call Center Software',
+                                    70, 70
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                                 <h3>Geckoboard & Co.</h3>
