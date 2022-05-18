@@ -97,7 +97,9 @@ $faqs->faq_add (
                 <?= pictureTag(
                     '/assets/images/illus/ms-teams-vorteile.png',
                     'Vorteile mit Microsoft Teams für Unternehmenstelefonie',
-                    570, 570
+                    570, 570, [
+                        'class' => 'co-grid__image--full-width'
+                    ]
                 ); ?>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm co-grid__col--6-md co-grid__col--vcentered">
@@ -238,7 +240,9 @@ $faqs->faq_add (
                 <?= pictureTag(
                     '/assets/images/illus/ms-teams-funktionen.png',
                     'Funktionen von Teams Telefonie',
-                    570, 570
+                    570, 570, [
+                        'class' => 'co-grid__image--full-width'
+                    ]
                 ); ?>
             </div>
         </div>
