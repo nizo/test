@@ -15,7 +15,7 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
 
     // Get file information
     $file = pathinfo($path);
-    $filename = $file['dirname'].'/'.$file['filename'];
+    $filepath = $file['dirname'].'/'.$file['filename'];
     $root = __DIR__.'/../';
 
     // Build <picture> template
@@ -23,10 +23,10 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
 
     if (strtolower($file['extension']) != 'svg') {
         // Set WEBP sources if available
-        $webp = $filename.'.webp';
+        $webp = $filepath.'.webp';
         if (file_exists($root.$webp)) {
-            $webp2x = $filename.'@2x.webp';
-            $webp3x = $filename.'@3x.webp';
+            $webp2x = $filepath.'@2x.webp';
+            $webp3x = $filepath.'@3x.webp';
             $extraSourcesWebp = '';
             if (file_exists($root.$webp3x))
                 $extraSourcesWebp .= $webp3x.' 3x, ';
@@ -37,8 +37,8 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
         }
 
         // Set original sources if available
-        $original2x = $filename.'@2x.'.$file['extension'];
-        $original3x = $filename.'@3x.'.$file['extension'];
+        $original2x = $filepath.'@2x.'.$file['extension'];
+        $original3x = $filepath.'@3x.'.$file['extension'];
         $extraSourcesOriginal = '';
         if (file_exists($root.$original3x))
             $extraSourcesOriginal .= $original3x.' 3x, ';
@@ -47,8 +47,17 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
         $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
     }
 
-    // Fallback image
-    $template .= '  <img src="'.$path.'"'.($lazyloading ? ' loading="lazy"' : '').' alt="'.$alt.'" title="'.$alt.'"'.($width ? ' width="'.$width.'" ' : '').($height ? ' height="'.$height.'"' : '').$extraAttributes.' />'.PHP_EOL;
+    // Image tag
+    $template .= '<img src="'.$path.'"';                // Image path
+    if ($lazyloading)
+        $template .= ' loading="lazy"';                 // Lazy loading
+    $template .= ' alt="'.$alt.'"';                     // Alt-Text
+    $template .= ' title="'.$alt.'"';                   // Title-text
+    if ($width)
+        $template .= ' width="'.$width.'"';             // Image width
+    if ($height)
+        $template .= ' height="'.$height.'"';           // Image height
+    $template .= ' '.$extraAttributes.'/>'.PHP_EOL;     // Extra attributes such as style, class, etc...
     $template .= '</picture>'.PHP_EOL;
 
     return $template;
