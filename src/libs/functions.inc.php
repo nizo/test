@@ -21,29 +21,31 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
     // Build <picture> template
     $template = '<picture>'.PHP_EOL;
 
-    // Set WEBP sources if available
-    $webp = $filename.'.webp';
-    if (file_exists($root.$webp)) {
-        $webp2x = $filename.'@2x.webp';
-        $webp3x = $filename.'@3x.webp';
-        $extraSourcesWebp = '';
-        if (file_exists($root.$webp3x))
-            $extraSourcesWebp .= $webp3x.' 3x, ';
-        if (file_exists($root.$webp2x))
-            $extraSourcesWebp .= $webp2x.' 2x, ';
+    if (strtolower($file['extension']) !== 'svg') {
+        // Set WEBP sources if available
+        $webp = $filename.'.webp';
+        if (file_exists($root.$webp)) {
+            $webp2x = $filename.'@2x.webp';
+            $webp3x = $filename.'@3x.webp';
+            $extraSourcesWebp = '';
+            if (file_exists($root.$webp3x))
+                $extraSourcesWebp .= $webp3x.' 3x, ';
+            if (file_exists($root.$webp2x))
+                $extraSourcesWebp .= $webp2x.' 2x, ';
 
-        $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp" />'.PHP_EOL;
+            $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp" />'.PHP_EOL;
+        }
+
+        // Set original sources if available
+        $original2x = $filename.'@2x.'.$file['extension'];
+        $original3x = $filename.'@3x.'.$file['extension'];
+        $extraSourcesOriginal = '';
+        if (file_exists($root.$original3x))
+            $extraSourcesOriginal .= $original3x.' 3x, ';
+        if (file_exists($root.$original2x))
+            $extraSourcesOriginal .= $original2x.' 2x, ';
+        $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
     }
-
-    // Set original sources if available
-    $original2x = $filename.'@2x.'.$file['extension'];
-    $original3x = $filename.'@3x.'.$file['extension'];
-    $extraSourcesOriginal = '';
-    if (file_exists($root.$original3x))
-        $extraSourcesOriginal .= $original3x.' 3x, ';
-    if (file_exists($root.$original2x))
-        $extraSourcesOriginal .= $original2x.' 2x, ';
-    $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
 
     // Fallback image
     $template .= '  <img src="'.$path.'"'.($lazyloading ? ' loading="lazy"' : '').' alt="'.$alt.'" title="'.$alt.'"'.($width ? ' width="'.$width.'" ' : '').($height ? ' height="'.$height.'"' : '').$extraAttributes.' />'.PHP_EOL;
