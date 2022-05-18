@@ -88,7 +88,9 @@
                 <?= pictureTag(
                     '/assets/images/illus/callone-platform-illustration.png', 
                     'CallCenter Software von CallOne für optimale Businesstelefonie', 
-                    660, 406
+                    660, 406, [
+                        'class' => 'co-grid__image--full-width'
+                    ]
                 ); ?>
             </div>
         </div>
@@ -258,10 +260,10 @@
                                         '/assets/images/icons_svg/technology-consulting.svg',
                                         'CallOne bringt Cloud Telefonanlage und persönliche Beratung zusammen',
                                         199, 108, [
-                                            'style' => 'margin:0'
+                                            'class' => 'co-grid__image--full-width'
                                         ]
                                     ); ?>
-                                    <h3 style="margin-top:15px">
+                                    <h3 class="centered" style="margin-top:15px">
                                         Zukunftssichere Technologie <br />
                                         <span class="ff-copy fw400">trifft</span> Expertise
                                     </h3>
