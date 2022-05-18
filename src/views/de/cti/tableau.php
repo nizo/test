@@ -50,11 +50,13 @@ $faqs->faq_add (
         </nav>
       </div>
       <div class="media">
-      	<picture>
-          <source srcset="/assets/images/photos/callcenter-cockpit-dashboard-tableau.webp" type="image/webp">
-          <source srcset="/assets/images/photos/callcenter-cockpit-dashboard-tableau.png" type="image/png">
-          <img src="/assets/images/photos/callcenter-cockpit-dashboard-tableau.png" alt="Callcenter Cockpit Dashboard Tableau" title="Callcenter Cockpit Dashboard Tableau" class="mobile-hidden" />          	      
-		</picture>
+        <?= pictureTag(
+          '/assets/images/photos/callcenter-cockpit-dashboard-tableau.png',
+          'Callcenter Cockpit Dashboard Tableau',
+          560, 361, [
+            'class' => 'mobile-hidden'
+          ], false
+        ); ?>
       </div>
     </header>
   </div>
@@ -62,7 +64,13 @@ $faqs->faq_add (
 
 <div class="wrapper half-background">
   <div class="content narrow">
-    <strong class="h1 font-secondary centered uppercase white p80"><img src="/assets/images/logo/partnerlogos/callone_tableau_2.svg" title="CallOne + Tableau" alt="CallOne + Tableau" /></strong>
+    <strong class="h1 font-secondary centered uppercase white p80">
+      <?= pictureTag(
+        '/assets/images/logo/partnerlogos/callone_tableau_2.svg',
+        'CallOne + Tableau',
+        880, 88
+      ); ?>
+    </strong>
     <div class="button-set centered">
       <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Experten kontaktieren" data-category="Link" data-action="opens sales modal">Experten kontaktieren</a>
     </div>
@@ -72,13 +80,37 @@ $faqs->faq_add (
     <div class="shadow-box padding marginTop">
     	<div class="grid">
     		<div class="col-3">
-    			<p><img src="/assets/images/client-logos/logo-apo-discounter-noborder.png" alt="t3n" class="partnerLogo small-33 gray-100"/></p>
+    			<p>
+            <?= pictureTag(
+              '/assets/images/client-logos/logo-apo-discounter-noborder.png',
+              't3n',
+              160, 40, [
+                'class' => 'partnerLogo small-33 gray-100'
+              ]
+            ); ?>
+          </p>
     		</div>
     		<div class="col-3">
-    			<p><img src="/assets/images/client-logos/logo-check24-color.svg" alt="Gründerszene" class="partnerLogo small-33 gray-100" /></p>
+    			<p>
+            <?= pictureTag(
+              '/assets/images/client-logos/logo-check24-color.svg',
+              'Gründerszene',
+              167, 40, [
+                'class' => 'partnerLogo small-33 gray-100'
+              ]
+            ); ?>
+          </p>
     		</div>
     		<div class="col-3">
-    			<p><img src="/assets/images/client-logos/postcode-color.png" alt="Call Center Verein" class="partnerLogo small-33 gray-100" /></p>
+    			<p>
+            <?= pictureTag(
+              '/assets/images/client-logos/postcode-color.png',
+              'Call Center Verein',
+              65, 40, [
+                'class' => 'partnerLogo small-33 gray-100'
+              ]
+            ); ?>
+          </p>
     		</div>
     	</div>
     </div>
@@ -114,11 +146,11 @@ $faqs->faq_add (
               </ul>
             </div>
             <div class="col-2">
-            	<picture>
-                  <source srcset="/assets/images/photos/tableau-callcenter-connector-dashboard.webp" type="image/webp">
-                  <source srcset="/assets/images/photos/tableau-callcenter-connector-dashboard.jpg" type="image/jpg">
-                  <img src="/assets/images/photos/tableau-callcenter-connector-dashboard.jpg" alt="tableau callcenter connector dashboard" title="tableau callcenter connector dashboard" />          	      
-        		</picture>
+              <?= pictureTag(
+                '/assets/images/photos/tableau-callcenter-connector-dashboard.jpg',
+                'tableau callcenter connector dashboard',
+                420, 245
+              ); ?>
             </div>
           </div>    
         </div>
@@ -130,7 +162,13 @@ $faqs->faq_add (
   <div class="content wide centered">
       <div class="grid">
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_04.svg" alt="Einfache Integration" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_04.svg',
+            'Einfache Integration',
+            70, 67, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Einfach</h3>
           <ul class="list approved-list">
           	<li>Keine Programmier-kenntnisse für Anbindung erforderlich</li>
@@ -139,7 +177,13 @@ $faqs->faq_add (
           </ul>
         </div>
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_20.svg" alt="Intuitive Bedienung" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_20.svg',
+            'Intuitive Bedienung',
+            70, 55, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Intuitiv</h3>
 		  <ul class="list approved-list">
 		  	<li>Daten per Drag & Drop integrieren</li>
@@ -148,7 +192,13 @@ $faqs->faq_add (
 		  </ul>          
         </div>
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_06.svg" alt="Alle Auswertungen auf einen Blick" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_06.svg',
+            'Alle Auswertungen auf einen Blick',
+            70, 70, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Relevant</h3>
           <ul class="list approved-list">
 		  	<li>Alle <strong>Callcenter KPI</strong> auf einen Blick</li>
@@ -157,7 +207,13 @@ $faqs->faq_add (
 		  </ul>   
         </div>
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_02.svg" alt="Skalierbar" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_02.svg',
+            'Skalierbar',
+            70, 69, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Skalierbar</h3>
           <ul class="list approved-list">
 		  	<li>Schnelles Erstellen <strong>individueller Reportings</strong></li>
@@ -180,7 +236,13 @@ $faqs->faq_add (
   	<div class="grid parallel">
         <div class="col-2">
         	<div class="image primary">
-        		<img src="/assets/images/icons_svg/small_18_white.svg" alt="Inkrementelle Datenaktualisierung" class="icon">
+        		<?= pictureTag(
+              '/assets/images/icons_svg/small_18_white.svg',
+              'Inkrementelle Datenaktualisierung',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Inkrementelle Datenaktualisierung</p>
@@ -188,7 +250,13 @@ $faqs->faq_add (
         </div>
         <div class="col-2">
         	<div class="image primary">
-        		<img src="/assets/images/icons_svg/small_15_2_white.svg" alt="Tableau Server fähig" class="icon">
+        		<?= pictureTag(
+              '/assets/images/icons_svg/small_15_2_white.svg',
+              'Tableau Server fähig',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Tableau Server fähig</p>
@@ -196,7 +264,13 @@ $faqs->faq_add (
         </div>
         <div class="col-2">
         	<div class="image secondary-2">
-        		<img src="/assets/images/icons_svg/small_29_white.svg" alt="Import via Webdata Connector" class="icon">
+        		<?= pictureTag(
+              '/assets/images/icons_svg/small_29_white.svg',
+              'Import via Webdata Connector',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Import via Webdata Connector</p>
@@ -204,7 +278,13 @@ $faqs->faq_add (
         </div>
         <div class="col-2">
         	<div class="image secondary-2">
-        		<img src="/assets/images/icons_svg/small_32_white.svg" alt="Flexible Anfragezeiträume" class="icon">
+        		<?= pictureTag(
+              '/assets/images/icons_svg/small_32_white.svg',
+              'Flexible Anfragezeiträume',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Flexible Anfragezeiträume wählbar</p>
@@ -219,17 +299,35 @@ $faqs->faq_add (
   <h2 class="h1 centered">Darum CallOne</h2>
       <div class="grid">
         <div class="col-3">
-          <img src="/assets/images/icons_svg/big_09.svg" alt="Ausfallsicher" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/big_09.svg',
+            'Ausfallsicher',
+            70, 61, [
+              'class' => 'icon'
+            ]
+          ); ?>"
           <h3>Ausfallsicher</h3>
           <p>Wir kommen auf eine durchschnittliche Uptime von <a href="#" target="_blank">99,995%</a>. Wir setzen auf <strong>Qualität</strong>, <strong>Sicherheit und Transparenz</strong>. Auf Wunsch erhalten Sie eigene SLA-Vereinbarungen.</p>
         </div>
         <div class="col-3">
-          <img src="/assets/images/icons_svg/small_01.svg" alt="Server in Deutschland" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_01.svg',
+            'Server in Deutschland',
+            70, 71, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Server in DE</h3>
           <p><strong>Sicherheit</strong> und <strong>Stabilität</strong> steht für uns <strong>an oberster Stelle</strong>. Unsere Server stehen verteilt in mehreren deutschen Hochsicherheitsrechenzentren.</p>
         </div>
         <div class="col-3">
-          <img src="/assets/images/icons_svg/small_15.svg" alt="Verschlüsselung" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_15.svg',
+            'Verschlüsselung',
+            70, 78, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Verschlüsselung</h3>
           <p>Wir sichern Gespräche mehrfach mit <strong>SRTP, TLS und VPN-Tunnel</strong> &ndash; <strong>kostenfrei</strong>! Zugleich bieten wir vielschichtige IP-Beschränkungen und Benutzerrechte.</p>
         </div>
@@ -247,11 +345,11 @@ $faqs->faq_add (
 		</div>
 		<div class="col-3 cross centerContent mobile-hidden">
 			<div class="shadow-box autoWidth gradient-sw">
-				<picture>
-                  <source srcset="/assets/images/photos/grabellus-sw.webp" type="image/webp">
-                  <source srcset="/assets/images/photos/grabellus-sw.png" type="image/png">
-                  <img src="/assets/images/photos/grabellus-sw.png" alt="Kontaktieren Sie uns zum Thema Tableau Callcenter Connector" title="Telefonische Beratung zum Thema Tableau Callcenter Connector">          	      
-        		</picture>
+        <?= pictureTag(
+          '/assets/images/photos/grabellus-sw.png',
+          'Kontaktieren Sie uns zum Thema Tableau Callcenter Connector',
+          271, 400
+        ); ?>
 			</div>
 		</div>
 		<div class="col-3">
