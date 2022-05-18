@@ -16,7 +16,7 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
     // Get file information
     $file = pathinfo($path);
     $filename = $file['dirname'].'/'.$file['filename'];
-    $root = $_SERVER['DOCUMENT_ROOT'];
+    $root = $_SERVER['DOCUMENT_ROOT'].'/';
 
     // Build <picture> template
     $template = '<picture>'.PHP_EOL;
