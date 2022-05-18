@@ -189,7 +189,9 @@
                                     <?= pictureTag(
                                         '/assets/images/illus/CCS-voip-teams-mockup.png',
                                         'Benutzeroberfläche der CallOne Call Center Software und VoiP Telefonanlage',
-                                        532, 351
+                                        532, 351, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
                                     ); ?>
                                 </div>
                             </div>
