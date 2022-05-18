@@ -210,7 +210,9 @@ $faqs->faq_add (
 				<?= pictureTag(
 					'/assets/images/client-logos/logo-check24-black.svg',
 					'Unser Kunde Check24',
-					370, 89
+					370, 89, [
+						'style' => 'height: 89px'
+					]
 				); ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
