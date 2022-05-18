@@ -25,7 +25,7 @@ require_once('banderole.php');
             <?= pictureTag(
                 '/assets/images/logo/Logo-Equal.svg',
                 'CallOne Logo',
-                167, 80
+                167, 80, [], false
             ) ?>
             <?php if ($page->shorttitle): ?>
                 <div class="navigation__title"><?= $page->shorttitle; ?></div>

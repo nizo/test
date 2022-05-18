@@ -12,7 +12,7 @@
                     <?= pictureTag(
                         '/assets/images/icons_svg/usp-germany-icon-square.svg',
                         'Call Center Software mit hohem deutschen Datenschutzstandard',
-                        50, 50
+                        50, 50, [], false
                     ); ?>
                     <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
                 </div>
@@ -20,7 +20,7 @@
                     <?= pictureTag(
                         '/assets/images/icons_svg/usp-speed-icon-square.svg',
                         'Call Center Software wird schnell bereitgestellt',
-                        50, 50
+                        50, 50, [], false
                     ); ?>
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
@@ -28,7 +28,7 @@
                     <?= pictureTag(
                         '/assets/images/icons_svg/usp-availability-icon-square.svg',
                         'Call Center Software ist sehr gut erreichbar',
-                        50, 50
+                        50, 50, [], false
                     ); ?>
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
@@ -36,7 +36,7 @@
                     <?= pictureTag(
                         '/assets/images/icons_svg/usp-rating-icon-square.svg',
                         'Call Center Software mit sehr guter Bewertung',
-                        50, 50
+                        50, 50, [], false
                     ); ?>
                     <p style="margin-top:10px">5 Sterne <br />bei Google</p>
                 </div>
@@ -50,7 +50,7 @@
             <?= pictureTag(
                 '/assets/images/illus/startpage-header-lotta-jamie-illustration-colored-gradient.png',
                 'Call Center Software ist unsere Expertise',
-                465, 451
+                465, 451, [], false
             ); ?>
         </div>
     </header>
