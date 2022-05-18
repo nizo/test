@@ -16,7 +16,11 @@ $product->structured_data_get_code ();
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/icons_svg/big_11.svg" alt="Weltweil und lokal virtuell Rufnummern für die Cloud Telefonanlage schalten" width="560" height="294" />
+            <?= pictureTag(
+                '/assets/images/icons_svg/big_11.svg',
+                'Weltweil und lokal virtuell Rufnummern für die Cloud Telefonanlage schalten',
+                560, 294
+            ); ?>
         </div>
     </div>
 
@@ -117,17 +121,35 @@ $product->structured_data_get_code ();
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                <img src="/assets/images/icons_svg/big_09.svg" alt="Rufnummern portieren" width="70" height="61" class="icon">
+                <?= pictureTag(
+                    '/assets/images/icons_svg/big_09.svg',
+                    'Rufnummern portieren',
+                    70, 61, [
+                        'class' => 'icon'
+                    ]
+                ); ?>
                 <h3>Nummer portieren</h3>
                 <p>Wir <strong>portieren</strong> Ihre bereits vorhanden Rufnummern <strong>schnell</strong> und <strong>unkompliziert</strong> in unser Netz.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                <img src="/assets/images/icons_svg/small_01.svg" alt="SIP Weiterleitung" width="70" height="71" class="icon">
+                <?= pictureTag(
+                    '/assets/images/icons_svg/small_01.svg',
+                    'SIP Weiterleitung',
+                    70, 71, [
+                        'class' => 'icon'
+                    ]
+                ); ?>
                 <h3>SIP Weiterleitung</h3>
                 <p>Leiten Sie Ihre <strong>bestehenden Rufnummern</strong> per SIP-Zuführung an uns weiter.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                <img src="/assets/images/icons_svg/small_25.svg" alt="PSTN Weiterleitung" width="70" height="51" class="icon">
+                <?= pictureTag(
+                    '/assets/images/icons_svg/small_25.svg',
+                    'PSTN Weiterleitung',
+                    70, 51, [
+                        'class' => 'icon'
+                    ]
+                ); ?>
                 <h3>PSTN Weiterleitung</h3>
                 <p>Richten Sie <strong>ganz einfach</strong> selbst eine <strong>Weiterleitung</strong> ein und telefonieren Sie <strong>sofort</strong> los.</p>
             </div>
@@ -151,17 +173,29 @@ $product->structured_data_get_code ();
     <div class="section__content section__content--wide centered">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                <img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile" width="97" height="98">
+                <?= pictureTag(
+                    '/assets/images/icons_svg/small_01.svg',
+                    'Ihre Vorteile',
+                    97, 98
+                ); ?>
                 <h3>Qualitätsrouten</h3>
                 <p>Wenn es um Sprachqualität und Stabilität geht, ist das Netzwerk und die dahinterstehenden Partner entscheidend. Wir testen jede Route und haben über 15 Jahre Erfahrung.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                <img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile" width="97" height="98">
+                <?= pictureTag(
+                    '/assets/images/icons_svg/small_01.svg',
+                    'Ihre Vorteile',
+                    97, 98
+                ); ?>
                 <h3>Routing-Verwaltung</h3>
                 <p>Manchmal können Anrufpeaks auftreten. Nutzen Sie unseren Routingbaukasten mit über 50 Routingmodulen und seien Sie auch in schwierigen Zeiten erreichbar.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                <img src="/assets/images/icons_svg/small_01.svg" alt="Ihre Vorteile" width="97" height="98">
+                <?= pictureTag(
+                    '/assets/images/icons_svg/small_01.svg',
+                    'Ihre Vorteile',
+                    97, 98
+                ); ?>
                 <h3>Überlastungs-Routen</h3>
                 <p>Reduzieren Sie Wartezeiten und verbessern Sie die Anrufqualität bei hohem Anrufvolumen, indem Sie unsere leistungsstarke Plattform mit nahezu unbegrenzten Kapazitäten einschalten.</p>
             </div>
@@ -216,7 +250,13 @@ $product->structured_data_get_code ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_17_2.svg" alt="Routing" width="64" height="52" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_17_2.svg',
+                            'Routing',
+                            64, 52, [
+                                'style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important'
+                            ]
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
@@ -229,7 +269,13 @@ $product->structured_data_get_code ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_25.svg" alt="Absedererkennung" width="64" height="47" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_25.svg',
+                            'Absedererkennung',
+                            64, 47, [
+                                'style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important'
+                            ]
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
@@ -242,7 +288,13 @@ $product->structured_data_get_code ();
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/small_02_white.svg" alt="CDR-Daten" width="64" height="63" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_02_white.svg',
+                            'CDR-Daten',
+                            64, 63, [
+                                'style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important'
+                            ]
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
@@ -292,11 +344,31 @@ $product->structured_data_get_code ();
         </p>
 
         <div class="logos" style="--height:30px;margin-top:var(--gutter-l)">
-            <img src="/assets/images/client-logos/vimcar.svg" alt="Unser Kunde Vimcar" width="151" height="30" />
-            <img src="/assets/images/client-logos/logo-flaconi.svg" alt="Unser Kunde Flaconi" width="101" height="30" />
-            <img src="/assets/images/client-logos/logo-check24-black.svg" alt="Unser Kunde Check24" width="125" height="30" />
-            <img src="/assets/images/client-logos/bett.svg" alt="Unser Kunde Bett1" width="62" height="30" />
-            <img src="/assets/images/client-logos/logo-gastrohero-2.png" alt="Unser Kunde GastroHero" width="60" height="30" />
+            <?= pictureTag(
+                '/assets/images/client-logos/vimcar.svg',
+                'Unser Kunde Vimcar',
+                151, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-flaconi.svg',
+                'Unser Kunde Flaconi',
+                101, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-check24-black.svg',
+                'Unser Kunde Check24',
+                125, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/bett.svg',
+                'Unser Kunde Bett1',
+                62, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-gastrohero-2.png',
+                'Unser Kunde GastroHero',
+                60, 30
+            ); ?>
         </div>
     </div>
 </div>
