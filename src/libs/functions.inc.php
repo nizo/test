@@ -21,7 +21,7 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
     // Build <picture> template
     $template = '<picture>'.PHP_EOL;
 
-    if (strtolower($file['extension']) !== 'svg') {
+    if (strtolower($file['extension']) != 'svg') {
         // Set WEBP sources if available
         $webp = $filename.'.webp';
         if (file_exists($root.$webp)) {
