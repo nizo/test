@@ -264,7 +264,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Für Telefonie-Optimierer</h6>
+                            <div class="index-card__title">Für Telefonie-Optimierer</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -288,7 +288,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#464775"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Für Fakten-Fans</h6>
+                            <div class="index-card__title">Für Fakten-Fans</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -312,7 +312,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#464775"></div>
                             </div>
-                            <h6 class="index-card__title">Für IT-Träumer</h6>
+                            <div class="index-card__title">Für IT-Träumer</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>

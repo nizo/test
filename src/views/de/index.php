@@ -374,7 +374,7 @@
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Schnittstellen</h6>
+                            <div class="index-card__title">Schnittstellen</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -414,7 +414,7 @@
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Automatisierung</h6>
+                            <div class="index-card__title">Automatisierung</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -454,7 +454,7 @@
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#DB00C5;"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Warteschleifen</h6>
+                            <div class="index-card__title">Warteschleifen</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -494,7 +494,7 @@
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#0088EA;"></div>
                             </div>
-                            <h6 class="index-card__title">Statistik</h6>
+                            <div class="index-card__title">Statistik</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>

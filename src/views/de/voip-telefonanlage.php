@@ -554,7 +554,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Customer Success</h6>
+                            <div class="index-card__title">Customer Success</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -577,7 +577,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator index-card__indicator--active"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Performance</h6>
+                            <div class="index-card__title">Performance</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -616,7 +616,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator index-card__indicator--active"></div>
                             </div>
-                            <h6 class="index-card__title">Einsparpotenziale</h6>
+                            <div class="index-card__title">Einsparpotenziale</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
