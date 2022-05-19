@@ -119,7 +119,9 @@ if (empty ($job))
             <?= pictureTag(
                 $job->icon_get(),
                 'Stellen bei CallOne',
-                null, null, [], false
+                70, null, [
+                    'style' => 'max-width: 70px'
+                ], false
             ); ?>
         </p>
 
