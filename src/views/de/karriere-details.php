@@ -116,7 +116,7 @@ if (empty ($job))
 <div class="section">
     <div class="section__content section__content--wide">
         <p class="centered">
-            <img src="<?= $job->icon_get(); ?>" alt="Stellen bei CallOne" />
+            <img src="<?= $job->icon_get(); ?>" alt="Stellen bei CallOne" style="max-width: 70px" />
         </p>
         
         <h1 class="centered">
