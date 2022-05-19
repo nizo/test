@@ -93,13 +93,13 @@ foreach ($routes_tmp as $route) {
 <script>
     let copyButton = document.querySelector('.copy-routes');
     let routes = Array.from(document.querySelectorAll('.route'));
-    let routesList = '';
-    routes.forEach(route => routesList += 'https://<?= $_SERVER['HTTP_HOST'] ?>' + route.textContent + '\n');
+    let routesList = [];
+    routes.forEach(route => routesList.push('https://<?= $_SERVER['HTTP_HOST'] ?>' + route.textContent));
 
     copyButton.addEventListener('click', e => {
         if (!navigator || !navigator.clipboard)
             return;
-        navigator.clipboard.writeText(routesList);
+        navigator.clipboard.writeText(routesList.join('\n'));
         let button = e.currentTarget;
         let originalText = button.textContent;
         button.textContent = 'Routes Copied!';
