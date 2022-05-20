@@ -7,12 +7,6 @@ function prepareOgImageText($text) {
 
 // Insert picture element with multiple sources and fallback (fallback, retina and webp)
 function pictureTag($path, $alt, $width = null, $height = null, $attributes = [], $lazyloading = true) {
-    // Add extra attributes
-    $extraAttributes = ' ';
-    foreach ($attributes as $attribute => $value) {
-        $extraAttributes .= $attribute.'="'.$value.'" ';
-    }
-
     // Get file information
     $file = pathinfo($path);
     $filepath = $file['dirname'].'/'.$file['filename'];
@@ -33,7 +27,7 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
             if (file_exists($root.$webp2x))
                 $extraSourcesWebp .= $webp2x.' 2x, ';
 
-            $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp" />'.PHP_EOL;
+            $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp"/>'.PHP_EOL;
         }
 
         // Set original sources if available
@@ -44,7 +38,7 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
             $extraSourcesOriginal .= $original3x.' 3x, ';
         if (file_exists($root.$original2x))
             $extraSourcesOriginal .= $original2x.' 2x, ';
-        $template .= '  <source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'" />'.PHP_EOL;
+        $template .= '<source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'"/>'.PHP_EOL;
     }
 
     // Image tag
@@ -57,7 +51,11 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
         $template .= ' width="'.$width.'"';             // Image width
     if ($height)
         $template .= ' height="'.$height.'"';           // Image height
-    $template .= ' '.$extraAttributes.'/>'.PHP_EOL;     // Extra attributes such as style, class, etc...
+    if (!empty ($attributes))                           // Extra attributes such as style, class, etc...
+    {   foreach ($attributes as $attribute => $value)
+            $template .=  ' '.$attribute.'="'.$value.'"';
+    }
+    $template .= '/>'.PHP_EOL;                          
     $template .= '</picture>'.PHP_EOL;
 
     return $template;
