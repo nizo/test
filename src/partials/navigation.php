@@ -27,10 +27,10 @@ require_once('banderole.php');
                 'CallOne Logo',
                 167, 80, [], false
             ) ?>
-            <?php if ($page->shorttitle): ?>
-                <div class="navigation__title"><?= $page->shorttitle; ?></div>
-            <?php endif; ?>
         </a>
+        <?php if ($page->shorttitle): ?>
+            <div class="navigation__title"><?= $page->shorttitle; ?></div>
+        <?php endif; ?>
 
         <ul>
             <li class="navigation__item<?= $page->menu_position == 'produkte' ? ' navigation__item--active' : '' ?>">
@@ -235,17 +235,20 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                    <a href="/omnichannel-customer-support-software" class="submenu__link<?= getPageActiveClass('/omnichannel-customer-support-software') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
-                                                '/assets/images/navigation/menu-calltracking.png',
-                                                'Call Tracking mit den CallOne Lösungen für Sales und Service',
+                                                '/assets/images/navigation/menu-multi-channel.png',
+                                                'Echte Omnichannel-CX mit deutscher KI',
                                                 50, 50
                                             ) ?>
                                         </div>
                                         <div class="submenu__link-text">
-                                            <strong>Call-Tracking</strong>
-                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
+                                            <strong>
+                                                Omnichannel
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
+                                            <p>Echte Omnichannel-CX mit deutscher KI</p>
                                         </div>
                                     </a>
                                 </div>
@@ -261,6 +264,13 @@ require_once('banderole.php');
                                         <div class="submenu__link-text">
                                             <strong>Statistiken und Echtzeitanalysen</strong>
                                             <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Call-Tracking</strong>
+                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
 

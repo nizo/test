@@ -142,63 +142,11 @@
     }
 }
 
-.job-quote {
-    blockquote {
-        font-family: $font-copy;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 34px;
-        line-height: 150%;
-        padding: 0;
-        margin-bottom: 20px;
-        &:before {
-            content: "„";
-        }
-        &:after {
-            content: "”";
-            position: initial;
-            z-index: initial;
-            color: inherit;
-            opacity: initial;
-            font-size: inherit;
-            bottom: initial;
-            right: initial;
-            font-family: inherit;
-            transform: initial;
-            line-height: inherit;
-        }
-    }
-
-    &__author {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-        font-size: 20px;
-        line-height: 1.5;
-
-        > div {
-            flex: 1;
-        }
-
-        strong {
-            font-family: $font-headline;
-        }
-
-        img {
-            width: 70px;
-            border-radius: 70px;
-            border: 2px solid #000;
-            margin-right: 20px;
-        }
-    }
-}
-@media screen and (max-width: 900px) {
-    .job-quote {
-        blockquote {
-            font-size: 24px;
-        }
-    }
+.job-quote-image {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px rgba(#000, .2);
 }
 
 @media screen and (max-width: 860px) {

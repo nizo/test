@@ -47,7 +47,7 @@ let slideUp = (target, duration=500) => {
     target.style.transitionDuration = duration + 'ms';
     target.style.boxSizing = 'border-box';
     target.style.height = target.offsetHeight + 'px';
-    target.offsetHeight;
+    target.offsetHeight = null;
     target.style.overflow = 'hidden';
     target.style.height = 0;
     target.style.paddingTop = 0;
@@ -65,7 +65,7 @@ let slideUp = (target, duration=500) => {
         target.style.removeProperty('transition-duration');
         target.style.removeProperty('transition-property');
     }, duration);
-}
+};
 
 let slideDown = (target, duration=500) => {
     target.style.removeProperty('display');
@@ -82,7 +82,7 @@ let slideDown = (target, duration=500) => {
     target.style.paddingBottom = 0;
     target.style.marginTop = 0;
     target.style.marginBottom = 0;
-    target.offsetHeight;
+    target.offsetHeight = null;
     target.style.boxSizing = 'border-box';
     target.style.transitionProperty = "height, margin, padding";
     target.style.transitionDuration = duration + 'ms';
@@ -97,7 +97,7 @@ let slideDown = (target, duration=500) => {
         target.style.removeProperty('transition-duration');
         target.style.removeProperty('transition-property');
     }, duration);
-}
+};
 
 let slideToggle = (target, duration = 500) => {
     if (window.getComputedStyle(target).display === 'none') {
@@ -105,7 +105,7 @@ let slideToggle = (target, duration = 500) => {
     } else {
         return slideUp(target, duration);
     }
-}
+};
 
 /*
  * Fading Animations

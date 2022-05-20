@@ -37,7 +37,7 @@ $faqs->faq_add (
 	<div class="hero">
 		<div class="hero__text">
 			<h1>Die Callcenter Software <br class="mobile-hidden" />für Service & Sales:</h1>
-			<p>Zufriedene Kunden und produktivere Agenten!</p>
+			<p class="bigtext">Zufriedene Kunden und produktivere Agenten!</p>
 
 			<div class="co-grid co-grid--small-gutter centered subtext">
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
@@ -473,9 +473,7 @@ $faqs->faq_add (
 				<h3>Multi-Channel</h3>
 				<p class="bigtext">E-Mail, Chat und Messaging nahtlos in Ihre Systeme integrieren.</p>
 				<p>
-					<!-- TODO: Add link to sematell page -->
-					<a href="#" class="btn btn--primary" style="display:none">Mehr erfahren</a>
-					<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Kontakt aufnehmen</a>
+					<a href="/omnichannel-customer-support-software" class="btn btn--primary">Mehr erfahren</a>
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
