@@ -2,7 +2,11 @@
   <div class="content wide">
     <header class="main-header">
       <div class="media">
-        <img src="/assets/images/client-logos/logo-niceshops.jpg" alt="Unternehmenstelefonie mit CallOne Callcenter Software und Cloud Telefonanlage bei Niceshops" width="560" height="174" />
+        <?= pictureTag(
+          '/assets/images/client-logos/logo-niceshops.jpg',
+          'Unternehmenstelefonie mit CallOne Callcenter Software und Cloud Telefonanlage bei Niceshops',
+          540, 174, [], false
+        ); ?>
       </div>
       <div class="text">
         <h1>Nice to help you!</h1>
@@ -51,11 +55,11 @@
     <div class="shadow-box padding">
       <div class="grid">
         <div class="col-2">
-          <picture class="lazyPicture">
-              <!-- ><source srcset="/assets/images/photos/placeholder.webp" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.webp" type="image/webp">-->
-              <source srcset="/assets/images/photos/placeholder.jpg" data-srcset="/assets/images/photos/niceshops-florian-flock-sw.jpg" type="image/jpg">
-              <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/niceshops-florian-flock-sw.jpg" data-srcset="/assets/images/photos/niceshops-florian-flock-sw.jpg" alt="Kundenstimme Florian Flock über Unternehmenstelefonie mit CallOne Kundenservice Software und Cloud Telefonanlage" title="Niceshops - Florian Flock" width="500" height="430" />
-            </picture>
+          <?= pictureTag(
+            '/assets/images/photos/niceshops-florian-flock-sw.jpg',
+            'Kundenstimme Florian Flock über Unternehmenstelefonie mit CallOne Kundenservice Software und Cloud Telefonanlage',
+            500, 430
+          ); ?>
         </div>
         <div class="col-2">
           <blockquote class="max-padding-bottom">
@@ -80,7 +84,13 @@
     <div class="shadow-box" data-id="1">
       <div class="image-grid">
         <div class="image padding centered">
-          <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_03_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_03_animate.svg" alt="Monitoring und Statistiken mit Call Center Software von CallOne" title="" width="167" height="129" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/animation/big_03_animate.svg',
+            'Monitoring und Statistiken mit Call Center Software von CallOne',
+            167, 129, [
+              'class' => 'icon'
+            ]
+          ); ?>
         </div>
         <div class="text">
           <h3 class="h2">Besseres Monitoring über Dashboards</h3>
@@ -106,7 +116,11 @@
           </ul>
         </div>
         <div class="image padding centered">
-          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_37_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_37_2_animate.svg" alt="Niceshops nutzt CallOne Callcenter Software mit Freshdesk Anbindung für Ticketing" title="Integration von Voice-Tickets in Freshdesk" width="167" height="162" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/animation/small_37_2_animate.svg',
+            'Niceshops nutzt CallOne Callcenter Software mit Freshdesk Anbindung für Ticketing',
+            167, 162
+          ); ?>
         </div>
       </div>
     </div>
@@ -114,7 +128,11 @@
     <div class="shadow-box" data-id="3">
       <div class="image-grid">
         <div class="image padding">
-          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_02_animate.svg" alt="Optimierte WorkflowsOptimierte Workflows für Outbound Unternehmenstelefonie, Nachbearbeitung u.v.m. mit Callcenter Software" title="Mailbox -und Telefonbuchfunktion, Intelligente Anrufverteilung (ACD)" width="167" height="155" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/animation/big_02_animate.svg',
+            'Optimierte Workflows für Outbound Unternehmenstelefonie, Nachbearbeitung u.v.m. mit Callcenter Software',
+            167, 155
+          ); ?>
         </div>
         <div class="text">
           <h3 class="h2">Optimierte Workflows</h3>
@@ -140,7 +158,11 @@
           </ul>
         </div>
         <div class="image padding centered">
-          <img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_02_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_02_animate.svg" alt="Uptime und Skalierbarkeit" title="SLA, Alarming- und Monitoring-System" width="167" height="165" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/animation/small_02_animate.svg',
+            'Uptime und Skalierbarkeit - SLA, Alarming- und Monitoring-System',
+            167, 165
+          ); ?>
         </div>
       </div>
     </div>
@@ -161,21 +183,39 @@
           <p>In Workshops und Schulungen haben wir gemeinsam mit Niceshops eine Lösung erarbeitet, die auf verschiedenen CallOne Produkten aufbaut:</p>
           <div class="grid centered">
           	<div class="col-3">
-          		<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_25_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_25_animate.svg" class="icon icon-small lazy" title="" alt="VoIP Telefonanlage von CallOne" width="70" height="65" />
+              <?= pictureTag(
+                '/assets/images/icons_svg/animation/small_25_animate.svg',
+                'VoIP Telefonanlage von CallOne',
+                70, 65, [
+                  'class' => 'icon icon-small'
+                ]
+              ); ?>
           		<p>CallOne TEL<br><strong>VoIP Telefonanlage</strong></p>
           		<div class="button-set">
           			<a href="/voip-telefonanlage" class="break button secondary">Unsere VoIP-Telefonlösung</a>
           		</div>
           	</div>
             <div class="col-3">
-            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_11_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_11_animate.svg" class="icon icon-small lazy" width="70" height="65" alt="Callcenter-Software von CallOne" />
+              <?= pictureTag(
+                '/assets/images/icons_svg/animation/small_11_animate.svg',
+                'Callcenter-Software von CallOne',
+                70, 65, [
+                  'class' => 'icon icon-small'
+                ]
+              ); ?>
             	<p>CallOne ACD<br><strong>Callcenter-Software</strong></p>
             	<div class="button-set">
           			<a href="/callcenter-software" class="break button secondary">Unsere Callcenter-Software</a>
           		</div>
             </div>
             <div class="col-3">
-            	<img src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/small_07_2_animate.svg" data-srcset="/assets/images/icons_svg/animation/small_07_2_animate.svg" class="icon icon-small lazy" width="70" height="65" alt="Freshdesk Integration von CallOne" />
+              <?= pictureTag(
+                '/assets/images/icons_svg/animation/small_07_2_animate.svg',
+                'Freshdesk Integration von CallOne',
+                70, 65, [
+                  'class' => 'icon icon-small'
+                ]
+              ); ?>
             	<p>CallOne Apps<br><strong>Freshdesk Integration</strong></p>
             	<div class="button-set">
           			<a href="/freshdesk-callcenter-software" class="break button secondary">Unsere Freshdesk-Integration</a>
@@ -200,7 +240,13 @@
 	<div class="shadow-box flex column space-between">
         <div class="image-grid">
             <div class="image padding centered">
-              <img class="icon lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/big_01_animate.svg" data-srcset="/assets/images/icons_svg/animation/big_01_animate.svg" alt="Multichannel" width="167" height="151" />
+              <?= pictureTag(
+                '/assets/images/icons_svg/animation/big_01_animate.svg',
+                'Multichannel',
+                167, 151, [
+                  'class' => 'icon'
+                ]
+              ); ?>
             </div>
             <div class="text">
               <h3 class="h2 no-padding">Intelligente Anrufverteilung und optimale Erreichbarkeit</h3>
@@ -216,7 +262,13 @@
 	<div class="shadow-box flex column space-between">
     	 <div class="image-grid">
             <div class="image padding centered">
-            	<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/freshdesk_integration_animate.svg" data-srcset="/assets/images/icons_svg/animation/freshdesk_integration_animate.svg" alt="Tiefgreifende Freshdesk-Integration" title="Automatisches Erstellen von Voice-Tickets in Freshdesk" width="167" height="101" />
+              <?= pictureTag(
+                '/assets/images/icons_svg/animation/freshdesk_integration_animate.svg',
+                'Tiefgreifende Freshdesk-Integration - Automatisches Erstellen von Voice-Tickets in Freshdesk',
+                167, 101, [
+                  'class' => 'icon icon-small'
+                ]
+              ); ?>
             </div>
             <div class="text">
                 <h3 class="h2 no-padding">Tiefgreifende Freshdesk-Integration</h3>
@@ -233,7 +285,13 @@
 	<div class="shadow-box flex column space-between">
         <div class="image-grid">
             <div class="image padding centered">
-        		<img class="icon icon-small lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg" data-srcset="/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg" alt="Officetelefonie leicht erweitern und skalieren mit Call Center Software" title="Browsertelefonie, Self-Service-Routing, Rufnummernübermittlung, Officetelefonie" width="167" height="161" />
+            <?= pictureTag(
+              '/assets/images/icons_svg/animation/telefonie-skalierung_animate.svg',
+              'Officetelefonie leicht erweitern und skalieren mit Call Center Software - Browsertelefonie, Self-Service-Routing, Rufnummernübermittlung, Officetelefonie',
+              167, 161, [
+                'class' => 'icon icon-small'
+              ]
+            ); ?>
             </div>
             <div class="text">
         		<h3 class="h2 no-padding">Einfache und skalierbare Telefonie</h3>
@@ -287,7 +345,11 @@
                     <p>&starf;&starf;&starf;&starf;&starf;</p>
                     <hr class="trenner">
                     <p class="centered">
-                    	<img class="lazy" src="/assets/images/photos/placeholder.png" data-src="/assets/images/client-logos/logo-niceshops.jpg" data-srcset="/assets/images/client-logos/logo-niceshops.jpg" alt="Kundenmeinung von niceshops" width="150" height="47" />
+                      <?= pictureTag(
+                        '/assets/images/client-logos/logo-niceshops.jpg',
+                        'Kundenmeinung von niceshops',
+                        150, 47
+                      ); ?>
                     	<span class="headline h4 padding-top-10">Stella Lucchesi Palli</span>
                     	<span class="primary-color">Teamleiterin Customer Care</span>
                     </p>                            
@@ -296,8 +358,12 @@
             </div>
             <div class="col-2 flex space-between row">
            		<div class="shadow-box">
-              		<img src="/assets/images/photos/niceshops-packet.jpg" alt="Niceshops hohe Kundenzufriedenheit CallOne Callcenter Software" width="500" height="500" />
-                </div>
+               <?= pictureTag(
+                  '/assets/images/photos/niceshops-packet.jpg',
+                  'Niceshops hohe Kundenzufriedenheit CallOne Callcenter Software',
+                  500, 500
+                ); ?>
+              </div>
         	</div>
     	</div>
   </div>

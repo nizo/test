@@ -38,7 +38,11 @@ $faqs->faq_add (
             </p>
 		</div>
 		<div class="hero__image">
-			<img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/illus/calltracking.svg" data-srcset="/assets/images/illus/calltracking.svg" alt="CallOne bietet umfangreiches Call-Tracking für effizienten Kundenservice und Sales" title="Call-Tracking neu definiert" class="lazy" width="560" height="386" />
+			<?= pictureTag(
+				'/assets/images/illus/calltracking.svg',
+				'CallOne bietet umfangreiches Call-Tracking für effizienten Kundenservice und Sales',
+				560, 386, [], false
+			); ?>
 		</div>
 	</div>
 
@@ -80,7 +84,13 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-				<img src="/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png" alt="Verknüpfen Anruf per individueller Rufnummer mit einem Websitenbesucher" width="540" height="338" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/photos/call-tracking-user-indiviuelle-rufnummer.png',
+					'Verknüpfen Anruf per individueller Rufnummer mit einem Websitenbesucher',
+					540, 338, [
+						'class' => 'co-grid__image--full-width'
+					]
+				); ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 				<div class="content-box content-box--white content-box--full-width">
@@ -111,7 +121,11 @@ $faqs->faq_add (
 		<div class="content-box content-box--white content-box--shadow content-box--full-width">
 			<div class="co-grid">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered">
-					<img src="/assets/images/icons_svg/big_03.svg" alt="Vorteile von Call-Tracking im Sales" width="187" height="144" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/big_03.svg',
+						'Vorteile von Call-Tracking im Sales',
+						187, 144
+					); ?>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
 					<h3>Höhere Abschlussquoten im Sales</h3>
@@ -127,7 +141,11 @@ $faqs->faq_add (
 					<p>Mit Call-Tracking stehen dem Agenten hilfreiche Informationen des Anrufers direkt zur Verfügung. Warenkorbinhalte- und werte, Userinformationen und ausgefüllte Formulare sind direkt einsehbar. Nutzen Sie diese Informationen für schnelleren und effizienteren Kundenservice!</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered co-grid__col--order-1-xs">
-					<img src="/assets/images/icons_svg/big_05.svg" alt="Vorteile von Call-Tracking im Kundenservice" width="187" height="191" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/big_05.svg',
+						'Vorteile von Call-Tracking im Kundenservice',
+						187, 191
+					); ?>
 				</div>
 			</div>
 		</div>
@@ -135,7 +153,11 @@ $faqs->faq_add (
 		<div class="content-box content-box--white content-box--shadow content-box--full-width">
 			<div class="co-grid">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered">
-					<img src="/assets/images/icons_svg/big_10_2.svg" alt="Vorteile von Call-Tracking bei Kundenzufriedenheit" width="187" height="191" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/big_10_2.svg',
+						'Vorteile von Call-Tracking bei Kundenzufriedenheit',
+						187, 191
+					); ?>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
 					<h3>Höhere Kundenzufriedenheit</h3>
@@ -151,7 +173,11 @@ $faqs->faq_add (
 					<p>Tracken Sie z.B., wo Ihre Kunden auf der Website einen telefonischen Kontakt suchen oder wann Sie aus Webformularen austeigen und den Support kontaktieren. Mit diesem Wissen optimieren Sie Ihr Online-Marketing und Ihre Website-Performance. </p> 
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered co-grid__col--order-1-xs">
-					<img src="/assets/images/icons_svg/big_02_2.svg" alt="Vorteile von Call-Tracking im Online Marketing" width="187" height="163" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/big_02_2.svg',
+						'Vorteile von Call-Tracking im Online Marketing',
+						187, 163
+					); ?>
 				</div>
 			</div>
 		</div>
@@ -160,7 +186,13 @@ $faqs->faq_add (
 
 <div class="section section--black">
 	<div class="section__content section__content--narrow">
-		<p class="centered"><img src="/assets/images/icons_svg/call-tracking-big.svg" alt="Call-Tracking in Demo von CallOne testen" width="640" height="239" /></p>
+		<p class="centered">
+			<?= pictureTag(
+				'/assets/images/icons_svg/call-tracking-big.svg',
+				'Call-Tracking in Demo von CallOne testen',
+				640, 239
+			); ?>
+		</p>
 	
 		<h2 class="centered mobile-left">Nutzen Sie die ganze Power von Call-Tracking in Kombination mit Co-Browsing</h2>
 		<p class="bigtext centered mobile-left">Ihre Agenten sehen, wo sich der Anrufer gerade auf der Website befindet und können auf Wunsch aktiv unterstützen, beispielsweise beim Ausfüllen von Formularen oder im Bestellprozess.</p>
@@ -175,7 +207,11 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-				<img src="/assets/images/photos/calltracking-demo1.png" alt="Call-Tracking Demo1" width="427" height="355" />
+				<?= pictureTag(
+					'/assets/images/photos/calltracking-demo1.png',
+					'Call-Tracking Demo1',
+					427, 355
+				); ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="content-box content-box--white content-box--shadow">
@@ -199,7 +235,14 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--vcentered">
-						<img src="/assets/images/icons_svg/small_18.svg" alt="Alles über eine Webseite steuerbar" class="white icon" width="64" height="61" style="filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important" />
+						<?= pictureTag(
+							'/assets/images/icons_svg/small_18.svg',
+							'Alles über eine Webseite steuerbar',
+							64, 61, [
+								'class' => 'white icon',
+								'style' => 'filter:saturate(0) grayscale(100%) brightness(1000%);width:64px!important'
+							]
+						); ?>
 					</div>
 					<div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
 						<div class="left-border">

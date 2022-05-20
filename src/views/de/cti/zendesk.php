@@ -6,7 +6,13 @@
         <p class="primary">Bester Kundenservice und effiziente Agenten — integrieren Sie Voice Tickets in Zendesk für ein optimales Kundenerlebnis auf allen Kanälen.</p>
       </div>
       <div class="media centered">
-        <img src="/assets/images/logo/partnerlogos/logo-zendesk2.svg" alt="Zendesk" class="logo" />
+        <?= pictureTag(
+          '/assets/images/logo/partnerlogos/logo-zendesk2.svg',
+          'Zendesk',
+          293, 204, [
+            'class' => 'logo'
+          ], false
+        ); ?>
       </div>
     </header>
   </div>
@@ -48,7 +54,11 @@
     <div class="shadow-box padding">
       <div class="image-grid">
         <div class="image centered">
-          <img src="/assets/images/photos/zendesk.png" alt="CallOne Cloud ACD und Zendesk">
+          <?= pictureTag(
+            '/assets/images/photos/zendesk.png',
+            'CallOne Cloud ACD und Zendesk',
+            260, 248
+          ); ?>
         </div>
         <div class="text">
             <h3>Zuordnung von Tickets zu Agenten</h3>
@@ -78,7 +88,11 @@
             <p>Integrieren Sie alle ACD- und Rufnummernstatistiken ganz einfach in Zendesk, um den Überblick über alle telefonischen Kontakte mit Ihren Kunden zu haben.</p>
         </div>
         <div class="image centered">
-          <img src="/assets/images/photos/zendesk-acd-stats.png" alt="Zendesk ACD Statistiken">
+          <?= pictureTag(
+            '/assets/images/photos/zendesk-acd-stats.png',
+            'Zendesk ACD Statistiken',
+            260, 244
+          ); ?>
         </div>
       </div>    
     </div>

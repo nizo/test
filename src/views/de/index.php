@@ -1,4 +1,4 @@
-<div class="section section--index-header">
+<div class="section">
     <header class="hero">
         <div class="hero__text">
             <h4>Call Center Software ist unsere Expertise.</h4>
@@ -9,19 +9,35 @@
             
             <div class="co-grid co-grid--small-gutter centered subtext">
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-germany-icon-square.svg',
+                        'Call Center Software mit hohem deutschen Datenschutzstandard',
+                        50, 50, [], false
+                    ); ?>
                     <p style="margin-top:10px">Deutscher <br />Datenschutz</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="Call Center Software wird schnell bereitgestellt" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-speed-icon-square.svg',
+                        'Call Center Software wird schnell bereitgestellt',
+                        50, 50, [], false
+                    ); ?>
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="Call Center Software ist sehr gut erreichbar" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-availability-icon-square.svg',
+                        'Call Center Software ist sehr gut erreichbar',
+                        50, 50, [], false
+                    ); ?>
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-md">
-                    <img src="/assets/images/icons_svg/usp-rating-icon-square.svg" alt="Call Center Software mit sehr guter Bewertung" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/usp-rating-icon-square.svg',
+                        'Call Center Software mit sehr guter Bewertung',
+                        50, 50, [], false
+                    ); ?>
                     <p style="margin-top:10px">5 Sterne <br />bei Google</p>
                 </div>
             </div>
@@ -29,6 +45,13 @@
             <p class="mobile-centered">
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Zum Beratungsgespräch</a>
             </p>
+        </div>
+        <div class="hero__image">
+            <?= pictureTag(
+                '/assets/images/illus/startpage-header-lotta-jamie-illustration-colored-gradient.png',
+                'Call Center Software ist unsere Expertise',
+                465, 451, [], false
+            ); ?>
         </div>
     </header>
 </div>
@@ -62,7 +85,13 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--7-lg co-grid__col--vcentered">
-                <img src="/assets/images/illus/callone-platform-illustration.png" alt="CallCenter Software von CallOne für optimale Businesstelefonie" width="660" height="406" />
+                <?= pictureTag(
+                    '/assets/images/illus/callone-platform-illustration.png', 
+                    'CallCenter Software von CallOne für optimale Businesstelefonie', 
+                    660, 406, [
+                        'class' => 'co-grid__image--full-width'
+                    ]
+                ); ?>
             </div>
         </div>
     </div>
@@ -80,13 +109,25 @@
                 <div class="small-tabs__tab" data-tab="3">Enterprise</div>
             </div>
             <div class="small-tabs__content centered" data-tab="1">
-                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="CallCenter Software für fastgrowing Unternehmen" width="812" height="28" />
+                <?= pictureTag(
+                    '/assets/images/client-logos/FastGrowing-Kombi.svg', 
+                    'CallCenter Software für fastgrowing Unternehmen', 
+                    812, 28
+                ); ?>
             </div>
             <div class="small-tabs__content centered" data-tab="2">
-                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="CallCenter Software für Unternehmen aus dem Mittelstand" width="812" height="28" />
+                <?= pictureTag(
+                    '/assets/images/client-logos/Mittelstand-Kombi.svg', 
+                    'CallCenter Software für Unternehmen aus dem Mittelstand', 
+                    812, 28
+                ); ?>
             </div>
             <div class="small-tabs__content centered" data-tab="3">
-                <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="CallCenter Software für Enterprise Unternehmen" width="675" height="28" />
+                <?= pictureTag(
+                    '/assets/images/client-logos/Enterprise-Kombi.svg', 
+                    'CallCenter Software für Enterprise Unternehmen', 
+                    675, 28
+                ); ?>
             </div>
         </div>
 
@@ -97,15 +138,33 @@
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1" data-sticky-text="Unsere Telefonlösung" style="--bg:#fff;">
-                    <img src="/assets/images/icons_svg/solution-package.svg" alt="CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage" width="69" height="70" class="mobile-hidden" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/solution-package.svg',
+                        'CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage',
+                        69, 70, [
+                            'class' => 'mobile-hidden'
+                        ]
+                    ); ?>
                     <strong>Plattform</strong>
                 </div>
                 <div class="tablist__link" data-tab="2" data-sticky-text="Vorteile von CallOne" style="--bg:#fff;">
-                    <img src="/assets/images/icons_svg/benefit-diamond.svg" alt="Welche Vorteile bietet die CallOne Callcenter Software" width="70" height="70" class="mobile-hidden" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/benefit-diamond.svg',
+                        'Welche Vorteile bietet die CallOne Callcenter Software',
+                        70, 70, [
+                            'class' => 'mobile-hidden'
+                        ]
+                    ); ?>
                     <strong>Vorteile</strong>
                 </div>
                 <div class="tablist__link" data-tab="3" data-sticky-text="Mit CallOne telefonieren" style="--bg:#fff;">
-                    <img src="/assets/images/icons_svg/telephone-cloud.svg" alt="Wie telefoniere ich mit der CallOne Call Center Software" width="68" height="70" class="mobile-hidden" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/telephone-cloud.svg',
+                        'Wie telefoniere ich mit der CallOne Call Center Software',
+                        68, 70, [
+                            'class' => 'mobile-hidden'
+                        ]
+                    ); ?>
                     <strong>Clients</strong>
                 </div>
             </div>
@@ -127,7 +186,13 @@
                                     <br class="mobile-hidden" />
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--6-lg co-grid__col--vcentered">
-                                    <img src="/assets/images/illus/CCS-voip-teams-mockup.png" alt="Benutzeroberfläche der CallOne Call Center Software und VoiP Telefonanlage" width="532" height="351" />
+                                    <?= pictureTag(
+                                        '/assets/images/illus/CCS-voip-teams-mockup.png',
+                                        'Benutzeroberfläche der CallOne Call Center Software und VoiP Telefonanlage',
+                                        532, 351, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +201,11 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--4-xs co-grid__col--6-lg co-grid__col--vcentered">
-                                    <img src="/assets/images/illus/business-full-package.svg" alt="cloudbasierte Plattform von CallOne für individuelle Callcenter Software und Cloud Telefonanlage" width="194" height="195" />
+                                    <?= pictureTag(
+                                        '/assets/images/illus/business-full-package.svg',
+                                        'cloudbasierte Plattform von CallOne für individuelle Callcenter Software und Cloud Telefonanlage',
+                                        194, 195
+                                    ); ?>
                                 </div>
                                 <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
                                     <h4>Personalisiert statt standardisiert</h4>
@@ -147,7 +216,11 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--4-xs co-grid__col--6-lg co-grid__col--vcentered">
-                                    <img src="/assets/images/illus/personal-contacts.png" alt="persönliche Beratung zur Call Center Software bei CallOne" width="227" height="171" />
+                                    <?= pictureTag(
+                                        '/assets/images/illus/personal-contacts.png',
+                                        'persönliche Beratung zur Call Center Software bei CallOne',
+                                        227, 171
+                                    ); ?>
                                 </div>
                                 <div class="co-grid__col co-grid__col--8-xs co-grid__col--6-lg co-grid__col--vcentered">
                                     <h4>Immer persönlich betreut</h4>
@@ -185,8 +258,14 @@
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <img src="/assets/images/icons_svg/technology-consulting.svg" alt="CallOne bringt Cloud Telefonanlage und persönliche Beratung zusammen" width="199" height="108" style="margin:0" />
-                                    <h3 style="margin-top:15px">
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/technology-consulting.svg',
+                                        'CallOne bringt Cloud Telefonanlage und persönliche Beratung zusammen',
+                                        199, 108, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
+                                    ); ?>
+                                    <h3 class="centered" style="margin-top:15px">
                                         Zukunftssichere Technologie <br />
                                         <span class="ff-copy fw400">trifft</span> Expertise
                                     </h3>
@@ -299,7 +378,7 @@
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Schnittstellen</h6>
+                            <div class="index-card__title">Schnittstellen</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -339,7 +418,7 @@
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Automatisierung</h6>
+                            <div class="index-card__title">Automatisierung</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -379,7 +458,7 @@
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#DB00C5;"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Warteschleifen</h6>
+                            <div class="index-card__title">Warteschleifen</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -419,7 +498,7 @@
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator index-card__indicator--active" style="--color:#0088EA;"></div>
                             </div>
-                            <h6 class="index-card__title">Statistik</h6>
+                            <div class="index-card__title">Statistik</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -489,7 +568,11 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="Ihr kostenloses Erstgespräch für die passende Callcenter Software von CallOne" width="70" height="70" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/first-call-white.svg',
+                            'Ihr kostenloses Erstgespräch für die passende Callcenter Software von CallOne',
+                            70, 70
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h3>

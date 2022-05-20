@@ -1,5 +1,6 @@
 <?php
 require_once('../../libs/session.inc.php');
+require_once('../../libs/functions.inc.php');
 
 $uniqueID = uniqid();
 ?>
@@ -11,7 +12,13 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
                     <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="2">
-                        <img src="/assets/images/icons_svg/sent-out-black.svg" alt="Sales kontaktieren" style="margin-bottom:0;max-width:48px;" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/sent-out-black.svg',
+                            'Sales kontaktieren',
+                            48, 48, [
+                                'style' => 'margin-bottom:0;max-width:48px;'
+                            ]
+                        ); ?>
                         <h3>Nachricht senden</h3>
                         <p>Nutzen Sie ganz bequem <br />unser Kontaktformular</p>
                     </label>
@@ -19,7 +26,13 @@ $uniqueID = uniqid();
                 <div class="radio-select__item">
                     <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
                     <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="3">
-                        <img src="/assets/images/icons_svg/presentation.svg" alt="Sales kontaktieren und Termin buchen" style="margin-bottom:0;max-width:48px;" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/presentation.svg',
+                            'Sales kontaktieren und Termin buchen',
+                            48, 49, [
+                                'style' => 'margin-bottom:0;max-width:48px;'
+                            ]
+                        ); ?>
                         <h3>Call vereinbaren</h3>
                         <p>Telefon- oder Videocall <br />ganz einfach festlegen</p>
                     </label>
@@ -33,10 +46,28 @@ $uniqueID = uniqid();
                 <p>oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <p><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" width="16" height="21" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a></p>
+                <p>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/telephony-indicator.svg',
+                        'Anruf',
+                        16, 21, [
+                            'style' => 'width:16px;margin-right:10px;vertical-align:middle'
+                        ]
+                    ); ?>
+                    <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a>
+                </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <p><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" width="16" height="11" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a></p>
+                <p>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/mail-indicator.svg',
+                        'E-Mail',
+                        16, 11, [
+                            'style' => 'width:16px;margin-right:10px;vertical-align:middle'
+                        ]
+                    ); ?>
+                    <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a>
+                </p>
             </div>
         </div>
     </div>

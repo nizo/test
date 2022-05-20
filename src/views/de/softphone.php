@@ -41,7 +41,13 @@ $faqs->faq_add (
 			</p>
 		</div>
         <div class="hero__image">
-            <img src="/assets/images/screens/Intro-softphone-desktop.png" alt="Mit CallOne Softphone als Browser Extension direkt aus dem Browser telefonieren" width="560" height="428" style="width:100%" />
+            <?= pictureTag(
+                '/assets/images/screens/Intro-softphone-desktop.png',
+                'Mit CallOne Softphone als Browser Extension direkt aus dem Browser telefonieren',
+                560, 428, [
+                    'style' => 'width:100%'
+                ], false
+            ); ?>
         </div>
 	</div>
 </div>
@@ -63,7 +69,11 @@ $faqs->faq_add (
 <div class="section section--no-padding-top" id="funktionen">
     <div class="section__content section__content--wide">
         <h2 class="headline__icon">
-            <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="Callcenter Software mit Softphone App" width="136" height="136" />
+            <?= pictureTag(
+                '/assets/images/icons_svg/softphone-app-icon.svg',
+                'Callcenter Software mit Softphone App',
+                136, 136
+            ); ?>
             <span>
                 <span class="icon-callone">App</span>
                 <span class="headline__text">Softphone</span>
@@ -143,21 +153,33 @@ $faqs->faq_add (
         <div class="compare">
             <div class="compare__header">
                 <div class="compare__logo">
-                    <img src="/assets/images/softphone/comparison-softphone.svg" alt="callcenter Software mit CallOne Softphone" width="200" height="51" />
+                    <?= pictureTag(
+                        '/assets/images/softphone/comparison-softphone.svg',
+                        'callcenter Software mit CallOne Softphone',
+                        200, 51
+                    ); ?>
                 </div>
                 <div class="compare__switch">
                     <input type="checkbox" id="compare-switch-1" value="1" checked />
                     <label for="compare-switch-1"></label>
                 </div>
                 <div class="compare__logo">
-                    <img src="/assets/images/softphone/comparison-ms-teams.svg" alt="Teams Telefonie im Vergleich mit Softphone Cloud Telefonanlage" width="214" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/softphone/comparison-ms-teams.svg',
+                        'Teams Telefonie im Vergleich mit Softphone Cloud Telefonanlage',
+                        214, 50
+                    ); ?>
                 </div>
             </div>
             <div class="compare__content" data-compare="on">
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="Softphone ohne Lizenskosten" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
+                                'Softphone ohne Lizenskosten',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Lizenzkosten</h3>
@@ -165,7 +187,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/benefit-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Inklusivleistung im Rahmen der CallOne Telefonanlage.
@@ -175,7 +201,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="Softphone mit geringem Integrationsaufwand" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-integrationsaufwand.svg',
+                                'Softphone mit geringem Integrationsaufwand',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Integrationsaufwand</h3>
@@ -183,7 +213,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/benefit-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Einfache Installation und Nutzung innerhalb von wenigen Minuten durch den Admin oder User selbst.
@@ -193,7 +227,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="Softphone von CallOne ohne Lizenskosten mit Cloud Telefonanlage" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
+                                'Softphone von CallOne ohne Lizenskosten mit Cloud Telefonanlage',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Datenschutzkonformität</h3>
@@ -201,7 +239,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/benefit-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Deutsches Unternehmen, das Ihre Daten sicher und DS-GVO konform hostet.
@@ -211,7 +253,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="Flexibilität Dank Lösungen für Unternehmenstelefonie" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-flexibilitaet.svg',
+                                'Flexibilität Dank Lösungen für Unternehmenstelefonie',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Flexibilität</h3>
@@ -219,7 +265,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/benefit-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Spezialanbieter für Unternehmenstelefonie mit persönlichem Ansprechpartner und Support.
@@ -229,7 +279,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-support.svg" alt="Softphone und Telefonie aus einer Hand mit persönlichem Ansprechpartner im Service" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-support.svg',
+                                'Softphone und Telefonie aus einer Hand mit persönlichem Ansprechpartner im Service',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Support</h3>
@@ -237,7 +291,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/benefit-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/benefit-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Ein Ansprechpartner für all Ihre Belange. Softphone und Telefonie aus einer Hand.
@@ -250,7 +308,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="Softphone ohne Lizenskosten" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
+                                'Softphone ohne Lizenskosten',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Lizenzkosten</h3>
@@ -258,7 +320,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/attention-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Zusatzkosten oder entsprechender Vertrag notwendig.
@@ -268,7 +334,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-integrationsaufwand.svg" alt="Softphone mit geringem Integrationsaufwand bei CallOne" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-integrationsaufwand.svg',
+                                'Softphone mit geringem Integrationsaufwand bei CallOne',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Integrationsaufwand</h3>
@@ -276,7 +346,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/attention-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Einrichtung teilweise nur mit bestimmten Adminrechten. Powershell und zusätzliche Schritte notwendig.
@@ -286,7 +360,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-lizenzkosten.svg" alt="Softphone ohne Lizenskosten mit Cloud Telefonanlage bei CallOne" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
+                                'Softphone ohne Lizenskosten mit Cloud Telefonanlage bei CallOne',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Datenschutzkonformität</h3>
@@ -294,7 +372,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/attention-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             US-Unternehmen, das nicht mehr auf Grundlage des Privacy Shield Daten von EU-Bürgern verarbeiten darf.
@@ -304,7 +386,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="Flexible Unternehmenstelefonie von CallOne" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-flexibilitaet.svg',
+                                'Flexible Unternehmenstelefonie von CallOne',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Flexibilität</h3>
@@ -312,7 +398,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/attention-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Breites Portfolio, allerdings nicht spezialisiert auf Businesstelekommunikation.
@@ -322,7 +412,11 @@ $faqs->faq_add (
                 <div class="compare__box">
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/icon-support.svg" alt="Persönliche Ansprechpartner im Service bei umfassender Lösung für Unternehmenstelefonie" width="40" height="40" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/icon-support.svg',
+                                'Persönliche Ansprechpartner im Service bei umfassender Lösung für Unternehmenstelefonie',
+                                40, 40
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             <h3>Support</h3>
@@ -330,7 +424,11 @@ $faqs->faq_add (
                     </div>
                     <div class="compare__info">
                         <div class="compare__icon">
-                            <img src="/assets/images/icons_svg/attention-highlighter.svg" alt="CallOne Vorteil mit Softphone" width="30" height="30" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/attention-highlighter.svg',
+                                'CallOne Vorteil mit Softphone',
+                                30, 30
+                            ); ?>
                         </div>
                         <div class="compare__text">
                             Standard ist Selfservice mit Ticket oder Betreuung durch einen zusätzlichen IT-Systempartner.
@@ -352,11 +450,19 @@ $faqs->faq_add (
         <div class="tablist tablist--on-black">
             <div class="tablist__links">
                 <div class="tablist__link" data-tab="1">
-                    <img src="/assets/images/icons_svg/eigener-provider.svg" alt="eigenen Provider mit CallOne Softphone verbinden" width="70" height="70" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/eigener-provider.svg',
+                        'eigenen Provider mit CallOne Softphone verbinden',
+                        70, 70
+                    ); ?>
                     <strong>Eigenen Provider verbinden</strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <img src="/assets/images/icons_svg/callone-telefonanlage.svg" alt="Softphone mit Cloud Telefonanlage verbinden" width="70" height="70" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/callone-telefonanlage.svg',
+                        'Softphone mit Cloud Telefonanlage verbinden',
+                        70, 70
+                    ); ?>
                     <strong>Softphone mit VoIP-Telefonanlage</strong>
                 </div>
             </div>
@@ -366,7 +472,11 @@ $faqs->faq_add (
                 <p class="centered mobile-left">Das Softphone mit den Grundfunktionen für Telefonie und Click-to-Dial können Sie stets kostenfrei nutzen. Zukünftige Features für noch angenehmere Business-Telefonie können Sie für einen Aufpreis dazubuchen.</p>
 
                 <p class="centered">
-                    <img src="/assets/images/softphone/SIP-visualization.svg" alt="SIP Carrier Ihrer Wahl bei CallOne " width="299" height="124" />
+                    <?= pictureTag(
+                        '/assets/images/softphone/SIP-visualization.svg',
+                        'SIP Carrier Ihrer Wahl bei CallOne',
+                        299, 124
+                    ); ?>
                 </p>
 
                 <div class="content-box content-box--white pricetoggle__whitebox">
@@ -397,15 +507,27 @@ $faqs->faq_add (
 
                 <div class="grid centered">
                     <div class="col-3">
-                        <img src="/assets/images/icons_svg/icon-spezialist.svg" alt="Spezialist für Business Telefonie" width="56" height="62" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-spezialist.svg',
+                            'Spezialist für Business Telefonie',
+                            56, 62
+                        ); ?>
                         <p class="secondary">Spezialist für<br />Business Telefonie</p>
                     </div>
                     <div class="col-3">
-                        <img src="/assets/images/icons_svg/icon-ansprechpartner.svg" alt="Persönlicher Ansprechpartner für Ihre Business Telefonie" width="57" height="61" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-ansprechpartner.svg',
+                            'Persönlicher Ansprechpartner für Ihre Business Telefonie',
+                            57, 61
+                        ); ?>
                         <p class="secondary">Persönlicher<br />Ansprechpartner</p>
                     </div>
                     <div class="col-3">
-                        <img src="/assets/images/icons_svg/icon-datenschutz.svg" alt="Unternehmenstelefonie mit deutschem Datenschutzstandard" width="51" height="61" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-datenschutz.svg',
+                            'Unternehmenstelefonie mit deutschem Datenschutzstandard',
+                            51, 61
+                        ); ?>
                         <p class="secondary">Deutscher<br />Datenschutz-Standard</p>
                     </div>
                 </div>
@@ -418,7 +540,11 @@ $faqs->faq_add (
                             <div class="usercalc__box">
                                 <div class="usercalc__header">
                                     <div class="usercalc__icon">
-                                        <img src="/assets/images/icons_svg/voip-telefonanlage.svg" alt="Cloud Telefonanlage für Business Telefonie" width="50" height="51" />
+                                        <?= pictureTag(
+                                            '/assets/images/icons_svg/voip-telefonanlage.svg',
+                                            'Cloud Telefonanlage für Business Telefonie',
+                                            50, 51
+                                        ); ?>
                                     </div>
                                     <div class="usercalc__title">
                                         <strong>Telefonanlage</strong><br />
@@ -458,7 +584,11 @@ $faqs->faq_add (
                             <label class="usercalc__box" for="callcenter-software">
                                 <span class="usercalc__header">
                                     <span class="usercalc__icon">
-                                        <img src="/assets/images/icons_svg/callcenter-software.svg" alt="Call Center Software" width="50" height="51" />
+                                        <?= pictureTag(
+                                            '/assets/images/icons_svg/callcenter-software.svg',
+                                            'Call Center Software',
+                                            50, 51
+                                        ); ?>
                                     </span>
                                     <span class="usercalc__title">
                                         <strong>Callcenter-Software</strong><br />
@@ -540,7 +670,11 @@ $faqs->faq_add (
         <div class="installation">
             <div class="installation__header">
                 <div class="installation__logo">
-                    <img src="/assets/images/icons_svg/softphone-app-icon.svg" alt="CallOne Softphone als App" width="136" height="136" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/softphone-app-icon.svg',
+                        'CallOne Softphone als App',
+                        136, 136
+                    ); ?>
                 </div>
                 <div class="installation__title">
                     <span class="headline-tag">App</span><br />
@@ -558,15 +692,27 @@ $faqs->faq_add (
 
                 <div class="installation__grid">
                     <div class="installation__col">
-                        <img src="/assets/images/icons_svg/icon-download-extension.svg" alt="Browser App für CallOne Softphone downloaden" width="50" height="36" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-download-extension.svg',
+                            'Browser App für CallOne Softphone downloaden',
+                            50, 36
+                        ); ?>
                         1. Browser App<br />herunterladen
                     </div>
                     <div class="installation__col">
-                        <img src="/assets/images/icons_svg/icon-authorization.svg" alt="Zugangsdaten für CallOne Softphone eintragen" width="50" height="50" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-authorization.svg',
+                            'Zugangsdaten für CallOne Softphone eintragen',
+                            50, 50
+                        ); ?>
                         2. Zugangsdaten<br />eintragen
                     </div>
                     <div class="installation__col">
-                        <img src="/assets/images/icons_svg/icon-softphone-use.svg" alt="CallOne Softphone nutzen" width="58" height="42" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-softphone-use.svg',
+                            'CallOne Softphone nutzen',
+                            50, 42
+                        ); ?>
                         3. Los<br />telefonieren
                     </div>
                 </div>
@@ -575,15 +721,33 @@ $faqs->faq_add (
 
                 <div class="installation__browsers">
                     <a href="#" class="installation__browser" data-browser="chrome">
-                        <div><img src="/assets/images/icons_png/google-chrome.png" alt="Softphone für Chrome Browser Extension" width="40" height="40" /></div>
+                        <div>
+                            <?= pictureTag(
+                                '/assets/images/icons_png/google-chrome.png',
+                                'Softphone für Chrome Browser Extension',
+                                40, 40
+                            ); ?>
+                        </div>
                         Google <br />Chrome
                     </a>
                     <a href="#" class="installation__browser" data-browser="firefox">
-                        <div><img src="/assets/images/icons_png/mozilla-firefox.png" alt="Softphone für Mozilla Firefox Browser Extension" width="40" height="39" /></div>
+                        <div>
+                            <?= pictureTag(
+                                '/assets/images/icons_png/mozilla-firefox.png',
+                                'Softphone für Mozilla Firefox Browser Extension',
+                                40, 39
+                            ); ?>
+                        </div>
                         Mozilla <br />Firefox
                     </a>
                     <a href="#" class="installation__browser" data-browser="edge">
-                        <div><img src="/assets/images/icons_svg/edge-logo.svg" alt="Softphone für Microsoft Edge Browser Extension" width="40" height="39" /></div>
+                        <div>
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/edge-logo.svg',
+                                'Softphone für Microsoft Edge Browser Extension',
+                                40, 39
+                            ); ?>
+                        </div>
                         Microsoft <br />Edge
                     </a>
                 </div>

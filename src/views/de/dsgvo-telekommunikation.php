@@ -1,7 +1,11 @@
 <div class="section section--no-padding-bottom section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/data-protection-header-illustration.svg" alt="Unternehmenstelefonie mit hohem Datenschutzstandard" />
+            <?= pictureTag(
+                '/assets/images/illus/data-protection-header-illustration.svg',
+                'Unternehmenstelefonie mit hohem Datenschutzstandard',
+                465, 436, [], false
+            ); ?>
         </div>
         <div class="hero__text">
             <h1>Zeigen Sie Ausfällen, Notfällen und Datenschutz&shy;problemen den Mittelfinger!</h1>
@@ -28,7 +32,7 @@
 
 <div class="section section--white-light-green">
     <div class="section__content section__content--wide">
-        <div class="content-box content-box--green-dataprotection content-box--big-padding content-box--border content-box--full-width">
+        <div class="content-box content-box--green-dataprotection content-box--big-padding content-box--border content-box--full-width" style="margin-bottom:var(--gutter-l)">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                     <h3>Warum Sie hinsichtlich Ihrer Telefonie auf Nummer sicher gehen sollten:</h3>
@@ -65,11 +69,19 @@
         <div class="tablist" id="ausfaelle-notfaelle">
             <div class="tablist__links">
                 <div class="tablist__link" data-tab="1">
-                    <img src="/assets/images/icons_svg/reliability-icon.svg" alt="Zuverlässige und sichere Unternehmenstelefonie" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/reliability-icon.svg',
+                        'Zuverlässige und sichere Unternehmenstelefonie',
+                        48, 48
+                    ); ?>
                     <strong>Ausfallsicherheit</strong>
                 </div>
                 <div class="tablist__link" data-tab="2">
-                    <img src="/assets/images/icons_svg/emergency-icon.svg" alt="Unternehmenstelefonie mit Notfall-Optionen" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/emergency-icon.svg',
+                        'Unternehmenstelefonie mit Notfall-Optionen',
+                        48, 48
+                    ); ?>
                     <strong>Notfall-Optionen</strong>
                 </div>
             </div>
@@ -90,7 +102,11 @@
                                 <p class="bigtext">Ihre Datenbank, der Backup-Server und Vermittlungsstellen liegen in zertifizierten Hochsicherheitsrechenzentren, ausnahmslos in Deutschland.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/georedundancy-illustration.svg" alt="georedundante Systeme für Cloud Telefonanlage und Call Center Software" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/georedundancy-illustration.svg',
+                                    'georedundante Systeme für Cloud Telefonanlage und Call Center Software',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -111,15 +127,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Hochverfügbarkeit nahe 100%
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Sicherheit und Planbarkeit
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Skalieren ohne Risiko
                                 </div>
                             </div>
@@ -131,7 +165,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/ddos-illustration.svg" alt="Premium DDoS Schutz für Ihre Cloud Telefonanlage und Callcenter Software" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/ddos-illustration.svg',
+                                    'Premium DDoS Schutz für Ihre Cloud Telefonanlage und Callcenter Software',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>DDoS-Premiumschutz</h3>
@@ -156,15 +194,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Schutz Ihres Geschäfts
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Lösung für ein größer werdendes Problem
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Weltweit nutzbar
                                 </div>
                             </div>
@@ -180,7 +236,11 @@
                                 <p class="bigtext">Alle technischen Komponenten sind auf dem neusten Stand und entsprechen höchsten Sicherheitsstandards. Ständige Wartung gewährleistet beste Funktionalität.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/hardware-illustration.svg" alt="Modernste Hardware für Ihre Unternehmenstelefonie" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/hardware-illustration.svg',
+                                    'Modernste Hardware für Ihre Unternehmenstelefonie',
+                                    472, 386
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -200,15 +260,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Keine oder nur minimale Ausfallzeit
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Schnellere Anwendungs- und Ressourcenbereitstellung
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Verbesserte Produktivität und Effizienz
                                 </div>
                             </div>
@@ -220,7 +298,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/backup-illustration.svg" alt="Backup für Ihre Businesstelefonie und Cloud Telefonanlage" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/backup-illustration.svg',
+                                    'Backup für Ihre Businesstelefonie und Cloud Telefonanlage',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Back it up</h3>
@@ -245,15 +327,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Sicherheit, die sich auszahlt
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     DSGVO-Konformität
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Erreichbarkeit der Telefonie nahe 100%
                                 </div>
                             </div>
@@ -266,25 +366,41 @@
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">Georedundanz und <br />ISP-Anbindung</h4>
-                            <img src="/assets/images/illus/georedundancy-illustration.svg" alt="Geo-redundante Systeme für Ihre Businesstelefonie und Cloud Telefonanlage" />
+                            <?= pictureTag(
+                                '/assets/images/illus/georedundancy-illustration.svg',
+                                'Geo-redundante Systeme für Ihre Businesstelefonie und Cloud Telefonanlage',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">DDoS-<br />Premiumschutz</h4>
-                            <img src="/assets/images/illus/ddos-illustration.svg" alt="DDoS Premiumschutz für Ihre Businesstelefonie von CallOne" />
+                            <?= pictureTag(
+                                '/assets/images/illus/ddos-illustration.svg',
+                                'Premium DDoS Schutz für Ihre Cloud Telefonanlage und Callcenter Software',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">State-of-the-Art <br />Hardware</h4>
-                            <img src="/assets/images/illus/hardware-illustration.svg" alt="Modernste Hardware für Ihre Cloud Telefonanlage und Businesstelefonie" />
+                            <?= pictureTag(
+                                '/assets/images/illus/hardware-illustration.svg',
+                                'Modernste Hardware für Ihre Unternehmenstelefonie',
+                                472, 386
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered"><br />Back it up</h4>
-                            <img src="/assets/images/illus/backup-illustration.svg" alt="Backup für Ihre Unternehmenstelefonie" />
+                            <?= pictureTag(
+                                '/assets/images/illus/backup-illustration.svg',
+                                'Backup für Ihre Businesstelefonie und Cloud Telefonanlage',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                 </div>
@@ -306,7 +422,11 @@
                                 <p class="bigtext">Automatisiert schreitet im Störungsfall unser Backup-Routing ein und Sie bleiben trotzdem immer erreichbar. Noch vielfältiger als Backup-Routings: Sie wählen aus einer Vielzahl an Notfall-Routings das richtige für Ihren Störungsfall.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/backup-routing-illustration.svg" alt="Backup Routing für Störung Ihrer Telefonanlage" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/backup-routing-illustration.svg',
+                                    'Backup Routing für Störung Ihrer Telefonanlage',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -326,15 +446,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Frühzeige Planbarkeit
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Optimale Erreichbarkeit
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Flexible Ausweichmöglichkeiten
                                 </div>
                             </div>
@@ -346,7 +484,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/announcement-illustration.svg" alt="Sprachansagen für Ihre Callcenter Software und Cloud Telefonanlage" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/announcement-illustration.svg',
+                                    'Sprachansagen für Ihre Callcenter Software und Cloud Telefonanlage',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Störungsansagen</h3>
@@ -371,15 +513,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Gezielte Anruferinformationen
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Vermeidung von Anrufpeaks
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Individuelle, gezielte Kundenansprache
                                 </div>
                             </div>
@@ -395,7 +555,11 @@
                                 <p class="bigtext">Internet weg, Feueralarm, Stromausfall? Dann stellen Sie Ihr Routing mit einem einfachen Anruf um. Funktioniert auch ohne Notfall jederzeit.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/routing-change-illustration.svg" alt="Notfallrufnummern für Ihre Unternehmenstelefonie" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/routing-change-illustration.svg',
+                                    'Notfallrufnummern für Ihre Unternehmenstelefonie',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -415,15 +579,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Schnelle Reaktion im Notfall
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Weltweit nutzbar
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Individuell umsetzbar
                                 </div>
                             </div>
@@ -435,7 +617,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/emergency-call-illustration.svg" alt="Notfallanrufe für Ihre Cloud Telefonanlage und Cloud ACD" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/emergency-call-illustration.svg',
+                                    'Notfallanrufe für Ihre Cloud Telefonanlage und Cloud ACD',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Notruf 110 & 112</h3>
@@ -460,15 +646,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Deutschlandweiter Service
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Arbeitsschutzgesetz-konform
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Inklusivleistung unserer Lösung
                                 </div>
                             </div>
@@ -479,12 +683,16 @@
                 <div class="expandable mobile-hidden">
                     <div class="expandable__main">
                         <div class="co-grid">
-                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
-                                <img src="/assets/images/illus/external-callcenter-illustration.svg" alt="Callcenter einbinden für Callcenter Software und Cloud Telefonanlage" />
-                            </div>
                             <div class="co-grid__col co-grid__col--7-xs co-grid__col--vcentered">
                                 <h3>Externe Callcenter-Einbindung</h3>
                                 <p class="bigtext">In unsere Software sind externe Callcenter bereits optimal eingebunden. Nicht nur im Notfall sorgen Sie so für beständige Erreichbarkeit.</p>
+                            </div>
+                            <div class="co-grid__col co-grid__col--5-xs co-grid__col--vcentered">
+                                <?= pictureTag(
+                                    '/assets/images/illus/external-callcenter-illustration.svg',
+                                    'Callcenter einbinden für Callcenter Software und Cloud Telefonanlage',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -505,15 +713,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Optimales Zusammenspiel mit eigenen Agenten
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Transparenz durch umfangreiche Statistiken
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile der CallOne Businesstelefonie" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile der CallOne Businesstelefonie',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Flexible Steuerung
                                 </div>
                             </div>
@@ -526,31 +752,51 @@
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">Backup- & <br />Notfall-Routing</h4>
-                            <img src="/assets/images/illus/backup-routing-illustration.svg" alt="Notfall-Routing für Ihre Telefonanlage" />
+                            <?= pictureTag(
+                                '/assets/images/illus/backup-routing-illustration.svg',
+                                'Backup Routing für Störung Ihrer Telefonanlage',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered"><br />Störungsansagen</h4>
-                            <img src="/assets/images/illus/announcement-illustration.svg" alt="Störungsansagen bei Ausfällen und Störungen Ihrer Telefonanlage" />
+                            <?= pictureTag(
+                                '/assets/images/illus/announcement-illustration.svg',
+                                'Sprachansagen für Ihre Callcenter Software und Cloud Telefonanlage',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">Telefonische <br />Routingänderungen</h4>
-                            <img src="/assets/images/illus/routing-change-illustration.svg" alt="Routingänderungen für Ihre Cloud Telefonanlage" />
+                            <?= pictureTag(
+                                '/assets/images/illus/routing-change-illustration.svg',
+                                'Notfallrufnummern für Ihre Unternehmenstelefonie',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">Notruf <br />110 & 112</h4>
-                            <img src="/assets/images/illus/emergency-call-illustration.svg" alt="Notfall Rufnummern für Ihre Unternehmenstelefonie" />
+                            <?= pictureTag(
+                                '/assets/images/illus/emergency-call-illustration.svg',
+                                'Notfallanrufe für Ihre Cloud Telefonanlage und Cloud ACD',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                     <div class="fader__item">
                         <div class="content-box content-box--white content-box--shadow">
                             <h4 class="centered">Externe <br />Callcenter-Einbindung</h4>
-                            <img src="/assets/images/illus/external-callcenter-illustration.svg" alt="Callcenter Einbindung für Ihre Unternehmenstelefonie" />
+                            <?= pictureTag(
+                                '/assets/images/illus/external-callcenter-illustration.svg',
+                                'Callcenter einbinden für Callcenter Software und Cloud Telefonanlage',
+                                431, 352
+                            ); ?>
                         </div>
                     </div>
                 </div>
@@ -570,7 +816,11 @@
 <div class="section section--black" id="datenschutz">
     <div class="section__content section__content--wide">
         <p class="centered mobile-left">
-            <img src="/assets/images/icons_svg/law-love-icon.svg" alt="Datenschutz Businesstelefonie" /><br />
+            <?= pictureTag(
+                '/assets/images/icons_svg/law-love-icon.svg',
+                'Datenschutz Businesstelefonie',
+                70, 70
+            ); ?><br />
             <br />
         </p>
 
@@ -588,7 +838,13 @@
         <div class="content-box content-box--white-datenschutz content-box--full-width mobile-hidden">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
-                    <p><img src="/assets/images/icons_svg/dsvgo-icon.svg" alt="Datenschutz DSGVO konforme Telefonanlage aus der Cloud" /></p>
+                    <p>
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/dsvgo-icon.svg',
+                            'Datenschutz DSGVO konforme Telefonanlage aus der Cloud',
+                            100, 100
+                        ); ?>
+                    </p>
                     <h3>DSGVO-konform, bis ins Detail</h3>
                     <p class="bigtext">Kümmern Sie sich um Ihr Business, wir kümmern uns um den Rest. Auch den Datenschutz, und zwar in allen Belangen.</p>
 
@@ -597,19 +853,37 @@
                     <div class="carddeck carddeck--right carddeck--on-black">
                         <div class="carddeck__card">
                             <p class="bigtext">
-                                <img src="/assets/images/icons_svg/vpn-icon.svg" alt="VPN Cloud Telefonanlage" style="vertical-align:middle" /> VPN
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/vpn-icon.svg',
+                                    'VPN Cloud Telefonanlage',
+                                    50, 50, [
+                                        'style' => 'vertical-align:middle'
+                                    ]
+                                ); ?> VPN
                             </p>
                             <p class="subtext">Direkte, vollständige Verschlüsselung der Datenverbindung zwischen Endgerät und Server.</p>
                         </div>
                         <div class="carddeck__card">
                             <p class="bigtext">
-                                <img src="/assets/images/icons_svg/sip-icon.svg" alt="SIP Cloud Telefonanlage" style="vertical-align:middle" /> SIP
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/sip-icon.svg',
+                                    'SIP Cloud Telefonanlage',
+                                    50, 50, [
+                                        'style' => 'vertical-align:middle'
+                                    ]
+                                ); ?> SIP
                             </p>
                             <p class="subtext">Sichere Übertragung Ihrer Gespräche mit SIP-Transport.</p>
                         </div>
                         <div class="carddeck__card">
                             <p class="bigtext">
-                                <img src="/assets/images/icons_svg/srtp-icon.svg" alt="SRTP Cloud Telefonanlage" style="vertical-align:middle" /> SRTP
+                                <?= pictureTag(
+                                    '/assets/images/icons_svg/srtp-icon.svg',
+                                    'SRTP Cloud Telefonanlage',
+                                    50, 50, [
+                                        'style' => 'vertical-align:middle'
+                                    ]
+                                ); ?> SRTP
                             </p>
                             <p class="subtext">Supersichere End-to-End Verschlüsselung aller Ihrer gesprochenen Daten.</p>
                         </div>
@@ -637,7 +911,11 @@
             <div class="tablist__content" data-tab="1">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                        <img src="/assets/images/illus/private-cloud-illustration.svg" alt="Private Cloud für Telefonanlage mit Datenschutz" />
+                        <?= pictureTag(
+                            '/assets/images/illus/private-cloud-illustration.svg',
+                            'Private Cloud für Telefonanlage mit Datenschutz',
+                            568, 532
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                         <h6>Mehr Kontrolle</h6>
@@ -651,7 +929,11 @@
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
-                        <img src="/assets/images/illus/internal-dataprotection-illustration.svg" alt="Interner Datenschutz und Datensicherheit für Ihre Cloud Telefonanlage" />
+                        <?= pictureTag(
+                            '/assets/images/illus/internal-dataprotection-illustration.svg',
+                            'Interner Datenschutz und Datensicherheit für Ihre Cloud Telefonanlage',
+                            570, 583
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--6-xs co-grid__col--vcentered">
                         <h6>Mehr Schutz</h6>
@@ -666,7 +948,11 @@
         <!-- Mobile Contents -->
         <div class="content-box content-box--white-on-black desktop-hidden">
             <p class="centered">
-                <img src="/assets/images/icons_svg/dsvgo-germany-icon-group.svg" alt="Deutscher Datenschutz DSGVO für Ihre Cloud Telefonanlage und Businesstelefonie" />
+                <?= pictureTag(
+                    '/assets/images/icons_svg/dsvgo-germany-icon-group.svg',
+                    'Deutscher Datenschutz DSGVO für Ihre Cloud Telefonanlage und Businesstelefonie',
+                    154, 77
+                ); ?>
             </p>
             <h3 class="centered">DSGVO-konform, <br />bis ins Detail</h3>
         </div>
@@ -674,13 +960,21 @@
         <div class="content-box content-box--white desktop-hidden">
             <h6>Mehr Kontrolle</h6>
             <h4 style="margin-top:0">Private Cloud</h4>
-            <img src="/assets/images/illus/private-cloud-mobile-illustration.svg" alt="Private Cloud für Sicherheit Ihrer Cloud Telefonanlage" />
+            <?= pictureTag(
+                '/assets/images/illus/private-cloud-mobile-illustration.svg',
+                'Private Cloud für Sicherheit Ihrer Cloud Telefonanlage',
+                325, 227
+            ); ?>
         </div>
 
         <div class="content-box content-box--white desktop-hidden">
             <h6>Mehr Schutz</h6>
             <h4 style="margin-top:0">Interner Datenschutz</h4>
-            <img src="/assets/images/illus/internal-dataprotection-mobile-illustration.svg" alt="Interne Datensicherheit und Datenschutz für sichere Cloud Telefonanlage" />
+            <?= pictureTag(
+                '/assets/images/illus/internal-dataprotection-mobile-illustration.svg',
+                'Interne Datensicherheit und Datenschutz für sichere Cloud Telefonanlage',
+                325, 215
+            ); ?>
         </div>
     </div>
 </div>
@@ -691,7 +985,11 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="Erstgespräch mit CallOne" width="70" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/first-call-white.svg',
+                            'Erstgespräch mit CallOne',
+                            70, 70
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h3>

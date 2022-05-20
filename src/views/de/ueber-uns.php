@@ -1,7 +1,11 @@
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/about-us-header-illustration.svg" alt="Wir sind CallOne" width="465" height="465" />
+            <?= pictureTag(
+                '/assets/images/illus/about-us-header-illustration.svg',
+                'Wir sind CallOne',
+                465, 465, [], false
+            ); ?>
         </div>
         <div class="hero__text">
             <h1>Hallo, wir sind CallOne</h1>
@@ -65,10 +69,18 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vend">
                 <div class="collage">
                     <div class="collage__big">
-                        <img src="/assets/images/photos/collage-background-1.png" alt="CallOne Team für Telekommunikationslösungen" width="456" height="325" />
+                        <?= pictureTag(
+                            '/assets/images/photos/collage-background-1.png',
+                            'CallOne Team für Telekommunikationslösungen',
+                            456, 325
+                        ); ?>
                     </div>
                     <div class="collage__small">
-                        <img src="/assets/images/photos/collage-foreground-1.png" alt="Björn Bendig Geschäftsführer CallOne" width="228" height="219" />
+                        <?= pictureTag(
+                            '/assets/images/photos/collage-foreground-1.png',
+                            'Björn Bendig Geschäftsführer CallOne',
+                            228, 219
+                        ); ?>
                     </div>
                     <div class="collage__text bigtext">
                         <strong>Björn Bendig</strong><br />
@@ -82,7 +94,13 @@
     <div class="section__content section__content--wide" id="kultur">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/culture-photo.png" alt="Telekommunikationsanbiete für mehr Effizienz und hohen ROI" class="co-grid__image--full-width" />
+                <?= pictureTag(
+                    '/assets/images/photos/culture-photo.png',
+                    'Telekommunikationsanbiete für mehr Effizienz und hohen ROI',
+                    570, 368, [
+                        'class' => 'co-grid__image--full-width'
+                    ]
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <h2>Was wir anders machen</h2>
@@ -95,17 +113,35 @@
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="mobile-hidden"><img src="/assets/images/icons_svg/results-icon.svg" alt="Messbare Ergebnisse Kundenservice und Sales Software" /></p>
+                <p class="mobile-hidden">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/results-icon.svg',
+                        'Messbare Ergebnisse Kundenservice und Sales Software',
+                        70, 70
+                    ); ?>
+                </p>
                 <h3>Messbare<br />Ergebnisse</h3>
                 <p class="bigtext">Kunden kommen zu CallOne wenn Sie richtig sparen wollen. Wir unterstützen mit einer leistungsstarken Plattform und zielführender Beratung mit dem Ziel Ihren ROI zu maximieren.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="mobile-hidden"><img src="/assets/images/icons_svg/partnership-icon.svg" alt="Persönliche Ansprechpartner für Unternehmenstelefonie" /></p>
+                <p class="mobile-hidden">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/partnership-icon.svg',
+                        'Persönliche Ansprechpartner für Unternehmenstelefonie',
+                        70, 70
+                    ); ?>
+                </p>
                 <h3>Persönliche<br />Projekt&shy;managerinnen</h3>
                 <p class="bigtext">Jeder Kunde erhält seine persönliche Ansprechperson, geschult und darauf fokussiert Sie von Anbeginn und dauerhaft bei Ihren Themen rund um unsere Telefonlösung zu unterstützen.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="mobile-hidden"><img src="/assets/images/icons_svg/reliability-icon.svg" alt="Zuverlässige Technologie Kundenservice Software und Cloud Telefonanlage" /></p>
+                <p class="mobile-hidden">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/reliability-icon.svg',
+                        'Zuverlässige Technologie Kundenservice Software und Cloud Telefonanlage',
+                        70, 70
+                    ); ?>
+                </p>
                 <h3>Zuverlässige<br />Technologie</h3>
                 <p class="bigtext">Bei uns gibt es kein „wenn und aber“, wenn es um Zuverlässigkeit und Stabilität geht. Unsere Systeme sind zertifiziert und auf Hochlast ausgelegt, um operative Exzellenz zu gewährleisten.</p>
             </div>
@@ -120,31 +156,61 @@
 
         <div class="co-grid centered mobile-left">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="mobile-centered"><img src="/assets/images/illus/planting-trees-illustration.svg" alt="CallOne Baumpflanzaktion für Neukunden"></p>
+                <p class="mobile-centered">
+                    <?= pictureTag(
+                        '/assets/images/illus/planting-trees-illustration.svg',
+                        'CallOne Baumpflanzaktion für Neukunden',
+                        370, 230
+                    ); ?>
+                </p>
                 <h3>CallOne Baumpflanzaktion</h3>
                 <p class="bigtext">1.000 Bäume bis Ende 2022 sind unser Ziel. Für jeden neu gewonnen Kunden verpflichten wir uns zusätzliche Bäume zu pflanzen und unserer unternehmerischen Verantwortung gerecht zu werden.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="mobile-centered"><img src="/assets/images/illus/green-energy-illustration.svg" alt="Ökostrom und grünes Webhosting"></p>
+                <p class="mobile-centered">
+                    <?= pictureTag(
+                        '/assets/images/illus/green-energy-illustration.svg',
+                        'Ökostrom und grünes Webhosting',
+                        370, 230
+                    ); ?>
+                </p>
                 <h3>100% Ökostrom</h3>
                 <p class="bigtext">Wir haben uns für grünes Webhosting entschieden, denn allein in Deutschland verschlingen Rechenzentren zwei Prozent allen Stroms.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <p class="mobile-centered"><img src="/assets/images/illus/ebikes-illustration.svg" alt="Elektromobilität"></p>
+                <p class="mobile-centered">
+                    <?= pictureTag(
+                        '/assets/images/illus/ebikes-illustration.svg',
+                        'Elektromobilität',
+                        370, 230
+                    ); ?>
+                </p>
                 <h3>Elektrisch mobil</h3>
                 <p class="bigtext">Mobil sein und das Klima schützen? Wir bei CallOne setzen gänzlich auf Elektromobilität. eBike statt Auto, Bahn statt Flugzeug, damit weniger schädigende Klimagase in die Atmosphäre gelangen.</p>
             </div>
         </div>
     </div>
 
-    <img src="/assets/images/backgrounds_svg/plant-planet-illustration.svg" alt="Umweltschutz in Telekommunikationslösungen" style="display:block;margin:30px auto 0 auto;" />
+    <?= pictureTag(
+        '/assets/images/backgrounds_svg/plant-planet-illustration.svg',
+        'Umweltschutz in Telekommunikationslösungen',
+        770, 227, [
+            'style' => 'display:block;margin:30px auto 0 auto;'
+        ]
+    ); ?>
 </div>
 
 <div class="section section--black" id="kunden">
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--order-2-xs co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
-                <p class="centered"><img src="/assets/images/photos/customer-experiences.png" alt="Kundenstimmen Telekommunikationslösung von CallOne" width="570" height="510" /></p>
+                <p class="centered">
+                    <?= pictureTag(
+                        '/assets/images/photos/customer-experiences.png',
+                        'Kundenstimmen Telekommunikationslösung von CallOne',
+                        570, 510
+                    ); ?>
+                </p>
             </div>
             <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
                 <h2>Wir schaffen bessere Kundenerlebnisse. Gemeinsam.</h2>
@@ -172,13 +238,25 @@
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/amorelie-carddeck-black.png" alt="Amorelie Kunde CallOne" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/amorelie-carddeck-black.png',
+                                    'Amorelie Kunde CallOne',
+                                    292, 155
+                                ); ?>
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/bett1-carddeck-black.png" alt="Bett1 Kunde CallOne" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/bett1-carddeck-black.png',
+                                    'Bett1 Kunde CallOne',
+                                    292, 155
+                                ); ?>
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/flaconi-carddeck-black.png" alt="Flaconi Kunde CallOne" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/flaconi-carddeck-black.png',
+                                    'Flaconi Kunde CallOne',
+                                    292, 155
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -202,13 +280,25 @@
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/snipes-carddeck-black.png" alt="Sniped Kunde CallOne" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/snipes-carddeck-black.png',
+                                    'Sniped Kunde CallOne',
+                                    292, 155
+                                ); ?>
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/bunzl-carddeck-black.png" alt="Bunzl Kunde CallOne" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/bunzl-carddeck-black.png',
+                                    'Bunzl Kunde CallOne',
+                                    292, 155
+                                ); ?>
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/der-carddeck-black.png" alt="der Kunde CallOne" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/der-carddeck-black.png',
+                                    'der Kunde CallOne',
+                                    292, 155
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -232,13 +322,25 @@
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
                         <div class="carddeck carddeck--right carddeck--no-indicators centered" data-speed="2000" data-height="215">
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/check24-carddeck-black.png" alt="Check24" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/check24-carddeck-black.png',
+                                    'der Kunde Check24',
+                                    292, 155
+                                ); ?>
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/helios-carddeck-black.png" alt="Helios" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/helios-carddeck-black.png',
+                                    'der Kunde Helios',
+                                    292, 155
+                                ); ?>
                             </div>
                             <div class="carddeck__card carddeck__card--vcentered">
-                                <img src="/assets/images/client-logos/carddeck/sodastream-carddeck-black.png" alt="Sodastream" />
+                                <?= pictureTag(
+                                    '/assets/images/client-logos/carddeck/sodastream-carddeck-black.png',
+                                    'der Kunde Sodastream',
+                                    292, 155
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -278,7 +380,13 @@ $jobsCount = count($jobs->jobs_get());
                 <br />
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vend">
-                <img src="/assets/images/photos/work-foreground.png" alt="CallOne Businesstelefonie aus der Cloud und persönliche Ansprechpartner" width="570" height="451" class="co-grid__image--full-width" />
+                <?= pictureTag(
+                    '/assets/images/photos/work-foreground.png',
+                    'CallOne Businesstelefonie aus der Cloud und persönliche Ansprechpartner',
+                    570, 451, [
+                        'class' => 'co-grid__image--full-width'
+                    ]
+                ); ?>
             </div>
         </div>
     </div>

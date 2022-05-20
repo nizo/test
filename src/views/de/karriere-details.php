@@ -116,7 +116,13 @@ if (empty ($job))
 <div class="section">
     <div class="section__content section__content--wide">
         <p class="centered">
-            <img src="<?= $job->icon_get(); ?>" alt="Stellen bei CallOne" style="max-width: 70px" />
+            <?= pictureTag(
+                $job->icon_get(),
+                'Stellen bei CallOne',
+                70, null, [
+                    'style' => 'max-width: 70px'
+                ], false
+            ); ?>
         </p>
         
         <h1 class="centered">
@@ -143,15 +149,27 @@ if (empty ($job))
 
 <div class="job-details" style="--top-color:#fff;--bottom-color:#edf2e2">
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_35.svg" alt="Arbeitsstelle" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_35.svg',
+            'Arbeitsstelle',
+            35, 48
+        ); ?>
         <?= $job->location_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_32.svg" alt="Arbeitszeit" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_32.svg',
+            'Arbeitszeit',
+            50, 48
+        ); ?>
         <?= $job->job_worktime_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_31.svg" alt="Arbeitsbeginn" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_31.svg',
+            'Arbeitsbeginn',
+            56, 48
+        ); ?>
         <?= $job->job_start_end_get(); ?>
     </div>
 </div>
@@ -176,7 +194,11 @@ if (!empty($job->statement_get())):
             <div class="breather-box" style="--c-bg:#fff;--c-text:#000">
                 <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--vcentered">
-                        <img src="<?= $statement->image_get(); ?>" alt="Statement" width="150" height="150" class="job-quote-image" />
+                        <?= pictureTag(
+                                $statement->image_get(),
+                                'Statement',
+                                150, 150, ['class'=>'job-quote-image']
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
                         <div class="quote" style="--fontSize:26px">
@@ -249,7 +271,11 @@ endif;
 				echo '<div class="content-box content-box--white content-box--shadow content-box--small-padding">';
                 echo '<div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">';
                 echo '<div class="co-grid__col co-grid__col--vcentered">';
-                echo '<img src="'.$benefit->icon_get().'" alt="Vorteilebei CallOne Arbeiten" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />';
+                echo pictureTag(
+                    $benefit->icon_get(),
+                    'Vorteile bei CallOne Arbeiten',
+                    70, 70, ['style'=>'height:70px','class'=>'co-grid__image--full-width']
+                );
                 echo '</div>';
                 echo '<div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">';
                 echo '<h4 style="margin-bottom:0">'.$benefit->title_get().'</h4>';

@@ -9,14 +9,22 @@
         <a href="#" class="contactoption contactoption--highlight" data-openmodal="contact-sales">
             <div class="contactoption__header">
                 <div class="contactoption__icon">
-                    <img src="/assets/images/icons_svg/contact-sales-black.svg" alt="Wie können wir Ihnen helfen?" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/contact-sales-black.svg',
+                        'Wie können wir Ihnen helfen?',
+                        70, 70, [], false
+                    ); ?>
                 </div>
                 <div class="contactoption__text">
                     <strong>Anfrage zu Produkten & Lösungen</strong><br />
                     Ihre Anforderungen abstimmen, Termin vereinbaren
                 </div>
                 <div class="contactoption__action">
-                    <img src="/assets/images/icons_svg/forward-arrow.svg" alt="Weiter zur Kontaktaufnahme für Businesstelefonie-Lösungen" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/forward-arrow-icon.svg',
+                        'Weiter zur Kontaktaufnahme für Businesstelefonie-Lösungen',
+                        33, 33, [], false
+                    ); ?>
                 </div>
             </div>
         </a>
@@ -25,16 +33,40 @@
         <div class="contactoption">
             <label for="contactoption1" class="contactoption__header">
                 <span class="contactoption__icon">
-                    <img src="/assets/images/icons_svg/support-request-white.svg" alt="Sie brauchen Support zur Call Center Software oder CLoud Telefonanlage" class="contactoption--closed" />
-                    <img src="/assets/images/icons_svg/support-request-black.svg" alt="Sie brauchen Unterstützung für Ihre Call Center Software oder Cloud Telefonanlage?" class="contactoption--open" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/support-request-white.svg',
+                        'Sie brauchen Support zur Call Center Software oder CLoud Telefonanlage',
+                        70, 70, [
+                            'class' => 'contactoption--closed'
+                        ]
+                    ); ?>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/support-request-black.svg',
+                        'Sie brauchen Unterstützung für Ihre Call Center Software oder Cloud Telefonanlage?',
+                        70, 70, [
+                            'class' => 'contactoption--open'
+                        ]
+                    ); ?>
                 </span>
                 <span class="contactoption__text">
                     <strong>Support-Anfrage</strong><br />
                     Sie sind CallOne Kunde und benötigen Support
                 </span>
                 <span class="contactoption__action">
-                    <img src="/assets/images/icons_svg/dropdown-white.svg" class="contactoption--closed" alt="aufklappen" />
-                    <img src="/assets/images/icons_svg/dropdown-up-grey.svg" class="contactoption--open" alt="aufklappen" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/dropdown-white.svg',
+                        'aufklappen',
+                        19, 11, [
+                            'class' => 'contactoption--closed'
+                        ]
+                    ); ?>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/dropdown-up-grey.svg',
+                        'aufklappen',
+                        19, 11, [
+                            'class' => 'contactoption--open'
+                        ]
+                    ); ?>
                 </span>
 			</label>
             <div class="contactoption__content">
@@ -44,7 +76,11 @@
                 </p>
 
                 <div class="contactoption__form--success"><!-- Only display on success -->
-                    <img src="/assets/images/icons_svg/sent-out-black.svg" alt="Kontaktaufnahme absenden" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/sent-out-black.svg',
+                        'Kontaktaufnahme absenden',
+                        96, 96
+                    ); ?>
                     <h2>Super, wir sind kontaktiert!</h2>
                     <p>Ihre Supportanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen.</p>
                 </div>

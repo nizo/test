@@ -41,19 +41,35 @@ $faqs->faq_add (
 
 			<div class="co-grid co-grid--small-gutter centered subtext">
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
-                    <img src="/assets/images/icons_svg/usp-germany-icon-square.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="50" height="50" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/usp-germany-icon-square.svg',
+						'Call Center Software mit hohem deutschen Datenschutzstandard',
+						50, 50, [], false
+					); ?>
                     <p style="margin-top:10px">DSGVO<br />konform</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
-                    <img src="/assets/images/icons_svg/usp-speed-icon-square.svg" alt="Call Center Software wird schnell bereitgestellt" width="50" height="50" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/usp-speed-icon-square.svg',
+						'Call Center Software wird schnell bereitgestellt',
+						50, 50, [], false
+					); ?>
                     <p style="margin-top:10px">Rasante Bereitstellung</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
-                    <img src="/assets/images/icons_svg/usp-availability-icon-square.svg" alt="Call Center Software ist sehr gut erreichbar" width="50" height="50" />
+					<?= pictureTag(
+						'/assets/images/icons_svg/usp-availability-icon-square.svg',
+						'Call Center Software ist sehr gut erreichbar',
+						50, 50, [], false
+					); ?>
                     <p style="margin-top:10px">Garantierte <br />Erreichbarkeit</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--3-sm co-grid__col--2-lg">
-                    <img src="/assets/images/client-logos/icon-german-cloud.svg" alt="Deutsche Cloud" width="50" height="50" />
+					<?= pictureTag(
+						'/assets/images/client-logos/icon-german-cloud.svg',
+						'Deutsche Cloud',
+						50, 50, [], false
+					); ?>
                     <p style="margin-top:10px">Deutsche<br />Cloud</p>
                 </div>
             </div>
@@ -63,7 +79,11 @@ $faqs->faq_add (
 			</p>
 		</div>
 		<div class="hero__image">
-			<img src="/assets/images/illus/hero-ccs.png" alt="CallOne Callcenter Software" width="465" height="465" />
+			<?= pictureTag(
+				'/assets/images/illus/hero-ccs.png',
+				'CallOne Callcenter Software',
+				465, 465, [], false
+			); ?>
 		</div>
 	</div>
 
@@ -91,7 +111,12 @@ $faqs->faq_add (
 		<div class="co-grid" id="agenten">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
 				<div class="tag">
-					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Agenten
+					<?= pictureTag(
+						'/assets/images/icons_svg/callone-logo-white.svg',
+						'CallOne Telekommunikationslösungen für Sales und Service',
+						13, 14
+					); ?>
+					Für Agenten
 				</div>
 				<h2>Modern und browserbasiert: <br class="mobile-hidden" />Die Agentenmaske</h2>
 
@@ -102,7 +127,13 @@ $faqs->faq_add (
 				</ul>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-				<img src="/assets/images/illus/ccs-agenten.png" alt="Modern und browserbasiert: Die Agentenmaske" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/illus/ccs-agenten.png',
+					'Modern und browserbasiert: Die Agentenmaske',
+					570, 400, [
+						'class' => 'co-grid__image--full-width'
+					]
+				); ?>
 			</div>
 		</div>
 
@@ -111,11 +142,22 @@ $faqs->faq_add (
 
 		<div class="co-grid" id="teamleiter">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-				<img src="/assets/images/illus/ccs-teamleiter.png" alt="Boost für Service & Sales: Mit Statistiken" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/illus/ccs-teamleiter.png',
+					'Boost für Service & Sales: Mit Statistiken',
+					570, 400, [
+						'class' => 'co-grid__image--full-width'
+					]
+				); ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="tag">
-					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Teamleiter
+					<?= pictureTag(
+						'/assets/images/icons_svg/callone-logo-white.svg',
+						'CallOne Telekommunikationslösungen für Sales und Service',
+						13, 14
+					); ?>
+					Für Teamleiter
 				</div>
 				<h2>Boost für Service & Sales: <br class="mobile-hidden" />Mit Statistiken</h2>
 
@@ -133,7 +175,12 @@ $faqs->faq_add (
 		<div class="co-grid" id="administratoren">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
 				<div class="tag">
-					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Administratoren
+					<?= pictureTag(
+						'/assets/images/icons_svg/callone-logo-white.svg',
+						'CallOne Telekommunikationslösungen für Sales und Service',
+						13, 14
+					); ?>
+					Für Administratoren
 				</div>
 				<h2>Datenbasierte Effizienz: <br class="mobile-hidden" />Mit Dashboards & Analysen</h2>
 
@@ -144,7 +191,13 @@ $faqs->faq_add (
 				</ul>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-				<img src="/assets/images/illus/statistics-header-illustration-optimized.svg" alt="Datenbasierte Effizienz: Mit Dashboards & Analysen" width="569" height="526" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/illus/statistics-header-illustration-optimized.svg',
+					'Datenbasierte Effizienz: Mit Dashboards & Analysen',
+					569, 526, [
+						'class' => 'co-grid__image--full-width'
+					]
+				); ?>
 			</div>
 		</div>
 	</div>
@@ -154,7 +207,13 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-				<img src="/assets/images/client-logos/logo-check24-black.svg" alt="Unser Kunde Check24" width="370" height="89" />
+				<?= pictureTag(
+					'/assets/images/client-logos/logo-check24-black.svg',
+					'Unser Kunde Check24',
+					370, 89, [
+						'style' => 'height: 89px'
+					]
+				); ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
 				<div class="quote" style="--fontSize:24px">
@@ -185,7 +244,14 @@ $faqs->faq_add (
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/callback-black.svg" alt="Funktion: Rückruf-Optionen" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/callback-black.svg',
+								'Funktion: Rückruf-Optionen',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Rückruf-Optionen</h4>
@@ -201,7 +267,14 @@ $faqs->faq_add (
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/menu-overview.svg" alt="Funktion: Warteschleifen" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-overview.svg',
+								'Funktion: Warteschleifen',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Warteschleifen</h4>
@@ -217,7 +290,14 @@ $faqs->faq_add (
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/menu-apis.svg" alt="Funktion: Schnittstellenanbindung" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-apis.svg',
+								'Funktion: Schnittstellenanbindung',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Schnittstellen&shy;anbindung</h4>
@@ -233,7 +313,14 @@ $faqs->faq_add (
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/menu-numbers.svg" alt="Funktion: Auswahlmenüs" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-numbers.svg',
+								'Funktion: Auswahlmenüs',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Auswahlmenüs</h4>
@@ -249,7 +336,14 @@ $faqs->faq_add (
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/icon-flexibilitaet.svg" alt="Funktion: Routing-Optionen" width="70" height="70" style="height:70px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/icon-flexibilitaet.svg',
+								'Funktion: Routing-Optionen',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Routing-Optionen</h4>
@@ -265,7 +359,14 @@ $faqs->faq_add (
 				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/big_03.svg" alt="Funktion: Live-Dashboards" width="91" height="70" style="height:70px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/big_03.svg',
+								'Funktion: Live-Dashboards',
+								91, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Live-Dashboards</h4>
@@ -293,18 +394,58 @@ $faqs->faq_add (
 		<p class="centered">Eine Auswahl unserer Kunden:</p>
 
 		<div class="logos logos--fade" style="--height:30px">
-			<img src="/assets/images/client-logos/logo-snipes-white.svg" alt="Unser Kunde snipes" width="85" height="30" />
-			<img src="/assets/images/client-logos/logo-bett1-white.svg" alt="Unser Kunde bett1" width="62" height="30" />
-			<img src="/assets/images/client-logos/logo-flaconi-white.svg" alt="Unser Kunde flaconi" width="118" height="30" />
-			<img src="/assets/images/client-logos/logo-gastro-hero-white.svg" alt="Unser Kunde GastroHero" width="132" height="30" />
-			<img src="/assets/images/client-logos/logo-vimcar-white.svg" alt="Unser Kunde Vimcar" width="152" height="30" />
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-snipes-white.svg',
+				'Unser Kunde snipes',
+				85, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-bett1-white.svg',
+				'Unser Kunde bett1',
+				62, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-flaconi-white.svg',
+				'Unser Kunde flaconi',
+				118, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-gastro-hero-white.svg',
+				'Unser Kunde GastroHero',
+				132, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-vimcar-white.svg',
+				'Unser Kunde Vimcar',
+				152, 30
+			); ?>
 		</div>
 		<div class="logos logos--fade" style="--height:30px">
-			<img src="/assets/images/client-logos/logo-igus-white.svg" alt="Unser Kunde IGUS" width="58" height="30" />
-			<img src="/assets/images/client-logos/logo-seereisedienst-white.svg" alt="Unser Kunde Seereisedienst" width="166" height="30" />
-			<img src="/assets/images/client-logos/logo-check24-white.svg" alt="Unser Kunde Check24" width="125" height="30" />
-			<img src="/assets/images/client-logos/logo-helios-white.svg" alt="Unser Kunde Helios" width="128" height="30" />
-			<img src="/assets/images/client-logos/logo-sodastream.svg" alt="Unser Kunde SodaStream" width="194" height="30" />
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-igus-white.svg',
+				'Unser Kunde IGUS',
+				58, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-seereisedienst-white.svg',
+				'Unser Kunde Seereisedienst',
+				166, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-check24-white.svg',
+				'Unser Kunde Check24',
+				125, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-helios-white.svg',
+				'Unser Kunde Helios',
+				128, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-sodastream.svg',
+				'Unser Kunde SodaStream',
+				194, 30
+			); ?>
 		</div>
 
 		<br />
@@ -324,7 +465,11 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid centered">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/small_36.svg" alt="Multi-Channel" width="109" height="100" />
+				<?= pictureTag(
+					'/assets/images/icons_svg/small_36.svg',
+					'Multi-Channel',
+					109, 100
+				); ?>
 				<h3>Multi-Channel</h3>
 				<p class="bigtext">E-Mail, Chat und Messaging nahtlos in Ihre Systeme integrieren.</p>
 				<p>
@@ -332,7 +477,13 @@ $faqs->faq_add (
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/icon-echtzeit-coaching.svg" alt="Echtzeit-Coaching" width="100" height="100" style="max-height:100px" />
+				<?= pictureTag(
+					'/assets/images/icons_svg/icon-echtzeit-coaching.svg',
+					'Echtzeit-Coaching',
+					100, 100, [
+						'style' => 'max-height:100px'
+					]
+				); ?>
 				<h3>Echtzeit-Coaching</h3>
 				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
 				<p>
@@ -340,7 +491,11 @@ $faqs->faq_add (
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/msteams-icon.svg" alt="Microsoft Teams" width="100" height="100" />
+				<?= pictureTag(
+					'/assets/images/icons_svg/msteams-icon.svg',
+					'Microsoft Teams',
+					100, 100
+				); ?>
 				<h3>Teams-Telefonie</h3>
 				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
 				<p>

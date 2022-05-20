@@ -36,7 +36,12 @@ $faqs->faq_add (
     <header class="hero">
         <div class="hero__text">
 			<div class="tag">
-				<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="Telekommunikationslösungen von CallOne" width="13" height="14" /> CallOne TEL &copy;
+				<?= pictureTag(
+					'/assets/images/icons_svg/callone-logo-white.svg',
+					'Telekommunikationslösungen von CallOne',
+					13, 14, [], false
+				); ?>
+				CallOne TEL &copy;
 			</div>
 
             <h1>Viel <u>mehr</u> als eine Cloud Telefonanlage</h1>
@@ -50,7 +55,11 @@ $faqs->faq_add (
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/voip-telephony-header.png" alt="Die VoIP Telefonanlage von CallOne ist einfach bedienbar und funktioniert auf Laptop, PC, Handy" width="465" height="336" />
+			<?= pictureTag(
+				'/assets/images/illus/voip-telephony-header.png',
+				'Die VoIP Telefonanlage von CallOne ist einfach bedienbar und funktioniert auf Laptop, PC, Handy',
+				465, 336, [], false
+			); ?>
         </div>
     </header>
 </div>
@@ -66,13 +75,25 @@ $faqs->faq_add (
                 <div class="small-tabs__tab" data-tab="3">Fast-Growing</div>
             </div>
             <div class="small-tabs__content centered" data-tab="1">
-                <img src="/assets/images/client-logos/Enterprise-Kombi.svg" alt="CallCenter Software für Enterprise Unternehmen" width="675" height="28" />
+				<?= pictureTag(
+					'/assets/images/client-logos/Enterprise-Kombi.svg',
+					'CallCenter Software für Enterprise Unternehmen',
+					675, 28
+				); ?>
             </div>
             <div class="small-tabs__content centered" data-tab="2">
-                <img src="/assets/images/client-logos/Mittelstand-Kombi.svg" alt="CallCenter Software für Unternehmen aus dem Mittelstand" width="812" height="28" />
+				<?= pictureTag(
+					'/assets/images/client-logos/Mittelstand-Kombi.svg',
+					'CallCenter Software für Unternehmen aus dem Mittelstand',
+					812, 28
+				); ?>
             </div>
             <div class="small-tabs__content centered" data-tab="3">
-                <img src="/assets/images/client-logos/FastGrowing-Kombi.svg" alt="CallCenter Software für fastgrowing Unternehmen" width="812" height="28" />
+				<?= pictureTag(
+					'/assets/images/client-logos/FastGrowing-Kombi.svg',
+					'CallCenter Software für fastgrowing Unternehmen',
+					812, 28
+				); ?>
             </div>
         </div>
     </div>
@@ -111,7 +132,11 @@ $faqs->faq_add (
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--6-xs co-grid__col--hidden-sm co-grid__col--vcentered">
-                <img src="/assets/images/illus/voip-telefonanlage-softphone.png" alt="Das Softphone ist eine der vielen Funktionen der CallOne Cloud Telefonanlage" width="500" height="500" />
+				<?= pictureTag(
+					'/assets/images/illus/voip-telefonanlage-softphone.png',
+					'Das Softphone ist eine der vielen Funktionen der CallOne Cloud Telefonanlage',
+					500, 500
+				); ?>
             </div>
         </div>
     </div>
@@ -133,7 +158,13 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Die CallCenter Software von CallOne" width="50" height="50" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/callcenter-software-icon.svg',
+								'Die CallCenter Software von CallOne',
+								50, 50, [
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
@@ -150,7 +181,13 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/menu-app-api.svg" alt="APIs für individuelle Telefonielösungen mit der CallOne Cloud Telefonanlage" width="51" height="50" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-app-api.svg',
+								'APIs für individuelle Telefonielösungen mit der CallOne Cloud Telefonanlage',
+								51, 50, [
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Kommu&shy;nikations-APIs</h4>
@@ -166,7 +203,13 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/msteams-icon.svg" alt="MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage" width="50" height="50" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/msteams-icon.svg',
+								'MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage',
+								50, 50, [
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
@@ -221,7 +264,11 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="1">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/microsoft-teams.png" alt="Integrieren Sie Microsoft Teams Telefonie in Ihre Cloud Telefonanlage" width="470" height="396" />
+								<?= pictureTag(
+									'/assets/images/photos/microsoft-teams.png',
+									'Integrieren Sie Microsoft Teams Telefonie in Ihre Cloud Telefonanlage',
+									470, 396
+								); ?>
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext"><a href="/ms-teams" class="inline-link">Teams Telefonie</a> mit CallOne bedeutet nahtlose Integration.</p>
@@ -237,7 +284,11 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="2">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/sip-tischtelefon-reduced.png" alt="SIP Tischtelefon als Endgerät der CallOne Cloud Telefonanlage" width="470" height="396" />
+								<?= pictureTag(
+									'/assets/images/photos/sip-tischtelefon-reduced.png',
+									'SIP Tischtelefon als Endgerät der CallOne Cloud Telefonanlage',
+									470, 396
+								); ?>
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Optimale Einbindung von allen IP-Telefonen.</p>
@@ -253,7 +304,11 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="3">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/softphone-view.png" alt="CallOne Softphone ist als Alternative zur Teams-Telefonie im Browser integriert" width="470" height="396" />
+								<?= pictureTag(
+									'/assets/images/photos/softphone-view.png',
+									'CallOne Softphone ist als Alternative zur Teams-Telefonie im Browser integriert',
+									470, 396
+								); ?>
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Die integrierte Alternative zur Teams Telefonie. Das <a href="/softphone" class="inline-link">CallOne Softphone</a> smart integriert als Browser Plugin in Ihren Lieblingsbrowser.</p>
@@ -269,7 +324,11 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="4">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/agent-view-desktop.png" alt="Mit dem Browser Telefon der VoIP-Telefonanlage von CallOne über den Browser telefonieren" width="470" height="396" />
+								<?= pictureTag(
+									'/assets/images/photos/agent-view-desktop.png',
+									'Mit dem Browser Telefon der VoIP-Telefonanlage von CallOne über den Browser telefonieren',
+									470, 396
+								); ?>
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Telefonieren ohne Umwege! Für unser Browsertelefon benötigen Sie nur einen Browser und ein Headset, um ein- und ausgehende Telefonate zu führen. Zudem erhalten Sie die volle Power für ihre Kundenservicemitarbeiter.</p>
@@ -285,7 +344,11 @@ $faqs->faq_add (
 					<div class="small-tabs__content" data-tab="5">
 						<div class="co-grid">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-								<img src="/assets/images/photos/phone-client.png" alt="Ihre Mobilfunkgeräte in CallOne Cloud Telefonanlage einbinden" width="470" height="396" />
+								<?= pictureTag(
+									'/assets/images/photos/phone-client.png',
+									'Ihre Mobilfunkgeräte in CallOne Cloud Telefonanlage einbinden',
+									470, 396
+								); ?>
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 								<p class="bigtext">Binden Sie auf vielfältige Weise Ihre Mobilfunkgeräte in unsere Cloud Telefonanlage ein. Die Möglichkeiten sind dabei vielfältig.</p>
@@ -310,26 +373,52 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--3-xs">
 						<div class="carddeck carddeck--no-indicators centered">
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Hubspot-Card.svg" alt="Hubspot als Anbindung in der CallOne VoIP Telefonanlage" width="156" height="94" />
+								<?= pictureTag(
+									'/assets/images/client-logos/Hubspot-Card.svg',
+									'Hubspot als Anbindung in der CallOne VoIP Telefonanlage',
+									156, 94
+								); ?>
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/logo-zendesk.svg" alt="Zendesk als Anbindung in der CallOne VoIP Telefonanlage" width="156" height="29" />
+								<?= pictureTag(
+									'/assets/images/client-logos/logo-zendesk.svg',
+									'Zendesk als Anbindung in der CallOne VoIP Telefonanlage',
+									156, 29
+								); ?>
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Pipedrive.svg" alt="Pipedrive als Anbindung in der CallOne VoIP Telefonanlage" width="156" height="156" />
+								<?= pictureTag(
+									'/assets/images/client-logos/Pipedrive.svg',
+									'Pipedrive als Anbindung in der CallOne VoIP Telefonanlage',
+									156, 156
+								); ?>
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/client-logos/Freshdesk.svg" alt="Freshdesk als Anbindung in der CallOne VoIP Telefonanlage" width="200" height="200" />
+								<?= pictureTag(
+									'/assets/images/client-logos/Freshdesk.svg',
+									'Freshdesk als Anbindung in der CallOne VoIP Telefonanlage',
+									200, 200
+								); ?>
 							</div>
 							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<img src="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce als Anbindung in der CallOne VoIP Telefonanlage" width="217" height="150" />
+								<?= pictureTag(
+									'/assets/images/logo/partnerlogos/logo-salesforce.svg',
+									'Salesforce als Anbindung in der CallOne VoIP Telefonanlage',
+									217, 150
+								); ?>
 							</div>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered"></div>
 					<div class="co-grid__col co-grid__col--3-xs co-grid__col--vcentered">
 						<div class="content-box content-box--white centered">
-							<img src="/assets/images/icons_svg/api-integration-Card.svg" alt="Gängige Tools und Integrationen mit APIs in die Cloud Telefonanlage einbinden" width="144" height="87" style="display:inline-block" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/api-integration-Card.svg',
+								'Gängige Tools und Integrationen mit APIs in die Cloud Telefonanlage einbinden',
+								144, 87, [
+									'style' => 'display:inline-block'
+								]
+							); ?>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--1-xs"></div>
@@ -358,7 +447,11 @@ $faqs->faq_add (
 
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-						<img src="/assets/images/illus/dashboards-mockup.svg" alt="Transparenz Dank Statistiken und Reportings zur Cloud Telefonanlage" width="470" height="440" />
+						<?= pictureTag(
+							'/assets/images/illus/dashboards-mockup.svg',
+							'Transparenz Dank Statistiken und Reportings zur Cloud Telefonanlage',
+							470, 440
+						); ?>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
 						<ul class="list list--checkmarks list--on-black">
@@ -387,7 +480,11 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" width="148" height="46" />
+								<?= pictureTag(
+									'/assets/images/icons_svg/usp-speed-icon.svg',
+									'Call Center Software wird schnell bereitgestellt',
+									148, 46
+								); ?>
 							</div>
 							<h4 class="centered">Bereitstellung in wenigen Tagen statt Monaten</h4>
 						</div>
@@ -398,7 +495,11 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="79" height="90" />
+								<?= pictureTag(
+									'/assets/images/icons_svg/usp-germany-icon.svg',
+									'Call Center Software mit hohem deutschen Datenschutzstandard',
+									79, 90
+								); ?>
 							</div>
 							<h4 class="centered">Telefonie mit deutschem Datenschutz-Standard</h4>
 						</div>
@@ -409,7 +510,11 @@ $faqs->faq_add (
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md cards__card cards__card--transparent cards__card--no-padding cards__card--flex-vertical">
 						<div class="cards__card--dark-top">
 							<div class="cards__card-image">
-								<img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="110" height="60" />
+								<?= pictureTag(
+									'/assets/images/icons_svg/usp-availability-icon.svg',
+									'Call Center Software ist sehr gut erreichbar',
+									110, 60
+								); ?>
 							</div>
 							<h4 class="centered">Garantierte 99,999% Erreichbarkeit</h4>
 						</div>
@@ -449,7 +554,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Customer Success</h6>
+                            <div class="index-card__title">Customer Success</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -472,7 +577,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator index-card__indicator--active"></div>
                                 <div class="index-card__indicator"></div>
                             </div>
-                            <h6 class="index-card__title">Performance</h6>
+                            <div class="index-card__title">Performance</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -511,7 +616,7 @@ $faqs->faq_add (
                                 <div class="index-card__indicator"></div>
                                 <div class="index-card__indicator index-card__indicator--active"></div>
                             </div>
-                            <h6 class="index-card__title">Einsparpotenziale</h6>
+                            <div class="index-card__title">Einsparpotenziale</div>
                         </div>
                         <div class="index-card__arrow index-card__arrow--right"></div>
                     </div>
@@ -554,7 +659,13 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/gastrohero-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/carddeck/gastro-carddeck-black.png" alt="Gastro Hero ist zufriedener Kunde von CallOne" width="150" height="80" style="--w:150px" />
+							<?= pictureTag(
+								'/assets/images/client-logos/carddeck/gastro-carddeck-black.png',
+								'Gastro Hero ist zufriedener Kunde von CallOne',
+								150, 80, [
+									'style' => '--w:150px'
+								]
+							); ?>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -562,9 +673,27 @@ $faqs->faq_add (
 						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-green.png" alt="CallOne Cloud Telefonanlage " width="88" height="88">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="CallOne Rufnummern " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="2">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-green.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-grey.png',
+										'CallOne Rufnummern',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -576,9 +705,27 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-2-green.png" alt="CallOne Rufnummern " width="88" height="88">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="2">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-green.png',
+										'CallOne Rufnummern',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -590,9 +737,27 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="CallOne Rufnummern " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-3-green.png" alt="CallOne Callcenter Software" width="88" height="88">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-grey.png',
+										'CallOne Rufnummern',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-green.png',
+										'CallOne Callcenter Software',
+										88, 88
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -641,7 +806,13 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/logo-lbs-immobilien-black.svg" width="150" height="63" style="--w:150px" alt="Die LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne" />
+							<?= pictureTag(
+								'/assets/images/client-logos/logo-lbs-immobilien-black.svg',
+								'Die LBS Immobilien GmbH NordWest ist zufriedener Kunde von CallOne',
+								150, 63, [
+									'style' => '--w:150px'
+								]
+							); ?>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -649,10 +820,35 @@ $faqs->faq_add (
 						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-green.png" alt="CallOne Cloud Telefonanlage " width="88" height="88">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="CallOne Rufnummern " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="MS Teams Telefonie als Integration in Cloud Telefonanlage" width="88" height="88" class="fader__next" data-next="3">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-green.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-grey.png',
+										'CallOne Rufnummern',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-4-grey.png',
+										'MS Teams Telefonie als Integration in Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '3'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -664,10 +860,35 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-2-green.png" alt="CallOne Rufnummern" width="88" height="88">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="MS Teams Telefonie als Integration in Cloud Telefonanlage" width="88" height="88" class="fader__next" data-next="3">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-green.png',
+										'CallOne Rufnummern',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-4-grey.png',
+										'MS Teams Telefonie als Integration in Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '3'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -679,10 +900,35 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="CallOne Rufnummern " class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-3-green.png" alt="CallOne Callcenter Software" width="88" height="88">
-									<img src="/assets/images/icons_png/icon-4-grey.png" alt="MS Teams Telefonie als Integration in Cloud Telefonanlage" width="88" height="88" class="fader__next" data-next="3">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-grey.png',
+										'CallOne Rufnummern',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-green.png',
+										'CallOne Callcenter Software',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-4-grey.png',
+										'MS Teams Telefonie als Integration in Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '3'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -694,10 +940,35 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-2-grey.png" alt="CallOne Rufnummern" width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-4-green.png" alt="MS Teams Telefonie als Integration in Cloud Telefonanlage" width="88" height="88">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-2-grey.png',
+										'CallOne Rufnummern',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-4-green.png',
+										'MS Teams Telefonie als Integration in Cloud Telefonanlage',
+										88, 88
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -746,7 +1017,13 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/check24-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/carddeck/check24-carddeck-black.png" alt="Check24 ist zufriedener Kunde von CallOne" width="150" height="80" style="--w:150px" />
+							<?= pictureTag(
+								'/assets/images/client-logos/carddeck/check24-carddeck-black.png',
+								'Check24 ist zufriedener Kunde von CallOne',
+								150, 80, [
+									'style' => '--w:150px'
+								]
+							); ?>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -754,10 +1031,35 @@ $faqs->faq_add (
 						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-green.png" alt="CallOne Cloud Telefonanlage " width="88" height="88">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-6-grey.png" alt="CallOne BI-Konnektor" width="88" height="88" class="fader__next" data-next="2">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-green.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-grey.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-6-grey.png',
+										'CallOne BI-Konnektor',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '3'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -769,10 +1071,35 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-3-green.png" alt="CallOne Callcenter Software " width="88" height="88">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-6-grey.png" alt="CallOne BI-Konnektor" width="88" height="88" class="fader__next" data-next="3">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-green.png',
+										'CallOne Callcenter Software',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-grey.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-6-grey.png',
+										'CallOne BI-Konnektor',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '3'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -784,10 +1111,35 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-5-green.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88">
-									<img src="/assets/images/icons_png/icon-6-grey.png" alt="CallOne BI-Konnektor" width="88" height="88" class="fader__next" data-next="3">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-green.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-6-grey.png',
+										'CallOne BI-Konnektor',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '3'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -799,10 +1151,35 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88" class="fader__next" data-next="2">
-									<img src="/assets/images/icons_png/icon-6-green.png" alt="CallOne BI-Konnektor" width="88" height="88">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-grey.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-6-green.png',
+										'CallOne BI-Konnektor',
+										88, 88
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -851,7 +1228,13 @@ $faqs->faq_add (
 				<div class="co-grid">
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered image--shadow" style="background-image:url(/assets/images/photos/sodastream-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-m);">
 						<div class="blurry-logo-box">
-							<img src="/assets/images/client-logos/carddeck/sodastream-carddeck-black.png" alt="SodaStream ist zufriedener Kunde bei CallOne" width="150" height="80" style="--w:150px" />
+							<?= pictureTag(
+								'/assets/images/client-logos/carddeck/sodastream-carddeck-black.png',
+								'SodaStream ist zufriedener Kunde bei CallOne',
+								150, 80, [
+									'style' => '--w:150px'
+								]
+							); ?>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
@@ -859,9 +1242,27 @@ $faqs->faq_add (
 						<div class="fader fader--no-header" data-speed="4500">
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-3-green.png" alt="CallOne Callcenter Software" width="88" height="88">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage " width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88" class="fader__next" data-next="2">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-green.png',
+										'CallOne Callcenter Software',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-grey.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -873,9 +1274,27 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-1-green.png" alt="CallOne Cloud Telefonanlage " width="88" height="88">
-									<img src="/assets/images/icons_png/icon-5-grey.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88" class="fader__next" data-next="2">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-green.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-grey.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '2'
+										]
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">
@@ -887,9 +1306,27 @@ $faqs->faq_add (
 							</div>
 							<div class="fader__item">
 								<p class="mobile-stacked-images">
-									<img src="/assets/images/icons_png/icon-3-grey.png" alt="CallOne Callcenter Software" width="88" height="88" class="fader__next" data-next="0">
-									<img src="/assets/images/icons_png/icon-1-grey.png" alt="CallOne Cloud Telefonanlage" width="88" height="88" class="fader__next" data-next="1">
-									<img src="/assets/images/icons_png/icon-5-green.png" alt="CallOne APIs für Schnittstellen und Integrationen" width="88" height="88">
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-3-grey.png',
+										'CallOne Callcenter Software',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '0'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-1-grey.png',
+										'CallOne Cloud Telefonanlage',
+										88, 88, [
+											'class' => 'fader__next',
+											'data-next' => '1'
+										]
+									); ?>
+									<?= pictureTag(
+										'/assets/images/icons_png/icon-5-green.png',
+										'CallOne APIs für Schnittstellen und Integrationen',
+										88, 88
+									); ?>
 								</p>
 								<br />
 								<div class="left-border">

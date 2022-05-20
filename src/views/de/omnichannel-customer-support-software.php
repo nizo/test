@@ -41,7 +41,11 @@ $faqs->faq_add (
 			</p>
 		</div>
 		<div class="hero__image">
-			<img srcset="/assets/images/illus/hero-sematell@2x.png 2x" src="/assets/images/illus/hero-sematell.png" alt="CallOne Omnichannel Callcenter" width="465" height="360" />
+			<?= pictureTag(
+                '/assets/images/illus/hero-sematell.png',
+                'CallOne Omnichannel Callcenter',
+                465, 360, [], false
+            ); ?>
 		</div>
 	</div>
 
@@ -66,11 +70,20 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide" id="kanaele">
 		<div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/illus/sematell-agenten.png" alt="Alle Kanäle in einer Oberfläche" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/illus/sematell-agenten.png',
+					'Alle Kanäle in einer Oberfläche',
+					570, 400, ['class'=>'co-grid__image--full-width']
+				); ?>
             </div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="tag">
-					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Agenten
+					<?= pictureTag(
+						'/assets/images/icons_svg/callone-logo-white.svg',
+						'CallOne Telekommunikationslösungen für Sales und Service',
+						13, 14
+					); ?>
+					Für Agenten
 				</div>
 				<h2>Alle Kanäle <br class="mobile-hidden" />in einer Oberfläche.</h2>
 
@@ -88,7 +101,12 @@ $faqs->faq_add (
 		<div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-2-xs co-grid__col--vcentered">
                 <div class="tag">
-					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Teamleiter
+					<?= pictureTag(
+						'/assets/images/icons_svg/callone-logo-white.svg',
+						'CallOne Telekommunikationslösungen für Sales und Service',
+						13, 14
+					); ?>
+					Für Teamleiter
 				</div>
 				<h2>Agenten dort einsetzen, <br class="mobile-hidden" />wo sie gebraucht werden</h2>
 
@@ -99,7 +117,11 @@ $faqs->faq_add (
 				</ul>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-                <img src="/assets/images/illus/sematell-teamleiter.png" alt="Agenten dort einsetzen, wo sie gebraucht werden" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+						'/assets/images/illus/sematell-teamleiter.png',
+						'Agenten dort einsetzen, wo sie gebraucht werden',
+						570, 400, ['class'=>'co-grid__image--full-width']
+				); ?>
             </div>
 		</div>
 
@@ -108,11 +130,20 @@ $faqs->faq_add (
 
 		<div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/illus/sematell-administratoren.png" alt="Den Daten Taten folgen lassen: Dank Dashboards & Statistiken" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+						'/assets/images/illus/sematell-administratoren.png',
+						'Den Daten Taten folgen lassen: Dank Dashboards & Statistiken',
+						570, 400, ['class'=>'co-grid__image--full-width']
+				); ?>
             </div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<div class="tag">
-					<img src="/assets/images/icons_svg/callone-logo-white.svg" alt="CallOne Telekommunikationslösungen für Sales und Service" width="13" height="14" /> Für Administratoren
+					<?= pictureTag(
+						'/assets/images/icons_svg/callone-logo-white.svg',
+						'CallOne Telekommunikationslösungen für Sales und Service',
+						13, 14
+					); ?>
+					Für Administratoren
 				</div>
 				<h2>Den Daten Taten folgen lassen: <br class="mobile-hidden" />Dank Dashboards & Statistiken</h2>
 
@@ -135,18 +166,58 @@ $faqs->faq_add (
 		<p class="centered">Eine Auswahl unserer Kunden:</p>
 
 		<div class="logos logos--fade" style="--height:30px">
-			<img src="/assets/images/client-logos/logo-snipes-white.svg" alt="Unser Kunde snipes" width="85" height="30" />
-			<img src="/assets/images/client-logos/logo-bett1-white.svg" alt="Unser Kunde bett1" width="62" height="30" />
-			<img src="/assets/images/client-logos/logo-flaconi-white.svg" alt="Unser Kunde flaconi" width="118" height="30" />
-			<img src="/assets/images/client-logos/logo-gastro-hero-white.svg" alt="Unser Kunde GastroHero" width="132" height="30" />
-			<img src="/assets/images/client-logos/logo-vimcar-white.svg" alt="Unser Kunde Vimcar" width="152" height="30" />
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-snipes-white.svg',
+				'Unser Kunde snipes',
+				85, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-bett1-white.svg',
+				'Unser Kunde bett1',
+				62, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-flaconi-white.svg',
+				'Unser Kunde flaconi',
+				118, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-gastro-hero-white.svg',
+				'Unser Kunde GastroHero',
+				132, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-vimcar-white.svg',
+				'Unser Kunde Vimcar',
+				152, 30
+			); ?>
 		</div>
 		<div class="logos logos--fade" style="--height:30px">
-			<img src="/assets/images/client-logos/logo-igus-white.svg" alt="Unser Kunde IGUS" width="58" height="30" />
-			<img src="/assets/images/client-logos/logo-seereisedienst-white.svg" alt="Unser Kunde Seereisedienst" width="166" height="30" />
-			<img src="/assets/images/client-logos/logo-check24-white.svg" alt="Unser Kunde Check24" width="125" height="30" />
-			<img src="/assets/images/client-logos/logo-helios-white.svg" alt="Unser Kunde Helios" width="128" height="30" />
-			<img src="/assets/images/client-logos/logo-sodastream.svg" alt="Unser Kunde SodaStream" width="194" height="30" />
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-igus-white.svg',
+				'Unser Kunde IGUS',
+				58, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-seereisedienst-white.svg',
+				'Unser Kunde Seereisedienst',
+				166, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-check24-white.svg',
+				'Unser Kunde Check24',
+				125, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-helios-white.svg',
+				'Unser Kunde Helios',
+				128, 30
+			); ?>
+			<?= pictureTag(
+				'/assets/images/client-logos/logo-sodastream.svg',
+				'Unser Kunde SodaStream',
+				194, 30
+			); ?>
 		</div>
 	</div>
 </div>
@@ -165,7 +236,11 @@ $faqs->faq_add (
 				<p class="bigtext">Wo benötigen Sie Ihre Agenten am meisten? Bei den kniffeligen Kundenanfragen. Die KI-basierte Kundenservice Software hält ihnen genau dafür den Rücken frei. Denn die preisgekrönte KI des Frauenhofer Instituts ist gepaart mit 20 Jahren Erfahrung. Sie kann Anfragen vollautomatisiert beantworten und Ihren Agenten in 70 Sprachen Antwortvorschläge geben. Als Omnichannel Plattform.<br />Damit die leichten Dinge auch schnell erledigt sind.</p>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
-                <img src="/assets/images/illus/sematell-ki-kundenservice.png" alt="Agenten sind Ihre Batmans. Die KI ist Ihr Robin" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/illus/sematell-ki-kundenservice.png',
+					'Agenten sind Ihre Batmans. Die KI ist Ihr Robin',
+					570, 400, ['class'=>'co-grid__image--full-width']
+				); ?>
             </div>
 		</div>
 
@@ -174,7 +249,11 @@ $faqs->faq_add (
 
 		<div class="co-grid" id="integrationen">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/illus/sematell-kanaele.png" alt="Kennen Sie Ihre Kunden beim Namen - Auf allen Kanälen" width="570" height="400" class="co-grid__image--full-width" />
+				<?= pictureTag(
+					'/assets/images/illus/sematell-kanaele.png',
+					'Kennen Sie Ihre Kunden beim Namen - Auf allen Kanälen',
+					570, 400, ['class'=>'co-grid__image--full-width']
+				); ?>
             </div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
 				<h2>Kennen Sie Ihre Kunden beim Namen. Auf allen Kanälen.</h2>
@@ -193,7 +272,11 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-				<img src="/assets/images/client-logos/logo-seereisedienst-notext.svg" alt="Unser Kunde Seereisedienst" width="370" height="370" class="co-grid__image--full-width" style="max-width:370px" />
+				<?= pictureTag(
+					'/assets/images/client-logos/logo-seereisedienst-notext.svg',
+					'Unser Kunde Seereisedienst',
+					370, 370, ['class'=>'co-grid__image--full-width','style'=>'max-width:370px']
+				); ?>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
 				<div class="quote" style="--fontSize:24px">
@@ -217,7 +300,11 @@ $faqs->faq_add (
 	<div class="section__content section__content--wide">
 		<div class="co-grid centered">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Callcenter Software" width="100" height="100" style="max-height:100px" />
+				<?= pictureTag(
+					'/assets/images/icons_svg/callcenter-software-icon.svg',
+					'Callcenter Software',
+					100, 100, ['style'=>'max-height:100px']
+				); ?>
 				<h3>Callcenter Software</h3>
 				<p class="bigtext">Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
 				<p>
@@ -225,7 +312,11 @@ $faqs->faq_add (
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/icon-echtzeit-coaching.svg" alt="Echtzeit-Coaching" width="100" height="100" style="max-height:100px" />
+				<?= pictureTag(
+					'/assets/images/icons_svg/icon-echtzeit-coaching.svg',
+					'Echtzeit-Coaching',
+					100, 100, ['style'=>'max-height:100px']
+				); ?>
 				<h3>Echtzeit-Coaching</h3>
 				<p class="bigtext">Interaktive Live-Gesprächsleitfäden für richtig guten Kundenservice.</p>
 				<p>
@@ -233,7 +324,11 @@ $faqs->faq_add (
 				</p>
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-				<img src="/assets/images/icons_svg/msteams-icon.svg" alt="Microsoft Teams" width="100" height="100" />
+				<?= pictureTag(
+					'/assets/images/icons_svg/msteams-icon.svg',
+					'Microsoft Teams',
+					100, 100, ['style'=>'max-height:100px']
+				); ?>
 				<h3>Teams-Telefonie</h3>
 				<p class="bigtext">Einfach im Teams-Client telefonieren und Microsoft Teams als Telefonanlage nutzen.</p>
 				<p>

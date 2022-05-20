@@ -1,7 +1,11 @@
 <div class="section section--no-padding-bottom section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/queue-header-illustration.svg" alt="Schneller und effizienter Kundenservice dank VoIP-Telefonanlage mit Warteschleifenmanagement" width="465" height="465" />
+            <?= pictureTag(
+                '/assets/images/illus/queue-header-illustration.svg',
+                'Schneller und effizienter Kundenservice dank VoIP-Telefonanlage mit Warteschleifenmanagement',
+                465, 465, [], false
+            ); ?>
         </div>
         <div class="hero__text">
             <h1>Guter Service wartet nicht!</h1>
@@ -57,11 +61,19 @@
         <div class="tablist" id="features">
             <div class="tablist__links tablist__links--full-width">
                 <div class="tablist__link" data-tab="1" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);--stickyBg: linear-gradient(#fff, rgba(219, 0, 197, 0.2));">
-                    <img src="/assets/images/icons_svg/callback-icon.svg" alt="Warteschleifenmodule in Kundenservice Software der Cloud Telefonanlage mit Rückrufoptionen" width="70" height="70" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/callback-icon.svg',
+                        'Warteschleifenmodule in Kundenservice Software der Cloud Telefonanlage mit Rückrufoptionen',
+                        70, 70
+                    ); ?>
                     <strong>Warteschleifenmodule</strong>
                 </div>
                 <div class="tablist__link" data-tab="2" style="--bg: linear-gradient(rgba(219, 0, 197, 0.2), #fff);--stickyBg: linear-gradient(#fff, rgba(219, 0, 197, 0.2));">
-                    <img src="/assets/images/icons_svg/routing-icon.svg" alt="Verschiedene Routingoptionen im Warteschleifenmanagement Ihrer Cloud Telefonanlage" width="70" height="70" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/routing-icon.svg',
+                        'Verschiedene Routingoptionen im Warteschleifenmanagement Ihrer Cloud Telefonanlage',
+                        70, 70
+                    ); ?>
                     <strong>Routingfunktionen</strong>
                 </div>
             </div>
@@ -75,7 +87,11 @@
                                 <p class="bigtext">Die CallOne ACD bietet dem Anrufenden innerhalb der Warteschleife einen optimalen Zeitpunkt für einen terminierten Rückruf. <span class="readmore">Mit Bestätigung wird dieser vollständig automatisiert zum gewünschten Zeitpunkt gestartet und Agent*in und Anrufender miteinander verbunden.</span></p>
                             </div>
                             <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/calendar-illustration.svg" alt="Cloud Telefonanlage mit Option auf Rückruf aus der Warteschleife zum gewünschten Zeitpunkt" width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/calendar-illustration.svg',
+                                    'Cloud Telefonanlage mit Option auf Rückruf aus der Warteschleife zum gewünschten Zeitpunkt',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -96,15 +112,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Optimal zur <br />Anrufpeak-Glättung
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Höhere Kundenakzeptanz <br />gegenüber Warteschleife erhöhen
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Flexibel <br />anpassbar
                                 </div>
                             </div>
@@ -116,7 +150,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/queue-pendulum-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlage mit virtueller Warteschleife und Berechnung der Wartezeit" width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/queue-pendulum-illustration.svg',
+                                    'Kundenservice Software in VoIP Telefonanlage mit virtueller Warteschleife und Berechnung der Wartezeit',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Virtuelle Warteschleife</h3>
@@ -141,15 +179,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Steigerung des <br />Servicelevels (SLA)
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Reduzierung <br />der Verbindungsdauer
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Gesteigerte CX
                                 </div>
                             </div>
@@ -165,7 +221,11 @@
                                 <p class="bigtext">Echtzeitrückruffunktion integriert in Ihre Webseite. Auswahloptionen für Themen und Trackingmöglichkeit aller relevanten Webseiteninhalte mit Übermittlung zur Agent*in bei Gesprächsannahme.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/callback-website-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert " width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/callback-website-illustration.svg',
+                                    'Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -186,15 +246,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Layout auf <br />Ihr CI anpassbar
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Kürzere Verbindungsdauern <br />durch Qualifizierung auf Webseite
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Weltweit einsetzbar
                                 </div>
                             </div>
@@ -206,7 +284,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/automated-callback-illustration.svg" alt="Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert " width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/automated-callback-illustration.svg',
+                                    'Kundenservice Software in VoIP Telefonanlange mit Warteschlange und Funktion für Echtzeitrückruf direkt in die Website integriert',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Terminierter Rückruf</h3>
@@ -231,15 +313,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Optimal für Bearbeitung <br />von Anrufpeaks
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Bessere CX gegenüber <br />klassischer Warteschleife
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Kürzere <br />Verbindungszeiten
                                 </div>
                             </div>
@@ -257,7 +357,11 @@
                                 <p class="bigtext">Warum den Anrufenden erst warten lassen? Wir berechnen die voraussichtliche Wartedauer all ihrer eintreffenden Anrufe und können sofort eine individuelle Aktion anbieten.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/routing-waitingtime-illustration.svg" alt="Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen" width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/routing-waitingtime-illustration.svg',
+                                    'Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -278,15 +382,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Kürzere Wartedauern
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Höhere SLA
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Mehr Kund*innen-<br />zufriedenheit
                                 </div>
                             </div>
@@ -298,7 +420,11 @@
                     <div class="expandable__main">
                         <div class="co-grid">
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/waitingtime-website-illustration.svg" alt="Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen" width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/waitingtime-website-illustration.svg',
+                                    'Mit der Cloud-Telefonanlage die Wartezeit direkt auf der Website anzeigen',
+                                    431, 352
+                                ); ?>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                                 <h3>Wartedauer auf Website anzeigen</h3>
@@ -322,15 +448,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Optimierte Hotline-Erreichbarkeit <br />durch Steuermöglichkeit mittels Webseite
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Bessere Verteilung <br />auf Kontaktkanäle
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Bessere CX
                                 </div>
                             </div>
@@ -346,7 +490,11 @@
                                 <p class="bigtext">Wartedaueransagen kennen Sie sicher aus eigener Erfahrung. Wir bei CallOne gehen hier einen Schritt weiter: Mit individueller Stimmauswahl und der Flexibilität wann und wem Sie eine Ansage einspielen möchten.</p>
                             </div>
                             <div class="co-grid__col co-grid__col--order-1-xs co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                                <img src="/assets/images/illus/waitingtime-announcement-illustration.svg" alt="In der Warteschleife Ihrer VoIP-Telefonanlage können Sie die Wartedauer und Position ansagen lassen" width="431" height="352" />
+                                <?= pictureTag(
+                                    '/assets/images/illus/waitingtime-announcement-illustration.svg',
+                                    'In der Warteschleife Ihrer VoIP-Telefonanlage können Sie die Wartedauer und Position ansagen lassen',
+                                    431, 352
+                                ); ?>
                             </div>
                         </div>
                     </div>
@@ -367,15 +515,33 @@
 
                             <div class="fader fader--no-header fader--centered centered bigtext">
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-1.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-1.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Bessere <br />Customer Experience
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-2.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-2.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Kürzere <br />Wartedauern
                                 </div>
                                 <div class="fader__item">
-                                    <img src="/assets/images/icons_svg/star-banner-3.svg" alt="Vorteile CallOne Call Center Software" width="84" height="84" style="display:inline" /><br />
+                                    <?= pictureTag(
+                                        '/assets/images/icons_svg/star-banner-3.svg',
+                                        'Vorteile CallOne Call Center Software',
+                                        84, 84, [
+                                            'style' => 'display:inline'
+                                        ]
+                                    ); ?><br />
                                     Entspanntere Gespräche <br />für Ihre Agent*innen
                                 </div>
                             </div>
@@ -401,7 +567,11 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="Kostenloses Erstgespräch für eine Beratung zur Unternehmenstelefonie" width="70" height="70" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/first-call-white.svg',
+                            'Kostenloses Erstgespräch für eine Beratung zur Unternehmenstelefonie',
+                            70, 70
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h3>

@@ -26,7 +26,13 @@ $faqs->faq_add (
         </div>
       </div>
       <div class="media centered">
-        <img src="/assets/images/illus/sales-hero-illustration.svg" alt="Telekommunikationslösung für Sales" style="display:block;" />
+        <?= pictureTag(
+          '/assets/images/illus/sales-hero-illustration.svg',
+          'Telekommunikationslösung für Sales',
+          560, 516, [
+            'style' => 'display:block'
+          ], false
+        ); ?>
       </div>
     </header>
   </div>
@@ -52,7 +58,11 @@ $faqs->faq_add (
   <div class="content wide">
     <div class="image-grid half" id="integrations">
       <div class="image centered">
-        <img src="/assets/images/illus/sales-illustration-1.svg" alt="Callcenter Software und Businesstelefonie für Sales" />
+        <?= pictureTag(
+          '/assets/images/illus/sales-illustration-1.svg',
+          'Callcenter Software und Businesstelefonie für Sales',
+          420, 441
+        ); ?>
       </div>
       <div class="text">
         <h2>Passgenau die richtigen Informationen</h2>
@@ -110,13 +120,21 @@ $faqs->faq_add (
         </div>
       </div>
       <div class="image centered">
-        <img src="/assets/images/illus/sales-illustration-2.svg" alt="Sales Telefonielösung" />
+        <?= pictureTag(
+          '/assets/images/illus/sales-illustration-2.svg',
+          'Sales Telefonielösung',
+          420, 445
+        ); ?>
       </div>
     </div>
 
     <div class="image-grid half" id="analysis">
       <div class="image centered">
-        <img src="/assets/images/illus/sales-illustration-3.svg" alt="Datenanalyse für Sales" />
+        <?= pictureTag(
+          '/assets/images/illus/sales-illustration-3.svg',
+          'Datenanalyse für Sales',
+          420, 348
+        ); ?>
       </div>
       <div class="text">
         <h2>Datenanalyse mit Handumdrehen</h2>
@@ -174,7 +192,11 @@ $faqs->faq_add (
         </div>
       </div>
       <div class="image centered">
-        <img src="/assets/images/illus/sales-illustration-4.svg" alt="KPI und Echtzeiteinsichten für Businesstelefonie im Sales" />
+        <?= pictureTag(
+          '/assets/images/illus/sales-illustration-4.svg',
+          'KPI und Echtzeiteinsichten für Businesstelefonie im Sales',
+          420, 351
+        ); ?>
       </div>
     </div>
   </div>
@@ -200,21 +222,33 @@ $faqs->faq_add (
     <div class="grid">
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/usp-speed-icon.svg',
+            'Call Center Software wird schnell bereitgestellt',
+            148, 46
+          ); ?>
         </div>
         <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
         <p>Ärgern Sie sich nicht mit Self-Service herum. An Ihre Organisation angepasste Telefonie-Lösungen kann CallOne dank erfahrener Projektmanager &amp; Schnittstellenentwickler in kürzester Zeit live bringen.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/usp-germany-icon.svg',
+            'Call Center Software mit hohem deutschen Datenschutzstandard',
+            86, 98
+          ); ?>
         </div>
         <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
         <p>Das Privacy Shield Abkommen zwischen USA und EU ist nun gekippt. Zum Glück sind Sie mit CallOne immer auf der sicheren Seite: Wir hosten unsere Telefonie-Lösung ausschließlich in Deutschland.</p>
       </div>
       <div class="col-3 card">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/usp-availability-icon.svg',
+            'Call Center Software ist sehr gut erreichbar',
+            110, 60
+          ); ?>
         </div>
         <h3>Garantierte 99,999% Erreichbarkeit</h3>
         <p>Dank Backup-Server, umfangreichem DDoS-Schutz und individueller Redundanzkonzepte laufen CallOne Lösungen stabil und sind rund um die Uhr für Sie und Ihre Kunden erreichbar.</p>

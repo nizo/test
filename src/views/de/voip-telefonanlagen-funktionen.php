@@ -32,7 +32,11 @@ $faqs->faq_add (
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/hero-voip-funktionen.png" alt="Cloud ACD Funktionen" width="465" height="465" />
+            <?= pictureTag(
+                '/assets/images/illus/hero-voip-funktionen.png',
+                'Cloud ACD Funktionen',
+                465, 465, [], false
+            ); ?>
         </div>
     </div>
 
@@ -1413,7 +1417,13 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Die CallCenter Software von CallOne" width="50" height="50" class="co-grid__image--full-width" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/callcenter-software-icon.svg',
+                                'Die CallCenter Software von CallOne',
+                                50, 50, [
+                                    'class' => 'co-grid__image--full-width'
+                                ]
+                            ); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
@@ -1430,7 +1440,13 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/menu-app-api.svg" alt="APIs für individuelle Telefonielösungen mit der CallOne Cloud Telefonanlage" width="51" height="50" class="co-grid__image--full-width" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/menu-app-api.svg',
+                                'APIs für individuelle Telefonielösungen mit der CallOne Cloud Telefonanlage',
+                                51, 50, [
+                                    'class' => 'co-grid__image--full-width'
+                                ]
+                            ); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Kommu&shy;nikations-APIs</h4>
@@ -1446,7 +1462,13 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/msteams-icon.svg" alt="MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage" width="50" height="50" class="co-grid__image--full-width" />
+                            <?= pictureTag(
+                                '/assets/images/icons_svg/msteams-icon.svg',
+                                'MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage',
+                                50, 50, [
+                                    'class' => 'co-grid__image--full-width'
+                                ]
+                            ); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>

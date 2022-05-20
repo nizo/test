@@ -1,7 +1,11 @@
 <div class="section section--mobile-divider">
     <header class="hero">
         <div class="hero__image">
-            <img src="/assets/images/illus/customer-success-header.png" alt="CallOne Projektmanagerinnen finden die Lösung für Ihr Problem mit Call Center Software und Cloud Telefonanlage" width="465" height="465" />
+            <?= pictureTag(
+                '/assets/images/illus/customer-success-header.png',
+                'CallOne Projektmanagerinnen finden die Lösung für Ihr Problem mit Call Center Software und Cloud Telefonanlage',
+                465, 465, [], false
+            ); ?>
         </div>
         <div class="hero__text">
             <h1>Machen Sie unser Team zu Ihrem Team!</h1>
@@ -27,7 +31,11 @@
 
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/onboarding-photo.png" alt="Onboarding bei CallOne" width="570" height="357" />
+                <?= pictureTag(
+                    '/assets/images/photos/onboarding-photo.png',
+                    'Onboarding bei CallOne',
+                    570, 357
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Der Turbo für unsere Zusammenarbeit!</h3>
@@ -54,7 +62,11 @@
                 </ul>
             </div>
             <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/optimization-photo.png" alt="CallOne optimiert Ihre Unternehmens-Telefonie" width="570" height="357" />
+                <?= pictureTag(
+                    '/assets/images/photos/optimization-photo.png',
+                    'CallOne optimiert Ihre Unternehmens-Telefonie',
+                    570, 357
+                ); ?>
             </div>
         </div>
 
@@ -66,7 +78,11 @@
 
         <div class="co-grid co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-sm co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/support-photo.png" alt="Support für Ihre Unternehmenstelefonie" width="570" height="357" />
+                <?= pictureTag(
+                    '/assets/images/photos/support-photo.png',
+                    'Support für Ihre Unternehmenstelefonie',
+                    570, 357
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--hidden-md co-grid__col--6-md co-grid__col--vcentered">
                 <h3>Ihre Taskforce im laufenden Einsatz!</h3>
@@ -110,8 +126,23 @@
                     </div>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered">
-                <img src="/assets/images/photos/brian-face-circle.png" alt="Brian Miculcy CallOne IT Support Telekommunikationslösung" width="470" height="558" class="small-tab-image" />
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered tab-image-1">
+                <?= pictureTag(
+                    '/assets/images/photos/brian-face-circle.png',
+                    'Brian Miculcy CallOne IT Support Telekommunikationslösung',
+                    470, 558, [
+                        'class' => 'small-tab-image'
+                    ]
+                ); ?>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered tab-image-2" style="display: none">
+                <?= pictureTag(
+                    '/assets/images/photos/lotta-face-circle-v2.png',
+                    'Charlotta Barth CallOne Success Managerin',
+                    470, 558, [
+                        'class' => 'small-tab-image'
+                    ]
+                ); ?>
             </div>
         </div>
 
@@ -132,7 +163,13 @@
                 </p>
 
                 <br />
-                <img src="/assets/images/photos/brian-mobile-green-circle.png" alt="Brian Miculcy IT Support" width="800" height="631" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
+                <?= pictureTag(
+                    '/assets/images/photos/brian-mobile-green-circle.png',
+                    'Brian Miculcy IT Support',
+                    800, 631, [
+                        'style' => 'display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;'
+                    ]
+                ); ?>
             </div>
             <div class="tablist__content" data-tab="2">
                 <blockquote class="quote">
@@ -144,7 +181,13 @@
                 </p>
 
                 <br />
-                <img src="/assets/images/photos/lotta-mobile-green-circle.png" alt="Charlotta Barth CallOne Success Managerin" width="800" height="631" style="display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;" />
+                <?= pictureTag(
+                    '/assets/images/photos/lotta-mobile-green-circle.png',
+                    'Charlotta Barth CallOne Success Managerin',
+                    800, 631, [
+                        'style' => 'display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;'
+                    ]
+                ); ?>
             </div>
         </div>
     </div>
@@ -156,7 +199,13 @@
 
         <div class="grid-slider">
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/personal-communication-grey-bg.svg" alt="persönliche Ansprechpartnerin bei CallOne" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/personal-communication-grey-bg.svg',
+                    'persönliche Ansprechpartnerin bei CallOne',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Persönliche Beratung</h4>
                     <p class="bigtext mobile-hidden">Kein ewiges Warten, keine unbekannten Ansprechpersonen. Wir beraten Sie persönlich und mit Weitblick.</p>
@@ -164,7 +213,13 @@
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/connect-grey-bg.svg" alt="Schnelle Unterstützung bei Telekommunikationslösungen von CallOne" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/connect-grey-bg.svg',
+                    'Schnelle Unterstützung bei Telekommunikationslösungen von CallOne',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Keine Zeitverschwendung</h4>
                     <p class="bigtext mobile-hidden">Sie bekommen ein schnelles, zielführendes Onboarding, das genau auf Ihre Bedürfnisse zugeschnitten ist.</p>
@@ -172,7 +227,13 @@
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/uptime-grey-bg.svg" alt="Effiziente und zuverlässige Call Center Software und Cloud Telefonanlagen" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/uptime-grey-bg.svg',
+                    'Effiziente und zuverlässige Call Center Software und Cloud Telefonanlagen',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Effizienz & Performance</h4>
                     <p class="bigtext mobile-hidden">Nutzen Sie unsere umfangreichen Echtzeitstatistiken für mehr Effizienz und unschlagbare Performance.</p>
@@ -180,7 +241,13 @@
                 </div>
             </div>
             <div class="grid-slider__item">
-                <img src="/assets/images/illus/dsgvo-grey-bg.svg" alt="Deutscher Datenschutzstandard bei CallOne" width="230" height="127" class="grid-slider__image" />
+                <?= pictureTag(
+                    '/assets/images/illus/dsgvo-grey-bg.svg',
+                    'Deutscher Datenschutzstandard bei CallOne',
+                    230, 127, [
+                        'class' => 'grid-slider__image'
+                    ]
+                ); ?>
                 <div class="grid-slider__content">
                     <h4>Auf der sicheren Seite</h4>
                     <p class="bigtext mobile-hidden">All unsere Lösungen entsprechen natürlich dem deutschen Datenschutzstandard - damit Sie sich um die Sicherheit nicht sorgen müssen.</p>
@@ -197,7 +264,11 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered co-grid__col--order-2-xs">
                 <div class="co-video">
                     <div class="co-video__poster">
-                        <img src="/assets/images/photos/video-preview-reduced.png" alt="Vorschau zum Video Kundenstimme von Check24" width="570" height="306" />
+                        <?= pictureTag(
+                            '/assets/images/photos/video-preview-reduced.png',
+                            'Vorschau zum Video Kundenstimme von Check24',
+                            570, 306
+                        ); ?>
                     </div>
                     <a class="co-video__play" data-openmodal="casestudy-check24" title="Video zu richtig gutem Kundenservice - Casestudy Check24"></a>
                 </div>
@@ -226,7 +297,11 @@
 
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--vcentered">
-                        <img src="/assets/images/icons_svg/first-call-white.svg" alt="Erstgespräch zu Ihrer Unternehmenstelefonie vereinbaren" width="70" height="70" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/first-call-white.svg',
+                            'Erstgespräch zu Ihrer Unternehmenstelefonie vereinbaren',
+                            70, 70
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <p class="bigtext">
@@ -241,7 +316,11 @@
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                <img src="/assets/images/illus/call-appointment-illustration.svg" alt="Terminvereinbarung" width="502" height="543" />
+                <?= pictureTag(
+                    '/assets/images/illus/call-appointment-illustration.svg',
+                    'Terminvereinbarung',
+                    502, 543
+                ); ?>
             </div>
         </div>
     </div>
@@ -251,12 +330,15 @@
     // Handle Small Tabs Image Change
     let smallTab1 = document.querySelector('.small-tab-1');
     let smallTab2 = document.querySelector('.small-tab-2');
-    let tabImage = document.querySelector('.small-tab-image');
+    let tabImage1 = document.querySelector('.tab-image-1');
+    let tabImage2 = document.querySelector('.tab-image-2');
 
     smallTab1.addEventListener('click', e => {
-        tabImage.src = '/assets/images/photos/brian-face-circle.png';
+        tabImage1.style.display = 'flex';
+        tabImage2.style.display = 'none';
     });
     smallTab2.addEventListener('click', e => {
-        tabImage.src = '/assets/images/photos/lotta-face-circle-v2.png';
+        tabImage1.style.display = 'none';
+        tabImage2.style.display = 'flex';
     });
 </script>
