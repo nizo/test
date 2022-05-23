@@ -7,7 +7,11 @@
         <div class="hero__image">
             <br />
             <br />
-            <img src="/assets/images/client-logos/logo-check24-color.svg" alt="Check24 ist Kunde bei CallOne" width="465" height="112" />
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-check24-color.svg',
+                'Check24 ist Kunde bei CallOne',
+                465, 112, [], false
+            ); ?>
             <br />
             <br />
         </div>
@@ -57,12 +61,12 @@
     <div class="section__content section__content--wide">
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                    <picture class="lazyPicture centered">
-                        <source srcset="/assets/images/photos/placeholder.webp" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.webp" type="image/webp">
-                        <source srcset="/assets/images/photos/placeholder.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" type="image/jpg">
-                        <img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/photos/check24-dr-rainer-klipp.jpg" data-srcset="/assets/images/photos/check24-dr-rainer-klipp.jpg" alt="Kundenstimme von Dr. Rainer Klipp zur CallOne Callcenter Software" title="Check24 - Dr. Rainer Klipp" width="500" height="402" />
-                    </picture>
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered centered">
+                    <?= pictureTag(
+                        '/assets/images/photos/check24-dr-rainer-klipp.jpg',
+                        'Kundenstimme von Dr. Rainer Klipp zur CallOne Callcenter Software',
+                        500, 402
+                    ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                     <blockquote class="quote" style="--fontSize:26px">
@@ -84,7 +88,11 @@
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                    <img src="/assets/images/icons_svg/big_03.svg" alt="Multichannel Callcenter Software" width="167" height="129" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_03.svg',
+                        'Multichannel Callcenter Software',
+                        167, 129
+                    ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
                     <h3>Mehr Transparenz bei der Anrufauswertung</h3>
@@ -111,7 +119,11 @@
                     </ul>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered co-grid__col--order-1-xs">
-                    <img src="/assets/images/icons_svg/big_04.svg" alt="Schnittstellen Callcenter Software" width="167" height="132" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_04.svg',
+                        'Schnittstellen Callcenter Software',
+                        167, 132
+                    ); ?>
                 </div>
             </div>
         </div>
@@ -119,7 +131,11 @@
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                    <img src="/assets/images/icons_svg/big_02.svg" alt="Erreichbarkeit Callcenter Software" width="167" height="155" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_02.svg',
+                        'Erreichbarkeit Callcenter Software',
+                        167, 155
+                    ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
                     <h3>Erreichbarkeit erhöhen &amp; Anrufe optimal verteilen</h3>
@@ -168,7 +184,11 @@
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                    <img src="/assets/images/icons_svg/big_01.svg" alt="Multichannel" width="167" height="151" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_01.svg',
+                        'Multichannel',
+                        167, 151
+                    ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
                     <h3>Optimale Anrufsteuerung</h3>
@@ -195,7 +215,11 @@
                     </ul>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered co-grid__col--order-1-xs">
-                    <img src="/assets/images/icons_svg/big_05.svg" alt="Multichannel" width="167" height="171" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/big_05.svg',
+                        'Multichannel',
+                        167, 171
+                    ); ?>
                 </div>
             </div>
         </div>
@@ -203,7 +227,13 @@
         <div class="content-box content-box--white content-box--shadow content-box--full-width">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                    <img src="/assets/images/icons_svg/small_07_2.svg" alt="Erreichbarkeit" width="167" height="124" style="max-width:167px" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_07_2.svg',
+                        'Erreichbarkeit',
+                        167, 124, [
+                            'style' => 'max-width:167px'
+                        ]
+                    ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
                     <h3>Nutzung von offenen APIs & fertigen Apps</h3>

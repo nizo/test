@@ -6,7 +6,13 @@
         <p class="primary">The CallOne CTI App for Salesforce Lightning & Classic enables your sales team to optimize their workflow and increase efficieny and productivity.</p>
       </div>
       <div class="media centered">
-        <img src="/assets/images/logo/partnerlogos/logo-salesforce.svg" alt="Salesforce" class="logo" />
+        <?= pictureTag(
+          '/assets/images/logo/partnerlogos/logo-salesforce.svg',
+          'Salesforce',
+          293, 202, [
+            'class' => 'logo'
+          ], false
+        ); ?>
       </div>
     </header>
   </div>
@@ -18,7 +24,13 @@
         <div class="shadow-box padding">
           <div class="grid">
             <div class="col-2">
-              <img src="/assets/images/photos/salesforce_click-to-dial.png" alt="Salesforce - click to dial" class="img-75" />
+              <?= pictureTag(
+                '/assets/images/photos/salesforce_click-to-dial.png',
+                'Salesforce - click to dial',
+                315, 169, [
+                  'class' => 'img-75'
+                ]
+              ); ?>
             </div>
             <div class="col-2">
               <h3 class="h2">Click-to-Call</h3>
@@ -39,7 +51,13 @@
               <p>All incoming calls are matched with your Salesforce leads, contacts, accounts, etc. and logged in your activities as well as the native phone app within Salesforce.</p>
             </div>
             <div class="col-2">
-              <img src="/assets/images/photos/salesforce_inbound_matching.png" alt="Salesforce - inbound matching" class="img-75" />
+              <?= pictureTag(
+                '/assets/images/photos/salesforce_inbound_matching.png',
+                'Salesforce - inbound matching',
+                315, 162, [
+                  'class' => 'img-75'
+                ]
+              ); ?>
             </div>
           </div>    
         </div>
@@ -50,7 +68,13 @@
         <div class="shadow-box padding" >
           <div class="grid">
             <div class="col-2">
-              <img src="/assets/images/photos/salesforce_automatic_reportings.png" alt="Salesforce - automatic reportings" class="img-75" />
+              <?= pictureTag(
+                '/assets/images/photos/salesforce_automatic_reportings.png',
+                'Salesforce - automatic reportings',
+                315, 237, [
+                  'class' => 'img-75'
+                ]
+              ); ?>
             </div>
             <div class="col-2">
               <h3 class="h2">Automate Reportings</h3>

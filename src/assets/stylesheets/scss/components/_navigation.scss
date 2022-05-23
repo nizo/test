@@ -49,6 +49,10 @@ $navMinHeight: 570px;
             width: 117px;
         }
 
+        .navigation__title {
+            left: calc(117px + var(--gutter-xs));
+        }
+
         .navigation__submenu {
             padding-top: 21px;
         }
@@ -188,11 +192,14 @@ $navMinHeight: 570px;
     }
 
     &__title {
+        position: absolute;
+        top: 50%;
+        left: calc(167px + var(--gutter-xs));
+        transform: translateY(calc(-50% + 3px));
         font-size: 14px;
         color: rgba(#000, .54);
-        padding-top: 6px;
         letter-spacing: -0.05em;
-        margin-left: calc(var(--gutter-xs) - 20px);
+        transition: left .3s ease;
     }
 
     &__right {
@@ -563,8 +570,7 @@ a.submenu__link {
 
         &__title {
             font-size: 12px;
-            padding-top: 5px;
-            margin-left: var(--gutter-xs);
+            left: calc(117px + var(--gutter-xs));
         }
 
         &--mobile-open {

@@ -18,6 +18,12 @@
         }
     }
 
+    picture {
+        display: block;
+        width: auto;
+        max-width: 100%;
+    }
+
     img {
         display: block;
         margin: var(--gutter-s);

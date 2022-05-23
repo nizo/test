@@ -33,7 +33,13 @@ $faqs->faq_add (
 			</p>
 		</div>
         <div class="hero__image">
-            <img src="/assets/images/illus/i2x-header.png" alt="Sprachanalyse Kundenservice und Vertrieb mit Callcenter Software" width="465" height="465" style="width:100%" />
+            <?= pictureTag(
+                '/assets/images/illus/i2x-header.png',
+                'Sprachanalyse Kundenservice und Vertrieb mit Callcenter Software',
+                465, 465, [
+                    'style' => 'width:100%'
+                ], false
+            ); ?>
         </div>
 	</div>
 </div>
@@ -47,7 +53,11 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <img src="/assets/images/illus/i2x-client.png" alt="Sprachanalyse Kundenservice Software Coaching" width="570" height="570" />
+                <?= pictureTag(
+                    '/assets/images/illus/i2x-client.png',
+                    'Sprachanalyse Kundenservice Software Coaching',
+                    570, 570
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <ul class="list list--checkmarks list--checkmarks-green" style="--fs:26px">
@@ -76,7 +86,11 @@ $faqs->faq_add (
                 </ul>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-sm co-grid__col--vcentered">
-                <img src="/assets/images/illus/i2x-results.png" alt="Kundenservice optimieren mit Sprachanalyse und Coaching in Kundenservice Software" width="570" height="570" />
+                <?= pictureTag(
+                    '/assets/images/illus/i2x-results.png',
+                    'Kundenservice optimieren mit Sprachanalyse und Coaching in Kundenservice Software',
+                    570, 570
+                ); ?>
             </div>
         </div>
     </div>
@@ -100,7 +114,11 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="1">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                        <img src="/assets/images/illus/i2x-agenten.png" alt="Kundenservice Sprachanalyse und Coaching für Kundenberater" width="470" height="470" />
+                        <?= pictureTag(
+                            '/assets/images/illus/i2x-agenten.png',
+                            'Kundenservice Sprachanalyse und Coaching für Kundenberater',
+                            470, 470
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <h3>Kürzere Fallbearbeitungszeiten bei höherer Kundenzufriedenheit und Abschlussquote.</h3>
@@ -119,7 +137,11 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="2">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                        <img src="/assets/images/illus/i2x-manager.png" alt="ROI erhöhen mit Sprachanalyse und Coaching für Vertrieb" width="470" height="470" />
+                        <?= pictureTag(
+                            '/assets/images/illus/i2x-manager.png',
+                            'ROI erhöhen mit Sprachanalyse und Coaching für Vertrieb',
+                            470, 470
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <h3>Umfangreicher Überblick für datenbasierte Entscheidungen und Erhöhung Ihres ROI.</h3>
@@ -138,7 +160,11 @@ $faqs->faq_add (
             <div class="tablist__content" data-tab="3">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
-                        <img src="/assets/images/illus/i2x-callcenter-leiter.png" alt="Mitarbeiter bewerten Kundenservice Callcenter Software" width="470" height="470" />
+                        <?= pictureTag(
+                            '/assets/images/illus/i2x-callcenter-leiter.png',
+                            'Mitarbeiter bewerten Kundenservice Callcenter Software',
+                            470, 470
+                        ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                         <h3>Die Entwicklung der Mitarbeiter effektiver beeinflussen sowie Performance steuern und objektiv bewerten.</h3>
@@ -165,7 +191,11 @@ $faqs->faq_add (
 
 			<div class="co-grid tablet-centered">
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-					<img src="/assets/images/icons_svg/first-call.svg" alt="Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch" width="70" height="71" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/first-call.svg',
+                        'Der erste Schritt zur Call Center Software von CallOne ist ein kostenloses Erstgespräch',
+                        70, 71
+                    ); ?>
 					<h3>
 						<span>Schritt 1</span><br />
 						Erstgespräch
@@ -173,7 +203,11 @@ $faqs->faq_add (
 					<p>Kein Verkaufsgespräch, sondern Austausch.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-					<img src="/assets/images/icons_svg/presentation.svg" alt="Sie bekommen ein Showcase unserer Call Center Software Lösung auf Ihre Anforderungen angepasst" width="70" height="71" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/presentation.svg',
+                        'Sie bekommen ein Showcase unserer Call Center Software Lösung auf Ihre Anforderungen angepasst',
+                        70, 71
+                    ); ?>
 					<h3>
 						<span>Schritt 2</span><br />
 						Showcase
@@ -181,7 +215,11 @@ $faqs->faq_add (
 					<p>Wir machen einen Show&shy;case für Ihre Anforderung.</p>
 				</div>
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-					<img src="/assets/images/icons_svg/team-dark.svg" alt="Wir passen unsere Call Center Software zu einer individuellen Lösung für Ihre Businesstelefonie an." width="70" height="71" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/team-dark.svg',
+                        'Wir passen unsere Call Center Software zu einer individuellen Lösung für Ihre Businesstelefonie an',
+                        70, 71
+                    ); ?>
 					<h3>
 						<span>Schritt 3</span><br />
 						Lösungsfindung

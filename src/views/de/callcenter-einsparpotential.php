@@ -9,7 +9,11 @@
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/zeit-und-kosten.svg" alt="Im Kundenservice mit Cloud ACD sparen" width="465" height="420" />
+			<?= pictureTag(
+				'/assets/images/illus/zeit-und-kosten.svg',
+				'Im Kundenservice mit Cloud ACD sparen',
+				465, 420, [], false
+			); ?>
         </div>
     </div>
 </div>
@@ -19,7 +23,13 @@
 		<h2>Lust, Ihr Einsparpotential direkt hier zu berechnen?</h2>
 		
 		<div class="content-box content-box--white content-box--shadow">
-			<p><img src="/assets/images/icons_svg/open-desktop-browser.svg" alt="Open Desktop Browser für Mehrwertrechner Callcenter Software" width="48" height="48" /></p>
+			<p>
+				<?= pictureTag(
+					'/assets/images/icons_svg/open-desktop-browser.svg',
+					'Open Desktop Browser für Mehrwertrechner Callcenter Software',
+					48, 48
+				); ?>
+			</p>
 			<h2>Lassen Sie uns dazu zum Desktop-Browser wechseln!</h2>
 			<p>Wenn Sie uns Ihre ungefähre <strong>Anzahl an Anrufen pro Monat</strong> sowie die <strong>Menge Ihrer Agenten</strong> nennen, rechnen wir Ihnen gerne detailiert vor wir Ihnen durch Effizienzsteigerungen und Einsparpotenziale bares Geld schenken. Um Ihnen das vorzurechnen brauchen wir etwas mehr Platz als dieses Gerät bietet.</p>
 		</div>
@@ -53,7 +63,11 @@
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/calls-per-month-big.svg" alt="Anrufe pro Monat Mehrwertrechner Callcenter Software" width="50" height="51" />
+								<?= pictureTag(
+									'/assets/images/icons_svg/calls-per-month-big.svg',
+									'Anrufe pro Monat Mehrwertrechner Callcenter Software',
+									50, 51
+								); ?>
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="calls" placeholder=" " autocomplete="off">
@@ -66,7 +80,11 @@
 
 						<div class="floating-form__row">
 							<div class="floating-form__icon">
-								<img src="/assets/images/icons_svg/menu-customer-service.svg" alt="Kundenservice Callcenter Software" width="50" height="49" />
+								<?= pictureTag(
+									'/assets/images/icons_svg/menu-customer-service.svg',
+									'Kundenservice Callcenter Software',
+									50, 49
+								); ?>
 							</div>
 							<div class="floating-form__field floating-form__field--short">
 								<input type="text" class="mouseflow-visible" name="agents" placeholder=" " autocomplete="off">
@@ -96,11 +114,20 @@
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small-black.svg" alt="Monatliche Anrufe Callcenter Software" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
+										<?= pictureTag(
+											'/assets/images/icons_svg/calls-per-month-small-black.svg',
+											'Monatliche Anrufe Callcenter Software',
+											40, 40
+										); ?>
+										<strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Anzahl der Anrufe Callcenter Software" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Anzahl der Anrufe Callcenter Software',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="einspareffekt-anruf">?s</strong><br />
@@ -124,7 +151,11 @@
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Anzahl der Anrufe Callcenter Software" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Anzahl der Anrufe Callcenter Software',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="stundenlohn">?€</strong><br />
@@ -137,7 +168,11 @@
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Anzahl" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Anzahl',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="monate-im-jahr">?</strong><br />
@@ -206,11 +241,20 @@
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/calls-per-month-small-black.svg" alt="Anrufe pro Monat Callcenter Software" width="40" height="40" /> <strong class="highlight nummer-anrufe">????</strong><br />
+										<?= pictureTag(
+											'/assets/images/icons_svg/calls-per-month-small-black.svg',
+											'Anrufe pro Monat Callcenter Software',
+											40, 40
+										); ?>
+										<strong class="highlight nummer-anrufe">????</strong><br />
 										<em>Anrufe pro Monat</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Anzahl Erreichbarkeit" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Anzahl Erreichbarkeit',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="erreichbarkeitssteigerung">?%</strong><br />
@@ -231,7 +275,11 @@
 										<em>Einsparung<br />Stundenzahl</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Stundenlohn Anzahl" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Stundenlohn Anzahl',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="stundenlohn">?€</strong><br />
@@ -244,7 +292,11 @@
 										<em>Monatliches<br />Kostensenkungs&shy;potential</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Mehrwerte Callcenter Software" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Mehrwerte Callcenter Software',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="monate-im-jahr">?</strong><br />
@@ -313,11 +365,20 @@
 							<div class="saving-calculation__details">
 								<div class="saving-calculation__row">
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/Customer-Support-Black.svg" alt="Kundenservice Callcenter Software" width="40" height="40" /> <strong class="highlight nummer-agenten">????</strong><br />
+										<?= pictureTag(
+											'/assets/images/icons_svg/Customer-Support-Black.svg',
+											'Kundenservice Callcenter Software',
+											40, 40
+										); ?>
+										<strong class="highlight nummer-agenten">????</strong><br />
 										<em>Anzahl Agent*innen</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Mehrwerte Callcenter Software Personal" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Mehrwerte Callcenter Software Personal',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="effizienzgewinn">?%</strong><br />
@@ -338,7 +399,11 @@
 										<em>Effizienzgewinn<br />Personal</em>
 									</div>
 									<div class="saving-calculation__entry">
-										<img src="/assets/images/icons_svg/x-times-black.svg" alt="Mehrwertrechner Callcenter Software" width="24" height="24" />
+										<?= pictureTag(
+											'/assets/images/icons_svg/x-times-black.svg',
+											'Mehrwertrechner Callcenter Software',
+											24, 24
+										); ?>
 									</div>
 									<div class="saving-calculation__entry">
 										<strong class="personalkosten-jahr">?€</strong><br />
@@ -420,7 +485,14 @@
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/callcenter-software-icon.svg" alt="Die CallCenter Software von CallOne" width="50" height="50" style="max-height:50px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/callcenter-software-icon.svg',
+								'Die CallCenter Software von CallOne',
+								50, 50, [
+									'style' => 'max-height:50px',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>
@@ -437,7 +509,14 @@
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/callback-icon-green.svg" alt="Bessere Erreichbarkeit mit Rückrufoptionen" width="50" height="50" style="max-height:50px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/callback-icon-green.svg',
+								'Bessere Erreichbarkeit mit Rückrufoptionen',
+								50, 50, [
+									'style' => 'max-height:50px',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <h4 style="margin-bottom:0">Smarte Warteschleifen</h4>
@@ -453,7 +532,14 @@
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <img src="/assets/images/icons_svg/msteams-icon.svg" alt="MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage" width="50" height="50" style="max-height:50px" class="co-grid__image--full-width" />
+							<?= pictureTag(
+								'/assets/images/icons_svg/msteams-icon.svg',
+								'MS Teams Telefonie als Integration in Ihre VoIP-Telefonanlage',
+								50, 50, [
+									'style' => 'max-height:50px',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
                         </div>
                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                             <div class="tag" style="--size:12px;--bg:#86EC16;--color:#000;--marginBottom:5px">Beliebtes Modul</div>

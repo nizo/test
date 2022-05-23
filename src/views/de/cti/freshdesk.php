@@ -56,7 +56,11 @@ $faqs->faq_add (
       
       <div class="grid">
         <div class="col-2">
-        	<img class="lazy" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_37_2.svg" data-srcset="/assets/images/icons_svg/small_37_2.svg" alt="Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector" title="Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_37_2.svg',
+            'Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector',
+            380, 367
+          ); ?>
         </div>
         <div class="col-2">
         	<h2>VoIP-Telefonanlage mit Freshdesk</h2>
@@ -75,7 +79,13 @@ $faqs->faq_add (
   <div class="content narrow small">
   	<div class="grid">
   		<div class="col-1">
-  			<img class="lazy icon" src="/assets/images/photos/placeholder.gif" data-src="/assets/images/icons_svg/small_07_2_2_white.svg" data-srcset="/assets/images/icons_svg/small_07_2_2_white.svg" alt="Mehr Inforamtionen zu unserer Freshdesk Integration - Callcenter Connector" title="Mehr Inforamtionen zu unserer Freshdesk Integration Callcenter Connector auf dem Freshworks Marketplace" />
+        <?= pictureTag(
+          '/assets/images/icons_svg/small_07_2_2_white.svg',
+          'Mehr Inforamtionen zu unserer Freshdesk Integration Callcenter Connector auf dem Freshworks Marketplace',
+          70, 52, [
+            'class' => 'icon'
+          ]
+        ); ?>
   		</div>	
   	</div>
     <h2 class="h1">Erfahren Sie mehr über unseren Freshdesk Callcenter Connector</h2>
@@ -89,7 +99,13 @@ $faqs->faq_add (
   <div class="content wide centered">
       <div class="grid">
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_04.svg" alt="Einfache Integration" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_04.svg',
+            'Einfache Integration',
+            70, 67, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Einfach</h3>
           <ul class="list approved-list">
           	<li>Keine Programmierkenntnisse für Anbindung erforderlich</li>
@@ -98,7 +114,13 @@ $faqs->faq_add (
           </ul>
         </div>
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_20.svg" alt="Intuitive Bedienung" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_20.svg',
+            'Intuitive Bedienung',
+            70, 55, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Intuitiv</h3>
 		  <ul class="list approved-list">
 		  	<li>Bequeme Web-Administration von Agenten und Freshdesk-Usern</li>
@@ -107,7 +129,13 @@ $faqs->faq_add (
 		  </ul>          
         </div>
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_06.svg" alt="Alle Auswertungen auf einen Blick" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_06.svg',
+            'Alle Auswertungen auf einen Blick',
+            70, 70, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Relevant</h3>
           <ul class="list approved-list">
 		  	<li>Kundeninformationen und vergangenen Events beim eingehenden Anruf</li> 
@@ -116,7 +144,13 @@ $faqs->faq_add (
 		  </ul>   
         </div>
         <div class="col-4">
-          <img src="/assets/images/icons_svg/small_02.svg" alt="Skalierbar" class="icon">
+          <?= pictureTag(
+            '/assets/images/icons_svg/small_02.svg',
+            'Skalierbar',
+            70, 69, [
+              'class' => 'icon'
+            ]
+          ); ?>
           <h3>Skalierbar</h3>
           <ul class="list approved-list">
 		  	<li>Beliebig viele Freshdesk-Agenten administrierbar</li>
@@ -139,7 +173,13 @@ $faqs->faq_add (
   	<div class="grid parallel">
         <div class="col-2">
         	<div class="image primary">
-        		<img src="/assets/images/icons_svg/small_18_white.svg" alt="Inkrementelle Datenaktualisierung" class="icon">
+            <?= pictureTag(
+              '/assets/images/icons_svg/small_18_white.svg',
+              'Inkrementelle Datenaktualisierung',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Caller-Ticket erstellen</p>
@@ -147,7 +187,13 @@ $faqs->faq_add (
         </div>
         <div class="col-2">
         	<div class="image primary">
-        		<img src="/assets/images/icons_svg/small_15_2_white.svg" alt="Tableau Server fähig" class="icon">
+            <?= pictureTag(
+              '/assets/images/icons_svg/small_15_2_white.svg',
+              'Tableau Server fähig',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Statusänderung des Tickets</p>
@@ -155,7 +201,13 @@ $faqs->faq_add (
         </div>
         <div class="col-2">
         	<div class="image secondary-2">
-        		<img src="/assets/images/icons_svg/small_29_white.svg" alt="Import via Webdata Connector" class="icon">
+            <?= pictureTag(
+              '/assets/images/icons_svg/small_29_white.svg',
+              'Import via Webdata Connector',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Mobile Nutzung möglich</p>
@@ -163,7 +215,13 @@ $faqs->faq_add (
         </div>
         <div class="col-2">
         	<div class="image secondary-2">
-        		<img src="/assets/images/icons_svg/small_32_white.svg" alt="Flexible Anfragezeiträume" class="icon">
+            <?= pictureTag(
+              '/assets/images/icons_svg/small_32_white.svg',
+              'Flexible Anfragezeiträume',
+              69, 50, [
+                'class' => 'icon'
+              ]
+            ); ?>
         	</div>
         	<div class="text">
     			<p>Weltweit nutzbar</p>

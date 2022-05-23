@@ -1,5 +1,6 @@
 <?php
 require_once('../../libs/session.inc.php');
+require_once('../../libs/functions.inc.php');
 
 $uniqueID = uniqid();
 ?>
@@ -158,7 +159,13 @@ $uniqueID = uniqid();
         </div>
         <p class="centered">Wir haben deine Nachricht erhalten und werden uns in dem Zeitraum des ausgewählten Termins bei dir melden.</p>
         <p class="centered">
-            <img src="/assets/images/illus/customer-service-hero-illustration.svg" alt="Kundenservice kontaktieren" style="max-width: 50%;" />
+            <?= pictureTag(
+                '/assets/images/illus/customer-service-hero-illustration.svg',
+                'Kundenservice kontaktieren',
+                382, 294, [
+                    'style' => 'max-width: 50%;'
+                ]
+            ); ?>
         </p>
     </div>
 

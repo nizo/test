@@ -35,7 +35,13 @@ $faqs->faq_add (
       </div>
       <div class="media centered">
         <a href="https://omr.com/de/podcast/">
-          <img src="/assets/images/photos/philipp-scaled-up2@3x.png" alt="OMR" style="display:block;" />
+          <?= pictureTag(
+              '/assets/images/photos/philipp-scaled-up2@3x.png',
+              'OMR',
+              560, 705, [
+                'style' => 'display:block'
+              ], false
+          ); ?>
         </a>
       </div>
     </header>
@@ -44,7 +50,11 @@ $faqs->faq_add (
 
 <div class="section section--black">
   <div class="section__content section__content--narrow centered">
-    <img src="/assets/images/logo/CallOne-OMR-logo.svg" alt="CallOne und OMR" />
+    <?= pictureTag(
+        '/assets/images/logo/CallOne-OMR-logo.svg',
+        'CallOne und OMR',
+        330, 52
+    ); ?>
     <h2>Angebot für OMR-Fans</h2>
     <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
 
@@ -55,10 +65,26 @@ $faqs->faq_add (
     <p class="centered">Unternehmen denen Telefonberatung am Herzen liegt, vertrauen auf <strong>CallOne Lösungen</strong></p>
 
     <div class="logos">
-    	<img src="/assets/images/client-logos/bett-white.png" alt="Kunde Bett1.de" title="Kunde Bett1.de" width="140" height="28" />
-      <img src="/assets/images/client-logos/check24-logo.svg" alt="Kunde Check24" title="Kunde Check24" width="140" height="28" />
-      <img src="/assets/images/client-logos/snipes2-logo.svg" alt="Unser Kunde Snipes" title="Unser Kunde Snipes" width="99" height="28" />
-      <img src="/assets/images/client-logos/logo-sodastream.svg" alt="Unser Kunde SodaStream" title="Unser Kunde SodaStream" width="194" height="24" />
+      <?= pictureTag(
+          '/assets/images/client-logos/bett-white.png',
+          'Kunde Bett1.de',
+          140, 28
+      ); ?>
+      <?= pictureTag(
+        '/assets/images/client-logos/check24-logo.svg',
+        'Kunde Check24',
+        140, 28
+      ); ?>
+      <?= pictureTag(
+          '/assets/images/client-logos/snipes2-logo.svg',
+          'Unser Kunde Snipes',
+          99, 28
+      ); ?>
+      <?= pictureTag(
+          '/assets/images/client-logos/logo-sodastream.svg',
+          'Unser Kunde SodaStream',
+          194, 24
+      ); ?>
     </div>
   </div>
 </div>
@@ -70,42 +96,66 @@ $faqs->faq_add (
     <div class="grid centered">
       <div class="col-3 card" style="--c:transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/sound-quality.svg" alt="Kristallklare Sprachqualität" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/sound-quality.svg',
+            'Kristallklare Sprachqualität',
+            50, 49
+          ); ?>
         </div>
         <h3>Kristallklare Sprachqualität</h3>
         <p>Wir setzen auf Businessrouten, dass heißt keine Gesprächsaussetzer und beste Qualität für Deine Telefonate.</p>
       </div>
       <div class="col-3 card" style="--c:transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/server-location.svg" alt="Serverstandort Deutschland" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/server-location.svg',
+            'Serverstandort Deutschland',
+            50, 51
+          ); ?>
         </div>
         <h3>Höchste Sicherheitsstandards</h3>
         <p>Die Server stehen in Hochsicherheitsrechenzentren in Deutschland. Verschlüsslung ist hier Standard.</p>
       </div>
       <div class="col-3 card" style="--c:transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/realtime-statistics.svg" alt="Echtzeitstatistiken" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/realtime-statistics.svg',
+            'Echtzeitstatistiken',
+            51, 50
+          ); ?>
         </div>
         <h3>Echtzeitstatistiken</h3>
         <p>Wir liefern alles Daten, damit Du an den großen Stellscharauben drehen kannst: Personal & Effizienz.</p>
       </div>
       <div class="col-3 card" style="--c:transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/homeoffice.svg" alt="Homeoffice" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/homeoffice.svg',
+            'Homeoffice',
+            50, 50
+          ); ?>
         </div>
         <h3>Homeoffice</h3>
         <p>Du entscheidest wie Du telefonierst: Über den Browser, Softphone integriert in Deinem Tool oder klassich mit einem IP-Telefon.</p>
       </div>
       <div class="col-3 card" style="--c:transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/apps.svg" alt="Apps" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/apps.svg',
+            'Apps',
+            50, 50
+          ); ?>
         </div>
         <h3>Apps</h3>
         <p>CallOne liefert fertige Anbindungen für die relevanten CRM und Ticketinglösungen wie Salesforce, Pipedrive Hubspot, Zendesk.</p>
       </div>
       <div class="col-3 card" style="--c:transparent">
         <div class="card__image card__image--small">
-          <img src="/assets/images/icons_svg/apis.svg" alt="Schnittstellen" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/apis.svg',
+            'Schnittstellen',
+            50, 50
+          ); ?>
         </div>
         <h3>Schnittstellen</h3>
         <p>Unser Steckenpferd: Willst Du intelligent routen oder Rohdaten nutzen, eine SMS versenden oder Dein eigenes ERP anbinden.</p>
@@ -129,7 +179,11 @@ $faqs->faq_add (
   <div class="content wide">
     <div class="omr-badge">
       <div class="omr-badge__icon">
-        <img src="/assets/images/icons_svg/podcast-goodie.svg" alt="Podcast Goodie" />
+        <?= pictureTag(
+          '/assets/images/icons_svg/podcast-goodie.svg',
+          'Podcast Goodie',
+          50, 52
+        ); ?>
       </div>
       <div class="omr-badge__text">
         <strong>Sie hören den OMR Podcast?</strong><br />
@@ -143,7 +197,11 @@ $faqs->faq_add (
     <div class="grid centered">
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Customer-Support-White.svg" alt="Kundenservice CallOne" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/Customer-Support-White.svg',
+            'Kundenservice CallOne',
+            64, 64
+          ); ?>
         </div>
         <h3>Kundenservice</h3>
         <p>Das „Mach-meine-Kunden-glücklich-Paket“ steuert Anrufe intelligent, optimiert Ihre Erreichbarkeit und macht Ihr Callcenter viel effizienter.</p>
@@ -154,7 +212,11 @@ $faqs->faq_add (
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Sales-White.svg" alt="Sales CallOne" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/Sales-White.svg',
+            'Sales CallOne',
+            65, 64
+          ); ?>
         </div>
         <h3>Sales</h3>
         <p>Mehr Durchblick bringt mehr Leads und qualitativ bessere Abschlüsse. Sie verbinden CallOne mit den besten Vertriebstools, einfach per Knopfdruck.</p>
@@ -164,7 +226,11 @@ $faqs->faq_add (
       </div>
       <div class="col-3 card card--transparent">
         <div class="card__image">
-          <img src="/assets/images/icons_svg/Helpdesk-White.svg" alt="Helpdesk Anbindung" />
+          <?= pictureTag(
+            '/assets/images/icons_svg/Helpdesk-White.svg',
+            'Helpdesk Anbindung',
+            64, 64
+          ); ?>
         </div>
         <h3>IT-Helpdesk</h3>
         <p>Organisierter und produktiver werden, Geschäftsprozesse optimieren. Mit CallOnes IT-Helpdesk lösen Sie Anfragen kompetent und transparent.</p>

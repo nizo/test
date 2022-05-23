@@ -9,11 +9,13 @@
             </p>
         </div>
         <div class="hero__image">
-            <img src="/assets/images/illus/illu-businesstelefonie-header.svg" 
-                alt="Viele Integrationen der CallOne Call Center Software und Kundenservice Software für Ihre Businesstelefonie" 
-                width="541" 
-                height="567"
-                style="width: 100%;" />
+            <?= pictureTag(
+                '/assets/images/illus/illu-businesstelefonie-header.svg',
+                'Viele Integrationen der CallOne Call Center Software und Kundenservice Software für Ihre Businesstelefonie',
+                541, 567, [
+                    'style' => 'width:100%'
+                ], false
+            ); ?>
         </div>
     </div>
 </div>
@@ -24,10 +26,26 @@
             <strong>Alles auf Erfolg:</strong> Diese Marken vertrauen auf CallOne Lösungen
         </p>
         <div class="logos" style="--height:50px">
-            <img src="/assets/images/client-logos/bett.svg" alt="Unser Kunde Bett1.de" width="300" height="150" />
-            <img src="/assets/images/client-logos/check24_logo.svg" alt="Unser Kunde Check24" width="300" height="150" />
-            <img src="/assets/images/client-logos/logo-snipes.svg" alt="Unser Kunde Snipes" width="300" height="150" />
-            <img src="/assets/images/client-logos/logo-sodastream-2.svg" alt="Unser Kunde SodaStream" width="194" height="24" />
+            <?= pictureTag(
+                '/assets/images/client-logos/bett.svg',
+                'Unser Kunde Bett1.de',
+                300, 150
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/check24_logo.svg',
+                'Unser Kunde Check24',
+                300, 150
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-snipes.svg',
+                'Unser Kunde Snipes',
+                300, 150
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-sodastream-2.svg',
+                'Unser Kunde SodaStream',
+                194, 24
+            ); ?>
         </div>
     </div>
 </div>
@@ -39,7 +57,11 @@
         <div class="icon-cards">
             <div class="icon-card">
                 <div class="icon-card__icon">
-                    <img src="/assets/images/icons_svg/automatization-gradient-icon.svg" alt="Effizienz in Ihrer Telefonie mit Automatisierungen mit Künstlicher Intelligenz" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/automatization-gradient-icon.svg',
+                        'Effizienz in Ihrer Telefonie mit Automatisierungen mit Künstlicher Intelligenz',
+                        50, 50
+                    ); ?>
                 </div>
                 <div class="icon-card__text">
                     <h3>Automatisierung mit KI</h3>
@@ -49,7 +71,11 @@
             </div>
             <div class="icon-card">
                 <div class="icon-card__icon">
-                    <img src="/assets/images/icons_svg/omnichannel-gradient-icon.svg" alt="integrierbare Apps und offene Schnittstellen für omnichannel Kundensupport" width="50" height="52" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/omnichannel-gradient-icon.svg',
+                        'integrierbare Apps und offene Schnittstellen für omnichannel Kundensupport',
+                        50, 52
+                    ); ?>
                 </div>
                 <div class="icon-card__text">
                     <h3>Omnichannel Kundensupport</h3>
@@ -59,7 +85,11 @@
             </div>
             <div class="icon-card">
                 <div class="icon-card__icon">
-                    <img src="/assets/images/icons_svg/sales-gradient-icon.svg" alt="Effiziente Sales durch Click-to-Dial und vielseitige Intergrationen" width="50" height="28" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/sales-gradient-icon.svg',
+                        'Effiziente Sales durch Click-to-Dial und vielseitige Intergrationen',
+                        50, 28
+                    ); ?>
                 </div>
                 <div class="icon-card__text">
                     <h3>Smarte Sales</h3>
@@ -69,7 +99,11 @@
             </div>
             <div class="icon-card">
                 <div class="icon-card__icon">
-                    <img src="/assets/images/icons_svg/callcenter-gradient-icon.svg" alt="Ob Homeoffice, Büro oder unterwegs im Browser. Mit der Businesstelefonielösung von CallOne bringen Sie das CallCenter zu Ihren Agenten" width="50" height="50" />
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/callcenter-gradient-icon.svg',
+                        'Ob Homeoffice, Büro oder unterwegs im Browser. Mit der Businesstelefonielösung von CallOne bringen Sie das CallCenter zu Ihren Agenten',
+                        50, 50
+                    ); ?>
                 </div>
                 <div class="icon-card__text">
                     <h3>Dezentrales Callcenter</h3>
@@ -81,7 +115,11 @@
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md co-grid__col--vcentered">
-                <img src="/assets/images/logo/productlogos/app-integration-group2.svg" alt="Nutzen Sie die Vielzahl der Anbindungen, Apps und offenen Schnittstellen der Businesstelefonie mit der Call One Callcenter Software und VoIP-Telefonanlage" width="220" height="220" />
+                <?= pictureTag(
+                    '/assets/images/logo/productlogos/app-integration-group2.svg',
+                    'Nutzen Sie die Vielzahl der Anbindungen, Apps und offenen Schnittstellen der Businesstelefonie mit der Call One Callcenter Software und VoIP-Telefonanlage',
+                    220, 220
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--8-md co-grid__col--vcentered">
                 <h3>Ihre Tools, direkt am Start</h3>
@@ -284,7 +322,11 @@
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--4-md co-grid__col--vcentered">
-                <img src="/assets/images/photos/use-case-niceshops.png" alt="CallOne Unternehmenstelefonie mit Freshdesk Integration und optimalem Kundensupport für Niceshops" width="260" height="377" />
+                <?= pictureTag(
+                    '/assets/images/photos/use-case-niceshops.png',
+                    'CallOne Unternehmenstelefonie mit Freshdesk Integration und optimalem Kundensupport für Niceshops',
+                    260, 377
+                ); ?>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--8-md co-grid__col--vcentered">
                 <h4>Use Case</h4>
@@ -312,7 +354,13 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <div class="content-box content-box--white">
                     <p>
-                        <img src="/assets/images/icons_svg/usp-speed-icon.svg" alt="Call Center Software wird schnell bereitgestellt" width="161" height="50" style="height:50px" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/usp-speed-icon.svg',
+                            'Call Center Software wird schnell bereitgestellt',
+                            161, 50, [
+                                'style' => 'height:50px'
+                            ]
+                        ); ?>
                     </p>
                     <br />
                     <h3>Bereitstellung in wenigen Tagen statt Monaten</h3>
@@ -322,7 +370,13 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <div class="content-box content-box--white">
                     <p>
-                        <img src="/assets/images/icons_svg/usp-germany-icon.svg" alt="Call Center Software mit hohem deutschen Datenschutzstandard" width="44" height="50" style="height:50px" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/usp-germany-icon.svg',
+                            'Call Center Software mit hohem deutschen Datenschutzstandard',
+                            44, 50, [
+                                'style' => 'height:50px'
+                            ]
+                        ); ?>
                     </p>
                     <br />
                     <h3>Telefonie mit deutschem Datenschutz-Standard</h3>
@@ -332,7 +386,13 @@
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <div class="content-box content-box--white">
                     <p>
-                        <img src="/assets/images/icons_svg/usp-availability-icon.svg" alt="Call Center Software ist sehr gut erreichbar" width="92" height="50" style="height:50px" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/usp-availability-icon.svg',
+                            'Call Center Software ist sehr gut erreichbar',
+                            92, 50, [
+                                'style' => 'height:50px'
+                            ]
+                        ); ?>
                     </p>
                     <br />
                     <h3>Garantierte <br class="mobile-hidden" />99,999% <br class="mobile-hidden" />Erreichbarkeit</h3>

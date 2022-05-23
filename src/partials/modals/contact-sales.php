@@ -45,10 +45,28 @@ $uniqueID = uniqid();
         
         <div class="co-grid co-grid--no-margin-bottom centered">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <p class="centered"><br /><br /><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" width="16" height="11" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a></p>
+                <p>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/telephony-indicator.svg',
+                        'Anruf',
+                        16, 21, [
+                            'style' => 'width:16px;margin-right:10px;vertical-align:middle'
+                        ]
+                    ); ?>
+                    <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a>
+                </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <p class="centered"><br /><br /><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" width="16" height="21" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a></p>
+                <p>
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/mail-indicator.svg',
+                        'E-Mail',
+                        16, 11, [
+                            'style' => 'width:16px;margin-right:10px;vertical-align:middle'
+                        ]
+                    ); ?>
+                    <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a>
+                </p>
             </div>
         </div>
     </div>

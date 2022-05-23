@@ -1,8 +1,64 @@
 <?php
 function prepareOgImageText($text) {
     $text = str_replace(' ', '_', $text);
-    $text = urlencode($text);
+    $text = preg_replace('/[^a-zA-Z0-9_]/', '-', $text);
     return $text;
+}
+
+// Insert picture element with multiple sources and fallback (fallback, retina and webp)
+function pictureTag($path, $alt, $width = null, $height = null, $attributes = [], $lazyloading = true) {
+    // Get file information
+    $file = pathinfo($path);
+    $filepath = $file['dirname'].'/'.$file['filename'];
+    $root = __DIR__.'/../';
+
+    // Build <picture> template
+    $template = '<picture>'.PHP_EOL;
+
+    if (strtolower($file['extension']) != 'svg') {
+        // Set WEBP sources if available
+        $webp = $filepath.'.webp';
+        if (file_exists($root.$webp)) {
+            $webp2x = $filepath.'@2x.webp';
+            $webp3x = $filepath.'@3x.webp';
+            $extraSourcesWebp = '';
+            if (file_exists($root.$webp3x))
+                $extraSourcesWebp .= $webp3x.' 3x, ';
+            if (file_exists($root.$webp2x))
+                $extraSourcesWebp .= $webp2x.' 2x, ';
+
+            $template .= '<source srcset="'.$extraSourcesWebp.$webp.' 1x" type="image/webp"/>'.PHP_EOL;
+        }
+
+        // Set original sources if available
+        $original2x = $filepath.'@2x.'.$file['extension'];
+        $original3x = $filepath.'@3x.'.$file['extension'];
+        $extraSourcesOriginal = '';
+        if (file_exists($root.$original3x))
+            $extraSourcesOriginal .= $original3x.' 3x, ';
+        if (file_exists($root.$original2x))
+            $extraSourcesOriginal .= $original2x.' 2x, ';
+        $template .= '<source srcset="'.$extraSourcesOriginal.$path.' 1x" type="image/'.$file['extension'].'"/>'.PHP_EOL;
+    }
+
+    // Image tag
+    $template .= '<img src="'.$path.'"';                // Image path
+    if ($lazyloading)
+        $template .= ' loading="lazy"';                 // Lazy loading
+    $template .= ' alt="'.$alt.'"';                     // Alt-Text
+    $template .= ' title="'.$alt.'"';                   // Title-text
+    if ($width)
+        $template .= ' width="'.$width.'"';             // Image width
+    if ($height)
+        $template .= ' height="'.$height.'"';           // Image height
+    if (!empty ($attributes))                           // Extra attributes such as style, class, etc...
+    {   foreach ($attributes as $attribute => $value)
+            $template .=  ' '.$attribute.'="'.$value.'"';
+    }
+    $template .= '/>'.PHP_EOL;                          
+    $template .= '</picture>'.PHP_EOL;
+
+    return $template;
 }
 
 // Get css/js hash

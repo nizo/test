@@ -114,16 +114,24 @@ if (empty ($job))
 </script>
 
 <div class="section">
-    <div class="section__content section__content--narrow">
+    <div class="section__content section__content--wide">
         <p class="centered">
-            <img src="<?= $job->icon_get(); ?>" alt="Stellen bei CallOne" />
+            <?= pictureTag(
+                $job->icon_get(),
+                'Stellen bei CallOne',
+                70, null, [
+                    'style' => 'max-width: 70px'
+                ], false
+            ); ?>
         </p>
-
+        
         <h1 class="centered">
             <span class="headline-tag"><?= $job->quickinfo_get(); ?></span><br />
             <?= $job->title_get(); ?>
         </h1>
+    </div>
 
+    <div class="section__content section__content--narrow">
         <?php
         if (!empty($job->text_intro_get())) {
             foreach ($job->text_intro_get() as $intro) {
@@ -139,58 +147,82 @@ if (empty ($job))
     </div>
 </div>
 
-<div class="job-details" style="--top-color:#fff;--bottom-color:#f2f2f2">
+<div class="job-details" style="--top-color:#fff;--bottom-color:#edf2e2">
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_35.svg" alt="Arbeitsstelle" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_35.svg',
+            'Arbeitsstelle',
+            35, 48
+        ); ?>
         <?= $job->location_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_32.svg" alt="Arbeitszeit" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_32.svg',
+            'Arbeitszeit',
+            50, 48
+        ); ?>
         <?= $job->job_worktime_get(); ?>
     </div>
     <div class="job-details__item">
-        <img src="/assets/images/icons_svg/small_31.svg" alt="Arbeitsbeginn" />
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_31.svg',
+            'Arbeitsbeginn',
+            56, 48
+        ); ?>
         <?= $job->job_start_end_get(); ?>
     </div>
 </div>
 
-<div class="section section--light-grey-green section--overflow-protection">
-    <div class="section__content section__content--wide">
-        <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <h3>Der Job</h3>
-                <?php
-                foreach ($job->text_description_long_get() as $text_description_long)
-                    echo '<p>'.$text_description_long.'</p>';
-                ?>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <?php
-                if (!empty($job->statement_get())):
-                    $key = array_rand($job->statement_get());
-                    $statement = $job->statement_get()[$key];
-                    ?>
+<div class="section section--light-green section--overflow-protection">
+    <div class="section__content section__content--narrow">
+        <h2>Der Job</h2>
+        <?php
+        foreach ($job->text_description_long_get() as $text_description_long)
+            echo '<p class="bigtext">'.$text_description_long.'</p>';
+        ?>
+    </div>
+</div>
 
-                    <div class="job-quote">
-                        <blockquote><?= $statement->text_get(); ?></blockquote>
-                        <div class="job-quote__author">
-                            <img src="/assets/images/photos/placeholder.gif" data-src="<?= $statement->image_get(); ?>" data-srcset="<?= $statement->image_get(); ?>" class="lazy" alt="Statement" />
-                            <div>
-                                <strong><?= $statement->name_get() ?></strong><br />
-                                <?= $statement->position_get() ?><br />
-                            </div>
-                        </div>
+<?php
+if (!empty($job->statement_get())):
+    $key = array_rand($job->statement_get());
+    $statement = $job->statement_get()[$key];
+    ?>
+    <div class="section section--no-padding-top section--no-padding-bottom" style="background:#edf2e2">
+        <div class="section__content section__content--wide" style="padding-top:18px;padding-bottom:18px;">
+            <div class="breather-box" style="--c-bg:#fff;--c-text:#000">
+                <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--vcentered">
+                        <?= pictureTag(
+                                $statement->image_get(),
+                                'Statement',
+                                150, 150, ['class'=>'job-quote-image']
+                        ); ?>
                     </div>
-                <?php endif; ?>
+                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
+                        <div class="quote" style="--fontSize:26px">
+                            „<?= $statement->text_get(); ?>“
+                        </div>
+                        <p>
+                            <strong><?= $statement->name_get(); ?></strong><br />
+                            <?= $statement->position_get(); ?>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <?php
+endif;
+?>
 
+<div class="section section--light-green-white section--overflow-protection">
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <h3>Wobei wir deine Hilfe brauchen</h3>
-                <ul class="list list--checkmarks">
+                <h2>Wobei wir deine Hilfe brauchen</h2>
+                <ul class="list list--checkmarks list--checkmarks-green">
 					<?php
 					foreach ($job->text_tasks_get() as $text_task)
 						echo '<li>'.$text_task.'</li>';
@@ -198,8 +230,8 @@ if (empty ($job))
 				</ul>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <h3>Was wir uns wünschen</h3>
-                <ul class="list list--checkmarks">
+                <h2>Was wir uns wünschen</h2>
+                <ul class="list list--checkmarks list--checkmarks-green">
 					<?php
 					foreach ($job->text_requirements_get() as $text_requirement)
 						echo '<li>'.$text_requirement.'</li>';
@@ -215,49 +247,45 @@ if (empty ($job))
                 <p>Du möchtest mehr über deinen Arbeitsplatz und das Team erfahren?</p>
                 <p><a href="/karriere-bei-callone" class="btn btn--secondary btn--centered">Karriere bei Callone</a></p>
             </div>
-            <div class="split-box__divider" data-text="oder"></div>
-            <div class="split-box__item">
-                <p>Du möchtest mehr über deinen Tagesablauf in diesem Job erfahren?</p>
-                <p><a href="#" class="btn btn--border-black btn--centered" data-openmodal="<?= $job->agenda_filename_get(); ?>">Deine Tagesagenda</a></p>
-            </div>
+            <?php 
+            if ($job->agenda_filename_get()):
+                ?>
+                <div class="split-box__divider" data-text="oder"></div>
+                <div class="split-box__item">
+                    <p>Du möchtest mehr über deinen Tagesablauf in diesem Job erfahren?</p>
+                    <p><a href="#" class="btn btn--border-black btn--centered" data-openmodal="<?= $job->agenda_filename_get(); ?>">Deine Tagesagenda</a></p>
+                </div>
+                <?php
+            endif;
+            ?>
         </div>
     </div>
 
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left">Das haben wir dir zu bieten:</h2>
 
-        <div class="co-grid mobile-hidden">
+        <div class="co-grid">
             <?php
             foreach ($jobs_benefits as $benefit) {
-                echo '<div class="card centered co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">';
-                echo '<img src="'.$benefit->icon_get().'" alt="Vorteile bei CallOne Arbeiten" />';
-                echo '<h3>'.$benefit->title_get().'</h3>';
-                echo '<p>'.$benefit->text_get().'</p>';
+                echo '<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">';
+				echo '<div class="content-box content-box--white content-box--shadow content-box--small-padding">';
+                echo '<div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">';
+                echo '<div class="co-grid__col co-grid__col--vcentered">';
+                echo pictureTag(
+                    $benefit->icon_get(),
+                    'Vorteile bei CallOne Arbeiten',
+                    70, 70, ['style'=>'height:70px','class'=>'co-grid__image--full-width']
+                );
+                echo '</div>';
+                echo '<div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">';
+                echo '<h4 style="margin-bottom:0">'.$benefit->title_get().'</h4>';
+                echo '</div>';
+                echo '</div>';
+                echo '<p style="margin-top:var(--gutter-xs)">'.$benefit->text_get().'</p>';
+                echo '</div>';
                 echo '</div>';
             }
             ?>
-        </div>
-
-        <div class="step-slider centered desktop-hidden">
-            <div class="step-slider__steps">
-                <?php
-                foreach ($jobs_benefits as $key => $benefit) {
-                    $extraClass = '';
-                    if ($key == 0)
-                        $extraClass = ' step-slider__step--active';
-                    echo '<div class="step-slider__step step-slider__step--no-number'.$extraClass.'">';
-                    echo '<img src="'.$benefit->icon_get().'" alt="Vorteile Arbeiten bei CallOne" data-alt-image="'.$benefit->alt_icon_get().'" />';
-                    echo '<h3>'.$benefit->title_get().'</h3>';
-                    echo '<p>'.$benefit->text_get().'</p>';
-                    echo '</div>';
-                }
-                ?>
-            </div>
-            <div class="step-slider__slider">
-                <div class="step-slider__range">
-                    <div class="step-slider__handle"></div>
-                </div>
-            </div>
         </div>
     </div>
 
