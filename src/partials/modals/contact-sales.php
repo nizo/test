@@ -7,6 +7,8 @@ $uniqueID = uniqid();
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true">
+        <h3 class="centered mobile-left">Wie möchtest Sie Kontakt aufnehmen?</h3>
+
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <div class="btn btn--tile callone-modal__nextstep" data-next-step="2">
@@ -20,7 +22,7 @@ $uniqueID = uniqid();
                         ); ?>
                         <h3>Nachricht</h3>
                     </div>
-                    <p>Nutzen Sie ganz bequem unser Kontaktformular</p>
+                    <p>Ganz bequem per Kontaktformular</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
@@ -35,7 +37,7 @@ $uniqueID = uniqid();
                         ); ?>
                         <h3>Rückruf</h3>
                     </div>
-                    <p>Ganz einfach von uns zurück&shy;gerufen werden</p>
+                    <p>Wir rufen Sie gerne baldmöglichst zurück</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">

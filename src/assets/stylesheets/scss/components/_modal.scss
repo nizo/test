@@ -175,10 +175,10 @@ body.callone-modal--scrolllock {
         flex: 1;
         --scrollbarBG: transparent;
         --thumbBG: #86ed18;
-        scrollbar-width: thin;
+        scrollbar-width: auto;
         scrollbar-color: var(--thumbBG) var(--scrollbarBG);
         &::-webkit-scrollbar {
-            width: 6px;
+            width: 8px;
         }
         &::-webkit-scrollbar-track {
             background: var(--scrollbarBG);
