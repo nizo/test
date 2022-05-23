@@ -208,41 +208,8 @@
         });
 
 
-        $('#callbackButton').click (function()
-        {
-            $.ajax
-		    ({
-                url: "https://connect.callone.io/backend/callback.php",
-                cache: false,
-                type: "POST",
-                data:
-                {
-                    type: 0,
-                    aid: 'callone_cfcd208495d565ef66e7dff9f98764da',
-                    callback_key: 'dbc5e205033aa4f230073490394205b4',
-                    phonenumber: $('#callbackNumber').val().trim(),
-                    ddi: session_ddi,
-                    data: session_rootnumber
-                },
-                dataType: "json",
-                error: function (error)
-                {	console.log (JSON.stringify (error));
-                },
-                success: function (jsonData)
-                {
-                    if (jsonData['success'])
-                        $('#callbackNumber').val('');
-                }
-            });
-        });
-
-
-		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'sixt', callbrowsing_text_create, callbrowsing_url_create, callbrowsing_status);
-
-		$('#showPopoverCallback').on('click', function() {
-			$('#popoverCallback').fadeToggle();
-		});
-    });
+        callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'sixt', callbrowsing_text_create, callbrowsing_url_create, callbrowsing_status);
+	});
     </script>
     <!-- CallOne Callbrowsing -->
   
@@ -321,23 +288,7 @@ Merkzettel
 </svg>  
 Privat  
 </a>
-<a class="pull-left" id="showPopoverCallback">  
-<img src="./images/callback.svg"  style="color: #ffffff; display: block; margin: 0 auto;"/>
-Rückruf  
-</a>
-<div class="popover fade bottom in" role="tooltip" id="popoverCallback" style="top: 42px; left: 45px; display: none;"><div class="arrow" style="left: 50%;"></div>
-<h3 class="popover-title" style="display: none;"></h3><div class="popover-content"><div class="lvkd-switch">Rufnummer eingeben, wir rufen Sie sofort zurück.<hr>
 
-<div class="callback">
-	<div id="wrap">
-		<form id="callbackForm" action="" autocomplete="on" onclick="document.getElementById('callbackNumber').classList.add('fixed');">
-            <input id="callbackNumber" name="callbacknumber" type="text" placeholder="Ihre Rufnummer" >
-            <button id="callbackButton" type="button" name="callbackbutton">Rückruf anfordern</button>
-		</form>
-    </div>
-</div>
-
-</div></div></div>
 </div>  
   
 <span class="pull-right clearfix service-phone">  
