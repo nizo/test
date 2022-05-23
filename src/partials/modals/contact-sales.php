@@ -1,5 +1,6 @@
 <?php
 require_once('../../libs/session.inc.php');
+require_once('../../libs/functions.inc.php');
 
 $uniqueID = uniqid();
 ?>
@@ -7,36 +8,47 @@ $uniqueID = uniqid();
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true">
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--1-sm"></div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <div class="btn btn--tile callone-modal__nextstep" data-next-step="2" style="--width:270px">
                     <div class="btn--tile__title">
                         <img src="/assets/images/icons_svg/icon-postbox.svg" alt="Sales kontaktieren" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
-                        <h3>Nachricht senden</h3>
+                        <h3>Nachricht</h3>
                     </div>
                     <p>Nutzen Sie ganz bequem unser Kontaktformular</p>
                 </div>
-
-                <p class="centered"><br /><br /><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" width="16" height="21" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a></p>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3" style="--width:270px">
+                    <div class="btn--tile__title">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-callback.svg',
+                            'Von CallOne zurückgerufen werden',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
+                            ]
+                        ); ?>
+                        <h3>Rückruf</h3>
+                    </div>
+                    <p>Ganz einfach von uns zurück&shy;gerufen werden</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <div class="btn btn--tile callone-modal__nextstep" data-next-step="3" style="--width:270px">
                     <div class="btn--tile__title">
                         <img src="/assets/images/icons_svg/icon-calendar.svg" alt="Sales kontaktieren und Termin buchen" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
-                        <h3>Termin ausmachen</h3>
+                        <h3>Termin</h3>
                     </div>
                     <p>Telefon- oder Videocall ganz einfach festlegen</p>
                 </div>
-
-                <p class="centered"><br /><br /><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" width="16" height="11" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a></p>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--1-sm"></div>
         </div>
-
+        
         <div class="co-grid co-grid--no-margin-bottom centered">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+                <p class="centered"><br /><br /><img src="/assets/images/icons_svg/mail-indicator.svg" alt="E-Mail" width="16" height="11" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a></p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+                <p class="centered"><br /><br /><img src="/assets/images/icons_svg/telephony-indicator.svg" alt="Anruf" width="16" height="21" style="width:16px;margin-right:10px;vertical-align:middle" /> <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a></p>
             </div>
         </div>
     </div>
@@ -119,7 +131,7 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-steptitle="Termin wählen" data-mouseflow-tag="Calendly">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min?hide_gdpr_banner=1&hide_event_type_details=1" style="min-width:320px;height:1200px;"></div>
