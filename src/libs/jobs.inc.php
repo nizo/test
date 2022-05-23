@@ -616,7 +616,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
-	/*$job = new job ('Vertrieb', 'HR-Manager*in, Schwerpunkt Recruiting und Employer Branding', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job = new job ('Vertrieb', 'HR-Manager*in, Schwerpunkt Recruiting und Employer Branding', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
 	$job->location_set ('Remote');
 	$job->url_set ('/karriere/job-hr-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -648,7 +648,7 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-projektmanager');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs->job_add ($job);*/
+	$jobs->job_add ($job);
 
 	return $jobs;
 }
