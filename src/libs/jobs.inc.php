@@ -645,7 +645,6 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['care']);
-	$job->agenda_filename_set ('agenda-projektmanager');
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
