@@ -16,15 +16,22 @@
         flex-wrap: nowrap;
         align-items: center;
     }
+    &__row--centered {
+        justify-content: center;
+    }
 
     &__col {
+        --maxWidth: initial;
         flex: 1 1 0px;
         width: 0;
+        max-width: var(--maxWidth);
         &+.floating-form__col {
             margin-left: var(--gutter);
         }
-        .floating-form__field + .floating-form__field {
-            margin-top: var(--gutter);
+        .floating-form__field, .floating-form__select {
+            &+.floating-form__field, &+.floating-form__select {
+                margin-top: var(--gutter);
+            }
         }
     }
 
@@ -49,7 +56,9 @@
             line-height: 1.6;
         }
         textarea {
+            --height: auto;
             resize: none;
+            height: var(--height);
         }
         label {
             position: absolute;
@@ -90,7 +99,7 @@
         }
     }
     &__field--highlight {
-        border-color: $color-primary;
+        border-color: #000;
     }
     &__field--short {
         width: 100%;
@@ -115,7 +124,7 @@
         }
     }
     &__field--small {
-        input {
+        input, textarea {
             padding: var(--gutter-micro) var(--gutter-xs);
             font-size: 16px;
             &:focus, &:not(:placeholder-shown) {

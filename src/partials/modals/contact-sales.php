@@ -9,16 +9,22 @@ $uniqueID = uniqid();
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="2" style="--width:270px">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="2">
                     <div class="btn--tile__title">
-                        <img src="/assets/images/icons_svg/icon-postbox.svg" alt="Sales kontaktieren" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-mail.svg',
+                            'Sales kontaktieren',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
+                            ]
+                        ); ?>
                         <h3>Nachricht</h3>
                     </div>
                     <p>Nutzen Sie ganz bequem unser Kontaktformular</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3" style="--width:270px">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="5">
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-callback.svg',
@@ -33,9 +39,15 @@ $uniqueID = uniqid();
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3" style="--width:270px">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3">
                     <div class="btn--tile__title">
-                        <img src="/assets/images/icons_svg/icon-calendar.svg" alt="Sales kontaktieren und Termin buchen" width="32" height="32" style="margin-bottom:0;max-width:32px;" />
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-calendar.svg',
+                            'Sales kontaktieren und Termin buchen',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
+                            ]
+                        ); ?>
                         <h3>Termin</h3>
                     </div>
                     <p>Telefon- oder Videocall ganz einfach festlegen</p>
@@ -96,24 +108,23 @@ $uniqueID = uniqid();
                     </div>
                 </div>
                 <div class="floating-form__row">
-                    <div class="floating-form__col subtext centered" style="opacity:.5">Optional können Sie uns gerne noch weitere Informationen mitteilen</div>
+                    <div class="floating-form__col subtext centered">Optional können Sie uns gerne noch weitere Informationen mitteilen</div>
                 </div>
                 <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
+                    <div class="floating-form__col">
+                        <div class="floating-form__field floating-form__field--small">
+                            <textarea style="--height:200px" name="message" cols="30" rows="7" placeholder="Möchten Sie uns noch etwas zusätzlich mitteilen?"></textarea>
+                        </div>
+                    </div>
                     <div class="floating-form__col">
                         <div class="floating-form__field floating-form__field--small">
                             <input type="text" name="company" placeholder=" " />
                             <label>Firmenname</label>
                         </div>
-                    </div>
-                    <div class="floating-form__col">
                         <div class="floating-form__field floating-form__field--small">
                             <input type="text" name="phonenumber" placeholder=" " />
                             <label>Geschäftliche Telefonnummer</label>
                         </div>
-                    </div>
-                </div>
-                <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
-                    <div class="floating-form__col">
                         <div class="floating-form__select floating-form__select--small">
                             <select name="position" data-callone-select="">
                                 <option value="">Sie sind Ansprechpartner für</option>
@@ -124,8 +135,6 @@ $uniqueID = uniqid();
                                 <option value="Sonstiges">Sonstiges</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="floating-form__col">
                         <div class="floating-form__select floating-form__select--small">
                             <select name="issue" data-callone-select="">
                                 <option value="">Herausforderung Ihrer Firma</option>
@@ -182,7 +191,7 @@ $uniqueID = uniqid();
                 </div>
                 <div class="step-slider__step">
                     <h2>Finetuning & Start</h2>
-                    <p>Alles roger? Dann gehen wir live, nachdem wir alle notwendigen Schritte für einen erfolgreichen Start gemeinsam durchlaufen haben​.</p>
+                    <p>Alles roger? Dann gehen wir live, nachdem wir alle notwendigen Schritte für einen erfolgreichen Start gemeinsam durchlaufen haben.</p>
                 </div>
             </div>
             <div class="step-slider__slider">
@@ -203,9 +212,94 @@ $uniqueID = uniqid();
             </div>
         </div>
     </div>
+
+    <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="4" data-next-button-text="Jetzt Rückruf anfordern" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
+        <div class="sales-callback-form">
+            <h2>Wir rufen Sie gerne zurück!</h2>
+
+            <p class="centered">Hinterlassen Sie Ihre Rufnummer und wir rufen Sie so bald wie möglich zurück.</p>
+
+            <form action="#" method="post" class="floating-form" data-step-callback="salesCallbackSubmit">
+                <div class="floating-form__error">
+                    <h2>Etwas ist schief gelaufen</h2>
+                    <p>Bitte versuchen Sie es erneut.</p>
+                </div>
+
+                <div class="floating-form__row floating-form__row--centered">
+                    <div class="floating-form__col" style="--maxWidth:50%">
+                        <div class="floating-form__field">
+                            <input type="text" name="phonenumber" placeholder=" " required="required" />
+                            <label>Ihre Rückrufnummer *</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-form__loader"></div>
+
+                <input type="submit" id="sales-callback-form" hidden />
+            </form>
+        </div>
+    </div>
     
     <script>
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
+
+        // Sales Callback Form
+        window.salesCallbackSubmit = function(e, cb) {
+            const form = document.querySelector('.sales-callback-form form');
+            const formLoader = form.querySelector('.floating-form__loader');
+            const formSubmit = form.querySelector('input[type="submit"]');
+            const formSubmitLabel = thisModal.querySelector('label[for="sales-callback-form"]');
+            const formError = form.querySelector('.floating-form__error');
+            const formErrorHeadline = formError.querySelector('h2');
+            const formErrorText = formError.querySelector('p');
+            formError.classList.remove('floating-form__error--active') // Display error message
+
+            // Prepare form data
+            let formData = new FormData(form);
+            const id = "callone_cfcd208495d565ef66e7dff9f98764da";
+            const key = "58e6f511a00324c208628ae903d7f2f0";
+            formData.set('type', 0);
+            formData.set('aid', id);
+            formData.set('callback_key', key);
+            
+            if (formData.get('phonenumber') == "")
+                return;
+
+            formLoader.classList.add('floating-form__loader--active');
+            formSubmit.disabled = true;
+            formSubmitLabel.classList.add('floating-form__label--disabled');
+
+            const postUrl = 'https://connect.callone.io/backend/callback.php';
+            let postData = formData;
+            fetch(postUrl, {
+                method: 'POST',
+                cache: 'no-cache',
+                body: postData
+            })
+            .then(response => {
+                return response.json();
+            })
+            .then(data => {
+                console.log(data);
+                formLoader.classList.remove('floating-form__loader--active');
+                formSubmit.disabled = false;
+                formSubmitLabel.classList.remove('floating-form__label--disabled');
+                if (data.error) {
+                    console.log('Callback error');
+                    console.error(data.error);
+                } else {
+                    console.log('Callback success');
+                }
+            })
+            .catch(response => {
+                console.log('Callback error');
+                console.error(response);
+                formLoader.classList.remove('floating-form__loader--active');
+                formSubmit.disabled = false;
+                formSubmitLabel.classList.remove('floating-form__label--disabled');
+            });
+        }
 
         // Sales Contact Form
         window.salesContactSubmit = function(e, cb) {
