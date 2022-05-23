@@ -27,6 +27,7 @@ $uniqueID = uniqid();
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <div class="btn btn--tile callone-modal__nextstep" data-next-step="5">
+                    <div class="btn--tile__ribbon">Sofort</div>
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-callback.svg',
@@ -37,7 +38,7 @@ $uniqueID = uniqid();
                         ); ?>
                         <h3>Rückruf</h3>
                     </div>
-                    <p>Wir rufen Sie gerne baldmöglichst zurück</p>
+                    <p>Wir rufen Sie gerne sofort zurück</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
@@ -87,7 +88,7 @@ $uniqueID = uniqid();
 
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
         <div class="sales-contact-form">
-            <h2>Fast geschafft!</h2>
+            <h2>Wie können wir Sie erreichen?</h2>
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit">
                 <div class="floating-form__error">
@@ -114,7 +115,7 @@ $uniqueID = uniqid();
                 </div>
                 <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
                     <div class="floating-form__col">
-                        <div class="floating-form__field floating-form__field--small">
+                        <div class="floating-form__field">
                             <textarea style="--height:200px" name="message" cols="30" rows="7" placeholder="Möchten Sie uns noch etwas zusätzlich mitteilen?"></textarea>
                         </div>
                     </div>

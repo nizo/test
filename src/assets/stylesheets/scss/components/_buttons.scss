@@ -136,6 +136,8 @@
 	}
 
 	&--tile {
+		position: relative;
+		overflow: hidden;
 		display: block;
 		background-color: #FFFFFF;
 		color: #000;
@@ -174,6 +176,22 @@
         img {
             margin-bottom: 0;
         }
+	}
+	&--tile__ribbon {
+		position: absolute;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        transform-origin: 0 0; /* OR top left */
+        transform: translate(29.3%) rotate(45deg);
+        background: $color-primary;
+        box-shadow: 0 0 0 999px $color-primary;
+        clip-path: inset(0 -100%);
+        font-size: 14px;
+        font-family: $font-headline;
+        font-weight: 500;
+        padding: var(--gutter-micro);
 	}
 	
 	&--centered {
