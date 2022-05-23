@@ -217,7 +217,7 @@ $uniqueID = uniqid();
         <div class="sales-callback-form">
             <h2>Wir rufen Sie gerne zurück!</h2>
 
-            <p class="centered">Hinterlassen Sie Ihre Rufnummer und wir rufen Sie so bald wie möglich zurück.</p>
+            <p class="centered">Hinterlassen Sie uns Ihre Rufnummer und wir melden uns baldmöglichst bei Ihnen.</p>
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesCallbackSubmit">
                 <div class="floating-form__error">
