@@ -179,3 +179,14 @@ img {
         border-color: currentColor;
     }
 }
+
+// Various
+.checklist-download { // Used on index page for checklist download
+    margin-top: calc(var(--gutter-m) + 125px * -1);
+    margin-bottom: calc(var(--gutter-m) + 125px * -1);
+
+    @media screen and (max-width: 800px) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
