@@ -26,7 +26,7 @@ $faqs->faq_add (
 );
 ?>
 
-<div class="section section--mobile-divider">
+<div class="section section--colored-gradient section--mobile-divider" style="--bg1:rgba(70, 78, 184, 0.1);--bg2:rgba(70, 78, 184, 0);">
     <header class="hero">
         <div class="hero__text">
             <h1>Auf die Plätze, fertig, <u>Teams</u> Telefonie</h1>
