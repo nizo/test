@@ -2449,23 +2449,7 @@ blockquote {
 	}
 }
 
-.worker-evaluation {
-	&--not-enough {
-		text-align: center;
-	}
-
-	.radio-select {
-		&__item {
-			label {
-				h3 {
-					font-size: 36px;
-				}
-			}
-		}
-	}
-}
-
-.sales-contact-form {
+.sales-contact-form, .sales-callback-form {
 	h2 {
 		font-family: $font-headline;
 		font-weight: normal;
