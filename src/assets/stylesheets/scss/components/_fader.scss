@@ -90,6 +90,10 @@
             display: block;
         }
     }
+    &__item--vcentered {
+        display: flex;
+        align-items: center;
+    }
 
     &__item--messured {
         position: absolute;

@@ -1,5 +1,8 @@
-*.list, .list+* {
+*+.list, .list+* {
     margin-top: var(--gutter-l);
+}
+h2+.list {
+    margin-top: var(--gutter-m);
 }
 
 .list {
