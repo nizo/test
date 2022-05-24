@@ -231,8 +231,8 @@ $uniqueID = uniqid();
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesCallbackSubmit">
                 <div class="floating-form__error">
-                    <h2>Etwas ist schief gelaufen</h2>
-                    <p>Bitte versuchen Sie es erneut.</p>
+                    <h2>Rückruf leider nicht möglich.</h2>
+                    <p>Bitte geben Sie eine gültige Rufnummer aus Deutschland an und stellen Sie sicher, dass Sie den Rückruf während unserer Geschäftszeiten anfordern, diese sind: <strong>Mo - Fr von 9 Uhr bis 18 Uhr</strong>.</p>
                 </div>
 
                 <div class="floating-form__row floating-form__row--centered">
@@ -263,15 +263,16 @@ $uniqueID = uniqid();
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
             const formErrorText = formError.querySelector('p');
-            formError.classList.remove('floating-form__error--active') // Display error message
+            formError.classList.remove('floating-form__error--active') // Hide error message
 
             const id = '0007257529d86f3e5318f08686b82236';
+            let callbackActive = false;
             
             // Prepare form data
             let formData = new FormData(form);
             formData.set('id', id);
             
-            if (formData.get('phonenumber') == '')
+            if (formData.get('phonenumber') == '' || callbackActive)
                 return;
 
             formLoader.classList.add('floating-form__loader--active');
@@ -295,13 +296,15 @@ $uniqueID = uniqid();
                 if (data.error) {
                     console.log('Callback error');
                     console.error(data.error);
+                    formError.classList.add('floating-form__error--active') // Display error message
                 } else {
-                    console.log('Callback success');
+                    callbackActive = true;
                 }
             })
             .catch(response => {
                 console.log('Callback error');
                 console.error(response);
+                formError.classList.add('floating-form__error--active') // Display error message
                 formLoader.classList.remove('floating-form__loader--active');
                 formSubmit.disabled = false;
                 formSubmitLabel.classList.remove('floating-form__label--disabled');
@@ -317,7 +320,7 @@ $uniqueID = uniqid();
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
             const formErrorText = formError.querySelector('p');
-            formError.classList.remove('floating-form__error--active') // Display error message
+            formError.classList.remove('floating-form__error--active') // Hide error message
 
             formLoader.classList.add('floating-form__loader--active');
             formSubmit.disabled = true;
