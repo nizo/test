@@ -6,25 +6,11 @@ $uniqueID = uniqid();
 ?>
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true">
-        <h3 class="centered mobile-left">Wie möchtest Sie Kontakt aufnehmen?</h3>
+    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true" data-canceltext="Abbrechen">
+        <h3 class="centered mobile-left">Wie möchten Sie Kontakt aufnehmen?</h3>
 
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="2">
-                    <div class="btn--tile__title">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-mail.svg',
-                            'Sales kontaktieren',
-                            32, 32, [
-                                'style' => 'margin-bottom:0;max-width:32px;'
-                            ]
-                        ); ?>
-                        <h3>Nachricht</h3>
-                    </div>
-                    <p>Ganz bequem per Kontaktformular</p>
-                </div>
-            </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <div class="btn btn--tile callone-modal__nextstep" data-next-step="5">
                     <div class="btn--tile__ribbon">Sofort</div>
@@ -39,6 +25,24 @@ $uniqueID = uniqid();
                         <h3>Rückruf</h3>
                     </div>
                     <p>Wir rufen Sie gerne sofort zurück</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm"></div>
+            
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="2">
+                    <div class="btn--tile__title">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-mail.svg',
+                            'Sales kontaktieren',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
+                            ]
+                        ); ?>
+                        <h3>Nachricht</h3>
+                    </div>
+                    <p>Ganz bequem per Kontaktformular</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
@@ -56,10 +60,12 @@ $uniqueID = uniqid();
                     <p>Telefon- oder Videocall ganz einfach festlegen</p>
                 </div>
             </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
         </div>
         
         <div class="co-grid co-grid--no-margin-bottom centered">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p>
                     <?= pictureTag(
                         '/assets/images/icons_svg/telephony-indicator.svg',
@@ -71,7 +77,7 @@ $uniqueID = uniqid();
                     <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a>
                 </p>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p>
                     <?= pictureTag(
                         '/assets/images/icons_svg/mail-indicator.svg',
@@ -83,6 +89,7 @@ $uniqueID = uniqid();
                     <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a>
                 </p>
             </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
         </div>
     </div>
 
@@ -116,7 +123,7 @@ $uniqueID = uniqid();
                 <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
                     <div class="floating-form__col">
                         <div class="floating-form__field">
-                            <textarea style="--height:200px" name="message" cols="30" rows="7" placeholder="Möchten Sie uns noch etwas zusätzlich mitteilen?"></textarea>
+                            <textarea style="--height:200px" name="text" cols="30" rows="7" placeholder="Hier ist Platz für zusätzliche Anmerkungen."></textarea>
                         </div>
                     </div>
                     <div class="floating-form__col">
@@ -161,7 +168,7 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-mouseflow-tag="Calendly">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min?hide_gdpr_banner=1&hide_event_type_details=1" style="min-width:320px;height:1200px;"></div>
@@ -172,7 +179,7 @@ $uniqueID = uniqid();
 
     <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen" data-mouseflow-tag="Abgeschlossen">
         <h2 class="centered">Super, wir sind kontaktiert!</h2>
-        <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
+        <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. <br />So geht es jetzt weiter:</p>
 
         <div class="step-slider">
             <div class="step-slider__steps">
@@ -186,11 +193,11 @@ $uniqueID = uniqid();
                 </div>
                 <div class="step-slider__step">
                     <h2>Strategie</h2>
-                    <p>Gemeinsam entwickeln wir eine Strategie, denken Callflows, Routings und Technologie durch​.</p>
+                    <p>Gemeinsam entwickeln wir eine Strategie, denken Callflows, Routings und Technologie durch.</p>
                 </div>
                 <div class="step-slider__step">
                     <h2>Konzept</h2>
-                    <p>Wir setzen das erarbeitete Konzept um, so als wären Sie schon Kunde bei uns. Damit können Sie auf Herz und Nieren testen und optimieren​.</p>
+                    <p>Wir setzen das erarbeitete Konzept um, so als wären Sie schon Kunde bei uns. Damit können Sie auf Herz und Nieren testen und optimieren.</p>
                 </div>
                 <div class="step-slider__step">
                     <h2>Finetuning & Start</h2>
@@ -210,7 +217,7 @@ $uniqueID = uniqid();
                     <strong>Hinweis:</strong> Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
                 </div>
                 <div class="step-slider__hint-right">
-                    Ihre Entscheidung
+                    Erfolgreicher Start
                 </div>
             </div>
         </div>
@@ -218,9 +225,9 @@ $uniqueID = uniqid();
 
     <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="4" data-next-button-text="Jetzt Rückruf anfordern" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
         <div class="sales-callback-form">
-            <h2>Wir rufen Sie gerne zurück!</h2>
+            <h2>Sofort mit CallOne sprechen!</h2>
 
-            <p class="centered">Hinterlassen Sie uns Ihre Rufnummer und wir melden uns baldmöglichst bei Ihnen.</p>
+            <p class="centered">Lassen Sie sich direkt mit einem CallOne Mitarbeiter verbinden.</p>
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesCallbackSubmit">
                 <div class="floating-form__error">
@@ -336,6 +343,10 @@ $uniqueID = uniqid();
             formFields.set('company', form.querySelector('input[name="company"]').value);
             formFields.set('phonenumber', form.querySelector('input[name="phonenumber"]').value);
             formFields.set('email', form.querySelector('input[name="email"]').value);
+            formFields.set('text', form.querySelector('textarea[name="text"]').value);
+            if (mouseflow) {
+                console.log(mouseflow.getSessionId());
+            }
 
             // AJAX Request
             const xhttp = new XMLHttpRequest();
