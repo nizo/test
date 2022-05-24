@@ -265,15 +265,13 @@ $uniqueID = uniqid();
             const formErrorText = formError.querySelector('p');
             formError.classList.remove('floating-form__error--active') // Display error message
 
+            const id = '0007257529d86f3e5318f08686b82236';
+            
             // Prepare form data
             let formData = new FormData(form);
-            const id = "callone_cfcd208495d565ef66e7dff9f98764da";
-            const key = "58e6f511a00324c208628ae903d7f2f0";
-            formData.set('type', 0);
-            formData.set('aid', id);
-            formData.set('callback_key', key);
+            formData.set('id', id);
             
-            if (formData.get('phonenumber') == "")
+            if (formData.get('phonenumber') == '')
                 return;
 
             formLoader.classList.add('floating-form__loader--active');
@@ -281,11 +279,10 @@ $uniqueID = uniqid();
             formSubmitLabel.classList.add('floating-form__label--disabled');
 
             const postUrl = 'https://connect.callone.io/backend/callback.php';
-            let postData = formData;
             fetch(postUrl, {
                 method: 'POST',
                 cache: 'no-cache',
-                body: postData
+                body: formData
             })
             .then(response => {
                 return response.json();
