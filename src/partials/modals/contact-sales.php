@@ -345,7 +345,7 @@ $uniqueID = uniqid();
             formFields.set('email', form.querySelector('input[name="email"]').value);
             formFields.set('text', form.querySelector('textarea[name="text"]').value);
             if (mouseflow) {
-                console.log(mouseflow.getSessionId());
+                console.log(mouseflow.getSessionId(), formFields.get('text'));
             }
 
             // AJAX Request
