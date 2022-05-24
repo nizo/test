@@ -344,8 +344,9 @@ $uniqueID = uniqid();
             formFields.set('phonenumber', form.querySelector('input[name="phonenumber"]').value);
             formFields.set('email', form.querySelector('input[name="email"]').value);
             formFields.set('text', form.querySelector('textarea[name="text"]').value);
-            if (mouseflow) {
-                console.log(mouseflow.getSessionId(), formFields.get('text'));
+            formFields.set('mouseflow', '');
+            if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
+                formFields.set('mouseflow', mouseflow.getSessionId());
             }
 
             // AJAX Request
