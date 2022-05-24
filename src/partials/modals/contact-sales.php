@@ -223,7 +223,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="4" data-next-button-text="Jetzt Rückruf anfordern" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
+    <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="6" data-next-button-text="Jetzt Rückruf anfordern" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
         <div class="sales-callback-form">
             <h2>Sofort mit CallOne sprechen!</h2>
 
@@ -250,6 +250,20 @@ $uniqueID = uniqid();
             </form>
         </div>
     </div>
+
+    <div class="callone-modal__step" data-step-id="6" data-no-back="true" data-no-footer="true" data-steptitle="Ihr Telefon klingelt&hellip;" data-canceltext="Schließen" data-mouseflow-tag="Rückruf gestartet">
+        <p class="centered">
+            <?= pictureTag(
+                '/assets/images/icons_svg/icon-callback.svg',
+                'Von CallOne zurückgerufen werden',
+                64, 64, [
+                    'style' => 'margin-bottom:var(--gutter-xs);width:100%;max-width:64px;'
+                ]
+            ); ?>
+        </p>
+        <h2 class="centered">Ihr Telefon sollte jetzt klingeln!</h2>
+        <p class="centered">Heben Sie ab und Sie werden direkt mit einem CallOne Mitarbeiter verbunden.<br />Vielen Dank für Ihr Interesse!</p>
+    </div>
     
     <script>
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
@@ -266,13 +280,12 @@ $uniqueID = uniqid();
             formError.classList.remove('floating-form__error--active') // Hide error message
 
             const id = '0007257529d86f3e5318f08686b82236';
-            let callbackActive = false;
             
             // Prepare form data
             let formData = new FormData(form);
             formData.set('id', id);
             
-            if (formData.get('phonenumber') == '' || callbackActive)
+            if (formData.get('phonenumber') == '')
                 return;
 
             formLoader.classList.add('floating-form__loader--active');
@@ -289,7 +302,6 @@ $uniqueID = uniqid();
                 return response.json();
             })
             .then(data => {
-                console.log(data);
                 formLoader.classList.remove('floating-form__loader--active');
                 formSubmit.disabled = false;
                 formSubmitLabel.classList.remove('floating-form__label--disabled');
@@ -298,7 +310,8 @@ $uniqueID = uniqid();
                     console.error(data.error);
                     formError.classList.add('floating-form__error--active') // Display error message
                 } else {
-                    callbackActive = true;
+                    // Success
+                    cb();
                 }
             })
             .catch(response => {
