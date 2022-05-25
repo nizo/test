@@ -18,7 +18,11 @@ $faqs->faq_add (
             </p>
         </div>
         <div class="hero__image">
-            TODO: Hero Image
+            <?= pictureTag(
+                '/assets/images/illus/hero-index.png',
+                'CX neu gedacht - Mit der maßgeschneiderten Lösung für Ihr Contact Center',
+                465, 465, [], false
+            ); ?>
         </div>
     </header>
 
@@ -75,44 +79,44 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" data-tab="1" data-sticky-text="Voice" style="--bg:#fff;">
+                <div class="tablist__link" id="voice-kanal" data-tab="1" data-sticky-text="Voice" style="--bg:#fff;">
                     <?= pictureTag(
-                        '/assets/images/icons_svg/solution-package.svg',
-                        'CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage',
-                        69, 70, [
+                        '/assets/images/icons_svg/menu-callcenter-software.svg',
+                        'Alles, was Sie für Ihre Telefonie brauchen',
+                        48, 48, [
                             'class' => 'mobile-hidden'
                         ]
                     ); ?>
                     <strong>Voice</strong>
                 </div>
 
-                <div class="tablist__link" data-tab="2" data-sticky-text="Omnichannel" style="--bg:#fff;">
+                <div class="tablist__link" id="schrift-kanal" data-tab="2" data-sticky-text="Omnichannel" style="--bg:#fff;">
                     <?= pictureTag(
-                        '/assets/images/icons_svg/solution-package.svg',
-                        'CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage',
-                        69, 70, [
+                        '/assets/images/icons_svg/sent-out-white.svg',
+                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
+                        48, 48, [
                             'class' => 'mobile-hidden'
                         ]
                     ); ?>
                     <strong>Omnichannel</strong>
                 </div>
 
-                <div class="tablist__link" data-tab="3" data-sticky-text="Integrationen" style="--bg:#fff;">
+                <div class="tablist__link" id="integrationen" data-tab="3" data-sticky-text="Integrationen" style="--bg:#fff;">
                     <?= pictureTag(
-                        '/assets/images/icons_svg/solution-package.svg',
-                        'CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage',
-                        69, 70, [
+                        '/assets/images/icons_svg/menu-app-api.svg',
+                        'Volle Flexibilität mit Schnittstellen, Apps und Integrationen',
+                        49, 48, [
                             'class' => 'mobile-hidden'
                         ]
                     ); ?>
                     <strong>Integrationen</strong>
                 </div>
 
-                <div class="tablist__link" data-tab="4" data-sticky-text="Künstliche Intelligenz" style="--bg:#fff;">
+                <div class="tablist__link" id="ki" data-tab="4" data-sticky-text="Künstliche Intelligenz" style="--bg:#fff;">
                     <?= pictureTag(
-                        '/assets/images/icons_svg/solution-package.svg',
-                        'CallOne Telefonlösung aus Callcenter Software und Cloud Telefonanlage',
-                        69, 70, [
+                        '/assets/images/icons_svg/big_13.svg',
+                        'KI-basierte Automationen für wirksamen Kundenservice',
+                        53, 48, [
                             'class' => 'mobile-hidden'
                         ]
                     ); ?>
@@ -139,7 +143,11 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    TODO: Image
+                                    <?= pictureTag(
+                                        '/assets/images/illus/sematell-ki-kundenservice.png',
+                                        'Alles, was Sie für Ihre Telefonie brauchen',
+                                        538, 378
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +174,11 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    TODO: Image
+                                    <?= pictureTag(
+                                        '/assets/images/illus/sematell-teamleiter.png',
+                                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
+                                        538, 378
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +205,11 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    TODO: Image
+                                    <?= pictureTag(
+                                        '/assets/images/illus/index-integrationen.png',
+                                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
+                                        538, 378
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +236,11 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    TODO: Image
+                                    <?= pictureTag(
+                                        '/assets/images/illus/index-ki.png',
+                                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
+                                        538, 378
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -303,7 +323,15 @@ $faqs->faq_add (
         <h2 class="centered mobile-left">Geballtes Wissen rundum unser Contact Center <br class="mobile-hidden" />as a Service. Für Ihren besten Kundenservice.</h2>
         <p class="centered mobile-left bigtext">Unsere Expertise geben wir gerne weiter: Verbessern Sie Ihren Kundenservice und maximieren Sie gleichzeitig Ihren ROI. Mit unseren Beiträgen und Ressourcen.</p>
 
-        <div class="co-grid">
+        <p class="centered">
+            <a href="/blog" class="btn btn--primary" target="_blank">Zu den neusten<br />Blogeinträgen</a>
+            <br class="mobile-hidden" />
+            <br class="mobile-hidden" />
+            <br class="mobile-hidden" />
+        </p>
+
+        <!-- TODO: Add recent blog posts -->
+        <!-- <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 Blog Post 1
             </div>
@@ -313,7 +341,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 Blog Post 3
             </div>
-        </div>
+        </div> -->
 
         <div class="paper paper--gradient">
             <div class="paper__row">

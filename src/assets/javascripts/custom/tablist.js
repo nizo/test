@@ -25,6 +25,19 @@ class Tablist {
         this.stickyPlaceholder = this.tabLinksWrapper.cloneNode();
         this.stickyPlaceholderActive = false;
         window.addEventListener('scroll', this.stickyLinks.bind(this));
+
+        this.checkAnchor();
+        eventListener('click', '[href^="#"]', this.checkAnchor.bind(this));
+    }
+
+    checkAnchor(e = null) {
+        let anchor = window.location.hash.split('#')[1];
+        if (e)
+            anchor = e.target.getAttribute('href').split('#')[1];
+        this.tabLinks.forEach(link => {
+            if (link.getAttribute('id') == anchor)
+                link.click();
+        });
     }
     
     stickyLinks() {
