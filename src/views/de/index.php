@@ -256,7 +256,7 @@ $faqs->faq_add (
                         <?= pictureTag(
                             '/assets/images/client-logos/logo-vimcar-color.svg',
                             'Unser Kunde Vimcar',
-                            370, 185, ['class'=>'co-grid__image--full-width','style'=>'max-width:370px']
+                            370, 185, ['class'=>'co-grid__image--full-width','style'=>'width:370px']
                         ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
@@ -300,7 +300,7 @@ $faqs->faq_add (
                         <?= pictureTag(
                             '/assets/images/client-logos/logo-seereisedienst-notext.svg',
                             'Unser Kunde Seereisedienst',
-                            370, 370, ['class'=>'co-grid__image--full-width','style'=>'max-width:370px']
+                            370, 370, ['class'=>'co-grid__image--full-width','style'=>'width:370px']
                         ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
