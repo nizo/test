@@ -55,6 +55,10 @@ h2+.list {
                 // aspect-ratio: 43/46;
                 background-image: url(../images/icons_svg/icon-checkmark-green.svg);
             }
+
+            @media screen and (max-width: 800px) {
+                font-size: 18px;
+            }
         }
     }
 
