@@ -146,7 +146,9 @@ $faqs->faq_add (
                                     <?= pictureTag(
                                         '/assets/images/illus/sematell-ki-kundenservice.png',
                                         'Alles, was Sie für Ihre Telefonie brauchen',
-                                        538, 378
+                                        538, 378, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
                                     ); ?>
                                 </div>
                             </div>
