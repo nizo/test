@@ -177,7 +177,9 @@ $faqs->faq_add (
                                     <?= pictureTag(
                                         '/assets/images/illus/sematell-teamleiter.png',
                                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
-                                        538, 378
+                                        538, 378, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
                                     ); ?>
                                 </div>
                             </div>
@@ -208,7 +210,9 @@ $faqs->faq_add (
                                     <?= pictureTag(
                                         '/assets/images/illus/index-integrationen.png',
                                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
-                                        538, 378
+                                        538, 378, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
                                     ); ?>
                                 </div>
                             </div>
@@ -239,7 +243,9 @@ $faqs->faq_add (
                                     <?= pictureTag(
                                         '/assets/images/illus/index-ki.png',
                                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
-                                        538, 378
+                                        538, 378, [
+                                            'class' => 'co-grid__image--full-width'
+                                        ]
                                     ); ?>
                                 </div>
                             </div>
@@ -256,7 +262,7 @@ $faqs->faq_add (
                         <?= pictureTag(
                             '/assets/images/client-logos/logo-vimcar-color.svg',
                             'Unser Kunde Vimcar',
-                            370, 185, ['class'=>'co-grid__image--full-width','style'=>'width:370px']
+                            370, 185
                         ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
@@ -277,9 +283,7 @@ $faqs->faq_add (
                         <?= pictureTag(
                             '/assets/images/client-logos/logo-check24-black.svg',
                             'Unser Kunde Check24',
-                            370, 89, [
-                                'style' => 'height: 89px'
-                            ]
+                            370, 89
                         ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
@@ -300,7 +304,7 @@ $faqs->faq_add (
                         <?= pictureTag(
                             '/assets/images/client-logos/logo-seereisedienst-notext.svg',
                             'Unser Kunde Seereisedienst',
-                            370, 370, ['class'=>'co-grid__image--full-width','style'=>'width:370px']
+                            370, 370
                         ); ?>
                     </div>
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
