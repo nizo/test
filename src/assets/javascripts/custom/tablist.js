@@ -36,7 +36,8 @@ class Tablist {
             anchor = e.target.getAttribute('href').split('#')[1];
         this.tabLinks.forEach(link => {
             if (link.getAttribute('id') == anchor)
-                link.click();
+                this.switchTab(link);
+                // link.click();
         });
     }
     
@@ -122,7 +123,7 @@ class Tablist {
     }
 
     switchTab(e) {
-        let btn = e.currentTarget;
+        let btn = e.currentTarget || e;
         let tabId = btn.dataset.tab;
         this.tablist.style.minHeight = '';
         let currentContentHeight = this.tabContents[this.activeIndex].offsetHeight;
@@ -149,6 +150,8 @@ class Tablist {
                 content.classList.remove('tablist__content--active');
             }
         });
+        this.indicators.forEach(indicator => indicator.classList.remove('tablist__indicator--active'));
+        this.indicators[this.activeIndex].classList.add('tablist__indicator--active');
 
         this.scrollToTabs();
     }
