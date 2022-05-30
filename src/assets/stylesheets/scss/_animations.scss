@@ -98,12 +98,6 @@
     }   
 }
 
-.animated {
-	&.loop {
-		animation-iteration-count: infinite;
-	}
-}
-
 .animation {
 	position: relative;
 	height: 100%;
@@ -345,33 +339,6 @@
 	    left: -17%;
 	    top: -20%;
 	}
-	&.sales {
-		width: 125%;
-	    height: 140%;
-	    left: -18%;
-    	top: -18%;
-	}
-	&.kundenservice {
-		left: -24%;
-    	top: -45%;
-	}
-	&.price {
-		left: -31%;
-    	top: -51%;
-	}
-	&.job {
-	    width: 100%;
-	    height: auto;
-	    left: auto;
-	    top: auto;
-	}
-	&.inline {
-		width: 100%;
-		height: 100%;
-		left: 0;
-		top: 0;
-		z-index: 1;
-	}  
 	
 	@media screen and (max-width: 800px) {
 	   	width: 120%;
@@ -380,7 +347,7 @@
 	    top: calc(-10% - 80px);
 	    max-width: 120%;
 	    
-	    &.sales, &.business {
+	    &.business {
 	        width: 100%;
 		    height: 100%;
 		    left: 0;
@@ -395,35 +362,10 @@
 		    margin-bottom: $gutter-l;
 		    left: 0;
     	}
-	    
-	    &.job {
-		    width: 110%;
-		    height: 110%;
-		    left: -5%;
-		    top: calc(-5% - 40px);
-		    max-width: 110%;
-	    }
-	    
-	    &.kundenservice {
-	        left: -5%;
-    		top: calc(-10% - 60px);
-	    }
-	    
-	    &.price {
-			width: 120%;
-		    height: 120%;
-		    left: -10%;
-		    top: calc(-10% - 80px);
-		    max-width: 120%;
-	    }
 	}
 	
 	@media screen and (max-width: 555px) {
 		&.business {
-    		top: -$gutter-l;
-    	}
-		&.sales {
-		    left: -$gutter-s;
     		top: -$gutter-l;
     	}
     	&.freshdesk {

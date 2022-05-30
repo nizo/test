@@ -41,8 +41,6 @@
 		justify-content: center;
 		font-size: 14px;
 	}
-	.modal {
-	}
 }
 /* The Modal (background) */
 .modal {
@@ -181,18 +179,6 @@
 				.formSuccess {
 					padding-top: $gutter-m;
 					margin-bottom: 0;
-				}
-			}
-		}
-	}
-	
-	&.video-acd {
-		.modal-content {
-			max-width: 1200px;
-			.modal-body {
-				padding: 0;
-				.content {
-					padding: 0;
 				}
 			}
 		}
@@ -694,14 +680,8 @@
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 		
 		// Animations
-		&.animate-fading {animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-		&.animate-opacity {animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
 		&.animate-top {position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:20%;opacity:1}}
-		&.animate-BorderTop {position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
-		&.animate-left {position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
-		&.animate-right {position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
 		&.animate-bottom {position:relative;bottom: 0; top: initial; width: 100%; animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
-		&.animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 	}  
 }
 
