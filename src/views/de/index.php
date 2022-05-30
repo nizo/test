@@ -366,8 +366,7 @@ $faqs->faq_add (
                             <h3>Ist die CX in Ihrem Contact Center schon die beste?</h3>
                             <p class="bigtext">Erhöhen Sie Kundenzufriedenheit und -bindung mit unseren 7 Boostern für die CX in Ihrem Contact Center. Sparen Sie bares Geld und erhöhen Sie Ihre Abschlüsse.</p>
                             <p class="mobile-centered">
-                                <!-- TODO: Add link -->
-                                <a href="#" class="btn btn--primary" target="_blank" rel="noreferrer">Jetzt herunterladen</a>
+                                <a href="https://cc079abe.sibforms.com/serve/MUIEAGzGTBMcIDL_0eouxFLyeKUjNlS4eeVP3jIXEwju5BrQf5EGVSihKJbrk0Ei6lVYUHcuVlRs3SGd9wjF5LrGcWQTwg4YAWYLOf1OLGlAYFvgXx9SnMs0yNwWm5MLqk0-jMSRSwrAtgcYnp7TIi2X7NVGDNxATDEwR_9UxHgjAjG3pcNlmoTeeUzUEnpTEOdMdL3DALjuZQk0" class="btn btn--primary" target="_blank" rel="noreferrer">Jetzt herunterladen</a>
                             </p>
                         </div>
                     </div>
