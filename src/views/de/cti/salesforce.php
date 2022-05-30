@@ -129,12 +129,33 @@
   </div>
 </div>
 
-<?php getLogoParade([   ['data' => 'logo-bett1.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small'],
-                	    ['data' => 'logo-check24.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small'],
-                	    ['data' => 'logo-flaconi.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small'],
-                	    ['data' => 'logo-gastrohero.png', 'alt' => 'test', 'cssClass' => 'partnerLogo gray small'],
-                        ['data' => 'logo-vimcar.png', 'alt' => 'test', 'cssClass' => 'partnerLogo sw small']
-]); ?>
+<div class="logos" style="--height:150px">
+  <?= pictureTag(
+    '/assets/images/client-logos/logo-bett1.png',
+    'Unser Kunde bett1',
+    173, 150
+  ); ?>
+  <?= pictureTag(
+    '/assets/images/client-logos/logo-check24.png',
+    'Unser Kunde check24',
+    173, 150
+  ); ?>
+  <?= pictureTag(
+    '/assets/images/client-logos/logo-flaconi.png',
+    'Unser Kunde flaconi',
+    173, 150
+  ); ?>
+  <?= pictureTag(
+    '/assets/images/client-logos/logo-gastrohero.png',
+    'Unser Kunde gastrohero',
+    173, 150
+  ); ?>
+  <?= pictureTag(
+    '/assets/images/client-logos/logo-vimcar.png',
+    'Unser Kunde vimcar',
+    173, 150
+  ); ?>
+</div>
 
 <div class="section">
   <div class="section__content section__content--wide">
