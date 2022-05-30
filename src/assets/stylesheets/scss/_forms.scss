@@ -61,7 +61,7 @@ form {
 			&::placeholder { 
 			  color: #{$color-grey};
 			}
-			&::-ms-input-placeholder { 
+			&::-moz-input-placeholder { 
 			  color: #{$color-grey};
 			}
 			&::-ms-input-placeholder { 
