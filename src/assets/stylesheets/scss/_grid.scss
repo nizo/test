@@ -52,7 +52,7 @@ $grid-gutter: $gutter-l;
 
 	[class*='col-'] {
 		&.card {
-			--c: $color-lightgrey-2;
+			--c: #{$color-lightgrey-2};
 			border-radius: 10px;
 			background-color: #fff;
 			overflow: hidden;
@@ -551,7 +551,7 @@ $grid-gutter: $gutter-l;
 
 				.headline {
 					text-transform: uppercase;
-					color: $color-grey;
+					color: #{$color-grey};
 				}
 
 				.image-grid {
