@@ -330,7 +330,7 @@ $faqs->faq_add (
         <p class="centered mobile-left bigtext">Unsere Expertise geben wir gerne weiter: Verbessern Sie Ihren Kundenservice und maximieren Sie gleichzeitig Ihren ROI. Mit unseren Beiträgen und Ressourcen.</p>
 
         <p class="centered">
-            <a href="/blog" class="btn btn--primary" target="_blank">Zu den neusten<br />Blogeinträgen</a>
+            <a href="/blog" class="btn btn--primary">Zu den neusten<br />Blogeinträgen</a>
             <br class="mobile-hidden" />
             <br class="mobile-hidden" />
             <br class="mobile-hidden" />
