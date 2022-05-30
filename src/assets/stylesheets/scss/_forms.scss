@@ -58,13 +58,13 @@ form {
 			margin-bottom: 0;
 		}
 		input[type="text"], input[type="email"], input[type="tel"], textarea {
-			&:placeholder { 
+			&::placeholder { 
 			  color: #{$color-grey};
 			}
-			&:-ms-input-placeholder { 
+			&::-ms-input-placeholder { 
 			  color: #{$color-grey};
 			}
-			&:-ms-input-placeholder { 
+			&::-ms-input-placeholder { 
 			  color: #{$color-grey};
 			}
 			&:focus {
