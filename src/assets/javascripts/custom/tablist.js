@@ -34,6 +34,8 @@ class Tablist {
         let anchor = window.location.hash.split('#')[1];
         if (e)
             anchor = e.target.getAttribute('href').split('#')[1];
+        if (!anchor)
+            return;
         this.tabLinks.forEach(link => {
             if (link.getAttribute('id') == anchor)
                 this.switchTab(link);
