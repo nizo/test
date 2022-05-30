@@ -960,17 +960,9 @@ img {
 		img {
 			&.white {
 				filter: saturate(0) grayscale(100%) brightness(1000%);
-				-webkit-filter: saturate(0) grayscale(100%) brightness(1000%);
-				-moz-filter: saturate(0) grayscale(100%) brightness(1000%);
-				-ms-filter: saturate(0) grayscale(100%) brightness(1000%);
-				-o-filter: saturate(0) grayscale(100%) brightness(1000%);
 			}
 			&.invert {
 				filter: brightness(0) invert(1);
-				-webkit-filter: brightness(0) invert(1);
-				-moz-filter: brightness(0) invert(1);
-				-ms-filter: brightness(0) invert(1);
-				-o-filter: brightness(0) invert(1);
 			}
 		}
 		> h1 {
@@ -1587,7 +1579,7 @@ blockquote {
 					border-radius: 9px 0 0 9px;
 				}
 				input[type=range] {
-					-webkit-appearance: none;
+					appearance: none;
 					width: 90%;
 				}
 				input[type=range]:focus {
@@ -1606,7 +1598,7 @@ blockquote {
 					border-radius: 8px;
 					background: #000;
 					cursor: pointer;
-					-webkit-appearance: none;
+					appearance: none;
 					margin-top: -16px;
 				}
 				input[type=range]:focus::-webkit-slider-runnable-track {

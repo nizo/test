@@ -143,13 +143,13 @@
     .text {
       order: 1;
       padding: $gutter-m $gutter-l $gutter-l;
-      word-break: break-word;
+      word-break: break-all;
     }
   }
   
 	.text-grid {
 	  .text {
-	    word-break: break-word;
+	    word-break: break-all;
 	  }
 	}
 }

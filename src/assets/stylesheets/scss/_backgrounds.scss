@@ -82,42 +82,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
   	}
 }
 
-
-.header-bg {
-    position: absolute;
-    top: 150px;
-    left: 0;
-    height: 500px;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    z-index: -1;
-	.ivf-bg, .robot {
-	    position: absolute;
-	    right: -1600px;
-	    left: 0;
-	    bottom: 0;
-	    top: 0;
-	    background: url('/assets/images/photos/ivf-bg.png') 0% 0% repeat;
-	    z-index: -1;
-	    background-size: contain;
-	    -moz-animation: MOVE-BG 60s infinite linear;
-	    -webkit-animation: move-header-bg 60s infinite linear;
-	    animation: MOVE-BG 80s infinite linear;	
-	}
-	
-	@keyframes MOVE-BG {
-		0% {
-			-webkit-transform: translateX(0);
-			transform: translateX(0);
-		} 
-		100% { 
-			-webkit-transform: translateX(-1600px);
-			transform: translateX(-1600px);
-		}
-	}
-}
-
 .background-image {
 	background-position: bottom;
 	background-size: cover;
@@ -246,7 +210,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 
 .slope {
 	&.toRight {
-		-webkit-clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 100%);
 	    clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 100%);
     }
 }
@@ -258,9 +221,7 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	}
 }
 
-.background-transition { 
-    -webkit-transition: background-color 1000ms ease-in-out;
-    -ms-transition: background-color 1000ms ease-in-out;
+.background-transition {
     transition: background-color 1000ms ease-in-out;
 }
 
@@ -275,7 +236,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 @media screen and (max-width: 1600px) {
 	.slope {
 		&.toRight {
-			-webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 		    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 	    }
 	}
@@ -293,7 +253,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 @media screen and (max-width: 1200px) {
 	.slope {
 		&.toRight {
-			-webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 		    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
 	    }
 	}
@@ -311,7 +270,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 @media screen and (max-width: 1024px) {
 	.slope {
 		&.toRight {
-			-webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
 		    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
 	    }
 	}
@@ -337,7 +295,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 	
 	.slope {
 		&.toRight {
-			-webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
 		    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
 	    }
 	}
@@ -346,7 +303,6 @@ $blue-3-1: url('/assets/images/backgrounds_svg/bg-04.svg');
 @media screen and (max-width: 555px) {
 	.slope {
 		&.toRight {
-			-webkit-clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
 		    clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
 	    }
 	}
