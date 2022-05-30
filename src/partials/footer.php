@@ -31,7 +31,7 @@
                     <a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a><br />
                     <a href="/statistiken" title="Echtzeit-Analysen">Statistiken</a><br />
                     <a href="/dsgvo-telekommunikation" title="DSGVO-Kompatibilität">DSGVO-Kompatibilität</a><br />
-                    <a href="/dsgvo-telekommunikation#ausfaelle-notfaelle" title="Ausfallsicherheit & Notfall-Optionen">Notfall-Optionen</a>
+                    <a href="/dsgvo-telekommunikation#notfaelle" title="Ausfallsicherheit & Notfall-Optionen">Notfall-Optionen</a>
                 </p>
             </div>
             <div class="footer-column">
@@ -119,7 +119,7 @@
                     <li><a href="/softphone" title="VoIP-Softphone">VoIP-Softphone</a></li>
                     <li><a href="/statistiken" title="Echtzeit-Analysen">Statistiken</a></li>
                     <li><a href="/dsgvo-telekommunikation" title="DSGVO-Kompatibilität">DSGVO-Kompatibilität</a></li>
-                    <li><a href="/dsgvo-telekommunikation#ausfaelle-notfaelle" title="Ausfallsicherheit & Notfall-Optionen">Notfall-Optionen</a></li>
+                    <li><a href="/dsgvo-telekommunikation#notfaelle" title="Ausfallsicherheit & Notfall-Optionen">Notfall-Optionen</a></li>
                 </ul>
             </li>
             <li>

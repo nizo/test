@@ -24,7 +24,8 @@
             <strong>Schnelleinstieg:</strong> Für was interessieren Sie sich?
         </div>
         <div class="anchors__links">
-            <a href="#ausfaelle-notfaelle">Ausfälle & Notfälle</a>
+            <a href="#ausfallsicherheit">Ausfallsicherheit</a>
+            <a href="#notfaelle">Notfälle</a>
             <a href="#datenschutz">Datenschutz</a>
         </div>
     </div>
@@ -68,7 +69,7 @@
 
         <div class="tablist" id="ausfaelle-notfaelle">
             <div class="tablist__links">
-                <div class="tablist__link" data-tab="1">
+                <div class="tablist__link" id="ausfallsicherheit" data-tab="1">
                     <?= pictureTag(
                         '/assets/images/icons_svg/reliability-icon.svg',
                         'Zuverlässige und sichere Unternehmenstelefonie',
@@ -76,7 +77,7 @@
                     ); ?>
                     <strong>Ausfallsicherheit</strong>
                 </div>
-                <div class="tablist__link" data-tab="2">
+                <div class="tablist__link" id="notfaelle" data-tab="2">
                     <?= pictureTag(
                         '/assets/images/icons_svg/emergency-icon.svg',
                         'Unternehmenstelefonie mit Notfall-Optionen',
