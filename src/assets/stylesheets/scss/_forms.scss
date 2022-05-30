@@ -23,18 +23,6 @@ select:-webkit-autofill:focus {
  */
 form {
 	textarea, select, input, button { outline: none; }
-	&.calcForm {
-		.optionField {
-			border: 2px solid #000;
-		    padding: 5px 5px 5px 20px;
-		    margin: 5px 0;
-		    height: 50px;
-		    display: flex;
-		    align-items: center;
-		    justify-content: space-between;
-		    position: relative;
-	    }
-	}
 	&.form {
 		label {
 			display: block;
@@ -68,96 +56,6 @@ form {
 			font-family: apercu,sans-serif;
 			line-height: 1.5;
 			margin-bottom: 0;
-		}
-		.inputFile {
-				margin: 0;
-			    background-color: #fff;
-			    border: 2px solid $color-secondary-1;
-			    border-radius: 0;
-			    display: flex;
-			.file {
-				display: none;
-			}
-			.fileButton {
-				background-color: $color-secondary-1;
-				color: #fff;
-			    height: 36px;
-			    padding: 0px 10px;
-			    border: none;
-			    left: 0;
-			    font-family: apercu;
-			    font-size: 16px;
-			    vertical-align: top;
-			    line-height: 36px;
-			    cursor: pointer;
-				&:hover {
-					color: $color-primary;
-					.sl {
-						color: $color-primary;
-					}
-				}
-				.sl {
-					padding-right: 5px;
-					&::before {
-					    font-size: 16px;
-						position: relative;
-						top: 0.5px;
-					}
-				}
-			}
-			.fileInfo {
-				color: $color-secondary-1;
-			    font-size: 14px;
-			    line-height: 36px;
-			    height: 36px;
-			    padding: 0 20px;
-			    position: relative;
-			    top: 3px;
-			}
-		}
-		.selectWrapper {
-			position: relative;
-			width: 100%;
-			select {
-				-moz-appearance: none;
-				-webkit-appearance: none;
-				appearance: none;
-				border: 2px solid $color-secondary-1;
-				&::-ms-expand {
-				  display: none;
-				}
-				
-				width: 100%;
-				padding-left: 20px;
-				color: $color-secondary-1;
-				outline: none;
-				cursor: pointer;
-				z-index: 1;
-    			position: relative;
-    			background-color: rgba(255,255,255,0);
-				option {
-					color: #111;
-					&:hover {
-						background-color: $color-primary;
-					}
-				}
-				
-				&:focus {
-					&::-ms-value {
-				  		background-color: transparent;
-					}
-				}
-			}
-			&::after {
-			  font-family: "streamline";
-			  content: "\e5ca";
-			  font-size: 20px;
-			  position: absolute;
-			  right: 15px;
-			  top: 10px;
-			  color: $color-secondary-1;
-			  z-index: 0;
-			}
 		}
 		input[type="text"], input[type="email"], input[type="tel"], textarea {
 			&:placeholder { 
@@ -503,17 +401,6 @@ form {
 			font-family: $font-copy;
 			font-weight: 500;
 			&::placeholder {
-				color: #fff;
-			}
-		}
-		.selectWrapper {
-			select {
-				color: #fff;
-				option {
-					background-color: #404040;
-				}
-			}
-			&:after {
 				color: #fff;
 			}
 		}

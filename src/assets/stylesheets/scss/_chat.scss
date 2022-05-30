@@ -456,7 +456,7 @@
 			margin-top: 0;
 		}
 
-		:not(.topic-selector)+.shadow-box {
+		&+.shadow-box {
 			margin-top: $gutter-m;
 		}
 

@@ -545,39 +545,6 @@ p+.button-set {
 	}
 }
 
-.contact-form {
-  .button-set {
-    margin-top: $gutter-l;
-    margin-bottom: $gutter-l;
-    .button {
-      border: 2px solid transparent;
-      // font-size: $font-size-m;
-      // font-family: $font-copy;
-      font-family: 'PxGroteskBold', sans-serif;
-      font-size: $font-size-xxs;
-      font-weight: normal;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      &.primary {
-        background-color: $color-primary;
-        color: #000;
-        border-color: #000;
-      }
-      &.secondary {
-        background-color: #fff;
-        border-color: $color-primary;
-        color: #000;
-      }
-      &:hover {
-        background-color: #000;
-        border-color: #fff;
-        color: #fff;
-      }
-    }
-  }
-}
-
 .breather {
   .content {
     .button-set {
