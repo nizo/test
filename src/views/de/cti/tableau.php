@@ -335,33 +335,31 @@ $faqs->faq_add (
   </div>
 </div>
 
-<div class="wrapper background" id="angebot">
-  <div class="content wide">
-	<div class="grid cross-grid auto">
-		<div class="col-3">
-			<span class="sl sl-border-chat sl-size-xl topIcon white desktop-hidden"></span>
-			<strong class="h3"><span class="light">Telefonische</span> Beratung</strong>
-			<p>Sie interessieren sich für unsere Produkte oder haben noch offene Fragen? Gerne Helfen wir Ihnen weiter - <a href="tel:+493092033500" title="Gerne helfen wir Ihnen weiter">030 920 33 500</a></p>
-		</div>
-		<div class="col-3 cross centerContent mobile-hidden">
-			<div class="shadow-box autoWidth gradient-sw">
-        <?= pictureTag(
-          '/assets/images/photos/grabellus-sw.png',
-          'Kontaktieren Sie uns zum Thema Tableau Callcenter Connector',
-          271, 400
-        ); ?>
-			</div>
-		</div>
-		<div class="col-3">
-			<span class="sl sl-consultation sl-size-xl topIcon white desktop-hidden"></span>
-			<strong class="h3">Persönliche <span class="light">Beratung</span></strong>
-			<p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
-			<div class="button-set">
-      			<a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal">Jetzt Angebot anfordern</a>
-      		</div>  
-		</div>
-	</div>
-  </div>
+<div class="section section--black" id="angebot">
+    <div class="section__content section__content--wide">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-2-xs co-grid__col--vcentered">
+                <span class="sl sl-border-chat sl-size-xl topIcon white desktop-hidden"></span>
+                <strong class="h3"><span class="light">Telefonische</span> Beratung</strong>
+                <p>Sie interessieren sich für unsere Produkte oder haben noch offene Fragen? Gerne Helfen wir Ihnen weiter - <a href="tel:+493092033500" title="Gerne helfen wir Ihnen weiter" class="inline-link">030 920 33 500</a></p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-1-xs co-grid__col--vcentered">
+                <?= pictureTag(
+                    '/assets/images/photos/grabellus-sw.png',
+                    'Kontaktieren Sie uns zum Thema Tableau Callcenter Connector',
+                    271, 400
+                ); ?>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-3-xs co-grid__col--vcentered">
+                <span class="sl sl-consultation sl-size-xl topIcon white desktop-hidden"></span>
+                <strong class="h3">Persönliche <span class="light">Beratung</span></strong>
+                <p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
+                <div class="button-set">
+                    <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal">Jetzt Angebot anfordern</a>
+                </div>  
+            </div>
+        </div>
+    </div>
 </div> 	
 
 
