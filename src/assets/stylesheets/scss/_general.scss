@@ -14,7 +14,6 @@
 html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-smooth: always;
 }
 
 html, body {
@@ -1363,7 +1362,7 @@ blockquote {
 					background-repeat: no-repeat;
 					background-size: contain;
 					background-position: center;
-					border-radius: none !important;
+					border-radius: 0 !important;
 					top: auto !important;
 					vertical-align: middle;
 				}
@@ -1685,7 +1684,6 @@ blockquote {
 		text-align: center;
 		padding: 20px;
 		cursor: pointer;
-		white-space: wrap;
 		transition: all 0.3s ease;
 		img {
 			display: block;
