@@ -15,11 +15,7 @@ let app = {
         eventListener('click', '.form .submit', function(e) {
             e.preventDefault();
             let form = e.target.closest('.js-form');
-            if (form.classList.contains('callback')) {
-                sendCallback(form);
-            } else {
-                sendForm(form);
-            }
+            sendForm(form);
         });
 
         eventListener('click', '.container .title', e => {
