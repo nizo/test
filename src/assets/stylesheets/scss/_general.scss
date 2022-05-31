@@ -30,7 +30,6 @@ html, body {
 a {
 	text-decoration: none;
 	transition: all 0.3s ease;
-	cursor: pointer;
 }
 
 img {
@@ -98,35 +97,6 @@ h1, h2, h3, h4,
 	font-family: $font-headline !important;
 }
 
-h1, .h1 {
-	font-size: $font-size-xxl;
-	margin-bottom: $gutter-l;
-	@media screen and (max-width: 670px) {
-		font-size: $font-size-xl;
-	}
-	@media screen and (max-width: 550px) {
-		font-size: $font-size-l;
-		margin-bottom: $gutter-m;
-	}
-}
-
-.h1.small {
-	font-size: $font-size-xl + 7px;
-}
-
-.h1.big {
-	font-size: $font-size-xxl + 20px;
-}
-
-h2, .h2 {
-	font-size: $font-size-xl;
-	margin-bottom: $gutter-l;
-	@media screen and (max-width: 670px) {
-		font-size: $font-size-l;
-		margin-bottom: $gutter-m;
-	}
-}
-
 h3, .h3 {
 	font-size: $font-size-l;
 	@media screen and (max-width: 670px) {
@@ -145,16 +115,8 @@ h4, .h4 {
 	font-size: $font-size-m;
 }
 
-.h5 {
-	font-size: $font-size-m - 1;
-}
-
 .lazy {
 	visibility: "hidden";
-}
-
-.font-secondary {
-	font-family: $font-copy;
 }
 
 .tag-above {
