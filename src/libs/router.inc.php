@@ -463,18 +463,17 @@ Router::add('/tools/components', 'tools/components.php', [
 ]);
 Router::add('/tools/routes', 'tools/routes-list.php', [
     'title' => 'Routes List',
-    'layout' => 'clean.php',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 Router::add('/tools/assets', 'tools/assets.php', [
     'title' => 'CallOne Assets',
-    'layout' => 'clean.php',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 Router::add('/tools/screensize', 'tools/screensize.php', [
     'title' => 'Screen Size',
-    'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 
