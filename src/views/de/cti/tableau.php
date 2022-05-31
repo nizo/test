@@ -373,26 +373,5 @@ $faqs->faq_add (
 
     <div class="btn-set btn-set--centered">
         <a href="/faq/" class="btn btn--primary trackedElement" data-label="Button - Mehr FAQ" data-category="Link" data-action="linked to /faq/">Mehr FAQ</a>
-    </div>  
-
-    <div class="section__content section__content--narrow" id="blog">
-        <h2 class="centered mobile-left">Neues aus unserem Blog</h2>
-
-        <div class="content-box content-box--white content-box--full-width">
-            <div class="co-grid">
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered">
-                    <?= pictureTag(
-                        '/assets/images/photos/anforderungen-callcenter-software.jpg',
-                        'Anforderungen, die Sie an Ihre Call Center Software stellen sollten',
-                        400, 267
-                    ); ?>
-                </div>
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
-                    <span>8. Januar 2019</span>
-                    <h3>Anforderungen, die Sie an Ihre Call Center Software stellen sollten</h3>
-                    <p>Die Suche nach einer neuen Telefonanlage startet oft „aus der Not heraus“: Das bestehende System läuft nicht stabil, es fehlen wichtige Features oder das Unternehmen ist schlicht und ergreifend zu schnell gewachsen und die Administration nicht mehr überblickbar... <a href="/blog/vergleich-anforderungen-die-sie-an-ihre-call-center-software-stellen-sollten/" title="Zum Artikel: Ratgeber & Vergleich: Anforderungen, die Sie an Ihre Call Center Software stellen sollten" class="inline-link">zum Artikel &rarr;</a></p>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
