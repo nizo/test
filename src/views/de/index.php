@@ -257,7 +257,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <div class="fader fader--no-header" data-speed="6000">
+        <div class="fader fader--header-below fader--indicators-centered" data-speed="6000">
             <div class="fader__item fader__item--vcentered">
                 <div class="co-grid">
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
