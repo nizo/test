@@ -527,7 +527,7 @@ require_once('banderole.php');
                                     </div>
                                 </div>
                                 <div class="submenu__row">
-                                    <div class="submenu__column" style="--col-width:300px">
+                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
                                         <a href="/tools/assets" target="_blank" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Assets</strong>
@@ -549,7 +549,7 @@ require_once('banderole.php');
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
+                                    <div class="submenu__column" style="--col-width:300px">
                                         <a href="/tools/assets" target="_blank" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Farben</strong>
