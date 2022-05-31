@@ -449,10 +449,16 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
 /* ********************* **
 ** ** DEBUGGING PAGES ** **
 ** ********************* */
+Router::add('/tools/colors', 'tools/colors.php', [
+    'title' => 'Colors',
+    'shorttitle' => 'Farben',
+    'layout' => 'default.php',
+    'sitemap_include' => false
+]);
 Router::add('/tools/components', 'tools/components.php', [
     'title' => 'Components',
-    'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
+    'shorttitle' => 'Komponenten',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 Router::add('/tools/routes', 'tools/routes-list.php', [
