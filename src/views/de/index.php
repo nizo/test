@@ -1,8 +1,24 @@
 <?php
 $faqs = new faqs ();
 $faqs->faq_add (
-	'Lorem Ipsum Dolor Sit Amet?',
-	'<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, fugit! Porro reprehenderit sequi voluptas alias eos architecto, natus temporibus libero amet minima. Reprehenderit similique ut quo nobis vitae praesentium vel.</p>'
+	'Wie läuft die Zusammenarbeit mit CallOne?',
+	'<p>Am Beginn unserer Zusammenarbeit steht ein erstes unverbindliches und kostenloses Telefonat. Hier finden wir heraus, ob unsere Lösung zu Ihren Anforderungen passt. Ist dies der Fall, finden wir aus unseren modularen Produkten genau die richtige Lösung rundum Unternehmenstelefonie, Integrationen und Erweiterungen. Wir beantworten in einer Live Demo und weiteren Terminen Ihre Fragen, richten die Lösung für Sie ein und unterstützen Sie auch weiterhin bei allen Themen rundum die CallOne Lösung und Features. Natürlich eruieren wir regelmäßig, inwieweit die Lösung noch zu Ihren aktuellen Anforderungen und Herausforderungen passt. Der stetige Support durch unsere Projektmanager*innen ist einer der Punkte, der die Zusammenarbeit mit CallOne so zielführend für unsere Kunden macht.</p>'
+);
+$faqs->faq_add (
+	'Was ist eine Callcenter Software?',
+	'<p>Eine Callcenter Software oder ACD (Automatic Call Distribution) unterstützt Unternehmen maßgeblich dabei, die Inbound Telefonie so effizient und zufriedenstellend wie möglich zu gestalten. Die Software bietet verschiedene <a href="/callcenter-software-funktionen" class="inline-link">Funktionen</a> wie Warteschleifen, Routingoptionen oder Callback. Auch die Integration von Ihrem CRM-System und anderen Business-Systemen unterstützt die effiziente und zielführende Bearbeitung von eingehenden Anrufen. Kundenzufriedenheit und -bindung können so maximiert werden. Außerdem bieten Zusatzmodule wie <a href="/callcenter-sprachanalyse" class="inline-link">Spracherkennung</a> Ihren Agenten die Möglichkeit, Upsell-Möglichkeiten zu erkennen und zu nutzen.</p>'
+);
+$faqs->faq_add (
+	'Kann eine Callcenter Software meinen Kundenservice verbessern?',
+	'<p>Da Kundenservice auch heute noch sehr telefonielastig ist, ist eine <a href="/callcenter-software" class="inline-link">Callcenter Software bzw. Cloud ACD</a> absolut wichtig für das effiziente Bearbeiten der Anliegen. Durch die zielgerichtete Zuordnung der Anrufe zu den passenden Agenten oder Agentengruppen werden Ihre Agenten effizienter und zufriedener sein, da sie die Ihnen zugeordneten Anliegen kompetent bearbeiten können. Auch Ihre Kunden werden es Ihnen danken, direkt mit dem passenden Ansprechpartner verbunden zu sein. Wenn Anliegen im Kundenservice schnell, freundlich und kompetent gelöst werden, bleiben Ihre Kunden Ihnen treu und empfehlen Ihr Unternehmen idealerweise weiter. Eine gute Callcenter Software kann Ihrem Unternehmen also den richtigen Schub verleihen!</p>'
+);
+$faqs->faq_add (
+	'Was ist eine Contact Center Software?',
+	'<p>Das Contact Center ist die Abteilung Ihres Unternehmens, die sich der Kundenkommunikation widmet. In der Regel handelt es sich hier um kanalübergreifende Kommunikation. Eine Contact Center Software bietet daher mehr als Telefonie: Sie ermöglicht es Ihren Agenten, die Anliegen der Kunden über Telefonie, E-Mail, Chat, Social Media und Messenger zu bearbeiten ohne dabei ewig hin und her klicken zu müssen. Alles ist in einer Plattform zusammengefasst und <a href="/omnichannel-customer-support-software" class="inline-link">Omnichannel Kundenservice</a> ist effizient und zielführend durchführbar.</p>'
+);
+$faqs->faq_add (
+	'Was sind die Vorteile einer Omnichannel Plattform im Kundenservice?',
+	'<p>Ihre Kunden nutzen schon jetzt neben der Telefonie immer weitere Kontaktkanäle, um mit Ihnen in Verbindung zu treten. Hier werden bspw. via E-Mail oder Chat Kundenanliegen an Ihre Agenten herangetragen. Wenn diese eine Plattform nutzen, auf der Sie diese Anfragen aus verschiedensten Kanälen gebündelt bearbeiten können, ist dies enorm zeitsparend. Somit sparen Sie natürlich bares Geld. Außerdem wird die Zufriedenheit Ihrer Kunden ebenso steigen wie die Kundenbindung. Denn <a href="/omnichannel-customer-support-software" class="inline-link">Omnichannel Kundenservice</a> ermöglicht ein nahtloses Markenerlebnis und unkomplizierte, niedrigschwellige Klärung verschiedener Anliegen.</p>'
 );
 ?>
 
@@ -144,7 +160,7 @@ $faqs->faq_add (
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                                     <?= pictureTag(
-                                        '/assets/images/illus/sematell-ki-kundenservice.png',
+                                        '/assets/images/illus/CCS-voip-teams-mockup.png',
                                         'Alles, was Sie für Ihre Telefonie brauchen',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
@@ -233,7 +249,7 @@ $faqs->faq_add (
 
                                     <ul class="list list--checkmarks list--checkmarks-green">
                                         <li>Callcenter-Bots und sprachgesteuerte IVR Menüs für enorme Zeitersparnis</li>
-                                        <li>Informations-Bots für sprachbasierte FAQund Vorqualifizierung der Anrufer</li>
+                                        <li>Informations-Bots für sprachbasierte FAQ und Vorqualifizierung der Anrufer</li>
                                         <li>KI-basierte Sprachanalyse und Gesprächscoaching der Agenten im Kundenservice</li>
                                     </ul>
 
@@ -243,7 +259,7 @@ $faqs->faq_add (
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                                     <?= pictureTag(
-                                        '/assets/images/illus/index-ki.png',
+                                        '/assets/images/backgrounds_png/callcenter-bot-full.png',
                                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
