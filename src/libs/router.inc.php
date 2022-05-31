@@ -259,7 +259,6 @@ Router::add('/case-study-apodiscounter', 'case-study-apodiscounter.php', [
     'shorttitle' => 'apodiscounter',
     'title' => 'Anrufsteuerung im virtuellen Callcenter mittels REST-API und Webhooks',
     'meta_description' => 'Automatierung und Effizienz im telefonischen Kundenservice. Mit kompletter ERP-Integration steuert die Onlineapotheke Apodicounter sein virtuelles Callcenter',
-    'body_class' => 'bg-casestudy',
     'og_image_text' => 'apodiscounter mit CallOne',
     'menu_position' => 'callone',
     'sitemap_priority' => '0.7'
@@ -268,7 +267,6 @@ Router::add('/case-study-flaconi', 'case-study-flaconi.php', [
     'shorttitle' => 'Flaconi',
     'title' => 'VoIP-Telefonanlage und Callcenter Software für das gesamte Unternehmen',
     'meta_description' => 'Das Startup Flaconi setzt bei der VoIP-Telefonanlage komplett auf den Dienstleister CallOne. Callcenter Software, Rufnummern, SNOM-Telefone fürs Unternehmen',
-    'body_class' => 'bg-casestudy',
     'og_image_text' => 'Flaconi mit CallOne',
     'menu_position' => 'callone',
     'sitemap_priority' => '0.7'
@@ -277,7 +275,6 @@ Router::add('/case-study-niceshops', 'case-study-niceshops.php', [
     'shorttitle' => 'niceshops',
     'title' => 'Case Study: Die Telefonielösungen von niceshops',
     'meta_description' => 'Die individuelle Callcenter-Lösung des österreichischen E-Commerce-Unternehmens ✔ IP-Telefonie ✔ Freshdesk-Integration ✔ WebRTC ✔ 40 Shop-Hotlines',
-    'body_class' => 'bg-casestudy',
     'og_image_text' => 'niceshops mit CallOne',
     'menu_position' => 'callone',
     'sitemap_priority' => '0.7'
@@ -326,7 +323,6 @@ Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
 Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
     'shorttitle' => 'Callcenter Software Features',
     'title' => 'Callcenter Software Features',
-    'body_class' => 'bg-kundenservice',
     'og_image_text' => 'CallOne Callcenter Software Features'
 ]);
 Router::add('/callcenter-software-funktionen', 'callcenter-software-funktionen.php', [
@@ -346,8 +342,7 @@ Router::add('/cti-salesforce', 'cti/salesforce.php', [
     'shorttitle' => 'Salesforce',
     'title' => 'CallOne Salesforce Integration',
     'meta_description' => 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.',
-    'og_image_text' => 'CallOne Salesforce Integration',
-    'body_class' => 'bg-karriere'
+    'og_image_text' => 'CallOne Salesforce Integration'
 ]);
 Router::add('/customer-service-solutions', 'solutions-customer-service.php', [
     'shorttitle' => 'Customer Service Solutions',
@@ -371,15 +366,13 @@ Router::add('/freshdesk-callcenter-software', 'cti/freshdesk.php', [
     'shorttitle' => 'Freshdesk',
     'title' => 'Freshdesk in Verbindung mit Call Center Software & VoIP-Telefonanlage',
     'meta_description' => 'Freshdesk Ticketing mit Verbindung mit Call Center Software und VoIP-Telefonanlage. CTI Integration mit einem der führenden CRM und Ticketing-Tool',
-    'body_class' => 'bg-karriere',
     'og_image_text' => 'Freshdesk in Verbindung mit Call Center Software'
 ]);
 Router::add('/impressum', 'impressum.php', [
     'shorttitle' => 'Impressum',
     'title' => 'CallOne Impressum - Callcenter Software und VoIP-Telefonanlagen',
     'meta_description' => 'CallOne ist ein inhabergeführtes Unternehmen mit Sitz in Berlin, Potsdam und Mainz. Wir bieten hochwertige cloudbasierte Telefonanlagen für Sales und Service',
-    'og_image_text' => 'CallOne Impressum Rechtliches',
-    'body_class' => 'bg-landingpages'
+    'og_image_text' => 'CallOne Impressum Rechtliches'
 ]);
 Router::add('/it-helpdesk-solutions', 'solutions-helpdesk.php', [
     'shorttitle' => 'IT Helpdesk',
@@ -397,8 +390,7 @@ Router::add('/microsip', 'microsip.php', [
     'shorttitle' => 'MicroSIP',
     'title' => 'MicroSIP vorkonfiguriert',
     'meta_description' => 'Um Dir den Konfigurationsaufwand zu ersparen, bieten wir einen direkt vorkonfigurierten SIP-Client an.',
-    'og_image_text' => 'MicroSIP vorkonfiguriert',
-    'body_class' => 'full-bg background-transition'
+    'og_image_text' => 'MicroSIP vorkonfiguriert'
 ]);
 Router::add('/omnichannel-customer-support-software', 'omnichannel-customer-support-software.php', [
     'shorttitle' => 'Omnichannel',
@@ -429,7 +421,6 @@ Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'shorttitle' => 'Tableau Connector',
     'title' => 'Tableau Callcenter Connector - Integrieren Sie Daten und Callcenter-KPI',
     'meta_description' => 'Integrieren Sie mit dem CallOne Tableau Connector alle anrufspezifischen Telefoniedaten und Callcenter-KPIs in Ihre Tableau Dashboards und Datenanalysen',
-    'body_class' => 'bg-karriere',
     'og_image_text' => 'Tableau Callcenter Connector'
 ]);
 Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.php', [
@@ -442,33 +433,37 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
     'shorttitle' => 'Zendesk CTI',
     'title' => 'CallOne Zendesk Integration',
     'meta_description' => 'Bester Kundenservice und effiziente Agenten — integrieren Sie Voice Tickets in Zendesk für ein optimales Kundenerlebnis im Callcenter auf allen Kanälen',
-    'body_class' => 'bg-karriere',
     'og_image_text' => 'CallOne Zendesk Integration'
 ]);
 
 /* ********************* **
 ** ** DEBUGGING PAGES ** **
 ** ********************* */
+Router::add('/tools/colors', 'tools/colors.php', [
+    'title' => 'Colors',
+    'shorttitle' => 'Farben',
+    'layout' => 'default.php',
+    'sitemap_include' => false
+]);
 Router::add('/tools/components', 'tools/components.php', [
     'title' => 'Components',
-    'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
+    'shorttitle' => 'Komponenten',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 Router::add('/tools/routes', 'tools/routes-list.php', [
     'title' => 'Routes List',
-    'layout' => 'clean.php',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 Router::add('/tools/assets', 'tools/assets.php', [
     'title' => 'CallOne Assets',
-    'layout' => 'clean.php',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 Router::add('/tools/screensize', 'tools/screensize.php', [
     'title' => 'Screen Size',
-    'layout' => 'clean.php',
-    'body_class' => 'components--scrollbar',
+    'layout' => 'default.php',
     'sitemap_include' => false
 ]);
 
@@ -477,7 +472,6 @@ Router::add('/tools/screensize', 'tools/screensize.php', [
 ** *************** */
 Router::add('/404', '404.php', [
     'title' => '404 - Die Seite konnte nicht gefunden werden!',
-    'body_class' => 'bg-index',
     'sitemap_include' => false
 ]);
 ?>

@@ -222,12 +222,14 @@
             }
         }
 
+        *+h2 {
+            margin-top: 20px;
+        }
         h2 {
             font-family: $font-headline;
             font-weight: normal;
             font-size: 38px;
             line-height: 1.2;
-            margin-top: 20px;
 
             @media screen and (max-width: 800px) {
                 font-size: 28px;

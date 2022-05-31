@@ -15,11 +15,7 @@ let app = {
         eventListener('click', '.form .submit', function(e) {
             e.preventDefault();
             let form = e.target.closest('.js-form');
-            if (form.classList.contains('callback')) {
-                sendCallback(form);
-            } else {
-                sendForm(form);
-            }
+            sendForm(form);
         });
 
         eventListener('click', '.container .title', e => {
@@ -63,37 +59,6 @@ let app = {
                 })(this));
                 e.target.closest('li').classList.add('open');
             }
-        });
-
-        eventListener('click', '.mobile-nav .pages-menu .submenu', e => {
-            e.preventDefault();
-            e.stopPropagation();
-            let submenu = e.target.closest('.submenu');
-
-            if (submenu.classList.contains('submenu-open')) {
-                submenu.classList.remove('submenu-open');
-                submenu.nextElementSibling.style.display = 'none';
-            } else {
-                let submenusBoxes = document.querySelectorAll('.pages-submenu');
-                submenusBoxes.forEach((function(_this) {
-                    return function(submenuBox) {
-                        submenuBox.style.display = 'none';
-                    };
-                })(this));
-                let submenus = document.querySelectorAll('.pages-menu .submenu-open');
-                submenus.forEach((function(_this) {
-                    return function(sub) {
-                        sub.classList.remove('submenu-open');
-                    };
-                })(this));
-                submenu.classList.add('submenu-open');
-                submenu.nextElementSibling.style.display = 'block';
-            }
-        });
-
-        eventListener('click', '.btn-mobile-nav', e => {
-            e.preventDefault();
-            document.querySelector('.mobile-nav').classList.toggle('open');
         });
 
         eventListener('click', '.showDiv', e => {

@@ -90,6 +90,10 @@
             display: block;
         }
     }
+    &__item--vcentered {
+        display: flex;
+        align-items: center;
+    }
 
     &__item--messured {
         position: absolute;
@@ -113,16 +117,5 @@
             left: auto;
             right: 0;
         }
-        &__header {
-            margin-bottom: 0;
-            margin-top: var(--gutter-m);
-        }
-        // &--indicators-centered {
-        //     .fader__indicators {
-        //         left: 50%;
-        //         right: auto;
-        //         transform: translate3d(-50%, -50%, 0);
-        //     }
-        // }
     }
 }

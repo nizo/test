@@ -103,35 +103,6 @@ function getPageActiveClass($uri) {
         return ' submenu__link--active';
 }
 
-function getLogoParade($logos, $showStars = null, $template = 'clients') {
-    if(empty($logos)) {
-        return;
-    }
-    
-    $paradeData = null;
-    
-    foreach($logos as $logo) {
-        if(empty($logo['cssClass']))
-            $logo['cssClass'] = '';
-        if(empty($logo['alt']))
-                $logo['alt'] = '';
-        if(empty($logo['data']))
-                $logo['data'] = '';
-        $logoWidth = '';
-        $logoHeight = '';
-        if (file_exists('assets/images/client-logos/'.$logo['data'])) {
-            $logoSize = getimagesize('assets/images/client-logos/'.$logo['data']);
-            $logoWidth = $logoSize[0];
-            $logoHeight = $logoSize[1];
-        }
-        
-        $paradeData.= '<div class="logo"><img src="/assets/images/photos/placeholder.gif" data-src="/assets/images/client-logos/' . $logo['data'] . '" data-srcset="/assets/images/client-logos/' . $logo['data'] . '" alt="' . $logo['alt'] . '" title="' . $logo['alt'] . '" width="' . $logoWidth . '" height="' . $logoHeight . '" class="lazy '. $logo['cssClass'] .'"/></div>';
-    }
-    
-    require('./partials/logo-parade-'.$template.'.php');
-    return;   
-}
-
 function isLocalHost(){
     if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false)
         return true;

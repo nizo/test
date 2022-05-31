@@ -57,7 +57,7 @@
     		}
     		.text {
 				width: 75%;
-				word-break: break-word;
+				word-break: break-all;
     		}
     		.sl, .sl::before {
     			font-size: 50px;
@@ -125,37 +125,6 @@
   }
 }
 
-#kontakt {
-	&.breather {
-    	.content {
-    		padding: 80px 0  80px;
-    	}
-	}
-}
-
-
-@media screen and (max-width: 800px) {
-	#kontakt {
-		&.breather {
-	    	.content {
-	    		padding: 20px 0 0;
-	    	}
-	    	&#kontakt {
-				padding-bottom: 50px;
-				.grid {
-					.col-2 {
-						.shadow-box {
-							height: 100%;
-						    width: 92%;
-						    margin: 0 auto;
-						}
-					}
-				}
-			} 
-		}
-	}
-}
-
 @media screen and (max-width: 555px) {
 	.breather {
 		.content {
@@ -167,8 +136,5 @@
 				} 
 			}
 		}
-		&#kontakt {
-			padding-bottom: 50px;
-		} 
 	}
 }

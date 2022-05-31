@@ -1,5 +1,8 @@
-*.list, .list+* {
+*+.list, .list+* {
     margin-top: var(--gutter-l);
+}
+h2+.list {
+    margin-top: var(--gutter-m);
 }
 
 .list {
@@ -51,6 +54,10 @@
                 height: calc(2em / 43 * 46);
                 // aspect-ratio: 43/46;
                 background-image: url(../images/icons_svg/icon-checkmark-green.svg);
+            }
+
+            @media screen and (max-width: 800px) {
+                font-size: 18px;
             }
         }
     }

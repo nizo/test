@@ -52,7 +52,7 @@ $grid-gutter: $gutter-l;
 
 	[class*='col-'] {
 		&.card {
-			--c: $color-lightgrey-2;
+			--c: #{$color-lightgrey-2};
 			border-radius: 10px;
 			background-color: #fff;
 			overflow: hidden;
@@ -522,7 +522,7 @@ $grid-gutter: $gutter-l;
 
 				&:hover,
 				&.open {
-					border-color: $color-secondary-2;
+					border-color: $color-blue;
 				}
 			}
 		}
@@ -532,7 +532,7 @@ $grid-gutter: $gutter-l;
 
 				&:hover,
 				&.open {
-					border-color: $color-secondary-3;
+					border-color: $color-blue;
 				}
 			}
 		}
@@ -551,7 +551,7 @@ $grid-gutter: $gutter-l;
 
 				.headline {
 					text-transform: uppercase;
-					color: $color-grey;
+					color: #{$color-grey};
 				}
 
 				.image-grid {
@@ -1130,9 +1130,5 @@ $grid-gutter: $gutter-l;
 				}
 			}
 		}
-	}
-
-	.no-padding-mobile {
-		padding: 0 !important;
 	}
 }

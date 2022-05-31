@@ -75,7 +75,11 @@ class Fader {
         this.items.forEach((item, i) => {
             let indicator = document.createElement('div');
             indicator.classList.add('fader__indicator');
+            indicator.setAttribute('data-item', i);
             indicators.appendChild(indicator);
+            indicator.addEventListener('click', ((e) => {
+                this.fade(i);
+            }).bind(this));
             if (i == 0)
                 indicator.classList.add('fader__indicator--active');
             this.indicators.push(indicator);

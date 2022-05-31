@@ -16,9 +16,6 @@
   &.big {
 	  padding: $gutter-s + 5px $gutter-xl;
 	  font-size: $font-size-xs;
-	  &.connectWord {
-	  	min-width: auto;
-	  }
   }
   &.mobileWrap {
   	white-space: inherit;
@@ -50,9 +47,6 @@
   &--wider {
     padding-left: $gutter-l;
     padding-right: $gutter-l;
-  }
-  &--noletterspacing {
-    letter-spacing: normal !important;
   }
   &--anchor {
     &:after {
@@ -141,78 +135,6 @@
 	      	color: $color-secondary-1 !important;
       	}
   	}
-  	&.black2 {
-  		color: #fff;
-  		background-color: #000;
-  		border-color: #000;
-      line-height: 30px;
-  		&:hover {
-	      	background-color: $color-primary;
-	      	border-color: $color-primary;
-	      	color: #000 !important;
-      	}
-  	}
-  }
-  &.white-shadow {
-    background-color: #fff;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15), 0px 4px 20px rgba(0, 0, 0, 0.05);
-    color: #000;
-    &:hover {
-      background-color: $color-primary;
-    }
-  }
-  &.quaternary, &.quinary {
-  	--notchSize: 6px;
-  	-webkit-clip-path:
-  	polygon(0% var(--notchSize),
-  	var(--notchSize) 0%,
-  	calc(100% - var(--notchSize)) 0%,
-  	100% var(--notchSize),
-  	100% calc(100% - var(--notchSize)),
-  	calc(100% - var(--notchSize)) 100%,
-  	var(--notchSize) 100%,
-  	0% calc(100% - var(--notchSize)));
-  	clip-path:
-  	polygon(0% var(--notchSize),
-  	var(--notchSize) 0%,
-  	calc(100% - var(--notchSize)) 0%,
-  	100% var(--notchSize),
-  	100% calc(100% - var(--notchSize)),
-  	calc(100% - var(--notchSize)) 100%,
-  	var(--notchSize) 100%,
-  	0% calc(100% - var(--notchSize)));
-  	transition: all .2s ease-in-out;
-  	text-transform: uppercase;
-  	color: white;
-  	background: #000000;
-  	letter-spacing: 1px;
-  	border: 6px;
-  	border-style: solid;
-  	border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
-  	border-image-slice: 1;
-
-  	padding: 15px 20px;
-  	display: inline-flex;
-  	align-items: center;
-  	top: 50%;
-  	margin: 20px 0;
-
-  	&:hover {
-   	  transform: scale(1.1);
-		  color: white;
-		  background-color: #000;
-		  border: 6px;
-		  border-style: solid;
-		  border-image-source: linear-gradient(180deg, #AAEA39, #86EC16);
-		  border-image-slice: 1;
-  		.play-icon {
-  			filter: invert(0.5)
-  		}
-  	}
-
-  	.play-icon {
-  		margin-right: 10px;
-  	}
   }
 
   .button__icon {
@@ -295,102 +217,6 @@
       }
     }
   }
-
-  &.quinary {
-  	border: 6px solid #65976F;
-  	&:hover {
-  		background-color: #000;
-  		border-image-source: linear-gradient(180deg, #9BA3A2, #626A69);
-  	}
-  }
-  &.senary {
-	transition: all .2s ease-in-out;
-	text-transform: uppercase;
-	color: white;
-	background: #000000;
-	letter-spacing: 1px;
-	border: 3px solid $color-primary;
-	&:hover {
-	  	  transform: scale(1.1);
-	}
-	&.silent {
-  		background-color: inherit;
-	    border: 2px solid $color-secondary-1;
-	    color: $color-secondary-1;
-	    text-transform: none;
-	    font-weight: 400;
-	    &.white {
-	    	color: #fff;
-	    	border-color: #fff;
-	    }
-	    &.black {
-	   		color: $color-secondary-1;;
-	    	border-color: $color-secondary-1;
-	    }
-  	}
-  }
-
-  &.secondary-silent {
-  }
-  &.expertmode {
-    position: relative;
-    text-transform: uppercase;
-    border: 2px solid #000;
-    background-color: #fff;
-    color: #000;
-    padding-right: calc(#{$gutter-m} * 2 + 50px);
-    &:hover {
-      border-color: $color-primary;
-    }
-    &:before {
-      content: "";
-      position: absolute;
-      top: $gutter-s;
-      right: $gutter-m;
-      width: 50px;
-      height: calc(100% - (2 * #{$gutter-s}));
-      background-color: #fff;
-      border: 2px solid #000;
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      width: 21px;
-      height: calc(100% - (2 * #{$gutter-s}) - 8px);
-      background-color: #000;
-      top: calc(#{$gutter-s} + 4px);
-      right: calc(#{$gutter-m} + 25px);
-    }
-    &.active {
-      border-color: $color-primary;
-      background-color: $color-primary;
-      &:hover {
-        border-color: #000;
-      }
-      &:before {
-        background-color: #000;
-      }
-      &:after {
-        background-color: #fff;
-        right: calc(#{$gutter-m} + 4px);
-      }
-    }
-  }
-}
-
-.icon-before-app {
-	padding: 0px 5px 4px;
-    font-size: initial;
-    vertical-align: middle;
-    line-height: initial;
-    top: -4px;
-    position: relative;
-    background-color: $color-primary;
-	> img {
-		height: 14px;
-	    top: 2px;
-	    position: relative;
-	}
 }
 
 .button-set {
@@ -400,24 +226,6 @@
   margin-bottom: -$gutter-m;
   &.centered {
     justify-content: center;
-  }
-  &.edge-button {
-  	padding-top: 20px;
-  	position: relative;
-  	.button {
-  		position: absolute;
-	    top: 0px;
-	    left: $gutter-l;
-  	}
-  	.return + .button {
-  		left: 150px;
-  	}
-  	.return.desktop-hidden + .button {
-  		left: 40px;
-  	}
-  }
-  &.fullWidth {
-  	width: 100%;
   }
   &.no-wrap {
   	flex-wrap: nowrap;
@@ -436,19 +244,6 @@
     	transition: all .3s ease;
     }
   }
-  .connectWord {
-  	font-weight: 600;
-  	color: rgba(255, 255, 255, 0.4);
-  	align-items: center;
-  	text-transform: uppercase;
-  	margin: 0;
-  }
-}
-
-.faq-partial {
-	.button-set {
-		margin-top: 0;
-	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -469,16 +264,8 @@
   	.button {
   		margin-right: 0;
   		margin-bottom: $gutter-s;
-  		&.connectWord {
-  			margin-top: $gutter-s;
-  		}
   		width: 100%;
-	}
-	&.edge-button {
-	  	.return.desktop-hidden + .button {
-	  		left: 0px;
-	  	}
-  	}
+	  }
   }
 }
 
@@ -497,8 +284,8 @@ p+.button-set {
     min-width: 66px!important;
   	input {
 		opacity: 0;
-		width: 0;
-		height: 0;
+		width: 0px;
+		height: 0px;
 
 		height: 100%;
 	    width: 100%;
@@ -512,7 +299,6 @@ p+.button-set {
 		right: 0;
 		bottom: 0;
 		background-color: #f2f2f2;
-		-webkit-transition: .4s;
 		transition: .4s;
 		border: 2px solid #000;
 		&::before {
@@ -538,44 +324,9 @@ p+.button-set {
 		}
 
 		input + .switchSlider:before {
-		  -webkit-transform: translateX(26px);
-		  -ms-transform: translateX(26px);
 		  transform: translateX(26px);
 		}
 	}
-}
-
-.contact-form {
-  .button-set {
-    margin-top: $gutter-l;
-    margin-bottom: $gutter-l;
-    .button {
-      border: 2px solid transparent;
-      // font-size: $font-size-m;
-      // font-family: $font-copy;
-      font-family: 'PxGroteskBold', sans-serif;
-      font-size: $font-size-xxs;
-      font-weight: normal;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      &.primary {
-        background-color: $color-primary;
-        color: #000;
-        border-color: #000;
-      }
-      &.secondary {
-        background-color: #fff;
-        border-color: $color-primary;
-        color: #000;
-      }
-      &:hover {
-        background-color: #000;
-        border-color: #fff;
-        color: #fff;
-      }
-    }
-  }
 }
 
 .breather {

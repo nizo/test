@@ -48,7 +48,7 @@ function get_files_recursively($dir, &$results = array()) {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        height: 100vh;
+        /* height: 100vh; */
         background-color: #fcfcfc;
     }
 
@@ -140,7 +140,7 @@ function get_files_recursively($dir, &$results = array()) {
         align-items: flex-start;
         padding: 1em;
         align-self: flex-start;
-        max-height: 100vh;
+        /* max-height: 100vh; */
     }
 
     .asset {

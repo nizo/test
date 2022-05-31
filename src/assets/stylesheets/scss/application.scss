@@ -6,8 +6,6 @@
 @import '_main-header';
 @import '_shadowbox';
 @import '_image-grid';
-@import '_logo-grid';
-@import '_cross-grid';
 @import '_breather';
 @import '_grid';
 @import '_icons_streamline';
@@ -17,15 +15,11 @@
 @import '_modal';
 @import '_footer';
 @import '_slider';
-@import '_backgrounds';
 @import '_spinner';
 @import '_video';
 @import '_chat';
-@import '_quotes';
 @import '_compare';
 @import '_contact';
-@import '_contact-sales';
-@import '_references';
 
 /*
  * Other instances
@@ -91,4 +85,5 @@
 @import 'components/variables';
 @import 'components/video';
 
+@import '_tools';
 @import '_components';
