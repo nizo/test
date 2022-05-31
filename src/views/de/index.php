@@ -47,8 +47,8 @@ $faqs->faq_add (
             <strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
         </div>
         <div class="anchors__links">
-            <a href="#voice-kanal">Voice-Kanal</a>
-            <a href="#schrift-kanal">Schrift-Kanal</a>
+            <a href="#voice">Voice</a>
+            <a href="#omnichannel">Omnichannel</a>
             <a href="#integrationen">Integrationen</a>
             <a href="#ki">Künstliche Intelligenz</a>
         </div>
@@ -95,7 +95,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="tablist">
             <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" id="voice-kanal" data-tab="1" data-sticky-text="Voice" style="--bg:#fff;">
+                <div class="tablist__link" id="voice" data-tab="1" data-sticky-text="Voice" style="--bg:#fff;">
                     <?= pictureTag(
                         '/assets/images/icons_svg/menu-callcenter-software.svg',
                         'Alles, was Sie für Ihre Telefonie brauchen',
@@ -106,7 +106,7 @@ $faqs->faq_add (
                     <strong>Voice</strong>
                 </div>
 
-                <div class="tablist__link" id="schrift-kanal" data-tab="2" data-sticky-text="Omnichannel" style="--bg:#fff;">
+                <div class="tablist__link" id="omnichannel" data-tab="2" data-sticky-text="Omnichannel" style="--bg:#fff;">
                     <?= pictureTag(
                         '/assets/images/icons_svg/sent-out-white.svg',
                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
@@ -136,7 +136,7 @@ $faqs->faq_add (
                             'class' => 'mobile-hidden'
                         ]
                     ); ?>
-                    <strong>Künstliche<br />Intelligenz</strong>
+                    <strong>KI</strong>
                 </div>
             </div>
 
@@ -273,67 +273,77 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <div class="fader fader--header-below fader--indicators-centered" data-speed="6000">
-            <div class="fader__item fader__item--vcentered">
-                <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                        <?= pictureTag(
-                            '/assets/images/client-logos/logo-vimcar-color.svg',
-                            'Unser Kunde Vimcar',
-                            370, 185
-                        ); ?>
-                    </div>
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-                        <div class="quote" style="--fontSize:24px">
-                            &ldquo;CallOne zu integrieren war die absolut richtige Entscheidung. Die CallCenter-Lösung hat es geschafft, unseren Kundendienst auf ein ganz neues Level zu heben und Prozesse stark zu vereinfach. Das CallOne-Team macht einen super Job in der Beratung und Betreuung.&rdquo;
+<div class="section section--light-green-white">
+    <div class="section__content section__content--wide">
+        <h2 class="centered mobile-left">Unternehmen mit starker Kundenbindung lieben CallOne</h2>
+
+        <div class="breather-box breather-box--border" style="--c-bg:#fff;--c-text:#000">
+            <div class="fader fader--indicators-centered" data-speed="6000">
+                <div class="fader__item">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/client-logos/logo-vimcar-color.svg',
+                                'Unser Kunde Vimcar',
+                                370, 185
+                            ); ?>
                         </div>
-                        <p>
-                            <strong>Felix Schmidt</strong><br />
-                            VP bei Vimcar
-                        </p>
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+                            <div class="quote" style="--fontSize:24px">
+                                &ldquo;CallOne zu integrieren war die absolut richtige Entscheidung. Die CallCenter-Lösung hat es geschafft, unseren Kundendienst auf ein ganz neues Level zu heben und Prozesse stark zu vereinfach. Das CallOne-Team macht einen super Job in der Beratung und Betreuung.&rdquo;
+                            </div>
+                            <p>
+                                <strong>Felix Schmidt</strong><br />
+                                VP bei Vimcar
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="fader__item fader__item--vcentered">
-                <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                        <?= pictureTag(
-                            '/assets/images/client-logos/logo-check24-black.svg',
-                            'Unser Kunde Check24',
-                            370, 89
-                        ); ?>
-                    </div>
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-                        <div class="quote" style="--fontSize:24px">
-                            &ldquo;Von einer Lösung für den telefonischen Support unserer Sachversicherungsprodukte haben wir uns vor allem bessere Transparenz, optimale Vorausplanbarkeit und eine Integration der Lösung in unsere bereits genutzten Businesssysteme erhofft. Genau das haben wir bei CallOne gefunden.&rdquo;
+                <div class="fader__item">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/client-logos/logo-check24-black.svg',
+                                'Unser Kunde Check24',
+                                370, 89
+                            ); ?>
                         </div>
-                        <p>
-                            <strong>Dr. Rainer Klipp</strong><br />
-                            Geschäftsführer Check24 Sachversicherungen
-                        </p>
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+                            <div class="quote" style="--fontSize:24px">
+                                &ldquo;Von einer Lösung für den telefonischen Support unserer Sachversicherungsprodukte haben wir uns vor allem bessere Transparenz, optimale Vorausplanbarkeit und eine Integration der Lösung in unsere bereits genutzten Businesssysteme erhofft. Genau das haben wir bei CallOne gefunden.&rdquo;
+                            </div>
+                            <p>
+                                <strong>Dr. Rainer Klipp</strong><br />
+                                Geschäftsführer Check24 Sachversicherungen
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="fader__item fader__item--vcentered">
-                <div class="co-grid">
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
-                        <?= pictureTag(
-                            '/assets/images/client-logos/logo-seereisedienst-notext.svg',
-                            'Unser Kunde Seereisedienst',
-                            370, 370
-                        ); ?>
-                    </div>
-                    <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-                        <div class="quote" style="--fontSize:24px">
-                            &ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. CallOne bietet das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
+                <div class="fader__item">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/client-logos/logo-seereisedienst-notext.svg',
+                                'Unser Kunde Seereisedienst',
+                                370, 370, [
+                                    'style' => 'max-height:185px'
+                                ]
+                            ); ?>
                         </div>
-                        <p>
-                            <strong>SEEREISEDIENST</strong><br />
-                            Elbflorenz Reisedienst GmbH und Co. KG
-                        </p>
+                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+                            <div class="quote" style="--fontSize:24px">
+                                &ldquo;Nach langer Suche und zahlreichen Tests anderer deutscher und internationaler Anbieter, sind wir seit einem halben Jahr Kunde bei CallOne. CallOne bietet das bisher einzige System, das auch mit Anrufspitzen von mehreren tausend Anrufen stabil arbeitet. Wir können auch aus diesem Grund CallOne uneingeschränkt empfehlen.&rdquo;
+                            </div>
+                            <p>
+                                <strong>SEEREISEDIENST</strong><br />
+                                Elbflorenz Reisedienst GmbH und Co. KG
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
