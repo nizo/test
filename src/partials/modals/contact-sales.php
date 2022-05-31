@@ -6,46 +6,66 @@ $uniqueID = uniqid();
 ?>
 
 <div class="callone-modal" id="<?= $uniqueID; ?>" data-modal="contact-sales" data-title="Contact Sales">
-    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2">
-        <div class="worker-evaluation">
-            <div class="radio-select">
-                <div class="radio-select__item">
-                    <input type="radio" id="topic1<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="form" checked="checked" />
-                    <label for="topic1<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="2">
+    <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-step-indicator="1/2" data-no-footer="true" data-canceltext="Abbrechen">
+        <h3 class="centered mobile-left">Wie möchten Sie Kontakt aufnehmen?</h3>
+
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="5">
+                    <div class="btn--tile__ribbon">Sofort</div>
+                    <div class="btn--tile__title">
                         <?= pictureTag(
-                            '/assets/images/icons_svg/sent-out-black.svg',
-                            'Sales kontaktieren',
-                            48, 48, [
-                                'style' => 'margin-bottom:0;max-width:48px;'
+                            '/assets/images/icons_svg/icon-callback.svg',
+                            'Von CallOne zurückgerufen werden',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
                             ]
                         ); ?>
-                        <h3>Nachricht senden</h3>
-                        <p>Nutzen Sie ganz bequem <br />unser Kontaktformular</p>
-                    </label>
-                </div>
-                <div class="radio-select__item">
-                    <input type="radio" id="topic2<?= $uniqueID; ?>" name="topic<?= $uniqueID; ?>" value="calendar" />
-                    <label for="topic2<?= $uniqueID; ?>" class="callone-modal__nextstep" data-next-step="3">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/presentation.svg',
-                            'Sales kontaktieren und Termin buchen',
-                            48, 49, [
-                                'style' => 'margin-bottom:0;max-width:48px;'
-                            ]
-                        ); ?>
-                        <h3>Call vereinbaren</h3>
-                        <p>Telefon- oder Videocall <br />ganz einfach festlegen</p>
-                    </label>
+                        <h3>Rückruf</h3>
+                    </div>
+                    <p>Wir rufen Sie gerne sofort zurück</p>
                 </div>
             </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm"></div>
+            
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="2">
+                    <div class="btn--tile__title">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-mail.svg',
+                            'Sales kontaktieren',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
+                            ]
+                        ); ?>
+                        <h3>Nachricht</h3>
+                    </div>
+                    <p>Ganz bequem per Kontaktformular</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3">
+                    <div class="btn--tile__title">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/icon-calendar.svg',
+                            'Sales kontaktieren und Termin buchen',
+                            32, 32, [
+                                'style' => 'margin-bottom:0;max-width:32px;'
+                            ]
+                        ); ?>
+                        <h3>Termin</h3>
+                    </div>
+                    <p>Telefon- oder Videocall ganz einfach festlegen</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
         </div>
-
         
         <div class="co-grid co-grid--no-margin-bottom centered">
-            <div class="co-grid__col co-grid__col--12-xs">
-                <p>oder kontaktieren Sie uns direkt falls Ihre Anfrage nicht in das Formular passt</p>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p>
                     <?= pictureTag(
                         '/assets/images/icons_svg/telephony-indicator.svg',
@@ -57,7 +77,7 @@ $uniqueID = uniqid();
                     <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a>
                 </p>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p>
                     <?= pictureTag(
                         '/assets/images/icons_svg/mail-indicator.svg',
@@ -69,13 +89,13 @@ $uniqueID = uniqid();
                     <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a>
                 </p>
             </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
         </div>
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
         <div class="sales-contact-form">
-            <h2>Fast geschafft!</h2>
-            <p class="centered">Unser Team beantwortet gerne alle Ihre vertrieblichen Fragen.</p>
+            <h2>Wie können wir Sie erreichen?</h2>
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit">
                 <div class="floating-form__error">
@@ -85,23 +105,39 @@ $uniqueID = uniqid();
 
                 <div class="floating-form__row">
                     <div class="floating-form__col">
-                        <div class="floating-form__field">
+                        <div class="floating-form__field floating-form__field--highlight">
                             <input type="text" name="name" placeholder=" " required="required" />
                             <label>Ihr Name *</label>
                         </div>
                     </div>
                     <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <input type="text" name="company" placeholder=" " required="required" />
-                            <label>Firmenname *</label>
+                        <div class="floating-form__field floating-form__field--highlight">
+                            <input type="email" name="email" placeholder=" " required="required" />
+                            <label>Geschäftliche E-Mail *</label>
                         </div>
                     </div>
                 </div>
                 <div class="floating-form__row">
+                    <div class="floating-form__col subtext centered">Optional können Sie uns gerne noch weitere Informationen mitteilen</div>
+                </div>
+                <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
                     <div class="floating-form__col">
-                        <div class="floating-form__select">
-                            <select name="position" data-callone-select="" required="required">
-                                <option value="">Sie sind Ansprechpartner für *</option>
+                        <div class="floating-form__field">
+                            <textarea style="--height:200px" name="text" cols="30" rows="7" placeholder="Hier ist Platz für zusätzliche Anmerkungen."></textarea>
+                        </div>
+                    </div>
+                    <div class="floating-form__col">
+                        <div class="floating-form__field floating-form__field--small">
+                            <input type="text" name="company" placeholder=" " />
+                            <label>Firmenname</label>
+                        </div>
+                        <div class="floating-form__field floating-form__field--small">
+                            <input type="text" name="phonenumber" placeholder=" " />
+                            <label>Geschäftliche Telefonnummer</label>
+                        </div>
+                        <div class="floating-form__select floating-form__select--small">
+                            <select name="position" data-callone-select="">
+                                <option value="">Sie sind Ansprechpartner für</option>
                                 <option value="IT">IT</option>
                                 <option value="Kundenservice">Kundenservice</option>
                                 <option value="Sales">Sales</option>
@@ -109,11 +145,9 @@ $uniqueID = uniqid();
                                 <option value="Sonstiges">Sonstiges</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="floating-form__col">
-                        <div class="floating-form__select">
-                            <select name="issue" data-callone-select="" required="required">
-                                <option value="">Herausforderung Ihrer Firma *</option>
+                        <div class="floating-form__select floating-form__select--small">
+                            <select name="issue" data-callone-select="">
+                                <option value="">Herausforderung Ihrer Firma</option>
                                 <option value="Wachstum &amp; Skalierung">Wachstum &amp; Skalierung</option>
                                 <option value="Integration der Telefone in andere Systeme">Integration der Telefone in andere Systeme</option>
                                 <option value="Kundensupport verbessern">Kundensupport verbessern</option>
@@ -126,20 +160,6 @@ $uniqueID = uniqid();
                         </div>
                     </div>
                 </div>
-                <div class="floating-form__row">
-                    <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <input type="text" name="phonenumber" placeholder=" " required="required" />
-                            <label>Geschäftliche Telefonnummer *</label>
-                        </div>
-                    </div>
-                    <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <input type="email" name="email" placeholder=" " required="required" />
-                            <label>Geschäftliche E-Mail *</label>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="floating-form__loader"></div>
 
@@ -148,10 +168,10 @@ $uniqueID = uniqid();
         </div>
     </div>
     
-    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-steptitle="Termin wählen" data-mouseflow-tag="Calendly">
+    <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min" style="min-width:320px;height:1200px;"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min?hide_gdpr_banner=1&hide_event_type_details=1" style="min-width:320px;height:1200px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="async"></script>
             <!-- Calendly inline widget end -->
         </div>
@@ -159,7 +179,7 @@ $uniqueID = uniqid();
 
     <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen" data-mouseflow-tag="Abgeschlossen">
         <h2 class="centered">Super, wir sind kontaktiert!</h2>
-        <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. Folgende Schritte erwarten Sie vom ersten Kontakt bis zum fällen Ihrer Entscheidung:</p>
+        <p class="centered">Ihre Kontaktanfrage hat uns erreicht und wir melden uns baldmöglichst bei Ihnen. <br />So geht es jetzt weiter:</p>
 
         <div class="step-slider">
             <div class="step-slider__steps">
@@ -173,15 +193,15 @@ $uniqueID = uniqid();
                 </div>
                 <div class="step-slider__step">
                     <h2>Strategie</h2>
-                    <p>Gemeinsam entwickeln wir eine Strategie, denken Callflows, Routings und Technologie durch​.</p>
+                    <p>Gemeinsam entwickeln wir eine Strategie, denken Callflows, Routings und Technologie durch.</p>
                 </div>
                 <div class="step-slider__step">
                     <h2>Konzept</h2>
-                    <p>Wir setzen das erarbeitete Konzept um, so als wären Sie schon Kunde bei uns. Damit können Sie auf Herz und Nieren testen und optimieren​.</p>
+                    <p>Wir setzen das erarbeitete Konzept um, so als wären Sie schon Kunde bei uns. Damit können Sie auf Herz und Nieren testen und optimieren.</p>
                 </div>
                 <div class="step-slider__step">
                     <h2>Finetuning & Start</h2>
-                    <p>Alles roger? Dann gehen wir live, nachdem wir alle notwendigen Schritte für einen erfolgreichen Start gemeinsam durchlaufen haben​.</p>
+                    <p>Alles roger? Dann gehen wir live, nachdem wir alle notwendigen Schritte für einen erfolgreichen Start gemeinsam durchlaufen haben.</p>
                 </div>
             </div>
             <div class="step-slider__slider">
@@ -197,14 +217,112 @@ $uniqueID = uniqid();
                     <strong>Hinweis:</strong> Ziehen Sie den Schieberegler über den Zeitstrahl um alle Schritte zu sehen.
                 </div>
                 <div class="step-slider__hint-right">
-                    Ihre Entscheidung
+                    Erfolgreicher Start
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="6" data-next-button-text="Jetzt Rückruf anfordern" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
+        <div class="sales-callback-form">
+            <h2>Sofort mit CallOne sprechen!</h2>
+
+            <p class="centered">Lassen Sie sich direkt mit einem CallOne Mitarbeiter verbinden.</p>
+
+            <form action="#" method="post" class="floating-form" data-step-callback="salesCallbackSubmit">
+                <div class="floating-form__error">
+                    <h2>Rückruf leider nicht möglich.</h2>
+                    <p>Bitte geben Sie eine gültige Rufnummer aus Deutschland an und stellen Sie sicher, dass Sie den Rückruf während unserer Geschäftszeiten anfordern, diese sind: <strong>Mo - Fr von 9 Uhr bis 18 Uhr</strong>.</p>
+                </div>
+
+                <div class="floating-form__row floating-form__row--centered">
+                    <div class="floating-form__col" style="--maxWidth:50%">
+                        <div class="floating-form__field">
+                            <input type="text" name="phonenumber" placeholder=" " required="required" />
+                            <label>Ihre Rückrufnummer *</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-form__loader"></div>
+
+                <input type="submit" id="sales-callback-form" hidden />
+            </form>
+        </div>
+    </div>
+
+    <div class="callone-modal__step" data-step-id="6" data-no-back="true" data-no-footer="true" data-steptitle="Ihr Telefon klingelt&hellip;" data-canceltext="Schließen" data-mouseflow-tag="Rückruf gestartet">
+        <p class="centered">
+            <?= pictureTag(
+                '/assets/images/icons_svg/icon-callback.svg',
+                'Von CallOne zurückgerufen werden',
+                64, 64, [
+                    'style' => 'margin-bottom:var(--gutter-xs);width:100%;max-width:64px;'
+                ]
+            ); ?>
+        </p>
+        <h2 class="centered">Ihr Telefon sollte jetzt klingeln!</h2>
+        <p class="centered">Heben Sie ab und Sie werden direkt mit einem CallOne Mitarbeiter verbunden.<br />Vielen Dank für Ihr Interesse!</p>
+    </div>
     
     <script>
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
+
+        // Sales Callback Form
+        window.salesCallbackSubmit = function(e, cb) {
+            const form = document.querySelector('.sales-callback-form form');
+            const formLoader = form.querySelector('.floating-form__loader');
+            const formSubmit = form.querySelector('input[type="submit"]');
+            const formSubmitLabel = thisModal.querySelector('label[for="sales-callback-form"]');
+            const formError = form.querySelector('.floating-form__error');
+            const formErrorHeadline = formError.querySelector('h2');
+            const formErrorText = formError.querySelector('p');
+            formError.classList.remove('floating-form__error--active') // Hide error message
+
+            const id = '0007257529d86f3e5318f08686b82236';
+            
+            // Prepare form data
+            let formData = new FormData(form);
+            formData.set('id', id);
+            
+            if (formData.get('phonenumber') == '')
+                return;
+
+            formLoader.classList.add('floating-form__loader--active');
+            formSubmit.disabled = true;
+            formSubmitLabel.classList.add('floating-form__label--disabled');
+
+            const postUrl = 'https://connect.callone.io/backend/callback.php';
+            fetch(postUrl, {
+                method: 'POST',
+                cache: 'no-cache',
+                body: formData
+            })
+            .then(response => {
+                return response.json();
+            })
+            .then(data => {
+                formLoader.classList.remove('floating-form__loader--active');
+                formSubmit.disabled = false;
+                formSubmitLabel.classList.remove('floating-form__label--disabled');
+                if (data.error) {
+                    console.log('Callback error');
+                    console.error(data.error);
+                    formError.classList.add('floating-form__error--active') // Display error message
+                } else {
+                    // Success
+                    cb();
+                }
+            })
+            .catch(response => {
+                console.log('Callback error');
+                console.error(response);
+                formError.classList.add('floating-form__error--active') // Display error message
+                formLoader.classList.remove('floating-form__loader--active');
+                formSubmit.disabled = false;
+                formSubmitLabel.classList.remove('floating-form__label--disabled');
+            });
+        }
 
         // Sales Contact Form
         window.salesContactSubmit = function(e, cb) {
@@ -215,7 +333,7 @@ $uniqueID = uniqid();
             const formError = form.querySelector('.floating-form__error');
             const formErrorHeadline = formError.querySelector('h2');
             const formErrorText = formError.querySelector('p');
-            formError.classList.remove('floating-form__error--active') // Display error message
+            formError.classList.remove('floating-form__error--active') // Hide error message
 
             formLoader.classList.add('floating-form__loader--active');
             formSubmit.disabled = true;
@@ -238,6 +356,11 @@ $uniqueID = uniqid();
             formFields.set('company', form.querySelector('input[name="company"]').value);
             formFields.set('phonenumber', form.querySelector('input[name="phonenumber"]').value);
             formFields.set('email', form.querySelector('input[name="email"]').value);
+            formFields.set('text', form.querySelector('textarea[name="text"]').value);
+            formFields.set('mouseflow', '');
+            if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
+                formFields.set('mouseflow', mouseflow.getSessionId());
+            }
 
             // AJAX Request
             const xhttp = new XMLHttpRequest();

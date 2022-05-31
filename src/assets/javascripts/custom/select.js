@@ -59,7 +59,51 @@ class Select {
         this.wrapper.addEventListener('click', ((e) => {
             e.stopPropagation();
             this.wrapper.classList.toggle('callone-select--open');
+            this.setOptionsPosition();
+            
+            // Close when scrollable parent is scrolled
+            let scrolledParent = this.getScrolledParent(this.select);
+            scrolledParent.addEventListener('scroll', ((e) => {
+                this.wrapper.classList.remove('callone-select--open');
+            }).bind(this), {
+                once: true
+            });
         }).bind(this));
+
+        // Close when window is resized
+        window.onresize = ((e) => {
+            this.wrapper.classList.remove('callone-select--open');
+        }).bind(this);
+    }
+
+    setOptionsPosition() {
+        let scrolledParent = this.getScrolledParent(this.select);
+        let scrollOffset = scrolledParent.tagName.toLowerCase() == 'html' ? 0 : scrolledParent.scrollTop;
+        let top = this.wrapper.offsetTop - scrollOffset + this.wrapper.offsetHeight;
+        let left = this.wrapper.offsetLeft;
+        let width = this.wrapper.offsetWidth;
+        
+        let bottomOfOptions = top + this.selectOptions.offsetHeight;
+        let viewportHeight = window.innerHeight;
+        if (bottomOfOptions > viewportHeight) {
+            // Position above select
+            top -= this.wrapper.offsetHeight + this.selectOptions.offsetHeight;
+        }
+        
+        this.selectOptions.style.top = top - 2 + 'px';
+        this.selectOptions.style.left = left + 'px';
+        this.selectOptions.style.width = width + 'px';
+    }
+
+    getScrolledParent(node) {
+        if (node == null)
+            return null;
+        
+        if (node.scrollHeight > node.clientHeight) {
+            return node;
+        } else {
+            return this.getScrolledParent(node.parentNode);
+        }
     }
 
     selectValue(e) {

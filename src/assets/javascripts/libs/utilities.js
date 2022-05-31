@@ -125,6 +125,8 @@ function fadeIn(el, time, display = 'block') {
             } else {
                 setTimeout(tick, 16);
             }
+        } else {
+            el.style.opacity = 1;
         }
     };
 
