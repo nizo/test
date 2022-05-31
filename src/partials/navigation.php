@@ -550,7 +550,7 @@ require_once('banderole.php');
                                         </a>
                                     </div>
                                     <div class="submenu__column" style="--col-width:300px">
-                                        <a href="/tools/assets" target="_blank" class="submenu__link">
+                                        <a href="/tools/colors" target="_blank" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Farben</strong>
                                                 <p>All unsere Farben und deren Name + Code</p>
