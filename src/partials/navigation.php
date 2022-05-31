@@ -527,7 +527,7 @@ require_once('banderole.php');
                                     </div>
                                 </div>
                                 <div class="submenu__row">
-                                    <div class="submenu__column" style="--col-width:350px">
+                                    <div class="submenu__column" style="--col-width:300px">
                                         <a href="/tools/assets" target="_blank" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Assets</strong>
@@ -548,19 +548,19 @@ require_once('banderole.php');
                                                 <p>HTML Komponenten</p>
                                             </div>
                                         </a>
+                                    </div>
+                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
+                                        <a href="/tools/assets" target="_blank" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Farben</strong>
+                                                <p>All unsere Farben und deren Name + Code</p>
+                                            </div>
+                                        </a>
 
                                         <a href="/tools/screensize" target="_blank" class="submenu__link">
                                             <div class="submenu__link-text">
                                                 <strong>Auflösung</strong>
                                                 <p>Zeigt die aktuelle Auflösung an</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="submenu__column" style="--col-width:350px">
-                                        <a href="/tools/assets" target="_blank" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Farben</strong>
-                                                <p>All unsere Farben und deren Name + Code</p>
                                             </div>
                                         </a>
                                     </div>
