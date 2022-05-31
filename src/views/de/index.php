@@ -363,19 +363,6 @@ $faqs->faq_add (
             <br class="mobile-hidden" />
         </p>
 
-        <!-- TODO: Add recent blog posts -->
-        <!-- <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                Blog Post 1
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                Blog Post 2
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
-                Blog Post 3
-            </div>
-        </div> -->
-
         <div class="paper paper--gradient">
             <div class="paper__row">
                 <div class="paper__item">
