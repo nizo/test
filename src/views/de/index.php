@@ -257,12 +257,13 @@ $faqs->faq_add (
                                         <a href="/callcenter-sprachanalyse" class="btn btn--primary">Zum Gesprächscoaching</a>
                                     </p>
                                 </div>
-                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
+                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered centered">
                                     <?= pictureTag(
                                         '/assets/images/backgrounds_png/callcenter-bot-full.png',
                                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
                                         538, 378, [
-                                            'class' => 'co-grid__image--full-width'
+                                            'class' => 'co-grid__image--full-width',
+                                            'style' => 'max-width:80%'
                                         ]
                                     ); ?>
                                 </div>
@@ -400,7 +401,7 @@ $faqs->faq_add (
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#4caf50">
+					<div class="number-card__number" style="--color:#449c47">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 					</div>
 					weniger Kosten pro Kontakt<br />
@@ -409,7 +410,7 @@ $faqs->faq_add (
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#4caf50">
+					<div class="number-card__number" style="--color:#449c47">
                         <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
 					</div>
 					kürzere Gesprächsdauern<br />
@@ -418,7 +419,7 @@ $faqs->faq_add (
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#4caf50">
+					<div class="number-card__number" style="--color:#449c47">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
 					</div>
 					Verkürzung der<br />

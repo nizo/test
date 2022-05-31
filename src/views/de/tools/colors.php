@@ -13,7 +13,7 @@ $colors = [[
     'transparent' => false
 ], [
     'name' => 'Dunkelgrün',
-    'code' => '#4CAF50',
+    'code' => '#449c47',
     'transparent' => false
 ], [
     'name' => 'Rot',
