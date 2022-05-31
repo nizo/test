@@ -556,14 +556,14 @@ require_once('banderole.php');
                                             </div>
                                         </a>
                                     </div>
-                                </div>
-                                <div class="submenu__column" style="--col-width:350px">
-                                    <a href="/tools/assets" target="_blank" class="submenu__link">
-                                        <div class="submenu__link-text">
-                                            <strong>Farben</strong>
-                                            <p>All unsere Farben und deren Name + Code</p>
-                                        </div>
-                                    </a>
+                                    <div class="submenu__column" style="--col-width:350px">
+                                        <a href="/tools/assets" target="_blank" class="submenu__link">
+                                            <div class="submenu__link-text">
+                                                <strong>Farben</strong>
+                                                <p>All unsere Farben und deren Name + Code</p>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="submenu__right" style="--width:270px">
