@@ -186,9 +186,6 @@ hr {
 .bold {
 	font-weight: 500;
 }
-.uppercase {
-	text-transform: uppercase;
-}
 .centered {
 	text-align: center;
 }
@@ -203,11 +200,6 @@ hr {
 }
 .subtext {
 	font-size: 14px;
-}
-.star {
-	color: #e7711b;
-	font-size: $font-size-xl;
-	vertical-align: middle;
 }
 .noOverflow {
 	overflow: hidden;
@@ -311,9 +303,6 @@ hr {
 		background-color: #fff;
 		border-radius: 10px;
 		color: #000;
-		&__icon {
-			
-		}
 		&__text {
 			h3 {
 				font-family: $font-copy;
@@ -341,7 +330,6 @@ hr {
 .feature-box {
 	background-color: #fff;
 	border-radius: 10px;
-	// box-shadow: 0 0 10px rgba(#000, 0.3);
 	border: 2px solid #c6cbb3;
 	padding: $gutter-m;
 	margin-bottom: $gutter-m;
@@ -413,15 +401,6 @@ hr {
 
 .flex {
 	display: flex;
-	&.direction-column {
-		flex-direction: column;
-	}
-	&.jc-center {
-		justify-content: center;
-	}
-	&.jc-even {
-		justify-content: space-evenly;
-	}
 	&.wrap {
 		flex-wrap: wrap;
 	}
@@ -439,14 +418,8 @@ hr {
 .space-between {
 	justify-content: space-between;
 }
-.space-evenly {
-	justify-content: space-evenly;
-}
 .primary-color {
 	color: $color-primary;
-}
-.medium {
-	font-weight: 500;
 }
 .trenner {
 	width: 30%;
