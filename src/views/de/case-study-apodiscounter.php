@@ -4,9 +4,7 @@
             <?= pictureTag(
                 '/assets/images/client-logos/apo-discounter.svg',
                 'Neues Callcenter Konzept - Apodiscounter',
-                240, 48, [
-                    'class' => 'logo'
-                ], false
+                240, 48, [], false
             ); ?>
             <h1>Probat für Wachstum: ein neues Callcenter-Konzept</h1>
             <p class="bigtext">CallOne und apo-discounter.de</p>
