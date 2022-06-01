@@ -38,9 +38,7 @@ require_once('../../libs/functions.inc.php');
         </form>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-next-step="1" data-prev-step="1" data-steptitle="Einstellungen anpassen" data-next-button-text="Einstellungen Akzeptieren">
-        <h3 class="centered">Cookie-Informationen</h3>
-        <br />
+    <div class="callone-modal__step" data-step-id="2" data-next-step="1" data-prev-step="1" data-steptitle="Cookie-Informationen" data-next-button-text="Einstellungen Akzeptieren">
         <p class="subtext">Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.</p>
 
         <p>
