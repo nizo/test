@@ -16,20 +16,20 @@ require_once('../../libs/functions.inc.php');
             <div class="floating-form__row">
                 <div class="floating-form__col">
                     <div class="floating-form__checkbox floating-form__checkbox--disabled">
-                        <input type="checkbox" id="a" checked disabled>
-                        <label for="a">Essenziell</label>
+                        <input type="checkbox" id="essential" checked disabled>
+                        <label for="essential">Essenziell</label>
                     </div>
                 </div>
                 <div class="floating-form__col">
                     <div class="floating-form__checkbox">
-                        <input type="checkbox" id="b">
-                        <label for="b">Marketing</label>
+                        <input type="checkbox" id="marketing" checked>
+                        <label for="marketing">Marketing</label>
                     </div>
                 </div>
                 <div class="floating-form__col">
                     <div class="floating-form__checkbox">
-                        <input type="checkbox" id="c">
-                        <label for="c">Extern</label>
+                        <input type="checkbox" id="extern" checked>
+                        <label for="extern">Extern</label>
                     </div>
                 </div>
             </div>
