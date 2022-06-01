@@ -89,5 +89,10 @@
     
     <script src="/assets/javascripts/application.min.js?build=<?= getJsHash() ?>"></script>
     <?php loadAdditionalScripts(); ?>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            new Modal(null, 'cookie-settings', null, 0);
+        });
+    </script>
 </body>
 </html>

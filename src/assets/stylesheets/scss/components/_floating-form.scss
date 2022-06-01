@@ -258,6 +258,48 @@
         }
     }
 
+    &__checkbox {
+        position: relative;
+        user-select: none;
+        
+        input {
+            appearance: none;
+
+            &+label {
+                position: relative;
+                padding-left: calc(26px + var(--gutter-xs));
+                cursor: pointer;
+                
+                &:before {
+                    content: '';
+                    width: 26px;
+                    height: 26px;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    background-image: url(../images/icons_svg/checkbox-unchecked.svg);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+            }
+            &:checked + label {
+                &:before {
+                    background-image: url(../images/icons_svg/checkbox-checked-green.svg);
+                }
+            }
+
+            &:disabled + label {
+                cursor: not-allowed;
+
+                &:before {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
     &__privacy-toggle {
         position: relative;
         user-select: none;

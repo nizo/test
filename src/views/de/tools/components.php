@@ -947,6 +947,8 @@
                 <li><code>data-canceltext="Schließen"</code>: Text that is displayed as the close button (default: Schließen)</li>
                 <li><code>data-title="title"</code>: The title that will be displayed for modals without steps</li>
                 <li><code>data-subtitle="title"</code>: The subtitle that will be displayed for modals without steps</li>
+                <li><code>data-no-cancel="true"</code>: Removes cancel button</li>
+                <li><code>data-no-header="true"</code>: Removes modal header</li>
                 <li><code>.callone-modal--no-padding</code>: Removes padding of modal content if content shall flow right to the edge of the modal. (globally, for all steps if present. Can be set for single steps as well, see below)</li>
             </ul>
             <p><strong>Modal Steps:</strong></p>
@@ -962,6 +964,7 @@
                 <li><code>data-no-back="true"</code>: Prevents step back button from being shown.</li>
                 <li><code>data-no-footer="true"</code>: Hide step footer with action button.</li>
                 <li><code>data-next-button-text="Weiter"</code>: Label for next button</li>
+                <li><code>data-no-header="true"</code>: Removes modal header</li>
             </ul>
             <p><strong>Forms in Modals:</strong></p>
             <ul>

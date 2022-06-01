@@ -45,6 +45,9 @@ body.callone-modal--scrolllock {
         min-height: 91px;
         order: 1;
     }
+    &__header--hide {
+        display: none;
+    }
 
     &__headerbutton {
         position: absolute;
