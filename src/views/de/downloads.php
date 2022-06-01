@@ -1,51 +1,48 @@
-<!-- Header -->
-<div class="wrapper solutions-header">
-	<div class="content wide noOverflow">
-		<header class="main-header">
-			<div class="text">
-				<h1>CallOne Downloads</h1>
-				<p class="primary">Deutschland im Jahr <?=date('Y');?>... Die Digitalisierung schreitet voran wie nie zuvor. CallOne liefert Unternehmen cloudbasierte Telekommunikationslösungen, mit denen sie gegenüber den Herausforderungen einer sich schnell ändernden digitalen Welt optimal gerüstet sind.</p>
-			</div>
-			<div class="media centered">
-				<?= pictureTag(
-					'/assets/images/illus/illu-businesstelefonie-header.svg',
-					'Businesstelefonie aus der Cloud',
-					541, 567, [
-						'style' => 'width:100%'
-					], false
-				); ?>
-			</div>
-		</header>
-	</div>
+<div class="section">
+	<header class="hero">
+		<div class="hero__text">
+			<h1>CallOne Downloads</h1>
+			<p class="bigtext">Deutschland im Jahr <?= date('Y'); ?>... Die Digitalisierung schreitet voran wie nie zuvor. CallOne liefert Unternehmen cloudbasierte Telekommunikationslösungen, mit denen sie gegenüber den Herausforderungen einer sich schnell ändernden digitalen Welt optimal gerüstet sind.</p>
+		</div>
+		<div class="hero__image">
+			<?= pictureTag(
+				'/assets/images/illus/illu-businesstelefonie-header.svg',
+				'Businesstelefonie aus der Cloud',
+				541, 567, [], false
+			); ?>
+		</div>
+	</header>
 </div>
 
-<!-- Downloads -->
-<div class="wrapper integrations padding-top-80 padding-bottom-80">
-	<div class="content narrow">
-		<h2>Software</h2>
+<div class="section section--dark-green-black">
+	<div class="section__content section__content--narrow">
+		<h2 class="centered mobile-left">Software</h2>
+
 		<div class="icon-cards">
-			<div class="icon-card">
+			<a href="/microsip" class="icon-card">
 				<div class="icon-card__text"><h3>MicroSIP</h3></div>
-				<a href="/microsip" class="icon-card__button"></a>
-			</div>
+				<div class="icon-card__button"></div>
+			</a>
 
-			<div class="icon-card">
+			<a href="/softphone" class="icon-card">
 				<div class="icon-card__text"><h3>CallOne Softphone</h3></div>
-				<a href="/softphone" class="icon-card__button"></a>
-			</div>
+				<div class="icon-card__button"></div>
+			</a>
 		</div>
+	</div>
 
-		<h2>Dokumente</h2>
+	<div class="section__content section__content--narrow">
+		<h2 class="centered mobile-left">Dokumente</h2>
 		<div class="icon-cards">
-			<div class="icon-card">
+			<a href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" class="icon-card">
 				<div class="icon-card__text"><h3>Personenbezogene Daten im Bewerbungsverfahren</h3></div>
-				<a href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" class="icon-card__button"></a>
-			</div>
+				<div class="icon-card__button"></div>
+			</a>
 
-			<div class="icon-card">
+			<a href="/downloads/CallOne-Wiederverkaeufernachweis-Online.pdf" class="icon-card">
 				<div class="icon-card__text"><h3>Wiederverkäufernachweis</h3></div>
-				<a href="/downloads/CallOne-Wiederverkaeufernachweis-Online.pdf" class="icon-card__button"></a>
-			</div>
+				<div class="icon-card__button"></div>
+			</a>
 		</div>
 	</div>
 </div>

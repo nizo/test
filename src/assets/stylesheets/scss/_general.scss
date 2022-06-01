@@ -264,6 +264,7 @@ hr {
 	&__icon {
 		display: flex;
 		flex: 0 0 50px;
+		margin-right: $gutter-l;
 		img {
 			width: 50px;
 			display: block;
@@ -271,7 +272,7 @@ hr {
 	}
 	&__text {
 		flex-grow: 1;
-		padding: 0 $gutter-l;
+		padding: 0 $gutter-l 0 0;
 		font-size: 18px;
 		strong {
 			font-size: 28px;
@@ -299,11 +300,17 @@ hr {
 }
 
 .icon-cards {
+	a.icon-card:hover {
+		.icon-card__text {
+			color: $color-primary;
+		}
+	}
 	.icon-card {
 		background-color: #fff;
 		border-radius: 10px;
 		color: #000;
 		&__text {
+			transition: all .3s ease;
 			h3 {
 				font-family: $font-copy;
 				font-weight: 500;
