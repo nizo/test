@@ -92,7 +92,7 @@
             			</div>
             		</div>
             		<p>&nbsp;</p>
-            		<div class="button-set centered">
+            		<div class="btn-set btn-set--centered">
                     	<a href="/callcenter-software-funktionen" class="button secondary trackedElement" data-label="Button Header - Alle Funktionen" data-category="Link" data-action="linked to /callcenter-software-funktionen" target="_blank" title="Alle Funktionen">Alle Funktionen</a>
                     </div>
         		</div>
