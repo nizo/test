@@ -48,7 +48,7 @@ $faqs->faq_add (
 </div>
 
 <div class="section">
-    <div class="section__content section__content--wide centered mobile-left">
+    <div class="section__content section__content--narrow centered mobile-left">
         <h2>KI, APIs, Apps:<br />Der Roboter-Turbo für Ihre Kundenkommunikation</h2>
 
         <p class="bigtext">Automatisierte Telefonie von morgen <strong>für Ihren Kundenservice</strong>.<br />Erfahren Sie wie <strong>Contact Center</strong> CallOne verwenden.</p>
@@ -137,13 +137,13 @@ $faqs->faq_add (
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
                 <h2>Ihr Callcenter mit CallOne</h2>
-                <p>Nutzen Sie unsere fertigen Tools.</p>
+                <p class="bigtext">Nutzen Sie unsere fertigen Tools.</p>
 
                 <div class="toggle-box toggle-box--checklist">
                     <input type="checkbox" id="callcenter-1" />
                     <label for="callcenter-1">Fertige Apps für effizienten Multichannel-Kundenservice </label>
                     <div class="toggle-box__content">
-                        Binden Sie Anrufe in <a href="/callcenter-software-apps" title="Apps">Ihr Lieblings-Helpdesk, Ticketing- oder CRM-Lösung</a> ein und optimieren Sie so Ihre Kundeninteraktion über alle Kommunikationskanäle.
+                        Binden Sie Anrufe in <a href="/callcenter-software-apps" title="Apps" class="inline-link">Ihr Lieblings-Helpdesk, Ticketing- oder CRM-Lösung</a> ein und optimieren Sie so Ihre Kundeninteraktion über alle Kommunikationskanäle.
                     </div>
                 </div>
                 <div class="toggle-box toggle-box--checklist">
@@ -166,7 +166,7 @@ $faqs->faq_add (
         <div class="co-grid co-grid--no-margin-top co-grid--no-margin--bottom" id="alarm">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--order-2-xs co-grid__col--vcentered">
                 <h2>Alternative Kanäle</h2>
-                <p>Nutzen Sie neben dem klassischen Anruf über eine Rufnummer alternative Kanäle für Ihre Kunden.</p>
+                <p class="bigtext">Nutzen Sie neben dem klassischen Anruf über eine Rufnummer alternative Kanäle für Ihre Kunden.</p>
 
                 <div class="toggle-box toggle-box--checklist">
                     <input type="checkbox" id="alarmierung-1" />
