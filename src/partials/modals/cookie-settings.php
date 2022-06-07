@@ -5,14 +5,15 @@ require_once('../../libs/functions.inc.php');
 
 <div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-no-cancel="true">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-no-header="true" data-next-button-text="Einstellungen Akzeptieren" data-steptitle="Wir verwenden Cookies">
-        <h3 class="centered">Wir <s>essen gerne</s> verwenden Cookies!</h3>
+        <h3 class="centered">Wir <s class="color-green">essen gerne</s> verwenden Cookies!</h3>
         <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
-                <p class="subtext">
-                    Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "Nur essenzielle Cookies akzeptieren" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer Datenschutzerklärung. 
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md">
+                <p><strong>Wir setzen auf unserer Website Cookies ein</strong></p>
+                <p class="subtext" style="margin-top:var(--gutter-micro)">
+                    Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "Nur essenzielle Cookies akzeptieren" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer Datenschutzerklärung. 
                 </p>
             </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered subtext">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md subtext">
                 <p><strong>Aktuelle Einstellungen</strong></p>
                 <div class="cookie-indicator" data-cookie="essential">Essenziell</div>
                 <div class="cookie-indicator" data-cookie="marketing">Marketing</div>
