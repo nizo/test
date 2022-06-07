@@ -91,7 +91,10 @@
     <?php loadAdditionalScripts(); ?>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            new Modal(null, 'cookie-settings', null, 0);
+            let urlQuery = window.location.search;
+            let params = new URLSearchParams(urlQuery);
+            if (!params.has('no-banner') && checkCookie('cookiebanner-accepted') === false)
+                new Modal(null, 'cookie-settings', null, 1000);
         });
     </script>
 </body>
