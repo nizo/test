@@ -175,6 +175,8 @@ $uniqueID = uniqid();
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="async"></script>
             <!-- Calendly inline widget end -->
         </div>
+
+        <a href="#" class="trackedContactCalendlySubmit" style="display:none"></a>
     </div>
 
     <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen" data-mouseflow-tag="Abgeschlossen">
@@ -267,6 +269,20 @@ $uniqueID = uniqid();
     
     <script>
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
+
+        // Calendly Events
+        function isCalendlyEvent(e) {
+            return e.origin === 'https://calendly.com' && e.data.event && e.data.event.indexOf('calendly.') === 0;
+        };
+
+        let buttonCalendlySubmit = document.querySelector('.trackedContactCalendlySubmit');
+        
+        window.addEventListener('message', function(e) {
+            if(isCalendlyEvent(e)) {
+                if (e.data.event == 'calendly.event_scheduled')
+                    buttonCalendlySubmit.click();
+            }
+        });
 
         // Sales Callback Form
         window.salesCallbackSubmit = function(e, cb) {
