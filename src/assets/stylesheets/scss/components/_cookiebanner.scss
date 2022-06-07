@@ -1,0 +1,26 @@
+.cookie-indicator {
+    --icon: url(../images/icons_svg/x-times-black.svg);
+
+    margin: var(--gutter-micro) 0;
+    padding: var(--gutter-micro) var(--gutter-xs);
+    white-space: nowrap;
+    background-color: rgba(#000, .05);
+    border-radius: 10px;
+
+    &:before {
+        content: "";
+        width: 1em;
+        height: 1em;
+        margin-right: .5em;
+        background-image: var(--icon);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &--active {
+        --icon: url(../images/icons_svg/icon-checkmark-green.svg);
+    }
+}

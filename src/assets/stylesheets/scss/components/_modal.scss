@@ -24,6 +24,25 @@ body.callone-modal--scrolllock {
         display: flex;
     }
 
+    &--cookiebanner {
+        .callone-modal__wrapper {
+            position: relative;
+
+            &:before {
+                content: "";
+                position: absolute;
+                background-image: url(../images/icons_svg/animation/robot-with-cookie.svg);
+                left: 0;
+                top: 50%;
+                width: calc(120px * 2);
+                height: calc(150px * 2);
+                display: block;
+                transform: translate(-59%, -50%);
+                z-index: -1;
+            }
+        }
+    }
+
     &__wrapper {
         display: flex;
         flex-direction: column;

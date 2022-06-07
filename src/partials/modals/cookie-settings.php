@@ -3,14 +3,27 @@ require_once('../../libs/session.inc.php');
 require_once('../../libs/functions.inc.php');
 ?>
 
-<div class="callone-modal" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-no-cancel="true">
+<div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-no-cancel="true">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-no-header="true" data-next-button-text="Einstellungen Akzeptieren" data-steptitle="Wir verwenden Cookies">
         <h3 class="centered">Cookie-Einstellungen</h3>
-        <br />
-        <p class="subtext">
-            Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "Nur essenzielle Cookies akzeptieren" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer Datenschutzerklärung. 
-            <a href="#" class="callone-modal__nextstep inline-link">Cookie Informationen &rarr;</a>
-        </p>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md co-grid__col--vcentered">
+                <p class="subtext">
+                    Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "Nur essenzielle Cookies akzeptieren" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer Datenschutzerklärung. 
+                </p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--vcentered">
+                <p><strong>Aktuelle Einstellungen</strong></p>
+                <div class="cookie-indicator cookie-indicator--active">Essenzielle</div>
+                <div class="cookie-indicator cookie-indicator--active">Marketing</div>
+                <div class="cookie-indicator">Extern</div>
+                <p class="subtext right"><a href="#" class="callone-modal__nextstep inline-link">Anpassen &rarr;</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="callone-modal__step" data-step-id="2" data-next-step="1" data-prev-step="1" data-steptitle="Cookie-Einstellungen anpassen" data-next-button-text="Einstellungen Akzeptieren">
+        <p class="subtext">Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.</p>
 
         <form action="#" method="post" class="floating-form" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
             <div class="floating-form__row">
@@ -36,10 +49,6 @@ require_once('../../libs/functions.inc.php');
 
             <input type="submit" id="submit-cookie-settings" hidden />
         </form>
-    </div>
-
-    <div class="callone-modal__step" data-step-id="2" data-next-step="1" data-prev-step="1" data-steptitle="Cookie-Informationen" data-next-button-text="Einstellungen Akzeptieren">
-        <p class="subtext">Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.</p>
 
         <p>
             <strong>Essenziell:</strong><br />
