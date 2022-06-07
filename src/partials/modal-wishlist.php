@@ -40,8 +40,8 @@
                                 <div class="group">
                               	  <input type="tel" name="phonenumber" placeholder="Optional: Ihre Telefonnummer" value="">
                                 </div>
-                                <div class="button-set centered">
-                                  <button class="button primary submit">Angebot anfordern</button>
+                                <div class="btn-set btn-set--centered">
+                                  <button class="btn btn--primary submit">Angebot anfordern</button>
                                 </div>
                             </form>
                             <div class="formSuccess">
