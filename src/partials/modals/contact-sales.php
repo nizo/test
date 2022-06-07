@@ -46,7 +46,7 @@ $uniqueID = uniqid();
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep trackedContactCalendly" data-next-step="3">
+                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3">
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-calendar.svg',
@@ -93,7 +93,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-next-button-classes="trackedContactSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
+    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-next-button-classes="trackedContactSubmit,trackedContactFormSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
         <div class="sales-contact-form">
             <h2>Wie können wir Sie erreichen?</h2>
 
@@ -176,7 +176,7 @@ $uniqueID = uniqid();
             <!-- Calendly inline widget end -->
         </div>
 
-        <a href="#" class="trackedContactCalendlySubmit" style="display:none"></a>
+        <a href="#" class="trackedContactSubmit trackedContactCalendlySubmit" style="display:none"></a>
     </div>
 
     <div class="callone-modal__step" data-step-id="4" data-no-back="true" data-no-footer="true" data-steptitle="Bestätigung" data-canceltext="Schließen" data-mouseflow-tag="Abgeschlossen">
@@ -225,7 +225,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="6" data-next-button-text="Jetzt Rückruf anfordern" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
+    <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="6" data-next-button-text="Jetzt Rückruf anfordern" data-next-button-classes="trackedContactSubmit,trackedContactCallbackSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
         <div class="sales-callback-form">
             <h2>Sofort mit CallOne sprechen!</h2>
 
