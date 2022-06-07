@@ -46,7 +46,7 @@ $uniqueID = uniqid();
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3">
+                <div class="btn btn--tile callone-modal__nextstep trackedContactCalendly" data-next-step="3">
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-calendar.svg',
@@ -93,7 +93,7 @@ $uniqueID = uniqid();
         </div>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
+    <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-next-button-classes="trackedContactSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
         <div class="sales-contact-form">
             <h2>Wie können wir Sie erreichen?</h2>
 
