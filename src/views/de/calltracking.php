@@ -34,7 +34,7 @@ $faqs->faq_add (
 			<h1>Call-Tracking neu definiert</h1>
 			<p class="bigtext">Eindeutiges Identifizieren und Verbinden von Websession und eingehendem Anruf auf Ihrer Hotline gepaart mit Multichannel-Funktionen wie Co-Browsing und Chat.</p>
 			<p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Sales kontaktieren</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedContactModal">Sales kontaktieren</a>
             </p>
 		</div>
 		<div class="hero__image">
@@ -71,8 +71,8 @@ $faqs->faq_add (
 				<p class="bigtext">CallOne bietet ein dynamisches Call-Tracking, das Anrufe auf Ihrer Bestellhotline eindeutig mit einer laufenden Websession zusammenführt. Alle Informationen des anrufenden Webseitenbesuchers, wie Warenkorbinhalt, Customer Journey und Benutzerinformationen stehen Ihren Kundenservice- oder Sales-Agenten bei Gesprächsbeginn schon zur Verfügung. Optional stehen Ihnen zusätzlich Co-Browsing und Livechat-Funktionen zur Verfügung.</p>
 
 				<div class="btn-set btn-set--centered">
-					<a href="/demos/callbrowsing/reiseanbieter/" target="_blank" class="btn btn--primary trackedElement" data-label="Button - Jetzt Demo testen" data-category="Link" data-action="linked to Demo1">Jetzt ausprobieren</a>
-					<a href="#" class="btn btn--secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
+					<a href="/demos/callbrowsing/reiseanbieter/" target="_blank" class="btn btn--primary">Jetzt ausprobieren</a>
+					<a href="#" class="btn btn--secondary trackedContactModal" data-openmodal="contact-sales">Mit Experten sprechen</a>
 				</div>
 			</div>
 		</div>
@@ -198,7 +198,7 @@ $faqs->faq_add (
 		<p class="bigtext centered mobile-left">Ihre Agenten sehen, wo sich der Anrufer gerade auf der Website befindet und können auf Wunsch aktiv unterstützen, beispielsweise beim Ausfüllen von Formularen oder im Bestellprozess.</p>
 
 		<p class="centered">
-			<a href="#" target="_blank" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt mit einem Experten sprechen" data-category="Link" data-action="opens sales modal">Jetzt mit einem Experten sprechen</a>
+			<a href="#" target="_blank" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt mit einem Experten sprechen</a>
 		</p>
 	</div>
 </div>

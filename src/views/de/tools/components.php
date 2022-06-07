@@ -560,7 +560,7 @@
                     </div>
 
                     <p>
-                        <a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                        <a href="#" class="btn btn--primary btn--centered trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
                     </p>
                 </div>
             </div>

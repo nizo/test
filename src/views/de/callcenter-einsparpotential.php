@@ -5,7 +5,7 @@
             <p class="bigtext">Sie fragen sich, was Sie mit der CallOne-Lösung sparen können? Berechnen Sie gleich hier Ihr Potential. Fangen Sie noch heute an zu sparen!</p>
 
             <p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Beratungsgespräch sichern</a>
+				<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Beratungsgespräch sichern</a>
             </p>
         </div>
         <div class="hero__image">
@@ -470,7 +470,7 @@
 		</div>
 
 		<p class="centered">
-			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Sales kontaktieren</a>
 		</p>
 	</div>
 </div>

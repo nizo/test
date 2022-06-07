@@ -33,7 +33,7 @@ $faqs->faq_add (
 			<h2>CallOne liefert mit seiner Callcenter Software die vielleicht umfänglichste Datengrundlage für die optimale Steuerung, Planung und Optimierung Ihres Kundenservices.</h2>
 
 			<p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Sales kontaktieren</a>
+				<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Sales kontaktieren</a>
 			</p>
 		</div>
 	</div>
@@ -287,7 +287,7 @@ $faqs->faq_add (
                 </p>
 
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Beratungsgespräch vereinbaren</a>
+                    <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Beratungsgespräch vereinbaren</a>
                     <br class="desktop-hidden" />
                     <br class="desktop-hidden" />
                 </p>

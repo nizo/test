@@ -18,7 +18,7 @@
     			</ul>
 
 				<p class="centered">
-					<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Angebot einholen</a>
+					<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Angebot einholen</a>
 				</p>
     		</div>
     		<div class="elements">			     

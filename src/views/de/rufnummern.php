@@ -12,7 +12,7 @@ $product->structured_data_get_code ();
             <h1>Virtuelle Rufnummern weltweit schalten</h1>
             <p class="bigtext">Erhalten Sie online Zugriff auf lokale, nationale, mobile und gebührenfreie Rufnummern in über 120 Ländern und allen Vorwahlbereichen Deutschlands. </p>
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Sales kontaktieren</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedContactModal">Sales kontaktieren</a>
             </p>
         </div>
         <div class="hero__image">
@@ -87,7 +87,7 @@ $product->structured_data_get_code ();
                     <h3>Intelligente Ortsnetzrufnummern DE</h3>
                     <p>Regionale Präsenz gepaart mit Profifeatures für Ihre Hotline. Schalten Sie jetzt Rufnummern aus Ihrem Vorwahlbereich. Kostenfrei in der Zuführung, bundesweit zum Ortstarif.</p>
                     <p class="centered">
-                        <a href="#" class="btn btn--secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="opens sales modal">Für Angebot kontaktieren</a>
+                        <a href="#" class="btn btn--secondary trackedContactModal" data-openmodal="contact-sales">Für Angebot kontaktieren</a>
                     </p>
                 </div>
             </div>
@@ -97,7 +97,7 @@ $product->structured_data_get_code ();
                     <h3>Mobilfunkrufnummern</h3>
                     <p>Setzen Sie Ihre Mobilfunknummer als Absenderkennung für ausgehende Telefonate. Bieten Sie Rückkanaloptionen, leiten eingehende Mobilfunkanrufe direkt zu Ihrem Sales- oder Serviceteam weiter und empfangen Sie eingehende SMS-Nachrichten über unsere Schnittstelle.</p>
                     <p class="centered">
-                        <a href="#" class="btn btn--secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="opens sales modal">Für Angebot kontaktieren</a>
+                        <a href="#" class="btn btn--secondary trackedContactModal" data-openmodal="contact-sales">Für Angebot kontaktieren</a>
                     </p>
                 </div>
             </div>
@@ -107,7 +107,7 @@ $product->structured_data_get_code ();
                     <h3>Weltweite Ortsnetzrufnummern</h3>
                     <p>CallOne bietet Ihnen Rufnummern in 60 Ländern und über 9.000 Vorwahlbereichen. Durch unsere leistungsstarke Plattform und VoIP-Infrastruktur bieten wir Ihnen optimale Gesprächsqualität und Performance auch bei hohem Anrufvolumen.</p>
                     <p class="centered">
-                        <a href="#" class="btn btn--secondary trackedElement" data-openmodal="contact-sales" data-label="Button - Für Angebot kontaktieren" data-category="Link" data-action="opens sales modal">Für Angebot kontaktieren</a>
+                        <a href="#" class="btn btn--secondary trackedContactModal" data-openmodal="contact-sales">Für Angebot kontaktieren</a>
                     </p>
                 </div>
             </div>
@@ -307,7 +307,7 @@ $product->structured_data_get_code ();
         </div>
 
         <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Sales kontaktieren" data-category="Link" data-action="opens sales modal">Sales kontaktieren</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Sales kontaktieren</a>
         </p>
     </div>
 </div>
@@ -340,7 +340,7 @@ $product->structured_data_get_code ();
         </div>
 
         <p>
-            <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Legen Sie los!</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Legen Sie los!</a>
         </p>
 
         <div class="logos" style="--height:30px;margin-top:var(--gutter-l)">

@@ -16,7 +16,7 @@
                         <img src="/assets/images/icons_svg/icon-facebook-white.svg" alt="CallOne auf Facebook" width="24" height="24" />
                     </a><br />
                     <br />
-                    <button class="btn btn--primary btn--full-width btn--small-padding centered" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN</button>
+                    <button class="btn btn--primary btn--full-width btn--small-padding centered trackedContactModal" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN</button>
                 </p>
             </div>
             <div class="footer-column">
@@ -96,7 +96,7 @@
                 <a href="mailto:kontakt@callone.de">kontakt@callone.de</a>
             </p>
             <div class="button-set centered">
-                <button class="btn btn--primary btn--full-width centered trackedElement" data-openmodal="contact-sales" data-label="Button footer - FÜR DEMO ANMELDEN" data-category="Link" data-action="opens sales modal">FÜR DEMO ANMELDEN</button>
+                <button class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">FÜR DEMO ANMELDEN</button>
             </div>
         </div>
         <ul class="footer-menu">

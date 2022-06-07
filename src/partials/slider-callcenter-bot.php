@@ -46,7 +46,7 @@
 
     <div class="section__content section__content--narrow">
         <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button Slider - Angebot einholen" data-category="Link" data-action="linked to sales contact modal">Angebot einholen</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Angebot einholen</a>
         </p>
     </div>
 </div>

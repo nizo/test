@@ -22,7 +22,7 @@ $faqs->faq_add (
         <h1>Zeitkiller einfach plattmachen</h1>
         <p class="teaser">Schon wieder dieselbe Anfrage? Lösen Sie wiederkehrende Vorfälle automatisiert und transparent für alle. Spart Zeit, Geld und Nerven.</p>
         <div class="button-set">
-          <a href="#" class="button tertiary rounded" data-openmodal="contact-sales">Jetzt Demo buchen</a>
+          <a href="#" class="button tertiary rounded trackedContactModal" data-openmodal="contact-sales">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">

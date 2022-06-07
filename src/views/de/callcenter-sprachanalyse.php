@@ -29,7 +29,7 @@ $faqs->faq_add (
             <h2>Der KI-gestützte Sprachassistent für die perfekte Echtzeitanalyse zur Tonalität und dem Gesprächsanteil</h2>
 
 			<p class="mobile-centered">
-                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch vereinbaren</a>
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Erstgespräch vereinbaren</a>
 			</p>
 		</div>
         <div class="hero__image">
@@ -229,7 +229,7 @@ $faqs->faq_add (
 			</div>
 
 			<p>
-				<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+				<a href="#" class="btn btn--primary btn--centered trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
 			</p>
 		</div>
 	</div>

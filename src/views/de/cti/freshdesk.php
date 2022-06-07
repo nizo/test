@@ -10,11 +10,11 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
 	'Was kostet die Anbindung an Freshdesk?',
-	'<p>Der Freshdesk Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. <a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.</p>'
+	'<p>Der Freshdesk Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. <a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales" class="inline-link trackedContactModal">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.</p>'
 );
 $faqs->faq_add (
 	'Kann ich auch meine bestehende Telefonanlage nutzen?',
-	'<p>Ja, es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Bitte sprechen sie mit uns über ihre individuellen Anforderungen.</p>'
+	'<p>Ja, es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Bitte sprechen sie mit uns über ihre individuellen Anforderungen.</p>'
 );
 $faqs->faq_add (
 	'Kann ich die Callcenter-Software und die Freshdesk-Integration testen?',
@@ -162,7 +162,7 @@ $faqs->faq_add (
   </div>
    <div class="content thin centered">
     <div class="button-set centered">
-      <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt mit Experten sprechen" data-category="Link" data-action="opens sales modal">Jetzt mit Experten sprechen</a>
+      <a href="#" class="button primary trackedContactModal" data-openmodal="contact-sales">Jetzt mit Experten sprechen</a>
     </div>
   </div>
 </div>

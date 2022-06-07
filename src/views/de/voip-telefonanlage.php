@@ -8,7 +8,7 @@ $product->structured_data_get_code ();
 $faqs = new faqs ();
 $faqs->faq_add (
     'Was kostet unsere Cloud Telefonanlage?',
-    '<p>Wir starten ab 10 Mitarbeitern und ab 7,90 € je Nebenstelle. Hinzu kommen nutzungsabhängige Kosten und Zusatzfunktionen wie Call Center Software, Schnittstellen und Rufnummern. Sie können stets auf unsere Projektmanager zurückgreifen, die wir pauschal oder zeitbasiert abrechnen. Da wir uns als Lösungsanbieter mit einem sehr breiten Portfolio verstehen erhalten Sie von uns stets ein passgenaues Angebot zugeschnitten auf Ihre individuellen Anforderungen. Vereinbaren Sie <a href="#" data-openmodal="contact-sales">hier</a> gerne ein erstes unverbindliches Beratungsgespräch.</p>'
+    '<p>Wir starten ab 10 Mitarbeitern und ab 7,90 € je Nebenstelle. Hinzu kommen nutzungsabhängige Kosten und Zusatzfunktionen wie Call Center Software, Schnittstellen und Rufnummern. Sie können stets auf unsere Projektmanager zurückgreifen, die wir pauschal oder zeitbasiert abrechnen. Da wir uns als Lösungsanbieter mit einem sehr breiten Portfolio verstehen erhalten Sie von uns stets ein passgenaues Angebot zugeschnitten auf Ihre individuellen Anforderungen. Vereinbaren Sie <a href="#" data-openmodal="contact-sales" class="inline-link trackedContactModal">hier</a> gerne ein erstes unverbindliches Beratungsgespräch.</p>'
 );
 $faqs->faq_add (
     'Wie kann ich mit CallOne sparen?',
@@ -51,7 +51,7 @@ $faqs->faq_add (
 			</h2>
 
             <p class="mobile-centered">
-                <a class="btn btn--primary" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
+                <a class="btn btn--primary trackedContactModal" href="#" data-openmodal="contact-sales">Jetzt Experten kontaktieren</a>
             </p>
         </div>
         <div class="hero__image">
@@ -531,7 +531,7 @@ $faqs->faq_add (
 		</div>
 
 		<p>
-			<a href="#" class="btn btn--primary btn--centered" data-openmodal="contact-sales">Erstgespräch buchen</a>
+			<a href="#" class="btn btn--primary btn--centered trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
 		</p>
 	</div>
 </div>
@@ -1379,7 +1379,7 @@ $faqs->faq_add (
 		<br />
 
 		<p>
-			<a href="#" class="btn btn--cta btn--centered" data-openmodal="contact-sales">Demo ansehen</a>
+			<a href="#" class="btn btn--cta btn--centered trackedContactModal" data-openmodal="contact-sales">Demo ansehen</a>
 		</p>
 	</div>
 </div>

@@ -5,7 +5,7 @@
             <h2>Überraschen Sie mit idealem telefonischem Customer Service, der im Gedächtnis bleibt – effizient und langfristig, kompetent und persönlich.</h2>
 
             <p class="mobile-centered">
-                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Jetzt Demo buchen</a>
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt Demo buchen</a>
             </p>
         </div>
         <div class="hero__image">

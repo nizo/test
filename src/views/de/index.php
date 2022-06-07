@@ -30,7 +30,7 @@ $faqs->faq_add (
             <p class="bigtext">Genau die Contact Center Software, die Sie für die Wünsche Ihrer Kunden brauchen. Nutzen Sie genau die Module der Cloud CCaaS-Lösung, die Sie brauchen.</p>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered">Zum kostenfreien<br />Beratungsgespräch</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Zum kostenfreien<br />Beratungsgespräch</a>
             </p>
         </div>
         <div class="hero__image">
@@ -436,7 +436,7 @@ $faqs->faq_add (
 		<h2>Sind Sie bereit, Ihren Kundenservice zu verbessern?</h2>
 		<p class="bigtext">Buchen Sie ein unverbindliches 15 Minuten Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
 		<p class="mobile-centered">
-			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Termin vereinbaren</a>
+			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Termin vereinbaren</a>
 		</p>
 	</div>
 

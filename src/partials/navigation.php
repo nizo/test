@@ -140,7 +140,7 @@ require_once('banderole.php');
                                 </div>
                             </div>
 
-                            <a href="#" class="submenu__link" data-openmodal="contact-sales">
+                            <a href="#" class="submenu__link trackedContactModal" data-openmodal="contact-sales">
                                 <div class="submenu__link-text">
                                     <strong>Produktdemo</strong>
                                     <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
@@ -291,7 +291,7 @@ require_once('banderole.php');
                                 </div>
                             </div>
 
-                            <a href="#" class="submenu__link" data-openmodal="contact-sales">
+                            <a href="#" class="submenu__link trackedContactModal" data-openmodal="contact-sales">
                                 <div class="submenu__link-text">
                                     <strong>Produktdemo</strong>
                                     <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
@@ -603,7 +603,7 @@ require_once('banderole.php');
 
         <div class="navigation__right">
             <a href="tel:+493092033500" class="navigation__phonenumber"><span>030 920 33 500</span></a>
-            <a href="#" data-openmodal="contact-sales" style="--fw:700">Sign-up</a>
+            <a href="#" data-openmodal="contact-sales" class="trackedContactModal" style="--fw:700">Sign-up</a>
             <a href="https://box.callone.de" class="navigation__login" target="_blank" rel="nofollow noreferrer">Login</a>
         </div>
 

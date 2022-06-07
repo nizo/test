@@ -8,7 +8,7 @@ $product->structured_data_get_code ();
 $faqs = new faqs ();
 $faqs->faq_add (
     'Wie funktioniert der CallOne Callcenter Bot?​',
-    '<p>Wir bieten kundenindividuelle Lösungen für Ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link">Sprechen Sie uns an</a></p>'
+    '<p>Wir bieten kundenindividuelle Lösungen für Ihre Telefonhotline, um Anruferanliegen zu automatisieren.<br>Dies reicht vom sprachgesteuerten Auswahlmenü bis hin zu einem KI-gesteuerten Sprachdialog, in dem wir verschiedene Komponenten wie Voice-to-Text, KI, Schnittstellenanbindung an Ihre Systeme und Text-to-Speech zur Lösung des Anruferanliegens zusammenführen. Es handelt sich hierbei stets um Projekte mit unterschiedlichem Umfang und Anforderungen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a></p>'
 );
 $faqs->faq_add (
     'Was sind die häufigsten Anwendungsfälle des Callcenter-Bots?',
@@ -38,7 +38,7 @@ $faqs->faq_add (
             <h1>Callcenter-Bot <br>für Kundenservice und Helpdesk</h1>
             <p class="bigtext">Sprachgesteuerte Menüführung, automatisierte FAQ am Telefon und Callcenter Bots, die Ihren Callcenter-Agenten Standardaufgaben abnehmen.</p>
             <p class="mobile-centered">
-                <a href="#" class="btn btn--primary trackedElement" data-label="Button Header - Sales kontaktieren" data-category="Link" data-action="Show Contact Modal" data-openmodal="contact-sales">Mit Experten sprechen</a>
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Mit Experten sprechen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -131,7 +131,7 @@ $faqs->faq_add (
         </div>
 
         <p class="centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary trackedElement" data-label="Button - Mit Experten sprechen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--secondary trackedContactModal">Mit Experten sprechen</a>
         </p>
     </div>
 </div>
@@ -173,7 +173,7 @@ $faqs->faq_add (
                 </div>
 
                 <p class="centered">
-                    <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedElement" data-label="Button - Jetzt einfach ausprobieren!" data-category="Link" data-action="linked to #demos">Weitere Fragen? Kontaktieren sie uns!</a>
+                    <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedContactModal">Weitere Fragen? Kontaktieren sie uns!</a>
                 </p>
             </div>
         </div>
@@ -227,7 +227,7 @@ $faqs->faq_add (
         </div>
 
         <p class="centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Mit Experten sprechen</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Mit Experten sprechen</a>
         </p>
     </div>
 </div>

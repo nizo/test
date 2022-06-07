@@ -59,7 +59,7 @@ $faqs->faq_add (
     <p>Exklusiv für OMR Hörer bieten wir unsere Lösung <strong>ohne einmalige Bereitstellungskosten</strong> an. Interessenten schalten wir direkt Rufnummern und alle Features zum  unverbindlichen Test frei.</p>
 
     <p class="centered">
-      <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Kostenlose Demo buchen</a>
+      <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Kostenlose Demo buchen</a>
     </p>
 
     <p class="centered">Unternehmen denen Telefonberatung am Herzen liegt, vertrauen auf <strong>CallOne Lösungen</strong></p>

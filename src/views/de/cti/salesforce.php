@@ -192,7 +192,7 @@
   <div class="section__content section__content--wide centered">
   	<h2>Probieren Sie es einfach, kostenlos und unverbindlich aus</h2>
 	  <div class="button-set centered">
-		  <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Jetzt testen</a>
+		  <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt testen</a>
 	  </div>    
   </div>
 </div>

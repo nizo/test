@@ -75,7 +75,7 @@ $faqs->faq_add (
             </div>
 
 			<p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Live Demo buchen</a>
+				<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Live Demo buchen</a>
 			</p>
 		</div>
 		<div class="hero__image">
@@ -560,7 +560,7 @@ $faqs->faq_add (
 		<h2>Sind Sie bereit, Ihren Kundenservice zu verbessern?</h2>
 		<p class="bigtext">Buchen Sie ein unverbindliches 15 Minuten Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
 		<p class="mobile-centered">
-			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Termin vereinbaren</a>
+			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Termin vereinbaren</a>
 		</p>
 	</div>
 

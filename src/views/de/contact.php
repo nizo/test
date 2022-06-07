@@ -6,7 +6,7 @@
     <div class="contactpage__content">
         <h2>Wie können wir Ihnen helfen?</h2>
 
-        <a href="#" class="contactoption contactoption--highlight" data-openmodal="contact-sales">
+        <a href="#" class="contactoption contactoption--highlight trackedContactModal" data-openmodal="contact-sales">
             <div class="contactoption__header">
                 <div class="contactoption__icon">
                     <?= pictureTag(
