@@ -57,6 +57,4 @@ class Cookie {
     }
 }
 
-document.addEventListener('DOMContentLoaded', e => {
-    window.cookiesettings = new Cookie();
-});
+cookiesettings = new Cookie();

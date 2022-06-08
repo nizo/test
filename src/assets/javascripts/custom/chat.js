@@ -24,13 +24,13 @@ eventListener('click', '.conversation .interrest .customRadiobox', (e) => {
 
 	if (tmp) {
 		// get user informations
-		if ( window.cookiesettings.exists('co_pud') ) {
-			user = JSON.parse(decodeURIComponent(decode(window.cookiesettings.get('co_pud'))));
+		if ( cookiesettings.exists('co_pud') ) {
+			user = JSON.parse(decodeURIComponent(decode(cookiesettings.get('co_pud'))));
 		}
 		// set user informations
 		user.interrest = tmp;
 		// set cookie
-		window.cookiesettings.set('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90)
+		cookiesettings.set('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
 	}
 });
 
@@ -261,7 +261,7 @@ eventListener('click', '.nextStep', (e) => {
     			'eventLabel' : tracking
     		});
 			
-		}		
-		window.cookiesettings.set('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
+		}
+		cookiesettings.set('co_pud', encode(encodeURIComponent(JSON.stringify(user))), 90);
 	}
 });

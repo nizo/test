@@ -150,18 +150,18 @@ require_once('../../libs/functions.inc.php');
         };
 
         // Check tracking cookie and set toggles accordingly
-        if (window.cookiesettings.exists('cookiesettings')) {
+        if (cookiesettings.exists('cookiesettings')) {
             Object.entries(toggles).forEach(([key, toggle]) => toggle.checked = false);
 
             // Essential
             toggles.essential.checked = true;
 
             // Marketing
-            if (window.cookiesettings.hasConsent('marketing'))
+            if (cookiesettings.hasConsent('marketing'))
                 toggles.marketing.checked = true;
 
             // External
-            if (window.cookiesettings.hasConsent('external'))
+            if (cookiesettings.hasConsent('external'))
                 toggles.external.checked = true;
         } else {
             // Cookie is not yet set, check all cookie settings
@@ -170,24 +170,35 @@ require_once('../../libs/functions.inc.php');
 
         // Handly deny button
         denyButton.addEventListener('click', e => {
+            e.preventDefault();
             toggles.marketing.checked = false;
             toggles.external.checked = false;
-            window.cookiesettings.deleteAll();
+            cookiesettings.deleteAll();
 
             // Simulate click on accept settings to trigger save function
             document.querySelector('#submit-cookie-settings-1').click();
         });
 
+        // Handle save cookie settings
         window.cookieSettingsSubmit = function(e, cb) {
-            // Save cookie settings
-            window.cookiesettings.settingsValue = 0;
+            // Reset cookie settings and delete current cookies
+            cookiesettings.deleteAll();
+            cookiesettings.settingsValue = 0;
+
+            // Set cookie value
             Object.entries(toggles).forEach(([key, value]) => {
                 if (value.checked)
-                    window.cookiesettings.settingsValue += window.cookiesettings.flags[key];
+                    cookiesettings.settingsValue += cookiesettings.flags[key];
             });
             
-            window.cookiesettings.set('cookiesettings', window.cookiesettings.settingsValue, 365);
+            // Save cookie settings
+            cookiesettings.set('cookiesettings', cookiesettings.settingsValue, 365);
 
+            // Load tracking if consent is given
+            if (cookiesettings.hasConsent('marketing') || cookiesettings.hasConsent('external'))
+                loadLazyTracking();
+
+            // Callback of modal
             cb();
         }
     </script>

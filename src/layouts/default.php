@@ -86,7 +86,7 @@
             document.addEventListener('DOMContentLoaded', () => {
                 let urlQuery = window.location.search;
                 let params = new URLSearchParams(urlQuery);
-                if (!params.has('no-banner') && !window.cookiesettings.exists('cookiesettings'))
+                if (!params.has('no-banner') && !cookiesettings.exists('cookiesettings'))
                     new Modal(null, 'cookie-settings', null, 1000);
             });
         </script>

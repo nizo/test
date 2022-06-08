@@ -314,7 +314,7 @@ eventListener('click', '.optionField', e => {
 	}
 });
 
-if (window.cookiesettings.exists('wishlist')) {
+if (cookiesettings.exists('wishlist')) {
 	if (window.localStorage) {
 		var wlist = [];
 		var listLength = 0;
