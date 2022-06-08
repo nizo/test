@@ -53,7 +53,7 @@ class Cookie {
             let name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
             console.log(name, cookie);
             if (name != 'PHPSESSID' && name != 'cookiesettings')
-                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                document.cookie = name + "=;domain=.callone.de;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";
         });
     }
 }
