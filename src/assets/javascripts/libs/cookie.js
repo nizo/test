@@ -5,7 +5,7 @@ class Cookie {
             'marketing': 2,
             'external': 4
         };
-        this.settingsValue = this.get('cookiesettings') || 0;
+        this.settingsValue = parseInt(this.get('cookiesettings')) || 0;
 
         if (this.hasConsent('marketing') || this.hasConsent('external'))
             loadLazyTracking();
