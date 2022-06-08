@@ -369,7 +369,6 @@ eventListener('click', '.menuheader', (e) => {
 
 
 function loadLazyTracking(){
-	console.log('Tracking loaded');
 	var gtm = '';
 	
 	if ((location.hostname.includes('localhost')) ||
