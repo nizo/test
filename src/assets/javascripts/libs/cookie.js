@@ -52,7 +52,7 @@ class Cookie {
             let eqPos = cookie.indexOf("=");
             let name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
 
-            if(name != 'PHPSESSID' && name != 'cookiesettings')
+            if(name.trim() != 'PHPSESSID' && name.trim() != 'cookiesettings')
                 document.cookie = name + "=;domain="+window.location.hostname+";path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT;SameSite=Lax;Secure";
         });
     }
