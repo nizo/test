@@ -74,28 +74,22 @@
         <a href="#" class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
     </div>
     
-    <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
-        <div class="modal cookiebanner">
-            <?php include('./partials/modal-cookiebanner.php'); ?>
-        </div>
-        <div class="modal cookiebanner-config">
-            <?php include('./partials/modal-cookiebanner-config.php'); ?>
-        </div>
-    <?php endif; ?>
-    
     <div class="modal wishlist">
         <?php include('./partials/modal-wishlist.php'); ?>
     </div>
     
     <script src="/assets/javascripts/application.min.js?build=<?= getJsHash() ?>"></script>
     <?php loadAdditionalScripts(); ?>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            let urlQuery = window.location.search;
-            let params = new URLSearchParams(urlQuery);
-            if (!params.has('no-banner') && checkCookie('cookiebanner-accepted') === false)
-                new Modal(null, 'cookie-settings', null, 1000);
-        });
-    </script>
+
+    <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                let urlQuery = window.location.search;
+                let params = new URLSearchParams(urlQuery);
+                if (!params.has('no-banner') && !window.cookiesettings.exists('cookiesettings'))
+                    new Modal(null, 'cookie-settings', null, 1000);
+            });
+        </script>
+    <?php endif; ?>
 </body>
 </html>

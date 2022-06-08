@@ -27,6 +27,10 @@ body.callone-modal--scrolllock {
     &--cookiebanner {
         .callone-modal__wrapper {
             position: relative;
+            // background-image: url(../images/backgrounds_svg/cookiebanner-background.svg);
+            // background-position: center bottom;
+            // background-size: 100% auto;
+            // background-repeat: no-repeat;
 
             &:before {
                 content: "";

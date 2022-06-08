@@ -5,37 +5,24 @@ require_once('../../libs/functions.inc.php');
 
 <div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-no-cancel="true">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-no-header="true" data-next-button-text="Einstellungen Akzeptieren" data-steptitle="Wir verwenden Cookies">
-        <h3 class="centered">Wir <s class="color-green">essen gerne</s> verwenden Cookies!</h3>
-        <div class="co-grid">
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md">
-                <p><strong>Wir setzen auf unserer Website Cookies ein</strong></p>
-                <p class="subtext" style="margin-top:var(--gutter-micro)">
-                    Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "Nur essenzielle Cookies akzeptieren" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer Datenschutzerklärung. 
-                </p>
-            </div>
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md subtext">
-                <p><strong>Aktuelle Einstellungen</strong></p>
-                <div class="cookie-indicator" data-cookie="essential">Essenziell</div>
-                <div class="cookie-indicator" data-cookie="marketing">Marketing</div>
-                <div class="cookie-indicator" data-cookie="external">Extern</div>
-                <p class="subtext right"><a href="#" class="callone-modal__nextstep inline-link">Anpassen &rarr;</a></p>
-            </div>
+        <h3 class="centered">Darf&rsquo;s ein <span class="color-green">Cookie</span> sein?</h3>
+        <p class="subtext" style="margin-top:var(--gutter-m);text-align:justify">
+            Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "<a href="#" class="cookie-deny-button">Nur essenzielle Cookies akzeptieren</a>" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer Datenschutzerklärung. Einstellungen <a href="#" class="callone-modal__nextstep cookie-settings-button">individuell anpassen</a>.
+        </p>
 
-            <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
-                <input type="submit" id="submit-cookie-settings-1" hidden />
-            </form>
-        </div>
+        <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
+            <input type="submit" id="submit-cookie-settings-1" hidden />
+        </form>
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-next-step="3" data-prev-step="1" data-steptitle="Cookie-Einstellungen anpassen" data-next-button-text="Einstellungen Akzeptieren">
-        <p class="subtext">Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.</p>
+        <p class="subtext">Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen. <a href="#" class="cookie-link callone-modal__nextstep">Mehr Informationen</a>.</p>
 
         <form action="#" method="post" class="co-grid" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
             <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
                 <p class="subtext">
                     <strong>Essenziell:</strong><br />
-                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich. 
-                    <a href="#" class="inline-link callone-modal__nextstep">Mehr Informationen &rarr;</a>
+                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
@@ -47,8 +34,7 @@ require_once('../../libs/functions.inc.php');
             <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
                 <p class="subtext">
                     <strong>Marketing:</strong><br />
-                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich. 
-                    <a href="#" class="inline-link callone-modal__nextstep">Mehr Informationen &rarr;</a>
+                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
@@ -60,8 +46,7 @@ require_once('../../libs/functions.inc.php');
             <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
                 <p class="subtext">
                     <strong>Extern:</strong><br />
-                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich. 
-                    <a href="#" class="inline-link callone-modal__nextstep">Mehr Informationen &rarr;</a>
+                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
@@ -77,28 +62,78 @@ require_once('../../libs/functions.inc.php');
 
     <div class="callone-modal__step" data-step-id="3" data-next-step="3" data-prev-step="2" data-steptitle="Cookie-Informationen" data-next-button-text="Einstellungen Akzeptieren">
         <h3>Essentielle Cookies</h3>
+        <p class="subtext">Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.</p>
 
-        <table style="border:1px solid black;text-align:left">
-            <tr>
-                <th>Name</th>
-                <td>Cookiename</td>
-            </tr>
-            <tr>
-                <th>Anbieter</th>
-                <td>Cookieanbieter</td>
-            </tr>
-            <tr>
-                <th>Zweck</th>
-                <td>Cookiezweck</td>
-            </tr>
-            <tr>
-                <th>Cookie-Name</th>
-                <td>Cookiename</td>
-            </tr>
-            <tr>
-                <th>Laufzeit</th>
-                <td>Cookielaufzeit</td>
-            </tr>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Session Cookie</td></tr>
+            <tr><th>Anbieter</th><td>CallOne GmbH</td></tr>
+            <tr><th>Zweck</th><td>Cookie von PHP (Programmiersprache), PHP Daten-Identifikator. Enthält nur einen Verweis auf die aktuelle Sitzung. Im Browser des Nutzers werden keine Informationen gespeichert und dieses Cookie kann nur von der aktuellen Website genutzt werden.</td></tr>
+            <tr><th>Cookie-Name</th><td>PHPSESSID</td></tr>
+            <tr><th>Laufzeit</th><td>Sitzung</td></tr>
+        </table>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Cookie Einstellungen</td></tr>
+            <tr><th>Anbieter</th><td>CallOne GmbH</td></tr>
+            <tr><th>Zweck</th><td>Speichern der Cookie-Einstellungen.</td></tr>
+            <tr><th>Cookie-Name</th><td>cookiebanner-accepted</td></tr>
+            <tr><th>Laufzeit</th><td>1 Jahr</td></tr>
+        </table>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Cookie ModalOnExit</td></tr>
+            <tr><th>Anbieter</th><td>CallOne GmbH</td></tr>
+            <tr><th>Zweck</th><td>Stellt sicher, dass das Anzeigen eines Modals beim verlassen der Seite nur einmal erfolgt, um den Nutzer nicht zu belästigen.</td></tr>
+            <tr><th>Cookie-Name</th><td>eM</td></tr>
+            <tr><th>Laufzeit</th><td>14 Tage</td></tr>
+        </table>
+
+        <h3>Marketing Cookies</h3>
+        <p class="subtext">Marketing Cookies helfen uns beim Auswerten von Marketing-Relevanten Daten.</p>
+
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Google Analytics</td></tr>
+            <tr><th>Anbieter</th><td>Google LLC</td></tr>
+            <tr><th>Zweck</th><td>Cookie von Google für Website-Analysen. Erzeugt statistische Daten darüber, wie der Besucher die Website nutzt.</td></tr>
+            <tr><th>Cookie-Name</th><td>_ga, _gat, _gid</td></tr>
+            <tr><th>Laufzeit</th><td>1 Jahr</td></tr>
+        </table>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>LinkedIn</td></tr>
+            <tr><th>Anbieter</th><td>LinkedIn</td></tr>
+            <tr><th>Zweck</th><td>Onlinemarketing, Tracking, Targeting, Messung von Konversionen.</td></tr>
+            <tr><th>Cookie-Name</th><td>bcookie, UserMatchHistory, lang, lidc</td></tr>
+            <tr><th>Laufzeit</th><td>Session / 1 Jahr</td></tr>
+        </table>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Facebook Cookie</td></tr>
+            <tr><th>Anbieter</th><td>Facebook Ireland Limited</td></tr>
+            <tr><th>Zweck</th><td>Cookie von Facebook, das für Website-Analysen, Ad-Targeting und Anzeigenmessung verwendet wird.</td></tr>
+            <tr><th>Cookie-Name</th><td>fr</td></tr>
+            <tr><th>Laufzeit</th><td>1 Jahr</td></tr>
+        </table>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Mouseflow Cookie</td></tr>
+            <tr><th>Anbieter</th><td>Mouseflow ApS</td></tr>
+            <tr><th>Zweck</th><td>Dieses Cookie stellt fest, ob ein Nutzer ein neuer Besucher oder ein wiederkehrender Besucher ist. Dies geschieht einfach per ja/nein-Schalter. Keine weiteren User-Informationen werden gespeichert.</td></tr>
+            <tr><th>Cookie-Name</th><td>mf_user</td></tr>
+            <tr><th>Laufzeit</th><td>90 Tage</td></tr>
+        </table>
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Mouseflow Cookie</td></tr>
+            <tr><th>Anbieter</th><td>Mouseflow ApS</td></tr>
+            <tr><th>Zweck</th><td>Dieses Cookie identifiziert eine Browser-Session, während sie aktiv ist.</td></tr>
+            <tr><th>Cookie-Name</th><td>mf_[session]</td></tr>
+            <tr><th>Laufzeit</th><td>Session</td></tr>
+        </table>
+
+        <h3>Externe Cookies</h3>
+        <p class="subtext">Externe Cookies sind Cookies von Drittanbietern.</p>
+
+        <table class="cookie-info">
+            <tr><th>Name</th><td>Cookie Support</td></tr>
+            <tr><th>Anbieter</th><td>.doubleclick.net</td></tr>
+            <tr><th>Zweck</th><td>Verwendet, um zu überprüfen, ob der Browser des Benutzers Cookies unterstützt.</td></tr>
+            <tr><th>Cookie-Name</th><td>test_cookie, IDE</td></tr>
+            <tr><th>Laufzeit</th><td>15 Minuten</td></tr>
         </table>
 
         <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
@@ -107,50 +142,51 @@ require_once('../../libs/functions.inc.php');
     </div>
 
     <script>
-        // essentiell == 100
-        // marketing >= 110
-        // extern == 101 || == 111
-
-        let indicators = {
-            'essential': document.querySelector('.cookie-indicator[data-cookie="essential"]'),
-            'marketing': document.querySelector('.cookie-indicator[data-cookie="marketing"]'),
-            'external': document.querySelector('.cookie-indicator[data-cookie="external"]')
-        };
+        let denyButton = document.querySelector('.cookie-deny-button');
         let toggles = {
             'essential': document.querySelector('.cookie-toggle#essential-cookie'),
             'marketing': document.querySelector('.cookie-toggle#marketing-cookie'),
             'external': document.querySelector('.cookie-toggle#external-cookie')
         };
 
-        let trackingCookie = getCookie('cookiebanner-accepted');
-        if (trackingCookie && trackingCookie != '') {
-            Object.entries(indicators).forEach(([key, indicator]) => indicator.classList.remove('cookie-indicator--active'));
-            Object.entries(toggles).forEach(([key, toggle]) => toggle.removeAttribute('checked'));
+        // Check tracking cookie and set toggles accordingly
+        if (window.cookiesettings.exists('cookiesettings')) {
+            Object.entries(toggles).forEach(([key, toggle]) => toggle.checked = false);
 
             // Essential
-            indicators.essential.classList.add('cookie-indicator--active');
-            toggles.essential.setAttribute('checked', true);
+            toggles.essential.checked = true;
 
             // Marketing
-            if (trackingCookie >= 110) {
-                indicators.marketing.classList.add('cookie-indicator--active');
-                toggles.marketing.setAttribute('checked', true);
-            }
+            if (window.cookiesettings.hasConsent('marketing'))
+                toggles.marketing.checked = true;
 
             // External
-            if (trackingCookie == 101 || trackingCookie == 111) {
-                indicators.external.classList.add('cookie-indicator--active');
-                toggles.external.setAttribute('checked', true);
-            }
+            if (window.cookiesettings.hasConsent('external'))
+                toggles.external.checked = true;
         } else {
-            Object.entries(indicators).forEach(([key, indicator]) => indicator.classList.add('cookie-indicator--active'));
-            Object.entries(toggles).forEach(([key, toggle]) => toggle.setAttribute('checked', true));
+            // Cookie is not yet set, check all cookie settings
+            Object.entries(toggles).forEach(([key, toggle]) => toggle.checked = true);
         }
 
-        window.cookieSettingsSubmit = function(e, cb) {
-            console.log('Test');
+        // Handly deny button
+        denyButton.addEventListener('click', e => {
+            toggles.marketing.checked = false;
+            toggles.external.checked = false;
+            window.cookiesettings.deleteAll();
 
+            // Simulate click on accept settings to trigger save function
+            document.querySelector('#submit-cookie-settings-1').click();
+        });
+
+        window.cookieSettingsSubmit = function(e, cb) {
             // Save cookie settings
+            window.cookiesettings.settingsValue = 0;
+            Object.entries(toggles).forEach(([key, value]) => {
+                if (value.checked)
+                    window.cookiesettings.settingsValue += window.cookiesettings.flags[key];
+            });
+            
+            window.cookiesettings.set('cookiesettings', window.cookiesettings.settingsValue, 365);
 
             cb();
         }

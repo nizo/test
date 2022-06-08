@@ -29,3 +29,42 @@
         --borderColor: #{$color-primary};
     }
 }
+
+.cookie-deny-button, .cookie-settings-button, .cookie-link {
+    color: #000;
+    border-bottom: 1px solid rgba(#000, .2);
+
+    &:hover {
+        color: $color-primary;
+        border-color: $color-primary;
+    }
+}
+
+.cookie-info {
+    margin: var(--gutter-xs) 0;
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+
+    th {
+        white-space: nowrap;
+        width: 120px;
+    }
+    
+    th, td {
+        padding: var(--gutter-micro);
+    }
+
+    tr {
+        &:nth-child(odd) {
+            th, td {
+                background-color: #fafafa;
+            }
+        }
+        &:nth-child(even) {
+            th, td {
+                background-color: #f0f0f0;
+            }
+        }
+    }
+}

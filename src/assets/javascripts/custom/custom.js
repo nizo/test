@@ -4,55 +4,6 @@ eventListener('click', '.trackedElement', e => {
 	link.classList.toggle('clicked');
 });
 
-// Setzt einen Cookie
-function setCookie(cname, cvalue, exdays) {
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  var expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/;SameSite=Lax;Secure";
-}
-
-// Holt sich einen Cookie
-function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-function checkCookie(cname) {
-  var cookie = getCookie(cname);
-  if (cookie != "") {
-	return true;
-  } else {
-    return false;
-  }
-}
-
-function deleteAllCookies() {
-    var cookies = document.cookie.split(";");
-
-    for (var i = 0; i < cookies.length; i++) {
-        var cookie = cookies[i];
-        var eqPos = cookie.indexOf("=");
-        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
-        if(name == 'PHPSESSID' || name == ' cookiebanner-accepted' || name == 'cookiebanner-accepted') {
-        	continue;
-        } else {
-	        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
-        }
-    }
-}
-
 /* simple encode function (bitweise) */
 function encode(str) {
 	var encoded = "";
@@ -363,7 +314,7 @@ eventListener('click', '.optionField', e => {
 	}
 });
 
-if (checkCookie('wishlist')) {
+if (window.cookiesettings.exists('wishlist')) {
 	if (window.localStorage) {
 		var wlist = [];
 		var listLength = 0;
