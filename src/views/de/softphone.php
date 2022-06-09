@@ -655,7 +655,7 @@ $faqs->faq_add (
                             </div>
 
                             <p>
-                                <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kontakt zum CallOne Vertrieb</a>
+                                <a href="#" class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">Kontakt zum CallOne Vertrieb</a>
                             </p>
                         </div>
                     </div>

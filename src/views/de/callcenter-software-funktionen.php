@@ -14,7 +14,7 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
 	'Wie sieht die Agentenoberfläche aus?',
-	'<p>Die Agentenoberfläche der Callcenter-Software ist grafisch ansprechend, intuitiv bedienbar und über jeden Browser aufrufbar, ohne dass eine zusätzliche Software installiert werden muss. <a href="#" data-openmodal="contact-sales">Kontaktieren Sie uns</a> gerne für eine Live Demo.</p>'
+	'<p>Die Agentenoberfläche der Callcenter-Software ist grafisch ansprechend, intuitiv bedienbar und über jeden Browser aufrufbar, ohne dass eine zusätzliche Software installiert werden muss. <a href="#" data-openmodal="contact-sales" class="inline-link trackedContactModal">Kontaktieren Sie uns</a> gerne für eine Live Demo.</p>'
 );
 $faqs->faq_add (
 	'Was genau sind Skillgruppen?',
@@ -28,7 +28,7 @@ $faqs->faq_add (
             <h1>CallOne Cloud ACD Funktionen</h1>
             <p>Alle Funktionen der Cloud ACD im Überblick. Von der Agenten-Administration bis zur Warteschleifen-Konfiguration.</p>
             <p class="mobile-centered">
-                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Funktionen jetzt testen</a>
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Funktionen jetzt testen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -1055,7 +1055,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Kontakt aufnehmen</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedContactModal">Kontakt aufnehmen</a>
         </div>
     </div>
 </div>

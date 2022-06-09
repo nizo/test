@@ -30,10 +30,10 @@ class Tablist {
         eventListener('click', '[href^="#"]', this.checkAnchor.bind(this));
     }
 
-    checkAnchor(e = null) {
+    checkAnchor(e = null, target = null) {
         let anchor = window.location.hash.split('#')[1];
-        if (e)
-            anchor = e.target.getAttribute('href').split('#')[1];
+        if (target)
+            anchor = target.getAttribute('href').split('#')[1];
         if (!anchor)
             return;
         this.tabLinks.forEach(link => {

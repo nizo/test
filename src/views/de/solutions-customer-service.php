@@ -22,7 +22,7 @@ $faqs->faq_add (
         <h1>Geben Sie Ihren Kunden, was sie verdienen</h1>
         <p class="teaser">Customer Service, der auf die Ihre Kunden angepasst ist – automatisiert und trotzdem persönlich.</p>
         <div class="button-set">
-          <a href="#" class="button tertiary rounded" data-openmodal="contact-sales">Jetzt Demo buchen</a>
+          <a href="#" class="button tertiary rounded trackedContactModal" data-openmodal="contact-sales">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">

@@ -28,7 +28,7 @@ $faqs->faq_add (
             <h1>CallOne VoIP Telefonanlagen Funktionen</h1>
             <p>Alle Funktionen rund um das Thema VoIP Telefonanlage im Überblick. Von Ansagen-Management bis zur Warteschleife.</p>
             <p class="mobile-centered">
-                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Funktionen jetzt testen</a>
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Funktionen jetzt testen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -1484,7 +1484,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="#" data-openmodal="contact-sales" class="btn btn--primary">Kontakt aufnehmen</a>
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedContactModal">Kontakt aufnehmen</a>
         </div>
     </div>
 </div>

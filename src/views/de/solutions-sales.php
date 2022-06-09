@@ -22,7 +22,7 @@ $faqs->faq_add (
         <h1>Hier kommt die Kohle rein</h1>
         <p class="teaser">Power für Ihre Moneymaker – mehr Abschlüsse durch Automatisierung und Tracking</p>
         <div class="button-set">
-          <a href="#" class="button tertiary rounded" data-openmodal="contact-sales">Jetzt Demo buchen</a>
+          <a href="#" class="button tertiary rounded trackedContactModal" data-openmodal="contact-sales">Jetzt Demo buchen</a>
         </div>
       </div>
       <div class="media centered">

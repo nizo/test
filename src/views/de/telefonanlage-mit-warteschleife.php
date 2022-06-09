@@ -13,7 +13,7 @@
             <h2>Schnellerer Service, bessere Ergebnisse und eine solide Markenerfahrung durch unübertroffenes Warteschleifenmanagement</h2>
 
             <p class="mobile-centered">
-                <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt Zeit sparen</a>
             </p>
         </div>
     </header>
@@ -556,7 +556,7 @@
             Warteschleifen, Rückrufen und Routing erfahren?
         </p>
         <p class="centered">
-            <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch buchen</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
         </p>
     </div>
 </div>
@@ -582,7 +582,7 @@
                     </div>
                 </div>
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
                 </p>
             </div>
         </div>

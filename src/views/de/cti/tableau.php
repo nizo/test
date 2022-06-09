@@ -10,11 +10,11 @@ $faqs->faq_add (
 );
 $faqs->faq_add (
   'Was kostet der Telefonanlagen Connector für Tableau?',
-  '<p>Der Tableau Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. <a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.</p>'
+  '<p>Der Tableau Connector ist Teil der VoIP-Telefonanlage und Callcenter-Software von CallOne. <a href="#" title="Kontaktieren Sie uns für ein individuelles Angebot" data-openmodal="contact-sales" class="inline-link trackedContactModal">Bitte setzen Sie sich für ein individuelles Angebot mit uns in Verbindung</a>.</p>'
 );
 $faqs->faq_add (
   'Kann ich den Tableau Connector auch mit meiner bestehenden Telefonanlage nutzen?',
-  '<p>Es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Um die Telefondaten für einen Tableau-Export zu erfassen ist es stets Grundvoraussetzung, dass die Gespräche über unsere Infrastruktur geleitet und aufbereitet werden. Zur Besprechung Ihrer individuellen Anforderungen <a href="#" title="Sprechen Sie mit unseren Experten" data-openmodal="contact-sales">sprechen sie mit unseren Experten</a></p>'
+  '<p>Es gibt zahlreiche CallOne Kunden, die ihre eigene Telefonanlage im Zusammenspiel mit der CallOne Callcenter-Software nutzen. Um die Telefondaten für einen Tableau-Export zu erfassen ist es stets Grundvoraussetzung, dass die Gespräche über unsere Infrastruktur geleitet und aufbereitet werden. Zur Besprechung Ihrer individuellen Anforderungen <a href="#" title="Sprechen Sie mit unseren Experten" data-openmodal="contact-sales" class="inline-link trackedContactModal">sprechen sie mit unseren Experten</a></p>'
 );
 $faqs->faq_add (
   'Gibt es bei CallOne noch andere Möglichkeiten Telefondaten für meine BI-Abteilung zu erhalten?',
@@ -67,7 +67,7 @@ $faqs->faq_add (
         </p>
 
         <p class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Experten kontaktieren" data-category="Link" data-action="opens sales modal">Experten kontaktieren</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Experten kontaktieren</a>
         </p>
 
         <br />
@@ -210,7 +210,7 @@ $faqs->faq_add (
         </div>
 
         <p class="btn-set btn-set--centered">
-            <a href="#" class="btn btn--primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt 14 Tage testen" data-category="Link" data-action="opens sales modal">Jetzt 14 Tage testen</a>
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt 14 Tage testen</a>
         </p>
     </div>
 </div>
@@ -358,7 +358,7 @@ $faqs->faq_add (
                 <strong class="h3">Persönliche <span class="light">Beratung</span></strong>
                 <p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
                 <div class="button-set">
-                    <a href="#" class="button primary trackedElement" data-openmodal="contact-sales" data-label="Button - Jetzt Angebot anfordern" data-category="Link" data-action="opens sales modal">Jetzt Angebot anfordern</a>
+                    <a href="#" class="button primary trackedContactModal" data-openmodal="contact-sales">Jetzt Angebot anfordern</a>
                 </div>  
             </div>
         </div>

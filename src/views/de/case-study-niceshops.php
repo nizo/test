@@ -227,7 +227,7 @@
     </div>
     <p>&nbsp;</p>
     <div class="button-set centered">
-    	<a href="#" class="button tertiary" data-openmodal="contact-sales" data-label="Button Header -Jetzt kostenlos Testen" data-category="Link" data-action="Show Contact Modal">Jetzt kostenlos Testen</a>
+    	<a href="#" class="button tertiary trackedContactModal" data-openmodal="contact-sales">Jetzt kostenlos Testen</a>
     </div>
    </div>
 </div>

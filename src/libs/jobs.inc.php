@@ -296,6 +296,35 @@ function jobs_load ()
 
 	$jobs = new jobs ();
 
+	$job = new job ('Projekte & Support', 'Key Account Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-key-account-manager-in-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du liebst den Umgang mit Menschen und kommunizierst mühelos sowie zielführend mit Kunden? Außerdem hast du eine schnelle technische Auffassungsgabe und eine selbstständige Arbeitsweise?');
+	$job->text_description_long_set ('Als Key Account Manager*in bist Du Teil unseres Projektteams und bearbeitest eigenständig vor allem bestehende Kundenprojekte in Teil- oder Vollzeit.');
+	$job->text_description_long_set ('Unsere Kunden sind vorwiegend mittelständische Unternehmen, die wir mit unseren Telefonielösungen im Bereich Kundenservice oder Inside-Sales unterstützen. Insbesondere mit unseren Key Accounts stehen wir im sehr regelmäßigen Austausch, sodass eine stetige Kundenprozessoptimierung stattfinden kann.');
+	$job->text_description_long_set ('Du bist Ansprechpartner*in für unsere Key Account Kunden, mit denen wir einen sehr engen und partnerschaftlichen Kontakt pflegen. Du unterstützt sie vom Livegang bis hin zum Tagesgeschäft, erarbeitest gemeinsam mit dem Team Optimierungsvorschläge und Lösungsstrategien und sorgst auf Basis von Kundenentwicklungsplänen für eine optimale und partnerschaftliche Projektbetreuung.');
+	$job->text_tasks_set ('Betreuung von Bestandskunden');
+	$job->text_tasks_set ('Unterstützung der Kunden beim Onboarding unserer Telefonielösungen');
+	$job->text_tasks_set ('Planung und Umsetzung neuer Kundenprojekte');
+	$job->text_tasks_set ('Erstellung und Umsetzung von Kundenetwicklungsplänen');
+	$job->text_tasks_set ('Koordination von Support-Anfragen und Feature Requests');
+	$job->text_tasks_set ('Enge Zusammenarbeit mit Entwicklung, Lieferanten und Partnern');
+	$job->text_tasks_set ('Eigenständige Dokumentation und Analyse von Kundenprojekten');
+	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung (Quereinsteiger willkommen)');
+	$job->text_requirements_set ('Gute technische Auffassungsgabe und der Wille, technische Sachverhalte zu begreifen');
+	$job->text_requirements_set ('Teamfähigkeit, Zuverlässigkeit und Eigeninitiative gehören zu deiner Persönlichkeit');
+	$job->text_requirements_set ('Erfahrung in der Kommunikation mit Kunden und Offenheit gegenüber neuen Menschen und Situationen');
+	$job->text_requirements_set ('Optimal wären Erfahrungen im Key Account Management, Sales Management oder Customer Success im SaaS-Umfeld');
+	$job->text_requirements_set ('Sehr gute MS Office Kenntnisse, vor allem Excel, Word und Outlook');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['care']);
+	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
+	$jobs->job_add ($job);
+	
 	$job = new job ('Projekte & Support', 'Customer Success Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-customer-success-manager-in-'.$job->location_get());
@@ -400,7 +429,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Marketing', 'Studentische Aushilfe, Content Marketing', 'Du unterstützt uns bei der Recherche, der Erstellung und dem Publishing von Content und lernst viele Online Marketing Insights.');
+	/*$job = new job ('Marketing', 'Studentische Aushilfe, Content Marketing', 'Du unterstützt uns bei der Recherche, der Erstellung und dem Publishing von Content und lernst viele Online Marketing Insights.');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-marketing-student-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -422,7 +451,7 @@ function jobs_load ()
 	$job->icon_set ($icons['clipboard']);
 	$job->agenda_filename_set ('agenda-student');
 	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
-	$jobs->job_add ($job); 
+	$jobs->job_add ($job); */
 
 	$job = new job ('IT & Technik', 'UX / UI Designer*in - onsite & remote', 'UX & UI Webdesign sind dein tägliches Handwerk? Du gehst darin auf, Websites und Features genau angepasst auf die Nutzer zu designen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam / Remote');

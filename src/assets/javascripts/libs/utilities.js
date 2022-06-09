@@ -10,7 +10,7 @@ function eventListener(event, element, callback) {
             if (target.matches(element)) {
                 // handler.call(target, e);
                 // break;
-                callback(e);
+                callback(e, target);
             }
         }
     }, false);

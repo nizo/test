@@ -54,7 +54,7 @@ $product->structured_data_get_code ();
             <p class="bigtext">Einmal mit allem, bitte. Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.</p>
 
             <p>
-                <a class="btn btn--primary" href="#" data-openmodal="contact-sales">Jetzt Demo buchen</a>
+                <a class="btn btn--primary trackedContactModal" href="#" data-openmodal="contact-sales">Jetzt Demo buchen</a>
             </p>
         </div>
         <div class="hero__image">

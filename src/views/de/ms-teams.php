@@ -363,7 +363,7 @@ $faqs->faq_add (
                     </ul>
                 </div>
                 <div class="plan__foot">
-                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Kostenlos testen</a>
+                    <a href="#" class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">Kostenlos testen</a>
                 </div>
             </div>
             <div class="plan plan--highlight" data-legend="Mindestnutzung ab 10 Nebenstellen">
@@ -388,7 +388,7 @@ $faqs->faq_add (
                     </ul>
                 </div>
                 <div class="plan__foot">
-                    <a href="#" class="btn btn--primary btn--full-width centered" data-openmodal="contact-sales">Angebot holen</a>
+                    <a href="#" class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">Angebot holen</a>
                 </div>
             </div>
         </div>
@@ -439,7 +439,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <a href="#" class="btn btn--primary btn--centered centered" data-openmodal="contact-sales">Direkt Erstgespräch buchen</a>
+        <a href="#" class="btn btn--primary btn--centered centered trackedContactModal" data-openmodal="contact-sales">Direkt Erstgespräch buchen</a>
     </div>
 </div>
 

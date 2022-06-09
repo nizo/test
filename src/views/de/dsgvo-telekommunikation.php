@@ -12,9 +12,8 @@
 
             <p class="bigtext">Wenn die Technik ausfällt, bezahlen Sie das mit viel Geld und viel kaltem Schweiß. Eine Stunde Ausfall kostet schnell mehrere tausend Euro. Und eine Datenschutzlücke? Nicht auszudenken. Deshalb sorgen wir dafür, dass Ihnen das nicht passiert.</p>
 
-            <p>
-                <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Sicherheitsberatung anfordern</a>
-                <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Sicherheitsberatung anfordern</a>
+            <p class="mobile-centered">
+                <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Sicherheitsberatung anfordern</a>
             </p>
         </div>
     </header>
@@ -808,8 +807,7 @@
             Wollen Sie mehr erfahren zu unseren Maßnahmen und <br />
             Funktionen hinsichtlich Ausfällen und Notfällen?<br />
             <br />
-            <a href="#" class="btn btn--primary btn--centered mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
-            <a href="#" class="btn btn--primary btn--full-width centered desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+            <a href="#" class="btn btn--primary btn--centered trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
         </p>
     </div>
 </div>
@@ -1001,8 +999,7 @@
                     </div>
                 </div>
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
-                    <a href="#" class="btn btn--primary btn--full-width desktop-hidden" data-openmodal="contact-sales">Erstgespräch buchen</a>
+                    <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Erstgespräch buchen</a>
                 </p>
             </div>
         </div>

@@ -37,7 +37,7 @@ $faqs->faq_add (
 			<p class="bigtext">Echte Omnichannel-CX mit deutscher KI: Die intelligente Kundenservice-Lösung vereint Ihre Kontaktkanäle auf einer Oberfläche.</p>
 
 			<p class="mobile-centered">
-				<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+				<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
 			</p>
 		</div>
 		<div class="hero__image">
@@ -156,7 +156,7 @@ $faqs->faq_add (
 		</div>
 
 		<div class="btn-set btn-set--centered centered">
-			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
 		</div>
 	</div>
 </div>
@@ -263,7 +263,7 @@ $faqs->faq_add (
 		</div>
 
 		<div class="btn-set btn-set--centered centered">
-			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
+			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Zum kostenfreien Beratungsgespräch</a>
 		</div>
 	</div>
 </div>
@@ -344,7 +344,7 @@ $faqs->faq_add (
 		<h2>Sind Sie bereit, Ihren Kundenservice zu verbessern?</h2>
 		<p class="bigtext">Buchen Sie ein unverbindliches 15 Minuten Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
 		<p class="mobile-centered">
-			<a href="#" class="btn btn--primary" data-openmodal="contact-sales">Termin vereinbaren</a>
+			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Termin vereinbaren</a>
 		</p>
 	</div>
 

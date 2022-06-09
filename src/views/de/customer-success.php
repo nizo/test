@@ -14,8 +14,7 @@
             <p class="bigtext desktop-hidden">Schnelle Ergebnisse und reibungsloser Betrieb mit persönlicher und langfristiger Unterstützung durch Ihren CallOne Customer Success Manager, Projektmanager und Integration Engineer.</p>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary mobile-hidden">Kontakt aufnehmen</a>
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary btn--full-width desktop-hidden">Kontakt aufnehmen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary trackedContactModal">Kontakt aufnehmen</a>
             </p>
         </div>
     </header>
@@ -311,8 +310,7 @@
                 </div>
 
                 <p class="mobile-centered">
-                    <a href="#" class="btn btn--primary mobile-hidden" data-openmodal="contact-sales">Termin vereinbaren</a>
-                    <a href="#" class="btn btn--primary btn--full-width desktop-hidden" data-openmodal="contact-sales">Termin vereinbaren</a>
+                    <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Termin vereinbaren</a>
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
