@@ -88,8 +88,10 @@ class Modal {
         this.runModalScripts();
         fadeIn(this.modal, 300, 'flex');
         this.modal.classList.add(this.classPrefix + '--open');
-        window._mfq = window._mfq || [];
-        window._mfq.push(['tag', 'Modal: ' + this.modalName]);
+        if (!this.modal.getAttribute('data-no-tracking')) {
+            window._mfq = window._mfq || [];
+            window._mfq.push(['tag', 'Modal: ' + this.modalName]);
+        }
     }
 
     closeModal() {

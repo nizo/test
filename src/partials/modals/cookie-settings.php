@@ -3,7 +3,7 @@ require_once('../../libs/session.inc.php');
 require_once('../../libs/functions.inc.php');
 ?>
 
-<div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-back-button-label=" " data-no-cancel="true">
+<div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-back-button-label=" " data-no-cancel="true" data-no-tracking="true">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-no-header="true" data-next-button-text="Einstellungen Akzeptieren" data-steptitle="Wir verwenden Cookies">
         <h3 class="centered">Darf&rsquo;s ein <span class="color-green">Cookie</span> sein?</h3>
         <p class="subtext" style="margin-top:var(--gutter-m);text-align:justify">
