@@ -165,6 +165,9 @@
                 <a href="/datenschutz">Datenschutz</a>
                 <a href="/download">Downloads</a>
                 <a href="/downloads/agb.pdf" target="_blank">AGB</a>
+                <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
+                    <a href="#" data-openmodal="cookie-settings">Cookie-Einstellungen</a>
+                <?php endif; ?>
             </div>
         </div>
     </div>
