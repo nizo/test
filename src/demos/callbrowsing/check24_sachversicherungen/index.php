@@ -157,34 +157,6 @@
         });
 
 
-        $('#callbackButton').click (function()
-        {
-            $.ajax
-		    ({
-                url: "https://connect.callone.io/backend/callback.php",
-                cache: false,
-                type: "POST",
-                data:
-                {
-                    type: 0,
-                    aid: 'callone_cfcd208495d565ef66e7dff9f98764da',
-                    callback_key: 'dbc5e205033aa4f230073490394205b4',
-                    phonenumber: $('#callbackNumber').val().trim(),
-                    ddi: session_ddi,
-                    data: session_rootnumber
-                },
-                dataType: "json",
-                error: function (error)
-                {	console.log (JSON.stringify (error));
-                },
-                success: function (jsonData)
-                {
-                    if (jsonData['success'])
-                        $('#callbackNumber').val('');
-                }
-            });
-        });
-
 
 		callbrowsing_session_init ('405aa97e70dddcbb269d2494b91c3c2f', 'check24_sachversicherungen', callbrowsing_text_create, callbrowsing_url_create, callbrowsing_status);
     });
@@ -423,15 +395,6 @@ var CHECK24_HOST = 'www.check24.de';
 </div>
     -->
 
-<div class="callback">
-	<div id="wrap">
-		<form id="callbackForm" action="" autocomplete="on" onclick="document.getElementById('callbackNumber').classList.add('fixed');">
-            <input id="callbackNumber" name="callbacknumber" type="text" placeholder="Geben Sie Ihre Rufnummer an..." >
-            
-            <button id="callbackButton" type="button" name="callbackbutton">Rückruf anfordern</button>
-		</form>
-    </div>
-</div>
 
 <div id="callbrowsing_status" style="position: absolute; top: 150px; margin-left: 50%; margin-right: 50%; left: 300px;">
     <div id="callbrowsing_status_text_big"></div>
