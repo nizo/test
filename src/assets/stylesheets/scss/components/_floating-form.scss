@@ -264,6 +264,7 @@
         
         input {
             appearance: none;
+            transform: scale(0.001);
 
             &+label {
                 position: relative;

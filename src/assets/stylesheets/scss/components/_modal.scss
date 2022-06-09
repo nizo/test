@@ -52,7 +52,7 @@ body.callone-modal--scrolllock {
     &__wrapper {
         display: flex;
         flex-direction: column;
-        max-height: 80vh;
+        max-height: 80%;
         background-color: #fff;
         border-radius: 10px;
         width: 100%;
@@ -253,7 +253,7 @@ body.callone-modal--scrolllock {
             right: 0;
             top: 30px;
             bottom: 30px;
-            max-height: calc(100vh - 30px);
+            max-height: calc(100% - 30px);
         }
 
         &__header {
