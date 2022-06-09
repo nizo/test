@@ -368,7 +368,7 @@ eventListener('click', '.menuheader', (e) => {
 });
 
 
-function loadLazyTracking(){
+function loadTracking(){
 	var gtm = '';
 	
 	if ((location.hostname.includes('localhost')) ||

@@ -1,14 +1,12 @@
 class Cookie {
     constructor() {
-        this.flags = {
+        this.flags = { // Binary flags
             'essential': 1,
-            'marketing': 2,
-            'external': 4
+            'marketing': 2
         };
         this.settingsValue = parseInt(this.get('cookiesettings')) || 0;
 
-        if (this.hasConsent('marketing') || this.hasConsent('external'))
-            loadLazyTracking();
+        loadTracking();
     }
 
     hasConsent(flag) {
@@ -58,4 +56,4 @@ class Cookie {
     }
 }
 
-cookiesettings = new Cookie();
+window.cookiesettings = new Cookie();

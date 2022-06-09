@@ -369,9 +369,13 @@ class Modal {
                 this.classPrefix + '__headerbutton--hidden'
             ]);
         }
-        this.modalStepbackButton.textContent = 'Schritt zurück';
+        this.modalStepbackButton.textContent = this.activeStep.getAttribute('data-back-button-label') || this.modal.getAttribute('data-back-button-label') || 'Schritt zurück';
         this.modalStepbackButton.addEventListener('click', this.prevStep.bind(this));
         this.modalHeader.appendChild(this.modalStepbackButton);
+    }
+
+    updateGoBackButton() {
+        this.modalStepbackButton.textContent = this.activeStep.getAttribute('data-back-button-label') || this.modal.getAttribute('data-back-button-label') || 'Schritt zurück';
     }
 
     createModalSteptitle() {
@@ -525,6 +529,9 @@ class Modal {
 
         // Update modal header
         this.updateModalHeader();
+
+        // Update back button
+        this.updateGoBackButton();
 
         // Adjust close button
         this.updateModalCloseButton();

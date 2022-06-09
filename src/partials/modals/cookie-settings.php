@@ -3,56 +3,44 @@ require_once('../../libs/session.inc.php');
 require_once('../../libs/functions.inc.php');
 ?>
 
-<div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-no-cancel="true">
+<div class="callone-modal callone-modal--cookiebanner" data-modal="cookie-settings" data-title="Cookie-Einstellungen" data-back-button-label=" " data-no-cancel="true">
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-no-header="true" data-next-button-text="Einstellungen Akzeptieren" data-steptitle="Wir verwenden Cookies">
         <h3 class="centered">Darf&rsquo;s ein <span class="color-green">Cookie</span> sein?</h3>
         <p class="subtext" style="margin-top:var(--gutter-m);text-align:justify">
             Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind essentiell (z.B. für den Warenkorb), während andere uns helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Sie können dies akzeptieren oder per Klick auf die Schaltfläche "<a href="#" class="cookie-deny-button">Nur essenzielle Cookies akzeptieren</a>" ablehnen sowie diese Einstellungen jederzeit aufrufen und Cookies auch nachträglich jederzeit abwählen (z.B. im Fußbereich unserer Website). Nähere Hinweise erhalten Sie in unserer <a href="/datenschutz" class="cookie-link">Datenschutzerklärung</a>. Einstellungen <a href="#" class="callone-modal__nextstep cookie-settings-button">individuell anpassen</a>.
         </p>
 
-        <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
+        <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true" style="display:none">
             <input type="submit" id="submit-cookie-settings-1" hidden />
         </form>
     </div>
 
-    <div class="callone-modal__step" data-step-id="2" data-next-step="3" data-prev-step="1" data-steptitle="Cookie-Einstellungen anpassen" data-next-button-text="Einstellungen Akzeptieren">
+    <div class="callone-modal__step" data-step-id="2" data-next-step="3" data-prev-step="1" data-steptitle="Individuell anpassen" data-next-button-text="Einstellungen Akzeptieren">
         <p class="subtext">Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen. <a href="#" class="cookie-link callone-modal__nextstep">Mehr Informationen</a>.</p>
-
-        <form action="#" method="post" class="co-grid" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
-            <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
+        <br />
+        <form action="#" method="post" class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
                 <p class="subtext">
                     <strong>Essenziell:</strong><br />
                     Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
                 </p>
             </div>
-            <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered">
                 <div class="floating-form__checkbox floating-form__checkbox--disabled">
                     <input type="checkbox" class="cookie-toggle" id="essential-cookie" disabled>
                     <label for="essential-cookie">Essenziell</label>
                 </div>
             </div>
-            <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm co-grid__col--vcentered">
                 <p class="subtext">
                     <strong>Marketing:</strong><br />
-                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
+                    Marketing Cookies helfen uns beim Auswerten von marketingrelevanten Daten.
                 </p>
             </div>
-            <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--vcentered">
                 <div class="floating-form__checkbox">
                     <input type="checkbox" class="cookie-toggle" id="marketing-cookie">
                     <label for="marketing-cookie">Marketing</label>
-                </div>
-            </div>
-            <div class="co-grid__col co-grid__col--8-xs co-grid__col--vcentered">
-                <p class="subtext">
-                    <strong>Extern:</strong><br />
-                    Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
-                </p>
-            </div>
-            <div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered">
-                <div class="floating-form__checkbox">
-                    <input type="checkbox" class="cookie-toggle" id="external-cookie">
-                    <label for="external-cookie">Extern</label>
                 </div>
             </div>
 
@@ -87,7 +75,7 @@ require_once('../../libs/functions.inc.php');
         </table>
 
         <h3>Marketing Cookies</h3>
-        <p class="subtext">Marketing Cookies helfen uns beim Auswerten von Marketing-Relevanten Daten.</p>
+        <p class="subtext">Marketing Cookies helfen uns beim Auswerten von marketingrelevanten Daten.</p>
 
         <table class="cookie-info">
             <tr><th>Name</th><td>Google Analytics</td></tr>
@@ -124,10 +112,6 @@ require_once('../../libs/functions.inc.php');
             <tr><th>Cookie-Name</th><td>mf_[session]</td></tr>
             <tr><th>Laufzeit</th><td>Session</td></tr>
         </table>
-
-        <h3>Externe Cookies</h3>
-        <p class="subtext">Externe Cookies sind Cookies von Drittanbietern.</p>
-
         <table class="cookie-info">
             <tr><th>Name</th><td>Cookie Support</td></tr>
             <tr><th>Anbieter</th><td>.doubleclick.net</td></tr>
@@ -136,7 +120,7 @@ require_once('../../libs/functions.inc.php');
             <tr><th>Laufzeit</th><td>15 Minuten</td></tr>
         </table>
 
-        <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true">
+        <form action="#" method="post" data-step-callback="cookieSettingsSubmit" data-close-after-callback="true" style="display:none">
             <input type="submit" id="submit-cookie-settings-3" hidden />
         </form>
     </div>
@@ -145,8 +129,7 @@ require_once('../../libs/functions.inc.php');
         let denyButton = document.querySelector('.cookie-deny-button');
         let toggles = {
             'essential': document.querySelector('.cookie-toggle#essential-cookie'),
-            'marketing': document.querySelector('.cookie-toggle#marketing-cookie'),
-            'external': document.querySelector('.cookie-toggle#external-cookie')
+            'marketing': document.querySelector('.cookie-toggle#marketing-cookie')
         };
 
         // Check tracking cookie and set toggles accordingly
@@ -159,10 +142,6 @@ require_once('../../libs/functions.inc.php');
             // Marketing
             if (cookiesettings.hasConsent('marketing'))
                 toggles.marketing.checked = true;
-
-            // External
-            if (cookiesettings.hasConsent('external'))
-                toggles.external.checked = true;
         } else {
             // Cookie is not yet set, check all cookie settings
             Object.entries(toggles).forEach(([key, toggle]) => toggle.checked = true);
@@ -172,7 +151,6 @@ require_once('../../libs/functions.inc.php');
         denyButton.addEventListener('click', e => {
             e.preventDefault();
             toggles.marketing.checked = false;
-            toggles.external.checked = false;
             cookiesettings.deleteAll();
 
             // Simulate click on accept settings to trigger save function
@@ -195,8 +173,8 @@ require_once('../../libs/functions.inc.php');
             cookiesettings.set('cookiesettings', cookiesettings.settingsValue, 365);
 
             // Load tracking if consent is given
-            if (cookiesettings.hasConsent('marketing') || cookiesettings.hasConsent('external'))
-                loadLazyTracking();
+            if (cookiesettings.hasConsent('marketing'))
+                loadTracking();
 
             // Callback of modal
             cb();
