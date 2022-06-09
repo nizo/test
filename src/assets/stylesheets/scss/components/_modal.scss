@@ -254,6 +254,8 @@ body.callone-modal--scrolllock {
             top: 30px;
             bottom: 30px;
             max-height: calc(100% - 30px);
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
 
         &__header {
