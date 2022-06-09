@@ -29,6 +29,7 @@
         "encode": true,
         "animateValue": true,
         "nextSibling": true,
-        "loadLazyTracking": true
+        "loadTracking": true,
+        "cookiesettings": true
     }
 }

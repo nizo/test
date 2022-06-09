@@ -110,8 +110,8 @@
 
         <p>
             <strong>(6) Widerruf der Einwilligung</strong><br>
-            Wenn Sie eine Aufzeichnung nicht wünschen, können Sie eine Aufzeichnung auf allen Webseiten, die Mouseflow einsetzen, global für Ihren gerade verwendeten Browser unter folgendem Link deaktivieren: <a class="openModal trackedElement inline-link" data-label="Cookie-Einstellungen Datenschutzseite" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner" title="Mouseflow-/Marketing-Einstellungen ändern">Cookie-Einstellungen</a>.<br>
-            Dabei wird ein Modal geöffnet. Dort können Sie unter individuelle Einstellungen den Bereich Marketing deaktivieren. Dabei wird ein Opt-out-Cookie(cookiebanner-accepted) auf Ihrem Gerät installiert. Damit wird die Erfassung durch Mouseflow für diese Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.
+            Wenn Sie eine Aufzeichnung nicht wünschen, können Sie eine Aufzeichnung auf allen Webseiten, die Mouseflow einsetzen, global für Ihren gerade verwendeten Browser unter folgendem Link deaktivieren: <a href="#" class="inline-link" data-openmodal="cookie-settings" title="Mouseflow-/Marketing-Einstellungen ändern">Cookie-Einstellungen</a>.<br>
+            Dabei wird ein Modal geöffnet. Dort können Sie unter individuelle Einstellungen den Bereich Marketing deaktivieren. Dabei wird ein Opt-out-Cookie(cookiesettings) auf Ihrem Gerät installiert. Damit wird die Erfassung durch Mouseflow für diese Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.
         </p>
 
         <p>

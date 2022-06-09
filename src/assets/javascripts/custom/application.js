@@ -444,9 +444,4 @@ document.addEventListener('DOMContentLoaded', function() {
             handleResize();
         });
     });
-
-    // Load Tracking Code depending on cookie
-    let trackingCookie = getCookie('cookiebanner-accepted');
-    if (trackingCookie && trackingCookie > 100 || trackingCookie == 1)
-        loadLazyTracking();
 });

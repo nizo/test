@@ -65,7 +65,7 @@
                     <a href="/kontakt">Kontakt</a><br />
                     <a href="https://status.callone.de" target="_blank" rel="noreferrer">Systemstatus</a><br />
                     <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
-                        <a class="openModal trackedElement" data-label="Cookie-Einstellungen Footer" data-category="Link" data-action="Edit Cookie-Config" data-modal="cookiebanner">Cookie-Einstellungen</a>
+                        <a href="#" data-openmodal="cookie-settings">Cookie-Einstellungen</a>
                     <?php endif; ?>
                 </p>
             </div>
@@ -165,6 +165,9 @@
                 <a href="/datenschutz">Datenschutz</a>
                 <a href="/download">Downloads</a>
                 <a href="/downloads/agb.pdf" target="_blank">AGB</a>
+                <?php if ((empty ($_SERVER['HTTP_USER_AGENT'])) || (!isCrawler ($_SERVER['HTTP_USER_AGENT']))): ?>
+                    <a href="#" data-openmodal="cookie-settings">Cookie-Einstellungen</a>
+                <?php endif; ?>
             </div>
         </div>
     </div>

@@ -220,6 +220,14 @@ class Modal {
             ]);
         }
         this.modalWrapper.appendChild(this.modalHeader);
+        if (this.modal.getAttribute('data-no-header') || this.activeStep && this.activeStep.getAttribute('data-no-header'))
+            this.modalHeader.classList.add(this.classPrefix + '__header--hide');
+    }
+
+    updateModalHeader() {
+        this.modalHeader.classList.remove(this.classPrefix + '__header--hide');
+        if (this.activeStep.hasAttribute('data-no-header'))
+            this.modalHeader.classList.add(this.classPrefix + '__header--hide');
     }
 
     createModalCloseButton() {
@@ -237,13 +245,19 @@ class Modal {
             this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext');
         this.modalCloseButton.addEventListener('click', this.closeModal.bind(this));
         this.modalHeader.appendChild(this.modalCloseButton);
+        if (this.modal.getAttribute('data-no-cancel') || this.activeStep && this.activeStep.getAttribute('data-no-cancel'))
+            this.modalCloseButton.classList.add(this.classPrefix + '__headerbutton--hidden');
     }
 
     updateModalCloseButton() {
-        if (this.modalCloseButton)
+        if (this.modalCloseButton) {
+            this.modalCloseButton.classList.remove(this.classPrefix + '__headerbutton--hidden');
             this.modalCloseButton.textContent = this.modal.getAttribute('data-canceltext') || this.defaultClosetext;
             if (this.activeStep && this.activeStep.hasAttribute('data-canceltext'))
                 this.modalCloseButton.textContent = this.activeStep.getAttribute('data-canceltext');
+            if (this.modal.getAttribute('data-no-cancel') || this.activeStep && this.activeStep.getAttribute('data-no-cancel'))
+                this.modalCloseButton.classList.add(this.classPrefix + '__headerbutton--hidden');
+        }
     }
 
     createModalTitle() {
@@ -355,9 +369,13 @@ class Modal {
                 this.classPrefix + '__headerbutton--hidden'
             ]);
         }
-        this.modalStepbackButton.textContent = 'Schritt zurück';
+        this.modalStepbackButton.textContent = this.activeStep.getAttribute('data-back-button-label') || this.modal.getAttribute('data-back-button-label') || 'Schritt zurück';
         this.modalStepbackButton.addEventListener('click', this.prevStep.bind(this));
         this.modalHeader.appendChild(this.modalStepbackButton);
+    }
+
+    updateGoBackButton() {
+        this.modalStepbackButton.textContent = this.activeStep.getAttribute('data-back-button-label') || this.modal.getAttribute('data-back-button-label') || 'Schritt zurück';
     }
 
     createModalSteptitle() {
@@ -509,6 +527,12 @@ class Modal {
         // Hide all steps and show active steps
         this.showActiveStep();
 
+        // Update modal header
+        this.updateModalHeader();
+
+        // Update back button
+        this.updateGoBackButton();
+
         // Adjust close button
         this.updateModalCloseButton();
 
@@ -533,7 +557,11 @@ class Modal {
         e.preventDefault();
         if (e.target.hasAttribute('data-step-callback') && typeof window[e.target.getAttribute('data-step-callback')] === 'function') {
             // Execute passed callback function (located in modal file)
-            window[e.target.dataset.stepCallback](e, this.nextStep.bind(this, e));
+            if (e.target.hasAttribute('data-close-after-callback')) {
+                window[e.target.dataset.stepCallback](e, this.closeModal.bind(this));
+            } else {
+                window[e.target.dataset.stepCallback](e, this.nextStep.bind(this, e));
+            }
         } else {
             // If no callback function is passed go to next step
             this.nextStep(e);

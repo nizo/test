@@ -11,59 +11,6 @@ buttons.forEach(button => {
 	});
 });
 
-let urlQuery = window.location.search;
-let params = new URLSearchParams(urlQuery);
-if (!params.has('no-banner') && checkCookie('cookiebanner-accepted') === false) {
-	// Show cookiebanner after 1000 second if no yet accepted and URL does not include "?no-banner"
-	var x = setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-}
-
-eventListener('click', '.cookieSubmit', (e) => {
-	e.preventDefault();
-	let button = e.target.closest('.cookieSubmit');
-	var checkCode = 100;
-	if (button.classList.contains('full')) {
-		checkCode = 111;
-	} else {
-		if (document.querySelector('#CookieConf input#marketing').parentNode.classList.contains('checked'))
-			checkCode += 10;
-		if (document.querySelector('#CookieConf input#extern').parentNode.classList.contains('checked'))
-			checkCode += 1;
-	}
-	if (checkCode > 100) {
-		loadLazyTracking();
-	}
-	setCookie('cookiebanner-accepted', checkCode, 365);
-	/* Set Cookie für Role selection */
-	if (!checkCookie('co_role'))
-		setCookie('co_role', '001', 365); //000 default value (it-leiter)
-	
-	hideModal('cookiebanner', 'slideDown');
-	hideModal('cookiebanner-config', 'slideDown');
-});
-
-eventListener('click', '.cookieDeny', (e) => {
-	e.preventDefault();
-	setCookie('cookiebanner-accepted', 100, 365);
-	/* Set Cookie für Role selection */
-	if (!checkCookie('co_role'))
-		setCookie('co_role', '001', 365); //000 default value (it-leiter)
-	
-	hideModal('cookiebanner', 'slideDown');
-	hideModal('cookiebanner-config', 'slideDown');
-	deleteAllCookies();
-});
-
-eventListener('click', '.cookieConf', (e) => {
-	hideModal('cookiebanner', 'slideToggle');
-	setTimeout(function() { displayModal('cookiebanner-config'); }, 1000);
-});
-
-eventListener('click', '.cookieBanner', (e) => {
-	hideModal('cookiebanner-config', 'slideToggle');
-	setTimeout(function() { displayModal('cookiebanner'); }, 1000);
-});
-
 window.onload = function() {
 	var paramModal = urlHasParam("om", null);
 	if(paramModal != null)

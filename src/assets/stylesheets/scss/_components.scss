@@ -33,7 +33,7 @@
 
     &__toc {
         position: fixed;
-        top: 0;
+        top: var(--navigationHeight);
         left: 0;
         height: 100vh;
         min-width: 300px;

@@ -24,6 +24,31 @@ body.callone-modal--scrolllock {
         display: flex;
     }
 
+    &--cookiebanner {
+        --modal-maxwidth: 600px;
+
+        .callone-modal__wrapper {
+            position: relative;
+            // background-image: url(../images/backgrounds_svg/cookiebanner-background.svg);
+            // background-position: center bottom;
+            // background-size: 100% auto;
+            // background-repeat: no-repeat;
+
+            &:before {
+                content: "";
+                position: absolute;
+                background-image: url(../images/icons_svg/animation/robot-with-cookie.svg);
+                left: 0;
+                top: 50%;
+                width: calc(120px * 2);
+                height: calc(150px * 2);
+                display: block;
+                transform: translate(-59%, -50%);
+                z-index: -1;
+            }
+        }
+    }
+
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -44,6 +69,9 @@ body.callone-modal--scrolllock {
         border-bottom: 2px solid rgba(#000, 0.2);
         min-height: 91px;
         order: 1;
+    }
+    &__header--hide {
+        display: none;
     }
 
     &__headerbutton {
@@ -225,13 +253,14 @@ body.callone-modal--scrolllock {
             right: 0;
             top: 30px;
             bottom: 30px;
-            max-height: initial;
-            // max-height: calc(100% - 60px);
-            // border-radius: 10px 10px 0 0;
+            max-height: calc(100% - 30px);
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
 
         &__header {
-            //min-height: calc(32px + 50px); // Button Height
+            padding: var(--gutter-xs);
+            min-height: 60px;
         }
 
         &__content {
@@ -243,7 +272,9 @@ body.callone-modal--scrolllock {
             width: 32px;
             height: 32px;
             padding: 0;
+            left: var(--gutter-xs);
             text-indent: -9999px; // Hide text
+
             &:before {
                 top: 50%;
                 left: 50%;
@@ -256,6 +287,8 @@ body.callone-modal--scrolllock {
             height: 32px;
             padding: 0;
             text-indent: -9999px; // Hide text
+            right: var(--gutter-xs);
+
             &:before, &:after {
                 left: 50%;
             }
@@ -268,9 +301,12 @@ body.callone-modal--scrolllock {
         }
 
         &__footer {
+            padding: var(--gutter-xs);
+
             .btn {
                 width: 100%;
                 text-align: center;
+                font-size: 12px;
             }
         }
     }

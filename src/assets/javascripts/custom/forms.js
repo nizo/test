@@ -61,7 +61,7 @@ eventListener('click', '.button-bottom > button', e => {
 		wishlist.forEach(val => {
 			note2.innerHTML += '<li>'+val+'</li>';
 		});
-		setCookie('wishlist', '1', 90);
+		cookiesettings.set('wishlist', '1', 90);
 		slideDown(document.querySelector('#wishlist'), 300);
 	} else {
 		window.localStorage.removeItem('wishlist');
