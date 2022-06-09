@@ -12,7 +12,7 @@ $uniqueID = uniqid();
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--4-sm"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="5">
+                <div class="btn btn--tile callone-modal__nextstep trackedContactCallback" data-next-step="5">
                     <div class="btn--tile__ribbon">Sofort</div>
                     <div class="btn--tile__title">
                         <?= pictureTag(
@@ -31,7 +31,7 @@ $uniqueID = uniqid();
             
             <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="2">
+                <div class="btn btn--tile callone-modal__nextstep trackedContactForm" data-next-step="2">
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-mail.svg',
@@ -46,7 +46,7 @@ $uniqueID = uniqid();
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep" data-next-step="3">
+                <div class="btn btn--tile callone-modal__nextstep trackedContactCalendly" data-next-step="3">
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-calendar.svg',
