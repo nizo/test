@@ -108,7 +108,7 @@ $faqs->faq_add (
 
                 <div class="tablist__link" id="omnichannel" data-tab="2" data-sticky-text="Omnichannel" style="--bg:#fff;">
                     <?= pictureTag(
-                        '/assets/images/icons_svg/sent-out-white.svg',
+                        '/assets/images/icons_svg/sent-out-black.svg',
                         'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
                         48, 48, [
                             'class' => 'mobile-hidden'
