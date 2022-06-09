@@ -6,7 +6,8 @@ class Cookie {
         };
         this.settingsValue = parseInt(this.get('cookiesettings')) || 0;
 
-        loadTracking();
+        if (this.hasConsent('marketing'))
+            loadTracking();
     }
 
     hasConsent(flag) {
