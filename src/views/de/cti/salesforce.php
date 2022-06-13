@@ -66,7 +66,7 @@
                     ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--vcentered">
-                    <h2>Automate Reportings</h3>
+                    <h2>Automate Reportings</h2>
                     <h3>Create reportings of your calls in Salesforce</h3>
                     <p>The call journal tracks all incoming calls automatically. Furthermore, you can create custom reportings, e.g. concerning the times your agents spent on the phone.</p>
                 </div>
