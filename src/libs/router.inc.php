@@ -429,6 +429,12 @@ Router::add('/voip-telefonanlagen-funktionen', 'voip-telefonanlagen-funktionen.p
     'meta_description' => 'Alle Funktionen im Überblick, vergleichen Sie und unsere Customer Success Manager helfen Ihnen bei der Auswahl ihres perfekten Settings. Rufen Sie uns an!',
     'og_image_text' => 'VoIP-Telefonanlage Funktionen im Vergleich '.date('Y')
 ]);
+Router::add('/workforce', 'workforce.php', [
+    'shorttitle' => 'Workforce',
+    'title' => 'Workforce',
+    'meta_description' => '',
+    'og_image_text' => 'Workforce'
+]);
 Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
     'shorttitle' => 'Zendesk CTI',
     'title' => 'CallOne Zendesk Integration',
