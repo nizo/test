@@ -471,42 +471,6 @@ require_once('banderole.php');
                     <div class="navigation__link">
                         <a href="/blog/">Blog</a>
                     </div>
-
-                    <?php /*
-                    <div class="navigation__submenu submenu">
-                        <div class="submenu__inner">
-                            <div class="submenu__left">
-                                <div class="submenu__row">
-                                    <div class="submenu__column submenu__column--border-right" style="--col-width:300px">
-                                        <a href="/blog/" title="Startseite CallOne Blog  - Alles zu den Themen Callcenter-Software und VoIP-Telefonie" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Alle Artikel</strong>
-                                                <p>Übersicht aller<br />Artikel und Beiträge</p>
-                                            </div>
-                                        </a>
-                                        <a href="/blog/category/aktuelles/" title="Aktuelle Artikel und Beiträge" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Aktuelles</strong>
-                                                <p>Die aktuellen<br />Artikel und Beiträge</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="submenu__column" style="--col-width:300px">
-                                        <a href="/blog/category/know-how/" title="Know-how - Wissen zum Thema Telefonie" class="submenu__link">
-                                            <div class="submenu__link-text">
-                                                <strong>Know-how</strong>
-                                                <p>Wissen zum<br />Thema Telefonie</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="submenu__right">
-                                
-                            </div> -->
-                        </div>
-                    </div>
-                    */ ?>
                 </li>
             <?php endif; ?>
 
