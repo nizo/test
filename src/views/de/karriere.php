@@ -31,7 +31,6 @@ $jobs = jobs_load();
                     );
                     echo "</div>";
                     echo "<a href='".$job->url_get()."' class='job-list__item-info'><small>".$job->quickinfo_get()."</small><br />".$job->title_get()."</a>";
-                    //echo "<div class='job-list__item-action'><a href='".$job->url_get()."' class='btn btn--border-black btn--nowrap'>Job anschauen</a></div>";
                     echo "</div>";
                 }
                 ?>

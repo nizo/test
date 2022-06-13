@@ -23,245 +23,230 @@ $faqs->faq_add (
 ?>
 
 <div class="section">
-  <div class="section__content section__content--wide">
-    <header class="main-header">
-      <div class="text no-padding">
-        <h1>Freshdesk Callcenter-Software Connector</h1>
-        <p class="primary">Verbinden Sie das Ticketingtool Freshdesk und CallOne auf Knopfdruck und pushen Sie Tickets in Echtzeit zu Ihren Agenten.</p>
-        <nav class="site-nav shadowbox">
-       		<ul class="menu">
-      			<li>
-      				<a href="#beispiel" class="arrow">Beispiel</a>
-      			</li>
-      			<li>
-      				<a href="#funktionen" class="arrow">Funktionen</a>
-      			</li>
-      			<li>
-      				<a href="#faq" class="arrow" target="_blank">FAQ</a>
-      			</li>
-      		</ul>	
-        </nav>
-      </div>
-      <div class="media animation relative">
-        <div id="lottie" class="freshdesk"></div>
-        <script src="/assets/animations/svg/freshdesk.js"></script>
-      </div>
+    <header class="hero">
+        <div class="hero__text">
+            <h1>Freshdesk Callcenter-Software Connector</h1>
+            <p class="bigtext">Verbinden Sie das Ticketingtool Freshdesk und CallOne auf Knopfdruck und pushen Sie Tickets in Echtzeit zu Ihren Agenten.</p>
+        </div>
+        <div class="hero__image">
+            <div id="lottie"></div>
+            <script src="/assets/animations/svg/freshdesk.js"></script>
+        </div>
     </header>
-  </div>
-</div>
 
-<div class="wrapper" id="beispiel">
-  <div class="content narrow">
-    <div class="shadow-box padding">
-      
-      <div class="grid">
-        <div class="col-2">
-          <?= pictureTag(
-            '/assets/images/icons_svg/small_37_2.svg',
-            'Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector',
-            380, 367
-          ); ?>
+    <div class="anchors">
+        <div class="anchors__title">
+            <strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
         </div>
-        <div class="col-2">
-        	<h2>VoIP-Telefonanlage mit Freshdesk</h2>
-        	<ul class="list approved-list">
-              	<li><strong>Ticketing und Telefonie werden eins</strong> im Kundenservice. In Echtzeit erhalten Ihre Agenten den Anruf und das Ticket öffnet sich in Freshdesk.</li>
-              	<li><strong>Zielgerichtetes Vorgehen</strong> Ihrer Agenten wird durch Zuordnung bereits geöffneter Tickets zu einem Kunden gewährleistet.</li>
-              	<li><strong>Schnellere Fallbearbeitung</strong>. Nutzen Sie die Vielfalt von Korrespondenz- und Interaktionsmöglichkeiten, die Freshdesk für Ihr Team bietet.</li>
-              </ul>
+        <div class="anchors__links">
+            <a href="#beispiel">Beispiel</a>
+            <a href="#funktionen">Funktionen</a>
+            <a href="#faq" target="_blank">FAQ</a>
         </div>
-      </div>    
     </div>
-  </div>
 </div>
 
-<div class="wrapper breather">
-  <div class="content narrow small">
-  	<div class="grid">
-  		<div class="col-1">
-        <?= pictureTag(
-          '/assets/images/icons_svg/small_07_2_2_white.svg',
-          'Mehr Inforamtionen zu unserer Freshdesk Integration Callcenter Connector auf dem Freshworks Marketplace',
-          70, 52, [
-            'class' => 'icon'
-          ]
-        ); ?>
-  		</div>	
-  	</div>
-    <h2 class="h1">Erfahren Sie mehr über unseren Freshdesk Callcenter Connector</h2>
-    <div class="button-set">
-      <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="button primary trackedElement" data-label="Button - Freshworks Marketplace" data-category="Link" data-action="linked to Freshworks Marketplace" title="Zum Freshworks Marketplace - Call Center Connector for Voice Ticket Integration" >Freshworks Marketplace</a>
-    </div>
-  </div>
-</div>
-
-<div class="wrapper" id="funktionen">
-  <div class="content wide centered">
-      <div class="grid">
-        <div class="col-4">
-          <?= pictureTag(
-            '/assets/images/icons_svg/small_04.svg',
-            'Einfache Integration',
-            70, 67, [
-              'class' => 'icon'
-            ]
-          ); ?>
-          <h3>Einfach</h3>
-          <ul class="list approved-list">
-          	<li>Keine Programmierkenntnisse für Anbindung erforderlich</li>
-          	<li>Kundeninformationen und vergangenen Events beim eingehenden Anruf</li> 
-			<li>Kein Upgrade von Freshdesk notwendig</li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <?= pictureTag(
-            '/assets/images/icons_svg/small_20.svg',
-            'Intuitive Bedienung',
-            70, 55, [
-              'class' => 'icon'
-            ]
-          ); ?>
-          <h3>Intuitiv</h3>
-		  <ul class="list approved-list">
-		  	<li>Bequeme Web-Administration von Agenten und Freshdesk-Usern</li>
-			<li>Agent erhält neues Ticket automatisch in gewohnter Freshdesk-Umgebung</li> 
-			<li>Intuitive, webbasierte Agentenmaske mit Telefonfunktion</li>
-		  </ul>          
-        </div>
-        <div class="col-4">
-          <?= pictureTag(
-            '/assets/images/icons_svg/small_06.svg',
-            'Alle Auswertungen auf einen Blick',
-            70, 70, [
-              'class' => 'icon'
-            ]
-          ); ?>
-          <h3>Relevant</h3>
-          <ul class="list approved-list">
-		  	<li>Kundeninformationen und vergangenen Events beim eingehenden Anruf</li> 
-			<li>Callcenter-Software in ihren Supportdesk integriert</li> 
-			<li>Umfangreiche Statistikreportings</li>
-		  </ul>   
-        </div>
-        <div class="col-4">
-          <?= pictureTag(
-            '/assets/images/icons_svg/small_02.svg',
-            'Skalierbar',
-            70, 69, [
-              'class' => 'icon'
-            ]
-          ); ?>
-          <h3>Skalierbar</h3>
-          <ul class="list approved-list">
-		  	<li>Beliebig viele Freshdesk-Agenten administrierbar</li>
-			<li>Einbindung von Heimarbeitsplätzen möglich</li> 
-			<li>Gleicher Preis unabhängig der Anzahl von Freshdesk-Usern</li>
-		  </ul>   
-        </div>
-      </div>  
-  </div>
-   <div class="content thin centered">
-    <div class="button-set centered">
-      <a href="#" class="button primary trackedContactModal" data-openmodal="contact-sales">Jetzt mit Experten sprechen</a>
-    </div>
-  </div>
-</div>
-
-<div class="wrapper breather" id="Tableau-Telefonkonnektor">
-  <div class="content narrow left small">
-	<h2 class="h1 centered">Freshdesk Telefon Connector</h2>
-  	<div class="grid parallel">
-        <div class="col-2">
-        	<div class="image primary">
-            <?= pictureTag(
-              '/assets/images/icons_svg/small_18_white.svg',
-              'Inkrementelle Datenaktualisierung',
-              69, 50, [
-                'class' => 'icon'
-              ]
-            ); ?>
-        	</div>
-        	<div class="text">
-    			<p>Caller-Ticket erstellen</p>
-			</div>
-        </div>
-        <div class="col-2">
-        	<div class="image primary">
-            <?= pictureTag(
-              '/assets/images/icons_svg/small_15_2_white.svg',
-              'Tableau Server fähig',
-              69, 50, [
-                'class' => 'icon'
-              ]
-            ); ?>
-        	</div>
-        	<div class="text">
-    			<p>Statusänderung des Tickets</p>
-    		</div>
-        </div>
-        <div class="col-2">
-        	<div class="image secondary-2">
-            <?= pictureTag(
-              '/assets/images/icons_svg/small_29_white.svg',
-              'Import via Webdata Connector',
-              69, 50, [
-                'class' => 'icon'
-              ]
-            ); ?>
-        	</div>
-        	<div class="text">
-    			<p>Mobile Nutzung möglich</p>
-    		</div>	
-        </div>
-        <div class="col-2">
-        	<div class="image secondary-2">
-            <?= pictureTag(
-              '/assets/images/icons_svg/small_32_white.svg',
-              'Flexible Anfragezeiträume',
-              69, 50, [
-                'class' => 'icon'
-              ]
-            ); ?>
-        	</div>
-        	<div class="text">
-    			<p>Weltweit nutzbar</p>
-    		</div>	
-        </div>
-      </div>
-  </div>
-</div>
-
-<div class="wrapper" id="faq">
-  <div class="content wide mobileNoPadding">
-    <h3 class="h1 centered">FAQ Freshdesk Callcenter Software</h3>
-    
-	<?php
-    $faqs->structured_data_get_code ();
-    $faqs->html_get_code ();
-    ?>
-
-    <p></p>
-	
-    <div class="button-set centered">
-		<a href="/faq/" class="button primary trackedElement" data-label="Button - Mehr FAQ" data-category="Link" data-action="linked to /faq/">Mehr FAQ</a>
-	</div>  
-  </div>
-</div>
-
-<div class="wrapper background-black" id="blog">
-  <div class="content narrow">
-    <h2 class="h1 centered">Neues aus unserem Blog</h2>
-    <div class="shadow-box">
-    	<div class="image-grid blog">
-            <div class="image">
-              <div class="bgimage image3"></div>
+<div class="section section--light-green" id="beispiel">
+    <div class="section__content section__content--wide">
+        <div class="content-box content-box--white content-box--full-width content-box--shadow">
+            <div class="co-grid">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_37_2.svg',
+                        'Ticketing und Telefonie werden eins - Freshdesk Callcenter software - Connector',
+                        380, 367
+                    ); ?>
+                </div>
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
+                    <h2>VoIP-Telefonanlage mit Freshdesk</h2>
+                    <ul class="list list--checkmarks list--checkmarks-green">
+                        <li><strong>Ticketing und Telefonie werden eins</strong> im Kundenservice. In Echtzeit erhalten Ihre Agenten den Anruf und das Ticket öffnet sich in Freshdesk.</li>
+                        <li><strong>Zielgerichtetes Vorgehen</strong> Ihrer Agenten wird durch Zuordnung bereits geöffneter Tickets zu einem Kunden gewährleistet.</li>
+                        <li><strong>Schnellere Fallbearbeitung</strong>. Nutzen Sie die Vielfalt von Korrespondenz- und Interaktionsmöglichkeiten, die Freshdesk für Ihr Team bietet.</li>
+                    </ul>
+                </div>
             </div>
-        	<div class="text">
-                <span class="date">8. März 2019</span>
-                <h3>Callcenter-Software: Frequently Asked Questions</h3>
-                <p>Eine Callcenter-Software ist ein Telefoniesystem für den Einsatz in Contact Centern oder Sales- und Supportabteilungen und bietet spezielle Funktionen und Möglichkeiten, um ein großes Anrufvolumen effizient abzuwickeln, Anrufer weiterzuleiten und Kunden am Telefon optimal zu unterstützen... <a href="/blog/callcenter-software-faq/" title="Zum Artikel: Callcenter-Software: Frequently Asked Questions">zum Artikel</a></p>
-        	</div>
         </div>
     </div>
-  </div>
+</div>
+
+<div class="section section--black">
+    <div class="section__content section__content--narrow centered mobile-left">
+        <?= pictureTag(
+            '/assets/images/icons_svg/small_07_2_2_white.svg',
+            'Mehr Inforamtionen zu unserer Freshdesk Integration Callcenter Connector auf dem Freshworks Marketplace',
+            70, 52
+        ); ?>
+        <h2>Erfahren Sie mehr über unseren Freshdesk Callcenter Connector</h2>
+        <p class="btn-set btn-set--centered">
+            <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--primary" title="Zum Freshworks Marketplace - Call Center Connector for Voice Ticket Integration" >Freshworks Marketplace</a>
+        </p>
+    </div>
+</div>
+
+<div class="section" id="funktionen">
+    <div class="section__content section__content--wide">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md">
+                <p class="centered mobile-left">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_04.svg',
+                        'Einfache Integration',
+                        67, 64, [
+                            'style' => 'height:64px'
+                        ]
+                    ); ?>
+                </p>
+                <h3 class="centered mobile-left">Einfach</h3>
+                <ul class="list list--checkmarks list--checkmarks-top">
+                    <li>Keine Programmierkenntnisse für Anbindung erforderlich</li>
+                    <li>Kundeninformationen und vergangenen Events beim eingehenden Anruf</li> 
+                    <li>Kein Upgrade von Freshdesk notwendig</li>
+                </ul>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md">
+                <p class="centered mobile-left">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_20.svg',
+                        'Intuitive Bedienung',
+                        81, 64, [
+                            'style' => 'height:64px'
+                        ]
+                    ); ?>
+                </p>
+                <h3 class="centered mobile-left">Intuitiv</h3>
+                <ul class="list list--checkmarks list--checkmarks-top">
+                    <li>Bequeme Web-Administration von Agenten und Freshdesk-Usern</li>
+                    <li>Agent erhält neues Ticket automatisch in gewohnter Freshdesk-Umgebung</li> 
+                    <li>Intuitive, webbasierte Agentenmaske mit Telefonfunktion</li>
+                </ul>          
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md">
+                <p class="centered mobile-left">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_06.svg',
+                        'Alle Auswertungen auf einen Blick',
+                        64, 64, [
+                            'style' => 'height:64px'
+                        ]
+                    ); ?>
+                </p>
+                <h3 class="centered mobile-left">Relevant</h3>
+                <ul class="list list--checkmarks list--checkmarks-top">
+                    <li>Kundeninformationen und vergangenen Events beim eingehenden Anruf</li> 
+                    <li>Callcenter-Software in ihren Supportdesk integriert</li> 
+                    <li>Umfangreiche Statistikreportings</li>
+                </ul>   
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--3-md">
+                <p class="centered mobile-left">
+                    <?= pictureTag(
+                        '/assets/images/icons_svg/small_02.svg',
+                        'Skalierbar',
+                        65, 64, [
+                            'style' => 'height:64px'
+                        ]
+                    ); ?>
+                </p>
+                <h3 class="centered mobile-left">Skalierbar</h3>
+                <ul class="list list--checkmarks list--checkmarks-top">
+                    <li>Beliebig viele Freshdesk-Agenten administrierbar</li>
+                    <li>Einbindung von Heimarbeitsplätzen möglich</li> 
+                    <li>Gleicher Preis unabhängig der Anzahl von Freshdesk-Usern</li>
+                </ul>   
+            </div>
+        </div>  
+        
+        <p class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt mit Experten sprechen</a>
+        </p>
+    </div>
+</div>
+
+<div class="section section--black" id="Tableau-Telefonkonnektor">
+    <div class="section__content section__content--narrow">
+		<h2 class="centered mobile-left">Freshdesk Telefon Connector</h2>
+
+        <div class="co-grid">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--vcentered">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_18_white.svg',
+                            'Inkrementelle Datenaktualisierung',
+                            69, 50
+                        ); ?>
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+						<div class="left-border">
+                            <h3>Caller-Ticket erstellen</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--vcentered">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_15_2_white.svg',
+                            'Tableau Server fähig',
+                            69, 50
+                        ); ?>
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+						<div class="left-border">
+                            <h3>Statusänderung des Tickets</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--vcentered">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_29_white.svg',
+                            'Import via Webdata Connector',
+                            69, 50
+                        ); ?>
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+						<div class="left-border">
+                            <h3>Mobile Nutzung möglich</h3>
+                        </div>	
+                    </div>	
+                </div>	
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+				<div class="co-grid">
+					<div class="co-grid__col co-grid__col--vcentered">
+                        <?= pictureTag(
+                            '/assets/images/icons_svg/small_32_white.svg',
+                            'Flexible Anfragezeiträume',
+                            69, 50
+                        ); ?>
+                    </div>
+                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+						<div class="left-border">
+                            <h3>Weltweit nutzbar</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--black" id="faq">
+    <div class="section__content">
+        <h2 class="centered mobile-left">FAQ Freshdesk Callcenter Software</h2>
+        
+        <?php
+        $faqs->structured_data_get_code ();
+        $faqs->html_get_code ('toggle-box--on-black');
+        ?>
+        
+        <p class="btn-set btn-set--centered">
+            <a href="/faq/" class="btn btn--primary">Mehr FAQ</a>
+        </p>  
+    </div>
 </div>

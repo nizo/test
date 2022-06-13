@@ -92,8 +92,8 @@
             			</div>
             		</div>
             		<p>&nbsp;</p>
-            		<div class="button-set centered">
-                    	<a href="/callcenter-software-funktionen" class="button secondary trackedElement" data-label="Button Header - Alle Funktionen" data-category="Link" data-action="linked to /callcenter-software-funktionen" target="_blank" title="Alle Funktionen">Alle Funktionen</a>
+            		<div class="btn-set btn-set--centered">
+                    	<a href="/callcenter-software-funktionen" class="btn btn--primary trackedElement" data-label="Button Header - Alle Funktionen" data-category="Link" data-action="linked to /callcenter-software-funktionen" target="_blank" title="Alle Funktionen">Alle Funktionen</a>
                     </div>
         		</div>
         		
@@ -323,8 +323,8 @@
             			</div>
                 	</div>
                 	<p>&nbsp;</p>
-            		<div class="button-set centered">
-                    	<a href="/callcenter-software-integrationen" class="button secondary trackedElement" target="_blank" data-label="Button Header - APPS & API" data-category="Link" data-action="linked to /callcenter-software-integrationen" title="APPS und API">APPS & API</a>
+            		<div class="btn-set btn-set--centered">
+                    	<a href="/callcenter-software-integrationen" class="btn btn--primary trackedElement" target="_blank" data-label="Button Header - APPS & API" data-category="Link" data-action="linked to /callcenter-software-integrationen" title="APPS und API">APPS & API</a>
                     </div>
             	</div>
             	<div class="" id="schnittstellen">
@@ -397,8 +397,8 @@
             			</div>
                 	</div>
                 	<p>&nbsp;</p>
-            		<div class="button-set centered">
-                    	<a href="https://connect.callone.io/api/rest/" class="button secondary trackedElement" target="_blank" data-label="Button Header - CallOne Schnittstellen" data-category="Link" data-action="linked to https://connect.callone.io/api/rest/" title="Schnittstellen">CallOne Schnittstellen</a>
+            		<div class="btn-set btn-set--centered">
+                    	<a href="https://connect.callone.io/api/rest/" class="btn btn--primary trackedElement" target="_blank" data-label="Button Header - CallOne Schnittstellen" data-category="Link" data-action="linked to https://connect.callone.io/api/rest/" title="Schnittstellen">CallOne Schnittstellen</a>
                     </div>
             	</div>
             	<div id="preise">

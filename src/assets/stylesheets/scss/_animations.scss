@@ -121,161 +121,26 @@
 		
 		@media screen and (max-width: 340px) {
 			&.visible {
-				&.home {
-		  			background-image: url("/assets/images/illus/homepage300.gif");
-		  		}
-		  		&.business {
-		  			background-image: url("/assets/images/illus/Business300.gif");
-		  		}
-		  		&.sales {
-		  			background-image: url("/assets/images/illus/Sales300.gif");
-		  		}
-		  		&.service {
-		  			background-image: url("/assets/images/illus/Kundenservice300.gif");
-		  		}
-		  		&.karriere {
-		  			background-image: url("/assets/images/illus/Karriere300.gif");
-		  		}
-		  		&.preis {
-		  			background-image: url("/assets/images/illus/Preisanfrage300.gif");
-		  		}
-		  		background-position: center top +40px;
-			}
-		}
-		@media screen and (max-width: 425px) and (min-width: 340px) {
-			&.visible {
-				&.home {
-		  			background-image: url("/assets/images/illus/homepage385.gif");
-		  		}
-		  		&.business {
-		  			background-image: url("/assets/images/illus/Business385.gif");
-		  		}
-		  		&.sales {
-		  			background-image: url("/assets/images/illus/Sales385.gif");
-		  			background-position: center top;
-		  			background-size: 88%;
-		  		}
-		  		&.service {
-		  			background-image: url("/assets/images/illus/Kundenservice385.gif");
-		  			background-position: center top;
-		  			background-size: 88%;
-		  		}
-		  		&.karriere {
-		  			background-image: url("/assets/images/illus/Karriere385.gif");
-		  		}
-		  		&.preis {
-		  			background-image: url("/assets/images/illus/Preisanfrage385.gif");
-		  		}
+				background-position: center top +40px;
 			}
 		}
 		@media screen and (max-width: 490px) and (min-width: 425px) {
 			&.visible {
-				&.home {
-		  			background-image: url("/assets/images/illus/homepage450.gif");
-		  		}
-		  		&.business {
-		  			background-image: url("/assets/images/illus/Business450.gif");
-		  			background-size: 88%;
-		  		}
-		  		&.sales {
-		  			background-image: url("/assets/images/illus/Sales450.gif");
-		  			background-size: 80%;
-		  		}
-		  		&.service {
-		  			background-image: url("/assets/images/illus/Kundenservice450.gif");
-		  			background-size: 80%;
-		  		}
-		  		&.karriere {
-		  			background-image: url("/assets/images/illus/Karriere450.gif");
-		  		}
-		  		&.preis {
-		  			background-image: url("/assets/images/illus/Preisanfrage450.gif");
-		  		}
-		  		background-size: 89%;
-		  		background-position: center top;
+				background-size: 89%;
+				background-position: center top;
 			}
 		}
 		@media screen and (max-width: 800px) and (min-width: 490px) {
-			&.visible {
-				&.home {
-		  			background-image: url("/assets/images/illus/homepage560.gif");
-		  		}
-		  		&.business {
-		  			background-image: url("/assets/images/illus/Business560.gif");
-		  			background-size: 370px;
-		  		}
-		  		&.sales {
-		  			background-image: url("/assets/images/illus/Sales560.gif");
-		  			background-size: 335px;
-		  		}
-		  		&.service {
-		  			background-image: url("/assets/images/illus/Kundenservice560.gif");
-		  			background-size: 330px;
-		  		}
-		  		&.karriere {
-		  			background-image: url("/assets/images/illus/Karriere560.gif");
-		  			background-size: 380px;
-		  		}
-		  		&.preis {
-		  			background-image: url("/assets/images/illus/Preisanfrage560.gif");
-		  			background-size: 360px;
-		  		}
-			}
 			background-size: 425px;
 		}
 		@media screen and (max-width: 800px) and (min-width: 556px) {
 			background-size: 480px;
-			&.visible {
-				&.business,  &.sales, &.service, &.karriere, &.preis {
-					background-size: 425px;
-	  			}
-	  		}
 		}
 		@media screen and (max-width: 830px) and (min-width: 801px) {
-			&.visible {
-				&.home {
-		  			background-image: url("/assets/images/illus/homepage300.gif");
-		  		}
-				&.business {
-		  			background-image: url("/assets/images/illus/Business300.gif");
-		  		}
-		  		&.sales {
-		  			background-image: url("/assets/images/illus/Sales300.gif");
-		  		}
-		  		&.service {
-		  			background-image: url("/assets/images/illus/Kundenservice300.gif");
-		  		}
-		  		&.karriere {
-		  			background-image: url("/assets/images/illus/Karriere300.gif");
-		  		}
-		  		&.preis {
-		  			background-image: url("/assets/images/illus/Preisanfrage300.gif");
-		  		}
-			}
 			background-position: center center;
 			background-size: contain;
 		}
 		@media screen and (max-width: 1024px) and (min-width: 831px) {
-			&.visible {
-				&.home {
-		  			background-image: url("/assets/images/illus/homepage385.gif");
-		  		}
-		  		&.business {
-		  			background-image: url("/assets/images/illus/Business385.gif");
-		  		}
-		  		&.sales {
-		  			background-image: url("/assets/images/illus/Sales385.gif");
-		  		}
-		  		&.service {
-		  			background-image: url("/assets/images/illus/Kundenservice385.gif");
-		  		}
-		  		&.karriere {
-		  			background-image: url("/assets/images/illus/Karriere385.gif");
-		  		}
-		  		&.preis {
-		  			background-image: url("/assets/images/illus/Preisanfrage385.gif");
-		  		}
-			}
 			background-position: center center;
 			background-size: contain;
 		}
@@ -289,87 +154,13 @@
 		width: 100%;
 		height: 100%;
 		min-height: 500px;
-	    max-height: 500px;
-	    margin-bottom: -$gutter-l;
+		max-height: 500px;
+		margin-bottom: -$gutter-l;
 	}
 	
 	@media screen and (max-width: 555px) {
 		min-height: 400px;
-	    max-height: 400px;
-		 margin-bottom: -$gutter-l;
+		max-height: 400px;
+		margin-bottom: -$gutter-l;
 	}
-}
-
-.grid {
-	.animation {
-		#lottie {
-			z-index: 0;
-		}
-	}
-}
-
-#lottie {
-    width: 161%;
-    height: 180%;
-    display: block;
-    position: absolute;
-    left: -29%;
-    top: -63%;
-    z-index: -1;
-	svg {
-		width: 100%;
-		height: 100%;
-		display: block;
-		position: relative;
-	}
-	&.calltracking, &.freshdesk {
-	    width: 100%;
-	    height: auto;
-	    position: relative;
-	    left: 0;
-	    top: 0;
-	    z-index: 1;
-	}
-	&.freshdesk {
-		left: 20px;
-	}
-	&.business {
-		width: 125%;
-	    height: 140%;
-	    left: -17%;
-	    top: -20%;
-	}
-	
-	@media screen and (max-width: 800px) {
-	   	width: 120%;
-	    height: 120%;
-	    left: -10%;
-	    top: calc(-10% - 80px);
-	    max-width: 120%;
-	    
-	    &.business {
-	        width: 100%;
-		    height: 100%;
-		    left: 0;
-		    top: -$gutter-m;
-		    max-width: 100%;
-    	}
-    	
-    	&.freshdesk {
-	        width: 63%;
-		    max-width: 100%;
-		    margin-top: $gutter-s;
-		    margin-bottom: $gutter-l;
-		    left: 0;
-    	}
-	}
-	
-	@media screen and (max-width: 555px) {
-		&.business {
-    		top: -$gutter-l;
-    	}
-    	&.freshdesk {
-	        width: 70%;
-    	}
-    }
 }

@@ -375,6 +375,7 @@
         }
         &:disabled, &[disabled] {
             background-color: $color-primary;
+            opacity: 0.5;
             color: currentColor;
             cursor: not-allowed;
         }

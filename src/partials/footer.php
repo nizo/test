@@ -95,7 +95,7 @@
                 <a href="tel:+493092033500">030 920 33 500</a><br />
                 <a href="mailto:kontakt@callone.de">kontakt@callone.de</a>
             </p>
-            <div class="button-set centered">
+            <div class="btn-set btn-set--centered">
                 <button class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">FÜR DEMO ANMELDEN</button>
             </div>
         </div>

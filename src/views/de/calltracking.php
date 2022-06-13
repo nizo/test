@@ -333,8 +333,8 @@ $faqs->faq_add (
 		<br />
 		<br />
 
-		<p class="centered">
-			<a href="/faq/" class="btn btn--primary trackedElement" data-label="Button - Mehr FAQ" data-category="Link" data-action="linked to /faq/category/telefonanlage/">Weitere FAQ</a>
+		<p class="btn-set btn-set--centered">
+			<a href="/faq/" class="btn btn--primary">Weitere FAQ</a>
 		</p>  
 	</div>
 </div>

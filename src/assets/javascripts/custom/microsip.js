@@ -42,8 +42,9 @@ document.addEventListener("DOMContentLoaded", function()
 			return;
 		}
 
-		sipsubmit.style.display = 'none';
+		sipsubmit.setAttribute('disabled', true);
 		siphint.innerHTML = 'Bitte warten, Download wird generiert...';
+		siphint.classList.add('floating-form__hint--active');
 
 		let postUrl = 'https://connect.callone.io/backend/microsip/ajax.php';
 		let postData = new FormData();
@@ -80,13 +81,15 @@ document.addEventListener("DOMContentLoaded", function()
 			}
 			else
 			{	siphint.innerHTML = 'Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.';
-				sipsubmit.style.display = 'block';
+				sipsubmit.setAttribute('disabled');
 			}
 		})
 		.catch(error => {
 			console.error (JSON.stringify (error));
 			siphint.innerHTML = 'Bitte prüfen Sie ihre Anmeldedaten.<br/>Sind diese korrekt, kontaktieren Sie bitte den CallOne Support.';
-			sipsubmit.style.display = 'block';
+			sipsubmit.removeAttribute('disabled');
 		});
+
+		return false;
 	});
 });

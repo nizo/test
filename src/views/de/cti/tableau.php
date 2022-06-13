@@ -357,8 +357,8 @@ $faqs->faq_add (
                 <span class="sl sl-consultation sl-size-xl topIcon white desktop-hidden"></span>
                 <strong class="h3">Persönliche <span class="light">Beratung</span></strong>
                 <p>Wir melden uns zeitnah bei Ihnen per Telefon oder E-Mail zurück, beraten Sie und erstellen Ihnen gerne ein unverbindliches Angebot.</p>
-                <div class="button-set">
-                    <a href="#" class="button primary trackedContactModal" data-openmodal="contact-sales">Jetzt Angebot anfordern</a>
+                <div class="btn-set btn-set--centered">
+                    <a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Jetzt Angebot anfordern</a>
                 </div>  
             </div>
         </div>
