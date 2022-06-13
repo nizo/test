@@ -10,33 +10,39 @@ $uniqueID = uniqid();
     <div class="callone-modal__step" data-step-id="1" data-next-step="2" data-steptitle="Bewerbung">
         <h2 class="centered">Wie möchtest du dich auf diesen Job bewerben?</h2>
 
-        <div class="radio-select">
-            <div class="radio-select__item callone-modal__nextstep" data-next-step="2">
-                <div>
-                    <div class="radio-select__title">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--1-sm"></div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm">
+                <div class="btn btn--tile callone-modal__nextstep trackedContactForm" data-next-step="2">
+                    <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/application-fast.svg',
                             'Schnellbewerbung',
-                            70, 70
+                            32, 32, [
+                                'style' => 'max-width:32px;'
+                            ]
                         ); ?>
-                        <h3>Schnellbewerbung</h3>
+                        <h3>Schnell-<br />bewerbung</h3>
                     </div>
-                    <p>via LinkedIn/Xing/Portfolio-Link</p>
+                    <p>via LinkedIn, Xing <br />oder Portfolio-Link</p>
                 </div>
             </div>
-            <div class="radio-select__item callone-modal__nextstep" data-next-step="4">
-                <div>
-                    <div class="radio-select__title">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm">
+                <div class="btn btn--tile callone-modal__nextstep trackedContactCalendly" data-next-step="4">
+                    <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/application-normal.svg',
                             'Klassische Bewerbung',
-                            70, 70
+                            32, 32, [
+                                'style' => 'max-width:32px;'
+                            ]
                         ); ?>
                         <h3>Klassische Bewerbung</h3>
                     </div>
-                    <p>Bewerbungsdateien hochladen</p>
+                    <p>Bewerbungsdateien<br />hochladen</p>
                 </div>
             </div>
+            <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--1-sm"></div>
         </div>
     </div>
 
