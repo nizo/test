@@ -117,6 +117,13 @@ require_once('banderole.php');
                                     </a>
 
                                     <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-warteschleifen.png',
+                                                'Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife',
+                                                51, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>Warteschleifen</strong>
                                             <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
@@ -124,6 +131,13 @@ require_once('banderole.php');
                                     </a>
 
                                     <a href="/statistiken" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/statistiken') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-statistiken.png',
+                                                'Passgenaue Auswertungen für optimale Planbarkeit',
+                                                51, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>Statistiken und Echtzeitanalysen</strong>
                                             <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
