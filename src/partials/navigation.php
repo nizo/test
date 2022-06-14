@@ -116,17 +116,17 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/softphone" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/softphone') ?>">
-                                        <div class="submenu__link-icon">
-                                            <?= pictureTag(
-                                                '/assets/images/navigation/menu-softphone.png',
-                                                'VoIP Telefonie mit dem CallOne Softphone',
-                                                50, 50
-                                            ) ?>
-                                        </div>
+                                    <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
                                         <div class="submenu__link-text">
-                                            <strong>VoIP-Softphone</strong>
-                                            <p>Softphone integriert in Ihren Lieblingsbrowser</p>
+                                            <strong>Warteschleifen</strong>
+                                            <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/statistiken" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/statistiken') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Statistiken und Echtzeitanalysen</strong>
+                                            <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
                                         </div>
                                     </a>
                                 </div>
@@ -253,20 +253,6 @@ require_once('banderole.php');
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/telefonanlage-mit-warteschleife" class="submenu__link<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
-                                        <div class="submenu__link-text">
-                                            <strong>Warteschleifen</strong>
-                                            <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
-                                        </div>
-                                    </a>
-
-                                    <a href="/statistiken" class="submenu__link<?= getPageActiveClass('/statistiken') ?>">
-                                        <div class="submenu__link-text">
-                                            <strong>Statistiken und Echtzeitanalysen</strong>
-                                            <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
-                                        </div>
-                                    </a>
-
                                     <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
                                         <div class="submenu__link-text">
                                             <strong>Call-Tracking</strong>
