@@ -267,6 +267,13 @@ require_once('banderole.php');
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:330px;">
+                                    <a href="/workforce" class="submenu__link<?= getPageActiveClass('/workforce') ?>">
+                                        <div class="submenu__link-text">
+                                            <strong>Workforce</strong>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                        </div>
+                                    </a>
+
                                     <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
                                         <div class="submenu__link-text">
                                             <strong>Call-Tracking</strong>
