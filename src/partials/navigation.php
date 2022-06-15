@@ -265,18 +265,32 @@ require_once('banderole.php');
                                         </div>
                                     </a>
                                 </div>
-                                <div class="submenu__column" style="--col-width:330px;">
+                                <div class="submenu__column" style="--col-width:350px;">
                                     <a href="/workforcemanagement" class="submenu__link<?= getPageActiveClass('/workforcemanagement') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-statistiken.png',
+                                                'Smarte Schichtpläne, Vorhersagen von Anrufaufkommen und Auslesen der Reportings',
+                                                50, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>
-                                                Workforcemanagement
+                                                Workforce
                                                 <span class="submenu__link-tag">NEU</span>
                                             </strong>
-                                            <p>Smarte Schichtpläne, Vorhersagen von Anrufaufkommen und Auslesen der Reportings</p>
+                                            <p>Schichtpläne, Vorhersagen von Anrufaufkommen und Reportings</p>
                                         </div>
                                     </a>
 
                                     <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-calltracking.png',
+                                                'Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession',
+                                                50, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>Call-Tracking</strong>
                                             <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
@@ -284,9 +298,16 @@ require_once('banderole.php');
                                     </a>
 
                                     <a href="/voip-api" class="submenu__link<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-apis.png',
+                                                'API first, von Entwicklern - für Entwickler',
+                                                50, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>Schnittstellen für jede Anforderung</strong>
-                                            <p>API first, von Entwicklern - für Entwickler</p>
+                                            <p>API für Entwickler</p>
                                         </div>
                                     </a>
                                 </div>
