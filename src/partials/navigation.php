@@ -229,7 +229,6 @@ require_once('banderole.php');
                                         <div class="submenu__link-text">
                                             <strong>
                                                 Sprachanalyse
-                                                <span class="submenu__link-tag">NEU</span>
                                             </strong>
                                             <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
                                         </div>
@@ -269,7 +268,10 @@ require_once('banderole.php');
                                 <div class="submenu__column" style="--col-width:330px;">
                                     <a href="/workforce" class="submenu__link<?= getPageActiveClass('/workforce') ?>">
                                         <div class="submenu__link-text">
-                                            <strong>Workforce</strong>
+                                            <strong>
+                                                Workforce
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
                                             <p>Lorem ipsum dolor sit.</p>
                                         </div>
                                     </a>
