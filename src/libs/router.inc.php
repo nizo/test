@@ -201,8 +201,8 @@ Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.9'
 ]);
-Router::add('/workforce', 'workforce.php', [
-    'shorttitle' => 'Workforce',
+Router::add('/workforcemanagement', 'workforcemanagement.php', [
+    'shorttitle' => 'Workforcemanagement',
     'title' => 'Workforcemanagement',
     'meta_description' => 'Mit Workforcemanagement endlich Seelenfrieden für Ihr Contact Center: Smarte Schichtpläne, zielsichere Vorhersagen von Anrufaufkommen und einfaches Auslesen der Reportings',
     'og_image_text' => 'Workforcemanagement für den Seelen-__frieden in Ihrem Contact Center'

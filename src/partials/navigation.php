@@ -266,13 +266,13 @@ require_once('banderole.php');
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/workforce" class="submenu__link<?= getPageActiveClass('/workforce') ?>">
+                                    <a href="/workforcemanagement" class="submenu__link<?= getPageActiveClass('/workforcemanagement') ?>">
                                         <div class="submenu__link-text">
                                             <strong>
-                                                Workforce
+                                                Workforcemanagement
                                                 <span class="submenu__link-tag">NEU</span>
                                             </strong>
-                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Smarte Schichtpläne, Vorhersagen von Anrufaufkommen und Auslesen der Reportings</p>
                                         </div>
                                     </a>
 
