@@ -56,7 +56,7 @@ $faqs->faq_add (
         </div>
         <div class="hero__image">
             <?= pictureTag(
-                '',
+                '/assets/images/illus/workforce-hero.png',
                 'Alt Text',
                 null, null, [], false
             ); ?>
@@ -87,9 +87,9 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <p class="centered">
                     <?= pictureTag(
-                        '',
-                        'Icon',
-                        null, null
+                        '/assets/images/icons_svg/icon-prognose.svg',
+                        'Akkurate Prognosen',
+                        64, 64
                     ); ?>
                 </p>
                 <h3>Akkurate Prognosen</h3>
@@ -98,9 +98,9 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <p class="centered">
                     <?= pictureTag(
-                        '',
-                        'Icon',
-                        null, null
+                        '/assets/images/icons_svg/icon-calendar.svg',
+                        'Optimale Zeitpläne',
+                        64, 64
                     ); ?>
                 </p>
                 <h3>Optimale Zeitpläne</h3>
@@ -109,9 +109,9 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <p class="centered">
                     <?= pictureTag(
-                        '',
-                        'Icon',
-                        null, null
+                        '/assets/images/icons_svg/icon-trend.svg',
+                        'Echtzeit Adherence',
+                        64, 64
                     ); ?>
                 </p>
                 <h3>Echtzeit Adherence</h3>
@@ -135,7 +135,7 @@ $faqs->faq_add (
         <div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <?= pictureTag(
-					'',
+					'/assets/images/illus/workforce-forecast.png',
 					'Illu',
 					569, 526, [
 						'class' => 'co-grid__image--full-width'
@@ -184,7 +184,7 @@ $faqs->faq_add (
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <?= pictureTag(
-                    '',
+                    '/assets/images/illus/workforce-schedule.png',
                     'Illu',
                     569, 526, [
                         'class' => 'co-grid__image--full-width'
@@ -199,7 +199,7 @@ $faqs->faq_add (
         <div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <?= pictureTag(
-					'',
+					'/assets/images/illus/workforce-adherence.png',
 					'Illu',
 					569, 526, [
 						'class' => 'co-grid__image--full-width'
@@ -249,7 +249,7 @@ $faqs->faq_add (
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <?= pictureTag(
-                    '',
+                    '/assets/images/illus/workforce-acd.png',
                     'Illu',
                     569, 526, [
                         'class' => 'co-grid__image--full-width'
