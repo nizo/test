@@ -203,9 +203,9 @@ Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
 ]);
 Router::add('/workforce', 'workforce.php', [
     'shorttitle' => 'Workforce',
-    'title' => 'Workforce',
-    'meta_description' => '',
-    'og_image_text' => 'Workforce'
+    'title' => 'Workforcemanagement',
+    'meta_description' => 'Mit Workforcemanagement endlich Seelenfrieden für Ihr Contact Center: Smarte Schichtpläne, zielsichere Vorhersagen von Anrufaufkommen und einfaches Auslesen der Reportings',
+    'og_image_text' => 'Workforcemanagement für den Seelen-__frieden in Ihrem Contact Center'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
     'shorttitle' => 'Schnittstellen',
