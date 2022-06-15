@@ -154,7 +154,7 @@ Router::add('/statistiken', 'statistiken.php', [
     'title' => 'Call Center Software Statistiken | KPI, SLA mit BI-Integration',
     'meta_description' => 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.',
     'og_image_text' => 'Call Center Software Statistiken, KPI, SLA, BI-Integration',
-    'menu_position' => 'loesungen',
+    'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
 ]);
 Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife.php', [
@@ -162,7 +162,7 @@ Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife
     'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
     'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
     'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
-    'menu_position' => 'loesungen',
+    'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
 ]);
 
@@ -205,7 +205,9 @@ Router::add('/workforcemanagement', 'workforcemanagement.php', [
     'shorttitle' => 'Workforcemanagement',
     'title' => 'Workforcemanagement',
     'meta_description' => 'Mit Workforcemanagement endlich Seelenfrieden für Ihr Contact Center: Smarte Schichtpläne, zielsichere Vorhersagen von Anrufaufkommen und einfaches Auslesen der Reportings',
-    'og_image_text' => 'Workforcemanagement für den Seelen-__frieden in Ihrem Contact Center'
+    'menu_position' => 'loesungen',
+    'og_image_text' => 'Workforcemanagement für den Seelenfrieden in Ihrem Contact Center',
+    'sitemap_priority' => '0.9'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
     'shorttitle' => 'Schnittstellen',
