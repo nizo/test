@@ -57,8 +57,8 @@ $faqs->faq_add (
         <div class="hero__image">
             <?= pictureTag(
                 '/assets/images/illus/workforce-hero.png',
-                'Alt Text',
-                null, null, [], false
+                'Smarte Schichtpläne, zielsichere Vorhersagen von Anrufaufkommen und einfaches Auslesen der Reportings',
+                465, 465, [], false
             ); ?>
         </div>
     </div>
@@ -136,7 +136,7 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <?= pictureTag(
 					'/assets/images/illus/workforce-forecast.png',
-					'Illu',
+					'Wenig Aufwand, super transparente Vorausplanung',
 					569, 526, [
 						'class' => 'co-grid__image--full-width'
 					]
@@ -185,7 +185,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <?= pictureTag(
                     '/assets/images/illus/workforce-schedule.png',
-                    'Illu',
+                    'Optimale Schichtplanung für Ihr Contact Center',
                     569, 526, [
                         'class' => 'co-grid__image--full-width'
                     ]
@@ -200,7 +200,7 @@ $faqs->faq_add (
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <?= pictureTag(
 					'/assets/images/illus/workforce-adherence.png',
-					'Illu',
+					'Mit datenbasierten Entscheidungen das Contact Center im Griff',
 					569, 526, [
 						'class' => 'co-grid__image--full-width'
 					]
@@ -244,13 +244,13 @@ $faqs->faq_add (
                 
                 <div class="btn-set btn-set--centered">
                     <a href="#" class="btn btn--primary centered trackedContactModal" data-openmodal="contact-sales">Zum kostenlosen<br />Beratungsgespräch</a>
-                    <a href="#todo" class="btn btn--secondary centered">Mehr über<br />ACD erfahren</a>
+                    <a href="/callcenter-software" class="btn btn--secondary centered">Mehr über<br />ACD erfahren</a>
                 </div>
 			</div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <?= pictureTag(
                     '/assets/images/illus/workforce-acd.png',
-                    'Illu',
+                    'Seelenfrieden für Sales & Service: Dank Cloud ACD mit WFM Anbindung haben Sie alles im Griff',
                     569, 526, [
                         'class' => 'co-grid__image--full-width'
                     ]
