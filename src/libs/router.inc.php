@@ -206,7 +206,7 @@ Router::add('/workforcemanagement', 'workforcemanagement.php', [
     'title' => 'Workforcemanagement',
     'meta_description' => 'Mit Workforcemanagement endlich Seelenfrieden für Ihr Contact Center: Smarte Schichtpläne, zielsichere Vorhersagen von Anrufaufkommen und einfaches Auslesen der Reportings',
     'menu_position' => 'loesungen',
-    'og_image_text' => 'Workforcemanagement für den Seelenfrieden in Ihrem Contact Center',
+    'og_image_text' => 'Workforcemanagement für den Seelen-__frieden in Ihrem Contact__Center',
     'sitemap_priority' => '0.9'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
