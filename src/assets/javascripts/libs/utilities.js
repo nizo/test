@@ -42,70 +42,84 @@ function scrollToOffset(offset, callback = null) {
 /*
  * Slide Animations
  */
-let slideUp = (target, duration=500) => {
-    target.style.transitionProperty = 'height, margin, padding';
-    target.style.transitionDuration = duration + 'ms';
-    target.style.boxSizing = 'border-box';
-    target.style.height = target.offsetHeight + 'px';
-    target.offsetHeight = null;
-    target.style.overflow = 'hidden';
-    target.style.height = 0;
-    target.style.paddingTop = 0;
-    target.style.paddingBottom = 0;
-    target.style.marginTop = 0;
-    target.style.marginBottom = 0;
-    window.setTimeout( () => {
-        target.style.display = 'none';
-        target.style.removeProperty('height');
-        target.style.removeProperty('padding-top');
-        target.style.removeProperty('padding-bottom');
-        target.style.removeProperty('margin-top');
-        target.style.removeProperty('margin-bottom');
-        target.style.removeProperty('overflow');
-        target.style.removeProperty('transition-duration');
-        target.style.removeProperty('transition-property');
-    }, duration);
-};
+function slideDown(el, dur = 300) {
+    console.log('Slide Down');
+    el.style.display = 'block';
+    let computed = window.getComputedStyle(el);
+    let finalHeight = el.offsetHeight;
+    el.style.height = '0px';
+    el.style.boxSizing = 'border-box';
+    el.style.overflow = 'hidden';
+    el.style.paddingTop = '0px';
+    el.style.paddingBottom = '0px';
+    el.style.marginTop = '0px';
+    el.style.marginBottom = '0px';
+    el.style.transitionProperty = 'height, paddingBottom, paddingTop, marginTop, marginBottom';
+    el.style.transitionTimingFunction = 'linear';
+    el.style.transitionDuration = dur + 'ms';
+    setTimeout(() => {
+        el.style.height = finalHeight + 'px';
+        el.style.paddingTop = computed.paddingTop;
+        el.style.paddingBottom = computed.paddingBottom;
+        el.style.marginTop = computed.marginTop;
+        el.style.marginBottom = computed.marginBottom;
+    }, 1);
+    setTimeout(() => {
+        el.style.overflow = '';
+        el.style.boxSizing = '';
+        el.style.transitionProperty = '';
+        el.style.transitionDuration = '';
+        el.style.transitionTimingFunction = '';
+        el.style.height = '';
+        el.style.paddingTop = '';
+        el.style.paddingBottom = '';
+        el.style.marginTop = '';
+        el.style.marginBottom = '';
+    }, dur);
+}
 
-let slideDown = (target, duration=500) => {
-    target.style.removeProperty('display');
-    let display = window.getComputedStyle(target).display;
+function slideUp(el, dur = 300) {
+    console.log('Slide Up');
+    let computed = window.getComputedStyle(el);
+    el.style.overflow = 'hidden';
+    el.style.boxSizing = 'border-box';
+    el.style.transitionProperty = 'height, paddingTop, paddingBottom, marginTop, marginBottom';
+    el.style.transitionTimingFunction = 'linear';
+    el.style.paddingTop = computed.paddingTop;
+    el.style.paddingBottom = computed.paddingBottom;
+    el.style.marginTop = computed.marginTop;
+    el.style.marginBottom = computed.marginBottom;
+    el.style.height = el.offsetHeight + 'px';
+    el.style.transitionDuration = dur + 'ms';
+    setTimeout(() => {
+        el.style.height = '0px';
+        el.style.paddingTop = '0px';
+        el.style.paddingBottom = '0px';
+        el.style.marginTop = '0px';
+        el.style.marginBottom = '0px';
+    }, 1);
+    setTimeout(() => {
+        el.style.display = 'none';
+        el.style.height = '';
+        el.style.overflow = '';
+        el.style.boxSizing = '';
+        el.style.transitionProperty = '';
+        el.style.transitionDuration = '';
+        el.style.transitionTimingFunction = '';
+        el.style.paddingTop = '';
+        el.style.paddingBottom = '';
+        el.style.marginTop = '';
+        el.style.marginBottom = '';
+    }, dur);
+}
 
-    if (display === 'none')
-        display = 'block';
-
-    target.style.display = display;
-    let height = target.offsetHeight;
-    target.style.overflow = 'hidden';
-    target.style.height = 0;
-    target.style.paddingTop = 0;
-    target.style.paddingBottom = 0;
-    target.style.marginTop = 0;
-    target.style.marginBottom = 0;
-    target.offsetHeight = null;
-    target.style.boxSizing = 'border-box';
-    target.style.transitionProperty = "height, margin, padding";
-    target.style.transitionDuration = duration + 'ms';
-    target.style.height = height + 'px';
-    target.style.removeProperty('padding-top');
-    target.style.removeProperty('padding-bottom');
-    target.style.removeProperty('margin-top');
-    target.style.removeProperty('margin-bottom');
-    window.setTimeout( () => {
-        target.style.removeProperty('height');
-        target.style.removeProperty('overflow');
-        target.style.removeProperty('transition-duration');
-        target.style.removeProperty('transition-property');
-    }, duration);
-};
-
-let slideToggle = (target, duration = 500) => {
-    if (window.getComputedStyle(target).display === 'none') {
-        return slideDown(target, duration);
+function slideToggle(el, dur = 300) {
+    if (window.getComputedStyle(el).display == 'none') {
+        slideDown(el, dur);
     } else {
-        return slideUp(target, duration);
+        slideUp(el, dur);
     }
-};
+}
 
 /*
  * Fading Animations
