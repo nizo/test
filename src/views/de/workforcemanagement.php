@@ -45,7 +45,7 @@ $faqs->faq_add (
 );
 ?>
 
-<div class="section section--colored" style="--bg:#05989822">
+<div class="section section--colored-gradient" style="--bg1:#05989822;--bg2:#05989800;">
     <div class="hero">
         <div class="hero__text">
             <h1>Mit Workforce&shy;management endlich Seelenfrieden für Ihr Contact Center:</h1>
@@ -76,7 +76,7 @@ $faqs->faq_add (
 	</div>
 </div>
 
-<div class="section section--colored-gradient" id="overview" style="--bg1:#05989822;--bg2:#05989800;">
+<div class="section" id="overview">
     <div class="section__content section__content--narrow">
         <h2 class="centered mobile-left">Perfekte Schichtplanung leicht gemacht! Mit dem WFM Zusatzmodul für Ihre Callcenter Software.</h2>
         <p class="centered mobile-left bigtext">Historische Daten direkt aus Ihrer Callcenter Software sorgen für zielgerichtete Schichtpläne. So steigern Sie die Effizienz und Effektivität in Ihrem Contact Center. Für zufriedene Agenten und zufriedene Kunden. Innerhalb von Minuten erstellen Sie den perfekten Plan.</p>
