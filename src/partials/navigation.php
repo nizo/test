@@ -279,7 +279,7 @@ require_once('banderole.php');
                                                 Workforce
                                                 <span class="submenu__link-tag">NEU</span>
                                             </strong>
-                                            <p>Schichtpläne, Vorhersagen von Anrufaufkommen und Reportings</p>
+                                            <p>Echtzeit Adherence und Prognosen für ideale Schichtpläne</p>
                                         </div>
                                     </a>
 
