@@ -116,17 +116,31 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/softphone" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/softphone') ?>">
+                                    <a href="/telefonanlage-mit-warteschleife" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
-                                                '/assets/images/navigation/menu-softphone.png',
-                                                'VoIP Telefonie mit dem CallOne Softphone',
-                                                50, 50
+                                                '/assets/images/navigation/menu-warteschleifen.png',
+                                                'Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife',
+                                                51, 50
                                             ) ?>
                                         </div>
                                         <div class="submenu__link-text">
-                                            <strong>VoIP-Softphone</strong>
-                                            <p>Softphone integriert in Ihren Lieblingsbrowser</p>
+                                            <strong>Warteschleifen</strong>
+                                            <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/statistiken" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/statistiken') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-statistiken.png',
+                                                'Passgenaue Auswertungen für optimale Planbarkeit',
+                                                51, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Statistiken und Echtzeitanalysen</strong>
+                                            <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
                                         </div>
                                     </a>
                                 </div>
@@ -215,7 +229,6 @@ require_once('banderole.php');
                                         <div class="submenu__link-text">
                                             <strong>
                                                 Sprachanalyse
-                                                <span class="submenu__link-tag">NEU</span>
                                             </strong>
                                             <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
                                         </div>
@@ -252,22 +265,32 @@ require_once('banderole.php');
                                         </div>
                                     </a>
                                 </div>
-                                <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/telefonanlage-mit-warteschleife" class="submenu__link<?= getPageActiveClass('/telefonanlage-mit-warteschleife') ?>">
-                                        <div class="submenu__link-text">
-                                            <strong>Warteschleifen</strong>
-                                            <p>Bessere Erreichbarkeit mit zeitgest. Rückruf und virtueller Warteschleife</p>
+                                <div class="submenu__column" style="--col-width:350px;">
+                                    <a href="/workforcemanagement" class="submenu__link<?= getPageActiveClass('/workforcemanagement') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-statistiken.png',
+                                                'Smarte Schichtpläne, Vorhersagen von Anrufaufkommen und Auslesen der Reportings',
+                                                50, 50
+                                            ) ?>
                                         </div>
-                                    </a>
-
-                                    <a href="/statistiken" class="submenu__link<?= getPageActiveClass('/statistiken') ?>">
                                         <div class="submenu__link-text">
-                                            <strong>Statistiken und Echtzeitanalysen</strong>
-                                            <p>Passgenaue Auswertungen für optimale Planbarkeit</p>
+                                            <strong>
+                                                Workforce
+                                                <span class="submenu__link-tag">NEU</span>
+                                            </strong>
+                                            <p>Echtzeit Adherence und Prognosen für ideale Schichtpläne</p>
                                         </div>
                                     </a>
 
                                     <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-calltracking.png',
+                                                'Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession',
+                                                50, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>Call-Tracking</strong>
                                             <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
@@ -275,9 +298,16 @@ require_once('banderole.php');
                                     </a>
 
                                     <a href="/voip-api" class="submenu__link<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-apis.png',
+                                                'API first, von Entwicklern - für Entwickler',
+                                                50, 50
+                                            ) ?>
+                                        </div>
                                         <div class="submenu__link-text">
                                             <strong>Schnittstellen für jede Anforderung</strong>
-                                            <p>API first, von Entwicklern - für Entwickler</p>
+                                            <p>API für Entwickler</p>
                                         </div>
                                     </a>
                                 </div>

@@ -1,7 +1,7 @@
 <?php
 function prepareOgImageText($text) {
     $text = str_replace(' ', '_', $text);
-    $text = preg_replace('/[^a-zA-Z0-9_]/', '-', $text);
+    $text = preg_replace('/[^a-zA-Z0-9_üöäÖÄÜ]/', '-', $text);
     return $text;
 }
 

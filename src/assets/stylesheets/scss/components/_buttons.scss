@@ -288,9 +288,9 @@
 	flex-wrap: wrap;
 	align-items: center;
 	margin-top: var(--gutter-m);
-	margin-left: calc(-1 * var(--gutter-xs));
+	// margin-left: calc(-1 * var(--gutter-xs));
 	margin-bottom: calc(var(--gutter-m) - var(--gutter-xs));
-	width: calc(100% + (var(--gutter-xs) * 2));
+	// width: calc(100% + (var(--gutter-xs) * 2));
 
 	&--centered {
 		justify-content: center;

@@ -149,11 +149,19 @@ Router::add('/ms-teams', 'ms-teams.php', [
     'og_image_text' => 'Ihre Unternehmens-__telefonie in Microsoft-Teams',
     'sitemap_priority' => '0.9'
 ]);
-Router::add('/softphone', 'softphone.php', [
-    'shorttitle' => 'Softphone',
-    'title' => 'Softphone: VoIP Telefon im Browser integriert',
-    'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
-    'og_image_text' => 'VoIP Telefon im Browser integriert',
+Router::add('/statistiken', 'statistiken.php', [
+    'shorttitle' => 'Statistiken',
+    'title' => 'Call Center Software Statistiken | KPI, SLA mit BI-Integration',
+    'meta_description' => 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.',
+    'og_image_text' => 'Call Center Software Statistiken, KPI, SLA, BI-Integration',
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.8'
+]);
+Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife.php', [
+    'shorttitle' => 'Smarte Warteschleifen',
+    'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
+    'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
+    'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
     'menu_position' => 'produkte',
     'sitemap_priority' => '0.8'
 ]);
@@ -193,21 +201,13 @@ Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.9'
 ]);
-Router::add('/statistiken', 'statistiken.php', [
-    'shorttitle' => 'Statistiken',
-    'title' => 'Call Center Software Statistiken | KPI, SLA mit BI-Integration',
-    'meta_description' => 'CallOne liefert eine Call Center Software mit dem vielleicht umfänglichsten Angebot an statistischen Auswertungsmöglichkeiten. Wallboards, Tabellen, Einzelverbindungen, Anrufgründe Rohdaten und vieles mehr stehen in Echtzeit zur Verfügung.',
-    'og_image_text' => 'Call Center Software Statistiken, KPI, SLA, BI-Integration',
+Router::add('/workforcemanagement', 'workforcemanagement.php', [
+    'shorttitle' => 'Workforcemanagement',
+    'title' => 'Workforce Management fürs Contact Center',
+    'meta_description' => 'Einsatzpläne, Schichtpläne und Termine auf Basis von Datenanalysen planen. Mit Workforce Management Ihr Contact Center einfach und optimal aufstellen.',
     'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.8'
-]);
-Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife.php', [
-    'shorttitle' => 'Smarte Warteschleifen',
-    'title' => 'Cloud Telefonanlage mit virtueller Warteschleife',
-    'meta_description' => 'Telefonanlage mit vielzähligen Funktionen rund um Ihre Warteschleifen: virtuelle Warten, eigene Warteschleifenmusik, kostenfreier Rückruf und Ansage der Wartedauer',
-    'og_image_text' => 'Cloud Telefonanlage mit virtueller Warteschleife',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.8'
+    'og_image_text' => 'Workforcemanagement für den Seelen-__frieden in Ihrem Contact__Center',
+    'sitemap_priority' => '0.9'
 ]);
 Router::add('/voip-api', 'voip-api.php', [
     'shorttitle' => 'Schnittstellen',
@@ -416,6 +416,14 @@ Router::add('/salesforce', 'salesforce.php', [
     'title' => 'Salesforce Integration',
     'meta_description' => 'Salesforce Integration für Ihre Callcenter Software. Die CallOne CTI App für Salesforce Lightning & Classis.',
     'og_image_text' => 'Salesforce'
+]);
+Router::add('/softphone', 'softphone.php', [
+    'shorttitle' => 'Softphone',
+    'title' => 'Softphone: VoIP Telefon im Browser integriert',
+    'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
+    'og_image_text' => 'VoIP Telefon im Browser integriert',
+    'menu_position' => 'produkte',
+    'sitemap_priority' => '0.8'
 ]);
 Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'shorttitle' => 'Tableau Connector',
