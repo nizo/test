@@ -266,7 +266,7 @@ require_once('banderole.php');
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:350px;">
-                                    <a href="/workforcemanagement" class="submenu__link<?= getPageActiveClass('/workforcemanagement') ?>">
+                                    <a href="/call-center-workforce-management-software" class="submenu__link<?= getPageActiveClass('/call-center-workforce-management-software') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
                                                 '/assets/images/navigation/menu-statistiken.png',

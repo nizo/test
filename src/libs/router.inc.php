@@ -201,7 +201,7 @@ Router::add('/callcenter-sprachanalyse', 'callcenter-sprachanalyse.php', [
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.9'
 ]);
-Router::add('/workforcemanagement', 'workforcemanagement.php', [
+Router::add('/call-center-workforce-management-software', 'workforcemanagement.php', [
     'shorttitle' => 'Workforcemanagement',
     'title' => 'Workforce Management fürs Contact Center',
     'meta_description' => 'Einsatzpläne, Schichtpläne und Termine auf Basis von Datenanalysen planen. Mit Workforce Management Ihr Contact Center einfach und optimal aufstellen.',
