@@ -43,7 +43,6 @@ function scrollToOffset(offset, callback = null) {
  * Slide Animations
  */
 function slideDown(el, dur = 300) {
-    console.log('Slide Down');
     el.style.display = 'block';
     let computed = window.getComputedStyle(el);
     let finalHeight = el.offsetHeight;
@@ -79,7 +78,6 @@ function slideDown(el, dur = 300) {
 }
 
 function slideUp(el, dur = 300) {
-    console.log('Slide Up');
     let computed = window.getComputedStyle(el);
     el.style.overflow = 'hidden';
     el.style.boxSizing = 'border-box';
