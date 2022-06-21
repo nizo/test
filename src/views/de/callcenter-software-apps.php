@@ -48,7 +48,8 @@ $product->structured_data_get_code ();
     <div class="hero">
         <div class="hero__text">
             <h1>
-                CallOne mit Ihrem CRM &amp; CTI<br>
+                CallOne mit Ihrem <br class="mobile-hidden" />
+                CRM &amp; CTI<br />
                 Ein System, alles drin
             </h1>
             <p class="bigtext">Einmal mit allem, bitte. Ihr CRM- und andere Business-Lösungen sind in Ihre Telefonie integriert. Sie erstellen auf Knopfdruck CTI-Anbindungen.</p>
@@ -157,7 +158,7 @@ $product->structured_data_get_code ();
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.<br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p style="margin-top:var(--gutter-xs)">Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set btn-set--spread">
                         <a href="/zendesk-cti-ticketing" class="btn btn--primary btn--small-padding">Infos</a>
                         <a href="https://www.zendesk.com/marketplace/apps/support/75986/cloud-acd/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
@@ -206,7 +207,7 @@ $product->structured_data_get_code ();
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. <span class="readmore">Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</span></p>
+                    <p style="margin-top:var(--gutter-xs)">Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. <span class="readmore">Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</span><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
                         <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="btn btn--border-black btn--small-padding">Hubspot Blog</a>
                     </p>
@@ -230,7 +231,7 @@ $product->structured_data_get_code ();
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <span class="readmore">Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p style="margin-top:var(--gutter-xs)">Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <span class="readmore">Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
                         <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="btn btn--border-black btn--small-padding">AppExchange</a>
                     </p>
