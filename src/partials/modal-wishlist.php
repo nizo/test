@@ -65,7 +65,7 @@
                         </div>
     				</div>
             		<div class="col-2 box flex space-between">
-            			<div class="inputFields shadow-box padding animate-bottom lazyBackground">
+            			<div class="inputFields shadow-box padding animate-bottom">
                           	<span class="h2">Ihre Wunschliste</span>
                     		<ul class="list approved-list wish-list">
                     		</ul>

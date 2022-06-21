@@ -2,29 +2,6 @@
 	margin-top: var(--gutter-m);
 }
 
-.wrapper {
-	&.teaser {
-		height: 420px; 
-		z-index: 5; 
-		margin-bottom: -120px;
-		@media screen and (max-width: 800px) {
-			margin-bottom: -200px;
-		}
-		
-		@media screen and (max-width: 670px) {
-			margin-bottom: -250px;
-		}
-		
-		@media screen and (max-width: 555px) {
-			margin-bottom: -280px;
-		}
-		
-		@media screen and (max-width: 480px) {
-			margin-bottom: -340px;
-		}
-	}
-}
-
 .video {
 	video {
 		border-radius: 10px;

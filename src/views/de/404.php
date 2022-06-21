@@ -4,7 +4,7 @@
 			Diese Seite konnte <br class="mobile-hidden" />nicht gefunden werden!
 		</h1>
 
-		<div class="content-box content-box--white content-box--full-width content-box--shadow animation-1 lazyBackground">
+		<div class="content-box content-box--white content-box--full-width content-box--shadow animation-1">
 			<h2 class="centered mobile-left">Fehler 404</h2>
 
 			<p>
