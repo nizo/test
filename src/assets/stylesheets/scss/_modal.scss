@@ -56,24 +56,8 @@
 	background-color: rgba(0,0,0,0.6); 
 	text-align: left;
 	
-	&.callback, &.callback-form {
+	&.wishlist {
 		.modal-content {
-			width: 100%;
-			max-width: 960px;
-			.button-set {
-				margin-top: $gutter-s - 5;
-				button {
-					width: 100%;
-				}
-			}
-		}
-	}
-	
-	&.contact, &.wishlist {
-		.modal-content {
-			top: 15%;
-			max-width: 1270px;
-			width: 100%;
 			.modal-header {
 				background-color: #fff;
 				color: #000;
@@ -196,6 +180,10 @@
 			cursor: pointer;
 		}
 		.modal-content {
+			top: 15%;
+			max-width: 1270px;
+			width: 100%;
+
 			.modal-body {
 				.content {
 					margin-bottom: 40px;
@@ -370,64 +358,12 @@
 	}  
 }
 
-
-@media screen and (max-width: 1050px) {
-	.modal {
-		&.contact {
-			.modal-content {
-				.modal-body {
-					.grid {
-						.col-2 {
-							width: 50%;
-							&:last-child, &:first-child {
-								width: 50%;
-							}
-							.shadow-box {
-								&.animation-1 {
-									&:after {
-										content: none;
-									}
-								}
-								&.animate-bottom {top: $gutter-l; animation:animatebottom 0.4s}@keyframes animatebottom{from{opacity:0} to{opacity:1}}
-								position: relative;
-								width: 100% !important;
-								height: auto;
-								min-height: auto;
-								left: $gutter-m;
-								top: $gutter-l;
-								margin-top: 0;
-							}
-							&.box {
-								margin-top: 0;
-								min-height: auto;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
 @media screen and (max-width: 800px) {
 	#wishlist {
 		width: 50%;
 		max-width: 250px;
 	}
 	.modal {
-		&.contact {
-			.modal-content {
-				top: 5%;
-				.modal-body {
-					.top {
-						height: 500px;
-					}
-					.bottom {
-						height: calc(90% - 500px);
-					}
-				}
-			}
-		}
 		&.wishlist {
 			.modal-content {
 				box-shadow: none;

@@ -1,10 +1,9 @@
-
-<!-- Funktionen und Features -->
 <div class="section">
-  <div class="section__content section__content--narrow centerd">
-		<h1>Über 200 Features - aber die Magie steckt im Detail​</h1>
+  	<div class="section__content section__content--narrow centerd">
+		<h1>Über 200 Features - aber die Magie steckt im Detail</h1>
 		<p>Wir bieten alles was ausgewachsene Unternehmen im Bereich moderner Business-Telefonie suchen. Erfahrene Projektmanager*innen, die Sie dabei unterstützen, die PS schnell auf die Straße zu bekommen.</p>
 	</div>
+
 	<div class="section__content section__content--wide">
 		<div class="grid sidebar-grid">
     		<div class="menu menu-mobile-dropdown">
