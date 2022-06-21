@@ -74,7 +74,7 @@ $uniqueID = uniqid();
                             'style' => 'width:16px;margin-right:10px;vertical-align:middle'
                         ]
                     ); ?>
-                    <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link">030 920 33 500</a>
+                    <strong>Anruf:</strong> <a href="tel:+493092033500" class="inline-link trackedContactSubmit">030 920 33 500</a>
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
@@ -86,7 +86,7 @@ $uniqueID = uniqid();
                             'style' => 'width:16px;margin-right:10px;vertical-align:middle'
                         ]
                     ); ?>
-                    <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link">info@callone.de</a>
+                    <strong>E-Mail:</strong> <a href="mailto:info@callone.de" class="inline-link trackedContactSubmit">info@callone.de</a>
                 </p>
             </div>
             <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>

@@ -456,11 +456,11 @@ $faqs->faq_add (
             <div class="co-grid centered">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <h4>E-Mail</h4>
-                    <a href="mailto:jobs@callone.de">jobs@callone.de</a>
+                    <a href="mailto:jobs@callone.de" class="trackedContactSubmit">jobs@callone.de</a>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <h4>Anruf</h4>
-                    <a href="tel:+493092033500">030 920 33 500</a>
+                    <a href="tel:+493092033500" class="trackedContactSubmit">030 920 33 500</a>
                 </div>
             </div>
         </div>

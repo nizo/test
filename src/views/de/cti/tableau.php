@@ -344,7 +344,7 @@ $faqs->faq_add (
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-2-xs co-grid__col--vcentered">
                 <span class="sl sl-border-chat sl-size-xl topIcon white desktop-hidden"></span>
                 <strong class="h3"><span class="light">Telefonische</span> Beratung</strong>
-                <p>Sie interessieren sich für unsere Produkte oder haben noch offene Fragen? Gerne Helfen wir Ihnen weiter - <a href="tel:+493092033500" title="Gerne helfen wir Ihnen weiter" class="inline-link">030 920 33 500</a></p>
+                <p>Sie interessieren sich für unsere Produkte oder haben noch offene Fragen? Gerne Helfen wir Ihnen weiter - <a href="tel:+493092033500" title="Gerne helfen wir Ihnen weiter" class="inline-link trackedContactSubmit">030 920 33 500</a></p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--order-1-xs co-grid__col--vcentered">
                 <?= pictureTag(

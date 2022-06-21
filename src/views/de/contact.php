@@ -72,7 +72,7 @@
             <div class="contactoption__content">
                 <p>
                     Passt Ihre Supportanfrage nicht ins Formular?<br />
-                    Alternativ können Sie uns auch eine E-Mail an <a href="mailto:support@callone.de">support@callone.de</a> senden.
+                    Alternativ können Sie uns auch eine E-Mail an <a href="mailto:support@callone.de" class="trackedContactSubmit">support@callone.de</a> senden.
                 </p>
 
                 <div class="contactoption__form--success"><!-- Only display on success -->
@@ -124,11 +124,11 @@
     <div class="contactpage__footer">
         <div>
             <h3>Anruf</h3>
-            <p><a href="tel:+493092033500">030 920 33 500</a></p>
+            <p><a href="tel:+493092033500" class="trackedContactSubmit">030 920 33 500</a></p>
         </div>
         <div>
             <h3>E-Mail</h3>
-            <p><a href="mailto:info@callone.de">info@callone.de</a></p>
+            <p><a href="mailto:info@callone.de" class="trackedContactSubmit">info@callone.de</a></p>
         </div>
     </div>
 </div>

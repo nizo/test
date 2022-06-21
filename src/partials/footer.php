@@ -6,8 +6,8 @@
                 <p>
                     Posthofstr. 5<br />
                     14467 Potsdam<br />
-                    <a href="tel:+493092033500">030 920 33 500</a><br />
-                    <a href="mailto:kontakt@callone.de">kontakt@callone.de</a><br />
+                    <a href="tel:+493092033500" class="trackedContactSubmit">030 920 33 500</a><br />
+                    <a href="mailto:kontakt@callone.de" class="trackedContactSubmit">kontakt@callone.de</a><br />
                     <br />
                     <a href="https://de.linkedin.com/company/callone-gmbh" rel="noreferrer" target="_blank">
                         <img src="/assets/images/icons_svg/icon-linkedin-white.svg" alt="CallOne auf LinkedIn" width="24" height="24" />
@@ -92,8 +92,8 @@
                 14467 Potsdam
             </p>
             <p>
-                <a href="tel:+493092033500">030 920 33 500</a><br />
-                <a href="mailto:kontakt@callone.de">kontakt@callone.de</a>
+                <a href="tel:+493092033500" class="trackedContactSubmit">030 920 33 500</a><br />
+                <a href="mailto:kontakt@callone.de" class="trackedContactSubmit">kontakt@callone.de</a>
             </p>
             <div class="btn-set btn-set--centered">
                 <button class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">FÜR DEMO ANMELDEN</button>

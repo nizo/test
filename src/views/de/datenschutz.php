@@ -207,7 +207,7 @@
 
         <p>
             <strong>C. Ausübung des Widerspruchsrechts</strong><br />
-            Das Widerspruchsrecht kann formlos ausgeübt werden, etwa per Post an CallOne GmbH, Dorfstraße 60, 15806 Zossen oder per E-Mail an <a href="mailto:kontakt@callone.de" class="inline-link">kontakt@callone.de</a>.
+            Das Widerspruchsrecht kann formlos ausgeübt werden, etwa per Post an CallOne GmbH, Dorfstraße 60, 15806 Zossen oder per E-Mail an <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">kontakt@callone.de</a>.
         </p>
 
         <hr class="divider">
@@ -219,7 +219,7 @@
             CallOne GmbH<br/>
             Dorfstraße 60<br/>
             15806 Zossen<br/>
-            E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link">kontakt@callone.de</a>
+            E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">kontakt@callone.de</a>
         </p>
 
         <p>Alle Auskunfts-, Berichtigungs- und Löschungsersuchen, Widersprüche oder Widerrufe einer Einwilligung, die Geltendmachung des Rechts auf Einschränkung der Verarbeitung oder des Rechts auf Datenübertragbarkeit sowie Kommentare oder Fragen des Nutzers in Bezug auf Datenschutz sind an diese Adresse zu richten.</p>
@@ -227,7 +227,7 @@
         <hr class="divider">
 
         <h2>17. Datenschutzbeauftragter</h2>
-        <p>Unser Datenschutzbeauftragter ist Rechtsanwalt Stephan Schmidt. Sie erreichen ihn unter <a href="mailto:datenschutz@callone.de" class="inline-link">datenschutz@callone.de</a> oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.</p>
+        <p>Unser Datenschutzbeauftragter ist Rechtsanwalt Stephan Schmidt. Sie erreichen ihn unter <a href="mailto:datenschutz@callone.de" class="inline-link trackedContactSubmit">datenschutz@callone.de</a> oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.</p>
 
         <hr class="divider">
 

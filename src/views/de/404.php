@@ -18,7 +18,7 @@
 				<a href="/" class="btn btn--primary">Zur Startseite</a>
 			</p>
 			<p>
-				Oder dürfen wir Ihnen direkt behilflich sein? Schreiben Sie uns eine <a href="mailto:kontakt@callone.de" class="inline-link">E-Mail</a> oder rufen Sie uns einfach unter <a href="tel:+493092033500" class="inline-link">030 920 33 500</a> an.
+				Oder dürfen wir Ihnen direkt behilflich sein? Schreiben Sie uns eine <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">E-Mail</a> oder rufen Sie uns einfach unter <a href="tel:+493092033500" class="inline-link trackedContactSubmit">030 920 33 500</a> an.
 			</p>
 		</div>
 	</div>

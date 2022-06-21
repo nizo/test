@@ -69,14 +69,14 @@ $product->structured_data_get_code ();
                     </form>
                     <div class="formSuccess">
                         <h3>Vielen Dank für Ihre Anfrage!</h3>
-                        <p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500">030 920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
+                        <p>Wir nehmen uns Ihrer Anfrage schnellstmöglich an und melden uns bei Ihnen in Kürze. Wenn Sie nicht warten wollen, kontaktieren Sie uns doch einfach per Telefon unter <a href="tel:+493092033500" class="trackedContactSubmit">030 920 33 500</a>. Wir freuen uns auf Ihren Anruf.</p>
                         <p>Sie erhalten demnächst eine E-Mail zur Bestätigung Ihrer Anfrage bei uns. Dort finden Sie auch nochmal alle weiteren Kontaktinformationen.</p>
                         <p>Wir sind für Sie da.<br><strong>Ihr CallOne-Team</strong></p>
                     </div>
                     <div class="formFail">
                         <h3>Ihre Anfrage konnte nicht gesendet werden!</h3>
                         <p>Es ist leider ein Fehler beim übertragen der Rufnummern aufgetreten! Bitte versuchen Sie es später noch einmal.</p>
-                        <p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne." class="inline-link">030 920 33 500</a></p>
+                        <p>Alternativ können Sie uns auch gerne telefonisch kontaktieren unter <a href="tel:+493092033500" title="Rufen Sie uns an! Wir beraten Sie gerne." class="inline-link trackedContactSubmit">030 920 33 500</a></p>
                         <p><strong>Ihr CallOne-Team</strong></p>
                     </div>
                 </div>

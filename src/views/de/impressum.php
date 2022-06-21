@@ -13,9 +13,9 @@
     <p>Vertretungsberechtigter Geschäftsführer: Björn Bendig</p>
 
     <p>
-      Telefon: <a href="tel:+493092033500" class="inline-link">+49 (0) 30-920 33 500</a><br />
-      Fax: <a href="tel:+493092033509" class="inline-link">+49 (0) 30-920 33 509</a><br />
-      E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link">kontakt@callone.de</a>
+      Telefon: <a href="tel:+493092033500" class="inline-link trackedContactSubmit">+49 (0) 30-920 33 500</a><br />
+      Fax: <a href="tel:+493092033509" class="inline-link trackedContactSubmit">+49 (0) 30-920 33 509</a><br />
+      E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">kontakt@callone.de</a>
     </p>
 
     <p>
