@@ -282,15 +282,20 @@
 	}
 }
 
+*+.btn-set {
+	margin-top: var(--gutter-m);
+}
+.btn-set+* {
+	margin-top: calc(var(--gutter-m) - var(--gutter-xs));
+}
+
 .btn-set {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	margin-top: var(--gutter-m);
-	// margin-left: calc(-1 * var(--gutter-xs));
-	margin-bottom: calc(var(--gutter-m) - var(--gutter-xs));
-	// width: calc(100% + (var(--gutter-xs) * 2));
+	// margin-top: var(--gutter-m);
+	// margin-bottom: calc(var(--gutter-m) - var(--gutter-xs));
 
 	&--centered {
 		justify-content: center;

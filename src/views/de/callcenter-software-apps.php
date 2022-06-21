@@ -84,122 +84,181 @@ $product->structured_data_get_code ();
 
 <div class="section" id="crm_ticketing">
     <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left" style="margin-top:0">
-            Integrationen für CRM und Ticketing
-        </h2>
+        <h2 class="centered mobile-left">Integrationen für CRM und Ticketing</h2>
         <p class="bigtext centered mobile-left">
             Alle dürfen mitspielen. <br class="mobile-hidden">
             Auch Ihre Lieblings-Businesslösung.
         </p>
 
-        <div class="grid">
-            <div class="col-3 card card--shadow" style="--c:#007537">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Freshdesk-app-icon.svg',
-                        'CallOne Contact Center Software mit Freshdesk Anbindung',
-                        82, 82
-                    ); ?>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Freshdesk-app-icon.svg',
+                                'CallOne Contact Center Software mit Freshdesk Anbindung',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Freshdesk</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. <span class="readmore">Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</span></p>
+                    <p class="btn-set btn-set--spread">
+                        <a href="/freshdesk-callcenter-software" class="btn btn--primary btn--small-padding">Infos</a>
+                        <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                    </p>
                 </div>
-                <h3>Freshdesk</h3>
-                <p>Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. <span class="readmore">Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</span></p>
-                <p class="btn-set btn-set--spread">
-                    <a href="/freshdesk-callcenter-software" class="btn btn--primary btn--small-padding">Infos</a>
-                    <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#ffa800;">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Freshsales-app-icon.svg',
-                        'CallOne Contact Center Software mit Freshsales Anbindung',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Freshsales-app-icon.svg',
+                                'CallOne Contact Center Software mit Freshsales Anbindung',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Freshsales</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. <span class="readmore">Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</span></p>
+                    <p class="btn-set">
+                        <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                    </p>
                 </div>
-                <h3>Freshsales</h3>
-                <p>Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. <span class="readmore">Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</span></p>
-                <p class="btn-set">
-                    <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#03363D">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Zendesk-app-icon.svg',
-                        'CallOne Contact Center Software mit Zendesk Anbindung',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Zendesk-app-icon.svg',
+                                'CallOne Contact Center Software mit Zendesk Anbindung',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Zendesk</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.<br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p class="btn-set btn-set--spread">
+                        <a href="/zendesk-cti-ticketing" class="btn btn--primary btn--small-padding">Infos</a>
+                        <a href="https://www.zendesk.com/marketplace/apps/support/75986/cloud-acd/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                    </p>
                 </div>
-                <h3>Zendesk</h3>
-                <p>Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
-                <p class="btn-set btn-set--spread">
-                    <a href="/zendesk-cti-ticketing" class="btn btn--primary btn--small-padding">Infos</a>
-                    <a href="https://www.zendesk.com/marketplace/apps/support/75986/cloud-acd/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#9a9a9a">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Pipedrive-app-icon.svg',
-                        'CallOne Contact Center Software mit Pipedrive Anbindung',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Pipedrive-app-icon.svg',
+                                'CallOne Contact Center Software mit Pipedrive Anbindung',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Pipedrive</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p class="btn-set">
+                        <a href="https://www.pipedrive.com/en/marketplace/app/call-one/38e77507e5562334" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                    </p>
                 </div>
-                <h3>Pipedrive</h3>
-                <p>Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
-                <p class="btn-set">
-                    <a href="https://www.pipedrive.com/en/marketplace/app/call-one/38e77507e5562334" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#45535E">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Hubspot-app-icon.svg',
-                        'CallOne Contact Center Software mit Hubspot Anbindung',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Hubspot-app-icon.svg',
+                                'CallOne Contact Center Software mit Hubspot Anbindung',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Hubspot</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. <span class="readmore">Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</span></p>
+                    <p class="btn-set">
+                        <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="btn btn--border-black btn--small-padding">Hubspot Blog</a>
+                    </p>
                 </div>
-                <h3>Hubspot</h3>
-                <p>Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. <span class="readmore">Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</span></p>
-                <p class="btn-set">
-                    <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="btn btn--border-black btn--small-padding">Hubspot Blog</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#254856">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Salesforce-app-icon.svg',
-                        'CallOne Contact Center Software mit Salesforce Anbindung',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Salesforce-app-icon.svg',
+                                'CallOne Contact Center Software mit Salesforce Anbindung',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Salesforce</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <span class="readmore">Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p class="btn-set">
+                        <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="btn btn--border-black btn--small-padding">AppExchange</a>
+                    </p>
                 </div>
-                <h3>Salesforce</h3>
-                <p>Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <span class="readmore">Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
-                <p class="btn-set">
-                    <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="btn btn--border-black btn--small-padding">AppExchange</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#eaeaea">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg',
-                        'CallOne Contact Center Software mit Jira Anbindung',
-                        230, 80, [
-                            'class' => 'partnerLogo gray-100'
-                        ]
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Jira-Service-Desk-app-icon.svg',
+                                'CallOne Contact Center Software mit Jira Anbindung',
+                                50, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Jira Service Desk</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. <span class="readmore">Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</span></p>
+                    <p>
+                        <b><i>Coming Soon!</i></b>
+                    </p>
                 </div>
-                <h3>Jira Service Desk</h3>
-                <p>Wählen Sie direkt aus Ihrem Jira Service Desk CRM oder erhalten Sie eingehende Anrufe in Echtzeit zugeordnet dargestellt. <span class="readmore">Optimieren Sie mit der Jira Service Desk Integration Ihren Kundenkontakt und Ihre Geschäftsprozesse.</span></p>
-                <p>
-                    <b><i>Coming Soon!</i></b>
-                </p>
             </div>
         </div>
     </div>
@@ -215,98 +274,150 @@ $product->structured_data_get_code ();
             Ungenutzte Potenziale entdecken
         </p>
 
-        <div class="grid">
-            <div class="col-3 card card--shadow" style="--c:#03363D" id="tableau">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Tableau-app-icon.svg',
-                        'CallOne Callcenter Software Tableau App',
-                        82, 82
-                    ); ?>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md" id="tableau">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Tableau-app-icon.svg',
+                                'CallOne Callcenter Software Tableau App',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Tableau</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von Tableau. <span class="readmore">Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</span></p>
+                    <p class="btn-set btn-set--spread">
+                        <a href="/tableau-callcenter-connector" class="btn btn--primary btn--small-padding">Infos</a>
+                        <a href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="btn btn--border-black btn--small-padding">Partnercenter</a>
+                    </p>
                 </div>
-                <h3>Tableau</h3>
-                <p>Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von Tableau. <span class="readmore">Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</span></p>
-                <p class="btn-set btn-set--spread">
-                    <a href="/tableau-callcenter-connector" class="btn btn--primary btn--small-padding">Infos</a>
-                    <a href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="btn btn--border-black btn--small-padding">Partnercenter</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#ffe678">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/PowerBI-app-icon.png',
-                        'CallOne Callcenter Software Power BI App',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/PowerBI-app-icon.png',
+                                'CallOne Callcenter Software Power BI App',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Power BI</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Erstellen Sie aufwendige Dashboards, die komplexe Prognosen zu Auslastung und Callvolumen zulassen. <span class="readmore">Erleben sie bessere Planbarkeit ihrer Agenten und eine optimale Auswertung.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p class="btn-set">
+                        <a href="https://docs.microsoft.com/de-de/power-bi/connect-data/power-bi-data-sources" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                    </p>
                 </div>
-                <h3>Power BI</h3>
-                <p>Erstellen Sie aufwendige Dashboards, die komplexe Prognosen zu Auslastung und Callvolumen zulassen. <span class="readmore">Erleben sie bessere Planbarkeit ihrer Agenten und eine optimale Auswertung.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
-                <p class="btn-set">
-                    <a href="https://docs.microsoft.com/de-de/power-bi/connect-data/power-bi-data-sources" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#6eb43f">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/QlikSense-app-icon.png',
-                        'CallOne Callcenter Software Qlik Sense App',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/QlikSense-app-icon.png',
+                                'CallOne Callcenter Software Qlik Sense App',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Qlik Sense</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Nutzen sie ausgefeilte AI-Funktionen und die assoziative Analyse-Engine um tiefe Einblicke in Telefoniedaten zu bekommen. Treffen sie bessere Entscheidungen durch datengesteuerte Echtzeitanalysen.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p class="btn-set">
+                        <a href="https://www.qlik.com/de-de/products/qlik-sense/data-sources" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                    </p>
                 </div>
-                <h3>Qlik Sense</h3>
-                <p>Nutzen sie ausgefeilte AI-Funktionen und die assoziative Analyse-Engine um tiefe Einblicke in Telefoniedaten zu bekommen. Treffen sie bessere Entscheidungen durch datengesteuerte Echtzeitanalysen.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
-                <p class="btn-set">
-                    <a href="https://www.qlik.com/de-de/products/qlik-sense/data-sources" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#00319a">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/GoogleDataStudio-app-icon.png',
-                        'CallOne Callcenter Software Google Data Studio App',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/GoogleDataStudio-app-icon.png',
+                                'CallOne Callcenter Software Google Data Studio App',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Google Data Studio</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Werten sie Telefoniedaten standortübergreifend mit der cloudbasierten Google BI-Software aus. <span class="readmore">Integrieren sie nahtlos in bestehende Dashboards und Auswertungen, um eine vielschichtigere Optimierung zu ermöglichen.</span></p>
+                    <p class="btn-set">
+                        <a href="https://datastudio.google.com/data" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                    </p>
                 </div>
-                <h3>Google Data Studio</h3>
-                <p>Werten sie Telefoniedaten standortübergreifend mit der cloudbasierten Google BI-Software aus. <span class="readmore">Integrieren sie nahtlos in bestehende Dashboards und Auswertungen, um eine vielschichtigere Optimierung zu ermöglichen.</span></p>
-                <p class="btn-set">
-                    <a href="https://datastudio.google.com/data" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#00a26a">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/ExcelDataConnector-app-icon.png',
-                        'CallOne Callcenter Software Excel Data Connector App',
-                        82, 82
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/ExcelDataConnector-app-icon.png',
+                                'CallOne Callcenter Software Excel Data Connector App',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Excel Data Connector</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Nutzen sie die Pivot-Funktionen von Excel um in gewohnter Umgebung umfangreiche Datenanalysen durchzuführen. Keine teure BI-Software notwendig, alle Rohdaten stehen genauso in Excel zur Verfügung.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
+                    <p class="btn-set">
+                        <a href="https://support.microsoft.com/en-us/office/create-edit-and-manage-connections-to-external-data-89d44137-f18d-49cf-953d-d22a2eea2d46" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                    </p>
                 </div>
-                <h3>Excel Data Connector</h3>
-                <p>Nutzen sie die Pivot-Funktionen von Excel um in gewohnter Umgebung umfangreiche Datenanalysen durchzuführen. Keine teure BI-Software notwendig, alle Rohdaten stehen genauso in Excel zur Verfügung.<br class="mobile-hidden"><br class="mobile-hidden"></p>
-                <p class="btn-set">
-                    <a href="https://support.microsoft.com/en-us/office/create-edit-and-manage-connections-to-external-data-89d44137-f18d-49cf-953d-d22a2eea2d46" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
-                </p>
             </div>
 
-            <div class="col-3 card card--shadow" style="--c:#eaeaea">
-                <div class="card__image">
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/Geckoboard-app-icon.svg',
-                        'CallOne Callcenter Software Geckoboard App',
-                        230, 80, [
-                            'class' => 'partnerLogo gray-100'
-                        ]
-                    ); ?>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/Geckoboard-app-icon.svg',
+                                'CallOne Callcenter Software Geckoboard App',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Geckoboard</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. <span class="readmore">Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</span></p>
+                    <p>
+                        <b><i>Coming Soon!</i></b>
+                    </p>
                 </div>
-                <h3>Geckoboard</h3>
-                <p>Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. <span class="readmore">Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</span></p>
-                <p>
-                    <b><i>Coming Soon!</i></b>
-                </p>
             </div>
         </div>
     </div>
@@ -318,7 +429,7 @@ $product->structured_data_get_code ();
             Browser-Erweiterung
         </h2>
 
-        <p class="centered mobile-left"> Die <a href="/softphone" class="inline-link">CallOne Browser-Erweiterung</a> integriert sich perfekt in Ihre Outbound-Prozesse: Für effizientere Outbound-Calls aus allen browserbasierten Tools. Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen!</p>
+        <p class="centered mobile-left">Die <a href="/softphone" class="inline-link">CallOne Browser-Erweiterung</a> integriert sich perfekt in Ihre Outbound-Prozesse: Für effizientere Outbound-Calls aus allen browserbasierten Tools. Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen!</p>
     </div>
 
     <div class="section__content section__content--wide">
