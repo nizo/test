@@ -453,20 +453,18 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
 	$jobs->job_add ($job); */
 
-	$job = new job ('IT & Technik', 'UX / UI Designer*in - onsite & remote', 'UX & UI Webdesign sind dein tägliches Handwerk? Du gehst darin auf, Websites und Features genau angepasst auf die Nutzer zu designen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('Potsdam / Remote');
-	$job->url_set ('/karriere/job-ux-ui-designer-in-potsdam-oder-remote');
+	$job = new job ('IT & Technik', 'UX Designer*in ', 'Die Konzeption von UX Design basierend auf Research und Testing sind deine Leidenschaft? Du gehst darin auf, Wireframes für Websites und Oberflächen genau so zu entwerfen, dass sie für die optimale User Experience sorgen? Dann bist du als UX Designer*in bei uns genau richtig!');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-ux-ui-designer-in-potsdam');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('UX / UI Design und Webdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!​​');
-	$job->text_description_long_set ('Als UX / UI Designer*in führst du unsere Kunden zielgerichtet durch unsere Webpräsenzen. Du erstellst passende Illustrationen und Animationen für die Weiterentwicklung unserer Websites. Du durchdenkst und konzipierst Mockups für unsere Websites und unsere Benutzeroberfläche. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
-	$job->text_tasks_set ('Planung, Entwicklung und technische Umsetzung von statischen, dynamischen und mobilen Webseiten der CallOne');
-	$job->text_tasks_set ('Design webbasierter Benutzeroberflächen für unsere Kunden');
-	$job->text_tasks_set ('Kreative Ideen für die Weiterentwicklung von Webseiten und/oder Produkten sowie der Benutzeroberflächen');
-	$job->text_tasks_set ('Erstellen von lebendigen, bildhaften Stories auf Basis grober Briefings');
+	$job->text_intro_set ('Du wünschst dir Freiraum für deine Expertise und Ideen innherhalb eines eingespielten, sympathischen Teams? Gemeinsam mit unseren Product Ownern und Designern kannst du bei uns für eine richtig gute User Experience auf Web-Präsenzen und unseren Produktoberflächen sorgen. Auf Basis von Befragungen und Testings wirst du UX Designs konzipieren, die den Bedürfnissen der User entsprechen. Wir freuen uns auf dich!');
+	$job->text_description_long_set ('Als UX Designer*in bei CallOne konzipierst du Nutzeroberflächen, die komplexe Inhalte möglichst nutzerfreundlich darstellen. Dank deiner Arbeit wird die CX unserer Kunden verbessert. Auf Basis von Datenerhebungen und Auswertungen erstellst du Design-Konzepte und Wireframes für unsere Websites und Produkte. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
+	$job->text_tasks_set ('Planung und konzipierung von UX Design für die statischen, dynamischen und mobilen Webseiten der CallOne sowie für unsere Nutzeroberfläche');
+	$job->text_tasks_set ('Zusammenarbeit mit Product Ownern, Entwicklern und Designern');
 	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in UX-Design, Mediendesign, Kommunikationsdesign oder vergleichbare Qualifikation');
-	$job->text_requirements_set ('Kreativität und ein besonders ausgeprägtes Gefühl für modernes und ansprechendes Design und Weblayout');
-	$job->text_requirements_set ('Sicherer Umgang mit modernen Design Tools wie z.B. Figma, Photoshop, Illustrator');
-	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Design Research und Ableiten nötiger Design-Anpassungen');
+	$job->text_requirements_set ('Erfahrung in der Konzeption von detaillierten Prototypen mit bekannten Tools wie bspw. Figma');
+	$job->text_requirements_set ('Praktische Erfahrungen mit user-zentrierten Designs sowie Einbeziehung entsprechender Methoden und Daten wie bspw. Customer Journeys, Informationsarchitektur, etc.');
+	$job->text_requirements_set ('Erkennen von Nutzerbedürfnissen, Durchführung von Datenerhebungen zu Nutzerbedürfnissen');
 	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie die Eigeninitiative, das ganze Team mit deinen Ideen voranzutreiben');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
