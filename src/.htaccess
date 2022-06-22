@@ -261,6 +261,7 @@ Redirect 301 /callback.php /callcenter-software
 Redirect 301 /callcenter-loesung /callcenter-software
 Redirect 301 /callcenter-software.php /callcenter-software
 Redirect 301 /callcenter-software-cloud-acd /callcenter-software
+Redirect 301 /callcenter-software-features /callcenter-software-funktionen
 Redirect 301 /case-study-1.php /case-study-niceshops
 Redirect 301 /case-study-2.php /case-study-flaconi
 Redirect 301 /case-study-3.php /case-study-apodiscounter
