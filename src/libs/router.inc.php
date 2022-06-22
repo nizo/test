@@ -320,11 +320,6 @@ Router::add('/callcenter-einsparpotential', 'callcenter-einsparpotential.php', [
     'meta_description' => 'Bares Geld mit Callcenter Software und VoIP Telefonanlage sparen. Berechnen Sie hier Ihr Einsparpotential!',
     'og_image_text' => 'Jetzt Ihr mögliches Einsparpotential berechnen',
 ]);
-Router::add('/callcenter-software-features', 'callcenter-software-features.php', [
-    'shorttitle' => 'Callcenter Software Features',
-    'title' => 'Callcenter Software Features',
-    'og_image_text' => 'CallOne Callcenter Software Features'
-]);
 Router::add('/callcenter-software-funktionen', 'callcenter-software-funktionen.php', [
     'shorttitle' => 'Callcenter Software Funktionen',
     'title' => 'Vergleich Funktionen, Angebot Callcenter Software, CTI, Cloud, API',
