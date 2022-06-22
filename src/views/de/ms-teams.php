@@ -232,7 +232,7 @@ $faqs->faq_add (
                     </div>
                     <div class="co-grid__col co-grid__col--fill">
                         <h4>Höchste Flexibilität</h4>
-                        <p>Sie sind auf allen Endgeräten mit der Office-Rufnummer erreichbar. Teams Telefonie ist also Ihre Lösung für ortsunabhängige Kommunikation. Übrigens haben Sie alle <a href="https://www.callone.de/faq/category/schnittstellen/teams-telefonie/" target="_blanK" class="inline-link">Telefoniefunktionen</a> von Teams zur Verfügung, sodass Sie auch unterwegs und im Homeoffice das Maximale aus Ihrer Telefonie herausholen können.</p>
+                        <p>Sie sind auf allen Endgeräten mit der Office-Rufnummer erreichbar. Teams Telefonie ist also Ihre Lösung für ortsunabhängige Kommunikation. Übrigens haben Sie alle Telefoniefunktionen von Teams zur Verfügung, sodass Sie auch unterwegs und im Homeoffice das Maximale aus Ihrer Telefonie herausholen können.</p>
                     </div>
                 </div>
             </div>
