@@ -69,15 +69,6 @@
     require_once('./partials/footer.php');
     ?>
     
-    <div id="wishlist" style="">
-        <span class="numberOfElements"></span>
-        <a href="#" class="sl sl-before sl-wish relative button openModal" data-modal="wishlist">Wunschliste</a>
-    </div>
-    
-    <div class="modal wishlist">
-        <?php include('./partials/modal-wishlist.php'); ?>
-    </div>
-    
     <script src="/assets/javascripts/application.min.js?build=<?= getJsHash() ?>"></script>
     <?php loadAdditionalScripts(); ?>
 

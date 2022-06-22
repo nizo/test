@@ -209,38 +209,6 @@ eventListener('click', '.sidebar-grid .menu a', e => {
 	}));
 });
 
-/* Sidebar menue */
-eventListener('click', '.modal .sideMenu li', e => {
-	e.preventDefault();
-	e.stopPropagation();
-	let listItem = e.target.closest('li');
-	let tab = listItem.getAttribute('data-link');
-
-	if (listItem.classList.contains('linkTo')) {
-		e.preventDefault();
-		let linkTo = listItem.querySelector('a').getAttribute('href');
-		if (window.localStorage) {
-			wlist = JSON.parse(window.localStorage.getItem('wishlist'));
-			wlist.forEach(val => {
-				linkTo += '%20-%20' + val.replace("&","und") + '%0D%0A';
-				console.log(linkTo);
-			});
-		} else {
-			linkTo += 'Keine Wunschthemen gefunden.%0D%0A';
-		}
-		listItem.querySelector('a').setAttribute('href', linkTo);
-		window.location.href = linkTo;
-	} else {
-		e.preventDefault();
-		e.stopPropagation();
-	}
-	Array.from(listItem.parentNode.children).forEach(child => child.classList.remove('active'));
-	listItem.classList.add('active');
-	let modalBoxes = document.querySelectorAll('.modalBox');
-	modalBoxes.forEach(modalBox => modalBox.style.display = 'none');
-	fadeIn(document.querySelector('.modalBox.'+tab), 300);
-});
-
 /* Calculation Modal */
 eventListener('click', '.css button.p2', e => {
 	e.preventDefault();
@@ -313,43 +281,6 @@ eventListener('click', '.optionField', e => {
 		label.classList.add('checked');
 	}
 });
-
-if (cookiesettings.exists('wishlist')) {
-	if (window.localStorage) {
-		var wlist = [];
-		var listLength = 0;
-		
-		wlist = JSON.parse(window.localStorage.getItem('wishlist'));
-		//console.log(wlist);
-		if (wlist != null) {
-			listLength = wlist.length; 
-			if (listLength > 0) {
-				let note2 = document.querySelector('.modal.wishlist .wish-list');
-				if (note2) {				
-					/*check if buttons to activate*/
-					if (document.contains(document.querySelectorAll('.elements .button-bottom')[0])) {
-						wlist.forEach((val, i) => {
-							let note = document.querySelector('.elements .button-bottom > [data-info^="' + val + '"]');
-							note.classList.add("added");
-							Array.from(note.children).forEach(child => {
-								child.innerHTML = note.getAttribute('data-add');
-							});
-							note2.innerHTML += '<li>'+val+'</li>';
-						});
-					} else {
-						wlist.forEach((val, i) => {
-							note2.innerHTML += '<li>'+val+'</li>';
-						});
-					}
-					
-					/*display wishlist button and number of produkts*/
-					document.querySelector('#wishlist .numberOfElements').innerHTML = listLength;
-					slideDown(document.querySelector('#wishlist'), 300);
-				}
-			}
-		}
-	}
-}
 
 eventListener('click', '.menuheader', (e) => {
 	let link = e.target.closest('.menuheader');
