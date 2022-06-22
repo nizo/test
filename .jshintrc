@@ -3,6 +3,7 @@
     "undef": true,
     "browser": true,
     "node": true,
+    "evil": true,
     "globals": {
         "AbortController": true,
         "eventListener": true,
