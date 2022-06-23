@@ -70,8 +70,10 @@
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <p>Check24 ist Deutschlands größtes Vergleichsportal, mit vielfachen Auszeichnungen für exzellenten Service. Da ist es nicht verwunderlich, dass sie höchste Maßstäbe an Effizienz und Qualität ansetzen. CallOne betreut Check24 mit einem Komplettservice im supportintensiven Bereich der Sachversicherungen.</p>
-                <p>Manche Versicherungen sind komplex, deshalb können Kunden sieben Tage die Woche Experten zu den verschiedenen Versicherungstypen über produktspezifische Hotlines sowie auch auf direkten Durchwahlen kontaktieren und erhalten eine komplett persönliche Beratung.</p>
+                <span>
+                    Check24 ist Deutschlands größtes Vergleichsportal, mit vielfachen Auszeichnungen für exzellenten Service. Da ist es nicht verwunderlich, dass sie höchste Maßstäbe an Effizienz und Qualität ansetzen. <span class="readmore">CallOne betreut Check24 mit einem Komplettservice im supportintensiven Bereich der Sachversicherungen.<br /><br />
+                    Manche Versicherungen sind komplex, deshalb können Kunden sieben Tage die Woche Experten zu den verschiedenen Versicherungstypen über produktspezifische Hotlines sowie auch auf direkten Durchwahlen kontaktieren und erhalten eine komplett persönliche Beratung.</span>
+                </p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                 <div class="video">
@@ -206,8 +208,8 @@
 
 <div class="section" id="konzept">
     <div class="section__content section__content--narrow centered mobile-left">
-        <h2>Passgenaues Überlauf- und Rufnummernkonzept</h2>
-        <p class="bigtext">Wir haben ein neues Rufnummernkonzept für die verschiedenen Versicherungstypen entworfen, bei dem die Durchwahlen für die Mitarbeiter immer gleich lauten. Für Nichtannahmen gibt es nun intelligente Überlaufroutings, mit denen externe Callcenter bei Bedarf mit eingebunden werden. Damit kann Check24 stolz eine Annahmequote von nahezu 100% vorweisen.</p>
+        <h2>Passgenaues Überlauf- und Rufnummern&shy;konzept</h2>
+        <p class="bigtext">Wir haben ein neues Rufnummernkonzept für die verschiedenen Versicherungstypen entworfen, bei dem die Durchwahlen für die Mitarbeiter immer gleich lauten. <span class="readmore">Für Nichtannahmen gibt es nun intelligente Überlaufroutings, mit denen externe Callcenter bei Bedarf mit eingebunden werden. Damit kann Check24 stolz eine Annahmequote von nahezu 100% vorweisen.</span></p>
     </div>
 
     <div class="section__content section__content--wide">
@@ -327,7 +329,7 @@
             Bessere Erreichbarkeit <br class="mobile-hidden" />
             bei steigendem Anrufaufkommen
         </h2>
-        <p class="bigtext">Check24 konnte mit der CallOne Produktpalette eine komplett individuelle und auf ihre Anforderungen abgestimmte Telefonielösung umsetzen. Die erhöhte Transparenz und intuitive Bedienung erleichtern die Analyse des Telefonieaufkommens und machen es möglich, die Warteschleife optimal zu administrieren sowie mit Features wie Rückruffunktionen anzureichen. Die Integrationen aller Telefoniedaten in Tableau sowie die direkte Einbindung der Callcenter-Lösung in das hauseigene CRM ermöglichen eine ideale Vorausplanung und die Reduktion der durchschnittlichen Gesprächszeiten.</p>
+        <p class="bigtext">Check24 konnte mit der CallOne Produktpalette eine komplett individuelle und auf ihre Anforderungen abgestimmte Telefonielösung umsetzen. <span class="readmore">Die erhöhte Transparenz und intuitive Bedienung erleichtern die Analyse des Telefonieaufkommens und machen es möglich, die Warteschleife optimal zu administrieren sowie mit Features wie Rückruffunktionen anzureichen. Die Integrationen aller Telefoniedaten in Tableau sowie die direkte Einbindung der Callcenter-Lösung in das hauseigene CRM ermöglichen eine ideale Vorausplanung und die Reduktion der durchschnittlichen Gesprächszeiten.</span></p>
     </div>
 
     <div class="section__content section__content--wide">
