@@ -25,7 +25,7 @@ $faqs->faq_add (
 <div class="section section--light-green">
     <header class="hero">
         <div class="hero__text">
-            <h1>CX neu gedacht. Mit der maßgeschneiderten Lösung für Ihr Contact Center.</h1>
+            <h1>CX neu gedacht. Mit der maß&shy;geschneiderten Lösung für Ihr Contact Center.</h1>
 
             <p class="bigtext">Genau die Contact Center Software, die Sie für die Wünsche Ihrer Kunden brauchen. Nutzen Sie genau die Module der Cloud CCaaS-Lösung, die Sie brauchen.</p>
 
