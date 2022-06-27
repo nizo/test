@@ -27,7 +27,7 @@
             <div style="background-image:url(/assets/images/photos/mall.jpg);background-size:cover;background-position:center;padding:var(--gutter-xxl) var(--gutter-m);border-radius:10px">
                 <div class="blurry-logo-box">
                     <?= pictureTag(
-                        '/assets/images/client-logos/logo-niceshops.svg',
+                        '/assets/images/client-logos/logo-niceshops-black.svg',
                         'Unternehmenstelefonie mit CallOne Callcenter Software und Cloud Telefonanlage bei Niceshops',
                         230, 33, [
                             'style' => '--w:230px'
