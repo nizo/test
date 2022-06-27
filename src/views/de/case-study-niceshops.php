@@ -55,9 +55,11 @@
     <div class="section__content section__content--narrow centered mobile-left">
         <h2>Callcenter-Software für 40 Online-Shops</h2>
 
-        <p class="bigtext">Fast jeder Österreicher hat wohl schon mal in einem der über 40 Onlineshops gestöbert, die das Steirer Unternehmen Niceshops vereint.</p>
-        <p class="bigtext">Niceshops ist eines der führenden österreichischen E-Commerce Unternehmen. Jeden Tag verschicken sie etwa 6500 Pakete an einen Kundenstamm von 2,2 Millionen Menschen weltweit. Der Erfolg kommt durch die nachhaltige Produktion, optimale Prozesse, technisches Know-How und insbesondere exzellenten Kundenservice: freundlicher, hilfreicher Kontakt und die schnelle, problemlose Abwicklung von Serviceanfragen.</p>
-        <p class="bigtext">CallOne unterstützt Niceshops im Callcenterbetrieb und der Officetelefonie mit ganzheitlichen Kommunikationslösungen, Schnittstellenanbindungen und, in Zusammenarbeit mit unserem Partner <a href="https://www.yuutel.at" target="_blank" title="CallOne Partner yuutel" class="inline-link">yuutel</a>, bei sämtlichen shop- und länderspezifischen Hotlines sowie Mitarbeiterdurchwahlen.</p>
+        <p class="bigtext">
+            Fast jeder Österreicher hat wohl schon mal in einem der über 40 Onlineshops gestöbert, die das Steirer Unternehmen Niceshops vereint. <span class="readmore"><br /><br />
+            Niceshops ist eines der führenden österreichischen E-Commerce Unternehmen. Jeden Tag verschicken sie etwa 6500 Pakete an einen Kundenstamm von 2,2 Millionen Menschen weltweit. Der Erfolg kommt durch die nachhaltige Produktion, optimale Prozesse, technisches Know-How und insbesondere exzellenten Kundenservice: freundlicher, hilfreicher Kontakt und die schnelle, problemlose Abwicklung von Serviceanfragen.<br /><br />
+            CallOne unterstützt Niceshops im Callcenterbetrieb und der Officetelefonie mit ganzheitlichen Kommunikationslösungen, Schnittstellenanbindungen und, in Zusammenarbeit mit unserem Partner <a href="https://www.yuutel.at" target="_blank" title="CallOne Partner yuutel" class="inline-link">yuutel</a>, bei sämtlichen shop- und länderspezifischen Hotlines sowie Mitarbeiterdurchwahlen.</span>
+        </p>
     </div>
 </div>
 
@@ -75,7 +77,7 @@
                     ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
-                    <h4>flaconi über die CallOne Lösung:</h4>
+                    <h4>Niceshops über die CallOne Lösung:</h4>
                     <div class="quote" style="--fontSize:18px">
                         „Mit CallOne haben wir eine Lösung gefunden, die den Support für unsere verschiedenen Shops nicht nur zentralisiert abbildet, sondern auch durch umfangreiche ACD-Settings und Integration mit unserem Support-Tool Freshdesk optimieren konnte.“
                     </div>
@@ -380,7 +382,7 @@
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                     <div class="number-card">
                         <div class="number-card__number" style="--color:rgba(216, 112, 0, 1)">
-                            &lt; <span class="counting-number" data-suffix="s" data-start="0" data-end="30">30s</span>
+                            &lt; <span class="counting-number" data-suffix=" sek." data-start="0" data-end="30">30 sek.</span>
                         </div>
                         durchschnittliche<br />
                         Wartezeit
@@ -399,7 +401,7 @@
     </div>
 
     <div class="section__content section__content--narrow centered mobile-left">
-        <p class="bigtext">Niceshops konnte gemeinsam mit CallOne eine komplett individuell abgestimmte Telefonielösung ins Leben rufen. Sie passt perfekt zum Anspruch des Unternehmens, der Marktführer im technischen Know-How von E-Commerce-Prozessen zu sein. Durch eine hohe Transparenz und die Integration der Telefonie in Freshdesk, konnte die Erreichbarkeit der verschiedenen Shop-Hotlines erhöht werden. Sämtliche telefonierelevanten Settings sind einfach und schnell änderbar und die Lösung skaliert mit dem ständig wachsenden Unternehmen. Officetelefonie, die teilweise mit Hardware-Geräten von snom umgesetzt wurde und einfache Outbound- Telefonie runden die Lösung ab.</p>
+        <p class="bigtext">Niceshops konnte gemeinsam mit CallOne eine komplett individuell abgestimmte Telefonielösung ins Leben rufen. Sie passt perfekt zum Anspruch des Unternehmens, der Marktführer im technischen Know-How von E-Commerce-Prozessen zu sein. <span class="readmore">Durch eine hohe Transparenz und die Integration der Telefonie in Freshdesk, konnte die Erreichbarkeit der verschiedenen Shop-Hotlines erhöht werden. Sämtliche telefonierelevanten Settings sind einfach und schnell änderbar und die Lösung skaliert mit dem ständig wachsenden Unternehmen. Officetelefonie, die teilweise mit Hardware-Geräten von snom umgesetzt wurde und einfache Outbound- Telefonie runden die Lösung ab.</span></p>
     </div>
 </div>
 

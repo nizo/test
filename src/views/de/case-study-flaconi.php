@@ -73,23 +73,27 @@
 <div class="section">
     <div class="section__content section__content--narrow centered mobile-left" id="anforderungen">
         <h2>Anforderungen</h2>
-        <p class="bigtext">Die alte Telefonanlage sollte gegen eine neue Lösung ausgetauscht werden, die in Bezug auf Funktionalität, Skalierung und Statistikauswertung mehr Möglichkeiten bietet. Außerdem war schnell klar, dass hardwaregebundene Lösungen, die das obige Setting bereithalten, das vorgesehene Budget im Bereich der Anfangsinvestition, des Betriebs und der Wartung bei weitem überstiegen. Somit war das Mittel der Wahl eine netzbasierte (Cloud-)Lösung.</p>
+        <p class="bigtext">Die alte Telefonanlage sollte gegen eine neue Lösung ausgetauscht werden, die in Bezug auf Funktionalität, Skalierung und Statistikauswertung mehr Möglichkeiten bietet. <span class="readmore">Außerdem war schnell klar, dass hardwaregebundene Lösungen, die das obige Setting bereithalten, das vorgesehene Budget im Bereich der Anfangsinvestition, des Betriebs und der Wartung bei weitem überstiegen. Somit war das Mittel der Wahl eine netzbasierte (Cloud-)Lösung.</span></p>
     </div>
 </div>
 
 <div class="section section--colored" style="--bg:rgba(255, 181, 186, 0.1)">
     <div class="section__content section__content--narrow centered mobile-left" id="loesung">
         <h2>Lösung</h2>
-        <p class="bigtext">Durch die funktionale Verknüpfung von Telefonanlage, ACD, Routingfunktionen und Statistiken in einem System, stellten die Lösungen von CallOne einen idealen Lösungsansatz für Flaconi dar.</p>
-        <p class="bigtext">Durch die Nutzung der CallOne-Lösung konnte auf der einen Seite die hohen Ansprüche in Bezug auf erstklassigen Service auch am Telefon, als auch die umfangreichen Auswertungsanforderungen im Bereich der Statistiken erfüllt werden. Die Echtzeitauswertung der eingehenden Statistikdaten bieten Flaconi die Möglichkeit, in sekundenschnelle auf abweichende Servicelevel zu reagieren. So wurden umfangreiche und ganz individuelle Statistikreports entwickelt, die automatisiert den entsprechenden Verantwortlichen zugehen.</p>
+        <p class="bigtext">
+            Durch die funktionale Verknüpfung von Telefonanlage, ACD, Routingfunktionen und Statistiken in einem System, stellten die Lösungen von CallOne einen idealen Lösungsansatz für Flaconi dar. <span class="readmore"><br /><br />
+            Durch die Nutzung der CallOne-Lösung konnte auf der einen Seite die hohen Ansprüche in Bezug auf erstklassigen Service auch am Telefon, als auch die umfangreichen Auswertungsanforderungen im Bereich der Statistiken erfüllt werden. Die Echtzeitauswertung der eingehenden Statistikdaten bieten Flaconi die Möglichkeit, in sekundenschnelle auf abweichende Servicelevel zu reagieren. So wurden umfangreiche und ganz individuelle Statistikreports entwickelt, die automatisiert den entsprechenden Verantwortlichen zugehen.</span>
+        </p>
     </div>
 </div>
 
 <div class="section">
     <div class="section__content section__content--narrow centered mobile-left" id="ergebnis">
         <h2>Ergebnis</h2>
-        <p class="bigtext">Erstmalig ist Flaconi in der Lage, umfangreiche Statistiken im Bereich des telefonischen Kundenkontaktes auszuwerten. Dies führte sehr schnell zu weitreichenden Erkenntnissen, wie der Kundendialog in Zukunft noch besser gesteuert werden könnte. In enger Zusammenarbeit mit CallOne wurden Daten ausgewertet und neue Abfragemöglichkeiten entwickelt. Die Auswertung führte dazu, dass neue Anrufsteuerungsmechanismen implementiert wurden, die nun dafür sorgen, dass sehr viel bessere Servicelevel erreicht werden.</p>
-        <p class="bigtext">Durch den Einsatz der Lösungen von CallOne konnte innerhalb von sechs Wochen die Erreichbarkeit um 15% verbessert werden. Die Abruchquote von Anrufen konnte um 23% gesenkt werden.</p>
+        <p class="bigtext">
+            Erstmalig ist Flaconi in der Lage, umfangreiche Statistiken im Bereich des telefonischen Kundenkontaktes auszuwerten. Dies führte sehr schnell zu weitreichenden Erkenntnissen, wie der Kundendialog in Zukunft noch besser gesteuert werden könnte. <span class="readmore">In enger Zusammenarbeit mit CallOne wurden Daten ausgewertet und neue Abfragemöglichkeiten entwickelt. Die Auswertung führte dazu, dass neue Anrufsteuerungsmechanismen implementiert wurden, die nun dafür sorgen, dass sehr viel bessere Servicelevel erreicht werden.<br /><br />
+            Durch den Einsatz der Lösungen von CallOne konnte innerhalb von sechs Wochen die Erreichbarkeit um 15% verbessert werden. Die Abruchquote von Anrufen konnte um 23% gesenkt werden.</span>
+        </p>
     </div>
 </div>
 
