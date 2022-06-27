@@ -79,7 +79,7 @@
     </div>
 </div>
 
-<div class="section section--colored-gradient" style="--bg1:#fff;--bg2:#edf2e2;">
+<div class="section section--colored-gradient" style="--bg1:rgba(6, 55, 115, 0);--bg2:rgba(6, 55, 115, 0.1);">
     <div class="section__content section__content--wide">
         <div class="breather-box" style="--c-bg:#031C3A;--c-text:#fff">
             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
@@ -107,7 +107,7 @@
     </div>
 </div>
 
-<div class="section section--light-green">
+<div class="section section--colored" style="--bg:rgba(6, 55, 115, 0.1)">
     <div class="section__content section__content--narrow" id="herausforderungen">
         <h2 class="centered mobile-left">Herausforderungen &amp; Ziele</h2>
         <p class="centered mobile-left bigtext">Check24 hatte bei der Suche nach einer neuen Callcenter Software für den Bereich Sachversicherungen klare Ziele vor Augen:</p>
@@ -225,7 +225,7 @@
     </div>
 </div>
 
-<div class="section section--light-green" id="ergebnisse">
+<div class="section section--colored" style="--bg:rgba(6, 55, 115, 0.1)" id="ergebnisse">
     <div class="section__content section__content--wide">
         <h2 class="centered mobile-left">Ergebnisse</h2> 
 
@@ -316,7 +316,7 @@
     </div>
 </div>
 
-<div class="section section--light-green-white" id="fazit">
+<div class="section section--colored-gradient" style="--bg1:rgba(6, 55, 115, 0.1);--bg2:rgba(6, 55, 115, 0)" id="fazit">
     <div class="section__content section__content--narrow centered mobile-left">
         <h2>
             Fazit: <br class="mobile-hidden" />
@@ -523,7 +523,7 @@
 		<div class="co-grid">
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#449c47">
+					<div class="number-card__number" style="--color:#031C3A">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
 					</div>
 					weniger Kosten pro Kontakt<br />
@@ -532,7 +532,7 @@
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#449c47">
+					<div class="number-card__number" style="--color:#031C3A">
                         <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
 					</div>
 					kürzere Gesprächsdauern<br />
@@ -541,7 +541,7 @@
 			</div>
 			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 				<div class="number-card">
-					<div class="number-card__number" style="--color:#449c47">
+					<div class="number-card__number" style="--color:#031C3A">
 						<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
 					</div>
 					Verkürzung der<br />
