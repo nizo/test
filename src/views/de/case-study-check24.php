@@ -2,7 +2,7 @@
     <div class="hero">
         <div class="hero__text">
             <h1>
-                Check24 <span style="opacity:0.2;font-weight:300;">&times;</span> CallOne<br />
+                Check24<br />
                 Beste Telefonanlage? Check!
             </h1>
             <p class="bigtext">Die CallOne Lösung für den telefonischen Support der Check24 Sachversicherungsprodukte mit bester Transparenz, optimale Vorausplanbarkeit und Integrationen in bereits genutzten Businesssysteme.</p>
@@ -27,25 +27,17 @@
             </div>
         </div>
         <div class="hero__image centered">
-            <?= pictureTag(
-                '/assets/images/client-logos/logo-check24-color.svg',
-                'Check24 ist Kunde bei CallOne',
-                465, 112, [], false
-            ); ?><br />
-            <?= pictureTag(
-                '/assets/images/icons_svg/x-times-black.svg',
-                'CallOne & Check24',
-                32, 32, [
-                    'style' => 'width:32px'
-                ], false
-            ); ?><br /><br />
-            <?= pictureTag(
-                '/assets/images/logo/Logo_black.svg',
-                'Check24 ist Kunde bei CallOne',
-                200, 47, [
-                    'style' => 'width:200px;opacity:0.5'
-                ], false
-            ); ?>
+            <div style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-xl) var(--gutter-m);border-radius:10px">
+                <div class="blurry-logo-box">
+                    <?= pictureTag(
+                        '/assets/images/client-logos/carddeck/check24-carddeck-black.png',
+                        'Check24 ist zufriedener Kunde von CallOne',
+                        150, 80, [
+                            'style' => '--w:150px'
+                        ], false
+                    ); ?>
+                </div>
+            </div>
         </div>
     </div>
 
