@@ -62,7 +62,7 @@
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                <span>
+                <p>
                     Check24 ist Deutschlands größtes Vergleichsportal, mit vielfachen Auszeichnungen für exzellenten Service. Da ist es nicht verwunderlich, dass sie höchste Maßstäbe an Effizienz und Qualität ansetzen. <span class="readmore">CallOne betreut Check24 mit einem Komplettservice im supportintensiven Bereich der Sachversicherungen.<br /><br />
                     Manche Versicherungen sind komplex, deshalb können Kunden sieben Tage die Woche Experten zu den verschiedenen Versicherungstypen über produktspezifische Hotlines sowie auch auf direkten Durchwahlen kontaktieren und erhalten eine komplett persönliche Beratung.</span>
                 </p>
