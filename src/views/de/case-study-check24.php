@@ -87,7 +87,7 @@
                     <?= pictureTag(
                         '/assets/images/photos/check24-dr-rainer-klipp.jpg',
                         'Kundenstimme von Dr. Rainer Klipp zur CallOne Callcenter Software',
-                        255, null
+                        255, 205
                     ); ?>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--vcentered">
