@@ -447,3 +447,198 @@
         </div>
     </div>
 </div>
+
+<div class="section">
+    <div class="section__content section__content--wide">
+        <h2 class="centered mobile-left">CallOne-Funktionen im Überblick</h2>
+
+        <div class="co-grid">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/callback-black.svg',
+								'Funktion: Rückruf-Optionen',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Rückruf-Optionen</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Ihre Warteschleife ist schon voll? Verkürzen Sie die Wartezeit Ihrer Kunden mit praktischen Rückruf-Optionen.<br class="mobile-hidden" /><br class="mobile-hidden" /></p>
+
+                    <p><a href="/telefonanlage-mit-warteschleife#features" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                </div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-overview.svg',
+								'Funktion: Warteschleifen',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Warteschleifen</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Statt ewigem Warten bekommen Ihre Kunden smarte Warteschleifen für hohe Zufriedenheit. Mit virtuellen Warteschleifen und Rückruf-Optionen.</p>
+
+                    <p><a href="/telefonanlage-mit-warteschleife" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                </div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-apis.svg',
+								'Funktion: Schnittstellenanbindung',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Schnittstellen&shy;anbindung</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Integrieren Sie eigene Hardware, CRM-Systeme, Google Adwords und mehr in Ihre CallOne Lösung.<br class="mobile-hidden" /><br class="mobile-hidden" /></p>
+
+                    <p><a href="/voip-api" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                </div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/menu-numbers.svg',
+								'Funktion: Auswahlmenüs',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Auswahlmenüs</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Ermöglichen Sie Ihren Kunden mit passenden Auswahlmenüs, genau den richtigen Ansprechpartner für das Anliegen zu bekommen.</p>
+
+                    <p><a href="/callcenter-software-funktionen#Anrufsteuerung" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                </div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/icon-flexibilitaet.svg',
+								'Funktion: Routing-Optionen',
+								70, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Routing-Optionen</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Erstellen Sie genau die Routings, die Sie brauchen. Leiten Sie Anrufe entsprechend verschiedener Sprachen oder Kategorien zu den passenden Agenten.</p>
+
+                    <p><a href="/callcenter-software-funktionen#Anrufverteilung" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                </div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+				<div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/big_03.svg',
+								'Funktion: Live-Dashboards',
+								91, 70, [
+									'class' => 'co-grid__image--full-width',
+									'style' => 'height:70px'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Live-Dashboards</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Behalten Sie den Überblick über Ihre wichtigsten KPIs und Statistiken. Erstellen Sie sich Ihr Echtzeit-Dashboard, wie Sie es brauchen.</p>
+
+                    <p><a href="/statistiken" class="btn btn--border-bottom btn--arrow-right-small">Mehr erfahren</a></p>
+                </div>
+			</div>
+		</div>
+
+		<p class="centered">
+			<a href="/callcenter-software-funktionen" class="btn btn--primary">
+				Für Experten:<br />
+				Alle ACD-Funktionen
+			</a>
+		</p>
+    </div>
+</div>
+
+<div class="section">
+	<div class="section__content section__content--wide">
+		<h2 class="centered mobile-left">Kundenorientierte Unternehmen <br class="mobile-hidden" />vertrauen auf CallOne.</h2>
+        <p class="centered mobile-left bigtext">Mit der CallOne Businesstelefonie-Lösung aus der Cloud machen Sie Ihren Kundenservice zum Kundenmagneten. Nebenbei sparen Sie bares Geld, weil wir die richtigen Stellschrauben für Ihr größtes Einsparpotenzial finden.</p>
+
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+				<div class="number-card">
+					<div class="number-card__number" style="--color:#d87000">
+						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
+					</div>
+					weniger Kosten pro Kontakt<br />
+					durch gesteigerte FCR
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+				<div class="number-card">
+					<div class="number-card__number" style="--color:#d87000">
+                        <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
+					</div>
+					kürzere Gesprächsdauern<br />
+					(AHT)
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+				<div class="number-card">
+					<div class="number-card__number" style="--color:#d87000">
+						<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
+					</div>
+					Verkürzung der<br />
+					Wartezeit
+				</div>
+			</div>
+		</div>
+
+		<p class="centered">
+			<a href="/callcenter-einsparpotential" class="btn btn--primary">Ihr Einsparpotential berechnen</a>
+		</p>
+	</div>
+</div>
