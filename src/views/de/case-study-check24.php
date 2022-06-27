@@ -1,10 +1,7 @@
 <div class="section section--colored-gradient section--mobile-divider" style="--bg1:rgba(6, 55, 115, 0.1);--bg2:rgba(6, 55, 115, 0);">
     <div class="hero">
         <div class="hero__text">
-            <h1>
-                Check24<br />
-                Beste Telefonanlage? Check!
-            </h1>
+            <h1>Beste Telefonanlage? Check!</h1>
             <p class="bigtext">Die CallOne Lösung für den telefonischen Support der Check24 Sachversicherungsprodukte mit bester Transparenz, optimale Vorausplanbarkeit und Integrationen in bereits genutzten Businesssysteme.</p>
 
             <p class="mobile-centered">
