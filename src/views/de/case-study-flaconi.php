@@ -3,15 +3,19 @@
         <div class="hero__text">
             <h1>Dufte Anrufsteuerung, <br class="mobile-hidden" />frei skalierbar</h1>
             <p class="bigtext">Flaconi.de ist einer der größten Onlineversandhändler Deutschlands für Parfum, Pflege und Make-up. Als Premium Online-Shop wird höchster Wert auf ein exzellentes Einkaufserlebnis und erstklassigen Service gelegt.</p>
+
+            <p class="mobile-centered">
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Zum kostenfreien<br />Beratungsgespräch</a>
+            </p>
         </div>
         <div class="hero__image centered">
-            <div style="background-image:url(/assets/images/photos/lbs-image.jpg);background-size:cover;background-position:center;padding:var(--gutter-xl) var(--gutter-m);border-radius:10px">
+            <div style="background-image:url(/assets/images/photos/flowers.jpg);background-size:cover;background-position:center;padding:var(--gutter-xxl) var(--gutter-m);border-radius:10px">
                 <div class="blurry-logo-box">
                     <?= pictureTag(
-                        '/assets/images/client-logos/carddeck/flaconi-carddeck-black.png',
-                        'Check24 ist zufriedener Kunde von CallOne',
-                        150, 80, [
-                            'style' => '--w:150px'
+                        '/assets/images/client-logos/logo-flaconi-2.svg',
+                        'flaconi ist zufriedener Kunde von CallOne',
+                        230, 68, [
+                            'style' => '--w:230px'
                         ], false
                     ); ?>
                 </div>
