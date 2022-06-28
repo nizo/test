@@ -492,7 +492,7 @@ function jobs_load ()
 
 	$job = new job ('IT & Technik', 'Webdesigner*in - onsite & remote', 'Du liebst es, aus Mockups lebendige Websites, Illustrationen und Grafiken entstehen zu lassen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam / Remote');
-	$job->url_set ('/karriere/job-ux-webdesigner-in-potsdam-oder-remote');
+	$job->url_set ('/karriere/job-webdesigner-in-potsdam');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst es, aus Mockups und Briefings lebendige Bildwelten entstehen zu lassen? Dann bist du bei uns genau richtig!​​');
 	$job->text_description_long_set ('Als Webdesigner*in stellst du unsere Produktwelt sowie unsere DNA kreativ und zielgerichtet auf unseren Webpräsenzen dar. Du erstellst passende Illustrationen und Animationen für die Weiterentwicklung unserer Websites. Du erstellst lebendige Bild-Stories mit Emotion auf Basis einen Briefings oder Mockups. Außerdem bringst du eine gute Portion Neugier und Kreativität mit. Wenn du dich gerne mit neuen Ideen einbringst und als Teil eines Teams arbeitest, bist du bei uns genau richtig.');
@@ -604,6 +604,30 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
+
+		
+	$job = new job ('Marketing', 'Produkt Marketing Manager*in', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/produkt-marketing-manager-in-potsdam');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du wünschst dir Freiraum für deine Expertise und Ideen innherhalb eines eingespielten, sympathischen Teams? Gemeinsam mit unseren Product Ownern und unserem Marketing-Team kannst du bei uns für richtig gute Weiterentwicklung und Vermarktung unserer Produkte sorgen. Storytelling zu Produkten und Features, Briefings und Content-Erstellung für das Marketing-Team sowie enge Zusammenarbeit in der Analyse und Optimierung der bestehenden Anbindungen, Features und Produkte gehören zu deinem daily Business. Wir freuen uns auf dich!');
+	$job->text_description_long_set ('Als Produkt Marketing Manager*in bei CallOne fungierst du als Schnittstelle zwischen unserem Team und unseren Kunden. Dank deiner Arbeit entstehen Produkte, Features und Anbindungen, die ideal auf die Wünsche unserer Kunden angepasst sind. Du bringst eine gute Portion Neugier und Kreativität mit sowie die Fähigkeit, dich mit neuen Ideen einzubringen.');
+	$job->text_tasks_set ('Erarbeitung von Produktpositionierungen, -mehrwerten und Nutzenargumentationen für Marketing und Vertrieb');
+	$job->text_tasks_set ('Unterstützung bei der Entwicklung neuer Produkte und Features');
+	$job->text_tasks_set ('Planung und Umsetzung von Marketing- und Kommunikationsmaßnahmen bezüglich unserer Produkte');
+	$job->text_tasks_set ('Content-Erstellung, Storytelling und Zuarbeit für Marketing-Inhalte');
+	$job->text_tasks_set ('Analyse und Optimierung bestehender Produkte, Features und Anbindungen');
+	$job->text_tasks_set ('Erstellung von Produkt- und Feature Mockups, Mitarbeit an Entwicklung von User Stories');
+	$job->text_tasks_set ('Einholen von Team-Input und Kundenfeedback zu Produkten und Features sowie die Aufarbeitung von Kundenbefragungen für das Produktteam');
+	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in Produkt Design, Produktmarketing, Marketing oder vergleichbare Qualifikation');
+	$job->text_requirements_set ('Erfahrung in der Konzipierung von kundenfeedbackbasierten Produktfeatures');
+	$job->text_requirements_set ('Praktische Erfahrungen im B2B Marketing');
+	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie kommunikative Fähigkeiten und Teamgeist zeichnen dich aus.');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['clipboard']);
+	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
+	$jobs->job_add ($job);
 
 	$job = new job ('Vertrieb', '(Senior) Sales Manager*in', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
 	$job->location_set ('Potsdam');
