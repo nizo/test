@@ -261,6 +261,30 @@ $product->structured_data_get_code ();
                     </p>
                 </div>
             </div>
+
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <?= pictureTag(
+                                '/assets/images/logo/productlogos/logo-microsoft-dynamics.svg',
+                                'Passen Sie Ihre Geschäftsabläufe an, und fördern Sie Innovationen mit einem hypervernetzten Unternehmen',
+                                64, 64, [
+                                    'style' => 'max-width:64px;max-height:64px'
+                                ]
+                            ); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Microsoft Dynamics</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Microsoft Dynamics Telefonie (CTI) über fertige Integration mittels Channel Integration Framework. Ein- und ausgehende Anrufe signalisieren und mit den Kontaktdatensätzen matchen.<br class="mobile-hidden" /><br class="mobile-hidden" /></p>
+                    <p class="btn-set">
+                        <a href="https://dynamics.microsoft.com/de-de/" target="_blank" class="btn btn--primary btn--small-padding">Infos</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
