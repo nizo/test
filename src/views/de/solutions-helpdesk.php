@@ -2,15 +2,15 @@
 $faqs = new faqs ();
 $faqs->faq_add (
     'Was ist eine Helpdesk-Software?',
-    '<p>Eine Helpdesk-Software wie Zendesk oder Freshdesk ermöglicht es Ihnen eingehende Kundenanfrage verschiedenster Kanäle an einer zentralen Stelle zu bearbeiten</p><p>Die Integration Ihrer Kundenservice-Telefonie in Ihr Helpdesk-Tool ist daher sehr interessant, um telefonische Kundenanfragen an zentraler Stelle zu inkludieren und trotzdem die Funktionen einer intelligenten ACD-Lösung zu nutzen.</p>'
+    '<p>Eine Helpdesk-Software wie Zendesk oder Freshdesk ermöglicht es Ihnen eingehende Kundenanfrage verschiedenster Kanäle an einer zentralen Stelle zu bearbeiten</p><p>Die Integration Ihrer Kundenservice-Telefonie in Ihr Helpdesk-Tool ist daher sehr interessant, um telefonische Kundenanfragen an zentraler Stelle zu inkludieren und trotzdem die Funktionen einer intelligenten ACD-Lösung zu nutzen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
     'Was kostet die Anbindung von Apps an die ACD-Lösung?',
-    '<p>Die Nutzung von fertigen Apps und Anbindungen an Drittsysteme wird unsererseits i.d.R. mit einer Grundgebühr berechnet.</p><p>Für die Anbindung Ihrer eigenen Systeme stehen wir Ihnen gerne projektseitig zur Seite und erstellen mit Ihnen gemeinsam einen Plan.</p>'
+    '<p>Die Nutzung von fertigen Apps und Anbindungen an Drittsysteme wird unsererseits i.d.R. mit einer Grundgebühr berechnet.</p><p>Für die Anbindung Ihrer eigenen Systeme stehen wir Ihnen gerne projektseitig zur Seite und erstellen mit Ihnen gemeinsam einen Plan. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
     'Welche Einsatzmöglichkeiten bieten sich mit einer schnittstellenoffenen Callcenter Software?',
-    '<p>Die Schnittstellen einer Callcenter-Software bieten Ihnen extrem viele Möglichkeiten: Über den Bezug von statistischen Rohdaten bis hin zur Automatisierung von Prozessen sind alle Möglichkeiten offen.</p><p>Kontaktieren Sie uns gerne mit Ihren individuellen Anforderungen!</p>'
+    '<p>Die Schnittstellen einer <a href="/callcenter-software" class="inline-link">Callcenter-Software</a> bieten Ihnen extrem viele Möglichkeiten: Über den Bezug von statistischen Rohdaten bis hin zur Automatisierung von Prozessen sind alle Möglichkeiten offen.</p><p><a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Kontaktieren Sie uns gerne</a> mit Ihren individuellen Anforderungen!</p>'
 );
 ?>
 

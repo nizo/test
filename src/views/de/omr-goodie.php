@@ -1,20 +1,20 @@
 <?php
 $faqs = new faqs ();
 $faqs->faq_add (
-  'Was bietet CallOne?',
-  '<p>CallOne bietet Ihnen eine Telefonielösung für das gesamte Unternehmen. Dabei richten wir uns speziell an Ihre Sales- und Service-Abteilungen und bieten für diese eine ausgereifte Callcenter-Software mit weitreichenden Apps und APIs.</p>'
+    'Was bietet CallOne?',
+    '<p>CallOne bietet Ihnen eine Telefonielösung für das gesamte Unternehmen. Dabei richten wir uns speziell an Ihre Sales- und Service-Abteilungen und bieten für diese eine ausgereifte Callcenter-Software mit weitreichenden Apps und APIs.</p>'
 );
 $faqs->faq_add (
-  'Was kostet CallOne?',
-  '<p>Wir bieten Pakete, die genau auf die Anforderungen unserer Kunden zugeschnitten sind. Dabei richten wir uns insbesondere an Unternehmen, die eine individuelle Lösung benötigen und eine persönliche Betreuung zu schätzen wissen.</p><p>Konkret startet unsere Telefonanlage bei 5 UserInnen und 99,00 EUR. Näheres erfährst du bei unserem Vertriebsteam!</p>'
+    'Was kostet CallOne?',
+    '<p>Wir bieten Pakete, die genau auf die Anforderungen unserer Kunden zugeschnitten sind. Dabei richten wir uns insbesondere an Unternehmen, die eine individuelle Lösung benötigen und eine persönliche Betreuung zu schätzen wissen.</p><p>Konkret startet unsere Telefonanlage bei 5 UserInnen und 99,00 EUR. Näheres erfährst du bei unserem Vertriebsteam!</p>'
 );
 $faqs->faq_add (
-  'Welches Goodie erhalte ich als OMR-HörerIn?',
-  '<p>Als OMR-HörerIn erlassen wir dir die Bereitstellunggebühren unserer Telefonanlage. Damit sparst du bis zu 499,00 EUR!</p>'
+    'Welches Goodie erhalte ich als OMR-HörerIn?',
+    '<p>Als OMR-HörerIn erlassen wir dir die Bereitstellunggebühren unserer Telefonanlage. Damit sparst du bis zu 499,00 EUR!</p>'
 );
 $faqs->faq_add (
-  'Wie schnell können wir starten?',
-  '<p>Ein Start ist in wenigen Schritten möglich. Wir schalten einen persönlichen Zugang zur Anlage und es kann losgehen! Persönliche AnsprechpartnerInnen stehen jederzeit zur Konfiguration des Routings zur Verfügung.</p>'
+    'Wie schnell können wir starten?',
+    '<p>Ein Start ist in wenigen Schritten möglich. Wir schalten einen persönlichen Zugang zur Anlage und es kann losgehen! Persönliche AnsprechpartnerInnen stehen jederzeit zur Konfiguration des Routings zur Verfügung.</p>'
 );
 ?>
 

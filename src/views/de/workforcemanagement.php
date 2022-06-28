@@ -17,7 +17,8 @@ $faqs->faq_add (
     '<li>Skills / Fähigkeiten der Mitarbeiter</li>'.
     '<li>Rechtliche Einschränkungen</li>'.
     '<li>Shrinkage oder Schwund durch Krankentage, Besprechungen, Verspätungen o.ä.</li>'.
-    '</ul><br />'
+    '</ul><br /><br />'.
+    '<p><a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
     'Welche Vorteile hat eine Workforce Management Software im Contact Center oder Callcenter?',
@@ -29,7 +30,8 @@ $faqs->faq_add (
     '<li>Senkung von Lohnkosten</li>'.
     '<li>Gesteigerte Flexibilität in der Personalplanung</li>'.
     '<li>Höhere Zufriedenheit und Bindung von Mitarbeitern durch die Möglichkeit, im Planungsprozess mitzubestimmen</li>'.
-    '</ul><br />'
+    '</ul><br /><br />'.
+    '<p><a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
     'Wie funktioniert das Workforce Management System in meinem Contact Center?',
@@ -41,7 +43,8 @@ $faqs->faq_add (
     '<li>Mitarbeiterzufriedenheit</li>'.
     '<li>Reporting</li>'.
     '</ul><br /><br />'.
-    '<p>Dank historischer sowie tagesaktueller Daten aus der Callcenter Software kann die Workforce Management Software genau die relevanten Informationen ausspielen, Voraussagen (Forcasts) treffen und so Ihre Einsatzplanung enorm erleichtern.</p>'
+    '<p>Dank historischer sowie tagesaktueller Daten aus der Callcenter Software kann die Workforce Management Software genau die relevanten Informationen ausspielen, Voraussagen (Forcasts) treffen und so Ihre Einsatzplanung enorm erleichtern.</p>'.
+    '<p><a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 ?>
 

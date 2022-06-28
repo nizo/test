@@ -2,15 +2,15 @@
 $faqs = new faqs ();
 $faqs->faq_add (
 	'Wie werden Statistiken von CallOne bereitgestellt?',
-	'<p>CallOne liefert alle Statistiken in Echtzeit. Sie können wählen, ob SIe die fertigen Statistiken über unsere Weboberfläche anzeigen oder exportieren möchten. Hierbei liefern wir csv, xls, pdf oder json-Formate. Zusätzlich können Sie neben Tabellen auch grafische Auswertungen erhalten. Daneben steht unseren Kunden ein sog. LiveMonitor zur Verfügung, der alle Anrufe und callcenterrelevante KPI in Echtzeit ausgibt.</p>'
+	'<p>CallOne liefert alle Statistiken in Echtzeit. Sie können wählen, ob SIe die fertigen Statistiken über unsere Weboberfläche anzeigen oder exportieren möchten. Hierbei liefern wir csv, xls, pdf oder json-Formate. Zusätzlich können Sie neben Tabellen auch grafische Auswertungen erhalten. Daneben steht unseren Kunden ein sog. LiveMonitor zur Verfügung, der alle Anrufe und callcenterrelevante KPI in Echtzeit ausgibt. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
 	'Wie kann ich mein BI-System an CallOne koppeln?',
-	'<p>CallOne liefert einen universellen Datenkonnektor für alle gängigen BI-Systeme. Die Kopplung erfolgt einfach über einen sog. Webkonnektor, den wir unseren Kunden bereitstellen. Neben Agenten und Anrufen können nahezu alle zusätzlichen Informationen wie Anrufgründe, Klingel-, Halte- Warte- oder Gesprächsdauern ausgewertet und miteinander kombiniert werden.</p>'
+	'<p>CallOne liefert einen universellen Datenkonnektor für alle gängigen BI-Systeme. Die Kopplung erfolgt einfach über einen sog. Webkonnektor, den wir unseren Kunden bereitstellen. Neben Agenten und Anrufen können nahezu alle zusätzlichen Informationen wie Anrufgründe, Klingel-, Halte- Warte- oder Gesprächsdauern ausgewertet und miteinander kombiniert werden. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
 	'Was kosten Statistiken und Auswertungen bei CallOne?',
-	'<p>CallOne bietet für seine VoIP-Telefonanlage und Callcenter Software die meisten Statistiken inkludiert als Teil seiner Lösung. Für Kunden, die spezielle Anforderungen an Ihr Reporting haben stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
+	'<p>CallOne bietet für seine <a href="/voip-telefonanlage" class="inline-link">VoIP-Telefonanlage</a> und <a href="/callcenter-software" class="inline-link">Callcenter Software</a> die meisten Statistiken inkludiert als Teil seiner Lösung. Für Kunden, die spezielle Anforderungen an Ihr Reporting haben stellen wir unseren BI-Konnektor als Zusatzoption kostenpflichtig mit zur Verfügung.</p>'
 );
 ?>
 

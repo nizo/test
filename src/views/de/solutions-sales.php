@@ -2,15 +2,15 @@
 $faqs = new faqs ();
 $faqs->faq_add (
     'Wie kann ich CallOne für mein Inside-Sales Team nutzen?',
-    '<p>Nutzen Sie die CallOne Callcenter-Software und VoIP-Telefonanlage, um Ihr Sales-Team optimal mit Tools für die Outbound- und Inbound-Telefonie auszustatten.</p><p>Neben den Telefonie-Lösungen empfehlen wir die Anbindung der für Sie relevanten Sales-Tools, insbesondere, um Ihren Agents Click2Dial und das automatisierte Erstellen von Voice Tickets aus Ihren Systemen heraus zu ermöglichen.</p>'
+    '<p>Nutzen Sie die <a href="/callcenter-software" class="inline-link">CallOne Callcenter-Software</a> und <a href="/voip-telefonanlage" class="inline-link">VoIP-Telefonanlage</a>, um Ihr Sales-Team optimal mit Tools für die Outbound- und Inbound-Telefonie auszustatten.</p><p>Neben den Telefonie-Lösungen empfehlen wir die Anbindung der für Sie relevanten Sales-Tools, insbesondere, um Ihren Agents Click2Dial und das automatisierte Erstellen von Voice Tickets aus Ihren Systemen heraus zu ermöglichen.</p>'
 );
 $faqs->faq_add (
     'Welche Funktionen bietet CallOne speziell für Salesteams?',
-    '<p>Speziell für Ihr Sales-Team bietet die Lösungen Optionen für die Implementierung eines Power Dialers, einer Integration in Ihre CRM-Systeme und Click2Dial Features.</p><p>Außerdem können Sie bei CallOne alle notwendigen lokalen wie internationalen Rufnummern schalten, Optionen wie Gesprächsaufzeichnung und Silent Coaching für Schulungszwecke nutzen und Ihre Sales-Telefonie auf intelligenten Routingmodulen aufbauen.</p>'
+    '<p>Speziell für Ihr Sales-Team bietet die Lösungen Optionen für die Implementierung eines Power Dialers, einer Integration in Ihre CRM-Systeme und Click2Dial Features.</p><p>Außerdem können Sie bei CallOne alle notwendigen <a href="/0800-lokal-nummern" class="inline-link">lokalen wie internationalen Rufnummern</a> schalten, Optionen wie Gesprächsaufzeichnung und Silent Coaching für Schulungszwecke nutzen und Ihre Sales-Telefonie auf intelligenten Routingmodulen aufbauen.</p>'
 );
 $faqs->faq_add (
     'Wie schnell können wir mit CallOne starten?',
-    '<p>Ein schneller Start ist jederzeit möglich! Kontaktieren Sie uns einfach mit Ihren individuellen Anforderungen für ein Erstgespräch und ein Start ist sehr wahrscheinlich schon in den nächsten Tagen möglich.</p>'
+    '<p>Ein schneller Start ist jederzeit möglich! <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Kontaktieren Sie uns einfach</a> mit Ihren individuellen Anforderungen für ein Erstgespräch und ein Start ist sehr wahrscheinlich schon in den nächsten Tagen möglich.</p>'
 );
 ?>
 

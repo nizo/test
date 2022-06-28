@@ -2,23 +2,23 @@
 $faqs = new faqs ();
 $faqs->faq_add (
     'Welche Funktionen bietet die Callcenter Software für Inboundtelefonie?',
-    '<p>CallOne bietet eine Call Center Software für ausgewachsene Unternehmen, die Ihre Service- und Salestelefonie weitreichend verbessern möchten. Zum Gesamtpaket gehören individuelle Routings, detaillierte Statistiken, Anbindungen an Drittsysteme und vieles mehr. Bei CallOne erhalten Sie stets eine/n persönliche/n AnsprechpartnerIn für Ihr Projekt und haben die Möglichkeit die Lösung umfangreich zu testen.</p>'
+    '<p>CallOne bietet eine Call Center Software für ausgewachsene Unternehmen, die Ihre Service- und Salestelefonie weitreichend verbessern möchten. Zum Gesamtpaket gehören individuelle Routings, <a href="/statistiken" class="inline-link">detaillierte Statistiken</a>, <a href="/callcenter-software-apps" class="inline-link">Anbindungen an Drittsysteme</a> und vieles mehr. Bei CallOne erhalten Sie stets eine/n persönliche/n AnsprechpartnerIn für Ihr Projekt und haben die Möglichkeit die Lösung umfangreich zu testen.</p>'
 );
 $faqs->faq_add (
 	'Welche Möglichkeiten bietet die Callcenter-Lösung das Anrufaufkommen zu beeinflussen?',
-	'<p>Mit der ACD können wir das Anrufaufkommen natürlich nicht direkt beeinflussen, aber sie bietet intelligente Funktionen um Ihre Anrufverteilung optimal zu gestalten, unabhängig von der Anzahl der eingehenden Anrufe. Optionen wie ursprungsabhängige Routings, intelligente Vorqualifizierung mittels IVR und Rückruf aus der Warteschleife sind hier nur einige Ihrer Möglichkeiten.</p>'
+	'<p>Mit der ACD können wir das Anrufaufkommen natürlich nicht direkt beeinflussen, aber sie bietet intelligente Funktionen um Ihre Anrufverteilung optimal zu gestalten, unabhängig von der Anzahl der eingehenden Anrufe. Optionen wie ursprungsabhängige Routings, intelligente Vorqualifizierung mittels IVR und Rückruf aus der Warteschleife sind hier nur einige Ihrer Möglichkeiten. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a></p>'
 );
 $faqs->faq_add (
 	'Sind mit der Callcenter-Software auch Outbound-Gespräche möglich?',
-	'<p>Ja, mit der Lösung können auch weltweite Gespräche nach außen geführt werden. Diese lassen sich sogar über verschiedene Schnittstellen automatisch auslösen. Power-Dialer und Predictive-Dialer Funktionalitäten sind allerdings nicht gegeben.</p>'
+	'<p>Ja, mit der Lösung können auch weltweite Gespräche nach außen geführt werden. Diese lassen sich sogar über verschiedene Schnittstellen automatisch auslösen. Power-Dialer und Predictive-Dialer Funktionalitäten sind allerdings nicht gegeben. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a></p>'
 );
 $faqs->faq_add (
 	'Wie sieht die Agentenoberfläche aus?',
-	'<p>Die Agentenoberfläche der Callcenter-Software ist grafisch ansprechend, intuitiv bedienbar und über jeden Browser aufrufbar, ohne dass eine zusätzliche Software installiert werden muss. <a href="#" data-openmodal="contact-sales" class="inline-link trackedContactModal">Kontaktieren Sie uns</a> gerne für eine Live Demo.</p>'
+	'<p>Die Agentenoberfläche der <a href="/callcenter-software" class="inline-link">Callcenter-Software</a> ist grafisch ansprechend, intuitiv bedienbar und über jeden Browser aufrufbar, ohne dass eine zusätzliche Software installiert werden muss. <a href="#" data-openmodal="contact-sales" class="inline-link trackedContactModal">Kontaktieren Sie uns</a> gerne für eine Live Demo.</p>'
 );
 $faqs->faq_add (
 	'Was genau sind Skillgruppen?',
-	'<p>Oft werden Skillgruppen auch als Fähigkeitsgruppen bezeichnet. Je nach Anforderungen können verschiedene Skillgruppen nach Sprachen, Themen oder Produkten angelegt werden.</p>'
+	'<p>Oft werden Skillgruppen auch als Fähigkeitsgruppen bezeichnet. Je nach Anforderungen können verschiedene Skillgruppen nach Sprachen, Themen oder Produkten angelegt werden. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a></p>'
 );
 ?>
 

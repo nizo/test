@@ -7,20 +7,20 @@ $product->structured_data_get_code ();
 
 $faqs = new faqs ();
 $faqs->faq_add (
-  'Was ist ein Softphone?',
-  '<p>Ein Softphone ermöglicht es Ihnen statt über ein stationäres Endgerät, also z.B. ein Tischtelefon, bequem über den PC oder das Smartphone zu telefonieren. Letztendlich handelt es sich dabei normalerweise um eine Software, die Sie installieren. Die Benutzeroberfläche des Softphones ermöglicht Ihnen dann die gleichen Funktionen wie an einem regulären Telefon zu nutzen, z.B. Nummern eintippen, Wählen, Auflegen. Unsere Browser-Erweiterung integriert für Sie ein Softphone direkt in Ihren Browser. Nach Download der Erweiterung können Sie also ohne Installation eines zusätzlichen Programmes direkt im Browser telefonieren. Neben den regulären Telefoniefunktionen ermöglicht die Browsererweiterung noch weitere Möglichkeiten, wie z.B. Click-to-Dial. Sie können also Rufnummern auf jeder Webseite oder in Ihren webbasierten CRM-Tools anklicken und damit direkt einen Anruf auslösen.</p>'
+    'Was ist ein Softphone?',
+    '<p>Ein Softphone ermöglicht es Ihnen statt über ein stationäres Endgerät, also z.B. ein Tischtelefon, bequem über den PC oder das Smartphone zu telefonieren. Letztendlich handelt es sich dabei normalerweise um eine Software, die Sie installieren. Die Benutzeroberfläche des Softphones ermöglicht Ihnen dann die gleichen Funktionen wie an einem regulären Telefon zu nutzen, z.B. Nummern eintippen, Wählen, Auflegen. Unsere Browser-Erweiterung integriert für Sie ein Softphone direkt in Ihren Browser. Nach Download der Erweiterung können Sie also ohne Installation eines zusätzlichen Programmes direkt im Browser telefonieren. Neben den regulären Telefoniefunktionen ermöglicht die Browsererweiterung noch weitere Möglichkeiten, wie z.B. Click-to-Dial. Sie können also Rufnummern auf jeder Webseite oder in Ihren webbasierten <a href="/callcenter-software-apps" class="inline-link">CRM-Tools</a> anklicken und damit direkt einen Anruf auslösen.</p>'
 );
 $faqs->faq_add (
-  'Wie kann das Softphone verwandt werden?​',
-  '<p>In der Regel handelt es sich bei Softphones um Programme, die Sie herunterladen und auf Ihrem Computer oder mobilem Gerät installieren. Die CallOne Browser-Erweiterung können Sie sich einfach im App Store des Browsers Ihrer Wahl herunterladen ohne zusätzliche Programminstallationen. Somit können Sie jederzeit im Browser telefonieren. Sie aktivieren die Erweiterung in dem Sie die SIP-Daten Ihres Providers oder von CallOne in der Konfiguration eintragen.</p>'
+    'Wie kann das Softphone verwandt werden?',
+    '<p>In der Regel handelt es sich bei Softphones um Programme, die Sie herunterladen und auf Ihrem Computer oder mobilem Gerät installieren. Die CallOne Browser-Erweiterung können Sie sich einfach im App Store des Browsers Ihrer Wahl herunterladen ohne zusätzliche Programminstallationen. Somit können Sie jederzeit im Browser telefonieren. Sie aktivieren die Erweiterung in dem Sie die SIP-Daten Ihres Providers oder von CallOne in der Konfiguration eintragen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
-  'Für welches Betriebssystem ist das Softphone geeignet?​',
-  '<p>Die CallOne Browsererweiterung ist prinzipiell für alle Betriebssysteme geeignet. Sie finden die Erweiterung in den App Stores von Google Chrome, Mozilla Firefox und Microsoft Edge.</p>'
+    'Für welches Betriebssystem ist das Softphone geeignet?',
+    '<p>Die CallOne Browsererweiterung ist prinzipiell für alle Betriebssysteme geeignet. Sie finden die Erweiterung in den App Stores von Google Chrome, Mozilla Firefox und Microsoft Edge. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 $faqs->faq_add (
-  'Kann ich meinen eigenen Provider mit dem Softphone verwenden?',
-  '<p>Ja, Sie können die Erweiterung als Softphone mit Ihrem eigenen Provider oder auch mit CallOne Nebenstellen verwenden.</p>'
+    'Kann ich meinen eigenen Provider mit dem Softphone verwenden?',
+    '<p>Ja, Sie können die Erweiterung als Softphone mit Ihrem eigenen Provider oder auch mit CallOne Nebenstellen verwenden. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
 );
 ?>
 
@@ -112,7 +112,7 @@ $faqs->faq_add (
                         <source src="/assets/videos/softphone-mp4/Softphone.mp4" type="video/mp4" />
                     </video>
                 </div>
-                <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.​</p>
+                <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.</p>
                 <p class="centered">
                     <a class="btn btn--primary" href="#installation">Kostenfrei installieren</a>
                 </p>
