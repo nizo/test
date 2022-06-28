@@ -111,8 +111,8 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Integrieren Sie Ihren telefonischen Kundenservice direkt in den Freshdesk Service Desk. <span class="readmore">Automatische Voice Tickets für Anrufe, Click-to-Dial und die Integration von Anrufdaten in Ihre Kundendatensätzen machen Ihr Help Center maximal effizient.</span></p>
                     <p class="btn-set btn-set--spread">
-                        <a href="/freshdesk-callcenter-software" class="btn btn--primary btn--small-padding">Infos</a>
-                        <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                        <a href="/freshdesk-callcenter-software" class="btn btn--border-bottom btn--arrow-right-small">Infos</a>
+                        <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Marketplace</a>
                     </p>
                 </div>
             </div>
@@ -136,7 +136,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Steigern Sie mit der Integration Ihrer Sales-Calls in FreshSales ganz einfach Ihre Verkaufszahlen. <span class="readmore">Mit Click-to-Dial löst Ihr Vertriebsteam Anrufe blitzschnell aus und eingehende Calls werden automatisch über unsere CTI-Integration erfasst und zugeordnet.</span></p>
                     <p class="btn-set">
-                        <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                        <a href="https://www.freshworks.com/apps/freshdesk/call_center_connector_for_voice_ticket_integration/" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Marketplace</a>
                     </p>
                 </div>
             </div>
@@ -160,8 +160,8 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Kombinieren Sie Zendesk mit einer starken Callcenter-Lösung und Telefonanlage und optimieren Sie Ihre Prozesse im Kundenservice: Für mehr Effizienz und bessere Kundenerlebnisse.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set btn-set--spread">
-                        <a href="/zendesk-cti-ticketing" class="btn btn--primary btn--small-padding">Infos</a>
-                        <a href="https://www.zendesk.com/marketplace/apps/support/75986/cloud-acd/" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                        <a href="/zendesk-cti-ticketing" class="btn btn--border-bottom btn--arrow-right-small">Infos</a>
+                        <a href="https://www.zendesk.com/marketplace/apps/support/75986/cloud-acd/" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Marketplace</a>
                     </p>
                 </div>
             </div>
@@ -185,7 +185,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Lösen Sie Anrufe per Click to Dial direkt aus Ihrem Pipedrive CRM aus und haben Sie immer einen Blick auf die Anrufhistorie Ihrer Leads. Für effizientere Verkaufsprozesse und schneller abgeschlossene Leads.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
-                        <a href="https://www.pipedrive.com/en/marketplace/app/call-one/38e77507e5562334" target="_blank" class="btn btn--border-black btn--small-padding">Marketplace</a>
+                        <a href="https://www.pipedrive.com/en/marketplace/app/call-one/38e77507e5562334" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Marketplace</a>
                     </p>
                 </div>
             </div>
@@ -209,7 +209,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. <span class="readmore">Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</span><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
-                        <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="btn btn--border-black btn--small-padding">Hubspot Blog</a>
+                        <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Hubspot Blog</a>
                     </p>
                 </div>
             </div>
@@ -233,7 +233,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <span class="readmore">Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
-                        <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="btn btn--border-black btn--small-padding">AppExchange</a>
+                        <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">AppExchange</a>
                     </p>
                 </div>
             </div>
@@ -281,7 +281,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Microsoft Dynamics Telefonie (CTI) über fertige Integration mittels Channel Integration Framework. Ein- und ausgehende Anrufe signalisieren und mit den Kontaktdatensätzen matchen.<br class="mobile-hidden" /><br class="mobile-hidden" /></p>
                     <p class="btn-set">
-                        <a href="https://dynamics.microsoft.com/de-de/" target="_blank" class="btn btn--primary btn--small-padding">Infos</a>
+                        <a href="https://dynamics.microsoft.com/de-de/" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Business-Informationen</a>
                     </p>
                 </div>
             </div>
@@ -319,8 +319,8 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von Tableau. <span class="readmore">Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.</span></p>
                     <p class="btn-set btn-set--spread">
-                        <a href="/tableau-callcenter-connector" class="btn btn--primary btn--small-padding">Infos</a>
-                        <a href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="btn btn--border-black btn--small-padding">Partnercenter</a>
+                        <a href="/tableau-callcenter-connector" class="btn btn--border-bottom btn--arrow-right-small">Infos</a>
+                        <a href="https://www.tableau.com/partners/search?company-name=callone" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Partnercenter</a>
                     </p>
                 </div>
             </div>
@@ -344,7 +344,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Erstellen Sie aufwendige Dashboards, die komplexe Prognosen zu Auslastung und Callvolumen zulassen. <span class="readmore">Erleben sie bessere Planbarkeit ihrer Agenten und eine optimale Auswertung.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
-                        <a href="https://docs.microsoft.com/de-de/power-bi/connect-data/power-bi-data-sources" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                        <a href="https://docs.microsoft.com/de-de/power-bi/connect-data/power-bi-data-sources" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Datenquellen</a>
                     </p>
                 </div>
             </div>
@@ -368,7 +368,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Nutzen sie ausgefeilte AI-Funktionen und die assoziative Analyse-Engine um tiefe Einblicke in Telefoniedaten zu bekommen. Treffen sie bessere Entscheidungen durch datengesteuerte Echtzeitanalysen.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
-                        <a href="https://www.qlik.com/de-de/products/qlik-sense/data-sources" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                        <a href="https://www.qlik.com/de-de/products/qlik-sense/data-sources" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Datenquellen</a>
                     </p>
                 </div>
             </div>
@@ -392,7 +392,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Werten sie Telefoniedaten standortübergreifend mit der cloudbasierten Google BI-Software aus. <span class="readmore">Integrieren sie nahtlos in bestehende Dashboards und Auswertungen, um eine vielschichtigere Optimierung zu ermöglichen.</span></p>
                     <p class="btn-set">
-                        <a href="https://datastudio.google.com/data" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                        <a href="https://datastudio.google.com/data" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Datenquellen</a>
                     </p>
                 </div>
             </div>
@@ -416,7 +416,7 @@ $product->structured_data_get_code ();
 
                     <p style="margin-top:var(--gutter-xs)">Nutzen sie die Pivot-Funktionen von Excel um in gewohnter Umgebung umfangreiche Datenanalysen durchzuführen. Keine teure BI-Software notwendig, alle Rohdaten stehen genauso in Excel zur Verfügung.<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
-                        <a href="https://support.microsoft.com/en-us/office/create-edit-and-manage-connections-to-external-data-89d44137-f18d-49cf-953d-d22a2eea2d46" target="_blank" class="btn btn--border-black btn--small-padding">Datenquellen</a>
+                        <a href="https://support.microsoft.com/en-us/office/create-edit-and-manage-connections-to-external-data-89d44137-f18d-49cf-953d-d22a2eea2d46" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Datenquellen</a>
                     </p>
                 </div>
             </div>
