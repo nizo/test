@@ -102,13 +102,8 @@ $faqs->faq_add (
     <div class="section__content section__content--narrow">
         <h2 class="centered mobile-left">CallOne bietet eine Telefonanlage, die auf Knopfdruck alle anrufspezifischen Daten in Tableau überträgt.</h2>
 
-        <div class="content-box content-box--white">
-            <div class="video">
-                <video controls="" preload="none" onclick="this.play();" poster="/assets/images/photos/placeholder.gif" data-poster="/assets/images/photos/callcenter-tableau-video-poster.jpg" class="trackedElement" data-label="Tableau WebDataConnector" data-category="Video" data-action="Play Video">
-                    <source src="/assets/videos/callone-tableau.webm" type="video/webm">
-                    <source src="/assets/videos/callone-tableau.mp4" type="video/mp4">
-                </video>
-            </div>
+        <div class="btn-set btn-set--centered">
+            <a href="#" class="btn btn--primary centered" data-openmodal="video-tableau">Tableau-Connector jetzt ansehen</a>
         </div>
     </div>
 
