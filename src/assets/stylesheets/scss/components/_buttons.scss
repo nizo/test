@@ -296,6 +296,8 @@
 	align-items: center;
 	// margin-top: var(--gutter-m);
 	// margin-bottom: calc(var(--gutter-m) - var(--gutter-xs));
+	margin-left: calc(var(--gutter-xs) * -1);
+	margin-right: calc(var(--gutter-xs) * -1);
 
 	&--centered {
 		justify-content: center;

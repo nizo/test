@@ -57,39 +57,39 @@ $faqs->faq_add (
 
         <div class="grid-slider">
             <div class="grid-slider__item">
-                <?= pictureTag(
-                    '/assets/images/illus/performance-analysis-grey-bg.svg',
-                    'Erreichbarkeit, Annahmedauer, Abschlussquoten und vieles mehr sind auslesbare Daten aus den Statistiken der CallOne Callcenter Software',
-                    230, 127, [
-                        'class' => 'grid-slider__image'
-                    ]
-                ); ?>
+                <div class="grid-slider__image">
+                    <?= pictureTag(
+                        '/assets/images/illus/performance-analysis-grey-bg.svg',
+                        'Erreichbarkeit, Annahmedauer, Abschlussquoten und vieles mehr sind auslesbare Daten aus den Statistiken der CallOne Callcenter Software',
+                        230, 127
+                    ); ?>
+                </div>
                 <div class="grid-slider__content">
                     <h4>Top-Performer</h4>
                     <p class="bigtext">Annahmedauer, Abschlussquoten, Erreichbarkeit und vieles mehr zeigen Ihnen ihre Top-Performer.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
-                <?= pictureTag(
-                    '/assets/images/illus/availability-grey-bg.svg',
-                    'Mit den Echtzeitstatistiken die hohe Erreichbarkeit durch die Call Center Software auslesen',
-                    230, 127, [
-                        'class' => 'grid-slider__image'
-                    ]
-                ); ?>
+                <div class="grid-slider__image">
+                    <?= pictureTag(
+                        '/assets/images/illus/availability-grey-bg.svg',
+                        'Mit den Echtzeitstatistiken die hohe Erreichbarkeit durch die Call Center Software auslesen',
+                        230, 127
+                    ); ?>
+                </div>
                 <div class="grid-slider__content">
                     <h4>Erreichbarkeit</h4>
                     <p class="bigtext">Eine der wichtigsten Kennzahlen im Kundenservice. Wir liefern hier umfangreiche Zusatzinformationen.</p>
                 </div>
             </div>
             <div class="grid-slider__item">
-                <?= pictureTag(
-                    '/assets/images/illus/call-reasons-grey-bg.svg',
-                    'Anrufgründe als ein zentraler Datensatz der Statistiken der CallOne Contact Center Software',
-                    230, 127, [
-                        'class' => 'grid-slider__image'
-                    ]
-                ); ?>
+                <div class="grid-slider__image">
+                    <?= pictureTag(
+                        '/assets/images/illus/call-reasons-grey-bg.svg',
+                        'Anrufgründe als ein zentraler Datensatz der Statistiken der CallOne Contact Center Software',
+                        230, 127
+                    ); ?>
+                </div>
                 <div class="grid-slider__content">
                     <h4>Anrufgründe</h4>
                     <p class="bigtext">Grundlage für jede  datengestützte Analyse. Wir liefern diese Daten, sie optimieren zielgerichtet.</p>

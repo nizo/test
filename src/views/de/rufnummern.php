@@ -279,7 +279,7 @@ $product->structured_data_get_code ();
                     </div>
                     <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
                         <div class="left-border">
-                            <h3>Absenderkennung</h3>
+                            <h3>Absender&shy;kennung</h3>
                             <p>Setzen Sie flexibel Rufnummern aus Ihrem Portfolio zur Übermittlung an Ihre Kunden.</p>
                         </div>
                     </div>

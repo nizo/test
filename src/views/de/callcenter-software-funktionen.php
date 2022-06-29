@@ -213,7 +213,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="/dsgvo-telekommunikation" class="btn btn--primary">Datenschutz und Ausfallsicherheit bei CallOne</a>
+            <a href="/dsgvo-telekommunikation" class="btn btn--primary centered">Datenschutz und Ausfallsicherheit bei CallOne</a>
         </div>
     </div>
 </div>
@@ -314,7 +314,7 @@ $faqs->faq_add (
 
         
         <div class="btn-set btn-set--centered">
-            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary">Bessere Erreichbarkeit durch Warteschleifen</a>
+            <a href="/telefonanlage-mit-warteschleife" class="btn btn--primary centered">Bessere Erreichbarkeit durch Warteschleifen</a>
         </div>
     </div>
 </div>
@@ -577,7 +577,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="/statistiken" class="btn btn--primary">Statistiken und Echtzeitanalysen</a>
+            <a href="/statistiken" class="btn btn--primary centered">Statistiken und Echtzeitanalysen</a>
         </div>
     </div>
 </div>
@@ -802,7 +802,7 @@ $faqs->faq_add (
             </div>
         </div>
 
-        <div class="btn-set btn-set--centered">
+        <div class="btn-set btn-set--centered centered">
             <a href="/voip-api" class="btn btn--primary">Anrufsteuerung mit Schnittstellen</a>
             <a href="/callcenter-bot" class="btn btn--primary">Abfangen von Peaks mit Callcenter Bots</a>
         </div>
@@ -967,7 +967,7 @@ $faqs->faq_add (
         </div>
 
         <div class="btn-set btn-set--centered">
-            <a href="/telefonanlage-mit-warteschleife#features" class="btn btn--primary">Anrufverteilung durch Peakglättung</a>
+            <a href="/telefonanlage-mit-warteschleife#features" class="btn btn--primary centered">Anrufverteilung durch Peakglättung</a>
         </div>
     </div>
 </div>
