@@ -2,6 +2,7 @@
     <div class="video">
         <video controls autoplay muted preload="none" id="videoTableau" poster="/assets/images/photos/placeholder.gif" poster="/assets/images/photos/callcenter-tableau-video-poster.jpg">
             <source src="/assets/videos/callone-tableau-border.webm" type="video/webm">
+            <source src="/assets/videos/callone-tableau-border.mp4" type="video/mp4">
         </video>
     </div>
 
