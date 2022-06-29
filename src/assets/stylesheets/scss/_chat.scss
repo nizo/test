@@ -41,34 +41,6 @@
 
 	}
 
-	.form {
-		.checkboxen {
-			.customRadiobox {
-				width: 100%;
-				border: 2px solid $color-secondary-1;
-				padding: $gutter-xs + $gutter-s;
-
-				&:hover {
-					border-color: $color-primary;
-				}
-
-				.pl {
-					padding-left: $gutter-l;
-				}
-
-				.checkmark {
-					top: 18px;
-					left: 18px;
-				}
-
-				&.checked {
-					font-weight: 600;
-					border-color: $color-primary;
-				}
-			}
-		}
-	}
-
 	.accordion {
 		padding: $gutter-xs + $gutter-s;
 		list-style-type: none;
@@ -247,68 +219,6 @@
 			.checkboxen {
 				&.grid {
 					margin-bottom: initial;
-
-					.customRadiobox {
-						display: flex;
-						width: calc((100% / 3) - 20px);
-
-						&:first-child,
-						&:last-child {
-							margin-top: $gutter-s;
-							margin-bottom: $gutter-s;
-						}
-
-						&.checked {
-							.checkmark {
-								&.text {
-									background-color: $color-primary;
-									color: #000;
-								}
-
-								&::after {
-									content: none;
-								}
-
-								&.round {
-									background-color: $color-primary;
-								}
-							}
-						}
-
-						.icon {
-							height: 80px;
-							margin-top: 10px;
-						}
-
-						.boxTitle {
-							font-size: $font-size-xl;
-							font-weight: 500;
-							margin: 10px 0;
-							line-height: $font-size-xl;
-						}
-
-						.checkmark {
-							&.round {
-								position: relative;
-								margin: 0 auto;
-								top: 0;
-								left: 0;
-							}
-
-							&.text {
-								background-color: #000;
-								color: #fff;
-								padding: 3px 10px 1px;
-								text-transform: uppercase;
-								border: none;
-								position: initial;
-								font-size: 16px;
-								width: auto;
-								height: auto;
-								margin-top: 10px;
-							}
-						}
-					}
 				}
 
 				.customCheckbox {
@@ -780,29 +690,6 @@
 				&.silent {
 					padding-top: $gutter-s;
 					padding-bottom: $gutter-s;
-				}
-			}
-
-			.form {
-				.checkboxen {
-					&.grid {
-						.customRadiobox {
-							flex-direction: column;
-							width: 100%;
-							margin-top: $gutter-s !important;
-
-							&.mobile-row {
-								flex-direction: row;
-
-								.boxTitle {
-									width: calc(85%);
-									width: calc(100% - 50px);
-									margin: 0;
-									text-align: left;
-								}
-							}
-						}
-					}
 				}
 			}
 

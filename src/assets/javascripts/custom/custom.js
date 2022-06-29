@@ -192,47 +192,6 @@ function merge_array(array1, array2, unique) {
 	return arrayUnique(array1.concat(array2));
 }
 
-
-/* Sidebar menue */
-eventListener('click', '.sidebar-grid .menu a', e => {
-	e.preventDefault();
-	e.stopPropagation();
-	let link = e.target.closest('a');
-	let tab = link.getAttribute('data-link');
-	let listItems = document.querySelectorAll('.sidebar-grid .menu li');
-	listItems.forEach(listItem => {
-		listItem.classList.remove('active');
-	});
-	link.closest('li').classList.add('active');
-	document.querySelectorAll('.sidebar-grid .elements > div').forEach(div => fadeOut(div, 300, () => {
-		fadeIn(document.querySelector('.sidebar-grid .elements > div:nth-child(' + tab + ')'), 300);
-	}));
-});
-
-/* Calculation Modal */
-eventListener('click', '.css button.p2', e => {
-	e.preventDefault();
-	toggleDisplay(document.querySelector('.css .page1'));
-	document.querySelector('.css a.p1').setAttribute('data-target', 'css');
-	toggleDisplay(document.querySelector('.css .page2'));
-});
-eventListener('click', '.voip button.p2', e => {
-	e.preventDefault();
-	toggleDisplay(document.querySelector('.voip .page1'));
-	document.querySelector('.voip a.p1').setAttribute('data-target', 'voip');
-	toggleDisplay(document.querySelector('.voip .page2'));
-});
-eventListener('click', '.css a.p1', e => {
-	e.preventDefault();
-	toggleDisplay(document.querySelector('.css .page1'));
-	toggleDisplay(document.querySelector('.css .page2'));
-});
-eventListener('click', '.voip a.p1', e => {
-	e.preventDefault();
-	toggleDisplay(document.querySelector('.voip .page1'));
-	toggleDisplay(document.querySelector('.voip .page2'));
-});
-
 eventListener('click', '.customCheckbox', e => {
 	let checkbox = e.target.closest('.customCheckbox');
 	let check = checkbox.querySelector('input[type="checkbox"]');
@@ -245,59 +204,6 @@ eventListener('click', '.customCheckbox', e => {
 		checkbox.classList.add('checked');
 	}
 });
-
-eventListener('click', '.customRadiobox', e => {
-	let radiobox = e.target.closest('.customRadiobox');
-	let check = radiobox.querySelector('input[type="radio"]');
-	let allRadioboxes = radiobox.closest('.checkboxen').querySelectorAll('.customRadiobox');
-	let allRadios = radiobox.closest('.checkboxen').querySelectorAll('.customRadiobox input');
-	allRadioboxes.forEach(radio => radio.classList.remove('checked'));
-	allRadios.forEach(radio => radio.checked = false);
-	radiobox.classList.add('checked');
-	check.checked = true;
-
-	let radioValue1 = radiobox.querySelector('input[name="participation"]:checked');
-	if (radioValue1 && radioValue1.value === 'nein')
-		document.querySelector('input.participant_name').disabled = true;
-	if (radioValue1 && radioValue1.value === 'ja')
-		document.querySelector('input.participant_name').disabled = false;
-	let radioValue2 = radiobox.querySelector('input[name="participation_partner"]:checked');
-	if (radioValue2 && radioValue2.value === 'nein')
-		document.querySelector('input.partner_name').disabled = true;
-	if (radioValue2 && radioValue2.value === 'ja')
-		document.querySelector('input.partner_name').disabled = false;
-});
-
-eventListener('click', '.optionField', e => {
-	let optionField = e.target.closest('.optionField');
-	let label = optionField.querySelector('label');
-	let check = optionField.querySelector('input');
-
-	if (check.checked) {
-		check.checked = false;
-		label.classList.remove('checked');
-	} else {
-		check.checked = true;
-		label.classList.add('checked');
-	}
-});
-
-eventListener('click', '.menuheader', (e) => {
-	let link = e.target.closest('.menuheader');
-	link.classList.toggle('open');
-	let siblings = getAllSiblings(link);
-	siblings.forEach(sibling => {
-		if (sibling == link)
-			return;
-		let display = window.getComputedStyle(sibling).getPropertyValue('display');
-		if (display === 'none') {
-			sibling.style.display = 'block';
-		} else {
-			sibling.style.display = 'none';
-		}
-	});
-});
-
 
 function loadTracking(){
 	var gtm = '';
