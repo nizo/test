@@ -34,26 +34,8 @@ $faqs->faq_add (
             <p class="bigtext">Eine Callcenter Software, alle Kanäle. Modular und passgenau für Ihre Anforderungen. Sicher aus der deutschen Cloud.</p>
 
             <p class="btn-set mobile-centered">
-                <a href="/callcenter-einsparpotential" class="btn btn--secondary centered">Einsparpotential<br />berechnen</a>
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Live Demo<br />vereinbaren</a>
-            </p>
-
-            <p class="mobile-centered">
-                <?= pictureTag(
-                    '/assets/images/logo/siegel/tuev-saarland.png',
-                    'TÜV Saarland - Geprüfte Cloud-Sicherheit, Systemzertifizierung',
-                    142, 75, [
-                        'style' => 'height: 75px;margin-right:var(--gutter-s)'
-                    ], false
-                ) ?>
-                
-                <?= pictureTag(
-                    '/assets/images/icons_svg/icon-hosted-in-germany.svg',
-                    'hosted in Germany',
-                    75, 75, [
-                        'style' => 'height:75px'
-                    ], false
-                ); ?>
+                <a href="/callcenter-einsparpotential" class="btn btn--border-green centered">Einsparpotential<br />berechnen</a>
             </p>
         </div>
         <div class="hero__image">

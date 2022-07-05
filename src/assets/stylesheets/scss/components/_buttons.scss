@@ -103,6 +103,15 @@
 		}
 	}
 
+	&--border-green {
+		background-color: transparent;
+		color: #447b09;
+		border: 2px solid currentColor;
+		padding: calc(var(--gutter-xs) - 2px) calc(var(--gutter-m) - 2px);
+		&:hover {
+			color: #000;
+		}
+	}
 	&--border-black {
 		background-color: transparent;
 		color: #000;
