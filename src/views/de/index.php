@@ -80,7 +80,7 @@ $faqs->faq_add (
 
 <div class="section section--mobile-divider">
     <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left">Kundenerlebnisse neu denken: <br class="mobile-hidden" />Die modulare Callcenter Software für Ihr Contact Center. <br class="mobile-hidden" />Wie Sie es für Ihr Contact Center brauchen.</h2>
+        <h2 class="centered mobile-left">Kundenerlebnisse neu denken: <br class="mobile-hidden" />Die modulare Callcenter Software für Ihr Contact Center.</h2>
         <p class="centered mobile-left bigtext">Schaffen Sie überdurchschnittliche Kundenerlebnisse. Dank der modular aufgebauten Kommunikationsplattform, die genau Ihren Anforderungen entspricht. Von Callcenter Software über Cloud Telefonanlage bis zu Omnichannel Funktionen finden Sie alles für Ihr Contact Center.</p>
 
         <div class="small-tabs small-tabs--automated">
