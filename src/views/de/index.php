@@ -13,6 +13,10 @@ $faqs->faq_add (
 	'<p>Da Kundenservice auch heute noch sehr telefonielastig ist, ist eine <a href="/callcenter-software" class="inline-link">Callcenter Software bzw. Cloud ACD</a> absolut wichtig für das effiziente Bearbeiten der Anliegen. Durch die zielgerichtete Zuordnung der Anrufe zu den passenden Agenten oder Agentengruppen werden Ihre Agenten effizienter und zufriedener sein, da sie die Ihnen zugeordneten Anliegen kompetent bearbeiten können. Auch Ihre Kunden werden es Ihnen danken, direkt mit dem passenden Ansprechpartner verbunden zu sein. Wenn Anliegen im Kundenservice schnell, freundlich und kompetent gelöst werden, bleiben Ihre Kunden Ihnen treu und empfehlen Ihr Unternehmen idealerweise weiter. Eine gute Callcenter Software kann Ihrem Unternehmen also den richtigen Schub verleihen!</p>'
 );
 $faqs->faq_add (
+	'Bekomme ich Statistiken fürs Callcenter?',
+	'<p>Ja. Die CallOne <a href="/callcenter-software" class="inline-link">Callcenter Software</a> bietet Ihnen zahlreiche <a href="/statistiken" class="inline-link">Echtzeitstatistiken und Analyse-Dashboards</a>. Diese können Sie nutzen, um in Kombination mit einem <a href="/call-center-workforce-management-software" class="inline-link">Workforcemanagement System</a> einfach und schnell ideale Schichtpläne erstellen können. <a href="/statistiken" class="inline-link">Hier</a> finden Sie mehr Informationen zu unseren Statistik-Möglichkeiten.</p>'
+);
+$faqs->faq_add (
 	'Was ist eine Contact Center Software?',
 	'<p>Das Contact Center ist die Abteilung Ihres Unternehmens, die sich der Kundenkommunikation widmet. In der Regel handelt es sich hier um kanalübergreifende Kommunikation. Eine Contact Center Software bietet daher mehr als Telefonie: Sie ermöglicht es Ihren Agenten, die Anliegen der Kunden über Telefonie, E-Mail, Chat, Social Media und Messenger zu bearbeiten ohne dabei ewig hin und her klicken zu müssen. Alles ist in einer Plattform zusammengefasst und <a href="/omnichannel-customer-support-software" class="inline-link">Omnichannel Kundenservice</a> ist effizient und zielführend durchführbar.</p>'
 );
@@ -25,18 +29,18 @@ $faqs->faq_add (
 <div class="section section--light-green">
     <header class="hero">
         <div class="hero__text">
-            <h1>CX neu gedacht. Mit der maß&shy;geschneiderten Lösung für Ihr Contact Center.</h1>
+            <h1>Bieten Sie überragenden Kundenservice zu geringen Kisten.</h1>
 
-            <p class="bigtext">Genau die Contact Center Software, die Sie für die Wünsche Ihrer Kunden brauchen. Nutzen Sie genau die Module der Cloud CCaaS-Lösung, die Sie brauchen.</p>
+            <p class="bigtext">Eine Callcenter Software, alle Kanäle. Modular und passgenau für Ihre Anforderungen. Sicher aus der deutschen Cloud.</p>
 
             <p class="mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Zum kostenfreien<br />Beratungsgespräch</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Live Demo<br />vereinbaren</a>
             </p>
         </div>
         <div class="hero__image">
             <?= pictureTag(
                 '/assets/images/illus/hero-index.png',
-                'CX neu gedacht - Mit der maßgeschneiderten Lösung für Ihr Contact Center',
+                'Bester Kundenservice zu geringen Kosten Dank Callcenter Software.',
                 465, 465, [], false
             ); ?>
         </div>
@@ -57,8 +61,8 @@ $faqs->faq_add (
 
 <div class="section section--mobile-divider">
     <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left">Alles kann, nichts muss: Kundenservice Software <br class="mobile-hidden" />wie Sie es für Ihr Contact Center brauchen.</h2>
-        <p class="centered mobile-left bigtext">Schaffen Sie überdurchschnittliche Kundenerlebnisse! Mit den zahlreichen Funktionen, Integrationen und Anbindungsmöglichkeiten unserer Businesstelefonie-Lösung aus der Cloud. Callcenter Software, Cloud Telefonanlage, Omnichannel Contact Center Software oder Künstliche Intelligenz - oder darf es gleich alles sein? Sie entscheiden.</p>
+        <h2 class="centered mobile-left">Kundenerlebnisse neu denken: Die modulare Callcenter Software für Ihr Contact Center. <br class="mobile-hidden" />wie Sie es für Ihr Contact Center brauchen.</h2>
+        <p class="centered mobile-left bigtext">Schaffen Sie überdurchschnittliche Kundenerlebnisse. Dank der modular aufgebauten Kommunikationsplattform, die genau Ihren Anforderungen entspricht. Von Callcenter Software über Cloud Telefonanlage bis zu Omnichannel Funktionen finden Sie alles für Ihr Contact Center.</p>
 
         <div class="small-tabs small-tabs--automated">
             <div class="small-tabs__tabs">
