@@ -508,6 +508,10 @@ img {
 	}
 	.mobile-centered {
 		text-align: center;
+
+		&.btn-set {
+			justify-content: center;
+		}
 	}
 	img {
 		&.img-25, &.img-50, &.img-75, &.img-100 {

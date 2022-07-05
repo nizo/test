@@ -33,8 +33,27 @@ $faqs->faq_add (
 
             <p class="bigtext">Eine Callcenter Software, alle Kanäle. Modular und passgenau für Ihre Anforderungen. Sicher aus der deutschen Cloud.</p>
 
-            <p class="mobile-centered">
+            <p class="btn-set mobile-centered">
+                <a href="/callcenter-einsparpotential" class="btn btn--secondary centered">Einsparpotential<br />berechnen</a>
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Live Demo<br />vereinbaren</a>
+            </p>
+
+            <p class="mobile-centered">
+                <?= pictureTag(
+                    '/assets/images/logo/siegel/tuev-saarland.png',
+                    'TÜV Saarland - Geprüfte Cloud-Sicherheit, Systemzertifizierung',
+                    142, 75, [
+                        'style' => 'height: 75px;margin-right:var(--gutter-s)'
+                    ], false
+                ) ?>
+                
+                <?= pictureTag(
+                    '/assets/images/icons_svg/icon-hosted-in-germany.svg',
+                    'hosted in Germany',
+                    75, 75, [
+                        'style' => 'height:75px'
+                    ], false
+                ); ?>
             </p>
         </div>
         <div class="hero__image">
@@ -61,7 +80,7 @@ $faqs->faq_add (
 
 <div class="section section--mobile-divider">
     <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left">Kundenerlebnisse neu denken: Die modulare Callcenter Software für Ihr Contact Center. <br class="mobile-hidden" />wie Sie es für Ihr Contact Center brauchen.</h2>
+        <h2 class="centered mobile-left">Kundenerlebnisse neu denken: <br class="mobile-hidden" />Die modulare Callcenter Software für Ihr Contact Center. <br class="mobile-hidden" />Wie Sie es für Ihr Contact Center brauchen.</h2>
         <p class="centered mobile-left bigtext">Schaffen Sie überdurchschnittliche Kundenerlebnisse. Dank der modular aufgebauten Kommunikationsplattform, die genau Ihren Anforderungen entspricht. Von Callcenter Software über Cloud Telefonanlage bis zu Omnichannel Funktionen finden Sie alles für Ihr Contact Center.</p>
 
         <div class="small-tabs small-tabs--automated">
