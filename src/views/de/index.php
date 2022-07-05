@@ -29,7 +29,7 @@ $faqs->faq_add (
 <div class="section section--light-green">
     <header class="hero">
         <div class="hero__text">
-            <h1>Bieten Sie überragenden Kundenservice zu geringen Kisten.</h1>
+            <h1>Bieten Sie überragenden Kundenservice zu geringen Kosten.</h1>
 
             <p class="bigtext">Eine Callcenter Software, alle Kanäle. Modular und passgenau für Ihre Anforderungen. Sicher aus der deutschen Cloud.</p>
 
