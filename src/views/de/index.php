@@ -29,13 +29,13 @@ $faqs->faq_add (
 <div class="section section--light-green">
     <header class="hero">
         <div class="hero__text">
-            <h1>Bieten Sie überragenden Kundenservice zu geringen Kosten.</h1>
+            <h1>Bieten Sie <span class="highlight">überragenden Kundenservice</span> zu geringen Kosten.</h1>
 
             <p class="bigtext">Eine Callcenter Software, alle Kanäle. Modular und passgenau für Ihre Anforderungen. Sicher aus der deutschen Cloud.</p>
 
             <p class="btn-set mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Live Demo<br />vereinbaren</a>
-                <a href="/callcenter-einsparpotential" class="btn btn--border-green centered">Einsparpotential<br />berechnen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Demo vereinbaren</a>
+                <a href="/callcenter-einsparpotential" class="btn btn--border-black centered">Einsparpotential berechnen</a>
             </p>
         </div>
         <div class="hero__image">

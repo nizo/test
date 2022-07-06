@@ -98,6 +98,21 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
         border-bottom: 4px solid $color-primary;
     }
+    .highlight {
+        --color: #{$color-primary};
+
+        background-image: linear-gradient(to right, var(--color), var(--color));
+        background-size: 0% 33%;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        animation: highlight 2s forwards ease-in-out;
+    }
+}
+
+@keyframes highlight {
+    to {
+        background-size: 100% 33%;
+    }
 }
 
 p {
@@ -147,7 +162,7 @@ img {
 
 // Text Modifications
 .bigtext {
-    font-size: 20px;
+    font-size: 24px;
 
     &__price {
         font-size: 2.5em;
