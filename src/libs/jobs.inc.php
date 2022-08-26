@@ -296,6 +296,38 @@ function jobs_load ()
 
 	$jobs = new jobs ();
 
+	$job = new job ('Management', 'Leiter*in Finanzen (CFO)', 'Der Umgang mit Zahlen liegt dir ebenso wie die Kommunikation mit Menschen? Die vielfältige Verantwortung in Finanzen, Accounting und Controlling liegen dir im Blut und am Herzen?');
+	$job->location_set ('Potsdam/ Berlin / Hamburg');
+	$job->url_set ('/karriere/job-finanzleiter-in-cfo'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du liebst den Umgang mit Zahlen, bringst ein hohes Maß an Eigenverantwortung und strategischem Denken mit? Du kommunizierst professionell, transparent und mühelos gegenüber Mitarbeitenden, Partnern und Stakeholdern und bringst eine Hands-on-Mentalität mit?');
+	$job->text_description_long_set ('Als CFO bringst du deine ausgeprägte Kommunikationsfähigkeit, dein souveränes verhalten sowie deine Hands-on-Persönlichkeit gemeinsam mit der nötigen Bodenständigkeit im mittelständischen Unternehmensumfald in die Weiterentwicklung und Sicherstellung sämtlicher Prozesse mit ein, um die Skalierbarkeit in einem stark wachsenden Unternehmen zu gewährleisten.');
+	$job->text_description_long_set ('Du wünschst dir ein hohes Maß an Eigenverantwortung und eine sehr gute berufliche und persönliche Entwicklungsperspektive? Hier findest du genau das! Vertrauensvolle Zusammenarbeit mit einem hoch motivierten und leidenschaftlichen Team wird deinen Arbeitsalltag auszeichnen. Ebenso wie attraktive und leistungsgerechte Vergütung und kurze Entscheidungswege Dank flacher Hierarchien.');
+	$job->text_description_long_set ('Wir umfassen inzwischen knapp 50 Mitarbeitende und über 3000 Kunden. Unser starkes Teams sowie unser Partner ermöglichen den großen Wachstum sowie die Umsatzgröße von 10 Millionen Euro unseres Unternehmens. Deine Rolle ist strategisch geprägt und umfasst die Verantwortung für die Bereiche Finanzen, Accounting und Controlling.');
+	$job->text_tasks_set ('Partnerschaftliche Unterstützung von Geschäftsführung und Partner in allen kaufmännischen Themen');
+	$job->text_tasks_set ('Gewährleistung der Skalierbarkeit unseres stark wachsenden Unternehmens, indem reibungslose Abläufe sichergestellt und sämtliche Prozesse weiterentwickelt werden');
+	$job->text_tasks_set ('Als Ansprechpartner für Steuerberater, Wirtschaftsprüfer und Banken/Fremdfinanzierungspartnern steuerst du diese Positionen auch');
+	$job->text_tasks_set ('Du koordinierst und begleitest die Erstellung von Monats-, Quartals- und Jahresabschlüssen und erstellst monatliche Reporting an das Management, Partner und Banken');
+	$job->text_tasks_set ('Du übernimmst Verantwortung im Planungsprozess und bei der Erstellung der jährlichen Budgets');
+	$job->text_tasks_set ('Das Controlling entwickelst du operativ und KPI-basiert samt geeigneter Analysen zur Beobachtung und Bewertung der wirtschaftlichen Entwicklung.');
+	$job->text_tasks_set ('Du stellst sicher, dass Richtlinien und Regularien eingehalten werden und identifizierst etwaige Risiken nicht nur, sondern beugst ihnen auch vor');
+	$job->text_tasks_set ('Du übernimmst Personalverantwortung mit organisatorischer Führung und arbeitest aktiv an strategischen Sonderprojekten mit');
+	$job->text_requirements_set ('Abgeschlossenes Studium der Betriebswirtschaftslehre oder eine kaufmännische Ausbildung');
+	$job->text_requirements_set ('Du kannst mindestens 5-7 Jahre Berufserfahrung im kaufmännischen Bereich der KMU vorweisen.');
+	$job->text_requirements_set ('Teamfähigkeit, Zuverlässigkeit und Eigeninitiative gehören zu deiner Persönlichkeit');
+	$job->text_requirements_set ('Du bringst fundierte Kenntnisse in der Rechnungslegung sowie Konsolidierung mit und gehst sicher mit gängigen Softwares wie MS-Office sowie ERP- und Buchhaltungs-Systemen um');
+	$job->text_requirements_set ('Idealerweise verfügst du bereits über Kenntnisse in DATEV und Lucanet');
+	$job->text_requirements_set ('Du bringst ein ausgeprägtes Zahlenverständnis mit und zeichnest dich durch eine lösungsorientierte Arbeitsweise im Team aus');
+	$job->text_requirements_set ('Du beherrschst sehr gutes Deutsch und Englisch in Wort und Schrift');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['care']);
+	$job->agenda_filename_set ('agenda-projektmanager');
+	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
+	$jobs->job_add ($job);
+	
+	
 	$job = new job ('Projekte & Support', 'Key Account Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-key-account-manager-in-'.$job->location_get());
