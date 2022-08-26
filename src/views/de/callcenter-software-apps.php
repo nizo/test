@@ -238,6 +238,7 @@ $product->structured_data_get_code ();
                 </div>
             </div>
 
+            <!--
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
@@ -261,6 +262,7 @@ $product->structured_data_get_code ();
                     </p>
                 </div>
             </div>
+            -->
 
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
@@ -438,9 +440,9 @@ $product->structured_data_get_code ();
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Erstellen Sie mit Geckoboard vollkommen individuelle Wallboard aus Ihren Anrufdaten. <span class="readmore">Per Drag & Drop lassen sich Ansichten einfach zusammenfügen. Ob Erreichbarkeit, Calls im Tagesverlauf, Anzahl der verfügbaren AgentInnen: Sie sehen alle KPIs auf einen Blick und genau so dargestellt, wie Sie es möchten.</span></p>
-                    <p>
-                        <b><i>Coming Soon!</i></b>
+                    <p style="margin-top:var(--gutter-xs)">Erstellen Sie vollkommen individuelle Wallboards aus Ihren Anrufdaten. <span class="readmore">Per Drag & Drop lassen sich Ansichten wie Erreichbarkeit oder Anzahl der verfügbaren AgentInnen einfach zusammenfügen. Sehen sie alle KPIs auf einen Blick und optimal für sie dargestellt.</span></p>
+                    <p class="btn-set">
+                        <a href="https://www.geckoboard.com/dashboard-examples/support/call-center-dashboard/" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Datenquellen</a>
                     </p>
                 </div>
             </div>
