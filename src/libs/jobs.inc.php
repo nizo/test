@@ -297,7 +297,7 @@ function jobs_load ()
 	$jobs = new jobs ();
 
 	$job = new job ('Management', 'Leiter*in Finanzen (CFO)', 'Der Umgang mit Zahlen liegt dir ebenso wie die Kommunikation mit Menschen? Die vielfältige Verantwortung in Finanzen, Accounting und Controlling liegen dir im Blut und am Herzen?');
-	$job->location_set ('Potsdam/ Berlin / Hamburg');
+	$job->location_set ('Potsdam-Berlin-Hamburg');
 	$job->url_set ('/karriere/job-finanzleiter-in-cfo'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst den Umgang mit Zahlen, bringst ein hohes Maß an Eigenverantwortung und strategischem Denken mit? Du kommunizierst professionell, transparent und mühelos gegenüber Mitarbeitenden, Partnern und Stakeholdern und bringst eine Hands-on-Mentalität mit?');
