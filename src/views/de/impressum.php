@@ -28,8 +28,8 @@
 
     <p><strong>Hauptsitz</strong><br />
     CallOne GmbH<br />
-    Dorfstraße 60<br />
-    15806 Zossen</p>
+    Hugo-Vogel-Straße 23<br />
+    14109 Berlin</p>
 
     <p><strong>Betrieblicher Datenschutzbeauftragter gemäß §4f Abs. 1 Bundesdatenschutzgesetz:</strong> <br />
     Stephan Schmidt <br />
