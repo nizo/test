@@ -207,7 +207,7 @@
 
         <p>
             <strong>C. Ausübung des Widerspruchsrechts</strong><br />
-            Das Widerspruchsrecht kann formlos ausgeübt werden, etwa per Post an CallOne GmbH, Dorfstraße 60, 15806 Zossen oder per E-Mail an <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">kontakt@callone.de</a>.
+            Das Widerspruchsrecht kann formlos ausgeübt werden, etwa per Post an CallOne GmbH, Hugo-Vogel-Straße 23, 14109 Berlin oder per E-Mail an <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">kontakt@callone.de</a>.
         </p>
 
         <hr class="divider">
@@ -216,9 +216,9 @@
         <p>Diensteanbieter gem. § 13 Telemediengesetz (TMG) und Verantwortlicher im Sinne der DSGVO, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:</p>
 
         <p>
-            CallOne GmbH<br/>
-            Dorfstraße 60<br/>
-            15806 Zossen<br/>
+            CallOne GmbH<br />
+            Hugo-Vogel-Straße 23<br />
+            14109 Berlin<br />
             E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link trackedContactSubmit">kontakt@callone.de</a>
         </p>
 
