@@ -19,10 +19,6 @@ $product = new product ('Integration in Hubspot', 'Mit unserer Hubspot Telefonie
 $product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Hubspot-app-icon.svg');
 $product->structured_data_get_code ();
 
-$product = new product ('Integration in Salesforce', 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.');
-$product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Salesforce-app-icon.svg');
-$product->structured_data_get_code ();
-
 $product = new product ('Integration in Tableau', 'Nutzen Sie Ihre Telefoniedaten in der umfangreichen Auswertungs- und Statistiklösung von tableau. Prognosen erstellen, Trends erkennen und neue Chancen nutzen – Datenauswertungen und –analyse sind der Schlüssel zu Ihrem Erfolg. Alle Reportings lassen sich komplett individuell erstellen und visualisieren.');
 $product->image_set ('https://www.callone.de/assets/images/logo/productlogos/Tableau-app-icon.svg');
 $product->structured_data_get_code ();
@@ -210,30 +206,6 @@ $product->structured_data_get_code ();
                     <p style="margin-top:var(--gutter-xs)">Mit unserer Hubspot Telefonieintegration können Sie Verkaufsgespräche direkt aus Hubspot führen und alle Daten in Echtzeit mit Ihrem CRM synchronisieren. <span class="readmore">Ob Click-to-Dial für das Sales-Team oder Voice Tickets für den Support – Sie integrieren die Telefonie vollumfänglich in Ihre Hubspot Tools.</span><br class="mobile-hidden"><br class="mobile-hidden"></p>
                     <p class="btn-set">
                         <a href="https://blog.hubspot.de/service/call-center-software" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Hubspot Blog</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom" style="--gutter:var(--gutter-xs)">
-                        <div class="co-grid__col co-grid__col--vcentered">
-                            <?= pictureTag(
-                                '/assets/images/logo/productlogos/Salesforce-app-icon.svg',
-                                'CallOne Contact Center Software mit Salesforce Anbindung',
-                                64, 64, [
-                                    'style' => 'max-width:64px;max-height:64px'
-                                ]
-                            ); ?>
-                        </div>
-                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
-                            <h4 style="margin-bottom:0">Salesforce</h4>
-                        </div>
-                    </div>
-
-                    <p style="margin-top:var(--gutter-xs)">Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! <span class="readmore">Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.</span><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"></p>
-                    <p class="btn-set">
-                        <a href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FAAgWUAX" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">AppExchange</a>
                     </p>
                 </div>
             </div>

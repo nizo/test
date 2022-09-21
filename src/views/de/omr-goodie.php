@@ -147,7 +147,7 @@ $faqs->faq_add (
                     ); ?>
                 </p>
                 <h3>Große Auswahl<br />an Apps</h3>
-                <p>CallOne liefert fertige Anbindungen für die relevanten CRM und Ticketinglösungen wie Salesforce, Pipedrive Hubspot, Zendesk.</p>
+                <p>CallOne liefert fertige Anbindungen für die relevanten CRM und Ticketinglösungen wie Pipedrive Hubspot, Zendesk.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md">
                 <p class="centered">

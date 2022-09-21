@@ -77,7 +77,7 @@ $faqs->faq_add (
                     <input type="checkbox" id="integrations-2" />
                     <label for="integrations-2">Schnittstellen</label>
                     <div class="toggle-box__content">
-                        Nutzen Sie fertige Konnektoren zu <a href="https://www.salesforce.com/de/" title="Salesforce Webseite" target="_blank" rel="noreferrer noopener" class="inline-link">Salesforce</a>, <a href="https://www.pipedrive.com/de" title="Pipedrive Webseite" target="_blank" rel="noreferrer noopener" class="inline-link">Pipedrive</a> etc. oder binden Sie Ihre hauseigenen Lösungen an.
+                        Nutzen Sie fertige Konnektoren zu <a href="https://www.pipedrive.com/de" title="Pipedrive Webseite" target="_blank" rel="noreferrer noopener" class="inline-link">Pipedrive</a> etc. oder binden Sie Ihre hauseigenen Lösungen an.
                     </div>
                 </div>
                 <div class="toggle-box toggle-box--checklist">

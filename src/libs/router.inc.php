@@ -333,12 +333,6 @@ Router::add('/callcenter-software-integrationen', 'callcenter-software-integrati
     'og_image_text' => 'Integrieren Sie Anrufe in Ihre Businesstools',
     'sitemap_priority' => '0.8'
 ]);
-Router::add('/cti-salesforce', 'cti/salesforce.php', [
-    'shorttitle' => 'Salesforce',
-    'title' => 'CallOne Salesforce Integration',
-    'meta_description' => 'Geben Sie dem geballten Wissen und den starken Tools von Salesforce endlich eine Stimme! Integration von Anrufdaten und Click-to-Call sorgen für transparentere, schnellere und einfach bessere Prozesse.',
-    'og_image_text' => 'CallOne Salesforce Integration'
-]);
 Router::add('/customer-service-solutions', 'solutions-customer-service.php', [
     'shorttitle' => 'Customer Service Solutions',
     'title' => 'Callcenter Software ACD',
@@ -405,12 +399,6 @@ Router::add('/sales-solutions', 'solutions-sales.php', [
     'title' => 'Outbound Callcenter Software',
     'meta_description' => 'Outbound Sales am Telefon mit der Callcenter Software von CallOne und Ihrem Businesslösung verbunden',
     'og_image_text' => 'Outbound Callcenter Software'
-]);
-Router::add('/salesforce', 'salesforce.php', [
-    'shorttitle' => 'Salesforce',
-    'title' => 'Salesforce Integration',
-    'meta_description' => 'Salesforce Integration für Ihre Callcenter Software. Die CallOne CTI App für Salesforce Lightning & Classis.',
-    'og_image_text' => 'Salesforce'
 ]);
 Router::add('/softphone', 'softphone.php', [
     'shorttitle' => 'Softphone',

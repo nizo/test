@@ -400,13 +400,6 @@ $faqs->faq_add (
 									200, 200
 								); ?>
 							</div>
-							<div class="carddeck__card carddeck__card--small-padding carddeck__card--vcentered">
-								<?= pictureTag(
-									'/assets/images/logo/partnerlogos/logo-salesforce.svg',
-									'Salesforce als Anbindung in der CallOne VoIP Telefonanlage',
-									217, 150
-								); ?>
-							</div>
 						</div>
 					</div>
 					<div class="co-grid__col co-grid__col--4-xs co-grid__col--vcentered"></div>

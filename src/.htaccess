@@ -224,6 +224,9 @@ Redirect 301 /index.php/nummern-sms /0800-lokal-nummern
 Redirect 301 /index.php/callone/callone-stellt-sich-vor /ueber-uns
 Redirect 301 /index.php/callone/callone-philosophie /ueber-uns
 
+Redirect 301 /cti-salesforce /callcenter-software-apps
+Redirect 301 /salesforce /callcenter-software-apps
+
 Redirect 301 /index.php/media/servicerufnummern-und-sms/0900 /0800-lokal-nummern
 Redirect 301 /index.php/media/servicerufnummern-und-sms/118xy /0800-lokal-nummern
 Redirect 301 /index.php/media/servicerufnummern-und-sms/0137 /0800-lokal-nummern

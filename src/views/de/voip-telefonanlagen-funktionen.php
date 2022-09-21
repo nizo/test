@@ -163,7 +163,7 @@ $faqs->faq_add (
                     <label for="expandable5"></label>
                     <div class="expandable__extra">
                         <div class="expandable__extra-full">
-                            <p>Mit unseren vielzähligen Konnektoren zu CRM- und Ticketinglösungen wie Zendesk, Salesforce und Freshdesk sowie weitreichende APIs können Sie Ihre Unternehmenstelefonie mit bereits bestehenden Businesslösungen vollumfänglich integrieren.</p>
+                            <p>Mit unseren vielzähligen Konnektoren zu CRM- und Ticketinglösungen wie Zendesk und Freshdesk sowie weitreichende APIs können Sie Ihre Unternehmenstelefonie mit bereits bestehenden Businesslösungen vollumfänglich integrieren.</p>
                         </div>
                     </div>
                 </div>
