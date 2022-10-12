@@ -95,6 +95,7 @@
         <h1 class="centered mobile-left">Lizenzbestimmungen</h1>
 
         <h2>1. Nutzung </h2>
+        <p></p>
         <p>1.1. Bei Annahme der Bestimmungen dieses Vertrags gewährt CallOne dem Lizenznehmer hiermit ein begrenztes, persönliches, nicht übertragbares, nicht exklusives Recht zur Nutzung der Software. Alle dem Lizenznehmer nicht ausdrücklich lizenzierten Rechte in diesem Vertrag sind CallOne vorbehalten. </p>
         <p>1.2. Durch diesen Vertrag darf der Lizenznehmen das lizensierte Produkt immer nur auf einem einzelnen Gerät nutzen. </p>
         <p>1.3. Bei dem Produkt handelt es sich um ein geschütztes Produkt des Lizenzgebers, das durch verschiedene Gesetze bezüglich des geistigen Eigentums, einschließlich des Urheberrechtes, geschützt ist. Sie dürfen die Software und Dokumentation ausschließlich als Teil des Produktes, in welchem die Software und die Dokumentation enthalten sind oder in der Form, in der sie geliefert wurden, nutzen. Ihre gesetzlichen Rechte, insbesondere Ihr Recht, eine Sicherheitskopie zu erstellen oder die Anwendung unter den Bedingungen der § 69d und 69e des Urheberrechtsgesetzes zu dekompilieren und Fehler in der Anwendung zu beheben, bleiben davon unberührt. Ohne die vorhergehende schriftliche Zustimmung des Lizenzgebers werden Sie keiner dritten Partei Ergebnisse eines Benchmarktests des Produktes offenbaren.</p>
@@ -104,16 +105,19 @@
         <hr class="divider" />
         
         <h2>2. Einschränkungen</h2>
+        <p></p>
         <p>Der Lizenznehmer darf die Software oder Teile davon nicht vermieten, verleasen oder verleihen. Das Disassemblieren und/oder Patchen der Software oder seiner Hilfedateien sowie das Verändern oder Austauschen von Modulen ist generell untersagt. Der Lizenznehmer darf die Rechte unter diesem Vertrag oder Teile davon nicht übertragen oder einer Drittperson, die nicht Partei dieses Vertrags ist, Zugang dazu erteilen. Der Lizenznehmer darf die Software oder seiner Hilfedateien nicht zurückentwickeln, dekompilieren, disassemblieren, modifizieren, übersetzen, versuchen den Quellencode zu ermitteln oder von dieser Software abgeleitete Werke erzeugen, ausgenommen und nur soweit, wie solche Aktivitäten durch anwendbares Recht, obgleich dieser Einschränkung, ausdrücklich zugelassen sind. Der Lizenznehmer darf die Software nicht in eine andere Software oder ein mit Software verwandtes Produkt integrieren. </p>
         
         <hr class="divider" />
 
         <h2>3. Produktwartung</h2>
+        <p></p>
         <p>Gemäß diesem Vertrag ist der Lizenzgeber nicht verpflichtet, Ihnen die Wartung, Support oder Updates für die Software zur Verfügung zu stellen. Gesonderte Vereinbarung mit dem Kunden bleiben hiervon ausgeschlossen.</p>
         
         <hr class="divider" />
         
         <h2>4. Gewährleistungsausschluss </h2>
+        <p></p>
         <p>4.1. Der Lizenzgeber gewährleistet oder garantiert nicht, dass die Software für die Zwecke des Endnutzers in jedem Fall geeignet ist, insbesondere, dass die Software mit allen Fremdkomponenten, wie Datenbanken und Hardware-Treibern, fehlerfrei funktioniert.</p>
         <p>4.2. Der Lizenzgeber ist nicht verpflichtet die Software in einer bestimmten Art oder Güte zur Verfügung zu stellen. Durch Akzeptieren der Endbenutzer-Lizenzvereinbarung akzeptieren Sie den IST-Zustand der Software, ohne da daraus eine bestimmte Beschaffenheit der Software vereinbart oder geschuldet wird.</p>
         <p>4.3. Der Lizenzgeber ist berechtigt, vorbehaltlich anderer Absprachen mit dem Kunden, die Lizenz an dem Produkt, Ihnen gegenüber jederzeit zurückziehen. </p>
@@ -122,11 +126,13 @@
         <hr class="divider" />
         
         <h2>5. Haftungsausschluss</h2>
+        <p></p>
         <p>Abgesehen von Ansprüchen nach dem Produkthaftungsgesetz, Fällen von Vorsatz oder grober Fahrlässigkeit des Lizenzgebers oder von ihm zurechenbaren dritten, und von der Verletzung wesentlicher vertragspflichten, des Körpers oder Gesundheit ist die Haftung des Lizenzgebers ausgeschlossen. Betreffend dieser Nutzungsbedingungen sind wesentliche vertragspflichten solche, die die Durchführung des Vertrags erst ermöglichen und bei denen sie berechtigt darauf vertrauen können, dass diese durch den Lizenzgeber erfüllt werden.</p>
         
         <hr class="divider" />
         
         <h2>6. Haftungsbeschränkung, Schadloshaltung</h2>
+        <p></p>
         <p>Soweit gesetzlich zulässig, haften weder der Lizenzgeber noch die Vertriebspartner für mittelbare oder unmittelbare Schäden, Mangelfolgeschäden, Schäden durch Unmöglichkeit der Nutzung der Software sowie Schäden aufgrund des Verlusts von Geschäftswert, Arbeitsunterbrechungen, Computerausfällen oder -fehlfunktionen oder für sonstige geschäftliche Schäden oder Verluste jeder Art, auch wenn der Lizenzgeber auf die Möglichkeit derartiger Schäden hingewiesen wurde, oder für sonstige Forderungen dritter, unabhängig davon, ob die Möglichkeit derartiger Schäden zu erwarten war.</p>
         <p>In jedem Falle ist die Haftung auf den jeweiligen Rechnungswert beschränkt. </p>
         <p>Die Haftung beschränkt sich auf die Nutzer, die dieser Software nachweislich direkt von dem Lizenzgeber oder einem autorisierten Händler bezogen haben. Bei Weiterverkauf der Software übernimmt der Lizenzgeber keine Haftung für Schäden, die dem Empfänger entstehen.</p>
@@ -135,6 +141,7 @@
         <hr class="divider" />
 
         <h2>7. Spezifischer Haftungsausschluss für Notdienste </h2>
+        <p></p>
         <p>Weder der Lizenzgeber noch dessen Handlungsbevollmächtigte, angestellte oder angeschlossene Unternehmen können für eine Forderung, einen Schaden oder einen Verlust haftbar gemacht werden, die sich aus diesem Vertrag, einer Garantie, einer unerlaubten Handlung (einschließlich Fahrlässigkeit) oder einer anderen Art der Haftung durch die folgenden Punkte oder im Zusammenhang mit ihnen ergibt:</p>
         <p>(i) Unvermögen des Lizenznehmers, das Produkt zur Kontaktierung von Notdiensten zu nutzen oder</p>
         <p>(ii) Unterlassung des Lizenznehmers, zusätzliche Vorkehrungen zum Zugriff auf Notdienste zu treffen.</p>
@@ -142,16 +149,19 @@
         <hr class="divider" />
 
         <h2>8. Gesamter Vertrag</h2>
+        <p></p>
         <p>Diese EULA stellt den vollständigen Vertrag zwischen dem Lizenzgeber und dem Empfänger im Hinblick auf den Vertragsgegenstand dar. Sie ersetzt alle vorherigen mündlichen oder schriftlichen Absprachen, Verständigungen oder Vereinbarungen, soweit diese nicht nach diesem Vertrag unberührt bleiben sollen. Diese EULA darf nicht oder nur in schriftlicher Form abgeändert werden, wobei der geänderte Vertrag von einem autorisierten Vertreter des Lizenzgebers ordnungsgemäß unterzeichnet werden muss. Sollten einzelne Bestimmungen dieser EULA unwirksam oder nicht durchsetzbar sein, so lässt dies die Gültigkeit der restlichen Bestimmungen der EULA nach dem übereinstimmenden Parteiwillen unberührt. Anstelle der unwirksamen Bestimmung tritt im Wege ergänzender Vertragsauslegung ein solche, die dem wirtschaftlichen Zweck der unwirksamen Bestimmungen am nächsten kommt.</p>
         
         <hr class="divider" />
 
         <h2>9. Kündigung</h2>
+        <p></p>
         <p>Diese EULA bleibt in Kraft, solange sie nicht gekündigt wird. Sie können diese EULA kündigen, indem Sie alle Kopien des Produktes und die dazugehörige Dokumentation von Ihrem Gerät entfernen und zerstören. Der Lizenzgeber kann diese EULA durch einfache Erklärung kündigen. Das unautorisierte Kopieren des Produktes oder der dazugehörigen Dokumentation oder eine anderweitige Nichtbeachtung der Bedingungen dieses EULA führt deren automatischer Beendigung. Mit Beendigung dieser EULA endet das hierin erteilte Nutzungsrecht an der Softwareanwendung. Sie sind verpflichtet, unverzüglich nach Beendigung der EULA jegliche Nutzung des Produktes und der dazugehörigen Dokumentation und aller Sicherheitskopien davon unverzüglich einzustellen.</p>
         
         <hr class="divider" />
 
         <h2>10. Sonstiges</h2>
+        <p></p>
         <p>Dieser EULA unterliegt dem materiellen Recht von Deutschland. Für Streitigkeiten, die sich aus diesem EULA ergeben, ist Düsseldorf der einzige Gerichtsstand. Das UN-Kaufrecht ist ausgeschlossen. Die Ziffern 1.3, 1.4, 1.5, 3, 4, 5, 6, 7, 8, und 9 bleiben auch nach Beendigung des EULA gültig.</p>
 
         <p>Die Datenschutzbestimmungen des Lizenzgebers können unter <a href="https://www.callone.de/datenschutz" class="inline-link">https://www.callone.de/datenschutz</a> eingesehen werden.</p>       
