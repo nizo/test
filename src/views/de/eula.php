@@ -11,7 +11,7 @@
     <meta property="og:site_name" content="Callone"/>
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.callone.de/rechtliches/eula_callone_virtuFON.html" />
+    <meta property="og:url" content="https://www.callone.de/rechtliches/softphone_eula.html" />
 
     <meta property="og:image" content="https://www.callone.de/images/og/1200x630/default/Cloud_Callcenter_Software-_VoIP-__Telefonanlagen.png" />
     <meta property="twitter:image" content="https://www.callone.de/images/og/1200x600/default/Cloud_Callcenter_Software-_VoIP-__Telefonanlagen.png">	
@@ -73,12 +73,12 @@
         </p>
 
         <p>
-            CallOne GmbH
-            Posthofstr. 5
-            14467 Potsdam
-            Telefon: +49 30 920 33 500
-            E-Mail: kontakt@callone.de
-            Amtsgericht Berlin Charlottenburg.  HRB 226944 B
+            CallOne GmbH<br />
+            Hugo-Vogel-Straße 23<br />
+            14109 Berlin<br />
+            Telefon: +49 30 920 33 500<br />
+            E-Mail: kontakt@callone.de<br />
+            Amtsgericht Berlin Charlottenburg. HRB 226944 B<br />
             („Lizenzgeber“).
         </p>
 
