@@ -105,8 +105,10 @@
         
         <h2>2. Einschränkungen</h2>
         <p>Der Lizenznehmer darf die Software oder Teile davon nicht vermieten, verleasen oder verleihen. Das Disassemblieren und/oder Patchen der Software oder seiner Hilfedateien sowie das Verändern oder Austauschen von Modulen ist generell untersagt. Der Lizenznehmer darf die Rechte unter diesem Vertrag oder Teile davon nicht übertragen oder einer Drittperson, die nicht Partei dieses Vertrags ist, Zugang dazu erteilen. Der Lizenznehmer darf die Software oder seiner Hilfedateien nicht zurückentwickeln, dekompilieren, disassemblieren, modifizieren, übersetzen, versuchen den Quellencode zu ermitteln oder von dieser Software abgeleitete Werke erzeugen, ausgenommen und nur soweit, wie solche Aktivitäten durch anwendbares Recht, obgleich dieser Einschränkung, ausdrücklich zugelassen sind. Der Lizenznehmer darf die Software nicht in eine andere Software oder ein mit Software verwandtes Produkt integrieren. </p>
-        <p></p>
-        <p><h2>3. Produktwartung</h2></p>
+        
+        <hr class="divider" />
+
+        <h2>3. Produktwartung</h2>
         <p>Gemäß diesem Vertrag ist der Lizenzgeber nicht verpflichtet, Ihnen die Wartung, Support oder Updates für die Software zur Verfügung zu stellen. Gesonderte Vereinbarung mit dem Kunden bleiben hiervon ausgeschlossen.</p>
         
         <hr class="divider" />
