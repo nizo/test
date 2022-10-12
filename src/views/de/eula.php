@@ -11,7 +11,7 @@
     <meta property="og:site_name" content="Callone"/>
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.callone.de/rechtliches/softphone_eula.html" />
+    <meta property="og:url" content="https://www.callone.de/rechtliches/eula_callone_virtuFON.html" />
 
     <meta property="og:image" content="https://www.callone.de/images/og/1200x630/default/Cloud_Callcenter_Software-_VoIP-__Telefonanlagen.png" />
     <meta property="twitter:image" content="https://www.callone.de/images/og/1200x600/default/Cloud_Callcenter_Software-_VoIP-__Telefonanlagen.png">	
