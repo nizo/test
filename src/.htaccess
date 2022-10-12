@@ -209,6 +209,8 @@ RewriteRule ^favicon.ico$ /assets/images/favicons/favicon.ico [L]
 # Passwortabfrage, wenn URL übereinstimmt
 # Deny from env=auth
 
+RewriteRule ^rechtliches/eula_callone_virtuFON.html /views/de/eula.php [L]
+RewriteRule ^eula_softphone /views/de/eula.php [L]
 
 # ----------------------------------------------------------------------
 # Redirects
