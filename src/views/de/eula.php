@@ -77,7 +77,7 @@
             Hugo-Vogel-Straße 23<br />
             14109 Berlin<br />
             Telefon: +49 30 920 33 500<br />
-            E-Mail: kontakt@callone.de<br />
+            E-Mail: <a href="mailto:kontakt@callone.de" class="inline-link">kontakt@callone.de</a><br />
             Amtsgericht Berlin Charlottenburg. HRB 226944 B<br />
             („Lizenzgeber“).
         </p>
@@ -169,14 +169,5 @@
 </div>
 
 <script src="/assets/javascripts/application.min.js?build=1b44e39f1d2a8c0c3de1f7e3b1b518ba"></script>
-    
-            <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                let urlQuery = window.location.search;
-                let params = new URLSearchParams(urlQuery);
-                if (!params.has('no-banner') && !cookiesettings.exists('cookiesettings'))
-                    new Modal(null, 'cookie-settings', null, 1000);
-            });
-        </script>
     </body>
 </html>
