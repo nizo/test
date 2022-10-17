@@ -34,7 +34,7 @@ $faqs->faq_add (
                 Telefonie in Microsoft Teams mit <br />
                 <span class="typing-text typing-text--block" data-texts="Rundum-Sorglos-Garantie für Ihre IT|inkludierten Funktionen, die sie nicht mehr missen möchten|der Gewissheit auf der sicheren Seite zu sein" data-colors="#FF002E|#FF7B1B|#DB00C5" data-links="||/dsgvo-telekommunikation">Rundum-Sorglos-Garantie für Ihre IT</span>
             </h2>
-            <h2 class="bigtext">ab <span class="bigtext__price">7,90 €</span> / User & Monat</h2>
+            <h2 class="bigtext">ab <span class="bigtext__price">5,90 €</span> / User & Monat</h2>
 
             <p class="mobile-centered">
                 <a href="#preise" class="btn btn--primary">Direkt zu den Preisen</a>
@@ -348,7 +348,7 @@ $faqs->faq_add (
                     <div class="plan__subtitle">Teams Telefonie mit Profifunktionen</div>
                     <div class="plan__title">Teams pur</div>
                     <div class="plan__price">
-                        <strong>7,90 €</strong>
+                        <strong>5,90 €</strong>
                         <span>monatlich pro Nebenstelle*</span>
                     </div>
                 </div>
@@ -373,7 +373,7 @@ $faqs->faq_add (
                     <div class="plan__subtitle">Teams Telefonie flexibel erweitert</div>
                     <div class="plan__title">Teams hybrid</div>
                     <div class="plan__price">
-                        <strong>12,90 €</strong>
+                        <strong>7,90 €</strong>
                         <span>monatlich pro Nebenstelle*</span>
                     </div>
                 </div>
