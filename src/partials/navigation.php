@@ -504,7 +504,7 @@ require_once('banderole.php');
                 </li>
             <?php endif; ?>
 
-            <?php if (stristr ($_SERVER['HTTP_HOST'], 'beta.www.')): ?>
+            <?php if (stristr ($_SERVER['HTTP_HOST'], 'dev.ad.comdesk.gmbh')): ?>
                 <li class="navigation__item<?= $page->menu_position == 'devtools' ? ' navigation__item--active' : '' ?>">
                     <div class="navigation__link navigation__link--arrow">
                         <span>DEV</span>
