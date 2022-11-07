@@ -1336,8 +1336,8 @@
                     <div class="team__header">
                         <p>Menschen bei CallOne</p>
                         <div class="team__buttons">
-                            <div class="team__button team__button--active" data-member="1" data-name="Charlotta">
-                                <img src="/assets/images/photos/charlotta-portrait.jpg" alt="Charlotta" />
+                            <div class="team__button team__button--active" data-member="1" data-name="Vanessa">
+                                <img src="/assets/images/photos/vanessa-portrait.jpg" alt="Vanessa" />
                             </div>
                             <div class="team__button" data-member="2" data-name="Brian">
                                 <img src="/assets/images/photos/brian-portrait.jpg" alt="Brian" />
@@ -1352,19 +1352,19 @@
                             <div class="team__member-left">
                                 <blockquote>„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                                 <h6>
-                                    <strong>Charlotta</strong><br />
+                                    <strong>Vanessa</strong><br />
                                     Projektmanagerin
                                 </h6>
 
                                 <div class="team__member-booking">
                                     <h3>Lust mehr über CallOne zu erfahren?</h3>
-                                    <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Charlotta</u>.</p>
-                                    <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Charlotta"}'); ?>">Termin buchen</a>
+                                    <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Vanessa</u>.</p>
+                                    <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Vanessa"}'); ?>">Termin buchen</a>
                                 </div>
                             </div>
                             <div class="team__member-right">
                                 <div class="team__member-image">
-                                    <img src="/assets/images/photos/charlotta-stehend.jpg" alt="Charlotta" />
+                                    <img src="/assets/images/photos/vanessa-stehend.jpg" alt="Vanessa" />
                                 </div>
                                 <div class="team__member-agenda" data-openmodal="agenda-projektmanager">
                                     <strong>Tagesagenda</strong><br />

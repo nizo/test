@@ -181,10 +181,10 @@ $faqs->faq_add (
             <div class="team__header">
                 <p>Menschen bei CallOne</p>
                 <div class="team__buttons">
-                    <div class="team__button team__button--active" data-member="1" data-name="Charlotta">
+                    <div class="team__button team__button--active" data-member="1" data-name="Vanessa">
                         <?= pictureTag(
-                            '/assets/images/photos/charlotta-portrait.jpg',
-                            'Charlotta',
+                            '/assets/images/photos/vanessa-portrait.jpg',
+                            'Vanessa',
                             70, 70
                         ); ?>
                     </div>
@@ -209,21 +209,21 @@ $faqs->faq_add (
                     <div class="team__member-left">
                         <blockquote class="quote">„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
                         <p>
-                            <strong>Charlotta</strong><br />
+                            <strong>Vanessa</strong><br />
                             Projektmanagerin
                         </p>
 
                         <div class="team__member-booking">
                             <h3>Lust mehr über CallOne zu erfahren?</h3>
-                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Charlotta</u>.</p>
-                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Charlotta"}'); ?>">Termin buchen</a>
+                            <p>Buche jetzt ganz unkompliziert einen Kennenlerntermin mit <u>Vanessa</u>.</p>
+                            <a href="#" class="btn btn--border-white" data-openmodal="appointment-booking" data-modaldata="<?= base64_encode('{"contactperson": "Vanessa"}'); ?>">Termin buchen</a>
                         </div>
                     </div>
                     <div class="team__member-right">
                         <div class="team__member-image">
                             <?= pictureTag(
-                                '/assets/images/photos/charlotta-stehend.jpg',
-                                'Charlotta',
+                                '/assets/images/photos/vanessa-stehend.jpg',
+                                'Vanessa',
                                 368, 555
                             ); ?>
                         </div>

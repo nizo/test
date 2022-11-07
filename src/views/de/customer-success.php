@@ -119,7 +119,7 @@
                             „Wir begleiten und beraten unsere Kunden von Anfang an persönlich. So entsteht eine echte Vertrauensbasis, auf der wir immer wieder neue Lösungen finden. Unser Team arbeitet strukturiert und zielführend, sodass wir die Kundenanliegen immer schnell beantworten können.”
                         </blockquote>
                         <p>
-                            <strong>Charlotta</strong><br />
+                            <strong>Vanessa</strong><br />
                             Projektmanagerin
                         </p>
                     </div>
@@ -136,8 +136,8 @@
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-md co-grid__col--6-lg co-grid__col--vcentered tab-image-2" style="display: none">
                 <?= pictureTag(
-                    '/assets/images/photos/lotta-face-circle-v2.png',
-                    'Charlotta Barth CallOne Success Managerin',
+                    '/assets/images/photos/vanessa-face-circle-v2.png',
+                    'Vanessa Metzger CallOne Success Managerin',
                     470, 558, [
                         'class' => 'small-tab-image'
                     ]
@@ -175,14 +175,14 @@
                     „Wir begleiten und beraten unsere Kunden von Anfang an persönlich. So entsteht eine echte Vertrauensbasis, auf der wir immer wieder neue Lösungen finden. Unser Team arbeitet strukturiert und zielführend, sodass wir die Kundenanliegen immer schnell beantworten können.”
                 </blockquote>
                 <p>
-                    <strong>Charlotta</strong><br />
+                    <strong>Vanessa</strong><br />
                     Projektmanagerin
                 </p>
 
                 <br />
                 <?= pictureTag(
-                    '/assets/images/photos/lotta-mobile-green-circle.png',
-                    'Charlotta Barth CallOne Success Managerin',
+                    '/assets/images/photos/vanessa-mobile-green-circle.png',
+                    'Vanessa Metzger CallOne Success Managerin',
                     800, 631, [
                         'style' => 'display:block;margin-bottom:-50px;margin-left:-25px;width:calc(100% + 50px);max-width:unset;'
                     ]
