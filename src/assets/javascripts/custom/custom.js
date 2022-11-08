@@ -229,7 +229,7 @@ function loadTracking(){
 		(function() {
 			var mf = document.createElement("script");
 			mf.type = "text/javascript"; mf.defer = true;
-			mf.src = "//cdn.mouseflow.com/projects/a81cdc73-8001-422e-9d46-c67c4f092c90.js";
+			mf.src = "//cdn.mouseflow.com/projects/eed807e3-6457-40c0-91c8-42624967f98b.js";
 			document.getElementsByTagName("head")[0].appendChild(mf);
 		})();
 		// MouseFlow Banderole Tag
