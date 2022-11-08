@@ -74,7 +74,6 @@ $product->structured_data_get_code ();
 		<div class="anchors__links">
 			<a href="#crm_ticketing">CRM und Ticketing</a>
 			<a href="#data_analysis">Reporting und Statistiken</a>
-			<a href="#browser_addon">Browser-Erweiterung</a>
 		</div>
 	</div>
 </div>
@@ -417,57 +416,6 @@ $product->structured_data_get_code ();
                         <a href="https://www.geckoboard.com/dashboard-examples/support/call-center-dashboard/" target="_blank" class="btn btn--border-bottom btn--arrow-right-small">Datenquellen</a>
                     </p>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section" id="browser_addon">
-    <div class="section__content section__content--narrow">
-        <h2 class="centered mobile-left" style="margin-top:0">
-            Browser-Erweiterung
-        </h2>
-
-        <p class="centered mobile-left">Die <a href="/softphone" class="inline-link">CallOne Browser-Erweiterung</a> integriert sich perfekt in Ihre Outbound-Prozesse: Für effizientere Outbound-Calls aus allen browserbasierten Tools. Mehr Zeit zum Telefonieren, weniger Zeit fürs Wählen!</p>
-    </div>
-
-    <div class="section__content section__content--wide">
-        <div class="grid centered">
-            <div class="col-3">
-                <p>
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/chrome-logo.svg',
-                        'Softphone von CallOne als Browserextension für Chrome',
-                        191, 50
-                    ); ?>
-                </p>
-                <p>
-                    <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Chrome hinzufügen</a>
-                </p>
-            </div>
-            <div class="col-3">
-                <p>
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/firefox-logo.svg',
-                        'Softphone von CallOne als Browserextension für Mozilla Firefox',
-                        144, 50
-                    ); ?>
-                </p>
-                <p>
-                    <a href="https://addons.mozilla.org/de/firefox/addon/callone/" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Firefox hinzufügen</a>
-                </p>
-            </div>
-            <div class="col-3">
-                <p>
-                    <?= pictureTag(
-                        '/assets/images/logo/productlogos/edge-logo.svg',
-                        'Softphone von CallOne als Browserextension für Microsoft Edge',
-                        147, 50
-                    ); ?>
-                </p>
-                <p>
-                    <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" target="_blank" class="button secondary black mobileWrap rounded button--block">zu Edge hinzufügen</a>
-                </p>
             </div>
         </div>
     </div>
