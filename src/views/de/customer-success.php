@@ -116,7 +116,7 @@
                     </div>
                     <div class="small-tabs__content" data-tab="2">
                         <blockquote class="quote">
-                            „Wir begleiten und beraten unsere Kunden von Anfang an persönlich. So entsteht eine echte Vertrauensbasis, auf der wir immer wieder neue Lösungen finden. Unser Team arbeitet strukturiert und zielführend, sodass wir die Kundenanliegen immer schnell beantworten können.”
+                            „Im Projektmanagement arbeiten wir sehr eng mit unseren Kunden zusammen und sind unter anderem Bindeglied zwischen der IT und unseren Kunden. Es macht mir besonders viel Spaß immer mehr Verständnis für technische Zusammenhänge zu bekommen. Dabei werde ich sehr von den Kollegen unterstützt, was ich besonders schätze.”
                         </blockquote>
                         <p>
                             <strong>Vanessa</strong><br />
@@ -172,7 +172,7 @@
             </div>
             <div class="tablist__content" data-tab="2">
                 <blockquote class="quote">
-                    „Wir begleiten und beraten unsere Kunden von Anfang an persönlich. So entsteht eine echte Vertrauensbasis, auf der wir immer wieder neue Lösungen finden. Unser Team arbeitet strukturiert und zielführend, sodass wir die Kundenanliegen immer schnell beantworten können.”
+                    „Im Projektmanagement arbeiten wir sehr eng mit unseren Kunden zusammen und sind unter anderem Bindeglied zwischen der IT und unseren Kunden. Es macht mir besonders viel Spaß immer mehr Verständnis für technische Zusammenhänge zu bekommen. Dabei werde ich sehr von den Kollegen unterstützt, was ich besonders schätze.”
                 </blockquote>
                 <p>
                     <strong>Vanessa</strong><br />

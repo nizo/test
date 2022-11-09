@@ -207,7 +207,7 @@ $faqs->faq_add (
             <div class="team__content">
                 <div class="team__member team__member--active" data-member="1">
                     <div class="team__member-left">
-                        <blockquote class="quote">„CallOne bietet mir viel Freiraum in meinem Job: Ich kann mich jederzeit einbringen und meine Ideen finden Gehör. Weiterbildung ist ausdrücklich erwünscht: Zurzeit lerne ich Programmieren und ein Kollege hilft mir dabei.”</blockquote>
+                        <blockquote class="quote">„Im Projektmanagement arbeiten wir sehr eng mit unseren Kunden zusammen und sind unter anderem Bindeglied zwischen der IT und unseren Kunden. Es macht mir besonders viel Spaß immer mehr Verständnis für technische Zusammenhänge zu bekommen. Dabei werde ich sehr von den Kollegen unterstützt, was ich besonders schätze.”</blockquote>
                         <p>
                             <strong>Vanessa</strong><br />
                             Projektmanagerin
