@@ -674,6 +674,7 @@ Wachse mit uns und werde Teil eines exzellenten Teams. Wahlweise an einem unsere
 <br>
 <br>
 <b>DEINE ROLLE, DEIN ABENTEUER</b>
+<br>
 Du bist ein Marketing-Genie mit einem Startup-Mindset? Dann bist du bei uns richtig. Wir sind auf der Suche nach einem <b>Head of Marketing</b>. Wir befinden uns in einer aufregenden Wachstumsphase, bieten das vielleicht spannendste und gleichzeitig wichtigste Kommunikationstool für mittelständische Unternehmen, denn wir mischen die fade Telekommunikationslandschaft in Deutschland auf. Wir gestalten die Telekommunikation der Zukunft. Intuitiv, vernetzt und sicher aus der Cloud.  
 <br>
 Bei uns darfst du dich austoben und dein volles kreatives Talent nutzen. Mit Leichtigkeit kombinierst du strategisches und operatives Arbeiten. KPIs und Tech Start-Up sind dein Ding. Du kennst dich mit B2B-Marketing inklusive aller relevanten Channels bestens aus und kannst diese mit den richtigen Methoden und Optimierungsansätzen aufsetzen. 
@@ -697,6 +698,48 @@ Dein Team kannst du mit deinen Visionen und Ideen inspirieren und motivieren? Du
 	$job->text_requirements_set ('Hervorragende zwischenmenschliche und kommunikative Fähigkeiten');
 $job->text_requirements_set ('Du hast bereits ein Team geführt');
 	$job->text_requirements_set ('Für diese Position sind muttersprachlich vergleichbare Deutschkenntnisse zwingend erforderlich (Schreiben, Sprechen und Präsentieren)');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['clipboard']);
+	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Online Marketing Managerin', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
+	$jobs->job_add ($job);
+
+$job = new job ('Marketing', 'Performance Marketing Manager*in', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam, Elmshorn, Düsseldort, 100% remote');
+	$job->url_set ('/karriere/performance-marketing-manager');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigener entwickelter Cloud-Plattform liefern wir unseren <b>über 3.500 Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
+	$job->text_description_long_set ('Komm zu uns, wenn Du helfen willst, Telekommunikation in Deutschland zu transformieren, sodass Unternehmen kundenorientiert und zukunftsweisend mit Ihren Kunden interagieren können.<br>  
+
+Was uns stolz macht? Unsere Mentalität:! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.<br>  
+
+Wachse mit uns und werde Teil eines exzellenten Teams. Wahlweise an einem unserer Standorte in <b>Potsdam, Elmshorn oder Düsseldorf oder 100% remote</b> vom Ort deines Herzens.
+<br>
+<br>
+<b>DEINE ROLLE, DEIN ABENTEUER</b>
+<br>
+Du bist ein Marketing-Genie mit einem Startup-Mindset? Dann bist du bei uns richtig. Wir sind auf der Suche nach einem Performance Marketing Manager. Wir befinden uns in einer aufregenden Wachstumsphase, bieten das vielleicht spannendste und gleichzeitig wichtigste Kommunikationstool für mittelständische Unternehmen, denn wir mischen die fade Telekommunikationslandschaft in Deutschland auf. Wir gestalten die Telekommunikation der Zukunft. Intuitiv, vernetzt und sicher aus der Cloud.  
+
+Du bist Owner unserer Paid-Search-Aktivitäten und managst die Performance und Skalierung unserer Paid-Search-Kanäle und trägst dadurch aktiv zur Planung und Entwicklung unserer SEM-Strategie bei. Mit Deinem analytischen Feingefühl sammelst und analysierst Du Daten und identifizierst Trends, um Deine KPIs und die User Journey zu optimieren. Dabei wirkst Du aktiv an der Planung und Entwicklung mit Deinem Team an unserer SEM-Strategie mit und leitest teamübergreifend Projekte mit Sales, Operations und Product, um neue Wachstumshacks und Chancen zu entdecken.');
+	$job->text_tasks_set ('Du arbeitest sowohl strategisch als auch operativ an der Optimierung aller Marketingmaßnahmen in der gesamten Unternehmensgruppe');
+	$job->text_tasks_set ('Du entwickelst und implementierst skalierbare Marketingprozesse sowie die Marketingstrategie für den deutschen und internationalen Markt.');
+	$job->text_tasks_set ('Du bist im Lead für die Konzeption, Umsetzung, Kontrolle und Optimierung aller relevanten Marketingmaßnahmen im Online und Offline-Bereich');
+	$job->text_tasks_set ('Zusammen mit deinem Marketing-Team verantwortest du die Bereiche Leadgenerierung, gemeinsame Weiterentwicklung des Brand, Content, Performance-Marketing.');
+	$job->text_tasks_set ('Du bildest die Schnittstelle zu anderen Abteilungen und setzt Projekte in enger Zusammenarbeit mit Sales-, Produkt- oder Customer Success um');
+	$job->text_tasks_set ('Du verantwortest das Monitoring und die stetige Optimierung der Paid-Search Kanäle');
+		$job->text_tasks_set ('Die regelmäßige Durchführung von Trackings, Reportings und Analysen der Online-Marketing-Maßnahmen sowie das kontinuierliche Monitoring wichtiger KPIs mithilfe gängiger Analytics-Tools gehört auch zu Deinen Aufgaben');
+		$job->text_tasks_set ('Du führst regelmäßige Reportings & Erfolgskontrollen durch und entwickelst diese weiter');
+	$job->text_requirements_set ('Du hast in einem schnell wachsenden Start-up-Unternehmen gearbeitet und bist in der Lage, in einem schnelllebigen Umfeld viele Aufgaben zu übernehmen');
+	$job->text_requirements_set ('Du bist zahlenorientiert und echte*r A/B-Test-Champion und suchst nach statistischer Signifikanz, um unsere Lead Generation KPIs zu optimieren');
+	$job->text_requirements_set ('Deine Hands-on und Teamplayer Mentalität zeichnet Dich aus – Du bist ein*e Macher*in!');
+	$job->text_requirements_set ('Webtracking ist kein Fremdwort für Dich, auch wenn Du kein Experte darin bist - Du hast ein Grundverständnis für Cookies, Tags und Trigger ');
+	$job->text_requirements_set ('Du hast Erfahrungen mit Facebook Ads, Youtube Ads, Display Marketing oder anderen Kanälen.');
+	$job->text_requirements_set ('Das Konzipieren und möglicherweise die Unterstützung beim Erstellen neuer Inhalte siehst Du als Teil deines Jobs');
+	$job->text_requirements_set ('Du bist strukturiert und bringst Erfahrung im Projektmanagement und dem Handling von Agenturen mit ');
+	$job->text_requirements_set ('Neben sehr guten analytischen Fähigkeiten und hoher Zahlenaffinität hast Du auch Spaß an kreativer und pragmatischer Arbeit');
+    $job->text_requirements_set ('Proaktivität und Ownership zählen zu Deinen Kernprinzipien');
+	$job->text_requirements_set ('Hervorragende zwischenmenschliche und kommunikative Fähigkeiten');
+	$job->text_requirements_set ('Für diese Position sind Deutsch- und Englischkenntnisse zwingend erforderlich (Schreiben, Sprechen und Präsentieren)');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['clipboard']);
