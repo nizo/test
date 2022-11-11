@@ -668,7 +668,7 @@ $job = new job ('Marketing', 'Head of Marketing', 'Du möchtest Teil eines junge
 	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigener entwickelter Cloud-Plattform liefern wir unseren <b>über 3.500 Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
 	$job->text_description_long_set ('Komm zu uns, wenn Du helfen willst, Telekommunikation in Deutschland zu transformieren, sodass Unternehmen kundenorientiert und zukunftsweisend mit Ihren Kunden interagieren können.<br>  
 
-Was uns stolz macht? Unsere Mentalität:! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.<br>  
+Was uns stolz macht? Unsere Mentalität! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.<br>  
 
 Wachse mit uns und werde Teil eines exzellenten Teams. Wahlweise an einem unserer Standorte in <b>Potsdam, Elmshorn oder Düsseldorf oder 100% remote</b> vom Ort deines Herzens.
 <br>
@@ -711,7 +711,7 @@ $job = new job ('Marketing', 'Performance Marketing Manager*in', 'Du möchtest T
 	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigener entwickelter Cloud-Plattform liefern wir unseren <b>über 3.500 Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
 	$job->text_description_long_set ('Komm zu uns, wenn Du helfen willst, Telekommunikation in Deutschland zu transformieren, sodass Unternehmen kundenorientiert und zukunftsweisend mit Ihren Kunden interagieren können.<br>  
 
-Was uns stolz macht? Unsere Mentalität:! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.<br>  
+Was uns stolz macht? Unsere Mentalität! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.<br>  
 
 Wachse mit uns und werde Teil eines exzellenten Teams. Wahlweise an einem unserer Standorte in <b>Potsdam, Elmshorn oder Düsseldorf oder 100% remote</b> vom Ort deines Herzens.
 <br>
