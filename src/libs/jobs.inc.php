@@ -658,7 +658,41 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['clipboard']);
-	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
+	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Online Marketing Managerin', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
+	$jobs->job_add ($job);
+
+$job = new job ('Marketing', 'Head of Marketing', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam, Elmshorn, Düsseldort, 100% remote');
+	$job->url_set ('/karriere/head-of-marketing');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigener entwickelter Cloud-Plattform liefern wir unseren <b>über 3.500 Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
+	$job->text_description_long_set ('Komm zu uns, wenn Du helfen willst, Telekommunikation in Deutschland zu transformieren, sodass Unternehmen kundenorientiert und zukunftsweisend mit Ihren Kunden interagieren können.  
+
+Was uns stolz macht? Unsere Mentalität:! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.  
+
+Wachse mit uns und werde Teil eines exzellenten Teams. Wahlweise an einem unserer Standorte in <b>Potsdam, Elmshorn oder Düsseldorf oder 100% remote</b> vom Ort deines Herzens.
+
+<b>Deine Rolle, dein Abenteuer</b>
+Du bist ein Marketing-Genie mit einem Startup-Mindset? Dann bist du bei uns richtig. Wir sind auf der Suche nach einem <b>Head of Marketing</b>. Wir befinden uns in einer aufregenden Wachstumsphase, bieten das vielleicht spannendste und gleichzeitig wichtigste Kommunikationstool für mittelständische Unternehmen, denn wir mischen die fade Telekommunikationslandschaft in Deutschland auf. Wir gestalten die Telekommunikation der Zukunft. Intuitiv, vernetzt und sicher aus der Cloud.  
+
+Bei uns darfst du dich austoben und dein volles kreatives Talent nutzen. Mit Leichtigkeit kombinierst du strategisches und operatives Arbeiten. KPIs und Tech Start-Up sind dein Ding. Du kennst dich mit B2B-Marketing inklusive aller relevanten Channels bestens aus und kannst diese mit den richtigen Methoden und Optimierungsansätzen aufsetzen. 
+
+Dein Team kannst du mit deinen Visionen und Ideen inspirieren und motivieren? Du atmest Startup-Atmosphäre und hast richtig Lust, die deutsche Business-Telekommunikation zu transformieren? Dann werde Teil unserer Erfolgsstory. Für diese Vision brauchen wir Dich und Deinen Tatendrang!');
+	$job->text_tasks_set ('Du arbeitest sowohl strategisch als auch operativ an der Optimierung aller Marketing Maßnahmen in der gesamten Unternehmensgruppe');
+	$job->text_tasks_set ('Du entwickelst und implementierst mit unseren Geschäftsführern und dem Marketingteam gemeinsam skalierbare Marketingprozesse und legst dabei den Grundstein für die Wachstumsambitionen des Unternehmens, indem du die Marketingstrategie für den deutschen und internationalen Markt gestaltest.');
+	$job->text_tasks_set ('Du bist im Lead für die Konzeption, Umsetzung, Kontrolle und Optimierung aller relevanten Marketingmaßnahmen im Online und Offline-Bereich');
+	$job->text_tasks_set ('Du unterstützt uns beim Markenaufbau und gestaltest aktiv die Außenwahrnehmung unserer drei Marken');
+	$job->text_tasks_set ('Zusammen mit deinem Marketing-Team verantwortest du die Bereiche Leadgenerierung, Weiterentwicklung der Brand, Content, Performance-Marketing und das CRM.');
+	$job->text_tasks_set ('Du bildest die Schnittstelle zu anderen Abteilungen und setzt Projekte in enger Zusammenarbeit mit Sales-, Produkt- oder Customer Success um');
+	$job->text_tasks_set ('Du verantwortest das Monitoring aller relevanten Marketingaktivitäten und behältst den Überblick über alle Projekte und das Marketingbudget');
+	$job->text_requirements_set ('Abgeschlossenes Studium oder Ausbildung in Produkt Design, Produktmarketing, Marketing oder vergleichbare Qualifikation');
+	$job->text_requirements_set ('Erfahrung in der Konzipierung von kundenfeedbackbasierten Produktfeatures');
+	$job->text_requirements_set ('Praktische Erfahrungen im B2B Marketing');
+	$job->text_requirements_set ('Eigenständige und zuverlässige Arbeitsweise sowie kommunikative Fähigkeiten und Teamgeist zeichnen dich aus.');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['clipboard']);
+	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Online Marketing Managerin', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
 	$jobs->job_add ($job);
 
 	$job = new job ('Vertrieb', '(Senior) Sales Manager*in', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
