@@ -665,7 +665,7 @@ $job = new job ('Marketing', 'Head of Marketing', 'Du möchtest Teil eines junge
 	$job->location_set ('Potsdam, Elmshorn, Düsseldort');
 	$job->url_set ('/karriere/head-of-marketing');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigener entwickelter Cloud-Plattform liefern wir unseren <b>über 3.500 Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
+	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigenentwickelter Cloud-Plattform liefern wir <b>mehr als 3.500 unserer Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
 	$job->text_description_long_set ('Komm zu uns, wenn Du helfen willst, Telekommunikation in Deutschland zu transformieren, sodass Unternehmen kundenorientiert und zukunftsweisend mit Ihren Kunden interagieren können.<br>  
 
 Was uns stolz macht? Unsere Mentalität! Wir sind Pioniere, die Technologie und Kreativität erfolgreich miteinander vereinen und täglich weiterentwickeln – erfolgreich und profitabel <b>seit über 12 Jahren</b>. Seit diesem Jahr geht diese Erfolgsgeschichte in ein neues Kapitel. Mit einer erstmaligen <b>Finanzierung von 20 Millionen Euro</b> wollen wir nun die nächste Stufe zünden.<br>  
@@ -705,7 +705,7 @@ $job->text_requirements_set ('Du hast bereits ein Team geführt');
 	$jobs->job_add ($job);
 
 $job = new job ('Marketing', 'Performance Marketing Manager*in', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('Potsdam, Elmshorn, Düsseldort, 100% remote');
+	$job->location_set ('Potsdam, Elmshorn, Düsseldort');
 	$job->url_set ('/karriere/performance-marketing-manager');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigener entwickelter Cloud-Plattform liefern wir unseren <b>über 3.500 Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
