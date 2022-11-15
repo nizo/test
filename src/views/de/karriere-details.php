@@ -154,7 +154,7 @@ if (empty ($job))
             'Arbeitsstelle',
             35, 48
         ); ?>
-        <?= $job->location_get(); ?>
+        <div><?= $job->location_get(); ?></div>
     </div>
     <div class="job-details__item">
         <?= pictureTag(
@@ -162,7 +162,7 @@ if (empty ($job))
             'Arbeitszeit',
             50, 48
         ); ?>
-        <?= $job->job_worktime_get(); ?>
+        <div><?= $job->job_worktime_get(); ?></div>
     </div>
     <div class="job-details__item">
         <?= pictureTag(
@@ -170,7 +170,7 @@ if (empty ($job))
             'Arbeitsbeginn',
             56, 48
         ); ?>
-        <?= $job->job_start_end_get(); ?>
+        <div><?= $job->job_start_end_get(); ?></div>
     </div>
 </div>
 

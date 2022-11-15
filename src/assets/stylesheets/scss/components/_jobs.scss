@@ -73,20 +73,27 @@
         border-radius: 20px;
         width: 160px;
         height: 160px;
-        padding: 25px 5px;
+        padding: 20px 5px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: stretch;
         align-items: center;
         text-align: center;
         font-family: $font-headline;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 1.1;
 
         img {
             width: auto;
             height: 48px;
+            margin-bottom: 5px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            flex: 1;
         }
 
         &+.job-details__item {
