@@ -662,7 +662,7 @@ function jobs_load ()
 	$jobs->job_add ($job);
 
 $job = new job ('Marketing', 'Head of Marketing', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('100% Remote, Düsseldorf + weitere');
+	$job->location_set ('100% Remote, Potsdam + weitere');
 	$job->url_set ('/karriere/head-of-marketing');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigenentwickelter Cloud-Plattform liefern wir <b>mehr als 3.500 unserer Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
@@ -705,7 +705,7 @@ $job->text_requirements_set ('Du hast bereits ein Team geführt');
 	$jobs->job_add ($job);
 
 $job = new job ('Marketing', 'Performance Marketing Manager*in', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('100% Remote, Düsseldorf + weitere');
+	$job->location_set ('100% Remote, Potsdam + weitere');
 	$job->url_set ('/karriere/performance-marketing-manager');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('CallOne ist ein SaaS-Unternehmen, das sich mit der Frage beschäftigt, wie Firmen dem rasanten Wandel von Kundenservice gerecht werden können. Als deutsches SaaS-Unternehmen mit eigenentwickelter Cloud-Plattform liefern wir <b>mehr als 3.500 unserer Kunden</b> die Antwort für zukunftsweisende Kommunikations- und IT-Lösungen. Telefonie und Sprache stehen bei uns im Fokus und werden ergänzt von E-Mail, Chat und einem weitreichenden Angebot für Unternehmen.');
