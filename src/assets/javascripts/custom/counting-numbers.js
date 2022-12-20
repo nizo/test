@@ -2,6 +2,7 @@ class CountingNumbers {
     constructor(el) {
         this.element = el;
         this.speed = 1000; // ms until final number shall be reached
+        this.prefix = this.element.dataset.prefix || '';
         this.suffix = this.element.dataset.suffix || '';
         this.start = parseInt(this.element.dataset.start);
         this.end = parseInt(this.element.dataset.end);
@@ -74,7 +75,7 @@ class CountingNumbers {
     }
 
     update() {
-        this.element.textContent = Math.round(this.current) + this.suffix;
+         this.element.textContent = this.prefix + Math.round(this.current) + this.suffix;
     }
 }
 
