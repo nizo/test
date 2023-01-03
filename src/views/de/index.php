@@ -96,10 +96,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/small_25.svg',
-								'ALT TEXT',
+								'Telefon in der Cloud',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -120,10 +119,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/small_28.svg',
-								'ALT TEXT',
+								'Helfende Hände in Service und IT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -144,10 +142,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                             <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/small_07_2.svg',
-								'ALT TEXT',
+								'Einstellungsrad am Laptop',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -168,10 +165,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & correct icon-->
 							<?= pictureTag(
 								'/assets/images/icons_svg/msteams-icon.svg',
-								'ALT TEXT',
+								'Telefonie mit Microsoft Teams',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -192,10 +188,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/small_38.svg',
-								'ALT TEXT',
+								'Rufnummernfeld - lokal und weltweit',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -216,10 +211,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & correct icon-->
 							<?= pictureTag(
 								'/assets/images/icons_svg/robot-head.svg',
-								'ALT TEXT',
+								'Lächelndes Gesicht eines Roboters',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -238,7 +232,6 @@ $faqs->faq_add (
             </div>
         </div>
         <p class="centered">
-            <!-- add link -->
             <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered">Jetzt kostenlos beraten lassen.</a>
         </p>
     </div>
@@ -282,10 +275,9 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <!-- TODO: add ALT TEXT -->
                                     <?= pictureTag(
                                         '/assets/images/illus/digital-commerce.png',
-                                        'ALT TEXT',
+                                        'Mann vor Laptop telefoniert über Headset ',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
                                         ]
@@ -316,10 +308,9 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <!-- TODO: add ALT TEXT -->
                                     <?= pictureTag(
                                         '/assets/images/illus/gesundheitswesen.png',
-                                        'ALT TEXT',
+                                        'Junge Ärztin steht in Praxis-Raum und telefoniert mit Blick auf einen Computer-Bildschirm',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
                                         ]
@@ -351,10 +342,9 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                     <!-- TODO: add ALT TEXT -->
                                     <?= pictureTag(
                                         '/assets/images/illus/industrie-handel.png',
-                                        'ALT TEXT',
+                                        'Junge Frau mit Brille steht in einem Kleidungsgeschäft und hält ein Tablet',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
                                         ]
@@ -415,9 +405,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & icon -->
+                            <!-- TODO: add alt text -->
 							<?= pictureTag(
-								'/assets/images/icons_svg/small_25.svg',
+								'/assets/images/icons_svg/building-circle-arrow-right-solid.svg',
 								'ALT TEXT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
@@ -437,9 +427,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & icon -->
+                            <!-- TODO: add alt text -->
 							<?= pictureTag(
-								'/assets/images/icons_svg/small_28.svg',
+								'/assets/images/icons_svg/handshake-solid.svg',
 								'ALT TEXT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
@@ -461,7 +451,7 @@ $faqs->faq_add (
                         <div class="co-grid__col co-grid__col--vcentered">
                              <!-- TODO: add alt text -->
 							<?= pictureTag(
-								'/assets/images/icons_svg/small_07_2.svg',
+								'/assets/images/icons_svg/cloud-arrow-up-solid.svg',
 								'ALT TEXT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
@@ -481,9 +471,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & correct icon-->
+                            <!-- TODO: add alt text -->
 							<?= pictureTag(
-								'/assets/images/icons_svg/msteams-icon.svg',
+								'/assets/images/icons_svg/plug-circle-plus-solid.svg',
 								'ALT TEXT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
@@ -503,9 +493,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & correct icon -->
+                            <!-- TODO: add alt text -->
 							<?= pictureTag(
-								'/assets/images/icons_svg/small_38.svg',
+								'/assets/images/icons_svg/hand-holding-heart-solid.svg',
 								'ALT TEXT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
@@ -525,9 +515,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text & correct icon-->
+                            <!-- TODO: add alt text -->
 							<?= pictureTag(
-								'/assets/images/icons_svg/robot-head.svg',
+								'/assets/images/icons_svg/chart-line-solid.svg',
 								'ALT TEXT',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
@@ -545,8 +535,7 @@ $faqs->faq_add (
             </div>
         </div>
         <p class="centered">
-            <!-- TODO: add link -->
-            <a href="#" data-openmodal="contact-sales" class="btn btn--border-black centered">Mehr über CallOne</a>
+            <a href="/ueber-uns" class="btn btn--border-black centered">Mehr über CallOne</a>
         </p>
     </div>
 </div>
