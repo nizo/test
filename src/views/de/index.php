@@ -405,10 +405,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/building-circle-arrow-right-solid.svg',
-								'ALT TEXT',
+								'Alles aus einem Haus',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -427,10 +426,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/handshake-solid.svg',
-								'ALT TEXT',
+								'Schüttelnde Hände der Partner',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -449,10 +447,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                             <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/cloud-arrow-up-solid.svg',
-								'ALT TEXT',
+								'Telefonie geht in die Cloud',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -471,10 +468,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/plug-circle-plus-solid.svg',
-								'ALT TEXT',
+								'Stecker verbindet verschiedene Module',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -493,10 +489,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/hand-holding-heart-solid.svg',
-								'ALT TEXT',
+								'Eine Hand hält ein Herz',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
@@ -515,10 +510,9 @@ $faqs->faq_add (
                 <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col co-grid__col--vcentered">
-                            <!-- TODO: add alt text -->
 							<?= pictureTag(
 								'/assets/images/icons_svg/chart-line-solid.svg',
-								'ALT TEXT',
+								'Steigender Graph in Diagramm zeigt Ergebnisse',
 								50, 50, [
                                     'style' => 'height: 50px; width: 50px;',
 									'class' => 'co-grid__image--full-width'
