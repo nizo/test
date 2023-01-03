@@ -282,7 +282,7 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <!-- add ALT TEXT -->
+                                    <!-- TODO: add ALT TEXT -->
                                     <?= pictureTag(
                                         '/assets/images/illus/digital-commerce.png',
                                         'ALT TEXT',
@@ -316,7 +316,7 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <!-- add ALT TEXT -->
+                                    <!-- TODO: add ALT TEXT -->
                                     <?= pictureTag(
                                         '/assets/images/illus/gesundheitswesen.png',
                                         'ALT TEXT',
@@ -351,7 +351,7 @@ $faqs->faq_add (
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                     <!-- add ALT TEXT -->
+                                     <!-- TODO: add ALT TEXT -->
                                     <?= pictureTag(
                                         '/assets/images/illus/industrie-handel.png',
                                         'ALT TEXT',
@@ -399,6 +399,156 @@ $faqs->faq_add (
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="section section--light-green">
+    <div class="section__content section__content--wide">
+        <h2 class="centered mobile-left">Hervorragende Kommunikationslösungen für Ihr Unternehmen.</h2>
+        <p class="centered mobile-left bigtext">
+            CallOne entwickelt seit über 12 Jahren eine Kommunikationsplattform, die die gesamte Breite moderner Businesskommunikation abbildet. Als Netzbetreiber bieten wir täglich hochverfügbare Services für unsere Kunden.<br />
+            <br />
+            <br />
+        </p>
+
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <!-- TODO: add alt text & icon -->
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_25.svg',
+								'ALT TEXT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Direkt vom Hersteller</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <!-- TODO: add alt text & icon -->
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_28.svg',
+								'ALT TEXT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Persönliche Ansprechpartner</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                             <!-- TODO: add alt text -->
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_07_2.svg',
+								'ALT TEXT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Deutsche Cloud</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <!-- TODO: add alt text & correct icon-->
+							<?= pictureTag(
+								'/assets/images/icons_svg/msteams-icon.svg',
+								'ALT TEXT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Kombinierbar mit Ihrem System</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <!-- TODO: add alt text & correct icon -->
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_38.svg',
+								'ALT TEXT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Alles aus einer Hand</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+                            <!-- TODO: add alt text & correct icon-->
+							<?= pictureTag(
+								'/assets/images/icons_svg/robot-head.svg',
+								'ALT TEXT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Messbare Ergebnisse</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                </div>
+            </div>
+        </div>
+        <p class="centered">
+            <!-- TODO: add link -->
+            <a href="#" data-openmodal="contact-sales" class="btn btn--border-black centered">Mehr über CallOne</a>
+        </p>
+    </div>
 </div>
 
 <div class="section section--light-green-white">
