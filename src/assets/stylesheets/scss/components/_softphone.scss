@@ -1,0 +1,54 @@
+.softphone {
+	&__btn {
+		background: #f4faee;
+		color: #000;
+		margin-top: var(--gutter-m);
+		text-transform: none;
+
+		&:hover {
+			background-color: #000;
+			color: #fff;
+		}
+	}
+
+	&__card {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		padding: 30px 30px 60px;
+        height: 100%;
+        max-width: 400px;
+
+		@media screen and (min-width: 1025px) {
+			width: 400px;
+		}
+
+		h2 {
+			font-size: 32px;
+		}
+
+		&--dark-green {
+			background: #232f25;
+			color: white;
+		}
+
+		&--light-green {
+			background: #ddeebf;
+		}
+	}
+
+	&__download-btn {
+		margin-bottom: 15px;
+		min-width: 45%;
+		text-align: center;
+		text-transform: none;
+	}
+
+	&__text {
+		margin-top: var(--gutter-xs);
+
+		@media screen and (min-width: 1025px) {
+			margin-top: var(--gutter-m);
+		}
+	}
+}

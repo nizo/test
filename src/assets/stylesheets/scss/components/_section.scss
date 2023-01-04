@@ -55,6 +55,10 @@
         background: #f2f2f2;
     }
 
+    &--lighter-grey {
+        background: #f5f5f5;
+    }
+
     &--light-green {
         background-color: #EDF2E2;
     }
@@ -79,6 +83,9 @@
     }
     &--light-green-white-2 {
         background: linear-gradient(180deg, #EDF2E2 0%, rgba(#EDF2E2, 0) 100%);
+    }
+    &--light-green-white-3 {
+        background: linear-gradient(180deg, #edf7e2 0%, #f4faee 57.81%, #ffffff 100%);
     }
     &--white-light-green {
         background: linear-gradient(180deg, #FFFFFF 0%, #EDF2E2 100%);
