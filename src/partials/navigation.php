@@ -87,6 +87,35 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
+                                    <a href="/ms-teams" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/ms-teams') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-teams.png',
+                                                'Teams Telefonie als Cloud Telefonanlage',
+                                                51, 50
+                                                ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Microsoft Teams<span class="submenu__link-tag">Beliebt</span></strong>
+                                            <p>Die smarte Telefonie für Ihr Unternehmen</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/softphone" class="submenu__link<?= getPageActiveClass('/softphone') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/menu-softphone.png',
+                                                'VoIP Telefon im PC & Smartphone integriert',
+                                                51, 50
+                                                ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Softphone</strong>
+                                            <p>VoIP Telefon im PC & Smartphone integriert</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="submenu__column" style="--col-width:330px;">
                                     <a href="/0800-lokal-nummern" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/0800-lokal-nummern') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
@@ -98,21 +127,6 @@ require_once('banderole.php');
                                         <div class="submenu__link-text">
                                             <strong>Rufnummern</strong>
                                             <p>Freecall 0800, lokale Rufnummern aus Ihrem Vorwahlbereich & weltweit</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="submenu__column" style="--col-width:330px;">
-                                    <a href="/ms-teams" class="submenu__link submenu__link--3-lines<?= getPageActiveClass('/ms-teams') ?>">
-                                        <div class="submenu__link-icon">
-                                            <?= pictureTag(
-                                                '/assets/images/navigation/menu-teams.png',
-                                                'Teams Telefonie als Cloud Telefonanlage',
-                                                51, 50
-                                            ) ?>
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>Microsoft Teams<span class="submenu__link-tag">Beliebt</span></strong>
-                                            <p>Die smarte Telefonie für Ihr Unternehmen</p>
                                         </div>
                                     </a>
 
