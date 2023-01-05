@@ -17,17 +17,10 @@ $faqs->faq_add (
         <div class="hero__text">
             <h1>Beste Business-Telefonie. Überall dabei.</h1>
             <p class="bigtext">
-                Das universelle Softphone für <span
-                    class="typing-text"
-                    data-texts="das Homeoffice|unterwegs|den Kundenservice|Anbindungen ans CRM"
-                    data-colors="#550C9E|#1976AA|#718302|#FF5C5C">das Homeoffice</span
-                >
+                Das universelle Softphone für <span class="typing-text" data-texts="das Homeoffice|unterwegs|den Kundenservice|Anbindungen ans CRM" data-colors="#550C9E|#1976AA|#718302|#FF5C5C">das Homeoffice</span>
             </p>
             <p class="mobile-centered">
-                <a
-                    href="https://box.callone.de/login/voip/integrations/index.php?info=softphone"
-                    class="btn btn--primary">Jetzt kostenlos testen!</a
-                >
+                <a href="https://box.callone.de/login/voip/integrations/index.php?info=softphone" class="btn btn--primary">Jetzt kostenlos testen!</a>
             </p>
         </div>
         <div class="hero__image">
@@ -52,9 +45,7 @@ $faqs->faq_add (
     </div>
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div
-                class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered"
-            >
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered">
                 <div class="softphone__card softphone__card--dark-green">
                     <?= pictureTag(
                     '/assets/images/illus/woman-headset.png',
@@ -71,9 +62,7 @@ $faqs->faq_add (
                     <a href="#desktop-softphone" class="btn softphone__btn"> Jetzt downloaden! </a>
                 </div>
             </div>
-            <div
-                class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered"
-            >
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered">
                 <div class="softphone__card softphone__card--light-green">
                     <?= pictureTag(
                     '/assets/images/illus/man-mobile-phone.png',
@@ -83,8 +72,7 @@ $faqs->faq_add (
                     <div class="centered softphone__text">
                         <h2>Mobile Softphone</h2>
                         <p>
-                            Immer mit dabei.
-                            <br />
+                            Immer mit dabei.<br />
                             Für Apple und Android perfekt integrierte Unternehmenstelefonie im Smartphone.
                         </p>
                     </div>
@@ -92,7 +80,6 @@ $faqs->faq_add (
                 </div>
             </div>
         </div>
-        <br />
     </div>
 </div>
 
@@ -107,9 +94,7 @@ $faqs->faq_add (
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div
-                    class="content-box content-box--white content-box--shadow content-box--small-padding"
-                >
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col">
                             <?= pictureTag(
@@ -128,9 +113,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div
-                    class="content-box content-box--white content-box--shadow content-box--small-padding"
-                >
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col">
                             <?= pictureTag(
@@ -149,9 +132,7 @@ $faqs->faq_add (
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div
-                    class="content-box content-box--white content-box--shadow content-box--small-padding"
-                >
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
                     <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                         <div class="co-grid__col">
                             <?= pictureTag(
@@ -251,9 +232,8 @@ $faqs->faq_add (
                     <br />
                     Einfach Desktop App runterladen und mit Ihren CallOne Benutzerdaten (Endpunkt) anmelden.
                 </p>
-                <br />
-                <br />
-                <div class="button-set space-between">
+
+                <p class="button-set space-between">
                     <a
                         href="https://static.callone.de/binaries/callone/softphone.exe"
                         class="btn btn--primary softphone__download-btn"
@@ -266,7 +246,7 @@ $faqs->faq_add (
                     >
                         Download für Mac
                     </a>
-                </div>
+                </p>
             </div>
         </div>
     </div>
@@ -284,8 +264,8 @@ $faqs->faq_add (
                     sowie internationale Geschäftsanrufe flexibel und zuverlässig. Mit der mobilen Softphone
                     App von CallOne. Bleiben Sie in Verbindung, auch wenn außerhalb vom Büro.
                 </p>
-                <br />
-                <div
+                
+                <p
                     class="button-set space-between"
                     style="flex-direction:row; flex-wrap:nowrap; column-gap: 20px;"
                 >
@@ -309,7 +289,7 @@ $faqs->faq_add (
                     'Download bei Google Play',
                     303, 90); ?>
                     </a>
-                </div>
+                </p>
             </div>
             <div
                 class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered co-grid__col--order-1-xs"
@@ -321,8 +301,6 @@ $faqs->faq_add (
             ); ?>
             </div>
         </div>
-        <br />
-        <br />
     </div>
 </div>
 
