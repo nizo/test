@@ -234,16 +234,10 @@ $faqs->faq_add (
                 </p>
 
                 <p class="button-set space-between">
-                    <a
-                        href="https://static.callone.de/binaries/callone/softphone.exe"
-                        class="btn btn--primary softphone__download-btn"
-                    >
+                    <a href="https://static.callone.de/binaries/callone/softphone.exe" class="btn btn--primary softphone__download-btn">
                         Download für Windows
                     </a>
-                    <a
-                        href="https://static.callone.de/binaries/callone/softphone.dmg"
-                        class="btn btn--primary softphone__download-btn"
-                    >
+                    <a href="https://static.callone.de/binaries/callone/softphone.dmg" class="btn btn--primary softphone__download-btn">
                         Download für Mac
                     </a>
                 </p>
@@ -255,9 +249,7 @@ $faqs->faq_add (
 <div class="section section--lighter-grey" id="mobile-softphone">
     <div class="section__content section__content--wide">
         <div class="co-grid">
-            <div
-                class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered co-grid__col--order-2-xs"
-            >
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered co-grid__col--order-2-xs">
                 <h2>Telefonie für unterwegs. Bleiben Sie auch außerhalb des Büros in Verbindung.</h2>
                 <p class="bigtext">
                     Vom Kundenservice bishin zur Produktionshalle führen Sie und Ihre Mitarbeiter lokale
@@ -265,40 +257,27 @@ $faqs->faq_add (
                     App von CallOne. Bleiben Sie in Verbindung, auch wenn außerhalb vom Büro.
                 </p>
                 
-                <p
-                    class="button-set space-between"
-                    style="flex-direction:row; flex-wrap:nowrap; column-gap: 20px;"
-                >
-                    <a
-                        href="https://apps.apple.com/au/app/callone-softphone/id6444151385"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
+                <p class="button-set space-between" style="flex-direction:row; flex-wrap:nowrap; column-gap: 20px;">
+                    <a href="https://apps.apple.com/au/app/callone-softphone/id6444151385" target="_blank" rel="noreferrer">
                         <?= pictureTag(
-                    '/assets/images/photos/app-store-badge.png',
-                    'Download im App Store',
-                    269, 90); ?>
+                            '/assets/images/photos/app-store-badge.png',
+                            'Download im App Store',
+                            269, 90); ?>
                     </a>
-                    <a
-                        href="https://play.google.com/store/apps/details?id=de.callone.softphone.android&hl=de"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
+                    <a href="https://play.google.com/store/apps/details?id=de.callone.softphone.android&hl=de" target="_blank" rel="noreferrer">
                         <?= pictureTag(
-                    '/assets/images/photos/google-play-badge.png',
-                    'Download bei Google Play',
-                    303, 90); ?>
+                            '/assets/images/photos/google-play-badge.png',
+                            'Download bei Google Play',
+                            303, 90); ?>
                     </a>
                 </p>
             </div>
-            <div
-                class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered co-grid__col--order-1-xs"
-            >
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered co-grid__col--order-1-xs">
                 <?= pictureTag(
                     '/assets/images/photos/mobile-phone.png',
                     'Telefonie für unterwegs. Bleiben Sie auch außerhalb des Büros in Verbindung.',
                     530, 519, ['class'=>'co-grid__image--full-width']
-            ); ?>
+                ); ?>
             </div>
         </div>
     </div>
@@ -309,9 +288,7 @@ $faqs->faq_add (
         <h2>Nehmen Sie Ihre Telefonie jetzt überall mit hin.</h2>
         <p class="bigtext">Buchen Sie Ihr unverbindliches Erstgespräch, um noch mehr zu erfahren.</p>
         <p class="mobile-centered">
-            <a href="/" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales"
-                >TERMIN VEREINBAREN</a
-            >
+            <a href="/" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">TERMIN VEREINBAREN</a>
         </p>
     </div>
 </div>
