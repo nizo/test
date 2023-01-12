@@ -748,30 +748,27 @@ Du bist Owner unserer Paid-Search-Aktivitäten und managst die Performance und S
 
 $job = new job ('Management', 'Scrum Master', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('100% Remote, Potsdam');
-	$job->url_set ('/karriere/scrum-master');
+	$job->url_set ('/karriere/scrum-master-potsdam-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Als <strong>Scrum Master</strong> bei CallOne übernimmst du unter anderem die Planung und Koordination von Features, Roadmaps, Mitarbeiterschulungen und vielen weiteren Themen. Verantwortung übernehmen gehört zu deinen Stärken? Dann ist der <strong>Scrum Master</strong> genau die richtige Position für dich! Neben der Ausarbeitung und Planung neuer Features gehört es ebenfalls zu deinen täglichen Aufgaben deinem Team den Rücken freizuhalten, indem du dich um die Priorisierung der anstehenden & offenen Tasks kümmerst.');
-	$job->text_description_long_set ('Sei nicht nur Teil des Teams, sondern koordiniere es! Bei uns bist du ein wichtiger Dreh- & Angelpunkt der Planung und internen Prozesse. Sammel Feature-Requests, bereite sie auf und plane deren Umsetzung mit dem gesamten CallOne-Team.<br />
+	$job->text_intro_set ('Als <strong>Scrum Master</strong> bei CallOne übernimmst du unter anderem die Planung und Koordination von Features, Roadmaps, Mitarbeiterschulungen und vielen weiteren Themen. Verantwortung übernehmen gehört zu deinen Stärken? Dann ist der <strong>Scrum Master</strong> genau die richtige Position für dich! Neben der Ausarbeitung und Planung neuer Features gehört es ebenfalls zu deinen täglichen Aufgaben deinem Team den Rücken freizuhalten, indem du dich um die Priorisierung der anstehenden und offenen Tasks kümmerst.');
+	$job->text_description_long_set ('Sei nicht nur Teil des Teams, sondern koordiniere es! Bei uns bist du ein wichtiger Dreh- & Angelpunkt der Planung und internen Prozesse. Sammel Feature-Requests, bereite sie auf, schätze deren Aufwand ab und plane deren Umsetzung mit dem gesamten CallOne-Team.<br />
 <br />
 Unsere Kunden und Mitarbeiter sind auf dein Know-how angewiesen. Anhand der Anforderungslisten erstellst du zielführende User-Stories und priorisierst, was, wann und wie am besten umgesetzt wird, um unsere Kunden glücklich zu machen und auch deinem eigenen Team den Rücken freizuhalten.<br />
 <br />
-Erarbeite Feature-Roadmaps und stelle diese regelmäßig in unseren internen Productboard-Meetings vor. Aufwandsabschätzung, Angebotserstellung und Beauftragungen gehören ebenfalls zu deinen Aufgaben als Scrum Master. Um zukünftige Prozesse zu optimieren, gilt es, die Abläufe immer wieder neu zu bewerten und dementsprechend zu verbessern, um dir und deinem Team den maximalen Komfort in Zukunft bieten zu können.');
+Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vor. Unterstütze als <strong>Scrum Master</strong> unser Projektmanagement mit Beschreibungen für Angebote. Um zukünftige Prozesse zu optimieren, gilt es, die Abläufe immer wieder neu zu bewerten und dementsprechend zu verbessern, um dir und deinem Team den maximalen Komfort in Zukunft bieten zu können.');
 	$job->text_tasks_set ('Du sammelst Feature Requests von Kunden und Mitarbeitern und bereitest diese für die Planung/Entwicklung auf.');
 	$job->text_tasks_set ('Du erstellst anhand der Anforderungen maßgeschneiderte Userstories und stellst diese in regelmäßigen Product-Board Meetings vor.');
-	$job->text_tasks_set ('Aufwandanalyse, Preis-/Angeboterstellung und Beauftragung weiterer Ressourcen sind ebenfalls Teil deines Aufgabengebiets.');
 	$job->text_tasks_set ('Durch die Erstellung von Roadmaps koordinierst du dein Team und unterstützt den täglichen Ablauf aller Prozesse/Sprints.');
-	$job->text_tasks_set ('Im Bereich Marketing müssen Newsletter, Landingpages und Socialmedia in Bezug auf neue Features koordiniert werden.');
 	$job->text_tasks_set ('Interne Release-Vorstellungen und Mitarbeiterschulungen zu Neuigkeiten gehört ebenfalls zu deinen Aufgaben.');
-	$job->text_tasks_set ('Durch regelmäßige Feature-Reviews erwarten wir Optimierungen um Bereich Zeitmanagement, Präzision und Problembehandlung bei zukünftigen Planungen/Umsetzungen.');
+	$job->text_tasks_set ('Durch regelmäßige Reviews erwarten wir Optimierungen im Bereich Zeitmanagement, Präzision und Problembehandlung bei zukünftigen Planungen/Umsetzungen.');
 	$job->text_tasks_set ('Kunden- und Mitarbeiterbefragungen sind für uns wichtig, um kontinuierlich den Entwicklungsprozess neuer Features zu optimieren.');
-	$job->text_requirements_set ('Du hast in einem schnell wachsenden Start-up-Unternehmen gearbeitet und bist in der Lage, in einem schnelllebigen Umfeld viele Aufgaben zu übernehmen');
-	$job->text_requirements_set ('Du bist in der Lage Verantwortung für dich und dein Team zu übernehmen - ein wahrer Master');
-	$job->text_requirements_set ('Das Erstellen, Pflegen und Priorisieren von Roadmaps liegt dir.');
+	$job->text_requirements_set ('Du bist in der Lage Verantwortung für dich und dein Team zu übernehmen - ein wahrer Master.');
+	$job->text_requirements_set ('Du bringst technisches Verständnis mit, musst aber selbst nicht programmieren können.');
 	$job->text_requirements_set ('Du siehst das große ganze und behälst auch in komplexen Situationen einen kühlen Kopf und gute Übersicht.');
-	$job->text_requirements_set ('Das Konzipieren und möglicherweise die Unterstützung beim Erstellen neuer Inhalte siehst Du als Teil deines Jobs');
-	$job->text_requirements_set ('Du bist strukturiert und bringst Erfahrung im Projektmanagement und dem Handling von Agenturen mit ');
-    $job->text_requirements_set ('Proaktivität und Ownership zählen zu Deinen Kernprinzipien');
-	$job->text_requirements_set ('Hervorragende zwischenmenschliche und kommunikative Fähigkeiten');
+	$job->text_requirements_set ('Das Konzipieren siehst Du als Teil deines Jobs.');
+	$job->text_requirements_set ('Du bist strukturiert und kannst gut zwischen Mitarbeitern vermitteln.');
+    $job->text_requirements_set ('Proaktivität und Ownership zählen zu Deinen Kernprinzipien.');
+	$job->text_requirements_set ('Hervorragende zwischenmenschliche und kommunikative Fähigkeiten.');
 	$job->text_requirements_set ('Für diese Position sind Deutsch- und Englischkenntnisse zwingend erforderlich (Schreiben, Sprechen und Präsentieren)');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
