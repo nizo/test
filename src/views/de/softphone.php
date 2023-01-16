@@ -1,5 +1,5 @@
 <?php
-$product = new product ('Softphone', 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter');
+$product = new product ('Softphone', 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren PC oder Smartphone, nutzbar mit Ihrem Anbieter');
 $product->image_set ('https://callone.de/assets/images/screens/Intro-softphone-desktop.png');
 $product->reviews_load ();
 
@@ -7,764 +7,313 @@ $product->structured_data_get_code ();
 
 $faqs = new faqs ();
 $faqs->faq_add (
-    'Was ist ein Softphone?',
-    '<p>Ein Softphone ermöglicht es Ihnen statt über ein stationäres Endgerät, also z.B. ein Tischtelefon, bequem über den PC oder das Smartphone zu telefonieren. Letztendlich handelt es sich dabei normalerweise um eine Software, die Sie installieren. Die Benutzeroberfläche des Softphones ermöglicht Ihnen dann die gleichen Funktionen wie an einem regulären Telefon zu nutzen, z.B. Nummern eintippen, Wählen, Auflegen. Unsere Browser-Erweiterung integriert für Sie ein Softphone direkt in Ihren Browser. Nach Download der Erweiterung können Sie also ohne Installation eines zusätzlichen Programmes direkt im Browser telefonieren. Neben den regulären Telefoniefunktionen ermöglicht die Browsererweiterung noch weitere Möglichkeiten, wie z.B. Click-to-Dial. Sie können also Rufnummern auf jeder Webseite oder in Ihren webbasierten <a href="/callcenter-software-apps" class="inline-link">CRM-Tools</a> anklicken und damit direkt einen Anruf auslösen.</p>'
+    'Was kostet das Softphone?',
+    '<p>Für CallOne Kunden, die die Telefonanlage gebucht haben, ist das Softphone kostenfrei inkludiert.</p>'
 );
 $faqs->faq_add (
-    'Wie kann das Softphone verwandt werden?',
-    '<p>In der Regel handelt es sich bei Softphones um Programme, die Sie herunterladen und auf Ihrem Computer oder mobilem Gerät installieren. Die CallOne Browser-Erweiterung können Sie sich einfach im App Store des Browsers Ihrer Wahl herunterladen ohne zusätzliche Programminstallationen. Somit können Sie jederzeit im Browser telefonieren. Sie aktivieren die Erweiterung in dem Sie die SIP-Daten Ihres Providers oder von CallOne in der Konfiguration eintragen. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
+    'Ist das CallOne Softphone mit anderen Endgeräten kombinierbar?',
+    '<p>Ja, jede Nebenstelle der CallOne Telefonanlage kann bis zu 5 verschiedene Endgeräte parallel benutzen. Das kann beispielsweise zusätzlich zum Softphone noch die Telefonie via Microsoft Teams, ein IP-Tischgerät oder ein DECT-Gerät sein.</p>'
 );
 $faqs->faq_add (
-    'Für welches Betriebssystem ist das Softphone geeignet?',
-    '<p>Die CallOne Browsererweiterung ist prinzipiell für alle Betriebssysteme geeignet. Sie finden die Erweiterung in den App Stores von Google Chrome, Mozilla Firefox und Microsoft Edge. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
+    'Wie sicher ist das Softphone?',
+    '<p>Standardmäßig SRTP-verschlüsselt<br />Server (Signalisierung etc.) stehen bei uns</p>'
 );
 $faqs->faq_add (
-    'Kann ich meinen eigenen Provider mit dem Softphone verwenden?',
-    '<p>Ja, Sie können die Erweiterung als Softphone mit Ihrem eigenen Provider oder auch mit CallOne Nebenstellen verwenden. <a href="#" title="Sprechen Sie uns an - Wir beraten Sie gerne" data-openmodal="contact-sales" class="inline-link trackedContactModal">Sprechen Sie uns an</a> für weitere Informationen.</p>'
+    'Funktioniert das Softphone mit WLAN und mobilen Daten (5G, GSM)?',
+    '<p>Ja, das Softphone funktioniert sowohl mit WLAN als auch mit mobilen Daten.</p>'
+);
+$faqs->faq_add (
+    'Brechen die Anrufe ab, wenn mein Handy seine WLAN-Verbindung verliert?',
+    '<p>Wenn neben der WLAN-Verbindung eine mobile Datenverbindung mit dem Handy vorhanden ist, brechen die Anrufe nicht ab. Es findet ein sogenanntes Handover statt, sodass der Anruf weiter über die mobile Datenverbindung geführt werden kann.</p>'
+);
+$faqs->faq_add (
+    'Kann ich mit dem Softphone auch Anrufe weiterleiten?',
+    '<p>Ja, mit dem CallOne Softphone können Anrufe problemlos an andere User weitergeleitet werden. Weiterleitungen können mit vorheriger Rücksprache („warmes“ Weiterleiten) oder ohne stattfinden („kaltes“ Weiterleiten). Auch Dreierkonferenzen sind problemlos möglich.</p>'
+);
+$faqs->faq_add (
+    'Habe ich die Möglichkeit ein Telefonbuch anzulegen?',
+    '<p>Ja, Sie können ein individuelles Telefonbuch anlegen. Außerdem wird das Telefonbuch der CallOne Plattform automatisch mit dem Softphone synchronisiert. Sie haben auch die Möglichkeit alle Kolleginnen und Kollegen, die auch die Telefonanlage verwenden und deren aktuelle Verfügbarkeit (sog. Besetzlampenfeld) anzuzeigen.</p>'
 );
 ?>
 
-<div class="section section--light-grey section--no-padding-bottom section--mobile-divider">
-	<div class="hero">
+<div class="section section--light-green-white-3">
+    <div class="hero">
         <div class="hero__text">
-            <div class="browsers">
-                <div class="browsers__browser browsers__browser--chrome" data-browser="chrome"></div>
-                <div class="browsers__browser browsers__browser--firefox" data-browser="firefox"></div>
-                <div class="browsers__browser browsers__browser--edge" data-browser="edge"></div>
-            </div>
-
-            <h1>Softphone integriert in Ihren Lieblingsbrowser</h1>
-            <h2>Ein- und ausgehende Telefonate direkt im Browser auf Knopfdruck führen. Unser VoIP Telefon optional kombinierbar mit Ihrer Telefonanlage.</h2>
-
-			<p class="mobile-centered">
-                <a href="#installation" class="btn btn--primary">Kostenfrei installieren</a>
-			</p>
-		</div>
+            <h1>Beste Business-Telefonie. Überall dabei.</h1>
+            <p class="bigtext">
+                Das universelle Softphone für <span class="typing-text" data-texts="das Homeoffice|unterwegs|den Kundenservice|Anbindungen ans CRM" data-colors="#550C9E|#1976AA|#718302|#FF5C5C">das Homeoffice</span>
+            </p>
+            <p class="mobile-centered">
+                <a href="https://box.callone.de/login/voip/integrations/index.php?info=softphone" class="btn btn--primary">Jetzt kostenlos testen!</a>
+            </p>
+        </div>
         <div class="hero__image">
             <?= pictureTag(
-                '/assets/images/screens/Intro-softphone-desktop.png',
-                'Mit CallOne Softphone als Browser Extension direkt aus dem Browser telefonieren',
-                560, 428, [
-                    'style' => 'width:100%'
-                ], false
-            ); ?>
+                '/assets/images/illus/softphone-hero.png',
+                'Beste Business-Telefonie. Überall dabei.',
+                572, 438, [], false
+            ); ?> 
         </div>
-	</div>
+    </div>
 </div>
 
-<div class="section section--grey-white">
-	<div class="anchors">
-		<div class="anchors__title">
-			<strong>Schnelleinstieg:</strong> Was interessiert dich?
-		</div>
-		<div class="anchors__links">
-            <a href="#funktionen">Funktionen</a>
-            <a href="#vergleich">Vergleich zu MS Teams</a>
-            <a href="#preise">Preise</a>
-            <a href="#installation">Installation &amp; FAQ</a>
-		</div>
-	</div>
-</div>
-
-<div class="section section--no-padding-top" id="funktionen">
-    <div class="section__content section__content--wide">
-        <h2 class="headline__icon">
-            <?= pictureTag(
-                '/assets/images/icons_svg/softphone-app-icon.svg',
-                'Callcenter Software mit Softphone App',
-                136, 136
-            ); ?>
-            <span>
-                <span class="icon-callone">App</span>
-                <span class="headline__text">Softphone</span>
-            </span>
+<div class="section">
+    <div class="section__content">
+        <h2 class="centered mobile-left">
+            Entfesseln Sie Ihre Telefonie! Nutzen Sie das CallOne Softphone für Mobil & Desktop.
         </h2>
-
-        <h2 class="centered mobile-left">Entfesseln Sie Ihre Telefonie!</h2>
-        <p class="bigtext centered mobile-left">Telefonieren Sie über den PC und nutzen Sie kostenlos unser Softphone mit Funktionen, die Sie lieben werden</p>
-
-        <div class="tablist">
-            <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" data-tab="1">
-                    <strong>
-                        Softphone<br />
-                        <span class="subtext">VoIP-Telefon im Browser</span>
-                    </strong>
-                </div>
-                <div class="tablist__link" data-tab="2">
-                    <strong>
-                        Click-to-Dial<br />
-                        <span class="subtext">Wählen mit einem Klick</span>
-                    </strong>
-                </div>
-                <div class="tablist__link" data-tab="3">
-                    <strong>
-                        Bring your own Provider<br />
-                        <span class="subtext">Funktioniert mit Ihrer VoIP-Telefonanlage</span>
-                    </strong>
-                </div>
-            </div>
-
-            <div class="tablist__content" data-tab="1">
-                <div class="video" style="max-width:75%;padding-bottom:calc(75%/16*9);margin-left:auto;margin-right:auto;">
-                    <video autoplay muted loop>
-                        <source src="/assets/videos/softphone-webm/Softphone.webm" type="video/webm" />
-                        <source src="/assets/videos/softphone-mp4/Softphone.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="centered">Das Herzstück unserer Softphone App ist unser integriertes VoIP-Telefon mit dem Sie ein- und ausgehende Telefonate führen können. Zusätzlich steht ein Dialpad und Browser-Notification für maximalen Komfort zur Verfügung.</p>
-                <p class="centered">
-                    <a class="btn btn--primary" href="#installation">Kostenfrei installieren</a>
-                </p>
-            </div>
-            <div class="tablist__content" data-tab="2">
-                <div class="video" style="max-width:75%;padding-bottom:calc(75%/16*9);margin-left:auto;margin-right:auto;">
-                    <video autoplay muted loop>
-                        <source src="/assets/videos/softphone-webm/Click-to-Dial.webm" type="video/webm" />
-                        <source src="/assets/videos/softphone-mp4/Click-to-Dial.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="centered">Rufnummern werden im Browser erkannt und anwählbar mit nur einem Klick. Das Softphone verfügt über eine 1-Click-Funktion mit intelligenter Rufnummernerkennung.</p>
-                <p class="centered">
-                    <a class="btn btn--primary" href="#installation">Kostenfrei installieren</a>
-                </p>
-            </div>
-            <div class="tablist__content" data-tab="3">
-                <div class="video" style="max-width:75%;padding-bottom:calc(75%/16*9);margin-left:auto;margin-right:auto;">
-                    <video autoplay muted loop>
-                        <source src="/assets/videos/softphone-webm/Own-Provider.webm" type="video/webm" />
-                        <source src="/assets/videos/softphone-mp4/Own-Provider.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="centered">Flexibilität heißt bei CallOne: Sie können unsere Telefonanlage nutzen, müssen aber nicht! Wir bieten für zahlreiche VoIP-Anbieter eine nahtlose Integration in unser Softphone.</p>
-                <p class="centered">
-                    <a class="btn btn--primary" href="#installation">Kostenfrei installieren</a>
-                </p>
-            </div>
-        </div>
+        <p class="centered mobile-left bigtext">
+            Endlich auch in Produktionshallen, Außendienst, Homeoffice und Dienstreisen perfekte
+            Unternehmenstelefonie.
+        </p>
     </div>
-</div>
-
-<div class="section section--light-grey" id="vergleich">
     <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left">Direkter Produktvergleich</h2>
-        <p class="bigtext centered mobile-left">Welche Vorteile bietet das CallOne Softphone gegenüber einem vergleichbaren Lösungsansatz mit Microsoft Teams? Probieren Sie es jetzt mit der Schaltertaste aus!</p>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered">
+                <div class="softphone__card softphone__card--dark-green">
+                    <?= pictureTag(
+                    '/assets/images/illus/woman-headset.png',
+                    'Desktop Softphone',
+                    340, 340); ?>
 
-        <div class="compare">
-            <div class="compare__header">
-                <div class="compare__logo">
-                    <?= pictureTag(
-                        '/assets/images/softphone/comparison-softphone.svg',
-                        'callcenter Software mit CallOne Softphone',
-                        200, 51
-                    ); ?>
-                </div>
-                <div class="compare__switch">
-                    <input type="checkbox" id="compare-switch-1" value="1" checked />
-                    <label for="compare-switch-1"></label>
-                </div>
-                <div class="compare__logo">
-                    <?= pictureTag(
-                        '/assets/images/softphone/comparison-ms-teams.svg',
-                        'Teams Telefonie im Vergleich mit Softphone Cloud Telefonanlage',
-                        214, 50
-                    ); ?>
+                    <div class="centered softphone__text">
+                        <h2>Desktop Softphone</h2>
+                        <p>
+                            Headset anstecken und los geht's! Unser Softphone für Windows- und Mac-User mit
+                            zahlreichen Zusatzfunktionen.
+                        </p>
+                    </div>
+                    <a href="#desktop-softphone" class="btn softphone__btn"> Jetzt downloaden! </a>
                 </div>
             </div>
-            <div class="compare__content" data-compare="on">
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
-                                'Softphone ohne Lizenskosten',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Lizenzkosten</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/benefit-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Inklusivleistung im Rahmen der CallOne Telefonanlage.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-integrationsaufwand.svg',
-                                'Softphone mit geringem Integrationsaufwand',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Integrationsaufwand</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/benefit-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Einfache Installation und Nutzung innerhalb von wenigen Minuten durch den Admin oder User selbst.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
-                                'Softphone von CallOne ohne Lizenskosten mit Cloud Telefonanlage',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Datenschutzkonformität</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/benefit-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Deutsches Unternehmen, das Ihre Daten sicher und DS-GVO konform hostet.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-flexibilitaet.svg',
-                                'Flexibilität Dank Lösungen für Unternehmenstelefonie',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Flexibilität</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/benefit-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Spezialanbieter für Unternehmenstelefonie mit persönlichem Ansprechpartner und Support.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-support.svg',
-                                'Softphone und Telefonie aus einer Hand mit persönlichem Ansprechpartner im Service',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Support</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/benefit-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Ein Ansprechpartner für all Ihre Belange. Softphone und Telefonie aus einer Hand.
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered co-grid__col--hcentered">
+                <div class="softphone__card softphone__card--light-green">
+                    <?= pictureTag(
+                    '/assets/images/illus/man-mobile-phone.png',
+                    'Mobile Softphone',
+                    340, 340); ?>
 
-            <div class="compare__content" data-compare="off">
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
-                                'Softphone ohne Lizenskosten',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Lizenzkosten</h3>
-                        </div>
+                    <div class="centered softphone__text">
+                        <h2>Mobile Softphone</h2>
+                        <p>
+                            Immer mit dabei.<br />
+                            Für Apple und Android perfekt integrierte Unternehmenstelefonie im Smartphone.
+                        </p>
                     </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/attention-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Zusatzkosten oder entsprechender Vertrag notwendig.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-integrationsaufwand.svg',
-                                'Softphone mit geringem Integrationsaufwand bei CallOne',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Integrationsaufwand</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/attention-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Einrichtung teilweise nur mit bestimmten Adminrechten. Powershell und zusätzliche Schritte notwendig.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-lizenzkosten.svg',
-                                'Softphone ohne Lizenskosten mit Cloud Telefonanlage bei CallOne',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Datenschutzkonformität</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/attention-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            US-Unternehmen, das nicht mehr auf Grundlage des Privacy Shield Daten von EU-Bürgern verarbeiten darf.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-flexibilitaet.svg',
-                                'Flexible Unternehmenstelefonie von CallOne',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Flexibilität</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/attention-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Breites Portfolio, allerdings nicht spezialisiert auf Businesstelekommunikation.
-                        </div>
-                    </div>
-                </div>
-                <div class="compare__box">
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/icon-support.svg',
-                                'Persönliche Ansprechpartner im Service bei umfassender Lösung für Unternehmenstelefonie',
-                                40, 40
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            <h3>Support</h3>
-                        </div>
-                    </div>
-                    <div class="compare__info">
-                        <div class="compare__icon">
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/attention-highlighter.svg',
-                                'CallOne Vorteil mit Softphone',
-                                30, 30
-                            ); ?>
-                        </div>
-                        <div class="compare__text">
-                            Standard ist Selfservice mit Ticket oder Betreuung durch einen zusätzlichen IT-Systempartner.
-                        </div>
-                    </div>
+                    <a href="#mobile-softphone" class="btn softphone__btn"> Jetzt downloaden! </a>
                 </div>
             </div>
         </div>
-
-        <p class="subtext centered mobile-left">*Microsoft Teams ist eine eingetragene und geschützte Marke.</p>
     </div>
 </div>
 
-<div class="section section--black" id="preise">
-    <div class="section__content section__content--narrow">
-        <h2 class="centered mobile-left">Preise</h2>
-        <p class="centered mobile-left">Das CallOne Softphone ist die perfekte Erweiterung für Ihre Businesstelefonie. Es funktioniert sowohl mit Ihrem existierenden VoIP-Carrier als auch mit der CallOne Telefonie-Welt. Wie möchten Sie das Softphone nutzen?</p>
-
-        <div class="tablist tablist--on-black">
-            <div class="tablist__links">
-                <div class="tablist__link" data-tab="1">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/eigener-provider.svg',
-                        'eigenen Provider mit CallOne Softphone verbinden',
-                        70, 70
-                    ); ?>
-                    <strong>Eigenen Provider verbinden</strong>
-                </div>
-                <div class="tablist__link" data-tab="2">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/callone-telefonanlage.svg',
-                        'Softphone mit Cloud Telefonanlage verbinden',
-                        70, 70
-                    ); ?>
-                    <strong>Softphone mit VoIP-Telefonanlage</strong>
-                </div>
-            </div>
-
-            <div class="tablist__content" data-tab="1">
-                <h2 class="centered mobile-left">Ruckzuck verbinden und aus dem Browser lostelefonieren</h2>
-                <p class="centered mobile-left">Das Softphone mit den Grundfunktionen für Telefonie und Click-to-Dial können Sie stets kostenfrei nutzen. Zukünftige Features für noch angenehmere Business-Telefonie können Sie für einen Aufpreis dazubuchen.</p>
-
-                <p class="centered">
-                    <?= pictureTag(
-                        '/assets/images/softphone/SIP-visualization.svg',
-                        'SIP Carrier Ihrer Wahl bei CallOne',
-                        299, 124
-                    ); ?>
-                </p>
-
-                <div class="content-box content-box--white pricetoggle__whitebox">
-                    <div class="grid flex vcenter">
-                        <div class="col-2">
-                            <span class="headline-tag" data-tag="Basic">Softphone</span><br />
-                            mit eigenem SIP-Provider
+<div class="section section--lighter-grey section--big-padding">
+    <div class="section__content">
+        <h2 class="centered mobile-left">Vollwertige Telefonie. Immer und überall.</h2>
+        <p class="centered mobile-left bigtext">
+            Das CallOne Softphone biette Ihnen die umfangreichen Funktionen der Cloud Telefonanlage auch
+            außerhalb des Büros.
+        </p>
+    </div>
+    <div class="section__content section__content--wide">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col">
+                            <?= pictureTag(
+                            '/assets/images/icons_svg/small_17_2.svg',
+                            'Funktion: Wer telefoniert?',
+                            70, 70); ?>
                         </div>
-                        <div class="col-2">
-                            <span class="headline-free">kostenfrei</span>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4>Wer telefoniert?</h4>
                         </div>
                     </div>
-
-                    <ul>
-                        <li>Dialpad</li>
-                        <li>Click-to-Call (Nummern von Websites ins Telefon wählen)</li>
-                    </ul>
-
-                    <p class="centered">
-                        <a class="btn btn--primary btn--full-width" href="#installation">Kostenfrei installieren</a>
+                    <p style="margin-top: 0;">
+                        Schauen Sie einfach nach! Präsenzanzeige (BLF) zeigt Ihnen den aktuellen
+                        Gesprächsstatus Ihrer Kollegen.
                     </p>
                 </div>
             </div>
-
-            <div class="tablist__content" data-tab="2">
-                <h2 class="centered mobile-left">Holen Sie das Beste aus Ihrer Businesstelefonie heraus!</h2>
-                <p class="centered mobile-left">CallOne ist der Spezialist, wenn es um hochwertige moderne Telekommunikation geht, die sich nahtlos in Ihre IT-Infrastruktur einpasst.</p>
-
-                <div class="grid centered">
-                    <div class="col-3">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-spezialist.svg',
-                            'Spezialist für Business Telefonie',
-                            56, 62
-                        ); ?>
-                        <p class="secondary">Spezialist für<br />Business Telefonie</p>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col">
+                            <?= pictureTag(
+                            '/assets/images/icons_svg/telefonie-skalierung.svg',
+                            'Funktion: Alles steuerbar',
+                            70, 70); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4>Alles steuerbar?</h4>
+                        </div>
                     </div>
-                    <div class="col-3">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-ansprechpartner.svg',
-                            'Persönlicher Ansprechpartner für Ihre Business Telefonie',
-                            57, 61
-                        ); ?>
-                        <p class="secondary">Persönlicher<br />Ansprechpartner</p>
-                    </div>
-                    <div class="col-3">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-datenschutz.svg',
-                            'Unternehmenstelefonie mit deutschem Datenschutzstandard',
-                            51, 61
-                        ); ?>
-                        <p class="secondary">Deutscher<br />Datenschutz-Standard</p>
-                    </div>
+                    <p style="margin-top: 0;">
+                        Schauen Sie einfach nach! Präsenzanzeige (BLF) zeigt Ihnen den aktuellen
+                        Gesprächsstatus Ihrer Kollegen.
+                    </p>
                 </div>
-
-                <div class="pricetoggle__whitebox">
-                    <div class="usercalc">
-                        <div class="usercalc__form">
-                            <p><strong>Wie viele Nutzer-Accounts brauchen Sie?</strong></p>
-
-                            <div class="usercalc__box">
-                                <div class="usercalc__header">
-                                    <div class="usercalc__icon">
-                                        <?= pictureTag(
-                                            '/assets/images/icons_svg/voip-telefonanlage.svg',
-                                            'Cloud Telefonanlage für Business Telefonie',
-                                            50, 51
-                                        ); ?>
-                                    </div>
-                                    <div class="usercalc__title">
-                                        <strong>Telefonanlage</strong><br />
-                                        Für das gesamte Unternehmen
-                                    </div>
-                                </div>
-
-                                <div class="usercalc__slider">
-                                    <div class="prerange"></div>
-                                    <input type="range" min="25" value="25" max="500" />
-                                </div>
-
-                                <div class="usercalc__grid">
-                                    <div class="usercalc__col">
-                                        <input type="text" class="usercalc__users" value="25" /><span>Nutzer</span>
-                                    </div>
-                                    <div class="usercalc__col">
-                                        <span class="usercalc__price">9,90 &euro;</span>
-                                        <span>
-                                            pro Nutzer<br />
-                                            pro Monat
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <p class="small">
-                                    <strong>Hinweis:</strong> Preise zzgl. optionaler Einrichtung durch CallOne und einmaliger Aktivierung von 99,00 €. CallOne richtet sich an den Bedarf und die Herausforderungen mittelständischer Unternehmen. Unsere Lösungen sind erfahrungsgemäß zu umfassend für Unternehmen unter 25 Mitarbeitenden.
-                                </p>
-                            </div>
-
-                            <p>
-                                <strong>Legen Sie Wert auf hervorragenden Kundenservice?</strong><br />
-                                CallOne liefert eine Callcenter-Software, die keine Wünsche offen lässt. Sie bietet umfangreiche Funktionen von Rückruf- über Warteschleifen-Management, Anbindungen an CRM-Systeme, Gesprächsaufzeichnungen bis hin zu Statistiken.
-                            </p>
-
-                            <input type="checkbox" id="callcenter-software" />
-                            <label class="usercalc__box" for="callcenter-software">
-                                <span class="usercalc__header">
-                                    <span class="usercalc__icon">
-                                        <?= pictureTag(
-                                            '/assets/images/icons_svg/callcenter-software.svg',
-                                            'Call Center Software',
-                                            50, 51
-                                        ); ?>
-                                    </span>
-                                    <span class="usercalc__title">
-                                        <strong>Callcenter-Software</strong><br />
-                                        Für Sales und Service
-                                    </span>
-                                    <span class="usercalc__checkbox"></span>
-                                </span>
-                            </label>
-
-                            <p class="centered">
-                                <a class="btn btn--secondary btn--full-width usercalc__submit" href="#">Preise ansehen</a>
-                            </p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col">
+                            <?= pictureTag(
+                            '/assets/images/icons_svg/big_01.svg',
+                            'Funktion: Wer ruft an?',
+                            70, 70); ?>
                         </div>
-
-                        <div class="usercalc__result">
-                            <div class="usercalc__back usercalc__submit">
-                                <span></span> Schritt zurück
-                            </div>
-
-                            <div class="usercalc__grid">
-                                <div class="usercalc__col usercalc__headline usercalc__headline--tag">
-                                    <span data-tag="Pro">Softphone</span>
-                                    mit CallOne Telefonanlage
-                                </div>
-                                <div class="usercalc__col usercalc__total">
-                                    Preis pro Monat*
-                                    <span></span>
-                                </div>
-                            </div>
-
-                            <ul>
-                                <li>Dialpad</li>
-                                <li>Click-to-Dial (Nummern von Websites ins Telefon wählen)</li>
-                                <li>Rufnummern-Portierung</li>
-                                <li>Bis zu zehn Endgeräte je User gleichzeitig</li>
-                                <li>Deutscher Datenschutz-Standard</li>
-                            </ul>
-
-                            <p class="subtext">* Gesamtpreis für alle Nebenstellen zzgl. Nutzung</p>
-
-                            <hr>
-
-                            <div class="usercalc__callcenter">
-                                <div class="usercalc__grid">
-                                    <div class="usercalc__col usercalc__headline">
-                                        <span>Callcenter-Software</span>
-                                        für Sales und Service
-                                    </div>
-                                    <div class="usercalc__col">
-                                        <div class="usercalc__col usercalc__total2">
-                                            ab monatlich**
-                                            <span>99,00 &euro;</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <ul>
-                                    <li>Warteschleifenmanagement</li>
-                                </ul>
-
-                                <p class="subtext">** Projektspezifisch zzgl. Plattformnutzung</p>
-
-                                <hr>
-                            </div>
-
-                            <p>
-                                <a href="#" class="btn btn--primary btn--full-width centered trackedContactModal" data-openmodal="contact-sales">Kontakt zum CallOne Vertrieb</a>
-                            </p>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4>Wer ruft an?</h4>
                         </div>
                     </div>
+                    <p style="margin-top: 0;">
+                        Schauen Sie einfach nach! Präsenzanzeige (BLF) zeigt Ihnen den aktuellen
+                        Gesprächsstatus Ihrer Kollegen.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section section--light-green-white" id="installation">
-    <div class="section__content">
-        <div class="installation">
-            <div class="installation__header">
-                <div class="installation__logo">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/softphone-app-icon.svg',
-                        'CallOne Softphone als App',
-                        136, 136
+<div class="section section--black">
+    <div class="section__content section__content--wide">
+        <p class="centered">Eine Auswahl unserer Kunden:</p>
+
+        <div class="logos logos--fade" style="--height:30px">
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-snipes-white.svg',
+                'Unser Kunde snipes',
+                85, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-bett1-white.svg',
+                'Unser Kunde bett1',
+                62, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-flaconi-white.svg',
+                'Unser Kunde flaconi',
+                118, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-gastro-hero-white.svg',
+                'Unser Kunde GastroHero',
+                132, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-vimcar-white.svg',
+                'Unser Kunde Vimcar',
+                152, 30
+            ); ?>
+        </div>
+        <div class="logos logos--fade" style="--height:30px">
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-igus-white.svg',
+                'Unser Kunde IGUS',
+                58, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-seereisedienst-white.svg',
+                'Unser Kunde Seereisedienst',
+                166, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-check24-white.svg',
+                'Unser Kunde Check24',
+                125, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-helios-white.svg',
+                'Unser Kunde Helios',
+                128, 30
+            ); ?>
+            <?= pictureTag(
+                '/assets/images/client-logos/logo-sodastream.svg',
+                'Unser Kunde SodaStream',
+                194, 30
+            ); ?>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="desktop-softphone">
+    <div class="section__content section__content--wide">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered">
+                <?= pictureTag(
+                    '/assets/images/photos/desktop-software.png',
+                    'Alles drin, was Sie benötigen: Unser Softphone als Desktop Phone.',
+                    523, 523, ['class'=>'co-grid__image--full-width']
                     ); ?>
-                </div>
-                <div class="installation__title">
-                    <span class="headline-tag">App</span><br />
-                    Softphone
-                </div>
-                <div class="installation__rating">
-                    <span>&starf;&starf;&starf;&starf;&starf;</span><br />
-                    Hervorragende Bewertung<br />
-                    im <a href="#">Google Chrome Store</a>.
-                </div>
             </div>
-            <div class="installation__content">
-                <div class="subtitle">Schritte für Installation</div>
-                <h2>In zwei Minuten eingerichtet</h2>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered">
+                <h2>Alles drin, was Sie benötigen: Unser Softphone als Desktop Phone.</h2>
+                <p class="bigtext">
+                    Jetzt flexibel und zuverlässig telefonieren. Bei gewohnt glasklarer Gesprächsqualität.
+                    <br />
+                    Einfach Desktop App runterladen und mit Ihren CallOne Benutzerdaten (Endpunkt) anmelden.
+                </p>
 
-                <div class="installation__grid">
-                    <div class="installation__col">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-download-extension.svg',
-                            'Browser App für CallOne Softphone downloaden',
-                            50, 36
-                        ); ?>
-                        1. Browser App<br />herunterladen
-                    </div>
-                    <div class="installation__col">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-authorization.svg',
-                            'Zugangsdaten für CallOne Softphone eintragen',
-                            50, 50
-                        ); ?>
-                        2. Zugangsdaten<br />eintragen
-                    </div>
-                    <div class="installation__col">
-                        <?= pictureTag(
-                            '/assets/images/icons_svg/icon-softphone-use.svg',
-                            'CallOne Softphone nutzen',
-                            50, 42
-                        ); ?>
-                        3. Los<br />telefonieren
-                    </div>
-                </div>
-
-                <h3>Wählen Sie den Browser zur Installation</h3>
-
-                <div class="installation__browsers">
-                    <a href="#" class="installation__browser" data-browser="chrome">
-                        <div>
-                            <?= pictureTag(
-                                '/assets/images/icons_png/google-chrome.png',
-                                'Softphone für Chrome Browser Extension',
-                                40, 40
-                            ); ?>
-                        </div>
-                        Google <br />Chrome
+                <p class="button-set space-between">
+                    <a href="https://static.callone.de/binaries/callone/softphone.exe" class="btn btn--primary softphone__download-btn">
+                        Download für Windows
                     </a>
-                    <a href="#" class="installation__browser" data-browser="firefox">
-                        <div>
-                            <?= pictureTag(
-                                '/assets/images/icons_png/mozilla-firefox.png',
-                                'Softphone für Mozilla Firefox Browser Extension',
-                                40, 39
-                            ); ?>
-                        </div>
-                        Mozilla <br />Firefox
+                    <a href="https://static.callone.de/binaries/callone/softphone.dmg" class="btn btn--primary softphone__download-btn">
+                        Download für Mac
                     </a>
-                    <a href="#" class="installation__browser" data-browser="edge">
-                        <div>
-                            <?= pictureTag(
-                                '/assets/images/icons_svg/edge-logo.svg',
-                                'Softphone für Microsoft Edge Browser Extension',
-                                40, 39
-                            ); ?>
-                        </div>
-                        Microsoft <br />Edge
-                    </a>
-                </div>
-
-                <div class="btn-set btn-set--centered">
-                    <a href="https://chrome.google.com/webstore/detail/callone-voip-softphone/cedionilkklbngbmlnipangpipeficfo" target="_blank" class="btn btn--primary btn--arrow-right installation__button" data-browser="chrome">
-                        Zum Chrome Store <span class="button__icon icon-jump-forward"></span>
-                    </a>
-                    <a href="https://addons.mozilla.org/de/firefox/addon/callone/" class="btn btn--primary btn--arrow-right installation__button" target="_blank" data-browser="firefox">
-                        Zum Firefox Add-On <span class="button__icon icon-jump-forward"></span>
-                    </a>
-                    <a href="https://microsoftedge.microsoft.com/addons/detail/callone-voip-softphone/jeollcclhnpejdihkhengipjejjjjfbm" target="_blank" class="btn btn--primary btn--arrow-right installation__button" data-browser="edge">
-                        Zum Edge Add-On <span class="button__icon icon-jump-forward"></span>
-                    </a>
-                </div>
+                </p>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="section section--lighter-grey" id="mobile-softphone">
+    <div class="section__content section__content--wide">
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-md co-grid__col--vcentered co-grid__col--order-2-xs">
+                <h2>Telefonie für unterwegs. Bleiben Sie auch außerhalb des Büros in Verbindung.</h2>
+                <p class="bigtext">
+                    Vom Kundenservice bishin zur Produktionshalle führen Sie und Ihre Mitarbeiter lokale
+                    sowie internationale Geschäftsanrufe flexibel und zuverlässig. Mit der mobilen Softphone
+                    App von CallOne. Bleiben Sie in Verbindung, auch wenn außerhalb vom Büro.
+                </p>
+                
+                <p class="button-set space-between" style="flex-direction:row; flex-wrap:nowrap; column-gap: 20px;">
+                    <a href="https://apps.apple.com/au/app/callone-softphone/id6444151385" target="_blank" rel="noreferrer">
+                        <?= pictureTag(
+                            '/assets/images/photos/app-store-badge.png',
+                            'Download im App Store',
+                            269, 90); ?>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=de.callone.softphone.android&hl=de" target="_blank" rel="noreferrer">
+                        <?= pictureTag(
+                            '/assets/images/photos/google-play-badge.png',
+                            'Download bei Google Play',
+                            303, 90); ?>
+                    </a>
+                </p>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-md co-grid__col--vcentered co-grid__col--order-1-xs">
+                <?= pictureTag(
+                    '/assets/images/photos/mobile-phone.png',
+                    'Telefonie für unterwegs. Bleiben Sie auch außerhalb des Büros in Verbindung.',
+                    530, 519, ['class'=>'co-grid__image--full-width']
+                ); ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section--black section--black-corner">
+    <div class="section__content section__content--narrow centered mobile-left">
+        <h2>Nehmen Sie Ihre Telefonie jetzt überall mit hin.</h2>
+        <p class="bigtext">Buchen Sie Ihr unverbindliches Erstgespräch, um noch mehr zu erfahren.</p>
+        <p class="mobile-centered">
+            <a href="/" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">TERMIN VEREINBAREN</a>
+        </p>
     </div>
 </div>
 

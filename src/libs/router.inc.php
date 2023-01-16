@@ -402,11 +402,12 @@ Router::add('/sales-solutions', 'solutions-sales.php', [
 ]);
 Router::add('/softphone', 'softphone.php', [
     'shorttitle' => 'Softphone',
-    'title' => 'Softphone: VoIP Telefon im Browser integriert',
-    'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren Lieblingsbrowser, nutzbar mit Ihrem Anbieter',
-    'og_image_text' => 'VoIP Telefon im Browser integriert',
+    'title' => 'Softphone: VoIP Telefon im PC & Smartphone integriert',
+    'meta_description' => 'Die TEAMS Alternative | VoIP Telefon integriert in Ihren PC oder Smartphone, nutzbar mit Ihrem Anbieter',
+    'og_image_text' => 'VoIP Telefon im PC & Smartphone integriert',
     'menu_position' => 'produkte',
-    'sitemap_priority' => '0.8'
+    'sitemap_priority' => '0.8',
+    'body_class' => 'softphone'
 ]);
 Router::add('/tableau-callcenter-connector', 'cti/tableau.php', [
     'shorttitle' => 'Tableau Connector',
