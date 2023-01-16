@@ -7,8 +7,32 @@ $product->structured_data_get_code ();
 
 $faqs = new faqs ();
 $faqs->faq_add (
-    'Lorem Ipsum?',
-    '<p>Dolor Sit Amet!</p>'
+    'Was kostet das Softphone?',
+    '<p>Für CallOne Kunden, die die Telefonanlage gebucht haben, ist das Softphone kostenfrei inkludiert.</p>'
+);
+$faqs->faq_add (
+    'Ist das CallOne Softphone mit anderen Endgeräten kombinierbar?',
+    '<p>Ja, jede Nebenstelle der CallOne Telefonanlage kann bis zu 5 verschiedene Endgeräte parallel benutzen. Das kann beispielsweise zusätzlich zum Softphone noch die Telefonie via Microsoft Teams, ein IP-Tischgerät oder ein DECT-Gerät sein.</p>'
+);
+$faqs->faq_add (
+    'Wie sicher ist das Softphone?',
+    '<p>Standardmäßig SRTP-verschlüsselt<br />Server (Signalisierung etc.) stehen bei uns</p>'
+);
+$faqs->faq_add (
+    'Funktioniert das Softphone mit WLAN und mobilen Daten (5G, GSM)?',
+    '<p>Ja, das Softphone funktioniert sowohl mit WLAN als auch mit mobilen Daten.</p>'
+);
+$faqs->faq_add (
+    'Brechen die Anrufe ab, wenn mein Handy seine WLAN-Verbindung verliert?',
+    '<p>Wenn neben der WLAN-Verbindung eine mobile Datenverbindung mit dem Handy vorhanden ist, brechen die Anrufe nicht ab. Es findet ein sogenanntes Handover statt, sodass der Anruf weiter über die mobile Datenverbindung geführt werden kann.</p>'
+);
+$faqs->faq_add (
+    'Kann ich mit dem Softphone auch Anrufe weiterleiten?',
+    '<p>Ja, mit dem CallOne Softphone können Anrufe problemlos an andere User weitergeleitet werden. Weiterleitungen können mit vorheriger Rücksprache („warmes“ Weiterleiten) oder ohne stattfinden („kaltes“ Weiterleiten). Auch Dreierkonferenzen sind problemlos möglich.</p>'
+);
+$faqs->faq_add (
+    'Habe ich die Möglichkeit ein Telefonbuch anzulegen?',
+    '<p>Ja, Sie können ein individuelles Telefonbuch anlegen. Außerdem wird das Telefonbuch der CallOne Plattform automatisch mit dem Softphone synchronisiert. Sie haben auch die Möglichkeit alle Kolleginnen und Kollegen, die auch die Telefonanlage verwenden und deren aktuelle Verfügbarkeit (sog. Besetzlampenfeld) anzuzeigen.</p>'
 );
 ?>
 
