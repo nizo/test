@@ -764,7 +764,7 @@ Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vo
 	$job->text_tasks_set ('Kunden- und Mitarbeiterbefragungen sind für uns wichtig, um kontinuierlich den Entwicklungsprozess neuer Features zu optimieren.');
 	$job->text_requirements_set ('Du bist in der Lage Verantwortung für dich und dein Team zu übernehmen - ein wahrer Master.');
 	$job->text_requirements_set ('Du bringst technisches Verständnis mit, musst aber selbst nicht programmieren können.');
-	$job->text_requirements_set ('Du siehst das große ganze und behälst auch in komplexen Situationen einen kühlen Kopf und gute Übersicht.');
+	$job->text_requirements_set ('Du siehst das große Ganze und behältst auch in komplexen Situationen einen kühlen Kopf und gute Übersicht.');
 	$job->text_requirements_set ('Das Konzipieren siehst Du als Teil deines Jobs.');
 	$job->text_requirements_set ('Du bist strukturiert und kannst gut zwischen Mitarbeitern vermitteln.');
     $job->text_requirements_set ('Proaktivität und Ownership zählen zu Deinen Kernprinzipien.');
