@@ -150,8 +150,7 @@ $faqs->faq_add (
                         </div>
                     </div>
                     <p style="margin-top: 0;">
-                        Schauen Sie einfach nach! Präsenzanzeige (BLF) zeigt Ihnen den aktuellen
-                        Gesprächsstatus Ihrer Kollegen.
+                        Natürlich! Makeln, Weiterleiten, Dreierkonferenz und zahlreiche Funktionen 							aus der CallOne Telefonanlage integriert.
                     </p>
                 </div>
             </div>
@@ -169,8 +168,7 @@ $faqs->faq_add (
                         </div>
                     </div>
                     <p style="margin-top: 0;">
-                        Schauen Sie einfach nach! Präsenzanzeige (BLF) zeigt Ihnen den aktuellen
-                        Gesprächsstatus Ihrer Kollegen.
+                        Unser Telefonbuch lässt sich mit einem Klick in unser Softphone übertragen. So wissen Sie immer, wer anruft.
                     </p>
                 </div>
             </div>
