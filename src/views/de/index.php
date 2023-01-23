@@ -419,7 +419,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                    <p style="margin-top:var(--gutter-xs)">Ohne Umwege bekommen Sie Ihre Cloud Telefonie direkt vom Hersteller. Wir entwickeln, programmieren und vertreiben unsere Lösung.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -440,7 +440,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                    <p style="margin-top:var(--gutter-xs)">Sie haben feste Ansprechpartner, die Ihnen mit Rat und Tat zur Seite stehen. Freundlich, schnell, zuverlässig.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -461,7 +461,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                    <p style="margin-top:var(--gutter-xs)">Unsere Daten hosten wir in der deutschen Cloud. Das bedeutet für Sie besondere Sicherheit Dank ISO-zertifizierter Rechenzentren.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -482,7 +482,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                    <p style="margin-top:var(--gutter-xs)">Egal, mit welchen Systemen Sie unsere Cloud Telefonanlage oder Callcenter Software verbinden wollen, wir machen es möglich.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -503,7 +503,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                    <p style="margin-top:var(--gutter-xs)">Ohne Umwege und Drittanbieter bekommen Sie alles, was Sie für erfolgreiche Telefonie brauchen, direkt von CallOne.</p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
@@ -524,7 +524,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">Officetelefonie für das gesamte Unternehmen. Mit Softphone, IP- und DECT-Telefonie sowie Teams Telefonie.</p>
+                    <p style="margin-top:var(--gutter-xs)">Unsere unfassbar umfangreichen Statistiken lassen sich genau auf Ihre Bedürfnisse filtern und machen Ergebnisse sichtbar und messbar.</p>
                 </div>
             </div>
         </div>
