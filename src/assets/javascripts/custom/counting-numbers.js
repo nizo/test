@@ -74,7 +74,7 @@ class CountingNumbers {
     }
 
     update() {
-        this.element.textContent = Math.round(this.current) + this.suffix;
+         this.element.textContent = Math.round(this.current) + this.suffix;
     }
 }
 

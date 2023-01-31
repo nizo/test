@@ -26,16 +26,16 @@ $faqs->faq_add (
 );
 ?>
 
-<div class="section section--light-green">
+<div class="section">
     <header class="hero">
         <div class="hero__text">
-            <h1>Bieten Sie <span class="highlight">überragenden Kundenservice</span> zu geringen Kosten.</h1>
+            <h1>Professionelle Telefonie ist <span class="highlight">einfach zuverlässig</span>.</h1>
 
-            <p class="bigtext">Eine Callcenter Software, alle Kanäle. Modular und passgenau für Ihre Anforderungen. Sicher aus der deutschen Cloud.</p>
+            <p class="bigtext">Die Cloud Telefonalage,<br> die <span class="typing-text" data-texts="Ihre IT-Abteilung lieben wird.|intuitiv bedienbar ist.|an bestehende Systeme anbindbar ist.|direkt vom Hersteller kommt." data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B"></span></p>
 
             <p class="btn-set mobile-centered">
-                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Demo vereinbaren</a>
-                <a href="/callcenter-einsparpotential" class="btn btn--border-black centered">Einsparpotential berechnen</a>
+                <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Jetzt kostenlos testen!</a>
+                <a href="/#produkte" class="btn btn--border-black centered">Produkte kennenlernen</a>
             </p>
         </div>
         <div class="hero__image">
@@ -46,25 +46,11 @@ $faqs->faq_add (
             ); ?>
         </div>
     </header>
-
-    <div class="anchors">
-        <div class="anchors__title">
-            <strong>Schnelleinstieg:</strong> Wofür interessieren Sie sich?
-        </div>
-        <div class="anchors__links">
-            <a href="#voice">Voice</a>
-            <a href="#omnichannel">Omnichannel</a>
-            <a href="#integrationen">Integrationen</a>
-            <a href="#ki">Künstliche Intelligenz</a>
-        </div>
-    </div>
 </div>
 
-<div class="section section--mobile-divider">
+<div class="section section--light-green section--mobile-divider">
     <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left">Kundenerlebnisse neu denken: <br class="mobile-hidden" />Die modulare Callcenter Software für Ihr Contact Center.</h2>
-        <p class="centered mobile-left bigtext">Schaffen Sie überdurchschnittliche Kundenerlebnisse. Dank der modular aufgebauten Kommunikationsplattform, die genau Ihren Anforderungen entspricht. Von Callcenter Software über Cloud Telefonanlage bis zu Omnichannel Funktionen finden Sie alles für Ihr Contact Center.</p>
-
+        <h2 class="centered mobile-left">Cloud Telefonanlagen angepasst für Unternehmen jeder Größe - auch Ihres!</h2>
         <div class="small-tabs small-tabs--automated">
             <div class="small-tabs__tabs">
                 <div class="small-tabs__tab" data-tab="1">Fast-Growing</div>
@@ -96,77 +82,202 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section section--light-green">
+<div class="section section--white-grey-green-half-circle" id="produkte">
     <div class="section__content section__content--wide">
-        <div class="tablist">
-            <div class="tablist__links tablist__links--full-width">
-                <div class="tablist__link" id="voice" data-tab="1" data-sticky-text="Voice" style="--bg:#fff;">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/menu-callcenter-software.svg',
-                        'Alles, was Sie für Ihre Telefonie brauchen',
-                        48, 48, [
-                            'class' => 'mobile-hidden'
-                        ]
-                    ); ?>
-                    <strong>Voice</strong>
-                </div>
+        <h2 class="centered mobile-left">Unsere Produkte, Ihre Businesstelefonie.</h2>
+        <p class="centered mobile-left bigtext">
+            Cloud Telefonanlage, Teams Telefonie, Rufnummern, Warteschleifen und vieles mehr. Wir digitalisieren Telefonie für den deutschen Mittelstand.<br />
+            <br />
+            <br />
+        </p>
 
-                <div class="tablist__link" id="omnichannel" data-tab="2" data-sticky-text="Omnichannel" style="--bg:#fff;">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/sent-out-black.svg',
-                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
-                        48, 48, [
-                            'class' => 'mobile-hidden'
-                        ]
-                    ); ?>
-                    <strong>Omnichannel</strong>
-                </div>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_25.svg',
+								'Telefon in der Cloud',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Telefonanlage</h4>
+                        </div>
+                    </div>
 
-                <div class="tablist__link" id="integrationen" data-tab="3" data-sticky-text="Integrationen" style="--bg:#fff;">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/menu-app-api.svg',
-                        'Volle Flexibilität mit Schnittstellen, Apps und Integrationen',
-                        49, 48, [
-                            'class' => 'mobile-hidden'
-                        ]
-                    ); ?>
-                    <strong>Integrationen</strong>
-                </div>
+                    <p style="margin-top:var(--gutter-xs)">Unsere absolute Expertise! Steuern Sie Ihren Kundenservice und Sales einfach und effizient.</p>
 
-                <div class="tablist__link" id="ki" data-tab="4" data-sticky-text="Künstliche Intelligenz" style="--bg:#fff;">
-                    <?= pictureTag(
-                        '/assets/images/icons_svg/big_13.svg',
-                        'KI-basierte Automationen für wirksamen Kundenservice',
-                        53, 48, [
-                            'class' => 'mobile-hidden'
-                        ]
-                    ); ?>
-                    <strong>KI</strong>
+                    <p><a href="/voip-telefonanlage" class="btn btn--border-bottom btn--arrow-right-small">Cloud Telefonanlage</a></p>
                 </div>
             </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_28.svg',
+								'Helfende Hände in Service und IT',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Kundenservice & IT-Helpdesk</h4>
+                        </div>
+                    </div>
 
+                    <p style="margin-top:var(--gutter-xs)">Warteschleifenmanagement für automatisierte Anrufverteilung auf Ihren Hotlines.</p>
+
+                    <p><a href="/telefonanlage-mit-warteschleife" class="btn btn--border-bottom btn--arrow-right-small">Warteschleifen</a></p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_07_2.svg',
+								'Einstellungsrad am Laptop',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Apps & Schnittstellen</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">API-First-Ansatz: Einbinden von besteenden Applikatoren über Konnektoren, API oder TAPI.</p>
+
+                    <p><a href="/callcenter-software-apps" class="btn btn--border-bottom btn--arrow-right-small">Apps & Schnittstellen</a></p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/msteams-icon.svg',
+								'Telefonie mit Microsoft Teams',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Teams Telefonie</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Unabhängig vom Standort mit der Büronummer telefonieren - ganz einfach mit Microsoft Teams Telefonie.</p>
+
+                    <p><a href="/ms-teams" class="btn btn--border-bottom btn--arrow-right-small">MS Teams Telefonie</a></p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/small_38.svg',
+								'Rufnummernfeld - lokal und weltweit',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Rufnummern</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Wir schalten oder portieren Ihnen Rufnummern aus Ihrem Vorwahlbereich und schalten SIP-Trunks in ganz Europa und weltweit.</p>
+
+                    <p><a href="/0800-lokal-nummern" class="btn btn--border-bottom btn--arrow-right-small">Runummern</a></p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/robot-head.svg',
+								'Lächelndes Gesicht eines Roboters',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Voicebots</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:var(--gutter-xs)">Automatisierung next level: Echtzeit- und Sprachanalyse sowie Callcenterbots gehören zu unserem Portfolio.</p>
+
+                    <p><a href="/0800-lokal-nummern" class="btn btn--border-bottom btn--arrow-right-small">Echtzeit-Sprachanalyse</a></p>
+                </div>
+            </div>
+        </div>
+        <p class="centered">
+            <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered">Jetzt kostenlos beraten lassen.</a>
+        </p>
+    </div>
+</div>
+
+<div class="section section--light-green" id="telefonie-digitalisieren">
+    <div class="section__content section__content--wide">
+        <h2 class="centered mobile-left">Wir digitalisieren Ihre Telefonie.</h2>
+        <p class="centered mobile-left bigtext">
+            Als Hersteller und Netzbetreiber fokussieren wir die Bedürfnisse mittelständischer Unternehmen. Sie bekommen Ihr passgenaues Rundum-Paket aus top Funktionen, spitzen Service - seit über 15 Jahren.<br />
+            <br />
+            <br />
+        </p>
+        <div class="tablist">
+            <div class="tablist__links tablist__links--full-width">
+                <div class="tablist__link" id="digital-commerce" data-tab="1" data-sticky-text="Digital Commerce" style="--bg:#fff;">
+                    <strong>Digital Commerce</strong>
+                </div>
+                <div class="tablist__link" id="gesundheitswesen" data-tab="2" data-sticky-text="Gesundheitswesen" style="--bg:#fff;">
+                    <strong>Gesundheitswesen</strong>
+                </div>
+                <div class="tablist__link" id="industrie-handel" data-tab="3" data-sticky-text="Industrie & Handel" style="--bg:#fff;">
+                    <strong>Industrie & Handel</strong>
+                </div>
+            </div>
             <div class="tablist__content" data-tab="1">
                 <div class="paper">
                     <div class="paper__row">
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <h2>Alles, was Sie für Ihre Telefonie brauchen.</h2>
+                                    <h2>Bieten Sie den entscheidenden Unterschied im Wettbewerb.</h2>
 
-                                    <ul class="list list--checkmarks list--checkmarks-green">
-                                        <li>Callcenter Software aus der Cloud für maximale Effizienz.</li>
-                                        <li>Cloud Telefonanlage als perfekte Basis.</li>
-                                        <li>Integrationen & Anbindungen für alles vom Kundenservice bis zur Unternehmenstelefonie.</li>
-                                    </ul>
+                                    <p>
+                                        Bieten Sie <strong>überzeugenden Kundenservice</strong>. Nutzen Sie das <strong>erstklassige Anrufmanagement</strong> 
+                                        der CallOne Callcenter Software für Ihren Service. Telefonie <strong>integriert in Ihre Systeme</strong>, transparent und effizient.
+                                    </p>
 
                                     <p class="mobile-centered">
-                                        <a href="/callcenter-software" class="btn btn--primary">Zur Callcenter Software</a>
+                                        <a href="/callcenter-software" class="btn btn--primary">Callcenter Software</a>
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                                     <?= pictureTag(
-                                        '/assets/images/illus/CCS-voip-teams-mockup.png',
-                                        'Alles, was Sie für Ihre Telefonie brauchen',
+                                        '/assets/images/illus/digital-commerce.png',
+                                        'Mann vor Laptop telefoniert über Headset ',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
                                         ]
@@ -184,22 +295,22 @@ $faqs->faq_add (
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <h2>Deutsche KI für das vielleicht beste Omnichannel Contact Center.</h2>
+                                    <h2>Übertreffen Sie Standards im Gesundheitswesen.</h2>
 
-                                    <ul class="list list--checkmarks list--checkmarks-green">
-                                        <li>KI-gestützte schriftliche Kommunikation und Automatisierungen </li>
-                                        <li>Schriftliche Kommunikationskanäle auf einer Plattform vereint</li>
-                                        <li>Omnichannel Kundenservice für Kundenbindung</li>
-                                    </ul>
+                                    <p>
+                                        <strong>Deutsche Server, Hochverfügbarkeit und Flexibilität.</strong> 
+                                        Und Sie entscheiden über die Wahl der Endgeräte: <strong>DECT-Telefon, IP-Telefon, IP-Tischgeräte oder Softphone</strong> 
+                                        für Desktop und mobil. Profitieren Sie von der CallOne Telefonanlage, die höchsten Standards im Gesundheitswesen gerecht wird.
+                                    </p>
 
                                     <p class="mobile-centered">
-                                        <a href="/omnichannel-customer-support-software" class="btn btn--primary">Zur Omnichannel Oberfläche</a>
+                                        <a href="/voip-telefonanlage" class="btn btn--primary">Cloud Telefonanlage</a>
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                                     <?= pictureTag(
-                                        '/assets/images/illus/sematell-teamleiter.png',
-                                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
+                                        '/assets/images/illus/gesundheitswesen.png',
+                                        'Junge Ärztin steht in Praxis-Raum und telefoniert mit Blick auf einen Computer-Bildschirm',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
                                         ]
@@ -217,22 +328,23 @@ $faqs->faq_add (
                         <div class="paper__item">
                             <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <h2>Volle Flexibilität mit Schnittstellen, Apps und Integrationen.</h2>
+                                    <h2>Alles aus einer Hand - ein Ansprechpartner, eine Lösung.</h2>
 
-                                    <ul class="list list--checkmarks list--checkmarks-green">
-                                        <li>Offene Schnittstellen, fertige CallOne APIs</li>
-                                        <li>CRM, Ticketing und Anbindung an Ihre Business-Tools</li>
-                                        <li>CTI per Knopfdruck erstellen</li>
-                                    </ul>
+                                    <p>
+                                        Profitieren Sie von den Vorteilen eines <strong>Full-Service-Anbieters.</strong> 
+                                        Ohne Umwege. <strong>Persönliche Ansprechpartner, Carrier-Services</strong> für Ihre 
+                                        <strong>Rufnummern</strong> und eine <strong>Telefonanlage</strong>, mit der Sie alle 
+                                        Bereiche Ihres Unternehmens einbinden - auch <strong>Produktionshalle, Außendienst und Kundenhotline.</strong>
+                                    </p>
 
                                     <p class="mobile-centered">
-                                        <a href="/voip-api" class="btn btn--primary">Zu den Anbindungen</a>
+                                        <a href="/ueber-uns" class="btn btn--primary">Über uns</a>
                                     </p>
                                 </div>
                                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
                                     <?= pictureTag(
-                                        '/assets/images/illus/index-integrationen.png',
-                                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
+                                        '/assets/images/illus/industrie-handel.png',
+                                        'Junge Frau mit Brille steht in einem Kleidungsgeschäft und hält ein Tablet',
                                         538, 378, [
                                             'class' => 'co-grid__image--full-width'
                                         ]
@@ -243,41 +355,182 @@ $faqs->faq_add (
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
 
-            <div class="tablist__content" data-tab="4">
-                <div class="paper">
-                    <div class="paper__row">
-                        <div class="paper__item">
-                            <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered">
-                                    <h2>KI-basierte Automationen für wirksamen Kundenservice.</h2>
+<div class="section">
+	<div class="section__content section__content--wide">
+		<h2 class="centered mobile-left">CallOne: Exzellenz für den deutschen Mittelstand.</h2>
+		<div class="co-grid">
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+				<div class="number-card">
+					<div class="number-card__number" style="--color:#449c47">
+						+<span class="counting-number" data-start="0" data-end="3000">3000</span>
+					</div>
+					aktive Kunden
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+				<div class="number-card">
+					<div class="number-card__number" style="--color:#449c47">
+                        +<span class="counting-number" data-start="0" data-end="15">15</span>
+					</div>
+					Jahre am Markt
+				</div>
+			</div>
+			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+				<div class="number-card">
+					<div class="number-card__number" style="--color:#449c47">
+						+<span class="counting-number" data-start="0" data-end="50">50</span>
+					</div>
+					Mitarbeiter in Deutschland
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-                                    <ul class="list list--checkmarks list--checkmarks-green">
-                                        <li>Callcenter-Bots und sprachgesteuerte IVR Menüs für enorme Zeitersparnis</li>
-                                        <li>Informations-Bots für sprachbasierte FAQ und Vorqualifizierung der Anrufer</li>
-                                        <li>KI-basierte Sprachanalyse und Gesprächscoaching der Agenten im Kundenservice</li>
-                                    </ul>
+<div class="section section--light-green">
+    <div class="section__content section__content--wide">
+        <h2 class="centered mobile-left">Hervorragende Kommunikationslösungen für Ihr Unternehmen.</h2>
+        <p class="centered mobile-left bigtext">
+            CallOne entwickelt seit über 12 Jahren eine Kommunikationsplattform, die die gesamte Breite moderner Businesskommunikation abbildet. Als Netzbetreiber bieten wir täglich hochverfügbare Services für unsere Kunden.<br />
+            <br />
+            <br />
+        </p>
 
-                                    <p class="mobile-centered">
-                                        <a href="/callcenter-sprachanalyse" class="btn btn--primary">Zum Gesprächscoaching</a>
-                                    </p>
-                                </div>
-                                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md co-grid__col--vcentered centered">
-                                    <?= pictureTag(
-                                        '/assets/images/backgrounds_png/callcenter-bot-full.png',
-                                        'Deutsche KI für das vielleicht beste Omnichannel Contact Center',
-                                        538, 378, [
-                                            'class' => 'co-grid__image--full-width',
-                                            'style' => 'max-width:80%'
-                                        ]
-                                    ); ?>
-                                </div>
-                            </div>
+        <div class="co-grid">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/building-circle-arrow-right-solid.svg',
+								'Alles aus einem Haus',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Direkt vom Hersteller</h4>
                         </div>
                     </div>
+
+                    <p style="margin: var(--gutter-xs) 0;">Ohne Umwege bekommen Sie Ihre Cloud Telefonie direkt vom Hersteller. Wir entwickeln, programmieren und vertreiben unsere Lösung.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/handshake-solid.svg',
+								'Schüttelnde Hände der Partner',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Persönliche Ansprechpartner</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin: var(--gutter-xs) 0;">Sie haben feste Ansprechpartner, die Ihnen mit Rat und Tat zur Seite stehen. Freundlich, schnell, zuverlässig.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/cloud-arrow-up-solid.svg',
+								'Telefonie geht in die Cloud',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Deutsche Cloud</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin: var(--gutter-xs) 0;">Unsere Daten hosten wir in der deutschen Cloud. Das bedeutet für Sie besondere Sicherheit Dank ISO-zertifizierter Rechenzentren.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/plug-circle-plus-solid.svg',
+								'Stecker verbindet verschiedene Module',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Kombinierbar mit Ihrem System</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin: var(--gutter-xs) 0;">Egal, mit welchen Systemen Sie unsere Cloud Telefonanlage oder Callcenter Software verbinden wollen, wir machen es möglich.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/hand-holding-heart-solid.svg',
+								'Eine Hand hält ein Herz',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Alles aus einer Hand</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin: var(--gutter-xs) 0;">Ohne Umwege und Drittanbieter bekommen Sie alles, was Sie für erfolgreiche Telefonie brauchen, direkt von CallOne.</p>
+                </div>
+            </div>
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
+                <div class="content-box content-box--white content-box--shadow content-box--small-padding">
+                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--vcentered">
+							<?= pictureTag(
+								'/assets/images/icons_svg/chart-line-solid.svg',
+								'Steigender Graph in Diagramm zeigt Ergebnisse',
+								50, 50, [
+                                    'style' => 'height: 50px; width: 50px;',
+									'class' => 'co-grid__image--full-width'
+								]
+							); ?>
+                        </div>
+                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">
+                            <h4 style="margin-bottom:0">Messbare Ergebnisse</h4>
+                        </div>
+                    </div>
+
+                    <p style="margin: var(--gutter-xs) 0;">Unsere unfassbar umfangreichen Statistiken lassen sich genau auf Ihre Bedürfnisse filtern und machen Ergebnisse sichtbar und messbar.</p>
                 </div>
             </div>
         </div>
+        <p class="centered">
+            <a href="/ueber-uns" class="btn btn--border-black centered">Mehr über CallOne</a>
+        </p>
     </div>
 </div>
 
@@ -356,90 +609,10 @@ $faqs->faq_add (
     </div>
 </div>
 
-<div class="section">
-    <div class="section__content section__content--wide">
-        <h2 class="centered mobile-left">Geballtes Wissen rundum unser Contact Center <br class="mobile-hidden" />as a Service. Für Ihren besten Kundenservice.</h2>
-        <p class="centered mobile-left bigtext">Unsere Expertise geben wir gerne weiter: Verbessern Sie Ihren Kundenservice und maximieren Sie gleichzeitig Ihren ROI. Mit unseren Beiträgen und Ressourcen.</p>
-
-        <p class="centered">
-            <a href="/blog" class="btn btn--primary">Zu den neusten<br />Blogeinträgen</a>
-            <br class="mobile-hidden" />
-            <br class="mobile-hidden" />
-            <br class="mobile-hidden" />
-        </p>
-
-        <div class="paper paper--gradient">
-            <div class="paper__row">
-                <div class="paper__item">
-                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--5-md co-grid__col--vcentered">
-                            <?= pictureTag(
-                                '/assets/images/illus/checklist-download.png',
-                                'Checkliste: 7 Booster für die Customer Experience im Contact Center',
-                                null, null, [
-                                    'class' => 'checklist-download'
-                                ]
-                            ); ?>
-                        </div>
-                        <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--7-md co-grid__col--vcentered">
-                            <h3>Ist die CX in Ihrem Contact Center schon die beste?</h3>
-                            <p class="bigtext">Erhöhen Sie Kundenzufriedenheit und -bindung mit unseren 7 Boostern für die CX in Ihrem Contact Center. Sparen Sie bares Geld und erhöhen Sie Ihre Abschlüsse.</p>
-                            <p class="mobile-centered">
-                                <a href="https://cc079abe.sibforms.com/serve/MUIEAGzGTBMcIDL_0eouxFLyeKUjNlS4eeVP3jIXEwju5BrQf5EGVSihKJbrk0Ei6lVYUHcuVlRs3SGd9wjF5LrGcWQTwg4YAWYLOf1OLGlAYFvgXx9SnMs0yNwWm5MLqk0-jMSRSwrAtgcYnp7TIi2X7NVGDNxATDEwR_9UxHgjAjG3pcNlmoTeeUzUEnpTEOdMdL3DALjuZQk0" class="btn btn--primary" target="_blank" rel="noreferrer">Jetzt herunterladen</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-	<div class="section__content section__content--wide">
-		<h2 class="centered mobile-left">Kundenorientierte Unternehmen <br class="mobile-hidden" />vertrauen auf CallOne.</h2>
-        <p class="centered mobile-left bigtext">Mit der CallOne Businesstelefonie-Lösung aus der Cloud machen Sie Ihren Kundenservice zum Kundenmagneten. Nebenbei sparen Sie bares Geld, weil wir die richtigen Stellschrauben für Ihr größtes Einsparpotenzial finden.</p>
-
-		<div class="co-grid">
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-				<div class="number-card">
-					<div class="number-card__number" style="--color:#449c47">
-						<span class="counting-number" data-suffix="%" data-start="0" data-end="25">25%</span>
-					</div>
-					weniger Kosten pro Kontakt<br />
-					durch gesteigerte FCR
-				</div>
-			</div>
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-				<div class="number-card">
-					<div class="number-card__number" style="--color:#449c47">
-                        <span class="counting-number" data-start="0" data-end="5">5</span>-<span class="counting-number" data-suffix="s" data-start="0" data-end="15">15s</span>
-					</div>
-					kürzere Gesprächsdauern<br />
-					(AHT)
-				</div>
-			</div>
-			<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-				<div class="number-card">
-					<div class="number-card__number" style="--color:#449c47">
-						<span class="counting-number" data-suffix="%" data-start="0" data-end="65">65%</span>
-					</div>
-					Verkürzung der<br />
-					Wartezeit
-				</div>
-			</div>
-		</div>
-
-		<p class="centered">
-			<a href="/callcenter-einsparpotential" class="btn btn--primary">Ihr Einsparpotential berechnen</a>
-		</p>
-	</div>
-</div>
-
 <div class="section section--black section--black-corner">
 	<div class="section__content section__content--narrow centered mobile-left">
-		<h2>Sind Sie bereit, Ihren Kundenservice zu verbessern?</h2>
-		<p class="bigtext">Buchen Sie ein unverbindliches 15 Minuten Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
+		<h2>Lassen Sie sich nicht abhängen: Profitieren Sie von modernen Telefonie-Lösungen!</h2>
+		<p class="bigtext">Buchen Sie jetzt ein unverbindliches 15-Minuten-Erstgespräch, um mehr über Ihre Möglichkeiten zu erfahren.</p>
 		<p class="mobile-centered">
 			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Termin vereinbaren</a>
 		</p>
