@@ -296,6 +296,7 @@ function jobs_load ()
 
 	$jobs = new jobs ();
 
+	/*
 	$job = new job ('Management', 'Leiter*in Finanzen (CFO)', 'Der Umgang mit Zahlen liegt dir ebenso wie die Kommunikation mit Menschen? Die vielfältige Verantwortung in Finanzen, Accounting und Controlling liegen dir im Blut und am Herzen?');
 	$job->location_set ('Potsdam-Berlin-Hamburg');
 	$job->url_set ('/karriere/job-finanzleiter-in-cfo'.$job->location_get());
@@ -326,7 +327,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
-	
+	*/
 	
 	$job = new job ('Projekte & Support', 'Key Account Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->location_set ('Potsdam');
@@ -746,6 +747,7 @@ Du bist Owner unserer Paid-Search-Aktivitäten und managst die Performance und S
 	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Online Marketing Managerin', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
 	$jobs->job_add ($job);
 
+/*
 $job = new job ('Management', 'Scrum Master', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('100% Remote, Potsdam');
 	$job->url_set ('/karriere/scrum-master-potsdam-remote');
@@ -775,6 +777,7 @@ Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vo
 	$job->icon_set ($icons['clipboard']);
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
+*/
 
 $job = new job ('Management', 'Projektmanager mit technischem Verständnis', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam');
