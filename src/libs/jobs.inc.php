@@ -501,7 +501,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'UI Designer*in ', 'Die Erstellung von UI Design, das begeistert, ist deine Leidenschaft? Du gehst darin auf, Wireframes zum Leben zu erwecken und dabei die User Experience auf Websites und Oberflächen in den Mittelpunkt zu stellen? Dann bist du als UI Designer*in bei uns genau richtig!');
@@ -519,7 +519,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'Webdesigner*in - onsite & remote', 'Du liebst es, aus Mockups lebendige Websites, Illustrationen und Grafiken entstehen zu lassen? Dann bist du bei uns genau richtig!');
@@ -540,7 +540,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
@@ -564,7 +564,7 @@ function jobs_load ()
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-it-technik');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'IT-Support', 'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?');
@@ -587,7 +587,7 @@ function jobs_load ()
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-it-technik');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'Fachinformatiker*in', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
@@ -611,7 +611,7 @@ function jobs_load ()
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-it-technik');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
 	/*$job = new job ('IT & Technik', 'Webdesigner*in', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
@@ -634,7 +634,7 @@ function jobs_load ()
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
 	$job->agenda_filename_set ('agenda-it-technik');
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
 
 		
@@ -770,6 +770,32 @@ Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vo
     $job->text_requirements_set ('Proaktivität und Ownership zählen zu Deinen Kernprinzipien.');
 	$job->text_requirements_set ('Hervorragende zwischenmenschliche und kommunikative Fähigkeiten.');
 	$job->text_requirements_set ('Für diese Position sind Deutsch- und Englischkenntnisse zwingend erforderlich (Schreiben, Sprechen und Präsentieren)');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['clipboard']);
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+
+$job = new job ('Management', 'Projektmanager mit technischem Verständnis', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/projektmanager-technisch-potsdam');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Als <strong>Projektmanager mit technischem Verständnis</strong>, bist du in der Lage, effektiv zwischen verschiedenen Teams zu vermitteln. Du wirst eine wichtige Mentorenrolle einnehmen, um sicherzustellen, dass alle Teams auf dem gleichen Stand sind und dass die Entwicklung von neuen Funktionen reibungslos verläuft. Außerdem wirst du dafür verantwortlich sein, Anforderungen zu sammeln, Befragungen durchzuführen und nachgelagerte Prozesse zu managen, um sicherzustellen, dass alle Teams zusammenarbeiten, um unsere Produkte erfolgreich auf den Markt zu bringen.');
+	$job->text_description_long_set ('Du spielst eine zentrale Rolle bei der Koordination von verschiedenen Teams. Deine Fähigkeit, zwischen verschiedenen Abteilungen und Gruppen zu vermitteln, wird es dir ermöglichen, effektiv zu kommunizieren und sicherzustellen, dass alle Beteiligten auf dem gleichen Wissensstand sind. Als Mentor wirst du eine wichtige Rolle spielen und sicherzustellen, dass alle Teams zusammenarbeiten, um unsere Produkte erfolgreich auf den Markt zu bringen.<br><br>Darüber hinaus wirst du auch dafür verantwortlich sein, Anforderungen zu sammeln und Befragungen durchzuführen, um sicherzustellen, dass alle Teams ihre Ziele erreichen und ihre Arbeit effektiv durchführen können. Du wirst auch nachgelagerte Prozesse managen und sicherstellen, dass die notwendigen Ressourcen vorhanden sind, damit alle Teams ihre Aufgaben erfolgreich erledigen können. Durch deine Fähigkeit, effektiv zu kommunizieren und zu koordinieren, wirst du sicherstellen, dass alle Aspekte des Projekts erfolgreich umgesetzt werden und unsere Produkte auf dem Markt erfolgreich positioniert werden.');
+	$job->text_tasks_set ('Verantwortung für die Koordination der Zusammenarbeit zwischen verschiedenen Teams, einschließlich Entwicklungs-, Marketing- und Support-Teams.');
+	$job->text_tasks_set ('Erhebung von Anforderungen und Durchführung von Befragungen, um sicherzustellen, dass alle Anforderungen und Bedürfnisse der Kunden erfüllt werden.');
+	$job->text_tasks_set ('Verantwortlich für die Sicherstellung, dass die Funktionen termingerecht und innerhalb des Budgets umgesetzt werden.');
+	$job->text_tasks_set ('Schulung der Mitarbeiter und des Marketingteams über neue Funktionen und Produkte.');
+	$job->text_tasks_set ('Verwaltung von nachgelagerten Prozessen wie Freigaben, Tests, Qualitätssicherung, Kundensupport und Fehlerbehebung.');
+	$job->text_tasks_set ('Entwicklung von Plänen zur Verbesserung der Zusammenarbeit und Prozessoptimierung.');
+	$job->text_requirements_set ('Fundiertes technisches Verständnis, ohne selbst entwickeln zu können.');
+	$job->text_requirements_set ('Fähigkeit, effektiv zwischen verschiedenen Teams zu vermitteln und eine Mentorenrolle zu übernehmen.');
+	$job->text_requirements_set ('Ausgezeichnete organisatorische und kommunikative Fähigkeiten.');
+	$job->text_requirements_set ('Erfahrung im Projektmanagement und in der Zusammenarbeit mit cross-funktionalen Teams.');
+	$job->text_requirements_set ('Gute Kenntnisse in der Planung und Steuerung von Projekten.');
+	$job->text_requirements_set ('Hohes Maß an Flexibilität und Belastbarkeit.');
+	$job->text_requirements_set ('Optional bringst du Kenntnisse zur Ressourcenplanung mit');
+	$job->text_requirements_set ('Optional bringst du Kenntnisse zu agilen Methoden, zb. mit Scrum mit');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['clipboard']);
