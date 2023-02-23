@@ -93,6 +93,16 @@ h1, h2, h3, h4,
 	color: #000;
 }
 
+.fade {
+	-webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+	mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+}
+
+.fade-left {
+	-webkit-mask-image: linear-gradient(to left, black 0%, transparent 50%);
+	mask-image: linear-gradient(to left, black 0%, transparent 50%);
+}
+
 .font-headline {
 	font-family: $font-headline !important;
 }
@@ -1573,3 +1583,7 @@ h2.tag-above {
 		color: rgba(0, 0, 0, 0.7);
 	}
 }
+
+
+
+

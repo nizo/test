@@ -33,6 +33,11 @@
 			background-color: #000;
 			color: #fff;
 		}
+
+		.section--black & {
+			border: 2px solid currentColor;
+		}
+
 	}
 	
 	&--secondary {

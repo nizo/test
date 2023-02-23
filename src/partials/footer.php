@@ -1,5 +1,8 @@
 <footer class="main-footer">
     <div class="footer-content desktop">
+
+        <?php if(!$page->get_settings('reduced_footer')): ?>
+
         <div class="footer-grid">
             <div class="footer-column">
                 <div class="footer__headline">CallOne GmbH</div>
@@ -71,6 +74,8 @@
             </div>
         </div>
 
+        <?php endif; ?>
+
         <div class="footer-note">
             <div class="footer-note-left">
                 &starf;&starf;&starf;&starf;&starf; 5,0 <a href="https://www.google.de/maps/place/CallOne+GmbH/@52.42163,13.1530313,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x4b0f5c012bcf0a41!8m2!3d52.42163!4d13.15522!9m1!1b1" rel="noreferrer" target="_blank">Google Erfahrungsberichte</a>
@@ -85,6 +90,9 @@
     </div>
 
     <div class="footer-content mobile">
+
+        <?php if(!$page->get_settings('reduced_footer')): ?>
+    
         <div class="company">
             <div class="footer__headline">CallOne GmbH</div>
             <p>
@@ -155,6 +163,9 @@
                 </ul>
             </li>
         </ul>
+
+        <?php endif; ?>
+
         <div class="footer-note">
             <div class="footer-note-left">
                 &starf;&starf;&starf;&starf;&starf;<br />

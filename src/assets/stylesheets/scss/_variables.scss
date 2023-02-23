@@ -54,3 +54,24 @@ $img-size-m: 740px;
 $img-size-l: 960px; 
 $img-size-xl: 1120px;
 $img-size-max: 100%;
+
+
+/*
+* BREAKPOINTS
+*/
+$breakpoints: (
+    xs: 0,
+    sm: 600,
+    md: 960,
+    lg: 1280,
+    xl: 1920
+);
+
+// TODO DRY/Refactor
+$breakpointsMQ: (
+    xs: 0,
+    sm: 600px,
+	md: 960px,
+    lg: 1280px,
+    xl: 1920px,
+);

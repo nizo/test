@@ -102,6 +102,27 @@ class Route {
             }
         }
     }
+
+    // safe method to retrieve all settings
+    public function get_settings($key = null) {
+
+        if(empty($key)) {
+            // retrieve all settings
+            $settingsArray = get_object_vars($this);
+            return array_merge($settingsArray, $this->additional);
+        } elseif(property_exists($this, $key)) {
+            //get setting by key (property)
+            return $this->{$key};
+        } elseif(array_key_exists($key,$this->additional)) {
+            //get setting by key out of additional array
+            return $this->additional[$key];
+        } else {
+            // setting does not exist
+            return null;
+        }
+
+    }
+
 }
 
 /* **************** **
@@ -427,6 +448,42 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
     'meta_description' => 'Bester Kundenservice und effiziente Agenten — integrieren Sie Voice Tickets in Zendesk für ein optimales Kundenerlebnis im Callcenter auf allen Kanälen',
     'og_image_text' => 'CallOne Zendesk Integration'
 ]);
+
+
+/* ******************* **
+** ** LANDING PAGES ** **
+** ******************* */
+
+
+Router::add('/voicebot', 'voicebot.php', [
+    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'layout' => 'lp-reduced.php',
+    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'sitemap_include' => true,
+    'body_class' => 'lp lp--voicebot',
+    'reduced_footer' => true,
+]);
+
+Router::add('/voicebot/success', 'vb-lp-success.php', [
+    'title' => 'Ihre Registrierung bei CallOne',
+    'layout' => 'message.php',
+    'sitemap_include' => false,
+    'body_class' => 'lp lp--voicebot',
+    'no_index' => true,
+    'reduced_footer' => true,
+]);
+
+Router::add('/voicebot/success-doi', 'vb-lp-success-doi.php', [
+    'title' => 'Ihre Registrierung bei CallOne',
+    'layout' => 'message.php',
+    'sitemap_include' => false,
+    'body_class' => 'lp lp--voicebot',
+    'no_index' => true,
+    'reduced_footer' => true,
+]);
+
+
+
 
 /* ********************* **
 ** ** DEBUGGING PAGES ** **
