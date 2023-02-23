@@ -91,13 +91,6 @@
     }
 }
   
-$breakpoints: (
-    xs: 0,
-    sm: 600,
-    md: 960,
-    lg: 1280,
-    xl: 1920
-);
 
 @each $size, $value in $breakpoints {
     @media screen and (min-width: #{$value}px) {
@@ -147,7 +140,7 @@ $breakpoints: (
 
 @media screen and (max-width: 850px) {
     [class*='co-grid__col--12-'] {
-        > img:not(.co-grid__image--full-width), > picture img:not(.co-grid__image--full-width) {
+        > img:not(.co-grid__image--full-width):not([class*="custom"]), > picture img:not(.co-grid__image--full-width):not([class*="custom"]) {
             max-width: 50%;
             margin-left: auto;
             margin-right: auto;

@@ -86,8 +86,10 @@ let app = {
         let toggleBoxes = document.querySelectorAll('.toggle-box');
         eventListener('click', '.toggle-box label', e => {
             let currentBox = e.target.closest('.toggle-box');
+            currentBox.classList.toggle('active');
             toggleBoxes.forEach(box => {
                 if (box !== currentBox) {
+                    box.classList.remove('active');
                     slideUp(box.querySelector('.toggle-box__content'), 300);
                     box.querySelector('input').checked = false;
                 }

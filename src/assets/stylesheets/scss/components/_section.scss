@@ -22,6 +22,11 @@
     }
 
     // Backgrounds
+
+    &--white {
+        background-color: white;
+    }
+
     &--purple-white {
         background-image: linear-gradient(rgba(219, 0, 197, 0.05), rgba(219, 0, 197, 0));
     }
