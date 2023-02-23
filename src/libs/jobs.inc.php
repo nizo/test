@@ -775,7 +775,7 @@ Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vo
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['clipboard']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 */
 
@@ -802,7 +802,7 @@ $job = new job ('Management', 'Projektmanager mit technischem Verständnis', 'Du
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['clipboard']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
 	$job = new job ('Vertrieb', '(Senior) Sales Manager*in', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
