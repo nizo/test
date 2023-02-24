@@ -486,6 +486,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Head of Marketing', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
 	$jobs->job_add ($job); */
 
+	/*
 	$job = new job ('IT & Technik', 'UX Designer*in ', 'Die Konzeption von UX Design basierend auf Research und Testing sind deine Leidenschaft? Du gehst darin auf, Wireframes für Websites und Oberflächen genau so zu entwerfen, dass sie für die optimale User Experience sorgen? Dann bist du als UX Designer*in bei uns genau richtig!');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-ux-designer-in-potsdam');
@@ -504,7 +505,9 @@ function jobs_load ()
 	$job->icon_set ($icons['developer']);
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
+	*/
 
+	/*
 	$job = new job ('IT & Technik', 'UI Designer*in ', 'Die Erstellung von UI Design, das begeistert, ist deine Leidenschaft? Du gehst darin auf, Wireframes zum Leben zu erwecken und dabei die User Experience auf Websites und Oberflächen in den Mittelpunkt zu stellen? Dann bist du als UI Designer*in bei uns genau richtig!');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-ui-designer-in-potsdam');
@@ -522,7 +525,9 @@ function jobs_load ()
 	$job->icon_set ($icons['developer']);
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
+	*/
 
+	/*
 	$job = new job ('IT & Technik', 'Webdesigner*in - onsite & remote', 'Du liebst es, aus Mockups lebendige Websites, Illustrationen und Grafiken entstehen zu lassen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-webdesigner-in-potsdam');
@@ -542,6 +547,33 @@ function jobs_load ()
 	$job->job_worktime_set ('Teilzeit / Vollzeit');
 	$job->icon_set ($icons['developer']);
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$jobs->job_add ($job);
+	*/
+	
+	$job = new job ('Sofwareentwicklung', 'Frontend Developer', 'Du bist Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet?');
+	$job->location_set ('Düsseldorf');
+	$job->url_set ('/karriere/frontend-developer-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Wir suchen einen Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet. Du wirst für die Umsetzung von anspruchsvollen Webanwendungen verantwortlich sein.');
+	$job->text_description_long_set ('Als Frontend Developer arbeitest du gemeinsam an der Entwicklung von anspruchsvollen und innovativen Webanwendungen. Unsere Entwickler sind Experten in der Arbeit mit modernen Frontend-Technologien und Tools und setzen ihre Fähigkeiten ein, um die bestmögliche Benutzererfahrung zu schaffen. Durch enge Zusammenarbeit mit anderen Teams stellen wir sicher, dass unsere Produkte den höchsten Qualitätsstandards entsprechen.');
+	$job->text_description_long_set ('Von Browser basierter VoIP-Telefonie über grafische Routingansichten bis zu Dashboards, ist die Spanne der möglichen Aufgaben sehr breit. Deine Kenntnisse unterstützen uns, auch weiterhin am Ball der Zeit zu bleiben und mit dir weiter zu wachsen.');
+	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
+	$job->text_tasks_set ('Enge Zusammenarbeit mit weiteren Frontend-, sowie den Backend-Entwicklern');
+	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, welche große Datenmengen variabel anzeigen können');
+	$job->text_tasks_set ('Sicherstellung der Kompatibilität mit verschiedenen Browsern und Geräten');
+	$job->text_tasks_set ('Optimierung der Leistung und Benutzererfahrung von Webanwendungen');
+	$job->text_requirements_set ('Mindestens 2 Jahre Erfahrung in der Frontend-Entwicklung');
+	$job->text_requirements_set ('Fundierte Kenntnisse in Vanilla Javascript');
+	$job->text_requirements_set ('Erfahrung in der Arbeit mit REST APIs und Websockets, wünschenswert WebRTC Kenntnisse');
+	$job->text_requirements_set ('Erfahrung in der Verwendung von Bootstrap für das Frontend-Design');
+	$job->text_requirements_set ('Kenntnisse in PHP sind von Vorteil, aber nicht zwingend erforderlich');
+	$job->text_requirements_set ('Erfahrung mit komplexen Weblösungen');
+	$job->text_requirements_set ('Fließend Deutschkenntnise, wünschenswert gute Englischkenntnisse');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['developer']);
+	$job->agenda_filename_set ('agenda-it-technik');
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
@@ -637,7 +669,6 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
-
 		
 	$job = new job ('Marketing', 'Produkt Marketing Manager*in', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
 	$job->location_set ('Potsdam');
