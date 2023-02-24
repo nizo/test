@@ -552,7 +552,7 @@ function jobs_load ()
 	
 	$job = new job ('Sofwareentwicklung', 'Frontend Developer', 'Du bist Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet?');
 	$job->location_set ('Düsseldorf');
-	$job->url_set ('/karriere/frontend-developer-'.$job->location_get());
+	$job->url_set ('/karriere/frontend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Wir suchen einen Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet. Du wirst für die Umsetzung von anspruchsvollen Webanwendungen verantwortlich sein.');
 	$job->text_description_long_set ('Als Frontend Developer arbeitest du gemeinsam an der Entwicklung von anspruchsvollen und innovativen Webanwendungen. Unsere Entwickler sind Experten in der Arbeit mit modernen Frontend-Technologien und Tools und setzen ihre Fähigkeiten ein, um die bestmögliche Benutzererfahrung zu schaffen. Durch enge Zusammenarbeit mit anderen Teams stellen wir sicher, dass unsere Produkte den höchsten Qualitätsstandards entsprechen.');
@@ -576,6 +576,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
+	/*
 	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-it-systemkaufmann-frau-'.$job->location_get());
@@ -599,7 +600,9 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
+	*/
 
+	/*
 	$job = new job ('IT & Technik', 'IT-Support', 'Du hast ein solides Arsenal technisches Wissen und kannst Partner, Kunden und IT-Mitarbeiter umfassend betreuen?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-it-support-'.$job->location_get());
@@ -622,7 +625,9 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
+	*/
 
+	/*
 	$job = new job ('IT & Technik', 'Fachinformatiker*in', 'Du bist Fachinformatiker*in mit Schwerpunkt Entwicklung oder Systemintegration und hast Lust uns mit deiner Expertise zu unterstützen?');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-fachinformatiker-in-'.$job->location_get());
@@ -646,6 +651,7 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
+	*/
 
 	/*$job = new job ('IT & Technik', 'Webdesigner*in', 'HTML und Grafikdesign sind dein tägliches Handwerk? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam');
