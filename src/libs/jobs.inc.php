@@ -550,7 +550,7 @@ function jobs_load ()
 	$jobs->job_add ($job);
 	*/
 	
-	$job = new job ('Sofwareentwicklung', 'Frontend Developer', 'Du bist Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet?');
+	$job = new job ('Softwareentwicklung', 'Frontend Developer', 'Du bist Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet?');
 	$job->location_set ('Düsseldorf');
 	$job->url_set ('/karriere/frontend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
