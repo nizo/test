@@ -299,7 +299,7 @@
         <div class="co-grid fade">
 
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
-                <h3 style="margin-bottom:0" class="centered">Vermittlungsarabeitsplatz</h3>
+                <h3 style="margin-bottom:0" class="centered">Vermittlungsarbeitsplatz</h3>
                 <p style="margin-top:var(--gutter-xs)" class="centered">Eingehende Anrufe werden vom Bot verwaltet und an die richtigen Mitarbeiter weitergeleitet.</p>
             </div>
 
