@@ -93,8 +93,8 @@
 
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 
-                <h3 style="margin-bottom:0" class="">Der Voicebot, der jede Branche versteht</h3>
-                <p style="margin-top:var(--gutter-xs)" class="">Sie bestimmen die Tonalität und Charakteristiken Ihres individualisierten Bots. Geben Sie ihm auch Informationen zu Ihrem Unternehmen oder Ihren Produkten.<br><br>Schon kann Ihr Bot flexibel auf Fragen und Thematiken eingehen. Er antwortet intuitiv und passend zum Kontext.</p>
+                <h3 style="margin-bottom:0">Der Voicebot, der jede Branche versteht</h3>
+                <p style="margin-top:var(--gutter-xs)">Sie bestimmen die Tonalität und Charakteristiken Ihres individualisierten Bots. Geben Sie ihm auch Informationen zu Ihrem Unternehmen oder Ihren Produkten.<br><br>Schon kann Ihr Bot flexibel auf Fragen und Thematiken eingehen. Er antwortet intuitiv und passend zum Kontext.</p>
 
             </div>
 
@@ -164,15 +164,15 @@
 
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
 
-                <h3 style="margin-bottom:0" class="">Eigene Erstellung und einfache Anpassung – ohne Code!</h3>
-                <p style="margin-top:var(--gutter-xs)" class="">Wir unterstützen Sie dabei, Ihren Bot zur Spitzen-KI in Ihrer Telefonhotline einzurichten. Sie bekommen einen individualisierten VoiceBot, der so interagiert wie Sie es sich wünschen. Es sind keine Programmierkenntnisse nötig. Erstellen Sie sich ganz einfach ein Konto für OpenAI/ChatGPT, welches wir mit der CallOne Schnittstelle verbinden. Schon können Ihre Regie-Anweisungen an Ihren Bot gegeben werden. Fertig ist der VoiceBot für die Kundenhotline.</p>
+                <h3 style="margin-bottom:0">Eigene Erstellung und einfache Anpassung – ohne Code!</h3>
+                <p style="margin-top:var(--gutter-xs)">Wir unterstützen Sie dabei, Ihren Bot zur Spitzen-KI in Ihrer Telefonhotline einzurichten. Sie bekommen einen individualisierten VoiceBot, der so interagiert wie Sie es sich wünschen. Es sind keine Programmierkenntnisse nötig. Erstellen Sie sich ganz einfach ein Konto für OpenAI/ChatGPT, welches wir mit der CallOne Schnittstelle verbinden. Schon können Ihre Regie-Anweisungen an Ihren Bot gegeben werden. Fertig ist der VoiceBot für die Kundenhotline.</p>
                 <br><br>
-                <h4 style="margin-bottom:0" class="">Feedback Funktion</h4>
-                <p style="margin-top:var(--gutter-xs)" class="">Geben Sie Ihrem Bot ergänzendes Feedback zur Verbesserung von Grußformeln, Antworten oder allgemeine Formulierungen.</p>
+                <h4 style="margin-bottom:0">Feedback Funktion</h4>
+                <p style="margin-top:var(--gutter-xs)">Geben Sie Ihrem Bot ergänzendes Feedback zur Verbesserung von Grußformeln, Antworten oder allgemeine Formulierungen.</p>
 
                 <br><br>
-                <h4 style="margin-bottom:0" class="">Detaillierte Anpassungen</h4>
-                <p style="margin-top:var(--gutter-xs)" class="">Selbst Anpassungen wie "Sag seltener sehr gut." setzt ihr Bot sofort um. Sie haben es in der Hand!</p>
+                <h4 style="margin-bottom:0">Detaillierte Anpassungen</h4>
+                <p style="margin-top:var(--gutter-xs)">Selbst Anpassungen wie "Sag seltener sehr gut." setzt ihr Bot sofort um. Sie haben es in der Hand!</p>
 
             </div>
 
@@ -186,7 +186,7 @@
 
                     <div class="co-grid__col co-grid__col--12-xs co-grid__col--12-sm co-grid__col--8-md"  style="z-index: 2">
 
-                        <h4 class="centered"><span class="">CallOne-VoiceBot</span><br> <span style="font-weight: normal">Definition des Verhaltens</span></h4>
+                        <h4 class="centered"><span>CallOne-VoiceBot</span><br> <span style="font-weight: normal">Definition des Verhaltens</span></h4>
                         <br><br>
                         <div class="bot-config-input"><p class="fade">Du bist ein KI-Agent für die Firma Snipes. Dein Name ist Snoop. Du nimmst ein Gespräch am Telefon entgegen. Du begrüßt den Anrufer Guten Abend, guten Morgen, guten Tag. Bei dir rufen überwiegend Jugendliche an, die ein Kundenserviceenliegen haben. Verwnede eine moderne junge Ausdrucksweise. Du fragst nach seinem Anliegen. Du beantwortest es und fragst nach deiner Antwort immer wieder unterschiedlich nach, ob du noch helfen kannst.</p></div>
                         
@@ -417,27 +417,31 @@
 
 
 
-
-
-
-
 <div id="register" class="section section--black">
     <div class="section__content section__content--wide">
 
         <div class="co-grid">
 
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                <h2>Bereit für die Zukunft?</h2>
-                <p class="">Entdecken Sie den CallOne-VoiceBot und lernen Sie die unendlichen Möglichkeiten kennen, wie unser Bot die Telekommunikations-Branche verändert. Unser Sales-Team berät Sie gerne auf dem Weg zum Einsatz Ihres KI-Assistenten individuell abgestimmt auf die Bedürfnisse Ihres Unternehmens.</p>
 
+                <div style="max-width: 28rem">
 
-                <div style="margin-top: 2rem" class="card card--green card--infobox">
-                    <p class="">Treffen Sie uns auf der Call-Center-World (CCW) vom <strong class="">28.02 - 02.03.2023</strong> in Berlin. Einen Voucher für freien Eintritt erhalten Sie über das Kontaktformular. <strong>Sie finden uns in der Halle 3 Stand 3F3.</strong><br><a style="display: inline-block; margin-top:0.5rem" target="_blank" href="http://www.ccw.eu/firmenkontakte/callone-gmbh.html">Mehr zur Call-Center-World (CCW)</a></p>
+                    <img src="/assets/images/lp/callone-voicebot-brochure.jpg" alt="CallOne Brochure" class="custom callone-voicebot-brochure">
+
+                    <h2>Bereit für die Zukunft?</h2>
+                    
+                    <p>Entdecken Sie den CallOne-VoiceBot und lernen Sie die unendlichen Möglichkeiten kennen, wie unser Bot die Telekommunikations-Branche verändert. Unser Sales-Team berät Sie gerne auf dem Weg zum Einsatz Ihres KI-Assistenten individuell abgestimmt auf die Bedürfnisse Ihres Unternehmens.</p>
+                    <p><strong>Melden Sie sich für den Launch an und erhalten Sie vorab unsere ausführliche Broschüre rund um das heiße Thema ChatGPT, OpenAI und unserem VoiceBot!</strong></p>
+
+                    <div style="margin-top: 2rem" class="card card--green card--infobox">
+                        <p>Treffen Sie uns auf der Call-Center-World (CCW) vom <strong>28.02 - 02.03.2023</strong> in Berlin. Einen Voucher für freien Eintritt erhalten Sie über das Kontaktformular. <strong>Sie finden uns in der Halle 3 Stand 3F3.</strong><br><a style="display: inline-block; margin-top:0.5rem" target="_blank" href="http://www.ccw.eu/firmenkontakte/callone-gmbh.html">Mehr zur Call-Center-World (CCW)</a></p>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm" style="display: flex; align-items: flex-end;">
                 <?php require_once('./partials/lp-voicebot-form.php'); ?>
             </div>
             

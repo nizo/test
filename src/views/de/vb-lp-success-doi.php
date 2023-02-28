@@ -7,8 +7,13 @@
         Vielen Dank für Ihre Anmeldung! Sie haben sich erfolgreich angemeldet.
         </p>
 
-        <div class="centered" style="margin-top: 3rem">
-            <a href="/" style="border: 2px solid currentColor;" class="btn btn--primary centered">Weiter zu CallOne</a>
+        <img style="margin-top: 3rem" src="/assets/images/lp/callone-voicebot-brochure.jpg" alt="CallOne Brochure" class="custom callone-voicebot-brochure">
+
+        <div class="centered">
+            <a href="/downloads/callone-voicebot-brochure-fair-2023.pdf" style="border: 2px solid currentColor;" class="btn btn--primary centered">Jetzt Broschüre herunterladen</a>
         </div>
+
+        <br><br>
+        <a class="simple-link" href="/">Weiter zu CallOne</a>
 
     </section>

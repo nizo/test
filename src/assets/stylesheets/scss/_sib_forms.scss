@@ -257,7 +257,8 @@ http://nicolasgallagher.com/micro-clearfix-hack/
     }
   }
 
-  .sib-form-container {
+  .sib-form-container, #sib-container {
+    max-width: unset !important;
     background-color: transparent !important;
   }
 

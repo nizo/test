@@ -1,6 +1,3 @@
-
-
-
 // Voicebot LP
 
 html {
@@ -165,6 +162,17 @@ body.lp--voicebot {
         }
 
 	}
+	
+
+	.simple-link {
+		display: inline-block;
+		color: #fff;
+		border-bottom: 2px solid transparent;
+		&:hover {
+			border-color: #fff;
+		}
+	}
+
 
 	.section--black + .section--black, .section--white + .section--white {
 		padding-top: 0;
@@ -518,34 +526,22 @@ body.lp--voicebot {
 
 
 
+.callone-voicebot-brochure {
+	width: 100%;
+	max-width: 24rem;
+	margin-bottom: 1.5rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.callone-voicebot-brochure-download {
+	display: block;
+	color: #fff;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
+}
 
 
 
