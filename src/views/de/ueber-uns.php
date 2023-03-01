@@ -164,7 +164,7 @@
                     ); ?>
                 </p>
                 <h3>CallOne Baumpflanzaktion</h3>
-                <p class="bigtext">1.000 Bäume bis Ende 2022 sind unser Ziel. Für jeden neu gewonnen Kunden verpflichten wir uns zusätzliche Bäume zu pflanzen und unserer unternehmerischen Verantwortung gerecht zu werden.</p>
+                <p class="bigtext">Für jeden neu gewonnen Kunden verpflichten wir uns zusätzliche Bäume zu pflanzen und unserer unternehmerischen Verantwortung gerecht zu werden.</p>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
                 <p class="mobile-centered">
