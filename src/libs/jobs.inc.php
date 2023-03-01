@@ -702,12 +702,12 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 
 	$job = new job ('IT & Technik', 'Serverinfrastruktur- und Storage Engineer', 'Als Serverinfrastruktur- und Storage Engineer sind Sie für die Betreuung und Weiterentwicklung unserer Serverinfrastruktur und Storage Systeme verantwortlich.');
 	$job->location_set ('Kölln-Reisiek, 100% Remote');
-	$job->url_set ('/karriere/voip-plattform-engineer-remote');
+	$job->url_set ('/karriere/serverinfrastruktur-storage-engineer-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Als Serverinfrastruktur- und Storage Engineer sind Sie für die Betreuung und Weiterentwicklung unserer Serverinfrastruktur und Storage Systeme verantwortlich.');
 	$job->text_description_long_set ('Sie planen und wählen neue Rechenzentrums-Hardware aus und sind für das Monitoring mit CheckMk verantwortlich. Sie kümmern sich auch um die Datensicherung, Wiederherstellung und Testing. Bei Bedarf betreuen Sie auch die Netzwerkinfrastruktur und Datenbank.<br /><br />Wir bieten ein wettbewerbsfähiges Gehaltspaket und eine angenehme Arbeitsumgebung in einem dynamischen und schnelllebigen Unternehmen. Wenn Sie eine Leidenschaft für Serverinfrastrukturen und Storage Systeme haben und eine herausfordernde Position suchen, dann bewerben Sie sich jetzt als Serverinfrastruktur- und Storage Engineer.');
@@ -732,7 +732,7 @@ function jobs_load ()
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
-	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of IT', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 		
 	$job = new job ('Marketing', 'Produkt Marketing Manager*in', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
