@@ -248,16 +248,14 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/callcenter-bot" class="submenu__link<?= getPageActiveClass('/callcenter-bot') ?>">
+                                    <a href="/voicebot" class="submenu__link submenu__link--custom submenu__link--lp-vb<?= getPageActiveClass('/voicebot') ?>">
                                         <div class="submenu__link-icon">
-                                            <?= pictureTag(
-                                                '/assets/images/navigation/menu-callcenter-bot.png',
-                                                'Sprachgesteuerte KI Systeme mit dem CallOne Callcenter Bot',
-                                                51, 50
-                                            ) ?>
+												
                                         </div>
                                         <div class="submenu__link-text">
-                                            <strong>Callcenter-Bot</strong>
+                                            <strong>CallOne VoiceBot
+												<span class="submenu__link-tag">NEU</span>
+											</strong>
                                             <p>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen</p>
                                         </div>
                                     </a>

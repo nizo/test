@@ -368,6 +368,29 @@ $navMinHeight: 570px;
         width: 100%;
         height: calc(70px + var(--gutter-s));
         padding: calc(var(--gutter-s) / 2) var(--gutter-s);
+
+
+		&--lp-vb {
+			
+			background-color: black !important;
+			background-image: url(../images/navigation/callone-visual-navigation.jpg);
+			background-repeat: no-repeat;
+			background-size: 6.7rem;
+			background-position: -.5rem 9%;
+
+			&:hover {
+				//background-color: $color-primary !important;
+				.submenu__link-text *:not(.submenu__link-tag) {
+					color: rgba(255,255,255,0.8) !important;
+					//color: $color-primary !important;
+				}
+			}
+
+			.submenu__link-text *:not(.submenu__link-tag) {
+				color: #fff;
+			}
+		}
+
     }
     &__link-icon {
         margin-right: calc(var(--gutter-s) / 2);
@@ -384,6 +407,11 @@ $navMinHeight: 570px;
         }
     }
     &__link-text {
+
+		* {
+			transition: color 0.2s ease-out;
+		}
+
         flex: 1;
 
         strong {
@@ -393,13 +421,13 @@ $navMinHeight: 570px;
             margin-bottom: 8px;
             font-weight: 500;
             color: #000;
-            transition: none;
+            // transition: none;
         }
         p {
             font-size: 14px;
             color: rgba(#000, .6);
             line-height: 1.4;
-            transition: none;
+            // transition: none;
         }
     }
     &__link-tag {
@@ -454,7 +482,7 @@ $navMinHeight: 570px;
         }
     }
 }
-a.submenu__link {
+a.submenu__link:not(.submenu__link--custom) {
     // &.submenu__link--active {
     //     background-image: linear-gradient(0deg, #EDF2E2, #fff, #EDF2E2);
     //     background-color: rgba(#000, .025);

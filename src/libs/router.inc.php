@@ -198,14 +198,24 @@ Router::add('/call-tracking', 'calltracking.php', [
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.8'
 ]);
-Router::add('/callcenter-bot', 'callcenter-bot.php', [
-    'shorttitle' => 'Callcenter Bot',
-    'title' => 'Callcenter Bot – KI-Sprachgesteuerte Auswahlmenüs IVR',
-    'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'og_image_text' => 'Callcenter Bot KI-Sprachgesteuerte Auswahlmenüs IVR',
-    'menu_position' => 'loesungen',
-    'sitemap_priority' => '0.9'
+
+
+Router::add('/voicebot', 'voicebot.php', [
+	// 'shorttitle' => 'Callcenter Bot',
+    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+   #'layout' => 'lp-reduced.php',
+	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
+    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'body_class' => 'lp lp--voicebot',
+	'menu_position' => 'loesungen',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
 ]);
+
+
+
+
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
     'shorttitle' => 'Anbindungen und Apps',
     'title' => 'CRM und Ticketing kombiniert mit dem Telefon',
@@ -454,15 +464,6 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
 ** ** LANDING PAGES ** **
 ** ******************* */
 
-
-Router::add('/voicebot', 'voicebot.php', [
-    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
-    'layout' => 'lp-reduced.php',
-    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
-    'sitemap_include' => true,
-    'body_class' => 'lp lp--voicebot',
-    'reduced_footer' => true,
-]);
 
 Router::add('/voicebot/success', 'vb-lp-success.php', [
     'title' => 'Ihre Registrierung bei CallOne',

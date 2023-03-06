@@ -306,6 +306,8 @@ Redirect 301 /webrtc-browsertelefonie.php /callcenter-software
 Redirect 301 /webrtc-browsertelefonie.php. /callcenter-software
 Redirect 301 /zendesk.php /zendesk-cti-ticketing
 Redirect 301 /zoho.php /callcenter-software-apps
+Redirect 301 /callcenter-bot /voicebot
+
 
 
 RewriteCond %{REQUEST_FILENAME} !-d

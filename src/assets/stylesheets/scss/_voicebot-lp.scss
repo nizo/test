@@ -306,34 +306,43 @@ body.lp--voicebot {
 	}
 
 
-	@media screen and (max-width: 950px), screen and (max-height: 570px) {
+	@media(min-width: 1200px) {
+
 		.navigation__logo {
-			left: 25px;
+			margin-left: -21px;
 		}
+
 	}
 
-	.navigation__mobile-button {
-		display: none !important;
+	.navigation__link--arrow a:after, .navigation__link--arrow span:after {
+		background-image: url(../images/icons_svg/arrow-down-white.svg);
+		opacity: .6;
 	}
 
+	.navigation__item:hover .navigation__link--arrow a:after, .navigation__item:hover .navigation__link--arrow span:after {
+		background-image: url(../images/icons_svg/arrow-up-white.svg);
+	}
+
+	@media(min-width:946px) {
 	.navigation__links {
 		max-width: 1185px;
-        * {
+        .navigation__link > span, .navigation__right * {
             color: #fff !important;
         }
 	}
+}
 
 
-	.box-switches {
-		display:flex;
+	// .box-switches {
+	// 	display:flex;
 
-		& > div:first-of-type {
+	// 	& > div:first-of-type {
 
-		}
-		& > div:last-of-type {
+	// 	}
+	// 	& > div:last-of-type {
 			
-		}
-	}
+	// 	}
+	// }
 
 	.hero-headline {
 
@@ -350,7 +359,7 @@ body.lp--voicebot {
 	.navigation {
         transition: background 0.3s ease-out;
 		// @media(max-width: map-get($breakpointsMQ,'sm')) {
-			background-color: transparent;
+			background-color: black;
 		// }
 		&.navigation--scrolled {
 			background: black;

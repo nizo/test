@@ -433,10 +433,6 @@
                     <p>Entdecken Sie den CallOne-VoiceBot und lernen Sie die unendlichen Möglichkeiten kennen, wie unser Bot die Telekommunikations-Branche verändert. Unser Sales-Team berät Sie gerne auf dem Weg zum Einsatz Ihres KI-Assistenten individuell abgestimmt auf die Bedürfnisse Ihres Unternehmens.</p>
                     <p><strong>Melden Sie sich für den Launch an und erhalten Sie vorab unsere ausführliche Broschüre rund um das heiße Thema ChatGPT, OpenAI und unserem VoiceBot!</strong></p>
 
-                    <div style="margin-top: 2rem" class="card card--green card--infobox">
-                        <p>Treffen Sie uns auf der Call-Center-World (CCW) vom <strong>28.02 - 02.03.2023</strong> in Berlin. Einen Voucher für freien Eintritt erhalten Sie über das Kontaktformular. <strong>Sie finden uns in der Halle 3 Stand 3F3.</strong><br><a style="display: inline-block; margin-top:0.5rem" target="_blank" href="http://www.ccw.eu/firmenkontakte/callone-gmbh.html">Mehr zur Call-Center-World (CCW)</a></p>
-                    </div>
-
                 </div>
 
             </div>
