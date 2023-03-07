@@ -694,7 +694,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Kenntnisse mit PHP und SQL (Wünschenswert)');
 	$job->text_requirements_set ('Kenntnisse mit Firewall und Netzwerk (Wünschenswert)');
 	$job->text_requirements_set ('Kenntnisse mit Automatisierungstechnik wie Ansible (Wünschenswert)');
-	$job->text_requirements_set ('Bachelor- oder Masterabschluss in Informatik oder einem verwandten Bereich');
+	$job->text_requirements_set ('Berufsausbildung, Bachelor- oder Masterabschluss in Informatik oder einem verwandten Bereich');
 	$job->text_requirements_set ('Erfahrung in der Entwicklung und Wartung von VoIP-Systemen');
 	$job->text_requirements_set ('Erfahrung im 3rd Level Support');
 	$job->text_requirements_set ('Ausgezeichnete Problemlösungsfähigkeiten und Fähigkeit, kritische Situationen zu handhaben');
@@ -724,7 +724,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Kenntnisse mit CheckMK oder ähnlichen Lösungen');
 	$job->text_requirements_set ('Kenntnisse mit VoIP (Wünschenswert)');
 	$job->text_requirements_set ('Kenntnisse mit PHP und SQL (Wünschenswert)');
-	$job->text_requirements_set ('Bachelor- oder Masterabschluss in Informatik oder einem verwandten Bereich');
+	$job->text_requirements_set ('Berufsausbildung, Bachelor- oder Masterabschluss in Informatik oder einem verwandten Bereich');
 	$job->text_requirements_set ('Erfahrung in der Betreuung und Weiterentwicklung von Serverinfrastrukturen und Storage Systemen');
 	$job->text_requirements_set ('Erfahrung in der Auswahl und Planung von Rechenzentrums Hardware');
 	$job->text_requirements_set ('Ausgezeichnete Problemlösungsfähigkeiten und Fähigkeit, kritische Situationen zu handhaben');
