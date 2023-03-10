@@ -6,6 +6,10 @@ html {
 
 body.lp--voicebot {
 
+
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
     overflow-x: hidden;
 	background-color: black;	
 
@@ -157,9 +161,9 @@ body.lp--voicebot {
 		padding-top: 6rem;
 		padding-bottom: 6rem;
 
-        &:first-of-type {
-            padding-top: 0;
-        }
+        // &:first-of-type {
+        //     padding-top: 0;
+        // }
 
 	}
 	
@@ -552,7 +556,9 @@ body.lp--voicebot {
 
 }
 
-
+main {
+	flex: 1;
+}
 
 
 

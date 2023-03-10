@@ -1,3 +1,36 @@
+<?php
+
+/*
+/* CallOne's Footer will be included from external wp (blog/faq). If so, create that class with minimum settings –
+*/
+
+if(!isset($page) || !is_object($page)) {
+
+	// load counter
+	require_once('./libs/counter.inc.php');
+
+	//create page
+	Class Page {
+
+		public $reduced_footer = false;
+		public $includedFromOutside = true;
+
+		public function get_settings($key) {
+			if(property_exists($this, $key)) {
+				return $this->{$key};
+			} else {
+				return false;
+			}
+		}
+
+	}
+
+	$page = new Page();
+	}
+
+?>
+
+
 <footer class="main-footer">
     <div class="footer-content desktop">
 
@@ -183,3 +216,6 @@
         </div>
     </div>
 </footer>
+
+<?php include_once('sticky-banner.php'); ?>
+

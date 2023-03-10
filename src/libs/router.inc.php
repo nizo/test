@@ -5,6 +5,7 @@ require_once(dirname(__FILE__).'/faqs.inc.php');
 require_once(dirname(__FILE__).'/jobs.inc.php');
 require_once(dirname(__FILE__).'/products.inc.php');
 require_once(dirname(__FILE__).'/session.inc.php');
+require_once(dirname(__FILE__).'/counter.inc.php');
 
 // Default route/page data
 define('DEFAULT_SITENAME', 'CallOne');
@@ -27,6 +28,15 @@ define('DIRECTORY_LAYOUTS', './layouts/');
 class Router {
     private static $routes;
 
+	public static function render($route) { // $route == $page
+		
+		// load counter and inject into active page setting
+		$route->set_setting(['vb_counter' => (new Counter($route))->getCountRemaining()]);
+		
+		return $route;
+		
+	}
+
     public static function add($uri, $view, $data = []) {
         self::$routes[] = new Route($uri, $view, $data);
     }
@@ -39,7 +49,7 @@ class Router {
         foreach (self::$routes as $route) {
             // Check if passed URI exists as route
             if ($route->uri == $uri)
-                return $route; // Return page instance
+                return self::render($route); // Return page instance
         }
 
         return null;
@@ -122,6 +132,10 @@ class Route {
         }
 
     }
+
+	public function set_setting($settingsArray) {
+		$this->additional = array_merge($this->additional, $settingsArray);
+	}
 
 }
 
@@ -211,6 +225,7 @@ Router::add('/voicebot', 'voicebot.php', [
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
     'reduced_footer' => false,
+	'hide_vb_counter' => true,
 ]);
 
 
@@ -472,6 +487,7 @@ Router::add('/voicebot/success', 'vb-lp-success.php', [
     'body_class' => 'lp lp--voicebot',
     'no_index' => true,
     'reduced_footer' => true,
+	'hide_vb_counter' => true,
 ]);
 
 Router::add('/voicebot/success-doi', 'vb-lp-success-doi.php', [
@@ -481,6 +497,8 @@ Router::add('/voicebot/success-doi', 'vb-lp-success-doi.php', [
     'body_class' => 'lp lp--voicebot',
     'no_index' => true,
     'reduced_footer' => true,
+	'hide_vb_counter' => true,
+	'page_enum' => 'VOICEBOT_DOI_SUCCESS',
 ]);
 
 

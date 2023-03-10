@@ -61,13 +61,14 @@
     </script>
 </head>
 <body class="<?= $page->body_class; ?>">
-    <?php
-    require_once('./partials/navigation.php');
+    
+	<?php require_once('./partials/navigation.php'); ?>
 
-    require_once(DIRECTORY_VIEWS.$page->view);
-
-    require_once('./partials/footer.php');
-    ?>
+	<main>
+		<?php require_once(DIRECTORY_VIEWS.$page->view); ?>
+	</main>
+	
+	<?php require_once('./partials/footer.php'); ?>
     
     <script src="/assets/javascripts/application.min.js?build=<?= getJsHash() ?>"></script>
     <?php loadAdditionalScripts(); ?>
