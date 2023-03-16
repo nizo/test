@@ -28,6 +28,12 @@
 				<div class="icon-card__text"><h3>CallOne Softphone</h3></div>
 				<div class="icon-card__button"></div>
 			</a>
+
+			<a href="/datenschutz-voicebot" class="icon-card">
+				<div class="icon-card__text"><h3>Datenschutz VoiceBot</h3></div>
+				<div class="icon-card__button"></div>
+			</a>
+
 		</div>
 	</div>
 

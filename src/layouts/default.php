@@ -31,7 +31,7 @@
 
     <meta name="author" content="Callone GmbH" />
     <meta name="revisit-after" content="3 days" />
-    <meta name="robots" content="index,follow" />
+    <meta name="robots" content="<?= $page->get_settings('robots'); ?>" />
 
     <link rel="preconnect" href="https://googleads.g.doubleclick.net">
     <link rel="preconnect" href="https://fonts.googleapis.com">

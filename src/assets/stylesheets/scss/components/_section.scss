@@ -449,6 +449,27 @@
         border-radius: 10px;
         padding: 30px;
     }
+
+	&--fix-typo {
+		/*
+		* This reactivates parts of the meaningful typo styling from _general.scss which is apparently often not used due to the missing .wrapper > .content > *
+		* TODO Relocate/Refactor/SCSS Mixin
+		*/
+		
+		*+h3, *+.h3 {
+			margin-top: $gutter-l;
+		}
+		h3+p, h3+ul, .h3+p, .h3+ul {
+			margin-top: $gutter-m;
+		}
+		*:not(p)+p, *+ul, *+h2 {
+			margin-top: $gutter-m;
+		}
+		p + h2 {
+			margin-top: $gutter-l;
+		}
+	}
+
 }
 
 @media screen and (max-width: 1000px) {

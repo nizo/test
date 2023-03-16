@@ -18,6 +18,7 @@ define('DEFAULT_OG_TITLE', DEFAULT_TITLE);
 define('DEFAULT_SITEMAP_INCLUDE', true);
 define('DEFAULT_SITEMAP_PRIORITY', '0.5');
 define('DEFAULT_SITEMAP_CHANGE_FREQUENCY', 'weekly');
+define('DEFAULT_ROBOTS','index,follow');
 
 // Global site data
 define('DOMAIN', 'https://'.@$_SERVER['HTTP_HOST']);
@@ -79,6 +80,7 @@ class Route {
     public $shorttitle;
     public $body_class;
     public $menu_position;
+	public $robots = DEFAULT_ROBOTS;
 
     // Meta relevant data
     public $meta_description = DEFAULT_META_DESCRIPTION;
@@ -391,6 +393,15 @@ Router::add('/datenschutz', 'datenschutz.php', [
     'meta_description' => 'CallOne bietet VoIP-Telefonanlagen und Callcenter Lösungen aus der deutschen Cloud. Datenschutz hat für uns oberste Priorität. ✔  DSGVO-konform  ✔',
     'og_image_text' => 'CallOne Datenschutz, DSGVO, Cloud EU',
 ]);
+Router::add('/datenschutz-voicebot', 'datenschutz-voicebot.php', [
+    'shorttitle' => 'Datenschutz VoiceBot',
+    'title' => 'CallOne Datenschutz VoiceBot',
+    'meta_description' => 'CallOne bietet VoIP-Telefonanlagen und Callcenter Lösungen aus der deutschen Cloud. Datenschutz hat für uns oberste Priorität. ✔  DSGVO-konform  ✔',
+    'og_image_text' => 'CallOne Datenschutz, DSGVO, Cloud EU',
+	'robots' => 'noindex,nofollow',
+	'sitemap_include' => false,
+	// 'noindex' => true
+]);
 Router::add('/download', 'downloads.php', [
     'shorttitle' => 'Downloads',
     'title' => 'CallOne Downloads',
@@ -483,9 +494,9 @@ Router::add('/zendesk-cti-ticketing', 'cti/zendesk.php', [
 Router::add('/voicebot/success', 'vb-lp-success.php', [
     'title' => 'Ihre Registrierung bei CallOne',
     'layout' => 'message.php',
-    'sitemap_include' => false,
+	'sitemap_include' => false,
     'body_class' => 'lp lp--voicebot',
-    'no_index' => true,
+    'robots' => 'noindex,follow',
     'reduced_footer' => true,
 	'hide_vb_counter' => true,
 ]);
@@ -493,11 +504,11 @@ Router::add('/voicebot/success', 'vb-lp-success.php', [
 Router::add('/voicebot/success-doi', 'vb-lp-success-doi.php', [
     'title' => 'Ihre Registrierung bei CallOne',
     'layout' => 'message.php',
-    'sitemap_include' => false,
+	'sitemap_include' => false,
     'body_class' => 'lp lp--voicebot',
-    'no_index' => true,
     'reduced_footer' => true,
 	'hide_vb_counter' => true,
+	'robots' => 'noindex,follow',
 	'page_enum' => 'VOICEBOT_DOI_SUCCESS',
 ]);
 

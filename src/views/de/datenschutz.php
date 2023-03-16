@@ -1,5 +1,5 @@
-<div class="section">
-    <div class="section__content section__content--narrow">
+<div class="section section--fix-typo">
+    <div class="section__content section__content--narrow ">
         <h1 class="centered mobile-left">Datenschutzhinweise der CallOne GmbH</h1>
         <br />
         <p class="subtext">Stand 18.08.2021</p>
