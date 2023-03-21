@@ -31,7 +31,7 @@ $faqs->faq_add (
         <div class="hero__text">
             <h1>Professionelle Telefonie ist <span class="highlight">einfach zuverlässig</span>.</h1>
 
-            <p class="bigtext">Die Cloud Telefonalage,<br> die <span class="typing-text" data-texts="Ihre IT-Abteilung lieben wird.|intuitiv bedienbar ist.|an bestehende Systeme anbindbar ist.|direkt vom Hersteller kommt." data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B"></span></p>
+            <p class="bigtext">Die Cloud Telefonanlage,<br> die <span class="typing-text" data-texts="Ihre IT-Abteilung lieben wird.|intuitiv bedienbar ist.|an bestehende Systeme anbindbar ist.|direkt vom Hersteller kommt." data-colors="#0088EA|#53ba05|#FF002E|#FF7B1B"></span></p>
 
             <p class="btn-set mobile-centered">
                 <a href="#" data-openmodal="contact-sales" class="btn btn--primary centered trackedContactModal">Jetzt kostenlos testen!</a>
