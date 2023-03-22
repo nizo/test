@@ -439,6 +439,28 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
+	$job = new job ('Office', 'Assistenz der Geschäftsführung', 'In der Rolle der Assistenz der Geschäftsführung arbeitest Du eng mit unserer Geschäftsführung und dem Projektmanagement zusammen.');
+	$job->location_set ('Potsdam');
+	$job->url_set ('/karriere/job-assistenz-geschaeftsfuehrung-'.$job->location_get());
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Unterstütze die Geschäftsführung tagtäglich bei einem vielfältigen Aufgabenspektrum.');
+	$job->text_description_long_set ('In der Rolle der Assistenz der Geschäftsführung arbeitest Du eng mit unserer Geschäftsführung und dem Projektmanagement zusammen, um einen reibungslosen Ablauf und effiziente Entscheidungsprozesse zu gewährleisten. Dein vielfältiges Aufgabenspektrum umfasst die Koordination und Kommunikation zwischen verschiedenen internen und externen Stakeholdern.');
+	$job->text_description_long_set ('Sie sind interessiert und möchten mehr über diese spannende Position erfahren? Stefanie Bendig freut sich auf Ihre Kontaktaufnahme! Sie können sich darauf verlassen, dass absolute Diskretion gewahrt wird und eventuelle Sperrvermerke eingehalten werden.');
+	$job->text_tasks_set ('Koordination und Kommunikation zwischen Geschäftsführung, Projektmanagement und externen Partnern');
+	$job->text_tasks_set ('Erarbeitung von Entscheidungsgrundlagen und Durchführung von Recherchen zur Entscheidungsfindung');
+	$job->text_tasks_set ('Erstellung von detaillierten Projektberichten, ansprechenden Präsentationen sowie Visualisierung von Ergebnissen und Kalkulationen');
+	$job->text_tasks_set ('Organisation und Verwaltung von Terminen, Reisen sowie Reisekostenabrechnungen');
+	$job->text_requirements_set ('Erfolgreich abgeschlossene kaufmännische Ausbildung, z. B. als Sekretär/in, Notariatsfachangestellte/r, Steuerfachangestellte/r (m/w/d) oder vergleichbar');
+	$job->text_requirements_set ('Mehrjährige Berufserfahrung in einer Assistenzposition im Managementbereich');
+	$job->text_requirements_set ('Umfassende MS-Office-Kenntnisse, insbesondere Excel');
+	$job->text_requirements_set ('Hervorragende Kommunikationsfähigkeiten auf allen Hierarchieebenen und eigeninitiatives Handeln');
+	$job->text_requirements_set ('Verhandlungssichere Deutschkenntnisse');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['administration']);
+	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
+	$jobs->job_add ($job);
+
 	$job = new job ('Office', 'Quereinsteiger*in, Junior Projektmanagement', 'Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-quereinsteiger-in-'.$job->location_get());
