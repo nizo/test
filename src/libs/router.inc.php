@@ -218,11 +218,24 @@ Router::add('/call-tracking', 'calltracking.php', [
 
 Router::add('/voicebot', 'voicebot.php', [
 	// 'shorttitle' => 'Callcenter Bot',
-    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'title' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
    #'layout' => 'lp-reduced.php',
 	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'og_image_text' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
     'body_class' => 'lp lp--voicebot',
+	'menu_position' => 'loesungen',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'hide_vb_counter' => true,
+]);
+
+Router::add('/voicebot-preise', 'voicebot-preise.php', [
+	// 'shorttitle' => 'Callcenter Bot',
+    'title' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
+   #'layout' => 'lp-reduced.php',
+	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
+    'og_image_text' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
 	'menu_position' => 'loesungen',
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
