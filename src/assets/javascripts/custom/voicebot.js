@@ -12,6 +12,7 @@ class vbCount {
             if (newValue < 1)
                 newValue = 1;
             this.current.textContent = newValue;
+            handleTotal();
         });
 
         this.plus.addEventListener('click', e => {
@@ -19,6 +20,7 @@ class vbCount {
             e.preventDefault();
             let newValue = parseInt(this.current.textContent) + 1;
             this.current.textContent = newValue;
+            handleTotal();
         });
     }
 }
@@ -94,15 +96,20 @@ function handleTotal() {
     additionals.forEach(additional => {
         if (additional.checked) {
             selected++;
-            total += parseInt(additional.getAttribute('data-price'));
 
             let label = document.querySelector('label[for="'+additional.id+'"]');
             let additionalName = label.querySelector('h4').textContent;
             let additionalPrice = parseInt(additional.getAttribute('data-price'));
+            let countEl = label.querySelector('.vb-count__current');
+            let count = 1;
+            if (countEl) {
+                count = parseInt(countEl.textContent);
+            }
+
             if (additionalPrice == 0) {
                 additionalPrice = '';
             } else {
-                additionalPrice = '€' + additionalPrice;
+                additionalPrice = '€' + additionalPrice * count;
             }
             additionalPrice = additionalPrice.replace(/\./g, ',');
             additionalsSelected.innerHTML += `
@@ -111,6 +118,8 @@ function handleTotal() {
                     <div class="co-grid__col">${additionalPrice}</div>
                 </div>
             `;
+
+            total += parseInt(additional.getAttribute('data-price') * count);
         }
     });
     if (selected == 0)
@@ -126,6 +135,87 @@ function handleTotal() {
     let totalParsed = Math.round(total * 100) / 100 + '';
     totalParsed = totalParsed.replace(/\./g, ',');
     totalLabel.innerHTML = '<strong>&euro;'+totalParsed+'</strong><br />inkl. 19% MwSt.';
+
+    let totalMobile = document.querySelector('.vb-cart-mobile__monthly');
+    totalMobile.textContent = 'Monatlich: ' + totalParsed + ' €';
+}
+
+let step = 1;
+function toggleStep(e) {
+    e.preventDefault();
+    let btnNextStep = document.querySelector('.btn-next-step');
+    let btnSubmit = document.querySelector('.btn-submit');
+    let contentForm = document.querySelector('#content_form');
+    let contentSelection = document.querySelector('#content_selection');
+
+    if (step == 1) {
+        contentForm.style.display = '';
+        contentSelection.style.display = 'none';
+        btnSubmit.style.display = '';
+        btnNextStep.style.display = 'none';
+        step = 2;
+        window.scrollTo(0, contentForm.offsetTop - 100);
+    } else {
+        contentForm.style.display = 'none';
+        contentSelection.style.display = '';
+        btnSubmit.style.display = 'none';
+        btnNextStep.style.display = '';
+        step = 1;
+        window.scrollTo(0, contentSelection.offsetTop - 100);
+    }
+}
+
+function handleSubmit(e) {
+    e.preventDefault();
+    let form = e.currentTarget;
+    let formData = new FormData(form);
+    let isYearly = document.querySelector('[name="vb-interval-toggle"]:checked') ? true : false;
+    let package = document.querySelector('[name="package"]:checked').value;
+    let additionals = Array.from(document.querySelectorAll('[name="vb-additional"]:checked'));
+    let additionalsValues = additionals.map(a => {
+        let count = 1;
+        let label = document.querySelector('[for="'+a.id+'"]');
+        let countEl = label.querySelector('.vb-count__current');
+        if (countEl) {
+            count = parseInt(countEl.textContent);
+        }
+        return count + 'x ' + a.value;
+    });
+    formData.append('package', package);
+    formData.append('yearly_payment', isYearly);
+    additionalsValues.forEach(a => formData.append('additional[]', a));
+
+    // console.log(formData.get('firstname'), isYearly, package, additionalsValues);
+
+    let error = form.querySelector('.floating-form__error');
+    let btnSubmit = document.querySelector('.btn-submit');
+    let contentSuccess = document.querySelector('#content_success');
+    let contentForm = document.querySelector('#content_form');
+    let contentSelection = document.querySelector('#content_selection');
+    error.classList.remove('floating-form__error--active');
+    const postUrl = 'TODO: Add url';
+    fetch(postUrl, {
+        method: 'POST',
+        cache: 'no-cache',
+        body: formData
+    })
+    .then(response => {
+        return response.json();
+    })
+    .then(data => {
+        btnSubmit.style.display = 'none';
+        contentSuccess.style.display = '';
+        contentForm.style.display = 'none';
+        contentSelection.style.display = 'none';
+        window.scrollTo(0, contentSuccess.offsetTop - 100);
+    })
+    .catch(response => {
+        console.error(response);
+        error.classList.add('floating-form__error--active');
+        window.scrollTo(0, contentForm.offsetTop - 100);
+    });
+
+    return false;
 }
 
 document.addEventListener('DOMContentLoaded', e => {
@@ -143,4 +233,13 @@ document.addEventListener('DOMContentLoaded', e => {
 
     let additionals = document.querySelectorAll('.vb-additionals input');
     additionals.forEach(additional => additional.addEventListener('change', handleTotal));
+
+    let btnNextStep = document.querySelector('.btn-next-step');
+    let btnPrevStep = document.querySelector('.btn-prev-step');
+
+    btnNextStep.addEventListener('click', toggleStep);
+    btnPrevStep.addEventListener('click', toggleStep);
+
+    let vbForm = document.querySelector('#voicebot-form');
+    vbForm.addEventListener('submit', handleSubmit);
 });
