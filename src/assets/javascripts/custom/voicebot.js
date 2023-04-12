@@ -43,6 +43,7 @@ function handlePackageSelect() {
     let priceParsed = (isYearly ? Math.round((price * yearDiscount) * 100) / 100 : price) + '';
     priceParsed = priceParsed.replace(/\./g, ',');
     selectionPrice.textContent = '€' + priceParsed;
+    let totalMobile = document.querySelector('.vb-cart-mobile__monthly');
 
     switch (selection.id) {
         case "package-1":
@@ -60,6 +61,7 @@ function handlePackageSelect() {
         case "package-4":
             selectionTitle.textContent = 'Enterprise';
             selectionPriceBox.style.display = 'none';
+            totalMobile.textContent = 'Monatlich: individuell';
             selectionMinutes.innerHTML = '4.000 Minuten inklusive<br /><span>jede weitere 7,9 Cent</span>';
             break;
     }
@@ -183,9 +185,16 @@ function handleSubmit(e) {
     });
     formData.append('package', package);
     formData.append('yearly_payment', isYearly);
+    formData.append('total_once', document.querySelector('.vb-selection__total-once').textContent);
+    formData.append('total_monthly', document.querySelector('.vb-selection__total').textContent);
     additionalsValues.forEach(a => formData.append('additional[]', a));
 
-    // console.log(formData.get('firstname'), isYearly, package, additionalsValues);
+    // Add path to formdata
+    formData.set('type', 9);
+    formData.set('mouseflow', '');
+    if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
+        formData.set('mouseflow', mouseflow.getSessionId());
+    }
 
     let error = form.querySelector('.floating-form__error');
     let btnSubmit = document.querySelector('.btn-submit');
@@ -193,7 +202,7 @@ function handleSubmit(e) {
     let contentForm = document.querySelector('#content_form');
     let contentSelection = document.querySelector('#content_selection');
     error.classList.remove('floating-form__error--active');
-    const postUrl = 'TODO: Add url';
+    const postUrl = 'https://connect.callone.io/backend/contact-test.php';
     fetch(postUrl, {
         method: 'POST',
         cache: 'no-cache',

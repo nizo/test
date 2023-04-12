@@ -84,6 +84,12 @@ $faqs->faq_add (
 
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md" id="content_success" style="display: none">
+                <div class="vb-progress" style="--progress:100%">
+                    <div class="vb-progress__step vb-progress__step--active" data-label="Übersicht"></div>
+                    <div class="vb-progress__step vb-progress__step--active" data-label="Kontaktdaten"></div>
+                    <div class="vb-progress__step vb-progress__step--active" data-label="Anfrage abgeschickt"></div>
+                </div>
+
                 <h2>Vielen Dank für Ihre Anfrage</h2>
                 <p class="secondary">Ihre Angebotsanfrage hat uns erreicht. Wir werden uns umgehend mit Ihnen in Verbindung setzen.</p>
             </div>
@@ -149,7 +155,7 @@ $faqs->faq_add (
                         <div class="floating-form__col" style="--maxWidth:200px">Ihre Telefonnummer:</div>
                         <div class="floating-form__col" style="--maxWidth:300px">
                             <div class="floating-form__field">
-                                <input type="text" name="phone" placeholder=" ">
+                                <input type="text" name="phonenumber" placeholder=" ">
                                 <label>+49 174 / 123 456 78</label>
                             </div>
                         </div>
@@ -173,7 +179,7 @@ $faqs->faq_add (
                         <div class="floating-form__col" style="--maxWidth:200px">Unternehmensgröße:</div>
                         <div class="floating-form__col" style="--maxWidth:300px">
                             <div class="floating-form__field">
-                                <input type="text" name="companysize" placeholder=" ">
+                                <input type="text" name="employees" placeholder=" ">
                                 <label>ca. 200</label>
                             </div>
                         </div>
@@ -205,6 +211,15 @@ $faqs->faq_add (
                             </div>
                         </div>
                     </div>
+
+                    <?php
+                    $path = json_encode($_SESSION['userRoute']);
+                    foreach ($_SESSION['userRoute'] as $path) {
+                        ?>
+                        <input type="hidden" name="path[]" value="<?= $path; ?>">
+                        <?php
+                    }
+                    ?>
                 </form>
             </div>
 
@@ -408,7 +423,7 @@ $faqs->faq_add (
 
                         <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
                             <div class="co-grid__col co-grid__col--fill">Einmalig:</div>
-                            <div class="co-grid__col co-grid__col vb-selection__price"><strong>&euro;0,00</strong></div>
+                            <div class="co-grid__col co-grid__col vb-selection__price vb-selection__total-once"><strong>&euro;0,00</strong></div>
                         </div>
                         <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
                             <div class="co-grid__col co-grid__col--fill">Monatlich:</div>
