@@ -340,7 +340,7 @@ function jobs_load ()
 	$job->text_tasks_set ('Betreuung von Bestandskunden');
 	$job->text_tasks_set ('Unterstützung der Kunden beim Onboarding unserer Telefonielösungen');
 	$job->text_tasks_set ('Planung und Umsetzung neuer Kundenprojekte');
-	$job->text_tasks_set ('Erstellung und Umsetzung von Kundenetwicklungsplänen');
+	$job->text_tasks_set ('Erstellung und Umsetzung von Kundenentwicklungsplänen');
 	$job->text_tasks_set ('Koordination von Support-Anfragen und Feature Requests');
 	$job->text_tasks_set ('Enge Zusammenarbeit mit Entwicklung, Lieferanten und Partnern');
 	$job->text_tasks_set ('Eigenständige Dokumentation und Analyse von Kundenprojekten');
