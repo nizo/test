@@ -134,12 +134,15 @@ function handleTotal() {
     total += isYearly ? price * yearDiscount : price;
 
     let totalLabel = document.querySelector('.vb-selection__total');
-    let totalParsed = Math.round(total * 100) / 100 + '';
-    totalParsed = totalParsed.replace(/\./g, ',');
-    totalLabel.innerHTML = '<strong>&euro;'+totalParsed+'</strong><br />inkl. 19% MwSt.';
+    let totalParsed = '<strong>individuell</strong>';
+    if (total != 0) {
+        totalParsed = Math.round(total * 100) / 100 + '';
+        totalParsed = '<strong>&euro;'+totalParsed.replace(/\./g, ',')+'</strong>';
+    }
+    totalLabel.innerHTML = totalParsed + (total != 0 ? '<br />inkl. 19% MwSt.' : '');
 
     let totalMobile = document.querySelector('.vb-cart-mobile__monthly');
-    totalMobile.textContent = 'Monatlich: ' + totalParsed + ' €';
+    totalMobile.innerHTML = 'Monatlich: ' + totalParsed;
 }
 
 let step = 1;
@@ -171,7 +174,7 @@ function handleSubmit(e) {
     e.preventDefault();
     let form = e.currentTarget;
     let formData = new FormData(form);
-    let isYearly = document.querySelector('[name="vb-interval-toggle"]:checked') ? true : false;
+    let payment_interval = document.querySelector('[name="vb-interval-toggle"]:checked') ? 'jährlich' : 'monatlich';
     let package = document.querySelector('[name="package"]:checked').value;
     let additionals = Array.from(document.querySelectorAll('[name="vb-additional"]:checked'));
     let additionalsValues = additionals.map(a => {
@@ -184,9 +187,9 @@ function handleSubmit(e) {
         return count + 'x ' + a.value;
     });
     formData.append('package', package);
-    formData.append('yearly_payment', isYearly);
-    formData.append('total_once', document.querySelector('.vb-selection__total-once').textContent);
-    formData.append('total_monthly', document.querySelector('.vb-selection__total').textContent);
+    formData.append('payment_interval', payment_interval);
+    formData.append('total_once', document.querySelector('.vb-selection__total-once strong').textContent);
+    formData.append('total_monthly', document.querySelector('.vb-selection__total strong').textContent);
     additionalsValues.forEach(a => formData.append('additional[]', a));
 
     // Add path to formdata
@@ -202,7 +205,7 @@ function handleSubmit(e) {
     let contentForm = document.querySelector('#content_form');
     let contentSelection = document.querySelector('#content_selection');
     error.classList.remove('floating-form__error--active');
-    const postUrl = 'https://connect.callone.io/backend/contact-test.php';
+    const postUrl = 'https://connect.callone.io/backend/contact.php';
     fetch(postUrl, {
         method: 'POST',
         cache: 'no-cache',
@@ -225,6 +228,20 @@ function handleSubmit(e) {
     });
 
     return false;
+}
+
+function handleMobileCartDisplay() {
+    let scrollPos = window.scrollY;
+    let hookElement = document.querySelector('.vb-cart-mobile-hook');
+    let mobileCart = document.querySelector('.vb-cart-mobile');
+    
+    console.log(hookElement.offsetHeight);
+    if ((hookElement.offsetTop - (window.innerHeight / 2)) - scrollPos <= 0 &&
+        (hookElement.offsetHeight + hookElement.offsetTop - (window.innerHeight / 2)) >= scrollPos) {
+        mobileCart.classList.add('vb-cart-mobile--visible');
+    } else {
+        mobileCart.classList.remove('vb-cart-mobile--visible');
+    }
 }
 
 document.addEventListener('DOMContentLoaded', e => {
@@ -251,4 +268,6 @@ document.addEventListener('DOMContentLoaded', e => {
 
     let vbForm = document.querySelector('#voicebot-form');
     vbForm.addEventListener('submit', handleSubmit);
+
+    window.addEventListener('scroll', handleMobileCartDisplay);
 });

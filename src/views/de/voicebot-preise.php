@@ -62,17 +62,16 @@ $faqs->faq_add (
             </div>
         </div>
         <div class="hero__image">
-            <!-- TODO: Alt text -->
 			<?= pictureTag(
 				'/assets/images/illus/api-hero-illustration.svg',
-				'',
+				'Unsere Business-Pakete für den CallOne Voicebot',
 				465, 336, [], false
 			); ?>
         </div>
     </header>
 </div>
 
-<div class="section section--no-padding-top" style="--fs:16px">
+<div class="section section--no-padding-top vb-cart-mobile-hook" style="--fs:16px">
     <div class="section__content section__content--wide">
         <a href="#cart" class="vb-cart-mobile">
             <h6>Aktuelle Gesamtkosten</h6>

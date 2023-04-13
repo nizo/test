@@ -14,7 +14,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 
     @media screen and (max-width: 800px) {
-        display: block;
+        &.vb-cart-mobile--visible {
+            display: block;
+        }
     }
 
     h6 {
