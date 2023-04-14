@@ -233,7 +233,7 @@ $faqs->faq_add (
                 </div>
 
                 <div class="vb-packages">
-                    <input type="radio" name="package" id="package-1" value="Startup" checked>
+                    <!-- <input type="radio" name="package" id="package-1" value="Startup" checked>
                     <label for="package-1" class="vb-package" data-price="124">
                         <h4>Startup</h4>
                         <div class="vb-package__price">
@@ -271,7 +271,7 @@ $faqs->faq_add (
                             <li>4.000 Minuten inklusive<br /><span>jede weitere 7,9 Cent</span></li>
                             <li>3 Sprachkanäle</li>
                         </ul>
-                    </label>
+                    </label> -->
                     <input type="radio" name="package" id="package-4" value="Enterprise">
                     <label for="package-4" class="vb-package vb-package--wide">
                         <h4>Enterprise</h4>

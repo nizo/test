@@ -1,3 +1,29 @@
+const packages = [{
+    'name': 'Startup',
+    'price': 124,
+    'features': [
+        'Monatlich kündbar',
+        '14 Tage testen',
+        '500 Minuten inklusive<br /><span>jede weitere  15 Cent</span>'
+    ]
+}, {
+    'name': 'Small Business',
+    'price': 249,
+    'features': [
+        'Monatlich kündbar',
+        '14 Tage testen',
+        '2.000 Minuten inklusive<br /><span>jede weitere  9,5 Cent</span>'
+    ]
+}, {
+    'name': 'Growing Business',
+    'price': 436,
+    'features': [
+        'Monatlich kündbar',
+        '14 Tage testen',
+        '4.000 Minuten inklusive<br /><span>jede weitere  7,9 Cent</span>'
+    ]
+}];
+
 class vbCount {
     constructor(el) {
         this.counter = el;
@@ -23,6 +49,34 @@ class vbCount {
             handleTotal();
         });
     }
+}
+
+function packagesInit() {
+    let packagesContainer = document.querySelector('.vb-packages');
+
+    // Loop through reverse to ensure the elements are in correct order because they'll be prepended, not appended
+    packages.slice().reverse().forEach((package, i) => {
+        i = packages.length - i; // Reverse index
+        let template = `<input type="radio" name="package" id="package-${i}" value="${package.name}"${i == 1 ? ' checked' : ''}>
+                        <label for="package-${i}" class="vb-package" data-price="${package.price}">
+                            <h4>${package.name}</h4>
+                            <div class="vb-package__price">
+                                &euro;<em>${package.price}</em> <span>/ Monat</span>
+                            </div>
+                            <ul class="list list--checkmarks">
+                                ${function () {
+                                    let result = '';
+                                    package.features.forEach(feature => {
+                                        result += '<li>'+feature+'</li>';
+                                    });
+                                    return result;
+                                }()}
+                            </ul>
+                        </label>`;
+        
+        // Prepend element to container
+        packagesContainer.innerHTML = template + packagesContainer.innerHTML;
+    });
 }
 
 function handlePackageSelect() {
@@ -247,6 +301,8 @@ function handleMobileCartDisplay() {
 document.addEventListener('DOMContentLoaded', e => {
     let counter = document.querySelectorAll('.vb-count');
     counter.forEach(c => new vbCount(c));
+
+    packagesInit();
 
     let selector = document.querySelectorAll('input[name="package"]');
     selector.forEach(s => {
