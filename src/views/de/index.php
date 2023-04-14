@@ -227,7 +227,7 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Automatisierung next level: Echtzeit- und Sprachanalyse sowie Callcenterbots gehören zu unserem Portfolio.</p>
 
-                    <p><a href="/0800-lokal-nummern" class="btn btn--border-bottom btn--arrow-right-small">Echtzeit-Sprachanalyse</a></p>
+                    <p><a href="/voicebot" class="btn btn--border-bottom btn--arrow-right-small">Echtzeit-Sprachanalyse</a></p>
                 </div>
             </div>
         </div>
