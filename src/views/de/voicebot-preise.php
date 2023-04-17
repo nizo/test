@@ -76,7 +76,6 @@ $faqs->faq_add (
         <a href="#cart" class="vb-cart-mobile">
             <h6>Aktuelle Gesamtkosten</h6>
             <div>
-                <div class="vb-cart-mobile__once">Einmalig: 0,00 €</div>
                 <div class="vb-cart-mobile__monthly">Monatlich: 124,00 €</div>
             </div>
         </a>
@@ -233,85 +232,13 @@ $faqs->faq_add (
                 </div>
 
                 <div class="vb-packages">
-                    <!-- <input type="radio" name="package" id="package-1" value="Startup" checked>
-                    <label for="package-1" class="vb-package" data-price="124">
-                        <h4>Startup</h4>
-                        <div class="vb-package__price">
-                            &euro;<em>124</em> <span>/ Monat</span>
-                        </div>
-                        <ul class="list list--checkmarks">
-                            <li>Monatlich kündbar</li>
-                            <li>14 Tage testen</li>
-                            <li>500 Minuten inklusive<br /><span>jede weitere 15 Cent</span></li>
-                            <li>3 Sprachkanäle</li>
-                        </ul>
-                    </label>
-                    <input type="radio" name="package" id="package-2" value="Small Business">
-                    <label for="package-2" class="vb-package" data-price="249">
-                        <h4>Small Business</h4>
-                        <div class="vb-package__price">
-                            &euro;<em>249</em> <span>/ Monat</span>
-                        </div>
-                        <ul class="list list--checkmarks">
-                            <li>Monatlich kündbar</li>
-                            <li>14 Tage testen</li>
-                            <li>2.000 Minuten inklusive<br /><span>jede weitere 9,5 Cent</span></li>
-                            <li>3 Sprachkanäle</li>
-                        </ul>
-                    </label>
-                    <input type="radio" name="package" id="package-3" value="Growing Business">
-                    <label for="package-3" class="vb-package" data-price="436">
-                        <h4>Growing Business</h4>
-                        <div class="vb-package__price">
-                            &euro;<em>436</em> <span>/ Monat</span>
-                        </div>
-                        <ul class="list list--checkmarks">
-                            <li>Monatlich kündbar</li>
-                            <li>14 Tage testen</li>
-                            <li>4.000 Minuten inklusive<br /><span>jede weitere 7,9 Cent</span></li>
-                            <li>3 Sprachkanäle</li>
-                        </ul>
-                    </label> -->
-                    <input type="radio" name="package" id="package-4" value="Enterprise">
-                    <label for="package-4" class="vb-package vb-package--wide">
-                        <h4>Enterprise</h4>
-                        <div class="vb-package__price">
-                            Individuelles Paket für Ihre Bedürfnisse
-                        </div>
-                        <div class="co-grid co-grid--no-margin-top">
-                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                                <ul class="list list--checkmarks">
-                                    <li>Persönlicher Account-Manager</li>
-                                    <li>Kundenspezifische Entwicklungen</li>
-                                    <li>Rechts- und Sicherheitsunterstützung</li>
-                                </ul>
-                            </div>
-                            <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
-                                <ul class="list list--checkmarks">
-                                    <li>SLA-Vereinbarung</li>
-                                    <li>Entstörzeiten</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </label>
+                    
                 </div>
 
                 <h2>Zusatzoptionen</h2>
                 <p class="secondary">Passen Sie Ihr Telefonieerlebnis flexibel an Ihre Bedürfnisse an und buchen Sie Zusatzoptionen hinzu, die bestmöglich zu Ihren Bedürfnissen passen.</p>
 
                 <div class="vb-additionals">
-                    <input type="checkbox" name="vb-additional" id="vb-additional-1" data-price="25" value="Weitere Kanäle für Sprachtranskription">
-                    <label for="vb-additional-1" class="vb-additional">
-                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Weitere Kanäle für Sprachtranskription</h4>
-                        <div class="vb-additional__price">&euro;25 / Kanal</div>
-                        <div class="vb-count">
-                            <div class="vb-count__button vb-count__button--minus">-</div>
-                            <div class="vb-count__current">1</div>
-                            <div class="vb-count__button vb-count__button--plus">+</div>
-                        </div>
-                    </label>
-
                     <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="49" value="Echtzeit-API (Webhook)">
                     <label for="vb-additional-2" class="vb-additional">
                         <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
@@ -398,10 +325,6 @@ $faqs->faq_add (
                                         <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_png/icon-stopwatch.png" alt="" /></div>
                                         <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__minutes">500 Minuten inklusive<br /><span>jede weitere 15 Cent</span></div>
                                     </div>
-                                    <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                                        <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_png/icon-phone-volume.png" alt="" /></div>
-                                        <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered">3 Sprachkanäle</div>
-                                    </div>
                                 </div>
                                 <div class="co-grid__col vb-selection__price">
                                     <strong>&euro;124,00</strong><br />
@@ -420,10 +343,6 @@ $faqs->faq_add (
                     <div class="vb-cart__content">
                         <h6>Gesamtkosten</h6>
 
-                        <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--fill">Einmalig:</div>
-                            <div class="co-grid__col co-grid__col vb-selection__price vb-selection__total-once"><strong>&euro;0,00</strong></div>
-                        </div>
                         <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
                             <div class="co-grid__col co-grid__col--fill">Monatlich:</div>
                             <div class="co-grid__col co-grid__col vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />inkl. 19% MwSt.</div>
