@@ -234,7 +234,7 @@ Router::add('/voicebot-preise', 'voicebot-preise.php', [
 	// 'shorttitle' => 'Callcenter Bot',
     'title' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
    #'layout' => 'lp-reduced.php',
-	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
+	'meta_description' => 'Voicebot für Ihre Hotline. Sie Fragen sich welches Preispaket das Richtige für Sie ist? Hier finden Sie es heraus.​',
     'og_image_text' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
 	'menu_position' => 'loesungen',
 	'sitemap_priority' => '0.9',

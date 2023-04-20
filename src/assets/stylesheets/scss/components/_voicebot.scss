@@ -93,7 +93,7 @@
     }
 
     &__content {
-        padding: 40px;
+        padding: 25px;
 
         &+.vb-cart__content {
             border-top: 1px solid rgba(0, 0, 0, 0.08);
@@ -315,7 +315,7 @@
     --highlight: #000;
     --bg: #F5F5F5;
 
-    width: calc(33.33% - 8px);
+    width: calc(25% - 8px);
     background: var(--bg);
     border-radius: 14px;
     padding: 24px 16px;

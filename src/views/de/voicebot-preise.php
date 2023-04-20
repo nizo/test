@@ -24,17 +24,17 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white section--mobile-divider">
     <header class="hero">
-        <div class="hero__text">
+        <div class="hero__text" style="max-width:710px">
 			<div class="tag" style="--bg:#dafabc;--color:#000">
-				ChatGPT &times; Voicebot
+				ChatGPT &times; VoiceBot
 			</div>
 
             <h1>
-                Unsere Business-Pakete für<br />
-                den <span class="highlight">CallOne Voicebot.</span>
+                Die Zukunft des Kundenservice:<br />
+                Passgenaue Pakete <br />für <span class="highlight">Ihr Business</span>
             </h1>
             <h2>
-				Die CallOne-Tarife gibt es in drei  verschiedenen Business-Paketen. Entscheiden Sie sich für das Paket, das am besten zu Ihrem Unternehmen passt und genießen Sie volle Flexibilität.
+                Entdecken Sie flexible Preismodelle für unseren leistungsstarken ChatGPT-Voicebot &ndash; maßgeschneidert für Ihre individuellen Bedürfnisse und Anforderungen.
 			</h2>
 
             <p>
@@ -114,47 +114,30 @@ $faqs->faq_add (
                     </div>
 
                     <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Ihr Vorname: *</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="firstname" placeholder=" " required>
-                                <label>Vorname</label>
+                                <label>Ihr Vorname *</label>
                             </div>
                         </div>
-                    </div>
-                    <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Ihr Nachname: *</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="lastname" placeholder=" " required>
-                                <label>Nachname</label>
+                                <label>Ihr Nachname *</label>
                             </div>
                         </div>
                     </div>
                     <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Ihre Position:</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
-                            <div class="floating-form__field">
-                                <input type="text" name="position" placeholder=" ">
-                                <label>Customer Support / CEO / ...</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Ihre E-Mail-Adresse: *</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="email" placeholder=" " required>
-                                <label>max@mustermann.de</label>
+                                <label>Ihre E-Mail Adresse *</label>
                             </div>
                         </div>
-                    </div>
-                    <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Ihre Telefonnummer:</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="phonenumber" placeholder=" ">
-                                <label>+49 174 / 123 456 78</label>
+                                <label>Ihre Telefonnummer</label>
                             </div>
                         </div>
                     </div>
@@ -165,48 +148,48 @@ $faqs->faq_add (
                     <p>Nun würden wir gern ein paar Dinge über das Unternehmen wissen, für das Sie anfragen.</p>
 
                     <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Firmenname: *</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="company" placeholder=" " required>
-                                <label>Firma GmbH</label>
+                                <label>Firmenname *</label>
+                            </div>
+                        </div>
+                        <div class="floating-form__col">
+                            <div class="floating-form__field">
+                                <input type="text" name="position" placeholder=" ">
+                                <label>Ihre Position</label>
                             </div>
                         </div>
                     </div>
                     <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Unternehmensgröße:</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="employees" placeholder=" ">
-                                <label>ca. 200</label>
+                                <label>Unternehmensgröße</label>
                             </div>
                         </div>
-                    </div>
-                    <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Branche:</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
+                        <div class="floating-form__col">
                             <div class="floating-form__field">
                                 <input type="text" name="branche" placeholder=" ">
-                                <label>E-Commerce / Handel / Bau / ...</label>
+                                <label>Branche</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-form__row">
+                        <div class="floating-form__col">
+                            <div class="floating-form__checkbox">
+                                <input type="checkbox" name="newsletter" id="newsletter" />
+                                <label for="newsletter">Ich interessiere mich für den <strong>Newsletter</strong> (Abmeldung jederzeit möglich)</label>
                             </div>
                         </div>
                     </div>
                     <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px">Firmenanschrift: *</div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
-                            <div class="floating-form__field">
-                                <input type="text" name="street" placeholder=" " required>
-                                <label>Musterstrße 1</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="floating-form__row">
-                        <div class="floating-form__col" style="--maxWidth:200px"></div>
-                        <div class="floating-form__col" style="--maxWidth:300px">
-                            <div class="floating-form__field">
-                                <input type="text" name="city" placeholder=" " required>
-                                <label>12345 Musterstadt</label>
-                            </div>
+                        <div class="floating-form__privacy-toggle" style="width:100%">
+                            <input type="checkbox" id="privacy" required="required" />
+                            <label for="privacy">
+                                Ich habe die <a href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" target="_blank">Datenschutzbestimmungen</a> gelesen.
+                            </label>
                         </div>
                     </div>
 
@@ -222,84 +205,107 @@ $faqs->faq_add (
             </div>
 
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--8-md" id="content_selection">
-                <div class="vb-interval-toggle">
-                    <div class="vg-interval-toggle__label">Monatlich</div>
-                    <div class="vb-interval-toggle__toggle">
-                        <input type="checkbox" name="vb-interval-toggle" id="vb-interval-toggle">
-                        <label for="vb-interval-toggle"></label>
-                    </div>
-                    <div class="vg-interval-toggle__label"><strong>Jährlich <span class="tag tag--inline" style="--bg:#86ed18;--color:#000;--size:12px;--marginBottom:0">-20%</span></strong></div>
-                </div>
+                <h2 class="centered">VoiceBots für jede Unternehmsgröße</h2>
 
-                <div class="vb-packages">
-                    
-                </div>
+                <ul class="list list--checkmarks list--horizontal" style="justify-content:center">
+                    <li>14 Tage kostenfrei testen</li>
+                    <li>ohne Kreditkarte</li>
+                    <li>monatlich kündbar</li>
+                </ul>
 
-                <h2>Zusatzoptionen</h2>
-                <p class="secondary">Passen Sie Ihr Telefonieerlebnis flexibel an Ihre Bedürfnisse an und buchen Sie Zusatzoptionen hinzu, die bestmöglich zu Ihren Bedürfnissen passen.</p>
+                <div class="vb-packages"></div>
+
+                <h2>Extras hinzufügen</h2>
+                <p class="secondary">Bleiben Sie flexibel! Konfigurieren Sie Ihren VoiceBot nach Ihren persönlichen Wünschen. Keine Sorge, Sie können hier flexibel monatlich Änderungen vornehmen.</p>
 
                 <div class="vb-additionals">
-                    <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="49" value="Echtzeit-API (Webhook)">
-                    <label for="vb-additional-2" class="vb-additional">
+                    <input type="checkbox" name="vb-additional" id="vb-additional-1" data-price="0" value="10 Rufnummern aus Ihrem Vorwahlbereich" checked disabled>
+                    <label for="vb-additional-1" class="vb-additional">
                         <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Echtzeit-API (Webhook)</h4>
-                        <div class="vb-additional__price">&euro;49 / Monat<br />+ 0,19 Cent je Call</div>
+                        <h4>10 Rufnummern aus Ihrem Vorwahlbereich</h4>
+                        <div class="vb-additional__price">kostenfrei</div>
                     </label>
 
-                    <input type="checkbox" name="vb-additional" id="vb-additional-3" data-price="99" value="Gesprächs&shy;aufzeichnung">
+                    <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="50" value="Weitere VoiceBot Templates">
+                    <label for="vb-additional-2" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Weitere VoiceBot Templates</h4>
+                        <div class="vb-additional__price">&euro;50 / Template</div>
+                        <div class="vb-count">
+                            <div class="vb-count__button vb-count__button--minus">-</div>
+                            <div class="vb-count__current">1</div>
+                            <div class="vb-count__button vb-count__button--plus">+</div>
+                        </div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-3" data-price="49" value="Echtzeit-API (Webhook)">
                     <label for="vb-additional-3" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Echtzeit-API (Webhook)</h4>
+                        <div class="vb-additional__price">&euro;49 / Monat<br />+ 0,019€ / Anruf</div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="99" value="Gesprächs&shy;aufzeichnung">
+                    <label for="vb-additional-4" class="vb-additional">
                         <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
                         <h4>Gesprächs&shy;aufzeichnung</h4>
                         <div class="vb-additional__price">&euro;99 / Monat</div>
                     </label>
 
-                    <input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="19" value="Calendly-Integration">
-                    <label for="vb-additional-4" class="vb-additional">
-                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Calendly-Integration</h4>
-                        <div class="vb-additional__price">&euro;19 / Monat</div>
-                    </label>
-
-                    <input type="checkbox" name="vb-additional" id="vb-additional-5" data-price="29" value="Melodische Ansagen">
+                    <input type="checkbox" name="vb-additional" id="vb-additional-5" data-price="0" value="Anrufweiterleitung">
                     <label for="vb-additional-5" class="vb-additional">
                         <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Melodische Ansagen</h4>
+                        <h4>Anruf&shy;weiterleitung</h4>
+                        <div class="vb-additional__price">ab &euro;0,02 / Minute</div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="99" value="Automatischer Rückruf">
+                    <label for="vb-additional-6" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Automatischer Rückruf</h4>
+                        <div class="vb-additional__price">&euro;99 + Nutzungskosten</div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-7" data-price="199" value="Unbegrenzte VoiceBot Inhalte">
+                    <label for="vb-additional-7" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Unbegrenzte VoiceBot Inhalte</h4>
+                        <div class="vb-additional__price">&euro;199 / Monat</div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-8" data-price="29" value="Ansagen-Mixer">
+                    <label for="vb-additional-8" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Ansagen-Mixer</h4>
                         <div class="vb-additional__price">&euro;29 / Monat</div>
                     </label>
 
-                    <input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="0" value="SIP-Trunk">
-                    <label for="vb-additional-6" class="vb-additional">
-                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>SIP-Trunk</h4>
-                        <div class="vb-additional__price">Auf Anfrage</div>
-                    </label>
-
-                    <input type="checkbox" name="vb-additional" id="vb-additional-7" data-price="0" value="Individuelle Ansagen">
-                    <label for="vb-additional-7" class="vb-additional">
-                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Individuelle Ansagen</h4>
-                        <div class="vb-additional__price">Auf Anfrage</div>
-                    </label>
-
-                    <input type="checkbox" name="vb-additional" id="vb-additional-8" data-price="0.25" value="Anrufweiterleitung auf extern">
-                    <label for="vb-additional-8" class="vb-additional">
-                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Anrufweiterleitung auf extern</h4>
-                        <div class="vb-additional__price">0,25 Cent / Min</div>
-                    </label>
-
-                    <input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0.35" value="Modulnutzung">
+                    <input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0" value="SIP-Trunk kanalbasiert">
                     <label for="vb-additional-9" class="vb-additional">
                         <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Modulnutzung</h4>
-                        <div class="vb-additional__price">0,35 Cent / Min</div>
+                        <h4>SIP-Trunk kanalbasiert</h4>
+                        <div class="vb-additional__price">auf Anfrage</div>
                     </label>
 
-                    <input type="checkbox" name="vb-additional" id="vb-additional-10" data-price="30" value="Persönliches Onboarding / Kundenmanager">
+                    <input type="checkbox" name="vb-additional" id="vb-additional-10" data-price="49" value="Calendly-Integration (beta)">
                     <label for="vb-additional-10" class="vb-additional">
                         <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                        <h4>Persönliches Onboarding / Kundenmanager</h4>
-                        <div class="vb-additional__price">&euro;30 / Stunde</div>
+                        <h4>Calendly-Integration (beta)</h4>
+                        <div class="vb-additional__price">&euro;49 / Monat</div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-11" data-price="99" value="Doctolib-Anbindung (beta)">
+                    <label for="vb-additional-11" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Doctolib-Anbindung (beta)</h4>
+                        <div class="vb-additional__price">&euro;99 / Monat</div>
+                    </label>
+
+                    <input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="0" value="Persönliches Onboarding & Support">
+                    <label for="vb-additional-12" class="vb-additional">
+                        <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                        <h4>Persönliches Onboarding & Support</h4>
+                        <div class="vb-additional__price">nach Aufwand</div>
                     </label>
                 </div>
             </div>
@@ -345,11 +351,13 @@ $faqs->faq_add (
 
                         <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
                             <div class="co-grid__col co-grid__col--fill">Monatlich:</div>
-                            <div class="co-grid__col co-grid__col vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />inkl. 19% MwSt.</div>
+                            <div class="co-grid__col co-grid__col co-grid__col--vcentered vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />zzgl. 19% MwSt.</div>
                         </div>
 
-                        <a href="#" class="btn btn--primary btn--full-width centered btn-next-step">Weiter</a>
-                        <input type="submit" class="btn btn--primary btn--full-width centered btn-submit" form="voicebot-form" style="margin-top: 30px;display: none" value="Angebot anfordern" />
+                        <a href="#" class="btn btn--primary btn--full-width centered btn-next-step">14 Tage kostenlos testen</a>
+                        <input type="submit" class="btn btn--primary btn--full-width centered btn-submit" form="voicebot-form" style="margin-top: 30px;display: none" value="14 Tage kostenlos testen" />
+
+                        <p class="centered" style="font-size: 12px; opacity:.5;margin-top:.5rem">Endet automatisch,<br />keine Zahlungsdaten notwendig</p>
                     </div>
                 </div>
             </div>
