@@ -252,14 +252,14 @@ $faqs->faq_add (
             <div class="vb-additionals">
                 <input type="checkbox" name="vb-additional" id="vb-additional-1" data-price="0" value="10 Rufnummern aus Ihrem Vorwahlbereich" checked disabled>
                 <label for="vb-additional-1" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Wir stellen Ihnen in jedem Paket kostenfrei 10 Rufnummern aus Ihrem Vorwahlbereich zur Verfügung, die Sie Verwenden können um Ihren VoiceBot direkt in Ihre Telefonanlage einzubinden und testweise anrufen können.</span></div>
                     <h4>10 Rufnummern aus Ihrem Vorwahlbereich</h4>
                     <div class="vb-additional__price">kostenfrei</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="50" value="Weitere VoiceBot Templates">
                 <label for="vb-additional-2" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit den VoiceBot Templates können Sie wenn notwendig mehrere VoiceBots in einem Kundenaccount erstellen. Sie haben die Option VoiceBot-Templates miteinander zu verknüpfen, beispielsweise indem der erste VoiceBot das Anruferanliegen erfasst und dann auf ein weiteres Template weiterleitet, dass ausschließlich genutzt wird um ein spezifisches Anliegen beispielsweise Rückrufentgegennahme oder Zählerstandserfassung abzuwickeln. Grundsätzlich können auch mehrere Anliegen in einem Template erfasst werden. Sprechen Sie gerne mit unserem Kundenservice, um hier eine Empfehlung zu erhalten.</span></div>
                     <h4>Weitere VoiceBot Templates</h4>
                     <div class="vb-additional__price">&euro;50 / Template</div>
                     <div class="vb-count">
@@ -271,70 +271,70 @@ $faqs->faq_add (
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-3" data-price="49" value="Echtzeit-API (Webhook)">
                 <label for="vb-additional-3" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit unserem Webhook, einer Echtzeit-Schnittstelle, die an Ihre Systeme alle Anrufinformationen und transkrebierten Gesprächsinformationen (Datenfelder) übermittelt. Dies kann neben der Anrufernummer und weiteren spezifischen Anrufinformationen auch Datenfelder sein, die der VoiceBot erfasst hat und in ihrem System verarbeitet werden können. Mit unserer Schnittstelle können Sie zudem Rückinformationen an den VoiceBot übermitteln um kundenspezifische Anwendungsfälle abzubilden.</span></div>
                     <h4>Echtzeit-API (Webhook)</h4>
                     <div class="vb-additional__price">&euro;49 / Monat<br />+ 0,019€ / Anruf</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="99" value="Gesprächs&shy;aufzeichnung">
                 <label for="vb-additional-4" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie möchten neben den transkribierten Gesprächsverläufen auch die dazu passenden Voicefiles abrufen können? Kein Problem! Diese Funktion macht es möglich.</span></div>
                     <h4>Gesprächs&shy;aufzeichnung</h4>
                     <div class="vb-additional__price">&euro;99 / Monat</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-5" data-price="0" value="Anrufweiterleitung">
                 <label for="vb-additional-5" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser VoiceBot kann Gespräche auch auf Ihre Rufnummern weiterleiten. Damit sind sie flexibel und können den Bot perfekt für Anrufqualifizierungen, als Ersatz für ein Auswahlmenü nutzen und auf unterschiedliche Einwahlrufnummern ihrer TK-Anlage weiterleiten. Die Weiterleitungskosten starten bei 0,02 € je Minute (1/1) in das dt. Festnetz. Sprechen Sie hierzu gerne mit unserem Vertrieb sollten Sie hohe Anrufvolumen weiterleiten wollen über individuelle Preisangebote.</span></div>
                     <h4>Anruf&shy;weiterleitung</h4>
                     <div class="vb-additional__price">ab &euro;0,02 / Minute</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="99" value="Automatischer Rückruf">
                 <label for="vb-additional-6" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Bot kann Rückrufe mit Ihren Kunden vereinbaren. Denken Sie an Ihre Hotline und die Option, dass sie unseren KI-VoiceBot unterpriorisiert Anrufe in ihrem Serviceteam entgegennehmen lassen. Er bietet über diese Funktion dem Anrufer Rückrufslots an, die völlig automatisiert zum gewünschten Zeitpunkt von aus durchgeführt werden indem wir zwei Verbindungen zum Anrufer und zur Zielrufnummer ihrer Skill in der TK-Anlage oder Agentendurchwahl aufbauen und die beiden zusammenschalten.</span></div>
                     <h4>Automatischer Rückruf</h4>
                     <div class="vb-additional__price">&euro;99 + Nutzungskosten</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-7" data-price="199" value="Unbegrenzte VoiceBot Inhalte">
                 <label for="vb-additional-7" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie möchten unseren VoiceBot mit unzähligen FAQ ihres Unternehmensfüttern und alle Standardanfragen ihre Anrufer zunächst versuchen über den Bot zu beantworten? Prima! Genau dafür haben wir dieses Tool, dass die Limitierung von angelieferten Inhalten zu OpenAI aufhebt.</span></div>
                     <h4>Unbegrenzte VoiceBot Inhalte</h4>
                     <div class="vb-additional__price">&euro;199 / Monat</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-8" data-price="29" value="Ansagen-Mixer">
                 <label for="vb-additional-8" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Ein innovatives Modul für Ihren VoiceBot, das professionelle Ansagen mit individuell ausgewählter Musik kombiniert. Ob GEMA-freie Musikstücke oder eigene Kompositionen - mit diesem Modul verleihen Sie Ihrem Anruferservice eine persönliche Note und sorgen für eine angenehme Warteschleifen-Atmosphäre.</span></div>
                     <h4>Ansagen-Mixer</h4>
                     <div class="vb-additional__price">&euro;29 / Monat</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0" value="SIP-Trunk kanalbasiert">
                 <label for="vb-additional-9" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Für die Anbindung unseres VoiceBots an Ihre TK-Anlage bieten wir optional auch einen internetbasierten Telefonanschluss (SIP-Trunk) bereit. Damit sparen Sie sich die Weiterleitung über das öffentliche Telefonnetz und nutzen kostenfreie Weiterleitung über eine gesicherte Internetleitung.</span></div>
                     <h4>SIP-Trunk kanalbasiert</h4>
                     <div class="vb-additional__price">individuell auf Anfrage</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-10" data-price="49" value="Calendly-Integration (beta)">
                 <label for="vb-additional-10" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                    <h4>Calendly-Integration</h4>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Bieten Sie Ihren Anrufern die Möglichkeit Terminvorschläge aus Ihrem Calendly-Konto buchbar zu machen. Der Bot schlägt freie Slots vor und wir buchen Sie in Ihren Kalender ein.</span></div>
+                    <h4>Calendly-Integration (beta)</h4>
                     <div class="vb-additional__price">&euro;49 / Monat</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-11" data-price="99" value="Doctolib-Anbindung (beta)">
                 <label for="vb-additional-11" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
-                    <h4>Doctolib-Anbindung</h4>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie sind Arzt und würden sich nix lieber wünschen als Terminbuchungen zukünftig durch den Bot statt durch ihre medizinische Fachangestellte durchführen lassen? Dann testen sie unsere VoiceBot-Option die genau das bietet und daneben auch Termine, Rezepte oder Rückrufwünsche für Sie abnehmen kann.</span></div>
+                    <h4>Doctolib-Anbindung (beta)</h4>
                     <div class="vb-additional__price">&euro;99 / Monat</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="29" value="Persönliches Onboarding & Support">
                 <label for="vb-additional-12" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span>TODO: Lorem ipsum</span></div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Support unterstützt sie bei der Einrichtung Ihres VoiceBots. Benötigen Sie, bei komplexeren Projekten, Unterstützung durch unsere Lösungsarchitekten oder Programmierer dann steht ihnen auch dafür ein Projektteam zur Verfügung. Sprechen Sie uns an und Sie erhalten für Ihr Projekt eine valide Aufwandsabschätzung.</span></div>
                     <h4>Persönliches Onboarding & Support</h4>
                     <div class="vb-additional__price">&euro;29 / Stunde</div>
                 </label>
