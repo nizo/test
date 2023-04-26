@@ -370,11 +370,13 @@
     }
 
     &__content {
+        --maxWidth: 960px;
+
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         color: var(--color-text);
-        max-width: 960px;
+        max-width: var(--maxWidth);
         > h1 {
             font-size: 50px;
         }
@@ -434,10 +436,10 @@
         }
     }
     &__content--narrow {
-        max-width: 770px;
+        --maxWidth: 770px;
     }
     &__content--wide {
-        max-width: 1170px;
+        --maxWidth: 1170px;
     }
     &__content--gutter-top {
         margin-top: 70px;

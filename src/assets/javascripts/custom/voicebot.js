@@ -1,45 +1,56 @@
 let selectedIndex = 0;
 const packages = [{
     'name': 'Einsteiger',
-    'subtitle': '',
-    'price': 124,
-    'minutes': 500,
-    'additional_minutes': 15,
+    'subtitle': '<p>Ideal für kleinere Unternehmen mit Wachstumsambitionen</p>',
+    'best': false,
+    'price': 89,
+    'minutes': 300,
+    'additional_minutes': 29,
+    'highlight': false,
+    'bots': 3,
     'features': [
-        'Monatlich kündbar',
-        '14 Tage testen',
-        '500 Minuten inklusive<br /><span>jede weitere  15 Cent</span>'
+        'Bis zu 300 Minuten inkludiert',
+        'Extra Minuten € 0,29 je Minute',
+        '<strong>3 VoiceBots inkludiert</strong>'
     ]
 }, {
-    'name': 'Team',
-    'subtitle': '',
-    'price': 249,
-    'minutes': 2000,
-    'additional_minutes': 9.5,
+    'name': 'Fortgeschritten',
+    'subtitle': '<p>Ideal für Unternehmen mit frequentierter Kundenhotline</p>',
+    'best': true,
+    'price': 259,
+    'minutes': 1000,
+    'additional_minutes': 25,
+    'highlight': false,
+    'bots': 5,
     'features': [
-        'Monatlich kündbar',
-        '14 Tage testen',
-        '2.000 Minuten inklusive<br /><span>jede weitere  9,5 Cent</span>'
+        'Bis zu 1000 Minuten inkludiert',
+        'Extra Minuten € 0,25 je Minute',
+        '<strong>5 VoiceBots inkludiert</strong>'
     ]
 }, {
-    'name': 'Corporate',
-    'subtitle': '',
-    'price': 436,
-    'minutes': 4000,
-    'additional_minutes': 7.9,
+    'name': 'Experte',
+    'subtitle': '<p>Für große Unternehmen, Poweruser & Experten</p>',
+    'best': false,
+    'price': 659,
+    'minutes': 3500,
+    'additional_minutes': 18,
+    'highlight': false,
+    'bots': 'Unlimitierte',
     'features': [
-        'Monatlich kündbar',
-        '14 Tage testen',
-        '4.000 Minuten inklusive<br /><span>jede weitere  7,9 Cent</span>'
+        'Bis zu 3500 Minuten inkludiert',
+        'Extra Minuten € 0,18 je Minute',
+        '<strong>Unlimitierte VoiceBots inkludiert</strong>'
     ]
 }, {
-    'name': 'Flex',
-    'subtitle': 'Enterprise-Lösung. Flexibel in jeder Hinsicht',
+    'name': 'CallOne Flex',
+    'subtitle': '<p>Die Enterprise-Lösung. Flexibel in jeder Hinsicht.</p><p>Unsere Flex-Lösung bietet maßgeschneiderte Unterstützung über Standardpakete hinaus, um Ihre Bedürfnisse effektiv zu bearbeiten.</p>',
     'price': 'individuell',
     'minutes': 0,
     'additional_minutes': 0,
+    'highlight': true,
+    'bots': 0,
     'features': [
-        'Bring your own Bot<br /><span>Azure OpenAI Account</span>',
+        'Bring your own Bot',
         'Persönlicher Account Manager',
         'Personalisiertes Onboarding & Training',
         'Kundenspezifische Entwicklungen'
@@ -85,12 +96,12 @@ function packagesInit() {
     packages.slice().reverse().forEach((package, i) => {
         i = packages.length - i - 1; // Reverse index
         let template = `<input type="radio" name="package" id="package-${i}" value="${package.name}"${i == selectedIndex ? ' checked' : ''}>
-                        <label for="package-${i}" class="vb-package" data-price="${packagePriceGet(package)}">
+                        <label for="package-${i}" class="vb-package" data-price="${packagePriceGet(package)}"${package.highlight ? ' style="--bg:#000;--color:#fff"' : ''}>
+                            ${package.best ? '<div class="vb-package__ribbon">Beliebtester Tarif</div>' : ''}
                             <h4>${package.name}</h4>
-                            <div class="vb-package__price">
-                                ${package.price == 'individuell' ? package.subtitle : '&euro;<em>' + packagePriceGet(package) + '</em> <span>/ Monat</span>'}
-                            </div>
-                            <ul class="list list--checkmarks">
+                            <div class="vb-package__subtitle">${package.subtitle}</div>
+                            ${package.price != 'individuell' ? '<div class="vb-package__price">&euro;<em>'+packagePriceGet(package)+'</em> <span>/ monatlich</span></div>' : ''}
+                            <ul>
                             ${function () {
                                 let result = '';
                                 package.features.forEach(feature => {
@@ -122,11 +133,26 @@ function handleCartTotal() {
     } else {
         cartPackagePrice.innerHTML = package.price == 'individuell' ? '<strong>' + package.price + '</strong>' : '<strong>€' + packagePriceGet(package) + '</strong><br />/ Monat';
     }
+    let cartPackageAttributes = document.querySelector('.vb-selection-attributes');
     let cartPackageMinutes = document.querySelector('.vb-selection__minutes');
     if (package.minutes > 0) {
-        cartPackageMinutes.innerHTML = package.minutes.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' Minuten inklusive<br /><span>jede weitere ' + package.additional_minutes.toString().replace('.', ',') + ' Cent</span>';
+        cartPackageMinutes.innerHTML = 'Bis zu ' + package.minutes.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' Minuten inkludiert';
+        cartPackageAttributes.style.display = 'block';
     } else {
         cartPackageMinutes.innerHTML = 'individuell';
+        cartPackageAttributes.style.display = 'none';
+    }
+    let cartPackageExtraMinutes = document.querySelector('.vb-selection__extra-minutes');
+    if (package.additional_minutes > 0) {
+        cartPackageExtraMinutes.innerHTML = 'Extra Minuten € 0,' + package.additional_minutes + ' je Minute';
+    } else {
+        cartPackageExtraMinutes.innerHTML = 'individuell';
+    }
+    let cartPackageBots = document.querySelector('.vb-selection__bots');
+    if (package.bots == 0) {
+        cartPackageBots.innerHTML = 'individuell';
+    } else {
+        cartPackageBots.innerHTML = '<strong>' + package.bots + ' VoiceBots inkludiert</strong>';
     }
     total += package.price;
 
@@ -143,6 +169,7 @@ function handleCartTotal() {
             let label = document.querySelector('label[for="'+additional.id+'"]');
             let additionalName = label.querySelector('h4').textContent;
             let additionalPrice = parseInt(additional.getAttribute('data-price'));
+            let additionalPriceLabel = label.querySelector('.vb-additional__price');
             let count = 1;
             let additionalCount = label.querySelector('.vb-count__current');
             if (additionalCount)
@@ -157,7 +184,7 @@ function handleCartTotal() {
             additionalsSelected.innerHTML += `
                 <div class="co-grid co-grid--no-margin-top co-grid--no-margin-bottom co-grid--small-gutter">
                     <div class="co-grid__col co-grid__col--fill">${additionalName}</div>
-                    <div class="co-grid__col">${additionalPrice}</div>
+                    <div class="co-grid__col">${additionalPriceLabel.innerHTML}</div>
                 </div>
             `;
 
@@ -174,7 +201,7 @@ function handleCartTotal() {
         totalLabelMobile.innerHTML = package.price;
     } else {
         totalLabel.innerHTML = '<strong>€' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '</strong><br>zzgl. 19% MwSt.';
-        totalLabelMobile.innerHTML = 'Monatlich: ' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '€';
+        totalLabelMobile.innerHTML = 'Monatlich: <strong>' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '€</strong> <span>(zzgl. 19% MwSt.)</span>';
     }
 }
 
@@ -192,14 +219,14 @@ function toggleStep(e) {
         btnSubmit.style.display = '';
         btnNextStep.style.display = 'none';
         step = 2;
-        window.scrollTo(0, contentForm.offsetTop - 100);
+        window.scrollTo(0, contentForm.getBoundingClientRect().top + window.scrollY - 100);
     } else {
         contentForm.style.display = 'none';
         contentSelection.style.display = '';
         btnSubmit.style.display = 'none';
         btnNextStep.style.display = '';
         step = 1;
-        window.scrollTo(0, contentSelection.offsetTop - 100);
+        window.scrollTo(0, contentSelection.getBoundingClientRect().top + window.scrollY - 100);
     }
 }
 
