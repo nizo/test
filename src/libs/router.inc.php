@@ -19,6 +19,7 @@ define('DEFAULT_SITEMAP_INCLUDE', true);
 define('DEFAULT_SITEMAP_PRIORITY', '0.5');
 define('DEFAULT_SITEMAP_CHANGE_FREQUENCY', 'weekly');
 define('DEFAULT_ROBOTS','index,follow');
+define('VB_BANNER_ACTIVE', false);
 
 // Global site data
 define('DOMAIN', 'https://'.@$_SERVER['HTTP_HOST']);
@@ -31,8 +32,10 @@ class Router {
 
 	public static function render($route) { // $route == $page
 		
-		// load counter and inject into active page setting
-		$route->set_setting(['vb_counter' => (new Counter($route))->getCountRemaining()]);
+		if(VB_BANNER_ACTIVE) {
+			// load counter and inject into active page setting
+			$route->set_setting(['vb_counter' => (new Counter($route))->getCountRemaining()]);
+		}
 		
 		return $route;
 		
