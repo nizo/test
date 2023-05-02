@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="551" height="97" viewBox="0 0 551 97">
+  <g id="alle-process" transform="translate(-1242 -4015)">
+    <rect id="Rectangle_143" data-name="Rectangle 143" width="551" height="97" rx="15" transform="translate(1242 4015)" fill="#f6f6f6"/>
+    <g id="Group_76" data-name="Group 76">
+      <text id="_176_Files" data-name="176 Files" transform="translate(1265 4051)" fill="#74788d" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Freundlichkeitsbarometer</tspan></text>
+      <g id="bg" transform="translate(1305 4070)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1">
+        <rect width="458" height="15" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="457" height="14" rx="3.5" fill="none"/>
+      </g>
+      <rect id="Line" width="364" height="15" rx="4" transform="translate(1265 4070)" fill="#556ee6"/>
+      <g id="Ellipse_94" data-name="Ellipse 94" transform="translate(1263 4062)" fill="#fff" stroke="#556ee6" stroke-width="1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14.5" fill="none"/>
+      </g>
+      <text id="_176_Files-2" data-name="176 Files" transform="translate(1269 4084)" fill="#556ee6" font-size="15" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">75</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="stelle-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_301" data-name="Rectangle 301" width="99" height="99" fill="#9fea4d"/>
+    </clipPath>
+  </defs>
+  <g id="Group_142" data-name="Group 142" clip-path="url(#clip-path)">
+    <path id="Path_214" data-name="Path 214" d="M0,0V28.286H14.143V14.143H28.286V0H0ZM70.714,0V14.143H84.857V28.286H99V0H70.714Zm-66,4.714H23.571V9.429H9.429V23.571H4.714V4.714Zm70.714,0H94.286V23.571H89.571V9.429H75.429ZM49.5,42.429A7.071,7.071,0,1,0,56.571,49.5,7.108,7.108,0,0,0,49.5,42.429m0,4.714A2.357,2.357,0,1,1,47.143,49.5,2.323,2.323,0,0,1,49.5,47.143M0,70.714V99H28.286V84.857H14.143V70.714Zm84.857,0V84.857H70.714V99H99V70.714ZM4.714,75.429H9.429V89.571H23.571v4.714H4.714V75.429Zm84.857,0h4.714V94.286H75.429V89.571H89.571Z" fill="#9fea4d"/>
+  </g>
+</svg>

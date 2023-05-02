@@ -27,6 +27,8 @@
     // font-weight: 700;
     font-size: 16px;
   }
+
+
   &.small-rounded {
     border-radius: 6px;
     font-family: $font-headline;
@@ -245,6 +247,15 @@
     }
   }
 }
+
+.btn--green-brd {
+  background: transparent;
+  color: #fff;
+  border: 3px solid #86ED18;
+  font-weight: 700 !important;
+  &:hover { border: 3px solid #fff;}
+}
+.leftright-equal { margin-left: auto !important;  margin-right: auto !important;}
 
 @media screen and (max-width: 1024px) {
  	.button {
