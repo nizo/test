@@ -780,13 +780,13 @@ require_once('banderole.php');
         <div class="voice-static-nav flex">
 			<div class="navigation__links">
 			<div class="navigation__links-left flex">
-				<a href="#kommunikation" title="Natürliche Kommunikation">Natürliche Kommunikation</a>
-				<a href="#einsatzbereiche" title="Einsatzbereiche">Einsatzbereiche</a>
-				<a href="#schnittstellen" title="Offene Schnittstellen">Offene Schnittstellen</a>
-										</div>
+				<a href="/voicebot" class="<?= getPageActiveClass('/voicebot') ?>" title="Übersicht"><span>Übersicht</span></a>
+				<a href="/voicebot-features" class="<?= getPageActiveClass('/voicebot-features') ?>" title="Features"><span>Features</span></a>
+				<a href="/voicebot-ueber-uns" class="<?= getPageActiveClass('/voicebot-ueber-uns') ?>" title="Über uns"><span>Über uns</span></a>
+			</div>
 			<div class="voice-static-nav-buttons">
 			<p class="btn-set about-center">
-				<a href="/voicebot-preise" class="btn btn--green-brd centered">Zu unserem Preiskonfigurator</a>
+				<a href="/voicebot-preise" class="btn btn--green-brd centered">Zum Preiskonfigurator</a>
 			</p>
 			</div>
 			</div>

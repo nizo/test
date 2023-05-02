@@ -682,7 +682,7 @@ $faqs->faq_add(
                         <strong class="gray-color">Schreiben Sie uns: <a href="mailto:hallo@callone.de" class="anchore-link">hallo@callone.de</a></strong>
                     </p>
                     <p class="btn-set">
-                        <a href="/voicebot-preise" class="btn btn--green-brd centered">Zu unserem Preiskonfigurator</a>
+                        <a href="/voicebot-preise" class="btn btn--green-brd centered">Zum Preiskonfigurator</a>
                     </p>
 
                   

@@ -8,10 +8,6 @@ body .voice-static-nav {
 	display: none;
 }
 
-body.lp--aboutus .voice-static-nav {
-	display: none !important;
-}
-
 .submenu__inner.voice-shadow {
 	box-shadow: 0 0 20px rgba(0,0,0,.5);
 }
@@ -1358,9 +1354,33 @@ body.lp--voicebot {
 		align-items: center;
 		justify-content: center;
 
-		.navigation__links {
-			justify-content: end;
+		.submenu__link--active {
+			span {
+				border-bottom: 2px solid #{$color-primary};
+			}
 		}
+
+		.voice-static-nav-buttons {
+			position: absolute;
+			right: 25px;
+
+			.btn-set {
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+		}
+
+		.navigation__links {
+			justify-content: center;
+		}
+
+		.navigation__links-left {
+			align-content: space-between;
+			align-items: center;
+		}
+
+
 
 		a {
 			color: #000;
@@ -1368,7 +1388,7 @@ body.lp--voicebot {
 			padding: 5px 12px;
 			display: flex;
 			font-size: .8rem;
-			font-weight: 400;
+			font-weight: 500;
 			align-content: flex-start;
 
 			&:hover {
@@ -1391,23 +1411,13 @@ body.lp--voicebot {
 			}
 		}
 
-		.voice-static-nav-buttons {
-			margin-left: 6.2rem;
-			/*position: absolute;
-			right: 35px;*/
-		}
 
-		.navigation__links-left {
-			align-content: space-between;
-			align-items: center;
-		}
 
-		.voice-static-nav-buttons {
-			.btn-set {
-				margin-left: 0;
-				margin-right: 0;
-			}
-		}
+
+
+
+
+
 	}
 
 

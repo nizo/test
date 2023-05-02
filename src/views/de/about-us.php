@@ -73,7 +73,7 @@ $faqs->faq_add(
                     weltweit zusammenzuarbeiten.</p>
 
                 <p class="btn-set about-center">
-                    <a href="#register" class="btn btn--green-brd centered">Schreiben Sie uns!</a>
+                    <a href="mailto:hallo@callone.de" class="btn btn--green-brd centered">Schreiben Sie uns!</a>
                 </p>
 
 
@@ -309,10 +309,6 @@ einzigartigen Bedürfnisse zugeschnitten sind.
                     <strong class="gray-color">Schreiben Sie uns: <a href="mailto:hallo@callone.de"
                             class="anchore-link">hallo@callone.de</a></strong>
                 </p>
-                <p class="btn-set">
-                    <a href="#register" class="btn btn--green-brd centered">Zu unserem Preiskonfigurator</a>
-                </p>
-
 
 
             </div>

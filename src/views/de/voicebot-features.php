@@ -1,9 +1,3 @@
-<style>
-	.voice-static-nav {
-		display: none !important; /* TODO disable via backend! */
-	}
-</style>
-
 
 <!-- Section 1 -->
 <div class="section section--black about-us-header-section" style="z-index:1; z-index: 1;

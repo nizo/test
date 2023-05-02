@@ -209,6 +209,8 @@ Router::add('/telefonanlage-mit-warteschleife', 'telefonanlage-mit-warteschleife
 /* ******************* **
 ** ** MENU LÖSUNGEN ** **
 ** ******************* */
+
+
 Router::add('/call-tracking', 'calltracking.php', [
     'shorttitle' => 'Call-Tracking',
     'title' => 'Call-Tracking: Individuelle Rufnummern für Ihre Kunden',
@@ -217,62 +219,6 @@ Router::add('/call-tracking', 'calltracking.php', [
     'menu_position' => 'loesungen',
     'sitemap_priority' => '0.8'
 ]);
-
-
-Router::add('/voicebot', 'voicebot.php', [
-    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
-	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
-    'body_class' => 'lp lp--voicebot',
-	'menu_position' => 'voicebot',
-	'sitemap_priority' => '0.9',
-    'sitemap_include' => true,
-    'reduced_footer' => false,
-	'hide_vb_counter' => true,
-]);
-
-Router::add('/voicebot-ueber-uns', 'about-us.php', [
-    'title' => 'Wir sind CallOne – Wegbereiter für KI-Telefonie.',
-	'meta_description' => 'Mehr als 10 Jahren Telefonie-Erfahrung, intuitive No-Code-Plattform und KI-Voicebot für Automatisierung – wir sind CallOne.',
-    'og_image_text' => 'Mehr als 10 Jahren Telefonie-Erfahrung, intuitive No-Code-Plattform und KI-Voicebot für Automatisierung – wir sind CallOne.',
-    'body_class' => 'lp lp--voicebot lp--aboutus',
-	'menu_position' => 'voicebot',
-	'sitemap_priority' => '0.9',
-    'sitemap_include' => true,
-    'reduced_footer' => false,
-	'hide_vb_counter' => true,
-]);
-
-Router::add('/voicebot-features', 'voicebot-features.php', [
-    'title' => 'Alle Features des KI-Voicebots | CallOne',
-	'meta_description' => 'Gesprächszusammenfassung, KI-Stimmungsanalyse – DSGVO-konform. Der CallOne VoiceBot automatisiert Ihre Telefonie!',
-    'og_image_text' => 'Gesprächszusammenfassung, KI-Stimmungsanalyse – DSGVO-konform. Der CallOne VoiceBot automatisiert Ihre Telefonie!',
-    'body_class' => 'lp lp--voicebot lp--features',
-	'menu_position' => 'voicebot',
-	'sitemap_priority' => '0.9',
-    'sitemap_include' => true,
-    'reduced_footer' => false,
-	'hide_vb_counter' => true,
-]);
-
-
-Router::add('/voicebot-preise', 'voicebot-preise.php', [
-	// 'shorttitle' => 'Callcenter Bot',
-    'title' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
-   #'layout' => 'lp-reduced.php',
-	'meta_description' => 'Voicebot für Ihre Hotline. Sie Fragen sich welches Preispaket das Richtige für Sie ist? Hier finden Sie es heraus.​',
-    'og_image_text' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
-	'menu_position' => 'loesungen',
-	'sitemap_priority' => '0.9',
-    'sitemap_include' => true,
-    'reduced_footer' => false,
-	'hide_vb_counter' => true,
-]);
-
-
-
-
-
 
 
 Router::add('/callcenter-software-apps', 'callcenter-software-apps.php', [
@@ -400,6 +346,68 @@ foreach ($jobs->jobs_get() as $job) {
         'menu_position' => 'callone'
     ]);
 }
+
+
+
+
+/* ************** **
+** ** VOICEBOT ** **
+** ************** */
+
+
+Router::add('/voicebot', 'voicebot.php', [
+    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
+    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'body_class' => 'lp lp--voicebot',
+	'menu_position' => 'voicebot',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'hide_vb_counter' => true,
+]);
+
+Router::add('/voicebot-ueber-uns', 'about-us.php', [
+    'title' => 'Wir sind CallOne – Wegbereiter für KI-Telefonie.',
+	'meta_description' => 'Mehr als 10 Jahren Telefonie-Erfahrung, intuitive No-Code-Plattform und KI-Voicebot für Automatisierung – wir sind CallOne.',
+    'og_image_text' => 'Mehr als 10 Jahren Telefonie-Erfahrung, intuitive No-Code-Plattform und KI-Voicebot für Automatisierung – wir sind CallOne.',
+    'body_class' => 'lp lp--voicebot lp--aboutus',
+	'menu_position' => 'voicebot',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'hide_vb_counter' => true,
+]);
+
+Router::add('/voicebot-features', 'voicebot-features.php', [
+    'title' => 'Alle Features des KI-Voicebots | CallOne',
+	'meta_description' => 'Gesprächszusammenfassung, KI-Stimmungsanalyse – DSGVO-konform. Der CallOne VoiceBot automatisiert Ihre Telefonie!',
+    'og_image_text' => 'Gesprächszusammenfassung, KI-Stimmungsanalyse – DSGVO-konform. Der CallOne VoiceBot automatisiert Ihre Telefonie!',
+    'body_class' => 'lp lp--voicebot lp--features',
+	'menu_position' => 'voicebot',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'hide_vb_counter' => true,
+]);
+
+
+Router::add('/voicebot-preise', 'voicebot-preise.php', [
+    'title' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
+	'meta_description' => 'Voicebot für Ihre Hotline. Sie Fragen sich welches Preispaket das Richtige für Sie ist? Hier finden Sie es heraus.​',
+    'og_image_text' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
+	'menu_position' => 'loesungen',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'hide_vb_counter' => true,
+]);
+
+
+
+
+
+
 
 /* ****************** **
 ** ** OTHERS (A-Z) ** **
