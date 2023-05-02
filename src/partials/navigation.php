@@ -364,7 +364,7 @@ require_once('banderole.php');
 
                 <div class="navigation__submenu submenu">
                     <div class="submenu__inner">
-                        <div class="submenu__left">
+                        <div class="submenu__left ">
                             <div class="submenu__row">
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-text">
@@ -465,7 +465,177 @@ require_once('banderole.php');
                     </div>
                 </div>
             </li>
+            <li class="navigation__item voice-item <?= $page->menu_position == 'voicebot' ? ' navigation__item--active' : '' ?>">
+                <div class="navigation__link navigation__link--arrow">
+                    <span>VOICEBOT</span>
+                </div>
 
+                <div class="navigation__submenu submenu">
+                    <div class="submenu__inner voice-shadow">
+                        <div class="submenu__left voicebot-left-sub">
+                            <div class="submenu__row">
+                                <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
+                                    <div class="submenu__link-icon">
+                                        <?= pictureTag(
+                                            '/assets/images/navigation/dervoicebot-b.svg',
+                                            'Telekommunikationslösungen von CallOne',
+                                            70, 70
+                                        ) ?>
+                                    </div>
+                                    <div class="submenu__link-text">
+                                        <strong>Der VoiceBot der neuesten Generation</strong>
+                                        <p>Die KI ChatGPT und ein Nocode-Interface für kundenspezifische Anwendungsfälle an der Servicehotline</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="submenu__row submenu__row--fill">
+                                <div class="submenu__column submenu__column--border-right" style="--col-width:350px;">
+                                    <a href="/voicebot" class="submenu__link<?= getPageActiveClass('/callcenter-software-apps') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/alles-menu.svg',
+                                                'Alles im Überblick',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Überblick</strong>
+                                            <p>Die wichtigsten Infos rund um den Voicebot</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/voicebot#kommunikation" class="submenu__link<?= getPageActiveClass('/callcenter-sprachanalyse') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/naturliche-icon.svg',
+                                                'Natürliche Kommunikation',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                            Natürliche Kommunikation
+                                            </strong>
+                                            <p>Natürliche Antworten auf jegliche Anfragen</p>
+                                        </div>
+                                    </a>
+                                    <a href="/voicebot#einsatzbereiche" class="submenu__link<?= getPageActiveClass('/callcenter-sprachanalyse') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/einsatzbereiche-icon.svg',
+                                                'Natürliche Kommunikation',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                            Einsatzbereiche
+                                            </strong>
+                                            <p>Ihren Möglichkeiten sind keine Grenzen gesetzt</p>
+                                        </div>
+                                    </a>
+
+                                    
+
+                                    <a href="/voicebot#schnittstellen" class="submenu__link<?= getPageActiveClass('/omnichannel-customer-support-software') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/offene-icon.svg',
+                                                'Offene Schnittstellen',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                            Offene Schnittstellen
+                                               
+                                            </strong>
+                                            <p>Dank Webhook nahezu unbegrenzte Möglichkeiten</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="submenu__column" style="--col-width:350px;">
+                                    <a href="/voicebot-ueber-uns" class="submenu__link<?= getPageActiveClass('/call-center-workforce-management-software') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/uber-icon.svg',
+                                                'Über uns',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>
+                                            Über uns
+                                                 
+                                            </strong>
+                                            <p>Wieso wir für dieses Produkt leben</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/voicebot-features" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/features-menu.svg',
+                                                'Features',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Features</strong>
+                                            <p>Alle wichtigen Funktionen im Überblick</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="/voicebot-preise" class="submenu__link<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/preiskonfigurator-icon.svg',
+                                                'Preiskonfigurator',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Preiskonfigurator</strong>
+                                            <p>Individueller Bot-Preis für Ihre Bedürfnisse</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submenu__right">
+                            <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
+                                <div class="submenu__link-text">
+                                    <strong>Unser Serviceangebot</strong>
+                                    <p>Persönliche Ansprechpartner und exzellenter Support</p>
+                                </div>
+                            </div>
+
+                            <a href="#" class="submenu__link trackedContactModal" data-openmodal="contact-sales">
+                                <div class="submenu__link-text">
+                                    <strong>Produktdemo</strong>
+                                    <p>Buchen Sie jetzt einen Demo-Slot  um CallOne Produkte live zu erleben</p>
+                                </div>
+                            </a>
+
+                            <a href="/callcenter-einsparpotential" class="submenu__link">
+                                <div class="submenu__link-text">
+                                    <strong>Einsparpotenzial<span class="submenu__link-tag">Berechnen</span></strong>
+                                    <p>Berechnen Sie Ihre Einsparpotenzial mit der CallOne Plattform</p>
+                                </div>
+                            </a>
+
+                            <a href="/customer-success" class="submenu__link<?= getPageActiveClass('/customer-success') ?>">
+                                <div class="submenu__link-text">
+                                    <strong>Persönliche Projektbetreuung</strong>
+                                    <p>Machen Sie unser Team<br />zu Ihrem Team!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+         
+            </li>                                    
             <?php if ($isFaq): ?>
                 <li class="navigation__item navigation__item--active navigation__item--hide-mobile">
                     <div class="navigation__link navigation__link--arrow">
@@ -606,6 +776,21 @@ require_once('banderole.php');
                 </li>
             <?php endif; ?>
         </ul>
+
+        <div class="voice-static-nav flex">
+			<div class="navigation__links">
+			<div class="navigation__links-left flex">
+				<a href="#kommunikation" title="Natürliche Kommunikation">Natürliche Kommunikation</a>
+				<a href="#einsatzbereiche" title="Einsatzbereiche">Einsatzbereiche</a>
+				<a href="#schnittstellen" title="Offene Schnittstellen">Offene Schnittstellen</a>
+										</div>
+			<div class="voice-static-nav-buttons">
+			<p class="btn-set about-center">
+				<a href="/voicebot-preise" class="btn btn--green-brd centered">Zu unserem Preiskonfigurator</a>
+			</p>
+			</div>
+			</div>
+		</div>
 
         <div class="navigation__right">
             <a href="tel:+493092033500" class="navigation__phonenumber trackedContactSubmit"><span>030 920 33 500</span></a>

@@ -238,6 +238,9 @@ hr {
 .no-padding-top {
 	padding-top: 0 !important;
 }
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
 .no-margin-top {
 	margin-top: 0 !important;
 }
@@ -428,6 +431,9 @@ hr {
 	&.vcenter {
 		align-items: center;
 		align-self: center;
+	}&.vend {
+		align-items: end;
+		align-self: end;
 	}
 }
 .relative {
