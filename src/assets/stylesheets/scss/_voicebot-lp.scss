@@ -1090,11 +1090,14 @@ body.lp--voicebot {
 	}
 
 	.industry-new-page-new-module {
-		padding-top: 6rem !important;
+		// margin-top: 3rem;
 		padding-bottom: 3rem !important;
-		border-top: #707070 1px solid;
-		border-bottom: #707070 1px solid;
-
+		
+		.section__content {
+			padding-top: 6rem;
+			border-top: #707070 1px solid;
+		}
+		
 		&-heading {
 			padding-bottom: 3rem;
 		}
@@ -2429,3 +2432,31 @@ main {
 
 	}
 }
+
+
+/** Feature Page **/ 
+
+body.lp--voicebot {
+
+	
+	.section--feature-list {
+		h3 {
+			margin-top: 1rem;
+		}
+
+		padding-bottom: 0;
+
+		.section__content {
+			border-top: #707070 1px solid;
+					
+		padding-top: 3rem !important;
+		padding-bottom: 3rem;
+		}
+
+	}
+
+}
+
+
+
+/******************/
