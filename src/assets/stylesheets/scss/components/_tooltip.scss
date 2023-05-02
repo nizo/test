@@ -22,6 +22,10 @@
         background-color: rgba(#000, .3);
     }
 
+    &--full-dark {
+        background: #000;
+    }
+
     &:before {
         content: "?";
         position: absolute;
@@ -33,7 +37,15 @@
         transform: translate3d(-50%, -50%, 0);
     }
 
+    &--info {
+        &:before {
+            content: "i";
+        }
+    }
+
     >* {
+        --fs: 16px;
+
         display: none;
         position: absolute;
         z-index: 90;
@@ -47,7 +59,7 @@
         transform: translateX(-50%);
         color: #fff;
         font-family: $font-copy;
-        font-size: 16px;
+        font-size: var(--fs);
         line-height: 1.4;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 19px rgba(255, 255, 255, 0.25);
 
