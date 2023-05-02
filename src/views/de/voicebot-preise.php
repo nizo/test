@@ -62,11 +62,10 @@ $faqs->faq_add (
 			</div>
 
             <h1>
-                Die Zukunft des Kundenservice:<br />
-                Passgenaue Pakete <br />für <span class="highlight">Ihr Business</span>
+                Unsere ChatGPT-VoiceBot Preise. <span class="highlight">Starte kostenlos</span>
             </h1>
             <h2>
-                Entdecken Sie flexible Preismodelle für unseren leistungsstarken ChatGPT-Voicebot &ndash; maßgeschneidert für Ihre individuellen Bedürfnisse und Anforderungen.
+                Preispakete flexibel anpassbar wie unsere VoiceBots für Ihr Unternehmen.
 			</h2>
 
             <p>
@@ -76,19 +75,16 @@ $faqs->faq_add (
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                     <ul class="list list--checkmarks">
-                        <li>Voicebot-Templates</li>
-                        <li>FAQ-Sektion</li>
-                        <li>Rufnummern</li>
-                        <li>Datenfelder für den Export</li>
-                        <li>Umfangreiches Statistikportal</li>
+                        <li>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU) <span class="tooltip tooltip--dark"><span style="--fs:12px">Alles was notwendig ist, damit sie direkt loslegen können mit Ihrem VoiceBot. NoCode-Interface, Spracherkenner, Testaccount mit Azure OpenAI (EU-Hosting)</span></span></li>
+                        <li>Inkludierte Minuten und 14 kostenfrei testen <span class="tooltip tooltip--dark"><span style="--fs:12px">Testen Sie kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten Minutenkontingenten</span></span></li>
+                        <li>Echtzeit-Dashboard <span class="tooltip tooltip--dark"><span style="--fs:12px">Echtzeitdarstellung der VoiceBot-Gesprächsverläufe mit Ihren Anrufern. Perfekt für die Analyse und Optimierung</span></span></li>
                     </ul>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
                     <ul class="list list--checkmarks">
-                        <li>DTMF-Eingaben statt Spracherkennung</li>
-                        <li>Live-KI-Dashboard</li>
-                        <li>Stimmungsanalyse des Gesprächs</li>
-                        <li>KI-basierte Gesprächszusammenfassung</li>
+                        <li>KI-Basierte Gesprächs&shy;zusammenfassung <span class="tooltip tooltip--dark"><span style="--fs:12px">Der Inhalt all ihrer VoiceBot-Calls wird komfortabel für Sie in einer Zusammenfassung geliefert</span></span></li>
+                        <li>Stimmungsanalyse <span class="tooltip tooltip--dark"><span style="--fs:12px">Erkennung von Ausdrucksweisen in Kundengesprächen</span></span></li>
+                        <li>Rufnummern aus Ihrem Vorwahlbereich <span class="tooltip tooltip--dark"><span style="--fs:12px">10 lokale Rufnummern zum Testen und Weiterleiten aus Ihrem Vorwahlbereich, die Sie für die Weiterleitung in Ihre Telefonnummer oder zum Testen nutzen können</span></span></li>
                     </ul>
                 </div>
             </div>
@@ -120,7 +116,17 @@ $faqs->faq_add (
             </div>
 
             <h2>Vielen Dank für Ihre Anfrage</h2>
-            <p class="secondary">Ihre Angebotsanfrage hat uns erreicht. Wir werden uns umgehend mit Ihnen in Verbindung setzen.</p>
+            <p>Hallo <span class="name">Benutzer</span>,</p>
+            <p>wir freuen uns, Ihnen mitzuteilen, dass Ihre Anfrage für die kostenfreie VoiceBot-Demo bei uns eingetrudelt ist. Dankeschön für Ihr Interesse! 😄​</p>
+            <p>Aufgrund der hohen Nachfrage benötigen wir etwas Zeit, um Ihre Anfrage zu bearbeiten. Wir prüfen sorgfältig Ihre Daten und verifizieren Ihre Firma, um sicherzustellen, dass alles passt. 🕵️​</p>
+            <p>Bitte haben Sie Verständnis, dass dieser manuelle Prüfungsprozess bis zu 3 Werktage dauern kann. Unser engagiertes Team gibt sein Bestes, um Ihren Demoaccount und die Testnummern so schnell wie möglich freizuschalten. ⏱️​</p>
+            <p>Sobald alles erledigt ist, können Sie in die aufregende Welt der VoiceBots eintauchen und unser Angebot in vollem Umfang testen. 🚀​</p>
+            <p>Wir bedanken uns erneut für Ihr Interesse und Ihre Geduld. Wir werden uns baldmöglichst mit weiteren Informationen bei Ihnen melden.</p>
+            <p>Bis dahin wünschen wir Ihnen eine angenehme Zeit! 😊​</p>
+            <p>
+                Mit freundlichen Grüßen,<br />
+                Ihr VoiceBot-Team 🤖​
+            </p>
         </div>
 
         <div id="content_form" style="display: none">
@@ -257,11 +263,11 @@ $faqs->faq_add (
                     <div class="vb-additional__price">kostenfrei</div>
                 </label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="50" value="Weitere VoiceBot Templates">
+                <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="50" value="Weitere VoiceBots">
                 <label for="vb-additional-2" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit den VoiceBot Templates können Sie wenn notwendig mehrere VoiceBots in einem Kundenaccount erstellen. Sie haben die Option VoiceBot-Templates miteinander zu verknüpfen, beispielsweise indem der erste VoiceBot das Anruferanliegen erfasst und dann auf ein weiteres Template weiterleitet, dass ausschließlich genutzt wird um ein spezifisches Anliegen beispielsweise Rückrufentgegennahme oder Zählerstandserfassung abzuwickeln. Grundsätzlich können auch mehrere Anliegen in einem Template erfasst werden. Sprechen Sie gerne mit unserem Kundenservice, um hier eine Empfehlung zu erhalten.</span></div>
-                    <h4>Weitere VoiceBot Templates</h4>
-                    <div class="vb-additional__price">&euro;50 / Template</div>
+                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit den VoiceBots können Sie wenn notwendig mehrere VoiceBots in einem Kundenaccount erstellen. Sie haben die Option VoiceBot-Templates miteinander zu verknüpfen, beispielsweise indem der erste VoiceBot das Anruferanliegen erfasst und dann auf ein weiteres Template weiterleitet, dass ausschließlich genutzt wird um ein spezifisches Anliegen beispielsweise Rückrufentgegennahme oder Zählerstandserfassung abzuwickeln. Grundsätzlich können auch mehrere Anliegen in einem Template erfasst werden. Sprechen Sie gerne mit unserem Kundenservice, um hier eine Empfehlung zu erhalten.</span></div>
+                    <h4>Weitere VoiceBots</h4>
+                    <div class="vb-additional__price">&euro;50 / VoiceBot</div>
                     <div class="vb-count">
                         <div class="vb-count__button vb-count__button--minus">-</div>
                         <div class="vb-count__current">1</div>
@@ -273,7 +279,7 @@ $faqs->faq_add (
                 <label for="vb-additional-3" class="vb-additional">
                     <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit unserem Webhook, einer Echtzeit-Schnittstelle, die an Ihre Systeme alle Anrufinformationen und transkrebierten Gesprächsinformationen (Datenfelder) übermittelt. Dies kann neben der Anrufernummer und weiteren spezifischen Anrufinformationen auch Datenfelder sein, die der VoiceBot erfasst hat und in ihrem System verarbeitet werden können. Mit unserer Schnittstelle können Sie zudem Rückinformationen an den VoiceBot übermitteln um kundenspezifische Anwendungsfälle abzubilden.</span></div>
                     <h4>Echtzeit-API (Webhook)</h4>
-                    <div class="vb-additional__price">&euro;49 / Monat<br />+ 0,019€ / Anruf</div>
+                    <div class="vb-additional__price">&euro;49 / Monat<br />+ &euro;0,019 je Anruf</div>
                 </label>
 
                 <input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="99" value="Gesprächs&shy;aufzeichnung">
@@ -332,71 +338,77 @@ $faqs->faq_add (
                     <div class="vb-additional__price">&euro;99 / Monat</div>
                 </label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="29" value="Persönliches Onboarding & Support">
+                <input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="30" value="Persönlicher Customer Success Manager">
                 <label for="vb-additional-12" class="vb-additional">
                     <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Support unterstützt sie bei der Einrichtung Ihres VoiceBots. Benötigen Sie, bei komplexeren Projekten, Unterstützung durch unsere Lösungsarchitekten oder Programmierer dann steht ihnen auch dafür ein Projektteam zur Verfügung. Sprechen Sie uns an und Sie erhalten für Ihr Projekt eine valide Aufwandsabschätzung.</span></div>
-                    <h4>Persönliches Onboarding & Support</h4>
-                    <div class="vb-additional__price">&euro;29 / Stunde</div>
+                    <h4>Persönlicher Customer Success Manager</h4>
+                    <div class="vb-additional__price">&euro;30 / 15 Minuten</div>
                 </label>
             </div>
+        </div>
         
-            <div class="vb-cart-container">
-                <div class="vb-cart" id="cart">
+        <div class="vb-cart-container">
+            <div class="vb-cart" id="cart">
+                <div class="vb-cart__content vb-cart__content--no-gutter-bottom">
+                    <h5>Ihre Anfrage</h5>
+
+                    <p class="vb-cart__info">
+                        14 Tage kostenlos auspobieren<br />
+                        keine automatische Verlängerung<br />
+                        Monatlich kündbar
+                    </p>
+                </div>
+
+                <div class="vb-cart__content">
+                    <h6>Ihr Paket</h6>
+                    
+                    <div class="vb-selection co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--fill">
+                            <strong class="vb-selection__title">Startup</strong>
+                            
+                        </div>
+                        <div class="co-grid__col vb-selection__price">
+                            <strong>&euro;124,00</strong><br />
+                            / Monat
+                        </div>
+                    </div>
+
+                    <div class="vb-selection-attributes" style="margin-top:0">
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
+                            <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-gauge.svg" alt="" style="width:16px;height:16px" /></div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__minutes"></div>
+                        </div>
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
+                            <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-phone.svg" alt="" style="width:16px;height:16px" /></div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__extra-minutes"></div>
+                        </div>
+                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
+                            <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-message.svg" alt="" style="width:16px;height:16px" /></div>
+                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__bots"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vb-cart__scroll">
                     <div class="vb-cart__content vb-cart__content--no-gutter-bottom">
-                        <h5>Ihre Anfrage</h5>
+                        <h6>Gewählte Zusatzoptionen</h6>
+                        
+                        <div class="vb-additionals-selected">Nichts ausgewählt...</div>
+                    </div>
+                </div>
+
+                <div class="vb-cart__content">
+                    <h6>Gesamtkosten</h6>
+
+                    <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
+                        <div class="co-grid__col co-grid__col--fill">Monatlich:</div>
+                        <div class="co-grid__col co-grid__col co-grid__col--vcentered vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />Exklusive MwSt.</div>
                     </div>
 
-                    <div class="vb-cart__scroll">
-                        <div class="vb-cart__content vb-cart__content--no-gutter-top">
-                            <h6>Ihr Paket</h6>
-                            
-                            <div class="vb-selection co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                                <div class="co-grid__col co-grid__col--fill">
-                                    <strong class="vb-selection__title">Startup</strong>
-                                    
-                                </div>
-                                <div class="co-grid__col vb-selection__price">
-                                    <strong>&euro;124,00</strong><br />
-                                    / Monat
-                                </div>
-                            </div>
+                    <a href="#" class="btn btn--primary btn--full-width centered btn-next-step">Zum nächsten Schritt</a>
+                    <input type="submit" class="btn btn--primary btn--full-width centered btn-submit" form="voicebot-form" style="margin-top: 30px;display: none" value="14 Tage kostenlos testen" />
 
-                            <div class="vb-selection-attributes" style="margin-top:0">
-                                <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                                    <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-gauge.svg" alt="" style="width:16px;height:16px" /></div>
-                                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__minutes"></div>
-                                </div>
-                                <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                                    <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-phone.svg" alt="" style="width:16px;height:16px" /></div>
-                                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__extra-minutes"></div>
-                                </div>
-                                <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                                    <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-message.svg" alt="" style="width:16px;height:16px" /></div>
-                                    <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__bots"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="vb-cart__content vb-cart__content--no-gutter-bottom">
-                            <h6>Gewählte Zusatzoptionen</h6>
-                            
-                            <div class="vb-additionals-selected">Nichts ausgewählt...</div>
-                        </div>
-                    </div>
-
-                    <div class="vb-cart__content">
-                        <h6>Gesamtkosten</h6>
-
-                        <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
-                            <div class="co-grid__col co-grid__col--fill">Monatlich:</div>
-                            <div class="co-grid__col co-grid__col co-grid__col--vcentered vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />zzgl. 19% MwSt.</div>
-                        </div>
-
-                        <a href="#" class="btn btn--primary btn--full-width centered btn-next-step">Zum nächsten Schritt</a>
-                        <input type="submit" class="btn btn--primary btn--full-width centered btn-submit" form="voicebot-form" style="margin-top: 30px;display: none" value="14 Tage kostenlos testen" />
-
-                        <p class="centered" style="font-size: 12px; opacity:.5;margin-top:.5rem">Endet automatisch,<br />keine Zahlungsdaten notwendig</p>
-                    </div>
+                    <p class="centered" style="font-size: 12px; opacity:.5;margin-top:.5rem">Endet automatisch,<br />keine Zahlungsdaten notwendig</p>
                 </div>
             </div>
         </div>

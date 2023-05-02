@@ -42,17 +42,16 @@ const packages = [{
         '<strong>Unlimitierte VoiceBots inkludiert</strong>'
     ]
 }, {
-    'name': 'CallOne Flex',
-    'subtitle': '<p>Die Enterprise-Lösung. Flexibel in jeder Hinsicht.</p><p>Unsere Flex-Lösung bietet maßgeschneiderte Unterstützung über Standardpakete hinaus, um Ihre Bedürfnisse effektiv zu bearbeiten.</p>',
+    'name': 'Flex',
+    'subtitle': '<p>Die Enterprise-Lösung, flexibel in jeder Hinsicht.</p>',
     'price': 'individuell',
     'minutes': 0,
     'additional_minutes': 0,
     'highlight': true,
     'bots': 0,
     'features': [
-        'Bring your own Bot',
+        'Individuelle Enterprise-Pakete',
         'Persönlicher Account Manager',
-        'Personalisiertes Onboarding & Training',
         'Kundenspezifische Entwicklungen'
     ]
 }];
@@ -96,11 +95,11 @@ function packagesInit() {
     packages.slice().reverse().forEach((package, i) => {
         i = packages.length - i - 1; // Reverse index
         let template = `<input type="radio" name="package" id="package-${i}" value="${package.name}"${i == selectedIndex ? ' checked' : ''}>
-                        <label for="package-${i}" class="vb-package" data-price="${packagePriceGet(package)}"${package.highlight ? ' style="--bg:#000;--color:#fff"' : ''}>
+                        <label for="package-${i}" class="vb-package" data-price="${packagePriceGet(package)}"${package.highlight ? ' style="--bg:rgba(134, 238, 34, 0.2);--color:#000"' : ''}>
                             ${package.best ? '<div class="vb-package__ribbon">Beliebtester Tarif</div>' : ''}
                             <h4>${package.name}</h4>
                             <div class="vb-package__subtitle">${package.subtitle}</div>
-                            ${package.price != 'individuell' ? '<div class="vb-package__price">&euro;<em>'+packagePriceGet(package)+'</em> <span>/ monatlich</span></div>' : ''}
+                            ${package.price != 'individuell' ? '<div class="vb-package__price">&euro;<em>'+packagePriceGet(package)+'</em> <span>/ monatlich</span></div>' : '<div class="vb-package__price"><em>individuell</em></div>'}
                             <ul>
                             ${function () {
                                 let result = '';
@@ -200,8 +199,8 @@ function handleCartTotal() {
         totalLabel.innerHTML = '<strong>' + package.price + '</strong>';
         totalLabelMobile.innerHTML = package.price;
     } else {
-        totalLabel.innerHTML = '<strong>€' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '</strong><br>zzgl. 19% MwSt.';
-        totalLabelMobile.innerHTML = 'Monatlich: <strong>' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '€</strong> <span>(zzgl. 19% MwSt.)</span>';
+        totalLabel.innerHTML = '<strong>€' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '</strong><br>Exklusive MwSt.';
+        totalLabelMobile.innerHTML = 'Monatlich: <strong>' + (Math.floor(total * 100) / 100).toString().replace('.', ',') + '€</strong> <span>(Exklusive MwSt.)</span>';
     }
 }
 
@@ -272,6 +271,7 @@ function handleSubmit(e) {
         return response.json();
     })
     .then(data => {
+        document.querySelector('.name').textContent = document.querySelector('input[name="firstname"]').value + ' ' + document.querySelector('input[name="lastname"]').value;
         btnSubmit.style.display = 'none';
         contentSuccess.style.display = '';
         contentForm.style.display = 'none';
