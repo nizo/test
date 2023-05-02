@@ -2,7 +2,7 @@
 $faqs = new faqs();
 $faqs->faq_add(
     'Wie funktioniert der CallOne-VoiceBot?',
-    '<p>Der CallOne-VoiceBot basiert auf der Künstlichen Intelligenz ChatGPT von OpenAI, welche wir eigenhändig mit für den telefonischen Kundenservice weiterentwickelt haben. Basierend auf einem Briefing bzw. einer Regieanweisung, die Sie dem Bot bei der Einrichtung geben, formuliert er auch unternehmensspezifische Antworten und Hilfestellungen wie in einer menschlichen Interaktion. Basierend auf 45 Millionen Seiten Text erstellt CallOne-VoiceBot entsprechend des Kontexts einer Unterhaltung individuelle Sätze, die sowohl auf die Zielgruppe und die Tonalität des Anrufers abgestimmt sind wie auch auf die Rolle des Bots (Kundenservice-Bot, Retouren-Bot, FAQ-Bot usw.).</p>'
+    '<p>Der CallOne-VoiceBot basiert auf der Künstlichen Intelligenz ChatGPT von OpenAI, welche wir eigenhändig mit für den telefonischen Kundenservice weiterentwickelt haben. Basierend auf einem Briefing bzw. einer Regieanweisung, die Sie dem Bot bei der Einrichtung geben, formuliert er auch unternehmensspezifische Antworten und Hilfestellungen wie in einer menschlichen Interaktion. Basierend auf 45 Millionen Seiten Text erstellt der CallOne-VoiceBot entsprechend des Kontexts einer Unterhaltung individuelle Sätze, die sowohl auf die Zielgruppe und die Tonalität des Anrufers abgestimmt sind wie auch auf die Rolle des Bots (Kundenservice-Bot, Retouren-Bot, FAQ-Bot usw.).</p>'
 );
 $faqs->faq_add(
     'Was kann der CallOne-VoiceBot?',
@@ -16,12 +16,12 @@ $faqs->faq_add(
                     </ul>'
 );
 $faqs->faq_add(
-    'Wie kann ich CallOne-VoiceBot nutzen?',
-    '<p>Im Moment befindet sich der VoiceBot in der Testphase und steht nicht zum Kauf zur Verfügung. In Kürze starten wir mit ausgewählten Kunden die Beta-Phase. Was wir Ihnen schon jetzt sagen können: Nachdem Sie sich Ihr Konto bei OpenAI angelegt haben, stellen wir Ihnen die Schnittstelle zu CallOne zur Verfügung und unterstützen Sie bei der Einrichtung Ihres idealen Bots.</p>'
+    'Wie kann ich den CallOne-VoiceBot nutzen?',
+    '<p>Nachdem Sie sich Ihr Konto bei OpenAI angelegt haben, stellen wir Ihnen die Schnittstelle zu CallOne zur Verfügung und unterstützen Sie bei der Einrichtung Ihres idealen Bots.</p>'
 );
 $faqs->faq_add(
     'Was zeichnet den CallOne-VoiceBot aus?',
-    '<p>Zum einen kann unser VoiceBot auf das gesamte Wissen von OpenAI zurückgreifen und zahlreiche Fragen intelligent beantworten. Zum anderen können Sie mit CallOne Technologie Ihren Bot genauso anpassen, wie Sie ihn in Ihrem Unternehmen brauchen. So erfüllt er genau die Rolle, für die er vorgesehen ist und bildet natürliche Sätze, die dem Kontext des Gesprächs entsprechen. Schlagfertig, service-orientiert oder in gehobener Tonalität? Sie bestimmen.</p>'
+    '<p>Zum einen kann unser VoiceBot auf das gesamte Wissen von OpenAI zurückgreifen und zahlreiche Fragen intelligent beantworten. Zum anderen können Sie mit CallOne Technologie Ihren Bot genauso anpassen, wie Sie ihn in Ihrem Unternehmen brauchen. So erfüllt er genau die Rolle, für die er vorgesehen ist und bildet natürliche Sätze, die dem Kontext des Gesprächs entsprechen. Wortgewandt, service-orientiert oder in gehobener Tonalität? Sie bestimmen.</p>'
 );
 $faqs->faq_add(
     'Gibt es eine kostenlose Testversion?',
@@ -79,7 +79,7 @@ $faqs->faq_add(
             <div class="co-grid benefits customer-outer-section">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--9-sm co-grid__col--9-md">
                     <div class="section__content section__content--wide">
-                        <p class="bigtext customer-outer-section-par">4.000 Kunden vom KMU bis zum Konzern vertrauen bereits auf unsere Cloudplattfrom</p>
+                        <p class="bigtext customer-outer-section-par">4.000 Kunden vom KMU bis zum Konzern vertrauen bereits auf unsere Cloudplattform</p>
                         <div class="voice-customer-section-logo-inner">
                             <ul class="logo-listing-wrap">
                                 <li class="logo-listing-wrap-list"><img src="/assets/images/lp/check24.svg" width="183"
@@ -287,7 +287,7 @@ $faqs->faq_add(
             <div class="co-grid flex">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm ">
                     <div class="gray-bg green-comman-space">
-                        <h3 class="green-reachable-block-heading">Performance und Kosteneffizient durch KI</h3>
+                        <h3 class="green-reachable-block-heading">Performance und Kosteneffizienz durch KI</h3>
                         <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">Unsere
                             Dashboards ermöglichen Ihnen die
                             Erstellung von maßgeschneiderten Analysen und Auswertungen, die Ihnen die nötige
@@ -420,29 +420,29 @@ $faqs->faq_add(
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
                     <img style="display: inline" src="/assets/images/icons_svg/callone-calender-icon.svg" class="benefit-icon"
                         alt="" width="30" height="30">
-                    <h5 class="para-big-font-heading">Terminvereinbarungen und Reservierungen.</h5>
+                    <h5 class="para-big-font-heading">Terminvereinbarungen und Reservierungen</h5>
                     <p class="para-big-font-para">Verwaltet, plant und bestätigt Termine oder Reservierungen für Kunden.
                     </p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
                     <img style="display: inline" src="/assets/images/icons_svg/callone-like-icon.svg" class="benefit-icon"
                         alt="" width="30" height="30">
-                    <h5 class="para-big-font-heading">Personalisierte Empfehlungen.</h5>
-                    <p class="para-big-font-para">Gibt auf Basis von Kunden-präferenzen individuelle Produkt- oder
+                    <h5 class="para-big-font-heading">Personalisierte Empfehlungen</h5>
+                    <p class="para-big-font-para">Gibt auf Basis von Kunden-Präferenzen individuelle Produkt- oder
                         Dienstleistungsempfehlungen.</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
                     <img style="display: inline" src="/assets/images/icons_svg/callone-user-call-icon.svg" class="benefit-icon"
                         alt="" width="30" height="30">
-                    <h5 class="para-big-font-heading">Erster Anlaufpunkt für Kundenanfragen.</h5>
+                    <h5 class="para-big-font-heading">Erster Anlaufpunkt für Kundenanfragen</h5>
                     <p class="para-big-font-para">Nimmt Anrufe entgegen und leitet sie an den richtigen
-                        Support-mitarbeiter oder beantwortet sie.
+                        Support-Mitarbeiter oder beantwortet sie.
                     </p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
                     <img style="display: inline" src="/assets/images/icons_svg/callone-problem-icon.svg" class="benefit-icon"
                         alt="" width="30" height="30">
-                    <h5 class="para-big-font-heading">Problembehebung.</h5>
+                    <h5 class="para-big-font-heading">Problembehebung</h5>
                     <p class="para-big-font-para">Hilft bei der Fehlerbehebung oder Lösung technischer Probleme durch
                         Anleitungen oder Tipps.​</p>
                 </div>
@@ -532,22 +532,21 @@ $faqs->faq_add(
                         alt="" width="30" height="30">
                     <h5 class="para-big-font-heading">Automatisierte FAQs</h5>
                     <p class="para-big-font-para">Beantwortet häufig gestellte Fragen zu Produkten, Dienstleistungen
-                        oder allgemeinen Informationen</p>
+                        oder allgemeinen Informationen.</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
                     <img style="display: inline" src="/assets/images/icons_svg/callone-umfragen-icon.svg" class="benefit-icon"
                         alt="" width="30" height="30">
                     <h5 class="para-big-font-heading">Umfragen und Feedback</h5>
                     <p class="para-big-font-para">Führt Kundenumfragen durch und sammelt Feedback zur Verbesserung von
-                        Dienstleistungen
+                        Dienstleistungen.
                     </p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
                     <img style="display: inline" src="/assets/images/icons_svg/callone-proaktive-icon.svg" class="benefit-icon"
                         alt="" width="30" height="30">
                     <h5 class="para-big-font-heading">Proaktive Benachrichtigungen</h5>
-                    <p class="para-big-font-para">informiert Kunden aktiv über wichtige Ereignisse oder Updates,
-                        (Wartungsarbeiten, Sonderangebote)​​</p>
+                    <p class="para-big-font-para">Informiert Kunden aktiv über wichtige Ereignisse oder Updates (Wartungsarbeiten, Sonderangebote).​​</p>
                 </div>
             </div>
             <p class="btn-set ">
