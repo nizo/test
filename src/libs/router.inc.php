@@ -94,6 +94,9 @@ class Route {
     public $og_image_background = DEFAULT_OG_IMAGE_BACKGROUND;
     public $og_image_text = DEFAULT_OG_IMAGE_TEXT;
 
+	public $twitter_image_url = null;
+	public $og_image_url = null;
+
     // Sitemap relevant data
     public $sitemap_include = DEFAULT_SITEMAP_INCLUDE;
     public $sitemap_priority = DEFAULT_SITEMAP_PRIORITY;
@@ -356,9 +359,11 @@ foreach ($jobs->jobs_get() as $job) {
 
 
 Router::add('/voicebot', 'voicebot.php', [
-    'title' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
-	'meta_description' => 'Intelligente Sprachsteuerung, KI, Telefon, Auswahlmenü, IVR. Der Callcenter Bot - Das automatisierte Sprachdialogsystem für Ihr Unternehmen.',
-    'og_image_text' => 'CallOne bietet den zweitbesten Voice­Bot der Welt …',
+    'title' => 'KI-VoiceBot für automatisierte Telefonie | CallOne',
+	'meta_description' => 'Künstliche Intelligenz (KI) und Automatisierung treffen auf Telefonie und Callcenter – mit dem VoiceBot von CallOne.',
+    'og_image_text' => 'Künstliche Intelligenz (KI) und Automatisierung treffen auf Telefonie und Callcenter – mit dem VoiceBot von CallOne.',
+    'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
+    'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
     'body_class' => 'lp lp--voicebot',
 	'menu_position' => 'voicebot',
 	'sitemap_priority' => '0.9',
@@ -377,6 +382,8 @@ Router::add('/voicebot-ueber-uns', 'about-us.php', [
     'sitemap_include' => true,
     'reduced_footer' => false,
 	'hide_vb_counter' => true,
+	'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
+    'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
 ]);
 
 Router::add('/voicebot-features', 'voicebot-features.php', [
@@ -389,18 +396,23 @@ Router::add('/voicebot-features', 'voicebot-features.php', [
     'sitemap_include' => true,
     'reduced_footer' => false,
 	'hide_vb_counter' => true,
+	'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
+    'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
 ]);
 
 
 Router::add('/voicebot-preise', 'voicebot-preise.php', [
-    'title' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
-	'meta_description' => 'Voicebot für Ihre Hotline. Sie Fragen sich welches Preispaket das Richtige für Sie ist? Hier finden Sie es heraus.​',
-    'og_image_text' => 'CallOne bietet den zweitbesten VoiceBot der Welt …',
+    'title' => 'Flexible Preis-Pakete für Ihren Voicebot | CallOne',
+	'meta_description' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.​',
+    'og_image_text' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.',
 	'menu_position' => 'loesungen',
+	'body_class' => 'lp lp--voicebot lp--vb-preise',
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
     'reduced_footer' => false,
 	'hide_vb_counter' => true,
+	'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
+    'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
 ]);
 
 

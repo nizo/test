@@ -2470,3 +2470,122 @@ body.lp--voicebot {
 
 
 /******************/
+
+
+
+.lp--vb-preise {
+
+
+.section--light-green-white {
+    background: black;
+}
+
+
+.section * {
+    color: #fff;
+}
+
+.tooltip--dark, .vb-additional__info {
+    background: #4d4d4d
+}
+
+.hero__image {
+    display: none;
+}
+
+.hero__text > .tag {
+    background: #86ed18;
+    color: black;
+}
+
+.vb-package, .vb-additional {
+    border: 2px solid #fff;
+    color: #fff;
+    background: black;
+}
+
+.vb-package, .vb-package *, .vb-additional, .vb-additional * {
+    color: #fff !important;
+}
+
+.vb-package:before {
+    color: black;
+}
+
+.vb-additional:before {
+    border-color: #fff;
+}
+
+.vb-additionals input:checked+.vb-additional {
+    border-color: #86ed18;
+    
+}
+
+.vb-cart-container * {
+    color: black;
+}
+
+.vb-package__ribbon {
+    color: black !important;
+}
+
+
+[data-price="individuell"] {
+    background: #272727
+}
+
+.vb-count__button {
+    background: #86ed18;
+    color: black !important;
+}
+
+.btn--primary {
+    color: black;
+}
+
+
+.floating-form__field {
+    border: unset;
+}
+
+
+
+.floating-form__field input {
+ background: #2c2c2c;
+    color: #fff;
+        border-radius: 4px;
+
+}
+
+.floating-form__field label {
+     background: #2c2c2c;
+    color: #fff;
+        border-radius: 4px;
+
+}
+
+.floating-form__privacy-toggle input+label {
+     background: #2c2c2c;
+    color: #fff
+}
+
+.floating-form__privacy-toggle * {
+    color: #fff !important;
+}
+
+.floating-form__privacy-toggle input+label:before {
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.floating-form__checkbox input+label:before {
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+
+.list--checkmarks li:before, .list--checkmarks-top li:before {
+	background-image: url(../images/icons_svg/checkmark-icon-green.svg);
+}
+
+}

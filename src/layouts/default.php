@@ -13,9 +13,18 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<?= DOMAIN.$page->uri ?>" />
 
-    <meta property="og:image" content="<?= DOMAIN.'/images/og/1200x630/'.$page->og_image_background.'/'.prepareOgImageText($page->og_image_text).'.png' ?>" />
-    <meta property="twitter:image" content="<?= DOMAIN.'/images/og/1200x600/'.$page->og_image_background.'/'.prepareOgImageText($page->og_image_text).'.png' ?>">	
-    
+	<?php if($page->og_image_url) { ?>
+	<meta property="og:image" content="<?= $page->og_image_url ?>" />
+	<?php } else { ?>
+	<meta property="og:image" content="<?= DOMAIN.'/images/og/1200x630/'.$page->og_image_background.'/'.prepareOgImageText($page->og_image_text).'.png' ?>" />
+	<?php } ?>
+
+	<?php if($page->twitter_image_url) { ?>
+	<meta property="twitter:image" content="<?= $page->twitter_image_url ?>" />
+	<?php } else { ?>
+	<meta property="twitter:image" content="<?= DOMAIN.'/images/og/1200x600/'.$page->og_image_background.'/'.prepareOgImageText($page->og_image_text).'.png' ?>">	
+	<?php } ?>
+	
     <link rel="apple-touch-icon" sizes="180x180" href="<?= DOMAIN ?>/assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= DOMAIN ?>/assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= DOMAIN ?>/assets/images/favicons/favicon-16x16.png">
