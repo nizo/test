@@ -162,21 +162,21 @@ $faqs->faq_add(
 <div class="section section--black less-btm-space section-3-engblock-wrap" style="z-index:-1">
      
 
-    <div class="section--black engineered-block section-3-engblock ">
+    <div class="section--black engineered-block section-3-engblock">
         <div class="section__content section__content--wide ">
             <div class="co-grid flex vend">
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm centered">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm centered">
                   <div class="engineered-block-wrap-img">  <img class="engineered-block-img" src="/assets/images/lp/callone-complex-yesterday-img.png" width="676" height="891"
                         alt=" Komplex war  gestern! 30 Minuten reichen."></div>
                 </div>
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
+                <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm section-3-engblock-right">
                     <h2 class="heading">Komplex war  gestern! 30 Minuten reichen.</h2>
                     <p class="para bigtext" style="margin-top:var(--gutter-xs)">Komplexität adé! In nur 30 Minuten zu Ihrem eigenen KI-basierten VoiceBot: Mit unserer revolutionären, benutzerfreundlichen Oberfläche gestalten und steuern Sie Ihren VoiceBot ganz ohne IT-Kenntnisse. Dank nativer Texteingabe passen Sie ihn in Echtzeit Ihren Wünschen an. Unser intuitives Interface macht's möglich – und bietet Ihnen zudem KI-gestützte Anrufauswertungen in Echtzeit.
                     </p>
                     <ul class="list list-inline-voice">
-                        <li class="list-inline-voice-list">einfachstes Anlernen </li>
-                        <li class="list-inline-voice-list">vorgefertigte Templates</li>
-                        <li class="list-inline-voice-list">Smarte KI-Auswertungen</li>
+                        <li class="list-inline-voice-list">einfachstes <br>Anlernen </li>
+                        <li class="list-inline-voice-list">vorgefertigte <br>Templates</li>
+                        <li class="list-inline-voice-list">Smarte <br>KI-Auswertungen</li>
 
                     </ul>
                 </div>
@@ -303,7 +303,7 @@ $faqs->faq_add(
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <div class="gray-bg green-comman-space no-btom-space">
-                        <h3 class="green-reachable-block-heading">Vergesst DTMF, erlebt VoiceBots</h3>
+                        <h3 class="green-reachable-block-heading">Vergesst DTMF, <br>erlebt VoiceBots</h3>
                         <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">Schluss mit 'Drück die 1': Unser VoiceBot bringt Pep ins Gespräch! Erleben Sie dynamische, menschenähnliche Dialoge, die Anruferanliegen direkt klären oder zielgenau zum passenden Agenten weiterleiten – inklusive erfasster Infos. Und wenn Ihre Agenten mal nicht greifbar sind? Kein Problem, der Bot organisiert Rückrufe im Handumdrehen!
                              
                         </p><br>
@@ -353,7 +353,7 @@ $faqs->faq_add(
 
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--12-sm">
-                    <h2 class="communication-container-heading centered">Kommunikation auf natürlicher Art</h2>
+                    <h2 class="communication-container-heading centered">Kommunikation auf <br>natürlicher Art</h2>
                     <div class="co-grid co-grid--lp-vb-conversation communication-container-inner">
                         <div class="section__content" style="z-index: 2">
                             <div class="flex">
@@ -493,7 +493,7 @@ $faqs->faq_add(
         <div class="section__content section__content--wide communication-container">
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--12-sm">
-                    <h2 class="centered repeat-para-container-heading">Für jeden Einsatzbereich - einsatzbereit</h2>
+                    <h2 class="centered repeat-para-container-heading">Für jeden Einsatzbereich - <br>einsatzbereit</h2>
                     <div class="co-grid co-grid--lp-vb-conversation communication-container-inner fur-jeden-inner">
                         <div class="section__content" style="z-index: 2">
                             <div class="communication-container-inner-middle-img centered">
@@ -563,12 +563,25 @@ $faqs->faq_add(
 
                     <div class="co-grid mobile-padd">
                         <div class="section__content" style="z-index: 2">
-                            <h2 class="centered repeat-para-container-heading">Schnittstellen offener Datenaustausch
+                            <h2 class="centered repeat-para-container-heading">Schnittstellen offener <br>Datenaustausch
                             </h2>
                             <div class="communication-container-inner-middle-img centered">
-                                <div>
-                                    <img src="/assets/images/lp/callone-integ-img.svg" class="offerner-img" alt=""
-                                        width="100%">
+                                
+
+                                <div class="interfaces-plus-icons">
+<ul class="interfaces-listing-ul flex">
+<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-salesforce-icon.svg" class="offerner-img" alt="salesforce" width="90" height="90"></li>
+
+<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-hubspot-icon.svg" class="offerner-img" alt="hubspot" width="90" height="90"></li>
+<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-calendly-first.svg" class="offerner-img" alt="calendly" width="90" height="100"></li>
+<li class="interfaces-listing-ul-list big-list-img"><img src="/assets/images/lp/callone-interfaces-plus.svg" class="offerner-img" alt="interfaces" width="300" height="300"></li>
+
+<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-doctolib-icon.svg" class="offerner-img" alt="doctolib" width="90" height="90"></li>
+<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-zoho-icon.svg" class="offerner-img" alt="zoho" width="90" height="90"></li>
+<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-pipedrive-icon.svg" class="offerner-img" alt="pipedrive" width="90" height="90"></li>
+
+</ul>
+
                                 </div>
                                 <p>Mit unserer offenen Schnittstellenstrategie unterstützen wir Sie gerne bei
                                     kundenspezifischen CRM-Anbindungen - kontaktieren Sie uns für eine individuelle
