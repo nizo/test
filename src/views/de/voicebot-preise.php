@@ -55,52 +55,54 @@ $faqs->faq_add (
 ?>
 
 <div class="section section--light-green-white section--mobile-divider">
-    <header class="hero">
+    <header class="section__content section__content--wide">
         <div class="hero__text" style="max-width:710px">
-			<div class="tag" style="--bg:#dafabc;--color:#000">
+			<p class="" style="--bg:#dafabc;--color:#000">
 				ChatGPT &times; VoiceBot
-			</div>
+			</p>
 
-            <h1>
+            <h1 style="margin-top: 0 !important">
                 Unsere ChatGPT-VoiceBot Preise. <span class="highlight">Starte kostenlos</span>
             </h1>
-            <h2>
-                Preispakete flexibel anpassbar wie unsere VoiceBots für Ihr Unternehmen.
-			</h2>
+            
+			<div id="vb_intro-text">
+				<h2>
+					Preispakete flexibel anpassbar wie unsere VoiceBots für Ihr Unternehmen.
+				</h2>
 
-            <p>
-                <strong>Alle Pakete beinhalten:</strong>
-            </p>
+				<p>
+					<strong>Alle Pakete beinhalten:</strong>
+				</p>
 
-            <div class="co-grid">
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                    <ul class="list list--checkmarks">
-                        <li>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU) <span class="tooltip tooltip--dark"><span style="--fs:12px">Alles was notwendig ist, damit sie direkt loslegen können mit Ihrem VoiceBot. NoCode-Interface, Spracherkenner, Testaccount mit Azure OpenAI (EU-Hosting)</span></span></li>
-                        <li>Inkludierte Minuten und 14 kostenfrei testen <span class="tooltip tooltip--dark"><span style="--fs:12px">Testen Sie kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten Minutenkontingenten</span></span></li>
-                        <li>Echtzeit-Dashboard <span class="tooltip tooltip--dark"><span style="--fs:12px">Echtzeitdarstellung der VoiceBot-Gesprächsverläufe mit Ihren Anrufern. Perfekt für die Analyse und Optimierung</span></span></li>
-                    </ul>
-                </div>
-                <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                    <ul class="list list--checkmarks">
-                        <li>KI-Basierte Gesprächs&shy;zusammenfassung <span class="tooltip tooltip--dark"><span style="--fs:12px">Der Inhalt all ihrer VoiceBot-Calls wird komfortabel für Sie in einer Zusammenfassung geliefert</span></span></li>
-                        <li>Stimmungsanalyse <span class="tooltip tooltip--dark"><span style="--fs:12px">Erkennung von Ausdrucksweisen in Kundengesprächen</span></span></li>
-                        <li>Rufnummern aus Ihrem Vorwahlbereich <span class="tooltip tooltip--dark"><span style="--fs:12px">10 lokale Rufnummern zum Testen und Weiterleiten aus Ihrem Vorwahlbereich, die Sie für die Weiterleitung in Ihre Telefonnummer oder zum Testen nutzen können</span></span></li>
-                    </ul>
-                </div>
-            </div>
+
+				<div class="co-grid">
+
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<ul class="list list--checkmarks">
+							<li>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU) <span class="tooltip tooltip--dark"><span style="--fs:12px">Alles was notwendig ist, damit sie direkt loslegen können mit Ihrem VoiceBot. NoCode-Interface, Spracherkenner, Testaccount mit Azure OpenAI (EU-Hosting)</span></span></li>
+							<li>Inkludierte Minuten und 14 kostenfrei testen <span class="tooltip tooltip--dark"><span style="--fs:12px">Testen Sie kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten Minutenkontingenten</span></span></li>
+							<li>Echtzeit-Dashboard <span class="tooltip tooltip--dark"><span style="--fs:12px">Echtzeitdarstellung der VoiceBot-Gesprächsverläufe mit Ihren Anrufern. Perfekt für die Analyse und Optimierung</span></span></li>
+						</ul>
+					</div>
+					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
+						<ul class="list list--checkmarks">
+							<li>KI-Basierte Gesprächs&shy;zusammenfassung <span class="tooltip tooltip--dark"><span style="--fs:12px">Der Inhalt all ihrer VoiceBot-Calls wird komfortabel für Sie in einer Zusammenfassung geliefert</span></span></li>
+							<li>Stimmungsanalyse <span class="tooltip tooltip--dark"><span style="--fs:12px">Erkennung von Ausdrucksweisen in Kundengesprächen</span></span></li>
+							<li>Rufnummern aus Ihrem Vorwahlbereich <span class="tooltip tooltip--dark"><span style="--fs:12px">10 lokale Rufnummern zum Testen und Weiterleiten aus Ihrem Vorwahlbereich, die Sie für die Weiterleitung in Ihre Telefonnummer oder zum Testen nutzen können</span></span></li>
+						</ul>
+					</div>
+					</div>
+
+			</div>
+
+
         </div>
-        <div class="hero__image">
-			<?= pictureTag(
-				'/assets/images/illus/api-hero-illustration.svg',
-				'Unsere Business-Pakete für den CallOne Voicebot',
-				465, 336, [], false
-			); ?>
-        </div>
+
     </header>
 </div>
 
 <div class="section section--no-padding-top vb-cart-mobile-hook" style="--fs:16px">
-    <div class="section__content section__content--wide" style="--maxWidth:1040px">
+    <div class="section__content section__content--wide" style="">
         <a href="#cart" class="vb-cart-mobile">
             <h6>Aktuelle Gesamtkosten</h6>
             <div>
@@ -129,7 +131,16 @@ $faqs->faq_add (
             </p>
         </div>
 
-        <div id="content_form" style="display: none">
+
+
+        <div id="content_selection">
+
+			<div class="co-grid">
+
+
+				<div class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm">
+
+				<div id="content_form" style="display: none">
             <div class="vb-progress" style="--progress:50%">
                 <div class="vb-progress__step vb-progress__step--active btn-prev-step" data-label="Übersicht"></div>
                 <div class="vb-progress__step vb-progress__step--active" data-label="Kontaktdaten"></div>
@@ -221,14 +232,24 @@ $faqs->faq_add (
                         </div>
                     </div>
                 </div>
+
+				
+
+
+
                 <div class="floating-form__row">
-                    <div class="floating-form__privacy-toggle" style="width:100%">
-                        <input type="checkbox" id="privacy" required="required" />
-                        <label for="privacy">
-                            Ich habe die <a href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" target="_blank">Datenschutzbestimmungen</a> gelesen.
-                        </label>
+                    <div class="floating-form__col">
+                        <div class="floating-form__checkbox">
+                            <input type="checkbox" name="privacy" id="privacy" required="required" />
+                            <label for="privacy">
+                           		 Ich habe die <a style="text-decoration: underline" href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" target="_blank">Datenschutzbestimmungen</a> gelesen.
+							</label>
+                        </div>
                     </div>
                 </div>
+				
+
+
 
                 <?php
                 $path = json_encode($_SESSION['userRoute']);
@@ -241,176 +262,248 @@ $faqs->faq_add (
             </form>
         </div>
 
-        <div id="content_selection">
-            <h2 class="centered">VoiceBots für jede Unternehmsgröße</h2>
+					<div id="vb-choosing">
 
-            <ul class="list list--checkmarks list--horizontal" style="justify-content:center">
-                <li>14 Tage kostenfrei testen</li>
-                <li>ohne Kreditkarte</li>
-                <li>monatlich kündbar</li>
-            </ul>
+						<h2 class="centered">VoiceBots für jede Unternehmsgröße</h2>
 
-            <div class="vb-packages"></div>
+						<ul class="list list--checkmarks list--horizontal" style="justify-content:center">
+							<li>14 Tage kostenfrei testen</li>
+							<li>ohne Kreditkarte</li>
+							<li>monatlich kündbar</li>
+						</ul>
 
-            <h2>Extras hinzufügen</h2>
-            <p class="secondary">Bleiben Sie flexibel! Konfigurieren Sie Ihren VoiceBot nach Ihren persönlichen Wünschen. Keine Sorge, Sie können hier flexibel monatlich Änderungen vornehmen.</p>
 
-            <div class="vb-additionals">
-                <input type="checkbox" name="vb-additional" id="vb-additional-1" data-price="0" value="10 Rufnummern aus Ihrem Vorwahlbereich" checked disabled>
-                <label for="vb-additional-1" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Wir stellen Ihnen in jedem Paket kostenfrei 10 Rufnummern aus Ihrem Vorwahlbereich zur Verfügung, die Sie Verwenden können um Ihren VoiceBot direkt in Ihre Telefonanlage einzubinden und testweise anrufen können.</span></div>
-                    <h4>10 Rufnummern aus Ihrem Vorwahlbereich</h4>
-                    <div class="vb-additional__price">kostenfrei</div>
-                </label>
+						<div class="vb-packages">
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="50" value="Weitere VoiceBots">
-                <label for="vb-additional-2" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit den VoiceBots können Sie wenn notwendig mehrere VoiceBots in einem Kundenaccount erstellen. Sie haben die Option VoiceBot-Templates miteinander zu verknüpfen, beispielsweise indem der erste VoiceBot das Anruferanliegen erfasst und dann auf ein weiteres Template weiterleitet, dass ausschließlich genutzt wird um ein spezifisches Anliegen beispielsweise Rückrufentgegennahme oder Zählerstandserfassung abzuwickeln. Grundsätzlich können auch mehrere Anliegen in einem Template erfasst werden. Sprechen Sie gerne mit unserem Kundenservice, um hier eine Empfehlung zu erhalten.</span></div>
-                    <h4>Weitere VoiceBots</h4>
-                    <div class="vb-additional__price">&euro;50 / VoiceBot</div>
-                    <div class="vb-count">
-                        <div class="vb-count__button vb-count__button--minus">-</div>
-                        <div class="vb-count__current">1</div>
-                        <div class="vb-count__button vb-count__button--plus">+</div>
-                    </div>
-                </label>
+							<div class="vb-grid">
+								
+										<input type="radio" name="package" id="package-0" value="Einsteiger" checked="">
+										<label for="package-0" class="vb-package" data-price="89">
+											<h4>Einsteiger</h4>
+											<div class="vb-package__subtitle"><p>Ideal für kleinere Unternehmen mit Wachstumsambitionen</p></div>
+											<div class="vb-package__price">€<em>89</em> <span>/ monatlich</span></div>
+											<ul>
+											<li>Bis zu 300 Minuten inkludiert</li><li>Extra Minuten € 0,29 je Minute</li><li><strong>3 VoiceBots inkludiert</strong></li>
+											</ul>
+										</label>
+										<input type="radio" name="package" id="package-1" value="Fortgeschritten">
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-3" data-price="49" value="Echtzeit-API (Webhook)">
-                <label for="vb-additional-3" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit unserem Webhook, einer Echtzeit-Schnittstelle, die an Ihre Systeme alle Anrufinformationen und transkrebierten Gesprächsinformationen (Datenfelder) übermittelt. Dies kann neben der Anrufernummer und weiteren spezifischen Anrufinformationen auch Datenfelder sein, die der VoiceBot erfasst hat und in ihrem System verarbeitet werden können. Mit unserer Schnittstelle können Sie zudem Rückinformationen an den VoiceBot übermitteln um kundenspezifische Anwendungsfälle abzubilden.</span></div>
-                    <h4>Echtzeit-API (Webhook)</h4>
-                    <div class="vb-additional__price">&euro;49 / Monat<br />+ &euro;0,019 je Anruf</div>
-                </label>
+										<label for="package-1" class="vb-package" data-price="259">
+											<div class="vb-package__ribbon">Beliebtester Tarif</div>
+											<h4>Fortgeschritten</h4>
+											<div class="vb-package__subtitle"><p>Ideal für Unternehmen mit frequentierter Kundenhotline</p></div>
+											<div class="vb-package__price">€<em>259</em> <span>/ monatlich</span></div>
+											<ul>
+											<li>Bis zu 1000 Minuten inkludiert</li><li>Extra Minuten € 0,25 je Minute</li><li><strong>5 VoiceBots inkludiert</strong></li>
+											</ul>
+										</label><input type="radio" name="package" id="package-2" value="Experte">
+										<label for="package-2" class="vb-package" data-price="659">
+											
+											<h4>Experte</h4>
+											<div class="vb-package__subtitle"><p>Für große Unternehmen, Poweruser &amp; Experten</p></div>
+											<div class="vb-package__price">€<em>659</em> <span>/ monatlich</span></div>
+											<ul>
+											<li>Bis zu 3500 Minuten inkludiert</li><li>Extra Minuten € 0,18 je Minute</li><li><strong>Unlimitierte VoiceBots inkludiert</strong></li>
+											</ul>
+										</label>
+											
+							</div>
+									<input type="radio" name="package" id="package-3" value="Flex">
+									<label for="package-3" class="vb-package" data-price="individuell" style="--bg:rgba(134, 238, 34, 0.2);--color:#000">
+										
+										<h4>Flex</h4>
+										<div class="vb-package__subtitle"><p>Die Enterprise-Lösung, flexibel in jeder Hinsicht.</p></div>
+										<div class="vb-package__price"><em>individuell</em></div>
+										<ul>
+										<li>Individuelle Enterprise-Pakete</li><li>Persönlicher Account Manager</li><li>Kundenspezifische Entwicklungen</li>
+										</ul>
+									</label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="99" value="Gesprächs&shy;aufzeichnung">
-                <label for="vb-additional-4" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie möchten neben den transkribierten Gesprächsverläufen auch die dazu passenden Voicefiles abrufen können? Kein Problem! Diese Funktion macht es möglich.</span></div>
-                    <h4>Gesprächs&shy;aufzeichnung</h4>
-                    <div class="vb-additional__price">&euro;99 / Monat</div>
-                </label>
+					</div>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-5" data-price="0" value="Anrufweiterleitung">
-                <label for="vb-additional-5" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser VoiceBot kann Gespräche auch auf Ihre Rufnummern weiterleiten. Damit sind sie flexibel und können den Bot perfekt für Anrufqualifizierungen, als Ersatz für ein Auswahlmenü nutzen und auf unterschiedliche Einwahlrufnummern ihrer TK-Anlage weiterleiten. Die Weiterleitungskosten starten bei 0,02 € je Minute (1/1) in das dt. Festnetz. Sprechen Sie hierzu gerne mit unserem Vertrieb sollten Sie hohe Anrufvolumen weiterleiten wollen über individuelle Preisangebote.</span></div>
-                    <h4>Anruf&shy;weiterleitung</h4>
-                    <div class="vb-additional__price">ab &euro;0,02 / Minute</div>
-                </label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="99" value="Automatischer Rückruf">
-                <label for="vb-additional-6" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Bot kann Rückrufe mit Ihren Kunden vereinbaren. Denken Sie an Ihre Hotline und die Option, dass sie unseren KI-VoiceBot unterpriorisiert Anrufe in ihrem Serviceteam entgegennehmen lassen. Er bietet über diese Funktion dem Anrufer Rückrufslots an, die völlig automatisiert zum gewünschten Zeitpunkt von aus durchgeführt werden indem wir zwei Verbindungen zum Anrufer und zur Zielrufnummer ihrer Skill in der TK-Anlage oder Agentendurchwahl aufbauen und die beiden zusammenschalten.</span></div>
-                    <h4>Automatischer Rückruf</h4>
-                    <div class="vb-additional__price">&euro;99 + Nutzungskosten</div>
-                </label>
+					<div class="vb-additionals">
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-7" data-price="199" value="Unbegrenzte VoiceBot Inhalte">
-                <label for="vb-additional-7" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie möchten unseren VoiceBot mit unzähligen FAQ ihres Unternehmensfüttern und alle Standardanfragen ihre Anrufer zunächst versuchen über den Bot zu beantworten? Prima! Genau dafür haben wir dieses Tool, dass die Limitierung von angelieferten Inhalten zu OpenAI aufhebt.</span></div>
-                    <h4>Unbegrenzte VoiceBot Inhalte</h4>
-                    <div class="vb-additional__price">&euro;199 / Monat</div>
-                </label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-8" data-price="29" value="Ansagen-Mixer">
-                <label for="vb-additional-8" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Ein innovatives Modul für Ihren VoiceBot, das professionelle Ansagen mit individuell ausgewählter Musik kombiniert. Ob GEMA-freie Musikstücke oder eigene Kompositionen - mit diesem Modul verleihen Sie Ihrem Anruferservice eine persönliche Note und sorgen für eine angenehme Warteschleifen-Atmosphäre.</span></div>
-                    <h4>Ansagen-Mixer</h4>
-                    <div class="vb-additional__price">&euro;29 / Monat</div>
-                </label>
+						<h2>Extras hinzufügen</h2>
+						<p class="secondary">Bleiben Sie flexibel! Konfigurieren Sie Ihren VoiceBot nach Ihren persönlichen Wünschen. Keine Sorge, Sie können hier flexibel monatlich Änderungen vornehmen.<br><br><br></p>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0" value="SIP-Trunk kanalbasiert">
-                <label for="vb-additional-9" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Für die Anbindung unseres VoiceBots an Ihre TK-Anlage bieten wir optional auch einen internetbasierten Telefonanschluss (SIP-Trunk) bereit. Damit sparen Sie sich die Weiterleitung über das öffentliche Telefonnetz und nutzen kostenfreie Weiterleitung über eine gesicherte Internetleitung.</span></div>
-                    <h4>SIP-Trunk kanalbasiert</h4>
-                    <div class="vb-additional__price">individuell auf Anfrage</div>
-                </label>
+						
+							<input type="checkbox" name="vb-additional" id="vb-additional-1" data-price="0" value="10 Rufnummern aus Ihrem Vorwahlbereich" checked disabled>
+							<label for="vb-additional-1" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Wir stellen Ihnen in jedem Paket kostenfrei 10 Rufnummern aus Ihrem Vorwahlbereich zur Verfügung, die Sie Verwenden können um Ihren VoiceBot direkt in Ihre Telefonanlage einzubinden und testweise anrufen können.</span></div>
+								<h4>10 Rufnummern aus Ihrem Vorwahlbereich</h4>
+								<div class="vb-additional__price">kostenfrei</div>
+							</label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-10" data-price="49" value="Calendly-Integration (beta)">
-                <label for="vb-additional-10" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Bieten Sie Ihren Anrufern die Möglichkeit Terminvorschläge aus Ihrem Calendly-Konto buchbar zu machen. Der Bot schlägt freie Slots vor und wir buchen Sie in Ihren Kalender ein.</span></div>
-                    <h4>Calendly-Integration (beta)</h4>
-                    <div class="vb-additional__price">&euro;49 / Monat</div>
-                </label>
+							<input type="checkbox" name="vb-additional" id="vb-additional-2" data-price="50" value="Weitere VoiceBots">
+							<label for="vb-additional-2" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit den VoiceBots können Sie wenn notwendig mehrere VoiceBots in einem Kundenaccount erstellen. Sie haben die Option VoiceBot-Templates miteinander zu verknüpfen, beispielsweise indem der erste VoiceBot das Anruferanliegen erfasst und dann auf ein weiteres Template weiterleitet, dass ausschließlich genutzt wird um ein spezifisches Anliegen beispielsweise Rückrufentgegennahme oder Zählerstandserfassung abzuwickeln. Grundsätzlich können auch mehrere Anliegen in einem Template erfasst werden. Sprechen Sie gerne mit unserem Kundenservice, um hier eine Empfehlung zu erhalten.</span></div>
+								<h4>Weitere VoiceBots</h4>
+								<div class="vb-additional__price">&euro;50 / VoiceBot</div>
+								<div class="vb-count">
+									<div class="vb-count__button vb-count__button--minus">-</div>
+									<div class="vb-count__current">1</div>
+									<div class="vb-count__button vb-count__button--plus">+</div>
+								</div>
+							</label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-11" data-price="99" value="Doctolib-Anbindung (beta)">
-                <label for="vb-additional-11" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie sind Arzt und würden sich nix lieber wünschen als Terminbuchungen zukünftig durch den Bot statt durch ihre medizinische Fachangestellte durchführen lassen? Dann testen sie unsere VoiceBot-Option die genau das bietet und daneben auch Termine, Rezepte oder Rückrufwünsche für Sie abnehmen kann.</span></div>
-                    <h4>Doctolib-Anbindung (beta)</h4>
-                    <div class="vb-additional__price">&euro;99 / Monat</div>
-                </label>
+							<input type="checkbox" name="vb-additional" id="vb-additional-3" data-price="49" value="Echtzeit-API (Webhook)">
+							<label for="vb-additional-3" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Mit unserem Webhook, einer Echtzeit-Schnittstelle, die an Ihre Systeme alle Anrufinformationen und transkrebierten Gesprächsinformationen (Datenfelder) übermittelt. Dies kann neben der Anrufernummer und weiteren spezifischen Anrufinformationen auch Datenfelder sein, die der VoiceBot erfasst hat und in ihrem System verarbeitet werden können. Mit unserer Schnittstelle können Sie zudem Rückinformationen an den VoiceBot übermitteln um kundenspezifische Anwendungsfälle abzubilden.</span></div>
+								<h4>Echtzeit-API (Webhook)</h4>
+								<div class="vb-additional__price">&euro;49 / Monat<br />+ &euro;0,019 je Anruf</div>
+							</label>
 
-                <input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="30" value="Persönlicher Customer Success Manager">
-                <label for="vb-additional-12" class="vb-additional">
-                    <div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Support unterstützt sie bei der Einrichtung Ihres VoiceBots. Benötigen Sie, bei komplexeren Projekten, Unterstützung durch unsere Lösungsarchitekten oder Programmierer dann steht ihnen auch dafür ein Projektteam zur Verfügung. Sprechen Sie uns an und Sie erhalten für Ihr Projekt eine valide Aufwandsabschätzung.</span></div>
-                    <h4>Persönlicher Customer Success Manager</h4>
-                    <div class="vb-additional__price">&euro;30 / 15 Minuten</div>
-                </label>
-            </div>
-        </div>
+							<input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="99" value="Gesprächs&shy;aufzeichnung">
+							<label for="vb-additional-4" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie möchten neben den transkribierten Gesprächsverläufen auch die dazu passenden Voicefiles abrufen können? Kein Problem! Diese Funktion macht es möglich.</span></div>
+								<h4>Gesprächs&shy;aufzeichnung</h4>
+								<div class="vb-additional__price">&euro;99 / Monat</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-5" data-price="0" value="Anrufweiterleitung">
+							<label for="vb-additional-5" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser VoiceBot kann Gespräche auch auf Ihre Rufnummern weiterleiten. Damit sind sie flexibel und können den Bot perfekt für Anrufqualifizierungen, als Ersatz für ein Auswahlmenü nutzen und auf unterschiedliche Einwahlrufnummern ihrer TK-Anlage weiterleiten. Die Weiterleitungskosten starten bei 0,02 € je Minute (1/1) in das dt. Festnetz. Sprechen Sie hierzu gerne mit unserem Vertrieb sollten Sie hohe Anrufvolumen weiterleiten wollen über individuelle Preisangebote.</span></div>
+								<h4>Anruf&shy;weiterleitung</h4>
+								<div class="vb-additional__price">ab &euro;0,02 / Minute</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="99" value="Automatischer Rückruf">
+							<label for="vb-additional-6" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Bot kann Rückrufe mit Ihren Kunden vereinbaren. Denken Sie an Ihre Hotline und die Option, dass sie unseren KI-VoiceBot unterpriorisiert Anrufe in ihrem Serviceteam entgegennehmen lassen. Er bietet über diese Funktion dem Anrufer Rückrufslots an, die völlig automatisiert zum gewünschten Zeitpunkt von aus durchgeführt werden indem wir zwei Verbindungen zum Anrufer und zur Zielrufnummer ihrer Skill in der TK-Anlage oder Agentendurchwahl aufbauen und die beiden zusammenschalten.</span></div>
+								<h4>Automatischer Rückruf</h4>
+								<div class="vb-additional__price">&euro;99 + Nutzungskosten</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-7" data-price="199" value="Unbegrenzte VoiceBot Inhalte">
+							<label for="vb-additional-7" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie möchten unseren VoiceBot mit unzähligen FAQ ihres Unternehmensfüttern und alle Standardanfragen ihre Anrufer zunächst versuchen über den Bot zu beantworten? Prima! Genau dafür haben wir dieses Tool, dass die Limitierung von angelieferten Inhalten zu OpenAI aufhebt.</span></div>
+								<h4>Unbegrenzte VoiceBot Inhalte</h4>
+								<div class="vb-additional__price">&euro;199 / Monat</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-8" data-price="29" value="Ansagen-Mixer">
+							<label for="vb-additional-8" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Ein innovatives Modul für Ihren VoiceBot, das professionelle Ansagen mit individuell ausgewählter Musik kombiniert. Ob GEMA-freie Musikstücke oder eigene Kompositionen - mit diesem Modul verleihen Sie Ihrem Anruferservice eine persönliche Note und sorgen für eine angenehme Warteschleifen-Atmosphäre.</span></div>
+								<h4>Ansagen-Mixer</h4>
+								<div class="vb-additional__price">&euro;29 / Monat</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0" value="SIP-Trunk kanalbasiert">
+							<label for="vb-additional-9" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Für die Anbindung unseres VoiceBots an Ihre TK-Anlage bieten wir optional auch einen internetbasierten Telefonanschluss (SIP-Trunk) bereit. Damit sparen Sie sich die Weiterleitung über das öffentliche Telefonnetz und nutzen kostenfreie Weiterleitung über eine gesicherte Internetleitung.</span></div>
+								<h4>SIP-Trunk kanalbasiert</h4>
+								<div class="vb-additional__price">individuell auf Anfrage</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-10" data-price="49" value="Calendly-Integration (beta)">
+							<label for="vb-additional-10" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Bieten Sie Ihren Anrufern die Möglichkeit Terminvorschläge aus Ihrem Calendly-Konto buchbar zu machen. Der Bot schlägt freie Slots vor und wir buchen Sie in Ihren Kalender ein.</span></div>
+								<h4>Calendly-Integration (beta)</h4>
+								<div class="vb-additional__price">&euro;49 / Monat</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-11" data-price="99" value="Doctolib-Anbindung (beta)">
+							<label for="vb-additional-11" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Sie sind Arzt und würden sich nix lieber wünschen als Terminbuchungen zukünftig durch den Bot statt durch ihre medizinische Fachangestellte durchführen lassen? Dann testen sie unsere VoiceBot-Option die genau das bietet und daneben auch Termine, Rezepte oder Rückrufwünsche für Sie abnehmen kann.</span></div>
+								<h4>Doctolib-Anbindung (beta)</h4>
+								<div class="vb-additional__price">&euro;99 / Monat</div>
+							</label>
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="30" value="Persönlicher Customer Success Manager">
+							<label for="vb-additional-12" class="vb-additional">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span style="--fs:12px">Unser Support unterstützt sie bei der Einrichtung Ihres VoiceBots. Benötigen Sie, bei komplexeren Projekten, Unterstützung durch unsere Lösungsarchitekten oder Programmierer dann steht ihnen auch dafür ein Projektteam zur Verfügung. Sprechen Sie uns an und Sie erhalten für Ihr Projekt eine valide Aufwandsabschätzung.</span></div>
+								<h4>Persönlicher Customer Success Manager</h4>
+								<div class="vb-additional__price">&euro;30 / 15 Minuten</div>
+							</label>
+						</div>
+
+					
+					
+					
+				</div>
+				
+				
+				</div>
+
+				<div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
+
+					<div class="vb-cart-container">
+
+						<div class="vb-cart" id="cart">
+							<div class="vb-cart__content vb-cart__content--no-gutter-bottom">
+								<h5>Ihre Anfrage</h5>
+
+								<p class="vb-cart__info">
+									14 Tage kostenlos auspobieren<br />
+									keine automatische Verlängerung<br />
+									Monatlich kündbar
+								</p>
+							</div>
+
+							<div class="vb-cart__content">
+								<h6>Ihr Paket</h6>
+								
+								<div class="vb-selection co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
+									<div class="co-grid__col co-grid__col--fill">
+										<strong class="vb-selection__title">Startup</strong>
+										
+									</div>
+									<div class="co-grid__col vb-selection__price">
+										<strong>&euro;124,00</strong><br />
+										/ Monat
+									</div>
+								</div>
+
+								<div class="vb-selection-attributes" style="margin-top:0">
+									<div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
+										<div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-gauge.svg" alt="" style="width:16px;height:16px" /></div>
+										<div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__minutes"></div>
+									</div>
+									<div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
+										<div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-phone.svg" alt="" style="width:16px;height:16px" /></div>
+										<div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__extra-minutes"></div>
+									</div>
+									<div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
+										<div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-message.svg" alt="" style="width:16px;height:16px" /></div>
+										<div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__bots"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="vb-cart__scroll">
+								<div class="vb-cart__content vb-cart__content--no-gutter-bottom">
+									<h6>Gewählte Zusatzoptionen</h6>
+									
+									<div class="vb-additionals-selected">Nichts ausgewählt...</div>
+								</div>
+							</div>
+
+							<div class="vb-cart__content">
+								<h6>Gesamtkosten</h6>
+
+								<div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
+									<div class="co-grid__col co-grid__col--fill">Monatlich:</div>
+									<div class="co-grid__col co-grid__col co-grid__col--vcentered vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />Exklusive MwSt.</div>
+								</div>
+
+								<a href="#" class="btn btn--primary btn--full-width centered btn-next-step">Zum nächsten Schritt</a>
+								<input type="submit" class="btn btn--primary btn--full-width centered btn-submit" form="voicebot-form" style="margin-top: 30px;display: none" value="14 Tage kostenlos testen" />
+
+								<p class="centered" style="font-size: 12px; opacity:.5;margin-top:.5rem">Endet automatisch,<br />keine Zahlungsdaten notwendig</p>
+							</div>
+						</div>
+
+
+					</div>
+				
+				</div>
+
+			</div>
+
         
-        <div class="vb-cart-container">
-            <div class="vb-cart" id="cart">
-                <div class="vb-cart__content vb-cart__content--no-gutter-bottom">
-                    <h5>Ihre Anfrage</h5>
-
-                    <p class="vb-cart__info">
-                        14 Tage kostenlos auspobieren<br />
-                        keine automatische Verlängerung<br />
-                        Monatlich kündbar
-                    </p>
-                </div>
-
-                <div class="vb-cart__content">
-                    <h6>Ihr Paket</h6>
-                    
-                    <div class="vb-selection co-grid co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--fill">
-                            <strong class="vb-selection__title">Startup</strong>
-                            
-                        </div>
-                        <div class="co-grid__col vb-selection__price">
-                            <strong>&euro;124,00</strong><br />
-                            / Monat
-                        </div>
-                    </div>
-
-                    <div class="vb-selection-attributes" style="margin-top:0">
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                            <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-gauge.svg" alt="" style="width:16px;height:16px" /></div>
-                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__minutes"></div>
-                        </div>
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                            <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-phone.svg" alt="" style="width:16px;height:16px" /></div>
-                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__extra-minutes"></div>
-                        </div>
-                        <div class="co-grid co-grid--no-margin-top co-grid--no-margin-botton co-grid--small-gutter">
-                            <div class="co-grid__col co-grid__col--vcentered"><img src="/assets/images/icons_svg/icon-message.svg" alt="" style="width:16px;height:16px" /></div>
-                            <div class="co-grid__col co-grid__col--fill co-grid__col--vcentered vb-selection__bots"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="vb-cart__scroll">
-                    <div class="vb-cart__content vb-cart__content--no-gutter-bottom">
-                        <h6>Gewählte Zusatzoptionen</h6>
-                        
-                        <div class="vb-additionals-selected">Nichts ausgewählt...</div>
-                    </div>
-                </div>
-
-                <div class="vb-cart__content">
-                    <h6>Gesamtkosten</h6>
-
-                    <div class="co-grid co-grid--small-gutter co-grid--no-margin-top co-grid--no-margin-bottom">
-                        <div class="co-grid__col co-grid__col--fill">Monatlich:</div>
-                        <div class="co-grid__col co-grid__col co-grid__col--vcentered vb-selection__price vb-selection__total"><strong>&euro;0,00</strong><br />Exklusive MwSt.</div>
-                    </div>
-
-                    <a href="#" class="btn btn--primary btn--full-width centered btn-next-step">Zum nächsten Schritt</a>
-                    <input type="submit" class="btn btn--primary btn--full-width centered btn-submit" form="voicebot-form" style="margin-top: 30px;display: none" value="14 Tage kostenlos testen" />
-
-                    <p class="centered" style="font-size: 12px; opacity:.5;margin-top:.5rem">Endet automatisch,<br />keine Zahlungsdaten notwendig</p>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>

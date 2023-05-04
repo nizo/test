@@ -248,18 +248,6 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/voicebot" class="submenu__link submenu__link--custom submenu__link--lp-vb<?= getPageActiveClass('/voicebot') ?>">
-                                        <div class="submenu__link-icon">
-												
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>CallOne VoiceBot
-												<span class="submenu__link-tag">NEU</span>
-											</strong>
-                                            <p>Anliegen sprachgesteuert mit KI-gesteuerten Sprachdialogsystemen</p>
-                                        </div>
-                                    </a>
-
                                     <a href="/omnichannel-customer-support-software" class="submenu__link<?= getPageActiveClass('/omnichannel-customer-support-software') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(

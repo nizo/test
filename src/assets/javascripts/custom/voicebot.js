@@ -74,6 +74,7 @@ class vbCount {
         });
 
         this.plus.addEventListener('click', e => {
+			document.querySelector('#vb-additional-2').checked = true;
             e.stopPropagation();
             e.preventDefault();
             let newValue = parseInt(this.current.textContent) + 1;
@@ -122,6 +123,14 @@ function handleCartTotal() {
     let selectedPackage = document.querySelector('input[name="package"]:checked').id;
     selectedIndex = parseInt(selectedPackage.split('-')[1]);
     let package = packages[selectedIndex];
+	let vbAdditionals = document.querySelector('.vb-additionals');
+
+	//flex
+	if(selectedIndex === 3) {
+		vbAdditionals.classList.add('hidden')
+	} else {
+		vbAdditionals.classList.remove('hidden')
+	}
 
     // Update selected package in cart
     let cartPackageName = document.querySelector('.vb-selection__title');
@@ -210,22 +219,27 @@ function toggleStep(e) {
     let btnNextStep = document.querySelector('.btn-next-step');
     let btnSubmit = document.querySelector('.btn-submit');
     let contentForm = document.querySelector('#content_form');
+    let vbChoosing = document.querySelector('#vb-choosing');
+    let vbIntroText = document.querySelector('#vb_intro-text');
     let contentSelection = document.querySelector('#content_selection');
 
+
     if (step == 1) {
-        contentForm.style.display = '';
-        contentSelection.style.display = 'none';
+        contentForm.style.display = 'block';
+        vbChoosing.style.display = 'none';
+		vbIntroText.style.display = 'none';
+
         btnSubmit.style.display = '';
         btnNextStep.style.display = 'none';
         step = 2;
-        window.scrollTo(0, contentForm.getBoundingClientRect().top + window.scrollY - 100);
+        window.scrollTo(0, contentForm.getBoundingClientRect().top + window.scrollY - 200);
     } else {
         contentForm.style.display = 'none';
         contentSelection.style.display = '';
         btnSubmit.style.display = 'none';
         btnNextStep.style.display = '';
         step = 1;
-        window.scrollTo(0, contentSelection.getBoundingClientRect().top + window.scrollY - 100);
+        window.scrollTo(0, contentSelection.getBoundingClientRect().top + window.scrollY - 200);
     }
 }
 
@@ -304,7 +318,7 @@ document.addEventListener('DOMContentLoaded', e => {
     let counter = document.querySelectorAll('.vb-count');
     counter.forEach(c => new vbCount(c));
 
-    packagesInit();
+    //packagesInit();
 
     let selector = document.querySelectorAll('input[name="package"]');
     selector.forEach(s => {

@@ -2476,116 +2476,198 @@ body.lp--voicebot {
 .lp--vb-preise {
 
 
-.section--light-green-white {
-    background: black;
+	.section--light-green-white {
+		background: black;
+	}
+
+
+	.section * {
+		color: #fff;
+	}
+
+	.tooltip--dark, .vb-additional__info {
+		background: #4d4d4d
+	}
+
+	.hero__image {
+		display: none;
+	}
+
+	.hero__text > .tag {
+		background: #86ed18;
+		color: black;
+	}
+
+	.vb-package, .vb-additional {
+		border: 2px solid #fff;
+		color: #fff;
+		background: black;
+	}
+
+	.vb-package, .vb-package *, .vb-additional, .vb-additional * {
+		color: #fff !important;
+	}
+
+	.vb-package:before {
+		color: black;
+	}
+
+	.vb-additional:before {
+		border-color: #fff;
+	}
+
+	.vb-additionals input:checked+.vb-additional {
+		border-color: #86ed18;
+		
+	}
+
+	.vb-cart-container * {
+		color: black;
+	}
+
+	.vb-package__ribbon {
+		color: black !important;
+	}
+
+
+	[data-price="individuell"] {
+		background: #272727
+	}
+
+	.vb-count__button {
+		background: #86ed18;
+		color: black !important;
+	}
+
+	.btn--primary {
+		color: black;
+	}
+
+
+	.floating-form__field {
+		border: unset;
+	}
+
+
+
+	.floating-form__field input {
+	background: #2c2c2c;
+		color: #fff;
+			border-radius: 4px;
+
+	}
+
+	.floating-form__field label {
+		background: #2c2c2c;
+		color: #7e7e7e;
+			border-radius: 4px;
+
+	}
+
+	.floating-form__privacy-toggle input+label {
+		background: #2c2c2c;
+		color: #fff
+	}
+
+	.floating-form__privacy-toggle * {
+		color: #fff !important;
+	}
+
+	.floating-form__privacy-toggle input+label:before {
+		border: 2px solid #fff;
+		border-radius: 4px;
+	}
+
+	.floating-form__checkbox input+label:before {
+		border: 2px solid #fff;
+		border-radius: 4px;
+	}
+
+
+	.list--checkmarks li:before, .list--checkmarks-top li:before {
+		background-image: url(../images/icons_svg/checkmark-icon-green.svg);
+	}
+
+
+
+	.vb-cart-container {
+		transform: none;
+		left: 0;
+		position: sticky;
+		top: 10rem !important;
+		height: auto;
+	}
+
+	&.body {
+	overflow: unset !important;
+	}
+
+	.vb-package {
+		width: auto;
+		margin: 0;
+	}
+
+	[data-price="individuell"] {
+		width: 100%;
+		.vb-package__price {
+			font-size: 1.5rem;
+		}
+	}
+
+	.vb-packages {
+
+		display: block;
+
+		.vb-grid {
+			display: grid;
+    		grid-auto-columns: minmax(0, 1fr);
+			column-gap: 0.5rem;
+			margin-bottom: 0.5rem;
+    		grid-auto-flow: column;
+
+			@media(max-width: map-get($breakpointsMQ, 'sm')) {
+				display: block;
+			}
+
+		}
+
+		
+
+	}
+
+	.vb-cart__content {
+		min-height: 6.5rem;
+	}
+
+	.vb-cart {
+		width: 100%;
+	}
+
+	.floating-form__checkbox label {
+		display: inline-block;
+	}
+
+	.floating-form__checkbox input {
+
+		-webkit-appearance: auto;
+		-moz-appearance: auto;
+		appearance: auto;
+		transform: none;
+	opacity: 0;
+    position: absolute;
+    left: 6px;
+    top: 19px;
+	}
+
+
+
+	.vb-cart-mobile * {
+		COLOR: black !important
+	}
+
+
 }
 
-
-.section * {
-    color: #fff;
-}
-
-.tooltip--dark, .vb-additional__info {
-    background: #4d4d4d
-}
-
-.hero__image {
-    display: none;
-}
-
-.hero__text > .tag {
-    background: #86ed18;
-    color: black;
-}
-
-.vb-package, .vb-additional {
-    border: 2px solid #fff;
-    color: #fff;
-    background: black;
-}
-
-.vb-package, .vb-package *, .vb-additional, .vb-additional * {
-    color: #fff !important;
-}
-
-.vb-package:before {
-    color: black;
-}
-
-.vb-additional:before {
-    border-color: #fff;
-}
-
-.vb-additionals input:checked+.vb-additional {
-    border-color: #86ed18;
-    
-}
-
-.vb-cart-container * {
-    color: black;
-}
-
-.vb-package__ribbon {
-    color: black !important;
-}
-
-
-[data-price="individuell"] {
-    background: #272727
-}
-
-.vb-count__button {
-    background: #86ed18;
-    color: black !important;
-}
-
-.btn--primary {
-    color: black;
-}
-
-
-.floating-form__field {
-    border: unset;
-}
-
-
-
-.floating-form__field input {
- background: #2c2c2c;
-    color: #fff;
-        border-radius: 4px;
-
-}
-
-.floating-form__field label {
-     background: #2c2c2c;
-    color: #fff;
-        border-radius: 4px;
-
-}
-
-.floating-form__privacy-toggle input+label {
-     background: #2c2c2c;
-    color: #fff
-}
-
-.floating-form__privacy-toggle * {
-    color: #fff !important;
-}
-
-.floating-form__privacy-toggle input+label:before {
-    border: 2px solid #fff;
-    border-radius: 4px;
-}
-
-.floating-form__checkbox input+label:before {
-    border: 2px solid #fff;
-    border-radius: 4px;
-}
-
-
-.list--checkmarks li:before, .list--checkmarks-top li:before {
-	background-image: url(../images/icons_svg/checkmark-icon-green.svg);
-}
-
+body.lp--voicebot.lp--vb-preise {
+	overflow: unset !important;
 }
