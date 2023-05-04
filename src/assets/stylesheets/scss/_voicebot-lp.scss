@@ -2498,6 +2498,8 @@ body.lp--voicebot {
 		color: black;
 	}
 
+	
+
 	.vb-package, .vb-additional {
 		border: 2px solid #fff;
 		color: #fff;
@@ -2652,7 +2654,8 @@ body.lp--voicebot {
 		h2 {
 			font-weight: 400;
 			font-size: 1.25rem;
-			margin-bottom: 3rem;
+			margin-bottom: -0.5rem;
+			margin-top: 3rem;
 		}
 
 		p, li {
@@ -2682,6 +2685,14 @@ body.lp--voicebot {
 	.vb-cart-mobile * {
 		COLOR: black !important
 	}
+
+	.vb-package {
+		@media(max-width: map-get($breakpointsMQ, 'sm')) {
+			margin-bottom: 2rem;
+		}
+
+	}
+
 
 
 }

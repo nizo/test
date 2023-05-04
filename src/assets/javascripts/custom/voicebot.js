@@ -227,7 +227,7 @@ function toggleStep(e) {
     if (step == 1) {
         contentForm.style.display = 'block';
         vbChoosing.style.display = 'none';
-		vbIntroText.style.display = 'none';
+		//vbIntroText.style.display = 'none';
 
         btnSubmit.style.display = '';
         btnNextStep.style.display = 'none';

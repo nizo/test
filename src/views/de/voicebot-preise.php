@@ -56,21 +56,22 @@ $faqs->faq_add (
 
 <div class="section section--light-green-white section--mobile-divider">
     <header class="section__content section__content--wide">
-        <div class="hero__text" style="max-width:710px">
+        <div>
 			<p class="" style="--bg:#dafabc;--color:#000">
 				ChatGPT &times; VoiceBot
 			</p>
 
-            <h1 style="margin-top: 0 !important">
+            <h1 style="margin-top: 0 !important; max-width: 39rem">
                 Unsere ChatGPT-VoiceBot Preise. <span class="highlight">Starte kostenlos</span>
             </h1>
             
 			<div id="vb_intro-text">
 				<h2>
 					Exklusives Angebot: Gratis-Features bei jedem Paket!
+					<div class="btn btn--primary btn--full-width centered" style="font-weight: bold; transform: scale(0.75); width: auto; margin-left: -1rem; pointer-events: none; display: inline-block; white-space: nowrap;">14+ Tage gratis testen!</div>
 				</h2>
 
-				<div class="co-grid">
+				<div class="co-grid" style="max-width: 39rem;">
 
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<ul class="list list--checkmarks">
