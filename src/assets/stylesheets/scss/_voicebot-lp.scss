@@ -2647,6 +2647,24 @@ body.lp--voicebot {
 		display: inline-block;
 	}
 
+	#vb_intro-text {
+
+		h2 {
+			font-weight: 400;
+			font-size: 1.25rem;
+			margin-bottom: 3rem;
+		}
+
+		p, li {
+			font-size: 1rem;
+		}
+
+		p {
+			margin-bottom: -1rem;
+		}
+
+	}
+
 	.floating-form__checkbox input {
 
 		-webkit-appearance: auto;

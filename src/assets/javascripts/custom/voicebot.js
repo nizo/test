@@ -126,11 +126,11 @@ function handleCartTotal() {
 	let vbAdditionals = document.querySelector('.vb-additionals');
 
 	//flex
-	if(selectedIndex === 3) {
-		vbAdditionals.classList.add('hidden')
-	} else {
-		vbAdditionals.classList.remove('hidden')
-	}
+	// if(selectedIndex === 3) {
+	// 	vbAdditionals.classList.add('hidden')
+	// } else {
+	// 	vbAdditionals.classList.remove('hidden')
+	// }
 
     // Update selected package in cart
     let cartPackageName = document.querySelector('.vb-selection__title');
