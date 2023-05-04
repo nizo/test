@@ -646,7 +646,7 @@ $faqs->faq_add(
 
     <div class="section section--black section--black-corner">
         <div class="section__content section__content--narrow centered mobile-left">
-            <h2>Lassen Sie sich nicht abhängen: Profitieren Sie von modernen Telefonie-Lösungen!</h2>
+            <h2>Profitieren Sie von modernen Telefonie-Lösungen!</h2>
             <p class="bigtext">Buchen Sie jetzt ein unverbindliches 15-Minuten-Erstgespräch, um mehr über Ihre
                 Möglichkeiten zu erfahren.</p>
             <p class="mobile-centered">

@@ -359,9 +359,9 @@ foreach ($jobs->jobs_get() as $job) {
 
 
 Router::add('/voicebot', 'voicebot.php', [
-    'title' => 'KI-VoiceBot für automatisierte Telefonie | CallOne',
-	'meta_description' => 'Künstliche Intelligenz (KI) und Automatisierung treffen auf Telefonie und Callcenter – mit dem VoiceBot von CallOne.',
-    'og_image_text' => 'Künstliche Intelligenz (KI) und Automatisierung treffen auf Telefonie und Callcenter – mit dem VoiceBot von CallOne.',
+    'title' => 'Der erste weltweite ChatGPT-VoiceBot für die Kundenservicehotline | CallOne',
+	'meta_description' => 'Entdecken Sie unseren ChatGPT-Voicebot! KI-basiert und effizient beantwortet er Kundenanfragen schnell und präzise, entlastet Mitarbeiter und steigert Kundenzufriedenheit.',
+    'og_image_text' => 'Entdecken Sie unseren ChatGPT-Voicebot! KI-basiert und effizient beantwortet er Kundenanfragen schnell und präzise, entlastet Mitarbeiter und steigert Kundenzufriedenheit.',
     'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
     'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
     'body_class' => 'lp lp--voicebot',
