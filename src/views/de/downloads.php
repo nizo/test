@@ -50,7 +50,7 @@
 				<div class="icon-card__button"></div>
 			</a>
 
-			<a href="/downloads/CallOne_ChatGPT-VoiceBot-Intro.pdf" onclick="dataLayer.push({'event': 'chatgpt-intro-download'});" target="_blank" class="icon-card">
+			<a href="/downloads/CallOne_ChatGPT-VoiceBot-Intro.pdf" id="vb-intro-download-button" onclick="dataLayer.push({'event': 'chatgpt-intro-download'});" target="_blank" class="icon-card">
 				<div class="icon-card__text"><h3>ChatGPT-VoiceBot Intro</h3></div>
 				<div class="icon-card__button"></div>
 			</a>
