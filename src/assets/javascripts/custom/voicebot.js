@@ -5,12 +5,12 @@ const packages = [{
     'best': false,
     'price': 89,
     'minutes': 300,
-    'additional_minutes': 29,
+    'additional_minutes': 18,
     'highlight': false,
     'bots': 3,
     'features': [
         'Bis zu 300 Minuten inkludiert',
-        'Extra Minuten € 0,29 je Minute',
+        'Extra Minuten € 0,18 je Minute',
         '<strong>3 VoiceBots inkludiert</strong>'
     ]
 }, {
@@ -19,12 +19,12 @@ const packages = [{
     'best': true,
     'price': 259,
     'minutes': 1000,
-    'additional_minutes': 25,
+    'additional_minutes': 15,
     'highlight': false,
     'bots': 5,
     'features': [
         'Bis zu 1000 Minuten inkludiert',
-        'Extra Minuten € 0,25 je Minute',
+        'Extra Minuten € 0,15 je Minute',
         '<strong>5 VoiceBots inkludiert</strong>'
     ]
 }, {
@@ -33,12 +33,12 @@ const packages = [{
     'best': false,
     'price': 659,
     'minutes': 3500,
-    'additional_minutes': 18,
+    'additional_minutes': 12,
     'highlight': false,
     'bots': 'Unlimitierte',
     'features': [
         'Bis zu 3500 Minuten inkludiert',
-        'Extra Minuten € 0,18 je Minute',
+        'Extra Minuten € 0,12 je Minute',
         '<strong>Unlimitierte VoiceBots inkludiert</strong>'
     ]
 }, {

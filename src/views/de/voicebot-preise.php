@@ -279,7 +279,7 @@ $faqs->faq_add (
 											<div class="vb-package__subtitle"><p>Ideal für kleinere Unternehmen mit Wachstumsambitionen</p></div>
 											<div class="vb-package__price">€<em>89</em> <span>/ monatlich</span></div>
 											<ul>
-											<li>Bis zu 300 Minuten inkludiert</li><li>Extra Minuten € 0,29 je Minute</li><li><strong>3 VoiceBots inkludiert</strong></li>
+											<li>Bis zu 300 Minuten inkludiert</li><li>Extra Minuten € 0,18 je Minute</li><li><strong>3 VoiceBots inkludiert</strong></li>
 											</ul>
 										</label>
 										<input type="radio" name="package" id="package-1" value="Fortgeschritten">
@@ -290,7 +290,7 @@ $faqs->faq_add (
 											<div class="vb-package__subtitle"><p>Ideal für Unternehmen mit frequentierter Kundenhotline</p></div>
 											<div class="vb-package__price">€<em>259</em> <span>/ monatlich</span></div>
 											<ul>
-											<li>Bis zu 1000 Minuten inkludiert</li><li>Extra Minuten € 0,25 je Minute</li><li><strong>5 VoiceBots inkludiert</strong></li>
+											<li>Bis zu 1000 Minuten inkludiert</li><li>Extra Minuten € 0,15 je Minute</li><li><strong>5 VoiceBots inkludiert</strong></li>
 											</ul>
 										</label><input type="radio" name="package" id="package-2" value="Experte">
 										<label for="package-2" class="vb-package" data-price="659">
@@ -299,7 +299,7 @@ $faqs->faq_add (
 											<div class="vb-package__subtitle"><p>Für große Unternehmen, Poweruser &amp; Experten</p></div>
 											<div class="vb-package__price">€<em>659</em> <span>/ monatlich</span></div>
 											<ul>
-											<li>Bis zu 3500 Minuten inkludiert</li><li>Extra Minuten € 0,18 je Minute</li><li><strong>Unlimitierte VoiceBots inkludiert</strong></li>
+											<li>Bis zu 3500 Minuten inkludiert</li><li>Extra Minuten € 0,12 je Minute</li><li><strong>Unlimitierte VoiceBots inkludiert</strong></li>
 											</ul>
 										</label>
 											
