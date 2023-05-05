@@ -563,7 +563,7 @@ $faqs->faq_add(
 
                     <div class="co-grid mobile-padd">
                         <div class="section__content" style="z-index: 2">
-                            <h2 class="centered repeat-para-container-heading">Schnittstellen offener <br>Datenaustausch
+                            <h2 class="centered repeat-para-container-heading">Schnittstellen für<br> offenen Datenaustausch
                             </h2>
                             <div class="communication-container-inner-middle-img centered">
                                 
@@ -606,34 +606,34 @@ $faqs->faq_add(
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat pink-cat">Indiv. Anbindung</span>
+                                    <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-hobspot_logo.svg" class="offerner-img" alt=""
                                         width="200">
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat pink-cat">Indiv. Anbindung</span>
+                                    <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-salesforce_logo.svg" class="offerner-img" alt=""
                                         width="141">
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat green-cat">Fertige App</span>
+                                    <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-zoho_logo.svg" class="offerner-img" alt="" width="160">
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat green-cat">Fertige App</span>
+                                    <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-pipedrive_logo.svg" class="offerner-img" alt=""
                                         width="200">
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat pink-cat">Indiv. Anbindung</span>
+                                    <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-logo-D365.svg" class="offerner-img" alt="" width="200">
                                 </div>
                             </div>
@@ -641,7 +641,7 @@ $faqs->faq_add(
                                 <div class="offernen_box offernen_trans flex relative">
 
                                     <img src="/assets/images/lp/callone-plus-icon.svg" class="offerner-img" alt="" width="40">
-                                    <span class="nahezu-text"> Nahezu unbegrenzte Möglichkeiten dank Webhook</span>
+                                    <span class="nahezu-text">Nahezu unbegrenzte Möglichkeiten dank Webhook</span>
                                 </div>
                             </div>
 

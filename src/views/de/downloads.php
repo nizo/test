@@ -40,15 +40,22 @@
 	<div class="section__content section__content--narrow">
 		<h2 class="centered mobile-left">Dokumente</h2>
 		<div class="icon-cards">
-			<a href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" class="icon-card">
+			<a href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf" target="_blank" class="icon-card">
 				<div class="icon-card__text"><h3>Personenbezogene Daten im Bewerbungsverfahren</h3></div>
 				<div class="icon-card__button"></div>
 			</a>
 
-			<a href="/downloads/CallOne-Wiederverkaeufernachweis-Online.pdf" class="icon-card">
+			<a href="/downloads/CallOne-Wiederverkaeufernachweis-Online.pdf" target="_blank" class="icon-card">
 				<div class="icon-card__text"><h3>Wiederverkäufernachweis</h3></div>
 				<div class="icon-card__button"></div>
 			</a>
+
+			<a href="/downloads/CallOne_ChatGPT-VoiceBot-Intro.pdf" onclick="dataLayer.push({'event': 'chatgpt-intro-download'});" target="_blank" class="icon-card">
+				<div class="icon-card__text"><h3>ChatGPT-VoiceBot Intro</h3></div>
+				<div class="icon-card__button"></div>
+			</a>
+
+
 		</div>
 	</div>
 </div>
