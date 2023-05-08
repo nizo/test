@@ -222,18 +222,27 @@ function toggleStep(e) {
     let vbChoosing = document.querySelector('#vb-choosing');
     let vbIntroText = document.querySelector('#vb_intro-text');
     let contentSelection = document.querySelector('#content_selection');
+    let moveElementWork = document.getElementById("vb-cart-container").innerHTML;
 
 
     if (step == 1) {
+       /* move element*/
+       //jQuery( "#sidebar_move" ).prepend( jQuery( "#cart" ) );
+       document.getElementById("vb-cart-container").remove();
+       document.getElementById('sidebar_move').innerHTML = moveElementWork;
+       //document.getElementById('sidebar_move').classList.add("mystyle");
+       document.getElementById("checkout-wrap-stps").classList.add("checkout-full-width");
+
         contentForm.style.display = 'block';
         vbChoosing.style.display = 'none';
-		//vbIntroText.style.display = 'none';
+		vbIntroText.style.display = 'none';
 
         btnSubmit.style.display = '';
         btnNextStep.style.display = 'none';
         step = 2;
         window.scrollTo(0, contentForm.getBoundingClientRect().top + window.scrollY - 200);
     } else {
+       
         contentForm.style.display = 'none';
         contentSelection.style.display = '';
         btnSubmit.style.display = 'none';
@@ -244,6 +253,8 @@ function toggleStep(e) {
 }
 
 function handleSubmit(e) {
+    
+    // return false;
     e.preventDefault();
     let form = e.currentTarget;
     let formData = new FormData(form);
