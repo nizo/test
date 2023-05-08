@@ -353,7 +353,7 @@ $faqs->faq_add(
 
             <div class="co-grid">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--12-sm">
-                    <h2 class="communication-container-heading centered">Kommunikation auf <br>natürlicher Art</h2>
+                    <h2 class="communication-container-heading centered">Kommunikation auf <br>natürliche Art</h2>
                     <div class="co-grid co-grid--lp-vb-conversation communication-container-inner">
                         <div class="section__content" style="z-index: 2">
                             <div class="flex">
@@ -376,7 +376,7 @@ $faqs->faq_add(
                                             class="bubble__speaker"> In Zustellung</span>. Ihr Paket könnte <span
                                             class="bubble__speaker">heute noch zugestellt</span> werden
                                     </p>
-                                    <p class="communication-container-para left small-font author-name">Rezept Bot</p>
+                                    <p class="communication-container-para left small-font author-name">ChatGPT-VoiceBot</p>
                                 </div>
                             </div>
                             <div class="flex">
