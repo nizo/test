@@ -326,10 +326,11 @@ function handleMobileCartDisplay() {
 }
 
 document.addEventListener('DOMContentLoaded', e => {
+
+	if(!document.body.className.match('lp--vb-preise')) return false;
+
     let counter = document.querySelectorAll('.vb-count');
     counter.forEach(c => new vbCount(c));
-
-    //packagesInit();
 
     let selector = document.querySelectorAll('input[name="package"]');
     selector.forEach(s => {

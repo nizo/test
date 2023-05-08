@@ -204,7 +204,7 @@ $faqs->faq_add (
 
                     <p style="margin-top:var(--gutter-xs)">Wir schalten oder portieren Ihnen Rufnummern aus Ihrem Vorwahlbereich und schalten SIP-Trunks in ganz Europa und weltweit.</p>
 
-                    <p><a href="/0800-lokal-nummern" class="btn btn--border-bottom btn--arrow-right-small">Runummern</a></p>
+                    <p><a href="/0800-lokal-nummern" class="btn btn--border-bottom btn--arrow-right-small">Rufnummern</a></p>
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
