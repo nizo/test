@@ -26,7 +26,7 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
 	'Kann ich die Abrechnung von Minuten limitieren?',
-	'<p>Sie  haben die Möglichkeit festzulegen, wie lange und oft der VoiceBot am Tag von einem Anrufer angerufen werden darf. Bei Überschreitung des Limits können Sie den Anrufer eine Hinweisansage abspielen.</p>'
+	'<p>Sie  haben die Möglichkeit festzulegen, wie lange und oft der VoiceBot am Tag von einem Anrufer angerufen werden darf. Bei Überschreitung des Limits können Sie dem Anrufer eine Hinweisansage abspielen.</p>'
 );
 $faqs->faq_add(
 	'Kann ich mein Preispaket jederzeit ändern oder kündigen?',
