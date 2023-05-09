@@ -187,8 +187,7 @@ $faqs->faq_add(
 
 						<br />
 
-						<form action="#" method="post" class="floating-form" id="voicebot-form"
-							onsubmit="handleSubmit()">
+						<form action="#" method="post" class="floating-form" id="voicebot-form">
 							<h3>Angaben über Sie</h3>
 							<p>Zuerst würden wir gern wissen, wer Sie sind.</p>
 
