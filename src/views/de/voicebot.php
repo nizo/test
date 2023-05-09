@@ -30,7 +30,7 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
     'Was kostet der CallOne-VoiceBot nach der Testphase?',
-    '<p>Sobald die Beta-Phase unseres Voice-Moduls abgeschlossen ist, bekommen Sie mehr Informationen zur Preisgestaltung des CallOne-VoiceBot.</p>'
+    '<p>Für unseren KI-Voicebot bieten wir drei Standard <a href="/voicebot-preise">Preispakete</a> mit inkludierten Nutzungsvolumen. Zudem stehen eine Vielzahl smarter Zusatzoptionen zur Verfügung. Unternehmen die ein individuelles Angebot wünschen, bieten wir mit unserem Flextarif die passgenaue Option.</p>'
 );
 $faqs->faq_add(
     'Passt CallOne-VoiceBot auch zu meiner Telefonanlage?',
