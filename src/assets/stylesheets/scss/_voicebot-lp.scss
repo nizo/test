@@ -3038,6 +3038,31 @@ body.lp--voicebot {
 
 	}
 
+	#vb-choosing {
+		h2 {
+			@media(max-width: map-get($breakpointsMQ, 'sm')) {
+				text-align: left;
+			}
+		}
+	}
+
+	.list--checkmarks {
+		@media(max-width: map-get($breakpointsMQ, 'sm')) {
+			flex-direction: column;
+			align-items: flex-start;
+   			text-align: left;
+			margin-bottom: 2rem;
+
+			li {
+				margin-left: 0;
+			}	
+
+		}
+		
+
+
+	}
+
 
 
 }
@@ -3062,3 +3087,4 @@ body.lp--voicebot.lp--vb-preise {
 .cart-wrapper-section { padding-bottom: 0 !important;}
 
 }}
+
