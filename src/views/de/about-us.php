@@ -204,7 +204,7 @@ Respekt</h5>
         <div class="co-grid flex">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm ">
                 <div class="gray-bg green-comman-space no-btom-space">
-                    <h3 class="green-reachable-block-heading">Der VoiceBot-Pionier mit eigens entwickelter Kommunikationsplattform</h3>
+                    <h3 class="green-reachable-block-heading">Der VoiceBot mit eigens entwickelter Kommunikationsplattform</h3>
                     <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">CallOne revolutioniert die Kommunikationsbranche als weltweit erster Anbieter eines VoiceBots, der auf ChatGPT basiert und kundenspezifische Anliegen konfigurierbar bearbeitet. Die eigene Kommunikationsplattform von CallOne ist von Anfang an schnittstellenoffen konzipiert und ermöglicht einfachste Administrierbarkeit. Die Kombination aus der Power von OpenAI's KI und der Schnittstellenoffenheit der Plattform führt zu einem einzigartigen ChatGPT-VoiceBot, der sich von anderen Lösungen abhebt.</p>
                     <div class="gray-box-img">
                         <img src="/assets/images/lp/callone-specialize-in-openai.jpg" width="700" height="580"
