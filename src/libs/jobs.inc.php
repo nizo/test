@@ -329,8 +329,8 @@ function jobs_load ()
 	$jobs->job_add ($job);
 	*/
 	
-	$job = new job ('Projekte & Support', 'Key Account Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
-	$job->location_set ('Potsdam');
+	$job = new job ('Projekte & Support', 'Key Account Manager (w/m/d) I 4-Tage-Woche und remote work möglich', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
+	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-key-account-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst den Umgang mit Menschen und kommunizierst mühelos sowie zielführend mit Kunden? Außerdem hast du eine schnelle technische Auffassungsgabe und eine selbstständige Arbeitsweise?');
@@ -358,8 +358,8 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 	
-	$job = new job ('Projekte & Support', 'Customer Success Manager*in', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
-	$job->location_set ('Potsdam');
+	$job = new job ('Projekte & Support', 'Customer Success Manager (w/m/d) I 4-Tage-Woche und Home Office möglich, ', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
+	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-customer-success-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
@@ -386,8 +386,8 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Projekte & Support', 'Projektmanager*in', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
-	$job->location_set ('Potsdam');
+	$job = new job ('Projekte & Support', 'Projektmanager I Prozessmanager (w/m/d) I  4-Tage-Woche und Home Office möglich', 'Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und stehst als zentrale Ansprechpartner*in zur Verfügung.');
+	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-projektmanager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du kümmerst Dich um das Wohl unserer Kunden, übernimmst das Onboarding und die Schulung der Mitarbeitenden und stehst als zentrale Ansprechpartner*in zur Verfügung.');
@@ -439,7 +439,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die Große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
-	$job = new job ('Office', 'Assistenz der Geschäftsführung', 'In der Rolle der Assistenz der Geschäftsführung arbeitest Du eng mit unserer Geschäftsführung und dem Projektmanagement zusammen.');
+	$job = new job ('Office', 'Assistenz der Geschäftsführung (w/m/d)', 'In der Rolle der Assistenz der Geschäftsführung arbeitest Du eng mit unserer Geschäftsführung und dem Projektmanagement zusammen.');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/job-assistenz-geschaeftsfuehrung-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -461,8 +461,8 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Office', 'Quereinsteiger*in, Junior Projektmanagement', 'Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
-	$job->location_set ('Potsdam');
+	$job = new job ('Office', 'Quereinsteiger I Junior Projektmanagement (w/m/d) I  4-Tage-Woche und Home Office möglich', 'Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
+	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-quereinsteiger-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Mit unserem umfassenden Einarbeitungsprogramm machen wir Dich zur Projektmanager*in für unsere großartigen Kunden');
@@ -572,6 +572,7 @@ function jobs_load ()
 	$jobs->job_add ($job);
 	*/
 	
+	/*
 	$job/ = new job ('Softwareentwicklung', 'Frontend Developer (w/m/d)', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
 	$job->location_set ('Düsseldorf');
 	$job->url_set ('/karriere/frontend-developer-duesseldorf');
@@ -597,8 +598,9 @@ function jobs_load ()
 	$job->agenda_filename_set ('agenda-it-technik');
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
+	*/
 
-	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und I oder 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
+	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und bis zu 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
 	$job->location_set ('Düsseldorf');
 	$job->url_set ('/karriere/frontend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
@@ -730,7 +732,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
 
-	$job = new job ('IT & Technik', 'VoIP Plattform Engineer', 'Als VoIP Plattform Engineer sind Sie für die Betreuung und Weiterentwicklung unserer VoIP Plattform verantwortlich.');
+	$job = new job ('IT & Technik', 'VoIP Plattform Engineer (w/m/d) I  4-Tage-Woche und 100% Remote möglich', 'Als VoIP Plattform Engineer sind Sie für die Betreuung und Weiterentwicklung unserer VoIP Plattform verantwortlich.');
 	$job->location_set ('Kölln-Reisiek, 100% Remote');
 	$job->url_set ('/karriere/voip-plattform-engineer-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -759,7 +761,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 
-	$job = new job ('IT & Technik', 'Serverinfrastruktur- und Storage Engineer', 'Als Serverinfrastruktur- und Storage Engineer sind Sie für die Betreuung und Weiterentwicklung unserer Serverinfrastruktur und Storage Systeme verantwortlich.');
+	$job = new job ('IT & Technik', 'IT Infrastruktur Management I Serverinfrastruktur- und Storage Engineer (w/m/d) I I  4-Tage-Woche und Home Office möglich', 'Als Serverinfrastruktur- und Storage Engineer sind Sie für die Betreuung und Weiterentwicklung unserer Serverinfrastruktur und Storage Systeme verantwortlich.');
 	$job->location_set ('Kölln-Reisiek, 100% Remote');
 	$job->url_set ('/karriere/serverinfrastruktur-storage-engineer-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -789,7 +791,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 		
-	$job = new job ('Marketing', 'Produkt Marketing Manager*in', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
+	$job = new job ('Marketing', 'Produkt Marketing Manager (w/m/d) I I  4-Tage-Woche und bis zu 100% Remote möglich', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/produkt-marketing-manager-in-potsdam');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -929,8 +931,8 @@ Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vo
 	$jobs->job_add ($job);
 */
 
-$job = new job ('Management', 'Projektmanager mit technischem Verständnis', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
-	$job->location_set ('Potsdam');
+$job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständnis I  4-Tage-Woche und Home Office möglich', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
+	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/projektmanager-technisch-potsdam');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Als <strong>Projektmanager mit technischem Verständnis</strong>, bist du in der Lage, effektiv zwischen verschiedenen Teams zu vermitteln. Du wirst eine wichtige Mentorenrolle einnehmen, um sicherzustellen, dass alle Teams auf dem gleichen Stand sind und dass die Entwicklung von neuen Funktionen reibungslos verläuft. Außerdem wirst du dafür verantwortlich sein, Anforderungen zu sammeln, Befragungen durchzuführen und nachgelagerte Prozesse zu managen, um sicherzustellen, dass alle Teams zusammenarbeiten, um unsere Produkte erfolgreich auf den Markt zu bringen.');
@@ -955,8 +957,8 @@ $job = new job ('Management', 'Projektmanager mit technischem Verständnis', 'Du
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Vertrieb', '(Senior) Sales Manager*in', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
-	$job->location_set ('Potsdam');
+	$job = new job ('Vertrieb', '(Senior) Sales Manager (w/m/d) I 4-Tage-Woche und Home Office möglich', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
+	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-sales-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen u.ä. fühlst du dich pudelwohl? Zugleich liebst du die Nähe zum Kunden und hast Interesse daran, deine Abschlüsse auch als Projekt zu begleiten? Dann suchen wir genau dich!');
@@ -1011,8 +1013,8 @@ $job = new job ('Management', 'Projektmanager mit technischem Verständnis', 'Du
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
-	$job = new job ('Vertrieb', 'HR-Manager*in, Schwerpunkt Recruiting und Employer Branding', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
-	$job->location_set ('Remote');
+	$job = new job ('Vertrieb', 'HR Manager i HR Generalist (w/m/d) I Schwerpunkt Recruiting und Employer Branding I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job->location_set ('Kölln-Reisiek / Remote');
 	$job->url_set ('/karriere/job-hr-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding und hilfst uns dabei, Talente aus der Region zu finden und zu gewinnen. In enger Zusammenarbeit mit dem Team bringst du deine Ideen für den Aufbau unserer Arbeitgebermarke ein.');
