@@ -605,9 +605,9 @@ body.lp--voicebot {
 
 		&-list {
 			display: inline-block;
-			padding-left: 2.2rem;
+			padding-left: 1.6rem;
 			background: url(../images/icons_svg/callone-icons-green-svg.svg) no-repeat left top;
-			background-size: 33px;
+			background-size: 18px;
 			font-size: .9rem;
 			line-height: 1.2;
 			flex-grow: 2;
@@ -1842,8 +1842,8 @@ main {
 
 			&-list {
 				display: block;
-				padding: .3rem 1rem 1rem 2.2rem;
-				background-size: 26px;
+				padding: .02rem 1rem 1rem 1.6rem;
+				background-size: 18px;
 
 				br {
 					display: none;
@@ -2679,7 +2679,7 @@ body.lp--voicebot {
 			width: 1.2rem;
 			height: 1.2rem;
 		}
-	
+
 		&.tooltip--info:before {
 			top: 55%;
 			font-weight: bold;
@@ -2687,7 +2687,7 @@ body.lp--voicebot {
 
 	}
 
-	
+
 
 	.vb-additionals {
 
@@ -2696,7 +2696,8 @@ body.lp--voicebot {
 
 			@media(min-width: map-get($breakpointsMQ, 'sm')) {
 				width: calc(33% - 8px);
-			}			
+			}
+
 			aspect-ratio: unset;
 		}
 
@@ -2714,7 +2715,8 @@ body.lp--voicebot {
 		background-color: #E1FBC8;
 
 
-		*, .tooltip--info:before {
+		*,
+		.tooltip--info:before {
 			border-color: #000 !important;
 			color: #000 !important;
 		}
@@ -2738,8 +2740,8 @@ body.lp--voicebot {
 			font-weight: 900;
 		}
 	}
-	
-	
+
+
 
 
 
@@ -2750,19 +2752,41 @@ body.lp--voicebot {
 	.list-line-cart {
 		display: none;
 	}
-	.cart-icon-img { width: 20px !important; height: 20px; 		display: block;background-size: 20px auto !important;
-		&.gauge-img-cr { background: url(../images/icons_svg/icon-gauge.svg) no-repeat center;}
-		&.phone-img-cr { background: url(../images/icons_svg/icon-phone.svg) no-repeat center;}
-		&.message-img-cr { background: url(../images/icons_svg/icon-message.svg) no-repeat center;}
+
+	.cart-icon-img {
+		width: 20px !important;
+		height: 20px;
+		display: block;
+		background-size: 20px auto !important;
+
+		&.gauge-img-cr {
+			background: url(../images/icons_svg/icon-gauge.svg) no-repeat center;
+		}
+
+		&.phone-img-cr {
+			background: url(../images/icons_svg/icon-phone.svg) no-repeat center;
+		}
+
+		&.message-img-cr {
+			background: url(../images/icons_svg/icon-message.svg) no-repeat center;
+		}
 	}
 
 	.checkout-full-width {
 		width: 100%;
 
 		.cart-icon-img {
-			&.gauge-img-cr { background: url(../images/icons_svg/icon-gauge-gry.svg) no-repeat center;}
-			&.phone-img-cr { background: url(../images/icons_svg/icon-phone-gry.svg) no-repeat center;}
-			&.message-img-cr { background: url(../images/icons_svg/icon-message-gry.svg) no-repeat center;}
+			&.gauge-img-cr {
+				background: url(../images/icons_svg/icon-gauge-gry.svg) no-repeat center;
+			}
+
+			&.phone-img-cr {
+				background: url(../images/icons_svg/icon-phone-gry.svg) no-repeat center;
+			}
+
+			&.message-img-cr {
+				background: url(../images/icons_svg/icon-message-gry.svg) no-repeat center;
+			}
 		}
 
 		.vb-cart {
@@ -2780,18 +2804,20 @@ body.lp--voicebot {
 				display: none;
 			}
 
-			
-			> .vb-cart__content {
+
+			>.vb-cart__content {
 				border-top: 1px solid #363636;
 				margin-top: 20px;
+
 				a+p.centered {
 					display: none;
 				}
 			}
 		}
+
 		.vb-selection__price strong {
 			font-size: 24px;
-		 
+
 		}
 
 		.list-line-cart {
@@ -2839,14 +2865,19 @@ body.lp--voicebot {
 				}
 			}
 
-			
-			
+
+
 		}
-		
+
 	}
+
 	.checkout-full-width .btn--full-width {
 		width: auto;
-		&:hover{ background-color: #fff; color: #000;} 
+
+		&:hover {
+			background-color: #fff;
+			color: #000;
+		}
 	}
 
 	.vb-cart-container * {
@@ -2945,7 +2976,7 @@ body.lp--voicebot {
 
 	[data-price="individuell"] {
 		width: 100%;
-		background:#161616;
+		background: #161616;
 		border-color: #303030;
 
 		.vb-package__price {
@@ -3050,19 +3081,43 @@ body.lp--voicebot {
 		@media(max-width: map-get($breakpointsMQ, 'sm')) {
 			flex-direction: column;
 			align-items: flex-start;
-   			text-align: left;
+			text-align: left;
 			margin-bottom: 2rem;
 
 			li {
 				margin-left: 0;
-			}	
+			}
 
 		}
-		
+
 
 
 	}
 
+	.price-popup-style {
+		.floating-form__field input {
+			background: #fff;
+			height: 38px;
+			color: #000;
+			padding: 5px 25px;
+			font-size: 13px;
+			border: 2px solid #c4c4c4;
+		}
+
+		.floating-form__field textarea {
+			border: 2px solid #c4c4c4;
+			border-radius: 5px;
+			font-size: 13px;
+		}
+
+
+		.floating-form__field label {
+			background: #fff;
+			top: 9px;
+			font-size: 13px;
+		}
+
+	}
 
 
 }
@@ -3073,18 +3128,21 @@ body.lp--voicebot.lp--vb-preise {
 
 @media screen and (max-width: 600px) {
 	body.lp--voicebot.lp--vb-preise {
-.vb-cart-wrap_c {
-	display: block;
+		.vb-cart-wrap_c {
+			display: block;
 
-	.vb-cart__right {
-		width: 100%;
-	}
+			.vb-cart__right {
+				width: 100%;
+			}
 
-	>.vb-cart__content {
-		width: 100%;
+			>.vb-cart__content {
+				width: 100%;
+			}
+		}
+
+		.cart-wrapper-section {
+			padding-bottom: 0 !important;
+		}
+
 	}
 }
-.cart-wrapper-section { padding-bottom: 0 !important;}
-
-}}
-

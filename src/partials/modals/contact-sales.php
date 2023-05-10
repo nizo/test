@@ -94,7 +94,7 @@ $uniqueID = uniqid();
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-next-button-classes="trackedContactSubmit,trackedContactFormSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
-        <div class="sales-contact-form">
+        <div class="sales-contact-form price-popup-style">
             <h2>Wie können wir Sie erreichen?</h2>
 
             <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit">
@@ -226,7 +226,7 @@ $uniqueID = uniqid();
     </div>
 
     <div class="callone-modal__step" data-step-id="5" data-prev-step="1" data-next-step="6" data-next-button-text="Jetzt Rückruf anfordern" data-next-button-classes="trackedContactSubmit,trackedContactCallbackSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Rückruf">
-        <div class="sales-callback-form">
+        <div class="sales-callback-form price-popup-style">
             <h2>Sofort mit CallOne sprechen!</h2>
 
             <p class="centered">Lassen Sie sich direkt mit einem CallOne Mitarbeiter verbinden.</p>
