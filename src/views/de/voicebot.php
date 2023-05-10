@@ -17,7 +17,9 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
     'Wie kann ich den CallOne-VoiceBot nutzen?',
-    '<p>Nachdem Sie sich Ihr Konto bei OpenAI angelegt haben, stellen wir Ihnen die Schnittstelle zu CallOne zur Verfügung und unterstützen Sie bei der Einrichtung Ihres idealen Bots.</p>'
+    '<p>Der CallOne-VoiceBot bietet vielfältige Einsatzmöglichkeiten, um Ihre Kundenkommunikation zu optimieren. Sie können ihn als Ersatz für herkömmliche Telefonauswahlmenüs (IVR) verwenden, um alle häufig gestellten Fragen (FAQs) Ihres Unternehmens und Ihrer Kundenservice-Hotline zu beantworten. Dank unserer Schnittstellen können auch individuelle Anwendungsfälle abgedeckt werden, wie zum Beispiel die Abfrage des Lieferstatus, Adressänderungen oder die Erfassung von Zählerständen.
+
+Anstatt Anrufer in der Warteschlange warten zu lassen, kann der VoiceBot Rückrufe terminieren und eigenständig auslösen. Zudem ermöglichen unsere Anbindungen an Doctolib, Calendly und Microsoft Bookings dem Phonebot, Terminbuchungen vollständig automatisiert abzubilden. So können Sie den CallOne-VoiceBot effektiv nutzen, um Ihren Kundenservice zu verbessern und Ihre Kundenanliegen schnell und effizient zu bearbeiten.Bei allen Schritten unterstützen sie gerne unsere Customer Success Manager.</p>'
 );
 $faqs->faq_add(
     'Was zeichnet den CallOne-VoiceBot aus?',
@@ -25,8 +27,7 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
     'Gibt es eine kostenlose Testversion?',
-    '<p>Aktuell ist der CallOne-VoiceBot noch nicht für den Verkauf ausgerollt. Noch Anfang 2023 werden erste Beta-Tester exklusiven Zugang zu unserem VoiceBot-Modul erhalten. Weitere Informationen zur Preisgestaltung stellen wir Ihnen nach der Beta-Phase zur Verfügung.
-    </p>'
+    '<p>Ja, wir bieten eine kostenlose und unverbindliche Testversion für 14 Tage an. Für diese Testphase müssen Sie keine Zahlungsdaten angeben, und sie endet automatisch. Während der Testversion erhalten Sie einen eigenen Zugang mit Rufnummern aus Ihrem Vorwahlbereich, sodass Sie den VoiceBot bis zu 30 Minuten kostenfrei testen können. Unsere Vertragslaufzeit ist zudem vorteilhaft gestaltet, mit einer Kündigungsfrist von nur 4 Wochen zum Monatsende, wodurch das Risiko für Sie minimiert wird.</p>'
 );
 $faqs->faq_add(
     'Was kostet der CallOne-VoiceBot nach der Testphase?',
