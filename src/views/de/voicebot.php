@@ -38,7 +38,9 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
     'Ist der CallOne-VoiceBot datenschutzkonform?',
-    '<p>CallOne ist ein deutscher Anbieter und auch unsere Serverstandorte befinden sich ausschließlich in zertifizierten Rechenzentren in Deutschland. Selbstverständlich entsprechen wir somit den höchsten DSGVO-Normen. Die genutzte Technologie von OpenAI stammt aus den USA und entspricht somit den dortigen Datenschutzbestimmungen. Für die Nutzung von CallOne-VoiceBot erstellen Sie sich ein Konto bei OpenAI und binden dieses an unsere Technologie an. Hier bieten wir keine Rechtsberatung und wünschen uns, dass Sie sich über die Nutzung US-amerikanischer Technologie in Ihrem Kundenservice bewusst sind.</p>'
+    '<p>Der CallOne-VoiceBot ist in der Tat datenschutzkonform. CallOne, ein deutscher Netzbetreiber (vTNB), betreibt seine Kommunikationsplattform auf eigenen Servern in ISO27001-zertifizierten Hochsicherheitsrechenzentren in Deutschland. Als Unternehmen unterliegen wir dem Telekommunikationsgesetz und stehen unter Aufsicht der Bundesnetzagentur. Zudem agieren wir gemäß der Datenschutz-Grundverordnung (DSGVO).
+
+Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. Kunden können eigene Verträge mit Anbietern wie Microsoft Azure (OpenAI) abschließen, um eine direkte vertragliche Grundlage für die Datenverarbeitung zu erhalten. Hinsichtlich Spracherkennung, OpenAI über Microsoft Azure Services und Text-to-Speech-Ausgabe setzen wir vorwiegend auf Microsoft mit Serverstandorten in Deutschland oder Europa, um den Datenschutz zu gewährleisten.</p>'
 );
 ?>
 
