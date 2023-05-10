@@ -572,13 +572,13 @@ function jobs_load ()
 	$jobs->job_add ($job);
 	*/
 	
-	$job = new job ('Softwareentwicklung', 'Frontend Developer', 'Du bist Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet?');
+	$job/ = new job ('Softwareentwicklung', 'Frontend Developer (w/m/d)', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
 	$job->location_set ('Düsseldorf');
 	$job->url_set ('/karriere/frontend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Wir suchen einen Frontend Developer, der sich durch seine exzellenten Fähigkeiten in Javascript auszeichnet. Du wirst für die Umsetzung von anspruchsvollen Webanwendungen verantwortlich sein.');
-	$job->text_description_long_set ('Als Frontend Developer arbeitest du gemeinsam an der Entwicklung von anspruchsvollen und innovativen Webanwendungen. Unsere Entwickler sind Experten in der Arbeit mit modernen Frontend-Technologien und Tools und setzen ihre Fähigkeiten ein, um die bestmögliche Benutzererfahrung zu schaffen. Durch enge Zusammenarbeit mit anderen Teams stellen wir sicher, dass unsere Produkte den höchsten Qualitätsstandards entsprechen.');
-	$job->text_description_long_set ('Von Browser basierter VoIP-Telefonie über grafische Routingansichten bis zu Dashboards, ist die Spanne der möglichen Aufgaben sehr breit. Deine Kenntnisse unterstützen uns, auch weiterhin am Ball der Zeit zu bleiben und mit dir weiter zu wachsen.');
+	$job->text_description_long_set ('Als Frontend Developer arbeitest du gemeinsam an der Entwicklung von anspruchsvollen und innovativen Webanwendungen. Unsere Entwickler sind Experten in der Arbeit mit modernen Frontend-Technologien und Tools und setzen ihre Fähigkeiten ein, um die bestmögliche Benutzererfahrung zu schaffen. Durch die enge Zusammenarbeit mit anderen Teams stellen wir sicher, dass unsere Produkte den höchsten Qualitätsstandards entsprechen.');
+	$job->text_description_long_set ('Von Browser basierter VoIP-Telefonie über grafische Routingansichten bis zu Dashboards, ist die Spanne der möglichen Aufgaben sehr breit. Deine Kenntnisse unterstützen uns, auch weiterhin am Zahn der Zeit zu bleiben und mit dir weiter zu wachsen.');
 	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
 	$job->text_tasks_set ('Enge Zusammenarbeit mit weiteren Frontend-, sowie den Backend-Entwicklern');
 	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, welche große Datenmengen variabel anzeigen können');
@@ -591,6 +591,38 @@ function jobs_load ()
 	$job->text_requirements_set ('Kenntnisse in PHP sind von Vorteil, aber nicht zwingend erforderlich');
 	$job->text_requirements_set ('Erfahrung mit komplexen Weblösungen');
 	$job->text_requirements_set ('Fließend Deutschkenntnise, wünschenswert gute Englischkenntnisse');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['developer']);
+	$job->agenda_filename_set ('agenda-it-technik');
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+
+	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und I oder 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
+	$job->location_set ('Düsseldorf');
+	$job->url_set ('/karriere/frontend-developer-duesseldorf');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
+	$job->text_intro_set ('Keine Lust auf lange Entscheidungswege, veraltete Arbeitsstrukturen und Anwesenheitspflicht? Du willst an Software-Lösungen arbeiten, die wirklich Mehrwert stiften und wünschst dir ein Umfeld, in dem du deine Ideen schnell und unbürokratisch umsetzen kannst? Du willst New Work nicht nur als Buzzword in einer Jobanzeige lesen, sondern den Job deinen Interessen und Bedürfnissen anpassen und dich auf Wunsch für eine 4-Tage-Woche, remote oder hybrid work entscheiden können? Dann lohnt es sich, jetzt weiterzulesen! ');
+	$job->text_description_long_set ('Du bist genervt von 0815-LinkedIn-Nachrichten von Recruitern (w/m/d), die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wie dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  ');
+	$job->text_description_long_set ('Wie? In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben.  ');
+	$job->text_description_long_set ('Warum? Wir sind davon überzeugt, dass Mitarbeiter (w/m/d) langfristig nur glücklich und engagiert sind, wenn sie einen Arbeitgeber gefunden haben, bei dem sie ihre Interessen und Stärken voll ausleben können. Dazu zählen für uns nicht nur deine täglichen Aufgaben im Job, sondern auch ein Arbeitsumfeld, in dem du so sein kannst, wie du wirklich bist. Daher arbeiten wir nicht mit starren Job-Profilen, sondern mit Jobbausteinen, die wir basierenden auf deinen Stärken und Vorlieben gemeinsam zusammensetzen.');
+	$job->text_description_long_set ('Gibt es gar keine Mindestvoraussetzungen? Doch! Du solltest Bock auf Frontend Entwicklung haben und Javascript beherrschen – alles weitere ist verhandelbar. =)');
+	$job->text_description_long_set ('Wie funktioniert Job Crafting bei CallOne? Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reiz, bei welchen Aufgaben, du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben zu bieten haben, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
+	$job->text_description_long_set ('Der Haken an der Sache? Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
+	$job->text_description_long_set ('Klingt nach einer lohnenden Investition? Dann verabrede dich jetzt mit Marian.');
+	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
+	$job->text_tasks_set ('Enge Zusammenarbeit mit weiteren Frontend-, sowie den Backend-Entwicklern');
+	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, die große Datenmengen variabel anzeigen können');
+	$job->text_tasks_set ('Sicherstellung der Kompatibilität mit verschiedenen Browsern und Geräten');
+	$job->text_tasks_set ('Optimierung der Leistung und Benutzerfreundlichkeit unserer Webanwendungen');
+	$job->text_tasks_set ('Und natürlich die enge Zusammenarbeit mit weiteren Frontend- und Backend-Entwicklern (w/m/d)');
+	$job->text_requirements_set ('Du beherrschst Vanilla JavaScript im Schlaf!');
+	$job->text_requirements_set ('Du hast Erfahrung in der Frontend-Entwicklung von komplexen Weblösungen?');
+	$job->text_requirements_set ('Du denkst dich gut und gerne, in das Nutzerverhalten unserer KundInnen rein und hast Freude daran, unsere Webanwendungen entsprechend zu optimieren? ');
+	$job->text_requirements_set ('Vielleicht hast du bereits mit APIs gearbeitet?');
+	$job->text_requirements_set ('Vielleicht bringst du sogar nützliche Erfahrungen mit, um uns beim Wechsel hin zu Bootstrap zu unterstützen?');
+	$job->text_requirements_set ('REST APIs, WebSockets, WebRTC, PHP - was auch immer du davon mitbringst, kannst du bei uns gut zum Einsatz bringen.');
+	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch verständigen');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
