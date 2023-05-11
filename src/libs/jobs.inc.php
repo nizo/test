@@ -419,7 +419,7 @@ function jobs_load ()
 	$job->url_set ('/karriere/job-kaufmann-frau-fuer-buerokommunikation-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du brennst für Organisation und Planung und bist bereit uns im Alltagsgeschäft tatkrätig zu unterstützen? Dann haben wir einen Job für dich!');
-	$job->text_description_long_set ('Als Unterstützung für unser Back- und Frontoffice bist du ein wichtiger Bestandteil unseres Teams. Du bist die Stütze unses Projektmanagements und Supports und hilfst mit Zuarbeit und bei der Planung neuer und bestehender Kundenprojekte.');
+	$job->text_description_long_set ('Als Unterstützung für unser Backoffice bist du ein wichtiger Bestandteil unseres Teams. Du bist die Stütze unses Projektmanagements und Supports und hilfst mit Zuarbeit und bei der Planung neuer und bestehender Kundenprojekte.');
 	$job->text_description_long_set ('Als Allrounder sind deine Aufgaben recht vielfältig und reichen vom Erstellen von Angeboten und Accounts über Bestellungen bei Lieferanten bis hin zur Pflege von Listen und Dokumentationen. Gerne berücktsichtigen wir deine Interessen und Schwerpunkte.');
 	$job->text_description_long_set ('Wichtig ist uns, dass du Spaß an der Arbeit im Team hast, den Kontakt zu Neu- und Bestandskunden nicht scheust und Interesse daran hast dich in neue Themengebiete im Bereich von SaaS-Lösungen einzuarbeiten.');
 	$job->text_tasks_set ('Unterstützung bei allen administrativen Prozessen');
@@ -600,8 +600,9 @@ function jobs_load ()
 	$jobs->job_add ($job);
 	*/
 
+	/*
 	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und bis zu 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
-	$job->location_set ('Düsseldorf');
+	$job->location_set ('Düsseldorf / Remote');
 	$job->url_set ('/karriere/frontend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
 	$job->text_intro_set ('Keine Lust auf lange Entscheidungswege, veraltete Arbeitsstrukturen und Anwesenheitspflicht? Du willst an Software-Lösungen arbeiten, die wirklich Mehrwert stiften und wünschst dir ein Umfeld, in dem du deine Ideen schnell und unbürokratisch umsetzen kannst? Du willst New Work nicht nur als Buzzword in einer Jobanzeige lesen, sondern den Job deinen Interessen und Bedürfnissen anpassen und dich auf Wunsch für eine 4-Tage-Woche, remote oder hybrid work entscheiden können? Dann lohnt es sich, jetzt weiterzulesen! ');
@@ -612,6 +613,42 @@ function jobs_load ()
 	$job->text_description_long_set ('Wie funktioniert Job Crafting bei CallOne? Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reiz, bei welchen Aufgaben, du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben zu bieten haben, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
 	$job->text_description_long_set ('Der Haken an der Sache? Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
 	$job->text_description_long_set ('Klingt nach einer lohnenden Investition? Dann verabrede dich jetzt mit Marian.');
+	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
+	$job->text_tasks_set ('Enge Zusammenarbeit mit weiteren Frontend-, sowie den Backend-Entwicklern');
+	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, die große Datenmengen variabel anzeigen können');
+	$job->text_tasks_set ('Sicherstellung der Kompatibilität mit verschiedenen Browsern und Geräten');
+	$job->text_tasks_set ('Optimierung der Leistung und Benutzerfreundlichkeit unserer Webanwendungen');
+	$job->text_tasks_set ('Und natürlich die enge Zusammenarbeit mit weiteren Frontend- und Backend-Entwicklern (w/m/d)');
+	$job->text_requirements_set ('Du beherrschst Vanilla JavaScript im Schlaf!');
+	$job->text_requirements_set ('Du hast Erfahrung in der Frontend-Entwicklung von komplexen Weblösungen?');
+	$job->text_requirements_set ('Du denkst dich gut und gerne, in das Nutzerverhalten unserer KundInnen rein und hast Freude daran, unsere Webanwendungen entsprechend zu optimieren? ');
+	$job->text_requirements_set ('Vielleicht hast du bereits mit APIs gearbeitet?');
+	$job->text_requirements_set ('Vielleicht bringst du sogar nützliche Erfahrungen mit, um uns beim Wechsel hin zu Bootstrap zu unterstützen?');
+	$job->text_requirements_set ('REST APIs, WebSockets, WebRTC, PHP - was auch immer du davon mitbringst, kannst du bei uns gut zum Einsatz bringen.');
+	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch verständigen');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['developer']);
+	$job->agenda_filename_set ('agenda-it-technik');
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+	*/
+	
+	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und bis zu 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
+	$job->location_set ('Düsseldorf / Remote');
+	$job->url_set ('/karriere/frontend-developer-duesseldorf');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
+	$job->text_intro_set ('Du bist <b>genervt von 0815-LinkedIn-Nachrichten</b>, die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wie dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  
+
+<b>Wie?</b> In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben. Den Termin dafür kannst du <a href="https://calendly.com/marian-heuser/kennenlernen" target="_blank">HIER</a>  buchen 
+
+<b>Warum wir das machen?</b> Wir sind davon überzeugt, dass Menschen langfristig nur glücklich und engagiert sind, wenn sie einen Arbeitgeber gefunden haben, bei dem sie ihre <b>Interessen und Stärken voll ausleben</b> können. Dazu zählen für uns nicht nur deine täglichen Aufgaben im Job, sondern auch ein Arbeitsumfeld, in dem du so sein kannst, wie du wirklich bist. Daher arbeiten wir nicht mit starren Job-Profilen, sondern mit <b>Jobbausteinen</b>, die wir <b>basierenden auf deinen Stärken und Vorlieben</b> gemeinsam zusammensetzen.  
+
+<b>Gibt es gar keine Mindestvoraussetzungen?</b> Doch! Du solltest Bock auf Frontend Entwicklung haben und Javascript beherrschen – alles weitere ist verhandelbar. :)');
+	$job->text_description_long_set ('<b>Wie funktioniert Job Crafting bei CallOne?</b> Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reiz, bei welchen Aufgaben, du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben zu bieten haben, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
+	$job->text_description_long_set ('<b>Der Haken an der Sache?</b> Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
+	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://calendly.com/marian-heuser/kennenlernen" target="_blank">Zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
+	$job->text_description_long_set ('<b>Du willst vorab etwas mehr wissen?</b> Nachfolgend findest du ein paar <b>exemplarische Jobbausteine</b>, die künftig zu deinem Aufgabenportfolio zählen <b>könnten</b>');
 	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
 	$job->text_tasks_set ('Enge Zusammenarbeit mit weiteren Frontend-, sowie den Backend-Entwicklern');
 	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, die große Datenmengen variabel anzeigen können');
@@ -1054,41 +1091,41 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 function jobs_benefits_load ()
 {
 	$jobs_benefits = array ();
+	
+	$jobs_benefit = new jobs_benefit ('Die "Basics"');
+	$jobs_benefit->icon_set ('/assets/images/icons_svg/weiterbildung.svg');
+	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/weiterbildung-white.svg');
+	$jobs_benefit->text_set ('30 Tage Urlaub, 4-Tage-Woche auf Wunsch, 100% Remote Work oder hybrides Arbeiten möglich, ein fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Angebote, die unsere CallOne´ler zu schätzen wissen.');
+	$jobs_benefits[] = $jobs_benefit;
 
-	$jobs_benefit = new jobs_benefit ('Bonbons gefällig?');
+	$jobs_benefit = new jobs_benefit ('Arbeit mit Sinn');
 	$jobs_benefit->icon_set ('/assets/images/icons_svg/benefits.svg');
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/benefits-white.svg');
-	$jobs_benefit->text_set ('30 Tage Urlaub, fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Schmankerl, die wir dir für deine gute Arbeit anbieten.');
+	$jobs_benefit->text_set ('Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unsere Lösungen sind immer einen Herzschlag voraus und setzen neue Standards im Kundenservice. So leistest du mit deiner Arbeit einen echten Mehrwert und trägst dazu bei, dass Service Hotlines ihrem Namen endlich wieder alle Ehre machen.');
 	$jobs_benefits[] = $jobs_benefit;
 
-	$jobs_benefit = new jobs_benefit ('Wachse an dir');
+	$jobs_benefit = new jobs_benefit ('Teamwork');
 	$jobs_benefit->icon_set ('/assets/images/icons_svg/work-life-balance.svg');
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/work-life-balance-white.svg');
-	$jobs_benefit->text_set ('Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dazu brauchst und entwerfen deinen perfekten Job, inklusive Arbeitsumfeld und Life-Balance.');
+	$jobs_benefit->text_set ('Was wir an CallOne besonders lieben? Unsere Kollegen (w/m/d)! Wir halten einander den Rücken frei, nehmen uns selbst nicht zu ernst und können uns immer aufeinander verlassen. Egal ob remote oder an einem unserer drei Standorte, bei uns ist Team Work keine hohle Phrase!');
 	$jobs_benefits[] = $jobs_benefit;
 
-	$jobs_benefit = new jobs_benefit ('Wir leben Innovation');
+	$jobs_benefit = new jobs_benefit ('Job Crafting 4.0');
 	$jobs_benefit->icon_set ('/assets/images/icons_svg/onboarding.svg');
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/onboarding-white.svg');
-	$jobs_benefit->text_set ('Wir gestalten und setzen um, was Sinn macht. Am liebsten, wenn es etwas noch nicht gibt. Unsere Produkte sind immer einen Herzschlag voraus, wir setzen die Maßstäbe im Bereich Kundenkommunikation.');
+	$jobs_benefit->text_set ('Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dafür brauchst, und entwerfen gemeinsamen den Job, der zu dir und deinem Leben passt.');
 	$jobs_benefits[] = $jobs_benefit;
 
-	$jobs_benefit = new jobs_benefit ('Positiver Impact');
+	$jobs_benefit = new jobs_benefit ('Gemeinsam wachsen');
 	$jobs_benefit->icon_set ('/assets/images/icons_svg/impact.svg');
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/impact-white.svg');
-	$jobs_benefit->text_set ('Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unser Ansatz, Kundenservice neu zu definieren, gestaltet die Telekommunikationsindustrie maßgeblich mit. Dein Beitrag hat echte, sinnvolle Auswirkungen.');
+	$jobs_benefit->text_set ('Dein Wissen ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Technik – was immer du brauchst, um dich beruflich und persönlich weiterzuentwickeln.');
 	$jobs_benefits[] = $jobs_benefit;
 
 	$jobs_benefit = new jobs_benefit ('Kein Lari-Fari');
 	$jobs_benefit->icon_set ('/assets/images/icons_svg/goals.svg');
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/goals-white.svg');
-	$jobs_benefit->text_set ('Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Mit Anspruch und neuen Herausforderungen wird dir nie langweilig. Deine Kolleg*innen sind immer für dich da, mit Inspiration, Motivation und positiven Vibes.');
-	$jobs_benefits[] = $jobs_benefit;
-
-	$jobs_benefit = new jobs_benefit ('Coachings');
-	$jobs_benefit->icon_set ('/assets/images/icons_svg/weiterbildung.svg');
-	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/weiterbildung-white.svg');
-	$jobs_benefit->text_set ('Dein Gehirn ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Technik – was immer du brauchst, um deine grauen Zellen glücklich zu machen.');
+	$jobs_benefit->text_set ('Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Auf unnötige Bürokratie und stundenlange Meetings haben wir keine Lust. Wir arbeiten fokussiert, hands-on und mit einem Blick fürs Wesentliche.');
 	$jobs_benefits[] = $jobs_benefit;
 
 	// $jobs_benefit = new jobs_benefit ('Langfristigkeit');
