@@ -1167,26 +1167,26 @@ function jobs_benefits_load ()
 	$jobs_benefits[] = $jobs_benefit;
 
 	$jobs_benefit = new jobs_benefit ('Arbeit mit Sinn');
-	$jobs_benefit->icon_set ('/assets/images/icons_svg/benefits.svg');
-	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/benefits-white.svg');
+	$jobs_benefit->icon_set ('/assets/images/icons_svg/impact.svg');
+	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/impact-white.svg');
 	$jobs_benefit->text_set ('Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unsere Lösungen sind immer einen Herzschlag voraus und setzen neue Standards im Kundenservice. So leistest du mit deiner Arbeit einen echten Mehrwert und trägst dazu bei, dass Service Hotlines ihrem Namen endlich wieder alle Ehre machen.');
 	$jobs_benefits[] = $jobs_benefit;
 
 	$jobs_benefit = new jobs_benefit ('Teamwork');
-	$jobs_benefit->icon_set ('/assets/images/icons_svg/work-life-balance.svg');
-	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/work-life-balance-white.svg');
+	$jobs_benefit->icon_set ('/assets/images/icons_svg/onboarding.svg');
+	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/onboarding-white.svg');
 	$jobs_benefit->text_set ('Was wir an CallOne besonders lieben? Unsere Kollegen (w/m/d)! Wir halten einander den Rücken frei, nehmen uns selbst nicht zu ernst und können uns immer aufeinander verlassen. Egal ob remote oder an einem unserer drei Standorte, bei uns ist Team Work keine hohle Phrase!');
 	$jobs_benefits[] = $jobs_benefit;
 
 	$jobs_benefit = new jobs_benefit ('Job Crafting 4.0');
-	$jobs_benefit->icon_set ('/assets/images/icons_svg/onboarding.svg');
-	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/onboarding-white.svg');
+	$jobs_benefit->icon_set ('/assets/images/icons_svg/work-life-balance.svg');
+	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/work-life-balance-white.svg');
 	$jobs_benefit->text_set ('Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dafür brauchst, und entwerfen gemeinsamen den Job, der zu dir und deinem Leben passt.');
 	$jobs_benefits[] = $jobs_benefit;
 
 	$jobs_benefit = new jobs_benefit ('Gemeinsam wachsen');
-	$jobs_benefit->icon_set ('/assets/images/icons_svg/impact.svg');
-	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/impact-white.svg');
+	$jobs_benefit->icon_set ('/assets/images/icons_svg/weiterbildung.svg');
+	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/weiterbildung-white.svg');
 	$jobs_benefit->text_set ('Dein Wissen ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Technik – was immer du brauchst, um dich beruflich und persönlich weiterzuentwickeln.');
 	$jobs_benefits[] = $jobs_benefit;
 
@@ -1195,6 +1195,43 @@ function jobs_benefits_load ()
 	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/goals-white.svg');
 	$jobs_benefit->text_set ('Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Auf unnötige Bürokratie und stundenlange Meetings haben wir keine Lust. Wir arbeiten fokussiert, hands-on und mit einem Blick fürs Wesentliche.');
 	$jobs_benefits[] = $jobs_benefit;
+	
+	
+	// $jobs_benefit = new jobs_benefit ('Die "Basics"');
+	// $jobs_benefit->icon_set ('/assets/images/icons_svg/weiterbildung.svg');
+	// $jobs_benefit->alt_icon_set ('/assets/images/icons_svg/weiterbildung-white.svg');
+	// $jobs_benefit->text_set ('30 Tage Urlaub, 4-Tage-Woche auf Wunsch, 100% Remote Work oder hybrides Arbeiten möglich, ein fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Angebote, die unsere CallOne´ler zu schätzen wissen.');
+	// $jobs_benefits[] = $jobs_benefit;
+
+	// $jobs_benefit = new jobs_benefit ('Arbeit mit Sinn');
+	// $jobs_benefit->icon_set ('/assets/images/icons_svg/benefits.svg');
+	// $jobs_benefit->alt_icon_set ('/assets/images/icons_svg/benefits-white.svg');
+	// $jobs_benefit->text_set ('Mit deiner Arbeit hast du einen positiven Einfluss auf Millionen von Menschen. Unsere Lösungen sind immer einen Herzschlag voraus und setzen neue Standards im Kundenservice. So leistest du mit deiner Arbeit einen echten Mehrwert und trägst dazu bei, dass Service Hotlines ihrem Namen endlich wieder alle Ehre machen.');
+	// $jobs_benefits[] = $jobs_benefit;
+
+	// $jobs_benefit = new jobs_benefit ('Teamwork');
+	// $jobs_benefit->icon_set ('/assets/images/icons_svg/work-life-balance.svg');
+	// $jobs_benefit->alt_icon_set ('/assets/images/icons_svg/work-life-balance-white.svg');
+	// $jobs_benefit->text_set ('Was wir an CallOne besonders lieben? Unsere Kollegen (w/m/d)! Wir halten einander den Rücken frei, nehmen uns selbst nicht zu ernst und können uns immer aufeinander verlassen. Egal ob remote oder an einem unserer drei Standorte, bei uns ist Team Work keine hohle Phrase!');
+	// $jobs_benefits[] = $jobs_benefit;
+
+	// $jobs_benefit = new jobs_benefit ('Job Crafting 4.0');
+	// $jobs_benefit->icon_set ('/assets/images/icons_svg/onboarding.svg');
+	// $jobs_benefit->alt_icon_set ('/assets/images/icons_svg/onboarding-white.svg');
+	// $jobs_benefit->text_set ('Du gestaltest deinen Job, mit deiner Erfahrung, deinen Stärken, Ideen und Vorlieben. Wir fördern dich mit allem, was du dafür brauchst, und entwerfen gemeinsamen den Job, der zu dir und deinem Leben passt.');
+	// $jobs_benefits[] = $jobs_benefit;
+
+	// $jobs_benefit = new jobs_benefit ('Gemeinsam wachsen');
+	// $jobs_benefit->icon_set ('/assets/images/icons_svg/impact.svg');
+	// $jobs_benefit->alt_icon_set ('/assets/images/icons_svg/impact-white.svg');
+	// $jobs_benefit->text_set ('Dein Wissen ist unser aller Gewinn. Deshalb spielen wir dir regelmäßig Updates auf, in Form von Konferenzen, Workshops, Kursen, Trainings, neuster Technik – was immer du brauchst, um dich beruflich und persönlich weiterzuentwickeln.');
+	// $jobs_benefits[] = $jobs_benefit;
+
+	// $jobs_benefit = new jobs_benefit ('Kein Lari-Fari');
+	// $jobs_benefit->icon_set ('/assets/images/icons_svg/goals.svg');
+	// $jobs_benefit->alt_icon_set ('/assets/images/icons_svg/goals-white.svg');
+	// $jobs_benefit->text_set ('Was du tust, vergammelt nicht in einer Schublade, sondern kommt zum Einsatz. Auf unnötige Bürokratie und stundenlange Meetings haben wir keine Lust. Wir arbeiten fokussiert, hands-on und mit einem Blick fürs Wesentliche.');
+	// $jobs_benefits[] = $jobs_benefit;
 
 	// $jobs_benefit = new jobs_benefit ('Langfristigkeit');
 	// $jobs_benefit->text_set ('Job-Hopping bedeutet Stress und immer nur einen kurzen Energieschub. Wir setzen auf langfristige Anstellungen, krisensichere und zukunftsfähige Jobs und die Perspektive, das Beste aus dir rauszuholen, damit du zufrieden bist.');
