@@ -40,7 +40,7 @@ if (empty ($job))
 
                   <?php if (!empty ($job->text_tasks_get())): ?>
                   <p>
-                    <strong>Wobei wir Deine Hilfe brauchen</strong><br>
+                    <strong>Wobei wir Hilfe brauchen</strong><br>
                     <ul>
                     <?php
                     foreach ($job->text_tasks_get() as $text_task)
