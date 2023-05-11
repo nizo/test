@@ -265,14 +265,9 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <div class="gray-bg green-comman-space">
-                        <h3 class="green-reachable-block-heading">Füttern Sie den Bot mit FAQs, PDFs oder Handbüchern
+                        <h3 class="green-reachable-block-heading">Maximieren Sie die Performance: FAQs, PDFs und Webseiten-Crawling für effektives und einfaches Anlernen Ihres Bots
                         </h3>
-                        <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">Unser Bot
-                            agiert nicht nur selbstständig,
-                            sondern kann auch wie ein Service-Mitarbeiter auf alle relevanten Informationen zugreifen,
-                            die Sie ihm zur Verfügung stellen. Sie können ihn sogar über laufende Aktionen informieren,
-                            auf die er im Gespräch hinweisen kann, wenn es angebracht ist. Erleben Sie die Flexibilität
-                            und Leistungsfähigkeit unseres Bots, der für ein optimales Kundenerlebnis sorgt!
+                        <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">Unser Bot kann nicht nur selbstständig agieren, sondern auch wie ein Service-Mitarbeiter auf Ihre bereitgestellten Informationen zugreifen. Zudem kann er jetzt Domains und Webseiten crawlen, um schnell und effizient relevante Daten für die Beantwortung von Kundenanfragen zu sammeln. Erleben Sie die Flexibilität und Leistungsfähigkeit unseres Bots für ein optimales Kundenerlebnis!
                         </p>
                         <div class="gray-box-img">
                             <img src="/assets/images/lp/callone-feed-bot-with-faq.jpg" width="700" height="580"
