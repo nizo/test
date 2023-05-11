@@ -221,7 +221,7 @@ endif;
     <div class="section__content section__content--wide">
         <div class="co-grid">
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <h2>Wobei wir deine Hilfe brauchen</h2>
+                <h2>Wobei wir Hilfe brauchen</h2>
                 <ul class="list list--checkmarks list--checkmarks-green">
 					<?php
 					foreach ($job->text_tasks_get() as $text_task)
