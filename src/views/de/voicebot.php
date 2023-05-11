@@ -265,7 +265,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
                     <div class="gray-bg green-comman-space">
-                        <h3 class="green-reachable-block-heading">Maximieren Sie die Performance: FAQs, PDFs und Webseiten-Crawling für effektives und einfaches Anlernen Ihres Bots
+                        <h3 class="green-reachable-block-heading">FAQs, PDFs oder Webseiten-Crawling für effektives und einfaches Anlernen Ihres Bots
                         </h3>
                         <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">Unser Bot kann nicht nur selbstständig agieren, sondern auch wie ein Service-Mitarbeiter auf Ihre bereitgestellten Informationen zugreifen. Zudem kann er jetzt Domains und Webseiten crawlen, um schnell und effizient relevante Daten für die Beantwortung von Kundenanfragen zu sammeln. Erleben Sie die Flexibilität und Leistungsfähigkeit unseres Bots für ein optimales Kundenerlebnis!
                         </p>
