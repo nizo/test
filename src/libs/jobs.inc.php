@@ -669,6 +669,41 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
+	
+	$job = new job ('Softwareentwicklung', 'Backend Developer I Backend Entwickler (w/m/d) I 4-Tage-Woche Option I 100% Remote möglich ', 'Du bist Backend Developer (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten? Dann bist du hier richtig!');
+	$job->location_set ('Düsseldorf / Remote');
+	$job->url_set ('/karriere/backend-developer-duesseldorf');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
+	$job->text_intro_set ('Du bist <b>genervt von 0815-LinkedIn-Nachrichten</b>, die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wie dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  
+
+<b>Wie?</b> In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben. Den Termin dafür kannst du <a href="https://calendly.com/marian-heuser/kennenlernen" target="_blank">HIER</a>  buchen 
+
+<b>Warum wir das machen?</b> Wir sind davon überzeugt, dass Menschen langfristig nur glücklich und engagiert sind, wenn sie einen Arbeitgeber gefunden haben, bei dem sie ihre <b>Interessen und Stärken voll ausleben</b> können. Dazu zählen für uns nicht nur deine täglichen Aufgaben im Job, sondern auch ein Arbeitsumfeld, in dem du so sein kannst, wie du wirklich bist. Daher arbeiten wir nicht mit starren Job-Profilen, sondern mit <b>Jobbausteinen</b>, die wir <b>basierenden auf deinen Stärken und Vorlieben</b> gemeinsam zusammensetzen.  
+
+<b>Gibt es gar keine Mindestvoraussetzungen?</b> Doch! Du solltest natürlich Lust auf Backend Entwicklung haben und Erfahrung mit Schnittstellen sowie Datenbanken mitbringen – alles weitere ist verhandelbar. :)');
+	$job->text_description_long_set ('<b>Wie funktioniert Job Crafting bei CallOne?</b> Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reiz, bei welchen Aufgaben, du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben zu bieten haben, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
+	$job->text_description_long_set ('<b>Der Haken an der Sache?</b> Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
+	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://calendly.com/marian-heuser/kennenlernen" target="_blank">Zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
+	$job->text_description_long_set ('<b>Du willst vorab etwas mehr wissen?</b> Nachfolgend findest du ein paar <b>exemplarische Jobbausteine</b>, die künftig zu deinem Aufgabenportfolio zählen <b>könnten</b>');
+	$job->text_tasks_set ('Das zur Verfügung stellen von APIs');
+	$job->text_tasks_set ('Die Arbeit mit Datenbanken und API-Systemen');
+	$job->text_tasks_set ('Die Weiterentwicklung und Anbindung von Features');
+	$job->text_tasks_set ('Die Modernisierung unserer bestehenden Systeme');
+	$job->text_tasks_set ('Das Nutzen von ChatGPT zur Optimierung unserer Softwarelösungen');
+	$job->text_tasks_set ('Bei Interesse, die Arbeit mit VoIP Systemen');
+	$job->text_requirements_set ('Die Arbeit mit Datenbanken, Schnittstellen und neuen Feature-Anbindungen ist genau dein Ding!');
+	$job->text_requirements_set ('Egal ob MariaDB, MySQL oder andere Datenbanksysteme - du verstehst, wie Datenbanksysteme funktionieren und kannst dieses Wissen anwenden bzw. auf dir unbekannte Systeme übertragen!');
+	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch verständigen!');
+	$job->text_requirements_set ('Du hast Erfahrungen mit PHP?');
+	$job->text_requirements_set ('Du hast Spaß daran, dich durch alten Code zu graben und ihm eine Generalüberholung zu verpassen?');
+	$job->text_requirements_set ('Da wir in der Telekommunikationsbranche unterwegs sind, sind VoIP Erfahrungen immer hilfreich, für uns aber keine Voraussetzung');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['developer']);
+	$job->agenda_filename_set ('agenda-it-technik');
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+
 	/*
 	$job = new job ('IT & Technik', 'IT-Systemkauffrau /-mann', 'Du hast ein breit aufgestelltes Wissen im IT-Bereich, um unsere Kunden im Alltag zu unterstützen?');
 	$job->location_set ('Potsdam');
