@@ -683,12 +683,9 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
 
                 <div style="z-index: 1;" class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm mobile-start">
 
-                    <h1 class="hero-headline">Let’s talk. </h1>
+                    <h1 class="hero-headline">Jetzt kostenlos testen! </h1>
 
-                    <p class="smalltext">Wenn Sie Interesse daran haben, wie wir es schaffen können, den VoiceBot an
-                        Ihren Use Case zu integrieren und Ihre zukünftigen Prozesse in der Cloud-Telefonie zu
-                        optimieren, schreiben Sie uns bitte an oder kalkulieren Sie sich Ihren passenden Bot in unserem
-                        Konfigurator. Wir würden uns über Ihre Anfrage freuen.</p>
+                    <p class="smalltext">Wir bieten Ihnen die Möglichkeit, unseren VoiceBot 14 Tage lang kostenlos und unverbindlich zu testen. Kontaktieren Sie uns oder nutzen Sie unseren Konfigurator, um zu erfahren, wie wir den Bot in Ihren Use Case integrieren und Ihre Prozesse in der Cloud-Telefonie optimieren können. Wir freuen uns auf Ihre Anfrage!</p>
                     <p><strong class="gray-color">Möchten Sie uns besser kennenlernen?</strong><br>
                         <strong class="gray-color">Schreiben Sie uns: <a href="mailto:hallo@callone.de" class="anchore-link">hallo@callone.de</a></strong>
                     </p>
