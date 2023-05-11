@@ -769,12 +769,12 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);*/
 
-	$job = new job ('IT & Technik', 'VoIP Plattform Engineer (w/m/d) I  4-Tage-Woche und 100% Remote möglich', 'Als VoIP Plattform Engineer sind Sie für die Betreuung und Weiterentwicklung unserer VoIP Plattform verantwortlich.');
-	$job->location_set ('Kölln-Reisiek, 100% Remote');
+	$job = new job ('IT & Technik', 'VoIP Engineer I System Engineer I Telekommunikationsingenieur (w/m/d) I  4-Tage-Woche und 100% Remote möglich', 'Als VoIP Plattform Engineer sind Sie für die Betreuung und Weiterentwicklung unserer VoIP Plattform verantwortlich.');
+	$job->location_set ('Hamburg / 100% Remote');
 	$job->url_set ('/karriere/voip-plattform-engineer-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
-	$job->text_intro_set ('Als VoIP Plattform Engineer sind Sie für die Betreuung und Weiterentwicklung unserer VoIP Plattform verantwortlich.');
-	$job->text_description_long_set ('Sie sind für das Monitoring der Plattform mit Hilfe von CheckMk zuständig und automatisieren Prozesse, um eine modulare und skalierbare VoIP Plattform aufzubauen. Als Mitglied unseres Teams sind Sie für den 3rd Level Support zuständig und unterstützen den technischen Support bei Kundenproblemen im Zusammenhang mit SIP und RTP. Ein gewisses Maß an Kundenkontakt wird erwartet.<br /><br />Wir bieten ein wettbewerbsfähiges Gehaltspaket und eine angenehme Arbeitsumgebung in einem dynamischen und schnelllebigen Unternehmen. Wenn Sie eine Leidenschaft für VoIP-Systeme haben und eine herausfordernde Position suchen, dann bewerben Sie sich jetzt als VoIP Plattform Engineer.');
+	$job->text_intro_set ('Keine Lust auf lange Entscheidungswege, veraltete Arbeitsstrukturen und Anwesenheitspflicht? Du willst an Software-Lösungen arbeiten, die wirklich Mehrwert stiften und wünschst dir ein Umfeld, in dem du deine Ideen schnell und unbürokratisch umsetzen kannst? Du willst New Work nicht nur als Buzzword in einer Jobanzeige lesen, sondern den Job deinen Interessen und Bedürfnissen anpassen und dich auf Wunsch für eine 4-Tage-Woche, remote oder hybrid work entscheiden können? Dann lohnt es sich, jetzt weiterzulesen!');
+	$job->text_description_long_set ('Als VoIP Spezialist bist du bei uns für das Monitoring unserer Plattform mit Hilfe von CheckMk zuständig und automatisierst Prozesse, um eine modulare und skalierbare VoIP Plattform aufzubauen. Als Mitglied unseres Teams kümmerst du dich zudem um den 3rd Level Support und unterstützt damit den technischen Support bei Kundenproblemen im Zusammenhang mit SIP und RTP.');
 	$job->text_tasks_set ('Betreuung und Weiterentwicklung der VoIP Plattform');
 	$job->text_tasks_set ('Monitoring der VoIP Plattform mit Hilfe von CheckMk');
 	$job->text_tasks_set ('Automatisierung von Prozessen');
@@ -994,6 +994,39 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
+	$job = new job ('Management', '(Junior) Finance Specialist (w/m/d) I 20 bis 40 Std. I 80% Home Office möglich', 'Home Office, 30 Tage Urlaub, keine Überstunden, Weiterbildungsbudget... als Finance Specialist (w/m/d) bei CallOne darfst du dich auf tolles Gesamtpaket freuen!');
+	$job->location_set ('Hamburg / Remote');
+	$job->url_set ('/karriere/finance-specialist-hamburg');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('30 Tage Urlaub, flexible Arbeitszeiten, Remote Work Ausstattung, ein sicherer Job, ein fester Feierabend, keine Überstunden, Betriebliche Altersvorsorge, Weiterbildungs-Budget, spannende Aufgaben, tolle Entwicklungsmöglichkeiten, ein cooles Büro und ein super sympathisches Team – das alles und noch viel mehr erwartet dich als Finance Specialist (w/m/d) bei CallOne!');
+	$job->text_description_long_set ('<b>Als Finance Specialist (w/m/d) wirst du Teil der CallOne-Erfolgsgeschichte!</b> Mit Kreativität, Pioniergeist und Professionalität tragen die CallOne´ler bereits seit über einem Jahrzehnt federführend dazu bei, im deutschsprachigen Kundenservice neue Standards zu setzen! Wie? Mit modernen, cloud-basierten Kommunikations- und IT-Lösungen, die dank unseres engagierten Teams bereits <b>in mehr als 4.000 Service Centern</b> zum Einsatz kommen. Als Software as as Service-Anbieter versorgen wir Unternehmen wie <b>Check24, SodaStream</b> und die  <b>Helios-Kliniken-Gruppe</b> mit Telefonie, E-Mail, Chat und sprachbasierten Technologielösungen, die in der Service Branche ihresgleichen suchen. 
+
+Dabei sind wir kein hippes, überbewertetes Startup, das Geld verbrennt, sondern ein <b>profitables, mittelständisches Unternehmen</b>, das sich dank dem Engagement und der (Tech-)Leidenschaft unserer MitarbeiterInnen in den letzten 13 Jahren mit seinen innovativen und zugleich zuverlässigen Lösungen einen Namen in der Branche gemacht hat. So sind wir beispielsweise das erste Unternehmen, das “über Nacht” eine funktionierende, ChatGPT-basierte Voice Lösung entwickelt und gelauncht hat, die die Service Center Verantwortlichen bei uns Schlange stehen lässt. 
+
+<b>Nun suchen wir DICH, um die Erfolgsgeschichte fortzusetzen!</b> ');
+	$job->text_tasks_set ('Du kümmerst dich um die Buchung von elektronischen Bankkonten, Debitoren- und Kreditorenrechnungen in DATEV');
+	$job->text_tasks_set ('Du hast den Hut auf, wenn es um die Buchung unseres Anlagevermögens sowie die Intercompany-Buchungen geht');
+	$job->text_tasks_set ('Offene Posten hast du stets im Blick und führst regelmäßig Reportings durch ');
+	$job->text_tasks_set ('Die Bearbeitung des Zahlungsverkehrs gehört selbstverständlich ebenfalls zu deinen Aufgaben');
+	$job->text_tasks_set ('Du übernimmst die webbasierte Verarbeitung digitaler Belege (DUO, weitere Cloud-Anwendungen) ');
+	$job->text_tasks_set ('Bei der Vorbereitung der Monatsabschlüsse und der Umsatzsteuervoranmeldungen/ZM macht dir keiner etwas vor');
+	$job->text_tasks_set ('Bei laufenden sowie Jahresabschluss-Abstimmung mit externen Beratern (StB/WP) behältst du den Überblick');
+	$job->text_tasks_set ('Du hältst unsere Geschäftsführung auf dem Laufenden und arbeitest eng mit dem Support-Team zusammen');
+	$job->text_tasks_set ('Abstimm- und Klärungsarbeiten (Projekte, Reisekosten etc.) sind bei dir in guten Händen');
+	$job->text_requirements_set ('Du verfügst über eine abgeschlossene kaufmännische Berufsausbildung mit dem Schwerpunkt Buchführung oder über eine vergleichbare mehrjährige Berufserfahrung');
+	$job->text_requirements_set ('Idealerweise bringst du steuerliche Kenntnisse mit, z.B. als Steuerfachangestellter (m/w/d)');
+	$job->text_requirements_set ('Du arbeitest sicher mit allen <b>DATEV</b>-Anwendungen (insbesondere REWE und DUO); alternativ bist du sicher im Umgang mit <b>Agenda</b>');
+	$job->text_requirements_set ('Im besten Fall ist dir auch die Lohnbuchführung nicht fremd (DATEV LODAS) ');
+	$job->text_requirements_set ('Du kannst gut mit MS Office-Programmen umgehen und arbeitest routiniert mit MS Excel');
+	$job->text_requirements_set ('Du zeichnest dich durch Kommunikationsfähigkeit, Eigeninitiative und Zuverlässigkeit aus');
+	$job->text_requirements_set ('Du kannst dich sehr gut organisieren und bist gerne Teil eines Teams');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['clipboard']);
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+	
+	
 	$job = new job ('Vertrieb', '(Senior) Sales Manager (w/m/d) I 4-Tage-Woche und Home Office möglich', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
 	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('/karriere/job-sales-manager-in-'.$job->location_get());
