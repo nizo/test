@@ -634,7 +634,7 @@ function jobs_load ()
 	$jobs->job_add ($job);
 	*/
 	
-	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und bis zu 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten?');
+	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und bis zu 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten? Dann solltest du hier weiterlesen!');
 	$job->location_set ('Düsseldorf / Remote');
 	$job->url_set ('/karriere/frontend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
@@ -650,7 +650,6 @@ function jobs_load ()
 	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://calendly.com/marian-heuser/kennenlernen" target="_blank">Zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
 	$job->text_description_long_set ('<b>Du willst vorab etwas mehr wissen?</b> Nachfolgend findest du ein paar <b>exemplarische Jobbausteine</b>, die künftig zu deinem Aufgabenportfolio zählen <b>könnten</b>');
 	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
-	$job->text_tasks_set ('Enge Zusammenarbeit mit weiteren Frontend-, sowie den Backend-Entwicklern');
 	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, die große Datenmengen variabel anzeigen können');
 	$job->text_tasks_set ('Sicherstellung der Kompatibilität mit verschiedenen Browsern und Geräten');
 	$job->text_tasks_set ('Optimierung der Leistung und Benutzerfreundlichkeit unserer Webanwendungen');
@@ -833,7 +832,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 
-	$job = new job ('IT & Technik', 'IT Infrastruktur Management I Serverinfrastruktur- und Storage Engineer (w/m/d) I I  4-Tage-Woche und Home Office möglich', 'Als Serverinfrastruktur- und Storage Engineer sind Sie für die Betreuung und Weiterentwicklung unserer Serverinfrastruktur und Storage Systeme verantwortlich.');
+	$job = new job ('IT & Technik', 'IT Infrastruktur Management I Serverinfrastruktur- und Storage Engineer (w/m/d) I 4-Tage-Woche und Home Office möglich', 'Als Serverinfrastruktur- und Storage Engineer sind Sie für die Betreuung und Weiterentwicklung unserer Serverinfrastruktur und Storage Systeme verantwortlich.');
 	$job->location_set ('Kölln-Reisiek, 100% Remote');
 	$job->url_set ('/karriere/serverinfrastruktur-storage-engineer-remote');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -863,7 +862,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen. Das macht die Arbeit bei CallOne aus!'));
 	$jobs->job_add ($job);
 		
-	$job = new job ('Marketing', 'Produkt Marketing Manager (w/m/d) I I  4-Tage-Woche und bis zu 100% Remote möglich', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
+	$job = new job ('Marketing', 'Produkt Marketing Manager (w/m/d) I 4-Tage-Woche und bis zu 100% Remote möglich', 'Das kundenorientierte Marketing für unsere Produkte im B2B-Bereich fällt dir leicht? Deine Leidenschaft ist die Mitarbeit bei der Entwicklung neuer Produkte und Features und die Planung und Umsetzung daraus resultierender Marketing-Maßnahmen? Dann bist du als Produkt Marketing Manager*in bei uns genau richtig!');
 	$job->location_set ('Potsdam');
 	$job->url_set ('/karriere/produkt-marketing-manager-in-potsdam');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -929,7 +928,7 @@ function jobs_load ()
 // 	$job->statement_set (new job_statement ('/assets/images/photos/magdalena_lueders.jpg', 'Magdalena Lüders', 'Online Marketing Managerin', 'Ich liebe den Platz für kreative Ideen, gemeinsame Diskussionen und Feinschliffe ebenso wie die Flexibilität und unser super sympathisches Team bei CallOne. '));
 // 	$jobs->job_add ($job);
 
-$job = new job ('Marketing', 'Performance Marketing Manager*in', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
+$job = new job ('Marketing', 'Performance Marketing Manager (w/m/d) I 4-Tage-Woche und bis zu 100% Remote möglich', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über Marketing-Maßnahmen auf verschiedenen Kanälen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('100% Remote, Potsdam + weitere');
 	$job->url_set ('/karriere/performance-marketing-manager');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -1118,7 +1117,7 @@ Dabei sind wir kein hippes, überbewertetes Startup, das Geld verbrennt, sondern
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
-	$job = new job ('Vertrieb', 'HR Manager i HR Generalist (w/m/d) I Schwerpunkt Recruiting und Employer Branding I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job = new job ('Vertrieb', 'HR Manager I HR Generalist (w/m/d) I Schwerpunkt Recruiting und Employer Branding I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
 	$job->location_set ('Kölln-Reisiek / Remote');
 	$job->url_set ('/karriere/job-hr-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -1161,8 +1160,8 @@ function jobs_benefits_load ()
 	$jobs_benefits = array ();
 	
 	$jobs_benefit = new jobs_benefit ('Die "Basics"');
-	$jobs_benefit->icon_set ('/assets/images/icons_svg/weiterbildung.svg');
-	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/weiterbildung-white.svg');
+	$jobs_benefit->icon_set ('/assets/images/icons_svg/benefits.svg');
+	$jobs_benefit->alt_icon_set ('/assets/images/icons_svg/benefits-white.svg');
 	$jobs_benefit->text_set ('30 Tage Urlaub, 4-Tage-Woche auf Wunsch, 100% Remote Work oder hybrides Arbeiten möglich, ein fester Feierabend, ein Budget für deine Weiterentwicklung, Team-Events, E-Bike, Altersvorsorge und Gutscheine für Amazon & Co. sind einige der Angebote, die unsere CallOne´ler zu schätzen wissen.');
 	$jobs_benefits[] = $jobs_benefit;
 
