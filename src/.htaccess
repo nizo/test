@@ -213,6 +213,14 @@ RewriteRule ^favicon.ico$ /assets/images/favicons/favicon.ico [L]
 RewriteRule ^rechtliches/softphone_eula.html /views/de/eula.php [L]
 RewriteRule ^eula_softphone /views/de/eula.php [L]
 
+RewriteRule ^termin/support https://outlook.office365.com/owa/calendar/support2meet@callone.de/bookings/ [R=301,L]
+RewriteRule ^termin/bendig https://outlook.office365.com/owa/calendar/bendig2meet@callone.de/bookings/ [R=301,L]
+RewriteRule ^termin/foerster https://outlook.office365.com/owa/calendar/foerster2meet@callone.de/bookings/ [R=301,L]
+RewriteRule ^termin/grabellus https://outlook.office365.com/owa/calendar/grabellus2meet@callone.de/bookings/ [R=301,L]
+RewriteRule ^termin/metzger https://outlook.office365.com/owa/calendar/metzger2meet@callone.de/bookings/ [R=301,L]
+RewriteRule ^termin/heuser https://outlook.office365.com/owa/calendar/heuser2meet@callone.de/bookings/ [R=301,L]
+RewriteRule ^termin/baumann https://outlook.office365.com/owa/calendar/baumann2meet@callone.de/bookings/ [R=301,L]
+
 # ----------------------------------------------------------------------
 # Redirects
 # ----------------------------------------------------------------------
