@@ -170,10 +170,9 @@ $uniqueID = uniqid();
     
     <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/bendig/15min?hide_gdpr_banner=1&hide_event_type_details=1" style="min-width:320px;height:1200px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="async"></script>
-            <!-- Calendly inline widget end -->
+            <!-- Bookings iframe begin -->
+            <iframe src='https://outlook.office365.com/owa/calendar/support2meet@callone.de/bookings/' width='100%' height='100%' scrolling='yes' style='border:0'></iframe>
+            <!-- Bookings iframe end -->
         </div>
 
         <a href="#" class="trackedContactSubmit trackedContactCalendlySubmit" style="display:none"></a>
@@ -269,20 +268,6 @@ $uniqueID = uniqid();
     
     <script>
         const thisModal = document.getElementById('<?= $uniqueID; ?>');
-
-        // Calendly Events
-        function isCalendlyEvent(e) {
-            return e.origin === 'https://calendly.com' && e.data.event && e.data.event.indexOf('calendly.') === 0;
-        };
-
-        let buttonCalendlySubmit = document.querySelector('.trackedContactCalendlySubmit');
-        
-        window.addEventListener('message', function(e) {
-            if(isCalendlyEvent(e)) {
-                if (e.data.event == 'calendly.event_scheduled')
-                    buttonCalendlySubmit.click();
-            }
-        });
 
         // Sales Callback Form
         window.salesCallbackSubmit = function(e, cb) {
