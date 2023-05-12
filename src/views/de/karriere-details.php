@@ -52,7 +52,7 @@ if (empty ($job))
 
                   <?php if (!empty ($job->text_requirements_get())): ?>
                   <p>
-                    <strong>Was wir uns wünschen</strong><br>
+                    <strong>Das lässt uns aufhorchen</strong><br>
                     <ul>
                     <?php
                     foreach ($job->text_requirements_get() as $text_requirement)
@@ -230,7 +230,7 @@ endif;
 				</ul>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
-                <h2>Was wir uns wünschen</h2>
+                <h2>Das lässt uns aufhorchen</h2>
                 <ul class="list list--checkmarks list--checkmarks-green">
 					<?php
 					foreach ($job->text_requirements_get() as $text_requirement)
