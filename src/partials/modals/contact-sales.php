@@ -171,7 +171,7 @@ $uniqueID = uniqid();
     <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
             <!-- Bookings iframe begin -->
-            <iframe src='https://outlook.office365.com/owa/calendar/support2meet@callone.de/bookings/' width='100%' height='100%' scrolling='yes' style='border:0'></iframe>
+            <iframe src='https://outlook.office365.com/owa/calendar/support2meet@callone.de/bookings/' width='100%' height='500' scrolling='yes' style='border:0'></iframe>
             <!-- Bookings iframe end -->
         </div>
 
