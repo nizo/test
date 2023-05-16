@@ -46,7 +46,7 @@ $uniqueID = uniqid();
                 </div>
             </div>
             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm">
-                <div class="btn btn--tile callone-modal__nextstep trackedContactCalendly" data-next-step="3">
+                <a class="btn btn--tile" href="https://www.callone.de/termin/support" target="_blank">
                     <div class="btn--tile__title">
                         <?= pictureTag(
                             '/assets/images/icons_svg/icon-calendar.svg',
@@ -58,7 +58,7 @@ $uniqueID = uniqid();
                         <h3>Termin</h3>
                     </div>
                     <p>Telefon- oder Videocall ganz einfach festlegen</p>
-                </div>
+                </a>
             </div>
             <div class="co-grid__col co-grid__col--hidden-sm co-grid__col--2-sm"></div>
         </div>
