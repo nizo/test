@@ -1115,9 +1115,9 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
-	$job = new job ('Vertrieb', 'HR Manager I HR Generalist (w/m/d) I Schwerpunkt Recruiting und Employer Branding I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
-	$job->location_set ('Kölln-Reisiek / Remote');
-	$job->url_set ('/karriere/job-hr-manager-in-'.$job->location_get());
+	/*$job = new job ('Vertrieb', 'HR Manager I HR Generalist (w/m/d) I Schwerpunkt Recruiting und Employer Branding I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job->location_set ('Hamburg / Remote');
+	$job->url_set ('/karriere/job-hr-manager-in-hamburg);
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding und hilfst uns dabei, Talente aus der Region zu finden und zu gewinnen. In enger Zusammenarbeit mit dem Team bringst du deine Ideen für den Aufbau unserer Arbeitgebermarke ein.');
 	$job->text_description_long_set ('In dieser neu geschaffenen Stelle gestaltet du dir deinen Arbeitsbereich und unterstützt das Wachstum von CallOne von der Pole Position.');
@@ -1146,8 +1146,40 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 	$job->icon_set ($icons['care']);
 	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
-	$jobs->job_add ($job);
+	$jobs->job_add ($job);*/
 
+$job = new job ('Vertrieb', 'Head of HR I Personalleiter (w/m/d) I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+	$job->location_set ('Hamburg / Remote');
+	$job->url_set ('/karriere/job-hr-manager-in-hamburg);
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Du bist HR´ler (w/m/d) aus Leidenschaft, bringst mindestens drei Jahre operative HR-Erfahrung mit und willst nun den <b>nächsten Karriereschritt </b> gehen? Dann ist das hier deine große Chance! Wir suchen einen Head of HR (w/m/d), der/die Lust hat, unsere HR-Strukturen federführend mitzugestalten und gleichzeitig operativ zu arbeiten. Wir befinden uns in einer spannenden Wachstumsphase, in der du das Glück hast, <b>den Bereich HR “auf der grünen Wiese” mit aufbauen</b> und deine Ideen und HR-Erfahrungen mit einbringen zu können. Dabei profitierst du von dem Erfahrungsschatz unserer derzeitigen Interim Head of HR <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Anika</a>, die dich umfassend einarbeiten und dir so lange wie nötig als Sparring Partnerin unterstützend zur Seite stehen wird. Die Stelle ist direkt unter der Geschäftsführung aufgehängt - <b>du berichtest direkt an unserer beiden Geschäftsführer</b> Chris und <a href="https://www.linkedin.com/in/bjoern-bendig-96659526/ " target="_blank">Björn</a> , die sich auf deine Ideen und deine Expertise freuen!');
+	$job->text_description_long_set ('In dieser neu geschaffenen Stelle gestaltet du dir deinen Arbeitsbereich und unterstützt das Wachstum von CallOne von der Pole Position.');
+	$job->text_description_long_set ('Hierbei kannst du deine HR-Erfahrungen wunderbar einsetzen und zu etwas Großem, das wirklich Sinn stiftet, beitragen.');
+	$job->text_tasks_set ('Du bist für den Auf- und Ausbau einer starken Arbeitgebermarke verantwortlich');
+	$job->text_tasks_set ('Du erstellst eine Personalmarketingstrategie und implementierst geeignete Maßnahmen');
+	$job->text_tasks_set ('Du konzipierst, organisierst und planst Eventformate für unsere Zielgruppen ');
+	$job->text_tasks_set ('Du pflegst unsere Karriereseite, steuerst den modernen End-to-End-Recruiting-Prozess und bist für Stellenanzeigen, Active Sourcing, Kommunikation und Interviews zuständig');
+	$job->text_tasks_set ('Du erprobst neue digitale Recruiting-Kanäle und wirkst an der Kommunikation über unsere Online-Kanäle mit');
+	$job->text_tasks_set ('Du bist AnsprechpartnerIn für unsere KollegInnen und erarbeitest mit der jeweiligen Teamleitung geeignete Maßnahmen zur Mitarbeiterförderung');
+	$job->text_tasks_set ('Steuerung eines modernen End-to-End-Recruiting-Prozesses für alle Positionen (Erstellen & Veröffentlichen von Stellenanzeigen, Active Sourcing, Kommunikation, Interviews)');
+	$job->text_tasks_set ('Du initiierst geeignete Maßnahmen zur Stärkung unserer Feedbackkultur');
+	$job->text_tasks_set ('Du etablierst einen strukturierten On- und Offboarding-Prozess');
+	$job->text_tasks_set ('Du führst Mitarbeiterbefragungen durch und stellst sicher, dass sich alle MitarbeiterInnen gehört und gesehen fühlen');
+	$job->text_tasks_set ('Du fungierst als Sparring PartnerIn unserer Geschäftsführer bei allen personalrelevanten Fragestellungen');
+	$job->text_tasks_set ('Je nach Kapazität und Vorlieben ist es zusätzlich möglich, weitere persönliche Lieblingsthemen zu bearbeiten.');
+	$job->text_requirements_set ('Du hast ein abgeschlossenes Studium oder eine Ausbildung und mindestens drei Jahre Berufserfahrung im Recruiting / Employer Branding oder der internen HR-Arbeit');
+	$job->text_requirements_set ('Du kennst dich mit Trends im Recruiting, Personalmarketing, Employer Branding in der IT-Branche aus');
+	$job->text_requirements_set ('Du besitzt sehr gutes Kommunikations- und Organisationsvermögen und arbeitest gerne im Team');
+	$job->text_requirements_set ('Du zeichnest dich durch ausgeprägte Lösungsorientierung aus');
+	$job->text_requirements_set ('Du verfügst über eine selbständige, eigenverantwortliche und sorgfältige Arbeitsweise');
+	$job->text_requirements_set ('Du kommunizierst klar, um beispielsweise Mitarbeiter, Führungskräfte und externe Partner (w/m/d) effektiv zu informieren und zu beraten');
+	$job->text_requirements_set ('Du punktest mit guten Kenntnissen der gängigen MS-Office-Programme');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Teilzeit / Vollzeit');
+	$job->icon_set ($icons['care']);
+	$job->statement_set (new job_statement ('/assets/images/photos/stefanie_bendig.jpg', 'Stefanie Bendig', 'HR Department', 'Das Schöne an CallOne ist der starke Zusammenhalt. Strategien und Ziele werden gemeinsam in regelmäßigen Meetings festgelegt.'));
+	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
+	$jobs->job_add ($job);
 	return $jobs;
 }
 
