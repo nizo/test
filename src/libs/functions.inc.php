@@ -183,4 +183,34 @@ function decode($encoded) {
     }
     return $decoded;
 }
-?>
+
+
+
+
+/**
+ * parseSafeUri
+ * 
+ * replace/remove unsafe characters and output a readable seo friendly local uri
+ *
+ * @param  string $uri
+ * @return string
+ */
+function parseSafeUri($uri) {
+	
+	// replace german umlaute
+
+	$uri = strtr($uri,[
+		'ä' => 'ae',
+		'ö' =>'oe',
+		'ü' => 'ue'
+	]);
+
+	// Remove/replace unsafe characters
+
+	$uri = preg_replace(array('/[^a-z0-9-]/i', '/[ ]{2,}/', '/[ ]/'), array(' ', ' ', '-'), $uri);
+
+	// return in strtolower
+	
+	return strtolower($uri);
+
+}
