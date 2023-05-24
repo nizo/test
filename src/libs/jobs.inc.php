@@ -141,7 +141,22 @@ class job
 	}
 	function url_set ($url)
 	{	
-		$this->url = CAREER_BASE_URI . parseSafeUri ($url);
+
+		// replace german umlaute
+
+		$url = strtr($url,[
+			'ä' => 'ae',
+			'ö' =>'oe',
+			'ü' => 'ue'
+		]);
+
+		// Remove/replace unsafe characters
+
+		$url = preg_replace(array('/[^a-z0-9-]/i', '/[ ]{2,}/', '/[ ]/'), array(' ', ' ', '-'), $url);
+
+		// return in strtolower
+
+		$this->url = '/karriere/' . strtolower ($url);
 	}
 
 	function quickinfo_get ()

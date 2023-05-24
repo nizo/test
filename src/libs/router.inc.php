@@ -20,7 +20,6 @@ define('DEFAULT_SITEMAP_PRIORITY', '0.5');
 define('DEFAULT_SITEMAP_CHANGE_FREQUENCY', 'weekly');
 define('DEFAULT_ROBOTS','index,follow');
 define('VB_BANNER_ACTIVE', false);
-define('CAREER_BASE_URI', '/karriere/');
 
 // Global site data
 define('DOMAIN', 'https://'.@$_SERVER['HTTP_HOST']);
