@@ -262,6 +262,15 @@ $faqs->faq_add(
 
 							<div class="floating-form__row">
 								<div class="floating-form__col">
+									<div class="floating-form__field">
+										<input type="text" name="anwendungsfall" placeholder=" ">
+										<label>Ihr Anwendungsfall</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="floating-form__row">
+								<div class="floating-form__col">
 									<div class="floating-form__checkbox">
 										<input type="checkbox" name="newsletter" id="newsletter" />
 										<label for="newsletter">Ich interessiere mich für den
