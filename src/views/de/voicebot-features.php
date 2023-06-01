@@ -29,7 +29,7 @@
 					Unsere Featureliste
 				</h1>
 
-				<p class="bigtext">Wir bieten Ihnen mehr als nur den besten VoiceBot auf dem Markt. Wir entwickeln individuelle Modelle, die auf Ihre spezifischen Anforderungen zugeschnitten sind und testen diese mit echten Nutzern. Unsere langjährige Erfahrung und Expertise in dieser Branche ermöglicht es uns, technologischen Fortschritt zu bringen und Ihnen die perfekte Lösung zu bieten.</p>
+				<p class="bigtext">Durch die Nutzung unseres Services erhalten Sie Zugang zum weltweit ersten auf ChatGPT-basierten VoiceBot, der Unternehmen Funktionen bietet, die bis jetzt unerreichbar waren.</p>
 
 			</div>
 		</div>
