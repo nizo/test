@@ -651,8 +651,8 @@ function jobs_load ()
 	*/
 	
 	$job = new job ('Softwareentwicklung', 'Frontend Entwickler I Frontend Developer (w/m/d) I 4-Tage-Woche und bis zu 100% remote möglich', 'Du bist Javascript Experte (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten? Dann solltest du hier weiterlesen!');
-	$job->location_set ('Düsseldorf / Remote');
-	$job->url_set ('frontend-developer-duesseldorf');
+	$job->location_set ('Berlin / Remote');
+	$job->url_set ('frontend-developer');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
 	$job->text_intro_set ('Du bist <b>genervt von 0815-LinkedIn-Nachrichten</b>, die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wir dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  
 
@@ -686,7 +686,7 @@ function jobs_load ()
 
 	
 	$job = new job ('Softwareentwicklung', 'Backend Developer I Backend Entwickler (w/m/d) I 4-Tage-Woche Option I 100% Remote möglich ', 'Du bist Backend Developer (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten? Dann bist du hier richtig!');
-	$job->location_set ('Düsseldorf / Remote');
+	$job->location_set ('Berlin / Remote');
 	$job->url_set ('backend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
 	$job->text_intro_set ('Du bist <b>genervt von 0815-LinkedIn-Nachrichten</b>, die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wir dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  
