@@ -374,7 +374,7 @@ function jobs_load ()
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);
 	
-	$job = new job ('Projekte & Support', 'Customer Success Manager (w/m/d) I 4-Tage-Woche und Home Office möglich, ', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
+	$job = new job ('Projekte & Support', 'Customer Success Manager (w/m/d) I 4-Tage-Woche und Home Office möglich ', 'Du liebst den Umgang mit Menschen, kommunizierst mühelos mit Kunden und hast eine schnelle technische Auffassungsgabe?');
 	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('job-customer-success-manager-in-'.$job->location_get());
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
