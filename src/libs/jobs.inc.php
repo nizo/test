@@ -685,7 +685,7 @@ function jobs_load ()
 	$jobs->job_add ($job);
 
 	
-	$job = new job ('Softwareentwicklung', 'Backend Developer I Backend Entwickler (w/m/d) I 4-Tage-Woche Option I 100% Remote möglich ', 'Du bist Backend Developer (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten? Dann bist du hier richtig!');
+	$job = new job ('Softwareentwicklung', 'Backend Developer I Backend Engineer I PHP Entwickler (w/m/d) I 4-Tage-Woche Option I 100% Remote möglich ', 'Du bist Backend Developer (w/m/d) und hast Lust auf schnelle Entscheidungen und Remote-Work-Möglichkeiten? Dann bist du hier richtig!');
 	$job->location_set ('Berlin / Remote');
 	$job->url_set ('backend-developer-duesseldorf');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
@@ -695,7 +695,7 @@ function jobs_load ()
 
 <b>Warum wir das machen?</b> Wir sind davon überzeugt, dass Menschen langfristig nur glücklich und engagiert sind, wenn sie einen Arbeitgeber finden, bei dem sie ihre <b>Interessen und Stärken voll ausleben</b> können. Dazu zählen für uns nicht nur deine täglichen Aufgaben im Job, sondern auch ein Arbeitsumfeld, in dem du so sein kannst, wie du wirklich bist. Daher arbeiten wir nicht mit starren Job-Profilen, sondern mit <b>Jobbausteinen</b>, die wir <b>basierenden auf deinen Stärken und Vorlieben</b> gemeinsam zusammensetzen.  
 
-<b>Gibt es gar keine Mindestvoraussetzungen?</b> Doch! Du solltest natürlich Lust auf Backend Entwicklung haben und Erfahrung mit Schnittstellen sowie Datenbanken mitbringen – alles weitere ist verhandelbar. :)');
+<b>Gibt es gar keine Mindestvoraussetzungen?</b> Doch! Du solltest natürlich Lust auf Backend Entwicklung haben, PHP-Affinität sowie Erfahrung mit Schnittstellen und Datenbanken mitbringen – alles weitere ist verhandelbar. :)');
 	$job->text_description_long_set ('<b>Wie funktioniert Job Crafting bei CallOne?</b> Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reizt, bei welchen Aufgaben du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben bieten können, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
 	$job->text_description_long_set ('<b>Der Haken an der Sache?</b> Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
 	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://outlook.office365.com/owa/calendar/G28574a2b3be345b4b8c268ed1ddc5cd9@comdesk.de/bookings/" target="_blank">Zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
@@ -708,8 +708,8 @@ function jobs_load ()
 	$job->text_tasks_set ('Bei Interesse, die Arbeit mit VoIP Systemen');
 	$job->text_requirements_set ('Die Arbeit mit Datenbanken, Schnittstellen und neuen Feature-Anbindungen ist genau dein Ding!');
 	$job->text_requirements_set ('Egal ob MariaDB, MySQL oder andere Datenbanksysteme - du verstehst, wie Datenbanksysteme funktionieren und kannst dieses Wissen anwenden bzw. auf dir unbekannte Systeme übertragen!');
-	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch verständigen!');
-	$job->text_requirements_set ('Du hast Erfahrungen mit PHP?');
+	$job->text_requirements_set ('Du hast Erfahrungen mit PHP!');
+	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch und/oder Englisch verständigen!');
 	$job->text_requirements_set ('Du hast Spaß daran, dich durch alten Code zu graben und ihm eine Generalüberholung zu verpassen?');
 	$job->text_requirements_set ('Da wir in der Telekommunikationsbranche unterwegs sind, sind VoIP Erfahrungen immer hilfreich, für uns aber keine Voraussetzung');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
