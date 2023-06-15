@@ -1164,7 +1164,7 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 	$job->statement_set (new job_statement ('/assets/images/photos/jenny_radziejewski.jpg', 'Jenny Radziejewski', 'Customer Success Management', 'Die große Flexibilität, der enge Kontakt zum Kunden und vor allem der menschliche Umgang untereinander zeichnen meinen Arbeitsalltag bei CallOne aus.'));
 	$jobs->job_add ($job);*/
 
-$job = new job ('Vertrieb', 'Head of HR I Personalleiter (w/m/d) I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
+$job = new job ('Vertrieb', 'Head of HR I HR Generalist (w/m/d) I  4-Tage-Woche und Home Office-Tage möglich', 'Du bist unser*e Ansprechpartner*in in Sachen Recruiting & Employer Branding.');
 	$job->location_set ('Hamburg / Remote');
 	$job->url_set ('job-head-of-hr-in-hamburg');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
