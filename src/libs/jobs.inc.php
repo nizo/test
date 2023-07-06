@@ -663,7 +663,7 @@ function jobs_load ()
 <b>Gibt es gar keine Mindestvoraussetzungen?</b> Doch! Du solltest Bock auf Frontend Entwicklung haben und Javascript beherrschen – alles weitere ist verhandelbar. :)');
 	$job->text_description_long_set ('<b>Wie funktioniert Job Crafting bei CallOne?</b> Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reizt, bei welchen Aufgaben du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben zu bieten haben, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
 	$job->text_description_long_set ('<b>Der Haken an der Sache?</b> Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
-	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://outlook.office365.com/owa/calendar/G28574a2b3be345b4b8c268ed1ddc5cd9@comdesk.de/bookings/" target="_blank">Zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
+	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://outlook.office365.com/owa/calendar/heuser2meet@callone.de/bookings/" target="_blank">zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
 	$job->text_description_long_set ('<b>Du willst vorab etwas mehr wissen?</b> Nachfolgend findest du ein paar <b>exemplarische Jobbausteine</b>, die künftig zu deinem Aufgabenportfolio zählen <b>könnten</b>');
 	$job->text_tasks_set ('Entwicklung von responsiven und benutzerfreundlichen Webanwendungen');
 	$job->text_tasks_set ('Entwicklung dynamischer Oberflächen, die große Datenmengen variabel anzeigen können');
@@ -676,7 +676,7 @@ function jobs_load ()
 	$job->text_requirements_set ('Vielleicht hast du bereits mit APIs gearbeitet?');
 	$job->text_requirements_set ('Vielleicht bringst du sogar nützliche Erfahrungen mit, um uns beim Wechsel hin zu Bootstrap zu unterstützen?');
 	$job->text_requirements_set ('REST APIs, WebSockets, WebRTC, PHP - was auch immer du davon mitbringst, kannst du bei uns gut zum Einsatz bringen.');
-	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch verständigen');
+	$job->text_requirements_set ('Du kannst dich gut und sicher auf Deutsch und/oder Englisch verständigen');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['developer']);
@@ -698,7 +698,7 @@ function jobs_load ()
 <b>Gibt es gar keine Mindestvoraussetzungen?</b> Doch! Du solltest natürlich Lust auf Backend Entwicklung haben, PHP-Affinität sowie Erfahrung mit Schnittstellen und Datenbanken mitbringen – alles weitere ist verhandelbar. :)');
 	$job->text_description_long_set ('<b>Wie funktioniert Job Crafting bei CallOne?</b> Wir schauen bei einem kurzen Video-Telefonat gemeinsam, was dich inhaltlich reizt, bei welchen Aufgaben du die Zeit vergisst, und in welchem Umfeld du ganz und gar du selbst sein kannst. Sollten wir dir nicht das passende Umfeld oder die passenden Aufgaben bieten können, kommunizieren wir das ganz offen und transparent und empfehlen dir auf Wunsch gerne passendere Unternehmen innerhalb unseres Netzwerks. Denn uns geht es nicht darum Stellen schnell, sondern passgenau und somit langfristig zu besetzten.');
 	$job->text_description_long_set ('<b>Der Haken an der Sache?</b> Schlechtesten Falls verschwendest du 10 Minuten deiner wertvollen Zeit. Bestenfalls resultiert diese Kaffeepause in einem Job, der den Titel „Traumjob“ wirklich verdient - bei uns oder einem Arbeitgeber aus unserem Netzwerk.');
-	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://outlook.office365.com/owa/calendar/G28574a2b3be345b4b8c268ed1ddc5cd9@comdesk.de/bookings/" target="_blank">Zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
+	$job->text_description_long_set ('<b>Klingt nach einer lohnenden Investition?</b> Dann verabrede dich jetzt mit unserem technischen Projektmanager Marian: <a href="https://outlook.office365.com/owa/calendar/heuser2meet@callone.de/bookings/" target="_blank">zur Terminbuchung</a> oder schreib unserer <a href="https://www.linkedin.com/in/anika-baumann/" target="_blank">Head of HR Anika</a> via LinkedIn.');
 	$job->text_description_long_set ('<b>Du willst vorab etwas mehr wissen?</b> Nachfolgend findest du ein paar <b>exemplarische Jobbausteine</b>, die künftig zu deinem Aufgabenportfolio zählen <b>könnten</b>');
 	$job->text_tasks_set ('Das zur Verfügung stellen von APIs');
 	$job->text_tasks_set ('Die Arbeit mit Datenbanken und API-Systemen');
@@ -1044,7 +1044,8 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
 
-	$job = new job ('Management', '(Junior) Finance Specialist (w/m/d) I 20 bis 40 Std. I 80% Home Office möglich', 'Home Office, 30 Tage Urlaub, keine Überstunden, Weiterbildungsbudget... als Finance Specialist (w/m/d) bei CallOne darfst du dich auf tolles Gesamtpaket freuen!');
+	/*
+$job = new job ('Management', '(Junior) Finance Specialist (w/m/d) I 20 bis 40 Std. I 80% Home Office möglich', 'Home Office, 30 Tage Urlaub, keine Überstunden, Weiterbildungsbudget... als Finance Specialist (w/m/d) bei CallOne darfst du dich auf tolles Gesamtpaket freuen!');
 	$job->location_set ('Hamburg / Remote');
 	$job->url_set ('finance-specialist-hamburg');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
@@ -1073,6 +1074,7 @@ $job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständn
 	$job->icon_set ($icons['clipboard']);
 	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
 	$jobs->job_add ($job);
+ */
 	
 	
 	$job = new job ('Vertrieb', '(Senior) Sales Manager (w/m/d) I 4-Tage-Woche und Home Office möglich', 'Du bist ein*e Allrounder*in für digitale B2B-Sales-Kanäle und auch auf Messen fühlst du dich pudelwohl? Dann bist du bei uns goldrichtig!');
