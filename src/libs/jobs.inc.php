@@ -1018,15 +1018,40 @@ Erarbeite Roadmaps und stelle diese regelmäßig in unseren internen Meetings vo
 	$jobs->job_add ($job);
 */
 
-$job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständnis I  4-Tage-Woche und Home Office möglich', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
+$job = new job ('Management', 'KI Projektmanager I Prompt Engineer (w/m/d) I 4-Tage-Woche und Homeoffice möglich', 'Du verantwortest den weltweit ersten ChatGPT-basierten Voice-Bot, der die Herzen unserer Kunden derzeit im Sturm erobert!');
+	$job->location_set ('Potsdam / Remote');
+	$job->url_set ('projektmanager-technisch-potsdam');
+	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
+	$job->text_intro_set ('Als KI Projektmanager und (angehender) Prompt Engineer (w/m/d) verantwortest du den weltweit ersten ChatGPT-basierten Voice-Bot (https://www.callone.de/voicebot), der die Herzen unserer Kunden derzeit im Sturm erobert! Sei live mit dabei, wenn wir Service-Geschichte schreiben! Du übernimmst eine federführende Rolle, wenn es darum geht KI für über 4.000 B2B-Kunden nutzbar zu machen und weitere Kunden von unseren innovativen KI-basierten SaaS-Lösungen zu begeistern.');
+	$job->text_description_long_set ('Als kompetenter KI-Ansprechpartner unserer Kunden hast du dein Ohr stets an der Zielgruppe, spürst (unerkannte) Bedürfnisse auf, übersetzt sie in konkrete Anforderungen und stellst die reibungslose Umsetzung und den Livegang unserer innovative KI-Lösungen sicher.');
+	$job->text_description_long_set ('Du hast noch keine bzw. nur rudimentäre Erfahrungen im Prompt Design, aber ein riesiges Interesse an dem Thema? Kein Problem! Wir bilden dich gerne on the job zum Prompt Designer aus! Dein neu gewonnenes Wissen kannst du direkt an unserem ChatGPT-basierten Voice Bot anwenden und verfeinern. Hast du Lust, auf die Reise deines Leben – abseits von eingetreten Karrierepfaden und verstaubten Jobprofilen? Dann starte jetzt bei CallOne als KI Projektmanager / Prompt Engineer durch!');
+	$job->text_tasks_set ('Du fungierst als kompetenter Ansprechpartner bei allen VoiceBot-relevanten Fragestellungen und unterstützt unsere Kunden bei der Einrichtung und Nutzung unserer KI-Lösungen');
+	$job->text_tasks_set ('Mit Fingerspitzengefühl und kommunikativem Geschick kitzelst du aus unseren Kunden heraus, was sie “wirklich” brauchen');
+	$job->text_tasks_set ('Du verantwortest den Livegang sämtlicher VoiceBot-Projekte und achtest dabei darauf, dass unsere KI-Lösungen termingerecht und entsprechend der Kundenanforderungen umgesetzt werden');
+	$job->text_tasks_set ('Du entwickelst dich Schritt um Schritt zum kompetenten Prompt Engineer');
+	$job->text_tasks_set ('Um bestmögliche Kundenlösungen zu erzielen, stellst du sicher, dass Software Development, Marketing- und Support Hand in Hand arbeiten');
+	$job->text_tasks_set ('Du schulst unserer MitarbeiterInnen und das Marketingteam zu neuen VoiceBot-Funktionen und KI-Produkten ');
+	$job->text_tasks_set ('Du entwickelst Plänen zur Prozessoptimierung und setzt diese um');
+	$job->text_requirements_set ('Du brennst für innovative KI-Themen und bist bereits begeisterter ChatGPT-Nuter (w/m/d)');
+	$job->text_requirements_set ('Deine Leidenschaft für technische Innovationen ist ansteckend');
+	$job->text_requirements_set ('Ggf. kannst du bereits entwickeln oder hast Interesse, in diesem Bereich Kompetenzen aufzubauen');
+	$job->text_requirements_set ('Du bist in der Lage, effektiv zwischen verschiedenen Teams zu vermitteln und eine Mentorenrolle zu übernehmen');
+	$job->text_requirements_set ('Du bist eine Kommunikationstalent und strukturiertes Arbeiten liegt dir im Blut');
+	$job->text_requirements_set ('Du hast bereits Erfahrungen im Projektmanagement und in der Zusammenarbeit mit cross-funktionalen Teams');
+	$job->text_requirements_set ('Bei der Planung und Steuerung von Projekten fühlst du dich gut aufgestellt ');
+	$job->text_requirements_set ('Optional bringst du Kenntnisse zu agilen Methoden, zb. mit Scrum, mit');
+	$job->job_start_end_set ('Ab sofort / unbefristet');
+	$job->job_worktime_set ('Vollzeit');
+	$job->icon_set ($icons['clipboard']);
+	$job->statement_set (new job_statement ('/assets/images/photos/brian_miculcy.jpg', 'Brian Miculcy', 'Head of Software Development', 'Zukunftstechnologien nutzen und zusammen mit Kunden kreative Lösungen schaffen. Dabei jederzeit ein starkes Team hinter sich wissen.'));
+	$jobs->job_add ($job);
+
+	$job = new job ('Management', 'Projektmanager (w/m/d) mit technischem Verständnis I  4-Tage-Woche und Home Office möglich', 'Du möchtest Teil eines jungen, dynamischen Teams sein und von flachen Hierarchien sowie großem Entwicklungspotential profitieren? Du behältst den Überblick über interne Abläufe und Strukturen? Dann bist du bei uns genau richtig!');
 	$job->location_set ('Potsdam / Remote');
 	$job->url_set ('projektmanager-technisch-potsdam');
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Als <strong>Projektmanager mit technischem Verständnis</strong>, bist du in der Lage, effektiv zwischen verschiedenen Teams zu vermitteln. Du wirst eine wichtige Mentorenrolle einnehmen, um sicherzustellen, dass alle Teams auf dem gleichen Stand sind und dass die Entwicklung von neuen Funktionen reibungslos verläuft. Außerdem wirst du dafür verantwortlich sein, Anforderungen zu sammeln, Befragungen durchzuführen und nachgelagerte Prozesse zu managen, um sicherzustellen, dass alle Teams zusammenarbeiten, um unsere Produkte erfolgreich auf den Markt zu bringen.');
 	$job->text_description_long_set ('Du spielst eine zentrale Rolle bei der Koordination von verschiedenen Teams. Deine Fähigkeit, zwischen verschiedenen Abteilungen und Gruppen zu vermitteln, wird es dir ermöglichen, effektiv zu kommunizieren und sicherzustellen, dass alle Beteiligten auf dem gleichen Wissensstand sind. Als Mentor wirst du eine wichtige Rolle spielen und sicherzustellen, dass alle Teams zusammenarbeiten, um unsere Produkte erfolgreich auf den Markt zu bringen.<br><br>Darüber hinaus wirst du auch dafür verantwortlich sein, Anforderungen zu sammeln und Befragungen durchzuführen, um sicherzustellen, dass alle Teams ihre Ziele erreichen und ihre Arbeit effektiv durchführen können. Du wirst auch nachgelagerte Prozesse managen und sicherstellen, dass die notwendigen Ressourcen vorhanden sind, damit alle Teams ihre Aufgaben erfolgreich erledigen können. Durch deine Fähigkeit, effektiv zu kommunizieren und zu koordinieren, wirst du sicherstellen, dass alle Aspekte des Projekts erfolgreich umgesetzt werden und unsere Produkte auf dem Markt erfolgreich positioniert werden.');
-	$job->text_tasks_set ('Verantwortung für die Koordination der Zusammenarbeit zwischen verschiedenen Teams, einschließlich Entwicklungs-, Marketing- und Support-Teams.');
-	$job->text_tasks_set ('Erhebung von Anforderungen und Durchführung von Befragungen, um sicherzustellen, dass alle Anforderungen und Bedürfnisse der Kunden erfüllt werden.');
-	$job->text_tasks_set ('Verantwortlich für die Sicherstellung, dass die Funktionen termingerecht und innerhalb des Budgets umgesetzt werden.');
 	$job->text_tasks_set ('Schulung der Mitarbeiter und des Marketingteams über neue Funktionen und Produkte.');
 	$job->text_tasks_set ('Verwaltung von nachgelagerten Prozessen wie Freigaben, Tests, Qualitätssicherung, Kundensupport und Fehlerbehebung.');
 	$job->text_tasks_set ('Entwicklung von Plänen zur Verbesserung der Zusammenarbeit und Prozessoptimierung.');
