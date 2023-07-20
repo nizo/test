@@ -670,6 +670,7 @@ function jobs_load ()
 	$job->text_tasks_set ('Sicherstellung der Kompatibilität mit verschiedenen Browsern und Geräten');
 	$job->text_tasks_set ('Optimierung der Leistung und Benutzerfreundlichkeit unserer Webanwendungen');
 	$job->text_tasks_set ('Und natürlich die enge Zusammenarbeit mit weiteren Frontend- und Backend-Entwicklern (w/m/d)');
+	$job->text_requirements_set ('Du bringst mindestens 3-5 Jahre Berufserfahrung im Frontend mit.');
 	$job->text_requirements_set ('Du beherrschst Vanilla JavaScript im Schlaf!');
 	$job->text_requirements_set ('Du hast Erfahrung in der Frontend-Entwicklung von komplexen Weblösungen?');
 	$job->text_requirements_set ('Du denkst dich gut und gerne, in das Nutzerverhalten unserer KundInnen rein und hast Freude daran, unsere Webanwendungen entsprechend zu optimieren? ');
@@ -706,6 +707,7 @@ function jobs_load ()
 	$job->text_tasks_set ('Die Modernisierung unserer bestehenden Systeme');
 	$job->text_tasks_set ('Das Nutzen von ChatGPT zur Optimierung unserer Softwarelösungen');
 	$job->text_tasks_set ('Bei Interesse, die Arbeit mit VoIP Systemen');
+	$job->text_requirements_set ('Du bringst mindestens 3-5 Jahre Berufserfahrung im Backend mit.');
 	$job->text_requirements_set ('Die Arbeit mit Datenbanken, Schnittstellen und neuen Feature-Anbindungen ist genau dein Ding!');
 	$job->text_requirements_set ('Egal ob MariaDB, MySQL oder andere Datenbanksysteme - du verstehst, wie Datenbanksysteme funktionieren und kannst dieses Wissen anwenden bzw. auf dir unbekannte Systeme übertragen!');
 	$job->text_requirements_set ('Du hast Erfahrungen mit PHP!');
@@ -1024,14 +1026,14 @@ $job = new job ('Management', 'KI Projektmanager I Prompt Engineer (w/m/d) I 4-T
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (m/w/d)');
 	$job->text_intro_set ('Als KI Projektmanager und (angehender) Prompt Engineer (w/m/d) verantwortest du den weltweit ersten ChatGPT-basierten Voice-Bot (https://www.callone.de/voicebot), der die Herzen unserer Kunden derzeit im Sturm erobert! Sei live mit dabei, wenn wir Service-Geschichte schreiben! Du übernimmst eine federführende Rolle, wenn es darum geht KI für über 4.000 B2B-Kunden nutzbar zu machen und weitere Kunden von unseren innovativen KI-basierten SaaS-Lösungen zu begeistern.');
 	$job->text_description_long_set ('Als kompetenter KI-Ansprechpartner unserer Kunden hast du dein Ohr stets an der Zielgruppe, spürst (unerkannte) Bedürfnisse auf, übersetzt sie in konkrete Anforderungen und stellst die reibungslose Umsetzung und den Livegang unserer innovative KI-Lösungen sicher.');
-	$job->text_description_long_set ('Du hast noch keine bzw. nur rudimentäre Erfahrungen im Prompt Design, aber ein riesiges Interesse an dem Thema? Kein Problem! Wir bilden dich gerne on the job zum Prompt Designer aus! Dein neu gewonnenes Wissen kannst du direkt an unserem ChatGPT-basierten Voice Bot anwenden und verfeinern. Hast du Lust, auf die Reise deines Leben – abseits von eingetreten Karrierepfaden und verstaubten Jobprofilen? Dann starte jetzt bei CallOne als KI Projektmanager / Prompt Engineer durch!');
+	$job->text_description_long_set ('Du hast noch keine bzw. nur rudimentäre Erfahrungen im Prompt Design, aber ein riesiges Interesse an dem Thema? Kein Problem! Wir bilden dich gerne on the job zum Prompt Designer aus! Dein neu gewonnenes Wissen kannst du direkt an unserem ChatGPT-basierten Voice Bot anwenden und verfeinern. Hast du Lust, auf die Reise deines Lebens – abseits von eingetreten Karrierepfaden und verstaubten Jobprofilen? Dann starte jetzt bei CallOne als KI Projektmanager / Prompt Engineer durch!');
 	$job->text_tasks_set ('Du fungierst als kompetenter Ansprechpartner bei allen VoiceBot-relevanten Fragestellungen und unterstützt unsere Kunden bei der Einrichtung und Nutzung unserer KI-Lösungen');
 	$job->text_tasks_set ('Mit Fingerspitzengefühl und kommunikativem Geschick kitzelst du aus unseren Kunden heraus, was sie “wirklich” brauchen');
 	$job->text_tasks_set ('Du verantwortest den Livegang sämtlicher VoiceBot-Projekte und achtest dabei darauf, dass unsere KI-Lösungen termingerecht und entsprechend der Kundenanforderungen umgesetzt werden');
 	$job->text_tasks_set ('Du entwickelst dich Schritt um Schritt zum kompetenten Prompt Engineer');
 	$job->text_tasks_set ('Um bestmögliche Kundenlösungen zu erzielen, stellst du sicher, dass Software Development, Marketing- und Support Hand in Hand arbeiten');
 	$job->text_tasks_set ('Du schulst unserer MitarbeiterInnen und das Marketingteam zu neuen VoiceBot-Funktionen und KI-Produkten ');
-	$job->text_tasks_set ('Du entwickelst Plänen zur Prozessoptimierung und setzt diese um');
+	$job->text_tasks_set ('Du entwickelst Pläne zur Prozessoptimierung und setzt diese um');
 	$job->text_requirements_set ('Du brennst für innovative KI-Themen und bist bereits begeisterter ChatGPT-Nuter (w/m/d)');
 	$job->text_requirements_set ('Deine Leidenschaft für technische Innovationen ist ansteckend');
 	$job->text_requirements_set ('Ggf. kannst du bereits entwickeln oder hast Interesse, in diesem Bereich Kompetenzen aufzubauen');
@@ -1039,7 +1041,7 @@ $job = new job ('Management', 'KI Projektmanager I Prompt Engineer (w/m/d) I 4-T
 	$job->text_requirements_set ('Du bist eine Kommunikationstalent und strukturiertes Arbeiten liegt dir im Blut');
 	$job->text_requirements_set ('Du hast bereits Erfahrungen im Projektmanagement und in der Zusammenarbeit mit cross-funktionalen Teams');
 	$job->text_requirements_set ('Bei der Planung und Steuerung von Projekten fühlst du dich gut aufgestellt ');
-	$job->text_requirements_set ('Optional bringst du Kenntnisse zu agilen Methoden, zb. mit Scrum, mit');
+	$job->text_requirements_set ('Optional bringst du Kenntnisse zu agilen Methoden mit, wie Scrum oder Kanban');
 	$job->job_start_end_set ('Ab sofort / unbefristet');
 	$job->job_worktime_set ('Vollzeit');
 	$job->icon_set ($icons['clipboard']);
