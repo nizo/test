@@ -77,39 +77,50 @@ $faqs->faq_add(
 
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<ul class="list list--checkmarks">
-							<li class="list-upd"><div>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU) <span
-									class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Alles was
-										notwendig ist, damit sie direkt loslegen können mit Ihrem VoiceBot.
-										NoCode-Interface, Spracherkenner, Testaccount mit Azure OpenAI
-										(EU-Hosting)</span></span></div></li>
-							<li class="list-upd"><div>Inkludierte Minuten und 14 kostenfrei testen <span
-									class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Testen Sie
-										kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten
-										Minutenkontingenten</span></span></div></li>
-							<li class="list-upd"><div>Echtzeit-Dashboard <span
-									class="tooltip tooltip--info tooltip--light"><span
-										style="--fs:14px">Echtzeitdarstellung der VoiceBot-Gesprächsverläufe mit Ihren
-										Anrufern. Perfekt für die Analyse und Optimierung</span></span></div></li>
+							<li class="list-upd">
+								<div>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU) <span
+										class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Alles was
+											notwendig ist, damit sie direkt loslegen können mit Ihrem VoiceBot.
+											NoCode-Interface, Spracherkenner, Testaccount mit Azure OpenAI
+											(EU-Hosting)</span></span></div>
+							</li>
+							<li class="list-upd">
+								<div>Inkludierte Minuten und 14 kostenfrei testen <span
+										class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Testen Sie
+											kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten
+											Minutenkontingenten</span></span></div>
+							</li>
+							<li class="list-upd">
+								<div>Echtzeit-Dashboard <span class="tooltip tooltip--info tooltip--light"><span
+											style="--fs:14px">Echtzeitdarstellung der VoiceBot-Gesprächsverläufe mit
+											Ihren
+											Anrufern. Perfekt für die Analyse und Optimierung</span></span></div>
+							</li>
 						</ul>
 					</div>
 					<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-md">
 						<ul class="list list--checkmarks">
-							<li class="list-upd"><div>KI-Basierte Gesprächs&shy;zusammenfassung <span
-									class="tooltip tooltip--info  tooltip--light"><span style="--fs:14px">Der Inhalt all
-										ihrer VoiceBot-Calls wird komfortabel für Sie in einer Zusammenfassung
-										geliefert</span></span></div></li>
+							<li class="list-upd">
+								<div>KI-Basierte Gesprächs&shy;zusammenfassung <span
+										class="tooltip tooltip--info  tooltip--light"><span style="--fs:14px">Der Inhalt
+											all
+											ihrer VoiceBot-Calls wird komfortabel für Sie in einer Zusammenfassung
+											geliefert</span></span></div>
+							</li>
 							<li class="list-upd">
 								<div>
-								Stimmungsanalyse <span
-									class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Erkennung von
-										Ausdrucksweisen in Kundengesprächen</span></span>
+									Stimmungsanalyse <span class="tooltip tooltip--info tooltip--light"><span
+											style="--fs:14px">Erkennung von
+											Ausdrucksweisen in Kundengesprächen</span></span>
 								</div>
 							</li>
 							<li class="list-upd">
 								<div>Rufnummern aus Ihrem Vorwahlbereich <span
-									class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">10 lokale
-										Rufnummern zum Testen und Weiterleiten aus Ihrem Vorwahlbereich, die Sie für die
-										Weiterleitung in Ihre Telefonnummer oder zum Testen nutzen können</span></span></div>
+										class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">10 lokale
+											Rufnummern zum Testen und Weiterleiten aus Ihrem Vorwahlbereich, die Sie für
+											die
+											Weiterleitung in Ihre Telefonnummer oder zum Testen nutzen
+											können</span></span></div>
 							</li>
 						</ul>
 					</div>
@@ -288,9 +299,23 @@ $faqs->faq_add(
 									<div class="floating-form__checkbox">
 										<input type="checkbox" name="privacy" id="privacy" required="required" />
 										<label for="privacy">
-											Ich habe die <a style="text-decoration: underline"
+											Ich habe die
+
+											<?php if(isset($_GET['inopla_style'])){?>
+
+											<a style="text-decoration: underline"
+												href="https://www.inopla.de/datenschutz/"
+												target="_blank">Datenschutzbestimmungen</a>
+
+											<?php }else{ ?>
+
+											<a style="text-decoration: underline"
 												href="/downloads/Informationen-zur-Erhebung-personenbezogener-Daten-im-Bewerbungsverfahren.pdf"
-												target="_blank">Datenschutzbestimmungen</a> gelesen.
+												target="_blank">Datenschutzbestimmungen</a>
+
+											<?php }?>
+
+											gelesen.
 										</label>
 									</div>
 								</div>
@@ -304,8 +329,8 @@ $faqs->faq_add(
 							$path = json_encode($_SESSION['userRoute']);
 							foreach ($_SESSION['userRoute'] as $path) {
 								?>
-								<input type="hidden" name="path[]" value="<?= $path; ?>">
-								<?php
+							<input type="hidden" name="path[]" value="<?= $path; ?>">
+							<?php
 							}
 							?>
 						</form>
@@ -370,6 +395,9 @@ $faqs->faq_add(
 								</label>
 
 							</div>
+						
+
+
 							<input type="radio" name="package" id="package-3" value="Flex">
 							<label for="package-3" class="vb-package" data-price="individuell"
 								style="--bg:rgba(134, 238, 34, 0.2);--color:#000">
@@ -380,6 +408,7 @@ $faqs->faq_add(
 										hinaus, um Ihre Bedürfnisse effektiv zu bearbeiten.</p>
 								</div>
 							</label>
+							
 
 						</div>
 
@@ -690,8 +719,20 @@ $faqs->faq_add(
 		<p class="secondary">Bei Ihnen sind noch Fragen zu unserem Voicebot offen? Zögern Sie nicht - kontaktieren Sie
 			uns!</p>
 		<p>
+
+			<?php if(isset($_GET['inopla_style'])){?>
+
+			<a href="https://inopla.de/kontakt/" class="btn btn--primary tracked-ipokla" target="_blank">Kontakt
+				aufnehmen</a>
+
+			<?php }else{ ?>
+
 			<a href="#" class="btn btn--primary trackedContactModal" data-openmodal="contact-sales">Kontakt
 				aufnehmen</a>
+
+			<?php }?>
+
 		</p>
+
 	</div>
 </div>

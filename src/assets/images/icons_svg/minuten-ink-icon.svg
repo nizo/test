@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.447" height="36.447" viewBox="0 0 36.447 36.447">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="36.447" height="36.447" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_20" data-name="Group 20" clip-path="url(#clip-path)">
+    <path id="minuten-ink-icon" d="M1127.06,1211.5a2.278,2.278,0,0,0,0,4.556h1.13v2.442a14.82,14.82,0,1,0,14.706,6.579l1.713-1.713a2.281,2.281,0,0,0-3.226-3.226l-1.531,1.549a14.808,14.808,0,0,0-7.107-3.189v-2.442h1.148a2.278,2.278,0,0,0,0-4.556h-6.834Zm5.121,13.668v9.112a1.713,1.713,0,0,1-3.426,0v-9.112a1.713,1.713,0,1,1,3.426,0Z" transform="translate(-1112.627 -1211.5)" fill="rgba(255,255,255,0.56)"/>
+  </g>
+</svg>

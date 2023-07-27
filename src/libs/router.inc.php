@@ -26,6 +26,10 @@ define('DOMAIN', 'https://'.@$_SERVER['HTTP_HOST']);
 define('DIRECTORY_VIEWS', './views/de/');
 define('DIRECTORY_LAYOUTS', './layouts/');
 
+if(isset($_GET['embed=23546789534278963425678945678'])) {
+	header_remove('X-Frame-Options');
+}
+
 
 class Router {
     private static $routes;
@@ -406,7 +410,7 @@ Router::add('/voicebot-preise', 'voicebot-preise.php', [
 	'meta_description' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.​',
     'og_image_text' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.',
 	'menu_position' => 'loesungen',
-	'body_class' => 'lp lp--voicebot lp--vb-preise',
+	'body_class' => 'lp lp--voicebot lp--vb-preise'.(isset($_GET['inopla_style']) ? ' lp--inopla-style' : '' ),
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
     'reduced_footer' => false,

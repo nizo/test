@@ -1,0 +1,19 @@
+<svg id="check-inopla" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.234" y1="0.82" x2="0.867" y2="0.085" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4646" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff4646"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="30.091" height="22.324" fill="#ff4646"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5386" data-name="Group 5386">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="25.5" cy="25.5" r="25.5" opacity="0.4" fill="url(#linear-gradient)"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(10.455 14.338)">
+      <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path)">
+        <path id="Path_46" data-name="Path 46" d="M13.565,21.332a3.406,3.406,0,0,1-4.806,0L.992,13.565A3.4,3.4,0,0,1,5.8,8.759l5.364,5.364L24.293.992A3.4,3.4,0,0,1,29.1,5.8Z" transform="translate(0 0)" fill="#ff4646"/>
+      </g>
+    </g>
+  </g>
+</svg>
