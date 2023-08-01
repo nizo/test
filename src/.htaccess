@@ -5,15 +5,10 @@
 # ----------------------------------------------------------------------
 # Security Settings
 # ----------------------------------------------------------------------
-
-SetEnvIf Request_URI "^/voicebot-preise" allowIframeEmbedding
-Header set X-Frame-Options "sameorigin" env=!allowIframeEmbedding # TODO for inopla.de only
-
+Header always set X-Frame-Options "sameorigin"
 <If "%{REQUEST_SCHEME} == 'https'">
     Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
 </If>
-
-
 
 # ----------------------------------------------------------------------
 # Rewrite to https
