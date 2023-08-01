@@ -26,10 +26,9 @@ define('DOMAIN', 'https://'.@$_SERVER['HTTP_HOST']);
 define('DIRECTORY_VIEWS', './views/de/');
 define('DIRECTORY_LAYOUTS', './layouts/');
 
-if(isset($_GET['embed=23546789534278963425678945678'])) {
-	header_remove('X-Frame-Options');
+if(isset($_GET['inopla_style'])){
+	header("Content-Security-Policy: frame-ancestors 'self' https://inopla.de https://www.inopla.de https://inopla.test",true);
 }
-
 
 class Router {
     private static $routes;
