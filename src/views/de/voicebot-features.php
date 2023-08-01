@@ -217,7 +217,7 @@
 
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">Datenanalyse über Kl</h5>
-						<p class="para-big-font-para">Analysieren Sie die transkribierten Gesprächsdaten und erhalten Sie nie dagewesene Insights ihrer Kunden.</p>
+						<p class="para-big-font-para">Analysieren Sie die transkribierten Gesprächsdaten und erhalten Sie nie dagewesene Insights Ihrer Kunden.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">Stimmungsanalyse</h5>
@@ -233,7 +233,7 @@
 					</div>
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">Anrufstatistiken</h5>
-						<p class="para-big-font-para">Über 30 Echtzeitstatistiken zur Auswertung ihrer ein- und ausgehenden Anrufe über unsere Plattform.</p>
+						<p class="para-big-font-para">Über 30 Echtzeitstatistiken zur Auswertung Ihrer ein- und ausgehenden Anrufe über unsere Plattform.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">Export</h5>
@@ -286,7 +286,7 @@
 					</div>
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">100% verschlüsselt</h5>
-						<p class="para-big-font-para">Unsere VolP-Gespräche werden via TLS und SRTP verschlüsselt. Zudem besteht die Option ein VPN zu nutzen.</p>
+						<p class="para-big-font-para">Unsere VolP-GesprächeUnsere VolP-Gespräche werden via TLS und SRTP verschlüsselt. Zudem besteht die Option, ein VPN zu nutzen.</p>
 					</div>
 
 				</div>
@@ -385,7 +385,7 @@
 					</div>
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">Rufnummernmitnahme</h5>
-						<p class="para-big-font-para">bestehende Rufnummer bei Anbieterwechsel behalten.</p>
+						<p class="para-big-font-para">Bestehende Rufnummer bei Anbieterwechsel behalten.</p>
 					</div>
 
 
