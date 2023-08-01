@@ -85,7 +85,7 @@ $faqs->faq_add(
 											(EU-Hosting)</span></span></div>
 							</li>
 							<li class="list-upd">
-								<div>Inkludierte Minuten und 14 kostenfrei testen <span
+								<div>Inkludierte Minuten und 14 Tage kostenfrei testen <span
 										class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Testen Sie
 											kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten
 											Minutenkontingenten</span></span></div>
