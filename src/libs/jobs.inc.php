@@ -656,7 +656,7 @@ function jobs_load ()
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
 	$job->text_intro_set ('Du bist <b>genervt von 0815-LinkedIn-Nachrichten</b>, die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wir dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  
 
-<b>Wie?</b> In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben. Den Termin dafür kannst du <a href="https://outlook.office365.com/owa/calendar/wasowicz2meet@callone.de/bookings/" target="_blank">HIER</a> buchen. 
+<b>Wie?</b> In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben. 
 
 <b>Warum wir das machen?</b> Wir sind davon überzeugt, dass Menschen langfristig nur glücklich und engagiert sind, wenn sie einen Arbeitgeber finden, bei dem sie ihre <b>Interessen und Stärken voll ausleben</b> können. Dazu zählen für uns nicht nur deine täglichen Aufgaben im Job, sondern auch ein Arbeitsumfeld, in dem du so sein kannst, wie du wirklich bist. Daher arbeiten wir nicht mit starren Job-Profilen, sondern mit <b>Jobbausteinen</b>, die wir <b>basierenden auf deinen Stärken und Vorlieben</b> gemeinsam zusammensetzen.  
 
@@ -692,7 +692,7 @@ function jobs_load ()
 	$job->quickinfo_set ($job->location_get().' · unbefristet · (w/m/d)');
 	$job->text_intro_set ('Du bist <b>genervt von 0815-LinkedIn-Nachrichten</b>, die dir das Blaue vom Himmel versprechen und zu glauben wissen, was du willst? Wir auch! Die Wahrheit ist, wir wissen nicht, ob wir deinen Traumjob im Angebot haben, ob wir dein „perfect match“ sind und ob du genau der Entwickler oder die Entwicklerin bist, die wir gesucht haben. Aber wir würden uns freuen, es mit dir gemeinsam herausfinden!  
 
-<b>Wie?</b> In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben. Den Termin dafür kannst du <a href="https://outlook.office365.com/owa/calendar/heuser2meet@callone.de/bookings/" target="_blank">HIER</a> buchen. 
+<b>Wie?</b> In einem ehrlichen 10 bis 15 Minuten-Gespräch auf Augenhöhe, in dem es erst einmal nur um dich und deine Wünsche geht. Ohne Obstkorb- und Kicker-Blabla, ohne wilde Versprechen und hippe Marketing Aktionen, die letztendlich nichts mit dem eigentlichen Job zu tun haben. 
 
 <b>Warum wir das machen?</b> Wir sind davon überzeugt, dass Menschen langfristig nur glücklich und engagiert sind, wenn sie einen Arbeitgeber finden, bei dem sie ihre <b>Interessen und Stärken voll ausleben</b> können. Dazu zählen für uns nicht nur deine täglichen Aufgaben im Job, sondern auch ein Arbeitsumfeld, in dem du so sein kannst, wie du wirklich bist. Daher arbeiten wir nicht mit starren Job-Profilen, sondern mit <b>Jobbausteinen</b>, die wir <b>basierenden auf deinen Stärken und Vorlieben</b> gemeinsam zusammensetzen.  
 
