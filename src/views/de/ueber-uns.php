@@ -374,7 +374,7 @@ $jobsCount = count($jobs->jobs_get());
                 <h2>Lass uns <br />zusammenarbeiten!</h2>
                 <p class="bigtext">Komm zu uns! Wir sind ein inhabergeführtes Unternehmen, das seit 2010 stetig wächst und bei dem Du dich von Tag eins einbringen kannst, um Dein volles Potential zu entfalten. Wirf einen Blick auf unsere aktuellen Stellenausschreibungen.</p>
                 <p class="mobile-centered">
-                    <a href="/karriere-bei-callone" class="btn btn--primary btn--notification btn--nowrap" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Karriere bei CallOne</a>
+                    <a href="/karriere-bei-callone" class="btn btn--primary btn--nowrap" data-notification="<?php if (!empty($jobs)) { echo $jobsCount; } ?>">Karriere bei CallOne</a>
                 </p>
                 <br />
                 <br />

@@ -4,7 +4,7 @@ $jobs = jobs_load();
 
 <div class="section section--light-grey">
     <div class="section__content section__content--narrow">
-        <h1 class="centered">Stellenausschreibungen<span class="bubble"><?= count($jobs->jobs_get()); ?></span></h1>
+        <h1 class="centered">Stellenausschreibungen</h1>
         <p class="centered">Du möchtest mehr über deinen Arbeitsplatz und das Team erfahren?</p>
         <p class="centered">
             <a href="/karriere-bei-callone" class="btn btn--primary btn--centered">Karriere bei CallOne</a>

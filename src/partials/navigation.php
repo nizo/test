@@ -445,7 +445,7 @@ require_once('banderole.php');
 
                             <a href="/karriere-bei-callone" class="submenu__link<?= getPageActiveClass('/karriere-bei-callone') ?>">
                                 <div class="submenu__link-text">
-                                    <strong>Karriere<?php if ($jobsCount > 0) { ?><span class="submenu__link-tag"><?= $jobsCount; ?> Jobs</span><?php } ?></strong>
+                                    <strong>Karriere</strong>
                                     <p>Wir suchen Talente, die die CallOne Erfolgsgeschichte weiterschreiben</p>
                                 </div>
                             </a>
