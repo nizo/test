@@ -1,8 +1,4 @@
-<?php
-$jobs = jobs_load();
-?>
-
-<div class="section section--light-grey">
+<div class="section" style="text-align:center">
     <div class="section__content section__content--narrow">
         <h1 class="centered">Stellenausschreibungen</h1>
         <p class="centered">Du möchtest mehr über deinen Arbeitsplatz und das Team erfahren?</p>
@@ -11,34 +7,8 @@ $jobs = jobs_load();
         </p>
     </div>
 
-    <?php
-    foreach ($jobs->categories_get() as $category) {
-        ?>
-        <div class="section__content" id="<?= $jobs->category_id_get($category) ?>">
-            <h2 class="centered"><?= $category ?></h2>
-        </div>
-
-        <div class="section__content section__content--shadow">
-            <div class="job-list">
-                <?php
-                foreach ($jobs->jobs_get_by_category($category) as $job) {
-                    echo "<div class='job-list__item'>";
-                    echo "<div class='job-list__item-icon'>";
-                    echo pictureTag(
-                        $job->icon_get(),
-                        $job->title_get(),
-                        70, 71
-                    );
-                    echo "</div>";
-                    echo "<a href='".$job->url_get()."' class='job-list__item-info'><small>".$job->quickinfo_get()."</small><br />".$job->title_get()."</a>";
-                    echo "</div>";
-                }
-                ?>
-            </div>
-        </div>
-        <?php
-    }
-    ?>
+   
+	<iframe style="margin-top: 4rem; margin-bottom: 3rem; padding-top: 2rem; background-color: white; margin-left: auto; margin-right: auto; max-width: 1200px" src="https://callone.softgarden.io/widgets/jobs" height="1200" width="100%" frameborder="0"></iframe>
 
     <div class="section__content section__content--narrow">
         <h2 class="centered">Nix passendes dabei? Kein Problem!</h2>

@@ -319,6 +319,24 @@ Redirect 301 /zoho.php /callcenter-software-apps
 Redirect 301 /callcenter-bot /voicebot
 
 
+# Job Redirects to Softgarden
+
+Redirect 301 /karriere/frontend-developer https://callone.softgarden.io/job/34789049/Frontend-Entwickler-f%C3%BCr-KI-Innovation-I-Frontend-Developer-w-m-d-I-4-Tage-Woche-und-bis-zu-100-remote-m%C3%B6glich?jobDbPVId=89399479&l=de
+Redirect 301 /karriere/job-head-of-hr-in-hamburg https://callone.softgarden.io/job/34853919/Head-of-HR-I-HR-Generalist-w-m-d-I-4-Tage-Woche-und-Home-Office-Tage-m%C3%B6glich?jobDbPVId=89399409&l=de
+Redirect 301 /karriere/backend-developer-duesseldorf https://callone.softgarden.io/job/34853859/Backend-Developer-f%C3%BCr-KI-Innovation-I-Backend-Engineer-I-PHP-Entwickler-w-m-d-I-4-Tage-Woche-Option-I-100-Remote-m%C3%B6glich?jobDbPVId=89399334&l=de
+Redirect 301 /karriere/voip-plattform-engineer-remote https://callone.softgarden.io/job/34853924/VoIP-Engineer-f%C3%BCr-KI-Innovation-I-System-Engineer-I-Telekommunikationsingenieur-w-m-d-I-4-Tage-Woche-und-100-Remote-m%C3%B6glich?jobDbPVId=89399414&l=de
+Redirect 301 /karriere/serverinfrastruktur-storage-engineer-remote https://callone.softgarden.io/job/34853899/IT-Infrastruktur-Management-I-Serverinfrastruktur-und-Storage-Engineer-w-m-d-I-4-Tage-Woche-und-Home-Office-m%C3%B6glich?jobDbPVId=89399379&l=de
+Redirect 301 /karriere/job-customer-success-manager-in-potsdam-remote https://callone.softgarden.io/job/34853869/Customer-Success-Manager-w-m-d-I-Customer-Service-I-4-Tage-Woche-und-bis-zu-50-Homeoffice-m%C3%B6glich-?jobDbPVId=89399349&l=de
+Redirect 301 /karriere/projektmanager-technisch-potsdam https://callone.softgarden.io/job/34853904/KI-Projektmanager-I-Prompt-Engineer-w-m-d-I-4-Tage-Woche-und-Homeoffice-m%C3%B6glich?jobDbPVId=89399764&l=de
+
+Redirect 302 /karriere/produkt-marketing-manager-in-potsdam /karriere
+Redirect 302 /karriere/job-assistenz-geschaeftsfuehrung-potsdam /karriere
+Redirect 302 /karriere/job-sales-manager-in-potsdam-remote /karriere
+Redirect 302 /karriere/job-key-account-manager-in-potsdam-remote /karriere
+Redirect 302 /karriere/performance-marketing-manager /karriere
+Redirect 302 /karriere/job-quereinsteiger-in-potsdam-remote /karriere
+Redirect 302 /karriere/job-projektmanager-in-potsdam-remote /karriere
+
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
