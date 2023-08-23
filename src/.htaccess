@@ -125,7 +125,7 @@ RewriteRule ^favicon.ico$ /assets/images/favicons/favicon.ico [L]
   ExpiresByType text/cache-manifest       "access plus 0 seconds"
 
 # Your document html
-  ExpiresByType text/html                 "access plus 0 seconds"
+# ExpiresByType text/html                 "access plus 0 seconds"
 
 # Data
   ExpiresByType application/json          "access plus 1 month"
@@ -137,7 +137,7 @@ RewriteRule ^favicon.ico$ /assets/images/favicons/favicon.ico [L]
   ExpiresByType application/rss+xml       "access plus 1 hour"
 
 # Favicon (cannot be renamed)
-  ExpiresByType image/x-icon              "access plus 1 week"
+# ExpiresByType image/x-icon              "access plus 1 week"
 
 # Media: images, video, audio
   ExpiresByType audio/ogg                 "access plus 1 year"

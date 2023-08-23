@@ -23,7 +23,7 @@ require_once('banderole.php');
     <div class="navigation__links">
         <a href="/" class="navigation__logo" title="Zur Startseite von CallOne">
             <?= pictureTag(
-                '/assets/images/logo/Logo-Equal.svg',
+                '/assets/images/logo/Logo-Equal-new.svg',
                 'CallOne Logo',
                 167, 80, [], false
             ) ?>
@@ -45,7 +45,7 @@ require_once('banderole.php');
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-icon">
                                         <?= pictureTag(
-                                            '/assets/images/navigation/callone-produkte.png',
+                                            '/assets/images/navigation/callone-produkte-new.png',
                                             'Businesstelefonie auf dem nächsten Level mit Produkten von CallOne',
                                             70, 70
                                         ) ?>
@@ -204,7 +204,7 @@ require_once('banderole.php');
                                 <div class="submenu__link submenu__link--big submenu__link--border-bottom submenu__title">
                                     <div class="submenu__link-icon">
                                         <?= pictureTag(
-                                            '/assets/images/navigation/callone-plattform.png',
+                                            '/assets/images/navigation/callone-plattform-new.png',
                                             'Telekommunikationslösungen von CallOne',
                                             70, 70
                                         ) ?>
