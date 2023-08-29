@@ -156,7 +156,7 @@ $faqs->faq_add (
                         </div>
                     </div>
 
-                    <p style="margin-top:var(--gutter-xs)">API-First-Ansatz: Einbinden von besteenden Applikatoren über Konnektoren, API oder TAPI.</p>
+                    <p style="margin-top:var(--gutter-xs)">API-First-Ansatz: Einbinden von bestehenden Applikatoren über Konnektoren, API oder TAPI.</p>
 
                     <p><a href="/callcenter-software-apps" class="btn btn--border-bottom btn--arrow-right-small">Apps & Schnittstellen</a></p>
                 </div>
