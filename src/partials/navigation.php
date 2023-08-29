@@ -544,7 +544,7 @@ require_once('banderole.php');
                                     </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:350px;">
-                                    <a href="/voicebot-ueber-uns" class="submenu__link<?= getPageActiveClass('/call-center-workforce-management-software') ?>">
+                                    <a href="/voicebot-ueber-uns" class="submenu__link<?= getPageActiveClass('/voicebot-ueber-uns') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
                                                 '/assets/images/navigation/uber-icon.svg',
@@ -561,7 +561,7 @@ require_once('banderole.php');
                                         </div>
                                     </a>
 
-                                    <a href="/voicebot-features" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
+                                    <a href="/voicebot-features" class="submenu__link<?= getPageActiveClass('/voicebot-features') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
                                                 '/assets/images/navigation/features-menu.svg',
@@ -574,8 +574,22 @@ require_once('banderole.php');
                                             <p>Alle wichtigen Funktionen im Überblick</p>
                                         </div>
                                     </a>
+									
+									<a href="/voicebot-details" class="submenu__link<?= getPageActiveClass('/voicebot-details') ?>">
+                                        <div class="submenu__link-icon">
+                                            <?= pictureTag(
+                                                '/assets/images/navigation/callone-voicebot-details.svg',
+                                                'Features',
+                                                40, 50
+                                            ) ?>
+                                        </div>
+                                        <div class="submenu__link-text">
+                                            <strong>Details</strong>
+                                            <p>Alle Details und Informationen zu unserem innovativen VoiceBot</p>
+                                        </div>
+                                    </a>
 
-                                    <a href="/voicebot-preise" class="submenu__link<?= getPageActiveClass('/callcenter-software-integrationen') ?>">
+                                    <a href="/voicebot-preise" class="submenu__link<?= getPageActiveClass('/voicebot-preise') ?>">
                                         <div class="submenu__link-icon">
                                             <?= pictureTag(
                                                 '/assets/images/navigation/preiskonfigurator-icon.svg',
@@ -770,6 +784,7 @@ require_once('banderole.php');
 			<div class="navigation__links-left flex">
 				<a href="/voicebot" class="<?= getPageActiveClass('/voicebot') ?>" title="Übersicht"><span>Übersicht</span></a>
 				<a href="/voicebot-features" class="<?= getPageActiveClass('/voicebot-features') ?>" title="Features"><span>Features</span></a>
+				<a href="/voicebot-details" class="<?= getPageActiveClass('/voicebot-details') ?>" title="Details"><span>Details</span></a>
 				<a href="/voicebot-ueber-uns" class="<?= getPageActiveClass('/voicebot-ueber-uns') ?>" title="Über uns"><span>Über uns</span></a>
 			</div>
 			<div class="voice-static-nav-buttons">

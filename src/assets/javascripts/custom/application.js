@@ -7,6 +7,7 @@ let app = {
         this.bind_events();
         this.init_slider();
         this.loop_videos();
+		this.yt_videos();
     },
 
     bind_events: function() {
@@ -104,6 +105,145 @@ let app = {
             }
         });
     },
+
+	yt_videos: function() {
+
+			let currentVideoId = null;
+			let player;
+			const countOfVideos = 8;
+		
+			const callbackOverlayTrigger = document.querySelectorAll('[data-binding*="video-overlay"]');
+			const slides = document.querySelectorAll('.swiper-slide[data-binding*="video-overlay"]');
+			const overlay = document.querySelector('[data-element="overlay-video"]');
+			const overlayContainer = document.querySelector('[data-element="overlay-video-container"]');
+			const iFrameContainer = document.querySelector('[data-element="overlay-container"]');
+			const queryString = '?controls=1&autoplay=1&playsinline=1&modestbranding=1&enablejsapi=1';
+			const introVideoSlide = document.querySelector('[data-context="intro_video_slide"]');
+			const originalIntroVideoSlideUrl = introVideoSlide.dataset.iframe_url;
+			const videoPlaylistOverlaySlider = document.querySelector('[data-element="video-playlist-overlay-slider"]');
+
+
+			const removeIFrame = (e) => {
+				let iframe = iFrameContainer.querySelector('iframe');
+				if(iframe) iframe.remove();
+			}
+		
+			const closeOverlay = (e) => {
+				// overlay.style.display = 'none';
+				overlay.classList.remove('visible');
+				videoPlaylistOverlaySlider.style.display = 'none';
+				videoPlaylistOverlaySlider.classList.remove('visible');
+				removeIFrame();
+			}
+
+			const checkKeys = (e) => {
+				if(e.keyCode === 27) {
+					closeOverlay();
+				}
+			}
+
+			const markPlayingSlide = (videoId) => {
+				slides.forEach( (slide) => {
+					slide.classList.remove('video-playing');
+					if(slide.dataset.playlist_video_id == videoId) slide.classList.add('video-playing');
+				});
+			}
+
+
+
+			// window.onYouTubeIframeAPIReady = function() {}
+
+			const onPlayerStateChange = (event) => {
+				switch(event.data) {
+					case 0:
+						closeOverlay();
+						if(currentVideoId < countOfVideos) {
+							// next video
+							let nextVideoTrigger = document.querySelector('[data-playlist_video_id="'+ (currentVideoId+1) +'"]');
+							nextVideoTrigger.click();
+						} else {
+							// finished playlist
+							window.swiper_video_overlay.slideTo(0);
+							window.swiper_video.slideTo(0);
+							markPlayingSlide(1);
+							introVideoSlide.dataset.playlist_video_id = 1;
+							introVideoSlide.dataset.iframe_url = originalIntroVideoSlideUrl;
+						}
+				}
+			}
+
+			document.addEventListener('keydown', checkKeys);
+
+		
+	
+		
+			overlay.querySelector('.close').addEventListener('click', closeOverlay);
+			// overlayContainer.querySelector('.close-outer').addEventListener('click', closeOverlay);
+		
+		
+			 
+			callbackOverlayTrigger.forEach((trigger) => { 
+				
+				trigger.addEventListener("click", (e) => { 
+					
+					e.preventDefault();
+					currentVideoId = parseInt(e.currentTarget.dataset.playlist_video_id);
+					let currentVideoUrl = e.currentTarget.dataset.iframe_url;
+					let hasPlaylist = (e.currentTarget.dataset.has_playlist == 'true' ? true : false);
+					let overlayAlreadyOpen = e.currentTarget.dataset.context === 'overlay';
+					let entryDelay = 100;
+					
+					markPlayingSlide(currentVideoId);
+
+					window.swiper_video_overlay.slideTo(currentVideoId - 1);
+					window.swiper_video.slideTo(currentVideoId - 1);
+					introVideoSlide.dataset.playlist_video_id = currentVideoId;
+					introVideoSlide.dataset.iframe_url = currentVideoUrl;
+
+					// triggered within open iframe – therefore remove old iframe before creating new iframe
+					if(e.currentTarget.dataset.context === 'overlay') {
+						removeIFrame();
+						entryDelay = 0;
+					}
+
+					console.log(e.currentTarget.parentNode);
+
+					swiper_video.activeIndex = currentVideoId;
+
+					setTimeout(() => {
+
+						let iframeHtml = document.createElement( "iframe" );
+
+						iframeHtml.setAttribute( "id", "api-video-player" );
+						iframeHtml.setAttribute( "allow", "autoplay" );
+						iframeHtml.setAttribute( "frameborder", "0" );
+						iframeHtml.setAttribute( "allowfullscreen", "" );
+						iframeHtml.setAttribute( "src", `${currentVideoUrl}${queryString}`);
+						iframeHtml.setAttribute( "sandbox", "allow-same-origin allow-scripts allow-presentation" );
+	
+						iFrameContainer.appendChild( iframeHtml );
+	
+						player = new YT.Player( 'api-video-player', {
+							events: { 'onStateChange': onPlayerStateChange }
+						});
+
+					},entryDelay);
+
+
+					if(hasPlaylist) {
+						videoPlaylistOverlaySlider.style.display = 'block';
+						setTimeout(() => {
+							videoPlaylistOverlaySlider.classList.add('visible')
+						},600);
+					}
+
+					// overlay.style.display = 'flex';
+					overlay.classList.add('visible');
+		
+				});
+		
+			});
+	},
 
     loop_videos: function() {
         let videos = Array.from(document.querySelectorAll('video[data-loop]'));

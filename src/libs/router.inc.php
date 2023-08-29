@@ -362,7 +362,7 @@ foreach ($jobs->jobs_get() as $job) {
 
 
 Router::add('/voicebot', 'voicebot.php', [
-    'title' => 'Der erste weltweite ChatGPT-VoiceBot für die Kundenservicehotline | CallOne',
+    'title' => 'Der erste weltweite ChatGPT-VoiceBot für die Kundenservicehotline',
 	'meta_description' => 'Entdecken Sie unseren ChatGPT-Voicebot! KI-basiert und effizient beantwortet er Kundenanfragen schnell und präzise, entlastet Mitarbeiter und steigert Kundenzufriedenheit.',
     'og_image_text' => 'Entdecken Sie unseren ChatGPT-Voicebot! KI-basiert und effizient beantwortet er Kundenanfragen schnell und präzise, entlastet Mitarbeiter und steigert Kundenzufriedenheit.',
     'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
@@ -374,6 +374,21 @@ Router::add('/voicebot', 'voicebot.php', [
     'reduced_footer' => false,
 	'hide_vb_counter' => true,
 ]);
+
+Router::add('/voicebot-details', 'voicebot-details.php', [
+    'title' => 'CallOne VoiceBot auf ChatGPT OpenAI Basis: Alle Details und Funktionen',
+	'meta_description' => 'Entdecken Sie den CallOne VoiceBot, entwickelt auf der fortschrittlichen ChatGPT OpenAI Plattform. Lernen Sie alle Features kennen und erfahren Sie, wie unser VoiceBot Ihren Kundenservice revolutionieren kann.',
+    'og_image_text' => 'Entdecken Sie den CallOne VoiceBot, entwickelt auf der fortschrittlichen ChatGPT OpenAI Plattform. Lernen Sie alle Features kennen und erfahren Sie, wie unser VoiceBot Ihren Kundenservice revolutionieren kann.',
+    'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
+    'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-social-launch.jpg',
+    'body_class' => 'lp lp--voicebot lp--voicebot-version',
+	'menu_position' => 'voicebot',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'hide_vb_counter' => true,
+]);
+
 
 Router::add('/voicebot-ueber-uns', 'about-us.php', [
     'title' => 'Wir sind CallOne – Wegbereiter für KI-Telefonie.',
@@ -390,7 +405,7 @@ Router::add('/voicebot-ueber-uns', 'about-us.php', [
 ]);
 
 Router::add('/voicebot-features', 'voicebot-features.php', [
-    'title' => 'Alle Features des KI-Voicebots | CallOne',
+    'title' => 'Alle Features des KI-Voicebots',
 	'meta_description' => 'Gesprächszusammenfassung, KI-Stimmungsanalyse – DSGVO-konform. Der CallOne VoiceBot automatisiert Ihre Telefonie!',
     'og_image_text' => 'Gesprächszusammenfassung, KI-Stimmungsanalyse – DSGVO-konform. Der CallOne VoiceBot automatisiert Ihre Telefonie!',
     'body_class' => 'lp lp--voicebot lp--features',
@@ -405,7 +420,7 @@ Router::add('/voicebot-features', 'voicebot-features.php', [
 
 
 Router::add('/voicebot-preise', 'voicebot-preise.php', [
-    'title' => 'Flexible Preis-Pakete für Ihren Voicebot | CallOne',
+    'title' => 'Flexible Preis-Pakete für Ihren Voicebot',
 	'meta_description' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.​',
     'og_image_text' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.',
 	'menu_position' => 'loesungen',
