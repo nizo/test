@@ -156,13 +156,15 @@ let app = {
 			const onPlayerStateChange = (event) => {
 				switch(event.data) {
 					case 0:
-						closeOverlay();
+						
 						if(currentVideoId < countOfVideos) {
+							removeIFrame();
 							// next video
 							let nextVideoTrigger = document.querySelector('[data-playlist_video_id="'+ (currentVideoId+1) +'"]');
 							nextVideoTrigger.click();
 						} else {
 							// finished playlist
+							closeOverlay();
 							window.swiper_video_overlay.slideTo(0);
 							window.swiper_video.slideTo(0);
 							markPlayingSlide(1);
@@ -191,7 +193,7 @@ let app = {
 					let currentVideoUrl = e.currentTarget.dataset.iframe_url;
 					let hasPlaylist = (e.currentTarget.dataset.has_playlist == 'true' ? true : false);
 					let overlayAlreadyOpen = e.currentTarget.dataset.context === 'overlay';
-					let entryDelay = 100;
+					let entryDelay = 0;
 					
 					markPlayingSlide(currentVideoId);
 
@@ -205,9 +207,7 @@ let app = {
 						removeIFrame();
 						entryDelay = 0;
 					}
-
-					console.log(e.currentTarget.parentNode);
-
+					
 					swiper_video.activeIndex = currentVideoId;
 
 					setTimeout(() => {
@@ -237,7 +237,6 @@ let app = {
 						},600);
 					}
 
-					// overlay.style.display = 'flex';
 					overlay.classList.add('visible');
 		
 				});
