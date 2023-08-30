@@ -564,27 +564,22 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             <h2 class="centered repeat-para-container-heading">Schnittstellen für<br> offenen Datenaustausch
                             </h2>
                             <div class="communication-container-inner-middle-img centered">
-                                
-
                                 <div class="interfaces-plus-icons">
-<ul class="interfaces-listing-ul flex">
-<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-salesforce-icon.svg" class="offerner-img" alt="salesforce" width="90" height="90"></li>
-
-<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-hubspot-icon.svg" class="offerner-img" alt="hubspot" width="90" height="90"></li>
-<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-calendly-first.svg" class="offerner-img" alt="calendly" width="90" height="100"></li>
-<li class="interfaces-listing-ul-list big-list-img"><img src="/assets/images/lp/callone-interfaces-plus.svg" class="offerner-img" alt="interfaces" width="300" height="300"></li>
-
-<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-doctolib-icon.svg" class="offerner-img" alt="doctolib" width="90" height="90"></li>
-<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-zoho-icon.svg" class="offerner-img" alt="zoho" width="90" height="90"></li>
-<li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-pipedrive-icon.svg" class="offerner-img" alt="pipedrive" width="90" height="90"></li>
-
-</ul>
-
+                                    <ul class="interfaces-listing-ul flex">
+                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-salesforce-icon.svg" class="offerner-img" alt="salesforce" width="90" height="90"></li>
+                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-hubspot-icon.svg" class="offerner-img" alt="hubspot" width="90" height="90"></li>
+                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-calendly-first.svg" class="offerner-img" alt="calendly" width="90" height="100"></li>
+                                        <li class="interfaces-listing-ul-list big-list-img"><img src="/assets/images/lp/callone-interfaces-plus.svg" class="offerner-img" alt="interfaces" width="300" height="300"></li>
+                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-doctolib-icon.svg" class="offerner-img" alt="doctolib" width="90" height="90"></li>
+                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-zoho-icon.svg" class="offerner-img" alt="zoho" width="90" height="90"></li>
+                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-pipedrive-icon.svg" class="offerner-img" alt="pipedrive" width="90" height="90"></li>
+                                    </ul>
                                 </div>
-                                <p>Mit unserer offenen Schnittstellenstrategie unterstützen wir Sie gerne bei
+                                <p>
+                                    Mit unserer offenen Schnittstellenstrategie unterstützen wir Sie gerne bei
                                     kundenspezifischen CRM-Anbindungen - kontaktieren Sie uns für eine individuelle
-                                    Beratung.</p>
-
+                                    Beratung.
+                                </p>
                             </div>
                         </div>
                         <div class="co-grid">
@@ -597,6 +592,20 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
+                                    <span class="offernen-cat green-cat">Fertige App</span>
+                                    <img src="/assets/images/lp/callone-samedi_logo.svg" class="offerner-img" alt=""
+                                        width="200">
+                                </div>
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
+                                <div class="offernen_box offernen_white flex relative">
+                                    <span class="offernen-cat grey-cat">In Planung</span>
+                                    <img src="/assets/images/lp/callone-microsoft-bookings-logo.png" class="offerner-img" alt=""
+                                    width="250">
+                                </div>
+                            </div>
+                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
+                                <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">In Planung</span>
                                     <img src="/assets/images/lp/callone-doctolile_logo.svg" class="offerner-img" alt=""
                                         width="200">
@@ -604,29 +613,15 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
-									<span class="offernen-cat grey-cat">In Planung</span>
-                                    <img src="/assets/images/lp/callone-microsoft-bookings-logo.png" class="offerner-img" alt=""
-                                        width="250">
-                                </div>
-                            </div>
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
-                                <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-salesforce_logo.svg" class="offerner-img" alt=""
-                                        width="120">
+                                    width="120">
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
                                     <img src="/assets/images/lp/callone-zoho_logo.svg" class="offerner-img" alt="" width="160">
-                                </div>
-                            </div>
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
-                                <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
-                                    <img src="/assets/images/lp/callone-pipedrive_logo.svg" class="offerner-img" alt=""
-                                        width="200">
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">

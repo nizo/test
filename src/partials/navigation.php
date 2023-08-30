@@ -247,23 +247,6 @@ require_once('banderole.php');
                                             <p>Echtzeit Kommunikations&shy;analyse und Coaching</p>
                                         </div>
                                     </a>
-
-                                    <a href="/omnichannel-customer-support-software" class="submenu__link<?= getPageActiveClass('/omnichannel-customer-support-software') ?>">
-                                        <div class="submenu__link-icon">
-                                            <?= pictureTag(
-                                                '/assets/images/navigation/menu-multi-channel.png',
-                                                'Echte Omnichannel-CX mit deutscher KI',
-                                                50, 50
-                                            ) ?>
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>
-                                                Omnichannel
-                                                <span class="submenu__link-tag">NEU</span>
-                                            </strong>
-                                            <p>Echte Omnichannel-CX mit deutscher KI</p>
-                                        </div>
-                                    </a>
                                 </div>
                                 <div class="submenu__column" style="--col-width:350px;">
                                     <a href="/call-center-workforce-management-software" class="submenu__link<?= getPageActiveClass('/call-center-workforce-management-software') ?>">
@@ -280,20 +263,6 @@ require_once('banderole.php');
                                                 <span class="submenu__link-tag">NEU</span>
                                             </strong>
                                             <p>Echtzeit Adherence und Prognosen für ideale Schichtpläne</p>
-                                        </div>
-                                    </a>
-
-                                    <a href="/call-tracking" class="submenu__link<?= getPageActiveClass('/call-tracking') ?>">
-                                        <div class="submenu__link-icon">
-                                            <?= pictureTag(
-                                                '/assets/images/navigation/menu-calltracking.png',
-                                                'Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession',
-                                                50, 50
-                                            ) ?>
-                                        </div>
-                                        <div class="submenu__link-text">
-                                            <strong>Call-Tracking</strong>
-                                            <p>Verknüpfen Sie Ihre Bestellhotline mit einer laufenden Websession</p>
                                         </div>
                                     </a>
 
