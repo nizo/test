@@ -69,7 +69,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             </div>
 
             <div class="relative co-grid__col co-grid__col--12-xs co-grid__col--5-sm flex vcentered">
-                <img src="/assets/images/backgrounds_jpg/callone-visual-hero.jpg"
+                <img src="/assets/images/backgrounds_jpg/callone-visual-hero_new.webp"
                     class="lp-vb-hero-image lp-vb-hero-image--desktop custom">
 
 
