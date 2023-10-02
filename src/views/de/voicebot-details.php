@@ -327,8 +327,8 @@
 							<ul class="logo-listing-wrap">
 								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/check24.svg" width="183"
 										height="46" class="logo-listing-wrap-img"></li>
-								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/helios.svg" width="184"
-										height="46" class="logo-listing-wrap-img"></li>
+								<!-- <li class="logo-listing-wrap-list"><img src="/assets/images/lp/helios.svg" width="184"
+										height="46" class="logo-listing-wrap-img"></li> -->
 								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/soda-stream.svg"
 										width="294" height="46" class="logo-listing-wrap-img"></li>
 								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/enterprise-kombi.svg"
