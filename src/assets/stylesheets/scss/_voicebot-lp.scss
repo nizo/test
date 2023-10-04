@@ -477,6 +477,15 @@ body.lp--voicebot {
 					&-list:first-child {
 						padding-left: 0;
 					}
+
+					&.sandrock {
+			
+						.logo-listing-wrap-img {
+							max-height: 2.6rem !important;
+							margin-bottom: -0.7rem;
+						}
+					}
+
 				}
 
 				&-img {
@@ -4468,9 +4477,22 @@ body.lp--voicebot-version {
 		}
 	}
 	.voice-customer-section-logo-inner {
+
+
 		.logo-listing-wrap-list:first-child {
 			padding-top: 16px;
 		}
+
+
+		.logo-listing-wrap-list.sandrock
+
+		.logo-listing-wrap-img {
+			max-height: 2.6rem !important;
+			margin-bottom: -0.7rem;
+		}
+
+
+
 		.logo-listing-wrap-list:nth-child(3n) {
 			.logo-listing-wrap-img {
 				max-height: 1.425rem;
