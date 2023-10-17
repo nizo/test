@@ -27,7 +27,7 @@ define('DIRECTORY_VIEWS', './views/de/');
 define('DIRECTORY_LAYOUTS', './layouts/');
 
 if(isset($_GET['inopla_style'])){
-	header("Content-Security-Policy: frame-ancestors 'self' https://inopla.de https://www.inopla.de https://inopla.test",true);
+	header("Content-Security-Policy: frame-ancestors 'self' https://inopla.de https://www.inopla.de https://inopla.test https://inopla.julianwright.de/",true);
 }
 
 class Router {
