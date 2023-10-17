@@ -80,7 +80,7 @@ $faqs->faq_add(
 							<li class="list-upd">
 								<div>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU) <span
 										class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Alles was
-											notwendig ist, damit sie direkt loslegen können mit Ihrem VoiceBot.
+											notwendig ist, damit Sie direkt loslegen können mit Ihrem VoiceBot.
 											NoCode-Interface, Spracherkenner, Testaccount mit Azure OpenAI
 											(EU-Hosting)</span></span></div>
 							</li>
@@ -464,7 +464,7 @@ $faqs->faq_add(
 										Systeme alle Anrufinformationen und transkrebierten Gesprächsinformationen
 										(Datenfelder) übermittelt. Dies kann neben der Anrufernummer und weiteren
 										spezifischen Anrufinformationen auch Datenfelder sein, die der VoiceBot erfasst
-										hat und in ihrem System verarbeitet werden können. Mit unserer Schnittstelle
+										hat und in Ihrem System verarbeitet werden können. Mit unserer Schnittstelle
 										können Sie zudem Rückinformationen an den VoiceBot übermitteln um
 										kundenspezifische Anwendungsfälle abzubilden.</span></div>
 								<h4>Echtzeit-API (Webhook)</h4>
@@ -487,7 +487,7 @@ $faqs->faq_add(
 							<label for="vb-additional-5" class="vb-additional">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Unser VoiceBot kann Gespräche auch auf Ihre Rufnummern
-										weiterleiten. Damit sind sie flexibel und können den Bot perfekt für
+										weiterleiten. Damit sind Sie flexibel und können den Bot perfekt für
 										Anrufqualifizierungen, als Ersatz für ein Auswahlmenü nutzen und auf
 										unterschiedliche Einwahlrufnummern ihrer TK-Anlage weiterleiten. Die
 										Weiterleitungskosten starten bei 0,02 € je Minute (1/1) in das dt. Festnetz.
@@ -502,8 +502,8 @@ $faqs->faq_add(
 							<label for="vb-additional-6" class="vb-additional">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Unser Bot kann Rückrufe mit Ihren Kunden vereinbaren. Denken
-										Sie an Ihre Hotline und die Option, dass sie unseren KI-VoiceBot
-										unterpriorisiert Anrufe in ihrem Serviceteam entgegennehmen lassen. Er bietet
+										Sie an Ihre Hotline und die Option, dass Sie unseren KI-VoiceBot
+										unterpriorisiert Anrufe in Ihrem Serviceteam entgegennehmen lassen. Er bietet
 										über diese Funktion dem Anrufer Rückrufslots an, die völlig automatisiert zum
 										gewünschten Zeitpunkt von aus durchgeführt werden indem wir zwei Verbindungen
 										zum Anrufer und zur Zielrufnummer ihrer Skill in der TK-Anlage oder
@@ -567,7 +567,7 @@ $faqs->faq_add(
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Sie sind Arzt und würden sich nix lieber wünschen als
 										Terminbuchungen zukünftig durch den Bot statt durch ihre medizinische
-										Fachangestellte durchführen lassen? Dann testen sie unsere VoiceBot-Option die
+										Fachangestellte durchführen lassen? Dann testen Sie unsere VoiceBot-Option die
 										genau das bietet und daneben auch Termine, Rezepte oder Rückrufwünsche für Sie
 										abnehmen kann.</span></div>
 								<h4>Doctolib-Anbindung (beta)</h4>
@@ -578,9 +578,9 @@ $faqs->faq_add(
 								value="Persönlicher Customer Success Manager">
 							<label for="vb-additional-12" class="vb-additional">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
-										style="--fs:14px">Unser Support unterstützt sie bei der Einrichtung Ihres
+										style="--fs:14px">Unser Support unterstützt Sie bei der Einrichtung Ihres
 										VoiceBots. Benötigen Sie, bei komplexeren Projekten, Unterstützung durch unsere
-										Lösungsarchitekten oder Programmierer dann steht ihnen auch dafür ein
+										Lösungsarchitekten oder Programmierer dann steht Ihnen auch dafür ein
 										Projektteam zur Verfügung. Sprechen Sie uns an und Sie erhalten für Ihr Projekt
 										eine valide Aufwandsabschätzung.</span></div>
 								<h4>Persönlicher Customer Success Manager</h4>
