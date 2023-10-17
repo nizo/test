@@ -605,7 +605,7 @@ $faqs->faq_add(
 								<h5>Ihre Anfrage</h5>
 
 								<p class="vb-cart__info">
-									14 Tage kostenlos auspobieren,<br />
+									14 Tage kostenlos ausprobieren,<br />
 									keine automatische Verlängerung,<br />
 									monatlich kündbar
 								</p>
