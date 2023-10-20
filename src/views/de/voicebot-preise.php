@@ -14,7 +14,7 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
 	'Wie werden die Wörter in Prompts und Compilations gezählt und abgerechnet?',
-	'<p>Bei den angebotenen Modellen mit inkludiertem ChatGPT-Account ist die Abrechnung von Prompts (Eingabe) und Compilations (Antwort) bereits in den Nutzungskosten pro Minute enthalten. Das bedeutet, dass keine Extrakosten für einen Tokenverbrauch bei OpenAI oder Microsoft anfallen. Diese Reglung gilt für unseren VoiceBot auf Basis von ChatGPT 3.5 turbo.</p><p>Wenn Sie wünschen, können Sie auch Ihre eigene OpenAI-Schnittstelle Davonci003, gpt-3.5 turbo oder gpt-4 anbinden. In diesem Fall erfolgt die Abrechnung direkt über Ihren OpenAI oder Microsoft-Account.</p>'
+	'<p>Bei den angebotenen Modellen mit inkludiertem ChatGPT-Account ist die Abrechnung von Prompts (Eingabe) und Compilations (Antwort) bereits in den Nutzungskosten pro Minute enthalten. Das bedeutet, dass keine Extrakosten für einen Tokenverbrauch bei OpenAI oder Microsoft anfallen. Diese Regelung gilt für unseren VoiceBot auf Basis von ChatGPT 3.5 turbo.</p><p>Wenn Sie wünschen, können Sie auch Ihre eigene OpenAI-Schnittstelle Davonci003, gpt-3.5 turbo oder gpt-4 anbinden. In diesem Fall erfolgt die Abrechnung direkt über Ihren OpenAI oder Microsoft-Account.</p>'
 );
 $faqs->faq_add(
 	'Was passiert, wenn ich die in meinem Paket enthaltenen Minuten überschreite?',
