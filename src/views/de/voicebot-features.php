@@ -405,7 +405,7 @@
 
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">EVN</h5>
-						<p class="para-big-font-para">Detaillierte Telefonrechnungen für transparente Kostenübersicht.</p>
+						<p class="para-big-font-para">Detaillierter Anrufverlauf für alle Gespräche.</p>
 					</div>
 					<div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--4-md ">
 						<h4 class="para-big-font-heading">Live Monitor</h5>
