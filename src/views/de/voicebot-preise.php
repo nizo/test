@@ -338,7 +338,8 @@ $faqs->faq_add(
 
 					<div id="vb-choosing">
 
-						<h2 class="centered">VoiceBots für jede Unternehmsgröße</h2>
+						<h2 class="centered nonpraxis">VoiceBots für jede Unternehmsgröße</h2>
+						<h2 class="centered praxis">VoiceBots für jede Praxisgröße</h2>
 
 						<ul class="list list--checkmarks list--horizontal"
 							style="justify-content:center; font-weight: bold; font-size: 1.5rem; margin-bottom: 4rem">
@@ -456,6 +457,18 @@ $faqs->faq_add(
 								</div>
 							</label>
 
+
+							<input type="checkbox" name="vb-additional" id="vb-additional-praxis-samedi" data-price="99"
+								value="Samedi-Praxiskalender Anbindung">
+							<label for="vb-additional-praxis-samedi" class="vb-additional vb-additional-praxis-samedi">
+								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
+										style="--fs:14px">Schnittstelle/Integration zwischen VoiceBot und Praxis-Kalender</span></div>
+								<h4>Samedi-Praxiskalender Anbindung</h4>
+								<div class="vb-additional__price">&euro;99 / Monat</div>
+							</label>
+
+
+
 							<input type="checkbox" name="vb-additional" id="vb-additional-3" data-price="49"
 								value="Echtzeit-API (Webhook)">
 							<label for="vb-additional-3" class="vb-additional">
@@ -470,6 +483,8 @@ $faqs->faq_add(
 								<h4>Echtzeit-API (Webhook)</h4>
 								<div class="vb-additional__price">&euro;49 / Monat<br />+ &euro;0,019 je Anruf</div>
 							</label>
+
+
 
 							<input type="checkbox" name="vb-additional" id="vb-additional-4" data-price="99"
 								value="Gesprächs&shy;aufzeichnung">
@@ -497,9 +512,9 @@ $faqs->faq_add(
 								<div class="vb-additional__price">ab &euro;0,02 / Minute</div>
 							</label>
 
-							<input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="99"
+							<!-- <input type="checkbox" name="vb-additional" id="vb-additional-6" data-price="99"
 								value="Automatischer Rückruf">
-							<label for="vb-additional-6" class="vb-additional">
+							<label for="vb-additional-6" class="vb-additional vb-additional-6">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Unser Bot kann Rückrufe mit Ihren Kunden vereinbaren. Denken
 										Sie an Ihre Hotline und die Option, dass Sie unseren KI-VoiceBot
@@ -510,7 +525,7 @@ $faqs->faq_add(
 										Agentendurchwahl aufbauen und die beiden zusammenschalten.</span></div>
 								<h4>Automatischer Rückruf</h4>
 								<div class="vb-additional__price">&euro;99 + Nutzungskosten</div>
-							</label>
+							</label> -->
 
 							<input type="checkbox" name="vb-additional" id="vb-additional-7" data-price="199"
 								value="Unbegrenzte VoiceBot Inhalte">
@@ -537,9 +552,9 @@ $faqs->faq_add(
 								<div class="vb-additional__price">&euro;29 / Monat</div>
 							</label>
 
-							<input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0"
+							<!-- <input type="checkbox" name="vb-additional" id="vb-additional-9" data-price="0"
 								value="SIP-Trunk kanalbasiert">
-							<label for="vb-additional-9" class="vb-additional">
+							<label for="vb-additional-9" class="vb-additional vb-additional-9">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Für die Anbindung unseres VoiceBots an Ihre TK-Anlage bieten
 										wir optional auch einen internetbasierten Telefonanschluss (SIP-Trunk) bereit.
@@ -548,22 +563,23 @@ $faqs->faq_add(
 								</div>
 								<h4>SIP-Trunk kanalbasiert</h4>
 								<div class="vb-additional__price">individuell auf Anfrage</div>
-							</label>
+							</label> -->
 
+<!-- 							
 							<input type="checkbox" name="vb-additional" id="vb-additional-10" data-price="49"
 								value="Calendly-Integration (beta)">
-							<label for="vb-additional-10" class="vb-additional">
+							<label for="vb-additional-10" class="vb-additional vb-additional-10">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Bieten Sie Ihren Anrufern die Möglichkeit Terminvorschläge aus
 										Ihrem Calendly-Konto buchbar zu machen. Der Bot schlägt freie Slots vor und wir
 										buchen Sie in Ihren Kalender ein.</span></div>
 								<h4>Calendly-Integration (beta)</h4>
 								<div class="vb-additional__price">&euro;49 / Monat</div>
-							</label>
+							</label> -->
 
-							<input type="checkbox" name="vb-additional" id="vb-additional-11" data-price="99"
+							<!-- <input type="checkbox" name="vb-additional" id="vb-additional-11" data-price="99"
 								value="Doctolib-Anbindung (beta)">
-							<label for="vb-additional-11" class="vb-additional">
+							<label for="vb-additional-11" class="vb-additional vb-additional-11">
 								<div class="vb-additional__info tooltip tooltip--full-dark tooltip--info"><span
 										style="--fs:14px">Sie sind Arzt und würden sich nix lieber wünschen als
 										Terminbuchungen zukünftig durch den Bot statt durch ihre medizinische
@@ -572,7 +588,7 @@ $faqs->faq_add(
 										abnehmen kann.</span></div>
 								<h4>Doctolib-Anbindung (beta)</h4>
 								<div class="vb-additional__price">&euro;99 / Monat</div>
-							</label>
+							</label> -->
 
 							<input type="checkbox" name="vb-additional" id="vb-additional-12" data-price="30"
 								value="Persönlicher Customer Success Manager">

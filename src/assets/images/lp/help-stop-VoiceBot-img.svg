@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="368" viewBox="0 0 390 368">
+  <defs>
+    <filter id="Ellipse_191" x="-73.5" y="-84.5" width="537" height="537" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-color="#6ddd14" flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="390" height="368"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="390" height="368" fill="rgba(255,255,255,0)"/>
+    <g id="VoiceBot" transform="translate(-765 -3529)">
+      <g transform="matrix(1, 0, 0, 1, 765, 3529)" filter="url(#Ellipse_191)">
+        <g id="Ellipse_191-2" data-name="Ellipse 191" transform="translate(75 64)" fill="#151515" stroke="rgba(109,221,20,0.38)" stroke-width="1">
+          <circle cx="120" cy="120" r="120" stroke="none"/>
+          <circle cx="120" cy="120" r="119.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Logo_Bildmarke_CallOne-green-RGB" transform="translate(897.568 3650.502)">
+        <path id="Path_11691" data-name="Path 11691" d="M58.133,116.783a6.3,6.3,0,0,1-7.368-1.132l-8.026-8.026L34.717,99.6a6.307,6.307,0,0,1-1.132-7.368L44.39,69.9,19.8,45.31a60.287,60.287,0,0,0,85.261,85.253L80.469,105.97Z" transform="translate(0 -25.441)" fill="#6edc14" stroke="#707070" stroke-width="1"/>
+        <path id="Path_11692" data-name="Path 11692" d="M114.54,38.461l0,0h32.241a6.3,6.3,0,0,1,6.3,6.3V77H187.36A60.307,60.307,0,0,0,114.54,4.191v34.27Z" transform="translate(-66.62 0)" fill="#6edc14" stroke="#707070" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

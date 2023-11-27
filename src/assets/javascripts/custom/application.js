@@ -112,14 +112,16 @@ let app = {
 			let player;
 			const countOfVideos = 8;
 		
+			const overlay = document.querySelector('[data-element="overlay-video"]');
+			if(!overlay) return false;
+
 			const callbackOverlayTrigger = document.querySelectorAll('[data-binding*="video-overlay"]');
 			const slides = document.querySelectorAll('.swiper-slide[data-binding*="video-overlay"]');
-			const overlay = document.querySelector('[data-element="overlay-video"]');
 			const overlayContainer = document.querySelector('[data-element="overlay-video-container"]');
 			const iFrameContainer = document.querySelector('[data-element="overlay-container"]');
-			const queryString = '?controls=1&autoplay=1&playsinline=1&modestbranding=1&enablejsapi=1';
+			const queryString = '?controls=1&autoplay=1&modestbranding=1&playsinline=1&enablejsapi=1&rel=0';
 			const introVideoSlide = document.querySelector('[data-context="intro_video_slide"]');
-			const originalIntroVideoSlideUrl = introVideoSlide.dataset.iframe_url;
+			const originalIntroVideoSlideUrl = introVideoSlide ? introVideoSlide.dataset.iframe_url : null;
 			const videoPlaylistOverlaySlider = document.querySelector('[data-element="video-playlist-overlay-slider"]');
 
 
@@ -131,9 +133,11 @@ let app = {
 			const closeOverlay = (e) => {
 				// overlay.style.display = 'none';
 				overlay.classList.remove('visible');
-				videoPlaylistOverlaySlider.style.display = 'none';
-				videoPlaylistOverlaySlider.classList.remove('visible');
 				removeIFrame();
+				if(videoPlaylistOverlaySlider) {
+					videoPlaylistOverlaySlider.style.display = 'none';
+					videoPlaylistOverlaySlider.classList.remove('visible');
+				}
 			}
 
 			const checkKeys = (e) => {
@@ -192,25 +196,57 @@ let app = {
 					currentVideoId = parseInt(e.currentTarget.dataset.playlist_video_id);
 					let currentVideoUrl = e.currentTarget.dataset.iframe_url;
 					let hasPlaylist = (e.currentTarget.dataset.has_playlist == 'true' ? true : false);
-					let overlayAlreadyOpen = e.currentTarget.dataset.context === 'overlay';
-					let entryDelay = 0;
+
+
+					if(hasPlaylist) {
+
+
+						let overlayAlreadyOpen = e.currentTarget.dataset.context === 'overlay';
+						let entryDelay = 0;
+						
+						markPlayingSlide(currentVideoId);
+
+						window.swiper_video_overlay.slideTo(currentVideoId - 1);
+						window.swiper_video.slideTo(currentVideoId - 1);
+						introVideoSlide.dataset.playlist_video_id = currentVideoId;
+						introVideoSlide.dataset.iframe_url = currentVideoUrl;
+
+						// triggered within open iframe – therefore remove old iframe before creating new iframe
+						if(e.currentTarget.dataset.context === 'overlay') {
+							removeIFrame();
+							entryDelay = 0;
+						}
+						
+						swiper_video.activeIndex = currentVideoId;
+
+						setTimeout(() => {
+
+							let iframeHtml = document.createElement( "iframe" );
+
+							iframeHtml.setAttribute( "id", "api-video-player" );
+							iframeHtml.setAttribute( "allow", "autoplay" );
+							iframeHtml.setAttribute( "frameborder", "0" );
+							iframeHtml.setAttribute( "allowfullscreen", "" );
+							iframeHtml.setAttribute( "src", `${currentVideoUrl}${queryString}`);
+							iframeHtml.setAttribute( "sandbox", "allow-same-origin allow-scripts allow-presentation" );
+		
+							iFrameContainer.appendChild( iframeHtml );
+		
+							player = new YT.Player( 'api-video-player', {
+								events: { 'onStateChange': onPlayerStateChange }
+							});
+
+						},entryDelay);
+
+
+						videoPlaylistOverlaySlider.style.display = 'block';
+						setTimeout(() => {
+							videoPlaylistOverlaySlider.classList.add('visible')
+						},600);
 					
-					markPlayingSlide(currentVideoId);
-
-					window.swiper_video_overlay.slideTo(currentVideoId - 1);
-					window.swiper_video.slideTo(currentVideoId - 1);
-					introVideoSlide.dataset.playlist_video_id = currentVideoId;
-					introVideoSlide.dataset.iframe_url = currentVideoUrl;
-
-					// triggered within open iframe – therefore remove old iframe before creating new iframe
-					if(e.currentTarget.dataset.context === 'overlay') {
-						removeIFrame();
-						entryDelay = 0;
-					}
 					
-					swiper_video.activeIndex = currentVideoId;
+					} else {
 
-					setTimeout(() => {
 
 						let iframeHtml = document.createElement( "iframe" );
 
@@ -222,19 +258,8 @@ let app = {
 						iframeHtml.setAttribute( "sandbox", "allow-same-origin allow-scripts allow-presentation" );
 	
 						iFrameContainer.appendChild( iframeHtml );
-	
-						player = new YT.Player( 'api-video-player', {
-							events: { 'onStateChange': onPlayerStateChange }
-						});
-
-					},entryDelay);
 
 
-					if(hasPlaylist) {
-						videoPlaylistOverlaySlider.style.display = 'block';
-						setTimeout(() => {
-							videoPlaylistOverlaySlider.classList.add('visible')
-						},600);
 					}
 
 					overlay.classList.add('visible');

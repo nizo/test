@@ -2,46 +2,107 @@
 $faqs = new faqs();
 $faqs->faq_add(
     'Wie funktioniert der CallOne-VoiceBot?',
-    '<p>Der CallOne-VoiceBot basiert auf der Künstlichen Intelligenz ChatGPT von OpenAI, welche wir eigenhändig mit für den telefonischen Kundenservice weiterentwickelt haben. Basierend auf einem Briefing bzw. einer Regieanweisung, die Sie dem Bot bei der Einrichtung geben, formuliert er auch unternehmensspezifische Antworten und Hilfestellungen wie in einer menschlichen Interaktion. Basierend auf 45 Millionen Seiten Text erstellt der CallOne-VoiceBot entsprechend des Kontexts einer Unterhaltung individuelle Sätze, die sowohl auf die Zielgruppe und die Tonalität des Anrufers abgestimmt sind wie auch auf die Rolle des Bots (Kundenservice-Bot, Retouren-Bot, FAQ-Bot usw.).</p>'
+    '<p>Der CallOne-VoiceBot ist ein cleveres Tool, das auf künstlicher Intelligenz
+    basiert. Es ist eine spezielle Version des ChatGPT von OpenAI, die für den
+    telefonischen Kundenservice verbessert wurde. Stellen Sie sich vor, Sie
+    geben dem Bot Anweisungen, wie er sprechen soll - genau wie bei einem
+    Schauspieler. Er lernt dann, maßgeschneiderte Antworten und Hilfen zu
+    geben, fast so, als würde ein Mensch mit Ihnen sprechen. Der Clou? Der
+    VoiceBot versteht dank seiner riesigen Datenbasis und Ihrer
+    unternehmensspezifischen Informationen, worum es in einem Gespräch
+    geht und passt seine Antworten perfekt an. Egal, ob es um Kundenservice,
+    Retouren oder häufig gestellte Fragen geht - der Bot trifft den richtigen Ton
+    für Ihre Zielgruppe und die Situation.</p>'
 );
 $faqs->faq_add(
     'Was kann der CallOne-VoiceBot?',
-    '<p>Da der VoiceBot auf der KI ChatGPT basiert, kann er auf das gesamte Wissen von OpenAI zurückgreifen. Die Besonderheit ist, dass er durch die Anpassungsmöglichkeiten mit CallOne auch unternehmensspezifische Informationen lernen und wiedergeben kann. Je nachdem, wie Sie seine Rolle und seine Interaktionstonalität definieren, reagiert der CallOne-VoiceBot spezifisch auf die Anliegen der Anrufer. Die Fähigkeiten gehen von der Beantwortung einfacher FAQ bis zu Terminbuchungen in Ihrem System und Weiterleitungen des Anrufs an die passende Fachabteilung.</p>
-    <p>Kurzübersicht über mögliche Einsatzgebiete:</p>
+    '<p>Der CallOne-VoiceBot macht Ihren Kundenservice einfacher und effizienter! Dank der ChatGPT-KI-
+    Technologie kann er auf ein riesiges Wissen zugreifen und sogar spezielle Infos über Ihr Unternehmen
+    berücksichtigen. Ob häufige Fragen beantworten oder Termine buchen - der VoiceBot passt sich genau an
+    Ihre Bedürfnisse an. Er versteht die Anliegen Ihrer Anrufer und leitet sie sogar an die richtige Abteilung
+    weiter.</p>
+    <p>Hier einige tolle Anwendungsmöglichkeiten:</p>
     <ul>
-                        <li>Beantwortung von Standardfragen in der Kundenhotline</li>
-                        <li>KI-Assistent zum intelligenten Weiterleitung von Anrufen zu passenden Mitarbeitern</li>
-                        <li>Outbound-Telefonie, bspw. für Kampagnen</li>
-                        <li>Terminbuchungen jeder Art</li>
-                    </ul>'
+                        <li>Schnelle Antworten auf häufige Kundenfragen.</li>
+                        <li>Als cleverer Assistent, der Anrufe an die passenden Mitarbeiter weiterleitet.</li>
+                        <li>Erfragt wichtige Infos für die Kundenbetreuung.</li>
+                        <li>Nimmt Rückrufwünsche und Serviceanfragen auf und fasst sie zusammen.</li>
+                        <li>Kann automatisch Arzttermine buchen.</li>
+                    </ul>
+                    <br>
+                    <p>Mit dem CallOne-VoiceBot wird Ihr Kundendienst nicht nur schneller, sondern auch smarter!</p>'
 );
 $faqs->faq_add(
-    'Wie kann ich den CallOne-VoiceBot nutzen?',
-    '<p>Der CallOne-VoiceBot bietet vielfältige Einsatzmöglichkeiten, um Ihre Kundenkommunikation zu optimieren. Sie können ihn als Ersatz für herkömmliche Telefonauswahlmenüs (IVR) verwenden, um alle häufig gestellten Fragen (FAQs) Ihres Unternehmens und Ihrer Kundenservice-Hotline zu beantworten. Dank unserer Schnittstellen können auch individuelle Anwendungsfälle abgedeckt werden, wie zum Beispiel die Abfrage des Lieferstatus, Adressänderungen oder die Erfassung von Zählerständen.
-
-Anstatt Anrufer in der Warteschlange warten zu lassen, kann der VoiceBot Rückrufe terminieren und eigenständig auslösen. Zudem ermöglichen unsere Anbindungen an Doctolib, Calendly und Microsoft Bookings dem Phonebot, Terminbuchungen vollständig automatisiert abzubilden. So können Sie den CallOne-VoiceBot effektiv nutzen, um Ihren Kundenservice zu verbessern und Ihre Kundenanliegen schnell und effizient zu bearbeiten.Bei allen Schritten unterstützen sie gerne unsere Customer Success Manager.</p>'
+    'Was kann der Wie kann ich den CallOne-VoiceBot nutzen?',
+    '<p>Möchten Sie Ihren Kundenservice verbessern? Der CallOne-VoiceBot ist hier, um Ihnen zu helfen! Mit diesem
+    cleveren Helfer können Sie:</p>
+    <ul>
+    <li>**Smarte Antworten geben**: Er beantwortet häufig gestellte Fragen für Sie. So sparen Sie Zeit und Ihre
+    Kunden bekommen schnell Antworten – ganz ohne herkömmliche Telefonauswahlmenüs (IVR).</li>
+    <li>**Keine Warteschlangen mehr**: Anstatt in der Warteschlange zu hängen, können Ihre Kunden mit dem
+    VoiceBot einen Rückrufwunsch aufgeben, der Ihnen als zeitsparende Zusammenfassung per Mail oder
+    Dashboard übermittelt wird.</li>
+    <li>**Mehr als nur Fragen beantworten**: Der VoiceBot kann auch praktische Dinge erledigen, wie den
+    Lieferstatus prüfen, Adressänderungen aufnehmen oder Zählerstände erfassen.</li>
+    <li>**Termine für Ärzte automatisiert buchen**: Er kann Termine bei Ärzten ganz von selbst buchen – dank
+    unserer Kooperation mit namhaften Partnern aus dem Healthcare-Bereich.</li>
+    </ul>
+    <br>
+<p>Und das Beste? Sie sind nicht allein! Unsere Customer Success Manager stehen Ihnen zur Seite, um alles
+reibungslos einzurichten und zu nutzen. So wird Ihr Kundenservice noch besser, schneller und effizienter.
+Probieren Sie den CallOne-VoiceBot aus und erleben Sie den Unterschied!</p>'
 );
 $faqs->faq_add(
     'Was zeichnet den CallOne-VoiceBot aus?',
-    '<p>Zum einen kann unser VoiceBot auf das gesamte Wissen von OpenAI zurückgreifen und zahlreiche Fragen intelligent beantworten. Zum anderen können Sie mit CallOne Technologie Ihren Bot genauso anpassen, wie Sie ihn in Ihrem Unternehmen brauchen. So erfüllt er genau die Rolle, für die er vorgesehen ist und bildet natürliche Sätze, die dem Kontext des Gesprächs entsprechen. Wortgewandt, service-orientiert oder in gehobener Tonalität? Sie bestimmen.</p>'
+    '<p>Der CallOne-VoiceBot ist besonders leistungsstark. Er nutzt das
+    umfangreiche Wissen von OpenAI und kann dadurch Fragen
+    intelligent beantworten. Das Besondere ist: Sie können den Bot mit
+    der CallOne Technologie genauso einrichten, wie es für Ihr
+    Unternehmen passt. Er nimmt sich perfekt seiner Aufgabe an und
+    spricht ganz natürlich. Wählen Sie aus verschiedenen stimmen und
+    entscheiden Sie, ob der Bot eher sachlich, serviceorientiert oder in
+    einem gehobenen Stil sprechen soll. Mit dem CallOne-VoiceBot wird
+    Kommunikation in Ihrem Unternehmen einfacher und effektiver.</p>'
 );
+
 $faqs->faq_add(
-    'Gibt es eine kostenlose Testversion?',
-    '<p>Ja, wir bieten eine kostenlose und unverbindliche Testversion für 14 Tage an. Für diese Testphase müssen Sie keine Zahlungsdaten angeben, und sie endet automatisch. Während der Testversion erhalten Sie einen eigenen Zugang mit Rufnummern aus Ihrem Vorwahlbereich, sodass Sie den VoiceBot bis zu 30 Minuten kostenfrei testen können. Unsere Vertragslaufzeit ist zudem vorteilhaft gestaltet, mit einer Kündigungsfrist von nur 4 Wochen zum Monatsende, wodurch das Risiko für Sie minimiert wird.</p>'
-);
-$faqs->faq_add(
-    'Was kostet der CallOne-VoiceBot nach der Testphase?',
-    '<p>Für unseren KI-Voicebot bieten wir drei Standard <a href="/voicebot-preise">Preispakete</a> mit inkludierten Nutzungsvolumen. Zudem stehen eine Vielzahl smarter Zusatzoptionen zur Verfügung. Unternehmen die ein individuelles Angebot wünschen, bieten wir mit unserem Flextarif die passgenaue Option.</p>'
+    'Was kostet der CallOne-VoiceBot?',
+    '<p>Wir haben drei Preispakete zur Auswahl, die jeweils ein bestimmtes
+    Nutzungsvolumen beinhalten und sich damit für verschiedene
+    Anwender eignen. Außerdem gibt es viele zusätzliche, clevere
+    Funktionen, die Sie optional dazu buchen können. Für Firmen, die
+    etwas ganz Spezielles brauchen, haben wir den Flextarif – eine
+    maßgeschneiderte Lösung. Ein weiterer Vorteil ist, dass Sie bei uns
+    nur eine minimale Vertragsbindung von einem Monat haben. Das ist
+    ein Angebot, das Sie bei anderen Anbietern oft nicht finden!</p>'
 );
 $faqs->faq_add(
     'Passt CallOne-VoiceBot auch zu meiner Telefonanlage?',
-    '<p>Sie können unseren VoiceBot sehr gerne auch mit Ihrer eigenen Telefonanlage nutzen! Schon in naher Zukunft werden wir eine Vielzahl smarter Einbindungsmöglichkeiten zur Verfügung stellen, sodass der CallOne-VoiceBot reibungslos in jedem System einsatzbereit ist. Sie wünschen sich alles aus einer Hand? CallOne bietet Ihnen eine Cloud-Plattform, die von der <a href="https://www.callone.de/voip-telefonanlage" target="_blank">Telefonanlage</a> bis zur <a href="https://www.callone.de/callcenter-software" target="_blank">Callcenter Software</a>, <a href="https://www.callone.de/0800-lokal-nummern" target="_blank">Rufnummern</a> und Flatrates sowie <a href="https://www.callone.de/callcenter-software-apps" target="_blank">offenen Schnittstellen</a> alles bietet, was Ihre Unternehmenskommunikation benötigt.</p>'
+    '<p>Sie können den CallOne-VoiceBot problemlos mit Ihrer bestehenden
+    Telefonanlage verbinden! Wir haben viele einfache Lösungen, damit
+    unser VoiceBot in jeder Umgebung sofort einsatzbereit ist. Möchten
+    Sie alles aus einer Hand? Mit CallOne bekommen Sie eine umfassende
+    Cloud-Plattform. Diese beinhaltet nicht nur eine Telefonanlage und
+    Callcenter-Software, sondern auch Telefonnummern, Flatrates und
+    offene Schnittstellen für all Ihre Kommunikationsbedürfnisse. Unsere
+    Lösung bringt den entscheidenden Unterschied in Ihr Unternehmen.</p>'
 );
 $faqs->faq_add(
     'Ist der CallOne-VoiceBot datenschutzkonform?',
-    '<p>Der CallOne-VoiceBot ist in der Tat datenschutzkonform. CallOne, ein deutscher Netzbetreiber (vTNB), betreibt seine Kommunikationsplattform auf eigenen Servern in ISO27001-zertifizierten Hochsicherheitsrechenzentren in Deutschland. Als Unternehmen unterliegen wir dem Telekommunikationsgesetz und stehen unter Aufsicht der Bundesnetzagentur. Zudem agieren wir gemäß der Datenschutz-Grundverordnung (DSGVO).
-
-Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. Kunden können eigene Verträge mit Anbietern wie Microsoft Azure (OpenAI) abschließen, um eine direkte vertragliche Grundlage für die Datenverarbeitung zu erhalten. Hinsichtlich Spracherkennung, OpenAI über Microsoft Azure Services und Text-to-Speech-Ausgabe setzen wir vorwiegend auf Microsoft mit Serverstandorten in Deutschland oder Europa, um den Datenschutz zu gewährleisten.</p>'
+    '<p>Natürlich ist der CallOne-VoiceBot sicher in Bezug auf Datenschutz. CallOne ist ein deutscher
+    Netzbetreiber und nutzt eigene Server in Deutschland, die sehr sicher sind und strenge
+    Sicherheitsnormen (ISO 27001) erfüllen. Wir halten uns an das Telekommunikationsgesetz und
+    werden von der Bundesnetzagentur überwacht. Außerdem arbeiten wir nach den Regeln der
+    Datenschutz-Grundverordnung (DSGVO).</p>
+    <p>Unsere Plattform ist dennoch interoperabel für andere Dienste. Sie können auch mit anderen
+    Firmen, wie Microsoft Azure (OpenAI), eigene Verträge abschließen, um ihre Daten sicher zu
+    verarbeiten. Für Service, wie Spracherkennung und Text-to-Speech-Ausgabe, nutzen wir
+    Microsoft-Server in Deutschland und Europa, um den Datenschutz zu gewährleisten</p>
+    <p>Da die Europäische Kommission das neue EU-U.S. Data Privacy Framework (der Nachfolger des
+    „Privacy Shields“) genehmigt hat, können wir auch mit amerikanischen Firmen wie Microsoft
+    Azure (OpenAI) sicher arbeiten, da sie als vertrauenswürdig zertifiziert sind. So ist sichergestellt,
+    dass persönliche Daten auch bei der Zusammenarbeit mit diesen Unternehmen geschützt sind.</p>
+    '
 );
 ?>
 
@@ -69,8 +130,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             </div>
 
             <div class="relative co-grid__col co-grid__col--12-xs co-grid__col--5-sm flex vcentered">
-                <img src="/assets/images/backgrounds_jpg/callone-visual-hero_new.webp"
-                    class="lp-vb-hero-image lp-vb-hero-image--desktop custom">
+                <?= pictureTag('/assets/images/backgrounds_jpg/callone-visual-hero_new.webp', '', null, null, ['class' => 'lp-vb-hero-image lp-vb-hero-image--desktop custom'], false) ?>
+
 
 
 
@@ -85,14 +146,10 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                         <p class="bigtext customer-outer-section-par">4.000 Kunden vom KMU bis zum Konzern vertrauen bereits auf unsere Cloudplattform</p>
                         <div class="voice-customer-section-logo-inner">
                             <ul class="logo-listing-wrap">
-                                <li class="logo-listing-wrap-list"><img src="/assets/images/lp/check24.svg" width="183"
-                                        height="46" class="logo-listing-wrap-img"></li>
-								<li class="logo-listing-wrap-list sandrock"><img src="/assets/images/lp/callone-sandrock-logo.svg" width="184"
-										height="46" class="logo-listing-wrap-img"></li>
-                                <li class="logo-listing-wrap-list"><img src="/assets/images/lp/soda-stream.svg"
-                                        width="294" height="46" class="logo-listing-wrap-img"></li>
-                                <li class="logo-listing-wrap-list"><img src="/assets/images/lp/enterprise-kombi.svg"
-                                        width="152" height="46" class="logo-listing-wrap-img"></li>
+                                <li class="logo-listing-wrap-list"><?= pictureTag('/assets/images/lp/check24.svg', '', null, null, ['class' => 'logo-listing-wrap-img']) ?></li>
+								<li class="logo-listing-wrap-list sandrock"><?= pictureTag('/assets/images/lp/callone-sandrock-logo.svg', '', null, null, ['class' => 'logo-listing-wrap-img']) ?></li>
+                                <li class="logo-listing-wrap-list"><?= pictureTag('/assets/images/lp/soda-stream.svg', '', null, null, ['class' => 'logo-listing-wrap-img']) ?></li>
+                                <li class="logo-listing-wrap-list"><?= pictureTag('/assets/images/lp/enterprise-kombi.svg', '', null, null, ['class' => 'logo-listing-wrap-img']) ?></li>
                             </ul>
                         </div>
                     </div>
@@ -100,10 +157,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--3-sm co-grid__col--3-md badge_mobile-hide">
                     <div class="bottom-badge">
                         <ul class="list-inline">
-                            <li class="list-inline-list"><img src="/assets/images/badges/software-germany.svg"
-                                    width="100" height="100" class="list-inline-list-img"></li>
-                            <li class="list-inline-list"><img src="/assets/images/badges/service-quality.svg"
-                                    width="160" height="121" class="list-inline-list-img"></li>
+                            <li class="list-inline-list"><?= pictureTag('/assets/images/badges/software-germany.svg', '', null, null, ['width' => '100', 'height' => '100', 'class' => 'list-inline-list-img']) ?></li>
+                            <li class="list-inline-list"><?= pictureTag('/assets/images/badges/service-quality.svg', '', null, null, ['width' => '160', 'height' => '121', 'class' => 'list-inline-list-img']) ?></li>
                         </ul>
                     </div>
                 </div>
@@ -118,7 +173,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
         <div class="co-grid benefits new-benefits-section">
             <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md">
                 <div class="flex benefit-box">
-                    <img src="/assets/images/lp/benefit-time.svg" width="50" height="50" alt="30 Minuten" class="benefit-box-img">
+                    <?= pictureTag('/assets/images/lp/benefit-time.svg', '30 Minuten', 50, 50, ['class' => 'benefit-box-img']) ?>
                     <div class="right-content">
                         <h2 class="new-benefits-section-heading">30 Minuten</h2>
                         <p class="new-benefits-section-para">Einrichtungszeit</p>
@@ -128,7 +183,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md">
                 <div class="flex benefit-box">
 
-                    <img src="/assets/images/lp/secure-info.svg" width="60" height="60" alt="DSGVO konform" class="benefit-box-img">
+                    <?= pictureTag('/assets/images/lp/secure-info.svg', 'DSGVO konform', 60, 60, ['class' => 'benefit-box-img']) ?>
+
 
                     <div class="right-content">
                         <h2 class="new-benefits-section-heading">DSGVO konform</h2>
@@ -139,7 +195,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md">
                 <div class="flex benefit-box">
 
-                    <img src="/assets/images/lp/connectable.svg" width="58" height="63" alt="Nahtlos anbindbar" class="benefit-box-img">
+                   <?= pictureTag('/assets/images/lp/connectable.svg', 'Nahtlos anbindbar', 58, 63, ['class' => 'benefit-box-img']) ?>
 
                     <div class="right-content">
                         <h2 class="new-benefits-section-heading">Nahtlos anbindbar</h2>
@@ -150,7 +206,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md">
                 <div class="flex benefit-box">
 
-                    <img src="/assets/images/lp/germany.svg" width="70" height="46" alt="Made in Germany" class="benefit-box-img">
+                <?= pictureTag('/assets/images/lp/germany.svg', 'Made in Germany', 70, 46, ['class' => 'benefit-box-img']) ?>
 
                     <div class="right-content">
                         <h2 class="new-benefits-section-heading">Made in Germany</h2>
@@ -169,8 +225,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
         <div class="section__content section__content--wide ">
             <div class="co-grid flex vend">
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--5-sm centered">
-                  <div class="engineered-block-wrap-img">  <img class="engineered-block-img" src="/assets/images/lp/callone-complex-yesterday-img.png" width="676" height="891"
-                        alt=" Komplex war  gestern! 30 Minuten reichen."></div>
+                  <div class="engineered-block-wrap-img">  <?= pictureTag('/assets/images/lp/callone-complex-yesterday-img.png', 'Komplex war gestern! 30 Minuten reichen.', 676, 891, ['class' => 'engineered-block-img']) ?></div>
                 </div>
                 <div class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm section-3-engblock-right">
                     <h2 class="heading">Komplex war  gestern! 30 Minuten reichen.</h2>
@@ -210,9 +265,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                                 </ul>
                             </div>
                             <div class="co-grid__col co-grid__col--12-xs co-grid__col--4-sm co-grid__col--4-md centered">
-                                <img src="/assets/images/lp/callone-saves-time-money-img.png" width="317" height="580"
-                                    alt="Unser CallOne VoiceBot überall erreichbar!"
-                                    class="green-reachable-block-left-absolute-rt">
+                            <?= pictureTag('/assets/images/lp/callone-saves-time-money-img.png', 'Unser CallOne VoiceBot überall erreichbar!', 317, 580, ['class' => 'green-reachable-block-left-absolute-rt']) ?>
 
                             </div>
                         </div>
@@ -228,12 +281,12 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             Kunden. Steigern Sie jetzt die Kundenzufriedenheit mit unseren intelligenten Analysetools!
                         </p>
                         <div class="alle-img">
-                            <img src="/assets/images/lp/alle-process.svg" width="305" height="53"
-                                alt="Alle Daten für Sie ausgewertet!" class="alle-img-img">
+                            <?= pictureTag('/assets/images/lp/alle-process.svg', 'Alle Daten für Sie ausgewertet!', 305, 53, ['class' => 'alle-img-img']) ?>
+
 
                             <div class="alle-absolute-img">
-                                <img src="/assets/images/lp/smiling-face-with-hearts_hires.svg" width="551" height="97"
-                                    alt="Alle Daten für Sie ausgewertet!" class="alle-absolute-img-img">
+                            <?= pictureTag('/assets/images/lp/smiling-face-with-hearts_hires.svg', 'Alle Daten für Sie ausgewertet!', 551, 97, ['class' => 'alle-absolute-img-img']) ?>
+
                             </div>
                         </div>
                     </div>
@@ -258,8 +311,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             Sie die Interaktion mit Ihren Kunden!
                         </p>
                         <div class="gray-box-img">
-                            <img src="/assets/images/lp/callone-bot-acts-independently.jpg" width="700" height="580"
-                                alt="Der Bot agiert selbstständig" class="gray-box-img-img">
+                        <?= pictureTag('/assets/images/lp/callone-bot-acts-independently.jpg', 'Der Bot agiert selbstständig', 700, 580, ['class' => 'gray-box-img-img']) ?>
+
                         </div>
                     </div>
                 </div>
@@ -270,8 +323,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                         <p style="margin-top:var(--gutter-xs)" class="bigtext green-reachable-block-para">Unser Bot kann nicht nur selbstständig agieren, sondern auch wie ein Service-Mitarbeiter auf Ihre bereitgestellten Informationen zugreifen. Zudem kann er jetzt Domains und Webseiten crawlen, um schnell und effizient relevante Daten für die Beantwortung von Kundenanfragen zu sammeln. Erleben Sie die Flexibilität und Leistungsfähigkeit unseres Bots für ein optimales Kundenerlebnis!
                         </p>
                         <div class="gray-box-img">
-                            <img src="/assets/images/lp/callone-feed-bot-with-faq.jpg" width="700" height="580"
-                                alt="Unser CallOne VoiceBot überall erreichbar!" class="gray-box-img-img">
+                        <?= pictureTag('/assets/images/lp/callone-feed-bot-with-faq.jpg', 'Unser CallOne VoiceBot überall erreichbar!', 700, 580, ['class' => 'gray-box-img-img']) ?>
+
                         </div>
                     </div>
                 </div>
@@ -294,8 +347,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             dass Sie auf dem richtigen Kurs bleiben.
                         </p>
                         <div class="gray-box-img">
-                            <img src="/assets/images/lp/callone-performance-cost-img.jpg" width="700" height="580"
-                                alt="Der Bot agiert selbstständig" class="gray-box-img-img">
+                        <?= pictureTag('/assets/images/lp/callone-performance-cost-img.jpg', 'Der Bot agiert selbstständig', 700, 580, ['class' => 'gray-box-img-img']) ?>
+
                         </div>
                     </div>
                 </div>
@@ -306,8 +359,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                              
                         </p><br>
                         <div class="gray-box-img">
-                            <img src="/assets/images/lp/callone-forget-dtmf-img.jpg" width="700" height="580"
-                                alt="Unser CallOne VoiceBot überall erreichbar!" class="gray-box-img-img">
+                        <?= pictureTag('/assets/images/lp/callone-forget-dtmf-img.jpg', 'Unser CallOne VoiceBot überall erreichbar!', 700, 580, ['class' => 'gray-box-img-img']) ?>
+
                         </div>
                     </div>
                 </div>
@@ -332,8 +385,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                        
 
                         <h3 class="green-reachable-block-heading">Anbindung leicht gemacht!!​</h3>
-                        <img src="/assets/images/lp/callone-hart-icon.svg" width="50" height="50" alt="heart icon"
-                            class="heart-icon">
+                        <?= pictureTag('/assets/images/lp/callone-hart-icon.svg', 'heart icon', 50, 50, ['class' => 'heart-icon']) ?>
+
                         <p style="margin-top:var(--gutter-xs)" class="green-reachable-block-para"><strong>Verbinden Sie Ihre Telefonanlage spielend:</strong></p>
                         <ul class="flex list-functions centered">
                             <li class="list-functions-list"><span class="label-text">CallOne SIP-Trunking</span></li>
@@ -362,12 +415,11 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                                     <p class="communication-container-para left small-font author-name">Anruferin</p>
                                 </div>
                                 
-                                <img src="/assets/images/lp/callone-orange-circle.svg"
-                                    class="chatpartner chatpartner--human" alt="">
+                                <?= pictureTag('/assets/images/lp/callone-orange-circle.svg', '', null, null, ['class' => 'chatpartner chatpartner--human']) ?>
+
                             </div>
 
-                            <div class="flex"><img src="/assets/images/lp/callone-blue-circle.svg"
-                                    class="chatpartner chatpartner--human" alt="">
+                            <div class="flex"><?= pictureTag('/assets/images/lp/callone-blue-circle.svg', '', null, null, ['class' => 'chatpartner chatpartner--human']) ?>
                                 <div class="bubble bubble--human">
                                     <p class="communication-container-para">
                                         Ich freue mich Ihnen helfen zu können, der aktuelle Lieferstatus lautet:<span
@@ -381,7 +433,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                                 <div class="bubble bubble--bot">
                                      
                                         <ul class="animated-mic">
-                                            <li class="animated-mic-list"><img src="/assets/images/lp/callone-mic-icon.svg" class=" chatpartner--human" alt=""></li>
+                                            <li class="animated-mic-list"><?= pictureTag('/assets/images/lp/callone-mic-icon.svg', '', null, null, ['class' => 'chatpartner--human']) ?></li>
                                             <li class="animated-mic-list"><span class="mic-circle "></span></li>
                                             <li class="animated-mic-list"><span class="mic-circle mic-cir-op-50"></span></li>
                                             <li class="animated-mic-list"><span class="mic-circle mic-cir-op-20"></span></li>
@@ -389,8 +441,7 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                                         
  
                                     <p class="communication-container-para left small-font author-name">Anruferin</p>
-                                </div><img src="/assets/images/lp/callone-orange-circle.svg"
-                                    class="chatpartner chatpartner--human" alt="">
+                                </div><?= pictureTag('/assets/images/lp/callone-orange-circle.svg', '', null, null, ['class' => 'chatpartner chatpartner--human']) ?>
                             </div>
                         </div>
                     </div>
@@ -416,30 +467,30 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             <div class="co-grid">
 
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-calender-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                 <?= pictureTag('/assets/images/icons_svg/callone-calender-icon.svg', '', 30, 30, ['class' => 'benefit-icon', 'style' => 'display: inline']) ?>
+
                     <h5 class="para-big-font-heading">Terminvereinbarungen und Reservierungen</h5>
                     <p class="para-big-font-para">Verwaltet, plant und bestätigt Termine oder Reservierungen für Kunden.
                     </p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-like-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                <?= pictureTag('/assets/images/icons_svg/callone-like-icon.svg', '', 30, 30, ['class' => 'benefit-icon', 'style' => 'display: inline']) ?>
+
                     <h5 class="para-big-font-heading">Personalisierte Empfehlungen</h5>
                     <p class="para-big-font-para">Gibt auf Basis von Kunden-Präferenzen individuelle Produkt- oder
                         Dienstleistungsempfehlungen.</p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-user-call-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                <?= pictureTag('/assets/images/icons_svg/callone-user-call-icon.svg', '', 30, 30, ['class' => 'benefit-icon', 'style' => 'display: inline']) ?>
+
                     <h5 class="para-big-font-heading">Erster Anlaufpunkt für Kundenanfragen</h5>
                     <p class="para-big-font-para">Nimmt Anrufe entgegen und leitet sie an den richtigen
                         Support-Mitarbeiter oder beantwortet sie.
                     </p>
                 </div>
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-problem-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                <?= pictureTag('/assets/images/icons_svg/callone-problem-icon.svg', '', 30, 30, ['class' => 'benefit-icon', 'style' => 'display: inline']) ?>
+
                     <h5 class="para-big-font-heading">Problembehebung</h5>
                     <p class="para-big-font-para">Hilft bei der Fehlerbehebung oder Lösung technischer Probleme durch
                         Anleitungen oder Tipps.​</p>
@@ -462,8 +513,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             aus verschiedenen Perspektiven zu betrachten.
                         </p>
                         <div class="gray-box-img">
-                            <img src="/assets/images/lp/callone-list-board.jpg" width="700" height="580"
-                                alt="Der Bot agiert selbstständig" class="gray-box-img-img">
+                        <?= pictureTag('/assets/images/lp/callone-list-board.jpg', 'Der Bot agiert selbstständig', 700, 580, ['class' => 'gray-box-img-img']) ?>
+
                         </div>
                     </div>
                 </div>
@@ -475,8 +526,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             verfeinern und benutzerdefinierte Ansichten zu erstellen.
                         </p>
                         <div class="gray-box-img">
-                            <img src="/assets/images/lp/callone-customize-suit-needs.jpg" width="700" height="580"
-                                alt="Unser CallOne VoiceBot überall erreichbar!" class="gray-box-img-img">
+                        <?= pictureTag('/assets/images/lp/callone-customize-suit-needs.jpg', 'Unser CallOne VoiceBot überall erreichbar!', 700, 580, ['class' => 'gray-box-img-img']) ?>
+
                         </div>
                     </div>
                 </div>
@@ -495,8 +546,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                     <div class="co-grid co-grid--lp-vb-conversation communication-container-inner fur-jeden-inner">
                         <div class="section__content" style="z-index: 2">
                             <div class="communication-container-inner-middle-img centered">
-                                <img src="/assets/images/lp/callone-fur-jeden.svg" width="1000" height="580"
-                                    alt="Unser CallOne VoiceBot überall erreichbar!" class="full-img-w">
+                            <?= pictureTag('/assets/images/lp/callone-fur-jeden.svg', 'Unser CallOne VoiceBot überall erreichbar!', 1000, 580, ['class' => 'full-img-w']) ?>
+
                             </div>
                         </div>
                     </div>
@@ -519,33 +570,32 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
             <div class="co-grid">
 
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-kontover-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                    <?= pictureTag('/assets/images/icons_svg/callone-kontover-icon.svg', '', 30, 30, ['class' => 'benefit-icon']) ?>
                     <h5 class="para-big-font-heading">Kontoverwaltung</h5>
                     <p class="para-big-font-para">Unterstützt Anrufer bei der Verwaltung ihrer Konten, wie
                         Passwortänderungen oder anderer Themen.</p>
                 </div>
+
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-auto-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                    <?= pictureTag('/assets/images/icons_svg/callone-auto-icon.svg', '', 30, 30, ['class' => 'benefit-icon']) ?>
                     <h5 class="para-big-font-heading">Automatisierte FAQs</h5>
                     <p class="para-big-font-para">Beantwortet häufig gestellte Fragen zu Produkten, Dienstleistungen
                         oder allgemeinen Informationen.</p>
                 </div>
+
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-umfragen-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                    <?= pictureTag('/assets/images/icons_svg/callone-umfragen-icon.svg', '', 30, 30, ['class' => 'benefit-icon']) ?>
                     <h5 class="para-big-font-heading">Umfragen und Feedback</h5>
                     <p class="para-big-font-para">Führt Kundenumfragen durch und sammelt Feedback zur Verbesserung von
-                        Dienstleistungen.
-                    </p>
+                        Dienstleistungen.</p>
                 </div>
+
                 <div class="co-grid__col co-grid__col--6-xs co-grid__col--6-sm co-grid__col--3-md ">
-                    <img style="display: inline" src="/assets/images/icons_svg/callone-proaktive-icon.svg" class="benefit-icon"
-                        alt="" width="30" height="30">
+                    <?= pictureTag('/assets/images/icons_svg/callone-proaktive-icon.svg', '', 30, 30, ['class' => 'benefit-icon']) ?>
                     <h5 class="para-big-font-heading">Proaktive Benachrichtigungen</h5>
                     <p class="para-big-font-para">Informiert Kunden aktiv über wichtige Ereignisse oder Updates (Wartungsarbeiten, Sonderangebote).​​</p>
                 </div>
+
             </div>
             <p class="btn-set ">
                 <a href="/voicebot-features" class="btn btn--green-brd centered leftright-equal">Alle Features im Überblick</a>
@@ -566,13 +616,13 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             <div class="communication-container-inner-middle-img centered">
                                 <div class="interfaces-plus-icons">
                                     <ul class="interfaces-listing-ul flex">
-                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-salesforce-icon.svg" class="offerner-img" alt="salesforce" width="90" height="90"></li>
-                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-hubspot-icon.svg" class="offerner-img" alt="hubspot" width="90" height="90"></li>
-                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-calendly-first.svg" class="offerner-img" alt="calendly" width="90" height="100"></li>
-                                        <li class="interfaces-listing-ul-list big-list-img"><img src="/assets/images/lp/callone-interfaces-plus.svg" class="offerner-img" alt="interfaces" width="300" height="300"></li>
-                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-doctolib-icon.svg" class="offerner-img" alt="doctolib" width="90" height="90"></li>
-                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-zoho-icon.svg" class="offerner-img" alt="zoho" width="90" height="90"></li>
-                                        <li class="interfaces-listing-ul-list"><img src="/assets/images/lp/callone-pipedrive-icon.svg" class="offerner-img" alt="pipedrive" width="90" height="90"></li>
+                                        <li class="interfaces-listing-ul-list"><?= pictureTag('/assets/images/lp/callone-salesforce-icon.svg', 'salesforce', 90, 90, ['class' => 'offerner-img']) ?></li>
+                                        <li class="interfaces-listing-ul-list"><?= pictureTag('/assets/images/lp/callone-hubspot-icon.svg', 'hubspot', 90, 90, ['class' => 'offerner-img']) ?></li>
+                                        <li class="interfaces-listing-ul-list"><?= pictureTag('/assets/images/lp/callone-calendly-first.svg', 'calendly', 90, 100, ['class' => 'offerner-img']) ?></li>
+                                        <li class="interfaces-listing-ul-list big-list-img"><?= pictureTag('/assets/images/lp/callone-interfaces-plus.svg', 'interfaces', 300, 300, ['class' => 'offerner-img']) ?></li>
+                                        <li class="interfaces-listing-ul-list"><?= pictureTag('/assets/images/lp/callone-doctolib-icon.svg', 'doctolib', 90, 90, ['class' => 'offerner-img']) ?></li>
+                                        <li class="interfaces-listing-ul-list"><?= pictureTag('/assets/images/lp/callone-zoho-icon.svg', 'zoho', 90, 90, ['class' => 'offerner-img']) ?></li>
+                                        <li class="interfaces-listing-ul-list"><?= pictureTag('/assets/images/lp/callone-pipedrive-icon.svg', 'pipedrive', 90, 90, ['class' => 'offerner-img']) ?></li>
                                     </ul>
                                 </div>
                                 <p>
@@ -586,55 +636,48 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat green-cat">Fertige App</span>
-                                    <img src="/assets/images/lp/callone-calendly_logo.svg" class="offerner-img" alt=""
-                                        width="200">
+                                    <?= pictureTag('/assets/images/lp/callone-calendly_logo.svg', '', 200, null, ['class' => 'offerner-img']) ?>
+
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat green-cat">Fertige App</span>
-                                    <img src="/assets/images/lp/callone-samedi_logo.svg" class="offerner-img" alt=""
-                                        width="200">
+                                    <?= pictureTag('/assets/images/lp/callone-samedi_logo.svg', '', 200, null, ['class' => 'offerner-img']) ?>
+
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">In Planung</span>
-                                    <img src="/assets/images/lp/callone-microsoft-bookings-logo.png" class="offerner-img" alt=""
-                                    width="250">
-                                </div>
-                            </div>
-                            <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
-                                <div class="offernen_box offernen_white flex relative">
-                                    <span class="offernen-cat grey-cat">In Planung</span>
-                                    <img src="/assets/images/lp/callone-doctolile_logo.svg" class="offerner-img" alt=""
-                                        width="200">
+                                    <?= pictureTag('/assets/images/lp/callone-microsoft-bookings-logo.png', '', 250, null, ['class' => 'offerner-img']) ?>
+
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
-                                    <img src="/assets/images/lp/callone-salesforce_logo.svg" class="offerner-img" alt=""
-                                    width="120">
+                                    <?= pictureTag('/assets/images/lp/callone-salesforce_logo.svg', '', 120, null, ['class' => 'offerner-img']) ?>
+
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
-                                    <img src="/assets/images/lp/callone-zoho_logo.svg" class="offerner-img" alt="" width="160">
+                                    <?= pictureTag('/assets/images/lp/callone-zoho_logo.svg', '', 160, null, ['class' => 'offerner-img']) ?>
                                 </div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
-                                    <img src="/assets/images/lp/callone-hobspot_logo.svg" class="offerner-img" alt=""
-                                        width="200">
+                                    <?= pictureTag('/assets/images/lp/callone-hubspot_logo.svg', '', 200, null, ['class' => 'offerner-img']) ?>
+
 								</div>
                             </div>
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_trans flex relative">
 
-                                    <img src="/assets/images/lp/callone-plus-icon.svg" class="offerner-img" alt="" width="40">
+                                    <?= pictureTag('/assets/images/lp/callone-plus-icon.svg', '', 40, null, ['class' => 'offerner-img']) ?>
                                     <span class="nahezu-text">Nahezu unbegrenzte Möglichkeiten dank Webhook</span>
                                 </div>
                             </div>
@@ -693,8 +736,8 @@ Unsere offene Plattform ermöglicht die Anbindung verschiedener Drittanbieter. K
 
                 </div>
                 <div class="relative co-grid__col co-grid__col--12-xs co-grid__col--5-sm flex vcentered">
-                    <img src="/assets/images/lp/callone-lets-talk-bg.jpg"
-                        class="lp-vb-hero-image lp-vb-lets-image--desktop custom">
+                <?= pictureTag('/assets/images/lp/callone-lets-talk-bg.jpg', '', null, null, ['class' => 'lp-vb-hero-image lp-vb-lets-image--desktop custom']) ?>
+
                 </div>
             </div>
         </div>

@@ -1,0 +1,100 @@
+body.lp--doctors-page {
+
+    .icon-container {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .speaker-icon {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+    
+        &::before {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 0 10px 18px; /* Adjust size here if needed */
+            border-color: transparent transparent transparent #FFFFFF;
+            border-radius: 3px; /* Rounded corners - adjust for desired curvature */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .help-practice-para {
+        .speaker-icon::before {
+            border-width: 8px 0 8px 15px !important; /* Adjust size here if needed */
+        }
+        .stop-icon {
+            width: 14px;
+            height: 14px;
+        }
+        .icon-container {
+            width: 14px;
+            height: 14px;
+        }
+    }
+
+    .play-buttons-a {
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        text-decoration: none;
+        font-size:1.05rem !important;
+        font-weight: normal !important;
+        
+    }
+    .stop-icon {
+        display: none;
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 3px;
+    }
+    .text-playbuttons {
+        margin-left:14px;
+    }
+
+    .help-practice-para {
+        .play-buttons-a {
+            padding: var(--gutter-xs) var(--gutter-m)!important;
+        }
+    }
+
+    .btn--default {
+        &:hover .speaker-icon::before {
+            border-color: transparent transparent transparent #000000;
+        }
+        &:hover .stop-icon {
+            background-color: black;
+        }
+        padding: var(--gutter-xs) var(--gutter-m) !important;
+        font-size:1.05rem;
+        font-weight: normal !important;
+        
+    }
+    
+
+    @media screen and (max-width: 767px) {
+        .call-audio-bg .btn--default {
+            padding: 18px 30px !important;
+        }
+        .play-buttons-a span { 
+            font-size:12px;
+            text-wrap: nowrap;
+        }
+    }  
+    
+}

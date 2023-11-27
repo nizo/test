@@ -224,8 +224,8 @@
 				</h1>
 				<div class="machineless_automation_video centered" data-context="intro_video_slide" data-has_playlist="true" data-playlist_video_id="1" data-binding="video-overlay" data-iframe_url="https://www.youtube.com/embed/goXOyiuRHyg">
 					<div class="video_circle_box"><span class="video-play-icon"></span></div>
-					<img src="/assets/images/lp/callone-voicebot-details-thumb.jpeg" width="1024" height="448"
-						class="video-img">
+					<?= pictureTag('/assets/images/lp/callone-voicebot-details-thumb.jpeg', '', 1024, 448, ['class' => 'video-img'], false) ?>
+
 				</div>
 			</div>
 
@@ -325,14 +325,11 @@
 							bereits auf unsere Cloudplattform</p>
 						<div class="voice-customer-section-logo-inner">
 							<ul class="logo-listing-wrap">
-								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/check24.svg" width="183"
-										height="46" class="logo-listing-wrap-img"></li>
-								<li class="logo-listing-wrap-list sandrock"><img src="/assets/images/lp/callone-sandrock-logo.svg" width="184"
-										height="46" class="logo-listing-wrap-img"></li>
-								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/soda-stream.svg"
-										width="294" height="46" class="logo-listing-wrap-img"></li>
-								<li class="logo-listing-wrap-list"><img src="/assets/images/lp/enterprise-kombi.svg"
-										width="152" height="46" class="logo-listing-wrap-img"></li>
+							<li class="logo-listing-wrap-list"><?= pictureTag('/assets/images/lp/check24.svg', '', 183, 46, ['class' => 'logo-listing-wrap-img']) ?></li>
+							<li class="logo-listing-wrap-list sandrock"><?= pictureTag('/assets/images/lp/callone-sandrock-logo.svg', '', 184, 46, ['class' => 'logo-listing-wrap-img']) ?></li>
+							<li class="logo-listing-wrap-list"><?= pictureTag('/assets/images/lp/soda-stream.svg', '', 294, 46, ['class' => 'logo-listing-wrap-img']) ?></li>
+							<li class="logo-listing-wrap-list"><?= pictureTag('/assets/images/lp/enterprise-kombi.svg', '', 152, 46, ['class' => 'logo-listing-wrap-img']) ?></li>
+
 							</ul>
 						</div>
 					</div>
@@ -398,8 +395,8 @@
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm ">
 					<div class="gray-bg green-comman-space ">
 						<div class="gray-box-img">
-							<img src="/assets/images/lp/callone-faq-image.webp" width="760" height="223" alt="FAQ"
-								class="gray-box-img-img">
+							<?= pictureTag('/assets/images/lp/callone-faq-image.webp', 'FAQ', 760, 223, ['class' => 'gray-box-img-img']) ?>
+
 						</div>
 						<div class="gray-box-inner-w">
 							<h3 class="green-reachable-block-heading">Häufig gestellte Fragen (FAQ)</h3>
@@ -413,8 +410,8 @@
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm step-top-margin">
 					<div class="gray-bg green-comman-space">
 						<div class="gray-box-img">
-							<img src="/assets/images/lp/callone-step-instructions.webp" width="1004" height="292"
-								alt="Schritt-für-Schritt-Anleitungen" class="gray-box-img-img">
+						 <?= pictureTag('/assets/images/lp/callone-step-instructions.webp', 'Schritt-für-Schritt-Anleitungen', 1004, 292, ['class' => 'gray-box-img-img']) ?>
+
 						</div>
 						<div class="gray-box-inner-w">
 							<h3 class="green-reachable-block-heading">Schritt-für-Schritt-Anleitungen</h3>
@@ -428,8 +425,8 @@
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm step-top-minus-margin ">
 					<div class="gray-bg green-comman-space">
 						<div class="gray-box-img">
-							<img src="/assets/images/lp/callone-step-forwarding.webp" width="960" height="346"
-								alt="Weiterleitungen" class="gray-box-img-img">
+							<?= pictureTag('/assets/images/lp/callone-step-forwarding.webp', 'Weiterleitungen', 960, 346, ['class' => 'gray-box-img-img']) ?>
+
 						</div>
 						<div class="gray-box-inner-w">
 							<h3 class="green-reachable-block-heading">Weiterleitungen</h3>
@@ -443,8 +440,8 @@
 				<div class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm">
 					<div class="gray-bg green-comman-space">
 						<div class="gray-box-img">
-							<img src="/assets/images/lp/callone-share-information.webp" width="974" height="275"
-								alt="Auskünfte erteilen" class="gray-box-img-img">
+						<?= pictureTag('/assets/images/lp/callone-share-information.webp', 'Auskünfte erteilen', 974, 275, ['class' => 'gray-box-img-img']) ?>
+
 						</div>
 						<div class="gray-box-inner-w">
 							<h3 class="green-reachable-block-heading">Auskünfte erteilen</h3>
@@ -470,7 +467,7 @@
 				</h1>
 				<div class="machineless_automation_video centered" data-binding="video-overlay" data-iframe_url="https://www.youtube.com/embed/OTh3yXU-q4o">
 					<div class="video_circle_box"><span class="video-play-icon"></span></div>
-					<img src="/assets/images/lp/callone-success-video.webp" width="1024" height="448" class="video-img">
+					<?= pictureTag('/assets/images/lp/callone-success-video.webp', '', 1024, 448, ['class' => 'video-img']) ?>
 
 				</div>
 			</div>
@@ -504,8 +501,8 @@
 							<div class="dsgvo_section_video">
 								<div class="machineless_automation_video centered" data-binding="video-overlay" data-iframe_url="https://www.youtube.com/embed/6ybb9zdi8A4">
 									<div class="video_circle_box"><span class="video-play-icon"></span></div>
-									<img src="/assets/images/lp/callone-DSGVO-video.webp" width="616" height="373"
-										class="video-img">
+									<?= pictureTag('/assets/images/lp/callone-DSGVO-video.webp', '', 616, 373, ['class' => 'video-img']) ?>
+
 									<div class="dsgvo_video_caption"><strong>CallOne VoiceBot DSGVO konform!</strong>
 										Im Gespräch mit Rechtsanwalt Schmidt</div>
 								</div>
@@ -518,8 +515,8 @@
 			<div class="callone_call_to_action">
 				<div class="co-grid">
 					<div style="z-index: 1;" class="co-grid__col co-grid__col--12-xs co-grid__col--8-sm mobile-start">
-						<div class="calltoaction_image"><img src="/assets/images/lp/callone-call-to-action-mobile.png"
-								width="417" height="680" class="call-mobile-img"></div>
+						<div class="calltoaction_image">
+							<?= pictureTag('/assets/images/lp/callone-call-to-action-mobile.png', '', 417, 680, ['class' => 'call-mobile-img']) ?></div>
 						<div class="small-green-tx">In 30 Minuten startklar – 14 Tage kostenlos testen</div><br>
 						<h2 class="voll-headline">Starten Sie <span> noch heute</span> Ihre kostenlose <span>14-tägige
 								Testphase</span></h2>
@@ -561,8 +558,8 @@
 								<div class="swiper-slide">
 									<div class="voice_toolset_tile blue-border">
 										<div class="toolset_logo">
-											<img src="/assets/images/lp/callone-calendly-img.webp" width="56"
-												height="56" class="call-mobile-img">
+										<?= pictureTag('/assets/images/lp/callone-calendly-img.webp', '', 56, 56, ['class' => 'call-mobile-img']) ?>
+
 										</div>
 										<h4 class="slider-heading">Calendly</h4>
 										<p class="smltext">Ihr VoiceBot prüft über die Calendly-Integration Ihre
@@ -576,8 +573,8 @@
 								<div class="swiper-slide">
 									<div class="voice_toolset_tile blue-border-b">
 										<div class="toolset_logo">
-											<img src="/assets/images/lp/callone-samedi-logo.webp" width="222"
-												height="56" class="call-mobile-img">
+											<?= pictureTag('/assets/images/lp/callone-samedi-logo.webp', '', 222, 56, ['class' => 'call-mobile-img']) ?>
+
 										</div>
 										<h4 class="slider-heading">samedi</h4>
 										<p class="smltext">Praxistermine vereinbaren im Handumdrehen? Dank der
@@ -589,8 +586,8 @@
 								<div class="swiper-slide">
 									<div class="voice_toolset_tile blue-border-h">
 										<div class="toolset_logo">
-											<img src="/assets/images/lp/callone-hubspot-logo.webp" width="56"
-												height="56" class="call-mobile-img">
+											<?= pictureTag('/assets/images/lp/callone-hubspot-logo.webp', '', 56, 56, ['class' => 'call-mobile-img']) ?>
+
 										</div>
 										<h4 class="slider-heading">HubSpot</h4>
 										<p class="smltext">Kundendaten in Echtzeit abrufen und Ihre anrufenden Kunden
@@ -613,8 +610,8 @@
 					<div class="waiting_time_box">
 						<div class="co-grid flex">
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--2-sm">
-								<img src="/assets/images/lp/callone-waiting-img.webp" width="56" height="56"
-									alt="waiting" class="call-mobile-img">
+								<?= pictureTag('/assets/images/lp/callone-waiting-img.webp', 'waiting', 56, 56, ['class' => 'call-mobile-img']) ?>
+
 							</div>
 							<div class="co-grid__col co-grid__col--12-xs co-grid__col--10-sm">
 								<h5 class="waiting_heading">Hohe Nachfrage – Wartezeit für Premium VoiceBot</h5>
@@ -720,8 +717,7 @@
 						Qualität und unseren technischen Fortschritt. Kontaktieren Sie uns – wir freuen uns darauf,
 						Ihnen zu zeigen, was wir können!</p>
 					<p class="btn-set"><a href="#" class="btn btn--green-btn-stp trackedContactModal" data-openmodal="contact-sales">Zum Kontaktformular</a></p>
-					<div class="calltoaction_image"><img src="/assets/images/lp/telephone-systems-boy-graphic.webp"
-							width="417" height="680" class="call-mobile-img"></div>
+					<div class="calltoaction_image"><?= pictureTag('/assets/images/lp/telephone-systems-boy-graphic.webp', '', 417, 680, ['class' => 'call-mobile-img']) ?></div>
 					<div class="discover_circle">
 						<h5 class="dis_corcle_heading">Unser VoiceBot
 							bald bei unseren

@@ -70,7 +70,7 @@ function lintScripts() {
 // Compile Coffee into JS
 function compileScripts() {
   // return gulp.src(paths.javascripts + '**/*.js')
-  return gulp.src([paths.libs + 'utilities.js', paths.libs + 'cookie.js', paths.customJS + '**/*.js'])
+  return gulp.src([paths.libs + 'utilities.js', paths.libs + 'cookie.js', paths.libs + 'howler.min.js', paths.libs + 'helpers.js', paths.customJS + '**/*.js'])
     // .pipe(sort())
     .pipe(terser({
       format: {

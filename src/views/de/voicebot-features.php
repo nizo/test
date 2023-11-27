@@ -6,18 +6,13 @@
     align-items: center;
     margin-bottom: 4rem;">
 	<div class="section__content section__content" style="    margin-top: -3rem;">
-		<div class="about-icon-head head-like"><img src="/assets/images/lp/callone-about-head-like.svg" width="90" height="46" class="logo-listing-wrap-img"></div>
-
-		<div class="about-icon-head head-muscles"><img src="/assets/images/lp/callone-muscles-head-like.svg" width="110" height="46" class="logo-listing-wrap-img"></div>
-
-		<div class="about-icon-head head-flag"><img src="/assets/images/lp/callone-flag-head-like.svg" width="135" height="46" class="logo-listing-wrap-img"></div>
-
-		<div class="about-icon-head head-calender"><img src="/assets/images/lp/callone-calender-head.svg" width="115" height="46" class="logo-listing-wrap-img"></div>
-
-		<div class="about-icon-head head-love"><img src="/assets/images/lp/callone-love-head.svg" width="90" height="46" class="logo-listing-wrap-img"></div>
-
-		<div class="about-icon-head head-search"><img src="/assets/images/lp/callone-user-search-head.svg" width="135" height="46" class="logo-listing-wrap-img"></div>
-		<div class="about-icon-head head-call"><img src="/assets/images/lp/callone-user-call-head.svg" width="95" height="46" class="logo-listing-wrap-img"></div>
+		<div class="about-icon-head head-like"><?= pictureTag('/assets/images/lp/callone-about-head-like.svg', '', 90, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
+		<div class="about-icon-head head-muscles"><?= pictureTag('/assets/images/lp/callone-muscles-head-like.svg', '', 110, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
+		<div class="about-icon-head head-flag"><?= pictureTag('/assets/images/lp/callone-flag-head-like.svg', '', 135, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
+		<div class="about-icon-head head-calender"><?= pictureTag('/assets/images/lp/callone-calender-head.svg', '', 115, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
+		<div class="about-icon-head head-love"><?= pictureTag('/assets/images/lp/callone-love-head.svg', '', 90, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
+		<div class="about-icon-head head-search"><?= pictureTag('/assets/images/lp/callone-user-search-head.svg', '', 135, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
+		<div class="about-icon-head head-call"><?= pictureTag('/assets/images/lp/callone-user-call-head.svg', '', 95, 46, ['class' => 'logo-listing-wrap-img']) ?></div>
 
 
 
@@ -162,33 +157,34 @@
 
 			<div style="z-index: 1;" class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md flex-chg-order">
 				<div class="voice-industry-box">
-					<h3 class="voice-industry-box-heading">Gesundheit <img src="/assets/images/icons_svg/callone-gesundheit-icon.svg" class="voice-industry-box-small-img" width="25"></h3>
+					<h3 class="voice-industry-box-heading">Gesundheit <?= pictureTag('/assets/images/icons_svg/callone-gesundheit-icon.svg', '', 25, null, ['class' => 'voice-industry-box-small-img']) ?></h3>
 					<p class="smalltext">Terminbuchungen, Standardanfragen (Rezepte, Krankschreibungen).</p>
 				</div>
 				<div class="voice-industry-box">
-					<h3 class="voice-industry-box-heading">IT-Services <img src="/assets/images/icons_svg/callone-cyber-security-icon.svg" class="voice-industry-box-small-img" width="25"></h3>
+					<h3 class="voice-industry-box-heading">IT-Services <?= pictureTag('/assets/images/icons_svg/callone-cyber-security-icon.svg', '', 25, null, ['class' => 'voice-industry-box-small-img']) ?></h3>
 					<p class="smalltext">Störungsdienste, Helpdeskservices, IT-Standardanfragen.</p>
 				</div>
 				<div class="voice-industry-box">
-					<h3 class="voice-industry-box-heading">Reise <img src="/assets/images/icons_svg/callone-reise-icon.svg" class="voice-industry-box-small-img" width="25"></h3>
-					<p class="smalltext"> FAQ, Infos zum Reiseland, Fragen laufende Buchungen, Beschwerdehotline.</p>
+					<h3 class="voice-industry-box-heading">Reise <?= pictureTag('/assets/images/icons_svg/callone-reise-icon.svg', '', 25, null, ['class' => 'voice-industry-box-small-img']) ?></h3>
+					<p class="smalltext">FAQ, Infos zum Reiseland, Fragen laufende Buchungen, Beschwerdehotline.</p>
 				</div>
 			</div>
+
 			<div style="z-index: 0;" class="co-grid__col co-grid__col--12-xs co-grid__col--12-sm co-grid__col--4-md big-ind-img-wrap">
-				<img src="/assets/images/backgrounds_jpg/callone-visual-hero.jpg" class="industry-new-page-new-module-big-img">
+				<?= pictureTag('/assets/images/backgrounds_jpg/callone-visual-hero.webp', '', null, null, ['class' => 'industry-new-page-new-module-big-img']) ?>
 			</div>
 			<div style="z-index: 1;" class="co-grid__col co-grid__col--12-xs co-grid__col--6-sm co-grid__col--4-md">
 				<div class="voice-industry-box">
-					<h3 class="voice-industry-box-heading">KMU <img src="/assets/images/icons_svg/callone-kmu-icon.svg" class="voice-industry-box-small-img" width="25"></h3>
+					<h3 class="voice-industry-box-heading">KMU <?= pictureTag('/assets/images/icons_svg/callone-kmu-icon.svg', '', 25, null, ['class' => 'voice-industry-box-small-img']) ?></h3>
 					<p class="smalltext">Digitaler Assistent, Sekretariatsservice, interaktive Auswahlmenüs.</p>
 				</div>
 				<div class="voice-industry-box">
-					<h3 class="voice-industry-box-heading">Versicherungen <img src="/assets/images/icons_svg/callone-versich-icon.svg" class="voice-industry-box-small-img" width="25"></h3>
+					<h3 class="voice-industry-box-heading">Versicherungen <?= pictureTag('/assets/images/icons_svg/callone-versich-icon.svg', '', 25, null, ['class' => 'voice-industry-box-small-img']) ?></h3>
 					<p class="smalltext">Schadenentgegennahme, Abwicklung von Anrufpeaks mittels auto. Rückruf, FAQ.</p>
 				</div>
 				<div class="voice-industry-box">
-					<h3 class="voice-industry-box-heading">Energie <img src="/assets/images/icons_svg/callone-energie-icon.svg" class="voice-industry-box-small-img" width="25"></h3>
-					<p class="smalltext"> Zählerstandserfassung, Abschlagszahlungen, Adressänderungen.</p>
+					<h3 class="voice-industry-box-heading">Energie <?= pictureTag('/assets/images/icons_svg/callone-energie-icon.svg', '', 25, null, ['class' => 'voice-industry-box-small-img']) ?></h3>
+					<p class="smalltext">Zählerstandserfassung, Abschlagszahlungen, Adressänderungen.</p>
 				</div>
 			</div>
 

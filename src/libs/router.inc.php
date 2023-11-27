@@ -389,6 +389,21 @@ Router::add('/voicebot-details', 'voicebot-details.php', [
 	'hide_vb_counter' => true,
 ]);
 
+Router::add('/telefonassistent-arztpraxis', 'voicebot-doctors.php', [
+    'title' => 'Der KI-Voicebot für die Arztpraxis – Termine buchen. MFA-Aufgaben erledigen. Alles voll automatisiert geregelt',
+	'meta_description' => 'Revolutionärer KI-Voicebot für die Arztpraxis: Bucht Termine live am Telefon, nimmt Rezeptwünsche entgegen und beantwortet Fragen Ihrer Praxis. Entlastet Ihre MFA und bietet alles für eine effiziente Praxisführung – alles in einem nutzerfreundlichen System.',
+    'og_image_text' => 'Entdecken Sie den CallOne VoiceBot, entwickelt auf der fortschrittlichen ChatGPT OpenAI Plattform. Lernen Sie alle Features kennen und erfahren Sie, wie unser VoiceBot Ihren Kundenservice revolutionieren kann.',
+    'og_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-praxisbot.jpg',
+    'twitter_image_url' => DOMAIN.'/assets/images/lp/callone-voicebot-lp-praxisbot.jpg',
+    'body_class' => 'lp lp--voicebot lp--voicebot-version lp--doctors-page',
+	'menu_position' => 'voicebot',
+	'sitemap_priority' => '0.9',
+    'sitemap_include' => true,
+    'reduced_footer' => false,
+	'bt' => 'praxis',
+	'hide_vb_counter' => true,
+]);
+
 
 Router::add('/voicebot-ueber-uns', 'about-us.php', [
     'title' => 'Wir sind CallOne – Wegbereiter für KI-Telefonie.',
@@ -424,7 +439,7 @@ Router::add('/voicebot-preise', 'voicebot-preise.php', [
 	'meta_description' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.​',
     'og_image_text' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.',
 	'menu_position' => 'loesungen',
-	'body_class' => 'lp lp--voicebot lp--vb-preise'.(isset($_GET['inopla_style']) ? ' lp--inopla-style' : '' ),
+	'body_class' => 'lp lp--voicebot lp--vb-preise' . (isset($_GET['inopla_style']) || (isset($_GET['bt']) && $_GET['bt'] == 'praxis') ? ' blue-style' : ''),
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
     'reduced_footer' => false,

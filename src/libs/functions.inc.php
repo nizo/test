@@ -12,6 +12,9 @@ function pictureTag($path, $alt, $width = null, $height = null, $attributes = []
     $filepath = $file['dirname'].'/'.$file['filename'];
     $root = __DIR__.'/../';
 
+	// if alt is empty use filename without extension
+	if(empty($alt)) $alt =  basename($file['filename'],'.'.$file['extension']);
+
     // Build <picture> template
     $template = '<picture>'.PHP_EOL;
 
