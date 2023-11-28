@@ -400,6 +400,7 @@ Router::add('/telefonassistent-arztpraxis', 'voicebot-doctors.php', [
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
     'reduced_footer' => false,
+	'canonical' => '/telefonassistent-arztpraxis',
 	'bt' => 'praxis',
 	'hide_vb_counter' => true,
 ]);

@@ -722,7 +722,7 @@ $faqs->faq_add(
 
                 <div style="z-index: 1;" class="co-grid__col co-grid__col--12-xs co-grid__col--7-sm mobile-start">
 
-                    <h1 class="hero-headline">Jetzt kostenlos testen! </h1>
+                    <span class="hero-headline" style="font-weight: bold; margin-bottom: 1rem; display: block;">Jetzt kostenlos testen!</span>
 
                     <p class="smalltext">Wir bieten Ihnen die Möglichkeit, unseren VoiceBot 14 Tage lang kostenlos und unverbindlich zu testen. Kontaktieren Sie uns oder nutzen Sie unseren Konfigurator, um zu erfahren, wie wir den Bot in Ihren Use Case integrieren und Ihre Prozesse in der Cloud-Telefonie optimieren können. Wir freuen uns auf Ihre Anfrage!</p>
                     <p><strong class="gray-color">Möchten Sie uns besser kennenlernen?</strong><br>
