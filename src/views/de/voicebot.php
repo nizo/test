@@ -33,18 +33,18 @@ $faqs->faq_add(
                     <p>Mit dem CallOne-VoiceBot wird Ihr Kundendienst nicht nur schneller, sondern auch smarter!</p>'
 );
 $faqs->faq_add(
-    'Was kann der Wie kann ich den CallOne-VoiceBot nutzen?',
+    'Wie kann ich den CallOne-VoiceBot nutzen?',
     '<p>Möchten Sie Ihren Kundenservice verbessern? Der CallOne-VoiceBot ist hier, um Ihnen zu helfen! Mit diesem
     cleveren Helfer können Sie:</p>
     <ul>
-    <li>**Smarte Antworten geben**: Er beantwortet häufig gestellte Fragen für Sie. So sparen Sie Zeit und Ihre
+    <li><strong>Smarte Antworten geben</strong>: Er beantwortet häufig gestellte Fragen für Sie. So sparen Sie Zeit und Ihre
     Kunden bekommen schnell Antworten – ganz ohne herkömmliche Telefonauswahlmenüs (IVR).</li>
-    <li>**Keine Warteschlangen mehr**: Anstatt in der Warteschlange zu hängen, können Ihre Kunden mit dem
+    <li><strong>Keine Warteschlangen mehr</strong>: Anstatt in der Warteschlange zu hängen, können Ihre Kunden mit dem
     VoiceBot einen Rückrufwunsch aufgeben, der Ihnen als zeitsparende Zusammenfassung per Mail oder
     Dashboard übermittelt wird.</li>
-    <li>**Mehr als nur Fragen beantworten**: Der VoiceBot kann auch praktische Dinge erledigen, wie den
+    <li><strong>Mehr als nur Fragen beantworten</strong>: Der VoiceBot kann auch praktische Dinge erledigen, wie den
     Lieferstatus prüfen, Adressänderungen aufnehmen oder Zählerstände erfassen.</li>
-    <li>**Termine für Ärzte automatisiert buchen**: Er kann Termine bei Ärzten ganz von selbst buchen – dank
+    <li><strong>Termine für Ärzte automatisiert buchen</strong>: Er kann Termine bei Ärzten ganz von selbst buchen – dank
     unserer Kooperation mit namhaften Partnern aus dem Healthcare-Bereich.</li>
     </ul>
     <br>
@@ -670,7 +670,7 @@ $faqs->faq_add(
                             <div class="co-grid__col co-grid__col--6-xs co-grid__col--4-sm co-grid__col--3-md">
                                 <div class="offernen_box offernen_white flex relative">
                                     <span class="offernen-cat grey-cat">Indiv. Anbindung</span>
-                                    <?= pictureTag('/assets/images/lp/callone-hubspot_logo.svg', '', 200, null, ['class' => 'offerner-img']) ?>
+                                    <?= pictureTag('/assets/images/logo/partnerlogos/logo-hubspot.svg', '', 200, null, ['class' => 'offerner-img']) ?>
 
 								</div>
                             </div>
