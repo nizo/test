@@ -188,3 +188,27 @@ function decode($encoded) {
 }
 
 
+// Return Html Class String after Evaluating GET Params
+function applyBodyClassesViaParameter()
+{
+
+	$classes = [];
+
+	if(isset($_GET['inopla_style'])) {
+		$classes[] = 'lp--inopla-style';
+	}
+
+	if(isset($_GET['bt'])) {
+
+		switch(htmlspecialchars($_GET['bt'])) {
+			case 'praxis':
+				$classes[] = 'blue-style';
+				break;
+		}
+
+	}
+
+	return implode(' ',$classes);
+
+}
+

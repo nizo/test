@@ -440,7 +440,7 @@ Router::add('/voicebot-preise', 'voicebot-preise.php', [
 	'meta_description' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.​',
     'og_image_text' => 'Automatisieren Sie Ihre Business-Telefonie dank KI – mit den Voicebot Preis-Paketen flexibel auf Ihr Business zugeschnitten.',
 	'menu_position' => 'loesungen',
-	'body_class' => 'lp lp--voicebot lp--vb-preise' . (isset($_GET['inopla_style']) || (isset($_GET['bt']) && $_GET['bt'] == 'praxis') ? ' blue-style' : ''),
+	'body_class' => 'lp lp--voicebot lp--vb-preise ' . applyBodyClassesViaParameter(),
 	'sitemap_priority' => '0.9',
     'sitemap_include' => true,
     'reduced_footer' => false,
