@@ -1565,6 +1565,12 @@ blockquote {
 		font-size: 20px;
 		line-height: 1.5;
 	}
+	@media screen and (min-width: 768px) {
+		.ml-10 {
+			margin-left:10px !important;
+		}
+	}
+	
 }
 
 // Application Modal Stuff

@@ -198,26 +198,32 @@ $faqs->faq_add(
 
 						<br />
 
-						<form action="#" method="post" class="floating-form" id="voicebot-form">
+						<form class="floating-form" id="voicebot-form" name="WebToLeads8315000039787007" method='POST' onsubmit="" accept-charset='UTF-8'> <!-- onsubmit="" attribute MUST NOT BE DELETED (!) because of external tracking scripts -->
+							<input type='text' style='display:none;' name='xnQsjsdp' value='f7fb3558063455f7ec8dc024da2f43118aceb0392c19b0c485ef349cc5216a09'></input> 
+							<input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+							<input type='text' style='display:none;' name='xmIwtLD' value='8f6424dcc6c448b746e02de77ea167c23851f744a74cdcabc4b4f3e1d27912cbc4e1fd25dd69e5a16d7ed47f139b4987'></input> 
+							<input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+							<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.callone.de&#x2f;voicebot-preise' > </input>
+	
 							<h3>Angaben über Sie</h3>
 							<p>Zuerst würden wir gern wissen, wer Sie sind.</p>
 
 							<div class="floating-form__error">
 								<h2>Fehler</h2>
-								<p>Beim abschicken des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es
-									erneut.</p>
+								<p style="margin: 0 auto; max-width: 40rem">Beim abschicken des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es
+									erneut oder rufen Sie uns an unter <a style="text-decoration: underline;" href="tel:030 920 33 500">030 920 33 500</a></p>
 							</div>
 
 							<div class="floating-form__row">
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="firstname" placeholder=" " required>
+										<input type="text" id='First_Name' name="First Name" placeholder=" " required>
 										<label>Ihr Vorname *</label>
 									</div>
 								</div>
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="lastname" placeholder=" " required>
+										<input type="text" id='Last_Name' name="Last Name" placeholder=" " required>
 										<label>Ihr Nachname *</label>
 									</div>
 								</div>
@@ -225,13 +231,13 @@ $faqs->faq_add(
 							<div class="floating-form__row">
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="email" placeholder=" " required>
+										<input type="text" ftype='email' autocomplete='false' id='Email' name="Email" placeholder=" " required>
 										<label>Ihre E-Mail Adresse *</label>
 									</div>
 								</div>
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="phonenumber" placeholder=" ">
+										<input type="text" id='Phone' name="Phone" placeholder=" ">
 										<label>Ihre Telefonnummer</label>
 									</div>
 								</div>
@@ -245,13 +251,13 @@ $faqs->faq_add(
 							<div class="floating-form__row">
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="company" placeholder=" " required>
+										<input type="text" id='Company' name='Company' placeholder=" " required>
 										<label>Firmenname *</label>
 									</div>
 								</div>
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="position" placeholder=" ">
+										<input type="text" name="position" id="position" placeholder=" ">
 										<label>Ihre Position</label>
 									</div>
 								</div>
@@ -259,13 +265,13 @@ $faqs->faq_add(
 							<div class="floating-form__row">
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="employees" placeholder=" ">
+										<input type="text" id='LEADCF23' name='LEADCF23' placeholder=" ">
 										<label>Unternehmensgröße</label>
 									</div>
 								</div>
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="branche" placeholder=" ">
+										<input type="text" name="branche" id="branche" placeholder=" ">
 										<label>Branche</label>
 									</div>
 								</div>
@@ -274,24 +280,69 @@ $faqs->faq_add(
 							<div class="floating-form__row">
 								<div class="floating-form__col">
 									<div class="floating-form__field">
-										<input type="text" name="anwendungsfall" placeholder=" ">
+										<input type="text" name="anwendungsfall" id="anwendungsfall" placeholder=" ">
 										<label>Ihr Anwendungsfall</label>
 									</div>
 								</div>
 							</div>
 
-							<div class="floating-form__row">
-								<div class="floating-form__col">
-									<div class="floating-form__checkbox">
-										<input type="checkbox" name="newsletter" id="newsletter" />
-										<label for="newsletter">Ich interessiere mich für den
-											<strong>Newsletter</strong> (Abmeldung jederzeit möglich)</label>
-									</div>
-								</div>
-							</div>
+							<textarea id='LEADCF20' name='LEADCF20' hidden></textarea>
 
+							<select class='zcwf_col_fld_slt' id='LEADCF18' name='LEADCF18' hidden>
+								<option value='-None-'>-None-</option>
+								<option selected value='Interessent'>Interessent</option>
+								<option value='Systempartner'>Systempartner</option>
+								<option value='Dienstleister'>Dienstleister</option>
+								<option value='sonstige&#x20;Leads'>sonstige Leads</option>
+							</select>
 
+							<select class="zcwf_col_fld_slt" id="LEADCF21" name="LEADCF21" hidden>
+								<option value="-None-">-None-</option>
+								<option value="inopla.de">inopla.de</option>
+								<option selected="" value="callone.de">callone.de</option>
+								<option value="comdesk.de">comdesk.de</option>
+							</select>
 
+							<select class="zcwf_col_fld_slt" id="Lead_Status" name="Lead Status" hidden>
+								<option value="-None-">-None-</option>
+								<option selected="" value="Neu">Neu</option>
+								<option value="jetzt prüfen">jetzt prüfen</option>
+								<option value="manuelle Verifizierung">manuelle Verifizierung</option>
+								<option value="erfolgreich verifiziert">erfolgreich verifiziert</option>
+								<option value="Wertloser Lead">Wertloser Lead</option>
+							</select>
+
+							<select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source' hidden>
+							<option value='-None-'>-None-</option>
+							<option value='Anruf'>Anruf</option>
+							<option value='Kunden&#x20;werben&#x20;Kunden'>Kunden werben Kunden</option>
+							<option value='Demo_Teams_landing'>Demo_Teams_landing</option>
+							<option value='CCW&#x20;2023'>CCW 2023</option>
+							<option value='Kontaktformular'>Kontaktformular</option>
+							<option value='Demoformular'>Demoformular</option>
+							<option value='Demoformular&#x20;-&#x20;mailonly'>Demoformular - mailonly</option>
+							<option value='bestehender&#x20;Kunde'>bestehender Kunde</option>
+							<option value='Google&#x20;Adwords1'>Google Adwords1</option>
+							<option value='Twitter'>Twitter</option>
+							<option value='Ansagenformular'>Ansagenformular</option>
+							<option value='Callone'>Callone</option>
+							<option value='C1&#x20;-&#x20;Bestand'>C1 - Bestand</option>
+							<option value='E-Mail'>E-Mail</option>
+							<option value='tk-vergleich.com'>tk-vergleich.com</option>
+							<option value='C1&#x20;-&#x20;Calendly'>C1 - Calendly</option>
+							<option value='Comdesk&#x20;Systempartner'>Comdesk Systempartner</option>
+							<option value='tradingtwins.com'>tradingtwins.com</option>
+							<option value='C1&#x20;-&#x20;CCW'>C1 - CCW</option>
+							<option value='Google&#x20;AdWords'>Google AdWords</option>
+							<option value='C1&#x20;-&#x20;E-Mail'>C1 - E-Mail</option>
+							<option value='C1&#x20;-&#x20;Empfehlung'>C1 - Empfehlung</option>
+							<option value='C1&#x20;-&#x20;LinkedIn'>C1 - LinkedIn</option>
+							<option value='C1&#x20;-&#x20;Telefon'>C1 - Telefon</option>
+							<option value='C1&#x20;-&#x20;allgemeine&#x20;Anfrage&#x20;Webseite'>C1 - allgemeine Anfrage Webseite</option>
+							<option selected value='C1&#x20;-&#x20;Voicebot&#x20;Webseite'>C1 - Voicebot Webseite</option>
+							<option value='inopla.de&#x20;-&#x20;Terminbuchung&#x20;Beratung'>inopla.de - Terminbuchung Beratung</option>
+							<option value='inopla.de&#x20;-&#x20;Voicebot&#x20;Formular'>inopla.de - Voicebot Formular</option>
+						</select>
 
 
 							<div class="floating-form__row">
@@ -320,19 +371,8 @@ $faqs->faq_add(
 									</div>
 								</div>
 							</div>
+							<input type="submit" class="btn btn--primary btn--full-width centered btn-submit" style="margin-top: 3rem; " value="14 Tage kostenlos testen" />					
 
-							<input type="submit" class="btn btn--primary btn--full-width centered btn-submit"
-								form="voicebot-form" style="margin-top: 3rem; " value="14 Tage kostenlos testen" />
-
-
-							<?php
-							$path = json_encode($_SESSION['userRoute']);
-							foreach ($_SESSION['userRoute'] as $path) {
-								?>
-							<input type="hidden" name="path[]" value="<?= $path; ?>">
-							<?php
-							}
-							?>
 						</form>
 					</div>
 
@@ -752,3 +792,5 @@ $faqs->faq_add(
 
 	</div>
 </div>
+
+<script id='wf_anal' src='https://crm.zohopublic.eu/crm/WebFormAnalyticsServeServlet?rid=b9f140be525995c5cd03448caa25e34d5c3d20f30bd6d1d9de32ecc5e35f2d44d8b82c2e5760fbbbb442c2c744507fd0gidaf045aaccf1a1901c61bed42898bbdbe4f4567a720de1f940eed7062c5bc1d50giddfe3ae5dc2e2206c3ac438b7b0bf4c46c643359d19a5c43e02a13820ee5fc8ddgid5707a3f7d970a6ff1191e4304e19828966948a0c872c0be8435aa650557e4425&tw=000f6da79a2d89a7afba34ef6305fb1476bde3c9200f415df04aa93893a8835b'></script>

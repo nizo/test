@@ -74,7 +74,7 @@ class vbCount {
         });
 
         this.plus.addEventListener('click', e => {
-            document.querySelector('#vb-additional-2').checked = true;
+			document.querySelector('#vb-additional-2').checked = true;
             e.stopPropagation();
             e.preventDefault();
             let newValue = parseInt(this.current.textContent) + 1;
@@ -100,18 +100,18 @@ function packagesInit() {
                             ${package.best ? '<div class="vb-package__ribbon">Beliebtester Tarif</div>' : ''}
                             <h4>${package.name}</h4>
                             <div class="vb-package__subtitle">${package.subtitle}</div>
-                            ${package.price != 'individuell' ? '<div class="vb-package__price">&euro;<em>' + packagePriceGet(package) + '</em> <span>/ monatlich</span></div>' : '<div class="vb-package__price"><em>individuell</em></div>'}
+                            ${package.price != 'individuell' ? '<div class="vb-package__price">&euro;<em>'+packagePriceGet(package)+'</em> <span>/ monatlich</span></div>' : '<div class="vb-package__price"><em>individuell</em></div>'}
                             <ul>
                             ${function () {
-                let result = '';
-                package.features.forEach(feature => {
-                    result += '<li>' + feature + '</li>';
-                });
-                return result;
-            }()}
+                                let result = '';
+                                package.features.forEach(feature => {
+                                    result += '<li>'+feature+'</li>';
+                                });
+                                return result;
+                            }()}
                             </ul>
                         </label>`;
-
+        
         // Prepend element to container
         packagesContainer.innerHTML = template + packagesContainer.innerHTML;
     });
@@ -123,14 +123,14 @@ function handleCartTotal() {
     let selectedPackage = document.querySelector('input[name="package"]:checked').id;
     selectedIndex = parseInt(selectedPackage.split('-')[1]);
     let package = packages[selectedIndex];
-    let vbAdditionals = document.querySelector('.vb-additionals');
+	let vbAdditionals = document.querySelector('.vb-additionals');
 
-    //flex
-    // if(selectedIndex === 3) {
-    // 	vbAdditionals.classList.add('hidden')
-    // } else {
-    // 	vbAdditionals.classList.remove('hidden')
-    // }
+	//flex
+	// if(selectedIndex === 3) {
+	// 	vbAdditionals.classList.add('hidden')
+	// } else {
+	// 	vbAdditionals.classList.remove('hidden')
+	// }
 
     // Update selected package in cart
     let cartPackageName = document.querySelector('.vb-selection__title');
@@ -174,7 +174,7 @@ function handleCartTotal() {
         if (additional.checked) {
             selected++;
 
-            let label = document.querySelector('label[for="' + additional.id + '"]');
+            let label = document.querySelector('label[for="'+additional.id+'"]');
             let additionalName = label.querySelector('h4').textContent;
             let additionalPrice = parseInt(additional.getAttribute('data-price'));
             let additionalPriceLabel = label.querySelector('.vb-additional__price');
@@ -201,7 +201,7 @@ function handleCartTotal() {
     });
     if (selected == 0)
         additionalsSelected.innerHTML = 'Nichts ausgewählt...';
-
+    
     let totalLabel = document.querySelector('.vb-selection__total');
     let totalLabelMobile = document.querySelector('.vb-cart-mobile__monthly');
     if (package.price == 'individuell') {
@@ -226,23 +226,23 @@ function toggleStep(e) {
 
 
     if (step == 1) {
-        /* move element*/
-        //jQuery( "#sidebar_move" ).prepend( jQuery( "#cart" ) );
-        document.getElementById("vb-cart-container").remove();
-        document.getElementById('sidebar_move').innerHTML = moveElementWork;
-        //document.getElementById('sidebar_move').classList.add("mystyle");
-        document.getElementById("checkout-wrap-stps").classList.add("checkout-full-width");
+       /* move element*/
+       //jQuery( "#sidebar_move" ).prepend( jQuery( "#cart" ) );
+       document.getElementById("vb-cart-container").remove();
+       document.getElementById('sidebar_move').innerHTML = moveElementWork;
+       //document.getElementById('sidebar_move').classList.add("mystyle");
+       document.getElementById("checkout-wrap-stps").classList.add("checkout-full-width");
 
         contentForm.style.display = 'block';
         vbChoosing.style.display = 'none';
-        vbIntroText.style.display = 'none';
+		vbIntroText.style.display = 'none';
 
         btnSubmit.style.display = '';
         btnNextStep.style.display = 'none';
         step = 2;
         window.scrollTo(0, contentForm.getBoundingClientRect().top + window.scrollY - 200);
     } else {
-
+       
         contentForm.style.display = 'none';
         contentSelection.style.display = '';
         btnSubmit.style.display = 'none';
@@ -253,76 +253,136 @@ function toggleStep(e) {
 }
 
 function handleSubmit(e) {
-
-    // return false;
     e.preventDefault();
-    let form = e.currentTarget;
-    let formData = new FormData(form);
+
+    let btnSubmit = document.querySelector('.btn-submit');
+    let contentSuccess = document.querySelector('#content_success');
+    let contentForm = document.querySelector('#content_form');
+    let contentSelection = document.querySelector('#content_selection');
+
+    var mndFileds = new Array('Company', 'First Name', 'Last Name', 'Email');
+    var fldLangVal = new Array('Firma', 'Vorname', 'Nachname', 'E\x2DMail');
+
+    for (i = 0; i < mndFileds.length; i++) {
+        var fieldObj = document.forms['WebToLeads8315000039787007'][mndFileds[i]];
+        if (fieldObj) {
+            if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                if (fieldObj.type == 'file') {
+                    alert('Bitte wählen Sie eine Datei zum Hochladen.');
+                    fieldObj.focus();
+                    return false;
+                }
+                alert(fldLangVal[i] + ' darf nicht leer sein.');
+                fieldObj.focus();
+                return false;
+            } else if (fieldObj.nodeName == 'SELECT') {
+                if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                    alert(fldLangVal[i] + ' darf nicht leer sein.');
+                    fieldObj.focus();
+                    return false;
+                }
+            } else if (fieldObj.type == 'checkbox') {
+                if (fieldObj.checked == false) {
+                    alert('Please accept  ' + fldLangVal[i]);
+                    fieldObj.focus();
+                    return false;
+                }
+            }
+            try {
+                if (fieldObj.name == 'Last Name') {
+                    name = fieldObj.value;
+                }
+            } catch (e) {}
+        }
+    }
+
+    if (!validateEmail8315000039787007()) {
+        return false;
+    }
+
+    var formData = new FormData(document.getElementById('voicebot-form'));
+
     let package = document.querySelector('[name="package"]:checked').value;
     let additionals = Array.from(document.querySelectorAll('[name="vb-additional"]:checked'));
     let additionalsValues = additionals.map(a => {
         let count = 1;
-        let label = document.querySelector('[for="' + a.id + '"]');
+        let label = document.querySelector('[for="'+a.id+'"]');
         let countEl = label.querySelector('.vb-count__current');
         if (countEl) {
             count = parseInt(countEl.textContent);
         }
         return count + 'x ' + a.value;
     });
-    formData.append('package', package);
-    formData.append('total', document.querySelector('.vb-selection__total strong').textContent);
-    additionalsValues.forEach(a => formData.append('additional[]', a));
+    let total = document.querySelector('.vb-selection__total strong').textContent;
+    let branche = document.getElementById('branche').value;
+    let position = document.getElementById('position').value;
+    let anwendungsfall = document.getElementById('anwendungsfall').value;
 
-    // Add path to formdata
-    formData.set('type', 9);
-    formData.set('mouseflow', '');
-    if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
-        formData.set('mouseflow', mouseflow.getSessionId());
-    }
+    appendToFormData(formData, anwendungsfall, 'Anwendungsfall');
+    appendToFormData(formData, position, 'Position');
+    appendToFormData(formData, branche, 'Branche');
+    appendToFormData(formData, package, 'Paket');
+    appendToFormData(formData, additionalsValues, 'Optionale Pakete');
+    appendToFormData(formData, total, 'Gesamtpreis');
 
-    let error = form.querySelector('.floating-form__error');
-    let btnSubmit = document.querySelector('.btn-submit');
-    let contentSuccess = document.querySelector('#content_success');
-    let contentForm = document.querySelector('#content_form');
-    let contentSelection = document.querySelector('#content_selection');
-    error.classList.remove('floating-form__error--active');
-    const postUrl = 'https://connect.callone.io/backend/contact.php';
-    fetch(postUrl, {
+
+    // Send the form data using fetch()
+    fetch('https://crm.zoho.eu/crm/WebToLeadForm', {
         method: 'POST',
-        cache: 'no-cache',
         body: formData
     })
-        .then(response => {
-            return response.json();
-        })
-        .then(data => {
-            document.querySelector('.name').textContent = document.querySelector('input[name="firstname"]').value + ' ' + document.querySelector('input[name="lastname"]').value;
+    .then(data => {
+        if (data.status === 200) {
             btnSubmit.style.display = 'none';
             contentSuccess.style.display = '';
             contentForm.style.display = 'none';
             contentSelection.style.display = 'none';
             window.scrollTo(0, contentSuccess.offsetTop - 100);
-
-            // when called from inopla via iframe, send conversion event to parent iframe
-            if (window.location.href.match(/inopla_style/)) {
-                window.parent.postMessage({ eventName: 'voicebot_anfrage' }, "*");
-            }
-
-        })
-        .catch(response => {
-            console.error(response);
-            error.classList.add('floating-form__error--active');
-            window.scrollTo(0, contentForm.offsetTop - 100);
-        });
+        } else {
+			let errorElement = document.querySelector('.floating-form__error');
+			errorElement.style.display = 'block';
+		}
+    })
+    .catch(error => {
+		let errorElement = document.querySelector('.floating-form__error');
+		errorElement.style.display = 'block';
+        console.error('Error:', error);
+    });
 
     return false;
+}
+
+
+function appendToFormData(formData, value, fieldName) {
+    var currentText = formData.get('LEADCF20') || '';
+    var appendedText = Array.isArray(value) ? value.join('\n') : value;
+    formData.set('LEADCF20', currentText + '\n' + fieldName + ': ' + appendedText);
+}
+
+function validateEmail8315000039787007() {
+    var form = document.forms['WebToLeads8315000039787007'];
+    var emailFld = form.querySelectorAll('[ftype=email]');
+    var i;
+    for (i = 0; i < emailFld.length; i++) {
+        var emailVal = emailFld[i].value;
+        if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
+            var atpos = emailVal.indexOf('@');
+            var dotpos = emailVal.lastIndexOf('.');
+            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
+                alert('Bitte geben Sie eine gültige E-Mail-Adresse ein. ');
+                emailFld[i].focus();
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 function handleMobileCartDisplay() {
     let scrollPos = window.scrollY;
     let hookElement = document.querySelector('.vb-cart-mobile-hook');
     let mobileCart = document.querySelector('.vb-cart-mobile');
-
+    
     if ((hookElement.offsetTop - (window.innerHeight / 2)) - scrollPos <= 0 &&
         (hookElement.offsetHeight + hookElement.offsetTop - (window.innerHeight / 2)) >= scrollPos) {
         mobileCart.classList.add('vb-cart-mobile--visible');
@@ -333,7 +393,7 @@ function handleMobileCartDisplay() {
 
 document.addEventListener('DOMContentLoaded', e => {
 
-    if (!document.body.className.match('lp--vb-preise')) return false;
+	if(!document.body.className.match('lp--vb-preise')) return false;
 
     let counter = document.querySelectorAll('.vb-count');
     counter.forEach(c => new vbCount(c));
@@ -361,6 +421,9 @@ document.addEventListener('DOMContentLoaded', e => {
 });
 
 
+
+
+
 function selectPackageBasedOnHash() {
     var urlHash = window.location.hash;
     var preselectedPackage = urlHash.match(/#preselected_package=(\d+)/);
@@ -374,53 +437,7 @@ function selectPackageBasedOnHash() {
         }
     }
 }
+
 selectPackageBasedOnHash();
 window.onhashchange = selectPackageBasedOnHash;
 
-function initializeSwiper() {
-    const swiper = new Swiper('.swiper-container', {
-        loop: true,
-        slidesPerView: 1,
-        spaceBetween: 50,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        
-    });
-}
-
-function adjustSwiperSlideForDesktop() {
-    const desktopSize = 768; // Define desktop breakpoint
-    const swiperElements = document.querySelectorAll('.doc-slider');
-
-    if (window.innerWidth > desktopSize) {
-        swiperElements.forEach(element => {
-            element.classList.remove('swiper-slide');
-        });
-    } else {
-        swiperElements.forEach(element => {
-            if (!element.classList.contains('doc-slider')) {
-                element.classList.add('swiper-slide');
-            }
-        });
-    }
-}
-
-if (window.innerWidth <= 768) {
-    // initializeSwiper();
-} 
-// check if its desktop, remove classes swiper-slide
-// adjustSwiperSlideForDesktop();
-window.addEventListener('resize', function () {
-    if (window.innerWidth <= 768) {
-        // initializeSwiper();
-    }
-    else {
-        // adjustSwiperSlideForDesktop();
-    }
-});

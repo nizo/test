@@ -94,79 +94,145 @@ $uniqueID = uniqid();
     </div>
 
     <div class="callone-modal__step" data-step-id="2" data-prev-step="1" data-next-step="4" data-next-button-text="Kontaktformular absenden" data-next-button-classes="trackedContactSubmit,trackedContactFormSubmit" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Kontakt Formular">
-        <div class="sales-contact-form price-popup-style">
-            <h2>Wie können wir Sie erreichen?</h2>
+    <div class="sales-contact-form price-popup-style">
+        <h2>Wie können wir Sie erreichen?</h2>
+        <form action='https://crm.zoho.eu/crm/WebToLeadForm' class="floating-form" name="WebToLeads8315000039787021" method='post' data-step-callback='salesContactSubmit' onsubmit="" accept-charset='UTF-8' id="WebToLeads8315000039787021">
+            <input type='text' style='display:none;' name='xnQsjsdp' value='8ce4eeda3984c8835bbf0445626776076779ee41340f81395352e8ad330086c9'></input> 
+            <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+            <input type='text' style='display:none;' name='xmIwtLD' value='7b404d3fe1671b574c04e3770679b5ce28bb1d5f817f6d7b0d8ad68a1fb0858afc950d17d2bc10777f108c8289961a5c'></input> 
+            <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+            <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.callone.de&#x2f;' > </input>
 
-            <form action="#" method="post" class="floating-form" data-step-callback="salesContactSubmit">
-                <div class="floating-form__error">
-                    <h2>Etwas ist schief gelaufen</h2>
-                    <p>Bitte versuchen Sie es erneut.</p>
-                </div>
-
-                <div class="floating-form__row">
-                    <div class="floating-form__col">
-                        <div class="floating-form__field floating-form__field--highlight">
-                            <input type="text" name="name" placeholder=" " required="required" />
-                            <label>Ihr Name *</label>
-                        </div>
-                    </div>
-                    <div class="floating-form__col">
-                        <div class="floating-form__field floating-form__field--highlight">
-                            <input type="email" name="email" placeholder=" " required="required" />
-                            <label>Geschäftliche E-Mail *</label>
-                        </div>
+            <div class="floating-form__row">
+                <div class="floating-form__col">
+                    <div class="floating-form__field floating-form__field--small">
+                        <input type="text" name="First Name" id="First_Name" placeholder="" maxlength='40'> 
+                        <label>Vorname</label>
                     </div>
                 </div>
-                <div class="floating-form__row">
-                    <div class="floating-form__col subtext centered">Optional können Sie uns gerne noch weitere Informationen mitteilen</div>
-                </div>
-                <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
-                    <div class="floating-form__col">
-                        <div class="floating-form__field">
-                            <textarea style="--height:200px" name="text" cols="30" rows="7" placeholder="Hier ist Platz für zusätzliche Anmerkungen."></textarea>
-                        </div>
-                    </div>
-                    <div class="floating-form__col">
-                        <div class="floating-form__field floating-form__field--small">
-                            <input type="text" name="company" placeholder=" " />
-                            <label>Firmenname</label>
-                        </div>
-                        <div class="floating-form__field floating-form__field--small">
-                            <input type="text" name="phonenumber" placeholder=" " />
-                            <label>Geschäftliche Telefonnummer</label>
-                        </div>
-                        <div class="floating-form__select floating-form__select--small">
-                            <select name="position" data-callone-select="">
-                                <option value="">Sie sind Ansprechpartner für</option>
-                                <option value="IT">IT</option>
-                                <option value="Kundenservice">Kundenservice</option>
-                                <option value="Sales">Sales</option>
-                                <option value="Geschäftsführung">Geschäftsführung</option>
-                                <option value="Sonstiges">Sonstiges</option>
-                            </select>
-                        </div>
-                        <div class="floating-form__select floating-form__select--small">
-                            <select name="issue" data-callone-select="">
-                                <option value="">Herausforderung Ihrer Firma</option>
-                                <option value="Wachstum &amp; Skalierung">Wachstum &amp; Skalierung</option>
-                                <option value="Integration der Telefone in andere Systeme">Integration der Telefone in andere Systeme</option>
-                                <option value="Kundensupport verbessern">Kundensupport verbessern</option>
-                                <option value="Sales verbessern">Sales verbessern</option>
-                                <option value="Umstieg auf IP-Telefonie">Umstieg auf IP-Telefonie</option>
-                                <option value="Fehlende Telefonie-Features">Fehlende Telefonie-Features</option>
-                                <option value="Business Intelligence">Business Intelligence</option>
-                                <option value="Sonstiges">Sonstiges</option>
-                            </select>
-                        </div>
+                <div class="floating-form__col ml-10">
+                    <div class="floating-form__field floating-form__field--small">
+                        <input type="text" name="Last Name" id="Last_Name" placeholder="" maxlength='80' required=""> 
+                        <label>Nachname<span style='color:red;'>*</span></label>
                     </div>
                 </div>
+                <div class="floating-form__col ml-10">
+                    <div class="floating-form__field floating-form__field--small">
+                        <input type="email" name="Email" id="Email" placeholder="" maxlength='100' ftype='email' required="" autocomplete='false'> 
+                        <label>E-Mail<span style='color:red;'>*</span></label>
+                    </div>
+                </div>
+            </div>
 
-                <div class="floating-form__loader"></div>
 
-                <input type="submit" id="sales-contact-form" hidden />
-            </form>
-        </div>
+            <div class="floating-form__row" style="--gutter:var(--gutter-xs)">
+                <div class="floating-form__col">
+                    <div class="floating-form__field floating-form__field--small">
+                       <textarea id='LEADCF20' name='LEADCF20' style="--height:200px" cols="30" rows="7" placeholder="Mitteilung"></textarea>
+                    </div>
+                </div>
+                <div class="floating-form__col">
+                    <div class="floating-form__field floating-form__field--small">
+                        <input type="text" name="Company" id="Company" placeholder=""> 
+                        <label>Firmenname</label>
+                    </div>
+                    <div class="floating-form__field floating-form__field--small">
+                        <input type="text" name="Phone" id="Phone" placeholder=""> 
+                        <label>Geschäftliche Telefonnummer</label>
+                    </div>
+                    
+       
+
+                    <div class="floating-form__select floating-form__select--small siesind">
+                        <select name="position" data-callone-select="" class="siesind">
+                            <option value="">Sie sind Ansprechpartner für</option>
+                            <option value="IT">IT</option>
+                            <option value="Kundenservice">Kundenservice</option>
+                            <option value="Sales">Sales</option>
+                            <option value="Geschäftsführung">Geschäftsführung</option>
+                            <option value="Sonstiges">Sonstiges</option>
+                        </select>
+                    </div>
+                    <div class="floating-form__select floating-form__select--small herausforderung">
+                        <select name="issue" data-callone-select="" class="herausforderung">
+                            <option value="">Herausforderung Ihrer Firma</option>
+                            <option value="Wachstum &amp; Skalierung">Wachstum & Skalierung</option>
+                            <option value="Integration der Telefone in andere Systeme">Integration der Telefone in andere Systeme</option>
+                            <option value="Kundensupport verbessern">Kundensupport verbessern</option>
+                            <option value="Sales verbessern">Sales verbessern</option>
+                            <option value="Umstieg auf IP-Telefonie">Umstieg auf IP-Telefonie</option>
+                            <option value="Fehlende Telefonie-Features">Fehlende Telefonie-Features</option>
+                            <option value="Business Intelligence">Business Intelligence</option>
+                            <option value="Sonstiges">Sonstiges</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-form__loader"></div>
+
+			<select class="zcwf_col_fld_slt" id="Lead_Status" name="Lead Status" hidden>
+				<option value="-None-">-None-</option>
+				<option selected="" value="Neu">Neu</option>
+				<option value="jetzt prüfen">jetzt prüfen</option>
+				<option value="manuelle Verifizierung">manuelle Verifizierung</option>
+				<option value="erfolgreich verifiziert">erfolgreich verifiziert</option>
+				<option value="Wertloser Lead">Wertloser Lead</option>
+			</select>
+                
+            <select name="LEADCF18"  id="LEADCF18" hidden>
+                            <option value="-None-">-None-</option>
+                            <option selected value="Interessent">Interessent</option>
+                            <option value="Systempartner">Systempartner</option>
+                            <option value="Dienstleister">Dienstleister</option>
+                            <option value="sonstige&#x20;Leads">sonstige Leads</option>
+                        </select>
+    
+                        <select name="LEADCF21" id="LEADCF21" hidden>
+                            <option value="-None-">-None-</option>
+                            <option value="inopla.de">inopla.de</option>
+                            <option selected value="callone.de">callone.de</option>
+                            <option value="comdesk.de">comdesk.de</option>
+                        </select>
+
+                        <select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source' hidden  >
+                            <option value='-None-'>-None-</option>
+                            <option value='Anruf'>Anruf</option>
+                            <option value='Kunden&#x20;werben&#x20;Kunden'>Kunden werben Kunden</option>
+                            <option value='Demo_Teams_landing'>Demo_Teams_landing</option>
+                            <option value='CCW&#x20;2023'>CCW 2023</option>
+                            <option value='Kontaktformular'>Kontaktformular</option>
+                            <option value='Demoformular'>Demoformular</option>
+                            <option value='Demoformular&#x20;-&#x20;mailonly'>Demoformular - mailonly</option>
+                            <option value='bestehender&#x20;Kunde'>bestehender Kunde</option>
+                            <option value='Google&#x20;Adwords1'>Google Adwords1</option>
+                            <option value='Twitter'>Twitter</option>
+                            <option value='Ansagenformular'>Ansagenformular</option>
+                            <option value='Callone'>Callone</option>
+                            <option value='C1&#x20;-&#x20;Bestand'>C1 - Bestand</option>
+                            <option value='E-Mail'>E-Mail</option>
+                            <option value='tk-vergleich.com'>tk-vergleich.com</option>
+                            <option value='C1&#x20;-&#x20;Calendly'>C1 - Calendly</option>
+                            <option value='Comdesk&#x20;Systempartner'>Comdesk Systempartner</option>
+                            <option value='tradingtwins.com'>tradingtwins.com</option>
+                            <option value='C1&#x20;-&#x20;CCW'>C1 - CCW</option>
+                            <option value='Google&#x20;AdWords'>Google AdWords</option>
+                            <option value='C1&#x20;-&#x20;E-Mail'>C1 - E-Mail</option>
+                            <option value='C1&#x20;-&#x20;Empfehlung'>C1 - Empfehlung</option>
+                            <option value='C1&#x20;-&#x20;LinkedIn'>C1 - LinkedIn</option>
+                            <option value='C1&#x20;-&#x20;Telefon'>C1 - Telefon</option>
+                            <option selected value='C1&#x20;-&#x20;allgemeine&#x20;Anfrage&#x20;Webseite'>C1 - allgemeine Anfrage Webseite</option>
+                            <option value='C1&#x20;-&#x20;Voicebot&#x20;Webseite'>C1 - Voicebot Webseite</option>
+                            <option value='inopla.de&#x20;-&#x20;Terminbuchung&#x20;Beratung'>inopla.de - Terminbuchung Beratung</option>
+                            <option value='inopla.de&#x20;-&#x20;Voicebot&#x20;Formular'>inopla.de - Voicebot Formular</option>
+                        </select>
+                  
+
+            <input type="submit" id="sales-contact-form" class="zcwf_button" value="Senden" hidden="">
+			<script id="wf_anal" src="https://crm.zohopublic.eu/crm/WebFormAnalyticsServeServlet?rid=9ea813744b276629fe5056fbef0ae0fa645e0c1e05f7d85d411989dba9190322498aca65fe4173d8a2f27764037dac64gid5ec8280ba08320654601ccb97a9f693adc51bf964f6e24c399fb0fe6b50ac4cdgid8d931def12750863fa7539707e895b3acf919a124339c7e781860df7f57fae85gid01e09ca1f16ffc55fc40e1e954d5dc525a883626b1dff059bbf49248ee634831&amp;tw=0e959afc05ea99ae576a8224cd4de491dd143acefcbedd3a1029b1805900d8a9"></script>
+        </form>
     </div>
+</div>
+           
     
     <div class="callone-modal__step callone-modal__step--no-padding" data-step-id="3" data-no-footer="true" data-step-noscroll="true" data-prev-step="1" data-step-indicator="2/2" data-canceltext="Abbrechen" data-mouseflow-tag="Calendly">
         <div class="sales-contact-calendar">
@@ -327,97 +393,118 @@ $uniqueID = uniqid();
 
         // Sales Contact Form
         window.salesContactSubmit = function(e, cb) {
+
             const form = document.querySelector('.sales-contact-form form');
             const formLoader = form.querySelector('.floating-form__loader');
             const formSubmit = form.querySelector('input[type="submit"]');
-            const formSubmitLabel = thisModal.querySelector('label[for="sales-contact-form"]');
-            const formError = form.querySelector('.floating-form__error');
-            const formErrorHeadline = formError.querySelector('h2');
-            const formErrorText = formError.querySelector('p');
-            formError.classList.remove('floating-form__error--active') // Hide error message
+            
 
-            formLoader.classList.add('floating-form__loader--active');
-            formSubmit.disabled = true;
-            formSubmitLabel.classList.add('floating-form__label--disabled');
-
-            // Prepare form data
-            let path = JSON.parse('<?= json_encode($_SESSION['userRoute']) ?>');
-            var formFields = new FormData();
-            formFields.set('type', 2);
-            if (Array.isArray(path)) {
-                for (var i = 0; i < path.length; i++) {
-                    formFields.append('path[]', path[i]);
+            function validateEmail8315000039787021() {
+                var form = document.forms['WebToLeads8315000039787021'];
+                var emailFld = form.querySelectorAll('[ftype=email]');
+                var i;
+                for (i = 0; i < emailFld.length; i++) {
+                    var emailVal = emailFld[i].value;
+                    if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
+                        var atpos = emailVal.indexOf('@');
+                        var dotpos = emailVal.lastIndexOf('.');
+                        if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
+                            alert('Bitte geben Sie eine gültige E-Mail-Adresse ein. ');
+                            emailFld[i].focus();
+                            return false;
+                        }
+                    }
                 }
-            } else {
-                formFields.append('path[]', 'Unbekannt');
-            }
-            formFields.set('issue', form.querySelector('select[name="issue"]').value);
-            formFields.set('name', form.querySelector('input[name="name"]').value);
-            formFields.set('position', form.querySelector('select[name="position"]').value);
-            formFields.set('company', form.querySelector('input[name="company"]').value);
-            formFields.set('phonenumber', form.querySelector('input[name="phonenumber"]').value);
-            formFields.set('email', form.querySelector('input[name="email"]').value);
-            formFields.set('text', form.querySelector('textarea[name="text"]').value);
-            formFields.set('mouseflow', '');
-            if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
-                formFields.set('mouseflow', mouseflow.getSessionId());
+                return true;
             }
 
-            // AJAX Request
-            const xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState != XMLHttpRequest.DONE)
-                    return;
-                formLoader.classList.remove('floating-form__loader--active');
-                formSubmit.disabled = false;
-                formSubmitLabel.classList.remove('floating-form__label--disabled');
-                if (this.status == 200) {
-                    // Backend sent response, evaluate
-                    const response = JSON.parse(this.responseText);
-                    if (response.success) {
-                        // Success
+                var mndFields = new Array('Last Name', 'Email');
+                var fldLangVal = new Array('Nachname', 'E\x2DMail');
+                for (var i = 0; i < mndFields.length; i++) {
+                    var fieldObj = document.forms['WebToLeads8315000039787021'][mndFields[i]];
+                    if (fieldObj) {
+                        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                            if (fieldObj.type == 'file') {
+                                alert('Bitte wählen Sie eine Datei zum Hochladen.'); 
+                                fieldObj.focus(); 
+                                return false;
+                            } 
+                            alert(fldLangVal[i] + ' darf nicht leer sein.'); 
+                            fieldObj.focus();
+                            return false;
+                        } else if (fieldObj.nodeName == 'SELECT') {
+                            if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                                alert(fldLangVal[i] + ' darf nicht leer sein.'); 
+                                fieldObj.focus();
+                                return false;
+                            }
+                        } else if (fieldObj.type == 'checkbox') {
+                            if (fieldObj.checked == false) {
+                                alert('Please accept ' + fldLangVal[i]);
+                                fieldObj.focus();
+                                return false;
+                            }
+                        }
+                        try {
+                            if (fieldObj.name == 'Last Name') {
+                                name = fieldObj.value;
+                            }
+                        } catch (e) {}
+                    }
+                }
+                if (!validateEmail8315000039787021()) {
+                    return false;
+                }
+
+                var formData = new FormData(document.getElementById('WebToLeads8315000039787021'));
+
+                var siesindParent = document.querySelector('.siesind .callone-select__selected');
+                if (siesindParent && siesindParent.textContent.trim() !== "") {
+                    var siesindSpanText = siesindParent.querySelector('span').textContent;
+                    var currentLeadText = formData.get('LEADCF20');
+                    formData.set('LEADCF20', currentLeadText + ' \n\nPosition: ' + siesindSpanText);
+                }
+                else {
+                    var currentLeadText = formData.get('LEADCF20');
+                    formData.set('LEADCF20', currentLeadText + ' \n\nPosition: keine Angabe');
+                }
+
+                var herausforderungParent = document.querySelector('.herausforderung .callone-select__selected');
+                if (herausforderungParent && herausforderungParent.textContent.trim() !== "") {
+                    var herausforderungSpanText = herausforderungParent.querySelector('span').textContent;
+                    var currentLeadText = formData.get('LEADCF20');
+                    formData.set('LEADCF20', currentLeadText + ' \nThematik: ' + herausforderungSpanText);
+                }
+                else {
+                    var currentLeadText = formData.get('LEADCF20');
+                    formData.set('LEADCF20', currentLeadText + ' \nThematik: keine Angabe');
+                }
+
+
+                // Send the form data using fetch()
+                fetch('https://crm.zoho.eu/crm/WebToLeadForm', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(data => {
+                    if (data.status === 200) {
+
                         window._mfq = window._mfq || [];
                         window._mfq.push(['tag', 'Sales Contacted']);
                         cb();
-                    } else {
-                        console.error(response);
-                        formErrorHeadline.textContent = 'Etwas ist schiefgelaufen...';
-                        let missingInput = "";
-                        switch (response.error) {
-                            case "issue":
-                                missingInput = "Bitte wählen Sie eine Herausforderung aus.";
-                                break;
-                            case "name":
-                                missingInput = "Bitte geben Sie Ihren Namen ein.";
-                                break;
-                            case "position":
-                                missingInput = "Bitte teilen Sie uns mit von welcher Abteilung Sie der Ansprechpartner sind.";
-                                break;
-                            case "company":
-                                missingInput = "Bitte geben Sie Ihre Firma an.";
-                                break;
-                            case "phonenumber":
-                                missingInput = "Bitte geben Sie eine Telefonnummer an.";
-                                break;
-                            case "email":
-                                missingInput = "Bitte geben Sie eine E-Mail Adresse an.";
-                                break;
-                        }
-                        formErrorText.textContent = 'Beim absenden des Formulars ist etwas schiefgelaufen, bitte versuchen Sie es erneut. ' + missingInput; // Change error message to display
-                        formError.classList.add('floating-form__error--active') // Display error message
                     }
-                } else {
-                    // Backend not available
-                    console.error('Backend not available.');
-                    formErrorHeadline.textContent = 'Es tut uns leid...';
-                    formErrorText.textContent = 'Der Server ist zurzeit leider nicht erreichbar. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.'; // Change error message to display
-                    formError.classList.add('floating-form__error--active') // Display error message
-                }
-            };
-            xhttp.open('POST', 'https://connect.callone.io/backend/contact.php');
-            xhttp.send(formFields);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+
+                return true;
+
+
+            
         }
-        
+
+
         // Steps Slider
         const stepSliders = document.querySelectorAll('.step-slider');
         stepSliders.forEach(s => {
@@ -429,5 +516,7 @@ $uniqueID = uniqid();
         selectBoxes.forEach(s => {
             new Select(s);
         });
+         
+       
     </script>
 </div>
