@@ -325,8 +325,14 @@ function handleSubmit(e) {
     appendToFormData(formData, additionalsValues, 'Optionale Pakete');
     appendToFormData(formData, total, 'Gesamtpreis');
 
+	appendToFormData(formData, '\n'+getInteractionTimeText(), 'Besuchte Seiten (aktive Zeit)');	
 
-    // Send the form data using fetch()
+	if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
+        appendToFormData(formData, mouseflow.getSessionId(), 'Mouseflow Session ID');
+    }
+
+	
+//    Send the form data using fetch()
     fetch('https://crm.zoho.eu/crm/WebToLeadForm', {
         method: 'POST',
         body: formData
@@ -347,7 +353,7 @@ function handleSubmit(e) {
 		let errorElement = document.querySelector('.floating-form__error');
 		errorElement.style.display = 'block';
         console.error('Error:', error);
-    });
+	});
 
     return false;
 }

@@ -480,8 +480,17 @@ $uniqueID = uniqid();
                     formData.set('LEADCF20', currentLeadText + ' \nThematik: keine Angabe');
                 }
 
+				if (typeof mouseflow !== 'undefined' && mouseflow.getSessionId() != '') {
+					var currentLeadText = formData.get('LEADCF20');
+					formData.set('LEADCF20', currentLeadText + '\nMouseflow Session ID:' + mouseflow.getSessionId());
+				}
 
-                // Send the form data using fetch()
+				var currentLeadText = formData.get('LEADCF20');
+				formData.set('LEADCF20', currentLeadText + '\nBesuchte Seiten (aktive Zeit):\n'+ getInteractionTimeText());	
+
+
+
+//                Send the form data using fetch()
                 fetch('https://crm.zoho.eu/crm/WebToLeadForm', {
                     method: 'POST',
                     body: formData
