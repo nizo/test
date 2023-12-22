@@ -31,9 +31,10 @@
             <div class="xmas-feedback-text">
 
                 <span class="xmas-headline">Herzlichen Glückwunsch!</span>
-                <p>Herzlichen Glückwunsch zum erfolgreichen Lösen unseres Rätsels! Die korrekte Antwort war „BAUM" - eine wahrhaft grüne Lösung. In Anerkennung Ihrer Anstrengungen und Ihres Vertrauens senden wir Ihnen ein spezielles Zertifikat zu. Zusätzlich pflanzen wir in Ihrem Namen einen Baum, um die Welt ein Stück grüner zu gestalten. Vielen Dank für Ihr Engagement und Ihre Bemühungen, gemeinsam mit uns einen positiven Unterschied zu bewirken!</p>
+                <p>Herzlichen Glückwunsch zum erfolgreichen Lösen unseres Rätsels! Die korrekte Antwort war „BAUM" – eine wahrhaft grüne Lösung. In Anerkennung Ihrer Zeit und Vertrauens senden wir Ihnen ein spezielles Zertifikat zu. Zusätzlich pflanzen wir in Ihrem Namen einen Baum, um die Welt ein Stück grüner zu gestalten. Vielen Dank für Ihr Engagement und Ihre Bemühungen, gemeinsam mit uns einen positiven Unterschied zu bewirken!</p>
                 <p>Bitte teilen Sie uns für Ihr persönliches Zertifikat den gewünschten Namen und die Versandadresse mit.</p>
 
+			
             </div>
 
             <div class="xmas-form">
@@ -88,7 +89,7 @@
                     <!---------Decision Starts Here----------> 
                     <li class="zf-tempFrmWrapper zf-decesion "><div class="zf-tempContDiv">
                     <input type="checkbox" checktype="c1" id="DecisionBox" name="DecisionBox"/>
-                    <label for="DecisionBox" class="zf-labelName">Kontaktieren Sie mich bitte für mehr Infos zum VoiceBot
+                    <label for="DecisionBox" class="zf-labelName">Ich möchte mehr über den VoiceBot erfahren
                     </label>
                     <p id="DecisionBox_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
                     </div><div class="zf-clearBoth"></div></li><!---------Decision Ends Here----------> 
