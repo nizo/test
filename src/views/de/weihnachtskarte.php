@@ -31,8 +31,16 @@
             <div class="xmas-feedback-text">
 
                 <span class="xmas-headline">Herzlichen Glückwunsch!</span>
-                <p>Herzlichen Glückwunsch zum erfolgreichen Lösen unseres Rätsels! Die korrekte Antwort war „BAUM" – eine wahrhaft grüne Lösung. In Anerkennung Ihrer Zeit und Vertrauens senden wir Ihnen ein spezielles Zertifikat zu. Zusätzlich pflanzen wir in Ihrem Namen einen Baum, um die Welt ein Stück grüner zu gestalten. Vielen Dank für Ihr Engagement und Ihre Bemühungen, gemeinsam mit uns einen positiven Unterschied zu bewirken!</p>
-                <p>Bitte teilen Sie uns für Ihr persönliches Zertifikat den gewünschten Namen und die Versandadresse mit.</p>
+                
+				<p>Herzlichen Dank für Ihre Teilnahme und das erfolgreiche Lösen unseres Rätsels! Durch Ihr Engagement ist das Geheimnis gelüftet worden, und das Wort „Baum“ hat seine wahre Bedeutung enthüllt.</p>
+
+<p>Wir freuen uns, Ihnen mitteilen zu können, dass wir als Dankeschön einen Baum in Ihrem Namen pflanzen werden. Dieser wird nicht nur zur Erhaltung unserer Umwelt beitragen, sondern auch symbolisch für das gemeinsame Wachstum unserer Partnerschaft stehen.</p>
+
+<p>Bitte geben Sie bis Ende Januar Ihre Daten ein, damit wir Ihnen Ihr offizielles Zertifikat zusenden können.<br><br>
+
+Herzliche Grüße,<br><br>
+
+Ihr CallOne Team</p>
 
 			
             </div>
