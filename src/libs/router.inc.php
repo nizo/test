@@ -160,6 +160,12 @@ Router::add('/', 'index.php', [
     'sitemap_priority' => '1.0'
 ]);
 
+
+Router::add('/weihnachtskarte', 'weihnachtskarte.php', [
+    'title' => 'CallOne Weihnachtsrätsel',
+    'sitemap_include' => false,
+]);
+
 /* ******************* **
 ** ** MENU PRODUKTE ** **
 ** ******************* */

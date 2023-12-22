@@ -1,0 +1,258 @@
+:root {
+    --xmas-stage-bg: #fcf7e8;
+}
+
+.xmas-puzzl-container.code-accepted {
+    .xmas-puzzl {
+        display: none;
+    }
+
+}
+
+.xmas-puzzl-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.xmas-bg {
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
+    top: 0;
+    pointer-events: none;
+}
+
+.xmas-puzzle-input {
+    //background: transparent;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    margin: 0 auto;
+    display: block;
+    
+    letter-spacing: 2.85rem;
+    font-size: 4rem;
+    position: absolute;
+    margin-left: 0.7rem;
+    margin-top: 0.2rem;
+    
+}
+
+
+.xmas-stage {
+
+    background-color: var(--xmas-stage-bg);
+    display: flex;
+    margin: 13vw;
+    width: 100%;
+    // padding: 10vw 5vw;
+    padding: 5vw;
+    // min-height: 20rem;
+    // min-width: 20rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.xmas-plants {
+
+	//@media (min-width: 768px) {
+		z-index: 2;
+	//}
+    
+}
+
+.xmas-plant {
+    position: absolute;
+    width: clamp(3rem,12vw, 14rem);
+
+    &.xmas-plant1 {
+        left:0;
+        top: 0;
+        transform: translate(0rem,3rem) rotate(12deg) scale(1.2);
+    }
+
+    &.xmas-plant2 {
+        right: 0;
+        top: 0;
+        transform: translate(0rem,1rem) rotate(-55deg) scale(1.75);
+    }
+
+    &.xmas-plant3 {
+        left:0;
+        bottom: 0;
+        transform: translate(-1rem,-1rem) rotate(10deg) scale(2);
+    }
+
+    &.xmas-plant4 {
+        right: 0;
+        bottom: 0;
+        transform: translate(1rem,1rem) rotate(-37deg) scale(2.2);
+    }
+
+}
+
+.xmas-puzzl {
+
+    .xmas-headline {
+        font-size: 1.5rem;
+		line-height: 1.2;
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto 2rem auto;
+    }
+
+}
+
+
+.xmas-feedback {
+ 
+    display: none;
+    gap: 2rem;
+
+	.code-accepted & {
+        display: flex;
+	}
+
+	& > div {
+        width: 50%;
+    }
+
+	@media (max-width: 768px) {
+
+		& > div {
+			width: 100%;
+		}
+
+		.code-accepted & {
+			display: block;
+		}
+
+	}
+
+
+
+    .xmas-headline {
+        font-size: 1.5rem;
+        font-weight: bold;
+		line-height: 1.2;
+        display: block;
+        margin: 0 auto 1rem auto;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+
+
+
+.xmas-pin-code {  
+    padding: 0; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    
+  } 
+   
+
+
+  .xmas-pin-code input { 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;white-space: auto;
+    text-transform: uppercase;
+    border: none; 
+    text-align: center; 
+    width: 48px;
+    height:48px;
+    font-size: 2rem; 
+    background-color: #fff;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-out;
+    // padding-top: 0.5rem;
+
+
+    &:focus {
+        box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
+        transform: translateY(-0.2rem);
+        outline:none;
+    }
+
+      
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+
+  } 
+  
+
+  
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+
+  .xmas-form {
+    * {
+        font-size: 1rem;    
+    }
+	ul,li {
+        list-style: none !important;
+    }
+    .zf-nameWrapper {
+        display: flex;
+        justify-content: space-aruond;
+        gap: 1rem;
+
+		span {
+			display: block;
+			width: 100%;
+		}
+
+    }
+    input:not([type="checkbox"]), textarea {
+        width: 100%;
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border: 1px solid #d8d8d8;
+        border-radius: 0.5rem;
+		
+		font-family: apercu,sans-serif;
+		font-size: 0.8rem;
+
+    }
+    textarea {
+        min-height: 5rem;
+    }
+    label:not([for="DecisionBox"]), .zf-clearBoth {
+        display: none;
+    }
+
+    label[for="DecisionBox"] {
+        font-size: 0.75rem;
+		line-height: 1.2;
+    }
+
+    .btn-primary {
+        margin-top: 1rem;
+        width: 100%;
+    }
+  }
