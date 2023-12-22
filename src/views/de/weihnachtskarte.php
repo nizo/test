@@ -76,7 +76,7 @@
                     Ihre E-Mail Adresse 
                     </label>
                     <div class="zf-tempContDiv">
-                    <span> <input fieldType=9  type="email" maxlength="255" placeholder="Email" name="Email" checktype="c5" value="" placeholder=""/></span> <p id="Email_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                    <span> <input fieldType=9  type="email" maxlength="255" placeholder="Email" required name="Email" checktype="c5" value="" placeholder=""/></span> <p id="Email_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
                     </div><div class="zf-clearBoth"></div></li><!---------Email Ends Here---------->  
                     <!---------Multiple Line Starts Here---------->
                     <li class="zf-tempFrmWrapper zf-small"><label class="zf-labelName"> 
