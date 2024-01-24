@@ -344,6 +344,12 @@ function handleSubmit(e) {
             contentForm.style.display = 'none';
             contentSelection.style.display = 'none';
             window.scrollTo(0, contentSuccess.offsetTop - 100);
+
+			// when called from inopla via iframe, send conversion event to parent iframe
+			if (window.location.href.match(/inopla_style/)) {
+                window.parent.postMessage({ eventName: 'voicebot_anfrage' }, "*");
+            }
+
         } else {
 			let errorElement = document.querySelector('.floating-form__error');
 			errorElement.style.display = 'block';
