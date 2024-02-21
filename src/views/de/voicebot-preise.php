@@ -1,4 +1,10 @@
 <?php
+if(isset($_GET['inopla_style'])){
+	$testDays = "30";
+}
+else {
+	$testDays = "14";
+}
 $faqs = new faqs();
 $faqs->faq_add(
 	'Wie werden die inkludierten Minuten abgerechnet?',
@@ -46,7 +52,7 @@ $faqs->faq_add(
 );
 $faqs->faq_add(
 	'Gibt es eine kostenlose Testversion oder einen Demo-Zugang, um den Voicebot auszuprobieren?',
-	'<p>Ja, wir bieten Ihnen 14 Tage lang die Möglichkeit unseren VoiceBot kostenfrei und unverbindlich zu testen. Der Testzeitraum endet automatisch.</p>'
+	'<p>Ja, wir bieten Ihnen '.$testDays.' Tage lang die Möglichkeit unseren VoiceBot kostenfrei und unverbindlich zu testen. Der Testzeitraum endet automatisch.</p>'
 );
 $faqs->faq_add(
 	'Kann ich den Voicebot selbst einrichten oder kann die Einrichtung auch von Ihrem Support nach meinen Vorgaben umgesetzt werden?',
@@ -70,7 +76,7 @@ $faqs->faq_add(
 					Exklusives Angebot: Gratis-Features bei jedem Paket!
 					<div class="btn btn--primary btn--full-width centered"
 						style="font-weight: bold; transform: scale(0.75); width: auto; margin-left: -1rem; pointer-events: none; display: inline-block; white-space: nowrap;">
-						14+ Tage gratis testen!</div>
+						<?php echo $testDays; ?> Tage gratis testen!</div>
 				</h2>
 
 				<div class="co-grid" style="max-width: 39rem;">
@@ -85,7 +91,7 @@ $faqs->faq_add(
 											(EU-Hosting)</span></span></div>
 							</li>
 							<li class="list-upd">
-								<div>Inkludierte Minuten und 14 Tage kostenfrei testen <span
+								<div>Inkludierte Minuten und <?php echo $testDays; ?> Tage kostenfrei testen <span
 										class="tooltip tooltip--info tooltip--light"><span style="--fs:14px">Testen Sie
 											kostenfrei und risikolos und nutzen Sie alle Pakete mit inkludierten
 											Minutenkontingenten</span></span></div>
@@ -371,7 +377,7 @@ $faqs->faq_add(
 									</div>
 								</div>
 							</div>
-							<input type="submit" class="btn btn--primary btn--full-width centered btn-submit" style="margin-top: 3rem; " value="14 Tage kostenlos testen" />					
+							<input type="submit" class="btn btn--primary btn--full-width centered btn-submit" style="margin-top: 3rem; " value="<?php echo $testDays; ?> Tage kostenlos testen" />					
 
 						</form>
 					</div>
@@ -383,7 +389,7 @@ $faqs->faq_add(
 
 						<ul class="list list--checkmarks list--horizontal"
 							style="justify-content:center; font-weight: bold; font-size: 1.5rem; margin-bottom: 4rem">
-							<li>14 Tage kostenfrei testen</li>
+							<li><?php echo $testDays; ?> Tage kostenfrei testen</li>
 							<li>ohne Kreditkarte</li>
 							<li>monatlich kündbar</li>
 						</ul>
@@ -661,7 +667,7 @@ $faqs->faq_add(
 								<h5>Ihre Anfrage</h5>
 
 								<p class="vb-cart__info">
-									14 Tage kostenlos ausprobieren,<br />
+									<?php echo $testDays; ?> Tage kostenlos ausprobieren,<br />
 									keine automatische Verlängerung,<br />
 									monatlich kündbar
 								</p>
@@ -712,7 +718,7 @@ $faqs->faq_add(
 
 										<ul class="list-line-cart">
 											<li>Direkt einsatzfähiger VoiceBot mit ChatGPT 3.5 turbo (EU)</li>
-											<li>Inkludierte Minuten und 14 Tage kostenfrei testen</li>
+											<li>Inkludierte Minuten und <?php echo $testDays; ?> Tage kostenfrei testen</li>
 											<li>Echtzeit-Dashboard</li>
 											<li>KI-basierte Gesprächszusammenfassung</li>
 											<li>Rufnummern aus Ihrem Vorwahlbereich</li>
